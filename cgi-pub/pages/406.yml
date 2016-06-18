@@ -1,0 +1,6332 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 5
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 172
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 5
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 194
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <html> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 127
+    str1: html
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <head> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 128
+    str1: head
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <body> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 132
+    str1: body
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID pfp_hd_none already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 167
+    str1: pfp_hd_none
+    str2: pfp_hd_none
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID pfp_ft_none already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 994
+    str1: pfp_ft_none
+    str2: pfp_ft_none
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID HID_Email already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1005
+    str1: HID_Email
+    str2: HID_Email
+    str3: 
+    int1: 0
+    column: 114
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1024
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 172
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1024
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 173
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1027
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 132
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1027
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 253
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1027
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 292
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1038
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 942
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1091
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-10pxmmt"
+    line: 1091
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 82
+address: http://www.zacks.com/registration/pfp/?ALERT=RPT_7BST_LP203&ADID=CNN_CONTENT_7BEST
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  .page{width: 900px;}
+- |
+  .fineprint {
+- |2
+      color: #808080;
+- |2
+      font-family: arial;
+- |2
+      font-size: 8pt;
+- |2
+      font-weight: normal;
+- |
+  }
+- |2+
+
+- |
+  #pfp_ft_none table td{
+- |2
+      font-size: 13px;
+- |
+  }
+- |2+
+
+- |
+  function _locNewRegFormV(){
+- |2
+      var d;
+- |2
+      d = document.ff1;
+- |2+
+
+- |2
+      if (window.RegExp) {
+- |2
+          var reg = new RegExp("^[a-z0-9_\\.\\-]+@+[a-z0-9_\\.\\-]+(\\.[a-z]{2,4})$","gi");
+- |2
+          if (!reg.test(d.email.value)) {
+- |2
+              alert("Email should contain a proper e-mail address!");
+- |2
+              d.email.focus();
+- |2
+              return false;
+- |2
+          }
+- |2
+      }
+- |2+
+
+- |2
+      if(d.email.value != d.email2.value){
+- |2
+              alert("Your emails don`t match");
+- |2
+              d.email.focus();
+- |2
+              return false;
+- |2
+      }
+- |2+
+
+- |2
+      return true;
+- |
+  }
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- "                                                                  \n"
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- "                              \n"
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2+
+
+- "                            \r\n"
+- "\r\n"
+- "\tLanding Pad Preview\r\n"
+- "\r\n"
+- "\r\n"
+- "function _locNewRegFormV(){\r\n"
+- "\tvar d;\r\n"
+- "\td = document.ff1;\r\n"
+- "\r\n"
+- "\tif (window.RegExp) {\r\n"
+- "\t\tvar reg = new RegExp(\"^[a-z0-9_\\\\.\\\\-]+@+[a-z0-9_\\\\.\\\\-]+(\\\\.[a-z]{2,4})$\",\"gi\");\r\n"
+- "\t\tif (!reg.test(d.email.value)) {\r\n"
+- "\t\t\talert(\"Email should contain a proper e-mail address!\");\r\n"
+- "\t\t\td.email.focus();\r\n"
+- "\t\t\treturn false;\r\n"
+- "\t\t}\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\tif(d.email.value != d.email2.value){\r\n"
+- "\t\t\talert(\"Your emails don`t match\");\r\n"
+- "\t\t\td.email.focus();\r\n"
+- "\t\t\treturn false;\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\treturn true;\r\n"
+- "}\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "        \r\n"
+- "            \r\n"
+- "                \r\n"
+- "                    \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                                                                  \r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                                \r\n"
+- "                              \r\n"
+- "                        \r\n"
+- "                      \r\n"
+- "                                      \r\n"
+- "                \r\n"
+- "                    \r\n"
+- "                        \r\n"
+- "\r\n"
+- "\r\n"
+- "/* overriding CMS frame styles */\r\n"
+- "\r\n"
+- ".main {\r\n"
+- "\tbackground-color: #f0f0f0;\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tborder: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".bd {\r\n"
+- "\twidth: 100%;\r\n"
+- "\theight: 100%;\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tborder: none;\r\n"
+- "\tbackground-color: white;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".mod, .z_mod {\r\n"
+- "\tbackground-color: #fafafa;\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tborder: none;\r\n"
+- "}\r\n"
+- ".z_mod {\r\n"
+- "\tpadding: 0px 0px 0px 0px;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".page {\r\n"
+- "\twidth: 100%;\r\n"
+- "\theight: 100%;\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tborder: none;\r\n"
+- "\tbackground-color: #f0f0f0;\r\n"
+- "}\r\n"
+- "\r\n"
+- "/* end CMS frame styles override */\r\n"
+- "\r\n"
+- "html, body {\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tborder: 0;\r\n"
+- "\tdisplay: block;\r\n"
+- "\tbackground-color: #aeaeae onunload: exitbutton();\r\n"
+- "}\r\n"
+- "\r\n"
+- "div, p {\r\n"
+- "\tfont-family: Helvetica, Arial, sans-serif;\r\n"
+- "\tfont-size: 15px;\r\n"
+- "\tline-height: 20px;\r\n"
+- "\tcolor: #2d2d2d;\r\n"
+- "\tfont-weight: normal;\r\n"
+- "\tfont-size-adjust: none;\r\n"
+- "\tfont-stretch: normal;\r\n"
+- "\tfont-variant: normal;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpTopContainer {\r\n"
+- "\twidth: 100%;\r\n"
+- "\tbackground-color: white;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpBtmContainer {\r\n"
+- "\twidth: 100%;\r\n"
+- "\tbackground-color: #aeaeae;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#LogoandShareIcons {\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 1000px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpTopBdr {\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 900px;\r\n"
+- "\tpadding: 0px 50px;\r\n"
+- "\tbackground-color: white;\r\n"
+- "\tborder-top-left-radius: 6px;\r\n"
+- "\tborder-top-right-radius: 6px;\r\n"
+- "\tborder-left: 1px solid #cacaca;\r\n"
+- "\tborder-right: 1px solid #cacaca;\r\n"
+- "\tborder-top: 1px solid #cacaca; clear:both;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpHeader {\r\n"
+- "\tpadding-left: 50px;\r\n"
+- "\tpadding-bottom: 20px;\r\n"
+- "\tpadding-right: 50px;\r\n"
+- "\tpadding-top: 1px;\r\n"
+- "\tbackground-color: white;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 900px;\r\n"
+- "\tmin-height: 225px;\r\n"
+- "\tbackground-position: bottom;\r\n"
+- "\tbackground-repeat: repeat-x;\r\n"
+- "\tborder-left: 1px solid #cacaca;\r\n"
+- "\tborder-right: 1px solid #cacaca; \r\n"
+- "\tclear:both;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpRegBox {\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 350px;\r\n"
+- "\tmin-height: 150px;\r\n"
+- "\tbackground-color: #eeefee;\r\n"
+- "\tborder-radius: 6px;\r\n"
+- "\tborder: 1px solid #086218;\r\n"
+- "\ttext-align: center;\r\n"
+- "\tvertical-align: middle;\r\n"
+- "\tpadding: 10px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpMktCopy {\r\n"
+- "\tpadding-left: 50px;\r\n"
+- "\tpadding-bottom: 40px;\r\n"
+- "\tpadding-right: 50px;\r\n"
+- "\tpadding-top: 20px;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 900px; clear:both;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpAccredidation {\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 900px;\r\n"
+- "\tpadding: 10px 50px 30px;\r\n"
+- "\tbackground-color: #e7e7e7;\r\n"
+- "\tborder-bottom-left-radius: 6px;\r\n"
+- "\tborder-bottom-right-radius: 6px;\r\n"
+- "\tmin-height: 75px;\r\n"
+- "\tborder-left: 1px solid #cacaca;\r\n"
+- "\tborder-right: 1px solid #cacaca;\r\n"
+- "\tborder-bottom: 1px solid #999999;\r\n"
+- "\tbox-shadow: 0px 3px 5px #888888;\r\n"
+- "\tbackground-image: url(http://woas.zacks.com/adv/pfp/images/etf_lp/grayGradBkgd.png);\r\n"
+- "\tbackground-position: bottom;\r\n"
+- "\tbackground-repeat: repeat-x; clear:both;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpAccredidation div p {\r\n"
+- "\tcolor: #555555;\r\n"
+- "}\r\n"
+- "<!-- Footer Start -->\r\n"
+- "#ReportOnLogos {\r\n"
+- "\tmax-width: 900px;\r\n"
+- "\tfloat: left;\r\n"
+- "\tmin-height: 50px;\r\n"
+- "\tpadding:0px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#ReportOnLogos p {\r\n"
+- "\ttext-align: left;\r\n"
+- "\tfont-size: 13px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#ARating {\r\n"
+- "\tmax-width:260px; \r\n"
+- "\tvertical-align:middle; \r\n"
+- "\ttext-align:center; \r\n"
+- "\tfont-size:13px; \r\n"
+- "\tfloat:right; \r\n"
+- "\tmin-height:58px; \r\n"
+- "\tcolor:#555555; \r\n"
+- "\tmargin:0px 0px 0px;\r\n"
+- "} \r\n"
+- "\r\n"
+- "#Invstars {\r\n"
+- "\tfloat:left;margin: 0px 74px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#rptlogo1 {\r\n"
+- "\tmax-width: 265px; \r\n"
+- "\theight: 28px; \r\n"
+- "\tmargin: 0px 0px 0px 10px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#rptlogo2 { \r\n"
+- "\tmax-width: 265px; \r\n"
+- "\theight: 28px; \r\n"
+- "\tmargin: 0px 0px 0px 10px; \r\n"
+- "\tdisplay: block;\r\n"
+- "}\r\n"
+- "\r\n"
+- "#pfpFooter {\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmax-width: 1000px;\r\n"
+- "\tpadding: 20px 0px;\r\n"
+- "}\r\n"
+- "<!-- Footer End -->\r\n"
+- ".quote {\r\n"
+- "\tfont-family: Times, serif;\r\n"
+- "\tfont-style: italic;\r\n"
+- "\tfont-size: 17px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a:link {\r\n"
+- "\tcolor: #025edb;\r\n"
+- "\ttext-decoration: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a:visited {\r\n"
+- "\tcolor: #025edb;\r\n"
+- "\ttext-decoration: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a:hover {\r\n"
+- "\tcolor: #025edb;\r\n"
+- "\ttext-decoration: underline;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a:active {\r\n"
+- "\tcolor: #025edb;\r\n"
+- "\ttext-decoration: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- "table {\r\n"
+- "\tborder: none;\r\n"
+- "\tbackground-color: transparent;\r\n"
+- "\tcellpadding: 0;\r\n"
+- "\tcellspacing: 0;\r\n"
+- "\tborder: 0;\r\n"
+- "}\r\n"
+- "\r\n"
+- "td {\r\n"
+- "\tpadding: 0px 4px;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".hd {\r\n"
+- "\tdisplay: none;\r\n"
+- "\tvisibility: hidden;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "div#pfp_ft_none {\r\n"
+- "\tdisplay: none;\r\n"
+- "\tvisibility: hidden;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "html, body {\r\n"
+- "\tmargin:0;\r\n"
+- "\tpadding:0;\r\n"
+- "\tborder: 0;\r\n"
+- "\tdisplay: block;\r\n"
+- "\tbackground-color: #fafafa;\r\n"
+- "\tonunload: exitbutton();\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "div#page {\r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 0;\r\n"
+- "\twidth: 100%;\r\n"
+- "\theight: auto;\r\n"
+- "\tbackground-color: #fafafa;\r\n"
+- "}\r\n"
+- "\t \r\n"
+- ".content {\r\n"
+- "\tmax-width: 775px;\r\n"
+- "\tmargin:0;\r\n"
+- "\tpadding;0;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tfont-family: Helvetica, Arial, sans-serif;\r\n"
+- "\tfont-size: 13px;\r\n"
+- "\tfont-weight: normal;\r\n"
+- "\ttext-align: left;\r\n"
+- "\tline-height: 16px;\r\n"
+- "\tcolor: #323232;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "p {\r\n"
+- "\tmargin: 0em 0em 1em 0em;\r\n"
+- "}\r\n"
+- "\r\n"
+- "img {\r\n"
+- "\tborder: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- "em {\r\n"
+- "\tfont-family: inherit;\r\n"
+- "\tfont-size: inherit;\r\n"
+- "\tfont-weight: inherit;\r\n"
+- "\tcolor: inherit;\r\n"
+- "\tline-height: inherit;\r\n"
+- "\ttext-align: inherit;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".centr {\r\n"
+- "\ttext-align: center;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".fltrght {\r\n"
+- "\tfloat: right;\r\n"
+- "\tclear: none;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".clearfix:after {\r\n"
+- "\tvisibility: hidden;\r\n"
+- "\tdisplay: block;\r\n"
+- "\tfont-size: 0;\r\n"
+- "\tcontent: \" \";\r\n"
+- "\tclear: both;\r\n"
+- "\theight: 0;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "* html .clearfix { zoom: 1; } /* IE6 */\r\n"
+- "*:first-child+html .clearfix { zoom: 1; } /* IE7 */\r\n"
+- "\t\r\n"
+- "div#logo {\r\n"
+- "\tmax-width: 775px;\r\n"
+- "\tpadding: 10px 0px;\r\n"
+- "\tborder-bottom: 1px solid #cacaca;\r\n"
+- "\tbox-shadow: 0px 1px #ffffff;\r\n"
+- "\t-webkit-box-shadow: 0px 1px  #ffffff;\r\n"
+- "\t-moz-box-shadow: 0px 1px #ffffff;\r\n"
+- "\t-o-box-shadow: 0px 1px #ffffff;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".zlogo {\r\n"
+- "\tfont-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;\r\n"
+- "\tfont-size: 16px;\r\n"
+- "\tcolor: 344f38;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\tpadding-left: 10px;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".soc {\r\n"
+- "\tfloat: right;\r\n"
+- "\tdisplay: table;\r\n"
+- "\theight: 14px;\r\n"
+- "\tpadding: 50px 10px 0px 0px;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".head {\r\n"
+- "\tmax-width: 695px;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tborder-bottom: 5px solid #096319;\t\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".Header {\r\n"
+- "\tfont-size: 24px;\r\n"
+- "\tfont-weight: bold; \r\n"
+- "\tline-height:28px; \r\n"
+- "\tcolor:#009f19; \r\n"
+- "\tmargin: 0;\r\n"
+- "\tpadding: 10px 0px 12px 10px;\r\n"
+- "}\r\n"
+- "\t \r\n"
+- ".subHead {\r\n"
+- "\tfont-size: 18px;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\tline-height: 24px;\r\n"
+- "\tcolor:#323232;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".email {\r\n"
+- "\tfont-size: 14px;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".inputBox {\r\n"
+- "\tmargin:0;\r\n"
+- "\tmargin-bottom: 30px;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tbackground-color: #ffffff;\r\n"
+- "\tborder: 1px solid #dfdfdf;\r\n"
+- "\t-webkit-border-radius: 2px;\r\n"
+- "\t-moz-border-radius: 2px;\r\n"
+- "\t-o-border-radius: 2px;\r\n"
+- "\tborder-radius: 2px;\r\n"
+- "\tbox-shadow:0 1px 4px #7f7f7f inset;\r\n"
+- "\theight: 30px;\r\n"
+- "\twidth: 225px;\r\n"
+- "\tline-height: 20px;\r\n"
+- "\ttext-indent: 5px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "input:focus {\r\n"
+- "\toutline: 1px solid #025edb;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".submit {\r\n"
+- "\tmargin-bottom: 12px;\r\n"
+- "\tpadding: 0;\r\n"
+- "\tbackground-color:transparent;\r\n"
+- "\tcolor: #ffffff;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\ttext-align: center;\r\n"
+- "\tborder: none;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".fineprint {\r\n"
+- "\tfont-family: Arial, sans-serif;\r\n"
+- "\tfont-size: 11px;\r\n"
+- "\tline-height: 14px;\r\n"
+- "\tcolor: #323232;\r\n"
+- "\tfont-weight: normal;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".copy {\r\n"
+- "\tmax-width: 695px;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tpadding: 10px 0px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "div#rpt_tstBanner {\r\n"
+- "\twidth: 100%;\r\n"
+- "\tbackground-color: #afafaf;\r\n"
+- "\tborder-top: 1px solid #9f9f9f;\r\n"
+- "\tbox-shadow: 0px -1px #cacaca;\r\n"
+- "\tpadding: 10px 0px;\r\n"
+- "\toverflow: hidden;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "div#rpt_tst {\r\n"
+- "\tmax-width: 735px;\r\n"
+- "\tbackground-color: transparent;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tpadding: 10px 0px;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".testmnl {\r\n"
+- "\tmax-width: 326px;\r\n"
+- "\tpadding: 10px 20px;\r\n"
+- "\tmargin: 0;\r\n"
+- "\tfont-family: Arial, sans-serif;\r\n"
+- "\tfont-size: 14px;\r\n"
+- "\tline-height: 18px;\r\n"
+- "\tcolor: #323232;\r\n"
+- "\tfont-weight: normal;\r\n"
+- "\ttext-align: left;\r\n"
+- "\tfloat: right;\r\n"
+- "}\r\n"
+- "\r\n"
+- ".sig {\r\n"
+- "\ttext-align: right;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".rprt {\r\n"
+- "\tmax-width: 326px;\r\n"
+- "\tpadding: 10px 20px;\r\n"
+- "\tfont-family: Arial, sans-serif;\r\n"
+- "\tfont-size: 14px;\r\n"
+- "\tline-height: 18px;\r\n"
+- "\tcolor: #323232;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\ttext-align: left;\r\n"
+- "\tborder-right: 1px solid #8f8f8f;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".rprt p, img {\r\n"
+- "\tmargin: 0px 0px 6px 0px;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".bbb {\r\n"
+- "\tpadding-top: 10px;\r\n"
+- "\tpadding-bottom: 7px;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".bbb p {\r\n"
+- "\tfont-size: 11px;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "div#perfrm {\r\n"
+- "\twidth: 100%;\r\n"
+- "\tpadding: 10px;\r\n"
+- "\tbackground-color: #e8e8e8;\r\n"
+- "\tborder-top: 1px solid #fafafa;\r\n"
+- "\tbox-shadow: 0px -1px #9f9f9f;\r\n"
+- "\toverflow: hidden;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- ".footer {\r\n"
+- "\tfont-family: Arial, sans-serif;\r\n"
+- "\tfont-size: 11px;\r\n"
+- "\tline-height: 13px;\r\n"
+- "\tcolor: #626262;\r\n"
+- "\tfont-weight: normal;\r\n"
+- "\ttext-align: center;\r\n"
+- "}\r\n"
+- "\t\r\n"
+- "input[type=submit] {\r\n"
+- "\tmargin-bottom: 12px;\r\n"
+- "\tmargin-top: 12px;\r\n"
+- "\tfont-family: Helvetica, Arial, sans-serif;\r\n"
+- "\tfont-size: 14px;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\ttext-align: center;\r\n"
+- "\tbackground: url(\"http://woas.zacks.com/adv/images/buttons/siteBtns/btn_blankOJ_190.png\")
+  no-repeat center center;\r\n"
+- "\tbackground-image: cover;\r\n"
+- "\twidth: 168px;\r\n"
+- "\theight: 28px;\r\n"
+- "\tborder: 1px solid #bd4600;\r\n"
+- "\tcolor: #ffffff;\r\n"
+- "\tfont-weight: bold;\r\n"
+- "\tline-height: 24px;\r\n"
+- "\ttext-shadow: 0px -1px 1px #030405;\r\n"
+- "\t-moz-text-shadow: 0px -1px 1px #030405;\r\n"
+- "\t-webkit-text-shadow: 0px -1px 1px #030405;\r\n"
+- "\t-o-text-shadow: 0px -1px 1px #030405;\r\n"
+- "\tborder-radius: 2px;\r\n"
+- "\t-moz-border-radius: 2px;\r\n"
+- "\t-webkit-border-radius: 2px;\r\n"
+- "\t-o-border-radius: 2px;\r\n"
+- "\tcursor: pointer;\r\n"
+- "\tbox-shadow: 0px 1px 3px #333;\r\n"
+- "\t-moz-box-shadow:  0px 1px 3px #333;\r\n"
+- "\t-webkit-box-shadow: 0px 1px 3px #333;\r\n"
+- "\t-o-box-shadow: 0px 1px 3px #333;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a.cta:link{color: #025edb; text-decoration:none;}\r\n"
+- "a.cta:visited{color: #025edb; text-decoration:none;}\r\n"
+- "a.cta:hover{color: #025edb; text-decoration:underline;}\r\n"
+- "a.cta:active{color: #025edb; text-decoration:none;}\r\n"
+- "\r\n"
+- "table {\r\n"
+- "\tborder: none;\r\n"
+- "\tbackground-color: transparent;\r\n"
+- "\tcellpadding: 0;\r\n"
+- "\tcellspacing: 0;\r\n"
+- "\tborder: 0;\r\n"
+- "}\r\n"
+- "\r\n"
+- "td {\r\n"
+- "\tpadding: 0px 4px;\r\n"
+- "}\r\n"
+- "@media only screen and (max-width: 479px) {\r\n"
+- "\t#pfpHeader {\r\n"
+- "\t\tpadding: 0px;\r\n"
+- "\t}\r\n"
+- "\t#pfpMktCopy {\r\n"
+- "\tpadding-left: 10px;\r\n"
+- "\tpadding-bottom: 0px;\r\n"
+- "\tpadding-right: 10px;\r\n"
+- "\tpadding-top: 0px;\r\n"
+- "\tmargin-left: auto;\r\n"
+- "\tmargin-right: auto;\r\n"
+- "\t}\r\n"
+- "\t#pfpRegBox {\r\n"
+- "\t\tbackground-color: #FBFBFB !important;\r\n"
+- "\t\tbox-shadow: none !important;\r\n"
+- "\t\tpadding: 0px !important;\r\n"
+- "\t\tborder: none !important;\r\n"
+- "\t\tborder-radius: 0px !important;\r\n"
+- "\t}\r\n"
+- "\t#pfpFooter {\r\n"
+- "\tpadding: 20px 10px !important;\r\n"
+- "\t}\r\n"
+- "\t#pfpLetter {\r\n"
+- "\tpadding:20px !important;  \r\n"
+- "\tbox-shadow:0px !important; \r\n"
+- "\tmargin:0px !important;\r\n"
+- "\t}\r\n"
+- "\t#pfpOffer {\r\n"
+- "\tmargin:0px !important; \r\n"
+- "\tpadding:0px;\r\n"
+- "\t}\r\n"
+- "\t#ARating {\r\n"
+- "\tmargin:0px 24px 15px !important;\r\n"
+- "\t} \r\n"
+- "\t#Invstars {\r\n"
+- "\tmargin: 15px 36px !important;\r\n"
+- "\t}\r\n"
+- "\t#pfpAccredidation {\r\n"
+- "\tpadding: 10px 14px 30px !important;\r\n"
+- "\tmin-height: 255px !important;\r\n"
+- "\t}\r\n"
+- "\t#rptlogo1 {\r\n"
+- "\tmax-width: 265px; \r\n"
+- "\theight: 28px; \r\n"
+- "\tmargin: 0px 0px 0px 3px;\r\n"
+- "\t}\r\n"
+- "\t#rptlogo2 { \r\n"
+- "\tmax-width: 265px; \r\n"
+- "\theight: 28px; \r\n"
+- "\tmargin: 0px 0px 0px 3px; \r\n"
+- "\tdisplay: block;\r\n"
+- "\t}\r\n"
+- "}\t\r\n"
+- "\r\n"
+- "function _locNewRegFormV(){\r\n"
+- "\tvar d;\r\n"
+- "\td = document.ff1;\r\n"
+- "\r\n"
+- "\tif (window.RegExp) {\r\n"
+- "\t\tvar reg = new RegExp(\"^[a-z0-9_\\\\.\\\\-]+@+[a-z0-9_\\\\.\\\\-]+(\\\\.[a-z]{2,4})$\",\"gi\");\r\n"
+- "\t\tif (!reg.test(d.email.value)) {\r\n"
+- "\t\t\talert(\"Email should contain a proper e-mail address!\");\r\n"
+- "\t\t\td.email.focus();\r\n"
+- "\t\t\treturn false;\r\n"
+- "\t\t}\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\tif(d.email.value != d.email2.value){\r\n"
+- "\t\t\talert(\"Your emails don`t match\");\r\n"
+- "\t\t\td.email.focus();\r\n"
+- "\t\t\treturn false;\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\treturn true;\r\n"
+- "}\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t10 S. Riverside Plaza, Suite 1600  |  Chicago Illinois 60606\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\tShare \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t| \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tvar addthis_config = {\"data_track_clickback\":true};\r\n"
+- "\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t \r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\tFree: 7 Must-Own Stocks for December\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\tEnter your email address\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tPrivacy Policy  |  No cost or obligation.\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\tYou won't be charged in any way.\r\n"
+- "\t\t\tThis report from Zacks Investment Research is 100% free – no ifs, and, or
+  buts. We don't ask for credit card, check, or any form of payment.\r\n"
+- "\t\t\tIt features short-term stocks handpicked by Zacks analysts to break out in
+  the next 30 days, no matter what the market does.\r\n"
+- "\t\t\t\"I don't buy a stock unless Zacks says it's a Strong Buy,\" reports Tim
+  M. from Madison, Wisconsin. \"I pay a lot of attention to sell recommendations from
+  Zacks to dump stocks before they go bad,\" says Leroy L. from Laramie, Wyoming.
+  \r\n"
+- "\t\t\tWhat's more, you'll get a free subscription to our e-newsletter, Profit from
+  the Pros. Each issue briefs you with Bull and Bear Stocks of the Day, timely market
+  commentary, equity research, wealth management tips and stock strategies. All this
+  from the system that even through recessions, corrections, and downturns has nearly
+  tripled the market since 1988 with an independently examined and attested average
+  gain of +26% per year.\r\n"
+- "\t\t\tGet this time sensitive information now.\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\tZacks Investment Research is reported on:\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t    \r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\tZacks Investment Research\r\n"
+- "\t\t\t\t\t\tis an  A+ Rated\r\n"
+- "\t\t\t\t\t\tBBB Accredited Business\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tZacks.com provides investment resources and informs you of these resources,
+  which you may choose to use in making your own investment decisions. Zacks is providing
+  information on this resource to you subject to the Zacks \"Terms and Conditions
+  of Service\" disclaimer. http://www.zacks.com/disclaimer\r\n"
+- "\t\t\t\tIndividual results may vary. Past performance is no guarantee of future
+  results. Inherent in any investment is the potential for loss. This material is
+  being provided for informational purposes only and nothing herein constitutes investment,
+  legal, accounting or tax advice, or a recommendation to buy, sell or hold a security.
+  No recommendation or advice is being given as to whether any investment is suitable
+  for a particular investor. It should not be assumed that any investments in securities,
+  companies, sectors or markets identified and described were or will be profitable.
+  All information is current as of the date of herein and is subject to change without
+  notice. Any views or opinions expressed may not reflect those of the firm as a whole.
+  Zacks Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction
+  costs. These are not the returns of actual portfolios of stocks. The S&P 500 is
+  an unmanaged index. Visit http://www.zacks.com/performance for information about
+  the performance numbers displayed above.\r\n"
+- "\t\t\t\t \r\n"
+- "\t\t\t\t \r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\tEmail Address\r\n"
+- "\t\t\t\t\t\t  \r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tPlease provide your e-mail address:\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\tPlease repeat your e-mail address:\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\tClick to view our Privacy Policy\r\n"
+- "\t\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t-OR-                                                \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t \r\n"
+- "\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tZacks.com provides investment resources and informs you of
+  these resources,which you may choose to use in making your own investment decisions.
+  Zacks is providing information on this resource to you subject to the Zacks \"Terms
+  and Conditions of Service\" disclaimer. zacks.com/disclaimer\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tPast performance is no guarantee of future results. Inherent
+  in any investment is the potential for loss. This material is being provided for\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tinformational purposes only and nothing herein constitutes
+  investment, legal, accounting or tax advice, or a recommendation to buy, sell or
+  hold a security. No recommendation or advice is being given as to whether any investment
+  is suitable for a particular investor. It should not be assumed that any investments
+  in securities, companies, sectors or markets identified and described were or will
+  be profitable. All information is current as of the date of herein and is subject
+  to change without notice. Any views or opinions expressed may not reflect those
+  of the firm as a whole. Zacks Investment Research is not a licensed securities dealer,
+  broker or US investment adviser or investment bank. These returns are from hypothetical
+  portfolios consisting of stocks with Zacks Rank 1 that were rebalanced monthly with
+  zero transaction costs. These are not the returns of actual portfolios of stocks.
+  The S&P 500 is an unmanaged index. Visit zacks.com/performance  for information
+  about the performance numbers displayed above.\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t  \r\n"
+- "\t\t\t\t\t  \r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t  \r\n"
+- "\t\t\r\n"
+- "\t  \r\n"
+- "  \r\n"
+- "\r\n"
+- "  \r\n"
+- " \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "                            \n"
+- "                        \n"
+- "                      \n"
+- "                  \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Email Address
+- "                                  \n"
+- "                                \n"
+- |2
+                                      Please provide your e-mail address:
+- "                                            \n"
+- |2
+                                           
+- |2
+                                          Please repeat your e-mail address:
+- "                                            \n"
+- |2
+                                          Click to view our Privacy Policy
+- |2
+                                               
+- "                                        \n"
+- "                                            \n"
+- "                                                \n"
+- "                                                \n"
+- "                 -OR-                                                \n"
+- "                                            \n"
+- |2
+                                           
+- "                                                \n"
+- |2
+                                                      Zacks.com provides investment resources and informs you of these resources,which you may choose to use in making your own investment decisions. Zacks is providing information on this resource to you subject to the Zacks "Terms and Conditions of Service" disclaimer. www.zacks.com/disclaimer
+- "                                                \n"
+- "                                                \n"
+- |2
+                                                      Past performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for
+- |2
+                      informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit www.zacks.com/performance  for information about the performance numbers displayed above.
+- "                                                \n"
+- "                                            \n"
+- "                                          \n"
+- "                              \n"
+- "                        \n"
+- "                      \n"
+- "                    \n"
+- "                  \n"
+- "              \n"
+- "        \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- " \n"
+- "    \n"
+- "    \n"
+- "     \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  var dataLayer = {
+- |
+  siteSection: 'Registration'
+- |
+  ,   loginStatus: 'Logged out'
+- |
+  , siteType: 'desktop'
+- |
+  ,   adidInternalCode : 'CNN_CONTENT_7BEST'
+- |
+  ,   pageIdentifier: ""
+- |
+  ,   siteSubSection: 'Registration:PFP'
+- |
+  , siteEvents:{pfpSignupEmailInfo:true, accountRegistrationStart:true}
+- |
+  , testGroup : 'RPT_7BST_LP203'
+- |
+  };
+- |
+  _satellite.pageBottom();
+- |2
+           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+- |2
+           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+- |2
+           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+- |2
+           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+- |2+
+
+- |2
+           ga('create', 'UA-3472419-1', 'auto');
+- |2
+           ga('send', 'pageview');
+- "         You won't be charged in any way.This report from Zacks Investment Research
+  is 100% free – no ifs, and, or buts. We don't ask for credit card, check, or any
+  form of payment.It features short-term stocks handpicked by Zacks analysts to break
+  out in the next 30 days, no matter what the market does.\"I don't buy a stock unless
+  Zacks says it's a Strong Buy,\" reports Tim M. from Madison, Wisconsin. \"I pay
+  a lot of attention to sell recommendations from Zacks to dump stocks before they
+  go bad,\" says Leroy L. from Laramie, Wyoming. What's more, you'll get a free subscription
+  to our e-newsletter, Profit from the Pros. Each issue briefs you with Bull and Bear
+  Stocks of the Day, timely market commentary, equity research, wealth management
+  tips and stock strategies. All this from the system that even through recessions,
+  corrections, and downturns has nearly tripled the market since 1988 with an independently
+  examined and attested average gain of +26% per year.Get this time sensitive information
+  now.Zacks Investment Research is reported on:Zacks.com provides investment resources
+  and informs you of these resources, which you may choose to use in making your own
+  investment decisions. Zacks is providing information on this resource to you subject
+  to the Zacks \"Terms and Conditions of Service\" disclaimer. http://www.zacks.com/disclaimerIndividual
+  results may vary. Past performance is no guarantee of future results. Inherent in
+  any investment is the potential for loss. This material is being provided for informational
+  purposes only and nothing herein constitutes investment, legal, accounting or tax
+  advice, or a recommendation to buy, sell or hold a security. No recommendation or
+  advice is being given as to whether any investment is suitable for a particular
+  investor. It should not be assumed that any investments in securities, companies,
+  sectors or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction
+  costs. These are not the returns of actual portfolios of stocks. The S&P 500 is
+  an unmanaged index. Visit http://www.zacks.com/performance for information about
+  the performance numbers displayed above.  \r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\tEmail Address                                                \r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tZacks.com provides investment resources and informs you of
+  these resources,which you may choose to use in making your own investment decisions.
+  Zacks is providing information on this resource to you subject to the Zacks \"Terms
+  and Conditions of Service\" disclaimer. zacks.com/disclaimer\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tPast performance is no guarantee of future results. Inherent
+  in any investment is the potential for loss. This material is being provided for\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tinformational purposes only and nothing herein constitutes
+  investment, legal, accounting or tax advice, or a recommendation to buy, sell or
+  hold a security. No recommendation or advice is being given as to whether any investment
+  is suitable for a particular investor. It should not be assumed that any investments
+  in securities, companies, sectors or markets identified and described were or will
+  be profitable. All information is current as of the date of herein and is subject
+  to change without notice. Any views or opinions expressed may not reflect those
+  of the firm as a whole. Zacks Investment Research is not a licensed securities dealer,
+  broker or US investment adviser or investment bank. These returns are from hypothetical
+  portfolios consisting of stocks with Zacks Rank 1 that were rebalanced monthly with
+  zero transaction costs. These are not the returns of actual portfolios of stocks.
+  The S&P 500 is an unmanaged index. Visit zacks.com/performance  for information
+  about the performance numbers displayed above.\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\tEmail Address                                                \n"
+- |2
+                                                      Zacks.com provides investment resources and informs you of these resources,which you may choose to use in making your own investment decisions. Zacks is providing information on this resource to you subject to the Zacks "Terms and Conditions of Service" disclaimer. www.zacks.com/disclaimer
+- "                                                \n"
+- |2
+                                                      Past performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for
+- |2
+                      informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit www.zacks.com/performance  for information about the performance numbers displayed above.
+- "                                                "
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 94.0
+    docPositions:
+    - 4
+    - 5
+    - 12
+    - 108
+    - 110
+    - 119
+    - 128
+    - 136
+    - 140
+    - 149
+    - 170
+    - 175
+    - 180
+    - 186
+    - 199
+    - 216
+    - 229
+    - 239
+    - 257
+    - 260
+    - 261
+    - 268
+    - 273
+    - 284
+    - 288
+    - 294
+    - 301
+    - 307
+    - 308
+    - 346
+    - 373
+    - 404
+    - 408
+    - 413
+    - 422
+    - 423
+    - 430
+    - 431
+    - 432
+    - 435
+    - 443
+    - 450
+    - 457
+    - 466
+    - 473
+    - 478
+    - 484
+    - 485
+    - 486
+    - 499
+    - 509
+    - 517
+    - 541
+    - 554
+    - 558
+    - 570
+    - 575
+    - 580
+    - 594
+    - 619
+    - 620
+    - 621
+    - 623
+    - 624
+    - 625
+    - 628
+    - 629
+    - 630
+    - 649
+    - 650
+    - 653
+    - 661
+    - 668
+    - 671
+    - 676
+    - 680
+    - 683
+    - 686
+    - 690
+    - 695
+    - 776
+    - 836
+    - 891
+    - 924
+    - 925
+    - 926
+    - 927
+    - 928
+    - 929
+    - 930
+    - 933
+    - 934
+    - 936
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 140
+    - 365
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 32.0
+    docPositions:
+    - 4
+    - 120
+    - 141
+    - 171
+    - 176
+    - 183
+    - 189
+    - 207
+    - 219
+    - 236
+    - 242
+    - 262
+    - 274
+    - 289
+    - 295
+    - 304
+    - 368
+    - 374
+    - 426
+    - 451
+    - 490
+    - 518
+    - 525
+    - 534
+    - 542
+    - 559
+    - 586
+    - 612
+    - 649
+    - 691
+    - 696
+  fineprint: !ruby/object:Word
+    word: fineprint
+    stem: fineprint
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 509
+  color: !ruby/object:Word
+    word: color
+    stem: color
+    docFrequency: 45.0
+    docPositions:
+    - 6
+    - 111
+    - 125
+    - 129
+    - 146
+    - 156
+    - 163
+    - 172
+    - 177
+    - 191
+    - 204
+    - 221
+    - 244
+    - 258
+    - 280
+    - 315
+    - 320
+    - 325
+    - 330
+    - 336
+    - 361
+    - 370
+    - 384
+    - 399
+    - 438
+    - 461
+    - 470
+    - 482
+    - 502
+    - 503
+    - 513
+    - 526
+    - 535
+    - 548
+    - 564
+    - 588
+    - 598
+    - 615
+    - 633
+    - 634
+    - 635
+    - 636
+    - 640
+    - 662
+  font: !ruby/object:Word
+    word: font
+    stem: font
+    docFrequency: 52.0
+    docPositions:
+    - 7
+    - 8
+    - 9
+    - 13
+    - 160
+    - 161
+    - 164
+    - 165
+    - 166
+    - 167
+    - 270
+    - 277
+    - 309
+    - 310
+    - 311
+    - 379
+    - 380
+    - 381
+    - 396
+    - 397
+    - 398
+    - 416
+    - 436
+    - 437
+    - 439
+    - 458
+    - 459
+    - 467
+    - 468
+    - 474
+    - 475
+    - 504
+    - 510
+    - 511
+    - 514
+    - 545
+    - 546
+    - 549
+    - 561
+    - 562
+    - 565
+    - 572
+    - 581
+    - 582
+    - 595
+    - 596
+    - 599
+    - 606
+    - 607
+    - 608
+    - 616
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 12.0
+    docPositions:
+    - 7
+    - 160
+    - 309
+    - 379
+    - 396
+    - 436
+    - 510
+    - 545
+    - 561
+    - 595
+    - 606
+  arial: !ruby/object:Word
+    word: arial
+    stem: arial
+    docFrequency: 10.0
+    docPositions:
+    - 7
+    - 160
+    - 379
+    - 436
+    - 510
+    - 545
+    - 561
+    - 595
+    - 606
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 21.0
+    docPositions:
+    - 8
+    - 13
+    - 161
+    - 165
+    - 270
+    - 277
+    - 311
+    - 380
+    - 397
+    - 416
+    - 437
+    - 458
+    - 467
+    - 474
+    - 511
+    - 546
+    - 562
+    - 581
+    - 596
+    - 607
+  weight: !ruby/object:Word
+    word: weight
+    stem: weight
+    docFrequency: 18.0
+    docPositions:
+    - 9
+    - 164
+    - 381
+    - 398
+    - 439
+    - 459
+    - 468
+    - 475
+    - 504
+    - 514
+    - 549
+    - 565
+    - 572
+    - 582
+    - 599
+    - 608
+    - 616
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 9.0
+    docPositions:
+    - 9
+    - 164
+    - 166
+    - 167
+    - 381
+    - 514
+    - 549
+    - 599
+  pfp_ft_none: !ruby/object:Word
+    word: pfp_ft_none
+    stem: pfp_ft_none
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 351
+  table: !ruby/object:Word
+    word: table
+    stem: tabl
+    docFrequency: 5.0
+    docPositions:
+    - 12
+    - 334
+    - 445
+    - 638
+  td: !ruby/object:Word
+    word: td
+    stem: td
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 342
+    - 646
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 6.0
+    docPositions:
+    - 16
+    - 64
+    - 703
+    - 933
+  _locnewregformv: !ruby/object:Word
+    word: _locnewregformv
+    stem: _locnewregformv
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 64
+    - 703
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 22.0
+    docPositions:
+    - 17
+    - 18
+    - 22
+    - 24
+    - 29
+    - 31
+    - 65
+    - 66
+    - 70
+    - 72
+    - 77
+    - 79
+    - 704
+    - 705
+    - 709
+    - 711
+    - 716
+    - 718
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 66
+    - 705
+    - 936
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 10.0
+    docPositions:
+    - 20
+    - 22
+    - 29
+    - 68
+    - 70
+    - 77
+    - 707
+    - 709
+    - 716
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 5.0
+    docPositions:
+    - 20
+    - 68
+    - 707
+    - 936
+  regexp: !ruby/object:Word
+    word: regexp
+    stem: regexp
+    docFrequency: 7.0
+    docPositions:
+    - 20
+    - 21
+    - 68
+    - 69
+    - 707
+    - 708
+  reg: !ruby/object:Word
+    word: reg
+    stem: reg
+    docFrequency: 7.0
+    docPositions:
+    - 21
+    - 22
+    - 69
+    - 70
+    - 708
+    - 709
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 21
+    - 69
+    - 708
+    - 934
+  z: !ruby/object:Word
+    word: z
+    stem: z
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 69
+    - 708
+  gi: !ruby/object:Word
+    word: gi
+    stem: gi
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 69
+    - 708
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 70
+    - 709
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 22.0
+    docPositions:
+    - 22
+    - 23
+    - 24
+    - 29
+    - 31
+    - 70
+    - 71
+    - 72
+    - 77
+    - 79
+    - 473
+    - 709
+    - 710
+    - 711
+    - 716
+    - 718
+    - 762
+    - 822
+    - 877
+    - 943
+    - 949
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 10.0
+    docPositions:
+    - 22
+    - 29
+    - 70
+    - 77
+    - 709
+    - 716
+  alert: !ruby/object:Word
+    word: alert
+    stem: alert
+    docFrequency: 7.0
+    docPositions:
+    - 23
+    - 30
+    - 71
+    - 78
+    - 710
+    - 717
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 10.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  contain: !ruby/object:Word
+    word: contain
+    stem: contain
+    docFrequency: 4.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+  proper: !ruby/object:Word
+    word: proper
+    stem: proper
+    docFrequency: 4.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 10.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+    - 777
+    - 825
+    - 828
+    - 880
+    - 883
+    - 940
+  mail: !ruby/object:Word
+    word: mail
+    stem: mail
+    docFrequency: 8.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+    - 825
+    - 828
+    - 880
+    - 883
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 13.0
+    docPositions:
+    - 23
+    - 71
+    - 710
+    - 762
+    - 822
+    - 825
+    - 828
+    - 877
+    - 880
+    - 883
+    - 943
+    - 949
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 8.0
+    docPositions:
+    - 24
+    - 31
+    - 72
+    - 79
+    - 495
+    - 711
+    - 718
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 10.0
+    docPositions:
+    - 25
+    - 32
+    - 35
+    - 73
+    - 80
+    - 83
+    - 712
+    - 719
+    - 722
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 32
+    - 73
+    - 80
+    - 712
+    - 719
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 15.0
+    docPositions:
+    - 30
+    - 78
+    - 717
+    - 762
+    - 797
+    - 825
+    - 828
+    - 843
+    - 880
+    - 883
+    - 895
+    - 940
+    - 945
+    - 950
+  emails: !ruby/object:Word
+    word: emails
+    stem: email
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 78
+    - 717
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 8.0
+    docPositions:
+    - 30
+    - 78
+    - 717
+    - 774
+    - 776
+    - 940
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 10.0
+    docPositions:
+    - 30
+    - 78
+    - 717
+    - 773
+    - 774
+    - 776
+    - 940
+  match: !ruby/object:Word
+    word: match
+    stem: match
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 78
+    - 717
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 7.0
+    docPositions:
+    - 35
+    - 83
+    - 722
+    - 744
+    - 929
+  landing: !ruby/object:Word
+    word: landing
+    stem: land
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  pad: !ruby/object:Word
+    word: pad
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  preview: !ruby/object:Word
+    word: preview
+    stem: preview
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  overriding: !ruby/object:Word
+    word: overriding
+    stem: overrid
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  cms: !ruby/object:Word
+    word: cms
+    stem: cm
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 149
+  frame: !ruby/object:Word
+    word: frame
+    stem: frame
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 149
+  styles: !ruby/object:Word
+    word: styles
+    stem: style
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 149
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 29.0
+    docPositions:
+    - 111
+    - 125
+    - 129
+    - 146
+    - 156
+    - 172
+    - 177
+    - 191
+    - 204
+    - 209
+    - 210
+    - 221
+    - 244
+    - 252
+    - 253
+    - 254
+    - 336
+    - 361
+    - 370
+    - 482
+    - 502
+    - 526
+    - 535
+    - 588
+    - 610
+    - 611
+    - 640
+    - 662
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 56.0
+    docPositions:
+    - 112
+    - 114
+    - 115
+    - 122
+    - 130
+    - 132
+    - 133
+    - 143
+    - 152
+    - 181
+    - 182
+    - 187
+    - 188
+    - 205
+    - 206
+    - 217
+    - 218
+    - 234
+    - 235
+    - 240
+    - 241
+    - 281
+    - 285
+    - 291
+    - 297
+    - 302
+    - 303
+    - 357
+    - 366
+    - 375
+    - 377
+    - 378
+    - 388
+    - 452
+    - 453
+    - 462
+    - 479
+    - 480
+    - 500
+    - 519
+    - 520
+    - 536
+    - 537
+    - 544
+    - 571
+    - 604
+    - 605
+    - 658
+    - 659
+    - 674
+    - 677
+    - 681
+    - 684
+    - 693
+    - 698
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 49.0
+    docPositions:
+    - 113
+    - 123
+    - 131
+    - 137
+    - 144
+    - 153
+    - 190
+    - 200
+    - 201
+    - 202
+    - 203
+    - 226
+    - 230
+    - 231
+    - 232
+    - 233
+    - 243
+    - 265
+    - 305
+    - 343
+    - 358
+    - 367
+    - 376
+    - 427
+    - 440
+    - 447
+    - 463
+    - 481
+    - 501
+    - 521
+    - 529
+    - 538
+    - 543
+    - 560
+    - 576
+    - 577
+    - 587
+    - 647
+    - 651
+    - 654
+    - 655
+    - 656
+    - 657
+    - 664
+    - 669
+    - 672
+    - 678
+    - 687
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 29.0
+    docPositions:
+    - 114
+    - 132
+    - 182
+    - 188
+    - 193
+    - 195
+    - 202
+    - 206
+    - 212
+    - 218
+    - 232
+    - 235
+    - 241
+    - 246
+    - 249
+    - 278
+    - 303
+    - 377
+    - 409
+    - 444
+    - 452
+    - 519
+    - 536
+    - 551
+    - 555
+    - 567
+    - 656
+    - 659
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 31.0
+    docPositions:
+    - 114
+    - 115
+    - 132
+    - 133
+    - 181
+    - 182
+    - 187
+    - 188
+    - 205
+    - 206
+    - 217
+    - 218
+    - 234
+    - 235
+    - 240
+    - 241
+    - 302
+    - 303
+    - 369
+    - 377
+    - 378
+    - 452
+    - 453
+    - 519
+    - 520
+    - 536
+    - 537
+    - 658
+    - 659
+    - 938
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 30.0
+    docPositions:
+    - 115
+    - 133
+    - 181
+    - 187
+    - 192
+    - 194
+    - 200
+    - 205
+    - 211
+    - 217
+    - 230
+    - 234
+    - 240
+    - 245
+    - 248
+    - 263
+    - 269
+    - 285
+    - 302
+    - 378
+    - 382
+    - 440
+    - 453
+    - 520
+    - 537
+    - 550
+    - 566
+    - 654
+    - 658
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 44.0
+    docPositions:
+    - 116
+    - 124
+    - 134
+    - 145
+    - 154
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 211
+    - 212
+    - 222
+    - 223
+    - 245
+    - 246
+    - 248
+    - 249
+    - 250
+    - 335
+    - 339
+    - 359
+    - 392
+    - 428
+    - 454
+    - 483
+    - 484
+    - 485
+    - 486
+    - 487
+    - 506
+    - 527
+    - 567
+    - 589
+    - 614
+    - 622
+    - 623
+    - 624
+    - 625
+    - 639
+    - 643
+    - 665
+    - 666
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 21.0
+    docPositions:
+    - 116
+    - 124
+    - 134
+    - 145
+    - 165
+    - 316
+    - 321
+    - 331
+    - 335
+    - 347
+    - 352
+    - 392
+    - 410
+    - 506
+    - 633
+    - 634
+    - 636
+    - 639
+    - 663
+    - 665
+  bd: !ruby/object:Word
+    word: bd
+    stem: bd
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 29.0
+    docPositions:
+    - 121
+    - 142
+    - 162
+    - 208
+    - 220
+    - 247
+    - 264
+    - 279
+    - 290
+    - 296
+    - 369
+    - 383
+    - 400
+    - 419
+    - 446
+    - 460
+    - 469
+    - 489
+    - 491
+    - 512
+    - 547
+    - 563
+    - 597
+    - 613
+    - 617
+    - 688
+    - 692
+    - 697
+  white: !ruby/object:Word
+    word: white
+    stem: white
+    docFrequency: 5.0
+    docPositions:
+    - 125
+    - 172
+    - 191
+    - 204
+  mod: !ruby/object:Word
+    word: mod
+    stem: mod
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  z_mod: !ruby/object:Word
+    word: z_mod
+    stem: z_mod
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 136
+  fafafa: !ruby/object:Word
+    word: fafafa
+    stem: fafafa
+    docFrequency: 5.0
+    docPositions:
+    - 129
+    - 361
+    - 370
+    - 589
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 307
+  override: !ruby/object:Word
+    word: override
+    stem: overrid
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 5.0
+    docPositions:
+    - 151
+    - 356
+    - 422
+    - 423
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 151
+    - 356
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 298
+    - 347
+    - 352
+    - 360
+    - 415
+    - 445
+    - 699
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 298
+    - 360
+    - 415
+    - 699
+  aeaeae: !ruby/object:Word
+    word: aeaeae
+    stem: aeaeae
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 177
+  onunload: !ruby/object:Word
+    word: onunload
+    stem: onunload
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 362
+  exitbutton: !ruby/object:Word
+    word: exitbutton
+    stem: exitbutton
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 362
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 9.0
+    docPositions:
+    - 159
+    - 257
+    - 351
+    - 365
+    - 425
+    - 524
+    - 533
+    - 585
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 13.0
+    docPositions:
+    - 159
+    - 257
+    - 268
+    - 387
+    - 570
+    - 580
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  helvetica: !ruby/object:Word
+    word: helvetica
+    stem: helvetica
+    docFrequency: 5.0
+    docPositions:
+    - 160
+    - 379
+    - 436
+    - 606
+  sans: !ruby/object:Word
+    word: sans
+    stem: san
+    docFrequency: 9.0
+    docPositions:
+    - 160
+    - 379
+    - 436
+    - 510
+    - 545
+    - 561
+    - 595
+    - 606
+  serif: !ruby/object:Word
+    word: serif
+    stem: serif
+    docFrequency: 10.0
+    docPositions:
+    - 160
+    - 309
+    - 379
+    - 436
+    - 510
+    - 545
+    - 561
+    - 595
+    - 606
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 12.0
+    docPositions:
+    - 162
+    - 383
+    - 400
+    - 460
+    - 469
+    - 491
+    - 512
+    - 547
+    - 563
+    - 597
+    - 617
+  adjust: !ruby/object:Word
+    word: adjust
+    stem: adjust
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  stretch: !ruby/object:Word
+    word: stretch
+    stem: stretch
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  variant: !ruby/object:Word
+    word: variant
+    stem: variant
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  pfptopcontainer: !ruby/object:Word
+    word: pfptopcontainer
+    stem: pfptopcontain
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  pfpbtmcontainer: !ruby/object:Word
+    word: pfpbtmcontainer
+    stem: pfpbtmcontain
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  logoandshareicons: !ruby/object:Word
+    word: logoandshareicons
+    stem: logoandshareicon
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 22.0
+    docPositions:
+    - 183
+    - 189
+    - 207
+    - 219
+    - 236
+    - 242
+    - 262
+    - 274
+    - 289
+    - 295
+    - 304
+    - 374
+    - 426
+    - 451
+    - 518
+    - 534
+    - 542
+    - 559
+    - 649
+    - 691
+    - 696
+  pfptopbdr: !ruby/object:Word
+    word: pfptopbdr
+    stem: pfptopbdr
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 11.0
+    docPositions:
+    - 192
+    - 193
+    - 196
+    - 203
+    - 233
+    - 527
+    - 576
+    - 589
+    - 605
+    - 657
+  radius: !ruby/object:Word
+    word: radius
+    stem: radiu
+    docFrequency: 15.0
+    docPositions:
+    - 192
+    - 193
+    - 222
+    - 245
+    - 246
+    - 484
+    - 485
+    - 486
+    - 487
+    - 622
+    - 623
+    - 624
+    - 625
+    - 666
+  solid: !ruby/object:Word
+    word: solid
+    stem: solid
+    docFrequency: 18.0
+    docPositions:
+    - 194
+    - 195
+    - 196
+    - 211
+    - 212
+    - 223
+    - 248
+    - 249
+    - 250
+    - 428
+    - 454
+    - 483
+    - 496
+    - 527
+    - 567
+    - 589
+    - 614
+  cacaca: !ruby/object:Word
+    word: cacaca
+    stem: cacaca
+    docFrequency: 10.0
+    docPositions:
+    - 194
+    - 195
+    - 196
+    - 211
+    - 212
+    - 248
+    - 249
+    - 428
+    - 528
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 7.0
+    docPositions:
+    - 196
+    - 213
+    - 236
+    - 254
+    - 410
+    - 418
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 6.0
+    docPositions:
+    - 196
+    - 213
+    - 236
+    - 254
+    - 418
+  pfpheader: !ruby/object:Word
+    word: pfpheader
+    stem: pfpheader
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 650
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 15.0
+    docPositions:
+    - 201
+    - 209
+    - 231
+    - 245
+    - 246
+    - 250
+    - 253
+    - 428
+    - 454
+    - 480
+    - 500
+    - 577
+    - 604
+    - 655
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 7.0
+    docPositions:
+    - 208
+    - 220
+    - 247
+    - 264
+    - 279
+    - 688
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 3.0
+    docPositions:
+    - 209
+    - 253
+  repeat: !ruby/object:Word
+    word: repeat
+    stem: repeat
+    docFrequency: 8.0
+    docPositions:
+    - 210
+    - 254
+    - 610
+    - 828
+    - 883
+  x: !ruby/object:Word
+    word: x
+    stem: x
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 254
+  pfpregbox: !ruby/object:Word
+    word: pfpregbox
+    stem: pfpregbox
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 661
+  eeefee: !ruby/object:Word
+    word: eeefee
+    stem: eeefe
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 26.0
+    docPositions:
+    - 224
+    - 269
+    - 276
+    - 316
+    - 321
+    - 326
+    - 331
+    - 382
+    - 401
+    - 405
+    - 492
+    - 505
+    - 550
+    - 555
+    - 566
+    - 600
+    - 609
+    - 618
+    - 619
+    - 620
+    - 621
+    - 633
+    - 634
+    - 635
+    - 636
+  align: !ruby/object:Word
+    word: align
+    stem: align
+    docFrequency: 15.0
+    docPositions:
+    - 224
+    - 225
+    - 269
+    - 275
+    - 276
+    - 382
+    - 401
+    - 405
+    - 505
+    - 550
+    - 555
+    - 566
+    - 600
+    - 609
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 9.0
+    docPositions:
+    - 224
+    - 276
+    - 405
+    - 505
+    - 600
+    - 609
+    - 610
+  vertical: !ruby/object:Word
+    word: vertical
+    stem: vertic
+    docFrequency: 3.0
+    docPositions:
+    - 225
+    - 275
+  middle: !ruby/object:Word
+    word: middle
+    stem: middl
+    docFrequency: 3.0
+    docPositions:
+    - 225
+    - 275
+  pfpmktcopy: !ruby/object:Word
+    word: pfpmktcopy
+    stem: pfpmktcopi
+    docFrequency: 3.0
+    docPositions:
+    - 229
+    - 653
+  pfpaccredidation: !ruby/object:Word
+    word: pfpaccredidation
+    stem: pfpaccredid
+    docFrequency: 4.0
+    docPositions:
+    - 239
+    - 257
+    - 686
+  box: !ruby/object:Word
+    word: box
+    stem: box
+    docFrequency: 15.0
+    docPositions:
+    - 251
+    - 429
+    - 430
+    - 431
+    - 432
+    - 488
+    - 528
+    - 590
+    - 627
+    - 628
+    - 629
+    - 630
+    - 663
+    - 673
+  shadow: !ruby/object:Word
+    word: shadow
+    stem: shadow
+    docFrequency: 19.0
+    docPositions:
+    - 251
+    - 429
+    - 430
+    - 431
+    - 432
+    - 488
+    - 528
+    - 590
+    - 618
+    - 619
+    - 620
+    - 621
+    - 627
+    - 628
+    - 629
+    - 630
+    - 663
+    - 673
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 611
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 610
+  woas: !ruby/object:Word
+    word: woas
+    stem: woa
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 610
+  zacks: !ruby/object:Word
+    word: zacks
+    stem: zack
+    docFrequency: 56.0
+    docPositions:
+    - 252
+    - 610
+    - 774
+    - 775
+    - 776
+    - 784
+    - 790
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  adv: !ruby/object:Word
+    word: adv
+    stem: adv
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 610
+  pfp: !ruby/object:Word
+    word: pfp
+    stem: pfp
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 928
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 610
+  etf_lp: !ruby/object:Word
+    word: etf_lp
+    stem: etf_lp
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  graygradbkgd: !ruby/object:Word
+    word: graygradbkgd
+    stem: graygradbkgd
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 610
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 4.0
+    docPositions:
+    - 260
+    - 307
+    - 594
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  reportonlogos: !ruby/object:Word
+    word: reportonlogos
+    stem: reportonlogo
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 268
+  float: !ruby/object:Word
+    word: float
+    stem: float
+    docFrequency: 7.0
+    docPositions:
+    - 263
+    - 278
+    - 285
+    - 409
+    - 444
+    - 551
+  arating: !ruby/object:Word
+    word: arating
+    stem: arat
+    docFrequency: 3.0
+    docPositions:
+    - 273
+    - 680
+  invstars: !ruby/object:Word
+    word: invstars
+    stem: invstar
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 683
+  pfpfooter: !ruby/object:Word
+    word: pfpfooter
+    stem: pfpfooter
+    docFrequency: 3.0
+    docPositions:
+    - 301
+    - 668
+  quote: !ruby/object:Word
+    word: quote
+    stem: quot
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 309
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  italic: !ruby/object:Word
+    word: italic
+    stem: ital
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 314
+    - 633
+  decoration: !ruby/object:Word
+    word: decoration
+    stem: decor
+    docFrequency: 9.0
+    docPositions:
+    - 316
+    - 321
+    - 326
+    - 331
+    - 633
+    - 634
+    - 635
+    - 636
+  visited: !ruby/object:Word
+    word: visited
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 634
+  hover: !ruby/object:Word
+    word: hover
+    stem: hover
+    docFrequency: 3.0
+    docPositions:
+    - 324
+    - 635
+  underline: !ruby/object:Word
+    word: underline
+    stem: underlin
+    docFrequency: 3.0
+    docPositions:
+    - 326
+    - 635
+  active: !ruby/object:Word
+    word: active
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 329
+    - 636
+  transparent: !ruby/object:Word
+    word: transparent
+    stem: transpar
+    docFrequency: 5.0
+    docPositions:
+    - 336
+    - 502
+    - 535
+    - 640
+  cellpadding: !ruby/object:Word
+    word: cellpadding
+    stem: cellpad
+    docFrequency: 3.0
+    docPositions:
+    - 337
+    - 641
+  cellspacing: !ruby/object:Word
+    word: cellspacing
+    stem: cellspac
+    docFrequency: 3.0
+    docPositions:
+    - 338
+    - 642
+  hd: !ruby/object:Word
+    word: hd
+    stem: hd
+    docFrequency: 2.0
+    docPositions:
+    - 346
+  visibility: !ruby/object:Word
+    word: visibility
+    stem: visibl
+    docFrequency: 4.0
+    docPositions:
+    - 348
+    - 353
+    - 414
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 6.0
+    docPositions:
+    - 348
+    - 353
+    - 414
+    - 530
+    - 591
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 3.0
+    docPositions:
+    - 373
+    - 417
+  img: !ruby/object:Word
+    word: img
+    stem: img
+    docFrequency: 3.0
+    docPositions:
+    - 391
+    - 570
+  em: !ruby/object:Word
+    word: em
+    stem: em
+    docFrequency: 2.0
+    docPositions:
+    - 395
+  inherit: !ruby/object:Word
+    word: inherit
+    stem: inherit
+    docFrequency: 7.0
+    docPositions:
+    - 396
+    - 397
+    - 398
+    - 399
+    - 400
+    - 401
+  centr: !ruby/object:Word
+    word: centr
+    stem: centr
+    docFrequency: 2.0
+    docPositions:
+    - 404
+  fltrght: !ruby/object:Word
+    word: fltrght
+    stem: fltrght
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  clearfix: !ruby/object:Word
+    word: clearfix
+    stem: clearfix
+    docFrequency: 4.0
+    docPositions:
+    - 413
+    - 422
+    - 423
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  zoom: !ruby/object:Word
+    word: zoom
+    stem: zoom
+    docFrequency: 3.0
+    docPositions:
+    - 422
+    - 423
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 423
+  child: !ruby/object:Word
+    word: child
+    stem: child
+    docFrequency: 2.0
+    docPositions:
+    - 423
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 2.0
+    docPositions:
+    - 425
+  ffffff: !ruby/object:Word
+    word: ffffff
+    stem: ffffff
+    docFrequency: 8.0
+    docPositions:
+    - 429
+    - 430
+    - 431
+    - 432
+    - 482
+    - 503
+    - 615
+  webkit: !ruby/object:Word
+    word: webkit
+    stem: webkit
+    docFrequency: 6.0
+    docPositions:
+    - 430
+    - 484
+    - 620
+    - 624
+    - 629
+  moz: !ruby/object:Word
+    word: moz
+    stem: moz
+    docFrequency: 6.0
+    docPositions:
+    - 431
+    - 485
+    - 619
+    - 623
+    - 628
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 9.0
+    docPositions:
+    - 432
+    - 486
+    - 621
+    - 625
+    - 630
+    - 933
+    - 934
+    - 935
+  zlogo: !ruby/object:Word
+    word: zlogo
+    stem: zlogo
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  trebuchet: !ruby/object:Word
+    word: trebuchet
+    stem: trebuchet
+    docFrequency: 2.0
+    docPositions:
+    - 436
+  ms: !ruby/object:Word
+    word: ms
+    stem: ms
+    docFrequency: 2.0
+    docPositions:
+    - 436
+  bold: !ruby/object:Word
+    word: bold
+    stem: bold
+    docFrequency: 11.0
+    docPositions:
+    - 439
+    - 459
+    - 468
+    - 475
+    - 504
+    - 565
+    - 572
+    - 582
+    - 608
+    - 616
+  soc: !ruby/object:Word
+    word: soc
+    stem: soc
+    docFrequency: 2.0
+    docPositions:
+    - 443
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 450
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  subhead: !ruby/object:Word
+    word: subhead
+    stem: subhead
+    docFrequency: 2.0
+    docPositions:
+    - 466
+  inputbox: !ruby/object:Word
+    word: inputbox
+    stem: inputbox
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  dfdfdf: !ruby/object:Word
+    word: dfdfdf
+    stem: dfdfdf
+    docFrequency: 2.0
+    docPositions:
+    - 483
+  inset: !ruby/object:Word
+    word: inset
+    stem: inset
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  indent: !ruby/object:Word
+    word: indent
+    stem: indent
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 603
+  outline: !ruby/object:Word
+    word: outline
+    stem: outlin
+    docFrequency: 2.0
+    docPositions:
+    - 496
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 3.0
+    docPositions:
+    - 499
+    - 603
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 2.0
+    docPositions:
+    - 517
+  rpt_tstbanner: !ruby/object:Word
+    word: rpt_tstbanner
+    stem: rpt_tstbanner
+    docFrequency: 2.0
+    docPositions:
+    - 524
+  afafaf: !ruby/object:Word
+    word: afafaf
+    stem: afafaf
+    docFrequency: 2.0
+    docPositions:
+    - 526
+  overflow: !ruby/object:Word
+    word: overflow
+    stem: overflow
+    docFrequency: 3.0
+    docPositions:
+    - 530
+    - 591
+  rpt_tst: !ruby/object:Word
+    word: rpt_tst
+    stem: rpt_tst
+    docFrequency: 2.0
+    docPositions:
+    - 533
+  testmnl: !ruby/object:Word
+    word: testmnl
+    stem: testmnl
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  sig: !ruby/object:Word
+    word: sig
+    stem: sig
+    docFrequency: 2.0
+    docPositions:
+    - 554
+  rprt: !ruby/object:Word
+    word: rprt
+    stem: rprt
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 570
+  bbb: !ruby/object:Word
+    word: bbb
+    stem: bbb
+    docFrequency: 4.0
+    docPositions:
+    - 575
+    - 580
+    - 792
+  perfrm: !ruby/object:Word
+    word: perfrm
+    stem: perfrm
+    docFrequency: 2.0
+    docPositions:
+    - 585
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 603
+  buttons: !ruby/object:Word
+    word: buttons
+    stem: button
+    docFrequency: 2.0
+    docPositions:
+    - 610
+  sitebtns: !ruby/object:Word
+    word: sitebtns
+    stem: sitebtn
+    docFrequency: 2.0
+    docPositions:
+    - 610
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 19.0
+    docPositions:
+    - 610
+    - 767
+    - 774
+    - 775
+    - 798
+    - 846
+    - 847
+    - 898
+    - 899
+    - 940
+    - 947
+    - 948
+    - 952
+    - 953
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  cursor: !ruby/object:Word
+    word: cursor
+    stem: cursor
+    docFrequency: 2.0
+    docPositions:
+    - 626
+  pointer: !ruby/object:Word
+    word: pointer
+    stem: pointer
+    docFrequency: 2.0
+    docPositions:
+    - 626
+  cta: !ruby/object:Word
+    word: cta
+    stem: cta
+    docFrequency: 5.0
+    docPositions:
+    - 633
+    - 634
+    - 635
+    - 636
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 649
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 8.0
+    docPositions:
+    - 649
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  screen: !ruby/object:Word
+    word: screen
+    stem: screen
+    docFrequency: 2.0
+    docPositions:
+    - 649
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 42.0
+    docPositions:
+    - 649
+    - 774
+    - 777
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  fbfbfb: !ruby/object:Word
+    word: fbfbfb
+    stem: fbfbfb
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 15.0
+    docPositions:
+    - 662
+    - 663
+    - 664
+    - 665
+    - 666
+    - 669
+    - 672
+    - 673
+    - 674
+    - 677
+    - 681
+    - 684
+    - 687
+    - 688
+  pfpletter: !ruby/object:Word
+    word: pfpletter
+    stem: pfpletter
+    docFrequency: 2.0
+    docPositions:
+    - 671
+  pfpoffer: !ruby/object:Word
+    word: pfpoffer
+    stem: pfpoffer
+    docFrequency: 2.0
+    docPositions:
+    - 676
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 15.0
+    docPositions:
+    - 729
+    - 776
+    - 777
+    - 798
+    - 847
+    - 899
+    - 933
+    - 934
+    - 935
+    - 940
+    - 948
+    - 953
+  riverside: !ruby/object:Word
+    word: riverside
+    stem: riversid
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  plaza: !ruby/object:Word
+    word: plaza
+    stem: plaza
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  suite: !ruby/object:Word
+    word: suite
+    stem: suit
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  chicago: !ruby/object:Word
+    word: chicago
+    stem: chicago
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  illinois: !ruby/object:Word
+    word: illinois
+    stem: illinoi
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 2.0
+    docPositions:
+    - 737
+  addthis_config: !ruby/object:Word
+    word: addthis_config
+    stem: addthis_config
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  data_track_clickback: !ruby/object:Word
+    word: data_track_clickback
+    stem: data_track_clickback
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 6.0
+    docPositions:
+    - 756
+    - 774
+    - 777
+    - 940
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 2.0
+    docPositions:
+    - 756
+  own: !ruby/object:Word
+    word: own
+    stem: own
+    docFrequency: 8.0
+    docPositions:
+    - 756
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  stocks: !ruby/object:Word
+    word: stocks
+    stem: stock
+    docFrequency: 20.0
+    docPositions:
+    - 756
+    - 775
+    - 776
+    - 777
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 756
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 2.0
+    docPositions:
+    - 762
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 767
+    - 830
+    - 885
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 4.0
+    docPositions:
+    - 767
+    - 830
+    - 885
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  obligation: !ruby/object:Word
+    word: obligation
+    stem: oblig
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 25.0
+    docPositions:
+    - 773
+    - 777
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  won: !ruby/object:Word
+    word: won
+    stem: won
+    docFrequency: 3.0
+    docPositions:
+    - 773
+    - 940
+  charged: !ruby/object:Word
+    word: charged
+    stem: charg
+    docFrequency: 3.0
+    docPositions:
+    - 773
+    - 940
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 31.0
+    docPositions:
+    - 773
+    - 774
+    - 798
+    - 846
+    - 847
+    - 898
+    - 899
+    - 940
+    - 947
+    - 948
+    - 952
+    - 953
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 773
+    - 940
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  investment: !ruby/object:Word
+    word: investment
+    stem: invest
+    docFrequency: 52.0
+    docPositions:
+    - 774
+    - 784
+    - 790
+    - 797
+    - 798
+    - 843
+    - 846
+    - 847
+    - 895
+    - 898
+    - 899
+    - 940
+    - 945
+    - 947
+    - 948
+    - 950
+    - 952
+    - 953
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 14.0
+    docPositions:
+    - 774
+    - 777
+    - 784
+    - 790
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  ifs: !ruby/object:Word
+    word: ifs
+    stem: if
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  buts: !ruby/object:Word
+    word: buts
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  ask: !ruby/object:Word
+    word: ask
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  credit: !ruby/object:Word
+    word: credit
+    stem: credit
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  card: !ruby/object:Word
+    word: card
+    stem: card
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  payment: !ruby/object:Word
+    word: payment
+    stem: payment
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 940
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  term: !ruby/object:Word
+    word: term
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  handpicked: !ruby/object:Word
+    word: handpicked
+    stem: handpick
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  analysts: !ruby/object:Word
+    word: analysts
+    stem: analyst
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  break: !ruby/object:Word
+    word: break
+    stem: break
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 4.0
+    docPositions:
+    - 775
+    - 924
+    - 940
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  matter: !ruby/object:Word
+    word: matter
+    stem: matter
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 940
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 9.0
+    docPositions:
+    - 775
+    - 777
+    - 899
+    - 940
+    - 953
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 5.0
+    docPositions:
+    - 775
+    - 899
+    - 940
+    - 953
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 12.0
+    docPositions:
+    - 776
+    - 933
+    - 934
+    - 940
+  buy: !ruby/object:Word
+    word: buy
+    stem: bui
+    docFrequency: 11.0
+    docPositions:
+    - 776
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  stock: !ruby/object:Word
+    word: stock
+    stem: stock
+    docFrequency: 5.0
+    docPositions:
+    - 776
+    - 777
+    - 940
+  unless: !ruby/object:Word
+    word: unless
+    stem: unless
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  says: !ruby/object:Word
+    word: says
+    stem: sai
+    docFrequency: 5.0
+    docPositions:
+    - 776
+    - 940
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  tim: !ruby/object:Word
+    word: tim
+    stem: tim
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 7.0
+    docPositions:
+    - 776
+    - 933
+    - 935
+    - 940
+  madison: !ruby/object:Word
+    word: madison
+    stem: madison
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  wisconsin: !ruby/object:Word
+    word: wisconsin
+    stem: wisconsin
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  pay: !ruby/object:Word
+    word: pay
+    stem: pai
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  lot: !ruby/object:Word
+    word: lot
+    stem: lot
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  attention: !ruby/object:Word
+    word: attention
+    stem: attent
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  sell: !ruby/object:Word
+    word: sell
+    stem: sell
+    docFrequency: 9.0
+    docPositions:
+    - 776
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  recommendations: !ruby/object:Word
+    word: recommendations
+    stem: recommend
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  dump: !ruby/object:Word
+    word: dump
+    stem: dump
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  bad: !ruby/object:Word
+    word: bad
+    stem: bad
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  leroy: !ruby/object:Word
+    word: leroy
+    stem: leroi
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 4.0
+    docPositions:
+    - 776
+    - 934
+    - 940
+  laramie: !ruby/object:Word
+    word: laramie
+    stem: larami
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  wyoming: !ruby/object:Word
+    word: wyoming
+    stem: wyom
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 940
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 5.0
+    docPositions:
+    - 777
+    - 778
+    - 940
+  subscription: !ruby/object:Word
+    word: subscription
+    stem: subscript
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 5.0
+    docPositions:
+    - 777
+    - 830
+    - 885
+    - 940
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  profit: !ruby/object:Word
+    word: profit
+    stem: profit
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  pros: !ruby/object:Word
+    word: pros
+    stem: pro
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  briefs: !ruby/object:Word
+    word: briefs
+    stem: brief
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  bull: !ruby/object:Word
+    word: bull
+    stem: bull
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  bear: !ruby/object:Word
+    word: bear
+    stem: bear
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  timely: !ruby/object:Word
+    word: timely
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  commentary: !ruby/object:Word
+    word: commentary
+    stem: commentari
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  equity: !ruby/object:Word
+    word: equity
+    stem: equiti
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  wealth: !ruby/object:Word
+    word: wealth
+    stem: wealth
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  management: !ruby/object:Word
+    word: management
+    stem: manag
+    docFrequency: 5.0
+    docPositions:
+    - 777
+    - 899
+    - 940
+    - 953
+  tips: !ruby/object:Word
+    word: tips
+    stem: tip
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  strategies: !ruby/object:Word
+    word: strategies
+    stem: strategi
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 9.0
+    docPositions:
+    - 777
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  recessions: !ruby/object:Word
+    word: recessions
+    stem: recess
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  corrections: !ruby/object:Word
+    word: corrections
+    stem: correct
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  downturns: !ruby/object:Word
+    word: downturns
+    stem: downturn
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  nearly: !ruby/object:Word
+    word: nearly
+    stem: nearli
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  tripled: !ruby/object:Word
+    word: tripled
+    stem: tripl
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  independently: !ruby/object:Word
+    word: independently
+    stem: independ
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  examined: !ruby/object:Word
+    word: examined
+    stem: examin
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  attested: !ruby/object:Word
+    word: attested
+    stem: attest
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  average: !ruby/object:Word
+    word: average
+    stem: averag
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  gain: !ruby/object:Word
+    word: gain
+    stem: gain
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  per: !ruby/object:Word
+    word: per
+    stem: per
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 777
+    - 940
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 778
+    - 940
+  sensitive: !ruby/object:Word
+    word: sensitive
+    stem: sensit
+    docFrequency: 3.0
+    docPositions:
+    - 778
+    - 940
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 21.0
+    docPositions:
+    - 778
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 3.0
+    docPositions:
+    - 778
+    - 940
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 784
+    - 940
+  rated: !ruby/object:Word
+    word: rated
+    stem: rate
+    docFrequency: 2.0
+    docPositions:
+    - 791
+  accredited: !ruby/object:Word
+    word: accredited
+    stem: accredit
+    docFrequency: 2.0
+    docPositions:
+    - 792
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 792
+  provides: !ruby/object:Word
+    word: provides
+    stem: provid
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 13.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  informs: !ruby/object:Word
+    word: informs
+    stem: inform
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 19.0
+    docPositions:
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 15.0
+    docPositions:
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  choose: !ruby/object:Word
+    word: choose
+    stem: choos
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 9.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 899
+    - 940
+    - 945
+    - 950
+    - 953
+  decisions: !ruby/object:Word
+    word: decisions
+    stem: decis
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  providing: !ruby/object:Word
+    word: providing
+    stem: provid
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  resource: !ruby/object:Word
+    word: resource
+    stem: resourc
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 13.0
+    docPositions:
+    - 797
+    - 798
+    - 843
+    - 847
+    - 895
+    - 899
+    - 940
+    - 945
+    - 948
+    - 950
+    - 953
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 7.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  disclaimer: !ruby/object:Word
+    word: disclaimer
+    stem: disclaim
+    docFrequency: 12.0
+    docPositions:
+    - 797
+    - 843
+    - 895
+    - 940
+    - 945
+    - 950
+  individual: !ruby/object:Word
+    word: individual
+    stem: individu
+    docFrequency: 2.0
+    docPositions:
+    - 798
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 9.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  vary: !ruby/object:Word
+    word: vary
+    stem: vari
+    docFrequency: 3.0
+    docPositions:
+    - 798
+    - 940
+  past: !ruby/object:Word
+    word: past
+    stem: past
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  performance: !ruby/object:Word
+    word: performance
+    stem: perform
+    docFrequency: 19.0
+    docPositions:
+    - 798
+    - 846
+    - 847
+    - 898
+    - 899
+    - 940
+    - 947
+    - 948
+    - 952
+    - 953
+  guarantee: !ruby/object:Word
+    word: guarantee
+    stem: guarante
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  inherent: !ruby/object:Word
+    word: inherent
+    stem: inher
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  potential: !ruby/object:Word
+    word: potential
+    stem: potenti
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  loss: !ruby/object:Word
+    word: loss
+    stem: loss
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 846
+    - 847
+    - 898
+    - 899
+    - 940
+    - 947
+    - 948
+    - 952
+    - 953
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 846
+    - 898
+    - 940
+    - 947
+    - 952
+  informational: !ruby/object:Word
+    word: informational
+    stem: inform
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  purposes: !ruby/object:Word
+    word: purposes
+    stem: purpos
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  nothing: !ruby/object:Word
+    word: nothing
+    stem: noth
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  herein: !ruby/object:Word
+    word: herein
+    stem: herein
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  constitutes: !ruby/object:Word
+    word: constitutes
+    stem: constitut
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  accounting: !ruby/object:Word
+    word: accounting
+    stem: account
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  tax: !ruby/object:Word
+    word: tax
+    stem: tax
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  advice: !ruby/object:Word
+    word: advice
+    stem: advic
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  recommendation: !ruby/object:Word
+    word: recommendation
+    stem: recommend
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  hold: !ruby/object:Word
+    word: hold
+    stem: hold
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  suitable: !ruby/object:Word
+    word: suitable
+    stem: suitabl
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  investor: !ruby/object:Word
+    word: investor
+    stem: investor
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 25.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  assumed: !ruby/object:Word
+    word: assumed
+    stem: assum
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  investments: !ruby/object:Word
+    word: investments
+    stem: invest
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  securities: !ruby/object:Word
+    word: securities
+    stem: secur
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  sectors: !ruby/object:Word
+    word: sectors
+    stem: sector
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  markets: !ruby/object:Word
+    word: markets
+    stem: market
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  identified: !ruby/object:Word
+    word: identified
+    stem: identifi
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  described: !ruby/object:Word
+    word: described
+    stem: describ
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  profitable: !ruby/object:Word
+    word: profitable
+    stem: profit
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 8.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 934
+    - 940
+    - 948
+    - 953
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  notice: !ruby/object:Word
+    word: notice
+    stem: notic
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  views: !ruby/object:Word
+    word: views
+    stem: view
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  opinions: !ruby/object:Word
+    word: opinions
+    stem: opinion
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  expressed: !ruby/object:Word
+    word: expressed
+    stem: express
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  reflect: !ruby/object:Word
+    word: reflect
+    stem: reflect
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  firm: !ruby/object:Word
+    word: firm
+    stem: firm
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  whole: !ruby/object:Word
+    word: whole
+    stem: whole
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  licensed: !ruby/object:Word
+    word: licensed
+    stem: licens
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  dealer: !ruby/object:Word
+    word: dealer
+    stem: dealer
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  broker: !ruby/object:Word
+    word: broker
+    stem: broker
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  adviser: !ruby/object:Word
+    word: adviser
+    stem: advis
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  bank: !ruby/object:Word
+    word: bank
+    stem: bank
+    docFrequency: 5.0
+    docPositions:
+    - 798
+    - 847
+    - 940
+    - 948
+  returns: !ruby/object:Word
+    word: returns
+    stem: return
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  hypothetical: !ruby/object:Word
+    word: hypothetical
+    stem: hypothet
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  portfolios: !ruby/object:Word
+    word: portfolios
+    stem: portfolio
+    docFrequency: 13.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  consisting: !ruby/object:Word
+    word: consisting
+    stem: consist
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  rank: !ruby/object:Word
+    word: rank
+    stem: rank
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  rebalanced: !ruby/object:Word
+    word: rebalanced
+    stem: rebalanc
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  monthly: !ruby/object:Word
+    word: monthly
+    stem: monthli
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  zero: !ruby/object:Word
+    word: zero
+    stem: zero
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  transaction: !ruby/object:Word
+    word: transaction
+    stem: transact
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  costs: !ruby/object:Word
+    word: costs
+    stem: cost
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  actual: !ruby/object:Word
+    word: actual
+    stem: actual
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  unmanaged: !ruby/object:Word
+    word: unmanaged
+    stem: unmanag
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  displayed: !ruby/object:Word
+    word: displayed
+    stem: displai
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  above: !ruby/object:Word
+    word: above
+    stem: abov
+    docFrequency: 7.0
+    docPositions:
+    - 798
+    - 847
+    - 899
+    - 940
+    - 948
+    - 953
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 5.0
+    docPositions:
+    - 825
+    - 828
+    - 880
+    - 883
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 825
+    - 880
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 830
+    - 885
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 830
+    - 885
+  engage: !ruby/object:Word
+    word: engage
+    stem: engag
+    docFrequency: 3.0
+    docPositions:
+    - 899
+    - 953
+  banking: !ruby/object:Word
+    word: banking
+    stem: bank
+    docFrequency: 3.0
+    docPositions:
+    - 899
+    - 953
+  asset: !ruby/object:Word
+    word: asset
+    stem: asset
+    docFrequency: 3.0
+    docPositions:
+    - 899
+    - 953
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 899
+    - 953
+  datalayer: !ruby/object:Word
+    word: datalayer
+    stem: datalay
+    docFrequency: 2.0
+    docPositions:
+    - 922
+  sitesection: !ruby/object:Word
+    word: sitesection
+    stem: sitesect
+    docFrequency: 2.0
+    docPositions:
+    - 923
+  registration: !ruby/object:Word
+    word: registration
+    stem: registr
+    docFrequency: 3.0
+    docPositions:
+    - 923
+    - 928
+  loginstatus: !ruby/object:Word
+    word: loginstatus
+    stem: loginstatu
+    docFrequency: 2.0
+    docPositions:
+    - 924
+  logged: !ruby/object:Word
+    word: logged
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 924
+  sitetype: !ruby/object:Word
+    word: sitetype
+    stem: sitetyp
+    docFrequency: 2.0
+    docPositions:
+    - 925
+  desktop: !ruby/object:Word
+    word: desktop
+    stem: desktop
+    docFrequency: 2.0
+    docPositions:
+    - 925
+  adidinternalcode: !ruby/object:Word
+    word: adidinternalcode
+    stem: adidinternalcod
+    docFrequency: 2.0
+    docPositions:
+    - 926
+  pageidentifier: !ruby/object:Word
+    word: pageidentifier
+    stem: pageidentifi
+    docFrequency: 2.0
+    docPositions:
+    - 927
+  sitesubsection: !ruby/object:Word
+    word: sitesubsection
+    stem: sitesubsect
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  siteevents: !ruby/object:Word
+    word: siteevents
+    stem: siteev
+    docFrequency: 2.0
+    docPositions:
+    - 929
+  pfpsignupemailinfo: !ruby/object:Word
+    word: pfpsignupemailinfo
+    stem: pfpsignupemailinfo
+    docFrequency: 2.0
+    docPositions:
+    - 929
+  accountregistrationstart: !ruby/object:Word
+    word: accountregistrationstart
+    stem: accountregistrationstart
+    docFrequency: 2.0
+    docPositions:
+    - 929
+  testgroup: !ruby/object:Word
+    word: testgroup
+    stem: testgroup
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  _satellite: !ruby/object:Word
+    word: _satellite
+    stem: _satellit
+    docFrequency: 2.0
+    docPositions:
+    - 932
+  pagebottom: !ruby/object:Word
+    word: pagebottom
+    stem: pagebottom
+    docFrequency: 2.0
+    docPositions:
+    - 932
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 3.0
+    docPositions:
+    - 933
+    - 935
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 8.0
+    docPositions:
+    - 933
+    - 934
+  googleanalyticsobject: !ruby/object:Word
+    word: googleanalyticsobject
+    stem: googleanalyticsobject
+    docFrequency: 2.0
+    docPositions:
+    - 933
+  q: !ruby/object:Word
+    word: q
+    stem: q
+    docFrequency: 3.0
+    docPositions:
+    - 934
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 934
+  arguments: !ruby/object:Word
+    word: arguments
+    stem: argument
+    docFrequency: 2.0
+    docPositions:
+    - 934
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 934
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 935
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 935
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 935
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 935
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 936
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 936
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 3.0
+    docPositions:
+    - 936
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 4.0
+    docPositions:
+    - 936
+    - 938
+    - 939
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 938
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 938
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 939
+  pageview: !ruby/object:Word
+    word: pageview
+    stem: pageview
+    docFrequency: 2.0
+    docPositions:
+    - 939
+  disclaimerindividual: !ruby/object:Word
+    word: disclaimerindividual
+    stem: disclaimerindividu
+    docFrequency: 2.0
+    docPositions:
+    - 940
+lineCount: 955
+wordCount: 3601
+rank: 0.2536764705882353
+title: Financial Newsletter
+links:
+- http://www.addthis.com/bookmark.php?v=250&username=zacksinvestment
+- http://www.zacks.com/disclaimer
+- http://www.zacks.com/performance
+- https://www.facebook.com/dialog/oauth?client_id=296811193663844&redirect_uri=http%3A%2F%2Fwww.zacks.com%2Fregistration%2Fpfp%2Ffacebook.php%3FALERT%3DRPT_7BST_LP203&state=dbd7cdeb78a1a0af97f3dba18914c92a&scope=email%2C+user_about_me
+- https://www.facebook.com/dialog/oauth?client_id=296811193663844&redirect_uri=http%3A%2F%2Fwww.zacks.com%2Fregistration%2Fpfp%2Ffacebook.php%3FALERT%3DRPT_7BST_LP203%26ADID%3DCNN_CONTENT_7BEST&state=55d65532ae27b24fddac62bed8258924&scope=email%2C+user_about_me
+rawText: "\n\n\n\n.page{width: 900px;}\n.fineprint {\n    color: #808080;\n    font-family:
+  arial;\n    font-size: 8pt;\n    font-weight: normal;\n}\n\n#pfp_ft_none table td{\n
+  \   font-size: 13px;\n}\n\nfunction _locNewRegFormV(){\n    var d;\n    d = document.ff1;\n\n
+  \   if (window.RegExp) {\n        var reg = new RegExp(\"^[a-z0-9_\\\\.\\\\-]+@+[a-z0-9_\\\\.\\\\-]+(\\\\.[a-z]{2,4})$\",\"gi\");\n
+  \       if (!reg.test(d.email.value)) {\n            alert(\"Email should contain
+  a proper e-mail address!\");\n            d.email.focus();\n            return false;\n
+  \       }\n    }\n\n    if(d.email.value != d.email2.value){\n            alert(\"Your
+  emails don`t match\");\n            d.email.focus();\n            return false;\n
+  \   }\n\n    return true;\n}\n\n\n    \n        \n            \n                \n
+  \                   \n                        \n                            \n                                                                  \n
+  \                       \n                        \n                            \n
+  \                               \n                              \n                        \n
+  \                     \n                                      \n                \n
+  \                   \n                        \n\n                            \r\n\r\n\tLanding
+  Pad Preview\r\n\r\n\r\nfunction _locNewRegFormV(){\r\n\tvar d;\r\n\td = document.ff1;\r\n\r\n\tif
+  (window.RegExp) {\r\n\t\tvar reg = new RegExp(\"^[a-z0-9_\\\\.\\\\-]+@+[a-z0-9_\\\\.\\\\-]+(\\\\.[a-z]{2,4})$\",\"gi\");\r\n\t\tif
+  (!reg.test(d.email.value)) {\r\n\t\t\talert(\"Email should contain a proper e-mail
+  address!\");\r\n\t\t\td.email.focus();\r\n\t\t\treturn false;\r\n\t\t}\r\n\t}\r\n\r\n\tif(d.email.value
+  != d.email2.value){\r\n\t\t\talert(\"Your emails don`t match\");\r\n\t\t\td.email.focus();\r\n\t\t\treturn
+  false;\r\n\t}\r\n\r\n\treturn true;\r\n}\r\n\r\n\r\n    \r\n        \r\n            \r\n
+  \               \r\n                    \r\n                        \r\n                            \r\n
+  \                                                                 \r\n                        \r\n
+  \                       \r\n                            \r\n                                \r\n
+  \                             \r\n                        \r\n                      \r\n
+  \                                     \r\n                \r\n                    \r\n
+  \                       \r\n\r\n\r\n/* overriding CMS frame styles */\r\n\r\n.main
+  {\r\n\tbackground-color: #f0f0f0;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tmargin-right:
+  auto;\r\n\tmargin-left: auto;\r\n\tborder: none;\r\n}\r\n\r\n.bd {\r\n\twidth: 100%;\r\n\theight:
+  100%;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tborder: none;\r\n\tbackground-color:
+  white;\r\n}\r\n\r\n.mod, .z_mod {\r\n\tbackground-color: #fafafa;\r\n\tmargin: 0;\r\n\tpadding:
+  0;\r\n\tmargin-right: auto;\r\n\tmargin-left: auto;\r\n\tborder: none;\r\n}\r\n.z_mod
+  {\r\n\tpadding: 0px 0px 0px 0px;\r\n}\r\n\r\n.page {\r\n\twidth: 100%;\r\n\theight:
+  100%;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tborder: none;\r\n\tbackground-color:
+  #f0f0f0;\r\n}\r\n\r\n/* end CMS frame styles override */\r\n\r\nhtml, body {\r\n\tmargin:
+  0;\r\n\tpadding: 0;\r\n\tborder: 0;\r\n\tdisplay: block;\r\n\tbackground-color:
+  #aeaeae onunload: exitbutton();\r\n}\r\n\r\ndiv, p {\r\n\tfont-family: Helvetica,
+  Arial, sans-serif;\r\n\tfont-size: 15px;\r\n\tline-height: 20px;\r\n\tcolor: #2d2d2d;\r\n\tfont-weight:
+  normal;\r\n\tfont-size-adjust: none;\r\n\tfont-stretch: normal;\r\n\tfont-variant:
+  normal;\r\n}\r\n\r\n#pfpTopContainer {\r\n\twidth: 100%;\r\n\tbackground-color:
+  white;\r\n}\r\n\r\n#pfpBtmContainer {\r\n\twidth: 100%;\r\n\tbackground-color: #aeaeae;\r\n}\r\n\r\n#LogoandShareIcons
+  {\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 1000px;\r\n}\r\n\r\n#pfpTopBdr
+  {\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 900px;\r\n\tpadding:
+  0px 50px;\r\n\tbackground-color: white;\r\n\tborder-top-left-radius: 6px;\r\n\tborder-top-right-radius:
+  6px;\r\n\tborder-left: 1px solid #cacaca;\r\n\tborder-right: 1px solid #cacaca;\r\n\tborder-top:
+  1px solid #cacaca; clear:both;\r\n}\r\n\r\n#pfpHeader {\r\n\tpadding-left: 50px;\r\n\tpadding-bottom:
+  20px;\r\n\tpadding-right: 50px;\r\n\tpadding-top: 1px;\r\n\tbackground-color: white;\r\n\tmargin-left:
+  auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 900px;\r\n\tmin-height: 225px;\r\n\tbackground-position:
+  bottom;\r\n\tbackground-repeat: repeat-x;\r\n\tborder-left: 1px solid #cacaca;\r\n\tborder-right:
+  1px solid #cacaca; \r\n\tclear:both;\r\n}\r\n\r\n#pfpRegBox {\r\n\tmargin-left:
+  auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 350px;\r\n\tmin-height: 150px;\r\n\tbackground-color:
+  #eeefee;\r\n\tborder-radius: 6px;\r\n\tborder: 1px solid #086218;\r\n\ttext-align:
+  center;\r\n\tvertical-align: middle;\r\n\tpadding: 10px;\r\n}\r\n\r\n#pfpMktCopy
+  {\r\n\tpadding-left: 50px;\r\n\tpadding-bottom: 40px;\r\n\tpadding-right: 50px;\r\n\tpadding-top:
+  20px;\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 900px; clear:both;\r\n}\r\n\r\n#pfpAccredidation
+  {\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 900px;\r\n\tpadding:
+  10px 50px 30px;\r\n\tbackground-color: #e7e7e7;\r\n\tborder-bottom-left-radius:
+  6px;\r\n\tborder-bottom-right-radius: 6px;\r\n\tmin-height: 75px;\r\n\tborder-left:
+  1px solid #cacaca;\r\n\tborder-right: 1px solid #cacaca;\r\n\tborder-bottom: 1px
+  solid #999999;\r\n\tbox-shadow: 0px 3px 5px #888888;\r\n\tbackground-image: url(http://woas.zacks.com/adv/pfp/images/etf_lp/grayGradBkgd.png);\r\n\tbackground-position:
+  bottom;\r\n\tbackground-repeat: repeat-x; clear:both;\r\n}\r\n\r\n#pfpAccredidation
+  div p {\r\n\tcolor: #555555;\r\n}\r\n<!-- Footer Start -->\r\n#ReportOnLogos {\r\n\tmax-width:
+  900px;\r\n\tfloat: left;\r\n\tmin-height: 50px;\r\n\tpadding:0px;\r\n}\r\n\r\n#ReportOnLogos
+  p {\r\n\ttext-align: left;\r\n\tfont-size: 13px;\r\n}\r\n\r\n#ARating {\r\n\tmax-width:260px;
+  \r\n\tvertical-align:middle; \r\n\ttext-align:center; \r\n\tfont-size:13px; \r\n\tfloat:right;
+  \r\n\tmin-height:58px; \r\n\tcolor:#555555; \r\n\tmargin:0px 0px 0px;\r\n} \r\n\r\n#Invstars
+  {\r\n\tfloat:left;margin: 0px 74px;\r\n}\r\n\r\n#rptlogo1 {\r\n\tmax-width: 265px;
+  \r\n\theight: 28px; \r\n\tmargin: 0px 0px 0px 10px;\r\n}\r\n\r\n#rptlogo2 { \r\n\tmax-width:
+  265px; \r\n\theight: 28px; \r\n\tmargin: 0px 0px 0px 10px; \r\n\tdisplay: block;\r\n}\r\n\r\n#pfpFooter
+  {\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\tmax-width: 1000px;\r\n\tpadding:
+  20px 0px;\r\n}\r\n<!-- Footer End -->\r\n.quote {\r\n\tfont-family: Times, serif;\r\n\tfont-style:
+  italic;\r\n\tfont-size: 17px;\r\n}\r\n\r\na:link {\r\n\tcolor: #025edb;\r\n\ttext-decoration:
+  none;\r\n}\r\n\r\na:visited {\r\n\tcolor: #025edb;\r\n\ttext-decoration: none;\r\n}\r\n\r\na:hover
+  {\r\n\tcolor: #025edb;\r\n\ttext-decoration: underline;\r\n}\r\n\r\na:active {\r\n\tcolor:
+  #025edb;\r\n\ttext-decoration: none;\r\n}\r\n\r\ntable {\r\n\tborder: none;\r\n\tbackground-color:
+  transparent;\r\n\tcellpadding: 0;\r\n\tcellspacing: 0;\r\n\tborder: 0;\r\n}\r\n\r\ntd
+  {\r\n\tpadding: 0px 4px;\r\n}\r\n\r\n.hd {\r\n\tdisplay: none;\r\n\tvisibility:
+  hidden;\r\n}\r\n\t\r\ndiv#pfp_ft_none {\r\n\tdisplay: none;\r\n\tvisibility: hidden;\r\n}\r\n\t\r\nhtml,
+  body {\r\n\tmargin:0;\r\n\tpadding:0;\r\n\tborder: 0;\r\n\tdisplay: block;\r\n\tbackground-color:
+  #fafafa;\r\n\tonunload: exitbutton();\r\n}\r\n\t\r\ndiv#page {\r\n\tmargin: 0;\r\n\tpadding:
+  0;\r\n\twidth: 100%;\r\n\theight: auto;\r\n\tbackground-color: #fafafa;\r\n}\r\n\t
+  \r\n.content {\r\n\tmax-width: 775px;\r\n\tmargin:0;\r\n\tpadding;0;\r\n\tmargin-right:
+  auto;\r\n\tmargin-left: auto;\r\n\tfont-family: Helvetica, Arial, sans-serif;\r\n\tfont-size:
+  13px;\r\n\tfont-weight: normal;\r\n\ttext-align: left;\r\n\tline-height: 16px;\r\n\tcolor:
+  #323232;\r\n}\r\n\t\r\np {\r\n\tmargin: 0em 0em 1em 0em;\r\n}\r\n\r\nimg {\r\n\tborder:
+  none;\r\n}\r\n\r\nem {\r\n\tfont-family: inherit;\r\n\tfont-size: inherit;\r\n\tfont-weight:
+  inherit;\r\n\tcolor: inherit;\r\n\tline-height: inherit;\r\n\ttext-align: inherit;\r\n}\r\n\t\r\n.centr
+  {\r\n\ttext-align: center;\r\n}\r\n\r\n.fltrght {\r\n\tfloat: right;\r\n\tclear:
+  none;\r\n}\r\n\r\n.clearfix:after {\r\n\tvisibility: hidden;\r\n\tdisplay: block;\r\n\tfont-size:
+  0;\r\n\tcontent: \" \";\r\n\tclear: both;\r\n\theight: 0;\r\n}\r\n\t\r\n* html .clearfix
+  { zoom: 1; } /* IE6 */\r\n*:first-child+html .clearfix { zoom: 1; } /* IE7 */\r\n\t\r\ndiv#logo
+  {\r\n\tmax-width: 775px;\r\n\tpadding: 10px 0px;\r\n\tborder-bottom: 1px solid #cacaca;\r\n\tbox-shadow:
+  0px 1px #ffffff;\r\n\t-webkit-box-shadow: 0px 1px  #ffffff;\r\n\t-moz-box-shadow:
+  0px 1px #ffffff;\r\n\t-o-box-shadow: 0px 1px #ffffff;\r\n}\r\n\t\r\n.zlogo {\r\n\tfont-family:
+  'Trebuchet MS', Helvetica, Arial, sans-serif;\r\n\tfont-size: 16px;\r\n\tcolor:
+  344f38;\r\n\tfont-weight: bold;\r\n\tpadding-left: 10px;\r\n}\r\n\r\n.soc {\r\n\tfloat:
+  right;\r\n\tdisplay: table;\r\n\theight: 14px;\r\n\tpadding: 50px 10px 0px 0px;\r\n}\r\n\t\r\n.head
+  {\r\n\tmax-width: 695px;\r\n\tmargin-right: auto;\r\n\tmargin-left: auto;\r\n\tborder-bottom:
+  5px solid #096319;\t\r\n}\r\n\t\r\n.Header {\r\n\tfont-size: 24px;\r\n\tfont-weight:
+  bold; \r\n\tline-height:28px; \r\n\tcolor:#009f19; \r\n\tmargin: 0;\r\n\tpadding:
+  10px 0px 12px 10px;\r\n}\r\n\t \r\n.subHead {\r\n\tfont-size: 18px;\r\n\tfont-weight:
+  bold;\r\n\tline-height: 24px;\r\n\tcolor:#323232;\r\n}\r\n\r\n.email {\r\n\tfont-size:
+  14px;\r\n\tfont-weight: bold;\r\n}\r\n\t\r\n.inputBox {\r\n\tmargin:0;\r\n\tmargin-bottom:
+  30px;\r\n\tpadding: 0;\r\n\tbackground-color: #ffffff;\r\n\tborder: 1px solid #dfdfdf;\r\n\t-webkit-border-radius:
+  2px;\r\n\t-moz-border-radius: 2px;\r\n\t-o-border-radius: 2px;\r\n\tborder-radius:
+  2px;\r\n\tbox-shadow:0 1px 4px #7f7f7f inset;\r\n\theight: 30px;\r\n\twidth: 225px;\r\n\tline-height:
+  20px;\r\n\ttext-indent: 5px;\r\n}\r\n\r\ninput:focus {\r\n\toutline: 1px solid #025edb;\r\n}\r\n\r\n.submit
+  {\r\n\tmargin-bottom: 12px;\r\n\tpadding: 0;\r\n\tbackground-color:transparent;\r\n\tcolor:
+  #ffffff;\r\n\tfont-weight: bold;\r\n\ttext-align: center;\r\n\tborder: none;\r\n}\r\n\t\r\n.fineprint
+  {\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-size: 11px;\r\n\tline-height: 14px;\r\n\tcolor:
+  #323232;\r\n\tfont-weight: normal;\r\n}\r\n\t\r\n.copy {\r\n\tmax-width: 695px;\r\n\tmargin-right:
+  auto;\r\n\tmargin-left: auto;\r\n\tpadding: 10px 0px;\r\n}\r\n\r\ndiv#rpt_tstBanner
+  {\r\n\twidth: 100%;\r\n\tbackground-color: #afafaf;\r\n\tborder-top: 1px solid #9f9f9f;\r\n\tbox-shadow:
+  0px -1px #cacaca;\r\n\tpadding: 10px 0px;\r\n\toverflow: hidden;\r\n}\r\n\t\r\ndiv#rpt_tst
+  {\r\n\tmax-width: 735px;\r\n\tbackground-color: transparent;\r\n\tmargin-right:
+  auto;\r\n\tmargin-left: auto;\r\n\tpadding: 10px 0px;\r\n}\r\n\t\r\n.testmnl {\r\n\tmax-width:
+  326px;\r\n\tpadding: 10px 20px;\r\n\tmargin: 0;\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-size:
+  14px;\r\n\tline-height: 18px;\r\n\tcolor: #323232;\r\n\tfont-weight: normal;\r\n\ttext-align:
+  left;\r\n\tfloat: right;\r\n}\r\n\r\n.sig {\r\n\ttext-align: right;\r\n}\r\n\t\r\n.rprt
+  {\r\n\tmax-width: 326px;\r\n\tpadding: 10px 20px;\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-size:
+  14px;\r\n\tline-height: 18px;\r\n\tcolor: #323232;\r\n\tfont-weight: bold;\r\n\ttext-align:
+  left;\r\n\tborder-right: 1px solid #8f8f8f;\r\n}\r\n\t\r\n.rprt p, img {\r\n\tmargin:
+  0px 0px 6px 0px;\r\n\tfont-weight: bold;\r\n}\r\n\t\r\n.bbb {\r\n\tpadding-top:
+  10px;\r\n\tpadding-bottom: 7px;\r\n}\r\n\t\r\n.bbb p {\r\n\tfont-size: 11px;\r\n\tfont-weight:
+  bold;\r\n}\r\n\t\r\ndiv#perfrm {\r\n\twidth: 100%;\r\n\tpadding: 10px;\r\n\tbackground-color:
+  #e8e8e8;\r\n\tborder-top: 1px solid #fafafa;\r\n\tbox-shadow: 0px -1px #9f9f9f;\r\n\toverflow:
+  hidden;\r\n}\r\n\t\r\n.footer {\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-size:
+  11px;\r\n\tline-height: 13px;\r\n\tcolor: #626262;\r\n\tfont-weight: normal;\r\n\ttext-align:
+  center;\r\n}\r\n\t\r\ninput[type=submit] {\r\n\tmargin-bottom: 12px;\r\n\tmargin-top:
+  12px;\r\n\tfont-family: Helvetica, Arial, sans-serif;\r\n\tfont-size: 14px;\r\n\tfont-weight:
+  bold;\r\n\ttext-align: center;\r\n\tbackground: url(\"http://woas.zacks.com/adv/images/buttons/siteBtns/btn_blankOJ_190.png\")
+  no-repeat center center;\r\n\tbackground-image: cover;\r\n\twidth: 168px;\r\n\theight:
+  28px;\r\n\tborder: 1px solid #bd4600;\r\n\tcolor: #ffffff;\r\n\tfont-weight: bold;\r\n\tline-height:
+  24px;\r\n\ttext-shadow: 0px -1px 1px #030405;\r\n\t-moz-text-shadow: 0px -1px 1px
+  #030405;\r\n\t-webkit-text-shadow: 0px -1px 1px #030405;\r\n\t-o-text-shadow: 0px
+  -1px 1px #030405;\r\n\tborder-radius: 2px;\r\n\t-moz-border-radius: 2px;\r\n\t-webkit-border-radius:
+  2px;\r\n\t-o-border-radius: 2px;\r\n\tcursor: pointer;\r\n\tbox-shadow: 0px 1px
+  3px #333;\r\n\t-moz-box-shadow:  0px 1px 3px #333;\r\n\t-webkit-box-shadow: 0px
+  1px 3px #333;\r\n\t-o-box-shadow: 0px 1px 3px #333;\r\n}\r\n\r\na.cta:link{color:
+  #025edb; text-decoration:none;}\r\na.cta:visited{color: #025edb; text-decoration:none;}\r\na.cta:hover{color:
+  #025edb; text-decoration:underline;}\r\na.cta:active{color: #025edb; text-decoration:none;}\r\n\r\ntable
+  {\r\n\tborder: none;\r\n\tbackground-color: transparent;\r\n\tcellpadding: 0;\r\n\tcellspacing:
+  0;\r\n\tborder: 0;\r\n}\r\n\r\ntd {\r\n\tpadding: 0px 4px;\r\n}\r\n@media only screen
+  and (max-width: 479px) {\r\n\t#pfpHeader {\r\n\t\tpadding: 0px;\r\n\t}\r\n\t#pfpMktCopy
+  {\r\n\tpadding-left: 10px;\r\n\tpadding-bottom: 0px;\r\n\tpadding-right: 10px;\r\n\tpadding-top:
+  0px;\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n\t}\r\n\t#pfpRegBox {\r\n\t\tbackground-color:
+  #FBFBFB !important;\r\n\t\tbox-shadow: none !important;\r\n\t\tpadding: 0px !important;\r\n\t\tborder:
+  none !important;\r\n\t\tborder-radius: 0px !important;\r\n\t}\r\n\t#pfpFooter {\r\n\tpadding:
+  20px 10px !important;\r\n\t}\r\n\t#pfpLetter {\r\n\tpadding:20px !important;  \r\n\tbox-shadow:0px
+  !important; \r\n\tmargin:0px !important;\r\n\t}\r\n\t#pfpOffer {\r\n\tmargin:0px
+  !important; \r\n\tpadding:0px;\r\n\t}\r\n\t#ARating {\r\n\tmargin:0px 24px 15px
+  !important;\r\n\t} \r\n\t#Invstars {\r\n\tmargin: 15px 36px !important;\r\n\t}\r\n\t#pfpAccredidation
+  {\r\n\tpadding: 10px 14px 30px !important;\r\n\tmin-height: 255px !important;\r\n\t}\r\n\t#rptlogo1
+  {\r\n\tmax-width: 265px; \r\n\theight: 28px; \r\n\tmargin: 0px 0px 0px 3px;\r\n\t}\r\n\t#rptlogo2
+  { \r\n\tmax-width: 265px; \r\n\theight: 28px; \r\n\tmargin: 0px 0px 0px 3px; \r\n\tdisplay:
+  block;\r\n\t}\r\n}\t\r\n\r\nfunction _locNewRegFormV(){\r\n\tvar d;\r\n\td = document.ff1;\r\n\r\n\tif
+  (window.RegExp) {\r\n\t\tvar reg = new RegExp(\"^[a-z0-9_\\\\.\\\\-]+@+[a-z0-9_\\\\.\\\\-]+(\\\\.[a-z]{2,4})$\",\"gi\");\r\n\t\tif
+  (!reg.test(d.email.value)) {\r\n\t\t\talert(\"Email should contain a proper e-mail
+  address!\");\r\n\t\t\td.email.focus();\r\n\t\t\treturn false;\r\n\t\t}\r\n\t}\r\n\r\n\tif(d.email.value
+  != d.email2.value){\r\n\t\t\talert(\"Your emails don`t match\");\r\n\t\t\td.email.focus();\r\n\t\t\treturn
+  false;\r\n\t}\r\n\r\n\treturn true;\r\n}\r\n\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t10
+  S. Riverside Plaza, Suite 1600  |  Chicago Illinois 60606\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t
+  \r\n\t\t\t\t\t\t\t\t\t\t\t\tShare \r\n\t\t\t\t\t\t\t\t\t\t\t\t| \r\n\t\t\t\t\t\t\t\t\t\t\t\t
+  \r\n\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t
+  \r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tvar addthis_config = {\"data_track_clickback\":true};\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\r\n\t\t\r\n\t\t \r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\tFree:
+  7 Must-Own Stocks for December\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\tEnter
+  your email address\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\tPrivacy
+  Policy  |  No cost or obligation.\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\tYou
+  won't be charged in any way.\r\n\t\t\tThis report from Zacks Investment Research
+  is 100% free – no ifs, and, or buts. We don't ask for credit card, check, or any
+  form of payment.\r\n\t\t\tIt features short-term stocks handpicked by Zacks analysts
+  to break out in the next 30 days, no matter what the market does.\r\n\t\t\t\"I don't
+  buy a stock unless Zacks says it's a Strong Buy,\" reports Tim M. from Madison,
+  Wisconsin. \"I pay a lot of attention to sell recommendations from Zacks to dump
+  stocks before they go bad,\" says Leroy L. from Laramie, Wyoming. \r\n\t\t\tWhat's
+  more, you'll get a free subscription to our e-newsletter, Profit from the Pros.
+  Each issue briefs you with Bull and Bear Stocks of the Day, timely market commentary,
+  equity research, wealth management tips and stock strategies. All this from the
+  system that even through recessions, corrections, and downturns has nearly tripled
+  the market since 1988 with an independently examined and attested average gain of
+  +26% per year.\r\n\t\t\tGet this time sensitive information now.\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\tZacks
+  Investment Research is reported on:\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t    \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tZacks
+  Investment Research\r\n\t\t\t\t\t\tis an  A+ Rated\r\n\t\t\t\t\t\tBBB Accredited
+  Business\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\tZacks.com
+  provides investment resources and informs you of these resources, which you may
+  choose to use in making your own investment decisions. Zacks is providing information
+  on this resource to you subject to the Zacks \"Terms and Conditions of Service\"
+  disclaimer. http://www.zacks.com/disclaimer\r\n\t\t\t\tIndividual results may vary.
+  Past performance is no guarantee of future results. Inherent in any investment is
+  the potential for loss. This material is being provided for informational purposes
+  only and nothing herein constitutes investment, legal, accounting or tax advice,
+  or a recommendation to buy, sell or hold a security. No recommendation or advice
+  is being given as to whether any investment is suitable for a particular investor.
+  It should not be assumed that any investments in securities, companies, sectors
+  or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction
+  costs. These are not the returns of actual portfolios of stocks. The S&P 500 is
+  an unmanaged index. Visit http://www.zacks.com/performance for information about
+  the performance numbers displayed above.\r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\r\n\t\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t
+  \ \r\n\t  \r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tEmail
+  Address\r\n\t\t\t\t\t\t  \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tPlease provide your e-mail
+  address:\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\tPlease
+  repeat your e-mail address:\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\tClick to
+  view our Privacy Policy\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t-OR-
+  \                                               \r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tZacks.com
+  provides investment resources and informs you of these resources,which you may choose
+  to use in making your own investment decisions. Zacks is providing information on
+  this resource to you subject to the Zacks \"Terms and Conditions of Service\" disclaimer.
+  zacks.com/disclaimer\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tPast
+  performance is no guarantee of future results. Inherent in any investment is the
+  potential for loss. This material is being provided for\r\n\t\t\t\t\t\t\t\t\t\t\tinformational
+  purposes only and nothing herein constitutes investment, legal, accounting or tax
+  advice, or a recommendation to buy, sell or hold a security. No recommendation or
+  advice is being given as to whether any investment is suitable for a particular
+  investor. It should not be assumed that any investments in securities, companies,
+  sectors or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank 1 that were rebalanced monthly with zero transaction costs.
+  These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged
+  index. Visit zacks.com/performance  for information about the performance numbers
+  displayed above.\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t
+  \ \r\n\t\t\t\t\t  \r\n\t\t\t\t\r\n\t\t\t  \r\n\t\t\r\n\t  \r\n  \r\n\r\n  \r\n \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \                           \n                        \n                      \n
+  \                 \n                \n                    \n                    \n
+  \                       \n                            \n                                \n
+  \                                   Email Address\n                                  \n
+  \                               \n                                    Please provide
+  your e-mail address:\n                                            \n                                         \n
+  \                                       Please repeat your e-mail address:\n                                            \n
+  \                                       Click to view our Privacy Policy\n                                             \n
+  \                                       \n                                            \n
+  \                                               \n                                                \n
+  \                -OR-                                                \n                                            \n
+  \                                        \n                                                \n
+  \                                                   Zacks.com provides investment
+  resources and informs you of these resources,which you may choose to use in making
+  your own investment decisions. Zacks is providing information on this resource to
+  you subject to the Zacks \"Terms and Conditions of Service\" disclaimer. www.zacks.com/disclaimer\n
+  \                                               \n                                                \n
+  \                                                   Past performance is no guarantee
+  of future results. Inherent in any investment is the potential for loss. This material
+  is being provided for\n                    informational purposes only and nothing
+  herein constitutes investment, legal, accounting or tax advice, or a recommendation
+  to buy, sell or hold a security. No recommendation or advice is being given as to
+  whether any investment is suitable for a particular investor. It should not be assumed
+  that any investments in securities, companies, sectors or markets identified and
+  described were or will be profitable. All information is current as of the date
+  of herein and is subject to change without notice. Any views or opinions expressed
+  may not reflect those of the firm as a whole. Zacks Investment Research does not
+  engage in investment banking, market making or asset management activities of any
+  securities. These returns are from hypothetical portfolios consisting of stocks
+  with Zacks Rank 1 that were rebalanced monthly with zero transaction costs. These
+  are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged
+  index. Visit www.zacks.com/performance  for information about the performance numbers
+  displayed above.\n                                                \n                                            \n
+  \                                         \n                              \n                        \n
+  \                     \n                    \n                  \n              \n
+  \       \n      \n\n\n \n    \n    \n     \n    \n\n\n\n\nvar dataLayer = {\nsiteSection:
+  'Registration'\n,   loginStatus: 'Logged out'\n, siteType: 'desktop'\n,   adidInternalCode
+  : 'CNN_CONTENT_7BEST'\n,   pageIdentifier: \"\"\n,   siteSubSection: 'Registration:PFP'\n,
+  siteEvents:{pfpSignupEmailInfo:true, accountRegistrationStart:true}\n, testGroup
+  : 'RPT_7BST_LP203'\n};\n_satellite.pageBottom();\n         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+  \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+  \        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+  \        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+  \        ga('create', 'UA-3472419-1', 'auto');\n         ga('send', 'pageview');\n
+  \        You won't be charged in any way.This report from Zacks Investment Research
+  is 100% free – no ifs, and, or buts. We don't ask for credit card, check, or any
+  form of payment.It features short-term stocks handpicked by Zacks analysts to break
+  out in the next 30 days, no matter what the market does.\"I don't buy a stock unless
+  Zacks says it's a Strong Buy,\" reports Tim M. from Madison, Wisconsin. \"I pay
+  a lot of attention to sell recommendations from Zacks to dump stocks before they
+  go bad,\" says Leroy L. from Laramie, Wyoming. What's more, you'll get a free subscription
+  to our e-newsletter, Profit from the Pros. Each issue briefs you with Bull and Bear
+  Stocks of the Day, timely market commentary, equity research, wealth management
+  tips and stock strategies. All this from the system that even through recessions,
+  corrections, and downturns has nearly tripled the market since 1988 with an independently
+  examined and attested average gain of +26% per year.Get this time sensitive information
+  now.Zacks Investment Research is reported on:Zacks.com provides investment resources
+  and informs you of these resources, which you may choose to use in making your own
+  investment decisions. Zacks is providing information on this resource to you subject
+  to the Zacks \"Terms and Conditions of Service\" disclaimer. http://www.zacks.com/disclaimerIndividual
+  results may vary. Past performance is no guarantee of future results. Inherent in
+  any investment is the potential for loss. This material is being provided for informational
+  purposes only and nothing herein constitutes investment, legal, accounting or tax
+  advice, or a recommendation to buy, sell or hold a security. No recommendation or
+  advice is being given as to whether any investment is suitable for a particular
+  investor. It should not be assumed that any investments in securities, companies,
+  sectors or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction
+  costs. These are not the returns of actual portfolios of stocks. The S&P 500 is
+  an unmanaged index. Visit http://www.zacks.com/performance for information about
+  the performance numbers displayed above.  \r\n\t\t\r\n\t\r\n\tEmail Address                                                \r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tZacks.com
+  provides investment resources and informs you of these resources,which you may choose
+  to use in making your own investment decisions. Zacks is providing information on
+  this resource to you subject to the Zacks \"Terms and Conditions of Service\" disclaimer.
+  zacks.com/disclaimer\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tPast performance
+  is no guarantee of future results. Inherent in any investment is the potential for
+  loss. This material is being provided for\r\n\t\t\t\t\t\t\t\t\t\t\tinformational
+  purposes only and nothing herein constitutes investment, legal, accounting or tax
+  advice, or a recommendation to buy, sell or hold a security. No recommendation or
+  advice is being given as to whether any investment is suitable for a particular
+  investor. It should not be assumed that any investments in securities, companies,
+  sectors or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research is not a licensed securities dealer, broker or US investment
+  adviser or investment bank. These returns are from hypothetical portfolios consisting
+  of stocks with Zacks Rank 1 that were rebalanced monthly with zero transaction costs.
+  These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged
+  index. Visit zacks.com/performance  for information about the performance numbers
+  displayed above.\r\n\t\t\t\t\t\t\t\t\t\t\tEmail Address                                                \n
+  \                                                   Zacks.com provides investment
+  resources and informs you of these resources,which you may choose to use in making
+  your own investment decisions. Zacks is providing information on this resource to
+  you subject to the Zacks \"Terms and Conditions of Service\" disclaimer. www.zacks.com/disclaimer\n
+  \                                               \n                                                    Past
+  performance is no guarantee of future results. Inherent in any investment is the
+  potential for loss. This material is being provided for\n                    informational
+  purposes only and nothing herein constitutes investment, legal, accounting or tax
+  advice, or a recommendation to buy, sell or hold a security. No recommendation or
+  advice is being given as to whether any investment is suitable for a particular
+  investor. It should not be assumed that any investments in securities, companies,
+  sectors or markets identified and described were or will be profitable. All information
+  is current as of the date of herein and is subject to change without notice. Any
+  views or opinions expressed may not reflect those of the firm as a whole. Zacks
+  Investment Research does not engage in investment banking, market making or asset
+  management activities of any securities. These returns are from hypothetical portfolios
+  consisting of stocks with Zacks Rank 1 that were rebalanced monthly with zero transaction
+  costs. These are not the returns of actual portfolios of stocks. The S&P 500 is
+  an unmanaged index. Visit www.zacks.com/performance  for information about the performance
+  numbers displayed above.\n                                                "

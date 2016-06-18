@@ -1,0 +1,3624 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://wayback.archive.org/web/20090504084802/http://www.en.argentina.ar/_en/science-and-education/
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://www.en.argentina.ar/_en/science-and-education/";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "4";
+- |
+  var displayMonth = "May";
+- |
+  var displayYear = "2009";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    MAR\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tMAY\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    JUL\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                   \n"
+- "               \n"
+- "               \n"
+- |2
+                 4
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2008
+- "               \n"
+- "               \n"
+- |2
+                 2009
+- "\t       \n"
+- "               \n"
+- "\t           2010\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             33 captures
+- |2
+             22 Jan 09 - 5 Aug 14
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();\r\n"
+- "\t\n"
+- "    \t\n"
+- "\t    \t\n"
+- "\t\t        Argentina - Official Promotion Portal for Argentina\n"
+- "\t\t\t        Agenda\n"
+- "\t\t\t        Argentina in the press\n"
+- "\t\t\t        Blog\n"
+- "\t\t\t        Specials\n"
+- "\t\t\t        News\n"
+- "\t\t\t        Map        \n"
+- "\t\t\t        Multimedia\n"
+- "\t\t\t    \n"
+- "\t        \n"
+- "\t\t        Contact\n"
+- "\t\t            Newsletters\n"
+- "\t\t            Links A-Z\n"
+- "\t\t            RSS\n"
+- "\t\t        \n"
+- "\t\t\t\n"
+- "\t            \n"
+- "\t\t            Climate\n"
+- "\t            Mon 05.04.2009  06:30 (GMT -3)\n"
+- "\t                    \n"
+- "       \n"
+- "\t   \n"
+- "\t   \tArgentina - Official Promotion Portal for Argentina\n"
+- "\t   \t\n"
+- "       \n"
+- "\t\t   Argentina - Science and Education\n"
+- "\t   \n"
+- |2+
+
+- "    \n"
+- "       \n"
+- "        \tRegister\n"
+- "        \t        \t\n"
+- "        \t            Enter\n"
+- "                        \n"
+- "       \n"
+- "\t\t\n"
+- "            \n"
+- |2
+                  EspaÃ±ol
+- |2
+                  English
+- |2
+                  PortuguÃªs
+- "                \n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "\t\t\n"
+- "\t   \t\t\n"
+- "\t   \t\t\n"
+- "\t\t\t \targentina.ar\n"
+- "\t            \n"
+- "\t\t\t\t\n"
+- "\t        \tAdvanced\n"
+- "\t   \t\t\n"
+- "\t   \t\t     \n"
+- "\t\t\n"
+- |2+
+
+- "      \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- "\t\t\t\t\t                          \n"
+- "\t\t\t\n"
+- "\t\t\t\tTourism\n"
+- "\t\t\t\t\tEconomy and Business\n"
+- "\t\t\t\t\tCulture\n"
+- "\t\t\t\t\tSports\n"
+- "\t\t\t\t\tScience and Education\n"
+- "\t\t\t\t\tCountry\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\n"
+- |2+
+
+- "\tScience and Education\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- |2
+           
+- "        \t    \t\n"
+- "\t\t            \t        \t\t\n"
+- "\t\t            \t        \t\t \n"
+- "\t\t            A future outlook for Argentine Science\n"
+- "\t        \t\tThe high standards of research and teaching centres have allowed
+  the local scientific tradition to preserve its prestige and meet the new challenges.\n"
+- "\t            \n"
+- "            \n"
+- "            \n"
+- "\t\t\t\t        \n"
+- "\t        \t\n"
+- "\t            \n"
+- "\t            \t            \n"
+- "\t        \tINVAP, tailored cutting-edge technology\n"
+- "\t            Hand in hand with this State Society, Argentina exports nuclear reactors,
+  satellites and medical equipment to the rest of the world. It represents the latest
+  technology completely designed and developed in our country.\n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \t            \n"
+- "\t            Study in Argentina\n"
+- "\t            A new 40 page guide for foreign students with all the information
+  about the country. Useful data about requirements, resources, Spanish learning,
+  universities and language institutes. In pdf.version to download and print.\n"
+- "\t            \n"
+- "\t\n"
+- "\t            \n"
+- "\t             \n"
+- "\t            \t            \n"
+- "\t            Nanotechnology in Argentina\n"
+- "\t            At present, the scientific tradition in the country gives way to
+  the possibility of developing important research in nanotechnology and also to many
+  local companies the use of this technique to manufacture innovative products.\n"
+- "\t            \n"
+- "\t        \n"
+- "\t        \t\t\t\t        \n"
+- "\t        \t\n"
+- "\t            \n"
+- "\t            \t            \n"
+- "\t        \tEolic energy in Argentina\n"
+- "\t            The eolic energy production in Argentina has grown remarkably due
+  to the construction of major eolic Parks, which primarily rely on energy-rich Patagonian
+  winds in order to generate renewable energy.\n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \n"
+- "\t\t\t\t\n"
+- "\t            \t            \t\n"
+- "\t            Argentina on space\n"
+- "\t            The National Space Activities Commission (CONAE) promotes and implements
+  all activities related to the spatial area. Its satellite projets positioning the
+  country among the eight nations in the world capable of satelizaciÃ³n own.\n"
+- "\t            \n"
+- "\t\n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \t            \n"
+- "\t            Argentine biotechnology\n"
+- "\t            Is one of the central points of the strategy of scientific development,
+  and also of the productive development in Argentina. Companies with technological
+  foundations generate investigation and products, known all around the world.\n"
+- "\t          \n"
+- "\t        \t\n"
+- "\t            \n"
+- "\t\t    \n"
+- "           \n"
+- "          \t\t\n"
+- "\t\t\t   \t\n"
+- "\t        \t\t\n"
+- "\t\t\t\t\t\tNanotechnology\n"
+- "\t\t\t            \n"
+- "\t\t        \t \t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\n"
+- "\t\t        \t\n"
+- "\t\t\t\t\t\tBiotechnology\n"
+- "\t\t\t            \n"
+- "\t        \t\t\t\t\t\t\t\n"
+- "\t        \t\t\t\t\t\t\n"
+- "\t\t\t \t\t\t\t\n"
+- "\t\t  \n"
+- "          \t\t\n"
+- "\t\t\t   \t\n"
+- "\t        \t\t\n"
+- "\t\t\t\t\t\tSpanish in Argentina\n"
+- "\t\t\t            \n"
+- "\t\t        \t \t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\n"
+- "\t\t        \t\n"
+- "\t\t\t\t\t\tRaÃ­ces Program\n"
+- "\t\t\t            \n"
+- "\t        \t\t\t\t\t\t\t\n"
+- "\t        \t\t\t\t\t\t\n"
+- "\t\t\t \t\t\t\t\n"
+- "\t\t  \n"
+- "          \t\t\n"
+- "\t\t\t   \t\n"
+- "\t        \t\t\n"
+- "\t\t\t\t\t\tStudying in Argentina\n"
+- "\t\t\t            \n"
+- "\t\t        \t \t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\n"
+- "\t\t        \t\n"
+- "\t\t\t\t\t\tTechnological Cooperation\n"
+- "\t\t\t            \n"
+- "\t        \t\t\t\t\t\t\t\n"
+- "\t        \t\t\t\t\t\t\n"
+- "\t\t\t \t\t\t\t\n"
+- "\t\t  \n"
+- "          \t\t\n"
+- "\t\t\t   \t\n"
+- "\t        \t\t\n"
+- "\t\t\t\t\t\tResearch Centers\n"
+- "\t\t\t            \n"
+- "\t\t        \t \t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\n"
+- "\t\t        \t\n"
+- "\t\t\t\t\t\tUniversities\n"
+- "\t\t\t            \n"
+- "\t        \t\t\t\t\t\t\t\n"
+- "\t        \t\t\t\t\t\t\n"
+- "\t\t\t \t\t\t\t\n"
+- "\t\t  \n"
+- "          \t\t\n"
+- "\t\t\t   \t\n"
+- "\t        \t\t\n"
+- "\t\t\t\t\t\tR&D Investment Programs\n"
+- "\t\t\t            \n"
+- "\t\t        \t \t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\t\n"
+- "\t          \t\t\t\t\t\n"
+- "\t\t        \t\n"
+- "\t\t\t\t\t\tInnovation and Science\n"
+- "\t\t\t            \n"
+- "\t        \t\t\t\t\t\t\t\n"
+- "\t        \t\t\t\t\t\t\n"
+- "\t\t\t \t\t\t\t\n"
+- "\t\t  \t\n"
+- "\t\t  \t\n"
+- "\t\n"
+- "       \t\t \t \t\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- "    \t\n"
+- "\t\n"
+- |2+
+
+- "   \n"
+- "        \n"
+- |2
+          Agenda
+- "        \n"
+- "         \n"
+- "   \n"
+- "     \n"
+- "\t\t    \n"
+- "            \t \n"
+- |2
+                  Book Fair
+- "\t\t\t     City of Buenos Aires\n"
+- |2
+                   April 23 to May 11
+- "          \t\t The new edition of the biggest book fair of the Hispanic world will
+  be presenting over 1,500 exhibitors.\n"
+- "            \n"
+- "     \n"
+- "     \n"
+- "     \n"
+- "   \n"
+- "   \n"
+- "    \n"
+- "    \tDecember-2008January-2009February-2009March-2009April-2009May-2009June-2009July-2009August-2009September-2009October-2009November-2009December-2009January-2010April-2010August-2010September-2010October-2010December-2010May-2011July-2011\n"
+- "    \n"
+- "    \n"
+- "   \n"
+- "   \n"
+- "   \n"
+- " \n"
+- "\t\n"
+- "    \n"
+- "\t  \n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t    \t\n"
+- "\t\t\t\tNobel Prizes\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tArgentina has significant Nobel Prizes, recognized universities in Latin
+  America, expert scientists and investigation projects that travel all over the world.\t\t\t\t\t\t\t\t\t\n"
+- "\t    \t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore videos\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\t  \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "    \t\n"
+- "    \t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \t\t\t\n"
+- "      \n"
+- "        \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t  Argentina in the press\n"
+- "\t\t  \n"
+- "\t\t\tGene bank for endangered wildlife\n"
+- "\t\t\t\t\t\t\t\tThe sequencing of the genome of the cow\n"
+- "\t\t\t\t\t\t\t\tOpen laboratory of rehabilitation\n"
+- "\t\t\t\t\t\t   \n"
+- "\t\t\n"
+- "\t\t\t  + Headlines\n"
+- "\t\t\t  \n"
+- "\t\t\n"
+- "\t\t\n"
+- "            \t\n"
+- "\t\t    \t\n"
+- "\t\t  News\n"
+- "\t\t   \n"
+- "\t\t\tUBA, opened all year\n"
+- "\t\t\t\t\t\t\t\tAn Argentine satellite for the NASA\n"
+- "\t\t\t\t\t\t\t\tArgentina puts two satellites into orbit\n"
+- "\t\t\t\t\t\t   \n"
+- "\t\t\n"
+- "\t\t\t  + News\n"
+- "\t\t\t  \n"
+- "\t\t\n"
+- "\t\t    \t\n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "\t\t\n"
+- "\t\t  Blog argentina by specialists\n"
+- "\t\t  \n"
+- "\t\t\tArgentine theater, internationally admired\n"
+- "\t\t\t\t\t\t\t\tTrekking on ice in El Chalten\n"
+- "\t\t\t\t\t\t\t\tGiecoÂ´s debut as a film director\n"
+- "\t\t\t\t\t\t   \n"
+- "\t\t\n"
+- "\t\t  + Articles\n"
+- "\t\t  \n"
+- "\t\n"
+- "\t \n"
+- "\t  \n"
+- "   \n"
+- "\t    \n"
+- "\t      \n"
+- "\t      Links\n"
+- "\t           \n"
+- "\t           \tDepartment for Science, Technology and Productive Innovation\n"
+- "\t                \t           \t\tMinistry of Education\n"
+- "\t                \t           \t\tInnovar\n"
+- "\t                \t           \t\tArgentinian Nanotechnology Foundation\n"
+- "\t                \t           \t\tNational Council of Scientific and Technical
+  Research (CONICET)\n"
+- "\t                \t           \t\tEducar\n"
+- "\t                \t           \t\tUniversity of Buenos Aires\n"
+- "\t                \t           \t\tNational Institute of Industrial Technology\n"
+- "\t                \t           \t\tStudying in Argentina\n"
+- "\t                \t           \t\tNational Agency for Science and Technology Promotion\n"
+- "\t                \t           \t\tNational Universities Info\n"
+- "\t                \t           \n"
+- "\t\t\t\t\n"
+- "                    \n"
+- |2
+                      + Links
+- "                    \n"
+- "                    \t\n"
+- "\t      \n"
+- "\t    \t\n"
+- "    \n"
+- "           \n"
+- "    \t\t\n"
+- "   \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "        \n"
+- "        \tTourism\n"
+- "\t\t\t\t\t\t\tEconomy and Business\n"
+- "\t\t\t\t\t\t\tCulture\n"
+- "\t\t\t\t\t\t\tSports\n"
+- "\t\t\t\t\t\t\tScience and Education\n"
+- "\t\t\t\t\t\t\tCountry\n"
+- "\t\t\t\t\t\t\t\n"
+- "        \n"
+- "        \tAgenda\n"
+- "\t\t\t  Argentina in the press\n"
+- "\t\t\t  Blog\n"
+- "\t\t\t  Specials\n"
+- "\t\t\t  News\n"
+- "\t\t\t  Map        \n"
+- "\t\t\t  Multimedia           \n"
+- "            \n"
+- "        \n"
+- "        \tContact\n"
+- "\t\t    Newsletters\n"
+- "\t\t    Links A-Z\n"
+- "\t\t    RSS\n"
+- "\t\t    Register\n"
+- "\t\t    EspaÃ±ol\n"
+- |2
+              English
+- "            PortuguÃªs         \n"
+- "                    \n"
+- "    \n"
+- |2+
+
+- "\t\n"
+- "        \n"
+- "        \tAdd to favourites                    \n"
+- |2
+              Home
+- |2
+              Map
+- "            \n"
+- |2
+          argentina.arArgentina - Official Promotion Portal for Argentina  All rights reserved
+- |2
+          Responsible organization:SecretarÃ­a de Medios de ComunicaciÃ³n  Presidencia de la NaciÃ³n
+- "        \n"
+- "          \n"
+- "            \n"
+- "    \t\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  var gaJsHost = (("https:" == document.location.protocol) ? "/web/20090504084802/https://ssl." : "/web/20090504084802/http://www.");
+- |
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+- |2+
+
+- |
+  try {
+- |
+  var pageTracker = _gat._getTracker("UA-3126648-1");
+- |
+  pageTracker._trackPageview();
+- |
+  } catch(err) {}
+- |2+
+
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 22.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 464
+    - 477
+    - 492
+    - 516
+    - 583
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 156
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 577
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  argentina: !ruby/object:Word
+    word: argentina
+    stem: argentina
+    docFrequency: 26.0
+    docPositions:
+    - 7
+    - 160
+    - 162
+    - 182
+    - 185
+    - 207
+    - 255
+    - 261
+    - 268
+    - 276
+    - 277
+    - 283
+    - 291
+    - 315
+    - 330
+    - 424
+    - 457
+    - 474
+    - 485
+    - 510
+    - 541
+    - 566
+  ar: !ruby/object:Word
+    word: ar
+    stem: ar
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 207
+  _en: !ruby/object:Word
+    word: _en
+    stem: _en
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 10.0
+    docPositions:
+    - 7
+    - 185
+    - 225
+    - 232
+    - 245
+    - 366
+    - 502
+    - 511
+    - 536
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 23.0
+    docPositions:
+    - 7
+    - 185
+    - 222
+    - 225
+    - 232
+    - 246
+    - 255
+    - 262
+    - 269
+    - 284
+    - 291
+    - 366
+    - 424
+    - 502
+    - 506
+    - 511
+    - 533
+    - 536
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 7.0
+    docPositions:
+    - 7
+    - 185
+    - 225
+    - 232
+    - 503
+    - 536
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 5.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+    - 392
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 112
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 7.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+    - 360
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 577
+    - 578
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 284
+    - 567
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 32
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 11.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+    - 472
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 254
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 156
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 5.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+    - 269
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  official: !ruby/object:Word
+    word: official
+    stem: offici
+    docFrequency: 4.0
+    docPositions:
+    - 160
+    - 182
+    - 566
+  promotion: !ruby/object:Word
+    word: promotion
+    stem: promot
+    docFrequency: 5.0
+    docPositions:
+    - 160
+    - 182
+    - 511
+    - 566
+  portal: !ruby/object:Word
+    word: portal
+    stem: portal
+    docFrequency: 4.0
+    docPositions:
+    - 160
+    - 182
+    - 566
+  agenda: !ruby/object:Word
+    word: agenda
+    stem: agenda
+    docFrequency: 4.0
+    docPositions:
+    - 161
+    - 383
+    - 540
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 4.0
+    docPositions:
+    - 162
+    - 457
+    - 541
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 4.0
+    docPositions:
+    - 163
+    - 485
+    - 542
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 543
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 165
+    - 470
+    - 477
+    - 544
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 4.0
+    docPositions:
+    - 166
+    - 545
+    - 564
+  multimedia: !ruby/object:Word
+    word: multimedia
+    stem: multimedia
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 546
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 549
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 550
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 5.0
+    docPositions:
+    - 172
+    - 500
+    - 516
+    - 551
+  z: !ruby/object:Word
+    word: z
+    stem: z
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 551
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 552
+  climate: !ruby/object:Word
+    word: climate
+    stem: climat
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  mon: !ruby/object:Word
+    word: mon
+    stem: mon
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  gmt: !ruby/object:Word
+    word: gmt
+    stem: gmt
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  register: !ruby/object:Word
+    word: register
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 553
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  espa: !ruby/object:Word
+    word: espa
+    stem: espa
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 554
+  ol: !ruby/object:Word
+    word: ol
+    stem: ol
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 554
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 3.0
+    docPositions:
+    - 198
+    - 555
+  portugu: !ruby/object:Word
+    word: portugu
+    stem: portugu
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 556
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 4.0
+    docPositions:
+    - 199
+    - 489
+    - 556
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 210
+  tourism: !ruby/object:Word
+    word: tourism
+    stem: tourism
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 532
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 533
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 533
+  culture: !ruby/object:Word
+    word: culture
+    stem: cultur
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 534
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 224
+    - 535
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 7.0
+    docPositions:
+    - 226
+    - 255
+    - 262
+    - 269
+    - 284
+    - 537
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  outlook: !ruby/object:Word
+    word: outlook
+    stem: outlook
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  argentine: !ruby/object:Word
+    word: argentine
+    stem: argentin
+    docFrequency: 5.0
+    docPositions:
+    - 245
+    - 290
+    - 473
+    - 487
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  standards: !ruby/object:Word
+    word: standards
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 5.0
+    docPositions:
+    - 246
+    - 269
+    - 345
+    - 506
+  teaching: !ruby/object:Word
+    word: teaching
+    stem: teach
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  centres: !ruby/object:Word
+    word: centres
+    stem: centr
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  allowed: !ruby/object:Word
+    word: allowed
+    stem: allow
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 3.0
+    docPositions:
+    - 246
+    - 269
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 5.0
+    docPositions:
+    - 246
+    - 269
+    - 291
+    - 506
+  tradition: !ruby/object:Word
+    word: tradition
+    stem: tradit
+    docFrequency: 3.0
+    docPositions:
+    - 246
+    - 269
+  preserve: !ruby/object:Word
+    word: preserve
+    stem: preserv
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 3.0
+    docPositions:
+    - 246
+    - 284
+  prestige: !ruby/object:Word
+    word: prestige
+    stem: prestig
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  meet: !ruby/object:Word
+    word: meet
+    stem: meet
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 246
+    - 262
+    - 393
+  challenges: !ruby/object:Word
+    word: challenges
+    stem: challeng
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  invap: !ruby/object:Word
+    word: invap
+    stem: invap
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  tailored: !ruby/object:Word
+    word: tailored
+    stem: tailor
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  cutting: !ruby/object:Word
+    word: cutting
+    stem: cut
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 6.0
+    docPositions:
+    - 254
+    - 255
+    - 502
+    - 509
+    - 511
+  hand: !ruby/object:Word
+    word: hand
+    stem: hand
+    docFrequency: 3.0
+    docPositions:
+    - 255
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  exports: !ruby/object:Word
+    word: exports
+    stem: export
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  nuclear: !ruby/object:Word
+    word: nuclear
+    stem: nuclear
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  reactors: !ruby/object:Word
+    word: reactors
+    stem: reactor
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  satellites: !ruby/object:Word
+    word: satellites
+    stem: satellit
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 474
+  medical: !ruby/object:Word
+    word: medical
+    stem: medic
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  equipment: !ruby/object:Word
+    word: equipment
+    stem: equip
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  rest: !ruby/object:Word
+    word: rest
+    stem: rest
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 6.0
+    docPositions:
+    - 255
+    - 284
+    - 291
+    - 393
+    - 424
+  represents: !ruby/object:Word
+    word: represents
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  latest: !ruby/object:Word
+    word: latest
+    stem: latest
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  completely: !ruby/object:Word
+    word: completely
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  designed: !ruby/object:Word
+    word: designed
+    stem: design
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  developed: !ruby/object:Word
+    word: developed
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  guide: !ruby/object:Word
+    word: guide
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  foreign: !ruby/object:Word
+    word: foreign
+    stem: foreign
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 262
+    - 284
+    - 291
+    - 424
+    - 472
+    - 566
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  requirements: !ruby/object:Word
+    word: requirements
+    stem: requir
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  spanish: !ruby/object:Word
+    word: spanish
+    stem: spanish
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 315
+  learning: !ruby/object:Word
+    word: learning
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  universities: !ruby/object:Word
+    word: universities
+    stem: univers
+    docFrequency: 5.0
+    docPositions:
+    - 262
+    - 351
+    - 424
+    - 512
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  institutes: !ruby/object:Word
+    word: institutes
+    stem: institut
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  nanotechnology: !ruby/object:Word
+    word: nanotechnology
+    stem: nanotechnolog
+    docFrequency: 5.0
+    docPositions:
+    - 268
+    - 269
+    - 300
+    - 505
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  gives: !ruby/object:Word
+    word: gives
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  possibility: !ruby/object:Word
+    word: possibility
+    stem: possibl
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  developing: !ruby/object:Word
+    word: developing
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 291
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 291
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  technique: !ruby/object:Word
+    word: technique
+    stem: techniqu
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  manufacture: !ruby/object:Word
+    word: manufacture
+    stem: manufactur
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  innovative: !ruby/object:Word
+    word: innovative
+    stem: innov
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 291
+  eolic: !ruby/object:Word
+    word: eolic
+    stem: eolic
+    docFrequency: 4.0
+    docPositions:
+    - 276
+    - 277
+  energy: !ruby/object:Word
+    word: energy
+    stem: energi
+    docFrequency: 5.0
+    docPositions:
+    - 276
+    - 277
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 277
+    - 424
+  grown: !ruby/object:Word
+    word: grown
+    stem: grown
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  remarkably: !ruby/object:Word
+    word: remarkably
+    stem: remark
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  due: !ruby/object:Word
+    word: due
+    stem: due
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  construction: !ruby/object:Word
+    word: construction
+    stem: construct
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  parks: !ruby/object:Word
+    word: parks
+    stem: park
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  primarily: !ruby/object:Word
+    word: primarily
+    stem: primarili
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  rely: !ruby/object:Word
+    word: rely
+    stem: reli
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  rich: !ruby/object:Word
+    word: rich
+    stem: rich
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  patagonian: !ruby/object:Word
+    word: patagonian
+    stem: patagonian
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  winds: !ruby/object:Word
+    word: winds
+    stem: wind
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  order: !ruby/object:Word
+    word: order
+    stem: order
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  generate: !ruby/object:Word
+    word: generate
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 277
+    - 291
+  renewable: !ruby/object:Word
+    word: renewable
+    stem: renew
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 283
+    - 284
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 6.0
+    docPositions:
+    - 284
+    - 506
+    - 509
+    - 511
+    - 512
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 284
+  commission: !ruby/object:Word
+    word: commission
+    stem: commiss
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  conae: !ruby/object:Word
+    word: conae
+    stem: cona
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  promotes: !ruby/object:Word
+    word: promotes
+    stem: promot
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  implements: !ruby/object:Word
+    word: implements
+    stem: implement
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  spatial: !ruby/object:Word
+    word: spatial
+    stem: spatial
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  satellite: !ruby/object:Word
+    word: satellite
+    stem: satellit
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 473
+  projets: !ruby/object:Word
+    word: projets
+    stem: projet
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  positioning: !ruby/object:Word
+    word: positioning
+    stem: posit
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  among: !ruby/object:Word
+    word: among
+    stem: among
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  eight: !ruby/object:Word
+    word: eight
+    stem: eight
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  nations: !ruby/object:Word
+    word: nations
+    stem: nation
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  capable: !ruby/object:Word
+    word: capable
+    stem: capabl
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  satelizaci: !ruby/object:Word
+    word: satelizaci
+    stem: satelizaci
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  own: !ruby/object:Word
+    word: own
+    stem: own
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  biotechnology: !ruby/object:Word
+    word: biotechnology
+    stem: biotechnolog
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 306
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  points: !ruby/object:Word
+    word: points
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  strategy: !ruby/object:Word
+    word: strategy
+    stem: strategi
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 291
+  productive: !ruby/object:Word
+    word: productive
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 502
+  technological: !ruby/object:Word
+    word: technological
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 336
+  foundations: !ruby/object:Word
+    word: foundations
+    stem: foundat
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 424
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  ra: !ruby/object:Word
+    word: ra
+    stem: ra
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  ces: !ruby/object:Word
+    word: ces
+    stem: ce
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  studying: !ruby/object:Word
+    word: studying
+    stem: studi
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 510
+  cooperation: !ruby/object:Word
+    word: cooperation
+    stem: cooper
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  centers: !ruby/object:Word
+    word: centers
+    stem: center
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  investment: !ruby/object:Word
+    word: investment
+    stem: invest
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  programs: !ruby/object:Word
+    word: programs
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  innovation: !ruby/object:Word
+    word: innovation
+    stem: innov
+    docFrequency: 3.0
+    docPositions:
+    - 366
+    - 502
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 3.0
+    docPositions:
+    - 390
+    - 393
+  fair: !ruby/object:Word
+    word: fair
+    stem: fair
+    docFrequency: 3.0
+    docPositions:
+    - 390
+    - 393
+  city: !ruby/object:Word
+    word: city
+    stem: citi
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  buenos: !ruby/object:Word
+    word: buenos
+    stem: bueno
+    docFrequency: 3.0
+    docPositions:
+    - 391
+    - 508
+  aires: !ruby/object:Word
+    word: aires
+    stem: air
+    docFrequency: 3.0
+    docPositions:
+    - 391
+    - 508
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 2.0
+    docPositions:
+    - 392
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  biggest: !ruby/object:Word
+    word: biggest
+    stem: biggest
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  hispanic: !ruby/object:Word
+    word: hispanic
+    stem: hispan
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  presenting: !ruby/object:Word
+    word: presenting
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 393
+    - 424
+  exhibitors: !ruby/object:Word
+    word: exhibitors
+    stem: exhibitor
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 401
+  nobel: !ruby/object:Word
+    word: nobel
+    stem: nobel
+    docFrequency: 3.0
+    docPositions:
+    - 422
+    - 424
+  prizes: !ruby/object:Word
+    word: prizes
+    stem: prize
+    docFrequency: 3.0
+    docPositions:
+    - 422
+    - 424
+  significant: !ruby/object:Word
+    word: significant
+    stem: signific
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  recognized: !ruby/object:Word
+    word: recognized
+    stem: recogn
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  latin: !ruby/object:Word
+    word: latin
+    stem: latin
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  expert: !ruby/object:Word
+    word: expert
+    stem: expert
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  projects: !ruby/object:Word
+    word: projects
+    stem: project
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 429
+  videos: !ruby/object:Word
+    word: videos
+    stem: video
+    docFrequency: 2.0
+    docPositions:
+    - 429
+  gene: !ruby/object:Word
+    word: gene
+    stem: gene
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  bank: !ruby/object:Word
+    word: bank
+    stem: bank
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  endangered: !ruby/object:Word
+    word: endangered
+    stem: endang
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  wildlife: !ruby/object:Word
+    word: wildlife
+    stem: wildlif
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  sequencing: !ruby/object:Word
+    word: sequencing
+    stem: sequenc
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  genome: !ruby/object:Word
+    word: genome
+    stem: genom
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  cow: !ruby/object:Word
+    word: cow
+    stem: cow
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  laboratory: !ruby/object:Word
+    word: laboratory
+    stem: laboratori
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  rehabilitation: !ruby/object:Word
+    word: rehabilitation
+    stem: rehabilit
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  headlines: !ruby/object:Word
+    word: headlines
+    stem: headlin
+    docFrequency: 2.0
+    docPositions:
+    - 464
+  uba: !ruby/object:Word
+    word: uba
+    stem: uba
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  opened: !ruby/object:Word
+    word: opened
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  nasa: !ruby/object:Word
+    word: nasa
+    stem: nasa
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  puts: !ruby/object:Word
+    word: puts
+    stem: put
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  orbit: !ruby/object:Word
+    word: orbit
+    stem: orbit
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  specialists: !ruby/object:Word
+    word: specialists
+    stem: specialist
+    docFrequency: 2.0
+    docPositions:
+    - 485
+  theater: !ruby/object:Word
+    word: theater
+    stem: theater
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  internationally: !ruby/object:Word
+    word: internationally
+    stem: internation
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  admired: !ruby/object:Word
+    word: admired
+    stem: admir
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  trekking: !ruby/object:Word
+    word: trekking
+    stem: trek
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  ice: !ruby/object:Word
+    word: ice
+    stem: ic
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  chalten: !ruby/object:Word
+    word: chalten
+    stem: chalten
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  gieco: !ruby/object:Word
+    word: gieco
+    stem: gieco
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  debut: !ruby/object:Word
+    word: debut
+    stem: debut
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  film: !ruby/object:Word
+    word: film
+    stem: film
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  director: !ruby/object:Word
+    word: director
+    stem: director
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 2.0
+    docPositions:
+    - 502
+  ministry: !ruby/object:Word
+    word: ministry
+    stem: ministri
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  innovar: !ruby/object:Word
+    word: innovar
+    stem: innovar
+    docFrequency: 2.0
+    docPositions:
+    - 504
+  argentinian: !ruby/object:Word
+    word: argentinian
+    stem: argentinian
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  foundation: !ruby/object:Word
+    word: foundation
+    stem: foundat
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  council: !ruby/object:Word
+    word: council
+    stem: council
+    docFrequency: 2.0
+    docPositions:
+    - 506
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 2.0
+    docPositions:
+    - 506
+  conicet: !ruby/object:Word
+    word: conicet
+    stem: conicet
+    docFrequency: 2.0
+    docPositions:
+    - 506
+  educar: !ruby/object:Word
+    word: educar
+    stem: educar
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 2.0
+    docPositions:
+    - 508
+  institute: !ruby/object:Word
+    word: institute
+    stem: institut
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  industrial: !ruby/object:Word
+    word: industrial
+    stem: industri
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  agency: !ruby/object:Word
+    word: agency
+    stem: agenc
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 512
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 2.0
+    docPositions:
+    - 562
+  favourites: !ruby/object:Word
+    word: favourites
+    stem: favourit
+    docFrequency: 2.0
+    docPositions:
+    - 562
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 563
+  arargentina: !ruby/object:Word
+    word: arargentina
+    stem: arargentina
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  responsible: !ruby/object:Word
+    word: responsible
+    stem: respons
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  organization: !ruby/object:Word
+    word: organization
+    stem: organ
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  secretar: !ruby/object:Word
+    word: secretar
+    stem: secretar
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 4.0
+    docPositions:
+    - 567
+  medios: !ruby/object:Word
+    word: medios
+    stem: medio
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  comunicaci: !ruby/object:Word
+    word: comunicaci
+    stem: comunicaci
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  presidencia: !ruby/object:Word
+    word: presidencia
+    stem: presidencia
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  la: !ruby/object:Word
+    word: la
+    stem: la
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  naci: !ruby/object:Word
+    word: naci
+    stem: naci
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  gajshost: !ruby/object:Word
+    word: gajshost
+    stem: gajshost
+    docFrequency: 3.0
+    docPositions:
+    - 577
+    - 578
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 577
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 580
+  pagetracker: !ruby/object:Word
+    word: pagetracker
+    stem: pagetrack
+    docFrequency: 3.0
+    docPositions:
+    - 581
+    - 582
+  _gat: !ruby/object:Word
+    word: _gat
+    stem: _gat
+    docFrequency: 2.0
+    docPositions:
+    - 581
+  _gettracker: !ruby/object:Word
+    word: _gettracker
+    stem: _gettrack
+    docFrequency: 2.0
+    docPositions:
+    - 581
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 581
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 582
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 583
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 583
+lineCount: 585
+wordCount: 1006
+rank: 0.2532051282051282
+title: Argentina - Science and Education
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.en.argentina.ar/_en/science-and-education/\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"4\";\nvar displayMonth = \"May\";\nvar displayYear
+  = \"2009\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    MAR\n\t\t\n\t\t\n\t\tMAY\n\t\t\n\t\t\n\t\t
+  \   JUL\n\t\t\n                \n\t    \n               \n                   \n
+  \              \n               \n               4\n\t       \n               \n\t\t
+  \  \n\t       \n\t       \n           \n               \n                   2008\n
+  \              \n               \n               2009\n\t       \n               \n\t
+  \          2010\n\t       \n\t       \n           \n       \n           33 captures\n
+  \          22 Jan 09 - 5 Aug 14\n       \n       \n       \n       \n\t \n       \n
+  \      \n       \n   \n       Close\n       Help\n   \n   \n\n\n__wm.bt();\r\n\t\n
+  \   \t\n\t    \t\n\t\t        Argentina - Official Promotion Portal for Argentina\n\t\t\t
+  \       Agenda\n\t\t\t        Argentina in the press\n\t\t\t        Blog\n\t\t\t
+  \       Specials\n\t\t\t        News\n\t\t\t        Map        \n\t\t\t        Multimedia\n\t\t\t
+  \   \n\t        \n\t\t        Contact\n\t\t            Newsletters\n\t\t            Links
+  A-Z\n\t\t            RSS\n\t\t        \n\t\t\t\n\t            \n\t\t            Climate\n\t
+  \           Mon 05.04.2009  06:30 (GMT -3)\n\t                    \n       \n\t
+  \  \n\t   \tArgentina - Official Promotion Portal for Argentina\n\t   \t\n       \n\t\t
+  \  Argentina - Science and Education\n\t   \n\n    \n       \n        \tRegister\n
+  \       \t        \t\n        \t            Enter\n                        \n       \n\t\t\n
+  \           \n                EspaÃ±ol\n                English\n                PortuguÃªs\n
+  \               \n        \n    \n    \n\t\t\n\t   \t\t\n\t   \t\t\n\t\t\t \targentina.ar\n\t
+  \           \n\t\t\t\t\n\t        \tAdvanced\n\t   \t\t\n\t   \t\t     \n\t\t\n\n
+  \     \n            \n    \n\n\t\t\t\t\t                          \n\t\t\t\n\t\t\t\tTourism\n\t\t\t\t\tEconomy
+  and Business\n\t\t\t\t\tCulture\n\t\t\t\t\tSports\n\t\t\t\t\tScience and Education\n\t\t\t\t\tCountry\n\t\t\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\n\n\tScience
+  and Education\n\n\n\n      \n\n\n\n        \n         \n        \t    \t\n\t\t            \t
+  \       \t\t\n\t\t            \t        \t\t \n\t\t            A future outlook
+  for Argentine Science\n\t        \t\tThe high standards of research and teaching
+  centres have allowed the local scientific tradition to preserve its prestige and
+  meet the new challenges.\n\t            \n            \n            \n\t\t\t\t        \n\t
+  \       \t\n\t            \n\t            \t            \n\t        \tINVAP, tailored
+  cutting-edge technology\n\t            Hand in hand with this State Society, Argentina
+  exports nuclear reactors, satellites and medical equipment to the rest of the world.
+  It represents the latest technology completely designed and developed in our country.\n\t
+  \           \n\t            \n\t            \n\t            \n\t            \t            \n\t
+  \           Study in Argentina\n\t            A new 40 page guide for foreign students
+  with all the information about the country. Useful data about requirements, resources,
+  Spanish learning, universities and language institutes. In pdf.version to download
+  and print.\n\t            \n\t\n\t            \n\t             \n\t            \t
+  \           \n\t            Nanotechnology in Argentina\n\t            At present,
+  the scientific tradition in the country gives way to the possibility of developing
+  important research in nanotechnology and also to many local companies the use of
+  this technique to manufacture innovative products.\n\t            \n\t        \n\t
+  \       \t\t\t\t        \n\t        \t\n\t            \n\t            \t            \n\t
+  \       \tEolic energy in Argentina\n\t            The eolic energy production in
+  Argentina has grown remarkably due to the construction of major eolic Parks, which
+  primarily rely on energy-rich Patagonian winds in order to generate renewable energy.\n\t
+  \           \n\t            \n\t            \n\t\t\t\t\n\t            \t            \t\n\t
+  \           Argentina on space\n\t            The National Space Activities Commission
+  (CONAE) promotes and implements all activities related to the spatial area. Its
+  satellite projets positioning the country among the eight nations in the world capable
+  of satelizaciÃ³n own.\n\t            \n\t\n\t            \n\t            \n\t            \t
+  \           \n\t            Argentine biotechnology\n\t            Is one of the
+  central points of the strategy of scientific development, and also of the productive
+  development in Argentina. Companies with technological foundations generate investigation
+  and products, known all around the world.\n\t          \n\t        \t\n\t            \n\t\t
+  \   \n           \n          \t\t\n\t\t\t   \t\n\t        \t\t\n\t\t\t\t\t\tNanotechnology\n\t\t\t
+  \           \n\t\t        \t \t\t\t\t\t\n\t          \t\t\t\t\t\t\n\t          \t\t\t\t\t\n\t\t
+  \       \t\n\t\t\t\t\t\tBiotechnology\n\t\t\t            \n\t        \t\t\t\t\t\t\t\n\t
+  \       \t\t\t\t\t\t\n\t\t\t \t\t\t\t\n\t\t  \n          \t\t\n\t\t\t   \t\n\t        \t\t\n\t\t\t\t\t\tSpanish
+  in Argentina\n\t\t\t            \n\t\t        \t \t\t\t\t\t\n\t          \t\t\t\t\t\t\n\t
+  \         \t\t\t\t\t\n\t\t        \t\n\t\t\t\t\t\tRaÃ­ces Program\n\t\t\t            \n\t
+  \       \t\t\t\t\t\t\t\n\t        \t\t\t\t\t\t\n\t\t\t \t\t\t\t\n\t\t  \n          \t\t\n\t\t\t
+  \  \t\n\t        \t\t\n\t\t\t\t\t\tStudying in Argentina\n\t\t\t            \n\t\t
+  \       \t \t\t\t\t\t\n\t          \t\t\t\t\t\t\n\t          \t\t\t\t\t\n\t\t        \t\n\t\t\t\t\t\tTechnological
+  Cooperation\n\t\t\t            \n\t        \t\t\t\t\t\t\t\n\t        \t\t\t\t\t\t\n\t\t\t
+  \t\t\t\t\n\t\t  \n          \t\t\n\t\t\t   \t\n\t        \t\t\n\t\t\t\t\t\tResearch
+  Centers\n\t\t\t            \n\t\t        \t \t\t\t\t\t\n\t          \t\t\t\t\t\t\n\t
+  \         \t\t\t\t\t\n\t\t        \t\n\t\t\t\t\t\tUniversities\n\t\t\t            \n\t
+  \       \t\t\t\t\t\t\t\n\t        \t\t\t\t\t\t\n\t\t\t \t\t\t\t\n\t\t  \n          \t\t\n\t\t\t
+  \  \t\n\t        \t\t\n\t\t\t\t\t\tR&D Investment Programs\n\t\t\t            \n\t\t
+  \       \t \t\t\t\t\t\n\t          \t\t\t\t\t\t\n\t          \t\t\t\t\t\n\t\t        \t\n\t\t\t\t\t\tInnovation
+  and Science\n\t\t\t            \n\t        \t\t\t\t\t\t\t\n\t        \t\t\t\t\t\t\n\t\t\t
+  \t\t\t\t\n\t\t  \t\n\t\t  \t\n\t\n       \t\t \t \t\n\t\n\n    \n    \t\n\t\n\n
+  \  \n        \n        Agenda\n        \n         \n   \n     \n\t\t    \n            \t
+  \n                Book Fair\n\t\t\t     City of Buenos Aires\n                 April
+  23 to May 11\n          \t\t The new edition of the biggest book fair of the Hispanic
+  world will be presenting over 1,500 exhibitors.\n            \n     \n     \n     \n
+  \  \n   \n    \n    \tDecember-2008January-2009February-2009March-2009April-2009May-2009June-2009July-2009August-2009September-2009October-2009November-2009December-2009January-2010April-2010August-2010September-2010October-2010December-2010May-2011July-2011\n
+  \   \n    \n   \n   \n   \n \n\t\n    \n\t  \n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t
+  \   \t\n\t\t\t\tNobel Prizes\n\t\t\t\t\n\t\t\t\t\tArgentina has significant Nobel
+  Prizes, recognized universities in Latin America, expert scientists and investigation
+  projects that travel all over the world.\t\t\t\t\t\t\t\t\t\n\t    \t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  videos\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t  \n\n    \n    \n\n    \t\n    \t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\n\t\t\n
+  \   \n    \n    \n    \n    \n    \n        \t\t\t\n      \n        \n\t\t\t\n\t\t\n\t\t
+  \ Argentina in the press\n\t\t  \n\t\t\tGene bank for endangered wildlife\n\t\t\t\t\t\t\t\tThe
+  sequencing of the genome of the cow\n\t\t\t\t\t\t\t\tOpen laboratory of rehabilitation\n\t\t\t\t\t\t
+  \  \n\t\t\n\t\t\t  + Headlines\n\t\t\t  \n\t\t\n\t\t\n            \t\n\t\t    \t\n\t\t
+  \ News\n\t\t   \n\t\t\tUBA, opened all year\n\t\t\t\t\t\t\t\tAn Argentine satellite
+  for the NASA\n\t\t\t\t\t\t\t\tArgentina puts two satellites into orbit\n\t\t\t\t\t\t
+  \  \n\t\t\n\t\t\t  + News\n\t\t\t  \n\t\t\n\t\t    \t\n        \n        \n    \n\t\t\n\t\t
+  \ Blog argentina by specialists\n\t\t  \n\t\t\tArgentine theater, internationally
+  admired\n\t\t\t\t\t\t\t\tTrekking on ice in El Chalten\n\t\t\t\t\t\t\t\tGiecoÂ´s
+  debut as a film director\n\t\t\t\t\t\t   \n\t\t\n\t\t  + Articles\n\t\t  \n\t\n\t
+  \n\t  \n   \n\t    \n\t      \n\t      Links\n\t           \n\t           \tDepartment
+  for Science, Technology and Productive Innovation\n\t                \t           \t\tMinistry
+  of Education\n\t                \t           \t\tInnovar\n\t                \t           \t\tArgentinian
+  Nanotechnology Foundation\n\t                \t           \t\tNational Council of
+  Scientific and Technical Research (CONICET)\n\t                \t           \t\tEducar\n\t
+  \               \t           \t\tUniversity of Buenos Aires\n\t                \t
+  \          \t\tNational Institute of Industrial Technology\n\t                \t
+  \          \t\tStudying in Argentina\n\t                \t           \t\tNational
+  Agency for Science and Technology Promotion\n\t                \t           \t\tNational
+  Universities Info\n\t                \t           \n\t\t\t\t\n                    \n
+  \                   + Links\n                    \n                    \t\n\t      \n\t
+  \   \t\n    \n           \n    \t\t\n   \n\t\n\n\n\n\n\t\n        \n        \tTourism\n\t\t\t\t\t\t\tEconomy
+  and Business\n\t\t\t\t\t\t\tCulture\n\t\t\t\t\t\t\tSports\n\t\t\t\t\t\t\tScience
+  and Education\n\t\t\t\t\t\t\tCountry\n\t\t\t\t\t\t\t\n        \n        \tAgenda\n\t\t\t
+  \ Argentina in the press\n\t\t\t  Blog\n\t\t\t  Specials\n\t\t\t  News\n\t\t\t  Map
+  \       \n\t\t\t  Multimedia           \n            \n        \n        \tContact\n\t\t
+  \   Newsletters\n\t\t    Links A-Z\n\t\t    RSS\n\t\t    Register\n\t\t    EspaÃ±ol\n
+  \           English\n            PortuguÃªs         \n                    \n    \n\n\t\n
+  \       \n        \tAdd to favourites                    \n            Home\n            Map\n
+  \           \n        argentina.arArgentina - Official Promotion Portal for Argentina
+  \ All rights reserved\n        Responsible organization:SecretarÃ­a de Medios de
+  ComunicaciÃ³n  Presidencia de la NaciÃ³n\n        \n          \n            \n    \t\n
+  \   \n\n\n\n\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"/web/20090504084802/https://ssl.\"
+  : \"/web/20090504084802/http://www.\");\ndocument.write(unescape(\"%3Cscript src='\"
+  + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n\ntry
+  {\nvar pageTracker = _gat._getTracker(\"UA-3126648-1\");\npageTracker._trackPageview();\n}
+  catch(err) {}\n\n"

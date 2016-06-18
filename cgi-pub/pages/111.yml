@@ -1,0 +1,7716 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Attribute onclick redefined
+    domain: 5
+    code: 42
+    level: 2
+    file: "/tmp/open-uri20151214-8760-yu0hx6"
+    line: 448
+    str1: onclick
+    str2: 
+    str3: 
+    int1: 0
+    column: 154
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-yu0hx6"
+    line: 515
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+address: https://web.archive.org/web/20100621053624/http://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "21";
+- |
+  var displayMonth = "Jun";
+- |
+  var displayYear = "2010";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    MAR\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tJUN\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    JUN\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                   \n"
+- "               \n"
+- "               \n"
+- |2
+                 21
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2008
+- "               \n"
+- "               \n"
+- |2
+                 2010
+- "\t       \n"
+- "               \n"
+- "\t           2011\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             32 captures
+- |2
+             2 Dec 08 - 2 Apr 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();\r\n"
+- "  \t\tSkip Navigation\r\n"
+- "\r\n"
+- "  \r\n"
+- "    \r\n"
+- "      -- Please select your language --EnglishEspañolFrançais汉语\r\n"
+- "  \r\n"
+- "  ABOUT US\r\n"
+- "    SITE MAP\r\n"
+- "\t    DONATE\r\n"
+- "    CONTACT US\r\n"
+- "\t\t\tSign In\r\n"
+- "\t\t\tSign Up\r\n"
+- "\t\r\n"
+- "\r\n"
+- "  SciDev.Net\r\n"
+- "  \r\n"
+- "    Science and Development Network\r\n"
+- "    News, views and information about science, technology and the developing world\r\n"
+- "\t\t\r\n"
+- "\t\t\tAdvanced Search\r\n"
+- "\t\t\t\r\n"
+- "  \r\n"
+- "  \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "    You are in:\r\n"
+- "\t\tHome\r\n"
+- "\t\t\t\t\t\t> \r\n"
+- "\r\n"
+- "Editorials\r\n"
+- "  \r\n"
+- "  Monday, 21 June 2010\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t\tHome\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tRegions\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tChina\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tLatin America & Caribbean\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tMiddle East & North Africa\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tSouth Asia\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tSouth-East Asia\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tSub-Saharan Africa\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tTopics\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tAgriculture & Environment\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tClimate Change & Energy\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tHealth\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tNew Technologies\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tScience & Innovation Policy\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tScience Communication\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tArticles\r\n"
+- "\t\t\t\tNews\r\n"
+- "\t\t\t\t\tFeatures\r\n"
+- "\t\t\t\t\tOpinions\r\n"
+- "\t\t\t\t\tEditorials\r\n"
+- "\t\t\t\t\tPolicy Briefs\r\n"
+- "\t\t\t\t\tPractical Guides\r\n"
+- "\t\t\t\t\tLetters to the Editor\r\n"
+- "\t\t\t\t\tBook Reviews\r\n"
+- "\t\t\t\t\tKey Documents\r\n"
+- "\t\t\t\t\tLinks\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tNotices\r\n"
+- "\t\t\t\tEvents\r\n"
+- "\t\t\t\t\tJobs\r\n"
+- "\t\t\t\t\tGrants\r\n"
+- "\t\t\t\t\tAnnouncements\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "Donate to SciDev.Net\r\n"
+- "SciDev.Net works to make science communication more effective across the developing
+  world. We need your support\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Editorials\r\n"
+- "\t\r\n"
+- "\t\t\t\t//<![CDATA[\r\n"
+- "\t\t\tfunction sendToAFriend() { articleInteractLightbox.activate(); return false;
+  }\r\n"
+- "\t\t\t\t//]]>\r\n"
+- "\t\t\t\r\n"
+- "\t\r\n"
+- "\t  Send to a friend\r\n"
+- "\t    Print\r\n"
+- "\t\tComment\r\n"
+- "    \t\tShare\r\n"
+- "    \t\t\tdel.icio.us\r\n"
+- "\t\t\t\t\tdigg\r\n"
+- "\t\t\t\t\tFacebook\r\n"
+- "\t\t\t\t\tNewsvine\r\n"
+- "\t\t\t\t\tReddit\r\n"
+- "\t\t\t\t\tY! Bookmarks\r\n"
+- "\t\t\t\t\r\n"
+- "\t  \r\n"
+- "\r\n"
+- "\t\t\t\t//<![CDATA[\r\n"
+- "\t\tvar articleInteractLightbox = new lightbox($('articleInteractLightboxA'));\r\n"
+- "\t\t\t\t//]]>\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t    Science journalism must keep a critical edge\r\n"
+- "\t    \tDavid Dickson\r\n"
+- "\t    \r\n"
+- "\t\t    \t11 October 2004 |\r\n"
+- "\t\t\t\t\t\t\tEN\r\n"
+- "\t    \r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\tThe success of last week's World Conference of Science Journalists augurs
+  well for the future of the profession. But it needs to maintain its independence,
+  and avoid becoming an extension of the public relations industry.\r\n"
+- "Australia's science journalists have a hard act to follow. Last week — somewhat
+  to their own surprise — their Canadian counterparts managed to attract a full house
+  of 500 colleagues from across the world to Montréal for the 4th World Conference
+  of Science Journalists. There they were exposed to three days of stimulating talks,
+  debate and discussion about the state of their profession.\r\n"
+- "At the end of the meeting, a decision was taken by representatives of national
+  science writing associations that the next of these biannual meetings should be
+  held in Melbourne, Australia, in 2006 (or perhaps early 2007). The choice was itself
+  something of a surprise; a number of strong competing applications had been received,
+  in particular from China and Italy. But the Australian delegation had come with
+  a well-prepared bid stressing, among other aspects, the country's links with South-east
+  Asia, a region in which science journalism remains relatively weak.\r\n"
+- "For many of those attending the Montréal meeting, its most significant message
+  was contained in the way that a series of speakers underlined the importance of
+  their role as a channel of communication between scientists and society — and the
+  challenges they face in carrying out this role effectively. Maureen O'Neill, for
+  example, the president of Canada's International Development Research Centre (one
+  of the main sponsors of the meeting) emphasised this point in her opening address,
+  placing particular role on the need for this task within developing countries (See
+  'Science journalists play critical role in decision-making').  \r\n"
+- "For the experienced journalists present, the message was a familiar one. But for
+  those relatively new to the profession, particularly those in many parts of the
+  developing world struggling to establish their professional identity as science
+  writers in a media world dominated by a reporting of politics and sport, the message
+  provided welcome reassurance about the importance of their chosen path.\r\n"
+- "External pressures\r\n"
+- "Yet the meeting also provided several warnings about the narrowness of this path,
+  and the pressures that can knock off balance those who seek to go down it. Many
+  such pressures come from those with a vested interested in seeing their activities
+  reported in a particular way. Sometimes such pressure is explicit and obvious. In
+  other cases, the origins may be less clear (for example, when political pressure
+  on a newspaper becomes transformed into an editorial judgement about news values
+  imposed by senior editorial staff on junior reporters).\r\n"
+- "Difficult as such pressures may be to resist, each can conflict with the responsibility
+  of a journalist firstly to remain as faithful as possible to the facts, and secondly
+  to use his or her best judgement of what is significant about such facts. Neither
+  of these requires objectivity about the issue being described; the best journalists
+  are those who can be passionate about the subjects that they cover. But they do
+  demand that, however strong the passion, journalists retain a critical edge in their
+  reporting that is sufficient to ensure the independence of their personal, informed
+  judgement.\r\n"
+- "Several warnings about ways in which this independence of judgement can be threatened
+  were presented to the Montréal conference. One speaker, for example, warned journalists
+  of the need for caution in reporting on the results of clinical trials of new pharmaceutical
+  products, however well dressed up these may be in a cloak of scientific plausibility.
+  For example, supporting papers from scientific journals may be provided with an
+  inadequate interpretation of the data contained in such papers (See 'Journalists
+  warn of helping drug giants 'market disease'').\r\n"
+- "In another session, SciDev.Net's Beijing correspondent, Jia Hepeng, spoke of the
+  difficulties facing journalists in China as the government seeks to control the
+  distribution of information about sensitive topics such as the spread of the SARS
+  virus. Criticism (much of it from outside China) about an initial lack of openness
+  had helped to overcome the first hurdle faced by Chinese reporters, namely a sheer
+  lack of information. But, said Jia, that had now been replaced by an equally daunting
+  challenge, namely discovering the reality behind the facts and figures being presented
+  in the name of an apparent transparency.\r\n"
+- "In South Africa, a similar issue faces journalists who seek to report on the spread
+  of HIV/AIDS. As Tamar Kahn, another SciDev.Net contributor, told the meeting, the
+  task has become easier as a result of the government overcoming its previous reluctance
+  to acknowledge the size of the AIDS problem it faces. But the tendency of government
+  officials to play down the problem remains reflected in the difficulties faced by
+  individual journalists in getting their stories accepted for publication. Kahn reports
+  on her own difficulties in persuading her news editor to give a story about South
+  Africa's AIDS epidemic reaching record proportions more than two short paragraphs
+  on an inside page (see 'Controversy and science reporting in South Africa').\r\n"
+- "The need for independence\r\n"
+- "In such instances, it is usually relatively clear what the proper function of the
+  science journalist should be. Equally important, however, is to retain the same
+  independent stance when writing about science itself. There has been a tendency
+  in recent years to assume that science journalists should, almost by definition,
+  be part of the 'science promotion' business. This is particularly strong among those
+  who argue that the low esteem in which science is widely held is primarily the results
+  of a 'bad press' — and that science journalists have a responsibility to help reverse
+  this situation.\r\n"
+- "It is certainly true that what often distinguishes science journalists from their
+  colleagues is greater knowledge of — and respect for — the way that science operates.
+  Indeed one of the main reasons for promoting science journalism around the world
+  is precisely to ensure that when science is written about, it is done in an informed
+  manner.\r\n"
+- "But that is not the same as endorsing everything that is said or done in the name
+  of science (any more than an art critic is expected to endorse everything that is
+  done in the name of art). In other words, science journalists should not be seen,
+  or see themselves, as part of a public relations effort, however much those responsibility
+  for promoting a particular scientific activity or programme seek to recruit them
+  their cause.\r\n"
+- "Blurring the line\r\n"
+- "If there was a criticism to be made of the Montréal meeting, it was the extent
+  to which some of those who had generously provided sponsorship to cover the travel
+  and accommodation costs of foreign participants (particularly from developing countries)
+  appeared to feel justified in subsequently using the conference as a promotional
+  platform. In principle, of course, there is no reason that they should not do so;
+  after all, no-one complains when the sponsor of a sporting event demands that a
+  company logo be prominently featured in television coverage of that event.\r\n"
+- "The danger lies in blurring the line between journalism and public relations. When
+  that happens, a journalist is denying his or her responsibility to exercise a personal
+  judgement of what is significant by substituting for it the judgement of others
+  (who may have their own financial or political agenda). One response of the profession
+  must lie in an insistence on editorial independence as a guarantor of journalistic
+  integrity. A second lies in the need to ensure that a political commitment to the
+  freedom of the press is adequately reflected in practice.\r\n"
+- "Hopefully, the Australian organisers of the next world conference will bear the
+  need to address these in mind when planning their programme. There certainly needs
+  to be space on the programme to explore ways in which science journalists can ensure
+  that the media adequately acknowledges and reflects the role of science in modern
+  societies, both developed and developing. And the meeting will obviously be a useful
+  vehicle for creating a greater global awareness of Australia's scientific and technological
+  achievements.\r\n"
+- "Equally important, however, is that the meeting should address in detail some of
+  the key challenges faced by science journalists around the world as they strive
+  to create the conditions under which their profession can flourish. The Montréal
+  meeting made a good start, and provided some important openings in this direction.
+  The baton has now been passed to others to find ways of ensuring that this work
+  is continued.\r\n"
+- "Related SciDev.Net pages\r\n"
+- "WCSJ4 coverage\r\n"
+- "Previous editorials on science communication \r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\tAdd your comment\r\n"
+- "\t\t\r\n"
+- "\t\t\tAll comments are subject to approval and we reserve the right to edit comments
+  containing inappropriate/unsuitable language. SciDev.Net holds copyright for all
+  material posted on the website. Please see terms of use for further details.\r\n"
+- "\t\t\r\n"
+- "\t\tYou need to be signed in to post a comment or to email a consenting comment
+  author. Please sign in or\r\n"
+- "\t\t\tsign up.\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "Back to EditorialsTo the top\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\tSign Up\r\n"
+- "\t\tto receive email updates, to comment on articles, and to post notices\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t  \r\n"
+- "\t  Information Services\r\n"
+- "\t  RSS (what's this?)\r\n"
+- "\t\t\t\tWebfeeds\r\n"
+- "\t    Feedback\r\n"
+- "\t  \r\n"
+- "\t\r\n"
+- "\t\tvar feedbackLightbox = new lightbox($('feedbackLightboxA'));\r\n"
+- "\t\r\n"
+- "\t\t\t\tRELATED TOPICS\r\n"
+- "\t\t\t\tScience journalism\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "New ways to innovate\r\n"
+- "Healthcare for the poor needs creative social thinking as well as new technologies\r\n"
+- "\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "GM Kenya\r\n"
+- "Kenya's odyssey towards official GM acceptance is almost over\r\n"
+- "\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "Crop-boosting fungi\r\n"
+- "Fungi have accelerated rice production five-fold in greenhouses — but will the
+  technique transfer to rice paddies?\r\n"
+- "\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "The case for GM crops\r\n"
+- "GM crops are proving to be safe and effective in South America, says national biosafety
+  head\r\n"
+- "\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "Reporting stem cell science\r\n"
+- "How to report the epic controversies of embryonic stem cell research\r\n"
+- "\r\n"
+- "\t\t\t\t \r\n"
+- "\r\n"
+- "Pool water research\r\n"
+- "More cross-border collaboration is needed to avert water catastrophes in Asia,
+  says report\r\n"
+- "\r\n"
+- "\t\t\t\t\r\n"
+- "Guardian Network\r\n"
+- "SciDev.Net is part of the Guardian’s network of the world’s best environmental
+  websites\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t  \t\r\n"
+- "        SciDev.Net is not responsible for the content of external Internet sites\r\n"
+- "\t\tSciDev.Net is a charity registered in England and Wales. Registration number:
+  1089590\r\n"
+- "        © 2010 SciDev.Net\r\n"
+- "          | Terms of use\r\n"
+- "          | Privacy policy\r\n"
+- "\t\t  | Accessibility\r\n"
+- "          | Creative Commons\r\n"
+- "          | Webfeeds\r\n"
+- "          | Link to us\r\n"
+- "        \r\n"
+- "      \r\n"
+- "    \r\n"
+- "\t\r\n"
+- "\t\thttp://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html\r\n"
+- "\t\tPrinted on:\r\n"
+- "\t\tMonday, June 21, 2010 06:36\r\n"
+- "\t\t© 2010 SciDev.Net\r\n"
+- "\t\r\n"
+- "  \t\r\n"
+- "\t\r\n"
+- "\t\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"/web/20100621053624/https://ssl.\"
+  : \"/web/20100621053624/http://www.\");\r\n"
+- "\t\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js'
+  type='text/javascript'%3E%3C/script%3E\"));\r\n"
+- "\t\r\n"
+- "\t\tvar pageTracker = _gat._getTracker(\"UA-3223906-1\");\r\n"
+- "\t\tpageTracker._initData();\r\n"
+- "\t\tpageTracker._trackPageview();\r\n"
+- "\tSkip NavigationScience and Development Network\r\n"
+- "    News, views and information about science, technology and the developing world\r\n"
+- "    You are in:\r\n"
+- "\t\tHome\r\n"
+- "\t\t\t\t\t\t> \r\n"
+- "\r\n"
+- "Editorials\r\n"
+- "  Monday, 21 June 2010SciDev.Net works to make science communication more effective
+  across the developing world. We need your supportDavid Dickson\r\n"
+- "\t\t    \t11 October 2004 |\r\n"
+- "\t\t\t\t\t\t\tEN\r\n"
+- "\t    The success of last week's World Conference of Science Journalists augurs
+  well for the future of the profession. But it needs to maintain its independence,
+  and avoid becoming an extension of the public relations industry.Australia's science
+  journalists have a hard act to follow. Last week — somewhat to their own surprise
+  — their Canadian counterparts managed to attract a full house of 500 colleagues
+  from across the world to Montréal for the 4th World Conference of Science Journalists.
+  There they were exposed to three days of stimulating talks, debate and discussion
+  about the state of their profession.At the end of the meeting, a decision was taken
+  by representatives of national science writing associations that the next of these
+  biannual meetings should be held in Melbourne, Australia, in 2006 (or perhaps early
+  2007). The choice was itself something of a surprise; a number of strong competing
+  applications had been received, in particular from China and Italy. But the Australian
+  delegation had come with a well-prepared bid stressing, among other aspects, the
+  country's links with South-east Asia, a region in which science journalism remains
+  relatively weak.For many of those attending the Montréal meeting, its most significant
+  message was contained in the way that a series of speakers underlined the importance
+  of their role as a channel of communication between scientists and society — and
+  the challenges they face in carrying out this role effectively. Maureen O'Neill,
+  for example, the president of Canada's International Development Research Centre
+  (one of the main sponsors of the meeting) emphasised this point in her opening address,
+  placing particular role on the need for this task within developing countries (See
+  'Science journalists play critical role in decision-making').  For the experienced
+  journalists present, the message was a familiar one. But for those relatively new
+  to the profession, particularly those in many parts of the developing world struggling
+  to establish their professional identity as science writers in a media world dominated
+  by a reporting of politics and sport, the message provided welcome reassurance about
+  the importance of their chosen path.External pressuresYet the meeting also provided
+  several warnings about the narrowness of this path, and the pressures that can knock
+  off balance those who seek to go down it. Many such pressures come from those with
+  a vested interested in seeing their activities reported in a particular way. Sometimes
+  such pressure is explicit and obvious. In other cases, the origins may be less clear
+  (for example, when political pressure on a newspaper becomes transformed into an
+  editorial judgement about news values imposed by senior editorial staff on junior
+  reporters).Difficult as such pressures may be to resist, each can conflict with
+  the responsibility of a journalist firstly to remain as faithful as possible to
+  the facts, and secondly to use his or her best judgement of what is significant
+  about such facts. Neither of these requires objectivity about the issue being described;
+  the best journalists are those who can be passionate about the subjects that they
+  cover. But they do demand that, however strong the passion, journalists retain a
+  critical edge in their reporting that is sufficient to ensure the independence of
+  their personal, informed judgement.Several warnings about ways in which this independence
+  of judgement can be threatened were presented to the Montréal conference. One speaker,
+  for example, warned journalists of the need for caution in reporting on the results
+  of clinical trials of new pharmaceutical products, however well dressed up these
+  may be in a cloak of scientific plausibility. For example, supporting papers from
+  scientific journals may be provided with an inadequate interpretation of the data
+  contained in such papers (See 'Journalists warn of helping drug giants 'market disease'').In
+  another session, SciDev.Net's Beijing correspondent, Jia Hepeng, spoke of the difficulties
+  facing journalists in China as the government seeks to control the distribution
+  of information about sensitive topics such as the spread of the SARS virus. Criticism
+  (much of it from outside China) about an initial lack of openness had helped to
+  overcome the first hurdle faced by Chinese reporters, namely a sheer lack of information.
+  But, said Jia, that had now been replaced by an equally daunting challenge, namely
+  discovering the reality behind the facts and figures being presented in the name
+  of an apparent transparency.In South Africa, a similar issue faces journalists who
+  seek to report on the spread of HIV/AIDS. As Tamar Kahn, another SciDev.Net contributor,
+  told the meeting, the task has become easier as a result of the government overcoming
+  its previous reluctance to acknowledge the size of the AIDS problem it faces. But
+  the tendency of government officials to play down the problem remains reflected
+  in the difficulties faced by individual journalists in getting their stories accepted
+  for publication. Kahn reports on her own difficulties in persuading her news editor
+  to give a story about South Africa's AIDS epidemic reaching record proportions more
+  than two short paragraphs on an inside page (see 'Controversy and science reporting
+  in South Africa').The need for independenceIn such instances, it is usually relatively
+  clear what the proper function of the science journalist should be. Equally important,
+  however, is to retain the same independent stance when writing about science itself.
+  There has been a tendency in recent years to assume that science journalists should,
+  almost by definition, be part of the 'science promotion' business. This is particularly
+  strong among those who argue that the low esteem in which science is widely held
+  is primarily the results of a 'bad press' — and that science journalists have a
+  responsibility to help reverse this situation.It is certainly true that what often
+  distinguishes science journalists from their colleagues is greater knowledge of
+  — and respect for — the way that science operates. Indeed one of the main reasons
+  for promoting science journalism around the world is precisely to ensure that when
+  science is written about, it is done in an informed manner.But that is not the same
+  as endorsing everything that is said or done in the name of science (any more than
+  an art critic is expected to endorse everything that is done in the name of art).
+  In other words, science journalists should not be seen, or see themselves, as part
+  of a public relations effort, however much those responsibility for promoting a
+  particular scientific activity or programme seek to recruit them their cause.Blurring
+  the lineIf there was a criticism to be made of the Montréal meeting, it was the
+  extent to which some of those who had generously provided sponsorship to cover the
+  travel and accommodation costs of foreign participants (particularly from developing
+  countries) appeared to feel justified in subsequently using the conference as a
+  promotional platform. In principle, of course, there is no reason that they should
+  not do so; after all, no-one complains when the sponsor of a sporting event demands
+  that a company logo be prominently featured in television coverage of that event.The
+  danger lies in blurring the line between journalism and public relations. When that
+  happens, a journalist is denying his or her responsibility to exercise a personal
+  judgement of what is significant by substituting for it the judgement of others
+  (who may have their own financial or political agenda). One response of the profession
+  must lie in an insistence on editorial independence as a guarantor of journalistic
+  integrity. A second lies in the need to ensure that a political commitment to the
+  freedom of the press is adequately reflected in practice.Hopefully, the Australian
+  organisers of the next world conference will bear the need to address these in mind
+  when planning their programme. There certainly needs to be space on the programme
+  to explore ways in which science journalists can ensure that the media adequately
+  acknowledges and reflects the role of science in modern societies, both developed
+  and developing. And the meeting will obviously be a useful vehicle for creating
+  a greater global awareness of Australia's scientific and technological achievements.Equally
+  important, however, is that the meeting should address in detail some of the key
+  challenges faced by science journalists around the world as they strive to create
+  the conditions under which their profession can flourish. The Montréal meeting made
+  a good start, and provided some important openings in this direction. The baton
+  has now been passed to others to find ways of ensuring that this work is continued.Related
+  SciDev.Net pagesWCSJ4 coveragePrevious editorials on science communication \r\n"
+- "\t\t\tAll comments are subject to approval and we reserve the right to edit comments
+  containing inappropriate/unsuitable language. SciDev.Net holds copyright for all
+  material posted on the website. Please see terms of use for further details.\r\n"
+- "\t\tYou need to be signed in to post a comment or to email a consenting comment
+  author. Please sign in or\r\n"
+- "\t\t\tsign up.\r\n"
+- "\r\n"
+- "Back to EditorialsTo the top\r\n"
+- "\t\t\tto receive email updates, to comment on articles, and to post noticesHealthcare
+  for the poor needs creative social thinking as well as new technologiesKenya's odyssey
+  towards official GM acceptance is almost overFungi have accelerated rice production
+  five-fold in greenhouses — but will the technique transfer to rice paddies?GM crops
+  are proving to be safe and effective in South America, says national biosafety headHow
+  to report the epic controversies of embryonic stem cell researchMore cross-border
+  collaboration is needed to avert water catastrophes in Asia, says reportSciDev.Net
+  is part of the Guardian’s network of the world’s best environmental websitesSciDev.Net
+  is not responsible for the content of external Internet sitesSciDev.Net is a charity
+  registered in England and Wales. Registration number: 1089590© 2010 SciDev.Net\r\n"
+- "          | Terms of use\r\n"
+- "          | Privacy policy\r\n"
+- "\t\t  | Accessibility\r\n"
+- "          | Creative Commons\r\n"
+- "          | Webfeeds\r\n"
+- "          | Link to us\r\n"
+- "        \r\n"
+- "\t\thttp://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html\r\n"
+- "\t\tPrinted on:\r\n"
+- "\t\tMonday, June 21, 2010 06:36\r\n"
+- "\t\t© 2010 SciDev.Net\r\n"
+- "\t"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 35.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 161
+    - 272
+    - 290
+    - 400
+    - 401
+    - 402
+    - 403
+    - 404
+    - 405
+    - 406
+    - 414
+    - 441
+    - 442
+    - 443
+    - 444
+    - 445
+    - 446
+    - 451
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 272
+    - 290
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 156
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+    - 273
+    - 315
+    - 434
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 418
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  scidev: !ruby/object:Word
+    word: scidev
+    stem: scidev
+    docFrequency: 22.0
+    docPositions:
+    - 7
+    - 171
+    - 260
+    - 261
+    - 312
+    - 313
+    - 323
+    - 330
+    - 393
+    - 398
+    - 399
+    - 400
+    - 411
+    - 414
+    - 434
+    - 435
+    - 440
+    - 448
+    - 451
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 26.0
+    docPositions:
+    - 7
+    - 171
+    - 260
+    - 261
+    - 312
+    - 313
+    - 323
+    - 330
+    - 393
+    - 398
+    - 399
+    - 400
+    - 411
+    - 414
+    - 431
+    - 434
+    - 435
+    - 440
+    - 448
+    - 451
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 6.0
+    docPositions:
+    - 7
+    - 299
+    - 411
+    - 433
+    - 448
+  editorials: !ruby/object:Word
+    word: editorials
+    stem: editori
+    docFrequency: 10.0
+    docPositions:
+    - 7
+    - 188
+    - 243
+    - 270
+    - 325
+    - 411
+    - 430
+    - 434
+    - 448
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 62.0
+    docPositions:
+    - 7
+    - 173
+    - 174
+    - 232
+    - 235
+    - 261
+    - 295
+    - 303
+    - 304
+    - 305
+    - 306
+    - 307
+    - 313
+    - 315
+    - 316
+    - 317
+    - 321
+    - 322
+    - 325
+    - 359
+    - 383
+    - 411
+    - 425
+    - 431
+    - 434
+    - 448
+  journalism: !ruby/object:Word
+    word: journalism
+    stem: journal
+    docFrequency: 12.0
+    docPositions:
+    - 7
+    - 295
+    - 305
+    - 316
+    - 320
+    - 359
+    - 411
+    - 434
+    - 448
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 7.0
+    docPositions:
+    - 7
+    - 295
+    - 320
+    - 411
+    - 434
+    - 448
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 5.0
+    docPositions:
+    - 7
+    - 295
+    - 411
+    - 448
+  critical: !ruby/object:Word
+    word: critical
+    stem: critic
+    docFrequency: 9.0
+    docPositions:
+    - 7
+    - 295
+    - 306
+    - 310
+    - 411
+    - 434
+    - 448
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 8.0
+    docPositions:
+    - 7
+    - 39
+    - 295
+    - 310
+    - 411
+    - 434
+    - 448
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 411
+    - 448
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 5.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+    - 112
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 12.0
+    docPositions:
+    - 13
+    - 309
+    - 310
+    - 311
+    - 320
+    - 434
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 418
+    - 419
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+    - 273
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 6.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+    - 319
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 25
+    - 286
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 7.0
+    docPositions:
+    - 31
+    - 32
+    - 319
+    - 434
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 10.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 389
+    - 440
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 156
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 5.0
+    docPositions:
+    - 88
+    - 89
+    - 339
+    - 439
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 10.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+    - 315
+    - 322
+    - 434
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 315
+    - 434
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 424
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 6.0
+    docPositions:
+    - 161
+    - 330
+    - 332
+    - 435
+    - 436
+  select: !ruby/object:Word
+    word: select
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 261
+    - 328
+    - 431
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 4.0
+    docPositions:
+    - 161
+    - 330
+    - 435
+  englishespa: !ruby/object:Word
+    word: englishespa
+    stem: englishespa
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  olfran: !ruby/object:Word
+    word: olfran
+    stem: olfran
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  ais: !ruby/object:Word
+    word: ais
+    stem: ai
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 163
+    - 166
+    - 281
+    - 406
+    - 446
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  donate: !ruby/object:Word
+    word: donate
+    stem: donat
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 260
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 8.0
+    docPositions:
+    - 167
+    - 168
+    - 332
+    - 333
+    - 345
+    - 436
+    - 437
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 7.0
+    docPositions:
+    - 168
+    - 311
+    - 333
+    - 345
+    - 434
+    - 437
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 55.0
+    docPositions:
+    - 173
+    - 174
+    - 303
+    - 304
+    - 305
+    - 306
+    - 307
+    - 309
+    - 310
+    - 312
+    - 313
+    - 315
+    - 316
+    - 319
+    - 320
+    - 321
+    - 322
+    - 330
+    - 346
+    - 379
+    - 399
+    - 424
+    - 425
+    - 434
+    - 435
+    - 440
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 5.0
+    docPositions:
+    - 173
+    - 306
+    - 424
+    - 434
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 6.0
+    docPositions:
+    - 173
+    - 392
+    - 393
+    - 424
+    - 440
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 8.0
+    docPositions:
+    - 174
+    - 240
+    - 309
+    - 313
+    - 425
+    - 434
+  views: !ruby/object:Word
+    word: views
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 425
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 8.0
+    docPositions:
+    - 174
+    - 312
+    - 350
+    - 425
+    - 434
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 425
+  developing: !ruby/object:Word
+    word: developing
+    stem: develop
+    docFrequency: 13.0
+    docPositions:
+    - 174
+    - 261
+    - 306
+    - 307
+    - 319
+    - 321
+    - 425
+    - 431
+    - 434
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 23.0
+    docPositions:
+    - 174
+    - 261
+    - 303
+    - 304
+    - 307
+    - 316
+    - 321
+    - 322
+    - 393
+    - 425
+    - 431
+    - 434
+    - 440
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 5.0
+    docPositions:
+    - 184
+    - 332
+    - 426
+    - 436
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 4.0
+    docPositions:
+    - 185
+    - 195
+    - 427
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 413
+    - 431
+    - 450
+  june: !ruby/object:Word
+    word: june
+    stem: june
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 413
+    - 431
+    - 450
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  china: !ruby/object:Word
+    word: china
+    stem: china
+    docFrequency: 8.0
+    docPositions:
+    - 199
+    - 305
+    - 312
+    - 434
+  latin: !ruby/object:Word
+    word: latin
+    stem: latin
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 4.0
+    docPositions:
+    - 202
+    - 379
+    - 440
+  caribbean: !ruby/object:Word
+    word: caribbean
+    stem: caribbean
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  middle: !ruby/object:Word
+    word: middle
+    stem: middl
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  east: !ruby/object:Word
+    word: east
+    stem: east
+    docFrequency: 5.0
+    docPositions:
+    - 205
+    - 211
+    - 305
+    - 434
+  north: !ruby/object:Word
+    word: north
+    stem: north
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  africa: !ruby/object:Word
+    word: africa
+    stem: africa
+    docFrequency: 9.0
+    docPositions:
+    - 205
+    - 214
+    - 313
+    - 434
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 13.0
+    docPositions:
+    - 208
+    - 211
+    - 305
+    - 313
+    - 379
+    - 434
+    - 440
+  asia: !ruby/object:Word
+    word: asia
+    stem: asia
+    docFrequency: 7.0
+    docPositions:
+    - 208
+    - 211
+    - 305
+    - 389
+    - 434
+    - 440
+  sub: !ruby/object:Word
+    word: sub
+    stem: sub
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  saharan: !ruby/object:Word
+    word: saharan
+    stem: saharan
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  topics: !ruby/object:Word
+    word: topics
+    stem: topic
+    docFrequency: 5.0
+    docPositions:
+    - 218
+    - 312
+    - 358
+    - 434
+  agriculture: !ruby/object:Word
+    word: agriculture
+    stem: agricultur
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  climate: !ruby/object:Word
+    word: climate
+    stem: climat
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  energy: !ruby/object:Word
+    word: energy
+    stem: energi
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 2.0
+    docPositions:
+    - 226
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 11.0
+    docPositions:
+    - 229
+    - 291
+    - 307
+    - 311
+    - 356
+    - 363
+    - 364
+    - 434
+    - 440
+  technologies: !ruby/object:Word
+    word: technologies
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 229
+    - 364
+  innovation: !ruby/object:Word
+    word: innovation
+    stem: innov
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 244
+    - 402
+    - 442
+  communication: !ruby/object:Word
+    word: communication
+    stem: commun
+    docFrequency: 8.0
+    docPositions:
+    - 235
+    - 261
+    - 306
+    - 325
+    - 431
+    - 434
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 4.0
+    docPositions:
+    - 239
+    - 346
+    - 440
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  opinions: !ruby/object:Word
+    word: opinions
+    stem: opinion
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  briefs: !ruby/object:Word
+    word: briefs
+    stem: brief
+    docFrequency: 2.0
+    docPositions:
+    - 244
+  practical: !ruby/object:Word
+    word: practical
+    stem: practic
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  letters: !ruby/object:Word
+    word: letters
+    stem: letter
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  editor: !ruby/object:Word
+    word: editor
+    stem: editor
+    docFrequency: 4.0
+    docPositions:
+    - 246
+    - 313
+    - 434
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  reviews: !ruby/object:Word
+    word: reviews
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 4.0
+    docPositions:
+    - 248
+    - 322
+    - 434
+  documents: !ruby/object:Word
+    word: documents
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 4.0
+    docPositions:
+    - 249
+    - 305
+    - 434
+  notices: !ruby/object:Word
+    word: notices
+    stem: notic
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 346
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  jobs: !ruby/object:Word
+    word: jobs
+    stem: job
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  grants: !ruby/object:Word
+    word: grants
+    stem: grant
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  announcements: !ruby/object:Word
+    word: announcements
+    stem: announc
+    docFrequency: 2.0
+    docPositions:
+    - 256
+  works: !ruby/object:Word
+    word: works
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 431
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 431
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 8.0
+    docPositions:
+    - 261
+    - 313
+    - 317
+    - 389
+    - 431
+    - 434
+  effective: !ruby/object:Word
+    word: effective
+    stem: effect
+    docFrequency: 5.0
+    docPositions:
+    - 261
+    - 379
+    - 431
+    - 440
+  across: !ruby/object:Word
+    word: across
+    stem: across
+    docFrequency: 5.0
+    docPositions:
+    - 261
+    - 304
+    - 431
+    - 434
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 5.0
+    docPositions:
+    - 261
+    - 330
+    - 431
+    - 435
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 15.0
+    docPositions:
+    - 261
+    - 306
+    - 311
+    - 314
+    - 320
+    - 321
+    - 332
+    - 431
+    - 434
+    - 436
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  sendtoafriend: !ruby/object:Word
+    word: sendtoafriend
+    stem: sendtoafriend
+    docFrequency: 2.0
+    docPositions:
+    - 273
+  articleinteractlightbox: !ruby/object:Word
+    word: articleinteractlightbox
+    stem: articleinteractlightbox
+    docFrequency: 3.0
+    docPositions:
+    - 273
+    - 291
+  activate: !ruby/object:Word
+    word: activate
+    stem: activ
+    docFrequency: 2.0
+    docPositions:
+    - 273
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 2.0
+    docPositions:
+    - 273
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  friend: !ruby/object:Word
+    word: friend
+    stem: friend
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 278
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 9.0
+    docPositions:
+    - 279
+    - 328
+    - 332
+    - 346
+    - 436
+    - 440
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 2.0
+    docPositions:
+    - 280
+  del: !ruby/object:Word
+    word: del
+    stem: del
+    docFrequency: 2.0
+    docPositions:
+    - 281
+  icio: !ruby/object:Word
+    word: icio
+    stem: icio
+    docFrequency: 2.0
+    docPositions:
+    - 281
+  digg: !ruby/object:Word
+    word: digg
+    stem: digg
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  newsvine: !ruby/object:Word
+    word: newsvine
+    stem: newsvin
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  reddit: !ruby/object:Word
+    word: reddit
+    stem: reddit
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  bookmarks: !ruby/object:Word
+    word: bookmarks
+    stem: bookmark
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  lightbox: !ruby/object:Word
+    word: lightbox
+    stem: lightbox
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 356
+  articleinteractlightboxa: !ruby/object:Word
+    word: articleinteractlightboxa
+    stem: articleinteractlightboxa
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  david: !ruby/object:Word
+    word: david
+    stem: david
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  dickson: !ruby/object:Word
+    word: dickson
+    stem: dickson
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 431
+  october: !ruby/object:Word
+    word: october
+    stem: octob
+    docFrequency: 3.0
+    docPositions:
+    - 298
+    - 432
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 5.0
+    docPositions:
+    - 303
+    - 304
+    - 434
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 5.0
+    docPositions:
+    - 303
+    - 304
+    - 434
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 22.0
+    docPositions:
+    - 303
+    - 304
+    - 305
+    - 306
+    - 312
+    - 313
+    - 321
+    - 351
+    - 369
+    - 393
+    - 434
+    - 440
+  conference: !ruby/object:Word
+    word: conference
+    stem: confer
+    docFrequency: 11.0
+    docPositions:
+    - 303
+    - 304
+    - 311
+    - 319
+    - 321
+    - 434
+  journalists: !ruby/object:Word
+    word: journalists
+    stem: journalist
+    docFrequency: 37.0
+    docPositions:
+    - 303
+    - 304
+    - 306
+    - 307
+    - 310
+    - 311
+    - 312
+    - 313
+    - 315
+    - 316
+    - 317
+    - 321
+    - 322
+    - 434
+  augurs: !ruby/object:Word
+    word: augurs
+    stem: augur
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 9.0
+    docPositions:
+    - 303
+    - 305
+    - 311
+    - 364
+    - 434
+    - 440
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  profession: !ruby/object:Word
+    word: profession
+    stem: profess
+    docFrequency: 11.0
+    docPositions:
+    - 303
+    - 304
+    - 307
+    - 320
+    - 322
+    - 434
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 17.0
+    docPositions:
+    - 303
+    - 305
+    - 307
+    - 310
+    - 312
+    - 313
+    - 317
+    - 374
+    - 434
+    - 440
+  needs: !ruby/object:Word
+    word: needs
+    stem: need
+    docFrequency: 7.0
+    docPositions:
+    - 303
+    - 321
+    - 364
+    - 434
+    - 440
+  maintain: !ruby/object:Word
+    word: maintain
+    stem: maintain
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 7.0
+    docPositions:
+    - 303
+    - 306
+    - 313
+    - 434
+  independence: !ruby/object:Word
+    word: independence
+    stem: independ
+    docFrequency: 10.0
+    docPositions:
+    - 303
+    - 310
+    - 311
+    - 314
+    - 320
+    - 434
+  avoid: !ruby/object:Word
+    word: avoid
+    stem: avoid
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  becoming: !ruby/object:Word
+    word: becoming
+    stem: becom
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  extension: !ruby/object:Word
+    word: extension
+    stem: extens
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 7.0
+    docPositions:
+    - 303
+    - 317
+    - 320
+    - 434
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 7.0
+    docPositions:
+    - 303
+    - 317
+    - 320
+    - 434
+  industry: !ruby/object:Word
+    word: industry
+    stem: industri
+    docFrequency: 3.0
+    docPositions:
+    - 303
+    - 434
+  australia: !ruby/object:Word
+    word: australia
+    stem: australia
+    docFrequency: 7.0
+    docPositions:
+    - 304
+    - 305
+    - 321
+    - 434
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 9.0
+    docPositions:
+    - 304
+    - 315
+    - 320
+    - 374
+    - 434
+    - 440
+  hard: !ruby/object:Word
+    word: hard
+    stem: hard
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  act: !ruby/object:Word
+    word: act
+    stem: act
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  somewhat: !ruby/object:Word
+    word: somewhat
+    stem: somewhat
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 31.0
+    docPositions:
+    - 304
+    - 306
+    - 307
+    - 309
+    - 310
+    - 313
+    - 316
+    - 317
+    - 320
+    - 321
+    - 322
+    - 434
+  own: !ruby/object:Word
+    word: own
+    stem: own
+    docFrequency: 7.0
+    docPositions:
+    - 304
+    - 313
+    - 320
+    - 434
+  surprise: !ruby/object:Word
+    word: surprise
+    stem: surpris
+    docFrequency: 5.0
+    docPositions:
+    - 304
+    - 305
+    - 434
+  canadian: !ruby/object:Word
+    word: canadian
+    stem: canadian
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  counterparts: !ruby/object:Word
+    word: counterparts
+    stem: counterpart
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  managed: !ruby/object:Word
+    word: managed
+    stem: manag
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  attract: !ruby/object:Word
+    word: attract
+    stem: attract
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  colleagues: !ruby/object:Word
+    word: colleagues
+    stem: colleagu
+    docFrequency: 5.0
+    docPositions:
+    - 304
+    - 316
+    - 434
+  montr: !ruby/object:Word
+    word: montr
+    stem: montr
+    docFrequency: 11.0
+    docPositions:
+    - 304
+    - 306
+    - 311
+    - 319
+    - 322
+    - 434
+  al: !ruby/object:Word
+    word: al
+    stem: al
+    docFrequency: 11.0
+    docPositions:
+    - 304
+    - 306
+    - 311
+    - 319
+    - 322
+    - 434
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 11.0
+    docPositions:
+    - 304
+    - 315
+    - 319
+    - 321
+    - 434
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 13.0
+    docPositions:
+    - 304
+    - 306
+    - 310
+    - 319
+    - 322
+    - 434
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 5.0
+    docPositions:
+    - 304
+    - 311
+    - 434
+  exposed: !ruby/object:Word
+    word: exposed
+    stem: expos
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  stimulating: !ruby/object:Word
+    word: stimulating
+    stem: stimul
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  talks: !ruby/object:Word
+    word: talks
+    stem: talk
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  debate: !ruby/object:Word
+    word: debate
+    stem: debat
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  discussion: !ruby/object:Word
+    word: discussion
+    stem: discuss
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 434
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  meeting: !ruby/object:Word
+    word: meeting
+    stem: meet
+    docFrequency: 19.0
+    docPositions:
+    - 305
+    - 306
+    - 309
+    - 313
+    - 319
+    - 321
+    - 322
+    - 434
+  decision: !ruby/object:Word
+    word: decision
+    stem: decis
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 306
+    - 434
+  taken: !ruby/object:Word
+    word: taken
+    stem: taken
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 379
+    - 434
+    - 440
+  writing: !ruby/object:Word
+    word: writing
+    stem: write
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 315
+    - 434
+  associations: !ruby/object:Word
+    word: associations
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 321
+    - 434
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 9.0
+    docPositions:
+    - 305
+    - 310
+    - 311
+    - 321
+    - 434
+  biannual: !ruby/object:Word
+    word: biannual
+    stem: biannual
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  meetings: !ruby/object:Word
+    word: meetings
+    stem: meet
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 13.0
+    docPositions:
+    - 305
+    - 315
+    - 317
+    - 319
+    - 322
+    - 434
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 315
+    - 434
+  melbourne: !ruby/object:Word
+    word: melbourne
+    stem: melbourn
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  perhaps: !ruby/object:Word
+    word: perhaps
+    stem: perhap
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  choice: !ruby/object:Word
+    word: choice
+    stem: choic
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  itself: !ruby/object:Word
+    word: itself
+    stem: itself
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 315
+    - 434
+  something: !ruby/object:Word
+    word: something
+    stem: someth
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 399
+    - 434
+    - 440
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 7.0
+    docPositions:
+    - 305
+    - 310
+    - 315
+    - 434
+  competing: !ruby/object:Word
+    word: competing
+    stem: compet
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  applications: !ruby/object:Word
+    word: applications
+    stem: applic
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 11.0
+    docPositions:
+    - 305
+    - 312
+    - 319
+    - 434
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 9.0
+    docPositions:
+    - 305
+    - 312
+    - 315
+    - 322
+    - 434
+  received: !ruby/object:Word
+    word: received
+    stem: receiv
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 9.0
+    docPositions:
+    - 305
+    - 306
+    - 309
+    - 317
+    - 434
+  italy: !ruby/object:Word
+    word: italy
+    stem: itali
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  australian: !ruby/object:Word
+    word: australian
+    stem: australian
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 321
+    - 434
+  delegation: !ruby/object:Word
+    word: delegation
+    stem: deleg
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  come: !ruby/object:Word
+    word: come
+    stem: come
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 309
+    - 434
+  prepared: !ruby/object:Word
+    word: prepared
+    stem: prepar
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  bid: !ruby/object:Word
+    word: bid
+    stem: bid
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  stressing: !ruby/object:Word
+    word: stressing
+    stem: stress
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  among: !ruby/object:Word
+    word: among
+    stem: among
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 315
+    - 434
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 7.0
+    docPositions:
+    - 305
+    - 309
+    - 317
+    - 434
+  aspects: !ruby/object:Word
+    word: aspects
+    stem: aspect
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  region: !ruby/object:Word
+    word: region
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 13.0
+    docPositions:
+    - 305
+    - 311
+    - 315
+    - 319
+    - 321
+    - 322
+    - 434
+  remains: !ruby/object:Word
+    word: remains
+    stem: remain
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 313
+    - 434
+  relatively: !ruby/object:Word
+    word: relatively
+    stem: rel
+    docFrequency: 7.0
+    docPositions:
+    - 305
+    - 307
+    - 315
+    - 434
+  weak: !ruby/object:Word
+    word: weak
+    stem: weak
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 434
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 7.0
+    docPositions:
+    - 306
+    - 307
+    - 309
+    - 434
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 19.0
+    docPositions:
+    - 306
+    - 307
+    - 309
+    - 310
+    - 315
+    - 317
+    - 319
+    - 434
+  attending: !ruby/object:Word
+    word: attending
+    stem: attend
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  significant: !ruby/object:Word
+    word: significant
+    stem: signific
+    docFrequency: 7.0
+    docPositions:
+    - 306
+    - 310
+    - 320
+    - 434
+  message: !ruby/object:Word
+    word: message
+    stem: messag
+    docFrequency: 7.0
+    docPositions:
+    - 306
+    - 307
+    - 434
+  contained: !ruby/object:Word
+    word: contained
+    stem: contain
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 311
+    - 434
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 7.0
+    docPositions:
+    - 306
+    - 309
+    - 316
+    - 434
+  series: !ruby/object:Word
+    word: series
+    stem: seri
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  speakers: !ruby/object:Word
+    word: speakers
+    stem: speaker
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  underlined: !ruby/object:Word
+    word: underlined
+    stem: underlin
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  importance: !ruby/object:Word
+    word: importance
+    stem: import
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 307
+    - 434
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 11.0
+    docPositions:
+    - 306
+    - 321
+    - 434
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 320
+    - 434
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  challenges: !ruby/object:Word
+    word: challenges
+    stem: challeng
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 322
+    - 434
+  face: !ruby/object:Word
+    word: face
+    stem: face
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  carrying: !ruby/object:Word
+    word: carrying
+    stem: carri
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  effectively: !ruby/object:Word
+    word: effectively
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  maureen: !ruby/object:Word
+    word: maureen
+    stem: maureen
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  neill: !ruby/object:Word
+    word: neill
+    stem: neill
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 9.0
+    docPositions:
+    - 306
+    - 309
+    - 311
+    - 434
+  president: !ruby/object:Word
+    word: president
+    stem: presid
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  canada: !ruby/object:Word
+    word: canada
+    stem: canada
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 384
+    - 388
+    - 434
+  centre: !ruby/object:Word
+    word: centre
+    stem: centr
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 13.0
+    docPositions:
+    - 306
+    - 307
+    - 311
+    - 316
+    - 319
+    - 320
+    - 434
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 316
+    - 434
+  sponsors: !ruby/object:Word
+    word: sponsors
+    stem: sponsor
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  emphasised: !ruby/object:Word
+    word: emphasised
+    stem: emphasis
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 11.0
+    docPositions:
+    - 306
+    - 310
+    - 313
+    - 320
+    - 434
+  opening: !ruby/object:Word
+    word: opening
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 7.0
+    docPositions:
+    - 306
+    - 321
+    - 322
+    - 434
+  placing: !ruby/object:Word
+    word: placing
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  task: !ruby/object:Word
+    word: task
+    stem: task
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 313
+    - 434
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  countries: !ruby/object:Word
+    word: countries
+    stem: countri
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 319
+    - 434
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 11.0
+    docPositions:
+    - 306
+    - 311
+    - 313
+    - 317
+    - 330
+    - 434
+    - 435
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 313
+    - 434
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 434
+  experienced: !ruby/object:Word
+    word: experienced
+    stem: experienc
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  familiar: !ruby/object:Word
+    word: familiar
+    stem: familiar
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  particularly: !ruby/object:Word
+    word: particularly
+    stem: particularli
+    docFrequency: 7.0
+    docPositions:
+    - 307
+    - 315
+    - 319
+    - 434
+  parts: !ruby/object:Word
+    word: parts
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  struggling: !ruby/object:Word
+    word: struggling
+    stem: struggl
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  establish: !ruby/object:Word
+    word: establish
+    stem: establish
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  professional: !ruby/object:Word
+    word: professional
+    stem: profession
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  identity: !ruby/object:Word
+    word: identity
+    stem: ident
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  writers: !ruby/object:Word
+    word: writers
+    stem: writer
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 5.0
+    docPositions:
+    - 307
+    - 321
+    - 434
+  dominated: !ruby/object:Word
+    word: dominated
+    stem: domin
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 10.0
+    docPositions:
+    - 307
+    - 310
+    - 311
+    - 313
+    - 383
+    - 434
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  sport: !ruby/object:Word
+    word: sport
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 11.0
+    docPositions:
+    - 307
+    - 309
+    - 311
+    - 319
+    - 322
+    - 434
+  welcome: !ruby/object:Word
+    word: welcome
+    stem: welcom
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  reassurance: !ruby/object:Word
+    word: reassurance
+    stem: reassur
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  chosen: !ruby/object:Word
+    word: chosen
+    stem: chosen
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 434
+  path: !ruby/object:Word
+    word: path
+    stem: path
+    docFrequency: 5.0
+    docPositions:
+    - 307
+    - 309
+    - 434
+  external: !ruby/object:Word
+    word: external
+    stem: extern
+    docFrequency: 5.0
+    docPositions:
+    - 308
+    - 398
+    - 434
+    - 440
+  pressures: !ruby/object:Word
+    word: pressures
+    stem: pressur
+    docFrequency: 8.0
+    docPositions:
+    - 308
+    - 309
+    - 310
+    - 434
+  yet: !ruby/object:Word
+    word: yet
+    stem: yet
+    docFrequency: 2.0
+    docPositions:
+    - 309
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 311
+    - 434
+  warnings: !ruby/object:Word
+    word: warnings
+    stem: warn
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 311
+    - 434
+  narrowness: !ruby/object:Word
+    word: narrowness
+    stem: narrow
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 13.0
+    docPositions:
+    - 309
+    - 310
+    - 311
+    - 321
+    - 322
+    - 434
+  knock: !ruby/object:Word
+    word: knock
+    stem: knock
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  balance: !ruby/object:Word
+    word: balance
+    stem: balanc
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  seek: !ruby/object:Word
+    word: seek
+    stem: seek
+    docFrequency: 7.0
+    docPositions:
+    - 309
+    - 313
+    - 317
+    - 434
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 313
+    - 434
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 15.0
+    docPositions:
+    - 309
+    - 310
+    - 311
+    - 312
+    - 315
+    - 434
+  vested: !ruby/object:Word
+    word: vested
+    stem: vest
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  interested: !ruby/object:Word
+    word: interested
+    stem: interest
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  seeing: !ruby/object:Word
+    word: seeing
+    stem: see
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  sometimes: !ruby/object:Word
+    word: sometimes
+    stem: sometim
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  pressure: !ruby/object:Word
+    word: pressure
+    stem: pressur
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 434
+  explicit: !ruby/object:Word
+    word: explicit
+    stem: explicit
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  obvious: !ruby/object:Word
+    word: obvious
+    stem: obviou
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  cases: !ruby/object:Word
+    word: cases
+    stem: case
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  origins: !ruby/object:Word
+    word: origins
+    stem: origin
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 315
+    - 434
+  political: !ruby/object:Word
+    word: political
+    stem: polit
+    docFrequency: 7.0
+    docPositions:
+    - 309
+    - 320
+    - 434
+  newspaper: !ruby/object:Word
+    word: newspaper
+    stem: newspap
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  becomes: !ruby/object:Word
+    word: becomes
+    stem: becom
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  transformed: !ruby/object:Word
+    word: transformed
+    stem: transform
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 7.0
+    docPositions:
+    - 309
+    - 320
+    - 434
+  judgement: !ruby/object:Word
+    word: judgement
+    stem: judgement
+    docFrequency: 13.0
+    docPositions:
+    - 309
+    - 310
+    - 311
+    - 320
+    - 434
+  values: !ruby/object:Word
+    word: values
+    stem: valu
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  imposed: !ruby/object:Word
+    word: imposed
+    stem: impos
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  senior: !ruby/object:Word
+    word: senior
+    stem: senior
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  staff: !ruby/object:Word
+    word: staff
+    stem: staff
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  junior: !ruby/object:Word
+    word: junior
+    stem: junior
+    docFrequency: 3.0
+    docPositions:
+    - 309
+    - 434
+  reporters: !ruby/object:Word
+    word: reporters
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 309
+    - 312
+    - 434
+  difficult: !ruby/object:Word
+    word: difficult
+    stem: difficult
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  resist: !ruby/object:Word
+    word: resist
+    stem: resist
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  conflict: !ruby/object:Word
+    word: conflict
+    stem: conflict
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  responsibility: !ruby/object:Word
+    word: responsibility
+    stem: respons
+    docFrequency: 9.0
+    docPositions:
+    - 310
+    - 315
+    - 317
+    - 320
+    - 434
+  journalist: !ruby/object:Word
+    word: journalist
+    stem: journalist
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 315
+    - 320
+    - 434
+  firstly: !ruby/object:Word
+    word: firstly
+    stem: firstli
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  remain: !ruby/object:Word
+    word: remain
+    stem: remain
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  faithful: !ruby/object:Word
+    word: faithful
+    stem: faith
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  possible: !ruby/object:Word
+    word: possible
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  facts: !ruby/object:Word
+    word: facts
+    stem: fact
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 312
+    - 434
+  secondly: !ruby/object:Word
+    word: secondly
+    stem: secondli
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 330
+    - 401
+    - 434
+    - 435
+    - 441
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 320
+    - 434
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 393
+    - 434
+    - 440
+  neither: !ruby/object:Word
+    word: neither
+    stem: neither
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  requires: !ruby/object:Word
+    word: requires
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  objectivity: !ruby/object:Word
+    word: objectivity
+    stem: object
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 313
+    - 434
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 312
+    - 434
+  described: !ruby/object:Word
+    word: described
+    stem: describ
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  passionate: !ruby/object:Word
+    word: passionate
+    stem: passion
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 319
+    - 434
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 319
+    - 434
+  demand: !ruby/object:Word
+    word: demand
+    stem: demand
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 11.0
+    docPositions:
+    - 310
+    - 311
+    - 315
+    - 317
+    - 322
+    - 434
+  passion: !ruby/object:Word
+    word: passion
+    stem: passion
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  retain: !ruby/object:Word
+    word: retain
+    stem: retain
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 315
+    - 434
+  sufficient: !ruby/object:Word
+    word: sufficient
+    stem: suffici
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 434
+  ensure: !ruby/object:Word
+    word: ensure
+    stem: ensur
+    docFrequency: 9.0
+    docPositions:
+    - 310
+    - 316
+    - 320
+    - 321
+    - 434
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 320
+    - 434
+  informed: !ruby/object:Word
+    word: informed
+    stem: inform
+    docFrequency: 5.0
+    docPositions:
+    - 310
+    - 316
+    - 434
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 8.0
+    docPositions:
+    - 311
+    - 321
+    - 322
+    - 363
+    - 434
+  threatened: !ruby/object:Word
+    word: threatened
+    stem: threaten
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 312
+    - 434
+  speaker: !ruby/object:Word
+    word: speaker
+    stem: speaker
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  warned: !ruby/object:Word
+    word: warned
+    stem: warn
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  caution: !ruby/object:Word
+    word: caution
+    stem: caution
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 315
+    - 434
+  clinical: !ruby/object:Word
+    word: clinical
+    stem: clinic
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  trials: !ruby/object:Word
+    word: trials
+    stem: trial
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  pharmaceutical: !ruby/object:Word
+    word: pharmaceutical
+    stem: pharmaceut
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  dressed: !ruby/object:Word
+    word: dressed
+    stem: dress
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  cloak: !ruby/object:Word
+    word: cloak
+    stem: cloak
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 9.0
+    docPositions:
+    - 311
+    - 317
+    - 321
+    - 434
+  plausibility: !ruby/object:Word
+    word: plausibility
+    stem: plausibl
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  supporting: !ruby/object:Word
+    word: supporting
+    stem: support
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  papers: !ruby/object:Word
+    word: papers
+    stem: paper
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 434
+  journals: !ruby/object:Word
+    word: journals
+    stem: journal
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  inadequate: !ruby/object:Word
+    word: inadequate
+    stem: inadequ
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  interpretation: !ruby/object:Word
+    word: interpretation
+    stem: interpret
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  warn: !ruby/object:Word
+    word: warn
+    stem: warn
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  helping: !ruby/object:Word
+    word: helping
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  drug: !ruby/object:Word
+    word: drug
+    stem: drug
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  giants: !ruby/object:Word
+    word: giants
+    stem: giant
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  disease: !ruby/object:Word
+    word: disease
+    stem: diseas
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 434
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 313
+    - 434
+  session: !ruby/object:Word
+    word: session
+    stem: session
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  beijing: !ruby/object:Word
+    word: beijing
+    stem: beij
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  correspondent: !ruby/object:Word
+    word: correspondent
+    stem: correspond
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  jia: !ruby/object:Word
+    word: jia
+    stem: jia
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 434
+  hepeng: !ruby/object:Word
+    word: hepeng
+    stem: hepeng
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  spoke: !ruby/object:Word
+    word: spoke
+    stem: spoke
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  difficulties: !ruby/object:Word
+    word: difficulties
+    stem: difficulti
+    docFrequency: 7.0
+    docPositions:
+    - 312
+    - 313
+    - 434
+  facing: !ruby/object:Word
+    word: facing
+    stem: face
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 7.0
+    docPositions:
+    - 312
+    - 313
+    - 434
+  seeks: !ruby/object:Word
+    word: seeks
+    stem: seek
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  distribution: !ruby/object:Word
+    word: distribution
+    stem: distribut
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  sensitive: !ruby/object:Word
+    word: sensitive
+    stem: sensit
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  spread: !ruby/object:Word
+    word: spread
+    stem: spread
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 313
+    - 434
+  sars: !ruby/object:Word
+    word: sars
+    stem: sar
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  virus: !ruby/object:Word
+    word: virus
+    stem: viru
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  criticism: !ruby/object:Word
+    word: criticism
+    stem: critic
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 319
+    - 434
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 317
+    - 434
+  outside: !ruby/object:Word
+    word: outside
+    stem: outsid
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  initial: !ruby/object:Word
+    word: initial
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  lack: !ruby/object:Word
+    word: lack
+    stem: lack
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 434
+  openness: !ruby/object:Word
+    word: openness
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  helped: !ruby/object:Word
+    word: helped
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  overcome: !ruby/object:Word
+    word: overcome
+    stem: overcom
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  hurdle: !ruby/object:Word
+    word: hurdle
+    stem: hurdl
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  faced: !ruby/object:Word
+    word: faced
+    stem: face
+    docFrequency: 7.0
+    docPositions:
+    - 312
+    - 313
+    - 322
+    - 434
+  chinese: !ruby/object:Word
+    word: chinese
+    stem: chines
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  namely: !ruby/object:Word
+    word: namely
+    stem: name
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 434
+  sheer: !ruby/object:Word
+    word: sheer
+    stem: sheer
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 317
+    - 434
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 322
+    - 434
+  replaced: !ruby/object:Word
+    word: replaced
+    stem: replac
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  equally: !ruby/object:Word
+    word: equally
+    stem: equal
+    docFrequency: 7.0
+    docPositions:
+    - 312
+    - 315
+    - 322
+    - 434
+  daunting: !ruby/object:Word
+    word: daunting
+    stem: daunt
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  challenge: !ruby/object:Word
+    word: challenge
+    stem: challeng
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  discovering: !ruby/object:Word
+    word: discovering
+    stem: discov
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  reality: !ruby/object:Word
+    word: reality
+    stem: realiti
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  figures: !ruby/object:Word
+    word: figures
+    stem: figur
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 7.0
+    docPositions:
+    - 312
+    - 317
+    - 434
+  apparent: !ruby/object:Word
+    word: apparent
+    stem: appar
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  transparency: !ruby/object:Word
+    word: transparency
+    stem: transpar
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 434
+  similar: !ruby/object:Word
+    word: similar
+    stem: similar
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  faces: !ruby/object:Word
+    word: faces
+    stem: face
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 434
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 6.0
+    docPositions:
+    - 313
+    - 384
+    - 389
+    - 434
+    - 440
+  hiv: !ruby/object:Word
+    word: hiv
+    stem: hiv
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  aids: !ruby/object:Word
+    word: aids
+    stem: aid
+    docFrequency: 7.0
+    docPositions:
+    - 313
+    - 434
+  tamar: !ruby/object:Word
+    word: tamar
+    stem: tamar
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  kahn: !ruby/object:Word
+    word: kahn
+    stem: kahn
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 434
+  contributor: !ruby/object:Word
+    word: contributor
+    stem: contributor
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  told: !ruby/object:Word
+    word: told
+    stem: told
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 7.0
+    docPositions:
+    - 313
+    - 315
+    - 322
+    - 434
+  become: !ruby/object:Word
+    word: become
+    stem: becom
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  easier: !ruby/object:Word
+    word: easier
+    stem: easier
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  overcoming: !ruby/object:Word
+    word: overcoming
+    stem: overcom
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 4.0
+    docPositions:
+    - 313
+    - 325
+    - 434
+  reluctance: !ruby/object:Word
+    word: reluctance
+    stem: reluct
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  acknowledge: !ruby/object:Word
+    word: acknowledge
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 434
+  tendency: !ruby/object:Word
+    word: tendency
+    stem: tendenc
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 315
+    - 434
+  officials: !ruby/object:Word
+    word: officials
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  reflected: !ruby/object:Word
+    word: reflected
+    stem: reflect
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 320
+    - 434
+  individual: !ruby/object:Word
+    word: individual
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  getting: !ruby/object:Word
+    word: getting
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  accepted: !ruby/object:Word
+    word: accepted
+    stem: accept
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  persuading: !ruby/object:Word
+    word: persuading
+    stem: persuad
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  epidemic: !ruby/object:Word
+    word: epidemic
+    stem: epidem
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  reaching: !ruby/object:Word
+    word: reaching
+    stem: reach
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  proportions: !ruby/object:Word
+    word: proportions
+    stem: proport
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 313
+    - 317
+    - 434
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  paragraphs: !ruby/object:Word
+    word: paragraphs
+    stem: paragraph
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  inside: !ruby/object:Word
+    word: inside
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  controversy: !ruby/object:Word
+    word: controversy
+    stem: controversi
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 434
+  instances: !ruby/object:Word
+    word: instances
+    stem: instanc
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  usually: !ruby/object:Word
+    word: usually
+    stem: usual
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  proper: !ruby/object:Word
+    word: proper
+    stem: proper
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 5.0
+    docPositions:
+    - 315
+    - 317
+    - 434
+  independent: !ruby/object:Word
+    word: independent
+    stem: independ
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  stance: !ruby/object:Word
+    word: stance
+    stem: stanc
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  assume: !ruby/object:Word
+    word: assume
+    stem: assum
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 5.0
+    docPositions:
+    - 315
+    - 369
+    - 434
+    - 440
+  definition: !ruby/object:Word
+    word: definition
+    stem: definit
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 7.0
+    docPositions:
+    - 315
+    - 317
+    - 393
+    - 434
+    - 440
+  promotion: !ruby/object:Word
+    word: promotion
+    stem: promot
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  argue: !ruby/object:Word
+    word: argue
+    stem: argu
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  esteem: !ruby/object:Word
+    word: esteem
+    stem: esteem
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  widely: !ruby/object:Word
+    word: widely
+    stem: wide
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  primarily: !ruby/object:Word
+    word: primarily
+    stem: primarili
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  bad: !ruby/object:Word
+    word: bad
+    stem: bad
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 5.0
+    docPositions:
+    - 315
+    - 320
+    - 434
+  reverse: !ruby/object:Word
+    word: reverse
+    stem: revers
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  situation: !ruby/object:Word
+    word: situation
+    stem: situat
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 434
+  certainly: !ruby/object:Word
+    word: certainly
+    stem: certainli
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 321
+    - 434
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  often: !ruby/object:Word
+    word: often
+    stem: often
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  distinguishes: !ruby/object:Word
+    word: distinguishes
+    stem: distinguish
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  greater: !ruby/object:Word
+    word: greater
+    stem: greater
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 321
+    - 434
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  respect: !ruby/object:Word
+    word: respect
+    stem: respect
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  operates: !ruby/object:Word
+    word: operates
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  indeed: !ruby/object:Word
+    word: indeed
+    stem: inde
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  reasons: !ruby/object:Word
+    word: reasons
+    stem: reason
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  promoting: !ruby/object:Word
+    word: promoting
+    stem: promot
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 317
+    - 434
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 322
+    - 434
+  precisely: !ruby/object:Word
+    word: precisely
+    stem: precis
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  written: !ruby/object:Word
+    word: written
+    stem: written
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  done: !ruby/object:Word
+    word: done
+    stem: done
+    docFrequency: 7.0
+    docPositions:
+    - 316
+    - 317
+    - 434
+  manner: !ruby/object:Word
+    word: manner
+    stem: manner
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 434
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 9.0
+    docPositions:
+    - 317
+    - 319
+    - 398
+    - 434
+    - 440
+  endorsing: !ruby/object:Word
+    word: endorsing
+    stem: endors
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  everything: !ruby/object:Word
+    word: everything
+    stem: everyth
+    docFrequency: 5.0
+    docPositions:
+    - 317
+    - 434
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 5.0
+    docPositions:
+    - 317
+    - 434
+  critic: !ruby/object:Word
+    word: critic
+    stem: critic
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  expected: !ruby/object:Word
+    word: expected
+    stem: expect
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  endorse: !ruby/object:Word
+    word: endorse
+    stem: endors
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  words: !ruby/object:Word
+    word: words
+    stem: word
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  seen: !ruby/object:Word
+    word: seen
+    stem: seen
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  themselves: !ruby/object:Word
+    word: themselves
+    stem: themselv
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  activity: !ruby/object:Word
+    word: activity
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  programme: !ruby/object:Word
+    word: programme
+    stem: programm
+    docFrequency: 7.0
+    docPositions:
+    - 317
+    - 321
+    - 434
+  recruit: !ruby/object:Word
+    word: recruit
+    stem: recruit
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  cause: !ruby/object:Word
+    word: cause
+    stem: caus
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 434
+  blurring: !ruby/object:Word
+    word: blurring
+    stem: blur
+    docFrequency: 5.0
+    docPositions:
+    - 318
+    - 320
+    - 434
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 4.0
+    docPositions:
+    - 318
+    - 320
+    - 434
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 5.0
+    docPositions:
+    - 319
+    - 322
+    - 434
+  extent: !ruby/object:Word
+    word: extent
+    stem: extent
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 7.0
+    docPositions:
+    - 319
+    - 322
+    - 434
+  generously: !ruby/object:Word
+    word: generously
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  sponsorship: !ruby/object:Word
+    word: sponsorship
+    stem: sponsorship
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  accommodation: !ruby/object:Word
+    word: accommodation
+    stem: accommod
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  costs: !ruby/object:Word
+    word: costs
+    stem: cost
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  foreign: !ruby/object:Word
+    word: foreign
+    stem: foreign
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  participants: !ruby/object:Word
+    word: participants
+    stem: particip
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  appeared: !ruby/object:Word
+    word: appeared
+    stem: appear
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  feel: !ruby/object:Word
+    word: feel
+    stem: feel
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  justified: !ruby/object:Word
+    word: justified
+    stem: justifi
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  subsequently: !ruby/object:Word
+    word: subsequently
+    stem: subsequ
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  promotional: !ruby/object:Word
+    word: promotional
+    stem: promot
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  principle: !ruby/object:Word
+    word: principle
+    stem: principl
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 5.0
+    docPositions:
+    - 319
+    - 434
+  reason: !ruby/object:Word
+    word: reason
+    stem: reason
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 319
+    - 330
+    - 434
+    - 435
+  complains: !ruby/object:Word
+    word: complains
+    stem: complain
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  sponsor: !ruby/object:Word
+    word: sponsor
+    stem: sponsor
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  sporting: !ruby/object:Word
+    word: sporting
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  demands: !ruby/object:Word
+    word: demands
+    stem: demand
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  prominently: !ruby/object:Word
+    word: prominently
+    stem: promin
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  featured: !ruby/object:Word
+    word: featured
+    stem: featur
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  television: !ruby/object:Word
+    word: television
+    stem: televis
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 434
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 4.0
+    docPositions:
+    - 319
+    - 324
+    - 434
+  danger: !ruby/object:Word
+    word: danger
+    stem: danger
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  lies: !ruby/object:Word
+    word: lies
+    stem: li
+    docFrequency: 5.0
+    docPositions:
+    - 320
+    - 434
+  happens: !ruby/object:Word
+    word: happens
+    stem: happen
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  denying: !ruby/object:Word
+    word: denying
+    stem: deni
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  exercise: !ruby/object:Word
+    word: exercise
+    stem: exercis
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  substituting: !ruby/object:Word
+    word: substituting
+    stem: substitut
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  others: !ruby/object:Word
+    word: others
+    stem: other
+    docFrequency: 5.0
+    docPositions:
+    - 320
+    - 322
+    - 434
+  financial: !ruby/object:Word
+    word: financial
+    stem: financi
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  agenda: !ruby/object:Word
+    word: agenda
+    stem: agenda
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  response: !ruby/object:Word
+    word: response
+    stem: respons
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  lie: !ruby/object:Word
+    word: lie
+    stem: lie
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  insistence: !ruby/object:Word
+    word: insistence
+    stem: insist
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  guarantor: !ruby/object:Word
+    word: guarantor
+    stem: guarantor
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  journalistic: !ruby/object:Word
+    word: journalistic
+    stem: journalist
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  integrity: !ruby/object:Word
+    word: integrity
+    stem: integr
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  commitment: !ruby/object:Word
+    word: commitment
+    stem: commit
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  adequately: !ruby/object:Word
+    word: adequately
+    stem: adequ
+    docFrequency: 5.0
+    docPositions:
+    - 320
+    - 321
+    - 434
+  practice: !ruby/object:Word
+    word: practice
+    stem: practic
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 434
+  hopefully: !ruby/object:Word
+    word: hopefully
+    stem: hopefulli
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  organisers: !ruby/object:Word
+    word: organisers
+    stem: organis
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  bear: !ruby/object:Word
+    word: bear
+    stem: bear
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  mind: !ruby/object:Word
+    word: mind
+    stem: mind
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  planning: !ruby/object:Word
+    word: planning
+    stem: plan
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  acknowledges: !ruby/object:Word
+    word: acknowledges
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  reflects: !ruby/object:Word
+    word: reflects
+    stem: reflect
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  modern: !ruby/object:Word
+    word: modern
+    stem: modern
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  societies: !ruby/object:Word
+    word: societies
+    stem: societi
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  developed: !ruby/object:Word
+    word: developed
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  obviously: !ruby/object:Word
+    word: obviously
+    stem: obvious
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  vehicle: !ruby/object:Word
+    word: vehicle
+    stem: vehicl
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  creating: !ruby/object:Word
+    word: creating
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  awareness: !ruby/object:Word
+    word: awareness
+    stem: awar
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  technological: !ruby/object:Word
+    word: technological
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  achievements: !ruby/object:Word
+    word: achievements
+    stem: achiev
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 434
+  detail: !ruby/object:Word
+    word: detail
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  strive: !ruby/object:Word
+    word: strive
+    stem: strive
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  flourish: !ruby/object:Word
+    word: flourish
+    stem: flourish
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  good: !ruby/object:Word
+    word: good
+    stem: good
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  openings: !ruby/object:Word
+    word: openings
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  direction: !ruby/object:Word
+    word: direction
+    stem: direct
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  baton: !ruby/object:Word
+    word: baton
+    stem: baton
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  passed: !ruby/object:Word
+    word: passed
+    stem: pass
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  ensuring: !ruby/object:Word
+    word: ensuring
+    stem: ensur
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 434
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 4.0
+    docPositions:
+    - 323
+    - 358
+    - 434
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 5.0
+    docPositions:
+    - 330
+    - 435
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  approval: !ruby/object:Word
+    word: approval
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  reserve: !ruby/object:Word
+    word: reserve
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  edit: !ruby/object:Word
+    word: edit
+    stem: edit
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  containing: !ruby/object:Word
+    word: containing
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  inappropriate: !ruby/object:Word
+    word: inappropriate
+    stem: inappropri
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  unsuitable: !ruby/object:Word
+    word: unsuitable
+    stem: unsuit
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  holds: !ruby/object:Word
+    word: holds
+    stem: hold
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  posted: !ruby/object:Word
+    word: posted
+    stem: post
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 5.0
+    docPositions:
+    - 330
+    - 401
+    - 435
+    - 441
+  further: !ruby/object:Word
+    word: further
+    stem: further
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 435
+  signed: !ruby/object:Word
+    word: signed
+    stem: sign
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 436
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 5.0
+    docPositions:
+    - 332
+    - 346
+    - 436
+    - 440
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 5.0
+    docPositions:
+    - 332
+    - 346
+    - 436
+    - 440
+  consenting: !ruby/object:Word
+    word: consenting
+    stem: consent
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 436
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 436
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 439
+  editorialsto: !ruby/object:Word
+    word: editorialsto
+    stem: editorialsto
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 439
+  receive: !ruby/object:Word
+    word: receive
+    stem: receiv
+    docFrequency: 3.0
+    docPositions:
+    - 346
+    - 440
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 3.0
+    docPositions:
+    - 346
+    - 440
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 350
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  webfeeds: !ruby/object:Word
+    word: webfeeds
+    stem: webfe
+    docFrequency: 4.0
+    docPositions:
+    - 352
+    - 405
+    - 445
+  feedback: !ruby/object:Word
+    word: feedback
+    stem: feedback
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  feedbacklightbox: !ruby/object:Word
+    word: feedbacklightbox
+    stem: feedbacklightbox
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  feedbacklightboxa: !ruby/object:Word
+    word: feedbacklightboxa
+    stem: feedbacklightboxa
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  innovate: !ruby/object:Word
+    word: innovate
+    stem: innov
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  healthcare: !ruby/object:Word
+    word: healthcare
+    stem: healthcar
+    docFrequency: 2.0
+    docPositions:
+    - 364
+  poor: !ruby/object:Word
+    word: poor
+    stem: poor
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 440
+  creative: !ruby/object:Word
+    word: creative
+    stem: creativ
+    docFrequency: 5.0
+    docPositions:
+    - 364
+    - 404
+    - 440
+    - 444
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 440
+  thinking: !ruby/object:Word
+    word: thinking
+    stem: think
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 440
+  gm: !ruby/object:Word
+    word: gm
+    stem: gm
+    docFrequency: 7.0
+    docPositions:
+    - 368
+    - 369
+    - 378
+    - 379
+    - 440
+  kenya: !ruby/object:Word
+    word: kenya
+    stem: kenya
+    docFrequency: 3.0
+    docPositions:
+    - 368
+    - 369
+  odyssey: !ruby/object:Word
+    word: odyssey
+    stem: odyssei
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 440
+  towards: !ruby/object:Word
+    word: towards
+    stem: toward
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 440
+  official: !ruby/object:Word
+    word: official
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 440
+  acceptance: !ruby/object:Word
+    word: acceptance
+    stem: accept
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 440
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  crop: !ruby/object:Word
+    word: crop
+    stem: crop
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  boosting: !ruby/object:Word
+    word: boosting
+    stem: boost
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  fungi: !ruby/object:Word
+    word: fungi
+    stem: fungi
+    docFrequency: 3.0
+    docPositions:
+    - 373
+    - 374
+  accelerated: !ruby/object:Word
+    word: accelerated
+    stem: acceler
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  rice: !ruby/object:Word
+    word: rice
+    stem: rice
+    docFrequency: 5.0
+    docPositions:
+    - 374
+    - 440
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  fold: !ruby/object:Word
+    word: fold
+    stem: fold
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  greenhouses: !ruby/object:Word
+    word: greenhouses
+    stem: greenhous
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  technique: !ruby/object:Word
+    word: technique
+    stem: techniqu
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  transfer: !ruby/object:Word
+    word: transfer
+    stem: transfer
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  paddies: !ruby/object:Word
+    word: paddies
+    stem: paddi
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 440
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  crops: !ruby/object:Word
+    word: crops
+    stem: crop
+    docFrequency: 4.0
+    docPositions:
+    - 378
+    - 379
+    - 440
+  proving: !ruby/object:Word
+    word: proving
+    stem: prove
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 440
+  safe: !ruby/object:Word
+    word: safe
+    stem: safe
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 440
+  says: !ruby/object:Word
+    word: says
+    stem: sai
+    docFrequency: 5.0
+    docPositions:
+    - 379
+    - 389
+    - 440
+  biosafety: !ruby/object:Word
+    word: biosafety
+    stem: biosafeti
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 440
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 379
+  stem: !ruby/object:Word
+    word: stem
+    stem: stem
+    docFrequency: 4.0
+    docPositions:
+    - 383
+    - 384
+    - 440
+  cell: !ruby/object:Word
+    word: cell
+    stem: cell
+    docFrequency: 4.0
+    docPositions:
+    - 383
+    - 384
+    - 440
+  epic: !ruby/object:Word
+    word: epic
+    stem: epic
+    docFrequency: 3.0
+    docPositions:
+    - 384
+    - 440
+  controversies: !ruby/object:Word
+    word: controversies
+    stem: controversi
+    docFrequency: 3.0
+    docPositions:
+    - 384
+    - 440
+  embryonic: !ruby/object:Word
+    word: embryonic
+    stem: embryon
+    docFrequency: 3.0
+    docPositions:
+    - 384
+    - 440
+  pool: !ruby/object:Word
+    word: pool
+    stem: pool
+    docFrequency: 2.0
+    docPositions:
+    - 388
+  water: !ruby/object:Word
+    word: water
+    stem: water
+    docFrequency: 4.0
+    docPositions:
+    - 388
+    - 389
+    - 440
+  cross: !ruby/object:Word
+    word: cross
+    stem: cross
+    docFrequency: 3.0
+    docPositions:
+    - 389
+    - 440
+  collaboration: !ruby/object:Word
+    word: collaboration
+    stem: collabor
+    docFrequency: 3.0
+    docPositions:
+    - 389
+    - 440
+  needed: !ruby/object:Word
+    word: needed
+    stem: need
+    docFrequency: 3.0
+    docPositions:
+    - 389
+    - 440
+  avert: !ruby/object:Word
+    word: avert
+    stem: avert
+    docFrequency: 3.0
+    docPositions:
+    - 389
+    - 440
+  catastrophes: !ruby/object:Word
+    word: catastrophes
+    stem: catastroph
+    docFrequency: 3.0
+    docPositions:
+    - 389
+    - 440
+  guardian: !ruby/object:Word
+    word: guardian
+    stem: guardian
+    docFrequency: 4.0
+    docPositions:
+    - 392
+    - 393
+    - 440
+  environmental: !ruby/object:Word
+    word: environmental
+    stem: environment
+    docFrequency: 3.0
+    docPositions:
+    - 393
+    - 440
+  websites: !ruby/object:Word
+    word: websites
+    stem: websit
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  responsible: !ruby/object:Word
+    word: responsible
+    stem: respons
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 440
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 440
+  internet: !ruby/object:Word
+    word: internet
+    stem: internet
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 440
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 398
+  charity: !ruby/object:Word
+    word: charity
+    stem: chariti
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 440
+  registered: !ruby/object:Word
+    word: registered
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 440
+  england: !ruby/object:Word
+    word: england
+    stem: england
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 440
+  wales: !ruby/object:Word
+    word: wales
+    stem: wale
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 440
+  registration: !ruby/object:Word
+    word: registration
+    stem: registr
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 440
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 402
+    - 442
+  accessibility: !ruby/object:Word
+    word: accessibility
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 403
+    - 443
+  commons: !ruby/object:Word
+    word: commons
+    stem: common
+    docFrequency: 3.0
+    docPositions:
+    - 404
+    - 444
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 406
+    - 446
+  printed: !ruby/object:Word
+    word: printed
+    stem: print
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 449
+  gajshost: !ruby/object:Word
+    word: gajshost
+    stem: gajshost
+    docFrequency: 3.0
+    docPositions:
+    - 418
+    - 419
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 418
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  pagetracker: !ruby/object:Word
+    word: pagetracker
+    stem: pagetrack
+    docFrequency: 4.0
+    docPositions:
+    - 421
+    - 422
+    - 423
+  _gat: !ruby/object:Word
+    word: _gat
+    stem: _gat
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  _gettracker: !ruby/object:Word
+    word: _gettracker
+    stem: _gettrack
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  _initdata: !ruby/object:Word
+    word: _initdata
+    stem: _initdata
+    docFrequency: 2.0
+    docPositions:
+    - 422
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 423
+  navigationscience: !ruby/object:Word
+    word: navigationscience
+    stem: navigationsci
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  supportdavid: !ruby/object:Word
+    word: supportdavid
+    stem: supportdavid
+    docFrequency: 2.0
+    docPositions:
+    - 431
+  pressuresyet: !ruby/object:Word
+    word: pressuresyet
+    stem: pressuresyet
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  independencein: !ruby/object:Word
+    word: independencein
+    stem: independencein
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  lineif: !ruby/object:Word
+    word: lineif
+    stem: lineif
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  coverageprevious: !ruby/object:Word
+    word: coverageprevious
+    stem: coverageprevi
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  noticeshealthcare: !ruby/object:Word
+    word: noticeshealthcare
+    stem: noticeshealthcar
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  technologieskenya: !ruby/object:Word
+    word: technologieskenya
+    stem: technologieskenya
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  overfungi: !ruby/object:Word
+    word: overfungi
+    stem: overfungi
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  headhow: !ruby/object:Word
+    word: headhow
+    stem: headhow
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  researchmore: !ruby/object:Word
+    word: researchmore
+    stem: researchmor
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  reportscidev: !ruby/object:Word
+    word: reportscidev
+    stem: reportscidev
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  websitesscidev: !ruby/object:Word
+    word: websitesscidev
+    stem: websitesscidev
+    docFrequency: 2.0
+    docPositions:
+    - 440
+  sitesscidev: !ruby/object:Word
+    word: sitesscidev
+    stem: sitesscidev
+    docFrequency: 2.0
+    docPositions:
+    - 440
+lineCount: 453
+wordCount: 4008
+rank: 0.2564102564102564
+title: Science journalism must keep a critical edge - SciDev.Net
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"21\";\nvar displayMonth = \"Jun\";\nvar displayYear
+  = \"2010\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    MAR\n\t\t\n\t\t\n\t\tJUN\n\t\t\n\t\t\n\t\t
+  \   JUN\n\t\t\n                \n\t    \n               \n                   \n
+  \              \n               \n               21\n\t       \n               \n\t\t
+  \  \n\t       \n\t       \n           \n               \n                   2008\n
+  \              \n               \n               2010\n\t       \n               \n\t
+  \          2011\n\t       \n\t       \n           \n       \n           32 captures\n
+  \          2 Dec 08 - 2 Apr 15\n       \n       \n       \n       \n\t \n       \n
+  \      \n       \n   \n       Close\n       Help\n   \n   \n\n\n__wm.bt();\r\n  \t\tSkip
+  Navigation\r\n\r\n  \r\n    \r\n      -- Please select your language --EnglishEspañolFrançais汉语\r\n
+  \ \r\n  ABOUT US\r\n    SITE MAP\r\n\t    DONATE\r\n    CONTACT US\r\n\t\t\tSign
+  In\r\n\t\t\tSign Up\r\n\t\r\n\r\n  SciDev.Net\r\n  \r\n    Science and Development
+  Network\r\n    News, views and information about science, technology and the developing
+  world\r\n\t\t\r\n\t\t\tAdvanced Search\r\n\t\t\t\r\n  \r\n  \r\n    \r\n\r\n\r\n
+  \ \r\n    You are in:\r\n\t\tHome\r\n\t\t\t\t\t\t> \r\n\r\nEditorials\r\n  \r\n
+  \ Monday, 21 June 2010\r\n\r\n\t\r\n\t\t\r\n\t\r\n\t\tHome\r\n\t\t\t\r\n\t\t\t\tRegions\r\n\t\t\t\t\r\n\t\t\t\t\t\t\tChina\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tLatin
+  America & Caribbean\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tMiddle East
+  & North Africa\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tSouth Asia\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tSouth-East
+  Asia\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tSub-Saharan Africa\r\n\t\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\tTopics\r\n\t\t\t\t\r\n\t\t\t\t\t\t\tAgriculture
+  & Environment\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tClimate Change &
+  Energy\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tHealth\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tNew
+  Technologies\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tScience & Innovation
+  Policy\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tScience Communication\r\n\t\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\tArticles\r\n\t\t\t\tNews\r\n\t\t\t\t\tFeatures\r\n\t\t\t\t\tOpinions\r\n\t\t\t\t\tEditorials\r\n\t\t\t\t\tPolicy
+  Briefs\r\n\t\t\t\t\tPractical Guides\r\n\t\t\t\t\tLetters to the Editor\r\n\t\t\t\t\tBook
+  Reviews\r\n\t\t\t\t\tKey Documents\r\n\t\t\t\t\tLinks\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\tNotices\r\n\t\t\t\tEvents\r\n\t\t\t\t\tJobs\r\n\t\t\t\t\tGrants\r\n\t\t\t\t\tAnnouncements\r\n\t\t\t\t\r\n\t\t\r\n\t\t\t\t\r\nDonate
+  to SciDev.Net\r\nSciDev.Net works to make science communication more effective across
+  the developing world. We need your support\r\n\r\n\t\t\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\nEditorials\r\n\t\r\n\t\t\t\t//<![CDATA[\r\n\t\t\tfunction
+  sendToAFriend() { articleInteractLightbox.activate(); return false; }\r\n\t\t\t\t//]]>\r\n\t\t\t\r\n\t\r\n\t
+  \ Send to a friend\r\n\t    Print\r\n\t\tComment\r\n    \t\tShare\r\n    \t\t\tdel.icio.us\r\n\t\t\t\t\tdigg\r\n\t\t\t\t\tFacebook\r\n\t\t\t\t\tNewsvine\r\n\t\t\t\t\tReddit\r\n\t\t\t\t\tY!
+  Bookmarks\r\n\t\t\t\t\r\n\t  \r\n\r\n\t\t\t\t//<![CDATA[\r\n\t\tvar articleInteractLightbox
+  = new lightbox($('articleInteractLightboxA'));\r\n\t\t\t\t//]]>\r\n\t\t\t\r\n\t\t\r\n\t
+  \   Science journalism must keep a critical edge\r\n\t    \tDavid Dickson\r\n\t
+  \   \r\n\t\t    \t11 October 2004 |\r\n\t\t\t\t\t\t\tEN\r\n\t    \r\n\t\t\r\n\t\t\r\n\t\t\tThe
+  success of last week's World Conference of Science Journalists augurs well for the
+  future of the profession. But it needs to maintain its independence, and avoid becoming
+  an extension of the public relations industry.\r\nAustralia's science journalists
+  have a hard act to follow. Last week — somewhat to their own surprise — their Canadian
+  counterparts managed to attract a full house of 500 colleagues from across the world
+  to Montréal for the 4th World Conference of Science Journalists. There they were
+  exposed to three days of stimulating talks, debate and discussion about the state
+  of their profession.\r\nAt the end of the meeting, a decision was taken by representatives
+  of national science writing associations that the next of these biannual meetings
+  should be held in Melbourne, Australia, in 2006 (or perhaps early 2007). The choice
+  was itself something of a surprise; a number of strong competing applications had
+  been received, in particular from China and Italy. But the Australian delegation
+  had come with a well-prepared bid stressing, among other aspects, the country's
+  links with South-east Asia, a region in which science journalism remains relatively
+  weak.\r\nFor many of those attending the Montréal meeting, its most significant
+  message was contained in the way that a series of speakers underlined the importance
+  of their role as a channel of communication between scientists and society — and
+  the challenges they face in carrying out this role effectively. Maureen O'Neill,
+  for example, the president of Canada's International Development Research Centre
+  (one of the main sponsors of the meeting) emphasised this point in her opening address,
+  placing particular role on the need for this task within developing countries (See
+  'Science journalists play critical role in decision-making').  \r\nFor the experienced
+  journalists present, the message was a familiar one. But for those relatively new
+  to the profession, particularly those in many parts of the developing world struggling
+  to establish their professional identity as science writers in a media world dominated
+  by a reporting of politics and sport, the message provided welcome reassurance about
+  the importance of their chosen path.\r\nExternal pressures\r\nYet the meeting also
+  provided several warnings about the narrowness of this path, and the pressures that
+  can knock off balance those who seek to go down it. Many such pressures come from
+  those with a vested interested in seeing their activities reported in a particular
+  way. Sometimes such pressure is explicit and obvious. In other cases, the origins
+  may be less clear (for example, when political pressure on a newspaper becomes transformed
+  into an editorial judgement about news values imposed by senior editorial staff
+  on junior reporters).\r\nDifficult as such pressures may be to resist, each can
+  conflict with the responsibility of a journalist firstly to remain as faithful as
+  possible to the facts, and secondly to use his or her best judgement of what is
+  significant about such facts. Neither of these requires objectivity about the issue
+  being described; the best journalists are those who can be passionate about the
+  subjects that they cover. But they do demand that, however strong the passion, journalists
+  retain a critical edge in their reporting that is sufficient to ensure the independence
+  of their personal, informed judgement.\r\nSeveral warnings about ways in which this
+  independence of judgement can be threatened were presented to the Montréal conference.
+  One speaker, for example, warned journalists of the need for caution in reporting
+  on the results of clinical trials of new pharmaceutical products, however well dressed
+  up these may be in a cloak of scientific plausibility. For example, supporting papers
+  from scientific journals may be provided with an inadequate interpretation of the
+  data contained in such papers (See 'Journalists warn of helping drug giants 'market
+  disease'').\r\nIn another session, SciDev.Net's Beijing correspondent, Jia Hepeng,
+  spoke of the difficulties facing journalists in China as the government seeks to
+  control the distribution of information about sensitive topics such as the spread
+  of the SARS virus. Criticism (much of it from outside China) about an initial lack
+  of openness had helped to overcome the first hurdle faced by Chinese reporters,
+  namely a sheer lack of information. But, said Jia, that had now been replaced by
+  an equally daunting challenge, namely discovering the reality behind the facts and
+  figures being presented in the name of an apparent transparency.\r\nIn South Africa,
+  a similar issue faces journalists who seek to report on the spread of HIV/AIDS.
+  As Tamar Kahn, another SciDev.Net contributor, told the meeting, the task has become
+  easier as a result of the government overcoming its previous reluctance to acknowledge
+  the size of the AIDS problem it faces. But the tendency of government officials
+  to play down the problem remains reflected in the difficulties faced by individual
+  journalists in getting their stories accepted for publication. Kahn reports on her
+  own difficulties in persuading her news editor to give a story about South Africa's
+  AIDS epidemic reaching record proportions more than two short paragraphs on an inside
+  page (see 'Controversy and science reporting in South Africa').\r\nThe need for
+  independence\r\nIn such instances, it is usually relatively clear what the proper
+  function of the science journalist should be. Equally important, however, is to
+  retain the same independent stance when writing about science itself. There has
+  been a tendency in recent years to assume that science journalists should, almost
+  by definition, be part of the 'science promotion' business. This is particularly
+  strong among those who argue that the low esteem in which science is widely held
+  is primarily the results of a 'bad press' — and that science journalists have a
+  responsibility to help reverse this situation.\r\nIt is certainly true that what
+  often distinguishes science journalists from their colleagues is greater knowledge
+  of — and respect for — the way that science operates. Indeed one of the main reasons
+  for promoting science journalism around the world is precisely to ensure that when
+  science is written about, it is done in an informed manner.\r\nBut that is not the
+  same as endorsing everything that is said or done in the name of science (any more
+  than an art critic is expected to endorse everything that is done in the name of
+  art). In other words, science journalists should not be seen, or see themselves,
+  as part of a public relations effort, however much those responsibility for promoting
+  a particular scientific activity or programme seek to recruit them their cause.\r\nBlurring
+  the line\r\nIf there was a criticism to be made of the Montréal meeting, it was
+  the extent to which some of those who had generously provided sponsorship to cover
+  the travel and accommodation costs of foreign participants (particularly from developing
+  countries) appeared to feel justified in subsequently using the conference as a
+  promotional platform. In principle, of course, there is no reason that they should
+  not do so; after all, no-one complains when the sponsor of a sporting event demands
+  that a company logo be prominently featured in television coverage of that event.\r\nThe
+  danger lies in blurring the line between journalism and public relations. When that
+  happens, a journalist is denying his or her responsibility to exercise a personal
+  judgement of what is significant by substituting for it the judgement of others
+  (who may have their own financial or political agenda). One response of the profession
+  must lie in an insistence on editorial independence as a guarantor of journalistic
+  integrity. A second lies in the need to ensure that a political commitment to the
+  freedom of the press is adequately reflected in practice.\r\nHopefully, the Australian
+  organisers of the next world conference will bear the need to address these in mind
+  when planning their programme. There certainly needs to be space on the programme
+  to explore ways in which science journalists can ensure that the media adequately
+  acknowledges and reflects the role of science in modern societies, both developed
+  and developing. And the meeting will obviously be a useful vehicle for creating
+  a greater global awareness of Australia's scientific and technological achievements.\r\nEqually
+  important, however, is that the meeting should address in detail some of the key
+  challenges faced by science journalists around the world as they strive to create
+  the conditions under which their profession can flourish. The Montréal meeting made
+  a good start, and provided some important openings in this direction. The baton
+  has now been passed to others to find ways of ensuring that this work is continued.\r\nRelated
+  SciDev.Net pages\r\nWCSJ4 coverage\r\nPrevious editorials on science communication
+  \r\n\t\t\r\n\t\t\t\r\n\t\tAdd your comment\r\n\t\t\r\n\t\t\tAll comments are subject
+  to approval and we reserve the right to edit comments containing inappropriate/unsuitable
+  language. SciDev.Net holds copyright for all material posted on the website. Please
+  see terms of use for further details.\r\n\t\t\r\n\t\tYou need to be signed in to
+  post a comment or to email a consenting comment author. Please sign in or\r\n\t\t\tsign
+  up.\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\r\nBack to EditorialsTo the top\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\r\n\t\tSign
+  Up\r\n\t\tto receive email updates, to comment on articles, and to post notices\r\n\r\n\t\r\n\t
+  \ \r\n\t  Information Services\r\n\t  RSS (what's this?)\r\n\t\t\t\tWebfeeds\r\n\t
+  \   Feedback\r\n\t  \r\n\t\r\n\t\tvar feedbackLightbox = new lightbox($('feedbackLightboxA'));\r\n\t\r\n\t\t\t\tRELATED
+  TOPICS\r\n\t\t\t\tScience journalism\r\n\t\t\t\t\r\n\t\t\t\t \r\n\r\nNew ways to
+  innovate\r\nHealthcare for the poor needs creative social thinking as well as new
+  technologies\r\n\r\n\t\t\t\t \r\n\r\nGM Kenya\r\nKenya's odyssey towards official
+  GM acceptance is almost over\r\n\r\n\t\t\t\t \r\n\r\nCrop-boosting fungi\r\nFungi
+  have accelerated rice production five-fold in greenhouses — but will the technique
+  transfer to rice paddies?\r\n\r\n\t\t\t\t \r\n\r\nThe case for GM crops\r\nGM crops
+  are proving to be safe and effective in South America, says national biosafety head\r\n\r\n\t\t\t\t
+  \r\n\r\nReporting stem cell science\r\nHow to report the epic controversies of embryonic
+  stem cell research\r\n\r\n\t\t\t\t \r\n\r\nPool water research\r\nMore cross-border
+  collaboration is needed to avert water catastrophes in Asia, says report\r\n\r\n\t\t\t\t\r\nGuardian
+  Network\r\nSciDev.Net is part of the Guardian’s network of the world’s best environmental
+  websites\r\n\r\n\t\t\r\n\t\r\n\t  \t\r\n        SciDev.Net is not responsible for
+  the content of external Internet sites\r\n\t\tSciDev.Net is a charity registered
+  in England and Wales. Registration number: 1089590\r\n        © 2010 SciDev.Net\r\n
+  \         | Terms of use\r\n          | Privacy policy\r\n\t\t  | Accessibility\r\n
+  \         | Creative Commons\r\n          | Webfeeds\r\n          | Link to us\r\n
+  \       \r\n      \r\n    \r\n\t\r\n\t\thttp://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html\r\n\t\tPrinted
+  on:\r\n\t\tMonday, June 21, 2010 06:36\r\n\t\t© 2010 SciDev.Net\r\n\t\r\n  \t\r\n\t\r\n\t\tvar
+  gaJsHost = ((\"https:\" == document.location.protocol) ? \"/web/20100621053624/https://ssl.\"
+  : \"/web/20100621053624/http://www.\");\r\n\t\tdocument.write(unescape(\"%3Cscript
+  src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n\t\r\n\t\tvar
+  pageTracker = _gat._getTracker(\"UA-3223906-1\");\r\n\t\tpageTracker._initData();\r\n\t\tpageTracker._trackPageview();\r\n\tSkip
+  NavigationScience and Development Network\r\n    News, views and information about
+  science, technology and the developing world\r\n    You are in:\r\n\t\tHome\r\n\t\t\t\t\t\t>
+  \r\n\r\nEditorials\r\n  Monday, 21 June 2010SciDev.Net works to make science communication
+  more effective across the developing world. We need your supportDavid Dickson\r\n\t\t
+  \   \t11 October 2004 |\r\n\t\t\t\t\t\t\tEN\r\n\t    The success of last week's
+  World Conference of Science Journalists augurs well for the future of the profession.
+  But it needs to maintain its independence, and avoid becoming an extension of the
+  public relations industry.Australia's science journalists have a hard act to follow.
+  Last week — somewhat to their own surprise — their Canadian counterparts managed
+  to attract a full house of 500 colleagues from across the world to Montréal for
+  the 4th World Conference of Science Journalists. There they were exposed to three
+  days of stimulating talks, debate and discussion about the state of their profession.At
+  the end of the meeting, a decision was taken by representatives of national science
+  writing associations that the next of these biannual meetings should be held in
+  Melbourne, Australia, in 2006 (or perhaps early 2007). The choice was itself something
+  of a surprise; a number of strong competing applications had been received, in particular
+  from China and Italy. But the Australian delegation had come with a well-prepared
+  bid stressing, among other aspects, the country's links with South-east Asia, a
+  region in which science journalism remains relatively weak.For many of those attending
+  the Montréal meeting, its most significant message was contained in the way that
+  a series of speakers underlined the importance of their role as a channel of communication
+  between scientists and society — and the challenges they face in carrying out this
+  role effectively. Maureen O'Neill, for example, the president of Canada's International
+  Development Research Centre (one of the main sponsors of the meeting) emphasised
+  this point in her opening address, placing particular role on the need for this
+  task within developing countries (See 'Science journalists play critical role in
+  decision-making').  For the experienced journalists present, the message was a familiar
+  one. But for those relatively new to the profession, particularly those in many
+  parts of the developing world struggling to establish their professional identity
+  as science writers in a media world dominated by a reporting of politics and sport,
+  the message provided welcome reassurance about the importance of their chosen path.External
+  pressuresYet the meeting also provided several warnings about the narrowness of
+  this path, and the pressures that can knock off balance those who seek to go down
+  it. Many such pressures come from those with a vested interested in seeing their
+  activities reported in a particular way. Sometimes such pressure is explicit and
+  obvious. In other cases, the origins may be less clear (for example, when political
+  pressure on a newspaper becomes transformed into an editorial judgement about news
+  values imposed by senior editorial staff on junior reporters).Difficult as such
+  pressures may be to resist, each can conflict with the responsibility of a journalist
+  firstly to remain as faithful as possible to the facts, and secondly to use his
+  or her best judgement of what is significant about such facts. Neither of these
+  requires objectivity about the issue being described; the best journalists are those
+  who can be passionate about the subjects that they cover. But they do demand that,
+  however strong the passion, journalists retain a critical edge in their reporting
+  that is sufficient to ensure the independence of their personal, informed judgement.Several
+  warnings about ways in which this independence of judgement can be threatened were
+  presented to the Montréal conference. One speaker, for example, warned journalists
+  of the need for caution in reporting on the results of clinical trials of new pharmaceutical
+  products, however well dressed up these may be in a cloak of scientific plausibility.
+  For example, supporting papers from scientific journals may be provided with an
+  inadequate interpretation of the data contained in such papers (See 'Journalists
+  warn of helping drug giants 'market disease'').In another session, SciDev.Net's
+  Beijing correspondent, Jia Hepeng, spoke of the difficulties facing journalists
+  in China as the government seeks to control the distribution of information about
+  sensitive topics such as the spread of the SARS virus. Criticism (much of it from
+  outside China) about an initial lack of openness had helped to overcome the first
+  hurdle faced by Chinese reporters, namely a sheer lack of information. But, said
+  Jia, that had now been replaced by an equally daunting challenge, namely discovering
+  the reality behind the facts and figures being presented in the name of an apparent
+  transparency.In South Africa, a similar issue faces journalists who seek to report
+  on the spread of HIV/AIDS. As Tamar Kahn, another SciDev.Net contributor, told the
+  meeting, the task has become easier as a result of the government overcoming its
+  previous reluctance to acknowledge the size of the AIDS problem it faces. But the
+  tendency of government officials to play down the problem remains reflected in the
+  difficulties faced by individual journalists in getting their stories accepted for
+  publication. Kahn reports on her own difficulties in persuading her news editor
+  to give a story about South Africa's AIDS epidemic reaching record proportions more
+  than two short paragraphs on an inside page (see 'Controversy and science reporting
+  in South Africa').The need for independenceIn such instances, it is usually relatively
+  clear what the proper function of the science journalist should be. Equally important,
+  however, is to retain the same independent stance when writing about science itself.
+  There has been a tendency in recent years to assume that science journalists should,
+  almost by definition, be part of the 'science promotion' business. This is particularly
+  strong among those who argue that the low esteem in which science is widely held
+  is primarily the results of a 'bad press' — and that science journalists have a
+  responsibility to help reverse this situation.It is certainly true that what often
+  distinguishes science journalists from their colleagues is greater knowledge of
+  — and respect for — the way that science operates. Indeed one of the main reasons
+  for promoting science journalism around the world is precisely to ensure that when
+  science is written about, it is done in an informed manner.But that is not the same
+  as endorsing everything that is said or done in the name of science (any more than
+  an art critic is expected to endorse everything that is done in the name of art).
+  In other words, science journalists should not be seen, or see themselves, as part
+  of a public relations effort, however much those responsibility for promoting a
+  particular scientific activity or programme seek to recruit them their cause.Blurring
+  the lineIf there was a criticism to be made of the Montréal meeting, it was the
+  extent to which some of those who had generously provided sponsorship to cover the
+  travel and accommodation costs of foreign participants (particularly from developing
+  countries) appeared to feel justified in subsequently using the conference as a
+  promotional platform. In principle, of course, there is no reason that they should
+  not do so; after all, no-one complains when the sponsor of a sporting event demands
+  that a company logo be prominently featured in television coverage of that event.The
+  danger lies in blurring the line between journalism and public relations. When that
+  happens, a journalist is denying his or her responsibility to exercise a personal
+  judgement of what is significant by substituting for it the judgement of others
+  (who may have their own financial or political agenda). One response of the profession
+  must lie in an insistence on editorial independence as a guarantor of journalistic
+  integrity. A second lies in the need to ensure that a political commitment to the
+  freedom of the press is adequately reflected in practice.Hopefully, the Australian
+  organisers of the next world conference will bear the need to address these in mind
+  when planning their programme. There certainly needs to be space on the programme
+  to explore ways in which science journalists can ensure that the media adequately
+  acknowledges and reflects the role of science in modern societies, both developed
+  and developing. And the meeting will obviously be a useful vehicle for creating
+  a greater global awareness of Australia's scientific and technological achievements.Equally
+  important, however, is that the meeting should address in detail some of the key
+  challenges faced by science journalists around the world as they strive to create
+  the conditions under which their profession can flourish. The Montréal meeting made
+  a good start, and provided some important openings in this direction. The baton
+  has now been passed to others to find ways of ensuring that this work is continued.Related
+  SciDev.Net pagesWCSJ4 coveragePrevious editorials on science communication \r\n\t\t\tAll
+  comments are subject to approval and we reserve the right to edit comments containing
+  inappropriate/unsuitable language. SciDev.Net holds copyright for all material posted
+  on the website. Please see terms of use for further details.\r\n\t\tYou need to
+  be signed in to post a comment or to email a consenting comment author. Please sign
+  in or\r\n\t\t\tsign up.\r\n\r\nBack to EditorialsTo the top\r\n\t\t\tto receive
+  email updates, to comment on articles, and to post noticesHealthcare for the poor
+  needs creative social thinking as well as new technologiesKenya's odyssey towards
+  official GM acceptance is almost overFungi have accelerated rice production five-fold
+  in greenhouses — but will the technique transfer to rice paddies?GM crops are proving
+  to be safe and effective in South America, says national biosafety headHow to report
+  the epic controversies of embryonic stem cell researchMore cross-border collaboration
+  is needed to avert water catastrophes in Asia, says reportSciDev.Net is part of
+  the Guardian’s network of the world’s best environmental websitesSciDev.Net is not
+  responsible for the content of external Internet sitesSciDev.Net is a charity registered
+  in England and Wales. Registration number: 1089590© 2010 SciDev.Net\r\n          |
+  Terms of use\r\n          | Privacy policy\r\n\t\t  | Accessibility\r\n          |
+  Creative Commons\r\n          | Webfeeds\r\n          | Link to us\r\n        \r\n\t\thttp://www.scidev.net/en/editorials/science-journalism-must-keep-a-critical-edge.html\r\n\t\tPrinted
+  on:\r\n\t\tMonday, June 21, 2010 06:36\r\n\t\t© 2010 SciDev.Net\r\n\t"

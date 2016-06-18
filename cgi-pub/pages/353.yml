@@ -1,0 +1,1877 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://web.archive.org/web/20071128083459/http://anthropology.si.edu/HumanOrigins/faq/americas.htm
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://anthropology.si.edu/HumanOrigins/faq/americas.htm";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "28";
+- |
+  var displayMonth = "Nov";
+- |
+  var displayYear = "2007";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    Oct\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tNOV\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    JAN\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                       \n"
+- |2
+                 28
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2006
+- "               \n"
+- "               \n"
+- |2
+                 2007
+- "\t       \n"
+- "               \n"
+- "\t           2009\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             70 captures
+- |2
+             28 Nov 07 - 13 Dec 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();\r\n"
+- " \r\n"
+- "        \r\n"
+- "        What \r\n"
+- "          is the earliest evidence of the peopling of North and South America?\r\n"
+- "        The timing of the \r\n"
+- "          first appearance of humans in the Americas is debated. For many years,
+  \r\n"
+- "          experts believed that people first migrated into North America 12,000
+  \r\n"
+- "          years ago. New finds have led some researchers to push for a first appearance
+  \r\n"
+- "          date of 30,000 to even 40,000 years ago. The migration route is also
+  \r\n"
+- "          disputed. It was once thought that the earliest migration took place
+  \r\n"
+- "          across a land bridge connecting Siberia and Alaska, but now researchers
+  \r\n"
+- "          are open to the possibility of new routes, including those along the
+  \r\n"
+- "          northern sea coast from Europe. Using new dating and genetic techniques,
+  \r\n"
+- "          Paleo-American researchers are looking for new answers to age-old questions.
+  \r\n"
+- "        For more information \r\n"
+- "          check out: http://www.pbs.org/wgbh/nova/first/claimbonn.html \r\n"
+- "          \r\n"
+- "         Return \r\n"
+- "          to FAQ list.\r\n"
+- "      \r\n"
+- "\r\n"
+- "         \r\n"
+- "        The timing of the \r\n"
+- "          first appearance of humans in the Americas is debated. For many years,
+  \r\n"
+- "          experts believed that people first migrated into North America 12,000
+  \r\n"
+- "          years ago. New finds have led some researchers to push for a first appearance
+  \r\n"
+- "          date of 30,000 to even 40,000 years ago. The migration route is also
+  \r\n"
+- "          disputed. It was once thought that the earliest migration took place
+  \r\n"
+- "          across a land bridge connecting Siberia and Alaska, but now researchers
+  \r\n"
+- "          are open to the possibility of new routes, including those along the
+  \r\n"
+- "          northern sea coast from Europe. Using new dating and genetic techniques,
+  \r\n"
+- "          Paleo-American researchers are looking for new answers to age-old questions.
+  \r\n"
+- "        For more information \r\n"
+- "          check out: http://www.pbs.org/wgbh/nova/first/claimbonn.html \r\n"
+- "          \r\n"
+- "         Return \r\n"
+- "          to FAQ list.\r\n"
+- "      "
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 17.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 154
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  anthropology: !ruby/object:Word
+    word: anthropology
+    stem: anthropolog
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  si: !ruby/object:Word
+    word: si
+    stem: si
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  humanorigins: !ruby/object:Word
+    word: humanorigins
+    stem: humanorigin
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 173
+    - 191
+  americas: !ruby/object:Word
+    word: americas
+    stem: america
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 160
+    - 178
+  htm: !ruby/object:Word
+    word: htm
+    stem: htm
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 5.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+    - 138
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 112
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 138
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+    - 172
+    - 190
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 32
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 10.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 154
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 4.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  earliest: !ruby/object:Word
+    word: earliest
+    stem: earliest
+    docFrequency: 4.0
+    docPositions:
+    - 158
+    - 164
+    - 182
+  evidence: !ruby/object:Word
+    word: evidence
+    stem: evid
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  peopling: !ruby/object:Word
+    word: peopling
+    stem: peopl
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  north: !ruby/object:Word
+    word: north
+    stem: north
+    docFrequency: 4.0
+    docPositions:
+    - 158
+    - 161
+    - 179
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 6.0
+    docPositions:
+    - 158
+    - 165
+    - 167
+    - 183
+    - 185
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 4.0
+    docPositions:
+    - 158
+    - 161
+    - 179
+  timing: !ruby/object:Word
+    word: timing
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 159
+    - 177
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 9.0
+    docPositions:
+    - 160
+    - 161
+    - 162
+    - 170
+    - 178
+    - 179
+    - 180
+    - 188
+  appearance: !ruby/object:Word
+    word: appearance
+    stem: appear
+    docFrequency: 5.0
+    docPositions:
+    - 160
+    - 162
+    - 178
+    - 180
+  humans: !ruby/object:Word
+    word: humans
+    stem: human
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 178
+  debated: !ruby/object:Word
+    word: debated
+    stem: debat
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 178
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 178
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 7.0
+    docPositions:
+    - 160
+    - 162
+    - 163
+    - 178
+    - 180
+    - 181
+  experts: !ruby/object:Word
+    word: experts
+    stem: expert
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 179
+  believed: !ruby/object:Word
+    word: believed
+    stem: believ
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 179
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 179
+  migrated: !ruby/object:Word
+    word: migrated
+    stem: migrat
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 179
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 179
+  ago: !ruby/object:Word
+    word: ago
+    stem: ago
+    docFrequency: 5.0
+    docPositions:
+    - 162
+    - 163
+    - 180
+    - 181
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 9.0
+    docPositions:
+    - 162
+    - 166
+    - 167
+    - 168
+    - 180
+    - 184
+    - 185
+    - 186
+  finds: !ruby/object:Word
+    word: finds
+    stem: find
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 180
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 180
+  led: !ruby/object:Word
+    word: led
+    stem: led
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 180
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 180
+  researchers: !ruby/object:Word
+    word: researchers
+    stem: research
+    docFrequency: 7.0
+    docPositions:
+    - 162
+    - 165
+    - 168
+    - 180
+    - 183
+    - 186
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 180
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 181
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 181
+  migration: !ruby/object:Word
+    word: migration
+    stem: migrat
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 164
+    - 181
+    - 182
+  route: !ruby/object:Word
+    word: route
+    stem: rout
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 181
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 181
+  disputed: !ruby/object:Word
+    word: disputed
+    stem: disput
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 182
+  once: !ruby/object:Word
+    word: once
+    stem: onc
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 182
+  thought: !ruby/object:Word
+    word: thought
+    stem: thought
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 182
+  took: !ruby/object:Word
+    word: took
+    stem: took
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 182
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 182
+  across: !ruby/object:Word
+    word: across
+    stem: across
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  land: !ruby/object:Word
+    word: land
+    stem: land
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  bridge: !ruby/object:Word
+    word: bridge
+    stem: bridg
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  connecting: !ruby/object:Word
+    word: connecting
+    stem: connect
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  siberia: !ruby/object:Word
+    word: siberia
+    stem: siberia
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  alaska: !ruby/object:Word
+    word: alaska
+    stem: alaska
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 183
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  possibility: !ruby/object:Word
+    word: possibility
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  routes: !ruby/object:Word
+    word: routes
+    stem: rout
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  along: !ruby/object:Word
+    word: along
+    stem: along
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 184
+  northern: !ruby/object:Word
+    word: northern
+    stem: northern
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  sea: !ruby/object:Word
+    word: sea
+    stem: sea
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  coast: !ruby/object:Word
+    word: coast
+    stem: coast
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  europe: !ruby/object:Word
+    word: europe
+    stem: europ
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  dating: !ruby/object:Word
+    word: dating
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  genetic: !ruby/object:Word
+    word: genetic
+    stem: genet
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  techniques: !ruby/object:Word
+    word: techniques
+    stem: techniqu
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 185
+  paleo: !ruby/object:Word
+    word: paleo
+    stem: paleo
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  age: !ruby/object:Word
+    word: age
+    stem: ag
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 186
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 187
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 187
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  pbs: !ruby/object:Word
+    word: pbs
+    stem: pb
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  wgbh: !ruby/object:Word
+    word: wgbh
+    stem: wgbh
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  nova: !ruby/object:Word
+    word: nova
+    stem: nova
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  claimbonn: !ruby/object:Word
+    word: claimbonn
+    stem: claimbonn
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 188
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 191
+lineCount: 193
+wordCount: 649
+rank: 0.25
+title: Peopling of Americas
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://anthropology.si.edu/HumanOrigins/faq/americas.htm\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"28\";\nvar displayMonth = \"Nov\";\nvar displayYear
+  = \"2007\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    Oct\n\t\t\n\t\t\n\t\tNOV\n\t\t\n\t\t\n\t\t
+  \   JAN\n\t\t\n                \n\t    \n               \n                       \n
+  \              28\n\t       \n               \n\t\t   \n\t       \n\t       \n           \n
+  \              \n                   2006\n               \n               \n               2007\n\t
+  \      \n               \n\t           2009\n\t       \n\t       \n           \n
+  \      \n           70 captures\n           28 Nov 07 - 13 Dec 15\n       \n       \n
+  \      \n       \n\t \n       \n       \n       \n   \n       Close\n       Help\n
+  \  \n   \n\n\n__wm.bt();\r\n \r\n        \r\n        What \r\n          is the earliest
+  evidence of the peopling of North and South America?\r\n        The timing of the
+  \r\n          first appearance of humans in the Americas is debated. For many years,
+  \r\n          experts believed that people first migrated into North America 12,000
+  \r\n          years ago. New finds have led some researchers to push for a first
+  appearance \r\n          date of 30,000 to even 40,000 years ago. The migration
+  route is also \r\n          disputed. It was once thought that the earliest migration
+  took place \r\n          across a land bridge connecting Siberia and Alaska, but
+  now researchers \r\n          are open to the possibility of new routes, including
+  those along the \r\n          northern sea coast from Europe. Using new dating and
+  genetic techniques, \r\n          Paleo-American researchers are looking for new
+  answers to age-old questions. \r\n        For more information \r\n          check
+  out: http://www.pbs.org/wgbh/nova/first/claimbonn.html \r\n          \r\n         Return
+  \r\n          to FAQ list.\r\n      \r\n\r\n         \r\n        The timing of the
+  \r\n          first appearance of humans in the Americas is debated. For many years,
+  \r\n          experts believed that people first migrated into North America 12,000
+  \r\n          years ago. New finds have led some researchers to push for a first
+  appearance \r\n          date of 30,000 to even 40,000 years ago. The migration
+  route is also \r\n          disputed. It was once thought that the earliest migration
+  took place \r\n          across a land bridge connecting Siberia and Alaska, but
+  now researchers \r\n          are open to the possibility of new routes, including
+  those along the \r\n          northern sea coast from Europe. Using new dating and
+  genetic techniques, \r\n          Paleo-American researchers are looking for new
+  answers to age-old questions. \r\n        For more information \r\n          check
+  out: http://www.pbs.org/wgbh/nova/first/claimbonn.html \r\n          \r\n         Return
+  \r\n          to FAQ list.\r\n      "

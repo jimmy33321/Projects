@@ -1,0 +1,3590 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://news.bbc.co.uk/onthisday/hi/dates/stories/december/3/newsid_2519000/2519451.stm
+inboundLinks: []
+lines:
+- |2+
+
+- "        \n"
+- |2+
+
+- "\t\r\n"
+- "\r\n"
+- "\r\n"
+- "Skip to main content\r\n"
+- "Low Graphics\r\n"
+- "Access keys help\r\n"
+- "\r\n"
+- " Home\r\n"
+- "\r\n"
+- "\r\n"
+- "Explore the BBC\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "// <![CDATA[\r\n"
+- "function countername(u) {\r\n"
+- "   var countername = [];\r\n"
+- "    u = u.replace(/\\.[^.\\/]+$/, '');\r\n"
+- "    u = u.replace(/[#][^#]+$/, '' );\r\n"
+- "    u = u.replace(/[\\?][^\\?]+$/, '' );\r\n"
+- "    u = u.replace(/\\/newsid_\\d+/g, '/');\r\n"
+- "    u = u.replace(/\\/[12]\\//, '/');\r\n"
+- "    u = u.replace(/\\/reviews\\//, '/');\r\n"
+- "    u = u.replace(/\\/sport[12]\\//, '/sport/');\r\n"
+- "    u = u.replace(/\\/bbc_sport\\//, '/sport/');\r\n"
+- "    u = u.replace(/\\/(hi|mobile)\\//, '/');\r\n"
+- "    u = u.replace(/\\/(uk|i)fs\\//, '/');\r\n"
+- "    var path    = u.split('/').slice(3); \r\n"
+- "    var asset_id_re  = /(\\d+)\\/?$/;\r\n"
+- "    var asset_id = '';\r\n"
+- "    if (matches = asset_id_re.exec( path[path.length-1] )) {\r\n"
+- "        asset_id = matches[1];\r\n"
+- "    }\r\n"
+- "    var prod_name  = 'news'; \r\n"
+- "    var prod = new Array();\r\n"
+- "    prod['sport']    = /sport/; \r\n"
+- "    prod['weather']  = /weather/;\r\n"
+- "    prod['cbbc']     = /cbbc/;\r\n"
+- "    for (var name in prod) {\r\n"
+- "        if (u.match(prod[name])) {\r\n"
+- "            prod_name = name;\r\n"
+- "            break;\r\n"
+- "        }\r\n"
+- "    }\r\n"
+- "    countername.push(prod_name);\r\n"
+- "    for (var i=0; i<path.length; i++) {\r\n"
+- "        var part = path[i];\r\n"
+- "        if (part && (part != prod_name) && (part != asset_id) && (part != 'default'))
+  {\r\n"
+- "            countername.push(part);\r\n"
+- "        }\r\n"
+- "    }\r\n"
+- "    if (asset_id) {countername.push(asset_id);}\r\n"
+- "    countername.push('page');\r\n"
+- "    return countername.join('.');\r\n"
+- "}\r\n"
+- "function prod_name(c) {return c.replace(/^(.+?)\\..*$/, \"$1\");}\r\n"
+- "function geo_edition(u) {\r\n"
+- "    var geo_edition = 'uk';\r\n"
+- "    if (u.match(/\\/(sport2|2|ifs)\\//)) {\r\n"
+- "         geo_edition = 'int';\r\n"
+- "    }\r\n"
+- "    return geo_edition;\r\n"
+- "}\r\n"
+- "function sitestat(n){var j=document,f=j.location,b=\"\";if(j.cookie.indexOf(\"st_ux=\")!=-1){var
+  k=j.cookie.split(\";\");var e=\"st_ux\",h=document.domain,a=\"/\";\r\n"
+- "if(typeof ns_!=\"undefined\"&&typeof ns_.ux!=\"undefined\"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var
+  g=0,f=k.length;g<f;g++){var m=k[g].indexOf(\"st_ux=\");\r\n"
+- "if(m!=-1){b=\"&\"+unescape(k[g].substring(m+6))}}document.cookie=e+\"=; expires=\"+new
+  Date(new Date().getTime()-60).toGMTString()+\"; path=\"+a+\"; domain=\"+h}ns_pixelUrl=n;\r\n"
+- "n=ns_pixelUrl+\"&ns__t=\"+(new Date().getTime())+\"&ns_c=\"+((j.characterSet)?j.characterSet:j.defaultCharset)+\"&ns_ti=\"+escape(j.title)+b+\"&ns_jspageurl=\"+escape(f&&f.href?f.href:j.URL)+\"&ns_referrer=\"+escape(j.referrer);if(n.length>2000&&n.lastIndexOf(\"&\")){\r\n"
+- "n=n.substring(0,n.lastIndexOf(\"&\")+1)+\"ns_cut=\"+n.substring(n.lastIndexOf(\"&\")+1,n.lastIndexOf(\"=\")).substring(0,40)}(j.images)?\r\n"
+- "new Image().src=n:j.write('<p><i'+'mg src=\"'+n+'\" height=\"1\" width=\"1\" alt=\"\"
+  /><\\/p>')};\r\n"
+- "\r\n"
+- "if (document.cookie.indexOf('NO-SA=') == -1) {\r\n"
+- " var countername = countername(location.href), tld = prod_name(countername);\r\n"
+- " sitestat(\"//sa.bbc.co.uk/bbc/bbc/s?name=\"+countername+\"&ml_name=news-legacy-js&ml_version=20110330&app_type=web&app_name=\"+tld+\"&prod_name=\"+tld);\r\n"
+- "}\r\n"
+- "// ]]>\r\n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "       \n"
+- "        \n"
+- "\t\n"
+- "        \n"
+- "        \n"
+- |2
+                  3 December
+- "        \n"
+- "        \n"
+- |2
+           
+- "        \n"
+- "        \n"
+- "        \n"
+- "\t\n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+          Search ON THIS DAY by date
+- "        \n"
+- "\t\n"
+- "\t\t Day  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 \n"
+- "        \t\t\n"
+- "        \t\t\n"
+- "        \t\t Month  January  February  March  April  May  June  July  August  September  October  November  December \n"
+- "        \t\n"
+- "        \t\n"
+- "        \t\n"
+- "        \t\n"
+- "  \t\t\n"
+- "       \t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\n"
+- "      \t\t \n"
+- "       \t\t\n"
+- "        \t\n"
+- "        \t\n"
+- "            \n"
+- "\t\n"
+- "        \t\n"
+- "\tFront Page | \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\tYears | \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\tThemes | \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\tWitness\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "\t\n"
+- "\t\n"
+- "\tAbout This Site | \n"
+- "\tText Only\n"
+- "\t\n"
+- "\t\n"
+- "        \n"
+- "        \n"
+- "\t\n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "                        \n"
+- "\t1988: Egg industry fury over salmonella claim\n"
+- "        Health minister Edwina Currie has provoked outrage by saying most of Britain's
+  egg production is infected with the salmonella bacteria.\r\n"
+- "\r\n"
+- "Mrs Currie, MP for south Derbyshire, made her remarks during a television interview.\r\n"
+- "\r\n"
+- "She has angered farmers, politicians and egg producers, some of whom have been
+  calling for her resignation and are threatening to sue.\r\n"
+- "\r\n"
+- "\"Most of the egg production in this country, sadly, is now affected with salmonella,\"
+  she told reporters.\r\n"
+- "\r\n"
+- "Ministry of Agriculture ministers are reported to be extremely \"angry\" at her
+  comments.\r\n"
+- "\r\n"
+- "A spokesman said more than 30 million eggs were consumed every day last year.\r\n"
+- "\r\n"
+- "\r\n"
+- "'Highly irresponsible'\r\n"
+- "This is compared to 26 outbreaks of salmonella reported during that time.\r\n"
+- "\r\n"
+- "\r\n"
+- "Mrs Currie's officials in the Department of Health have been unable to provide
+  evidence that most chickens are infected with salmonella.\r\n"
+- "\r\n"
+- "Her comments have incensed the farming industry and egg producers who are expecting
+  a sharp fall in egg consumption as a result.\r\n"
+- "\r\n"
+- "The British Egg Industry Council said it was seeking legal advice on whether it
+  could sue Mrs Currie over \"factually incorrect and highly irresponsible\" remarks.\r\n"
+- "\r\n"
+- "A spokesman said the risk of an egg being infected with salmonella was less than
+  200 million to one.\r\n"
+- "\r\n"
+- "The National Farmers' Union said it might seek legal damages.\r\n"
+- "\r\n"
+- "\r\n"
+- "Legal action\r\n"
+- "\r\n"
+- "Mrs Currie has been unavailable for comment since her remarks were made.\r\n"
+- "\r\n"
+- "She has represented her constituency since 1983 and was made junior health minister
+  in 1986.\r\n"
+- "\r\n"
+- "During her short time at the Department of Health, Mrs Currie has courted controversy
+  with her outspoken opinions.\r\n"
+- "\r\n"
+- "She upset northerners when she claimed they were dying of \"ignorance and chips\".\r\n"
+- "\r\n"
+- "And she was branded patronising and callous for advising the elderly to broach
+  the winter months with a pair of long-johns.\r\n"
+- "\r\n"
+- "One of her most controversial remarks was on the subject of Aids.\r\n"
+- "\r\n"
+- "She said: \"Good Christian people who would not dream of misbehaving will not catch
+  Aids.\"\r\n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\t\n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "  E-mail this story to a friend \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "                \n"
+- "                \n"
+- "        \n"
+- |2
+          Watch/Listen
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\tThe MP could face legal action\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- "        \n"
+- "\t\tEdwina Currie on the egg health scare\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- |2
+          In Context
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tEdwina Currie initially received support from Prime Minister Margaret Thatcher
+  and Health Secretary Kenneth Clarke.\r\n"
+- "\r\n"
+- "She weathered the political storm for a further two weeks before mounting writs
+  against her from the farming industry forced her resignation.\r\n"
+- "\r\n"
+- "As egg sales plummeted, the government was forced to offer a compensation package
+  of millions of pounds to cover the cost of purchasing surplus eggs and for the slaughter
+  of unwanted hens.\r\n"
+- "\r\n"
+- "Mrs Currie remained an MP for her constituency until she was ousted in the 1997
+  General Election.\r\n"
+- "\r\n"
+- "She has carved out a lucrative career as both a novelist and a broadcaster.\r\n"
+- "The publication of her autobiography in 2002 sensationally revealed she had a four
+  year affair with the former Prime Minister John Major in the late 1980s.\r\n"
+- "\r\n"
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "                \n"
+- "    Stories From 3 Dec \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "            \t1984: Hundreds die in Bhopal chemical accident\n"
+- |2+
+
+- "\t\n"
+- "            \t1992: Bomb explosions in Manchester\n"
+- |2+
+
+- "\t\n"
+- "            \t1989: Malta summit ends Cold War\n"
+- |2+
+
+- "\t\n"
+- "            \t1965: White jury convicts Ku Klux Klansmen\n"
+- |2+
+
+- "\t\n"
+- "            \t1971: Pakistan intensifies air raids on India\n"
+- |2+
+
+- "\t\n"
+- "            \t1988: Egg industry fury over salmonella claim\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- |2
+           
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+          Search ON THIS DAY by date
+- "        \n"
+- "\t\n"
+- "\t\t Day  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 \n"
+- "        \t\t\n"
+- "        \t\t\n"
+- "        \t\t Month  January  February  March  April  May  June  July  August  September  October  November  December \n"
+- "        \t\n"
+- "        \t\n"
+- "        \t\n"
+- "        \t\n"
+- "  \t\t\n"
+- "       \t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\n"
+- "      \t\t \n"
+- "       \t\t\n"
+- "        \t\n"
+- "        \t\r\n"
+- "^^ back to top\r\n"
+- "Front Page | \r\n"
+- "Years | \r\n"
+- "Themes | \r\n"
+- "Witness\r\n"
+- "\r\n"
+- "©MMVIII | News Sources | Privacy & Cookies Policy\r\n"
+- "Mrs Currie, MP for south Derbyshire, made her remarks during a television interview.\r\n"
+- "\r\n"
+- "She has angered farmers, politicians and egg producers, some of whom have been
+  calling for her resignation and are threatening to sue.\r\n"
+- "\r\n"
+- "\"Most of the egg production in this country, sadly, is now affected with salmonella,\"
+  she told reporters.\r\n"
+- "\r\n"
+- "Ministry of Agriculture ministers are reported to be extremely \"angry\" at her
+  comments.\r\n"
+- "\r\n"
+- "A spokesman said more than 30 million eggs were consumed every day last year.\r\n"
+- "\r\n"
+- "\r\n"
+- "'Highly irresponsible'\r\n"
+- "This is compared to 26 outbreaks of salmonella reported during that time.\r\n"
+- "\r\n"
+- "\r\n"
+- "Mrs Currie's officials in the Department of Health have been unable to provide
+  evidence that most chickens are infected with salmonella.\r\n"
+- "\r\n"
+- "Her comments have incensed the farming industry and egg producers who are expecting
+  a sharp fall in egg consumption as a result.\r\n"
+- "\r\n"
+- "The British Egg Industry Council said it was seeking legal advice on whether it
+  could sue Mrs Currie over \"factually incorrect and highly irresponsible\" remarks.\r\n"
+- "\r\n"
+- "A spokesman said the risk of an egg being infected with salmonella was less than
+  200 million to one.\r\n"
+- "\r\n"
+- "The National Farmers' Union said it might seek legal damages.\r\n"
+- "\r\n"
+- "\r\n"
+- "Legal action\r\n"
+- "\r\n"
+- "Mrs Currie has been unavailable for comment since her remarks were made.\r\n"
+- "\r\n"
+- "She has represented her constituency since 1983 and was made junior health minister
+  in 1986.\r\n"
+- "\r\n"
+- "During her short time at the Department of Health, Mrs Currie has courted controversy
+  with her outspoken opinions.\r\n"
+- "\r\n"
+- "She upset northerners when she claimed they were dying of \"ignorance and chips\".\r\n"
+- "\r\n"
+- "And she was branded patronising and callous for advising the elderly to broach
+  the winter months with a pair of long-johns.\r\n"
+- "\r\n"
+- "One of her most controversial remarks was on the subject of Aids.\r\n"
+- "\r\n"
+- "She said: \"Good Christian people who would not dream of misbehaving will not catch
+  Aids.\"\r\n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\t\n"
+- "    She weathered the political storm for a further two weeks before mounting writs
+  against her from the farming industry forced her resignation.\r\n"
+- "\r\n"
+- "As egg sales plummeted, the government was forced to offer a compensation package
+  of millions of pounds to cover the cost of purchasing surplus eggs and for the slaughter
+  of unwanted hens.\r\n"
+- "\r\n"
+- "Mrs Currie remained an MP for her constituency until she was ousted in the 1997
+  General Election.\r\n"
+- "\r\n"
+- "She has carved out a lucrative career as both a novelist and a broadcaster.\r\n"
+- "The publication of her autobiography in 2002 sensationally revealed she had a four
+  year affair with the former Prime Minister John Major in the late 1980s.\r\n"
+- "\r\n"
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  graphics: !ruby/object:Word
+    word: graphics
+    stem: graphic
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  keys: !ruby/object:Word
+    word: keys
+    stem: kei
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  bbc: !ruby/object:Word
+    word: bbc
+    stem: bbc
+    docFrequency: 5.0
+    docPositions:
+    - 13
+    - 82
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 12.0
+    docPositions:
+    - 24
+    - 113
+    - 116
+    - 186
+    - 193
+    - 335
+    - 338
+    - 360
+    - 366
+    - 371
+    - 378
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 5.0
+    docPositions:
+    - 25
+    - 65
+    - 66
+    - 73
+  countername: !ruby/object:Word
+    word: countername
+    stem: counternam
+    docFrequency: 12.0
+    docPositions:
+    - 25
+    - 26
+    - 54
+    - 58
+    - 61
+    - 62
+    - 63
+    - 81
+    - 82
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 26.0
+    docPositions:
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 49
+    - 66
+    - 68
+  replace: !ruby/object:Word
+    word: replace
+    stem: replac
+    docFrequency: 12.0
+    docPositions:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 65
+  newsid_: !ruby/object:Word
+    word: newsid_
+    stem: newsid_
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 38
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 7.0
+    docPositions:
+    - 30
+    - 74
+    - 75
+  reviews: !ruby/object:Word
+    word: reviews
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  sport: !ruby/object:Word
+    word: sport
+    stem: sport
+    docFrequency: 6.0
+    docPositions:
+    - 33
+    - 34
+    - 45
+  bbc_sport: !ruby/object:Word
+    word: bbc_sport
+    stem: bbc_sport
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  uk: !ruby/object:Word
+    word: uk
+    stem: uk
+    docFrequency: 4.0
+    docPositions:
+    - 36
+    - 67
+    - 82
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 7.0
+    docPositions:
+    - 36
+    - 55
+    - 56
+    - 78
+  fs: !ruby/object:Word
+    word: fs
+    stem: fs
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  path: !ruby/object:Word
+    word: path
+    stem: path
+    docFrequency: 7.0
+    docPositions:
+    - 37
+    - 40
+    - 55
+    - 56
+    - 75
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 73
+  slice: !ruby/object:Word
+    word: slice
+    stem: slice
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  asset_id_re: !ruby/object:Word
+    word: asset_id_re
+    stem: asset_id_r
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 40
+  asset_id: !ruby/object:Word
+    word: asset_id
+    stem: asset_id
+    docFrequency: 6.0
+    docPositions:
+    - 39
+    - 41
+    - 57
+    - 61
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 11.0
+    docPositions:
+    - 40
+    - 49
+    - 57
+    - 61
+    - 68
+    - 73
+    - 74
+    - 75
+    - 76
+    - 80
+  matches: !ruby/object:Word
+    word: matches
+    stem: match
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 41
+  exec: !ruby/object:Word
+    word: exec
+    stem: exec
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 55
+    - 74
+    - 76
+  prod_name: !ruby/object:Word
+    word: prod_name
+    stem: prod_nam
+    docFrequency: 8.0
+    docPositions:
+    - 43
+    - 50
+    - 54
+    - 57
+    - 65
+    - 81
+    - 82
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 43
+    - 82
+    - 366
+  prod: !ruby/object:Word
+    word: prod
+    stem: prod
+    docFrequency: 7.0
+    docPositions:
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 6.0
+    docPositions:
+    - 44
+    - 75
+    - 76
+    - 78
+  array: !ruby/object:Word
+    word: array
+    stem: arrai
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 3.0
+    docPositions:
+    - 46
+  cbbc: !ruby/object:Word
+    word: cbbc
+    stem: cbbc
+    docFrequency: 3.0
+    docPositions:
+    - 47
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 5.0
+    docPositions:
+    - 48
+    - 49
+    - 50
+    - 82
+  match: !ruby/object:Word
+    word: match
+    stem: match
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 68
+  break: !ruby/object:Word
+    word: break
+    stem: break
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 5.0
+    docPositions:
+    - 54
+    - 58
+    - 61
+    - 62
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 7.0
+    docPositions:
+    - 56
+    - 57
+    - 58
+  default: !ruby/object:Word
+    word: default
+    stem: default
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 4.0
+    docPositions:
+    - 62
+    - 141
+    - 361
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 63
+    - 65
+    - 71
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 65
+  geo_edition: !ruby/object:Word
+    word: geo_edition
+    stem: geo_edit
+    docFrequency: 5.0
+    docPositions:
+    - 66
+    - 67
+    - 69
+    - 71
+  ifs: !ruby/object:Word
+    word: ifs
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  int: !ruby/object:Word
+    word: int
+    stem: int
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  sitestat: !ruby/object:Word
+    word: sitestat
+    stem: sitestat
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 82
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 14.0
+    docPositions:
+    - 73
+    - 75
+    - 76
+    - 77
+    - 78
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 13.0
+    docPositions:
+    - 73
+    - 76
+    - 77
+    - 78
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 73
+    - 75
+    - 80
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 7.0
+    docPositions:
+    - 73
+    - 74
+    - 76
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 81
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 4.0
+    docPositions:
+    - 73
+    - 75
+    - 76
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 5.0
+    docPositions:
+    - 73
+    - 75
+    - 80
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 4.0
+    docPositions:
+    - 73
+    - 74
+    - 80
+  st_ux: !ruby/object:Word
+    word: st_ux
+    stem: st_ux
+    docFrequency: 4.0
+    docPositions:
+    - 73
+    - 74
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 5.0
+    docPositions:
+    - 73
+    - 74
+    - 75
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 6.0
+    docPositions:
+    - 73
+    - 74
+    - 75
+    - 230
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 5.0
+    docPositions:
+    - 73
+    - 74
+    - 75
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 75
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 3.0
+    docPositions:
+    - 74
+  ns_: !ruby/object:Word
+    word: ns_
+    stem: ns_
+    docFrequency: 6.0
+    docPositions:
+    - 74
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 3.0
+    docPositions:
+    - 74
+  ux: !ruby/object:Word
+    word: ux
+    stem: ux
+    docFrequency: 5.0
+    docPositions:
+    - 74
+  cname: !ruby/object:Word
+    word: cname
+    stem: cname
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  cdomain: !ruby/object:Word
+    word: cdomain
+    stem: cdomain
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  cpath: !ruby/object:Word
+    word: cpath
+    stem: cpath
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 4.0
+    docPositions:
+    - 74
+    - 75
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 5.0
+    docPositions:
+    - 75
+    - 77
+  expires: !ruby/object:Word
+    word: expires
+    stem: expir
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 6.0
+    docPositions:
+    - 75
+    - 76
+    - 110
+    - 332
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 76
+  togmtstring: !ruby/object:Word
+    word: togmtstring
+    stem: togmtstr
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  ns_pixelurl: !ruby/object:Word
+    word: ns_pixelurl
+    stem: ns_pixelurl
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 76
+  ns__t: !ruby/object:Word
+    word: ns__t
+    stem: ns__t
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  ns_c: !ruby/object:Word
+    word: ns_c
+    stem: ns_c
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  characterset: !ruby/object:Word
+    word: characterset
+    stem: characterset
+    docFrequency: 3.0
+    docPositions:
+    - 76
+  defaultcharset: !ruby/object:Word
+    word: defaultcharset
+    stem: defaultcharset
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  ns_ti: !ruby/object:Word
+    word: ns_ti
+    stem: ns_ti
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 4.0
+    docPositions:
+    - 76
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  ns_jspageurl: !ruby/object:Word
+    word: ns_jspageurl
+    stem: ns_jspageurl
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 4.0
+    docPositions:
+    - 76
+    - 81
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  ns_referrer: !ruby/object:Word
+    word: ns_referrer
+    stem: ns_referr
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  referrer: !ruby/object:Word
+    word: referrer
+    stem: referr
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  lastindexof: !ruby/object:Word
+    word: lastindexof
+    stem: lastindexof
+    docFrequency: 5.0
+    docPositions:
+    - 76
+    - 77
+  ns_cut: !ruby/object:Word
+    word: ns_cut
+    stem: ns_cut
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 78
+  mg: !ruby/object:Word
+    word: mg
+    stem: mg
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  sa: !ruby/object:Word
+    word: sa
+    stem: sa
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 82
+  tld: !ruby/object:Word
+    word: tld
+    stem: tld
+    docFrequency: 4.0
+    docPositions:
+    - 81
+    - 82
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 5.0
+    docPositions:
+    - 82
+    - 180
+    - 197
+    - 382
+  ml_name: !ruby/object:Word
+    word: ml_name
+    stem: ml_name
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  legacy: !ruby/object:Word
+    word: legacy
+    stem: legaci
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  ml_version: !ruby/object:Word
+    word: ml_version
+    stem: ml_version
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  app_type: !ruby/object:Word
+    word: app_type
+    stem: app_typ
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  app_name: !ruby/object:Word
+    word: app_name
+    stem: app_nam
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 4.0
+    docPositions:
+    - 93
+    - 116
+    - 338
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 332
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 7.0
+    docPositions:
+    - 110
+    - 113
+    - 190
+    - 332
+    - 335
+    - 375
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  january: !ruby/object:Word
+    word: january
+    stem: januari
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  february: !ruby/object:Word
+    word: february
+    stem: februari
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  march: !ruby/object:Word
+    word: march
+    stem: march
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  june: !ruby/object:Word
+    word: june
+    stem: june
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  august: !ruby/object:Word
+    word: august
+    stem: august
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  september: !ruby/object:Word
+    word: september
+    stem: septemb
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  october: !ruby/object:Word
+    word: october
+    stem: octob
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 338
+  front: !ruby/object:Word
+    word: front
+    stem: front
+    docFrequency: 3.0
+    docPositions:
+    - 141
+    - 361
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 362
+  themes: !ruby/object:Word
+    word: themes
+    stem: theme
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 363
+  witness: !ruby/object:Word
+    word: witness
+    stem: wit
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 364
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  egg: !ruby/object:Word
+    word: egg
+    stem: egg
+    docFrequency: 19.0
+    docPositions:
+    - 179
+    - 180
+    - 184
+    - 186
+    - 199
+    - 201
+    - 203
+    - 247
+    - 257
+    - 297
+    - 369
+    - 371
+    - 384
+    - 386
+    - 388
+    - 414
+  industry: !ruby/object:Word
+    word: industry
+    stem: industri
+    docFrequency: 9.0
+    docPositions:
+    - 179
+    - 199
+    - 201
+    - 255
+    - 297
+    - 384
+    - 386
+    - 412
+  fury: !ruby/object:Word
+    word: fury
+    stem: furi
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 297
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 5.0
+    docPositions:
+    - 179
+    - 201
+    - 297
+    - 386
+  salmonella: !ruby/object:Word
+    word: salmonella
+    stem: salmonella
+    docFrequency: 12.0
+    docPositions:
+    - 179
+    - 180
+    - 186
+    - 194
+    - 197
+    - 203
+    - 297
+    - 371
+    - 379
+    - 382
+    - 388
+  claim: !ruby/object:Word
+    word: claim
+    stem: claim
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 297
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 10.0
+    docPositions:
+    - 180
+    - 197
+    - 212
+    - 214
+    - 247
+    - 253
+    - 382
+    - 397
+    - 399
+  minister: !ruby/object:Word
+    word: minister
+    stem: minist
+    docFrequency: 7.0
+    docPositions:
+    - 180
+    - 212
+    - 253
+    - 262
+    - 397
+    - 419
+  edwina: !ruby/object:Word
+    word: edwina
+    stem: edwina
+    docFrequency: 4.0
+    docPositions:
+    - 180
+    - 247
+    - 253
+  currie: !ruby/object:Word
+    word: currie
+    stem: curri
+    docFrequency: 16.0
+    docPositions:
+    - 180
+    - 182
+    - 197
+    - 201
+    - 210
+    - 214
+    - 247
+    - 253
+    - 259
+    - 367
+    - 382
+    - 386
+    - 395
+    - 399
+    - 416
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 12.0
+    docPositions:
+    - 180
+    - 184
+    - 210
+    - 212
+    - 214
+    - 261
+    - 369
+    - 395
+    - 397
+    - 399
+    - 418
+  provoked: !ruby/object:Word
+    word: provoked
+    stem: provok
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  outrage: !ruby/object:Word
+    word: outrage
+    stem: outrag
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  saying: !ruby/object:Word
+    word: saying
+    stem: sai
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 8.0
+    docPositions:
+    - 180
+    - 186
+    - 197
+    - 220
+    - 371
+    - 382
+    - 405
+  britain: !ruby/object:Word
+    word: britain
+    stem: britain
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 4.0
+    docPositions:
+    - 180
+    - 186
+    - 371
+  infected: !ruby/object:Word
+    word: infected
+    stem: infect
+    docFrequency: 6.0
+    docPositions:
+    - 180
+    - 197
+    - 203
+    - 382
+    - 388
+  bacteria: !ruby/object:Word
+    word: bacteria
+    stem: bacteria
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  mrs: !ruby/object:Word
+    word: mrs
+    stem: mr
+    docFrequency: 13.0
+    docPositions:
+    - 182
+    - 197
+    - 201
+    - 210
+    - 214
+    - 259
+    - 367
+    - 382
+    - 386
+    - 395
+    - 399
+    - 416
+  mp: !ruby/object:Word
+    word: mp
+    stem: mp
+    docFrequency: 6.0
+    docPositions:
+    - 182
+    - 241
+    - 259
+    - 367
+    - 416
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 367
+  derbyshire: !ruby/object:Word
+    word: derbyshire
+    stem: derbyshir
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 367
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 7.0
+    docPositions:
+    - 182
+    - 210
+    - 212
+    - 367
+    - 395
+    - 397
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 27.0
+    docPositions:
+    - 182
+    - 184
+    - 188
+    - 199
+    - 210
+    - 212
+    - 214
+    - 220
+    - 255
+    - 259
+    - 262
+    - 367
+    - 369
+    - 373
+    - 384
+    - 395
+    - 397
+    - 399
+    - 405
+    - 412
+    - 416
+    - 419
+  remarks: !ruby/object:Word
+    word: remarks
+    stem: remark
+    docFrequency: 9.0
+    docPositions:
+    - 182
+    - 201
+    - 210
+    - 220
+    - 367
+    - 386
+    - 395
+    - 405
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 7.0
+    docPositions:
+    - 182
+    - 194
+    - 214
+    - 367
+    - 379
+    - 399
+  television: !ruby/object:Word
+    word: television
+    stem: televis
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 367
+  interview: !ruby/object:Word
+    word: interview
+    stem: interview
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 367
+  she: !ruby/object:Word
+    word: she
+    stem: she
+    docFrequency: 23.0
+    docPositions:
+    - 184
+    - 186
+    - 212
+    - 216
+    - 218
+    - 222
+    - 255
+    - 259
+    - 261
+    - 262
+    - 369
+    - 371
+    - 397
+    - 401
+    - 403
+    - 407
+    - 412
+    - 416
+    - 418
+    - 419
+  angered: !ruby/object:Word
+    word: angered
+    stem: anger
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  farmers: !ruby/object:Word
+    word: farmers
+    stem: farmer
+    docFrequency: 5.0
+    docPositions:
+    - 184
+    - 205
+    - 369
+    - 390
+  politicians: !ruby/object:Word
+    word: politicians
+    stem: politician
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 22.0
+    docPositions:
+    - 184
+    - 199
+    - 201
+    - 212
+    - 216
+    - 218
+    - 253
+    - 257
+    - 261
+    - 369
+    - 384
+    - 386
+    - 397
+    - 401
+    - 403
+    - 414
+    - 418
+  producers: !ruby/object:Word
+    word: producers
+    stem: produc
+    docFrequency: 5.0
+    docPositions:
+    - 184
+    - 199
+    - 369
+    - 384
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  whom: !ruby/object:Word
+    word: whom
+    stem: whom
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 7.0
+    docPositions:
+    - 184
+    - 197
+    - 199
+    - 369
+    - 382
+    - 384
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 7.0
+    docPositions:
+    - 184
+    - 197
+    - 210
+    - 369
+    - 382
+    - 395
+  calling: !ruby/object:Word
+    word: calling
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  resignation: !ruby/object:Word
+    word: resignation
+    stem: resign
+    docFrequency: 5.0
+    docPositions:
+    - 184
+    - 255
+    - 369
+    - 412
+  threatening: !ruby/object:Word
+    word: threatening
+    stem: threaten
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 369
+  sue: !ruby/object:Word
+    word: sue
+    stem: sue
+    docFrequency: 5.0
+    docPositions:
+    - 184
+    - 201
+    - 369
+    - 386
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  sadly: !ruby/object:Word
+    word: sadly
+    stem: sadli
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  affected: !ruby/object:Word
+    word: affected
+    stem: affect
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  told: !ruby/object:Word
+    word: told
+    stem: told
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  reporters: !ruby/object:Word
+    word: reporters
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 371
+  ministry: !ruby/object:Word
+    word: ministry
+    stem: ministri
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 373
+  agriculture: !ruby/object:Word
+    word: agriculture
+    stem: agricultur
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 373
+  ministers: !ruby/object:Word
+    word: ministers
+    stem: minist
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 373
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 188
+    - 194
+    - 373
+    - 379
+  extremely: !ruby/object:Word
+    word: extremely
+    stem: extrem
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 373
+  angry: !ruby/object:Word
+    word: angry
+    stem: angri
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 373
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 5.0
+    docPositions:
+    - 188
+    - 199
+    - 373
+    - 384
+  spokesman: !ruby/object:Word
+    word: spokesman
+    stem: spokesman
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 203
+    - 375
+    - 388
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 11.0
+    docPositions:
+    - 190
+    - 201
+    - 203
+    - 205
+    - 222
+    - 375
+    - 386
+    - 388
+    - 390
+    - 407
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 375
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 203
+    - 375
+    - 388
+  million: !ruby/object:Word
+    word: million
+    stem: million
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 203
+    - 375
+    - 388
+  eggs: !ruby/object:Word
+    word: eggs
+    stem: egg
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 257
+    - 375
+    - 414
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 7.0
+    docPositions:
+    - 190
+    - 210
+    - 216
+    - 375
+    - 395
+    - 401
+  consumed: !ruby/object:Word
+    word: consumed
+    stem: consum
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 375
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 375
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 375
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 262
+    - 375
+    - 419
+  highly: !ruby/object:Word
+    word: highly
+    stem: highli
+    docFrequency: 5.0
+    docPositions:
+    - 193
+    - 201
+    - 378
+    - 386
+  irresponsible: !ruby/object:Word
+    word: irresponsible
+    stem: irrespons
+    docFrequency: 5.0
+    docPositions:
+    - 193
+    - 201
+    - 378
+    - 386
+  compared: !ruby/object:Word
+    word: compared
+    stem: compar
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 379
+  outbreaks: !ruby/object:Word
+    word: outbreaks
+    stem: outbreak
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 379
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 5.0
+    docPositions:
+    - 194
+    - 214
+    - 379
+    - 399
+  officials: !ruby/object:Word
+    word: officials
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 382
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 5.0
+    docPositions:
+    - 197
+    - 214
+    - 382
+    - 399
+  unable: !ruby/object:Word
+    word: unable
+    stem: unabl
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 382
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 382
+  evidence: !ruby/object:Word
+    word: evidence
+    stem: evid
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 382
+  chickens: !ruby/object:Word
+    word: chickens
+    stem: chicken
+    docFrequency: 3.0
+    docPositions:
+    - 197
+    - 382
+  incensed: !ruby/object:Word
+    word: incensed
+    stem: incens
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  farming: !ruby/object:Word
+    word: farming
+    stem: farm
+    docFrequency: 5.0
+    docPositions:
+    - 199
+    - 255
+    - 384
+    - 412
+  expecting: !ruby/object:Word
+    word: expecting
+    stem: expect
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  sharp: !ruby/object:Word
+    word: sharp
+    stem: sharp
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  fall: !ruby/object:Word
+    word: fall
+    stem: fall
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  consumption: !ruby/object:Word
+    word: consumption
+    stem: consumpt
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 384
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  council: !ruby/object:Word
+    word: council
+    stem: council
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  seeking: !ruby/object:Word
+    word: seeking
+    stem: seek
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 8.0
+    docPositions:
+    - 201
+    - 205
+    - 208
+    - 241
+    - 386
+    - 390
+    - 393
+  advice: !ruby/object:Word
+    word: advice
+    stem: advic
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 4.0
+    docPositions:
+    - 201
+    - 241
+    - 386
+  factually: !ruby/object:Word
+    word: factually
+    stem: factual
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  incorrect: !ruby/object:Word
+    word: incorrect
+    stem: incorrect
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 386
+  risk: !ruby/object:Word
+    word: risk
+    stem: risk
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 388
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 388
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 388
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 5.0
+    docPositions:
+    - 203
+    - 220
+    - 388
+    - 405
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 390
+  union: !ruby/object:Word
+    word: union
+    stem: union
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 390
+  might: !ruby/object:Word
+    word: might
+    stem: might
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 390
+  seek: !ruby/object:Word
+    word: seek
+    stem: seek
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 390
+  damages: !ruby/object:Word
+    word: damages
+    stem: damag
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 390
+  action: !ruby/object:Word
+    word: action
+    stem: action
+    docFrequency: 4.0
+    docPositions:
+    - 208
+    - 241
+    - 393
+  unavailable: !ruby/object:Word
+    word: unavailable
+    stem: unavail
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 395
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 395
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 5.0
+    docPositions:
+    - 210
+    - 212
+    - 395
+    - 397
+  represented: !ruby/object:Word
+    word: represented
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 397
+  constituency: !ruby/object:Word
+    word: constituency
+    stem: constitu
+    docFrequency: 5.0
+    docPositions:
+    - 212
+    - 259
+    - 397
+    - 416
+  junior: !ruby/object:Word
+    word: junior
+    stem: junior
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 397
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 399
+  courted: !ruby/object:Word
+    word: courted
+    stem: court
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 399
+  controversy: !ruby/object:Word
+    word: controversy
+    stem: controversi
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 399
+  outspoken: !ruby/object:Word
+    word: outspoken
+    stem: outspoken
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 399
+  opinions: !ruby/object:Word
+    word: opinions
+    stem: opinion
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 399
+  upset: !ruby/object:Word
+    word: upset
+    stem: upset
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  northerners: !ruby/object:Word
+    word: northerners
+    stem: northern
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  claimed: !ruby/object:Word
+    word: claimed
+    stem: claim
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  dying: !ruby/object:Word
+    word: dying
+    stem: dy
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  ignorance: !ruby/object:Word
+    word: ignorance
+    stem: ignor
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  chips: !ruby/object:Word
+    word: chips
+    stem: chip
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 401
+  branded: !ruby/object:Word
+    word: branded
+    stem: brand
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  patronising: !ruby/object:Word
+    word: patronising
+    stem: patronis
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  callous: !ruby/object:Word
+    word: callous
+    stem: callou
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  advising: !ruby/object:Word
+    word: advising
+    stem: advis
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  elderly: !ruby/object:Word
+    word: elderly
+    stem: elderli
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  broach: !ruby/object:Word
+    word: broach
+    stem: broach
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  winter: !ruby/object:Word
+    word: winter
+    stem: winter
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  months: !ruby/object:Word
+    word: months
+    stem: month
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  pair: !ruby/object:Word
+    word: pair
+    stem: pair
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  johns: !ruby/object:Word
+    word: johns
+    stem: john
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 403
+  controversial: !ruby/object:Word
+    word: controversial
+    stem: controversi
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 405
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 405
+  aids: !ruby/object:Word
+    word: aids
+    stem: aid
+    docFrequency: 5.0
+    docPositions:
+    - 220
+    - 222
+    - 405
+    - 407
+  good: !ruby/object:Word
+    word: good
+    stem: good
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  christian: !ruby/object:Word
+    word: christian
+    stem: christian
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 222
+    - 407
+  dream: !ruby/object:Word
+    word: dream
+    stem: dream
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  misbehaving: !ruby/object:Word
+    word: misbehaving
+    stem: misbehav
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 407
+  mail: !ruby/object:Word
+    word: mail
+    stem: mail
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  friend: !ruby/object:Word
+    word: friend
+    stem: friend
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  listen: !ruby/object:Word
+    word: listen
+    stem: listen
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  face: !ruby/object:Word
+    word: face
+    stem: face
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  scare: !ruby/object:Word
+    word: scare
+    stem: scare
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  initially: !ruby/object:Word
+    word: initially
+    stem: initi
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  received: !ruby/object:Word
+    word: received
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  prime: !ruby/object:Word
+    word: prime
+    stem: prime
+    docFrequency: 4.0
+    docPositions:
+    - 253
+    - 262
+    - 419
+  margaret: !ruby/object:Word
+    word: margaret
+    stem: margaret
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  thatcher: !ruby/object:Word
+    word: thatcher
+    stem: thatcher
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  secretary: !ruby/object:Word
+    word: secretary
+    stem: secretari
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  kenneth: !ruby/object:Word
+    word: kenneth
+    stem: kenneth
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  clarke: !ruby/object:Word
+    word: clarke
+    stem: clark
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  weathered: !ruby/object:Word
+    word: weathered
+    stem: weather
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  political: !ruby/object:Word
+    word: political
+    stem: polit
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  storm: !ruby/object:Word
+    word: storm
+    stem: storm
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  further: !ruby/object:Word
+    word: further
+    stem: further
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  weeks: !ruby/object:Word
+    word: weeks
+    stem: week
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  mounting: !ruby/object:Word
+    word: mounting
+    stem: mount
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  writs: !ruby/object:Word
+    word: writs
+    stem: writ
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 412
+  forced: !ruby/object:Word
+    word: forced
+    stem: forc
+    docFrequency: 5.0
+    docPositions:
+    - 255
+    - 257
+    - 412
+    - 414
+  sales: !ruby/object:Word
+    word: sales
+    stem: sale
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  plummeted: !ruby/object:Word
+    word: plummeted
+    stem: plummet
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  offer: !ruby/object:Word
+    word: offer
+    stem: offer
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  compensation: !ruby/object:Word
+    word: compensation
+    stem: compens
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  package: !ruby/object:Word
+    word: package
+    stem: packag
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  millions: !ruby/object:Word
+    word: millions
+    stem: million
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  pounds: !ruby/object:Word
+    word: pounds
+    stem: pound
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  purchasing: !ruby/object:Word
+    word: purchasing
+    stem: purchas
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  surplus: !ruby/object:Word
+    word: surplus
+    stem: surplu
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  slaughter: !ruby/object:Word
+    word: slaughter
+    stem: slaughter
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  unwanted: !ruby/object:Word
+    word: unwanted
+    stem: unwant
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  hens: !ruby/object:Word
+    word: hens
+    stem: hen
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 414
+  remained: !ruby/object:Word
+    word: remained
+    stem: remain
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 416
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 416
+  ousted: !ruby/object:Word
+    word: ousted
+    stem: oust
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 416
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 416
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 416
+  carved: !ruby/object:Word
+    word: carved
+    stem: carv
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  lucrative: !ruby/object:Word
+    word: lucrative
+    stem: lucr
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  career: !ruby/object:Word
+    word: career
+    stem: career
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  novelist: !ruby/object:Word
+    word: novelist
+    stem: novelist
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  broadcaster: !ruby/object:Word
+    word: broadcaster
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 261
+    - 418
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  autobiography: !ruby/object:Word
+    word: autobiography
+    stem: autobiographi
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  sensationally: !ruby/object:Word
+    word: sensationally
+    stem: sensation
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  revealed: !ruby/object:Word
+    word: revealed
+    stem: reveal
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  four: !ruby/object:Word
+    word: four
+    stem: four
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  affair: !ruby/object:Word
+    word: affair
+    stem: affair
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  former: !ruby/object:Word
+    word: former
+    stem: former
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  john: !ruby/object:Word
+    word: john
+    stem: john
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  late: !ruby/object:Word
+    word: late
+    stem: late
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 419
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 278
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 278
+  hundreds: !ruby/object:Word
+    word: hundreds
+    stem: hundr
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  die: !ruby/object:Word
+    word: die
+    stem: die
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  bhopal: !ruby/object:Word
+    word: bhopal
+    stem: bhopal
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  chemical: !ruby/object:Word
+    word: chemical
+    stem: chemic
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  accident: !ruby/object:Word
+    word: accident
+    stem: accid
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  bomb: !ruby/object:Word
+    word: bomb
+    stem: bomb
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  explosions: !ruby/object:Word
+    word: explosions
+    stem: explos
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  manchester: !ruby/object:Word
+    word: manchester
+    stem: manchest
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  malta: !ruby/object:Word
+    word: malta
+    stem: malta
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  summit: !ruby/object:Word
+    word: summit
+    stem: summit
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  ends: !ruby/object:Word
+    word: ends
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  cold: !ruby/object:Word
+    word: cold
+    stem: cold
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  white: !ruby/object:Word
+    word: white
+    stem: white
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  jury: !ruby/object:Word
+    word: jury
+    stem: juri
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  convicts: !ruby/object:Word
+    word: convicts
+    stem: convict
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  ku: !ruby/object:Word
+    word: ku
+    stem: ku
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  klux: !ruby/object:Word
+    word: klux
+    stem: klux
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  klansmen: !ruby/object:Word
+    word: klansmen
+    stem: klansmen
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  pakistan: !ruby/object:Word
+    word: pakistan
+    stem: pakistan
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  intensifies: !ruby/object:Word
+    word: intensifies
+    stem: intensifi
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  raids: !ruby/object:Word
+    word: raids
+    stem: raid
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  india: !ruby/object:Word
+    word: india
+    stem: india
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  mmviii: !ruby/object:Word
+    word: mmviii
+    stem: mmviii
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  sources: !ruby/object:Word
+    word: sources
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 366
+lineCount: 421
+wordCount: 1451
+rank: 0.2564102564102564
+title: 'BBC ON THIS DAY | 3 | 1988: Egg industry fury over salmonella claim'
+links:
+- http://news.bbc.co.uk/text_only.stm
+- http://www.bbc.co.uk/accessibility/accesskeys/keys.shtml
+- http://www.bbc.co.uk/go/toolbar/-/home/d/
+- http://www.bbc.co.uk/go/toolbar/-/a-z/
+- http://news.bbc.co.uk/1/hi.html
+- http://newsvote.bbc.co.uk/mpapps/pagetools/email/news.bbc.co.uk/onthisday/hi/dates/stories/december/3/newsid_2519000/2519451.stm
+- http://www.bbc.co.uk/mediaselector/check/player/nol/newsid_6590000/newsid_6591700?redirect=6591705.stm&news=1&nbram=1&bbram=1&nbwm=1&bbwm=1
+- http://www.bbc.co.uk/mediaselector/check/player/nol/newsid_6590000/newsid_6591700?redirect=6591705.stm&news=1&nbram=1&bbram=1&nbwm=1&bbwm=1
+- http://www.bbc.co.uk/privacy/
+rawText: "\n        \n\n\t\r\n\r\n\r\nSkip to main content\r\nLow Graphics\r\nAccess
+  keys help\r\n\r\n Home\r\n\r\n\r\nExplore the BBC\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\r\n\r\n//
+  <![CDATA[\r\nfunction countername(u) {\r\n   var countername = [];\r\n    u = u.replace(/\\.[^.\\/]+$/,
+  '');\r\n    u = u.replace(/[#][^#]+$/, '' );\r\n    u = u.replace(/[\\?][^\\?]+$/,
+  '' );\r\n    u = u.replace(/\\/newsid_\\d+/g, '/');\r\n    u = u.replace(/\\/[12]\\//,
+  '/');\r\n    u = u.replace(/\\/reviews\\//, '/');\r\n    u = u.replace(/\\/sport[12]\\//,
+  '/sport/');\r\n    u = u.replace(/\\/bbc_sport\\//, '/sport/');\r\n    u = u.replace(/\\/(hi|mobile)\\//,
+  '/');\r\n    u = u.replace(/\\/(uk|i)fs\\//, '/');\r\n    var path    = u.split('/').slice(3);
+  \r\n    var asset_id_re  = /(\\d+)\\/?$/;\r\n    var asset_id = '';\r\n    if (matches
+  = asset_id_re.exec( path[path.length-1] )) {\r\n        asset_id = matches[1];\r\n
+  \   }\r\n    var prod_name  = 'news'; \r\n    var prod = new Array();\r\n    prod['sport']
+  \   = /sport/; \r\n    prod['weather']  = /weather/;\r\n    prod['cbbc']     = /cbbc/;\r\n
+  \   for (var name in prod) {\r\n        if (u.match(prod[name])) {\r\n            prod_name
+  = name;\r\n            break;\r\n        }\r\n    }\r\n    countername.push(prod_name);\r\n
+  \   for (var i=0; i<path.length; i++) {\r\n        var part = path[i];\r\n        if
+  (part && (part != prod_name) && (part != asset_id) && (part != 'default')) {\r\n
+  \           countername.push(part);\r\n        }\r\n    }\r\n    if (asset_id) {countername.push(asset_id);}\r\n
+  \   countername.push('page');\r\n    return countername.join('.');\r\n}\r\nfunction
+  prod_name(c) {return c.replace(/^(.+?)\\..*$/, \"$1\");}\r\nfunction geo_edition(u)
+  {\r\n    var geo_edition = 'uk';\r\n    if (u.match(/\\/(sport2|2|ifs)\\//)) {\r\n
+  \        geo_edition = 'int';\r\n    }\r\n    return geo_edition;\r\n}\r\nfunction
+  sitestat(n){var j=document,f=j.location,b=\"\";if(j.cookie.indexOf(\"st_ux=\")!=-1){var
+  k=j.cookie.split(\";\");var e=\"st_ux\",h=document.domain,a=\"/\";\r\nif(typeof
+  ns_!=\"undefined\"&&typeof ns_.ux!=\"undefined\"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var
+  g=0,f=k.length;g<f;g++){var m=k[g].indexOf(\"st_ux=\");\r\nif(m!=-1){b=\"&\"+unescape(k[g].substring(m+6))}}document.cookie=e+\"=;
+  expires=\"+new Date(new Date().getTime()-60).toGMTString()+\"; path=\"+a+\"; domain=\"+h}ns_pixelUrl=n;\r\nn=ns_pixelUrl+\"&ns__t=\"+(new
+  Date().getTime())+\"&ns_c=\"+((j.characterSet)?j.characterSet:j.defaultCharset)+\"&ns_ti=\"+escape(j.title)+b+\"&ns_jspageurl=\"+escape(f&&f.href?f.href:j.URL)+\"&ns_referrer=\"+escape(j.referrer);if(n.length>2000&&n.lastIndexOf(\"&\")){\r\nn=n.substring(0,n.lastIndexOf(\"&\")+1)+\"ns_cut=\"+n.substring(n.lastIndexOf(\"&\")+1,n.lastIndexOf(\"=\")).substring(0,40)}(j.images)?\r\nnew
+  Image().src=n:j.write('<p><i'+'mg src=\"'+n+'\" height=\"1\" width=\"1\" alt=\"\"
+  /><\\/p>')};\r\n\r\nif (document.cookie.indexOf('NO-SA=') == -1) {\r\n var countername
+  = countername(location.href), tld = prod_name(countername);\r\n sitestat(\"//sa.bbc.co.uk/bbc/bbc/s?name=\"+countername+\"&ml_name=news-legacy-js&ml_version=20110330&app_type=web&app_name=\"+tld+\"&prod_name=\"+tld);\r\n}\r\n//
+  ]]>\r\n\r\n\r\n\n       \n        \n\t\n        \n        \n                3 December\n
+  \       \n        \n         \n        \n        \n        \n\t\n        \n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        Search
+  ON THIS DAY by date\n        \n\t\n\t\t Day  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 \n
+  \       \t\t\n        \t\t\n        \t\t Month  January  February  March  April  May  June  July  August  September  October  November  December \n
+  \       \t\n        \t\n        \t\n        \t\n  \t\t\n       \t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\n
+  \     \t\t \n       \t\t\n        \t\n        \t\n            \n\t\n        \t\n\tFront
+  Page | \n\n\n\t\n\tYears | \n\n\n\t\n\tThemes | \n\n\n\t\n\tWitness\n\n\n\n\n        \n\t\n\t\n\tAbout
+  This Site | \n\tText Only\n\t\n\t\n        \n        \n\t\n        \n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        \n
+  \                       \n\t1988: Egg industry fury over salmonella claim\n        Health
+  minister Edwina Currie has provoked outrage by saying most of Britain's egg production
+  is infected with the salmonella bacteria.\r\n\r\nMrs Currie, MP for south Derbyshire,
+  made her remarks during a television interview.\r\n\r\nShe has angered farmers,
+  politicians and egg producers, some of whom have been calling for her resignation
+  and are threatening to sue.\r\n\r\n\"Most of the egg production in this country,
+  sadly, is now affected with salmonella,\" she told reporters.\r\n\r\nMinistry of
+  Agriculture ministers are reported to be extremely \"angry\" at her comments.\r\n\r\nA
+  spokesman said more than 30 million eggs were consumed every day last year.\r\n\r\n\r\n'Highly
+  irresponsible'\r\nThis is compared to 26 outbreaks of salmonella reported during
+  that time.\r\n\r\n\r\nMrs Currie's officials in the Department of Health have been
+  unable to provide evidence that most chickens are infected with salmonella.\r\n\r\nHer
+  comments have incensed the farming industry and egg producers who are expecting
+  a sharp fall in egg consumption as a result.\r\n\r\nThe British Egg Industry Council
+  said it was seeking legal advice on whether it could sue Mrs Currie over \"factually
+  incorrect and highly irresponsible\" remarks.\r\n\r\nA spokesman said the risk of
+  an egg being infected with salmonella was less than 200 million to one.\r\n\r\nThe
+  National Farmers' Union said it might seek legal damages.\r\n\r\n\r\nLegal action\r\n\r\nMrs
+  Currie has been unavailable for comment since her remarks were made.\r\n\r\nShe
+  has represented her constituency since 1983 and was made junior health minister
+  in 1986.\r\n\r\nDuring her short time at the Department of Health, Mrs Currie has
+  courted controversy with her outspoken opinions.\r\n\r\nShe upset northerners when
+  she claimed they were dying of \"ignorance and chips\".\r\n\r\nAnd she was branded
+  patronising and callous for advising the elderly to broach the winter months with
+  a pair of long-johns.\r\n\r\nOne of her most controversial remarks was on the subject
+  of Aids.\r\n\r\nShe said: \"Good Christian people who would not dream of misbehaving
+  will not catch Aids.\"\r\n\r\n\r\n\n\t\n    \n  \n\n  E-mail this story to a friend
+  \n\n  \n\n                \n                \n        \n        Watch/Listen\n\t\t\n\t\n\t\n\t\tThe
+  MP could face legal action\n\t\t\n\t\n\t\n\n        \n\t\tEdwina Currie on the egg
+  health scare\n\t\t\t\n\t\t\n        In Context\n\t\t\t\n\t\t\t\t\n\t\t\t\tEdwina
+  Currie initially received support from Prime Minister Margaret Thatcher and Health
+  Secretary Kenneth Clarke.\r\n\r\nShe weathered the political storm for a further
+  two weeks before mounting writs against her from the farming industry forced her
+  resignation.\r\n\r\nAs egg sales plummeted, the government was forced to offer a
+  compensation package of millions of pounds to cover the cost of purchasing surplus
+  eggs and for the slaughter of unwanted hens.\r\n\r\nMrs Currie remained an MP for
+  her constituency until she was ousted in the 1997 General Election.\r\n\r\nShe has
+  carved out a lucrative career as both a novelist and a broadcaster.\r\nThe publication
+  of her autobiography in 2002 sensationally revealed she had a four year affair with
+  the former Prime Minister John Major in the late 1980s.\r\n\r\n\n\t\t\t\n\n\n\n\n\n
+  \       \n        \n        \n        \n        \n        \n                \n    Stories
+  From 3 Dec \n\n\n\t\n            \t1984: Hundreds die in Bhopal chemical accident\n\n\t\n
+  \           \t1992: Bomb explosions in Manchester\n\n\t\n            \t1989: Malta
+  summit ends Cold War\n\n\t\n            \t1965: White jury convicts Ku Klux Klansmen\n\n\t\n
+  \           \t1971: Pakistan intensifies air raids on India\n\n\t\n            \t1988:
+  Egg industry fury over salmonella claim\n\n\t\n\n\n\n\n\n\n\n\n\n\n  \n        \n\n\n\n\n\n
+  \       \n         \n        \n        \n        \n        \n        \n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        Search
+  ON THIS DAY by date\n        \n\t\n\t\t Day  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 \n
+  \       \t\t\n        \t\t\n        \t\t Month  January  February  March  April  May  June  July  August  September  October  November  December \n
+  \       \t\n        \t\n        \t\n        \t\n  \t\t\n       \t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\n
+  \     \t\t \n       \t\t\n        \t\n        \t\r\n^^ back to top\r\nFront Page | \r\nYears | \r\nThemes | \r\nWitness\r\n\r\n©MMVIII | News
+  Sources | Privacy & Cookies Policy\r\nMrs Currie, MP for south Derbyshire, made
+  her remarks during a television interview.\r\n\r\nShe has angered farmers, politicians
+  and egg producers, some of whom have been calling for her resignation and are threatening
+  to sue.\r\n\r\n\"Most of the egg production in this country, sadly, is now affected
+  with salmonella,\" she told reporters.\r\n\r\nMinistry of Agriculture ministers
+  are reported to be extremely \"angry\" at her comments.\r\n\r\nA spokesman said
+  more than 30 million eggs were consumed every day last year.\r\n\r\n\r\n'Highly
+  irresponsible'\r\nThis is compared to 26 outbreaks of salmonella reported during
+  that time.\r\n\r\n\r\nMrs Currie's officials in the Department of Health have been
+  unable to provide evidence that most chickens are infected with salmonella.\r\n\r\nHer
+  comments have incensed the farming industry and egg producers who are expecting
+  a sharp fall in egg consumption as a result.\r\n\r\nThe British Egg Industry Council
+  said it was seeking legal advice on whether it could sue Mrs Currie over \"factually
+  incorrect and highly irresponsible\" remarks.\r\n\r\nA spokesman said the risk of
+  an egg being infected with salmonella was less than 200 million to one.\r\n\r\nThe
+  National Farmers' Union said it might seek legal damages.\r\n\r\n\r\nLegal action\r\n\r\nMrs
+  Currie has been unavailable for comment since her remarks were made.\r\n\r\nShe
+  has represented her constituency since 1983 and was made junior health minister
+  in 1986.\r\n\r\nDuring her short time at the Department of Health, Mrs Currie has
+  courted controversy with her outspoken opinions.\r\n\r\nShe upset northerners when
+  she claimed they were dying of \"ignorance and chips\".\r\n\r\nAnd she was branded
+  patronising and callous for advising the elderly to broach the winter months with
+  a pair of long-johns.\r\n\r\nOne of her most controversial remarks was on the subject
+  of Aids.\r\n\r\nShe said: \"Good Christian people who would not dream of misbehaving
+  will not catch Aids.\"\r\n\r\n\r\n\n\t\n    She weathered the political storm for
+  a further two weeks before mounting writs against her from the farming industry
+  forced her resignation.\r\n\r\nAs egg sales plummeted, the government was forced
+  to offer a compensation package of millions of pounds to cover the cost of purchasing
+  surplus eggs and for the slaughter of unwanted hens.\r\n\r\nMrs Currie remained
+  an MP for her constituency until she was ousted in the 1997 General Election.\r\n\r\nShe
+  has carved out a lucrative career as both a novelist and a broadcaster.\r\nThe publication
+  of her autobiography in 2002 sensationally revealed she had a four year affair with
+  the former Prime Minister John Major in the late 1980s.\r\n\r\n"

@@ -1,0 +1,3694 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 137
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 20
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 137
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 20
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 199
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 229
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 234
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 246
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 41
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID menu-fb already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 249
+    str1: menu-fb
+    str2: menu-fb
+    str3: 
+    int1: 0
+    column: 5044
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID menu-tw already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 249
+    str1: menu-tw
+    str2: menu-tw
+    str3: 
+    int1: 0
+    column: 5253
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 270
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 101
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 270
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 111
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 282
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 83
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 296
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 29
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 339
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 350
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 361
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 372
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 383
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: li and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 394
+    str1: li
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: ul and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 395
+    str1: ul
+    str2: div
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: section and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 780
+    str1: section
+    str2: div
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 794
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1eq6nhz"
+    line: 797
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 43
+address: http://www.history.co.uk
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "        \n"
+- "                      \n"
+- "              \n"
+- "                \n"
+- "            \n"
+- "          \n"
+- "          \n"
+- |2
+                Sky 529Sky 530 (+1)Virgin 270Virgin 271 (+1)BT 327BT 379 (HD)TalkTalk 327
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "                  \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "          \n"
+- "          \n"
+- "            \n"
+- |2
+                Toggle navigation
+- "              \n"
+- "              \n"
+- "              \n"
+- "            \n"
+- |2+
+
+- "          \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "          \n"
+- "          \n"
+- |2+
+
+- |2
+                Home
+- |
+  What's On
+- |
+  Shows
+- |
+  Decembeard
+- |
+  Topics
+- |
+  Bios
+- |
+  Videos
+- |
+  Book Club
+- |
+  This Day in History
+- |
+  Facebook
+- |
+  Twitter
+- |2+
+
+- "            \n"
+- "          \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- "          \n"
+- |2+
+
+- "            \n"
+- "              \n"
+- "    \n"
+- "      \n"
+- |2
+        Search form
+- |2
+      SearchSearch
+- |2+
+
+- "    \n"
+- "  \n"
+- |2
+        HomeWhat's OnShowsDuck DynastyLeepu and PitbullThe Curse of Oak IslandHunting HitlerShipping WarsCounting CarsView AllDecembeardJoin upTopicsHistory of WW2History of Biker GangsHistory of TanksHIstory of LondonHistory of AmericaView AllBiosAdolf HItlerEva BraunWinston ChurchillAnne FrankMuhammed AliView AllVideosBook ClubThis Day in HistoryFacebookTwitter
+- "  \n"
+- " \n"
+- "                \n"
+- "                              \n"
+- "      \n"
+- |2+
+
+- "    \n"
+- "    \r\n"
+- "\r\n"
+- "  \r\n"
+- "   Share on Facebook  \r\n"
+- "  \r\n"
+- "\r\n"
+- "    \r\n"
+- "  \r\n"
+- "  \r\n"
+- "    Share on Twitter  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "\r\n"
+- "  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "    Email this article  \r\n"
+- "  \r\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- |
+  .panel-info1, .panel-info2, .panel-info3 {
+- |
+  background:none;
+- |
+  outline: 1px solid #cbcbcb;
+- |
+  }
+- |
+  .panel-info3 .inside .view-footer {
+- |2
+      margin-bottom: 0;
+- |
+  }
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "        \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "      \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      Duck Dynasty: Tuesdays 10pm  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      Christmas Special: 15 December 9pm   \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      Wednesdays 10pm  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      Mondays 10pm  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \r\n"
+- "\r\n"
+- "  \r\n"
+- "      \r\n"
+- "        Dec 1911      \r\n"
+- "      \r\n"
+- "        14      \r\n"
+- "  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "    On this day in history\r\n"
+- "    \r\n"
+- "      Amundsen reaches South Pole\r\n"
+- "    \r\n"
+- "  \r\n"
+- "\r\n"
+- "  \r\n"
+- "    Read more about this day in history  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "  \n"
+- |2
+          Editor's Picks
+- "    \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "        \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "        \n"
+- "      \n"
+- "              \n"
+- "          Which Duck Dynasty character are you?    \n"
+- |2
+             The Robertons return to our screens for a brand new series of explosions, pranks and even a wedding. Take our quiz to find out which of your favoruite Duck Dynasty characters you most resemble.
+- "     \n"
+- "          Play Quiz    \n"
+- "  \n"
+- "      \n"
+- "              \n"
+- "          Top 10 beards in history     \n"
+- |2
+             Some of history's most prominent icons and heroes have sported magnificent beards. We've rounded up ten historically impressive displays of facial hair, check out who made the cut here. 
+- "     \n"
+- "          Find out more     \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- "sas_pageid='35393/377420';\t// Page : AE_History.co.uk/book_club\n"
+- "sas_formatid=10021;\t // Format : MPU 300x250\n"
+- "sas_target='';\t // Targeting\n"
+- |
+  SmartAdServer(sas_pageid,sas_formatid,sas_target);
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "         \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- |2
+      Tweets by @HISTORYUK!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "  \n"
+- |2
+          On Now
+- "    \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "        \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "      \n"
+- "            \n"
+- "                  \n"
+- "            23:00          \n"
+- "                  \n"
+- "            Storage Wars          \n"
+- "                  \n"
+- "            Auction Sesame  17          \n"
+- "              \n"
+- "            \n"
+- "                  \n"
+- "            23:30          \n"
+- "                  \n"
+- "            Storage Wars          \n"
+- "                  \n"
+- "            Stairway To Hemet  18          \n"
+- "              \n"
+- "            \n"
+- "                  \n"
+- "            00:00          \n"
+- "                  \n"
+- "            Pawn Stars          \n"
+- "                  \n"
+- "            Chum Fever (345)          \n"
+- "              \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "       View full TV Schedule >    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "      \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "          \n"
+- "          \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          Decembeard needs you...         ...to grow a beard this December and help us beat bowel cancer.
+- "         Join up      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          Duck Dynasty returns         Your favourite duck loving family is back. Expect more pranks, explosions and even a wedding finale.
+- "         Visit show page       \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          The Curse of Oak Island         The greatest treasure hunt in history continues. Every inch will be uncovered and whatever lies beneath will be unearthed.
+- "         Visit show page      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          Did he escape?         An FBI cold case, kept secret for over 70 years sends an international team of world renown investigators on the ultimate manhunt.
+- "         Find out more      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          Leepu and Pitbull         One is a master mechanic, the other is a brilliant designer and they're both on a mission to turn scrap into muscle car gold.
+- "         Visit show page      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "      \n"
+- "      \n"
+- |2
+          Isuzu         Proud sponsors of motoring on HISTORY. Tune in every Thursday to see exclusive films, showing exhilarating off-roading unlike anything you’ve seen before. 
+- "         Find out more      \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "      \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "    \n"
+- "      \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Visit our other channels
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Lifetime
+- |
+  Crime and Investigation Network
+- |
+  H2
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Keep updated
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Newsletter
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Learn about us
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      About us
+- |
+  Advertise with us
+- |
+  Contact us
+- |
+  Diversity & Inclusion Policy
+- |
+  FAQs
+- |
+  Jobs
+- |
+  Privacy policy
+- |
+  Terms and conditions
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          International links
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Please selectUnited StatesAustraliaBrazilGermanyIsraelJapanLatin AmericaPolandPortugalRomaniaSouth AfricaSouth East AsiaSpain
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "  \n"
+- " \n"
+- "                \n"
+- |2
+            © 2015 AETN UK
+- "          All Rights Reserved.        \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |
+  window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5e800f8710","applicationID":"8141315","transactionName":"YlBUNREHWxUFB0FdWVsadwIXD1oISxRUU1NqWFcPAgFQFDsUVFNTalBOBAATQQM=","queueTime":0,"applicationTime":1172,"atts":"ThdXQ1kdSBs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}The Robertons return to our screens for a brand new series of explosions, pranks and even a wedding. Take our quiz to find out which of your favoruite Duck Dynasty characters you most resemble.Play QuizSome of history's most prominent icons and heroes have sported magnificent beards. We've rounded up ten historically impressive displays of facial hair, check out who made the cut here. Find out more ...to grow a beard this December and help us beat bowel cancer.Join upYour favourite duck loving family is back. Expect more pranks, explosions and even a wedding finale.Visit show page The greatest treasure hunt in history continues. Every inch will be uncovered and whatever lies beneath will be unearthed.Visit show pageAn FBI cold case, kept secret for over 70 years sends an international team of world renown investigators on the ultimate manhunt.Find out moreOne is a master mechanic, the other is a brilliant designer and they're both on a mission to turn scrap into muscle car gold.Visit show pageProud sponsors of motoring on HISTORY. Tune in every Thursday to see exclusive films, showing exhilarating off-roading unlike anything you’ve seen before. Find out more
+- "      \n"
+- "    \n"
+- "      \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Visit our other channels
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Lifetime
+- |
+  Crime and Investigation Network
+- |
+  H2
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Keep updated
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Newsletter
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          Learn about us
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      About us
+- |
+  Advertise with us
+- |
+  Contact us
+- |
+  Diversity & Inclusion Policy
+- |
+  FAQs
+- |
+  Jobs
+- |
+  Privacy policy
+- |
+  Terms and conditions
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- "  \n"
+- |2
+          International links
+- "    \n"
+- "  \n"
+- "  \n"
+- |2
+      Please selectUnited StatesAustraliaBrazilGermanyIsraelJapanLatin AmericaPolandPortugalRomaniaSouth AfricaSouth East AsiaSpain
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "  \n"
+- " \n"
+- "                \n"
+- |2
+            © 2015 AETN UK
+- "          All Rights Reserved.        \n"
+- "      \n"
+- |2
+            © 2015 AETN UK
+- "          All Rights Reserved.        "
+index:
+  sky: !ruby/object:Word
+    word: sky
+    stem: sky
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  virgin: !ruby/object:Word
+    word: virgin
+    stem: virgin
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  hd: !ruby/object:Word
+    word: hd
+    stem: hd
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  talktalk: !ruby/object:Word
+    word: talktalk
+    stem: talktalk
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  toggle: !ruby/object:Word
+    word: toggle
+    stem: toggl
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 9.0
+    docPositions:
+    - 51
+    - 79
+    - 267
+    - 287
+    - 353
+    - 684
+  shows: !ruby/object:Word
+    word: shows
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  decembeard: !ruby/object:Word
+    word: decembeard
+    stem: decembeard
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 447
+  topics: !ruby/object:Word
+    word: topics
+    stem: topic
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  bios: !ruby/object:Word
+    word: bios
+    stem: bio
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  videos: !ruby/object:Word
+    word: videos
+    stem: video
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  club: !ruby/object:Word
+    word: club
+    stem: club
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 5.0
+    docPositions:
+    - 58
+    - 79
+    - 243
+    - 250
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 11.0
+    docPositions:
+    - 58
+    - 243
+    - 250
+    - 286
+    - 287
+    - 491
+    - 557
+    - 684
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 90
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 96
+    - 353
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  searchsearch: !ruby/object:Word
+    word: searchsearch
+    stem: searchsearch
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  homewhat: !ruby/object:Word
+    word: homewhat
+    stem: homewhat
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  onshowsduck: !ruby/object:Word
+    word: onshowsduck
+    stem: onshowsduck
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  dynastyleepu: !ruby/object:Word
+    word: dynastyleepu
+    stem: dynastyleepu
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 19.0
+    docPositions:
+    - 79
+    - 280
+    - 287
+    - 447
+    - 469
+    - 491
+    - 535
+    - 610
+    - 648
+    - 684
+    - 697
+    - 735
+  pitbullthe: !ruby/object:Word
+    word: pitbullthe
+    stem: pitbullth
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  curse: !ruby/object:Word
+    word: curse
+    stem: curs
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 491
+  oak: !ruby/object:Word
+    word: oak
+    stem: oak
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 491
+  islandhunting: !ruby/object:Word
+    word: islandhunting
+    stem: islandhunt
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  hitlershipping: !ruby/object:Word
+    word: hitlershipping
+    stem: hitlership
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  warscounting: !ruby/object:Word
+    word: warscounting
+    stem: warscount
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  carsview: !ruby/object:Word
+    word: carsview
+    stem: carsview
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  alldecembeardjoin: !ruby/object:Word
+    word: alldecembeardjoin
+    stem: alldecembeardjoin
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  uptopicshistory: !ruby/object:Word
+    word: uptopicshistory
+    stem: uptopicshistori
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  biker: !ruby/object:Word
+    word: biker
+    stem: biker
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  gangshistory: !ruby/object:Word
+    word: gangshistory
+    stem: gangshistori
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  tankshistory: !ruby/object:Word
+    word: tankshistory
+    stem: tankshistori
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  londonhistory: !ruby/object:Word
+    word: londonhistory
+    stem: londonhistori
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  americaview: !ruby/object:Word
+    word: americaview
+    stem: americaview
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  allbiosadolf: !ruby/object:Word
+    word: allbiosadolf
+    stem: allbiosadolf
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  hitlereva: !ruby/object:Word
+    word: hitlereva
+    stem: hitlereva
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  braunwinston: !ruby/object:Word
+    word: braunwinston
+    stem: braunwinston
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  churchillanne: !ruby/object:Word
+    word: churchillanne
+    stem: churchillann
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  frankmuhammed: !ruby/object:Word
+    word: frankmuhammed
+    stem: frankmuham
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  aliview: !ruby/object:Word
+    word: aliview
+    stem: aliview
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  allvideosbook: !ruby/object:Word
+    word: allvideosbook
+    stem: allvideosbook
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  clubthis: !ruby/object:Word
+    word: clubthis
+    stem: clubthi
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  historyfacebooktwitter: !ruby/object:Word
+    word: historyfacebooktwitter
+    stem: historyfacebooktwitt
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 3.0
+    docPositions:
+    - 90
+    - 96
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 124
+    - 128
+    - 402
+    - 677
+    - 764
+    - 767
+  panel: !ruby/object:Word
+    word: panel
+    stem: panel
+    docFrequency: 5.0
+    docPositions:
+    - 124
+    - 128
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  outline: !ruby/object:Word
+    word: outline
+    stem: outlin
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  solid: !ruby/object:Word
+    word: solid
+    stem: solid
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  cbcbcb: !ruby/object:Word
+    word: cbcbcb
+    stem: cbcbcb
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  inside: !ruby/object:Word
+    word: inside
+    stem: insid
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 402
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  duck: !ruby/object:Word
+    word: duck
+    stem: duck
+    docFrequency: 8.0
+    docPositions:
+    - 150
+    - 279
+    - 280
+    - 469
+    - 684
+  dynasty: !ruby/object:Word
+    word: dynasty
+    stem: dynasti
+    docFrequency: 6.0
+    docPositions:
+    - 150
+    - 279
+    - 280
+    - 469
+    - 684
+  tuesdays: !ruby/object:Word
+    word: tuesdays
+    stem: tuesdai
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  christmas: !ruby/object:Word
+    word: christmas
+    stem: christma
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 4.0
+    docPositions:
+    - 161
+    - 447
+    - 684
+  wednesdays: !ruby/object:Word
+    word: wednesdays
+    stem: wednesdai
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  mondays: !ruby/object:Word
+    word: mondays
+    stem: mondai
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  amundsen: !ruby/object:Word
+    word: amundsen
+    stem: amundsen
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  reaches: !ruby/object:Word
+    word: reaches
+    stem: reach
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  pole: !ruby/object:Word
+    word: pole
+    stem: pole
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 9.0
+    docPositions:
+    - 250
+    - 289
+    - 469
+    - 514
+    - 558
+    - 684
+  editor: !ruby/object:Word
+    word: editor
+    stem: editor
+    docFrequency: 2.0
+    docPositions:
+    - 267
+  picks: !ruby/object:Word
+    word: picks
+    stem: pick
+    docFrequency: 2.0
+    docPositions:
+    - 267
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 280
+    - 684
+  character: !ruby/object:Word
+    word: character
+    stem: charact
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 7.0
+    docPositions:
+    - 279
+    - 280
+    - 447
+    - 557
+    - 684
+  robertons: !ruby/object:Word
+    word: robertons
+    stem: roberton
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 7.0
+    docPositions:
+    - 280
+    - 605
+    - 684
+    - 692
+  screens: !ruby/object:Word
+    word: screens
+    stem: screen
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  brand: !ruby/object:Word
+    word: brand
+    stem: brand
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  series: !ruby/object:Word
+    word: series
+    stem: seri
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  explosions: !ruby/object:Word
+    word: explosions
+    stem: explos
+    docFrequency: 5.0
+    docPositions:
+    - 280
+    - 469
+    - 684
+  pranks: !ruby/object:Word
+    word: pranks
+    stem: prank
+    docFrequency: 5.0
+    docPositions:
+    - 280
+    - 469
+    - 684
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 5.0
+    docPositions:
+    - 280
+    - 469
+    - 684
+  wedding: !ruby/object:Word
+    word: wedding
+    stem: wed
+    docFrequency: 5.0
+    docPositions:
+    - 280
+    - 469
+    - 684
+  take: !ruby/object:Word
+    word: take
+    stem: take
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  quiz: !ruby/object:Word
+    word: quiz
+    stem: quiz
+    docFrequency: 4.0
+    docPositions:
+    - 280
+    - 282
+    - 684
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 9.0
+    docPositions:
+    - 280
+    - 289
+    - 514
+    - 558
+    - 684
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 11.0
+    docPositions:
+    - 280
+    - 287
+    - 289
+    - 514
+    - 558
+    - 684
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 4.0
+    docPositions:
+    - 280
+    - 469
+    - 684
+  favoruite: !ruby/object:Word
+    word: favoruite
+    stem: favoruit
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  characters: !ruby/object:Word
+    word: characters
+    stem: charact
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 5.0
+    docPositions:
+    - 280
+    - 287
+    - 684
+  resemble: !ruby/object:Word
+    word: resemble
+    stem: resembl
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 684
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 684
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  beards: !ruby/object:Word
+    word: beards
+    stem: beard
+    docFrequency: 4.0
+    docPositions:
+    - 286
+    - 287
+    - 684
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  prominent: !ruby/object:Word
+    word: prominent
+    stem: promin
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  icons: !ruby/object:Word
+    word: icons
+    stem: icon
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  heroes: !ruby/object:Word
+    word: heroes
+    stem: hero
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  sported: !ruby/object:Word
+    word: sported
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  magnificent: !ruby/object:Word
+    word: magnificent
+    stem: magnific
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  ve: !ruby/object:Word
+    word: ve
+    stem: ve
+    docFrequency: 5.0
+    docPositions:
+    - 287
+    - 557
+    - 684
+  rounded: !ruby/object:Word
+    word: rounded
+    stem: round
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 4.0
+    docPositions:
+    - 287
+    - 448
+    - 684
+  ten: !ruby/object:Word
+    word: ten
+    stem: ten
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  historically: !ruby/object:Word
+    word: historically
+    stem: histor
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  impressive: !ruby/object:Word
+    word: impressive
+    stem: impress
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  displays: !ruby/object:Word
+    word: displays
+    stem: displai
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  facial: !ruby/object:Word
+    word: facial
+    stem: facial
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  hair: !ruby/object:Word
+    word: hair
+    stem: hair
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  cut: !ruby/object:Word
+    word: cut
+    stem: cut
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 684
+  sas_pageid: !ruby/object:Word
+    word: sas_pageid
+    stem: sas_pageid
+    docFrequency: 3.0
+    docPositions:
+    - 312
+    - 315
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 6.0
+    docPositions:
+    - 312
+    - 470
+    - 492
+    - 536
+    - 684
+  ae_history: !ruby/object:Word
+    word: ae_history
+    stem: ae_histori
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  uk: !ruby/object:Word
+    word: uk
+    stem: uk
+    docFrequency: 5.0
+    docPositions:
+    - 312
+    - 677
+    - 764
+    - 767
+  book_club: !ruby/object:Word
+    word: book_club
+    stem: book_club
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  sas_formatid: !ruby/object:Word
+    word: sas_formatid
+    stem: sas_formatid
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 315
+  format: !ruby/object:Word
+    word: format
+    stem: format
+    docFrequency: 2.0
+    docPositions:
+    - 313
+  mpu: !ruby/object:Word
+    word: mpu
+    stem: mpu
+    docFrequency: 2.0
+    docPositions:
+    - 313
+  sas_target: !ruby/object:Word
+    word: sas_target
+    stem: sas_target
+    docFrequency: 3.0
+    docPositions:
+    - 314
+    - 315
+  targeting: !ruby/object:Word
+    word: targeting
+    stem: target
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  smartadserver: !ruby/object:Word
+    word: smartadserver
+    stem: smartadserv
+    docFrequency: 2.0
+    docPositions:
+    - 315
+  tweets: !ruby/object:Word
+    word: tweets
+    stem: tweet
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  historyuk: !ruby/object:Word
+    word: historyuk
+    stem: historyuk
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 353
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 353
+  fjs: !ruby/object:Word
+    word: fjs
+    stem: fj
+    docFrequency: 4.0
+    docPositions:
+    - 353
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 353
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  widgets: !ruby/object:Word
+    word: widgets
+    stem: widget
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  wjs: !ruby/object:Word
+    word: wjs
+    stem: wj
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  storage: !ruby/object:Word
+    word: storage
+    stem: storag
+    docFrequency: 3.0
+    docPositions:
+    - 377
+    - 385
+  wars: !ruby/object:Word
+    word: wars
+    stem: war
+    docFrequency: 3.0
+    docPositions:
+    - 377
+    - 385
+  auction: !ruby/object:Word
+    word: auction
+    stem: auction
+    docFrequency: 2.0
+    docPositions:
+    - 379
+  sesame: !ruby/object:Word
+    word: sesame
+    stem: sesam
+    docFrequency: 2.0
+    docPositions:
+    - 379
+  stairway: !ruby/object:Word
+    word: stairway
+    stem: stairwai
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  hemet: !ruby/object:Word
+    word: hemet
+    stem: hemet
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  pawn: !ruby/object:Word
+    word: pawn
+    stem: pawn
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  chum: !ruby/object:Word
+    word: chum
+    stem: chum
+    docFrequency: 2.0
+    docPositions:
+    - 395
+  fever: !ruby/object:Word
+    word: fever
+    stem: fever
+    docFrequency: 2.0
+    docPositions:
+    - 395
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  schedule: !ruby/object:Word
+    word: schedule
+    stem: schedul
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  needs: !ruby/object:Word
+    word: needs
+    stem: need
+    docFrequency: 2.0
+    docPositions:
+    - 447
+  grow: !ruby/object:Word
+    word: grow
+    stem: grow
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  beard: !ruby/object:Word
+    word: beard
+    stem: beard
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 11.0
+    docPositions:
+    - 447
+    - 637
+    - 641
+    - 642
+    - 643
+    - 684
+    - 724
+    - 728
+    - 729
+    - 730
+  beat: !ruby/object:Word
+    word: beat
+    stem: beat
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  bowel: !ruby/object:Word
+    word: bowel
+    stem: bowel
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  cancer: !ruby/object:Word
+    word: cancer
+    stem: cancer
+    docFrequency: 3.0
+    docPositions:
+    - 447
+    - 684
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 448
+    - 684
+  returns: !ruby/object:Word
+    word: returns
+    stem: return
+    docFrequency: 2.0
+    docPositions:
+    - 469
+  favourite: !ruby/object:Word
+    word: favourite
+    stem: favourit
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  loving: !ruby/object:Word
+    word: loving
+    stem: love
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  expect: !ruby/object:Word
+    word: expect
+    stem: expect
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  finale: !ruby/object:Word
+    word: finale
+    stem: final
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 684
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 9.0
+    docPositions:
+    - 470
+    - 492
+    - 536
+    - 605
+    - 684
+    - 692
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 7.0
+    docPositions:
+    - 470
+    - 492
+    - 536
+    - 684
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  greatest: !ruby/object:Word
+    word: greatest
+    stem: greatest
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  treasure: !ruby/object:Word
+    word: treasure
+    stem: treasur
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  hunt: !ruby/object:Word
+    word: hunt
+    stem: hunt
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  continues: !ruby/object:Word
+    word: continues
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 5.0
+    docPositions:
+    - 491
+    - 557
+    - 684
+  inch: !ruby/object:Word
+    word: inch
+    stem: inch
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  uncovered: !ruby/object:Word
+    word: uncovered
+    stem: uncov
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  whatever: !ruby/object:Word
+    word: whatever
+    stem: whatev
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  lies: !ruby/object:Word
+    word: lies
+    stem: li
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  beneath: !ruby/object:Word
+    word: beneath
+    stem: beneath
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  unearthed: !ruby/object:Word
+    word: unearthed
+    stem: unearth
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 684
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 2.0
+    docPositions:
+    - 513
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 2.0
+    docPositions:
+    - 513
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 2.0
+    docPositions:
+    - 513
+  fbi: !ruby/object:Word
+    word: fbi
+    stem: fbi
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  cold: !ruby/object:Word
+    word: cold
+    stem: cold
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  kept: !ruby/object:Word
+    word: kept
+    stem: kept
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  secret: !ruby/object:Word
+    word: secret
+    stem: secret
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  sends: !ruby/object:Word
+    word: sends
+    stem: send
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 5.0
+    docPositions:
+    - 513
+    - 659
+    - 684
+    - 746
+  team: !ruby/object:Word
+    word: team
+    stem: team
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  renown: !ruby/object:Word
+    word: renown
+    stem: renown
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  investigators: !ruby/object:Word
+    word: investigators
+    stem: investig
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  ultimate: !ruby/object:Word
+    word: ultimate
+    stem: ultim
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  manhunt: !ruby/object:Word
+    word: manhunt
+    stem: manhunt
+    docFrequency: 3.0
+    docPositions:
+    - 513
+    - 684
+  leepu: !ruby/object:Word
+    word: leepu
+    stem: leepu
+    docFrequency: 2.0
+    docPositions:
+    - 535
+  pitbull: !ruby/object:Word
+    word: pitbull
+    stem: pitbul
+    docFrequency: 2.0
+    docPositions:
+    - 535
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 2.0
+    docPositions:
+    - 535
+  master: !ruby/object:Word
+    word: master
+    stem: master
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  mechanic: !ruby/object:Word
+    word: mechanic
+    stem: mechan
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 5.0
+    docPositions:
+    - 535
+    - 605
+    - 684
+    - 692
+  brilliant: !ruby/object:Word
+    word: brilliant
+    stem: brilliant
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  designer: !ruby/object:Word
+    word: designer
+    stem: design
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  mission: !ruby/object:Word
+    word: mission
+    stem: mission
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  turn: !ruby/object:Word
+    word: turn
+    stem: turn
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  scrap: !ruby/object:Word
+    word: scrap
+    stem: scrap
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  muscle: !ruby/object:Word
+    word: muscle
+    stem: muscl
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  car: !ruby/object:Word
+    word: car
+    stem: car
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  gold: !ruby/object:Word
+    word: gold
+    stem: gold
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 684
+  isuzu: !ruby/object:Word
+    word: isuzu
+    stem: isuzu
+    docFrequency: 2.0
+    docPositions:
+    - 557
+  proud: !ruby/object:Word
+    word: proud
+    stem: proud
+    docFrequency: 2.0
+    docPositions:
+    - 557
+  sponsors: !ruby/object:Word
+    word: sponsors
+    stem: sponsor
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  motoring: !ruby/object:Word
+    word: motoring
+    stem: motor
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  tune: !ruby/object:Word
+    word: tune
+    stem: tune
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  thursday: !ruby/object:Word
+    word: thursday
+    stem: thursdai
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  exclusive: !ruby/object:Word
+    word: exclusive
+    stem: exclus
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  films: !ruby/object:Word
+    word: films
+    stem: film
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  showing: !ruby/object:Word
+    word: showing
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  exhilarating: !ruby/object:Word
+    word: exhilarating
+    stem: exhilar
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  roading: !ruby/object:Word
+    word: roading
+    stem: road
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  unlike: !ruby/object:Word
+    word: unlike
+    stem: unlik
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  seen: !ruby/object:Word
+    word: seen
+    stem: seen
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 684
+  channels: !ruby/object:Word
+    word: channels
+    stem: channel
+    docFrequency: 3.0
+    docPositions:
+    - 605
+    - 692
+  lifetime: !ruby/object:Word
+    word: lifetime
+    stem: lifetim
+    docFrequency: 3.0
+    docPositions:
+    - 609
+    - 696
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 3.0
+    docPositions:
+    - 610
+    - 697
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 3.0
+    docPositions:
+    - 610
+    - 697
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 610
+    - 697
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 3.0
+    docPositions:
+    - 622
+    - 709
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 3.0
+    docPositions:
+    - 622
+    - 709
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 626
+    - 713
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 637
+    - 724
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 642
+    - 729
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 643
+    - 730
+  diversity: !ruby/object:Word
+    word: diversity
+    stem: divers
+    docFrequency: 3.0
+    docPositions:
+    - 644
+    - 731
+  inclusion: !ruby/object:Word
+    word: inclusion
+    stem: inclus
+    docFrequency: 3.0
+    docPositions:
+    - 644
+    - 731
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 5.0
+    docPositions:
+    - 644
+    - 647
+    - 731
+    - 734
+  faqs: !ruby/object:Word
+    word: faqs
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 645
+    - 732
+  jobs: !ruby/object:Word
+    word: jobs
+    stem: job
+    docFrequency: 3.0
+    docPositions:
+    - 646
+    - 733
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 647
+    - 734
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 648
+    - 735
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 3.0
+    docPositions:
+    - 648
+    - 735
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 659
+    - 746
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  selectunited: !ruby/object:Word
+    word: selectunited
+    stem: selectunit
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  statesaustraliabrazilgermanyisraeljapanlatin: !ruby/object:Word
+    word: statesaustraliabrazilgermanyisraeljapanlatin
+    stem: statesaustraliabrazilgermanyisraeljapanlatin
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  americapolandportugalromaniasouth: !ruby/object:Word
+    word: americapolandportugalromaniasouth
+    stem: americapolandportugalromaniasouth
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  africasouth: !ruby/object:Word
+    word: africasouth
+    stem: africasouth
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  east: !ruby/object:Word
+    word: east
+    stem: east
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  asiaspain: !ruby/object:Word
+    word: asiaspain
+    stem: asiaspain
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 750
+  aetn: !ruby/object:Word
+    word: aetn
+    stem: aetn
+    docFrequency: 4.0
+    docPositions:
+    - 677
+    - 764
+    - 767
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 678
+    - 765
+    - 768
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 678
+    - 765
+    - 768
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 4.0
+    docPositions:
+    - 678
+    - 765
+    - 768
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  nreum: !ruby/object:Word
+    word: nreum
+    stem: nreum
+    docFrequency: 4.0
+    docPositions:
+    - 684
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  bam: !ruby/object:Word
+    word: bam
+    stem: bam
+    docFrequency: 3.0
+    docPositions:
+    - 684
+  nr: !ruby/object:Word
+    word: nr
+    stem: nr
+    docFrequency: 4.0
+    docPositions:
+    - 684
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 684
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 3.0
+    docPositions:
+    - 684
+  licensekey: !ruby/object:Word
+    word: licensekey
+    stem: licensekei
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  applicationid: !ruby/object:Word
+    word: applicationid
+    stem: applicationid
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  transactionname: !ruby/object:Word
+    word: transactionname
+    stem: transactionnam
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  queuetime: !ruby/object:Word
+    word: queuetime
+    stem: queuetim
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  applicationtime: !ruby/object:Word
+    word: applicationtime
+    stem: applicationtim
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  atts: !ruby/object:Word
+    word: atts
+    stem: att
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  errorbeacon: !ruby/object:Word
+    word: errorbeacon
+    stem: errorbeacon
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  agent: !ruby/object:Word
+    word: agent
+    stem: agent
+    docFrequency: 3.0
+    docPositions:
+    - 684
+  newrelic: !ruby/object:Word
+    word: newrelic
+    stem: newrel
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  quizsome: !ruby/object:Word
+    word: quizsome
+    stem: quizsom
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  upyour: !ruby/object:Word
+    word: upyour
+    stem: upyour
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  pagean: !ruby/object:Word
+    word: pagean
+    stem: pagean
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  moreone: !ruby/object:Word
+    word: moreone
+    stem: moreon
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  pageproud: !ruby/object:Word
+    word: pageproud
+    stem: pageproud
+    docFrequency: 2.0
+    docPositions:
+    - 684
+lineCount: 769
+wordCount: 811
+rank: 0.26111111111111107
+title: The Official Home of HISTORY | Shows, Videos and Articles
+links:
+- http://www.history.co.uk/shows/decembeard/articles
+- https://www.facebook.com/HISTORYUK/
+- https://twitter.com/HISTORYUK
+- http://www.history.co.uk/shows/decembeard/articles
+- http://www.decembeard.org
+- https://www.facebook.com/HISTORYUK/
+- https://twitter.com/HISTORYUK
+- http://www.facebook.com/sharer.php?u=http://www.history.co.uk
+- http://twitter.com/intent/tweet?text=http://www.history.co.uk&url=node/&via=HISTORYUK
+- http://www.history.co.uk/shows/duck-dynasty
+- http://www.history.co.uk/shows/storage-wars/episode-guide/storage-wars-christmas-special
+- http://www.history.co.uk/shows/the-curse-of-oak-island
+- http://www.decembeard.org
+- http://www.history.co.uk/shows/hunting-hitler
+- http://www.history.co.uk/isuzu-sponsor-motoring-on-history
+- 'http://www.history.co.uk/shows/duck-dynasty/articles/which-duck-dynasty-character-are-you '
+- http://www.history.co.uk/shows/duck-dynasty/articles/which-duck-dynasty-character-are-you
+- http://www.history.co.uk/shows/duck-dynasty/articles/which-duck-dynasty-character-are-you
+- 'http://www.history.co.uk/shows/decembeard/articles/top-10-beards-in-history '
+- http://www.history.co.uk/shows/decembeard/articles/top-10-beards-in-history
+- http://www.history.co.uk/shows/decembeard/articles/top-10-beards-in-history
+- http://www4.smartadserver.com/call/pubjumpi/35393/377420/10021/S/[timestamp]/?
+- https://twitter.com/HISTORYUK
+- http://www.decembeard.org
+- http://www.decembeard.org
+- http://www.decembeard.org
+- http://www.history.co.uk/shows/duck-dynasty
+- http://www.history.co.uk/shows/duck-dynasty
+- http://www.history.co.uk/shows/duck-dynasty
+- http://www.history.co.uk/shows/the-curse-of-oak-island
+- http://www.history.co.uk/shows/the-curse-of-oak-island
+- http://www.history.co.uk/shows/the-curse-of-oak-island
+- http://www.history.co.uk/shows/hunting-hitler
+- http://www.history.co.uk/shows/hunting-hitler
+- http://www.history.co.uk/shows/hunting-hitler
+- http://www.history.co.uk/shows/leepu-and-pitbull
+- http://www.history.co.uk/shows/leepu-and-pitbull
+- http://www.history.co.uk/shows/leepu-and-pitbull
+- http://www.history.co.uk//content/isuzu-sponsor-motoring-on-history
+- http://www.history.co.uk//content/isuzu-sponsor-motoring-on-history
+- http://www.history.co.uk//content/isuzu-sponsor-motoring-on-history
+- http://www.lifetimetv.co.uk/
+- http://www.crimeandinvestigation.co.uk/
+- http://www.history.co.uk/h2
+- http://www.history.co.uk/newsletter.html
+- https://aetnuk.irecruittotal.com/cac/home.aspx
+- http://www.aetn.co.uk
+rawText: "\n\n\n\n\n  \n    \n      \n        \n                      \n              \n
+  \               \n            \n          \n          \n              Sky 529Sky
+  530 (+1)Virgin 270Virgin 271 (+1)BT 327BT 379 (HD)TalkTalk 327\n\n        \n\n        \n\n
+  \                 \n\n        \n\n          \n          \n            \n              Toggle
+  navigation\n              \n              \n              \n            \n\n          \n\n
+  \       \n\n      \n\n      \n\n      \n      \n\n        \n\n          \n          \n\n
+  \             Home\nWhat's On\nShows\nDecembeard\nTopics\nBios\nVideos\nBook Club\nThis
+  Day in History\nFacebook\nTwitter\n\n            \n          \n\n      \n\n      \n
+  \         \n\n            \n              \n    \n      \n      Search form\n    SearchSearch\n\n
+  \   \n  \n      HomeWhat's OnShowsDuck DynastyLeepu and PitbullThe Curse of Oak
+  IslandHunting HitlerShipping WarsCounting CarsView AllDecembeardJoin upTopicsHistory
+  of WW2History of Biker GangsHistory of TanksHIstory of LondonHistory of AmericaView
+  AllBiosAdolf HItlerEva BraunWinston ChurchillAnne FrankMuhammed AliView AllVideosBook
+  ClubThis Day in HistoryFacebookTwitter\n  \n \n                \n                              \n
+  \     \n\n    \n    \r\n\r\n  \r\n   Share on Facebook  \r\n  \r\n\r\n    \r\n  \r\n
+  \ \r\n    Share on Twitter  \r\n  \r\n  \r\n\r\n  \r\n  \r\n  \r\n    Email this
+  article  \r\n  \r\n\n\n\n\n\n\n  \n\n    \n      \n        \n\n    \n      \n  \n
+  \     \n  \n  \n    \n.panel-info1, .panel-info2, .panel-info3 {\nbackground:none;\noutline:
+  1px solid #cbcbcb;\n}\n.panel-info3 .inside .view-footer {\n    margin-bottom: 0;\n}\n\n\n
+  \ \n  \n\n  \n      \n  \n  \n    \n        \n  \n  \n      \n      \n  \n\n  \n
+  \   \n      Duck Dynasty: Tuesdays 10pm  \n\n\n\n\n\n\n\n\n  \n    \n      Christmas
+  Special: 15 December 9pm   \n\n\n\n\n\n\n\n\n  \n    \n      Wednesdays 10pm  \n\n\n\n\n\n\n\n\n
+  \ \n    \n        \n\n\n\n\n\n\n\n\n  \n    \n      Mondays 10pm  \n\n\n\n\n\n\n\n\n
+  \ \n    \n        \n\n\n\n\n\n\n\n    \n  \n  \n  \n  \n  \n  \n  \n\n  \n  \n\n
+  \   \n\n    \n      \n  \n      \n  \n  \n    \r\n\r\n  \r\n      \r\n        Dec 1911
+  \     \r\n      \r\n        14      \r\n  \r\n  \r\n  \r\n    On this day in history\r\n
+  \   \r\n      Amundsen reaches South Pole\r\n    \r\n  \r\n\r\n  \r\n    Read more
+  about this day in history  \r\n\r\n\r\n\r\n\r\n  \n\n  \n  \n\n    \n    \n    \n\n
+  \     \n        \n  \n        Editor's Picks\n    \n  \n  \n    \n        \n  \n
+  \ \n      \n        \n      \n              \n          Which Duck Dynasty character
+  are you?    \n           The Robertons return to our screens for a brand new series
+  of explosions, pranks and even a wedding. Take our quiz to find out which of your
+  favoruite Duck Dynasty characters you most resemble.\n     \n          Play Quiz
+  \   \n  \n      \n              \n          Top 10 beards in history     \n           Some
+  of history's most prominent icons and heroes have sported magnificent beards. We've
+  rounded up ten historically impressive displays of facial hair, check out who made
+  the cut here. \n     \n          Find out more     \n    \n  \n  \n  \n  \n  \n
+  \ \n  \n\n  \n  \n\n      \n\n      \n        \n  \n      \n  \n  \n    \n\nsas_pageid='35393/377420';\t//
+  Page : AE_History.co.uk/book_club\nsas_formatid=10021;\t // Format : MPU 300x250\nsas_target='';\t
+  // Targeting\nSmartAdServer(sas_pageid,sas_formatid,sas_target);\n\n\n\n\n\n  \n\n
+  \ \n  \n\n      \n\n    \n\n\n    \n    \n      \n      \n        \n  \n      \n
+  \ \n  \n         \n\n  \n  \n\n      \n\n      \n        \n  \n      \n  \n  \n
+  \   Tweets by @HISTORYUK!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");\n\n
+  \ \n  \n\n      \n\n      \n        \n  \n        On Now\n    \n  \n  \n    \n        \n
+  \ \n  \n      \n      \n            \n                  \n            23:00          \n
+  \                 \n            Storage Wars          \n                  \n            Auction
+  Sesame  17          \n              \n            \n                  \n            23:30
+  \         \n                  \n            Storage Wars          \n                  \n
+  \           Stairway To Hemet  18          \n              \n            \n                  \n
+  \           00:00          \n                  \n            Pawn Stars          \n
+  \                 \n            Chum Fever (345)          \n              \n  \n
+  \ \n  \n  \n      \n       View full TV Schedule >    \n  \n  \n  \n\n  \n  \n\n
+  \     \n\n    \n\n    \n    \n    \n      \n  \n      \n  \n  \n    \n\n\n\n\n        \n
+  \ \n  \n\n  \n          \n          \n    \n\n\n\n\n\n\n  \n\n    \n\n      \n      \n
+  \       Decembeard needs you...         ...to grow a beard this December and help
+  us beat bowel cancer.\n         Join up      \n\n    \n\n  \n\n  \n  \n    \n\n\n\n\n\n\n
+  \ \n\n    \n\n      \n      \n        Duck Dynasty returns         Your favourite
+  duck loving family is back. Expect more pranks, explosions and even a wedding finale.\n
+  \        Visit show page       \n\n    \n\n  \n\n  \n  \n    \n\n\n\n\n\n\n  \n\n
+  \   \n\n      \n      \n        The Curse of Oak Island         The greatest treasure
+  hunt in history continues. Every inch will be uncovered and whatever lies beneath
+  will be unearthed.\n         Visit show page      \n\n    \n\n  \n\n  \n  \n    \n\n\n\n\n\n\n
+  \ \n\n    \n\n      \n      \n        Did he escape?         An FBI cold case, kept
+  secret for over 70 years sends an international team of world renown investigators
+  on the ultimate manhunt.\n         Find out more      \n\n    \n\n  \n\n  \n  \n
+  \   \n\n\n\n\n\n\n  \n\n    \n\n      \n      \n        Leepu and Pitbull         One
+  is a master mechanic, the other is a brilliant designer and they're both on a mission
+  to turn scrap into muscle car gold.\n         Visit show page      \n\n    \n\n
+  \ \n\n  \n  \n    \n\n\n\n\n\n\n  \n\n    \n\n      \n      \n        Isuzu         Proud
+  sponsors of motoring on HISTORY. Tune in every Thursday to see exclusive films,
+  showing exhilarating off-roading unlike anything you’ve seen before. \n         Find
+  out more      \n\n    \n\n  \n\n  \n      \n      \n\n\n\n  \n  \n  \n  \n  \n  \n\n
+  \ \n  \n\n    \n\n    \n\n        \n      \n    \n  \n\n\n\n  \n      \n\n\n\n  \n
+  \   \n      \n    \n      \n\n    \n      \n  \n        Visit our other channels\n
+  \   \n  \n  \n    Lifetime\nCrime and Investigation Network\nH2\n\n\n  \n  \n\n
+  \   \n\n    \n      \n  \n        Keep updated\n    \n  \n  \n    Newsletter\n\n\n
+  \ \n  \n\n    \n\n    \n      \n  \n        Learn about us\n    \n  \n  \n    About
+  us\nAdvertise with us\nContact us\nDiversity & Inclusion Policy\nFAQs\nJobs\nPrivacy
+  policy\nTerms and conditions\n\n\n  \n  \n\n    \n\n    \n      \n  \n        International
+  links\n    \n  \n  \n    Please selectUnited StatesAustraliaBrazilGermanyIsraelJapanLatin
+  AmericaPolandPortugalRomaniaSouth AfricaSouth East AsiaSpain\n\n  \n  \n\n    \n\n
+  \   \n\n\n    \n  \n \n                \n          © 2015 AETN UK\n          All
+  Rights Reserved.        \n      \n\n\n\n    \nwindow.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"5e800f8710\",\"applicationID\":\"8141315\",\"transactionName\":\"YlBUNREHWxUFB0FdWVsadwIXD1oISxRUU1NqWFcPAgFQFDsUVFNTalBOBAATQQM=\",\"queueTime\":0,\"applicationTime\":1172,\"atts\":\"ThdXQ1kdSBs=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"js-agent.newrelic.com\\/nr-686.min.js\"}The
+  Robertons return to our screens for a brand new series of explosions, pranks and
+  even a wedding. Take our quiz to find out which of your favoruite Duck Dynasty characters
+  you most resemble.Play QuizSome of history's most prominent icons and heroes have
+  sported magnificent beards. We've rounded up ten historically impressive displays
+  of facial hair, check out who made the cut here. Find out more ...to grow a beard
+  this December and help us beat bowel cancer.Join upYour favourite duck loving family is
+  back. Expect more pranks, explosions and even a wedding finale.Visit show page The
+  greatest treasure hunt in history continues. Every inch will be uncovered and whatever lies
+  beneath will be unearthed.Visit show pageAn FBI cold case, kept secret for over
+  70 years sends an international team of world renown investigators on the ultimate
+  manhunt.Find out moreOne is a master mechanic, the other is a brilliant designer
+  and they're both on a mission to turn scrap into muscle car gold.Visit show pageProud
+  sponsors of motoring on HISTORY. Tune in every Thursday to see exclusive films,
+  showing exhilarating off-roading unlike anything you’ve seen before. Find out more\n
+  \     \n    \n      \n\n    \n      \n  \n        Visit our other channels\n    \n
+  \ \n  \n    Lifetime\nCrime and Investigation Network\nH2\n\n\n  \n  \n\n    \n\n
+  \   \n      \n  \n        Keep updated\n    \n  \n  \n    Newsletter\n\n\n  \n  \n\n
+  \   \n\n    \n      \n  \n        Learn about us\n    \n  \n  \n    About us\nAdvertise
+  with us\nContact us\nDiversity & Inclusion Policy\nFAQs\nJobs\nPrivacy policy\nTerms
+  and conditions\n\n\n  \n  \n\n    \n\n    \n      \n  \n        International links\n
+  \   \n  \n  \n    Please selectUnited StatesAustraliaBrazilGermanyIsraelJapanLatin
+  AmericaPolandPortugalRomaniaSouth AfricaSouth East AsiaSpain\n\n  \n  \n\n    \n\n
+  \   \n\n\n    \n  \n \n                \n          © 2015 AETN UK\n          All
+  Rights Reserved.        \n      \n          © 2015 AETN UK\n          All Rights
+  Reserved.        "

@@ -1,0 +1,453 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://groups.google.com/forum/#!forum/cz-open-forum
+inboundLinks: []
+lines:
+- |
+  To use Google Groups Discussions, please enable JavaScript in your browser settings, and then refresh this page.plaintext{display:none}
+- |2
+       (function(){
+- |2
+      try{
+- |2
+          var win=this;
+- |2
+          while("<plaintext>"){
+- |2
+             if(win.parent==win)
+- |2
+                break;
+- |2
+             win.frameElement.src.substr(0,1);
+- |2
+             win=win.parent;
+- |2
+          }
+- |2
+          if(win.frameElement!=null)throw 'busted';
+- |2
+          document.write("\x3Cxmp style\x3Ddisplay:none\x3E");
+- |2
+      }catch(e){
+- |2
+          try{
+- |2
+              if(!open(location,'_top'))
+- |2
+                 alert('This content cannot be framed.');
+- |2
+         top.location=location;
+- |2
+          }catch(e){}
+- |2
+      }
+- |2
+      })();
+- |2
+    .Search Images Maps Play YouTube News Gmail Drive More »Help | Report an issue about Google Groups | Keyboard shortcuts | Sign in
+index:
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 0
+    - 20
+  groups: !ruby/object:Word
+    word: groups
+    stem: group
+    docFrequency: 3.0
+    docPositions:
+    - 0
+    - 20
+  discussions: !ruby/object:Word
+    word: discussions
+    stem: discuss
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  enable: !ruby/object:Word
+    word: enable
+    stem: enabl
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  settings: !ruby/object:Word
+    word: settings
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  refresh: !ruby/object:Word
+    word: refresh
+    stem: refresh
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  plaintext: !ruby/object:Word
+    word: plaintext
+    stem: plaintext
+    docFrequency: 3.0
+    docPositions:
+    - 0
+    - 4
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 3.0
+    docPositions:
+    - 0
+    - 11
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 12
+    - 17
+    - 20
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 13
+  win: !ruby/object:Word
+    word: win
+    stem: win
+    docFrequency: 8.0
+    docPositions:
+    - 3
+    - 5
+    - 7
+    - 8
+    - 10
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 10
+    - 14
+  parent: !ruby/object:Word
+    word: parent
+    stem: parent
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 8
+  break: !ruby/object:Word
+    word: break
+    stem: break
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  frameelement: !ruby/object:Word
+    word: frameelement
+    stem: frameel
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 10
+  substr: !ruby/object:Word
+    word: substr
+    stem: substr
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  throw: !ruby/object:Word
+    word: throw
+    stem: throw
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  busted: !ruby/object:Word
+    word: busted
+    stem: bust
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 17
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 17
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 16
+  _top: !ruby/object:Word
+    word: _top
+    stem: _top
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  alert: !ruby/object:Word
+    word: alert
+    stem: alert
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  cannot: !ruby/object:Word
+    word: cannot
+    stem: cannot
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  framed: !ruby/object:Word
+    word: framed
+    stem: frame
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  gmail: !ruby/object:Word
+    word: gmail
+    stem: gmail
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  drive: !ruby/object:Word
+    word: drive
+    stem: drive
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  keyboard: !ruby/object:Word
+    word: keyboard
+    stem: keyboard
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  shortcuts: !ruby/object:Word
+    word: shortcuts
+    stem: shortcut
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 20
+lineCount: 21
+wordCount: 96
+rank: 0.3203947160190273
+title: Google Groups
+links:
+- https://www.google.com/webhp?tab=gw
+- http://www.google.com/imghp?hl=en&tab=gi
+- https://maps.google.com/maps?hl=en&tab=gl
+- https://play.google.com/?hl=en&tab=g8
+- https://www.youtube.com/?tab=g1
+- https://news.google.com/nwshp?hl=en&tab=gn
+- https://mail.google.com/mail/?tab=gm
+- https://drive.google.com/?tab=go
+- https://www.google.com/intl/en/options/
+- http://support.google.com/groups/bin/answer.py?answer=46601
+- https://www.google.com/a/UniversalLogin?continue=https://groups.google.com/forum/&hl=en&service=groups2&hd=default
+rawText: |
+  To use Google Groups Discussions, please enable JavaScript in your browser settings, and then refresh this page.plaintext{display:none}
+       (function(){
+      try{
+          var win=this;
+          while("<plaintext>"){
+             if(win.parent==win)
+                break;
+             win.frameElement.src.substr(0,1);
+             win=win.parent;
+          }
+          if(win.frameElement!=null)throw 'busted';
+          document.write("\x3Cxmp style\x3Ddisplay:none\x3E");
+      }catch(e){
+          try{
+              if(!open(location,'_top'))
+                 alert('This content cannot be framed.');
+         top.location=location;
+          }catch(e){}
+      }
+      })();
+    .Search Images Maps Play YouTube News Gmail Drive More »Help | Report an issue about Google Groups | Keyboard shortcuts | Sign in

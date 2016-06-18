@@ -1,0 +1,3277 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID top already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-xlq8a6"
+    line: 72
+    str1: top
+    str2: top
+    str3: 
+    int1: 0
+    column: 23
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID notes already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-xlq8a6"
+    line: 442
+    str1: notes
+    str2: notes
+    str3: 
+    int1: 0
+    column: 22
+address: http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/weorept.aspx?pr.x=23&pr.y=9&sy=2014&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=512%2C668%2C914%2C672%2C612%2C946%2C614%2C137%2C311%2C962%2C213%2C674%2C911%2C676%2C193%2C548%2C122%2C556%2C912%2C678%2C313%2C181%2C419%2C867%2C513%2C682%2C316%2C684%2C913%2C273%2C124%2C868%2C339%2C921%2C638%2C948%2C514%2C943%2C218%2C686%2C963%2C688%2C616%2C518%2C223%2C728%2C516%2C558%2C918%2C138%2C748%2C196%2C618%2C278%2C624%2C692%2C522%2C694%2C622%2C142%2C156%2C449%2C626%2C564%2C628%2C565%2C228%2C283%2C924%2C853%2C233%2C288%2C632%2C293%2C636%2C566%2C634%2C964%2C238%2C182%2C662%2C453%2C960%2C968%2C423%2C922%2C935%2C714%2C128%2C862%2C611%2C135%2C321%2C716%2C243%2C456%2C248%2C722%2C469%2C942%2C253%2C718%2C642%2C724%2C643%2C576%2C939%2C936%2C644%2C961%2C819%2C813%2C172%2C199%2C132%2C733%2C646%2C184%2C648%2C524%2C915%2C361%2C134%2C362%2C652%2C364%2C174%2C732%2C328%2C366%2C258%2C734%2C656%2C144%2C654%2C146%2C336%2C463%2C263%2C528%2C268%2C923%2C532%2C738%2C944%2C578%2C176%2C537%2C534%2C742%2C536%2C866%2C429%2C369%2C433%2C744%2C178%2C186%2C436%2C925%2C136%2C869%2C343%2C746%2C158%2C926%2C439%2C466%2C916%2C112%2C664%2C111%2C826%2C298%2C542%2C927%2C967%2C846%2C443%2C299%2C917%2C582%2C544%2C474%2C941%2C754%2C446%2C698%2C666&s=NGDPD&grp=0&a=
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\tWhat's New\r\n"
+- "\t\t\tSite Map\r\n"
+- "\t\t\tSite Index\r\n"
+- "\t\t\tContact Us\r\n"
+- "\t\t\tGlossary\r\n"
+- "\t\t\r\n"
+- "\t\t\tSearch\r\n"
+- "\t\t\t\tSearch IMF\r\n"
+- "\t\t\t\tEntire Site \r\n"
+- "\t\t\t\tIMF Survey Magazine\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\tHome\r\n"
+- "\t\t\tAbout the IMF\r\n"
+- "\t\t\tResearch\r\n"
+- "\t\t\tCountry Info\r\n"
+- "\t\t\tNews\r\n"
+- "\t\t\tVideos\r\n"
+- "\t\t\tData and Statistics\r\n"
+- "\t\t\tPublications\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "World Economic Outlook Database, April 2015\r\n"
+- "  \r\n"
+- "  \r\n"
+- "     Step 5 of 5\r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "\t  \r\n"
+- "   \r\n"
+- "\t  \r\n"
+- " \r\n"
+- " \r\n"
+- "  \r\n"
+- "      \r\n"
+- "      5. Report for Selected Countries and Subjects \r\n"
+- "      \r\n"
+- "    \r\n"
+- "  \r\n"
+- "      You will find notes on the data and options to download the table below your
+  results.\r\n"
+- "    \r\n"
+- "  \r\n"
+- "       Shaded cells indicate IMF staff estimatesCountrySubject DescriptorUnitsScaleCountry/Series-specific
+  Notes2014AfghanistanGross domestic product, current pricesU.S. dollarsBillions20.312AlbaniaGross
+  domestic product, current pricesU.S. dollarsBillions13.262AlgeriaGross domestic
+  product, current pricesU.S. dollarsBillions214.080AngolaGross domestic product,
+  current pricesU.S. dollarsBillions128.564Antigua and BarbudaGross domestic product,
+  current pricesU.S. dollarsBillions1.242ArgentinaGross domestic product, current
+  pricesU.S. dollarsBillions540.164ArmeniaGross domestic product, current pricesU.S.
+  dollarsBillions10.279AustraliaGross domestic product, current pricesU.S. dollarsBillions1,444.189AustriaGross
+  domestic product, current pricesU.S. dollarsBillions437.123AzerbaijanGross domestic
+  product, current pricesU.S. dollarsBillions74.145The BahamasGross domestic product,
+  current pricesU.S. dollarsBillions8.657BahrainGross domestic product, current pricesU.S.
+  dollarsBillions33.862BangladeshGross domestic product, current pricesU.S. dollarsBillions185.415BarbadosGross
+  domestic product, current pricesU.S. dollarsBillions4.348BelarusGross domestic product,
+  current pricesU.S. dollarsBillions76.139BelgiumGross domestic product, current pricesU.S.
+  dollarsBillions534.672BelizeGross domestic product, current pricesU.S. dollarsBillions1.693BeninGross
+  domestic product, current pricesU.S. dollarsBillions8.701BhutanGross domestic product,
+  current pricesU.S. dollarsBillions2.092BoliviaGross domestic product, current pricesU.S.
+  dollarsBillions34.425Bosnia and HerzegovinaGross domestic product, current pricesU.S.
+  dollarsBillions17.977BotswanaGross domestic product, current pricesU.S. dollarsBillions15.789BrazilGross
+  domestic product, current pricesU.S. dollarsBillions2,353.025Brunei DarussalamGross
+  domestic product, current pricesU.S. dollarsBillions15.102BulgariaGross domestic
+  product, current pricesU.S. dollarsBillions55.837Burkina FasoGross domestic product,
+  current pricesU.S. dollarsBillions12.503BurundiGross domestic product, current pricesU.S.
+  dollarsBillions3.094Cabo VerdeGross domestic product, current pricesU.S. dollarsBillions1.899CambodiaGross
+  domestic product, current pricesU.S. dollarsBillions16.551CameroonGross domestic
+  product, current pricesU.S. dollarsBillions31.669CanadaGross domestic product, current
+  pricesU.S. dollarsBillions1,788.717Central African RepublicGross domestic product,
+  current pricesU.S. dollarsBillions1.786ChadGross domestic product, current pricesU.S.
+  dollarsBillions13.947ChileGross domestic product, current pricesU.S. dollarsBillions257.968ChinaGross
+  domestic product, current pricesU.S. dollarsBillions10,380.380ColombiaGross domestic
+  product, current pricesU.S. dollarsBillions384.901ComorosGross domestic product,
+  current pricesU.S. dollarsBillions0.717Democratic Republic of the CongoGross domestic
+  product, current pricesU.S. dollarsBillions34.677Republic of CongoGross domestic
+  product, current pricesU.S. dollarsBillions13.502Costa RicaGross domestic product,
+  current pricesU.S. dollarsBillions48.144CÃ´te d'IvoireGross domestic product, current
+  pricesU.S. dollarsBillions33.956CroatiaGross domestic product, current pricesU.S.
+  dollarsBillions57.159CyprusGross domestic product, current pricesU.S. dollarsBillions23.269Czech
+  RepublicGross domestic product, current pricesU.S. dollarsBillions205.658DenmarkGross
+  domestic product, current pricesU.S. dollarsBillions340.806DjiboutiGross domestic
+  product, current pricesU.S. dollarsBillions1.589DominicaGross domestic product,
+  current pricesU.S. dollarsBillions0.526Dominican RepublicGross domestic product,
+  current pricesU.S. dollarsBillions64.077EcuadorGross domestic product, current pricesU.S.
+  dollarsBillions100.755EgyptGross domestic product, current pricesU.S. dollarsBillions286.435El
+  SalvadorGross domestic product, current pricesU.S. dollarsBillions25.329Equatorial
+  GuineaGross domestic product, current pricesU.S. dollarsBillions14.308EritreaGross
+  domestic product, current pricesU.S. dollarsBillions3.858EstoniaGross domestic product,
+  current pricesU.S. dollarsBillions25.953EthiopiaGross domestic product, current
+  pricesU.S. dollarsBillions52.335FijiGross domestic product, current pricesU.S. dollarsBillions4.212FinlandGross
+  domestic product, current pricesU.S. dollarsBillions271.165FranceGross domestic
+  product, current pricesU.S. dollarsBillions2,846.889GabonGross domestic product,
+  current pricesU.S. dollarsBillions17.182The GambiaGross domestic product, current
+  pricesU.S. dollarsBillions0.825GeorgiaGross domestic product, current pricesU.S.
+  dollarsBillions16.535GermanyGross domestic product, current pricesU.S. dollarsBillions3,859.547GhanaGross
+  domestic product, current pricesU.S. dollarsBillions38.648GreeceGross domestic product,
+  current pricesU.S. dollarsBillions238.023GrenadaGross domestic product, current
+  pricesU.S. dollarsBillions0.862GuatemalaGross domestic product, current pricesU.S.
+  dollarsBillions60.422GuineaGross domestic product, current pricesU.S. dollarsBillions6.529Guinea-BissauGross
+  domestic product, current pricesU.S. dollarsBillions1.024GuyanaGross domestic product,
+  current pricesU.S. dollarsBillions2.997HaitiGross domestic product, current pricesU.S.
+  dollarsBillions8.711HondurasGross domestic product, current pricesU.S. dollarsBillions19.511Hong
+  Kong SARGross domestic product, current pricesU.S. dollarsBillions289.628HungaryGross
+  domestic product, current pricesU.S. dollarsBillions137.104IcelandGross domestic
+  product, current pricesU.S. dollarsBillions16.693IndiaGross domestic product, current
+  pricesU.S. dollarsBillions2,049.501IndonesiaGross domestic product, current pricesU.S.
+  dollarsBillions888.648Islamic Republic of IranGross domestic product, current pricesU.S.
+  dollarsBillions404.132IraqGross domestic product, current pricesU.S. dollarsBillions221.130IrelandGross
+  domestic product, current pricesU.S. dollarsBillions246.438IsraelGross domestic
+  product, current pricesU.S. dollarsBillions303.771ItalyGross domestic product, current
+  pricesU.S. dollarsBillions2,147.952JamaicaGross domestic product, current pricesU.S.
+  dollarsBillions13.787JapanGross domestic product, current pricesU.S. dollarsBillions4,616.335JordanGross
+  domestic product, current pricesU.S. dollarsBillions35.765KazakhstanGross domestic
+  product, current pricesU.S. dollarsBillions212.260KenyaGross domestic product, current
+  pricesU.S. dollarsBillions60.770KiribatiGross domestic product, current pricesU.S.
+  dollarsBillions0.181KoreaGross domestic product, current pricesU.S. dollarsBillions1,416.949KosovoGross
+  domestic product, current pricesU.S. dollarsBillions7.318KuwaitGross domestic product,
+  current pricesU.S. dollarsBillions172.350Kyrgyz RepublicGross domestic product,
+  current pricesU.S. dollarsBillions7.402Lao P.D.R.Gross domestic product, current
+  pricesU.S. dollarsBillions11.676LatviaGross domestic product, current pricesU.S.
+  dollarsBillions31.970LebanonGross domestic product, current pricesU.S. dollarsBillions49.919LesothoGross
+  domestic product, current pricesU.S. dollarsBillions2.159LiberiaGross domestic product,
+  current pricesU.S. dollarsBillions2.028LibyaGross domestic product, current pricesU.S.
+  dollarsBillions41.148LithuaniaGross domestic product, current pricesU.S. dollarsBillions48.232LuxembourgGross
+  domestic product, current pricesU.S. dollarsBillions62.395FYR MacedoniaGross domestic
+  product, current pricesU.S. dollarsBillions11.342MadagascarGross domestic product,
+  current pricesU.S. dollarsBillions10.595MalawiGross domestic product, current pricesU.S.
+  dollarsBillions4.263MalaysiaGross domestic product, current pricesU.S. dollarsBillions326.933MaldivesGross
+  domestic product, current pricesU.S. dollarsBillions2.854MaliGross domestic product,
+  current pricesU.S. dollarsBillions11.915MaltaGross domestic product, current pricesU.S.
+  dollarsBillions10.582Marshall IslandsGross domestic product, current pricesU.S.
+  dollarsBillions0.193MauritaniaGross domestic product, current pricesU.S. dollarsBillions5.079MauritiusGross
+  domestic product, current pricesU.S. dollarsBillions13.240MexicoGross domestic product,
+  current pricesU.S. dollarsBillions1,282.725MicronesiaGross domestic product, current
+  pricesU.S. dollarsBillions0.315MoldovaGross domestic product, current pricesU.S.
+  dollarsBillions7.944MongoliaGross domestic product, current pricesU.S. dollarsBillions11.981MontenegroGross
+  domestic product, current pricesU.S. dollarsBillions4.462MoroccoGross domestic product,
+  current pricesU.S. dollarsBillions109.201MozambiqueGross domestic product, current
+  pricesU.S. dollarsBillions16.684MyanmarGross domestic product, current pricesU.S.
+  dollarsBillions62.802NamibiaGross domestic product, current pricesU.S. dollarsBillions13.353NepalGross
+  domestic product, current pricesU.S. dollarsBillions19.637NetherlandsGross domestic
+  product, current pricesU.S. dollarsBillions866.354New ZealandGross domestic product,
+  current pricesU.S. dollarsBillions198.118NicaraguaGross domestic product, current
+  pricesU.S. dollarsBillions11.707NigerGross domestic product, current pricesU.S.
+  dollarsBillions8.025NigeriaGross domestic product, current pricesU.S. dollarsBillions573.652NorwayGross
+  domestic product, current pricesU.S. dollarsBillions500.244OmanGross domestic product,
+  current pricesU.S. dollarsBillions77.755PakistanGross domestic product, current
+  pricesU.S. dollarsBillions250.136PalauGross domestic product, current pricesU.S.
+  dollarsBillions0.269PanamaGross domestic product, current pricesU.S. dollarsBillions43.784Papua
+  New GuineaGross domestic product, current pricesU.S. dollarsBillions16.060ParaguayGross
+  domestic product, current pricesU.S. dollarsBillions29.704PeruGross domestic product,
+  current pricesU.S. dollarsBillions202.948PhilippinesGross domestic product, current
+  pricesU.S. dollarsBillions284.927PolandGross domestic product, current pricesU.S.
+  dollarsBillions546.644PortugalGross domestic product, current pricesU.S. dollarsBillions230.012QatarGross
+  domestic product, current pricesU.S. dollarsBillions210.002RomaniaGross domestic
+  product, current pricesU.S. dollarsBillions199.950RussiaGross domestic product,
+  current pricesU.S. dollarsBillions1,857.461RwandaGross domestic product, current
+  pricesU.S. dollarsBillions8.012SamoaGross domestic product, current pricesU.S. dollarsBillions0.826San
+  MarinoGross domestic product, current pricesU.S. dollarsBillions1.786SÃ£o TomÃ©
+  and PrÃ­ncipeGross domestic product, current pricesU.S. dollarsBillions0.341Saudi
+  ArabiaGross domestic product, current pricesU.S. dollarsBillions752.459SenegalGross
+  domestic product, current pricesU.S. dollarsBillions15.584SerbiaGross domestic product,
+  current pricesU.S. dollarsBillions43.866SeychellesGross domestic product, current
+  pricesU.S. dollarsBillions1.420Sierra LeoneGross domestic product, current pricesU.S.
+  dollarsBillions5.033SingaporeGross domestic product, current pricesU.S. dollarsBillions308.051Slovak
+  RepublicGross domestic product, current pricesU.S. dollarsBillions99.971SloveniaGross
+  domestic product, current pricesU.S. dollarsBillions49.506Solomon IslandsGross domestic
+  product, current pricesU.S. dollarsBillions1.155South AfricaGross domestic product,
+  current pricesU.S. dollarsBillions350.082South SudanGross domestic product, current
+  pricesU.S. dollarsBillions12.833SpainGross domestic product, current pricesU.S.
+  dollarsBillions1,406.855Sri LankaGross domestic product, current pricesU.S. dollarsBillions74.588St.
+  Kitts and NevisGross domestic product, current pricesU.S. dollarsBillions0.841St.
+  LuciaGross domestic product, current pricesU.S. dollarsBillions1.356St. Vincent
+  and the GrenadinesGross domestic product, current pricesU.S. dollarsBillions0.736SudanGross
+  domestic product, current pricesU.S. dollarsBillions73.816SurinameGross domestic
+  product, current pricesU.S. dollarsBillions5.297SwazilandGross domestic product,
+  current pricesU.S. dollarsBillions3.676SwedenGross domestic product, current pricesU.S.
+  dollarsBillions570.137SwitzerlandGross domestic product, current pricesU.S. dollarsBillions712.050SyriaGross
+  domestic product, current pricesU.S. dollarsBillionsn/aTaiwan Province of ChinaGross
+  domestic product, current pricesU.S. dollarsBillions529.550TajikistanGross domestic
+  product, current pricesU.S. dollarsBillions9.242TanzaniaGross domestic product,
+  current pricesU.S. dollarsBillions47.932ThailandGross domestic product, current
+  pricesU.S. dollarsBillions373.804Timor-LesteGross domestic product, current pricesU.S.
+  dollarsBillions4.478TogoGross domestic product, current pricesU.S. dollarsBillions4.604TongaGross
+  domestic product, current pricesU.S. dollarsBillions0.454Trinidad and TobagoGross
+  domestic product, current pricesU.S. dollarsBillions28.788TunisiaGross domestic
+  product, current pricesU.S. dollarsBillions48.553TurkeyGross domestic product, current
+  pricesU.S. dollarsBillions806.108TurkmenistanGross domestic product, current pricesU.S.
+  dollarsBillions47.932TuvaluGross domestic product, current pricesU.S. dollarsBillions0.038UgandaGross
+  domestic product, current pricesU.S. dollarsBillions27.616UkraineGross domestic
+  product, current pricesU.S. dollarsBillions130.660United Arab EmiratesGross domestic
+  product, current pricesU.S. dollarsBillions401.647United KingdomGross domestic product,
+  current pricesU.S. dollarsBillions2,945.146United StatesGross domestic product,
+  current pricesU.S. dollarsBillions17,418.925UruguayGross domestic product, current
+  pricesU.S. dollarsBillions55.143UzbekistanGross domestic product, current pricesU.S.
+  dollarsBillions62.619VanuatuGross domestic product, current pricesU.S. dollarsBillions0.812VenezuelaGross
+  domestic product, current pricesU.S. dollarsBillions205.787VietnamGross domestic
+  product, current pricesU.S. dollarsBillions186.049YemenGross domestic product, current
+  pricesU.S. dollarsBillions43.229ZambiaGross domestic product, current pricesU.S.
+  dollarsBillions26.758ZimbabweGross domestic product, current pricesU.S. dollarsBillions13.672\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Notes\r\n"
+- "   \r\n"
+- "  \r\n"
+- "       \r\n"
+- "    \r\n"
+- "    \r\n"
+- "       \r\n"
+- "       Country/Series-specific Notes\r\n"
+- "       \r\n"
+- "    \r\n"
+- "    \r\n"
+- "       \r\n"
+- "    \r\n"
+- "  \r\n"
+- "       \r\n"
+- "    \r\n"
+- "    Afghanistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Albania: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Algeria: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Angola:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Antigua and Barbuda: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Argentina: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Armenia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Australia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Austria: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Azerbaijan: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).The Bahamas: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Bahrain: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Bangladesh: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Barbados: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Belarus:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Belgium: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Belize: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Benin: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Bhutan: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Bolivia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Bosnia and Herzegovina: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Botswana: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Brazil:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Brunei Darussalam: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Bulgaria: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Burkina Faso:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Burundi: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Cabo Verde: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Cambodia: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Cameroon: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Canada:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Central African Republic: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Chad: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Chile: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).China: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Colombia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Comoros: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Democratic Republic of the Congo: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Republic
+  of Congo: Gross domestic product, current prices (U.S. dollars)See notes for: Gross
+  domestic product, current prices (National currency).Costa Rica: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).CÃ´te d'Ivoire: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Croatia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Cyprus: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Czech Republic: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Denmark: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Djibouti: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Dominica:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Dominican Republic: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Ecuador: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Egypt: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).El Salvador: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Equatorial Guinea: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Eritrea: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Estonia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Ethiopia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Fiji: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Finland: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).France: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Gabon: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).The Gambia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Georgia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Germany: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Ghana: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Greece: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Grenada:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Guatemala: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Guinea: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Guinea-Bissau: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Guyana: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Haiti:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Honduras: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Hong Kong SAR: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Hungary: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Iceland: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).India:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Indonesia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Islamic Republic of Iran: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Iraq:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Ireland: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Israel: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Italy: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Jamaica: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Japan:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Jordan: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Kazakhstan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Kenya: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Kiribati: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Korea:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Kosovo: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Kuwait: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Kyrgyz Republic:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Lao P.D.R.: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Latvia: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Lebanon: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Lesotho: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Liberia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Libya: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Lithuania: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Luxembourg: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).FYR Macedonia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Madagascar: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Malawi: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Malaysia: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Maldives:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mali: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Malta: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Marshall Islands:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mauritania: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Mauritius: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Mexico: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Micronesia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Moldova:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mongolia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Montenegro: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Morocco: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Mozambique: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Myanmar:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Namibia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Nepal: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Netherlands: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).New Zealand: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Nicaragua: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Niger: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Nigeria: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Norway:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Oman: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Pakistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Palau: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Panama: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Papua
+  New Guinea: Gross domestic product, current prices (U.S. dollars)See notes for:
+  Gross domestic product, current prices (National currency).Paraguay: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Peru: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Philippines:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Poland: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Portugal: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Qatar: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Romania: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Russia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Rwanda: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Samoa: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).San Marino: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).SÃ£o TomÃ© and PrÃ­ncipe: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Saudi Arabia: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Senegal: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Serbia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Seychelles:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Sierra Leone: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Singapore: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Slovak Republic:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Slovenia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Solomon Islands: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).South Africa:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).South Sudan: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Spain: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Sri Lanka:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).St. Kitts and Nevis: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).St. Lucia: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).St.
+  Vincent and the Grenadines: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Sudan: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Suriname: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Swaziland:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Sweden: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Switzerland: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Syria: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Taiwan Province of China: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Tajikistan: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Tanzania:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Thailand: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Timor-Leste: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Togo: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Tonga: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Trinidad
+  and Tobago: Gross domestic product, current prices (U.S. dollars)See notes for:
+  Gross domestic product, current prices (National currency).Tunisia: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Turkey: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Turkmenistan:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Tuvalu: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Uganda: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Ukraine: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).United Arab Emirates: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).United Kingdom: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).United States:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Uruguay: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Uzbekistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Vanuatu: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Venezuela: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Vietnam:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Yemen: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Zambia: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Zimbabwe: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).\r\n"
+- "    \r\n"
+- "   \r\n"
+- "  \r\n"
+- "       \r\n"
+- "    \r\n"
+- "    \r\n"
+- "      Download\r\n"
+- "    \r\n"
+- "       \r\n"
+- "    \r\n"
+- "  \r\n"
+- "       \r\n"
+- "    \r\n"
+- "    \r\n"
+- "      The downloads are presented in Tab Delimited Values format which is compatible
+  with most statistical packages and Excel.\r\n"
+- "    \r\n"
+- "    \r\n"
+- "       \r\n"
+- "    \r\n"
+- "   \r\n"
+- "  \r\n"
+- "        Your WEO Report\r\n"
+- "     \r\n"
+- "   \r\n"
+- "  \r\n"
+- "       \r\n"
+- "    \r\n"
+- "    \r\n"
+- "      \r\n"
+- "    \r\n"
+- "       \r\n"
+- "    \r\n"
+- "   \r\n"
+- "   \r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t\tHome\r\n"
+- "\t\t\tWhat's New\r\n"
+- "\t\t\tSite Map\r\n"
+- "\t\t\tSite Index\r\n"
+- "\t\t\tAbout the IMF\r\n"
+- "\t\t\tResearch\r\n"
+- "\t\t\tCountry Info\r\n"
+- "\t\t\tNews\r\n"
+- "\t\t\tVideos\r\n"
+- "\t\tData and Statistics\r\n"
+- "\t\t\tPublications\r\n"
+- "\t\t\tCopyright and Usage\r\n"
+- "\t\t\tPrivacy Policy\r\n"
+- "\t\t\tHow to Contact Us\r\n"
+- "\t\tعربي\r\n"
+- "\t\t\t中文\r\n"
+- "\t\t\tFrançais\r\n"
+- "\t\t\t日本語\r\n"
+- "\t\t\tРусский\r\n"
+- "\t\t\tEspañol\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+index:
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 382.0
+    docPositions:
+    - 9
+    - 66
+    - 86
+    - 133
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 6.0
+    docPositions:
+    - 9
+    - 66
+    - 86
+    - 133
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 6.0
+    docPositions:
+    - 10
+    - 11
+    - 17
+    - 134
+    - 135
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 134
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 135
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 145
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 145
+  glossary: !ruby/object:Word
+    word: glossary
+    stem: glossari
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 16
+  imf: !ruby/object:Word
+    word: imf
+    stem: imf
+    docFrequency: 6.0
+    docPositions:
+    - 16
+    - 18
+    - 26
+    - 66
+    - 136
+  entire: !ruby/object:Word
+    word: entire
+    stem: entir
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  survey: !ruby/object:Word
+    word: survey
+    stem: survei
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  magazine: !ruby/object:Word
+    word: magazine
+    stem: magazin
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 132
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 137
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 4.0
+    docPositions:
+    - 28
+    - 77
+    - 138
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 28
+    - 138
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 29
+    - 139
+  videos: !ruby/object:Word
+    word: videos
+    stem: video
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 140
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 4.0
+    docPositions:
+    - 31
+    - 63
+    - 141
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 19.0
+    docPositions:
+    - 31
+    - 59
+    - 63
+    - 66
+    - 86
+    - 101
+    - 141
+    - 143
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 141
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 142
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  economic: !ruby/object:Word
+    word: economic
+    stem: econom
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  outlook: !ruby/object:Word
+    word: outlook
+    stem: outlook
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  database: !ruby/object:Word
+    word: database
+    stem: databas
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  step: !ruby/object:Word
+    word: step
+    stem: step
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 108
+  selected: !ruby/object:Word
+    word: selected
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  countries: !ruby/object:Word
+    word: countries
+    stem: countri
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 193.0
+    docPositions:
+    - 63
+    - 70
+    - 77
+    - 86
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 93
+  table: !ruby/object:Word
+    word: table
+    stem: tabl
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 108
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  shaded: !ruby/object:Word
+    word: shaded
+    stem: shade
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  cells: !ruby/object:Word
+    word: cells
+    stem: cell
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  indicate: !ruby/object:Word
+    word: indicate
+    stem: indic
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  staff: !ruby/object:Word
+    word: staff
+    stem: staff
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  estimatescountrysubject: !ruby/object:Word
+    word: estimatescountrysubject
+    stem: estimatescountrysubject
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  descriptorunitsscalecountry: !ruby/object:Word
+    word: descriptorunitsscalecountry
+    stem: descriptorunitsscalecountri
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  series: !ruby/object:Word
+    word: series
+    stem: seri
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 77
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 77
+  domestic: !ruby/object:Word
+    word: domestic
+    stem: domest
+    docFrequency: 568.0
+    docPositions:
+    - 66
+    - 86
+  product: !ruby/object:Word
+    word: product
+    stem: product
+    docFrequency: 568.0
+    docPositions:
+    - 66
+    - 86
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 568.0
+    docPositions:
+    - 66
+    - 86
+  pricesu: !ruby/object:Word
+    word: pricesu
+    stem: pricesu
+    docFrequency: 190.0
+    docPositions:
+    - 66
+  barbudagross: !ruby/object:Word
+    word: barbudagross
+    stem: barbudagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  bahamasgross: !ruby/object:Word
+    word: bahamasgross
+    stem: bahamasgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  herzegovinagross: !ruby/object:Word
+    word: herzegovinagross
+    stem: herzegovinagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  darussalamgross: !ruby/object:Word
+    word: darussalamgross
+    stem: darussalamgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  fasogross: !ruby/object:Word
+    word: fasogross
+    stem: fasogross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  verdegross: !ruby/object:Word
+    word: verdegross
+    stem: verdegross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  african: !ruby/object:Word
+    word: african
+    stem: african
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  republicgross: !ruby/object:Word
+    word: republicgross
+    stem: republicgross
+    docFrequency: 6.0
+    docPositions:
+    - 66
+  republic: !ruby/object:Word
+    word: republic
+    stem: republ
+    docFrequency: 11.0
+    docPositions:
+    - 66
+    - 86
+  congogross: !ruby/object:Word
+    word: congogross
+    stem: congogross
+    docFrequency: 3.0
+    docPositions:
+    - 66
+  ricagross: !ruby/object:Word
+    word: ricagross
+    stem: ricagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  te: !ruby/object:Word
+    word: te
+    stem: te
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 5.0
+    docPositions:
+    - 66
+    - 86
+  ivoiregross: !ruby/object:Word
+    word: ivoiregross
+    stem: ivoiregross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  salvadorgross: !ruby/object:Word
+    word: salvadorgross
+    stem: salvadorgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  guineagross: !ruby/object:Word
+    word: guineagross
+    stem: guineagross
+    docFrequency: 3.0
+    docPositions:
+    - 66
+  gambiagross: !ruby/object:Word
+    word: gambiagross
+    stem: gambiagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  bissaugross: !ruby/object:Word
+    word: bissaugross
+    stem: bissaugross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  kong: !ruby/object:Word
+    word: kong
+    stem: kong
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  sargross: !ruby/object:Word
+    word: sargross
+    stem: sargross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  irangross: !ruby/object:Word
+    word: irangross
+    stem: irangross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  gross: !ruby/object:Word
+    word: gross
+    stem: gross
+    docFrequency: 380.0
+    docPositions:
+    - 66
+    - 86
+  macedoniagross: !ruby/object:Word
+    word: macedoniagross
+    stem: macedoniagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  islandsgross: !ruby/object:Word
+    word: islandsgross
+    stem: islandsgross
+    docFrequency: 3.0
+    docPositions:
+    - 66
+  zealandgross: !ruby/object:Word
+    word: zealandgross
+    stem: zealandgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  marinogross: !ruby/object:Word
+    word: marinogross
+    stem: marinogross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  pr: !ruby/object:Word
+    word: pr
+    stem: pr
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  ncipegross: !ruby/object:Word
+    word: ncipegross
+    stem: ncipegross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  arabiagross: !ruby/object:Word
+    word: arabiagross
+    stem: arabiagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  leonegross: !ruby/object:Word
+    word: leonegross
+    stem: leonegross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  africagross: !ruby/object:Word
+    word: africagross
+    stem: africagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  sudangross: !ruby/object:Word
+    word: sudangross
+    stem: sudangross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  lankagross: !ruby/object:Word
+    word: lankagross
+    stem: lankagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  kitts: !ruby/object:Word
+    word: kitts
+    stem: kitt
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  nevisgross: !ruby/object:Word
+    word: nevisgross
+    stem: nevisgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  luciagross: !ruby/object:Word
+    word: luciagross
+    stem: luciagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  vincent: !ruby/object:Word
+    word: vincent
+    stem: vincent
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  grenadinesgross: !ruby/object:Word
+    word: grenadinesgross
+    stem: grenadinesgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  dollarsbillionsn: !ruby/object:Word
+    word: dollarsbillionsn
+    stem: dollarsbillionsn
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  ataiwan: !ruby/object:Word
+    word: ataiwan
+    stem: ataiwan
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  province: !ruby/object:Word
+    word: province
+    stem: provinc
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  chinagross: !ruby/object:Word
+    word: chinagross
+    stem: chinagross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  lestegross: !ruby/object:Word
+    word: lestegross
+    stem: lestegross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  tobagogross: !ruby/object:Word
+    word: tobagogross
+    stem: tobagogross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  arab: !ruby/object:Word
+    word: arab
+    stem: arab
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 86
+  emiratesgross: !ruby/object:Word
+    word: emiratesgross
+    stem: emiratesgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  kingdomgross: !ruby/object:Word
+    word: kingdomgross
+    stem: kingdomgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  statesgross: !ruby/object:Word
+    word: statesgross
+    stem: statesgross
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  afghanistan: !ruby/object:Word
+    word: afghanistan
+    stem: afghanistan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  prices: !ruby/object:Word
+    word: prices
+    stem: price
+    docFrequency: 379.0
+    docPositions:
+    - 86
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 190.0
+    docPositions:
+    - 86
+  dollars: !ruby/object:Word
+    word: dollars
+    stem: dollar
+    docFrequency: 190.0
+    docPositions:
+    - 86
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 190.0
+    docPositions:
+    - 86
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 190.0
+    docPositions:
+    - 86
+  currency: !ruby/object:Word
+    word: currency
+    stem: currenc
+    docFrequency: 190.0
+    docPositions:
+    - 86
+  albania: !ruby/object:Word
+    word: albania
+    stem: albania
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  algeria: !ruby/object:Word
+    word: algeria
+    stem: algeria
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  angola: !ruby/object:Word
+    word: angola
+    stem: angola
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  antigua: !ruby/object:Word
+    word: antigua
+    stem: antigua
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  barbuda: !ruby/object:Word
+    word: barbuda
+    stem: barbuda
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  argentina: !ruby/object:Word
+    word: argentina
+    stem: argentina
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  armenia: !ruby/object:Word
+    word: armenia
+    stem: armenia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  australia: !ruby/object:Word
+    word: australia
+    stem: australia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  austria: !ruby/object:Word
+    word: austria
+    stem: austria
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  azerbaijan: !ruby/object:Word
+    word: azerbaijan
+    stem: azerbaijan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bahamas: !ruby/object:Word
+    word: bahamas
+    stem: bahama
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bahrain: !ruby/object:Word
+    word: bahrain
+    stem: bahrain
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bangladesh: !ruby/object:Word
+    word: bangladesh
+    stem: bangladesh
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  barbados: !ruby/object:Word
+    word: barbados
+    stem: barbado
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  belarus: !ruby/object:Word
+    word: belarus
+    stem: belaru
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  belgium: !ruby/object:Word
+    word: belgium
+    stem: belgium
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  belize: !ruby/object:Word
+    word: belize
+    stem: beliz
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  benin: !ruby/object:Word
+    word: benin
+    stem: benin
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bhutan: !ruby/object:Word
+    word: bhutan
+    stem: bhutan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bolivia: !ruby/object:Word
+    word: bolivia
+    stem: bolivia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bosnia: !ruby/object:Word
+    word: bosnia
+    stem: bosnia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  herzegovina: !ruby/object:Word
+    word: herzegovina
+    stem: herzegovina
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  botswana: !ruby/object:Word
+    word: botswana
+    stem: botswana
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  brazil: !ruby/object:Word
+    word: brazil
+    stem: brazil
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  brunei: !ruby/object:Word
+    word: brunei
+    stem: brunei
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  darussalam: !ruby/object:Word
+    word: darussalam
+    stem: darussalam
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bulgaria: !ruby/object:Word
+    word: bulgaria
+    stem: bulgaria
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  burkina: !ruby/object:Word
+    word: burkina
+    stem: burkina
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  faso: !ruby/object:Word
+    word: faso
+    stem: faso
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  burundi: !ruby/object:Word
+    word: burundi
+    stem: burundi
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  cabo: !ruby/object:Word
+    word: cabo
+    stem: cabo
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  verde: !ruby/object:Word
+    word: verde
+    stem: verd
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  cambodia: !ruby/object:Word
+    word: cambodia
+    stem: cambodia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  cameroon: !ruby/object:Word
+    word: cameroon
+    stem: cameroon
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  canada: !ruby/object:Word
+    word: canada
+    stem: canada
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  chad: !ruby/object:Word
+    word: chad
+    stem: chad
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  chile: !ruby/object:Word
+    word: chile
+    stem: chile
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  china: !ruby/object:Word
+    word: china
+    stem: china
+    docFrequency: 3.0
+    docPositions:
+    - 86
+  colombia: !ruby/object:Word
+    word: colombia
+    stem: colombia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  comoros: !ruby/object:Word
+    word: comoros
+    stem: comoro
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  democratic: !ruby/object:Word
+    word: democratic
+    stem: democrat
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  congo: !ruby/object:Word
+    word: congo
+    stem: congo
+    docFrequency: 3.0
+    docPositions:
+    - 86
+  costa: !ruby/object:Word
+    word: costa
+    stem: costa
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  rica: !ruby/object:Word
+    word: rica
+    stem: rica
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ivoire: !ruby/object:Word
+    word: ivoire
+    stem: ivoir
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  croatia: !ruby/object:Word
+    word: croatia
+    stem: croatia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  cyprus: !ruby/object:Word
+    word: cyprus
+    stem: cypru
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  czech: !ruby/object:Word
+    word: czech
+    stem: czech
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  denmark: !ruby/object:Word
+    word: denmark
+    stem: denmark
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  djibouti: !ruby/object:Word
+    word: djibouti
+    stem: djibouti
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dominica: !ruby/object:Word
+    word: dominica
+    stem: dominica
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dominican: !ruby/object:Word
+    word: dominican
+    stem: dominican
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ecuador: !ruby/object:Word
+    word: ecuador
+    stem: ecuador
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  egypt: !ruby/object:Word
+    word: egypt
+    stem: egypt
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  salvador: !ruby/object:Word
+    word: salvador
+    stem: salvador
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  equatorial: !ruby/object:Word
+    word: equatorial
+    stem: equatori
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  guinea: !ruby/object:Word
+    word: guinea
+    stem: guinea
+    docFrequency: 5.0
+    docPositions:
+    - 86
+  eritrea: !ruby/object:Word
+    word: eritrea
+    stem: eritrea
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  estonia: !ruby/object:Word
+    word: estonia
+    stem: estonia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ethiopia: !ruby/object:Word
+    word: ethiopia
+    stem: ethiopia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  fiji: !ruby/object:Word
+    word: fiji
+    stem: fiji
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  finland: !ruby/object:Word
+    word: finland
+    stem: finland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  france: !ruby/object:Word
+    word: france
+    stem: franc
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  gabon: !ruby/object:Word
+    word: gabon
+    stem: gabon
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  gambia: !ruby/object:Word
+    word: gambia
+    stem: gambia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  georgia: !ruby/object:Word
+    word: georgia
+    stem: georgia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  germany: !ruby/object:Word
+    word: germany
+    stem: germani
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ghana: !ruby/object:Word
+    word: ghana
+    stem: ghana
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  greece: !ruby/object:Word
+    word: greece
+    stem: greec
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  grenada: !ruby/object:Word
+    word: grenada
+    stem: grenada
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  guatemala: !ruby/object:Word
+    word: guatemala
+    stem: guatemala
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  bissau: !ruby/object:Word
+    word: bissau
+    stem: bissau
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  guyana: !ruby/object:Word
+    word: guyana
+    stem: guyana
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  haiti: !ruby/object:Word
+    word: haiti
+    stem: haiti
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  honduras: !ruby/object:Word
+    word: honduras
+    stem: hondura
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  hong: !ruby/object:Word
+    word: hong
+    stem: hong
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sar: !ruby/object:Word
+    word: sar
+    stem: sar
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  hungary: !ruby/object:Word
+    word: hungary
+    stem: hungari
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  iceland: !ruby/object:Word
+    word: iceland
+    stem: iceland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  india: !ruby/object:Word
+    word: india
+    stem: india
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  indonesia: !ruby/object:Word
+    word: indonesia
+    stem: indonesia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  islamic: !ruby/object:Word
+    word: islamic
+    stem: islam
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  iran: !ruby/object:Word
+    word: iran
+    stem: iran
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  iraq: !ruby/object:Word
+    word: iraq
+    stem: iraq
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ireland: !ruby/object:Word
+    word: ireland
+    stem: ireland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  israel: !ruby/object:Word
+    word: israel
+    stem: israel
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  italy: !ruby/object:Word
+    word: italy
+    stem: itali
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  jamaica: !ruby/object:Word
+    word: jamaica
+    stem: jamaica
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  japan: !ruby/object:Word
+    word: japan
+    stem: japan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  jordan: !ruby/object:Word
+    word: jordan
+    stem: jordan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kazakhstan: !ruby/object:Word
+    word: kazakhstan
+    stem: kazakhstan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kenya: !ruby/object:Word
+    word: kenya
+    stem: kenya
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kiribati: !ruby/object:Word
+    word: kiribati
+    stem: kiribati
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  korea: !ruby/object:Word
+    word: korea
+    stem: korea
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kosovo: !ruby/object:Word
+    word: kosovo
+    stem: kosovo
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kuwait: !ruby/object:Word
+    word: kuwait
+    stem: kuwait
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kyrgyz: !ruby/object:Word
+    word: kyrgyz
+    stem: kyrgyz
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lao: !ruby/object:Word
+    word: lao
+    stem: lao
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  latvia: !ruby/object:Word
+    word: latvia
+    stem: latvia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lebanon: !ruby/object:Word
+    word: lebanon
+    stem: lebanon
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lesotho: !ruby/object:Word
+    word: lesotho
+    stem: lesotho
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  liberia: !ruby/object:Word
+    word: liberia
+    stem: liberia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  libya: !ruby/object:Word
+    word: libya
+    stem: libya
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lithuania: !ruby/object:Word
+    word: lithuania
+    stem: lithuania
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  luxembourg: !ruby/object:Word
+    word: luxembourg
+    stem: luxembourg
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  fyr: !ruby/object:Word
+    word: fyr
+    stem: fyr
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  macedonia: !ruby/object:Word
+    word: macedonia
+    stem: macedonia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  madagascar: !ruby/object:Word
+    word: madagascar
+    stem: madagascar
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  malawi: !ruby/object:Word
+    word: malawi
+    stem: malawi
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  malaysia: !ruby/object:Word
+    word: malaysia
+    stem: malaysia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  maldives: !ruby/object:Word
+    word: maldives
+    stem: maldiv
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  mali: !ruby/object:Word
+    word: mali
+    stem: mali
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  malta: !ruby/object:Word
+    word: malta
+    stem: malta
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  marshall: !ruby/object:Word
+    word: marshall
+    stem: marshal
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  islands: !ruby/object:Word
+    word: islands
+    stem: island
+    docFrequency: 3.0
+    docPositions:
+    - 86
+  mauritania: !ruby/object:Word
+    word: mauritania
+    stem: mauritania
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  mauritius: !ruby/object:Word
+    word: mauritius
+    stem: mauritiu
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  mexico: !ruby/object:Word
+    word: mexico
+    stem: mexico
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  micronesia: !ruby/object:Word
+    word: micronesia
+    stem: micronesia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  moldova: !ruby/object:Word
+    word: moldova
+    stem: moldova
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  mongolia: !ruby/object:Word
+    word: mongolia
+    stem: mongolia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  montenegro: !ruby/object:Word
+    word: montenegro
+    stem: montenegro
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  morocco: !ruby/object:Word
+    word: morocco
+    stem: morocco
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  mozambique: !ruby/object:Word
+    word: mozambique
+    stem: mozambiqu
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  myanmar: !ruby/object:Word
+    word: myanmar
+    stem: myanmar
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  namibia: !ruby/object:Word
+    word: namibia
+    stem: namibia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  nepal: !ruby/object:Word
+    word: nepal
+    stem: nepal
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  netherlands: !ruby/object:Word
+    word: netherlands
+    stem: netherland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  zealand: !ruby/object:Word
+    word: zealand
+    stem: zealand
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  nicaragua: !ruby/object:Word
+    word: nicaragua
+    stem: nicaragua
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  niger: !ruby/object:Word
+    word: niger
+    stem: niger
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  nigeria: !ruby/object:Word
+    word: nigeria
+    stem: nigeria
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  norway: !ruby/object:Word
+    word: norway
+    stem: norwai
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  oman: !ruby/object:Word
+    word: oman
+    stem: oman
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  pakistan: !ruby/object:Word
+    word: pakistan
+    stem: pakistan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  palau: !ruby/object:Word
+    word: palau
+    stem: palau
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  panama: !ruby/object:Word
+    word: panama
+    stem: panama
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  papua: !ruby/object:Word
+    word: papua
+    stem: papua
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  paraguay: !ruby/object:Word
+    word: paraguay
+    stem: paraguai
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  peru: !ruby/object:Word
+    word: peru
+    stem: peru
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  philippines: !ruby/object:Word
+    word: philippines
+    stem: philippin
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  poland: !ruby/object:Word
+    word: poland
+    stem: poland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  portugal: !ruby/object:Word
+    word: portugal
+    stem: portug
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  qatar: !ruby/object:Word
+    word: qatar
+    stem: qatar
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  romania: !ruby/object:Word
+    word: romania
+    stem: romania
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  russia: !ruby/object:Word
+    word: russia
+    stem: russia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  rwanda: !ruby/object:Word
+    word: rwanda
+    stem: rwanda
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  samoa: !ruby/object:Word
+    word: samoa
+    stem: samoa
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  marino: !ruby/object:Word
+    word: marino
+    stem: marino
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ncipe: !ruby/object:Word
+    word: ncipe
+    stem: ncipe
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  saudi: !ruby/object:Word
+    word: saudi
+    stem: saudi
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  arabia: !ruby/object:Word
+    word: arabia
+    stem: arabia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  senegal: !ruby/object:Word
+    word: senegal
+    stem: seneg
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  serbia: !ruby/object:Word
+    word: serbia
+    stem: serbia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  seychelles: !ruby/object:Word
+    word: seychelles
+    stem: seychel
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sierra: !ruby/object:Word
+    word: sierra
+    stem: sierra
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  leone: !ruby/object:Word
+    word: leone
+    stem: leon
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  singapore: !ruby/object:Word
+    word: singapore
+    stem: singapor
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  slovak: !ruby/object:Word
+    word: slovak
+    stem: slovak
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  slovenia: !ruby/object:Word
+    word: slovenia
+    stem: slovenia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  solomon: !ruby/object:Word
+    word: solomon
+    stem: solomon
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 3.0
+    docPositions:
+    - 86
+  africa: !ruby/object:Word
+    word: africa
+    stem: africa
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sudan: !ruby/object:Word
+    word: sudan
+    stem: sudan
+    docFrequency: 3.0
+    docPositions:
+    - 86
+  spain: !ruby/object:Word
+    word: spain
+    stem: spain
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sri: !ruby/object:Word
+    word: sri
+    stem: sri
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lanka: !ruby/object:Word
+    word: lanka
+    stem: lanka
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 4.0
+    docPositions:
+    - 86
+  nevis: !ruby/object:Word
+    word: nevis
+    stem: nevi
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  lucia: !ruby/object:Word
+    word: lucia
+    stem: lucia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  grenadines: !ruby/object:Word
+    word: grenadines
+    stem: grenadin
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  suriname: !ruby/object:Word
+    word: suriname
+    stem: surinam
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  swaziland: !ruby/object:Word
+    word: swaziland
+    stem: swaziland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sweden: !ruby/object:Word
+    word: sweden
+    stem: sweden
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  switzerland: !ruby/object:Word
+    word: switzerland
+    stem: switzerland
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  syria: !ruby/object:Word
+    word: syria
+    stem: syria
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  taiwan: !ruby/object:Word
+    word: taiwan
+    stem: taiwan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tajikistan: !ruby/object:Word
+    word: tajikistan
+    stem: tajikistan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tanzania: !ruby/object:Word
+    word: tanzania
+    stem: tanzania
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  thailand: !ruby/object:Word
+    word: thailand
+    stem: thailand
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  timor: !ruby/object:Word
+    word: timor
+    stem: timor
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  leste: !ruby/object:Word
+    word: leste
+    stem: lest
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  togo: !ruby/object:Word
+    word: togo
+    stem: togo
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tonga: !ruby/object:Word
+    word: tonga
+    stem: tonga
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  trinidad: !ruby/object:Word
+    word: trinidad
+    stem: trinidad
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tobago: !ruby/object:Word
+    word: tobago
+    stem: tobago
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tunisia: !ruby/object:Word
+    word: tunisia
+    stem: tunisia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  turkey: !ruby/object:Word
+    word: turkey
+    stem: turkei
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  turkmenistan: !ruby/object:Word
+    word: turkmenistan
+    stem: turkmenistan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  tuvalu: !ruby/object:Word
+    word: tuvalu
+    stem: tuvalu
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  uganda: !ruby/object:Word
+    word: uganda
+    stem: uganda
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  ukraine: !ruby/object:Word
+    word: ukraine
+    stem: ukrain
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 4.0
+    docPositions:
+    - 86
+  emirates: !ruby/object:Word
+    word: emirates
+    stem: emir
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  kingdom: !ruby/object:Word
+    word: kingdom
+    stem: kingdom
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  uruguay: !ruby/object:Word
+    word: uruguay
+    stem: uruguai
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  uzbekistan: !ruby/object:Word
+    word: uzbekistan
+    stem: uzbekistan
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  vanuatu: !ruby/object:Word
+    word: vanuatu
+    stem: vanuatu
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  venezuela: !ruby/object:Word
+    word: venezuela
+    stem: venezuela
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  vietnam: !ruby/object:Word
+    word: vietnam
+    stem: vietnam
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  yemen: !ruby/object:Word
+    word: yemen
+    stem: yemen
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  zambia: !ruby/object:Word
+    word: zambia
+    stem: zambia
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  zimbabwe: !ruby/object:Word
+    word: zimbabwe
+    stem: zimbabw
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  tab: !ruby/object:Word
+    word: tab
+    stem: tab
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  delimited: !ruby/object:Word
+    word: delimited
+    stem: delimit
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  values: !ruby/object:Word
+    word: values
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  format: !ruby/object:Word
+    word: format
+    stem: format
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  compatible: !ruby/object:Word
+    word: compatible
+    stem: compat
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  statistical: !ruby/object:Word
+    word: statistical
+    stem: statist
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  packages: !ruby/object:Word
+    word: packages
+    stem: packag
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  excel: !ruby/object:Word
+    word: excel
+    stem: excel
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  weo: !ruby/object:Word
+    word: weo
+    stem: weo
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  usage: !ruby/object:Word
+    word: usage
+    stem: usag
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  fran: !ruby/object:Word
+    word: fran
+    stem: fran
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  ais: !ruby/object:Word
+    word: ais
+    stem: ai
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  espa: !ruby/object:Word
+    word: espa
+    stem: espa
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  ol: !ruby/object:Word
+    word: ol
+    stem: ol
+    docFrequency: 2.0
+    docPositions:
+    - 151
+lineCount: 160
+wordCount: 5207
+rank: 0.25
+title: Report for Selected Countries and Subjects
+links:
+- http://www.cvent.com/d/c4qnvz?lang=en
+rawText: "\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\r\n\t\tWhat's New\r\n\t\t\tSite Map\r\n\t\t\tSite
+  Index\r\n\t\t\tContact Us\r\n\t\t\tGlossary\r\n\t\t\r\n\t\t\tSearch\r\n\t\t\t\tSearch
+  IMF\r\n\t\t\t\tEntire Site \r\n\t\t\t\tIMF Survey Magazine\t\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\t\t\r\n\r\n\t\tHome\r\n\t\t\tAbout
+  the IMF\r\n\t\t\tResearch\r\n\t\t\tCountry Info\r\n\t\t\tNews\r\n\t\t\tVideos\r\n\t\t\tData
+  and Statistics\r\n\t\t\tPublications\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\nWorld Economic
+  Outlook Database, April 2015\r\n  \r\n  \r\n     Step 5 of 5\r\n\t  \r\n\t  \r\n\t
+  \ \r\n\t  \r\n\t  \r\n\t  \r\n\t  \r\n\t  \r\n\t  \r\n   \r\n\t  \r\n \r\n \r\n
+  \ \r\n      \r\n      5. Report for Selected Countries and Subjects \r\n      \r\n
+  \   \r\n  \r\n      You will find notes on the data and options to download the
+  table below your results.\r\n    \r\n  \r\n       Shaded cells indicate IMF staff
+  estimatesCountrySubject DescriptorUnitsScaleCountry/Series-specific Notes2014AfghanistanGross
+  domestic product, current pricesU.S. dollarsBillions20.312AlbaniaGross domestic
+  product, current pricesU.S. dollarsBillions13.262AlgeriaGross domestic product,
+  current pricesU.S. dollarsBillions214.080AngolaGross domestic product, current pricesU.S.
+  dollarsBillions128.564Antigua and BarbudaGross domestic product, current pricesU.S.
+  dollarsBillions1.242ArgentinaGross domestic product, current pricesU.S. dollarsBillions540.164ArmeniaGross
+  domestic product, current pricesU.S. dollarsBillions10.279AustraliaGross domestic
+  product, current pricesU.S. dollarsBillions1,444.189AustriaGross domestic product,
+  current pricesU.S. dollarsBillions437.123AzerbaijanGross domestic product, current
+  pricesU.S. dollarsBillions74.145The BahamasGross domestic product, current pricesU.S.
+  dollarsBillions8.657BahrainGross domestic product, current pricesU.S. dollarsBillions33.862BangladeshGross
+  domestic product, current pricesU.S. dollarsBillions185.415BarbadosGross domestic
+  product, current pricesU.S. dollarsBillions4.348BelarusGross domestic product, current
+  pricesU.S. dollarsBillions76.139BelgiumGross domestic product, current pricesU.S.
+  dollarsBillions534.672BelizeGross domestic product, current pricesU.S. dollarsBillions1.693BeninGross
+  domestic product, current pricesU.S. dollarsBillions8.701BhutanGross domestic product,
+  current pricesU.S. dollarsBillions2.092BoliviaGross domestic product, current pricesU.S.
+  dollarsBillions34.425Bosnia and HerzegovinaGross domestic product, current pricesU.S.
+  dollarsBillions17.977BotswanaGross domestic product, current pricesU.S. dollarsBillions15.789BrazilGross
+  domestic product, current pricesU.S. dollarsBillions2,353.025Brunei DarussalamGross
+  domestic product, current pricesU.S. dollarsBillions15.102BulgariaGross domestic
+  product, current pricesU.S. dollarsBillions55.837Burkina FasoGross domestic product,
+  current pricesU.S. dollarsBillions12.503BurundiGross domestic product, current pricesU.S.
+  dollarsBillions3.094Cabo VerdeGross domestic product, current pricesU.S. dollarsBillions1.899CambodiaGross
+  domestic product, current pricesU.S. dollarsBillions16.551CameroonGross domestic
+  product, current pricesU.S. dollarsBillions31.669CanadaGross domestic product, current
+  pricesU.S. dollarsBillions1,788.717Central African RepublicGross domestic product,
+  current pricesU.S. dollarsBillions1.786ChadGross domestic product, current pricesU.S.
+  dollarsBillions13.947ChileGross domestic product, current pricesU.S. dollarsBillions257.968ChinaGross
+  domestic product, current pricesU.S. dollarsBillions10,380.380ColombiaGross domestic
+  product, current pricesU.S. dollarsBillions384.901ComorosGross domestic product,
+  current pricesU.S. dollarsBillions0.717Democratic Republic of the CongoGross domestic
+  product, current pricesU.S. dollarsBillions34.677Republic of CongoGross domestic
+  product, current pricesU.S. dollarsBillions13.502Costa RicaGross domestic product,
+  current pricesU.S. dollarsBillions48.144CÃ´te d'IvoireGross domestic product, current
+  pricesU.S. dollarsBillions33.956CroatiaGross domestic product, current pricesU.S.
+  dollarsBillions57.159CyprusGross domestic product, current pricesU.S. dollarsBillions23.269Czech
+  RepublicGross domestic product, current pricesU.S. dollarsBillions205.658DenmarkGross
+  domestic product, current pricesU.S. dollarsBillions340.806DjiboutiGross domestic
+  product, current pricesU.S. dollarsBillions1.589DominicaGross domestic product,
+  current pricesU.S. dollarsBillions0.526Dominican RepublicGross domestic product,
+  current pricesU.S. dollarsBillions64.077EcuadorGross domestic product, current pricesU.S.
+  dollarsBillions100.755EgyptGross domestic product, current pricesU.S. dollarsBillions286.435El
+  SalvadorGross domestic product, current pricesU.S. dollarsBillions25.329Equatorial
+  GuineaGross domestic product, current pricesU.S. dollarsBillions14.308EritreaGross
+  domestic product, current pricesU.S. dollarsBillions3.858EstoniaGross domestic product,
+  current pricesU.S. dollarsBillions25.953EthiopiaGross domestic product, current
+  pricesU.S. dollarsBillions52.335FijiGross domestic product, current pricesU.S. dollarsBillions4.212FinlandGross
+  domestic product, current pricesU.S. dollarsBillions271.165FranceGross domestic
+  product, current pricesU.S. dollarsBillions2,846.889GabonGross domestic product,
+  current pricesU.S. dollarsBillions17.182The GambiaGross domestic product, current
+  pricesU.S. dollarsBillions0.825GeorgiaGross domestic product, current pricesU.S.
+  dollarsBillions16.535GermanyGross domestic product, current pricesU.S. dollarsBillions3,859.547GhanaGross
+  domestic product, current pricesU.S. dollarsBillions38.648GreeceGross domestic product,
+  current pricesU.S. dollarsBillions238.023GrenadaGross domestic product, current
+  pricesU.S. dollarsBillions0.862GuatemalaGross domestic product, current pricesU.S.
+  dollarsBillions60.422GuineaGross domestic product, current pricesU.S. dollarsBillions6.529Guinea-BissauGross
+  domestic product, current pricesU.S. dollarsBillions1.024GuyanaGross domestic product,
+  current pricesU.S. dollarsBillions2.997HaitiGross domestic product, current pricesU.S.
+  dollarsBillions8.711HondurasGross domestic product, current pricesU.S. dollarsBillions19.511Hong
+  Kong SARGross domestic product, current pricesU.S. dollarsBillions289.628HungaryGross
+  domestic product, current pricesU.S. dollarsBillions137.104IcelandGross domestic
+  product, current pricesU.S. dollarsBillions16.693IndiaGross domestic product, current
+  pricesU.S. dollarsBillions2,049.501IndonesiaGross domestic product, current pricesU.S.
+  dollarsBillions888.648Islamic Republic of IranGross domestic product, current pricesU.S.
+  dollarsBillions404.132IraqGross domestic product, current pricesU.S. dollarsBillions221.130IrelandGross
+  domestic product, current pricesU.S. dollarsBillions246.438IsraelGross domestic
+  product, current pricesU.S. dollarsBillions303.771ItalyGross domestic product, current
+  pricesU.S. dollarsBillions2,147.952JamaicaGross domestic product, current pricesU.S.
+  dollarsBillions13.787JapanGross domestic product, current pricesU.S. dollarsBillions4,616.335JordanGross
+  domestic product, current pricesU.S. dollarsBillions35.765KazakhstanGross domestic
+  product, current pricesU.S. dollarsBillions212.260KenyaGross domestic product, current
+  pricesU.S. dollarsBillions60.770KiribatiGross domestic product, current pricesU.S.
+  dollarsBillions0.181KoreaGross domestic product, current pricesU.S. dollarsBillions1,416.949KosovoGross
+  domestic product, current pricesU.S. dollarsBillions7.318KuwaitGross domestic product,
+  current pricesU.S. dollarsBillions172.350Kyrgyz RepublicGross domestic product,
+  current pricesU.S. dollarsBillions7.402Lao P.D.R.Gross domestic product, current
+  pricesU.S. dollarsBillions11.676LatviaGross domestic product, current pricesU.S.
+  dollarsBillions31.970LebanonGross domestic product, current pricesU.S. dollarsBillions49.919LesothoGross
+  domestic product, current pricesU.S. dollarsBillions2.159LiberiaGross domestic product,
+  current pricesU.S. dollarsBillions2.028LibyaGross domestic product, current pricesU.S.
+  dollarsBillions41.148LithuaniaGross domestic product, current pricesU.S. dollarsBillions48.232LuxembourgGross
+  domestic product, current pricesU.S. dollarsBillions62.395FYR MacedoniaGross domestic
+  product, current pricesU.S. dollarsBillions11.342MadagascarGross domestic product,
+  current pricesU.S. dollarsBillions10.595MalawiGross domestic product, current pricesU.S.
+  dollarsBillions4.263MalaysiaGross domestic product, current pricesU.S. dollarsBillions326.933MaldivesGross
+  domestic product, current pricesU.S. dollarsBillions2.854MaliGross domestic product,
+  current pricesU.S. dollarsBillions11.915MaltaGross domestic product, current pricesU.S.
+  dollarsBillions10.582Marshall IslandsGross domestic product, current pricesU.S.
+  dollarsBillions0.193MauritaniaGross domestic product, current pricesU.S. dollarsBillions5.079MauritiusGross
+  domestic product, current pricesU.S. dollarsBillions13.240MexicoGross domestic product,
+  current pricesU.S. dollarsBillions1,282.725MicronesiaGross domestic product, current
+  pricesU.S. dollarsBillions0.315MoldovaGross domestic product, current pricesU.S.
+  dollarsBillions7.944MongoliaGross domestic product, current pricesU.S. dollarsBillions11.981MontenegroGross
+  domestic product, current pricesU.S. dollarsBillions4.462MoroccoGross domestic product,
+  current pricesU.S. dollarsBillions109.201MozambiqueGross domestic product, current
+  pricesU.S. dollarsBillions16.684MyanmarGross domestic product, current pricesU.S.
+  dollarsBillions62.802NamibiaGross domestic product, current pricesU.S. dollarsBillions13.353NepalGross
+  domestic product, current pricesU.S. dollarsBillions19.637NetherlandsGross domestic
+  product, current pricesU.S. dollarsBillions866.354New ZealandGross domestic product,
+  current pricesU.S. dollarsBillions198.118NicaraguaGross domestic product, current
+  pricesU.S. dollarsBillions11.707NigerGross domestic product, current pricesU.S.
+  dollarsBillions8.025NigeriaGross domestic product, current pricesU.S. dollarsBillions573.652NorwayGross
+  domestic product, current pricesU.S. dollarsBillions500.244OmanGross domestic product,
+  current pricesU.S. dollarsBillions77.755PakistanGross domestic product, current
+  pricesU.S. dollarsBillions250.136PalauGross domestic product, current pricesU.S.
+  dollarsBillions0.269PanamaGross domestic product, current pricesU.S. dollarsBillions43.784Papua
+  New GuineaGross domestic product, current pricesU.S. dollarsBillions16.060ParaguayGross
+  domestic product, current pricesU.S. dollarsBillions29.704PeruGross domestic product,
+  current pricesU.S. dollarsBillions202.948PhilippinesGross domestic product, current
+  pricesU.S. dollarsBillions284.927PolandGross domestic product, current pricesU.S.
+  dollarsBillions546.644PortugalGross domestic product, current pricesU.S. dollarsBillions230.012QatarGross
+  domestic product, current pricesU.S. dollarsBillions210.002RomaniaGross domestic
+  product, current pricesU.S. dollarsBillions199.950RussiaGross domestic product,
+  current pricesU.S. dollarsBillions1,857.461RwandaGross domestic product, current
+  pricesU.S. dollarsBillions8.012SamoaGross domestic product, current pricesU.S. dollarsBillions0.826San
+  MarinoGross domestic product, current pricesU.S. dollarsBillions1.786SÃ£o TomÃ©
+  and PrÃ­ncipeGross domestic product, current pricesU.S. dollarsBillions0.341Saudi
+  ArabiaGross domestic product, current pricesU.S. dollarsBillions752.459SenegalGross
+  domestic product, current pricesU.S. dollarsBillions15.584SerbiaGross domestic product,
+  current pricesU.S. dollarsBillions43.866SeychellesGross domestic product, current
+  pricesU.S. dollarsBillions1.420Sierra LeoneGross domestic product, current pricesU.S.
+  dollarsBillions5.033SingaporeGross domestic product, current pricesU.S. dollarsBillions308.051Slovak
+  RepublicGross domestic product, current pricesU.S. dollarsBillions99.971SloveniaGross
+  domestic product, current pricesU.S. dollarsBillions49.506Solomon IslandsGross domestic
+  product, current pricesU.S. dollarsBillions1.155South AfricaGross domestic product,
+  current pricesU.S. dollarsBillions350.082South SudanGross domestic product, current
+  pricesU.S. dollarsBillions12.833SpainGross domestic product, current pricesU.S.
+  dollarsBillions1,406.855Sri LankaGross domestic product, current pricesU.S. dollarsBillions74.588St.
+  Kitts and NevisGross domestic product, current pricesU.S. dollarsBillions0.841St.
+  LuciaGross domestic product, current pricesU.S. dollarsBillions1.356St. Vincent
+  and the GrenadinesGross domestic product, current pricesU.S. dollarsBillions0.736SudanGross
+  domestic product, current pricesU.S. dollarsBillions73.816SurinameGross domestic
+  product, current pricesU.S. dollarsBillions5.297SwazilandGross domestic product,
+  current pricesU.S. dollarsBillions3.676SwedenGross domestic product, current pricesU.S.
+  dollarsBillions570.137SwitzerlandGross domestic product, current pricesU.S. dollarsBillions712.050SyriaGross
+  domestic product, current pricesU.S. dollarsBillionsn/aTaiwan Province of ChinaGross
+  domestic product, current pricesU.S. dollarsBillions529.550TajikistanGross domestic
+  product, current pricesU.S. dollarsBillions9.242TanzaniaGross domestic product,
+  current pricesU.S. dollarsBillions47.932ThailandGross domestic product, current
+  pricesU.S. dollarsBillions373.804Timor-LesteGross domestic product, current pricesU.S.
+  dollarsBillions4.478TogoGross domestic product, current pricesU.S. dollarsBillions4.604TongaGross
+  domestic product, current pricesU.S. dollarsBillions0.454Trinidad and TobagoGross
+  domestic product, current pricesU.S. dollarsBillions28.788TunisiaGross domestic
+  product, current pricesU.S. dollarsBillions48.553TurkeyGross domestic product, current
+  pricesU.S. dollarsBillions806.108TurkmenistanGross domestic product, current pricesU.S.
+  dollarsBillions47.932TuvaluGross domestic product, current pricesU.S. dollarsBillions0.038UgandaGross
+  domestic product, current pricesU.S. dollarsBillions27.616UkraineGross domestic
+  product, current pricesU.S. dollarsBillions130.660United Arab EmiratesGross domestic
+  product, current pricesU.S. dollarsBillions401.647United KingdomGross domestic product,
+  current pricesU.S. dollarsBillions2,945.146United StatesGross domestic product,
+  current pricesU.S. dollarsBillions17,418.925UruguayGross domestic product, current
+  pricesU.S. dollarsBillions55.143UzbekistanGross domestic product, current pricesU.S.
+  dollarsBillions62.619VanuatuGross domestic product, current pricesU.S. dollarsBillions0.812VenezuelaGross
+  domestic product, current pricesU.S. dollarsBillions205.787VietnamGross domestic
+  product, current pricesU.S. dollarsBillions186.049YemenGross domestic product, current
+  pricesU.S. dollarsBillions43.229ZambiaGross domestic product, current pricesU.S.
+  dollarsBillions26.758ZimbabweGross domestic product, current pricesU.S. dollarsBillions13.672\r\n\r\n\r\n\r\nNotes\r\n
+  \  \r\n  \r\n       \r\n    \r\n    \r\n       \r\n       Country/Series-specific
+  Notes\r\n       \r\n    \r\n    \r\n       \r\n    \r\n  \r\n       \r\n    \r\n
+  \   Afghanistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Albania: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Algeria: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Angola:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Antigua and Barbuda: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Argentina: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Armenia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Australia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Austria: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Azerbaijan: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).The Bahamas: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Bahrain: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Bangladesh: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Barbados: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Belarus:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Belgium: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Belize: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Benin: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Bhutan: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Bolivia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Bosnia and Herzegovina: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Botswana: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Brazil:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Brunei Darussalam: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Bulgaria: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Burkina Faso:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Burundi: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Cabo Verde: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Cambodia: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Cameroon: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Canada:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Central African Republic: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Chad: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Chile: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).China: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Colombia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Comoros: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Democratic Republic of the Congo: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Republic
+  of Congo: Gross domestic product, current prices (U.S. dollars)See notes for: Gross
+  domestic product, current prices (National currency).Costa Rica: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).CÃ´te d'Ivoire: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Croatia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Cyprus: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Czech Republic: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Denmark: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Djibouti: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Dominica:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Dominican Republic: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Ecuador: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Egypt: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).El Salvador: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Equatorial Guinea: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Eritrea: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Estonia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Ethiopia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Fiji: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Finland: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).France: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Gabon: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).The Gambia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Georgia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Germany: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Ghana: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Greece: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Grenada:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Guatemala: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Guinea: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Guinea-Bissau: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Guyana: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Haiti:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Honduras: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Hong Kong SAR: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Hungary: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Iceland: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).India:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Indonesia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Islamic Republic of Iran: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Iraq:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Ireland: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Israel: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Italy: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Jamaica: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Japan:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Jordan: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Kazakhstan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Kenya: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Kiribati: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Korea:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Kosovo: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Kuwait: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Kyrgyz Republic:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Lao P.D.R.: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Latvia: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Lebanon: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Lesotho: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Liberia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Libya: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Lithuania: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Luxembourg: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).FYR Macedonia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Madagascar: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Malawi: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Malaysia: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Maldives:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mali: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Malta: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Marshall Islands:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mauritania: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Mauritius: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Mexico: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Micronesia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Moldova:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Mongolia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Montenegro: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Morocco: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Mozambique: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Myanmar:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Namibia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Nepal: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Netherlands: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).New Zealand: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Nicaragua: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Niger: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Nigeria: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Norway:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Oman: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Pakistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Palau: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Panama: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Papua
+  New Guinea: Gross domestic product, current prices (U.S. dollars)See notes for:
+  Gross domestic product, current prices (National currency).Paraguay: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Peru: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Philippines:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Poland: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Portugal: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Qatar: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Romania: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Russia:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Rwanda: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Samoa: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).San Marino: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).SÃ£o TomÃ© and PrÃ­ncipe: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Saudi Arabia: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Senegal: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Serbia: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Seychelles:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Sierra Leone: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Singapore: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Slovak Republic:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Slovenia: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Solomon Islands: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).South Africa:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).South Sudan: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Spain: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Sri Lanka:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).St. Kitts and Nevis: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).St. Lucia: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).St.
+  Vincent and the Grenadines: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Sudan: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Suriname: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Swaziland:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Sweden: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Switzerland: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Syria: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Taiwan Province of China: Gross domestic product,
+  current prices (U.S. dollars)See notes for: Gross domestic product, current prices
+  (National currency).Tajikistan: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Tanzania:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Thailand: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Timor-Leste: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).Togo: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).Tonga: Gross domestic product, current prices
+  (U.S. dollars)See notes for: Gross domestic product, current prices (National currency).Trinidad
+  and Tobago: Gross domestic product, current prices (U.S. dollars)See notes for:
+  Gross domestic product, current prices (National currency).Tunisia: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Turkey: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Turkmenistan:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Tuvalu: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Uganda: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Ukraine: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).United Arab Emirates: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).United Kingdom: Gross domestic product, current prices (U.S. dollars)See
+  notes for: Gross domestic product, current prices (National currency).United States:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Uruguay: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Uzbekistan: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Vanuatu: Gross domestic
+  product, current prices (U.S. dollars)See notes for: Gross domestic product, current
+  prices (National currency).Venezuela: Gross domestic product, current prices (U.S.
+  dollars)See notes for: Gross domestic product, current prices (National currency).Vietnam:
+  Gross domestic product, current prices (U.S. dollars)See notes for: Gross domestic
+  product, current prices (National currency).Yemen: Gross domestic product, current
+  prices (U.S. dollars)See notes for: Gross domestic product, current prices (National
+  currency).Zambia: Gross domestic product, current prices (U.S. dollars)See notes
+  for: Gross domestic product, current prices (National currency).Zimbabwe: Gross
+  domestic product, current prices (U.S. dollars)See notes for: Gross domestic product,
+  current prices (National currency).\r\n    \r\n   \r\n  \r\n       \r\n    \r\n
+  \   \r\n      Download\r\n    \r\n       \r\n    \r\n  \r\n       \r\n    \r\n    \r\n
+  \     The downloads are presented in Tab Delimited Values format which is compatible
+  with most statistical packages and Excel.\r\n    \r\n    \r\n       \r\n    \r\n
+  \  \r\n  \r\n        Your WEO Report\r\n     \r\n   \r\n  \r\n       \r\n    \r\n
+  \   \r\n      \r\n    \r\n       \r\n    \r\n   \r\n   \r\n  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\tHome\r\n\t\t\tWhat's
+  New\r\n\t\t\tSite Map\r\n\t\t\tSite Index\r\n\t\t\tAbout the IMF\r\n\t\t\tResearch\r\n\t\t\tCountry
+  Info\r\n\t\t\tNews\r\n\t\t\tVideos\r\n\t\tData and Statistics\r\n\t\t\tPublications\r\n\t\t\tCopyright
+  and Usage\r\n\t\t\tPrivacy Policy\r\n\t\t\tHow to Contact Us\r\n\t\tعربي\r\n\t\t\t中文\r\n\t\t\tFrançais\r\n\t\t\t日本語\r\n\t\t\tРусский\r\n\t\t\tEspañol\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"

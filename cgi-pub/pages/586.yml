@@ -1,0 +1,126 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.scientific-computing.com/scwmayjun03computingmachines.html
+inboundLinks: []
+lines:
+- |2+
+
+- |
+  This page has moved.
+- |2+
+
+- |
+  If you haven't been automatically redirected, please click here.
+- This page has moved.If you haven't been automatically redirected, please click here.
+index:
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 4
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 4
+  moved: !ruby/object:Word
+    word: moved
+    stem: move
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 4
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  haven: !ruby/object:Word
+    word: haven
+    stem: haven
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  automatically: !ruby/object:Word
+    word: automatically
+    stem: automat
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  redirected: !ruby/object:Word
+    word: redirected
+    stem: redirect
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+lineCount: 5
+wordCount: 28
+rank: 0.2540983606557377
+title: SCW
+links:
+- http://www.scientific-computing.com/features/feature.php?feature_id=117
+rawText: |2-
+
+  This page has moved.
+
+  If you haven't been automatically redirected, please click here.
+  This page has moved.If you haven't been automatically redirected, please click here.

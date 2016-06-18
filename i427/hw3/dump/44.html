@@ -1,0 +1,199 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>IU Address Book</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="./styles/app.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<div id="not-the-footer">
+                <!-- UITS header -->
+        <div class="clearfix" id="header">
+                <div id="iu-branding">
+                    <div class="content">
+                        <a class="home-link" href="index.cgi">
+                            <img alt="IU logo" src="styles/img/trident.2x.png" width=43 height=53 title="Indiana University Bloomington">
+                        </a>
+                    </div>
+                    <div class="tools">
+                        <div class="content">
+                            <div class="wordmark">
+                                <div class="title">University Information Technology Services</div>
+                                <div class="tagline">Moving at the speed of innovation</div>
+                            </div>
+
+                            <ul class="explore-menu">
+                                <li class="odd"><a href="http://itnews.iu.edu" target="_blank">IT News</a></li>
+                                <li class="even"><a href="http://it.iu.edu" target="_blank">IT.IU</a></li>
+                                <li class="odd"><a href="http://one.iu.edu" target="_blank">One.iu</a></li>
+                                <li class="even"><a href="http://box.iu.edu/" target="_blank">Box.iu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="the-bar">
+                            <button class="toggle-drawer">Explore IT@IU</button>
+                            <div class="masthead"><a href="#" title="Indiana University">Indiana University</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Site Navigation -->
+                <div id="nav-bar" class="clearfix">
+                    <div class="content">
+                        <div class="submasthead"><a href="index.cgi">IU Address Book</a></div>
+
+                        <ul id="main-nav">
+                            <li><a href="index.cgi">Start New Search</a></li>
+                            <li><a href="https://kb.iu.edu/data/afol.html">Update Address Book Information</a></li>
+                        </ul>
+                        <div class="mobile-only show-nav-btn">
+                            <a href="javascript:void();" onclick="showMenu();">Show menu</a>
+                        </div>
+                    </div>
+                </div>
+
+        <div id="mobile-main-nav" class="mobile-only">
+            <div class="inner">
+
+                <h4>Site navigation</h4>
+                <ul>
+            <li><a href="index.cgi">Start New Search</a></li>
+            <li><a href="https://kb.iu.edu/data/afol.html">Update Address Book Information</a></li>
+                </ul>
+
+                <h4>Explore IT@IU</h4>
+                <ul class="two-col">
+                    <li class="odd"><a href="https://itaccounts.iu.edu/" target="_blank">IT accounts</a></li>
+                    <li class="even"><a href="http://iuware.iu.edu" target="_blank">IUware</a></li>
+                    <li class="odd"><a href="http://it.iu.edu" target="_blank">IT@IU</a></li>
+                    <li class="even"><a href="http://uits.iu.edu/" target="_blank">Help</a></li>
+                    <li class="odd"><a href="http://cloudstorage.iu.edu" target="_blank">Cloudstorage</a></li>
+                    <li class="even"><a href="http://itnews.iu.edu" target="_blank">IT News</a></li>
+                    <li class="odd"><a href="http://ittraining.iu.edu" target="_blank">Training</a></li>
+                    <li class="even"><a href="http://oncourse.iu.edu" target="_blank">Oncourse</a></li>
+                    <li class="odd"><a href="http://one.iu.edu" target="_blank">One.iu</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+  <div class="main-content">
+    <div class="row">
+        <div class="large-4 columns">
+                <h1>IU Address <br>Book</h1>
+        </div>
+        <div class="large-8 columns end" style="margin-top: 20px">
+<form method="post" action="/" enctype="multipart/form-data" name="query">
+                    <label>Last name:</label>
+                    <input type="text" name="lastname" placeholder="Last name">
+                    <input type="radio" name="exactness" value="starts" id="starts with" checked="checked"><label for="starts with">starts with</label>
+                    <input type="radio" name="exactness" value="exact" id="is exaclty"><label for="is exactly">is exactly</label>
+                    <p></p>
+                    <label>First name:</label>
+                    <input type="text" name="firstname" placeholder="First name">
+                <div class="row">
+                    <div class="large-6 columns">
+                        <label>Status</label>
+                            <select name="status">
+                                <option value="Any">Any</option>
+                                <option value="Employee">Employee</option>
+                                <option value="Faculty">Faculty</option>
+                                <option value="Student">Student</option>
+                            </select>
+                    </div>
+                    <div class="large-6 columns">
+                        <label>Campus</label>
+                            <select name="campus">
+                                <option value="Any">Any</option>
+                                <option value="bloomington">Bloomington</option>
+                                <option value="iupui">Indianapolis</option>
+                                <option value="columbus">Columbus</option>
+                                <option value="fort wayne">Fort Wayne</option>
+                                <option value="northwest">Gary (Northwest)</option>
+                                <option value="kokomo">Kokomo</option>
+                                <option value="southeast">New Albany (Southeast)</option>
+                                <option value="east">Richmond (East)</option>
+                                <option value="south bend">South Bend</option>
+                            </select>
+                    </div>
+                </div>
+                <h4>OR</h4>
+                <label>Username:</label>
+                <input type="text" name="netid" placeholder="Username">
+                    <div class="show-for-medium-up">
+                        <input type="submit" class="button large" name="Search" value="Search" />
+                        <input type="reset"  class="button large" name=".reset" value="Reset" />
+                    </div>
+                    <div class="show-for-small-only">
+                        <input type="submit" class="button medium" name="Search" value="Search" />
+                        <input type="reset"  class="button medium" name=".reset" value="Reset" />
+                    </div>
+<input type="hidden" name="sid" value="a0ef5e5004227e4d0ab504c13310dc02"  /></form>    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38416540-2']);
+      _gaq.push(['_trackPageview', 'search_form']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+            <p><label><strong>NOTICE:</strong> The IU Address Book, and University information technology resources, are provided by the University to facilitate the research, teaching, learning, and service missions of the University community. The contact information provided in the IU Address Book is NOT intended for use by commercial entities for commercial purposes.</label></p>
+       
+        </div>
+    </div>
+  </div>
+    
+    <div id="push-the-footer"></div>
+</div>
+
+
+
+<div id="footer">
+	<div class="footer-wrapper clear">
+	    <div class="content clearfix inner">
+	        <div class="iu-sig">
+	            <img alt="Indiana University" src="styles/img/iu-sig.2x.png" width=233 height=35>
+	            <p class="copyright"><a href="http://www.iu.edu/comments/copyright.shtml" target="_blank">Copyright</a> &copy; 
+                    <script type="text/javascript">
+                        var current_date = new Date();
+                        document.write(" " + current_date.getFullYear());
+                    </script>
+                    <noscript>2015</noscript> The Trustees of <a href="http://www.iu.edu/" target="_blank">Indiana University</a> | <a href="http://www.iu.edu/comments/complaint.shtml" target="_blank">Copyright Complaints</a></p>
+	        </div>
+	        <div class="menu">
+	            <div class="social-links">
+	                <a class="facebook-link" href="http://www.facebook.com/iu.uits" target="_blank">Facebook</a>
+	                <a class="twitter-link" href="https://twitter.com/insideuits" target="_blank">Twitter</a>
+	                <a class="youtube-link" href="http://www.youtube.com/uitsatiu" target="_blank">YouTube</a>
+	                <a class="gplus-link" href="https://plus.google.com/109054154815294782478" rel="publisher" target="_blank">Google+</a>
+	            </div>
+	            <div class="footer-menu">
+	                <ul>
+	                    <li><a href="http://it.iu.edu" target="_blank">About IT</a></li>
+	                    <li><a href="http://www.indiana.edu/~uitshr/uitshrjobs.html" target="_blank">Jobs in IT</a></li>
+	                    <li><a href="privacy.html">Privacy Policy</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+<script src="../styles/js/jquery.js"></script>
+<script src="../styles/js/foundation.min.js"></script>
+<script src="../styles/js/plugins.js"></script>
+<script src="../styles/js/app.js"></script>
+<script src="../styles/js/modernizr.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+</body>
+</html>

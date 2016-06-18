@@ -1,0 +1,582 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://archive.org/stream/monistquart15hegeuoft#page/491/mode/1up
+inboundLinks: []
+lines:
+- |2+
+
+- "    Internet Archive BookReader - The Monist    \n"
+- "    \n"
+- |2
+          The BookReader requires JavaScript to be enabled. Please check that your browser supports JavaScript and that it is enabled in the browser settings.  You can also try one of the  other formats of the book.
+- "    \n"
+- "    \n"
+- |2+
+
+- |2
+    // Set some config variables -- $$$ NB: Config object format has not been finalized
+- |2
+    var brConfig = {theme:"ia"};
+- |2
+    brConfig["mode"] = 2;
+- |2+
+
+- |
+  // The URL in the script tag below is dynamically generated JavaScript that includes the book metadata and page image access functions.
+- |
+  // The ia{number}.us.archive.org server for the book can and does change, so this URL should NOT be used for permanent access.
+- |
+  // Use the JSLocate URL below instead for stable access - it will find the item and redirect to the correct server
+- |
+  // http://archive.org/bookreader/BookReaderJSLocate.php?id=monistquart15hegeuoft&subPrefix=monistquart15hegeuoft
+- |2+
+
+- |2
+      // Usage stats
+- |2
+      if(window.archive_analytics) { window.archive_analytics.values['bookreader'] = 'open'};
+- |2+
+
+- |2
+          The BookReader requires JavaScript to be enabled. Please check that your browser supports JavaScript and that it is enabled in the browser settings.  You can also try one of the  other formats of the book.
+- "    "
+index:
+  internet: !ruby/object:Word
+    word: internet
+    stem: internet
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 12
+    - 14
+  bookreader: !ruby/object:Word
+    word: bookreader
+    stem: bookread
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 3
+    - 14
+    - 17
+    - 19
+  monist: !ruby/object:Word
+    word: monist
+    stem: monist
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  requires: !ruby/object:Word
+    word: requires
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  enabled: !ruby/object:Word
+    word: enabled
+    stem: enabl
+    docFrequency: 5.0
+    docPositions:
+    - 3
+    - 19
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 5.0
+    docPositions:
+    - 3
+    - 19
+  supports: !ruby/object:Word
+    word: supports
+    stem: support
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 6.0
+    docPositions:
+    - 3
+    - 11
+    - 12
+    - 13
+    - 19
+  settings: !ruby/object:Word
+    word: settings
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 12
+    - 19
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  formats: !ruby/object:Word
+    word: formats
+    stem: format
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 19
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 5.0
+    docPositions:
+    - 3
+    - 11
+    - 12
+    - 19
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 7
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  config: !ruby/object:Word
+    word: config
+    stem: config
+    docFrequency: 3.0
+    docPositions:
+    - 7
+  variables: !ruby/object:Word
+    word: variables
+    stem: variabl
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  nb: !ruby/object:Word
+    word: nb
+    stem: nb
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  object: !ruby/object:Word
+    word: object
+    stem: object
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  format: !ruby/object:Word
+    word: format
+    stem: format
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 12
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  finalized: !ruby/object:Word
+    word: finalized
+    stem: final
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  brconfig: !ruby/object:Word
+    word: brconfig
+    stem: brconfig
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 9
+  theme: !ruby/object:Word
+    word: theme
+    stem: theme
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  ia: !ruby/object:Word
+    word: ia
+    stem: ia
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 12
+  mode: !ruby/object:Word
+    word: mode
+    stem: mode
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 12
+    - 13
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  tag: !ruby/object:Word
+    word: tag
+    stem: tag
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 13
+  dynamically: !ruby/object:Word
+    word: dynamically
+    stem: dynam
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  generated: !ruby/object:Word
+    word: generated
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  includes: !ruby/object:Word
+    word: includes
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  metadata: !ruby/object:Word
+    word: metadata
+    stem: metadata
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 12
+    - 13
+  functions: !ruby/object:Word
+    word: functions
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 14
+  server: !ruby/object:Word
+    word: server
+    stem: server
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 13
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  permanent: !ruby/object:Word
+    word: permanent
+    stem: perman
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jslocate: !ruby/object:Word
+    word: jslocate
+    stem: jslocat
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  instead: !ruby/object:Word
+    word: instead
+    stem: instead
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  stable: !ruby/object:Word
+    word: stable
+    stem: stabl
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  redirect: !ruby/object:Word
+    word: redirect
+    stem: redirect
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  correct: !ruby/object:Word
+    word: correct
+    stem: correct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  bookreaderjslocate: !ruby/object:Word
+    word: bookreaderjslocate
+    stem: bookreaderjsloc
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  subprefix: !ruby/object:Word
+    word: subprefix
+    stem: subprefix
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  usage: !ruby/object:Word
+    word: usage
+    stem: usag
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  stats: !ruby/object:Word
+    word: stats
+    stem: stat
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 17
+  archive_analytics: !ruby/object:Word
+    word: archive_analytics
+    stem: archive_analyt
+    docFrequency: 3.0
+    docPositions:
+    - 17
+  values: !ruby/object:Word
+    word: values
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 17
+lineCount: 21
+wordCount: 185
+rank: 0.2564102564102564
+title: The Monist
+links:
+- http://archive.org/details/monistquart15hegeuoft
+rawText: "\n    Internet Archive BookReader - The Monist    \n    \n        The BookReader
+  requires JavaScript to be enabled. Please check that your browser supports JavaScript
+  and that it is enabled in the browser settings.  You can also try one of the  other
+  formats of the book.\n    \n    \n\n  // Set some config variables -- $$$ NB: Config
+  object format has not been finalized\n  var brConfig = {theme:\"ia\"};\n  brConfig[\"mode\"]
+  = 2;\n\n// The URL in the script tag below is dynamically generated JavaScript that
+  includes the book metadata and page image access functions.\n// The ia{number}.us.archive.org
+  server for the book can and does change, so this URL should NOT be used for permanent
+  access.\n// Use the JSLocate URL below instead for stable access - it will find
+  the item and redirect to the correct server\n// http://archive.org/bookreader/BookReaderJSLocate.php?id=monistquart15hegeuoft&subPrefix=monistquart15hegeuoft\n\n
+  \   // Usage stats\n    if(window.archive_analytics) { window.archive_analytics.values['bookreader']
+  = 'open'};\n\n        The BookReader requires JavaScript to be enabled. Please check
+  that your browser supports JavaScript and that it is enabled in the browser settings.
+  \ You can also try one of the  other formats of the book.\n    "

@@ -1,0 +1,57 @@
+Nolan Roach, Jimmy Yu, Michelle Glozman  
+
+I427  
+
+12/15/2015  
+
+Final Project - Search Engine  
+
+Link: http://cgi.soic.indiana.edu/~jimmyu/index.html  
+
+All relevant files can be found in the cgi-pub/ root. 
+
+  
+
+  For the most part I was disappointed in the way the assignments had been coming together to make the search engine. We hadn’t really explored ruby objects the way I’d hoped for, at least in the templates anyways. I decided to come up with my own data structures and classes and completely recreate the assignments using them, which as you can imagine, took quite a while.  
+
+  My implementation and solution consists of three major classes: Word, Webpage and Crawler. The idea that I had was that, instead of the crawler saving just the raw HTML pages to file, It would create a Webpage object that holds tons of processed information about a page, including a “mini index” and then that object would be serialized and saved to file. The crawler would then take the ”mini index” and merge it with the larger inverted index. I would say it works fairly well. The main problem right now is that there are some redundancies and problems in the Webpage object that make the file slightly larger and unable to be serialized into binary format, which makes loading and saving them a bit slower. I had the same problem with the inverted index, causing its load time to be some 15 seconds due to it being so large, but I cut it down to around a second using the Marshall built in library.  
+
+ 
+
+ 
+
+ 
+
+What we accomplished: Working web crawler. The only mode for it is AND, as we thought this was the only mode that really made sense. 
+
+ 
+
+Our added sub feature was a small quote from the web page, similar to Google but definitely not chosen as well, so that the user can get a taste of the link he is about to go do. 
+
+ 
+
+What we didn't accomplish: Formatting. We had a hard time looking up Ruby cgi examples, most of what was online was based in Perl. We also weren't able to connect multiple CGI pages so the user could see the next 10 results. 
+
+ 
+
+ 
+
+Difficulties: One of the biggest difficulties was transferring the crawled results into the website. We tried several different methods before we found one that worked. First we tried to capture command line output. Then, write to a file everytime and base it off of that. Working on our school's linux servers was the main issue. We couldn't use sudo to give ourselves the permissions we needed to accomplish them this way. Eventually we just incorporated our search.rb completely into the index.cgi in order to process data. 
+
+ 
+
+2 user evaluations: 
+
+ 
+
+Max Foreman, Graduated student studied Archaeology at IU 
+
+       I can definitely see that the search engine works, although a lot of the links seem to favor IU web pages (coincidence?). The formatting wasn't great, however I liked that they included a small quote to see whether or not the page was relevant to my interests. 
+
+ 
+
+Marc Bannon, Economy student Junior at IU 
+
+ 
+
+I liked the name that they came up with for their Not Google search engine. Reminds me of off brand cereal names... Anyway, the search engine gave me different results for all of my combinations of searches. A few didn't work, led to an error page. I liked how, if I put more and more search words, the results would become narrower. That is how a search engine should be working, I think. 

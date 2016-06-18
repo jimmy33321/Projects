@@ -1,0 +1,2288 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.math.sunysb.edu/~tony/whatsnew/column/antikytheraI-0400/kyth1.html
+inboundLinks: []
+lines:
+- |2+
+
+- |
+  The Antikythera Mechanism I
+- |
+  With Java animations by Bill Casselman
+- |2+
+
+- |2+
+
+- |
+    
+- |
+  The main reference for these columns is printed: the monograph,
+- |
+  cited below, by the famous Yale historian of science Derek
+- |
+  De Solla Price (other printed references).
+- |
+  On the web one can find the complete text of his 1959 Scientific American
+- |
+  article on the subject. E. C. Zeeman, K.B., F.R.S. delivered lectures
+- |
+  on the topic in 1998 at the University of Texas, San Antonio and
+- |
+  at Trinity College, Dublin. The 23 transparencies from these lectures are on the web and it's
+- |
+  almost like being there (see his paper for
+- "more detail). DivingBum Enterprises has a \n"
+- |
+  page with a photograph of the curent installation in the National
+- |
+  Museum of Archaeology, Athens. Chris Rorres' page
+- |
+  Spheres and Planetaria on the Drexel University site has a nice photograph
+- |
+  of Price himself. Rob S. Rice of the University of Pennsylvania has
+- |
+  posted a very useful paper
+- |
+  on the subject, from a 1995 U.S. Naval Academy symposium on Naval History.
+- |
+  A lively sketch of De Solla Price's scientific and human personality
+- "can be found in the Foreword, by Robert K. Merton and Eugene Garfield, to one of
+  his \n"
+- |
+  books.
+- |
+  1. The history of the Mechanism
+- |2+
+
+- |
+  The Antikythera Mechanism is the name given to an astronomical
+- |
+  calculating device, measuring about 32 by 16 by 10 cm,
+- |
+  which was discovered in 1900 in a sunken ship just off the coast
+- |
+  of Antikythera, an island between Crete and the Greek mainland.
+- "Several kinds of evidence point incontrovertibly to around 80 B.C. \n"
+- |
+  for the date of the shipwreck. The device, made of bronze gears
+- |
+  fitted in a wooden case, was crushed in the wreck, and parts of
+- |
+  the faces were lost, "the rest then being coated with a hard
+- |
+  calcareous deposit at the same time as the metal corroded away
+- |
+  to a thin core coated with hard metallic salts preserving much
+- |
+  of the former shape of the bronze" during the almost 2000 years
+- |
+  it lay submerged. The quotation is from Derek de Solla Price's
+- |
+  monograph Gears from the Greeks ...  in the 1974 Transactions
+- |
+  of the American Philosophical Society (Volume 64, part 7).
+- |2+
+
+- |2+
+
+- |
+  General plan of all gearing, composite
+- "diagram from De Solla Price, Transactions of the American \n"
+- |
+  Philosophical
+- "Society Vol 64 No 7 (1974). Reproduced with permission. \n"
+- |2+
+
+- |2+
+
+- |
+  It is hard to exaggerate the singularity of this device, or
+- |
+  its importance in forcing a complete re-evaluation of what had
+- "been believed about technology in the ancient world. For this box \n"
+- |
+  contained some 32 gears, assembled into a mechanism that accurately
+- "reproduced the motion of the sun and the moon against the \n"
+- "background of fixed stars, with a differential giving \n"
+- |
+  their relative position and hence the phases of the moon. It is
+- |
+  enough to know that there is no trace of anything like it until
+- |
+  around 1000 A.D., and that when it was first published there were
+- |
+  serious suggestions that it had been dropped into the wreck at
+- |
+  a much later date or even that it was the
+- |
+  work of alien astronauts.
+- |
+  The general plan of the gearing could only be drawn after 1971
+- |
+  when, on De Solla Price's instigation, the remnants of the
+- |
+  mechanism were viewed with gamma rays, which could penetrate
+- |
+  the calcareous block in which the gears were embedded. Then
+- |
+  careful counting of teeth, and examination of the way the
+- |
+  gears meshed, showed that "the gear ratios could be associated
+- |
+  with well-known astronomical and calendrical parameters" (Price)
+- |
+  and allowed the almost complete description of how the device
+- |
+  must have functioned.
+- |2+
+
+- |
+  This is the first of two columns on the Antikythera Mechanism. In
+- |
+  each we will examine one part of the mechanism that has special
+- |
+  mathematical interest. This month it is the Sun-Moon assembly,
+- |
+  next month: the Differential Gear.
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  --Tony Phillips
+- |
+  SUNY at Stony Brook
+- |2+
+
+- |2+
+
+- |
+  1. The history of the
+- |
+  Mechanism
+- |
+  2. Pictures of a Mechanism
+- |
+  3. The Sun-Moon Assembly
+- |
+  4. Gear ratios and continued fractions
+- |
+  References
+- |2+
+
+- |
+  Comments: webmaster@ams.org
+- |
+  © copyright 2000, American Mathematical Society.
+- |2+
+
+- |2+
+
+- |
+  With Java animations by Bill Casselman
+- |2+
+
+- |2+
+
+- |
+    
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  The general plan of the gearing could only be drawn after 1971
+- |
+  when, on De Solla Price's instigation, the remnants of the
+- |
+  mechanism were viewed with gamma rays, which could penetrate
+- |
+  the calcareous block in which the gears were embedded. Then
+- |
+  careful counting of teeth, and examination of the way the
+- |
+  gears meshed, showed that "the gear ratios could be associated
+- |
+  with well-known astronomical and calendrical parameters" (Price)
+- |
+  and allowed the almost complete description of how the device
+- |
+  must have functioned.
+- |2+
+
+- |
+  This is the first of two columns on the Antikythera Mechanism. In
+- |
+  each we will examine one part of the mechanism that has special
+- |
+  mathematical interest. This month it is the Sun-Moon assembly,
+- |
+  next month: the Differential Gear.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  --Tony Phillips
+- |
+  SUNY at Stony Brook
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+index:
+  antikythera: !ruby/object:Word
+    word: antikythera
+    stem: antikythera
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 26
+    - 29
+    - 70
+    - 110
+  mechanism: !ruby/object:Word
+    word: mechanism
+    stem: mechan
+    docFrequency: 13.0
+    docPositions:
+    - 1
+    - 24
+    - 26
+    - 51
+    - 62
+    - 70
+    - 71
+    - 83
+    - 84
+    - 102
+    - 110
+    - 111
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  java: !ruby/object:Word
+    word: java
+    stem: java
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 93
+  animations: !ruby/object:Word
+    word: animations
+    stem: anim
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 93
+  bill: !ruby/object:Word
+    word: bill
+    stem: bill
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 93
+  casselman: !ruby/object:Word
+    word: casselman
+    stem: casselman
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 93
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 12
+  columns: !ruby/object:Word
+    word: columns
+    stem: column
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 70
+    - 110
+  printed: !ruby/object:Word
+    word: printed
+    stem: print
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 8
+  monograph: !ruby/object:Word
+    word: monograph
+    stem: monograph
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 38
+  cited: !ruby/object:Word
+    word: cited
+    stem: cite
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  famous: !ruby/object:Word
+    word: famous
+    stem: famou
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  yale: !ruby/object:Word
+    word: yale
+    stem: yale
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  historian: !ruby/object:Word
+    word: historian
+    stem: historian
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  derek: !ruby/object:Word
+    word: derek
+    stem: derek
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 37
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 7.0
+    docPositions:
+    - 8
+    - 21
+    - 37
+    - 43
+    - 61
+    - 101
+  solla: !ruby/object:Word
+    word: solla
+    stem: solla
+    docFrequency: 7.0
+    docPositions:
+    - 8
+    - 21
+    - 37
+    - 43
+    - 61
+    - 101
+  price: !ruby/object:Word
+    word: price
+    stem: price
+    docFrequency: 10.0
+    docPositions:
+    - 8
+    - 18
+    - 21
+    - 37
+    - 43
+    - 61
+    - 66
+    - 101
+    - 106
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  references: !ruby/object:Word
+    word: references
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 87
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 12
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 22
+    - 71
+    - 111
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 22
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 49
+    - 67
+    - 107
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 13
+    - 22
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 21
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 39
+    - 43
+    - 90
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 20
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 30
+  zeeman: !ruby/object:Word
+    word: zeeman
+    stem: zeeman
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 22
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 30
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 9.0
+    docPositions:
+    - 10
+    - 12
+    - 18
+    - 20
+    - 21
+    - 37
+    - 61
+    - 101
+  delivered: !ruby/object:Word
+    word: delivered
+    stem: deliv
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  lectures: !ruby/object:Word
+    word: lectures
+    stem: lectur
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 12
+  topic: !ruby/object:Word
+    word: topic
+    stem: topic
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 17
+    - 18
+  texas: !ruby/object:Word
+    word: texas
+    stem: texa
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  antonio: !ruby/object:Word
+    word: antonio
+    stem: antonio
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 18.0
+    docPositions:
+    - 11
+    - 12
+    - 17
+    - 21
+    - 22
+    - 29
+    - 32
+    - 52
+    - 54
+    - 56
+    - 64
+    - 66
+    - 67
+    - 86
+    - 104
+    - 106
+    - 107
+  trinity: !ruby/object:Word
+    word: trinity
+    stem: triniti
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  dublin: !ruby/object:Word
+    word: dublin
+    stem: dublin
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  transparencies: !ruby/object:Word
+    word: transparencies
+    stem: transpar
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 5.0
+    docPositions:
+    - 13
+    - 36
+    - 67
+    - 107
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 55
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 33
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 55
+    - 56
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  paper: !ruby/object:Word
+    word: paper
+    stem: paper
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 19
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  detail: !ruby/object:Word
+    word: detail
+    stem: detail
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  divingbum: !ruby/object:Word
+    word: divingbum
+    stem: divingbum
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  enterprises: !ruby/object:Word
+    word: enterprises
+    stem: enterpris
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 17
+    - 18
+    - 71
+    - 111
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 16
+  photograph: !ruby/object:Word
+    word: photograph
+    stem: photograph
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 17
+  curent: !ruby/object:Word
+    word: curent
+    stem: curent
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  installation: !ruby/object:Word
+    word: installation
+    stem: instal
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  museum: !ruby/object:Word
+    word: museum
+    stem: museum
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  athens: !ruby/object:Word
+    word: athens
+    stem: athen
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  chris: !ruby/object:Word
+    word: chris
+    stem: chri
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  rorres: !ruby/object:Word
+    word: rorres
+    stem: rorr
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  spheres: !ruby/object:Word
+    word: spheres
+    stem: sphere
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  planetaria: !ruby/object:Word
+    word: planetaria
+    stem: planetaria
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  drexel: !ruby/object:Word
+    word: drexel
+    stem: drexel
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  nice: !ruby/object:Word
+    word: nice
+    stem: nice
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  himself: !ruby/object:Word
+    word: himself
+    stem: himself
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  rob: !ruby/object:Word
+    word: rob
+    stem: rob
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  rice: !ruby/object:Word
+    word: rice
+    stem: rice
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  pennsylvania: !ruby/object:Word
+    word: pennsylvania
+    stem: pennsylvania
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  posted: !ruby/object:Word
+    word: posted
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  very: !ruby/object:Word
+    word: very
+    stem: veri
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  naval: !ruby/object:Word
+    word: naval
+    stem: naval
+    docFrequency: 3.0
+    docPositions:
+    - 20
+  academy: !ruby/object:Word
+    word: academy
+    stem: academi
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  symposium: !ruby/object:Word
+    word: symposium
+    stem: symposium
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 24
+    - 82
+  lively: !ruby/object:Word
+    word: lively
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  sketch: !ruby/object:Word
+    word: sketch
+    stem: sketch
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  human: !ruby/object:Word
+    word: human
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  personality: !ruby/object:Word
+    word: personality
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  foreword: !ruby/object:Word
+    word: foreword
+    stem: foreword
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  robert: !ruby/object:Word
+    word: robert
+    stem: robert
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  merton: !ruby/object:Word
+    word: merton
+    stem: merton
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  eugene: !ruby/object:Word
+    word: eugene
+    stem: eugen
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  garfield: !ruby/object:Word
+    word: garfield
+    stem: garfield
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  astronomical: !ruby/object:Word
+    word: astronomical
+    stem: astronom
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 66
+    - 106
+  calculating: !ruby/object:Word
+    word: calculating
+    stem: calcul
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  device: !ruby/object:Word
+    word: device
+    stem: devic
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 31
+    - 48
+    - 67
+    - 107
+  measuring: !ruby/object:Word
+    word: measuring
+    stem: measur
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  cm: !ruby/object:Word
+    word: cm
+    stem: cm
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 6.0
+    docPositions:
+    - 28
+    - 62
+    - 63
+    - 102
+    - 103
+  discovered: !ruby/object:Word
+    word: discovered
+    stem: discov
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  sunken: !ruby/object:Word
+    word: sunken
+    stem: sunken
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  ship: !ruby/object:Word
+    word: ship
+    stem: ship
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  just: !ruby/object:Word
+    word: just
+    stem: just
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  coast: !ruby/object:Word
+    word: coast
+    stem: coast
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  crete: !ruby/object:Word
+    word: crete
+    stem: crete
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  greek: !ruby/object:Word
+    word: greek
+    stem: greek
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  mainland: !ruby/object:Word
+    word: mainland
+    stem: mainland
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  kinds: !ruby/object:Word
+    word: kinds
+    stem: kind
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  evidence: !ruby/object:Word
+    word: evidence
+    stem: evid
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  incontrovertibly: !ruby/object:Word
+    word: incontrovertibly
+    stem: incontrovert
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 56
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 58
+  shipwreck: !ruby/object:Word
+    word: shipwreck
+    stem: shipwreck
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  bronze: !ruby/object:Word
+    word: bronze
+    stem: bronz
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 36
+  gears: !ruby/object:Word
+    word: gears
+    stem: gear
+    docFrequency: 8.0
+    docPositions:
+    - 31
+    - 38
+    - 51
+    - 63
+    - 65
+    - 103
+    - 105
+  fitted: !ruby/object:Word
+    word: fitted
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  wooden: !ruby/object:Word
+    word: wooden
+    stem: wooden
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  crushed: !ruby/object:Word
+    word: crushed
+    stem: crush
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  wreck: !ruby/object:Word
+    word: wreck
+    stem: wreck
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 57
+  parts: !ruby/object:Word
+    word: parts
+    stem: part
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  faces: !ruby/object:Word
+    word: faces
+    stem: face
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 7.0
+    docPositions:
+    - 33
+    - 56
+    - 62
+    - 63
+    - 102
+    - 103
+  lost: !ruby/object:Word
+    word: lost
+    stem: lost
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  rest: !ruby/object:Word
+    word: rest
+    stem: rest
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 4.0
+    docPositions:
+    - 33
+    - 63
+    - 103
+  coated: !ruby/object:Word
+    word: coated
+    stem: coat
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 35
+  hard: !ruby/object:Word
+    word: hard
+    stem: hard
+    docFrequency: 4.0
+    docPositions:
+    - 33
+    - 35
+    - 48
+  calcareous: !ruby/object:Word
+    word: calcareous
+    stem: calcar
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 63
+    - 103
+  deposit: !ruby/object:Word
+    word: deposit
+    stem: deposit
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  metal: !ruby/object:Word
+    word: metal
+    stem: metal
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  corroded: !ruby/object:Word
+    word: corroded
+    stem: corrod
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  away: !ruby/object:Word
+    word: away
+    stem: awai
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  thin: !ruby/object:Word
+    word: thin
+    stem: thin
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  core: !ruby/object:Word
+    word: core
+    stem: core
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  metallic: !ruby/object:Word
+    word: metallic
+    stem: metal
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  salts: !ruby/object:Word
+    word: salts
+    stem: salt
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  preserving: !ruby/object:Word
+    word: preserving
+    stem: preserv
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 58
+  former: !ruby/object:Word
+    word: former
+    stem: former
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  shape: !ruby/object:Word
+    word: shape
+    stem: shape
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  lay: !ruby/object:Word
+    word: lay
+    stem: lai
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  submerged: !ruby/object:Word
+    word: submerged
+    stem: submerg
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  quotation: !ruby/object:Word
+    word: quotation
+    stem: quotat
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  greeks: !ruby/object:Word
+    word: greeks
+    stem: greek
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  transactions: !ruby/object:Word
+    word: transactions
+    stem: transact
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 43
+  philosophical: !ruby/object:Word
+    word: philosophical
+    stem: philosoph
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 44
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 45
+    - 90
+  volume: !ruby/object:Word
+    word: volume
+    stem: volum
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 71
+    - 111
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 4.0
+    docPositions:
+    - 42
+    - 60
+    - 100
+  plan: !ruby/object:Word
+    word: plan
+    stem: plan
+    docFrequency: 4.0
+    docPositions:
+    - 42
+    - 60
+    - 100
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  gearing: !ruby/object:Word
+    word: gearing
+    stem: gear
+    docFrequency: 4.0
+    docPositions:
+    - 42
+    - 60
+    - 100
+  composite: !ruby/object:Word
+    word: composite
+    stem: composit
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  diagram: !ruby/object:Word
+    word: diagram
+    stem: diagram
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  vol: !ruby/object:Word
+    word: vol
+    stem: vol
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 55
+  reproduced: !ruby/object:Word
+    word: reproduced
+    stem: reproduc
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 52
+  permission: !ruby/object:Word
+    word: permission
+    stem: permiss
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  exaggerate: !ruby/object:Word
+    word: exaggerate
+    stem: exagger
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  singularity: !ruby/object:Word
+    word: singularity
+    stem: singular
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  importance: !ruby/object:Word
+    word: importance
+    stem: import
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  forcing: !ruby/object:Word
+    word: forcing
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  evaluation: !ruby/object:Word
+    word: evaluation
+    stem: evalu
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 57
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 57
+  believed: !ruby/object:Word
+    word: believed
+    stem: believ
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  ancient: !ruby/object:Word
+    word: ancient
+    stem: ancient
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  box: !ruby/object:Word
+    word: box
+    stem: box
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  contained: !ruby/object:Word
+    word: contained
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  assembled: !ruby/object:Word
+    word: assembled
+    stem: assembl
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 57
+  accurately: !ruby/object:Word
+    word: accurately
+    stem: accur
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  motion: !ruby/object:Word
+    word: motion
+    stem: motion
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  sun: !ruby/object:Word
+    word: sun
+    stem: sun
+    docFrequency: 5.0
+    docPositions:
+    - 52
+    - 72
+    - 85
+    - 112
+  moon: !ruby/object:Word
+    word: moon
+    stem: moon
+    docFrequency: 6.0
+    docPositions:
+    - 52
+    - 54
+    - 72
+    - 85
+    - 112
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  differential: !ruby/object:Word
+    word: differential
+    stem: differenti
+    docFrequency: 4.0
+    docPositions:
+    - 53
+    - 73
+    - 113
+  giving: !ruby/object:Word
+    word: giving
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  relative: !ruby/object:Word
+    word: relative
+    stem: rel
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  hence: !ruby/object:Word
+    word: hence
+    stem: henc
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  phases: !ruby/object:Word
+    word: phases
+    stem: phase
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  trace: !ruby/object:Word
+    word: trace
+    stem: trace
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 4.0
+    docPositions:
+    - 56
+    - 70
+    - 110
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  serious: !ruby/object:Word
+    word: serious
+    stem: seriou
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  suggestions: !ruby/object:Word
+    word: suggestions
+    stem: suggest
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  dropped: !ruby/object:Word
+    word: dropped
+    stem: drop
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  later: !ruby/object:Word
+    word: later
+    stem: later
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  alien: !ruby/object:Word
+    word: alien
+    stem: alien
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  astronauts: !ruby/object:Word
+    word: astronauts
+    stem: astronaut
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 7.0
+    docPositions:
+    - 60
+    - 62
+    - 65
+    - 100
+    - 102
+    - 105
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 100
+  drawn: !ruby/object:Word
+    word: drawn
+    stem: drawn
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 100
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 100
+  instigation: !ruby/object:Word
+    word: instigation
+    stem: instig
+    docFrequency: 3.0
+    docPositions:
+    - 61
+    - 101
+  remnants: !ruby/object:Word
+    word: remnants
+    stem: remnant
+    docFrequency: 3.0
+    docPositions:
+    - 61
+    - 101
+  viewed: !ruby/object:Word
+    word: viewed
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 102
+  gamma: !ruby/object:Word
+    word: gamma
+    stem: gamma
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 102
+  rays: !ruby/object:Word
+    word: rays
+    stem: rai
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 102
+  penetrate: !ruby/object:Word
+    word: penetrate
+    stem: penetr
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 102
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 103
+  embedded: !ruby/object:Word
+    word: embedded
+    stem: embed
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 103
+  careful: !ruby/object:Word
+    word: careful
+    stem: care
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 104
+  counting: !ruby/object:Word
+    word: counting
+    stem: count
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 104
+  teeth: !ruby/object:Word
+    word: teeth
+    stem: teeth
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 104
+  examination: !ruby/object:Word
+    word: examination
+    stem: examin
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 104
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 104
+  meshed: !ruby/object:Word
+    word: meshed
+    stem: mesh
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 105
+  showed: !ruby/object:Word
+    word: showed
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 105
+  gear: !ruby/object:Word
+    word: gear
+    stem: gear
+    docFrequency: 6.0
+    docPositions:
+    - 65
+    - 73
+    - 86
+    - 105
+    - 113
+  ratios: !ruby/object:Word
+    word: ratios
+    stem: ratio
+    docFrequency: 4.0
+    docPositions:
+    - 65
+    - 86
+    - 105
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 105
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 106
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 106
+  calendrical: !ruby/object:Word
+    word: calendrical
+    stem: calendr
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 106
+  parameters: !ruby/object:Word
+    word: parameters
+    stem: paramet
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 106
+  allowed: !ruby/object:Word
+    word: allowed
+    stem: allow
+    docFrequency: 3.0
+    docPositions:
+    - 67
+    - 107
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 3.0
+    docPositions:
+    - 67
+    - 107
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 108
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 108
+  functioned: !ruby/object:Word
+    word: functioned
+    stem: function
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 108
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 110
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 111
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 111
+  examine: !ruby/object:Word
+    word: examine
+    stem: examin
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 111
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 111
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 90
+    - 112
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 112
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 72
+    - 73
+    - 112
+    - 113
+  assembly: !ruby/object:Word
+    word: assembly
+    stem: assembl
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 85
+    - 112
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 113
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 78
+    - 90
+    - 117
+  tony: !ruby/object:Word
+    word: tony
+    stem: toni
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 117
+  phillips: !ruby/object:Word
+    word: phillips
+    stem: phillip
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 117
+  suny: !ruby/object:Word
+    word: suny
+    stem: suni
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 118
+  stony: !ruby/object:Word
+    word: stony
+    stem: stoni
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 118
+  brook: !ruby/object:Word
+    word: brook
+    stem: brook
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 118
+  pictures: !ruby/object:Word
+    word: pictures
+    stem: pictur
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  fractions: !ruby/object:Word
+    word: fractions
+    stem: fraction
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  webmaster: !ruby/object:Word
+    word: webmaster
+    stem: webmast
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  ams: !ruby/object:Word
+    word: ams
+    stem: am
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 90
+lineCount: 125
+wordCount: 807
+rank: 0.2540983606557377
+title: antikythera1-1
+links:
+- http://www.giant.net.au/users/rupert/kythera/kythera3.htm
+- http://www.math.utsa.edu/ecz/ak_m.html
+- http://www.geocities.com/Yosemite/9610/antikytheracomputer.htm
+- http://www.mcs.drexel.edu/~crorres/Archimedes/Sphere/SphereIntro.html
+- http://ccat.sas.upenn.edu/rrice/usna_pap.html
+- http://www.garfield.library.upenn.edu/lilscibi.html
+rawText: "\nThe Antikythera Mechanism I\nWith Java animations by Bill Casselman\n\n\n  \nThe
+  main reference for these columns is printed: the monograph,\ncited below, by the
+  famous Yale historian of science Derek\nDe Solla Price (other printed references).\nOn
+  the web one can find the complete text of his 1959 Scientific American\narticle
+  on the subject. E. C. Zeeman, K.B., F.R.S. delivered lectures\non the topic in 1998
+  at the University of Texas, San Antonio and\nat Trinity College, Dublin. The 23
+  transparencies from these lectures are on the web and it's\nalmost like being there
+  (see his paper for\nmore detail). DivingBum Enterprises has a \npage with a photograph
+  of the curent installation in the National\nMuseum of Archaeology, Athens. Chris
+  Rorres' page\nSpheres and Planetaria on the Drexel University site has a nice photograph\nof
+  Price himself. Rob S. Rice of the University of Pennsylvania has\nposted a very
+  useful paper\non the subject, from a 1995 U.S. Naval Academy symposium on Naval
+  History.\nA lively sketch of De Solla Price's scientific and human personality\ncan
+  be found in the Foreword, by Robert K. Merton and Eugene Garfield, to one of his
+  \nbooks.\n1. The history of the Mechanism\n\nThe Antikythera Mechanism is the name
+  given to an astronomical\ncalculating device, measuring about 32 by 16 by 10 cm,\nwhich
+  was discovered in 1900 in a sunken ship just off the coast\nof Antikythera, an island
+  between Crete and the Greek mainland.\nSeveral kinds of evidence point incontrovertibly
+  to around 80 B.C. \nfor the date of the shipwreck. The device, made of bronze gears\nfitted
+  in a wooden case, was crushed in the wreck, and parts of\nthe faces were lost, \"the
+  rest then being coated with a hard\ncalcareous deposit at the same time as the metal
+  corroded away\nto a thin core coated with hard metallic salts preserving much\nof
+  the former shape of the bronze\" during the almost 2000 years\nit lay submerged.
+  The quotation is from Derek de Solla Price's\nmonograph Gears from the Greeks ...
+  \ in the 1974 Transactions\nof the American Philosophical Society (Volume 64, part
+  7).\n\n\nGeneral plan of all gearing, composite\ndiagram from De Solla Price, Transactions
+  of the American \nPhilosophical\nSociety Vol 64 No 7 (1974). Reproduced with permission.
+  \n\n\nIt is hard to exaggerate the singularity of this device, or\nits importance
+  in forcing a complete re-evaluation of what had\nbeen believed about technology
+  in the ancient world. For this box \ncontained some 32 gears, assembled into a mechanism
+  that accurately\nreproduced the motion of the sun and the moon against the \nbackground
+  of fixed stars, with a differential giving \ntheir relative position and hence the
+  phases of the moon. It is\nenough to know that there is no trace of anything like
+  it until\naround 1000 A.D., and that when it was first published there were\nserious
+  suggestions that it had been dropped into the wreck at\na much later date or even
+  that it was the\nwork of alien astronauts.\nThe general plan of the gearing could
+  only be drawn after 1971\nwhen, on De Solla Price's instigation, the remnants of
+  the\nmechanism were viewed with gamma rays, which could penetrate\nthe calcareous
+  block in which the gears were embedded. Then\ncareful counting of teeth, and examination
+  of the way the\ngears meshed, showed that \"the gear ratios could be associated\nwith
+  well-known astronomical and calendrical parameters\" (Price)\nand allowed the almost
+  complete description of how the device\nmust have functioned.\n\nThis is the first
+  of two columns on the Antikythera Mechanism. In\neach we will examine one part of
+  the mechanism that has special\nmathematical interest. This month it is the Sun-Moon
+  assembly,\nnext month: the Differential Gear.\n\n\n\n\n--Tony Phillips\nSUNY at
+  Stony Brook\n\n\n1. The history of the\nMechanism\n2. Pictures of a Mechanism\n3.
+  The Sun-Moon Assembly\n4. Gear ratios and continued fractions\nReferences\n\nComments:
+  webmaster@ams.org\n© copyright 2000, American Mathematical Society.\n\n\nWith Java
+  animations by Bill Casselman\n\n\n  \n\n\n\nThe general plan of the gearing could
+  only be drawn after 1971\nwhen, on De Solla Price's instigation, the remnants of
+  the\nmechanism were viewed with gamma rays, which could penetrate\nthe calcareous
+  block in which the gears were embedded. Then\ncareful counting of teeth, and examination
+  of the way the\ngears meshed, showed that \"the gear ratios could be associated\nwith
+  well-known astronomical and calendrical parameters\" (Price)\nand allowed the almost
+  complete description of how the device\nmust have functioned.\n\nThis is the first
+  of two columns on the Antikythera Mechanism. In\neach we will examine one part of
+  the mechanism that has special\nmathematical interest. This month it is the Sun-Moon
+  assembly,\nnext month: the Differential Gear.\n\n\n\n--Tony Phillips\nSUNY at Stony
+  Brook\n\n\n\n\n\n\n"

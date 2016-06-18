@@ -1,0 +1,642 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://acreditacion.cervantes.es/
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "      Instituto Cervantes\r\n"
+- "      Sistema de Acreditación de Centros. Instituto Cervantes\r\n"
+- "      English\r\n"
+- "      Para estudiantes\r\n"
+- "        Para centros\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "    \tSACIC. Sistema de Acreditación de Centros Instituto Cervantes. Única acreditación
+  internacional de centros de enseñanza de español como lengua extranjera\r\n"
+- "        Reconocimiento internacional\r\n"
+- "            Promoción y difusión internacional de oferta de cursos\r\n"
+- "            Reflexión sobre la actividad del centro\r\n"
+- "            Compromiso con la calidad y la mejora continua\r\n"
+- "        Cómo acreditarse\r\n"
+- "            Centros acreditados en España\r\n"
+- "            Centros acreditados en el contexto internacional\r\n"
+- "     \t    \r\n"
+- "    \r\n"
+- "     \tLos centros acreditados por el Instituto Cervantes se reconocen por el uso
+  de este logotipo:\r\n"
+- "  \t\t\r\n"
+- "   \t\r\n"
+- "        Guía de centros\r\n"
+- "            Presentación del SACIC\r\n"
+- "        \t\r\n"
+- "\t\t\r\n"
+- "        var guia = document.getElementById(\"pdf1\");\r\n"
+- "        guia.href = \"guia.htm\";\r\n"
+- "        guia.onclick = function() {\r\n"
+- "            return hs.htmlExpand(this, {objectType: 'iframe', wrapperClassName:
+  'highslide-no-border guia'});\r\n"
+- "        };\r\n"
+- "                \r\n"
+- "        var presentacion = document.getElementById(\"pdf2\");\r\n"
+- "        presentacion.href = \"presentacion.htm\";\r\n"
+- "        presentacion.onclick = function() {\r\n"
+- "            return hs.htmlExpand(this, {objectType: 'iframe', wrapperClassName:
+  'highslide-no-border presentacion'});\r\n"
+- "        };\t\t\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "    Privacidad Accesibilidad Contacto Mapa © Instituto Cervantes, document.write(fecha());.
+  Reservados todos los derechos.\r\n"
+- "      \r\n"
+- "\r\n"
+- 'Los centros acreditados por el Instituto Cervantes se reconocen por el uso de este
+  logotipo:'
+index:
+  instituto: !ruby/object:Word
+    word: instituto
+    stem: instituto
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 5
+    - 12
+    - 22
+    - 44
+    - 47
+  cervantes: !ruby/object:Word
+    word: cervantes
+    stem: cervant
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 5
+    - 12
+    - 22
+    - 44
+    - 47
+  sistema: !ruby/object:Word
+    word: sistema
+    stem: sistema
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 12
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 13.0
+    docPositions:
+    - 5
+    - 12
+    - 14
+    - 22
+    - 25
+    - 47
+  acreditaci: !ruby/object:Word
+    word: acreditaci
+    stem: acreditaci
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 12
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 8.0
+    docPositions:
+    - 5
+    - 12
+    - 14
+    - 15
+    - 26
+  centros: !ruby/object:Word
+    word: centros
+    stem: centro
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 8
+    - 12
+    - 18
+    - 19
+    - 22
+    - 25
+    - 47
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  para: !ruby/object:Word
+    word: para
+    stem: para
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 8
+  estudiantes: !ruby/object:Word
+    word: estudiantes
+    stem: estudiant
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  sacic: !ruby/object:Word
+    word: sacic
+    stem: sacic
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 26
+  nica: !ruby/object:Word
+    word: nica
+    stem: nica
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  internacional: !ruby/object:Word
+    word: internacional
+    stem: internacion
+    docFrequency: 5.0
+    docPositions:
+    - 12
+    - 13
+    - 14
+    - 19
+  ense: !ruby/object:Word
+    word: ense
+    stem: ens
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  anza: !ruby/object:Word
+    word: anza
+    stem: anza
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  espa: !ruby/object:Word
+    word: espa
+    stem: espa
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 18
+  ol: !ruby/object:Word
+    word: ol
+    stem: ol
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  como: !ruby/object:Word
+    word: como
+    stem: como
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  lengua: !ruby/object:Word
+    word: lengua
+    stem: lengua
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  extranjera: !ruby/object:Word
+    word: extranjera
+    stem: extranjera
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  reconocimiento: !ruby/object:Word
+    word: reconocimiento
+    stem: reconocimiento
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  promoci: !ruby/object:Word
+    word: promoci
+    stem: promoci
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 16
+  difusi: !ruby/object:Word
+    word: difusi
+    stem: difusi
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  oferta: !ruby/object:Word
+    word: oferta
+    stem: oferta
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  cursos: !ruby/object:Word
+    word: cursos
+    stem: curso
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  reflexi: !ruby/object:Word
+    word: reflexi
+    stem: reflexi
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  sobre: !ruby/object:Word
+    word: sobre
+    stem: sobr
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  la: !ruby/object:Word
+    word: la
+    stem: la
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 16
+  actividad: !ruby/object:Word
+    word: actividad
+    stem: actividad
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  del: !ruby/object:Word
+    word: del
+    stem: del
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 26
+  centro: !ruby/object:Word
+    word: centro
+    stem: centro
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  compromiso: !ruby/object:Word
+    word: compromiso
+    stem: compromiso
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  con: !ruby/object:Word
+    word: con
+    stem: con
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  calidad: !ruby/object:Word
+    word: calidad
+    stem: calidad
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  mejora: !ruby/object:Word
+    word: mejora
+    stem: mejora
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  continua: !ruby/object:Word
+    word: continua
+    stem: continua
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  mo: !ruby/object:Word
+    word: mo
+    stem: mo
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  acreditarse: !ruby/object:Word
+    word: acreditarse
+    stem: acreditars
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  acreditados: !ruby/object:Word
+    word: acreditados
+    stem: acreditado
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 19
+    - 22
+    - 47
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 3.0
+    docPositions:
+    - 18
+    - 19
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 22
+    - 47
+  contexto: !ruby/object:Word
+    word: contexto
+    stem: contexto
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  los: !ruby/object:Word
+    word: los
+    stem: lo
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 44
+    - 47
+  por: !ruby/object:Word
+    word: por
+    stem: por
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 47
+  se: !ruby/object:Word
+    word: se
+    stem: se
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 47
+  reconocen: !ruby/object:Word
+    word: reconocen
+    stem: reconocen
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 47
+  uso: !ruby/object:Word
+    word: uso
+    stem: uso
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 47
+  este: !ruby/object:Word
+    word: este
+    stem: est
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 47
+  logotipo: !ruby/object:Word
+    word: logotipo
+    stem: logotipo
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 47
+  gu: !ruby/object:Word
+    word: gu
+    stem: gu
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  presentaci: !ruby/object:Word
+    word: presentaci
+    stem: presentaci
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  guia: !ruby/object:Word
+    word: guia
+    stem: guia
+    docFrequency: 6.0
+    docPositions:
+    - 29
+    - 30
+    - 31
+    - 32
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 35
+    - 44
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 3.0
+    docPositions:
+    - 29
+    - 35
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 36
+  htm: !ruby/object:Word
+    word: htm
+    stem: htm
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 36
+  onclick: !ruby/object:Word
+    word: onclick
+    stem: onclick
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 37
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 37
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  hs: !ruby/object:Word
+    word: hs
+    stem: hs
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  htmlexpand: !ruby/object:Word
+    word: htmlexpand
+    stem: htmlexpand
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  objecttype: !ruby/object:Word
+    word: objecttype
+    stem: objecttyp
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  iframe: !ruby/object:Word
+    word: iframe
+    stem: ifram
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  wrapperclassname: !ruby/object:Word
+    word: wrapperclassname
+    stem: wrapperclassnam
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  highslide: !ruby/object:Word
+    word: highslide
+    stem: highslid
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  presentacion: !ruby/object:Word
+    word: presentacion
+    stem: presentacion
+    docFrequency: 6.0
+    docPositions:
+    - 35
+    - 36
+    - 37
+    - 38
+  privacidad: !ruby/object:Word
+    word: privacidad
+    stem: privacidad
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  accesibilidad: !ruby/object:Word
+    word: accesibilidad
+    stem: accesibilidad
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  contacto: !ruby/object:Word
+    word: contacto
+    stem: contacto
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  mapa: !ruby/object:Word
+    word: mapa
+    stem: mapa
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  fecha: !ruby/object:Word
+    word: fecha
+    stem: fecha
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  reservados: !ruby/object:Word
+    word: reservados
+    stem: reservado
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  todos: !ruby/object:Word
+    word: todos
+    stem: todo
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  derechos: !ruby/object:Word
+    word: derechos
+    stem: derecho
+    docFrequency: 2.0
+    docPositions:
+    - 44
+lineCount: 48
+wordCount: 177
+rank: 0.2625
+title: Sistema de Acreditación de Centros Instituto Cervantes.
+links:
+- http://www.cervantes.es
+- http://www.cervantes.es/aviso_legal.htm
+rawText: "\r\n\r\n\r\n  \r\n      Instituto Cervantes\r\n      Sistema de Acreditación
+  de Centros. Instituto Cervantes\r\n      English\r\n      Para estudiantes\r\n        Para
+  centros\r\n\r\n\r\n\t\r\n    \tSACIC. Sistema de Acreditación de Centros Instituto
+  Cervantes. Única acreditación internacional de centros de enseñanza de español como
+  lengua extranjera\r\n        Reconocimiento internacional\r\n            Promoción
+  y difusión internacional de oferta de cursos\r\n            Reflexión sobre la actividad
+  del centro\r\n            Compromiso con la calidad y la mejora continua\r\n        Cómo
+  acreditarse\r\n            Centros acreditados en España\r\n            Centros
+  acreditados en el contexto internacional\r\n     \t    \r\n    \r\n     \tLos centros
+  acreditados por el Instituto Cervantes se reconocen por el uso de este logotipo:\r\n
+  \ \t\t\r\n   \t\r\n        Guía de centros\r\n            Presentación del SACIC\r\n
+  \       \t\r\n\t\t\r\n        var guia = document.getElementById(\"pdf1\");\r\n
+  \       guia.href = \"guia.htm\";\r\n        guia.onclick = function() {\r\n            return
+  hs.htmlExpand(this, {objectType: 'iframe', wrapperClassName: 'highslide-no-border
+  guia'});\r\n        };\r\n                \r\n        var presentacion = document.getElementById(\"pdf2\");\r\n
+  \       presentacion.href = \"presentacion.htm\";\r\n        presentacion.onclick
+  = function() {\r\n            return hs.htmlExpand(this, {objectType: 'iframe',
+  wrapperClassName: 'highslide-no-border presentacion'});\r\n        };\t\t\r\n    \r\n\r\n\r\n
+  \ \r\n    Privacidad Accesibilidad Contacto Mapa © Instituto Cervantes, document.write(fecha());.
+  Reservados todos los derechos.\r\n      \r\n\r\nLos centros acreditados por el Instituto
+  Cervantes se reconocen por el uso de este logotipo:"

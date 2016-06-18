@@ -1,0 +1,71 @@
+#! /l/ruby-2.2.2/bin/ruby
+
+require 'cgi'
+require 'mechanize'
+
+cgi = CGI.new("html4")
+
+
+#input values
+query = cgi['user_input'].to_s
+
+
+
+system("ruby search.rb #{query}")
+
+
+def list_files(dir)
+  all_files = Array.new
+
+  Dir.foreach(dir) do |entry|
+    unless (entry == "." || entry == "..")
+      all_files.push(entry)
+    end
+  end
+
+  return all_files
+end
+
+# function that takes the *name of an html file stored on disk*,
+# and returns a stiring filled HTML code
+#
+
+def read_html_file(filename)
+  
+  file = File.open(filename)
+  html_code = Nokogiri::HTML(file)
+  file.close
+
+  return html_code.to_s
+end
+
+output2 = read_html_file("out.txt")
+
+
+
+#system("/u/jimmyu/i427/jimmyu-p4/poop.rb")
+#system("retrieve2.rb", first)
+#system("pewp.rb")
+
+###########################
+
+# Read a target html file
+#pages_dir = "/u/leejang/cgi-pub/output/"
+#file_list = list_files(pages_dir)
+#target = file_list.sample
+#html = read_html_file(pages_dir + "#{target}")
+
+cgi.out{
+  cgi.html{
+    cgi.head{ "\n"+cgi.title{"The Goggle Search"} } +
+    cgi.body{  "\n"+cgi.h1{"Here are your top 25 results, sorted by their tf-idf scores: \n"} +
+      cgi.br+"Output of search engine:  #{output2}" + 
+      cgi.br+"query was: #{query}"
+#      cgi.br+"Current time: #{time}" +
+#      cgi.br+"A Random number: #{rand_num}" +
+#      cgi.br+"Sum of two values: #{sum}" 
+#      cgi.br+"Target HTML: #{target}" +
+#      cgi.br+ "#{html}"
+    }
+  }
+}

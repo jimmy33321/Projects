@@ -1,0 +1,4175 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 109
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 47
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 366
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : strong
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 403
+    str1: strong
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : script
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 411
+    str1: script
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 412
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 491
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 514
+    str1: ul
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 555
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 894
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 109
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 894
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 894
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 146
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 894
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 160
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 903
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 906
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 908
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : h2
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 939
+    str1: h2
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : header
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 940
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 14
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 943
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 11
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : span
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 944
+    str1: span
+    str2: 
+    str3: 
+    int1: 0
+    column: 127
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : a
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 944
+    str1: a
+    str2: 
+    str3: 
+    int1: 0
+    column: 131
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-iye57e"
+    line: 945
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+address: http://www.jstor.org/stable/2539326
+inboundLinks: []
+lines:
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Skip to Main Content
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- |2
+              JSTOR Home
+- "        \n"
+- |2
+          Search
+- |2
+      Advanced Search
+- "    \n"
+- |
+  Browse
+- |2
+      by Title
+- |2
+          by Publisher
+- "    \n"
+- |
+  MyJSTOR
+- |2
+      My Profile
+- |2
+          Shelf
+- |2
+          JPASS Downloads
+- |2
+          Purchase History
+- "        \n"
+- "    \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2
+                  Filter search by
+- |2
+                  In This IssueIn This TitleAll Content
+- "        \n"
+- "    \n"
+- |2
+      Search
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      Login
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+      Help
+- |2+
+
+- "    \n"
+- |2
+      Contact Us
+- |2+
+
+- "    \n"
+- |2
+      About
+- |2+
+
+- |2+
+
+- "            \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- |2
+          International Security
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          Vol. 22, No. 1, Summer, 1997
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          Brothers under the S...
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "         \n"
+- "           \n"
+- "               \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "                \n"
+- "                \n"
+- "            \n"
+- "             \n"
+- "                 \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        Brothers under the Skin: Diplomatic History and International Relations
+  \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- |
+  Stephen H. Haber, David M. Kennedy and Stephen D. Krasner
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          International Security
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Vol. 22, No. 1 (Summer, 1997), pp. 34-43
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          Published by: MIT Press
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          DOI: 10.2307/2539326
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "    \n"
+- |2
+          Stable URL: http://www.jstor.org/stable/2539326
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Page Count: 10
+- "    \n"
+- |2+
+
+- |2+
+
+- "             \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                            \n"
+- "                                \n"
+- "\t\n"
+- |2+
+
+- |2
+      Download PDF
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t    \n"
+- "                \n"
+- "    \n"
+- |2
+          Cite this Item
+- "    \n"
+- "    \n"
+- |2+
+
+- |2
+      Cite This Item
+- "    \n"
+- "        \n"
+- |2
+              Copy Citation
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Export Citation
+- "        \n"
+- "        \n"
+- |2
+              Export to RefWorks
+- "        \n"
+- "        \n"
+- |2
+              Export a RIS file (For EndNote, ProCite, Reference Manager, Zotero…)
+- "        \n"
+- "        \n"
+- |2
+              Export a Text file (For BibTex)
+- "        \n"
+- "    \n"
+- |2
+      × Close Overlay
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- |2
+      <div class="mbm mlm">
+- |2
+          <strong class="mbs">{{ label }}
+- |2
+          <div class="clearfix">
+- |2
+              <div id="{{ label }}_text" class="{{ class_name }} left pas brdra citation-copy">{{ citation }}
+- |2
+              Copy
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \t\n"
+- "    \t\tJournal Info\n"
+- "        \t\n"
+- |2+
+
+- "    \n"
+- |2
+      International Security
+- |2+
+
+- "    Description: International Security publishes lucid, well-documented essays
+  \n"
+- "on all aspects of the control and use of force, from all political \n"
+- "viewpoints.  Its articles cover contemporary policy issues, and probe \n"
+- "historical and theoretical questions behind them. \n"
+- " \n"
+- "Essays in International Security have defined the debate on \n"
+- "American national security policy and have set the agenda for scholarship \n"
+- "on international security affairs.  \n"
+- |2+
+
+- "Readers of International Security  discover new developments in: \n"
+- |
+  the causes and prevention of war
+- |2
+    ethnic conflict and peacekeeping
+- |2
+    post-Cold War security problems
+- |2
+    European, Asian, and regional security
+- |2
+    nuclear forces and strategy
+- |2
+    arms control and weapons proliferation
+- |2
+    post-Soviet security issues
+- |2
+    diplomatic and military history
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      Coverage: 1976-2009 (Vol. 1, No. 1 - Vol. 34, No. 3)
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+              Moving Wall: 5 years (What is the moving wall?)
+- "            \n"
+- |2
+                  Moving Wall
+- "                    \n"
+- |2
+                          The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.
+- |2
+                          Terms Related to the Moving Wall
+- |2
+                              Fixed walls: Journals with no new volumes being added to the archive.
+- |2
+                              Absorbed: Journals that are combined with another title.
+- |2
+                              Complete: Journals that are no longer published or that have been
+- |2
+                              combined with another title.
+- "                        \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      ISSN: 01622889
+- |2+
+
+- |2+
+
+- |2
+      EISSN: 15314804
+- |2+
+
+- "        \n"
+- "    Subjects: \n"
+- "            \n"
+- |2
+                  Peace & Conflict Studies,
+- "            \n"
+- |2
+                  Political Science,
+- "            \n"
+- |2
+                  Social Sciences
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \t\n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "     \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "\t    \n"
+- "    \n"
+- "        \n"
+- |2
+              Article Tools
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Cite this Item
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2
+                          Journal Info
+- "                    \n"
+- "                \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        Your access to JSTOR provided by \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "            \n"
+- |2+
+
+- "            \n"
+- "\t\n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- |2
+              « Previous Item
+- "        \n"
+- |2
+           | 
+- "        \n"
+- |2
+              Next Item »
+- "        \n"
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t        \n"
+- "\t            \n"
+- "\t                    Article\n"
+- "\t                \n"
+- "\t                \n"
+- "    \n"
+- |2
+          Thumbnails
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t    \n"
+- "\t    \n"
+- "\t        \n"
+- "\t                                   \n"
+- "\t                \n"
+- "\t                    \n"
+- "\t                        You have javascript disabled.\n"
+- "\t\t\t\t\t\t\n"
+- "\t                    \n"
+- |2
+      To read this item, please use PDF
+- |2+
+
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- |2+
+
+- "\t                \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Previous Page
+- |2
+          Previous Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "            \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      <!--//<![CDATA[
+- |2
+          var m3_u = (location.protocol=='https:'
+- |2
+                  ? 'https://ja.jstor.org/www/serve/ajs.php'
+- |2
+                  : 'http://ja.jstor.org/www/serve/ajs.php');
+- |2+
+
+- |2
+          if (!document.MAX_used){
+- |2
+              document.MAX_used = ',';
+- |2
+          }
+- |2
+          document.write("<script type='text/javascript' src='" + m3_u);
+- "        \n"
+- |2
+      var is_urp = false,
+- |2
+      is_shelved = false;
+- |2
+      document.write("?zoneid=16");
+- |2
+      document.write("&amp;articleId=10.2307/2539326");
+- "    \n"
+- |2
+          document.write ("&amp;issueId=10.2307/i323318");
+- |2
+          document.write("&amp;publisherCode=mitpress");
+- "    \n"
+- |2
+      document.write ("&amp;journalCode=intesecu");
+- |2
+      document.write("&amp;urp=" + is_urp);
+- |2
+      document.write("&amp;rfs=" + is_shelved);
+- |2+
+
+- |2
+          document.write('&amp;cb=4456591999');
+- |2
+          if (document.MAX_used != ','){
+- |2
+              document.write("&amp;exclude=" + document.MAX_used);
+- |2
+          }
+- |2
+          document.write(document.charset ?
+- |2
+                                  '&amp;charset='+document.charset :
+- |2
+                                  (document.characterSet ?
+- |2
+                                          '&amp;charset='+document.characterSet : ''));
+- |2
+          document.write("&amp;loc=" + escape(window.location));
+- |2
+          if (document.referrer) {
+- |2
+              document.write("&amp;referer=" + escape(document.referrer));
+- |2
+          }
+- |2
+          if (document.context) {
+- |2
+              document.write("&context=" + escape(document.context));
+- |2
+          }
+- |2
+          if (document.mmm_fo) {
+- |2
+              document.write("&amp;mmm_fo=1");
+- |2
+          }
+- |2
+          document.write("'><\/script>");
+- |2
+      //]]>-->
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Next Page
+- |2
+          Next Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      We're having trouble loading this content. Download the PDF instead.
+- "    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- |2
+      Page Thumbnails
+- "   \n"
+- "    \n"
+- "        \n"
+- "                    \n"
+- "                        \n"
+- |
+  34
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  35
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  36
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  37
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  38
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  39
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  40
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  41
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  42
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  43
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t        \n"
+- "\t    \n"
+- "        \n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- "    \n"
+- |2
+          International Security © 1997 MIT Press
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t    \n"
+- "\t    \n"
+- "            \n"
+- "               \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+          Request Permissions
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+          JSTOR Home
+- |2
+              About
+- |2
+              Search
+- |2
+              Browse
+- |2
+              Terms and Conditions
+- |2
+              Privacy Policy
+- |2
+              Cookies
+- |2
+              Accessibility
+- |2
+              Help
+- "            \n"
+- |2
+      Contact Us
+- |2+
+
+- |2
+          JSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- |2
+          ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA.
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |
+  <div id="loading" class="reveal-modal small" aria-live="polite" aria-relevant="additions" aria-atomic="true" aria-busy="false" data-reveal aria-labelledby="loadingTitle" aria-hidden="true" role="dialog">
+- |2
+      <header>
+- |2
+          <h2 id="loadingTitle">{{ heading }}
+- "    \n"
+- |2
+      <div id="loadingBody" class="reveal-body">
+- |2
+          {{ body }}
+- "    \n"
+- |2
+      <a href="#" class="close-reveal-modal" aria-label="Close Overlay">&#215; <span class="visuallyhidden">Close Overlay
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+    var addthis_config =
+- |2
+    {
+- "\t\t  pubid: \"ra-562109fdc69f4e2d\"\n"
+- |2
+    };
+- "  var addthis_share = \n"
+- |2
+    {
+- "\t\t  url: \"http://www.jstor.org/stable/2539326\"\n"
+- "\t\t  \n"
+- |2
+    };
+- |2+
+
+- |2
+      // COUNTER 4 tagging code
+- |2
+      window.starData = {
+- |2
+          'contentType': 'journal',
+- |2
+          'journal': 'International Security',
+- |2
+          'article': 'Brothers under the Skin: Diplomatic History and International Relations',
+- |2
+          'institution_consortium_map': ['indiana.edu'],
+- |2
+          'yop': '1997',
+- |2
+          'doi': '10.2307/2539326',
+- |2
+          'SEARCH_FED': 'False',
+- |2
+          'has_access': true,
+- |2
+          'page_scan': true,
+- |2
+          'pdf_only': false,
+- |2
+          'full_text': false
+- |2
+      };
+- |2+
+
+- |2
+                  var _$tarQ = _$tarQ || [];
+- "                    \n"
+- "                (function (){ \n"
+- |2
+                          var stars = document.createElement('script'),
+- |2
+                              s = document.getElementsByTagName('script')[0];
+- "                        \n"
+- "                        stars.async= true; \n"
+- "                        stars.type = 'text/javascript'; \n"
+- "                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n"
+- "                        \n"
+- "                        s.parentNode.insertBefore(stars, s); \n"
+- |2
+                      }
+- |2
+                  )();
+- "            \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              //To prevent JS errors when disabled
+- |2
+              if(typeof _satellite !== "undefined"){
+- |2
+                  _satellite.pageBottom();
+- |2
+              }
+- "         \n"
+- "Essays in International Security have defined the debate on \n"
+- "American national security policy and have set the agenda for scholarship \n"
+- "on international security affairs.  \n"
+- |
+  Readers of International Security  discover new developments in:The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.Your access to JSTOR provided by To read this item, please use PDFJSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- "        ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®,
+  and ITHAKA® are registered trademarks of ITHAKA."
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 56
+    - 576
+  jstor: !ruby/object:Word
+    word: jstor
+    stem: jstor
+    docFrequency: 18.0
+    docPositions:
+    - 10
+    - 198
+    - 317
+    - 320
+    - 401
+    - 493
+    - 494
+    - 703
+    - 715
+    - 716
+    - 738
+    - 784
+    - 787
+    - 790
+    - 791
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 703
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 6.0
+    docPositions:
+    - 12
+    - 13
+    - 55
+    - 59
+    - 705
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 706
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 326
+    - 328
+  publisher: !ruby/object:Word
+    word: publisher
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 17
+    - 319
+    - 786
+  myjstor: !ruby/object:Word
+    word: myjstor
+    stem: myjstor
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  shelf: !ruby/object:Word
+    word: shelf
+    stem: shelf
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  jpass: !ruby/object:Word
+    word: jpass
+    stem: jpass
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 716
+    - 791
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  purchase: !ruby/object:Word
+    word: purchase
+    stem: purchas
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 5.0
+    docPositions:
+    - 23
+    - 156
+    - 300
+    - 746
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  issuein: !ruby/object:Word
+    word: issuein
+    stem: issuein
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  titleall: !ruby/object:Word
+    word: titleall
+    stem: titleal
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 711
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 83
+    - 713
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 83
+    - 713
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 15.0
+    docPositions:
+    - 105
+    - 156
+    - 175
+    - 281
+    - 283
+    - 288
+    - 290
+    - 292
+    - 675
+    - 745
+    - 746
+    - 780
+    - 782
+    - 783
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 18.0
+    docPositions:
+    - 105
+    - 175
+    - 281
+    - 283
+    - 288
+    - 289
+    - 290
+    - 292
+    - 295
+    - 296
+    - 299
+    - 675
+    - 745
+    - 780
+    - 781
+    - 782
+    - 783
+  vol: !ruby/object:Word
+    word: vol
+    stem: vol
+    docFrequency: 5.0
+    docPositions:
+    - 113
+    - 180
+    - 304
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 7.0
+    docPositions:
+    - 113
+    - 180
+    - 304
+    - 325
+    - 327
+  summer: !ruby/object:Word
+    word: summer
+    stem: summer
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 180
+  brothers: !ruby/object:Word
+    word: brothers
+    stem: brother
+    docFrequency: 4.0
+    docPositions:
+    - 121
+    - 156
+    - 746
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 4.0
+    docPositions:
+    - 121
+    - 156
+    - 746
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 5.0
+    docPositions:
+    - 121
+    - 761
+    - 767
+  skin: !ruby/object:Word
+    word: skin
+    stem: skin
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 746
+  diplomatic: !ruby/object:Word
+    word: diplomatic
+    stem: diplomat
+    docFrequency: 4.0
+    docPositions:
+    - 156
+    - 300
+    - 746
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 26.0
+    docPositions:
+    - 156
+    - 165
+    - 284
+    - 285
+    - 286
+    - 289
+    - 293
+    - 294
+    - 296
+    - 297
+    - 298
+    - 300
+    - 317
+    - 322
+    - 707
+    - 715
+    - 716
+    - 746
+    - 781
+    - 784
+    - 789
+    - 790
+    - 791
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 746
+  stephen: !ruby/object:Word
+    word: stephen
+    stem: stephen
+    docFrequency: 3.0
+    docPositions:
+    - 165
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  haber: !ruby/object:Word
+    word: haber
+    stem: haber
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  david: !ruby/object:Word
+    word: david
+    stem: david
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  kennedy: !ruby/object:Word
+    word: kennedy
+    stem: kennedi
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  krasner: !ruby/object:Word
+    word: krasner
+    stem: krasner
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  pp: !ruby/object:Word
+    word: pp
+    stem: pp
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 5.0
+    docPositions:
+    - 187
+    - 317
+    - 327
+    - 784
+  mit: !ruby/object:Word
+    word: mit
+    stem: mit
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 675
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 675
+  doi: !ruby/object:Word
+    word: doi
+    stem: doi
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 749
+  stable: !ruby/object:Word
+    word: stable
+    stem: stabl
+    docFrequency: 4.0
+    docPositions:
+    - 198
+    - 738
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 198
+    - 738
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 5.0
+    docPositions:
+    - 198
+    - 493
+    - 494
+    - 738
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 7.0
+    docPositions:
+    - 203
+    - 476
+    - 477
+    - 543
+    - 544
+    - 587
+  count: !ruby/object:Word
+    word: count
+    stem: count
+    docFrequency: 2.0
+    docPositions:
+    - 203
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 3.0
+    docPositions:
+    - 217
+    - 576
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 4.0
+    docPositions:
+    - 217
+    - 449
+    - 576
+  cite: !ruby/object:Word
+    word: cite
+    stem: cite
+    docFrequency: 4.0
+    docPositions:
+    - 225
+    - 229
+    - 377
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 8.0
+    docPositions:
+    - 225
+    - 229
+    - 377
+    - 418
+    - 422
+    - 449
+    - 790
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 4.0
+    docPositions:
+    - 232
+    - 266
+    - 267
+  citation: !ruby/object:Word
+    word: citation
+    stem: citat
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 244
+    - 266
+  export: !ruby/object:Word
+    word: export
+    stem: export
+    docFrequency: 5.0
+    docPositions:
+    - 244
+    - 247
+    - 250
+    - 253
+  refworks: !ruby/object:Word
+    word: refworks
+    stem: refwork
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  ris: !ruby/object:Word
+    word: ris
+    stem: ri
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 250
+    - 253
+  endnote: !ruby/object:Word
+    word: endnote
+    stem: endnot
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  procite: !ruby/object:Word
+    word: procite
+    stem: procit
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  manager: !ruby/object:Word
+    word: manager
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  zotero: !ruby/object:Word
+    word: zotero
+    stem: zotero
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 4.0
+    docPositions:
+    - 253
+    - 499
+    - 764
+  bibtex: !ruby/object:Word
+    word: bibtex
+    stem: bibtex
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 35.0
+    docPositions:
+    - 256
+    - 263
+    - 264
+    - 265
+    - 266
+    - 418
+    - 491
+    - 493
+    - 494
+    - 518
+    - 519
+    - 520
+    - 716
+    - 721
+    - 722
+    - 723
+    - 725
+    - 726
+    - 728
+    - 742
+    - 744
+    - 745
+    - 746
+    - 747
+    - 748
+    - 749
+    - 750
+    - 751
+    - 752
+    - 753
+    - 754
+    - 759
+    - 775
+    - 791
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 728
+  overlay: !ruby/object:Word
+    word: overlay
+    stem: overlai
+    docFrequency: 4.0
+    docPositions:
+    - 256
+    - 728
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 6.0
+    docPositions:
+    - 263
+    - 265
+    - 266
+    - 721
+    - 725
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 9.0
+    docPositions:
+    - 263
+    - 264
+    - 265
+    - 266
+    - 721
+    - 725
+    - 728
+  mbm: !ruby/object:Word
+    word: mbm
+    stem: mbm
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  mlm: !ruby/object:Word
+    word: mlm
+    stem: mlm
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 2.0
+    docPositions:
+    - 264
+  mbs: !ruby/object:Word
+    word: mbs
+    stem: mb
+    docFrequency: 2.0
+    docPositions:
+    - 264
+  label: !ruby/object:Word
+    word: label
+    stem: label
+    docFrequency: 4.0
+    docPositions:
+    - 264
+    - 266
+    - 728
+  clearfix: !ruby/object:Word
+    word: clearfix
+    stem: clearfix
+    docFrequency: 2.0
+    docPositions:
+    - 265
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 266
+    - 721
+    - 723
+    - 725
+  _text: !ruby/object:Word
+    word: _text
+    stem: _text
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  class_name: !ruby/object:Word
+    word: class_name
+    stem: class_nam
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  pas: !ruby/object:Word
+    word: pas
+    stem: pa
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  brdra: !ruby/object:Word
+    word: brdra
+    stem: brdra
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 9.0
+    docPositions:
+    - 277
+    - 317
+    - 322
+    - 383
+    - 744
+    - 745
+    - 784
+    - 789
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 277
+    - 383
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  publishes: !ruby/object:Word
+    word: publishes
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  lucid: !ruby/object:Word
+    word: lucid
+    stem: lucid
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  documented: !ruby/object:Word
+    word: documented
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  essays: !ruby/object:Word
+    word: essays
+    stem: essai
+    docFrequency: 4.0
+    docPositions:
+    - 283
+    - 288
+    - 780
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 5.0
+    docPositions:
+    - 284
+    - 716
+    - 791
+  aspects: !ruby/object:Word
+    word: aspects
+    stem: aspect
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 298
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 284
+    - 449
+    - 715
+    - 790
+  force: !ruby/object:Word
+    word: force
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  political: !ruby/object:Word
+    word: political
+    stem: polit
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 347
+  viewpoints: !ruby/object:Word
+    word: viewpoints
+    stem: viewpoint
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 4.0
+    docPositions:
+    - 285
+    - 323
+    - 790
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  contemporary: !ruby/object:Word
+    word: contemporary
+    stem: contemporari
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 5.0
+    docPositions:
+    - 285
+    - 289
+    - 708
+    - 781
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 5.0
+    docPositions:
+    - 285
+    - 299
+    - 320
+    - 787
+  probe: !ruby/object:Word
+    word: probe
+    stem: probe
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  historical: !ruby/object:Word
+    word: historical
+    stem: histor
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  theoretical: !ruby/object:Word
+    word: theoretical
+    stem: theoret
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 9.0
+    docPositions:
+    - 288
+    - 289
+    - 319
+    - 327
+    - 446
+    - 780
+    - 781
+    - 786
+  defined: !ruby/object:Word
+    word: defined
+    stem: defin
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 780
+  debate: !ruby/object:Word
+    word: debate
+    stem: debat
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 780
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 781
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 781
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 781
+  agenda: !ruby/object:Word
+    word: agenda
+    stem: agenda
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 781
+  scholarship: !ruby/object:Word
+    word: scholarship
+    stem: scholarship
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 781
+  affairs: !ruby/object:Word
+    word: affairs
+    stem: affair
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 782
+  readers: !ruby/object:Word
+    word: readers
+    stem: reader
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 783
+  discover: !ruby/object:Word
+    word: discover
+    stem: discov
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 783
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 292
+    - 325
+    - 783
+  developments: !ruby/object:Word
+    word: developments
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 783
+  causes: !ruby/object:Word
+    word: causes
+    stem: caus
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  prevention: !ruby/object:Word
+    word: prevention
+    stem: prevent
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 295
+  ethnic: !ruby/object:Word
+    word: ethnic
+    stem: ethnic
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  conflict: !ruby/object:Word
+    word: conflict
+    stem: conflict
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 345
+  peacekeeping: !ruby/object:Word
+    word: peacekeeping
+    stem: peacekeep
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 299
+  cold: !ruby/object:Word
+    word: cold
+    stem: cold
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  problems: !ruby/object:Word
+    word: problems
+    stem: problem
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  european: !ruby/object:Word
+    word: european
+    stem: european
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  asian: !ruby/object:Word
+    word: asian
+    stem: asian
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  regional: !ruby/object:Word
+    word: regional
+    stem: region
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  nuclear: !ruby/object:Word
+    word: nuclear
+    stem: nuclear
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  forces: !ruby/object:Word
+    word: forces
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  strategy: !ruby/object:Word
+    word: strategy
+    stem: strategi
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  arms: !ruby/object:Word
+    word: arms
+    stem: arm
+    docFrequency: 2.0
+    docPositions:
+    - 298
+  weapons: !ruby/object:Word
+    word: weapons
+    stem: weapon
+    docFrequency: 2.0
+    docPositions:
+    - 298
+  proliferation: !ruby/object:Word
+    word: proliferation
+    stem: prolifer
+    docFrequency: 2.0
+    docPositions:
+    - 298
+  soviet: !ruby/object:Word
+    word: soviet
+    stem: soviet
+    docFrequency: 2.0
+    docPositions:
+    - 299
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 2.0
+    docPositions:
+    - 300
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  moving: !ruby/object:Word
+    word: moving
+    stem: move
+    docFrequency: 15.0
+    docPositions:
+    - 312
+    - 314
+    - 316
+    - 318
+    - 319
+    - 321
+    - 323
+    - 324
+    - 783
+    - 785
+    - 786
+    - 788
+    - 790
+  wall: !ruby/object:Word
+    word: wall
+    stem: wall
+    docFrequency: 13.0
+    docPositions:
+    - 312
+    - 314
+    - 316
+    - 319
+    - 321
+    - 323
+    - 324
+    - 783
+    - 786
+    - 788
+    - 790
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 4.0
+    docPositions:
+    - 312
+    - 318
+    - 785
+  represents: !ruby/object:Word
+    word: represents
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 783
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 783
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 783
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 783
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 783
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 317
+    - 783
+    - 784
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 7.0
+    docPositions:
+    - 317
+    - 320
+    - 323
+    - 784
+    - 787
+    - 790
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 784
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 784
+  walls: !ruby/object:Word
+    word: walls
+    stem: wall
+    docFrequency: 4.0
+    docPositions:
+    - 318
+    - 325
+    - 785
+  generally: !ruby/object:Word
+    word: generally
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 318
+    - 785
+  represented: !ruby/object:Word
+    word: represented
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 318
+    - 785
+  rare: !ruby/object:Word
+    word: rare
+    stem: rare
+    docFrequency: 3.0
+    docPositions:
+    - 318
+    - 785
+  instances: !ruby/object:Word
+    word: instances
+    stem: instanc
+    docFrequency: 3.0
+    docPositions:
+    - 318
+    - 785
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 5.0
+    docPositions:
+    - 319
+    - 322
+    - 786
+    - 789
+  elected: !ruby/object:Word
+    word: elected
+    stem: elect
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 786
+  zero: !ruby/object:Word
+    word: zero
+    stem: zero
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 786
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 786
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 786
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 7.0
+    docPositions:
+    - 319
+    - 321
+    - 322
+    - 786
+    - 788
+    - 789
+  shortly: !ruby/object:Word
+    word: shortly
+    stem: shortli
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 787
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 787
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 787
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 788
+  calculating: !ruby/object:Word
+    word: calculating
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 788
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 9.0
+    docPositions:
+    - 321
+    - 322
+    - 323
+    - 788
+    - 789
+    - 790
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 321
+    - 715
+    - 788
+    - 790
+  counted: !ruby/object:Word
+    word: counted
+    stem: count
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 788
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 789
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 322
+    - 496
+    - 514
+    - 522
+    - 525
+    - 528
+    - 776
+    - 789
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 324
+    - 707
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 324
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  journals: !ruby/object:Word
+    word: journals
+    stem: journal
+    docFrequency: 4.0
+    docPositions:
+    - 325
+    - 326
+    - 327
+  volumes: !ruby/object:Word
+    word: volumes
+    stem: volum
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  added: !ruby/object:Word
+    word: added
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  absorbed: !ruby/object:Word
+    word: absorbed
+    stem: absorb
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  combined: !ruby/object:Word
+    word: combined
+    stem: combin
+    docFrequency: 3.0
+    docPositions:
+    - 326
+    - 328
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 3.0
+    docPositions:
+    - 326
+    - 328
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 327
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 2.0
+    docPositions:
+    - 327
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 327
+  issn: !ruby/object:Word
+    word: issn
+    stem: issn
+    docFrequency: 2.0
+    docPositions:
+    - 337
+  eissn: !ruby/object:Word
+    word: eissn
+    stem: eissn
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 343
+  peace: !ruby/object:Word
+    word: peace
+    stem: peac
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  studies: !ruby/object:Word
+    word: studies
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 4.0
+    docPositions:
+    - 373
+    - 429
+    - 746
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 401
+    - 790
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 401
+    - 790
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 401
+    - 790
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 4.0
+    docPositions:
+    - 418
+    - 476
+    - 477
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 4.0
+    docPositions:
+    - 422
+    - 543
+    - 544
+  thumbnails: !ruby/object:Word
+    word: thumbnails
+    stem: thumbnail
+    docFrequency: 3.0
+    docPositions:
+    - 433
+    - 587
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 446
+  disabled: !ruby/object:Word
+    word: disabled
+    stem: disabl
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 775
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 790
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 790
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 492
+    - 521
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 492
+    - 493
+  ja: !ruby/object:Word
+    word: ja
+    stem: ja
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  serve: !ruby/object:Word
+    word: serve
+    stem: serv
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  ajs: !ruby/object:Word
+    word: ajs
+    stem: aj
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 32.0
+    docPositions:
+    - 496
+    - 497
+    - 499
+    - 503
+    - 504
+    - 506
+    - 507
+    - 509
+    - 510
+    - 511
+    - 513
+    - 514
+    - 515
+    - 517
+    - 518
+    - 519
+    - 520
+    - 521
+    - 522
+    - 523
+    - 525
+    - 526
+    - 528
+    - 529
+    - 531
+    - 760
+    - 761
+  max_used: !ruby/object:Word
+    word: max_used
+    stem: max_us
+    docFrequency: 5.0
+    docPositions:
+    - 496
+    - 497
+    - 514
+    - 515
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 17.0
+    docPositions:
+    - 499
+    - 503
+    - 504
+    - 506
+    - 507
+    - 509
+    - 510
+    - 511
+    - 513
+    - 515
+    - 517
+    - 521
+    - 523
+    - 526
+    - 529
+    - 531
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 5.0
+    docPositions:
+    - 499
+    - 531
+    - 760
+    - 761
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 499
+    - 764
+  is_urp: !ruby/object:Word
+    word: is_urp
+    stem: is_urp
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 510
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 501
+    - 502
+    - 721
+    - 750
+    - 753
+    - 754
+  is_shelved: !ruby/object:Word
+    word: is_shelved
+    stem: is_shelv
+    docFrequency: 3.0
+    docPositions:
+    - 502
+    - 511
+  zoneid: !ruby/object:Word
+    word: zoneid
+    stem: zoneid
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  amp: !ruby/object:Word
+    word: amp
+    stem: amp
+    docFrequency: 14.0
+    docPositions:
+    - 504
+    - 506
+    - 507
+    - 509
+    - 510
+    - 511
+    - 513
+    - 515
+    - 518
+    - 520
+    - 521
+    - 523
+    - 529
+  articleid: !ruby/object:Word
+    word: articleid
+    stem: articleid
+    docFrequency: 2.0
+    docPositions:
+    - 504
+  issueid: !ruby/object:Word
+    word: issueid
+    stem: issueid
+    docFrequency: 2.0
+    docPositions:
+    - 506
+  publishercode: !ruby/object:Word
+    word: publishercode
+    stem: publishercod
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  mitpress: !ruby/object:Word
+    word: mitpress
+    stem: mitpress
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  journalcode: !ruby/object:Word
+    word: journalcode
+    stem: journalcod
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  intesecu: !ruby/object:Word
+    word: intesecu
+    stem: intesecu
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  urp: !ruby/object:Word
+    word: urp
+    stem: urp
+    docFrequency: 2.0
+    docPositions:
+    - 510
+  rfs: !ruby/object:Word
+    word: rfs
+    stem: rf
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  cb: !ruby/object:Word
+    word: cb
+    stem: cb
+    docFrequency: 2.0
+    docPositions:
+    - 513
+  exclude: !ruby/object:Word
+    word: exclude
+    stem: exclud
+    docFrequency: 2.0
+    docPositions:
+    - 515
+  charset: !ruby/object:Word
+    word: charset
+    stem: charset
+    docFrequency: 5.0
+    docPositions:
+    - 517
+    - 518
+    - 520
+  characterset: !ruby/object:Word
+    word: characterset
+    stem: characterset
+    docFrequency: 3.0
+    docPositions:
+    - 519
+    - 520
+  loc: !ruby/object:Word
+    word: loc
+    stem: loc
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 4.0
+    docPositions:
+    - 521
+    - 523
+    - 526
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 521
+    - 743
+  referrer: !ruby/object:Word
+    word: referrer
+    stem: referr
+    docFrequency: 3.0
+    docPositions:
+    - 522
+    - 523
+  referer: !ruby/object:Word
+    word: referer
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 523
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 4.0
+    docPositions:
+    - 525
+    - 526
+  mmm_fo: !ruby/object:Word
+    word: mmm_fo
+    stem: mmm_fo
+    docFrequency: 3.0
+    docPositions:
+    - 528
+    - 529
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  trouble: !ruby/object:Word
+    word: trouble
+    stem: troubl
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  loading: !ruby/object:Word
+    word: loading
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 576
+    - 721
+  instead: !ruby/object:Word
+    word: instead
+    stem: instead
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 2.0
+    docPositions:
+    - 689
+  permissions: !ruby/object:Word
+    word: permissions
+    stem: permiss
+    docFrequency: 2.0
+    docPositions:
+    - 689
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 2.0
+    docPositions:
+    - 707
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 708
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 709
+  accessibility: !ruby/object:Word
+    word: accessibility
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 710
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  ithaka: !ruby/object:Word
+    word: ithaka
+    stem: ithaka
+    docFrequency: 9.0
+    docPositions:
+    - 715
+    - 716
+    - 790
+    - 791
+  profit: !ruby/object:Word
+    word: profit
+    stem: profit
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  organization: !ruby/object:Word
+    word: organization
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  helping: !ruby/object:Word
+    word: helping
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  academic: !ruby/object:Word
+    word: academic
+    stem: academ
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  technologies: !ruby/object:Word
+    word: technologies
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  preserve: !ruby/object:Word
+    word: preserve
+    stem: preserv
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  scholarly: !ruby/object:Word
+    word: scholarly
+    stem: scholarli
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  advance: !ruby/object:Word
+    word: advance
+    stem: advanc
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  teaching: !ruby/object:Word
+    word: teaching
+    stem: teach
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  sustainable: !ruby/object:Word
+    word: sustainable
+    stem: sustain
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 715
+    - 790
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 716
+    - 791
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 716
+    - 791
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 716
+    - 791
+  registered: !ruby/object:Word
+    word: registered
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 716
+    - 791
+  trademarks: !ruby/object:Word
+    word: trademarks
+    stem: trademark
+    docFrequency: 3.0
+    docPositions:
+    - 716
+    - 791
+  reveal: !ruby/object:Word
+    word: reveal
+    stem: reveal
+    docFrequency: 5.0
+    docPositions:
+    - 721
+    - 725
+    - 728
+  modal: !ruby/object:Word
+    word: modal
+    stem: modal
+    docFrequency: 3.0
+    docPositions:
+    - 721
+    - 728
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  aria: !ruby/object:Word
+    word: aria
+    stem: aria
+    docFrequency: 8.0
+    docPositions:
+    - 721
+    - 728
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  polite: !ruby/object:Word
+    word: polite
+    stem: polit
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  additions: !ruby/object:Word
+    word: additions
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  atomic: !ruby/object:Word
+    word: atomic
+    stem: atom
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 6.0
+    docPositions:
+    - 721
+    - 751
+    - 752
+    - 763
+  busy: !ruby/object:Word
+    word: busy
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  labelledby: !ruby/object:Word
+    word: labelledby
+    stem: labelledbi
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  loadingtitle: !ruby/object:Word
+    word: loadingtitle
+    stem: loadingtitl
+    docFrequency: 3.0
+    docPositions:
+    - 721
+    - 723
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  dialog: !ruby/object:Word
+    word: dialog
+    stem: dialog
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 2.0
+    docPositions:
+    - 722
+  heading: !ruby/object:Word
+    word: heading
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 723
+  loadingbody: !ruby/object:Word
+    word: loadingbody
+    stem: loadingbodi
+    docFrequency: 2.0
+    docPositions:
+    - 725
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 726
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 728
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 2.0
+    docPositions:
+    - 728
+  visuallyhidden: !ruby/object:Word
+    word: visuallyhidden
+    stem: visuallyhidden
+    docFrequency: 2.0
+    docPositions:
+    - 728
+  addthis_config: !ruby/object:Word
+    word: addthis_config
+    stem: addthis_config
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  pubid: !ruby/object:Word
+    word: pubid
+    stem: pubid
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  ra: !ruby/object:Word
+    word: ra
+    stem: ra
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  addthis_share: !ruby/object:Word
+    word: addthis_share
+    stem: addthis_shar
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  counter: !ruby/object:Word
+    word: counter
+    stem: counter
+    docFrequency: 2.0
+    docPositions:
+    - 742
+  tagging: !ruby/object:Word
+    word: tagging
+    stem: tag
+    docFrequency: 2.0
+    docPositions:
+    - 742
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 742
+  stardata: !ruby/object:Word
+    word: stardata
+    stem: stardata
+    docFrequency: 2.0
+    docPositions:
+    - 743
+  contenttype: !ruby/object:Word
+    word: contenttype
+    stem: contenttyp
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  institution_consortium_map: !ruby/object:Word
+    word: institution_consortium_map
+    stem: institution_consortium_map
+    docFrequency: 2.0
+    docPositions:
+    - 747
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 2.0
+    docPositions:
+    - 747
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 747
+  yop: !ruby/object:Word
+    word: yop
+    stem: yop
+    docFrequency: 2.0
+    docPositions:
+    - 748
+  search_fed: !ruby/object:Word
+    word: search_fed
+    stem: search_f
+    docFrequency: 2.0
+    docPositions:
+    - 750
+  has_access: !ruby/object:Word
+    word: has_access
+    stem: has_access
+    docFrequency: 2.0
+    docPositions:
+    - 751
+  page_scan: !ruby/object:Word
+    word: page_scan
+    stem: page_scan
+    docFrequency: 2.0
+    docPositions:
+    - 752
+  pdf_only: !ruby/object:Word
+    word: pdf_only
+    stem: pdf_onli
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  full_text: !ruby/object:Word
+    word: full_text
+    stem: full_text
+    docFrequency: 2.0
+    docPositions:
+    - 754
+  _: !ruby/object:Word
+    word: _
+    stem: _
+    docFrequency: 3.0
+    docPositions:
+    - 757
+  tarq: !ruby/object:Word
+    word: tarq
+    stem: tarq
+    docFrequency: 3.0
+    docPositions:
+    - 757
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 6.0
+    docPositions:
+    - 760
+    - 763
+    - 764
+    - 765
+    - 767
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 760
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 761
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  receiver: !ruby/object:Word
+    word: receiver
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  star: !ruby/object:Word
+    word: star
+    stem: star
+    docFrequency: 3.0
+    docPositions:
+    - 765
+  ith: !ruby/object:Word
+    word: ith
+    stem: ith
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  semcs: !ruby/object:Word
+    word: semcs
+    stem: semc
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  aws: !ruby/object:Word
+    word: aws
+    stem: aw
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  prevent: !ruby/object:Word
+    word: prevent
+    stem: prevent
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  errors: !ruby/object:Word
+    word: errors
+    stem: error
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  _satellite: !ruby/object:Word
+    word: _satellite
+    stem: _satellit
+    docFrequency: 3.0
+    docPositions:
+    - 776
+    - 777
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  pagebottom: !ruby/object:Word
+    word: pagebottom
+    stem: pagebottom
+    docFrequency: 2.0
+    docPositions:
+    - 777
+  pdfjstor: !ruby/object:Word
+    word: pdfjstor
+    stem: pdfjstor
+    docFrequency: 2.0
+    docPositions:
+    - 790
+lineCount: 792
+wordCount: 1083
+rank: 0.26111111111111107
+title: |2
+
+      Brothers under the Skin: Diplomatic History and International Relations on JSTOR
+links:
+- http://about.jstor.org/support-training/help
+- http://about.jstor.org/
+- http://libraries.iub.edu
+- http://ja.jstor.org/www/serve/ck.php?n=a680fa70&cb=2390841550
+- https://www.copyright.com/openurl.do?sid=pd_ITHAKA&servicename=all&WT.mc_id=tpd_ITHAKA19334192&issn=01622889&date=1997
+- http://about.jstor.org/
+- http://about.jstor.org/terms
+- http://about.jstor.org/privacy
+- http://about.jstor.org/content/jstors-use-cookies
+- http://about.jstor.org/accessibility
+- http://about.jstor.org/support-training/help
+rawText: "\n        \n        \n        \n            Skip to Main Content\n        \n\n
+  \       \n\n        \n            JSTOR Home\n        \n        Search\n    Advanced
+  Search\n    \nBrowse\n    by Title\n        by Publisher\n    \nMyJSTOR\n    My
+  Profile\n        Shelf\n        JPASS Downloads\n        Purchase History\n        \n
+  \   \n    \n            \n    \n        \n            \n                \n                    \n\n\n
+  \   \n    \n        \n            \n                \n                \n                \n
+  \                   \n                \n            \n        \n        \n            \n
+  \   \n    \n        \n        \n    \n        \n            \n                Filter
+  search by\n                In This IssueIn This TitleAll Content\n        \n    \n
+  \   Search\n    \n\n\n        \n    \n\n\n                    \n                \n
+  \               \n                    \n\n    \n\n\n    \n    Login\n\n    \n    \n
+  \   Help\n\n    \n    Contact Us\n\n    \n    About\n\n\n            \n            \n
+  \               \n                    \n                        \n                            \n\n\n
+  \                       \n                        \n                            \n
+  \                               \n\n\n        \n        \n        International
+  Security\n        \n        \n    \n\n    \n        \n        \n        Vol. 22,
+  No. 1, Summer, 1997\n        \n        \n    \n\n    \n        \n        \n        Brothers
+  under the S...\n        \n        \n    \n\n\n                        \n                        \n
+  \                           \n                                \n\n\n    \n         \n
+  \          \n               \n                \n                    \n\n    \n\n
+  \   \n\n\n                \n                \n            \n             \n                 \n
+  \   \n        \n            \n\n\n    \n        Brothers under the Skin: Diplomatic
+  History and International Relations \n    \n\n        \n\n        \n        \n    \n
+  \       \nStephen H. Haber, David M. Kennedy and Stephen D. Krasner\n    \n\n    \n\n
+  \   \n        \n\n\n    \n        International Security\n    \n\n        \n    \n
+  \       Vol. 22, No. 1 (Summer, 1997), pp. 34-43\n    \n\n        \n\n\n    \n        Published
+  by: MIT Press\n    \n\n        \n    \n        DOI: 10.2307/2539326\n    \n\n    \n
+  \       \n    \n        Stable URL: http://www.jstor.org/stable/2539326\n    \n\n
+  \       \n    \n        Page Count: 10\n    \n\n\n             \n\n        \n    \n\n
+  \                           \n                            \n                                \n\t\n\n
+  \   Download PDF\n\n\n\n \n\t    \n                \n    \n        Cite this Item\n
+  \   \n    \n\n    Cite This Item\n    \n        \n            Copy Citation\n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        \n
+  \       \n        \n            Export Citation\n        \n        \n            Export
+  to RefWorks\n        \n        \n            Export a RIS file (For EndNote, ProCite,
+  Reference Manager, Zotero…)\n        \n        \n            Export a Text file
+  (For BibTex)\n        \n    \n    × Close Overlay\n\n\n\n        \n        \n    \n
+  \   <div class=\"mbm mlm\">\n        <strong class=\"mbs\">{{ label }}\n        <div
+  class=\"clearfix\">\n            <div id=\"{{ label }}_text\" class=\"{{ class_name
+  }} left pas brdra citation-copy\">{{ citation }}\n            Copy\n        \n    \n\n\n
+  \       \n\n        \n    \n    \t\n    \t\tJournal Info\n        \t\n\n    \n    International
+  Security\n\n    Description: International Security publishes lucid, well-documented
+  essays \non all aspects of the control and use of force, from all political \nviewpoints.
+  \ Its articles cover contemporary policy issues, and probe \nhistorical and theoretical
+  questions behind them. \n \nEssays in International Security have defined the debate
+  on \nAmerican national security policy and have set the agenda for scholarship \non
+  international security affairs.  \n\nReaders of International Security  discover
+  new developments in: \nthe causes and prevention of war\n  ethnic conflict and peacekeeping\n
+  \ post-Cold War security problems\n  European, Asian, and regional security\n  nuclear
+  forces and strategy\n  arms control and weapons proliferation\n  post-Soviet security
+  issues\n  diplomatic and military history\n\n    \n\n    Coverage: 1976-2009 (Vol.
+  1, No. 1 - Vol. 34, No. 3)\n\n\n    \n\n\n\n    \n            Moving Wall: 5 years
+  (What is the moving wall?)\n            \n                Moving Wall\n                    \n
+  \                       The \"moving wall\" represents the time period between the
+  last issue\n                        available in JSTOR and the most recently published
+  issue of a journal.\n                        Moving walls are generally represented
+  in years. In rare instances, a\n                        publisher has elected to
+  have a \"zero\" moving wall, so their current\n                        issues are
+  available in JSTOR shortly after publication.\n                        Note: In
+  calculating the moving wall, the current year is not counted.\n                        For
+  example, if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.\n                        Terms
+  Related to the Moving Wall\n                            Fixed walls: Journals with
+  no new volumes being added to the archive.\n                            Absorbed:
+  Journals that are combined with another title.\n                            Complete:
+  Journals that are no longer published or that have been\n                            combined
+  with another title.\n                        \n                \n            \n
+  \       \n    \n\n\n\n    ISSN: 01622889\n\n\n    EISSN: 15314804\n\n        \n
+  \   Subjects: \n            \n                Peace & Conflict Studies,\n            \n
+  \               Political Science,\n            \n                Social Sciences\n
+  \           \n    \n\n\n    \t\n    \n    \n        \n            \n    \n    \n
+  \   \n     \n    \n\n\n        \n    \n    \n    \n\t    \n    \n        \n            Article
+  Tools\n                \n                    \n                        \n                            Cite
+  this Item\n                        \n                    \n                \n                \n
+  \                   \n                        Journal Info\n                    \n
+  \               \n            \n    \n\n    \n\n                            \n                        \n
+  \                       \n                        \n                    \n                    \n
+  \                       \n\n\n    \n        Your access to JSTOR provided by \n
+  \   \n\n\n                    \n                \n            \n\n            \n\t\n\t
+  \   \n\t        \n\t            \n\n\n    \n        \n            « Previous Item\n
+  \       \n         | \n        \n            Next Item »\n        \n    \n\n\t        \n\t
+  \       \n\t            \n\t                    Article\n\t                \n\t
+  \               \n    \n        Thumbnails\n    \n    \n    \n    \n\n\t            \n\t
+  \   \n\t    \n\t        \n\t                                   \n\t                \n\t
+  \                   \n\t                        You have javascript disabled.\n\t\t\t\t\t\t\n\t
+  \                   \n    To read this item, please use PDF\n\n\t                \n\t
+  \               \n\t                \n\t                \n\n\t                \n
+  \   \n        \n    \n        \n            \n                \n\n            \n
+  \       \n        \n    \n    \n    \n    \n        \n\n        \n\n    \n        Previous
+  Page\n        Previous Page\n    \n\n\n        \n            \n                \n
+  \                   \n            \n            \n                \n\n\n\n    <!--//<![CDATA[\n
+  \       var m3_u = (location.protocol=='https:'\n                ? 'https://ja.jstor.org/www/serve/ajs.php'\n
+  \               : 'http://ja.jstor.org/www/serve/ajs.php');\n\n        if (!document.MAX_used){\n
+  \           document.MAX_used = ',';\n        }\n        document.write(\"<script
+  type='text/javascript' src='\" + m3_u);\n        \n    var is_urp = false,\n    is_shelved
+  = false;\n    document.write(\"?zoneid=16\");\n    document.write(\"&amp;articleId=10.2307/2539326\");\n
+  \   \n        document.write (\"&amp;issueId=10.2307/i323318\");\n        document.write(\"&amp;publisherCode=mitpress\");\n
+  \   \n    document.write (\"&amp;journalCode=intesecu\");\n    document.write(\"&amp;urp=\"
+  + is_urp);\n    document.write(\"&amp;rfs=\" + is_shelved);\n\n        document.write('&amp;cb=4456591999');\n
+  \       if (document.MAX_used != ','){\n            document.write(\"&amp;exclude=\"
+  + document.MAX_used);\n        }\n        document.write(document.charset ?\n                                '&amp;charset='+document.charset
+  :\n                                (document.characterSet ?\n                                        '&amp;charset='+document.characterSet
+  : ''));\n        document.write(\"&amp;loc=\" + escape(window.location));\n        if
+  (document.referrer) {\n            document.write(\"&amp;referer=\" + escape(document.referrer));\n
+  \       }\n        if (document.context) {\n            document.write(\"&context=\"
+  + escape(document.context));\n        }\n        if (document.mmm_fo) {\n            document.write(\"&amp;mmm_fo=1\");\n
+  \       }\n        document.write(\"'><\\/script>\");\n    //]]>-->\n\n    \n        \n\n\n
+  \           \n        \n        \n\n    \n        Next Page\n        Next Page\n
+  \   \n\n\n        \n\n    \n\n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n\n\n    \n    We're
+  having trouble loading this content. Download the PDF instead.\n    \n    \n\n\n\n\n\n
+  \   \n    \n        \n    Page Thumbnails\n   \n    \n        \n                    \n
+  \                       \n34\n                    \n                \n            \n
+  \               \n                    \n                        \n35\n                    \n
+  \               \n            \n                \n                    \n                        \n36\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n37\n                    \n                \n            \n
+  \               \n                    \n                        \n38\n                    \n
+  \               \n            \n                \n                    \n                        \n39\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n40\n                    \n                \n            \n
+  \               \n                    \n                        \n41\n                    \n
+  \               \n            \n                \n                    \n                        \n42\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n43\n                    \n                \n            \n
+  \       \n    \n\n    \n    \n    \n\n\t            \n\t        \n\t    \n        \n\t
+  \   \n\t        \n\t            \n    \n        International Security © 1997 MIT
+  Press\n    \n\n\t        \n\t    \n\t    \n            \n               \n\n\n\n\n
+  \   \n    \n        Request Permissions\n    \n\n            \n        \n\t\n\n\n
+  \           \n    \n\n        \n        \n        \n        JSTOR Home\n            About\n
+  \           Search\n            Browse\n            Terms and Conditions\n            Privacy
+  Policy\n            Cookies\n            Accessibility\n            Help\n            \n
+  \   Contact Us\n\n        JSTOR is part of ITHAKA, a not-for-profit organization
+  helping the academic community use digital technologies to preserve the scholarly
+  record and to advance research and teaching in sustainable ways.\n        ©2000-2015
+  ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered
+  trademarks of ITHAKA.\n    \n\n        \n\n<div id=\"loading\" class=\"reveal-modal
+  small\" aria-live=\"polite\" aria-relevant=\"additions\" aria-atomic=\"true\" aria-busy=\"false\"
+  data-reveal aria-labelledby=\"loadingTitle\" aria-hidden=\"true\" role=\"dialog\">\n
+  \   <header>\n        <h2 id=\"loadingTitle\">{{ heading }}\n    \n    <div id=\"loadingBody\"
+  class=\"reveal-body\">\n        {{ body }}\n    \n    <a href=\"#\" class=\"close-reveal-modal\"
+  aria-label=\"Close Overlay\">&#215; <span class=\"visuallyhidden\">Close Overlay\n\n\n
+  \   \n  var addthis_config =\n  {\n\t\t  pubid: \"ra-562109fdc69f4e2d\"\n  };\n
+  \ var addthis_share = \n  {\n\t\t  url: \"http://www.jstor.org/stable/2539326\"\n\t\t
+  \ \n  };\n\n    // COUNTER 4 tagging code\n    window.starData = {\n        'contentType':
+  'journal',\n        'journal': 'International Security',\n        'article': 'Brothers
+  under the Skin: Diplomatic History and International Relations',\n        'institution_consortium_map':
+  ['indiana.edu'],\n        'yop': '1997',\n        'doi': '10.2307/2539326',\n        'SEARCH_FED':
+  'False',\n        'has_access': true,\n        'page_scan': true,\n        'pdf_only':
+  false,\n        'full_text': false\n    };\n\n                var _$tarQ = _$tarQ
+  || [];\n                    \n                (function (){ \n                        var
+  stars = document.createElement('script'),\n                            s = document.getElementsByTagName('script')[0];\n
+  \                       \n                        stars.async= true; \n                        stars.type
+  = 'text/javascript'; \n                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n                        \n                        s.parentNode.insertBefore(stars,
+  s); \n                    }\n                )();\n            \n        \n        \n
+  \       \n        \n            //To prevent JS errors when disabled\n            if(typeof
+  _satellite !== \"undefined\"){\n                _satellite.pageBottom();\n            }\n
+  \        \nEssays in International Security have defined the debate on \nAmerican
+  national security policy and have set the agenda for scholarship \non international
+  security affairs.  \nReaders of International Security  discover new developments
+  in:The \"moving wall\" represents the time period between the last issue\n                        available
+  in JSTOR and the most recently published issue of a journal.\n                        Moving
+  walls are generally represented in years. In rare instances, a\n                        publisher
+  has elected to have a \"zero\" moving wall, so their current\n                        issues
+  are available in JSTOR shortly after publication.\n                        Note:
+  In calculating the moving wall, the current year is not counted.\n                        For
+  example, if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.Your access to JSTOR provided by
+  To read this item, please use PDFJSTOR is part of ITHAKA, a not-for-profit organization
+  helping the academic community use digital technologies to preserve the scholarly
+  record and to advance research and teaching in sustainable ways.\n        ©2000-2015
+  ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered
+  trademarks of ITHAKA."

@@ -1,0 +1,4490 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : iframe
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 146
+    str1: iframe
+    str2: 
+    str3: 
+    int1: 0
+    column: 234
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 151
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 223
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 154
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 110
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 266
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 276
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 278
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : script
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 279
+    str1: script
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 281
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 9
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 282
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 292
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 355
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 418
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 418
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 75
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 813
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 813
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 64
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-176dxhz"
+    line: 813
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 71
+address: http://realestate.money.cnn.com/
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "      \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- "  \n"
+- |
+  document.write('<iframe src="http://4376290.fls.doubleclick.net/activityi;src=4376290;type=truli300;cat=homep015;ord=1;num=' + (Math.random() * 10000000000000) + '?" width="1" height="1" frameborder="0" style="display:none">');
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "          \n"
+- |2
+             Trulia
+- "        \n"
+- "        \n"
+- "                  \n"
+- "            \n"
+- "              \n"
+- |2
+                                    Find Homes
+- "                  \n"
+- "                              \n"
+- "              \n"
+- "                \n"
+- |2
+                                                    Homes for Sale
+- "                                                                      \n"
+- "                                                                \n"
+- |2
+                                                    Open Houses
+- "                                                                      \n"
+- "                                                                \n"
+- |2
+                                                    Foreclosures
+- "                                                                      \n"
+- "                                                                \n"
+- |2
+                                                    New Homes
+- "                                                                      \n"
+- "                                                                \n"
+- |2
+                                                    Recently Sold Homes
+- "                                                                      \n"
+- "                                              \n"
+- "                                                                                                      \n"
+- |2
+                                                    Veteran Homebuyer Central
+- "                                                                      \n"
+- "                                                                \n"
+- |2
+                                                    More Search Options
+- "                                                                      \n"
+- "                                                                \n"
+- "                                                  \n"
+- "                                                                      \n"
+- "                                              \n"
+- "                                                                                                      \n"
+- |2
+                                                    All homes for sale
+- "                                                                      \n"
+- "                                                                            \n"
+- "            \n"
+- "          \n"
+- "        \n"
+- "        \n"
+- "      \n"
+- "  \n"
+- |2+
+
+- "            \n"
+- "  \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "                  \n"
+- "        \n"
+- "          \n"
+- "            \n"
+- "                        \n"
+- "              \n"
+- "            \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "            \n"
+- |2+
+
+- "            \n"
+- "          \n"
+- "                      \n"
+- "              \n"
+- "                    \n"
+- "            \n"
+- "            \n"
+- "          \n"
+- "        \n"
+- "      \n"
+- |2+
+
+- "            \n"
+- "      \n"
+- "\t<li class=\"pvn mvn\">\n"
+- |2+
+
+- |2
+    <li class="man pvs" data-title="<%= title %>" data-value="<%= value %>" data-location-id="<%= locationId %>" data-pid="<%= pid %>" data-property-Index="<%= propertyIndex %>" data-ac_index="<%= ac_index %>" data-location-type="<%= locationType %>" data-bed-Filter="<%= bedFilter %>" data-bath-Filter="<%= bathFilter %>" data-property-Filter="<%= propertyFilter %>">
+- |2
+      <div class="line man">
+- "    \t\t<div class=\"col cols20 pan typeTruncate\">\n"
+- "    \t\t\t<%= display %>\n"
+- "    \t\t\n"
+- "    \t\n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "  \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- |2+
+
+- "      \n"
+- "            \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- |2
+                        Trulia. Your Home for Real Estate.
+- "                  \n"
+- "        \n"
+- "          \n"
+- "            \n"
+- |2+
+
+- "              \n"
+- "                \n"
+- |2
+                    BuyRecently sold
+- |2
+                      Buy
+- "                    \n"
+- "                  \n"
+- "                \n"
+- "              \n"
+- "              \n"
+- |2
+                  SEARCH
+- "              \n"
+- "            \n"
+- "          \n"
+- |2+
+
+- "                  \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- |2
+    Most popular cities
+- " \n"
+- |2
+    San Francisco real estate
+- |2
+    Brooklyn real estate
+- |2
+    Manhattan real estate
+- |2
+    Los Angeles real estate
+- |2
+    San Diego real estate
+- " \n"
+- " \n"
+- |2
+    Miami real estate
+- |2
+    Chicago real estate
+- |2
+    Las Vegas real estate
+- |2
+    Queens real estate
+- |2
+    Austin real estate
+- " \n"
+- " \n"
+- |2
+    Phoenix real estate
+- |2
+    Washington DC real estate
+- |2
+    Denver real estate
+- |2
+    San Antonio real estate
+- |2
+    Indianapolis real estate
+- " \n"
+- " \n"
+- |2
+    Boston real estate
+- |2
+    Seattle real estate
+- |2
+    New Orleans real estate
+- |2
+    Atlanta real estate
+- |2
+    Honolulu real estate
+- " \n"
+- |
+  Company Info
+- " \n"
+- |2
+    About
+- |2
+    News Room
+- " \n"
+- |2+
+
+- |2
+   Partners
+- " \n"
+- |2
+    Publishers
+- |2
+    Submit Your Listings
+- " \n"
+- |2+
+
+- |2
+   Trulia Links
+- " \n"
+- |2
+    Contact us
+- |2
+    Sitemap
+- |2
+    Advertise on Trulia
+- |2
+    Mortgage
+- |2
+    Homes and local scoop for the real estate obsessed
+- " \n"
+- |2+
+
+- |2
+   Legal
+- " \n"
+- |2
+    Terms of Use
+- |2
+    Privacy Policy
+- |2
+    Ad Choices
+- " \n"
+- |2+
+
+- |2
+   Copyright © 2015 Trulia, Inc. All rights reserved.
+- " \n"
+- |2
+       Fair Housing and Equal Opportunity
+- " \n"
+- |2+
+
+- |2+
+
+- |2
+   Have a question? Visit our Help Center to find the answer
+- |2+
+
+- |2+
+
+- |
+  (function()
+- |
+  {
+- |2
+    var iframes = document.getElementsByTagName('iframe');
+- |2+
+
+- |2
+    for (var i=0, s=iframes.length; i<s; i++)
+- |2
+    {
+- |2
+      if (iframes[i].className.match(/\bi-cobrand\b/)) init(iframes[i]);
+- |2
+    }
+- |2
+    function init(iframe)
+- |2
+    {
+- |2
+      var idoc        = iframe.contentDocument || iframe.contentWindow.document
+- |2
+        , type        = iframe.parentNode.id.replace('cobrand_custom_', '')
+- |2
+        , header      = unescape('%3Cdiv%20id%3D%22cobrand_custom_header%22%3E%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fhead%2F8.0%2Fhead.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fbanner%2F8.0%2Fbanner_cnnmoney.js%22%3E%3C%2Fscript%3E%0A%0A%3C%2Fdiv%3E')
+- |2
+        , footer      = unescape('%3Cdiv%3E%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fhead%2F8.0%2Fhead.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Ffooter%2F8.0%2Ffooter.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fomniture%2Ftrulia_omni.js%22%3E%3C%2Fscript%3E%0A%3C%2Fdiv%3E')
+- |2
+        , is_separate = +'1'
+- |2
+        ;
+- |2+
+
+- |2
+      // firefox 3.6 is the best!
+- |2
+      if (navigator.userAgent.match(/MSIE/) || ((uaMatch = navigator.userAgent.match(RegExp(' Firefox/(\\d+)\.(\\d+)'))) && (+uaMatch[1] < 4)) )
+- |2
+      {
+- |2
+        iframe.src = '/external/'+type;
+- |2
+      }
+- |2
+      else
+- |2
+      {
+- |2
+        iframe.src = 'about:blank';
+- |2+
+
+- |2
+        idoc.open();
+- |2
+        idoc.write('<base target="_top">');
+- |2
+        idoc.write('<style>body{margin: 0px;}<\/style>');
+- |2+
+
+- |2
+        // {{{ check if it supports new format
+- |2
+        if (is_separate)
+- |2
+        {
+- |2
+          if (type == 'header') idoc.write(header);
+- |2
+          if (type == 'footer') idoc.write(footer);
+- |2
+        }
+- |2
+        else
+- |2
+        {
+- |2
+          // remove omniture from the footer (don't call it twice)
+- |2
+          if (type == 'footer')
+- |2
+          {
+- |2
+            header = header.replace(/<script[^>]*\bomniture\b[^>]*>[^<]*<\/script>/, '');
+- |2
+            footer = footer.replace(/<script[^>]*\bomniture\b[^>]*>[^<]*<\/script>/, '');
+- |2
+          }
+- |2+
+
+- |2
+          // hide header for the footer and vice versa
+- |2
+          if (type == 'header') footer = '<div style="display: none !important;">'+footer+'<\/div>';
+- |2
+          if (type == 'footer') header = '<div style="display: none !important;">'+header+'<\/div>';
+- |2+
+
+- |2
+          idoc.write(header + footer);
+- |2
+        }
+- |2
+        // }}}
+- |2+
+
+- |2
+        idoc.close();
+- |2
+      }
+- |2
+    }
+- |
+  })();
+- |2+
+
+- |2
+      // TODO: return function ready to repopulate the page
+- |
+  (function()
+- |
+  {
+- |2
+    var el, data, attr, newEl, parent, children;
+- |2+
+
+- |2
+    function getAttr(el, name)
+- |2
+    {
+- |2
+      if (navigator.userAgent.match(/MSIE/))
+- |2
+      {
+- |2
+          var item = el.attributes.getNamedItem(name);
+- |2
+          return (!item || !item.value) ? null : item.value;
+- |2
+      }
+- |2
+      return el.getAttribute(name);
+- |2
+    }
+- |2
+    function setAttr(el, name, value)
+- |2
+    {
+- |2
+      if (navigator.userAgent.match(/MSIE/))
+- |2
+      {
+- |2
+        var item = document.createAttribute(name);
+- |2
+        item.value = value;
+- |2
+        return el.attributes.setNamedItem(item);
+- |2
+      }
+- |2
+      return el.setAttribute(name, value);
+- |2
+    }
+- |2+
+
+- |2
+    // construct seo data object
+- |2
+    var PageData = {"searchbox_form_location":""};
+- |2+
+
+- |2
+    // process seo data object
+- |2
+    for (var id in PageData)
+- |2
+    {
+- |2
+      if (typeof PageData[id] == 'object')
+- |2
+      {
+- |2
+        data = {};
+- |2
+        for (var key in PageData[id])
+- |2
+        {
+- |2
+          data[key] = unescape(PageData[id][key]);
+- |2
+        }
+- |2
+      }
+- |2
+      else
+- |2
+      {
+- |2
+        data = unescape(PageData[id]);
+- |2
+      }
+- |2+
+
+- |2
+      if (el = document.getElementById(id))
+- |2
+      {
+- |2+
+
+- |2
+        if (attr = getAttr(el, 'data-transform'))
+- |2
+        {
+- |2
+          newEl = document.createElement(attr);
+- |2
+          parent = el.parentNode;
+- |2
+          parent.insertBefore(newEl, el);
+- |2
+          newEl.innerHTML = el.innerHTML;
+- |2
+          parent.removeChild(el);
+- |2
+          // copy id, class and title for now
+- |2
+          if (getAttr(el, 'id')) setAttr(newEl, 'id', getAttr(el, 'id'));
+- |2
+          if (getAttr(el, 'class')) setAttr(newEl, 'class', getAttr(el, 'class'));
+- |2
+          if (getAttr(el, 'title')) setAttr(newEl, 'title', getAttr(el, 'title'));
+- |2
+          el = newEl;
+- |2
+        }
+- |2+
+
+- |2
+        switch (el.tagName)
+- |2
+        {
+- |2
+          case 'INPUT':
+- |2
+            el.value = data;
+- |2
+            break;
+- |2+
+
+- |2
+          case 'A':
+- |2
+            if (typeof data == 'object')
+- |2
+            {
+- |2
+              if ('href' in data) setAttr(el, 'href', data['href']);
+- |2
+              if ('text' in data) el.innerHTML = data['text'];
+- |2
+            }
+- |2
+            else
+- |2
+            {
+- |2
+              setAttr(el, 'href', data);
+- |2
+            }
+- |2
+            break;
+- |2+
+
+- |2
+          default:
+- |2
+            el.innerHTML = data;
+- |2
+        }
+- |2
+      }
+- |2
+    }
+- |2+
+
+- |
+  })();
+- "  \n"
+- |2
+                                                            var site_root = "/";
+- |2
+                          var _SITE_ROOT = "/";
+- |2
+                          var _IMAGE_SERVER_ROOT = "http://static.trulia-cdn.com";
+- |2
+                          var _ENVIRONMENT = "PROD";
+- |2
+                          var _IS_SHOWING_MODAL = false;
+- |2
+                          var _feature_auth_popup_center_text_enabled = false;
+- |2
+                          var _feature_auth_popup_form_toggle_buttons_enabled = false;
+- |2
+                          var _feature_srp_save_search_ux_v1_enabled = false;
+- |2
+                          var _feature_srp_save_search_ux_v2_enabled = false;
+- |2
+                          var _feature_srp_top_nav_filters_enabled = false;
+- |2
+                          var _feature_srp_hybrid_enabled = false;
+- |2
+                          var _feature_pdp_for_sale_lead_upsell_v1_enabled = false;
+- |2
+                          var _feature_moving_postlead_v1_enabled = false;
+- |2
+                          var _feature_moving_postlead_v2_enabled = false;
+- |2
+                          var _feature_lead_recommender_bypass_a_enabled = false;
+- |2
+                          var _feature_infinite_scroll_v1_enabled = false;
+- |2
+                          var _feature_infinite_scroll_v2_enabled = false;
+- |2
+                          var _feature_txl2_enabled = false;
+- |2
+                          var _feature_rental_popup_lead_form_consolidated_enabled = false;
+- |2
+                          var _feature_collab_auto_register_enabled = false;
+- |2
+                          var _feature_collab_auto_register_a_enabled = false;
+- |2
+                          var _feature_collab_post_lead_invite_to_board_enabled = false;
+- |2
+                          var _feature_pdp_commute_result_v1_enabled = false;
+- |2
+                          var _feature_pdp_add_notes_enabled = false;
+- |2
+                          var _feature_share_board_enabled = false;
+- |2
+                          var _feature_opaque_lead_form_enabled = false;
+- |2
+                          var mortgage_coreg_qc_off = false;
+- |2
+                          var mortgage_coreg_short_form_on = false;
+- |2
+                          var mortgage_vu_lead_on = false;
+- "              \n"
+- |2
+        var qpn_NAMES =
+- |2
+      {
+- |2
+        'site':                'CNNMoney',
+- |2
+        'site_possessive':     'CNNMoney\'s',
+- |2
+        'mytrulia':            'My Trulia',
+- |2
+        'email_domain':        'trulia.com',
+- |2
+        'truliamap':           'TruliaMap',
+- |2
+        'voices':              'Trulia Voices',
+- |2
+        'account_source':      'cnnmoney',
+- |2
+        'secondary_subdomain': 'realestate.money.cnn.com'
+- |2
+      },
+- |2
+      _js_server_root       = 'http://static.trulia-cdn.com/javascript/H43_39/',
+- |2
+      _release_version_tab  = 'H43_39',
+- |2
+      _fb_app_id            = '183577541666001';
+- |2+
+
+- |
+  var trulia = (typeof(trulia) !== "undefined") ? trulia : {};
+- |2
+      trulia.is_agent_paid = '';
+- |2
+      trulia.agent_user_id = '0';
+- |2
+      trulia.tracking = trulia.tracking || {};
+- |2
+      trulia.tracking.omniture_id = 'truliacom';
+- "    \n"
+- "  \n"
+- |2
+      require(['common'], function () {
+- |2+
+
+- |2
+        require(['combo/global_nav'], function() {
+- |2
+                    var sticky = trulia.GlobalNavSticky;
+- |2
+            sticky.init({
+- |2
+              'fade_duration': 500
+- |2
+            });
+- |2
+                });
+- |2
+              require(['collab/collab_main'], function() {
+- |2
+          require(['global_nav/global_nav_main']);
+- |2
+        });
+- |2
+            });
+- "  \n"
+- |2
+    require(['combo/pg_homepage'], function() {
+- |2
+        var args = {
+- |2
+          isDefault: '',
+- |2
+          agentAds: {
+- |2
+            hide_forever_cookie_name: ''
+- |2
+          }
+- |2
+        };
+- |2
+        trulia.homepage.init(args);
+- |2
+        trulia.homepage.heroBannerModule.start();
+- |2
+    });
+- "  \n"
+- |
+  (function()
+- |
+  {
+- |2
+    function update(iframe)
+- |2
+    {
+- |2
+      iframe = iframe.nodeType === 1 ? iframe : this;
+- |2+
+
+- |2
+      var idoc
+- |2
+        , height = 0
+- |2
+        , times  = 0
+- |2
+        , interval
+- |2
+        ;
+- |2+
+
+- |2
+      // {{{ do guess magic
+- |2
+      try
+- |2
+      {
+- |2
+        idoc = iframe.contentDocument || iframe.contentWindow.document;
+- |2
+        if (!idoc)
+- |2
+        {
+- |2
+          document.domain = document.domain.match(/\.?([a-z0-9-]+\.[a-z0-9-]+)$/)[1];
+- |2
+          idoc = iframe.contentDocument || iframe.contentWindow.document;
+- |2
+        }
+- |2
+      }
+- |2
+      catch (e)
+- |2
+      {
+- |2
+        document.domain = document.domain.match(/\.?([a-z0-9-]+\.[a-z0-9-]+)$/)[1];
+- |2
+        idoc = iframe.contentDocument || iframe.contentWindow.document;
+- |2
+      }
+- |2
+      // }}}
+- |2+
+
+- |2
+      function resize()
+- |2
+      {
+- |2
+        var h = $(idoc).height()
+- |2
+          ;
+- |2+
+
+- |2
+        if (h > height)
+- |2
+        {
+- |2
+          height = h;
+- |2
+          $(iframe).height(height);
+- |2
+          times++;
+- |2
+          // enough is enough
+- |2
+          if (times > 4) clearInterval(interval);
+- |2
+        }
+- |2
+      };
+- |2+
+
+- |2
+      // watch for the changes
+- |2
+      interval = setInterval(resize, 500);
+- |2+
+
+- |2
+      // set timeout as well, 10 seconds
+- |2
+      setTimeout(function(){ clearInterval(interval); }, 30000);
+- |2
+    }
+- |2+
+
+- |2
+    $('iframe.i-cobrand').each(function()
+- |2
+    {
+- |2
+      if (this.src == 'about:blank')
+- |2
+      {
+- |2
+        update(this);
+- |2
+      }
+- |2
+      else
+- |2
+      {
+- |2
+        $(this).load(update);
+- |2
+      }
+- |2
+    });
+- |2+
+
+- |2
+    // special hit for IE7
+- |2
+    if ((uaMatch = navigator.userAgent.match(RegExp(' MSIE (\\d+)\.(\\d+)'))) && (+uaMatch[1] < 8))
+- |2
+    {
+- |2
+      function ie7TopIframeResize()
+- |2
+      {
+- |2
+        var width = $(window).width();
+- |2
+        $('#cobrand_custom_header').width(width).css({marginLeft: '-'+Math.ceil((width-970)/2)+'px'});
+- |2
+      }
+- |2+
+
+- |2
+      // do it at once
+- |2
+      ie7TopIframeResize();
+- |2
+      // follow window
+- |2
+      $(window).resize(ie7TopIframeResize);
+- |2
+    }
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  })();
+- |2+
+
+- |2
+    {
+- |2
+      "@context": "http://schema.org",
+- |2
+      "@type": "WebSite",
+- |2
+      "url": "http://www.trulia.com",
+- |2
+      "potentialAction": {
+- |2
+        "@type": "SearchAction",
+- |2
+        "target": "http://www.trulia.com/for_sale/{search_term_string}",
+- |2
+        "query-input": "required name=search_term_string"
+- |2
+      }
+- |2
+    }
+- "  \n"
+- |2
+    var runBeacon = function ()
+- |2
+    {
+- |2
+      try {
+- |2
+        var tempurl = window.location.href;
+- |2
+        var regex = new RegExp("((http|https)://)([a-zA-Z0-9]+\.)(.*)");
+- |2
+        var comurl = tempurl.match(regex);
+- |2
+        var beacon_url = comurl[3]+comurl[4];
+- |2+
+
+- |2
+        try {
+- |2
+          var id = getCookie('tlftmusr');
+- |2
+        } catch (e) {
+- |2
+          var id = '';
+- |2
+        }
+- |2+
+
+- |2
+        COMSCORE.beacon({
+- |2
+          c1:2,
+- |2
+          c2:6036206,
+- |2
+          c3:"",
+- |2
+          c4:beacon_url,
+- |2
+          c5:"",
+- |2
+          c6:"",
+- |2
+          c15:id
+- |2
+        });
+- |2
+      } catch (e) {}
+- |2
+    };
+- |2+
+
+- |2
+        $LAB.script('http://b.scorecardresearch.com/beacon.js').wait(runBeacon);
+- "  \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+    trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_GLOBAL_REMARKETING);
+- |
+  trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_UNIQUE_CONVERSION);
+- |2+
+
+- |2+
+
+- |2
+    <!--[if !IE]> Script below Copyright 1997-2004 Omniture, Inc. <![endif]-->
+- |2
+    s.channel = unescape('Home%20Page');
+- |2
+    s.events = unescape('event5');
+- |2
+    s.pageType = unescape('home');
+- |2
+    s.pageName = unescape('home%3AB');
+- |2
+    s.prop58 = unescape('home%3AB');
+- |2
+    s.eVar58 = unescape('home%3AB');
+- |2
+    s.eVar15 = unescape('204');
+- |2
+    s.eVar19 = unescape('cbs0324');
+- |2
+    s.eVar6 = unescape('2015.51');
+- |2
+    s.eVar18 = unescape('127ed4fd1ef929bdabb119c6cabfaccf');
+- |2
+    s.eVar5 = unescape('151214127ed4fd1ef929bdabb119c6cabfaccf');
+- |2
+    s.prop38 = unescape('home%3AB%7CUnregistered');
+- |2
+    s.eVar25 = unescape('20151214');
+- |2
+    s.eVar39 = unescape('NULL');
+- |2
+    s.eVar40 = unescape('NULL');
+- |2
+    s.eVar41 = unescape('NULL');
+- |2
+    s_campaign = unescape('');
+- |2+
+
+- |
+  s_campaign = typeof s_campaign === 'undefined' ? '' : s_campaign;
+- |2+
+
+- |
+  if (typeof s.doPlugins == 'function')
+- |
+  {
+- |2
+    s.doPlugins(s, s_campaign);
+- |
+  }
+- |2+
+
+- |
+  if (typeof s.t == 'function')
+- |
+  {
+- |2
+    var s_code = s.t();
+- |2
+    if (s_code)
+- |2
+    {
+- |2
+      document.write(s_code);
+- |2
+    }
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+    var utag_data = {"page_type":"home","page_name":"home:B","campaign":"","site_section":"Home Page","server_code":"204","session_id":"127ed4fd1ef929bdabb119c6cabfaccf","cobrand_site":"cbs0324","date_first_visit":"20151214","page_reg_status":"home:B|Unregistered","user_id":"151214127ed4fd1ef929bdabb119c6cabfaccf","user_type":"NULL","user_sub_type":"NULL"};
+- |2+
+
+- |2+
+
+- "  \n"
+- |2
+    _satellite.pageBottom();
+- |2+
+
+- |2
+   Copyright © 2015 Trulia, Inc. All rights reserved.
+- " \n"
+- |2
+       Fair Housing and Equal Opportunity
+- " \n"
+- |2+
+
+- |2
+   Have a question? Visit our Help Center to find the answer
+index:
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 15.0
+    docPositions:
+    - 9
+    - 223
+    - 231
+    - 297
+    - 323
+    - 328
+    - 457
+    - 460
+    - 461
+    - 466
+    - 467
+    - 604
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 8.0
+    docPositions:
+    - 9
+    - 248
+    - 249
+    - 254
+    - 255
+    - 270
+    - 604
+  iframe: !ruby/object:Word
+    word: iframe
+    stem: ifram
+    docFrequency: 21.0
+    docPositions:
+    - 9
+    - 223
+    - 229
+    - 231
+    - 232
+    - 241
+    - 245
+    - 444
+    - 446
+    - 457
+    - 461
+    - 467
+    - 479
+    - 493
+  fls: !ruby/object:Word
+    word: fls
+    stem: fl
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  doubleclick: !ruby/object:Word
+    word: doubleclick
+    stem: doubleclick
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  activityi: !ruby/object:Word
+    word: activityi
+    stem: activityi
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 12.0
+    docPositions:
+    - 9
+    - 99
+    - 232
+    - 241
+    - 254
+    - 255
+    - 260
+    - 267
+    - 268
+    - 526
+    - 529
+  cat: !ruby/object:Word
+    word: cat
+    stem: cat
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  ord: !ruby/object:Word
+    word: ord
+    stem: ord
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  num: !ruby/object:Word
+    word: num
+    stem: num
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 511
+  random: !ruby/object:Word
+    word: random
+    stem: random
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 7.0
+    docPositions:
+    - 9
+    - 510
+    - 511
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 8.0
+    docPositions:
+    - 9
+    - 449
+    - 473
+    - 476
+    - 478
+    - 479
+  frameborder: !ruby/object:Word
+    word: frameborder
+    stem: framebord
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 6.0
+    docPositions:
+    - 9
+    - 249
+    - 267
+    - 268
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 102
+    - 267
+    - 268
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 267
+    - 268
+  trulia: !ruby/object:Word
+    word: trulia
+    stem: trulia
+    docFrequency: 29.0
+    docPositions:
+    - 17
+    - 124
+    - 196
+    - 200
+    - 212
+    - 368
+    - 400
+    - 401
+    - 403
+    - 407
+    - 411
+    - 412
+    - 413
+    - 414
+    - 415
+    - 421
+    - 438
+    - 439
+    - 527
+    - 530
+    - 569
+    - 570
+    - 617
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 4.0
+    docPositions:
+    - 23
+    - 218
+    - 622
+  homes: !ruby/object:Word
+    word: homes
+    stem: home
+    docFrequency: 7.0
+    docPositions:
+    - 23
+    - 28
+    - 37
+    - 40
+    - 54
+    - 202
+  sale: !ruby/object:Word
+    word: sale
+    stem: sale
+    docFrequency: 3.0
+    docPositions:
+    - 28
+    - 54
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 247
+  houses: !ruby/object:Word
+    word: houses
+    stem: hous
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  foreclosures: !ruby/object:Word
+    word: foreclosures
+    stem: foreclosur
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 180
+    - 251
+    - 539
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  sold: !ruby/object:Word
+    word: sold
+    stem: sold
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 132
+  veteran: !ruby/object:Word
+    word: veteran
+    stem: veteran
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  homebuyer: !ruby/object:Word
+    word: homebuyer
+    stem: homebuy
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 139
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 212
+    - 617
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 56.0
+    docPositions:
+    - 97
+    - 99
+    - 100
+    - 101
+    - 102
+    - 221
+    - 232
+    - 233
+    - 234
+    - 235
+    - 238
+    - 251
+    - 259
+    - 266
+    - 279
+    - 280
+    - 304
+    - 307
+    - 333
+    - 398
+    - 399
+    - 400
+    - 401
+    - 402
+    - 403
+    - 404
+    - 405
+    - 423
+    - 442
+    - 449
+    - 450
+    - 451
+    - 454
+    - 479
+    - 481
+    - 486
+    - 489
+    - 493
+    - 501
+    - 505
+    - 511
+    - 514
+    - 516
+    - 517
+    - 525
+    - 526
+    - 527
+    - 528
+    - 529
+    - 530
+    - 531
+    - 545
+    - 558
+    - 561
+    - 573
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 3.0
+    docPositions:
+    - 97
+    - 99
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 9.0
+    docPositions:
+    - 97
+    - 99
+    - 100
+    - 101
+    - 333
+    - 335
+  pvn: !ruby/object:Word
+    word: pvn
+    stem: pvn
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  mvn: !ruby/object:Word
+    word: mvn
+    stem: mvn
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 3.0
+    docPositions:
+    - 99
+    - 100
+  pvs: !ruby/object:Word
+    word: pvs
+    stem: pv
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 26.0
+    docPositions:
+    - 99
+    - 282
+    - 304
+    - 307
+    - 312
+    - 315
+    - 320
+    - 326
+    - 343
+    - 347
+    - 349
+    - 350
+    - 354
+    - 359
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 7.0
+    docPositions:
+    - 99
+    - 333
+    - 336
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 10.0
+    docPositions:
+    - 99
+    - 289
+    - 293
+    - 298
+    - 301
+    - 343
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 4.0
+    docPositions:
+    - 99
+    - 538
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 16.0
+    docPositions:
+    - 99
+    - 232
+    - 308
+    - 310
+    - 313
+    - 315
+    - 320
+    - 323
+    - 333
+    - 334
+    - 544
+    - 546
+    - 556
+  locationid: !ruby/object:Word
+    word: locationid
+    stem: locationid
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  pid: !ruby/object:Word
+    word: pid
+    stem: pid
+    docFrequency: 3.0
+    docPositions:
+    - 99
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 3.0
+    docPositions:
+    - 99
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  propertyindex: !ruby/object:Word
+    word: propertyindex
+    stem: propertyindex
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  ac_index: !ruby/object:Word
+    word: ac_index
+    stem: ac_index
+    docFrequency: 3.0
+    docPositions:
+    - 99
+  locationtype: !ruby/object:Word
+    word: locationtype
+    stem: locationtyp
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  bed: !ruby/object:Word
+    word: bed
+    stem: bed
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 4.0
+    docPositions:
+    - 99
+  bedfilter: !ruby/object:Word
+    word: bedfilter
+    stem: bedfilt
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  bath: !ruby/object:Word
+    word: bath
+    stem: bath
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  bathfilter: !ruby/object:Word
+    word: bathfilter
+    stem: bathfilt
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  propertyfilter: !ruby/object:Word
+    word: propertyfilter
+    stem: propertyfilt
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 7.0
+    docPositions:
+    - 100
+    - 101
+    - 267
+    - 268
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  col: !ruby/object:Word
+    word: col
+    stem: col
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  pan: !ruby/object:Word
+    word: pan
+    stem: pan
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  typetruncate: !ruby/object:Word
+    word: typetruncate
+    stem: typetrunc
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 193
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 12.0
+    docPositions:
+    - 124
+    - 574
+    - 576
+    - 577
+    - 578
+    - 579
+    - 585
+    - 611
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 23.0
+    docPositions:
+    - 124
+    - 157
+    - 158
+    - 159
+    - 160
+    - 161
+    - 164
+    - 165
+    - 166
+    - 167
+    - 168
+    - 171
+    - 172
+    - 173
+    - 174
+    - 175
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 202
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 23.0
+    docPositions:
+    - 124
+    - 157
+    - 158
+    - 159
+    - 160
+    - 161
+    - 164
+    - 165
+    - 166
+    - 167
+    - 168
+    - 171
+    - 172
+    - 173
+    - 174
+    - 175
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 202
+  buyrecently: !ruby/object:Word
+    word: buyrecently
+    stem: buyrec
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  buy: !ruby/object:Word
+    word: buy
+    stem: bui
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  popular: !ruby/object:Word
+    word: popular
+    stem: popular
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  cities: !ruby/object:Word
+    word: cities
+    stem: citi
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 4.0
+    docPositions:
+    - 157
+    - 161
+    - 174
+  francisco: !ruby/object:Word
+    word: francisco
+    stem: francisco
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  brooklyn: !ruby/object:Word
+    word: brooklyn
+    stem: brooklyn
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  manhattan: !ruby/object:Word
+    word: manhattan
+    stem: manhattan
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  los: !ruby/object:Word
+    word: los
+    stem: lo
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  angeles: !ruby/object:Word
+    word: angeles
+    stem: angel
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  diego: !ruby/object:Word
+    word: diego
+    stem: diego
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  miami: !ruby/object:Word
+    word: miami
+    stem: miami
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  chicago: !ruby/object:Word
+    word: chicago
+    stem: chicago
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  las: !ruby/object:Word
+    word: las
+    stem: la
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  vegas: !ruby/object:Word
+    word: vegas
+    stem: vega
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  queens: !ruby/object:Word
+    word: queens
+    stem: queen
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  austin: !ruby/object:Word
+    word: austin
+    stem: austin
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  phoenix: !ruby/object:Word
+    word: phoenix
+    stem: phoenix
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  washington: !ruby/object:Word
+    word: washington
+    stem: washington
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  dc: !ruby/object:Word
+    word: dc
+    stem: dc
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  denver: !ruby/object:Word
+    word: denver
+    stem: denver
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  antonio: !ruby/object:Word
+    word: antonio
+    stem: antonio
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  indianapolis: !ruby/object:Word
+    word: indianapolis
+    stem: indianapoli
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  boston: !ruby/object:Word
+    word: boston
+    stem: boston
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  seattle: !ruby/object:Word
+    word: seattle
+    stem: seattl
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  orleans: !ruby/object:Word
+    word: orleans
+    stem: orlean
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  atlanta: !ruby/object:Word
+    word: atlanta
+    stem: atlanta
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  honolulu: !ruby/object:Word
+    word: honolulu
+    stem: honolulu
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  room: !ruby/object:Word
+    word: room
+    stem: room
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  partners: !ruby/object:Word
+    word: partners
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  publishers: !ruby/object:Word
+    word: publishers
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  listings: !ruby/object:Word
+    word: listings
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  sitemap: !ruby/object:Word
+    word: sitemap
+    stem: sitemap
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  mortgage: !ruby/object:Word
+    word: mortgage
+    stem: mortgag
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 6.0
+    docPositions:
+    - 202
+    - 214
+    - 266
+    - 333
+    - 619
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  scoop: !ruby/object:Word
+    word: scoop
+    stem: scoop
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  obsessed: !ruby/object:Word
+    word: obsessed
+    stem: obsess
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 4.0
+    docPositions:
+    - 212
+    - 573
+    - 617
+  inc: !ruby/object:Word
+    word: inc
+    stem: inc
+    docFrequency: 4.0
+    docPositions:
+    - 212
+    - 573
+    - 617
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 617
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 617
+  fair: !ruby/object:Word
+    word: fair
+    stem: fair
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 619
+  housing: !ruby/object:Word
+    word: housing
+    stem: hous
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 619
+  equal: !ruby/object:Word
+    word: equal
+    stem: equal
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 619
+  opportunity: !ruby/object:Word
+    word: opportunity
+    stem: opportun
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 619
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  answer: !ruby/object:Word
+    word: answer
+    stem: answer
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 622
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 20.0
+    docPositions:
+    - 221
+    - 229
+    - 279
+    - 280
+    - 284
+    - 293
+    - 418
+    - 420
+    - 426
+    - 431
+    - 442
+    - 444
+    - 471
+    - 490
+    - 493
+    - 508
+    - 535
+    - 594
+    - 599
+  iframes: !ruby/object:Word
+    word: iframes
+    stem: ifram
+    docFrequency: 5.0
+    docPositions:
+    - 223
+    - 225
+    - 227
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 7.0
+    docPositions:
+    - 225
+    - 227
+    - 493
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 25.0
+    docPositions:
+    - 225
+    - 399
+    - 574
+    - 575
+    - 576
+    - 577
+    - 578
+    - 579
+    - 580
+    - 581
+    - 582
+    - 583
+    - 584
+    - 585
+    - 586
+    - 587
+    - 588
+    - 589
+    - 594
+    - 596
+    - 599
+    - 601
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 30.0
+    docPositions:
+    - 227
+    - 239
+    - 251
+    - 252
+    - 254
+    - 255
+    - 260
+    - 267
+    - 268
+    - 286
+    - 295
+    - 310
+    - 323
+    - 326
+    - 334
+    - 335
+    - 336
+    - 347
+    - 349
+    - 350
+    - 458
+    - 476
+    - 482
+    - 495
+    - 506
+    - 573
+    - 594
+    - 599
+    - 602
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  match: !ruby/object:Word
+    word: match
+    stem: match
+    docFrequency: 10.0
+    docPositions:
+    - 227
+    - 239
+    - 286
+    - 295
+    - 460
+    - 466
+    - 506
+    - 540
+  bi: !ruby/object:Word
+    word: bi
+    stem: bi
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  cobrand: !ruby/object:Word
+    word: cobrand
+    stem: cobrand
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 493
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 7.0
+    docPositions:
+    - 227
+    - 262
+    - 263
+    - 561
+    - 611
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 5.0
+    docPositions:
+    - 227
+    - 229
+    - 422
+    - 438
+  idoc: !ruby/object:Word
+    word: idoc
+    stem: idoc
+    docFrequency: 15.0
+    docPositions:
+    - 231
+    - 247
+    - 248
+    - 249
+    - 254
+    - 255
+    - 270
+    - 274
+    - 448
+    - 457
+    - 458
+    - 461
+    - 467
+    - 473
+  contentdocument: !ruby/object:Word
+    word: contentdocument
+    stem: contentdocu
+    docFrequency: 5.0
+    docPositions:
+    - 231
+    - 457
+    - 461
+    - 467
+  contentwindow: !ruby/object:Word
+    word: contentwindow
+    stem: contentwindow
+    docFrequency: 5.0
+    docPositions:
+    - 231
+    - 457
+    - 461
+    - 467
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 3.0
+    docPositions:
+    - 232
+    - 329
+  replace: !ruby/object:Word
+    word: replace
+    stem: replac
+    docFrequency: 4.0
+    docPositions:
+    - 232
+    - 262
+    - 263
+  cobrand_custom_: !ruby/object:Word
+    word: cobrand_custom_
+    stem: cobrand_custom_
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 11.0
+    docPositions:
+    - 233
+    - 254
+    - 262
+    - 266
+    - 267
+    - 268
+    - 270
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 22.0
+    docPositions:
+    - 233
+    - 234
+    - 315
+    - 320
+    - 574
+    - 575
+    - 576
+    - 577
+    - 578
+    - 579
+    - 580
+    - 581
+    - 582
+    - 583
+    - 584
+    - 585
+    - 586
+    - 587
+    - 588
+    - 589
+    - 590
+  cdn: !ruby/object:Word
+    word: cdn
+    stem: cdn
+    docFrequency: 8.0
+    docPositions:
+    - 233
+    - 234
+    - 368
+    - 407
+  turner: !ruby/object:Word
+    word: turner
+    stem: turner
+    docFrequency: 6.0
+    docPositions:
+    - 233
+    - 234
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 6.0
+    docPositions:
+    - 233
+    - 234
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 13.0
+    docPositions:
+    - 234
+    - 255
+    - 259
+    - 260
+    - 263
+    - 266
+    - 267
+    - 268
+    - 270
+  is_separate: !ruby/object:Word
+    word: is_separate
+    stem: is_separ
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 252
+  firefox: !ruby/object:Word
+    word: firefox
+    stem: firefox
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 239
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  navigator: !ruby/object:Word
+    word: navigator
+    stem: navig
+    docFrequency: 6.0
+    docPositions:
+    - 239
+    - 286
+    - 295
+    - 506
+  useragent: !ruby/object:Word
+    word: useragent
+    stem: userag
+    docFrequency: 6.0
+    docPositions:
+    - 239
+    - 286
+    - 295
+    - 506
+  msie: !ruby/object:Word
+    word: msie
+    stem: msie
+    docFrequency: 5.0
+    docPositions:
+    - 239
+    - 286
+    - 295
+    - 506
+  uamatch: !ruby/object:Word
+    word: uamatch
+    stem: uamatch
+    docFrequency: 5.0
+    docPositions:
+    - 239
+    - 506
+  regexp: !ruby/object:Word
+    word: regexp
+    stem: regexp
+    docFrequency: 4.0
+    docPositions:
+    - 239
+    - 506
+    - 539
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 5.0
+    docPositions:
+    - 239
+    - 506
+  external: !ruby/object:Word
+    word: external
+    stem: extern
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 6.0
+    docPositions:
+    - 243
+    - 257
+    - 318
+    - 352
+    - 499
+  blank: !ruby/object:Word
+    word: blank
+    stem: blank
+    docFrequency: 3.0
+    docPositions:
+    - 245
+    - 495
+  base: !ruby/object:Word
+    word: base
+    stem: base
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  target: !ruby/object:Word
+    word: target
+    stem: target
+    docFrequency: 3.0
+    docPositions:
+    - 248
+    - 530
+  _top: !ruby/object:Word
+    word: _top
+    stem: _top
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 249
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 249
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  supports: !ruby/object:Word
+    word: supports
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  format: !ruby/object:Word
+    word: format
+    stem: format
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  remove: !ruby/object:Word
+    word: remove
+    stem: remov
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  omniture: !ruby/object:Word
+    word: omniture
+    stem: omnitur
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 573
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 4.0
+    docPositions:
+    - 259
+    - 599
+    - 601
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  twice: !ruby/object:Word
+    word: twice
+    stem: twice
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 7.0
+    docPositions:
+    - 262
+    - 263
+    - 561
+    - 573
+  bomniture: !ruby/object:Word
+    word: bomniture
+    stem: bomnitur
+    docFrequency: 3.0
+    docPositions:
+    - 262
+    - 263
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  vice: !ruby/object:Word
+    word: vice
+    stem: vice
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  versa: !ruby/object:Word
+    word: versa
+    stem: versa
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 3.0
+    docPositions:
+    - 267
+    - 268
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 274
+  todo: !ruby/object:Word
+    word: todo
+    stem: todo
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 6.0
+    docPositions:
+    - 279
+    - 289
+    - 291
+    - 299
+    - 301
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  repopulate: !ruby/object:Word
+    word: repopulate
+    stem: repopul
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 279
+    - 611
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 27.0
+    docPositions:
+    - 282
+    - 284
+    - 288
+    - 291
+    - 293
+    - 299
+    - 301
+    - 323
+    - 326
+    - 329
+    - 330
+    - 331
+    - 332
+    - 334
+    - 335
+    - 336
+    - 337
+    - 340
+    - 343
+    - 349
+    - 350
+    - 354
+    - 359
+  attr: !ruby/object:Word
+    word: attr
+    stem: attr
+    docFrequency: 4.0
+    docPositions:
+    - 282
+    - 326
+    - 328
+  newel: !ruby/object:Word
+    word: newel
+    stem: newel
+    docFrequency: 9.0
+    docPositions:
+    - 282
+    - 328
+    - 330
+    - 331
+    - 334
+    - 335
+    - 336
+    - 337
+  parent: !ruby/object:Word
+    word: parent
+    stem: parent
+    docFrequency: 5.0
+    docPositions:
+    - 282
+    - 329
+    - 330
+    - 332
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  getattr: !ruby/object:Word
+    word: getattr
+    stem: getattr
+    docFrequency: 9.0
+    docPositions:
+    - 284
+    - 326
+    - 334
+    - 335
+    - 336
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 8.0
+    docPositions:
+    - 284
+    - 288
+    - 291
+    - 293
+    - 297
+    - 301
+    - 531
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 8.0
+    docPositions:
+    - 288
+    - 289
+    - 297
+    - 298
+    - 299
+  attributes: !ruby/object:Word
+    word: attributes
+    stem: attribut
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 299
+  getnameditem: !ruby/object:Word
+    word: getnameditem
+    stem: getnameditem
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 7.0
+    docPositions:
+    - 289
+    - 587
+    - 588
+    - 589
+    - 611
+  getattribute: !ruby/object:Word
+    word: getattribute
+    stem: getattribut
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  setattr: !ruby/object:Word
+    word: setattr
+    stem: setattr
+    docFrequency: 7.0
+    docPositions:
+    - 293
+    - 334
+    - 335
+    - 336
+    - 349
+    - 354
+  createattribute: !ruby/object:Word
+    word: createattribute
+    stem: createattribut
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  setnameditem: !ruby/object:Word
+    word: setnameditem
+    stem: setnameditem
+    docFrequency: 2.0
+    docPositions:
+    - 299
+  setattribute: !ruby/object:Word
+    word: setattribute
+    stem: setattribut
+    docFrequency: 2.0
+    docPositions:
+    - 301
+  construct: !ruby/object:Word
+    word: construct
+    stem: construct
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  seo: !ruby/object:Word
+    word: seo
+    stem: seo
+    docFrequency: 3.0
+    docPositions:
+    - 304
+    - 307
+  object: !ruby/object:Word
+    word: object
+    stem: object
+    docFrequency: 5.0
+    docPositions:
+    - 304
+    - 307
+    - 310
+    - 347
+  pagedata: !ruby/object:Word
+    word: pagedata
+    stem: pagedata
+    docFrequency: 7.0
+    docPositions:
+    - 305
+    - 308
+    - 310
+    - 313
+    - 315
+    - 320
+  searchbox_form_location: !ruby/object:Word
+    word: searchbox_form_location
+    stem: searchbox_form_loc
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 347
+    - 411
+    - 592
+    - 594
+    - 599
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 4.0
+    docPositions:
+    - 313
+    - 315
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  transform: !ruby/object:Word
+    word: transform
+    stem: transform
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 330
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 5.0
+    docPositions:
+    - 331
+    - 350
+    - 359
+  removechild: !ruby/object:Word
+    word: removechild
+    stem: removechild
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 2.0
+    docPositions:
+    - 333
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 333
+  switch: !ruby/object:Word
+    word: switch
+    stem: switch
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  tagname: !ruby/object:Word
+    word: tagname
+    stem: tagnam
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 3.0
+    docPositions:
+    - 342
+    - 346
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 3.0
+    docPositions:
+    - 342
+    - 531
+  break: !ruby/object:Word
+    word: break
+    stem: break
+    docFrequency: 3.0
+    docPositions:
+    - 344
+    - 356
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 6.0
+    docPositions:
+    - 349
+    - 354
+    - 538
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 3.0
+    docPositions:
+    - 350
+  default: !ruby/object:Word
+    word: default
+    stem: default
+    docFrequency: 2.0
+    docPositions:
+    - 358
+  site_root: !ruby/object:Word
+    word: site_root
+    stem: site_root
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  _site_root: !ruby/object:Word
+    word: _site_root
+    stem: _site_root
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  _image_server_root: !ruby/object:Word
+    word: _image_server_root
+    stem: _image_server_root
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  static: !ruby/object:Word
+    word: static
+    stem: static
+    docFrequency: 3.0
+    docPositions:
+    - 368
+    - 407
+  _environment: !ruby/object:Word
+    word: _environment
+    stem: _environ
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  prod: !ruby/object:Word
+    word: prod
+    stem: prod
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  _is_showing_modal: !ruby/object:Word
+    word: _is_showing_modal
+    stem: _is_showing_mod
+    docFrequency: 2.0
+    docPositions:
+    - 370
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 26.0
+    docPositions:
+    - 370
+    - 371
+    - 372
+    - 373
+    - 374
+    - 375
+    - 376
+    - 377
+    - 378
+    - 379
+    - 380
+    - 381
+    - 382
+    - 383
+    - 384
+    - 385
+    - 386
+    - 387
+    - 388
+    - 389
+    - 390
+    - 391
+    - 392
+    - 393
+    - 394
+  _feature_auth_popup_center_text_enabled: !ruby/object:Word
+    word: _feature_auth_popup_center_text_enabled
+    stem: _feature_auth_popup_center_text_en
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  _feature_auth_popup_form_toggle_buttons_enabled: !ruby/object:Word
+    word: _feature_auth_popup_form_toggle_buttons_enabled
+    stem: _feature_auth_popup_form_toggle_buttons_en
+    docFrequency: 2.0
+    docPositions:
+    - 372
+  _feature_srp_top_nav_filters_enabled: !ruby/object:Word
+    word: _feature_srp_top_nav_filters_enabled
+    stem: _feature_srp_top_nav_filters_en
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  _feature_srp_hybrid_enabled: !ruby/object:Word
+    word: _feature_srp_hybrid_enabled
+    stem: _feature_srp_hybrid_en
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  _feature_lead_recommender_bypass_a_enabled: !ruby/object:Word
+    word: _feature_lead_recommender_bypass_a_enabled
+    stem: _feature_lead_recommender_bypass_a_en
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  _feature_rental_popup_lead_form_consolidated_enabled: !ruby/object:Word
+    word: _feature_rental_popup_lead_form_consolidated_enabled
+    stem: _feature_rental_popup_lead_form_consolidated_en
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  _feature_collab_auto_register_enabled: !ruby/object:Word
+    word: _feature_collab_auto_register_enabled
+    stem: _feature_collab_auto_register_en
+    docFrequency: 2.0
+    docPositions:
+    - 385
+  _feature_collab_auto_register_a_enabled: !ruby/object:Word
+    word: _feature_collab_auto_register_a_enabled
+    stem: _feature_collab_auto_register_a_en
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  _feature_collab_post_lead_invite_to_board_enabled: !ruby/object:Word
+    word: _feature_collab_post_lead_invite_to_board_enabled
+    stem: _feature_collab_post_lead_invite_to_board_en
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  _feature_pdp_add_notes_enabled: !ruby/object:Word
+    word: _feature_pdp_add_notes_enabled
+    stem: _feature_pdp_add_notes_en
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  _feature_share_board_enabled: !ruby/object:Word
+    word: _feature_share_board_enabled
+    stem: _feature_share_board_en
+    docFrequency: 2.0
+    docPositions:
+    - 390
+  _feature_opaque_lead_form_enabled: !ruby/object:Word
+    word: _feature_opaque_lead_form_enabled
+    stem: _feature_opaque_lead_form_en
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  mortgage_coreg_qc_off: !ruby/object:Word
+    word: mortgage_coreg_qc_off
+    stem: mortgage_coreg_qc_off
+    docFrequency: 2.0
+    docPositions:
+    - 392
+  mortgage_coreg_short_form_on: !ruby/object:Word
+    word: mortgage_coreg_short_form_on
+    stem: mortgage_coreg_short_form_on
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  mortgage_vu_lead_on: !ruby/object:Word
+    word: mortgage_vu_lead_on
+    stem: mortgage_vu_lead_on
+    docFrequency: 2.0
+    docPositions:
+    - 394
+  qpn_names: !ruby/object:Word
+    word: qpn_names
+    stem: qpn_name
+    docFrequency: 2.0
+    docPositions:
+    - 396
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 398
+  cnnmoney: !ruby/object:Word
+    word: cnnmoney
+    stem: cnnmonei
+    docFrequency: 4.0
+    docPositions:
+    - 398
+    - 399
+    - 404
+  site_possessive: !ruby/object:Word
+    word: site_possessive
+    stem: site_possess
+    docFrequency: 2.0
+    docPositions:
+    - 399
+  mytrulia: !ruby/object:Word
+    word: mytrulia
+    stem: mytrulia
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  email_domain: !ruby/object:Word
+    word: email_domain
+    stem: email_domain
+    docFrequency: 2.0
+    docPositions:
+    - 401
+  truliamap: !ruby/object:Word
+    word: truliamap
+    stem: truliamap
+    docFrequency: 3.0
+    docPositions:
+    - 402
+  voices: !ruby/object:Word
+    word: voices
+    stem: voic
+    docFrequency: 3.0
+    docPositions:
+    - 403
+  account_source: !ruby/object:Word
+    word: account_source
+    stem: account_sourc
+    docFrequency: 2.0
+    docPositions:
+    - 404
+  secondary_subdomain: !ruby/object:Word
+    word: secondary_subdomain
+    stem: secondary_subdomain
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  realestate: !ruby/object:Word
+    word: realestate
+    stem: realest
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  cnn: !ruby/object:Word
+    word: cnn
+    stem: cnn
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  _js_server_root: !ruby/object:Word
+    word: _js_server_root
+    stem: _js_server_root
+    docFrequency: 2.0
+    docPositions:
+    - 407
+  _release_version_tab: !ruby/object:Word
+    word: _release_version_tab
+    stem: _release_version_tab
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  _fb_app_id: !ruby/object:Word
+    word: _fb_app_id
+    stem: _fb_app_id
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 3.0
+    docPositions:
+    - 411
+    - 592
+  is_agent_paid: !ruby/object:Word
+    word: is_agent_paid
+    stem: is_agent_paid
+    docFrequency: 2.0
+    docPositions:
+    - 412
+  agent_user_id: !ruby/object:Word
+    word: agent_user_id
+    stem: agent_user_id
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  tracking: !ruby/object:Word
+    word: tracking
+    stem: track
+    docFrequency: 4.0
+    docPositions:
+    - 414
+    - 415
+  omniture_id: !ruby/object:Word
+    word: omniture_id
+    stem: omniture_id
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  truliacom: !ruby/object:Word
+    word: truliacom
+    stem: truliacom
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 6.0
+    docPositions:
+    - 418
+    - 420
+    - 426
+    - 427
+    - 431
+  common: !ruby/object:Word
+    word: common
+    stem: common
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  combo: !ruby/object:Word
+    word: combo
+    stem: combo
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 431
+  global_nav: !ruby/object:Word
+    word: global_nav
+    stem: global_nav
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 427
+  sticky: !ruby/object:Word
+    word: sticky
+    stem: sticki
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 422
+  globalnavsticky: !ruby/object:Word
+    word: globalnavsticky
+    stem: globalnavsticki
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  fade_duration: !ruby/object:Word
+    word: fade_duration
+    stem: fade_dur
+    docFrequency: 2.0
+    docPositions:
+    - 423
+  collab: !ruby/object:Word
+    word: collab
+    stem: collab
+    docFrequency: 2.0
+    docPositions:
+    - 426
+  collab_main: !ruby/object:Word
+    word: collab_main
+    stem: collab_main
+    docFrequency: 2.0
+    docPositions:
+    - 426
+  global_nav_main: !ruby/object:Word
+    word: global_nav_main
+    stem: global_nav_main
+    docFrequency: 2.0
+    docPositions:
+    - 427
+  pg_homepage: !ruby/object:Word
+    word: pg_homepage
+    stem: pg_homepag
+    docFrequency: 2.0
+    docPositions:
+    - 431
+  args: !ruby/object:Word
+    word: args
+    stem: arg
+    docFrequency: 3.0
+    docPositions:
+    - 432
+    - 438
+  isdefault: !ruby/object:Word
+    word: isdefault
+    stem: isdefault
+    docFrequency: 2.0
+    docPositions:
+    - 433
+  agentads: !ruby/object:Word
+    word: agentads
+    stem: agentad
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  hide_forever_cookie_name: !ruby/object:Word
+    word: hide_forever_cookie_name
+    stem: hide_forever_cookie_nam
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  homepage: !ruby/object:Word
+    word: homepage
+    stem: homepag
+    docFrequency: 3.0
+    docPositions:
+    - 438
+    - 439
+  herobannermodule: !ruby/object:Word
+    word: herobannermodule
+    stem: herobannermodul
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  update: !ruby/object:Word
+    word: update
+    stem: updat
+    docFrequency: 4.0
+    docPositions:
+    - 444
+    - 497
+    - 501
+  nodetype: !ruby/object:Word
+    word: nodetype
+    stem: nodetyp
+    docFrequency: 2.0
+    docPositions:
+    - 446
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 4.0
+    docPositions:
+    - 450
+    - 480
+    - 482
+  interval: !ruby/object:Word
+    word: interval
+    stem: interv
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 482
+    - 487
+    - 490
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 514
+  guess: !ruby/object:Word
+    word: guess
+    stem: guess
+    docFrequency: 2.0
+    docPositions:
+    - 454
+  magic: !ruby/object:Word
+    word: magic
+    stem: magic
+    docFrequency: 2.0
+    docPositions:
+    - 454
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 4.0
+    docPositions:
+    - 455
+    - 537
+    - 543
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 466
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 4.0
+    docPositions:
+    - 464
+    - 545
+    - 558
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 4.0
+    docPositions:
+    - 464
+    - 545
+    - 558
+  resize: !ruby/object:Word
+    word: resize
+    stem: resiz
+    docFrequency: 4.0
+    docPositions:
+    - 471
+    - 487
+    - 517
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 4.0
+    docPositions:
+    - 473
+    - 476
+    - 478
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 3.0
+    docPositions:
+    - 481
+  clearinterval: !ruby/object:Word
+    word: clearinterval
+    stem: clearinterv
+    docFrequency: 3.0
+    docPositions:
+    - 482
+    - 490
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  setinterval: !ruby/object:Word
+    word: setinterval
+    stem: setinterv
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  timeout: !ruby/object:Word
+    word: timeout
+    stem: timeout
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  seconds: !ruby/object:Word
+    word: seconds
+    stem: second
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  settimeout: !ruby/object:Word
+    word: settimeout
+    stem: settimeout
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  load: !ruby/object:Word
+    word: load
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  hit: !ruby/object:Word
+    word: hit
+    stem: hit
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 5.0
+    docPositions:
+    - 510
+    - 516
+    - 517
+    - 538
+  cobrand_custom_header: !ruby/object:Word
+    word: cobrand_custom_header
+    stem: cobrand_custom_head
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  marginleft: !ruby/object:Word
+    word: marginleft
+    stem: marginleft
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  ceil: !ruby/object:Word
+    word: ceil
+    stem: ceil
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  once: !ruby/object:Word
+    word: once
+    stem: onc
+    docFrequency: 2.0
+    docPositions:
+    - 514
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 516
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 2.0
+    docPositions:
+    - 525
+  schema: !ruby/object:Word
+    word: schema
+    stem: schema
+    docFrequency: 2.0
+    docPositions:
+    - 525
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 2.0
+    docPositions:
+    - 525
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 2.0
+    docPositions:
+    - 526
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 527
+  potentialaction: !ruby/object:Word
+    word: potentialaction
+    stem: potentialact
+    docFrequency: 2.0
+    docPositions:
+    - 528
+  searchaction: !ruby/object:Word
+    word: searchaction
+    stem: searchact
+    docFrequency: 2.0
+    docPositions:
+    - 529
+  for_sale: !ruby/object:Word
+    word: for_sale
+    stem: for_sal
+    docFrequency: 2.0
+    docPositions:
+    - 530
+  search_term_string: !ruby/object:Word
+    word: search_term_string
+    stem: search_term_str
+    docFrequency: 3.0
+    docPositions:
+    - 530
+    - 531
+  query: !ruby/object:Word
+    word: query
+    stem: queri
+    docFrequency: 2.0
+    docPositions:
+    - 531
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 2.0
+    docPositions:
+    - 531
+  runbeacon: !ruby/object:Word
+    word: runbeacon
+    stem: runbeacon
+    docFrequency: 3.0
+    docPositions:
+    - 535
+    - 561
+  tempurl: !ruby/object:Word
+    word: tempurl
+    stem: tempurl
+    docFrequency: 3.0
+    docPositions:
+    - 538
+    - 540
+  regex: !ruby/object:Word
+    word: regex
+    stem: regex
+    docFrequency: 3.0
+    docPositions:
+    - 539
+    - 540
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  za: !ruby/object:Word
+    word: za
+    stem: za
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  comurl: !ruby/object:Word
+    word: comurl
+    stem: comurl
+    docFrequency: 4.0
+    docPositions:
+    - 540
+    - 541
+  beacon_url: !ruby/object:Word
+    word: beacon_url
+    stem: beacon_url
+    docFrequency: 3.0
+    docPositions:
+    - 541
+    - 553
+  getcookie: !ruby/object:Word
+    word: getcookie
+    stem: getcooki
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  tlftmusr: !ruby/object:Word
+    word: tlftmusr
+    stem: tlftmusr
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  comscore: !ruby/object:Word
+    word: comscore
+    stem: comscor
+    docFrequency: 2.0
+    docPositions:
+    - 549
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 3.0
+    docPositions:
+    - 549
+    - 561
+  lab: !ruby/object:Word
+    word: lab
+    stem: lab
+    docFrequency: 2.0
+    docPositions:
+    - 561
+  scorecardresearch: !ruby/object:Word
+    word: scorecardresearch
+    stem: scorecardresearch
+    docFrequency: 2.0
+    docPositions:
+    - 561
+  wait: !ruby/object:Word
+    word: wait
+    stem: wait
+    docFrequency: 2.0
+    docPositions:
+    - 561
+  pixeltracking: !ruby/object:Word
+    word: pixeltracking
+    stem: pixeltrack
+    docFrequency: 5.0
+    docPositions:
+    - 569
+    - 570
+  firepixel: !ruby/object:Word
+    word: firepixel
+    stem: firepixel
+    docFrequency: 3.0
+    docPositions:
+    - 569
+    - 570
+  type_global_remarketing: !ruby/object:Word
+    word: type_global_remarketing
+    stem: type_global_remarket
+    docFrequency: 2.0
+    docPositions:
+    - 569
+  type_unique_conversion: !ruby/object:Word
+    word: type_unique_conversion
+    stem: type_unique_convers
+    docFrequency: 2.0
+    docPositions:
+    - 570
+  ie: !ruby/object:Word
+    word: ie
+    stem: ie
+    docFrequency: 2.0
+    docPositions:
+    - 573
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 573
+  endif: !ruby/object:Word
+    word: endif
+    stem: endif
+    docFrequency: 2.0
+    docPositions:
+    - 573
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 2.0
+    docPositions:
+    - 574
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 575
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 576
+  pagename: !ruby/object:Word
+    word: pagename
+    stem: pagenam
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  s_campaign: !ruby/object:Word
+    word: s_campaign
+    stem: s_campaign
+    docFrequency: 6.0
+    docPositions:
+    - 590
+    - 592
+    - 596
+  doplugins: !ruby/object:Word
+    word: doplugins
+    stem: doplugin
+    docFrequency: 3.0
+    docPositions:
+    - 594
+    - 596
+  s_code: !ruby/object:Word
+    word: s_code
+    stem: s_code
+    docFrequency: 4.0
+    docPositions:
+    - 601
+    - 602
+    - 604
+  utag_data: !ruby/object:Word
+    word: utag_data
+    stem: utag_data
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  page_type: !ruby/object:Word
+    word: page_type
+    stem: page_typ
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  page_name: !ruby/object:Word
+    word: page_name
+    stem: page_nam
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  campaign: !ruby/object:Word
+    word: campaign
+    stem: campaign
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  site_section: !ruby/object:Word
+    word: site_section
+    stem: site_sect
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  server_code: !ruby/object:Word
+    word: server_code
+    stem: server_cod
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  session_id: !ruby/object:Word
+    word: session_id
+    stem: session_id
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  cobrand_site: !ruby/object:Word
+    word: cobrand_site
+    stem: cobrand_sit
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  date_first_visit: !ruby/object:Word
+    word: date_first_visit
+    stem: date_first_visit
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  page_reg_status: !ruby/object:Word
+    word: page_reg_status
+    stem: page_reg_statu
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  unregistered: !ruby/object:Word
+    word: unregistered
+    stem: unregist
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  user_id: !ruby/object:Word
+    word: user_id
+    stem: user_id
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  user_type: !ruby/object:Word
+    word: user_type
+    stem: user_typ
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  user_sub_type: !ruby/object:Word
+    word: user_sub_type
+    stem: user_sub_typ
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  _satellite: !ruby/object:Word
+    word: _satellite
+    stem: _satellit
+    docFrequency: 2.0
+    docPositions:
+    - 615
+  pagebottom: !ruby/object:Word
+    word: pagebottom
+    stem: pagebottom
+    docFrequency: 2.0
+    docPositions:
+    - 615
+lineCount: 623
+wordCount: 1458
+rank: 0.29377880184331795
+title: "\n      Trulia: Real Estate Listings, Homes For Sale, Housing Data\n  "
+links:
+- http://info.trulia.com/
+- http://www.trulia.com/mortgages/
+- http://www.trulia.com/
+- http://preferences-mgr.truste.com/?type=trulia&pid=trulia01&aid=trulia01
+- http://www.hud.gov/offices/fheo/index.cfm
+rawText: "\n\n\n\n      \n  \n\n\n  \ndocument.write('<iframe src=\"http://4376290.fls.doubleclick.net/activityi;src=4376290;type=truli300;cat=homep015;ord=1;num='
+  + (Math.random() * 10000000000000) + '?\" width=\"1\" height=\"1\" frameborder=\"0\"
+  style=\"display:none\">');\n\n\n\n  \n    \n      \n          \n           Trulia\n
+  \       \n        \n                  \n            \n              \n                                  Find
+  Homes\n                  \n                              \n              \n                \n
+  \                                                 Homes for Sale\n                                                                      \n
+  \                                                               \n                                                  Open
+  Houses\n                                                                      \n
+  \                                                               \n                                                  Foreclosures\n
+  \                                                                     \n                                                                \n
+  \                                                 New Homes\n                                                                      \n
+  \                                                               \n                                                  Recently
+  Sold Homes\n                                                                      \n
+  \                                             \n                                                                                                      \n
+  \                                                 Veteran Homebuyer Central\n                                                                      \n
+  \                                                               \n                                                  More
+  Search Options\n                                                                      \n
+  \                                                               \n                                                  \n
+  \                                                                     \n                                              \n
+  \                                                                                                     \n
+  \                                                 All homes for sale\n                                                                      \n
+  \                                                                           \n            \n
+  \         \n        \n        \n      \n  \n\n            \n  \n    \n      \n      \n
+  \     \n      \n      \n                  \n        \n          \n            \n
+  \                       \n              \n            \n            \n              \n
+  \               \n            \n\n            \n          \n                      \n
+  \             \n                    \n            \n            \n          \n        \n
+  \     \n\n            \n      \n\t<li class=\"pvn mvn\">\n\n  <li class=\"man pvs\"
+  data-title=\"<%= title %>\" data-value=\"<%= value %>\" data-location-id=\"<%= locationId
+  %>\" data-pid=\"<%= pid %>\" data-property-Index=\"<%= propertyIndex %>\" data-ac_index=\"<%=
+  ac_index %>\" data-location-type=\"<%= locationType %>\" data-bed-Filter=\"<%= bedFilter
+  %>\" data-bath-Filter=\"<%= bathFilter %>\" data-property-Filter=\"<%= propertyFilter
+  %>\">\n    <div class=\"line man\">\n    \t\t<div class=\"col cols20 pan typeTruncate\">\n
+  \   \t\t\t<%= display %>\n    \t\t\n    \t\n    \n  \n\n    \n  \n  \n  \n\n    \n
+  \ \n    \n      \n      \n\n      \n            \n\n      \n        \n                      Trulia.
+  Your Home for Real Estate.\n                  \n        \n          \n            \n\n
+  \             \n                \n                  BuyRecently sold\n                    Buy\n
+  \                   \n                  \n                \n              \n              \n
+  \               SEARCH\n              \n            \n          \n\n                  \n
+  \     \n    \n  \n\n    \n    \n\n  \n  \n\n  Most popular cities\n \n  San Francisco
+  real estate\n  Brooklyn real estate\n  Manhattan real estate\n  Los Angeles real
+  estate\n  San Diego real estate\n \n \n  Miami real estate\n  Chicago real estate\n
+  \ Las Vegas real estate\n  Queens real estate\n  Austin real estate\n \n \n  Phoenix
+  real estate\n  Washington DC real estate\n  Denver real estate\n  San Antonio real
+  estate\n  Indianapolis real estate\n \n \n  Boston real estate\n  Seattle real estate\n
+  \ New Orleans real estate\n  Atlanta real estate\n  Honolulu real estate\n \nCompany
+  Info\n \n  About\n  News Room\n \n\n Partners\n \n  Publishers\n  Submit Your Listings\n
+  \n\n Trulia Links\n \n  Contact us\n  Sitemap\n  Advertise on Trulia\n  Mortgage\n
+  \ Homes and local scoop for the real estate obsessed\n \n\n Legal\n \n  Terms of
+  Use\n  Privacy Policy\n  Ad Choices\n \n\n Copyright © 2015 Trulia, Inc. All rights
+  reserved.\n \n     Fair Housing and Equal Opportunity\n \n\n\n Have a question?
+  Visit our Help Center to find the answer\n\n\n(function()\n{\n  var iframes = document.getElementsByTagName('iframe');\n\n
+  \ for (var i=0, s=iframes.length; i<s; i++)\n  {\n    if (iframes[i].className.match(/\\bi-cobrand\\b/))
+  init(iframes[i]);\n  }\n  function init(iframe)\n  {\n    var idoc        = iframe.contentDocument
+  || iframe.contentWindow.document\n      , type        = iframe.parentNode.id.replace('cobrand_custom_',
+  '')\n      , header      = unescape('%3Cdiv%20id%3D%22cobrand_custom_header%22%3E%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fhead%2F8.0%2Fhead.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fbanner%2F8.0%2Fbanner_cnnmoney.js%22%3E%3C%2Fscript%3E%0A%0A%3C%2Fdiv%3E')\n
+  \     , footer      = unescape('%3Cdiv%3E%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fhead%2F8.0%2Fhead.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Ffooter%2F8.0%2Ffooter.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22http%3A%2F%2Fi.cdn.turner.com%2Fmoney%2F.element%2Fssi%2Fomniture%2Ftrulia_omni.js%22%3E%3C%2Fscript%3E%0A%3C%2Fdiv%3E')\n
+  \     , is_separate = +'1'\n      ;\n\n    // firefox 3.6 is the best!\n    if (navigator.userAgent.match(/MSIE/)
+  || ((uaMatch = navigator.userAgent.match(RegExp(' Firefox/(\\\\d+)\\.(\\\\d+)')))
+  && (+uaMatch[1] < 4)) )\n    {\n      iframe.src = '/external/'+type;\n    }\n    else\n
+  \   {\n      iframe.src = 'about:blank';\n\n      idoc.open();\n      idoc.write('<base
+  target=\"_top\">');\n      idoc.write('<style>body{margin: 0px;}<\\/style>');\n\n
+  \     // {{{ check if it supports new format\n      if (is_separate)\n      {\n
+  \       if (type == 'header') idoc.write(header);\n        if (type == 'footer')
+  idoc.write(footer);\n      }\n      else\n      {\n        // remove omniture from
+  the footer (don't call it twice)\n        if (type == 'footer')\n        {\n          header
+  = header.replace(/<script[^>]*\\bomniture\\b[^>]*>[^<]*<\\/script>/, '');\n          footer
+  = footer.replace(/<script[^>]*\\bomniture\\b[^>]*>[^<]*<\\/script>/, '');\n        }\n\n
+  \       // hide header for the footer and vice versa\n        if (type == 'header')
+  footer = '<div style=\"display: none !important;\">'+footer+'<\\/div>';\n        if
+  (type == 'footer') header = '<div style=\"display: none !important;\">'+header+'<\\/div>';\n\n
+  \       idoc.write(header + footer);\n      }\n      // }}}\n\n      idoc.close();\n
+  \   }\n  }\n})();\n\n    // TODO: return function ready to repopulate the page\n(function()\n{\n
+  \ var el, data, attr, newEl, parent, children;\n\n  function getAttr(el, name)\n
+  \ {\n    if (navigator.userAgent.match(/MSIE/))\n    {\n        var item = el.attributes.getNamedItem(name);\n
+  \       return (!item || !item.value) ? null : item.value;\n    }\n    return el.getAttribute(name);\n
+  \ }\n  function setAttr(el, name, value)\n  {\n    if (navigator.userAgent.match(/MSIE/))\n
+  \   {\n      var item = document.createAttribute(name);\n      item.value = value;\n
+  \     return el.attributes.setNamedItem(item);\n    }\n    return el.setAttribute(name,
+  value);\n  }\n\n  // construct seo data object\n  var PageData = {\"searchbox_form_location\":\"\"};\n\n
+  \ // process seo data object\n  for (var id in PageData)\n  {\n    if (typeof PageData[id]
+  == 'object')\n    {\n      data = {};\n      for (var key in PageData[id])\n      {\n
+  \       data[key] = unescape(PageData[id][key]);\n      }\n    }\n    else\n    {\n
+  \     data = unescape(PageData[id]);\n    }\n\n    if (el = document.getElementById(id))\n
+  \   {\n\n      if (attr = getAttr(el, 'data-transform'))\n      {\n        newEl
+  = document.createElement(attr);\n        parent = el.parentNode;\n        parent.insertBefore(newEl,
+  el);\n        newEl.innerHTML = el.innerHTML;\n        parent.removeChild(el);\n
+  \       // copy id, class and title for now\n        if (getAttr(el, 'id')) setAttr(newEl,
+  'id', getAttr(el, 'id'));\n        if (getAttr(el, 'class')) setAttr(newEl, 'class',
+  getAttr(el, 'class'));\n        if (getAttr(el, 'title')) setAttr(newEl, 'title',
+  getAttr(el, 'title'));\n        el = newEl;\n      }\n\n      switch (el.tagName)\n
+  \     {\n        case 'INPUT':\n          el.value = data;\n          break;\n\n
+  \       case 'A':\n          if (typeof data == 'object')\n          {\n            if
+  ('href' in data) setAttr(el, 'href', data['href']);\n            if ('text' in data)
+  el.innerHTML = data['text'];\n          }\n          else\n          {\n            setAttr(el,
+  'href', data);\n          }\n          break;\n\n        default:\n          el.innerHTML
+  = data;\n      }\n    }\n  }\n\n})();\n  \n                                                          var
+  site_root = \"/\";\n                        var _SITE_ROOT = \"/\";\n                        var
+  _IMAGE_SERVER_ROOT = \"http://static.trulia-cdn.com\";\n                        var
+  _ENVIRONMENT = \"PROD\";\n                        var _IS_SHOWING_MODAL = false;\n
+  \                       var _feature_auth_popup_center_text_enabled = false;\n                        var
+  _feature_auth_popup_form_toggle_buttons_enabled = false;\n                        var
+  _feature_srp_save_search_ux_v1_enabled = false;\n                        var _feature_srp_save_search_ux_v2_enabled
+  = false;\n                        var _feature_srp_top_nav_filters_enabled = false;\n
+  \                       var _feature_srp_hybrid_enabled = false;\n                        var
+  _feature_pdp_for_sale_lead_upsell_v1_enabled = false;\n                        var
+  _feature_moving_postlead_v1_enabled = false;\n                        var _feature_moving_postlead_v2_enabled
+  = false;\n                        var _feature_lead_recommender_bypass_a_enabled
+  = false;\n                        var _feature_infinite_scroll_v1_enabled = false;\n
+  \                       var _feature_infinite_scroll_v2_enabled = false;\n                        var
+  _feature_txl2_enabled = false;\n                        var _feature_rental_popup_lead_form_consolidated_enabled
+  = false;\n                        var _feature_collab_auto_register_enabled = false;\n
+  \                       var _feature_collab_auto_register_a_enabled = false;\n                        var
+  _feature_collab_post_lead_invite_to_board_enabled = false;\n                        var
+  _feature_pdp_commute_result_v1_enabled = false;\n                        var _feature_pdp_add_notes_enabled
+  = false;\n                        var _feature_share_board_enabled = false;\n                        var
+  _feature_opaque_lead_form_enabled = false;\n                        var mortgage_coreg_qc_off
+  = false;\n                        var mortgage_coreg_short_form_on = false;\n                        var
+  mortgage_vu_lead_on = false;\n              \n      var qpn_NAMES =\n    {\n      'site':
+  \               'CNNMoney',\n      'site_possessive':     'CNNMoney\\'s',\n      'mytrulia':
+  \           'My Trulia',\n      'email_domain':        'trulia.com',\n      'truliamap':
+  \          'TruliaMap',\n      'voices':              'Trulia Voices',\n      'account_source':
+  \     'cnnmoney',\n      'secondary_subdomain': 'realestate.money.cnn.com'\n    },\n
+  \   _js_server_root       = 'http://static.trulia-cdn.com/javascript/H43_39/',\n
+  \   _release_version_tab  = 'H43_39',\n    _fb_app_id            = '183577541666001';\n\nvar
+  trulia = (typeof(trulia) !== \"undefined\") ? trulia : {};\n    trulia.is_agent_paid
+  = '';\n    trulia.agent_user_id = '0';\n    trulia.tracking = trulia.tracking ||
+  {};\n    trulia.tracking.omniture_id = 'truliacom';\n    \n  \n    require(['common'],
+  function () {\n\n      require(['combo/global_nav'], function() {\n                  var
+  sticky = trulia.GlobalNavSticky;\n          sticky.init({\n            'fade_duration':
+  500\n          });\n              });\n            require(['collab/collab_main'],
+  function() {\n        require(['global_nav/global_nav_main']);\n      });\n          });\n
+  \ \n  require(['combo/pg_homepage'], function() {\n      var args = {\n        isDefault:
+  '',\n        agentAds: {\n          hide_forever_cookie_name: ''\n        }\n      };\n
+  \     trulia.homepage.init(args);\n      trulia.homepage.heroBannerModule.start();\n
+  \ });\n  \n(function()\n{\n  function update(iframe)\n  {\n    iframe = iframe.nodeType
+  === 1 ? iframe : this;\n\n    var idoc\n      , height = 0\n      , times  = 0\n
+  \     , interval\n      ;\n\n    // {{{ do guess magic\n    try\n    {\n      idoc
+  = iframe.contentDocument || iframe.contentWindow.document;\n      if (!idoc)\n      {\n
+  \       document.domain = document.domain.match(/\\.?([a-z0-9-]+\\.[a-z0-9-]+)$/)[1];\n
+  \       idoc = iframe.contentDocument || iframe.contentWindow.document;\n      }\n
+  \   }\n    catch (e)\n    {\n      document.domain = document.domain.match(/\\.?([a-z0-9-]+\\.[a-z0-9-]+)$/)[1];\n
+  \     idoc = iframe.contentDocument || iframe.contentWindow.document;\n    }\n    //
+  }}}\n\n    function resize()\n    {\n      var h = $(idoc).height()\n        ;\n\n
+  \     if (h > height)\n      {\n        height = h;\n        $(iframe).height(height);\n
+  \       times++;\n        // enough is enough\n        if (times > 4) clearInterval(interval);\n
+  \     }\n    };\n\n    // watch for the changes\n    interval = setInterval(resize,
+  500);\n\n    // set timeout as well, 10 seconds\n    setTimeout(function(){ clearInterval(interval);
+  }, 30000);\n  }\n\n  $('iframe.i-cobrand').each(function()\n  {\n    if (this.src
+  == 'about:blank')\n    {\n      update(this);\n    }\n    else\n    {\n      $(this).load(update);\n
+  \   }\n  });\n\n  // special hit for IE7\n  if ((uaMatch = navigator.userAgent.match(RegExp('
+  MSIE (\\\\d+)\\.(\\\\d+)'))) && (+uaMatch[1] < 8))\n  {\n    function ie7TopIframeResize()\n
+  \   {\n      var width = $(window).width();\n      $('#cobrand_custom_header').width(width).css({marginLeft:
+  '-'+Math.ceil((width-970)/2)+'px'});\n    }\n\n    // do it at once\n    ie7TopIframeResize();\n
+  \   // follow window\n    $(window).resize(ie7TopIframeResize);\n  }\n\n\n\n})();\n\n
+  \ {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"url\":
+  \"http://www.trulia.com\",\n    \"potentialAction\": {\n      \"@type\": \"SearchAction\",\n
+  \     \"target\": \"http://www.trulia.com/for_sale/{search_term_string}\",\n      \"query-input\":
+  \"required name=search_term_string\"\n    }\n  }\n  \n  var runBeacon = function
+  ()\n  {\n    try {\n      var tempurl = window.location.href;\n      var regex =
+  new RegExp(\"((http|https)://)([a-zA-Z0-9]+\\.)(.*)\");\n      var comurl = tempurl.match(regex);\n
+  \     var beacon_url = comurl[3]+comurl[4];\n\n      try {\n        var id = getCookie('tlftmusr');\n
+  \     } catch (e) {\n        var id = '';\n      }\n\n      COMSCORE.beacon({\n
+  \       c1:2,\n        c2:6036206,\n        c3:\"\",\n        c4:beacon_url,\n        c5:\"\",\n
+  \       c6:\"\",\n        c15:id\n      });\n    } catch (e) {}\n  };\n\n      $LAB.script('http://b.scorecardresearch.com/beacon.js').wait(runBeacon);\n
+  \ \n  \n\n\n\n\n\n  trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_GLOBAL_REMARKETING);\ntrulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_UNIQUE_CONVERSION);\n\n\n
+  \ <!--[if !IE]> Script below Copyright 1997-2004 Omniture, Inc. <![endif]-->\n  s.channel
+  = unescape('Home%20Page');\n  s.events = unescape('event5');\n  s.pageType = unescape('home');\n
+  \ s.pageName = unescape('home%3AB');\n  s.prop58 = unescape('home%3AB');\n  s.eVar58
+  = unescape('home%3AB');\n  s.eVar15 = unescape('204');\n  s.eVar19 = unescape('cbs0324');\n
+  \ s.eVar6 = unescape('2015.51');\n  s.eVar18 = unescape('127ed4fd1ef929bdabb119c6cabfaccf');\n
+  \ s.eVar5 = unescape('151214127ed4fd1ef929bdabb119c6cabfaccf');\n  s.prop38 = unescape('home%3AB%7CUnregistered');\n
+  \ s.eVar25 = unescape('20151214');\n  s.eVar39 = unescape('NULL');\n  s.eVar40 =
+  unescape('NULL');\n  s.eVar41 = unescape('NULL');\n  s_campaign = unescape('');\n\ns_campaign
+  = typeof s_campaign === 'undefined' ? '' : s_campaign;\n\nif (typeof s.doPlugins
+  == 'function')\n{\n  s.doPlugins(s, s_campaign);\n}\n\nif (typeof s.t == 'function')\n{\n
+  \ var s_code = s.t();\n  if (s_code)\n  {\n    document.write(s_code);\n  }\n}\n\n\n\n\n
+  \ var utag_data = {\"page_type\":\"home\",\"page_name\":\"home:B\",\"campaign\":\"\",\"site_section\":\"Home
+  Page\",\"server_code\":\"204\",\"session_id\":\"127ed4fd1ef929bdabb119c6cabfaccf\",\"cobrand_site\":\"cbs0324\",\"date_first_visit\":\"20151214\",\"page_reg_status\":\"home:B|Unregistered\",\"user_id\":\"151214127ed4fd1ef929bdabb119c6cabfaccf\",\"user_type\":\"NULL\",\"user_sub_type\":\"NULL\"};\n\n\n
+  \ \n  _satellite.pageBottom();\n\n Copyright © 2015 Trulia, Inc. All rights reserved.\n
+  \n     Fair Housing and Equal Opportunity\n \n\n Have a question? Visit our Help
+  Center to find the answer\n"

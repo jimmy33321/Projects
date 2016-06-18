@@ -1,0 +1,166 @@
+require 'yaml'
+require 'fast_stemmer'
+
+def write_data(filename, data)
+  file = File.open(filename, "w")
+  file.puts(data)
+  file.close
+end
+
+#we don't need a 'save yaml' because this rb file only loads it
+#it will always be saved as 'invindex.yml' on disk
+#functions returns a hash
+def load_yaml(file_name)
+        index_data = YAML.load_file(file_name)
+        return index_data
+end
+
+# This function reads in a hash or an array (list) from a file produced by write_file().
+#  You can modify this function if you want, but it should already work as-is.
+# 
+# my_list=read_data("file1")
+# my_hash=read_data("file2")
+def read_data(file_name)
+  file = File.open(file_name,"r")
+  object = eval(file.gets)
+  file.close()
+  return object
+end
+
+def clean_string_list(list)
+  clean_list = []
+
+  list.each do |word|
+    if (word =~ /^.+$/)
+      word.gsub!(/[[:punct:]]/,"")
+      clean_list.push(word.downcase.chomp) if word =~ /^[a-zA-Z]+$/
+    end
+  end
+  return clean_list
+end
+
+def load_stopwords_file(file)
+  nwarray = []
+  file = File.open(file, "r")
+  nwarray = file.readlines()
+  i = 0
+  while i < nwarray.size
+
+    nwarray[i].slice! "\n"
+    i += 1
+  end
+  return nwarray
+end
+
+def remove_stop_tokens(tokens, stop_words)
+        stop_words.each do |word|
+                if tokens.include?(word)
+                        tokens.delete(word)
+                end
+        end
+        return tokens
+end
+
+def stem_tokens(tokens)
+        stem_tokens = Array.new
+                tokens.each do |token|
+                stem_tokens.push(Stemmer::stem_word(token))
+        end
+        return stem_tokens
+end
+
+#################################################
+# Main program. We expect the user to run the program like this:
+#
+#   ./retrieve.rb mode kw1 kw2 kw3 .. kwn
+#
+
+# check that the user gave us correct command line parameters
+abort "Command line should have at least 2 parameters." if ARGV.size<2
+
+
+input = Array.new
+args = ARGV.map(&:dup)
+args.each do |param|
+    input.push(param)
+end
+
+puts(input.to_s)
+puts(input[0].frozen?)
+
+mode = input[0]
+puts(mode.to_s)
+keyword_list = Array.new
+#omg fuck frozen objects
+#'dup' wont work how am I supposed to even use ARGV
+input[1..input.size].each do |item|
+        keyword_list.push(item)
+end
+clean_keyword_list = clean_string_list(keyword_list)
+stemmed_keyword_list = stem_tokens(remove_stop_tokens(clean_keyword_list, load_stopwords_file("stop.txt")))
+
+# read in the index file produced by the crawler from Assignment 2 (mapping URLs to filenames).
+#uncomment this when you have it set up
+
+docindex = load_yaml("doc.yml")
+
+# read in the inverted index produced by the indexer. 
+invindex = load_yaml("invindex.yml")
+
+possible_hits = Hash.new(0)
+hit_list = Array.new
+total_searched = 0
+
+#puts(invindex)
+# Add your code here!
+#there's probably a lot better way to do this
+# for every keyword get the list or list from the invindex
+# for that list get the list of hits
+# for every hit add keywords to the hash of possible hits.
+# this is just to make finding exact matches easier later
+puts(stemmed_keyword_list)
+
+stemmed_keyword_list.each do |key|
+        invindex[key].each do |result_list|
+                result_list.each do |hit|
+                        if possible_hits[hit[0]] == 0
+                                possible_hits[hit[0]] == [key]
+                        else
+                                possible_hits[hit[0]].push(key)
+                        end
+                        total_searched += 1
+                end
+        end
+end
+
+#omg so many for loops
+#and = return exact matches
+puts(possible_hits)
+if mode == "and"
+        possible_hits.each do |hit, list_of_key_matches|
+                if (stemmed_keyword_list & list_of_key_matches).length == stemmed_keyword_list.length
+                        hit_list.push(hit)
+                end
+        end
+elsif mode == "most"
+        possible_hits.each do |hit, list_of_key_matches|
+                if (stemmed_keyword_list & list_of_key_matches).length >= stemmed_keyword_list.length/2
+                        hit_list.push(hit)
+                end
+        end
+else #default to or mode
+        puts("in or mode")
+        possible_hits.each_key do |hit|
+                        puts("hit --> #{hit}")
+                if not hit_list.include(hit)
+                        hit_list.push(hit)
+                end
+        end
+end
+
+puts("----- SEARCH RESULTS -----")
+hit_list.each do |hit|
+        puts(hit)
+end
+puts("total files searched: #{total_searched}")
+puts("total hits: #{hit_list.length}")

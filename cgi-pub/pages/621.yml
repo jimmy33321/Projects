@@ -1,0 +1,4320 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://robroy.dyndns.info/collier/index.html
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Preface  
+- "Chapter 1   \n"
+- |
+  Chapter 2  
+- |
+  Chapter 3  
+- |
+  Chapter 4  
+- |
+  Chapter 5  
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  The Little Engines that Could've:
+- |
+  The Calculating Machines of Charles Babbage
+- |2+
+
+- |2+
+
+- |
+  A thesis presented
+- |
+  by
+- |
+  Bruce Collier
+- |2+
+
+- |
+  to
+- |
+  The Department of History of Science
+- |
+  in partial fulfillment of the requirements
+- |
+  for the degree of
+- |
+  Doctor of Philosophy
+- |
+  in the subject of
+- |
+  History of Science
+- |2+
+
+- |
+  Harvard University
+- |
+  Cambridge, Massachusetts
+- |2+
+
+- |
+  August, 1970
+- |
+  Copyright reserved by the author.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Preface
+- |2+
+
+- "Charles Babbage's invention of the computer is \n"
+- |
+  something like the weather. Everyone working with computers
+- |
+  for the last two decades has been talking about it, but
+- |
+  nothing has been done. Every historical introduction to
+- |
+  a computer text contains a section on Babbage, often
+- |
+  extensive; but they are all based on the quite scanty
+- |
+  information about the Analytical Engine published during
+- |
+  the nineteenth century. The immense amount of manuscript
+- |
+  material concerning Babbage extant in England has remained
+- |
+  essentially untouched.
+- |2+
+
+- |
+  The one hoped for exception was Maboth Moseley's
+- |
+  Irascible Genius (London, 1964). a full length biography
+- |
+  of Babbage. Moseley consulted the Babbage correspondence
+- |
+  at the British Museum and the unpublished biography of
+- |
+  Babbage written by his friend Harry Wilmot Buxton; yet
+- |
+  despite the fact that Moseley was the editor of a computer
+- |
+  journal, she did not examine Babbage's notebooks and
+- |
+  drawings, now in the Science Museum in South Kensington,
+- |
+  and her book contains virtually nothing of interest on the
+- |
+  Analytical Engine. On the whole, Irascible Genius is a
+- |
+  good deal less interesting than Babbage's own volume of
+- |
+  memoirs, Passages from the Life of a Philosopher (London,
+- |
+  1864), and it is no more balanced, and not very much
+- |
+  more accurate.
+- |2+
+
+- |
+  Unfortunately, the publication of Buxton's biography
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  would not solve the problem, for it is basically an
+- |
+  unorganized collection of extensive extracts from some
+- |
+  of Babbage's books, papers, and letters; and while many
+- |
+  of these are quite interesting, they are badly in need of
+- |
+  more coherent treatment, and there are many gaps in their
+- |
+  coverage.
+- |2+
+
+- |
+  Consequently, the student of Babbage's work must
+- |
+  return directly to the original sources. The manuscript
+- |
+  material is in three primary collections, on which this
+- |
+  study is based. Twenty volumes of Babbage's correspondence
+- |
+  are deposited in the British Museum; a similar quantity
+- |
+  of technical material is held by the Science Museum in
+- |
+  South Kensington; and the Museum of the History of Science
+- |
+  at Oxford University has Buxton's manuscript biography,
+- |
+  and, more important, the Babbage papers upon which it
+- |
+  was based.
+- |2+
+
+- "Although Babbage's life and accomplishments \n"
+- |
+  encompassed far more that was important than the invention
+- |
+  of his two calculating machines, the Difference and
+- |
+  Analytical Engines, it is on them that new research has
+- |
+  most been needed; consequently, the present study is
+- |
+  limited to material relevant to them. Babbage's early
+- |
+  mathematical work, his role in founding or reforming
+- |
+  several important scientific societies, and his many other
+- |
+  activities will scarcely be touched upon. But the first
+- |
+  chapter, by way of introduction, will provide a brief
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  sketch of Babbage's life, as it is the context into which
+- |
+  the calculating machines must be fitted. Likewise, this
+- |
+  study will not deal with the development of calculating
+- |
+  machines before or after Babbage. His work was completely
+- |
+  out of the mainstream of invention and construction which
+- |
+  led from the primitive desk calculators of the seventeenth
+- |
+  century to their widespread commercial success by the
+- |
+  beginning of the twentieth century, and later to what we
+- |
+  know as computers; Babbage was neither influenced by
+- |
+  what had gone before nor influential upon what followed
+- |
+  him.
+- |2+
+
+- |
+  The invention, development, attempted construction,
+- |
+  and eventual abandonment of the first Difference Engine
+- |
+  will be considered in the second chapter. The third chapter
+- |
+  deals with the invention of the Analytical Engine and its
+- |
+  period of primary development, from 1834 to 1847. The
+- |
+  fourth chapter deals with three later concerns of Babbage:
+- |
+  a project to interest the government in what he called his
+- |
+  Difference Engine No. 2; support for the Scheutz Difference
+- |
+  Engine, a simplified version of his own earlier machine;
+- |
+  and his resumption of work on the Analytical Engine late
+- |
+  in life, with the intention of attempting its construction.
+- |
+  The final chapter will provide some observations on the
+- |
+  general character of Babbage's work on the Analytical
+- |
+  Engine.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  My own interest in Babbage was first aroused through
+- |
+  a research project on the history of calculating machines
+- |
+  and computers directed by Professor I.B. Cohen and Professor
+- |
+  Owen Gingerich on behalf of the International Business
+- |
+  Machines company for the purpose of developing an IBM
+- |
+  museum on computers and their history; this project still
+- |
+  continues. IBM has also provided generous financial and
+- |
+  logistical support for my own work. A trip to England to
+- |
+  study the manuscripts was supported by a grant from the
+- |
+  National Science Foundation. Assistance and access to
+- "the sources has been provided by the staffs of the \n"
+- |
+  Manuscripts Division of the British Museum, the Museum of the
+- |
+  History of Science at Oxford University, and especially
+- |
+  the Science Museum in South Kensington, London, where Dr.
+- |
+  H.B. Calvert has long had a special interest in Babbage.
+- |
+  Professor Gingerich has read this thesis and made
+- |
+  valuable suggestions, as has Kenneth Manning.
+- |2+
+
+- |
+  To all these and other individuals and institutions
+- |
+  who have helped me in ways large and small, I express
+- |
+  my gratitude.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Note on Sources and Quotations
+- |2+
+
+- |
+  The following abbreviations are used in the notes for
+- |
+  sources frequently cited. Further information will be
+- |
+  found in the Bibliography.
+- |2+
+
+- |2+
+
+- "B.M. The twenty volumes of Babbage correspondence \n"
+- "       in the British Museum manuscript collections.S.Kens. The Babbage manuscripts
+  held by the Science \n"
+- "       Museum in South Kensington, London.S.B. The volumes called Scribbling Books,
+  part \n"
+- "       of the South Kensington collection.G.S.B. The Great Scribbling Book at South
+  Kensington.Buxton The collection of Babbage manuscripts, together \n"
+- "         with a manuscript biography of \n"
+- "         Babbage by H. Wilmot Buxton, deposited \n"
+- "         in the Museum of the History of Science at \n"
+- |2
+           Oxford University.B.C.E. Babbage's Calculating Engines, edited by
+- |2
+          Henry P. Babbage, London 1889; a volume
+- |2
+          reprinting the important published material
+- |2
+          concerning Babbage's calculating machines,
+- |2
+          begun by Charles Babbage and completed and
+- |2
+          published after his death by his son
+- |2
+          Henry P. Babbage.P.L.Y. Passages from the Life of a Philosopher, by
+- |2
+          Charles Babbage, London, 1864; a volume
+- |2
+          of memoirs.
+- |2+
+
+- |
+  Many of the quotations given in this thesis are from
+- |
+  manuscript sources, often from rough notes or drafts.
+- |
+  For the sake of increased intelligibility, punctuation has
+- |
+  been altered to a certain extent (principally by the
+- |
+  addition of commas), and spelling has been standardized;
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  capitalization and italics have not been altered.
+- |
+  Quotations from published sources are of course left
+- |
+  unchanged.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  TABLE OF CONTENTS
+- |2+
+
+- |2+
+
+- |
+  PrefaceiiiNote on Sources and QuotationsviiCHAPTER ONE - Introduction1CHAPTER TWO - The Difference Engine12CHAPTER THREE- The Analytical Engine through 1846106CHAPTER FOUR - Babbage and Calculating Machines after 1846207CHAPTER FIVE - Conclusion271Appendix - Operation of the Difference Engine281Bibliography286
+- |2+
+
+- |
+  Preface  
+- "Chapter 1   \n"
+- |
+  Chapter 2  
+- |
+  Chapter 3  
+- |
+  Chapter 4  
+- |
+  Chapter 5  
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  var pageTracker = _gat._getTracker("UA-826802-2");
+- |
+  pageTracker._initData();
+- |
+  pageTracker._trackPageview();
+- |2+
+
+- |2+
+
+- |
+  A thesis presented
+- |
+  by
+- |
+  Bruce Collier
+- |2+
+
+- |
+  to
+- |
+  The Department of History of Science
+- |
+  in partial fulfillment of the requirements
+- |
+  for the degree of
+- |
+  Doctor of Philosophy
+- |
+  in the subject of
+- |
+  History of Science
+- |2+
+
+- |
+  Harvard University
+- |
+  Cambridge, Massachusetts
+- |2+
+
+- |
+  August, 1970
+- |
+  Copyright reserved by the author.
+- |2+
+
+- "Charles Babbage's invention of the computer is \n"
+- |
+  something like the weather. Everyone working with computers
+- |
+  for the last two decades has been talking about it, but
+- |
+  nothing has been done. Every historical introduction to
+- |
+  a computer text contains a section on Babbage, often
+- |
+  extensive; but they are all based on the quite scanty
+- |
+  information about the Analytical Engine published during
+- |
+  the nineteenth century. The immense amount of manuscript
+- |
+  material concerning Babbage extant in England has remained
+- |
+  essentially untouched.
+- |2+
+
+- |
+  The one hoped for exception was Maboth Moseley's
+- |
+  Irascible Genius (London, 1964). a full length biography
+- |
+  of Babbage. Moseley consulted the Babbage correspondence
+- |
+  at the British Museum and the unpublished biography of
+- |
+  Babbage written by his friend Harry Wilmot Buxton; yet
+- |
+  despite the fact that Moseley was the editor of a computer
+- |
+  journal, she did not examine Babbage's notebooks and
+- |
+  drawings, now in the Science Museum in South Kensington,
+- |
+  and her book contains virtually nothing of interest on the
+- |
+  Analytical Engine. On the whole, Irascible Genius is a
+- |
+  good deal less interesting than Babbage's own volume of
+- |
+  memoirs, Passages from the Life of a Philosopher (London,
+- |
+  1864), and it is no more balanced, and not very much
+- |
+  more accurate.
+- |2+
+
+- |
+  Unfortunately, the publication of Buxton's biography
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  would not solve the problem, for it is basically an
+- |
+  unorganized collection of extensive extracts from some
+- |
+  of Babbage's books, papers, and letters; and while many
+- |
+  of these are quite interesting, they are badly in need of
+- |
+  more coherent treatment, and there are many gaps in their
+- |
+  coverage.
+- |2+
+
+- |
+  Consequently, the student of Babbage's work must
+- |
+  return directly to the original sources. The manuscript
+- |
+  material is in three primary collections, on which this
+- |
+  study is based. Twenty volumes of Babbage's correspondence
+- |
+  are deposited in the British Museum; a similar quantity
+- |
+  of technical material is held by the Science Museum in
+- |
+  South Kensington; and the Museum of the History of Science
+- |
+  at Oxford University has Buxton's manuscript biography,
+- |
+  and, more important, the Babbage papers upon which it
+- |
+  was based.
+- |2+
+
+- "Although Babbage's life and accomplishments \n"
+- |
+  encompassed far more that was important than the invention
+- |
+  of his two calculating machines, the Difference and
+- |
+  Analytical Engines, it is on them that new research has
+- |
+  most been needed; consequently, the present study is
+- |
+  limited to material relevant to them. Babbage's early
+- |
+  mathematical work, his role in founding or reforming
+- |
+  several important scientific societies, and his many other
+- |
+  activities will scarcely be touched upon. But the first
+- |
+  chapter, by way of introduction, will provide a brief
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  sketch of Babbage's life, as it is the context into which
+- |
+  the calculating machines must be fitted. Likewise, this
+- |
+  study will not deal with the development of calculating
+- |
+  machines before or after Babbage. His work was completely
+- |
+  out of the mainstream of invention and construction which
+- |
+  led from the primitive desk calculators of the seventeenth
+- |
+  century to their widespread commercial success by the
+- |
+  beginning of the twentieth century, and later to what we
+- |
+  know as computers; Babbage was neither influenced by
+- |
+  what had gone before nor influential upon what followed
+- |
+  him.
+- |2+
+
+- |
+  The invention, development, attempted construction,
+- |
+  and eventual abandonment of the first Difference Engine
+- |
+  will be considered in the second chapter. The third chapter
+- |
+  deals with the invention of the Analytical Engine and its
+- |
+  period of primary development, from 1834 to 1847. The
+- |
+  fourth chapter deals with three later concerns of Babbage:
+- |
+  a project to interest the government in what he called his
+- |
+  Difference Engine No. 2; support for the Scheutz Difference
+- |
+  Engine, a simplified version of his own earlier machine;
+- |
+  and his resumption of work on the Analytical Engine late
+- |
+  in life, with the intention of attempting its construction.
+- |
+  The final chapter will provide some observations on the
+- |
+  general character of Babbage's work on the Analytical
+- |
+  Engine.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  My own interest in Babbage was first aroused through
+- |
+  a research project on the history of calculating machines
+- |
+  and computers directed by Professor I.B. Cohen and Professor
+- |
+  Owen Gingerich on behalf of the International Business
+- |
+  Machines company for the purpose of developing an IBM
+- |
+  museum on computers and their history; this project still
+- |
+  continues. IBM has also provided generous financial and
+- |
+  logistical support for my own work. A trip to England to
+- |
+  study the manuscripts was supported by a grant from the
+- |
+  National Science Foundation. Assistance and access to
+- "the sources has been provided by the staffs of the \n"
+- |
+  Manuscripts Division of the British Museum, the Museum of the
+- |
+  History of Science at Oxford University, and especially
+- |
+  the Science Museum in South Kensington, London, where Dr.
+- |
+  H.B. Calvert has long had a special interest in Babbage.
+- |
+  Professor Gingerich has read this thesis and made
+- |
+  valuable suggestions, as has Kenneth Manning.
+- |2+
+
+- |
+  To all these and other individuals and institutions
+- |
+  who have helped me in ways large and small, I express
+- |
+  my gratitude.
+- |2+
+
+- |2+
+
+- |
+  The following abbreviations are used in the notes for
+- |
+  sources frequently cited. Further information will be
+- |
+  found in the Bibliography.
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Many of the quotations given in this thesis are from
+- |
+  manuscript sources, often from rough notes or drafts.
+- |
+  For the sake of increased intelligibility, punctuation has
+- |
+  been altered to a certain extent (principally by the
+- |
+  addition of commas), and spelling has been standardized;
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  capitalization and italics have not been altered.
+- |
+  Quotations from published sources are of course left
+- |
+  unchanged.
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  var pageTracker = _gat._getTracker("UA-826802-2");
+- |
+  pageTracker._initData();
+- |
+  pageTracker._trackPageview();
+index:
+  preface: !ruby/object:Word
+    word: preface
+    stem: prefac
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 37
+    - 196
+  chapter: !ruby/object:Word
+    word: chapter
+    stem: chapter
+    docFrequency: 21.0
+    docPositions:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 96
+    - 114
+    - 117
+    - 123
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 287
+    - 305
+    - 308
+    - 314
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  engines: !ruby/object:Word
+    word: engines
+    stem: engin
+    docFrequency: 5.0
+    docPositions:
+    - 13
+    - 90
+    - 167
+    - 281
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  ve: !ruby/object:Word
+    word: ve
+    stem: ve
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  calculating: !ruby/object:Word
+    word: calculating
+    stem: calcul
+    docFrequency: 13.0
+    docPositions:
+    - 14
+    - 89
+    - 101
+    - 102
+    - 130
+    - 167
+    - 170
+    - 194
+    - 280
+    - 292
+    - 293
+    - 321
+  machines: !ruby/object:Word
+    word: machines
+    stem: machin
+    docFrequency: 14.0
+    docPositions:
+    - 14
+    - 89
+    - 101
+    - 103
+    - 130
+    - 133
+    - 170
+    - 194
+    - 280
+    - 292
+    - 294
+    - 321
+    - 324
+  charles: !ruby/object:Word
+    word: charles
+    stem: charl
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 39
+    - 171
+    - 174
+    - 230
+  babbage: !ruby/object:Word
+    word: babbage
+    stem: babbag
+    docFrequency: 55.0
+    docPositions:
+    - 14
+    - 39
+    - 43
+    - 47
+    - 52
+    - 54
+    - 56
+    - 60
+    - 71
+    - 76
+    - 79
+    - 84
+    - 87
+    - 92
+    - 100
+    - 103
+    - 108
+    - 117
+    - 124
+    - 129
+    - 143
+    - 160
+    - 161
+    - 163
+    - 165
+    - 167
+    - 168
+    - 170
+    - 171
+    - 173
+    - 174
+    - 194
+    - 230
+    - 234
+    - 238
+    - 243
+    - 245
+    - 247
+    - 251
+    - 262
+    - 267
+    - 270
+    - 275
+    - 278
+    - 283
+    - 291
+    - 294
+    - 299
+    - 308
+    - 315
+    - 320
+    - 334
+  thesis: !ruby/object:Word
+    word: thesis
+    stem: thesi
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 144
+    - 177
+    - 212
+    - 335
+    - 350
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 212
+  bruce: !ruby/object:Word
+    word: bruce
+    stem: bruce
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 214
+  collier: !ruby/object:Word
+    word: collier
+    stem: collier
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 214
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 217
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 14.0
+    docPositions:
+    - 22
+    - 27
+    - 82
+    - 130
+    - 134
+    - 141
+    - 166
+    - 217
+    - 222
+    - 273
+    - 321
+    - 325
+    - 332
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 19.0
+    docPositions:
+    - 22
+    - 27
+    - 57
+    - 81
+    - 82
+    - 138
+    - 141
+    - 142
+    - 161
+    - 166
+    - 217
+    - 222
+    - 248
+    - 272
+    - 273
+    - 329
+    - 332
+    - 333
+  partial: !ruby/object:Word
+    word: partial
+    stem: partial
+    docFrequency: 3.0
+    docPositions:
+    - 23
+    - 218
+  fulfillment: !ruby/object:Word
+    word: fulfillment
+    stem: fulfil
+    docFrequency: 3.0
+    docPositions:
+    - 23
+    - 218
+  requirements: !ruby/object:Word
+    word: requirements
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 23
+    - 218
+  degree: !ruby/object:Word
+    word: degree
+    stem: degre
+    docFrequency: 3.0
+    docPositions:
+    - 24
+    - 219
+  doctor: !ruby/object:Word
+    word: doctor
+    stem: doctor
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 220
+  philosophy: !ruby/object:Word
+    word: philosophy
+    stem: philosophi
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 220
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 221
+  harvard: !ruby/object:Word
+    word: harvard
+    stem: harvard
+    docFrequency: 3.0
+    docPositions:
+    - 29
+    - 224
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 8.0
+    docPositions:
+    - 29
+    - 83
+    - 141
+    - 167
+    - 224
+    - 274
+    - 332
+  cambridge: !ruby/object:Word
+    word: cambridge
+    stem: cambridg
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 225
+  massachusetts: !ruby/object:Word
+    word: massachusetts
+    stem: massachusett
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 225
+  august: !ruby/object:Word
+    word: august
+    stem: august
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 227
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 228
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 228
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 228
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 32.0
+    docPositions:
+    - 39
+    - 50
+    - 56
+    - 60
+    - 65
+    - 71
+    - 76
+    - 79
+    - 83
+    - 87
+    - 92
+    - 100
+    - 124
+    - 161
+    - 162
+    - 163
+    - 167
+    - 170
+    - 230
+    - 241
+    - 247
+    - 251
+    - 256
+    - 262
+    - 267
+    - 270
+    - 274
+    - 278
+    - 283
+    - 291
+    - 315
+  invention: !ruby/object:Word
+    word: invention
+    stem: invent
+    docFrequency: 11.0
+    docPositions:
+    - 39
+    - 88
+    - 104
+    - 112
+    - 115
+    - 230
+    - 279
+    - 295
+    - 303
+    - 306
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 7.0
+    docPositions:
+    - 39
+    - 43
+    - 55
+    - 230
+    - 234
+    - 246
+  something: !ruby/object:Word
+    word: something
+    stem: someth
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 231
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 231
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 231
+  everyone: !ruby/object:Word
+    word: everyone
+    stem: everyon
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 231
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 231
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 9.0
+    docPositions:
+    - 40
+    - 108
+    - 131
+    - 134
+    - 231
+    - 299
+    - 322
+    - 325
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 232
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 6.0
+    docPositions:
+    - 41
+    - 89
+    - 194
+    - 232
+    - 280
+  decades: !ruby/object:Word
+    word: decades
+    stem: decad
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 232
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 25.0
+    docPositions:
+    - 41
+    - 42
+    - 47
+    - 83
+    - 90
+    - 135
+    - 139
+    - 143
+    - 144
+    - 145
+    - 179
+    - 181
+    - 232
+    - 233
+    - 238
+    - 274
+    - 281
+    - 326
+    - 330
+    - 334
+    - 335
+    - 336
+    - 352
+    - 354
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 15.0
+    docPositions:
+    - 41
+    - 42
+    - 91
+    - 139
+    - 180
+    - 181
+    - 185
+    - 232
+    - 233
+    - 282
+    - 330
+    - 353
+    - 354
+    - 358
+  talking: !ruby/object:Word
+    word: talking
+    stem: talk
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 232
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 7.0
+    docPositions:
+    - 41
+    - 44
+    - 95
+    - 232
+    - 235
+    - 286
+  nothing: !ruby/object:Word
+    word: nothing
+    stem: noth
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 58
+    - 233
+    - 249
+  done: !ruby/object:Word
+    word: done
+    stem: done
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 233
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 233
+  historical: !ruby/object:Word
+    word: historical
+    stem: histor
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 233
+  introduction: !ruby/object:Word
+    word: introduction
+    stem: introduct
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 96
+    - 233
+    - 287
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 234
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 5.0
+    docPositions:
+    - 43
+    - 58
+    - 234
+    - 249
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 234
+  often: !ruby/object:Word
+    word: often
+    stem: often
+    docFrequency: 5.0
+    docPositions:
+    - 43
+    - 178
+    - 234
+    - 351
+  extensive: !ruby/object:Word
+    word: extensive
+    stem: extens
+    docFrequency: 5.0
+    docPositions:
+    - 44
+    - 70
+    - 235
+    - 261
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 5.0
+    docPositions:
+    - 44
+    - 72
+    - 235
+    - 263
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 5.0
+    docPositions:
+    - 44
+    - 147
+    - 235
+    - 338
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 7.0
+    docPositions:
+    - 44
+    - 79
+    - 85
+    - 235
+    - 270
+    - 276
+  quite: !ruby/object:Word
+    word: quite
+    stem: quit
+    docFrequency: 5.0
+    docPositions:
+    - 44
+    - 72
+    - 235
+    - 263
+  scanty: !ruby/object:Word
+    word: scanty
+    stem: scanti
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 235
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 5.0
+    docPositions:
+    - 45
+    - 156
+    - 236
+    - 344
+  analytical: !ruby/object:Word
+    word: analytical
+    stem: analyt
+    docFrequency: 14.0
+    docPositions:
+    - 45
+    - 59
+    - 90
+    - 115
+    - 121
+    - 124
+    - 194
+    - 236
+    - 250
+    - 281
+    - 306
+    - 312
+    - 315
+  engine: !ruby/object:Word
+    word: engine
+    stem: engin
+    docFrequency: 18.0
+    docPositions:
+    - 45
+    - 59
+    - 113
+    - 115
+    - 119
+    - 120
+    - 121
+    - 125
+    - 194
+    - 236
+    - 250
+    - 304
+    - 306
+    - 310
+    - 311
+    - 312
+    - 316
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 7.0
+    docPositions:
+    - 45
+    - 169
+    - 172
+    - 186
+    - 236
+    - 359
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 236
+  nineteenth: !ruby/object:Word
+    word: nineteenth
+    stem: nineteenth
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 237
+  century: !ruby/object:Word
+    word: century
+    stem: centuri
+    docFrequency: 7.0
+    docPositions:
+    - 46
+    - 106
+    - 107
+    - 237
+    - 297
+    - 298
+  immense: !ruby/object:Word
+    word: immense
+    stem: immens
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 237
+  amount: !ruby/object:Word
+    word: amount
+    stem: amount
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 237
+  manuscript: !ruby/object:Word
+    word: manuscript
+    stem: manuscript
+    docFrequency: 11.0
+    docPositions:
+    - 46
+    - 77
+    - 83
+    - 161
+    - 164
+    - 178
+    - 237
+    - 268
+    - 274
+    - 351
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 10.0
+    docPositions:
+    - 47
+    - 78
+    - 81
+    - 92
+    - 169
+    - 238
+    - 269
+    - 272
+    - 283
+  concerning: !ruby/object:Word
+    word: concerning
+    stem: concern
+    docFrequency: 4.0
+    docPositions:
+    - 47
+    - 170
+    - 238
+  extant: !ruby/object:Word
+    word: extant
+    stem: extant
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 238
+  england: !ruby/object:Word
+    word: england
+    stem: england
+    docFrequency: 5.0
+    docPositions:
+    - 47
+    - 136
+    - 238
+    - 327
+  remained: !ruby/object:Word
+    word: remained
+    stem: remain
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 238
+  essentially: !ruby/object:Word
+    word: essentially
+    stem: essenti
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 239
+  untouched: !ruby/object:Word
+    word: untouched
+    stem: untouch
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 239
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 4.0
+    docPositions:
+    - 50
+    - 194
+    - 241
+  hoped: !ruby/object:Word
+    word: hoped
+    stem: hope
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 241
+  exception: !ruby/object:Word
+    word: exception
+    stem: except
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 241
+  maboth: !ruby/object:Word
+    word: maboth
+    stem: maboth
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 241
+  moseley: !ruby/object:Word
+    word: moseley
+    stem: moselei
+    docFrequency: 7.0
+    docPositions:
+    - 50
+    - 52
+    - 55
+    - 241
+    - 243
+    - 246
+  irascible: !ruby/object:Word
+    word: irascible
+    stem: irasc
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 59
+    - 242
+    - 250
+  genius: !ruby/object:Word
+    word: genius
+    stem: geniu
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 59
+    - 242
+    - 250
+  london: !ruby/object:Word
+    word: london
+    stem: london
+    docFrequency: 10.0
+    docPositions:
+    - 51
+    - 61
+    - 142
+    - 162
+    - 168
+    - 174
+    - 242
+    - 252
+    - 333
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 242
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 242
+  biography: !ruby/object:Word
+    word: biography
+    stem: biographi
+    docFrequency: 10.0
+    docPositions:
+    - 51
+    - 53
+    - 65
+    - 83
+    - 164
+    - 242
+    - 244
+    - 256
+    - 274
+  consulted: !ruby/object:Word
+    word: consulted
+    stem: consult
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 243
+  correspondence: !ruby/object:Word
+    word: correspondence
+    stem: correspond
+    docFrequency: 6.0
+    docPositions:
+    - 52
+    - 79
+    - 160
+    - 243
+    - 270
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 8.0
+    docPositions:
+    - 53
+    - 80
+    - 140
+    - 161
+    - 244
+    - 271
+    - 331
+  museum: !ruby/object:Word
+    word: museum
+    stem: museum
+    docFrequency: 22.0
+    docPositions:
+    - 53
+    - 57
+    - 80
+    - 81
+    - 82
+    - 134
+    - 140
+    - 142
+    - 161
+    - 162
+    - 166
+    - 244
+    - 248
+    - 271
+    - 272
+    - 273
+    - 325
+    - 331
+    - 333
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 66.0
+    docPositions:
+    - 53
+    - 56
+    - 58
+    - 62
+    - 71
+    - 73
+    - 82
+    - 84
+    - 87
+    - 89
+    - 94
+    - 104
+    - 107
+    - 113
+    - 115
+    - 121
+    - 131
+    - 134
+    - 135
+    - 138
+    - 141
+    - 144
+    - 147
+    - 148
+    - 153
+    - 171
+    - 181
+    - 185
+    - 194
+    - 244
+    - 247
+    - 249
+    - 253
+    - 262
+    - 264
+    - 273
+    - 275
+    - 278
+    - 280
+    - 285
+    - 295
+    - 298
+    - 304
+    - 306
+    - 312
+    - 322
+    - 325
+    - 326
+    - 329
+    - 332
+    - 335
+    - 338
+    - 339
+    - 354
+    - 358
+  unpublished: !ruby/object:Word
+    word: unpublished
+    stem: unpublish
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 244
+  written: !ruby/object:Word
+    word: written
+    stem: written
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 245
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 19.0
+    docPositions:
+    - 54
+    - 89
+    - 93
+    - 94
+    - 103
+    - 118
+    - 120
+    - 121
+    - 172
+    - 245
+    - 280
+    - 284
+    - 285
+    - 294
+    - 309
+    - 311
+    - 312
+  friend: !ruby/object:Word
+    word: friend
+    stem: friend
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 245
+  harry: !ruby/object:Word
+    word: harry
+    stem: harri
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 245
+  wilmot: !ruby/object:Word
+    word: wilmot
+    stem: wilmot
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 165
+    - 245
+  buxton: !ruby/object:Word
+    word: buxton
+    stem: buxton
+    docFrequency: 9.0
+    docPositions:
+    - 54
+    - 65
+    - 83
+    - 163
+    - 165
+    - 245
+    - 256
+    - 274
+  yet: !ruby/object:Word
+    word: yet
+    stem: yet
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 245
+  despite: !ruby/object:Word
+    word: despite
+    stem: despit
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 246
+  fact: !ruby/object:Word
+    word: fact
+    stem: fact
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 246
+  editor: !ruby/object:Word
+    word: editor
+    stem: editor
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 246
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 247
+  she: !ruby/object:Word
+    word: she
+    stem: she
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 247
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 247
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 11.0
+    docPositions:
+    - 56
+    - 62
+    - 69
+    - 102
+    - 185
+    - 247
+    - 253
+    - 260
+    - 293
+    - 358
+  examine: !ruby/object:Word
+    word: examine
+    stem: examin
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 247
+  notebooks: !ruby/object:Word
+    word: notebooks
+    stem: notebook
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 247
+  drawings: !ruby/object:Word
+    word: drawings
+    stem: draw
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 248
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 248
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 10.0
+    docPositions:
+    - 57
+    - 82
+    - 142
+    - 162
+    - 163
+    - 248
+    - 273
+    - 333
+  kensington: !ruby/object:Word
+    word: kensington
+    stem: kensington
+    docFrequency: 10.0
+    docPositions:
+    - 57
+    - 82
+    - 142
+    - 162
+    - 163
+    - 248
+    - 273
+    - 333
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 249
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 4.0
+    docPositions:
+    - 58
+    - 163
+    - 249
+  virtually: !ruby/object:Word
+    word: virtually
+    stem: virtual
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 249
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 9.0
+    docPositions:
+    - 58
+    - 118
+    - 129
+    - 143
+    - 249
+    - 309
+    - 320
+    - 334
+  whole: !ruby/object:Word
+    word: whole
+    stem: whole
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 250
+  good: !ruby/object:Word
+    word: good
+    stem: good
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 251
+  deal: !ruby/object:Word
+    word: deal
+    stem: deal
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 102
+    - 251
+    - 293
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 251
+  interesting: !ruby/object:Word
+    word: interesting
+    stem: interest
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 72
+    - 251
+    - 263
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 88
+    - 251
+    - 279
+  own: !ruby/object:Word
+    word: own
+    stem: own
+    docFrequency: 9.0
+    docPositions:
+    - 60
+    - 120
+    - 129
+    - 136
+    - 251
+    - 311
+    - 320
+    - 327
+  volume: !ruby/object:Word
+    word: volume
+    stem: volum
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 168
+    - 174
+    - 251
+  memoirs: !ruby/object:Word
+    word: memoirs
+    stem: memoir
+    docFrequency: 4.0
+    docPositions:
+    - 61
+    - 175
+    - 252
+  passages: !ruby/object:Word
+    word: passages
+    stem: passag
+    docFrequency: 4.0
+    docPositions:
+    - 61
+    - 173
+    - 252
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 10.0
+    docPositions:
+    - 61
+    - 87
+    - 100
+    - 122
+    - 173
+    - 252
+    - 278
+    - 291
+    - 313
+  philosopher: !ruby/object:Word
+    word: philosopher
+    stem: philosoph
+    docFrequency: 4.0
+    docPositions:
+    - 61
+    - 173
+    - 252
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 5.0
+    docPositions:
+    - 62
+    - 119
+    - 253
+    - 310
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 11.0
+    docPositions:
+    - 62
+    - 63
+    - 73
+    - 84
+    - 88
+    - 253
+    - 254
+    - 264
+    - 275
+    - 279
+  balanced: !ruby/object:Word
+    word: balanced
+    stem: balanc
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 253
+  very: !ruby/object:Word
+    word: very
+    stem: veri
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 253
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 253
+  accurate: !ruby/object:Word
+    word: accurate
+    stem: accur
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 254
+  unfortunately: !ruby/object:Word
+    word: unfortunately
+    stem: unfortun
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 256
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 256
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 3.0
+    docPositions:
+    - 69
+    - 260
+  solve: !ruby/object:Word
+    word: solve
+    stem: solv
+    docFrequency: 3.0
+    docPositions:
+    - 69
+    - 260
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 3.0
+    docPositions:
+    - 69
+    - 260
+  basically: !ruby/object:Word
+    word: basically
+    stem: basic
+    docFrequency: 3.0
+    docPositions:
+    - 69
+    - 260
+  unorganized: !ruby/object:Word
+    word: unorganized
+    stem: unorgan
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 261
+  collection: !ruby/object:Word
+    word: collection
+    stem: collect
+    docFrequency: 5.0
+    docPositions:
+    - 70
+    - 163
+    - 261
+  extracts: !ruby/object:Word
+    word: extracts
+    stem: extract
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 261
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 5.0
+    docPositions:
+    - 70
+    - 123
+    - 261
+    - 314
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 162
+    - 262
+  papers: !ruby/object:Word
+    word: papers
+    stem: paper
+    docFrequency: 5.0
+    docPositions:
+    - 71
+    - 84
+    - 262
+    - 275
+  letters: !ruby/object:Word
+    word: letters
+    stem: letter
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 262
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 262
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 9.0
+    docPositions:
+    - 71
+    - 73
+    - 94
+    - 177
+    - 262
+    - 264
+    - 285
+    - 350
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 5.0
+    docPositions:
+    - 72
+    - 147
+    - 263
+    - 338
+  badly: !ruby/object:Word
+    word: badly
+    stem: badli
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 263
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 263
+  coherent: !ruby/object:Word
+    word: coherent
+    stem: coher
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 264
+  treatment: !ruby/object:Word
+    word: treatment
+    stem: treatment
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 264
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 264
+  gaps: !ruby/object:Word
+    word: gaps
+    stem: gap
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 264
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 7.0
+    docPositions:
+    - 73
+    - 106
+    - 134
+    - 264
+    - 297
+    - 325
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 3.0
+    docPositions:
+    - 74
+    - 265
+  consequently: !ruby/object:Word
+    word: consequently
+    stem: consequ
+    docFrequency: 5.0
+    docPositions:
+    - 76
+    - 91
+    - 267
+    - 282
+  student: !ruby/object:Word
+    word: student
+    stem: student
+    docFrequency: 3.0
+    docPositions:
+    - 76
+    - 267
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 13.0
+    docPositions:
+    - 76
+    - 93
+    - 103
+    - 121
+    - 124
+    - 136
+    - 267
+    - 284
+    - 294
+    - 312
+    - 315
+    - 327
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 5.0
+    docPositions:
+    - 76
+    - 101
+    - 267
+    - 292
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 268
+  directly: !ruby/object:Word
+    word: directly
+    stem: directli
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 268
+  original: !ruby/object:Word
+    word: original
+    stem: origin
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 268
+  sources: !ruby/object:Word
+    word: sources
+    stem: sourc
+    docFrequency: 13.0
+    docPositions:
+    - 77
+    - 139
+    - 153
+    - 156
+    - 178
+    - 186
+    - 194
+    - 268
+    - 330
+    - 344
+    - 351
+    - 359
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 6.0
+    docPositions:
+    - 78
+    - 117
+    - 194
+    - 269
+    - 308
+  primary: !ruby/object:Word
+    word: primary
+    stem: primari
+    docFrequency: 5.0
+    docPositions:
+    - 78
+    - 116
+    - 269
+    - 307
+  collections: !ruby/object:Word
+    word: collections
+    stem: collect
+    docFrequency: 4.0
+    docPositions:
+    - 78
+    - 161
+    - 269
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 9.0
+    docPositions:
+    - 78
+    - 84
+    - 100
+    - 104
+    - 269
+    - 275
+    - 291
+    - 295
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 9.0
+    docPositions:
+    - 79
+    - 91
+    - 102
+    - 137
+    - 270
+    - 282
+    - 293
+    - 328
+  twenty: !ruby/object:Word
+    word: twenty
+    stem: twenti
+    docFrequency: 4.0
+    docPositions:
+    - 79
+    - 160
+    - 270
+  volumes: !ruby/object:Word
+    word: volumes
+    stem: volum
+    docFrequency: 5.0
+    docPositions:
+    - 79
+    - 160
+    - 162
+    - 270
+  deposited: !ruby/object:Word
+    word: deposited
+    stem: deposit
+    docFrequency: 4.0
+    docPositions:
+    - 80
+    - 165
+    - 271
+  similar: !ruby/object:Word
+    word: similar
+    stem: similar
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 271
+  quantity: !ruby/object:Word
+    word: quantity
+    stem: quantiti
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 271
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 3.0
+    docPositions:
+    - 81
+    - 272
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 4.0
+    docPositions:
+    - 81
+    - 161
+    - 272
+  oxford: !ruby/object:Word
+    word: oxford
+    stem: oxford
+    docFrequency: 6.0
+    docPositions:
+    - 83
+    - 141
+    - 167
+    - 274
+    - 332
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 8.0
+    docPositions:
+    - 84
+    - 88
+    - 94
+    - 169
+    - 275
+    - 279
+    - 285
+  upon: !ruby/object:Word
+    word: upon
+    stem: upon
+    docFrequency: 7.0
+    docPositions:
+    - 84
+    - 95
+    - 109
+    - 275
+    - 286
+    - 300
+  although: !ruby/object:Word
+    word: although
+    stem: although
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 278
+  accomplishments: !ruby/object:Word
+    word: accomplishments
+    stem: accomplish
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 278
+  encompassed: !ruby/object:Word
+    word: encompassed
+    stem: encompass
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 279
+  far: !ruby/object:Word
+    word: far
+    stem: far
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 279
+  difference: !ruby/object:Word
+    word: difference
+    stem: differ
+    docFrequency: 11.0
+    docPositions:
+    - 89
+    - 113
+    - 119
+    - 194
+    - 280
+    - 304
+    - 310
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 5.0
+    docPositions:
+    - 90
+    - 92
+    - 281
+    - 283
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 90
+    - 281
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 5.0
+    docPositions:
+    - 90
+    - 130
+    - 281
+    - 321
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 282
+  needed: !ruby/object:Word
+    word: needed
+    stem: need
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 282
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 282
+  limited: !ruby/object:Word
+    word: limited
+    stem: limit
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 283
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 283
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 283
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 284
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 284
+  founding: !ruby/object:Word
+    word: founding
+    stem: found
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 284
+  reforming: !ruby/object:Word
+    word: reforming
+    stem: reform
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 284
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 285
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 285
+  societies: !ruby/object:Word
+    word: societies
+    stem: societi
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 285
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 5.0
+    docPositions:
+    - 94
+    - 147
+    - 285
+    - 338
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 95
+    - 286
+  scarcely: !ruby/object:Word
+    word: scarcely
+    stem: scarc
+    docFrequency: 3.0
+    docPositions:
+    - 95
+    - 286
+  touched: !ruby/object:Word
+    word: touched
+    stem: touch
+    docFrequency: 3.0
+    docPositions:
+    - 95
+    - 286
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 7.0
+    docPositions:
+    - 95
+    - 113
+    - 129
+    - 286
+    - 304
+    - 320
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 96
+    - 287
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 5.0
+    docPositions:
+    - 96
+    - 123
+    - 287
+    - 314
+  brief: !ruby/object:Word
+    word: brief
+    stem: brief
+    docFrequency: 3.0
+    docPositions:
+    - 96
+    - 287
+  sketch: !ruby/object:Word
+    word: sketch
+    stem: sketch
+    docFrequency: 3.0
+    docPositions:
+    - 100
+    - 291
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 3.0
+    docPositions:
+    - 100
+    - 291
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 100
+    - 291
+  fitted: !ruby/object:Word
+    word: fitted
+    stem: fit
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 292
+  likewise: !ruby/object:Word
+    word: likewise
+    stem: likewis
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 292
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 7.0
+    docPositions:
+    - 102
+    - 112
+    - 116
+    - 293
+    - 303
+    - 307
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 5.0
+    docPositions:
+    - 103
+    - 109
+    - 294
+    - 300
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 5.0
+    docPositions:
+    - 103
+    - 172
+    - 194
+    - 294
+  completely: !ruby/object:Word
+    word: completely
+    stem: complet
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 294
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 295
+  mainstream: !ruby/object:Word
+    word: mainstream
+    stem: mainstream
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 295
+  construction: !ruby/object:Word
+    word: construction
+    stem: construct
+    docFrequency: 7.0
+    docPositions:
+    - 104
+    - 112
+    - 122
+    - 295
+    - 303
+    - 313
+  led: !ruby/object:Word
+    word: led
+    stem: led
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 296
+  primitive: !ruby/object:Word
+    word: primitive
+    stem: primit
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 296
+  desk: !ruby/object:Word
+    word: desk
+    stem: desk
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 296
+  calculators: !ruby/object:Word
+    word: calculators
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 296
+  seventeenth: !ruby/object:Word
+    word: seventeenth
+    stem: seventeenth
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 296
+  widespread: !ruby/object:Word
+    word: widespread
+    stem: widespread
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 297
+  commercial: !ruby/object:Word
+    word: commercial
+    stem: commerci
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 297
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 297
+  beginning: !ruby/object:Word
+    word: beginning
+    stem: begin
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 298
+  twentieth: !ruby/object:Word
+    word: twentieth
+    stem: twentieth
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 298
+  later: !ruby/object:Word
+    word: later
+    stem: later
+    docFrequency: 5.0
+    docPositions:
+    - 107
+    - 117
+    - 298
+    - 308
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 298
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 299
+  neither: !ruby/object:Word
+    word: neither
+    stem: neither
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 299
+  influenced: !ruby/object:Word
+    word: influenced
+    stem: influenc
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 299
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 5.0
+    docPositions:
+    - 109
+    - 143
+    - 300
+    - 334
+  gone: !ruby/object:Word
+    word: gone
+    stem: gone
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 300
+  nor: !ruby/object:Word
+    word: nor
+    stem: nor
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 300
+  influential: !ruby/object:Word
+    word: influential
+    stem: influenti
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 300
+  followed: !ruby/object:Word
+    word: followed
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 300
+  him: !ruby/object:Word
+    word: him
+    stem: him
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 301
+  attempted: !ruby/object:Word
+    word: attempted
+    stem: attempt
+    docFrequency: 3.0
+    docPositions:
+    - 112
+    - 303
+  eventual: !ruby/object:Word
+    word: eventual
+    stem: eventu
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 304
+  abandonment: !ruby/object:Word
+    word: abandonment
+    stem: abandon
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 304
+  considered: !ruby/object:Word
+    word: considered
+    stem: consid
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 305
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 305
+  third: !ruby/object:Word
+    word: third
+    stem: third
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 305
+  deals: !ruby/object:Word
+    word: deals
+    stem: deal
+    docFrequency: 5.0
+    docPositions:
+    - 115
+    - 117
+    - 306
+    - 308
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 5.0
+    docPositions:
+    - 115
+    - 122
+    - 306
+    - 313
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 307
+  fourth: !ruby/object:Word
+    word: fourth
+    stem: fourth
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 308
+  concerns: !ruby/object:Word
+    word: concerns
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 308
+  project: !ruby/object:Word
+    word: project
+    stem: project
+    docFrequency: 7.0
+    docPositions:
+    - 118
+    - 130
+    - 134
+    - 309
+    - 321
+    - 325
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 309
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 309
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 4.0
+    docPositions:
+    - 118
+    - 162
+    - 309
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 5.0
+    docPositions:
+    - 119
+    - 136
+    - 310
+    - 327
+  scheutz: !ruby/object:Word
+    word: scheutz
+    stem: scheutz
+    docFrequency: 3.0
+    docPositions:
+    - 119
+    - 310
+  simplified: !ruby/object:Word
+    word: simplified
+    stem: simplifi
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 311
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 311
+  earlier: !ruby/object:Word
+    word: earlier
+    stem: earlier
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 311
+  machine: !ruby/object:Word
+    word: machine
+    stem: machin
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 311
+  resumption: !ruby/object:Word
+    word: resumption
+    stem: resumpt
+    docFrequency: 3.0
+    docPositions:
+    - 121
+    - 312
+  late: !ruby/object:Word
+    word: late
+    stem: late
+    docFrequency: 3.0
+    docPositions:
+    - 121
+    - 312
+  intention: !ruby/object:Word
+    word: intention
+    stem: intent
+    docFrequency: 3.0
+    docPositions:
+    - 122
+    - 313
+  attempting: !ruby/object:Word
+    word: attempting
+    stem: attempt
+    docFrequency: 3.0
+    docPositions:
+    - 122
+    - 313
+  final: !ruby/object:Word
+    word: final
+    stem: final
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 314
+  observations: !ruby/object:Word
+    word: observations
+    stem: observ
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 314
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 315
+  character: !ruby/object:Word
+    word: character
+    stem: charact
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 315
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 7.0
+    docPositions:
+    - 129
+    - 136
+    - 149
+    - 320
+    - 327
+    - 340
+  aroused: !ruby/object:Word
+    word: aroused
+    stem: arous
+    docFrequency: 3.0
+    docPositions:
+    - 129
+    - 320
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 4.0
+    docPositions:
+    - 129
+    - 194
+    - 320
+  directed: !ruby/object:Word
+    word: directed
+    stem: direct
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 322
+  professor: !ruby/object:Word
+    word: professor
+    stem: professor
+    docFrequency: 7.0
+    docPositions:
+    - 131
+    - 144
+    - 322
+    - 335
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 5.0
+    docPositions:
+    - 131
+    - 148
+    - 322
+    - 339
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 9.0
+    docPositions:
+    - 131
+    - 143
+    - 160
+    - 162
+    - 163
+    - 167
+    - 322
+    - 334
+  cohen: !ruby/object:Word
+    word: cohen
+    stem: cohen
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 322
+  owen: !ruby/object:Word
+    word: owen
+    stem: owen
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 323
+  gingerich: !ruby/object:Word
+    word: gingerich
+    stem: gingerich
+    docFrequency: 5.0
+    docPositions:
+    - 132
+    - 144
+    - 323
+    - 335
+  behalf: !ruby/object:Word
+    word: behalf
+    stem: behalf
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 323
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 323
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 323
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 324
+  purpose: !ruby/object:Word
+    word: purpose
+    stem: purpos
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 324
+  developing: !ruby/object:Word
+    word: developing
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 324
+  ibm: !ruby/object:Word
+    word: ibm
+    stem: ibm
+    docFrequency: 5.0
+    docPositions:
+    - 133
+    - 135
+    - 324
+    - 326
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 325
+  continues: !ruby/object:Word
+    word: continues
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 326
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 326
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 5.0
+    docPositions:
+    - 135
+    - 139
+    - 326
+    - 330
+  generous: !ruby/object:Word
+    word: generous
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 326
+  financial: !ruby/object:Word
+    word: financial
+    stem: financi
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 326
+  logistical: !ruby/object:Word
+    word: logistical
+    stem: logist
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 327
+  trip: !ruby/object:Word
+    word: trip
+    stem: trip
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 327
+  manuscripts: !ruby/object:Word
+    word: manuscripts
+    stem: manuscript
+    docFrequency: 7.0
+    docPositions:
+    - 137
+    - 140
+    - 161
+    - 163
+    - 328
+    - 331
+  supported: !ruby/object:Word
+    word: supported
+    stem: support
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 328
+  grant: !ruby/object:Word
+    word: grant
+    stem: grant
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 328
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 329
+  foundation: !ruby/object:Word
+    word: foundation
+    stem: foundat
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 329
+  assistance: !ruby/object:Word
+    word: assistance
+    stem: assist
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 329
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 329
+  staffs: !ruby/object:Word
+    word: staffs
+    stem: staff
+    docFrequency: 3.0
+    docPositions:
+    - 139
+    - 330
+  division: !ruby/object:Word
+    word: division
+    stem: divis
+    docFrequency: 3.0
+    docPositions:
+    - 140
+    - 331
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 3.0
+    docPositions:
+    - 141
+    - 332
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 3.0
+    docPositions:
+    - 142
+    - 333
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 4.0
+    docPositions:
+    - 143
+    - 165
+    - 334
+  calvert: !ruby/object:Word
+    word: calvert
+    stem: calvert
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 334
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 334
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 334
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 335
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 335
+  valuable: !ruby/object:Word
+    word: valuable
+    stem: valuabl
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 336
+  suggestions: !ruby/object:Word
+    word: suggestions
+    stem: suggest
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 336
+  kenneth: !ruby/object:Word
+    word: kenneth
+    stem: kenneth
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 336
+  manning: !ruby/object:Word
+    word: manning
+    stem: man
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 336
+  individuals: !ruby/object:Word
+    word: individuals
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 338
+  institutions: !ruby/object:Word
+    word: institutions
+    stem: institut
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 338
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 185
+    - 339
+    - 358
+  helped: !ruby/object:Word
+    word: helped
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  large: !ruby/object:Word
+    word: large
+    stem: larg
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  express: !ruby/object:Word
+    word: express
+    stem: express
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 339
+  gratitude: !ruby/object:Word
+    word: gratitude
+    stem: gratitud
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 340
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  quotations: !ruby/object:Word
+    word: quotations
+    stem: quotat
+    docFrequency: 6.0
+    docPositions:
+    - 153
+    - 177
+    - 186
+    - 350
+    - 359
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 343
+  abbreviations: !ruby/object:Word
+    word: abbreviations
+    stem: abbrevi
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 343
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 343
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 5.0
+    docPositions:
+    - 155
+    - 178
+    - 343
+    - 351
+  frequently: !ruby/object:Word
+    word: frequently
+    stem: frequent
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 344
+  cited: !ruby/object:Word
+    word: cited
+    stem: cite
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 344
+  further: !ruby/object:Word
+    word: further
+    stem: further
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 344
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 345
+  bibliography: !ruby/object:Word
+    word: bibliography
+    stem: bibliographi
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 345
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  kens: !ruby/object:Word
+    word: kens
+    stem: ken
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  scribbling: !ruby/object:Word
+    word: scribbling
+    stem: scribbl
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 163
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  great: !ruby/object:Word
+    word: great
+    stem: great
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  edited: !ruby/object:Word
+    word: edited
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  henry: !ruby/object:Word
+    word: henry
+    stem: henri
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 173
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 173
+  reprinting: !ruby/object:Word
+    word: reprinting
+    stem: reprint
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  begun: !ruby/object:Word
+    word: begun
+    stem: begun
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  completed: !ruby/object:Word
+    word: completed
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  death: !ruby/object:Word
+    word: death
+    stem: death
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  son: !ruby/object:Word
+    word: son
+    stem: son
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 3.0
+    docPositions:
+    - 177
+    - 350
+  rough: !ruby/object:Word
+    word: rough
+    stem: rough
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 351
+  drafts: !ruby/object:Word
+    word: drafts
+    stem: draft
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 351
+  sake: !ruby/object:Word
+    word: sake
+    stem: sake
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 352
+  increased: !ruby/object:Word
+    word: increased
+    stem: increas
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 352
+  intelligibility: !ruby/object:Word
+    word: intelligibility
+    stem: intellig
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 352
+  punctuation: !ruby/object:Word
+    word: punctuation
+    stem: punctuat
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 352
+  altered: !ruby/object:Word
+    word: altered
+    stem: alter
+    docFrequency: 5.0
+    docPositions:
+    - 180
+    - 185
+    - 353
+    - 358
+  certain: !ruby/object:Word
+    word: certain
+    stem: certain
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 353
+  extent: !ruby/object:Word
+    word: extent
+    stem: extent
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 353
+  principally: !ruby/object:Word
+    word: principally
+    stem: princip
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 353
+  addition: !ruby/object:Word
+    word: addition
+    stem: addit
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 354
+  commas: !ruby/object:Word
+    word: commas
+    stem: comma
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 354
+  spelling: !ruby/object:Word
+    word: spelling
+    stem: spell
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 354
+  standardized: !ruby/object:Word
+    word: standardized
+    stem: standard
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 354
+  capitalization: !ruby/object:Word
+    word: capitalization
+    stem: capit
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 358
+  italics: !ruby/object:Word
+    word: italics
+    stem: ital
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 358
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 359
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 359
+  unchanged: !ruby/object:Word
+    word: unchanged
+    stem: unchang
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 360
+  table: !ruby/object:Word
+    word: table
+    stem: tabl
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  contents: !ruby/object:Word
+    word: contents
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  prefaceiiinote: !ruby/object:Word
+    word: prefaceiiinote
+    stem: prefaceiiinot
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  quotationsviichapter: !ruby/object:Word
+    word: quotationsviichapter
+    stem: quotationsviichapt
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  four: !ruby/object:Word
+    word: four
+    stem: four
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  operation: !ruby/object:Word
+    word: operation
+    stem: oper
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  pagetracker: !ruby/object:Word
+    word: pagetracker
+    stem: pagetrack
+    docFrequency: 7.0
+    docPositions:
+    - 207
+    - 208
+    - 209
+    - 370
+    - 371
+    - 372
+  _gat: !ruby/object:Word
+    word: _gat
+    stem: _gat
+    docFrequency: 3.0
+    docPositions:
+    - 207
+    - 370
+  _gettracker: !ruby/object:Word
+    word: _gettracker
+    stem: _gettrack
+    docFrequency: 3.0
+    docPositions:
+    - 207
+    - 370
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 3.0
+    docPositions:
+    - 207
+    - 370
+  _initdata: !ruby/object:Word
+    word: _initdata
+    stem: _initdata
+    docFrequency: 3.0
+    docPositions:
+    - 208
+    - 371
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 3.0
+    docPositions:
+    - 209
+    - 372
+lineCount: 373
+wordCount: 2096
+rank: 0.2540983606557377
+title: |-
+  The Little Engines that Could've:
+  The Calculating Machines of Charles Babbage (Full text)
+links: []
+rawText: "\n\n\nPreface  \nChapter 1   \nChapter 2  \nChapter 3  \nChapter 4  \nChapter
+  5  \n\n\n\n\nThe Little Engines that Could've:\nThe Calculating Machines of Charles
+  Babbage\n\n\nA thesis presented\nby\nBruce Collier\n\nto\nThe Department of History
+  of Science\nin partial fulfillment of the requirements\nfor the degree of\nDoctor
+  of Philosophy\nin the subject of\nHistory of Science\n\nHarvard University\nCambridge,
+  Massachusetts\n\nAugust, 1970\nCopyright reserved by the author.\n\n\n\nPreface\n\nCharles
+  Babbage's invention of the computer is \nsomething like the weather. Everyone working
+  with computers\nfor the last two decades has been talking about it, but\nnothing
+  has been done. Every historical introduction to\na computer text contains a section
+  on Babbage, often\nextensive; but they are all based on the quite scanty\ninformation
+  about the Analytical Engine published during\nthe nineteenth century. The immense
+  amount of manuscript\nmaterial concerning Babbage extant in England has remained\nessentially
+  untouched.\n\nThe one hoped for exception was Maboth Moseley's\nIrascible Genius
+  (London, 1964). a full length biography\nof Babbage. Moseley consulted the Babbage
+  correspondence\nat the British Museum and the unpublished biography of\nBabbage
+  written by his friend Harry Wilmot Buxton; yet\ndespite the fact that Moseley was
+  the editor of a computer\njournal, she did not examine Babbage's notebooks and\ndrawings,
+  now in the Science Museum in South Kensington,\nand her book contains virtually
+  nothing of interest on the\nAnalytical Engine. On the whole, Irascible Genius is
+  a\ngood deal less interesting than Babbage's own volume of\nmemoirs, Passages from
+  the Life of a Philosopher (London,\n1864), and it is no more balanced, and not very
+  much\nmore accurate.\n\nUnfortunately, the publication of Buxton's biography\n\n\n\nwould
+  not solve the problem, for it is basically an\nunorganized collection of extensive
+  extracts from some\nof Babbage's books, papers, and letters; and while many\nof
+  these are quite interesting, they are badly in need of\nmore coherent treatment,
+  and there are many gaps in their\ncoverage.\n\nConsequently, the student of Babbage's
+  work must\nreturn directly to the original sources. The manuscript\nmaterial is
+  in three primary collections, on which this\nstudy is based. Twenty volumes of Babbage's
+  correspondence\nare deposited in the British Museum; a similar quantity\nof technical
+  material is held by the Science Museum in\nSouth Kensington; and the Museum of the
+  History of Science\nat Oxford University has Buxton's manuscript biography,\nand,
+  more important, the Babbage papers upon which it\nwas based.\n\nAlthough Babbage's
+  life and accomplishments \nencompassed far more that was important than the invention\nof
+  his two calculating machines, the Difference and\nAnalytical Engines, it is on them
+  that new research has\nmost been needed; consequently, the present study is\nlimited
+  to material relevant to them. Babbage's early\nmathematical work, his role in founding
+  or reforming\nseveral important scientific societies, and his many other\nactivities
+  will scarcely be touched upon. But the first\nchapter, by way of introduction, will
+  provide a brief\n\n\n\nsketch of Babbage's life, as it is the context into which\nthe
+  calculating machines must be fitted. Likewise, this\nstudy will not deal with the
+  development of calculating\nmachines before or after Babbage. His work was completely\nout
+  of the mainstream of invention and construction which\nled from the primitive desk
+  calculators of the seventeenth\ncentury to their widespread commercial success by
+  the\nbeginning of the twentieth century, and later to what we\nknow as computers;
+  Babbage was neither influenced by\nwhat had gone before nor influential upon what
+  followed\nhim.\n\nThe invention, development, attempted construction,\nand eventual
+  abandonment of the first Difference Engine\nwill be considered in the second chapter.
+  The third chapter\ndeals with the invention of the Analytical Engine and its\nperiod
+  of primary development, from 1834 to 1847. The\nfourth chapter deals with three
+  later concerns of Babbage:\na project to interest the government in what he called
+  his\nDifference Engine No. 2; support for the Scheutz Difference\nEngine, a simplified
+  version of his own earlier machine;\nand his resumption of work on the Analytical
+  Engine late\nin life, with the intention of attempting its construction.\nThe final
+  chapter will provide some observations on the\ngeneral character of Babbage's work
+  on the Analytical\nEngine.\n\n\n\nMy own interest in Babbage was first aroused through\na
+  research project on the history of calculating machines\nand computers directed
+  by Professor I.B. Cohen and Professor\nOwen Gingerich on behalf of the International
+  Business\nMachines company for the purpose of developing an IBM\nmuseum on computers
+  and their history; this project still\ncontinues. IBM has also provided generous
+  financial and\nlogistical support for my own work. A trip to England to\nstudy the
+  manuscripts was supported by a grant from the\nNational Science Foundation. Assistance
+  and access to\nthe sources has been provided by the staffs of the \nManuscripts
+  Division of the British Museum, the Museum of the\nHistory of Science at Oxford
+  University, and especially\nthe Science Museum in South Kensington, London, where
+  Dr.\nH.B. Calvert has long had a special interest in Babbage.\nProfessor Gingerich
+  has read this thesis and made\nvaluable suggestions, as has Kenneth Manning.\n\nTo
+  all these and other individuals and institutions\nwho have helped me in ways large
+  and small, I express\nmy gratitude.\n\n\n\nNote on Sources and Quotations\n\nThe
+  following abbreviations are used in the notes for\nsources frequently cited. Further
+  information will be\nfound in the Bibliography.\n\n\nB.M. The twenty volumes of
+  Babbage correspondence \n       in the British Museum manuscript collections.S.Kens.
+  The Babbage manuscripts held by the Science \n       Museum in South Kensington,
+  London.S.B. The volumes called Scribbling Books, part \n       of the South Kensington
+  collection.G.S.B. The Great Scribbling Book at South Kensington.Buxton The collection
+  of Babbage manuscripts, together \n         with a manuscript biography of \n         Babbage
+  by H. Wilmot Buxton, deposited \n         in the Museum of the History of Science
+  at \n         Oxford University.B.C.E. Babbage's Calculating Engines, edited by\n
+  \       Henry P. Babbage, London 1889; a volume\n        reprinting the important
+  published material\n        concerning Babbage's calculating machines,\n        begun
+  by Charles Babbage and completed and\n        published after his death by his son\n
+  \       Henry P. Babbage.P.L.Y. Passages from the Life of a Philosopher, by\n        Charles
+  Babbage, London, 1864; a volume\n        of memoirs.\n\nMany of the quotations given
+  in this thesis are from\nmanuscript sources, often from rough notes or drafts.\nFor
+  the sake of increased intelligibility, punctuation has\nbeen altered to a certain
+  extent (principally by the\naddition of commas), and spelling has been standardized;\n\n\n\ncapitalization
+  and italics have not been altered.\nQuotations from published sources are of course
+  left\nunchanged.\n\n\n\nTABLE OF CONTENTS\n\n\nPrefaceiiiNote on Sources and QuotationsviiCHAPTER
+  ONE - Introduction1CHAPTER TWO - The Difference Engine12CHAPTER THREE- The Analytical
+  Engine through 1846106CHAPTER FOUR - Babbage and Calculating Machines after 1846207CHAPTER
+  FIVE - Conclusion271Appendix - Operation of the Difference Engine281Bibliography286\n\nPreface
+   \nChapter 1   \nChapter 2  \nChapter 3  \nChapter 4  \nChapter 5  \n\n\n\n\n\nvar
+  pageTracker = _gat._getTracker(\"UA-826802-2\");\npageTracker._initData();\npageTracker._trackPageview();\n\n\nA
+  thesis presented\nby\nBruce Collier\n\nto\nThe Department of History of Science\nin
+  partial fulfillment of the requirements\nfor the degree of\nDoctor of Philosophy\nin
+  the subject of\nHistory of Science\n\nHarvard University\nCambridge, Massachusetts\n\nAugust,
+  1970\nCopyright reserved by the author.\n\nCharles Babbage's invention of the computer
+  is \nsomething like the weather. Everyone working with computers\nfor the last two
+  decades has been talking about it, but\nnothing has been done. Every historical
+  introduction to\na computer text contains a section on Babbage, often\nextensive;
+  but they are all based on the quite scanty\ninformation about the Analytical Engine
+  published during\nthe nineteenth century. The immense amount of manuscript\nmaterial
+  concerning Babbage extant in England has remained\nessentially untouched.\n\nThe
+  one hoped for exception was Maboth Moseley's\nIrascible Genius (London, 1964). a
+  full length biography\nof Babbage. Moseley consulted the Babbage correspondence\nat
+  the British Museum and the unpublished biography of\nBabbage written by his friend
+  Harry Wilmot Buxton; yet\ndespite the fact that Moseley was the editor of a computer\njournal,
+  she did not examine Babbage's notebooks and\ndrawings, now in the Science Museum
+  in South Kensington,\nand her book contains virtually nothing of interest on the\nAnalytical
+  Engine. On the whole, Irascible Genius is a\ngood deal less interesting than Babbage's
+  own volume of\nmemoirs, Passages from the Life of a Philosopher (London,\n1864),
+  and it is no more balanced, and not very much\nmore accurate.\n\nUnfortunately,
+  the publication of Buxton's biography\n\n\n\nwould not solve the problem, for it
+  is basically an\nunorganized collection of extensive extracts from some\nof Babbage's
+  books, papers, and letters; and while many\nof these are quite interesting, they
+  are badly in need of\nmore coherent treatment, and there are many gaps in their\ncoverage.\n\nConsequently,
+  the student of Babbage's work must\nreturn directly to the original sources. The
+  manuscript\nmaterial is in three primary collections, on which this\nstudy is based.
+  Twenty volumes of Babbage's correspondence\nare deposited in the British Museum;
+  a similar quantity\nof technical material is held by the Science Museum in\nSouth
+  Kensington; and the Museum of the History of Science\nat Oxford University has Buxton's
+  manuscript biography,\nand, more important, the Babbage papers upon which it\nwas
+  based.\n\nAlthough Babbage's life and accomplishments \nencompassed far more that
+  was important than the invention\nof his two calculating machines, the Difference
+  and\nAnalytical Engines, it is on them that new research has\nmost been needed;
+  consequently, the present study is\nlimited to material relevant to them. Babbage's
+  early\nmathematical work, his role in founding or reforming\nseveral important scientific
+  societies, and his many other\nactivities will scarcely be touched upon. But the
+  first\nchapter, by way of introduction, will provide a brief\n\n\n\nsketch of Babbage's
+  life, as it is the context into which\nthe calculating machines must be fitted.
+  Likewise, this\nstudy will not deal with the development of calculating\nmachines
+  before or after Babbage. His work was completely\nout of the mainstream of invention
+  and construction which\nled from the primitive desk calculators of the seventeenth\ncentury
+  to their widespread commercial success by the\nbeginning of the twentieth century,
+  and later to what we\nknow as computers; Babbage was neither influenced by\nwhat
+  had gone before nor influential upon what followed\nhim.\n\nThe invention, development,
+  attempted construction,\nand eventual abandonment of the first Difference Engine\nwill
+  be considered in the second chapter. The third chapter\ndeals with the invention
+  of the Analytical Engine and its\nperiod of primary development, from 1834 to 1847.
+  The\nfourth chapter deals with three later concerns of Babbage:\na project to interest
+  the government in what he called his\nDifference Engine No. 2; support for the Scheutz
+  Difference\nEngine, a simplified version of his own earlier machine;\nand his resumption
+  of work on the Analytical Engine late\nin life, with the intention of attempting
+  its construction.\nThe final chapter will provide some observations on the\ngeneral
+  character of Babbage's work on the Analytical\nEngine.\n\n\n\nMy own interest in
+  Babbage was first aroused through\na research project on the history of calculating
+  machines\nand computers directed by Professor I.B. Cohen and Professor\nOwen Gingerich
+  on behalf of the International Business\nMachines company for the purpose of developing
+  an IBM\nmuseum on computers and their history; this project still\ncontinues. IBM
+  has also provided generous financial and\nlogistical support for my own work. A
+  trip to England to\nstudy the manuscripts was supported by a grant from the\nNational
+  Science Foundation. Assistance and access to\nthe sources has been provided by the
+  staffs of the \nManuscripts Division of the British Museum, the Museum of the\nHistory
+  of Science at Oxford University, and especially\nthe Science Museum in South Kensington,
+  London, where Dr.\nH.B. Calvert has long had a special interest in Babbage.\nProfessor
+  Gingerich has read this thesis and made\nvaluable suggestions, as has Kenneth Manning.\n\nTo
+  all these and other individuals and institutions\nwho have helped me in ways large
+  and small, I express\nmy gratitude.\n\n\nThe following abbreviations are used in
+  the notes for\nsources frequently cited. Further information will be\nfound in the
+  Bibliography.\n\n\n\n\nMany of the quotations given in this thesis are from\nmanuscript
+  sources, often from rough notes or drafts.\nFor the sake of increased intelligibility,
+  punctuation has\nbeen altered to a certain extent (principally by the\naddition
+  of commas), and spelling has been standardized;\n\n\n\ncapitalization and italics
+  have not been altered.\nQuotations from published sources are of course left\nunchanged.\n\n\n\n\n\n\n\n\n\nvar
+  pageTracker = _gat._getTracker(\"UA-826802-2\");\npageTracker._initData();\npageTracker._trackPageview();\n"

@@ -1,0 +1,2893 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : script
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: script
+    str2: 
+    str3: 
+    int1: 0
+    column: 151
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 273
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 345
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 359
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 78
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 384
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 127
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 203
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 130
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 128
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag main invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 131
+    str1: main
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag aside invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 132
+    str1: aside
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 132
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 230
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 135
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 136
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 60
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 142
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 74
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 148
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 69
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 153
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 61
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 153
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 271
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 159
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 59
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 164
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 61
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 169
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 76
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 169
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 248
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 174
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 59
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 176
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 222
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 176
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 436
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 183
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 126
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 197
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 56
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 258
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8615-1o0wv17"
+    line: 277
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 158
+address: https://www.indiana.edu/admissions/index.html
+inboundLinks: []
+lines:
+- |2+
+
+- "   \n"
+- "\r\n"
+- "\r\n"
+- "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n"
+- "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n"
+- "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n"
+- "'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n"
+- |
+  })(window,document,'script','dataLayer','GTM-NF6HQX');
+- "   \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- |
+  Skip to Content
+- |
+  Skip to Main Navigation
+- |
+  Skip to Search
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tIndiana University Bloomington\n"
+- "\t\t\t\t\tIndiana University Bloomington\n"
+- "\t\t\t\t\tIU Bloomington\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- |2
+          Menu
+- |2
+          Search
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2
+              HomeAboutAdmissionsAcademicsResearchHoosier LifeYour FutureAlumni & GivingNews & EventsSearchHow to ApplyCost & FinancesVisit IU & BloomingtonHomeAdmissionsAdmissionsBecome the best version of youAt IU Bloomington, our promise is to help you fulfill yours.
+- |
+  We do it by giving you everything college should be. More than 550 academic programs, including opportunities you won’t find anywhere else. A cream-and-crimson-clad family that you can call on throughout your career. And a springboard to a future that can lead wherever you want.Apply to become a HoosierUndergraduate admissionsInternational admissionsGraduate admissionsVisit a campus so stunning that you’ll want to stayThe trees. The limestone buildings. The high-tech labs and world-class performance spaces. The people from all over the world. Together they make IU’s campus one of the most inspiring and inviting places you’ll ever be. See for yourself.
+- |
+  Plan your visitExplore, belong, and succeed at IU200+undergraduate majors300+graduate programs1,500+employers recruit at IU each year300+study abroad programs750+student organizations640,000+IU graduates worldwideSee more rankings and statisticsIU is a really strong community of people who are helping each other succeed.Grant Manon, recent IU gradRead Grant’s storyMake the most of your first yearBeginning college, or transferring to a new college, is a big transition. That’s why we have the Office of First Year Experience Programs (FYE): to help undergraduates start strong at IU.
+- |
+  FYE will help you explore IU’s many opportunities, pursue the ones that interest you, and shape your IU experience into what you want it to be—starting with New Student Orientation.
+- |
+  Learn about First Year Experience ProgramsYou’ll see a lot of our beautiful campus during New Student Orientation.
+- |
+  Twitter
+- |
+  Facebook
+- |
+  Instagram
+- |
+  YouTube
+- |
+  Pinterest
+- |
+  LinkedIn
+- |
+  Google Plus
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Services
+- |
+  Canvas
+- |
+  Oncourse
+- |
+  One.IU
+- |2+
+
+- |2+
+
+- |
+  Find
+- |
+  People
+- |
+  Social Media
+- |
+  A-Z List
+- |
+  Courses
+- |
+  Campus Map
+- |2+
+
+- |2+
+
+- |
+  Library
+- |
+  IU Bloomington Libraries
+- |
+  IUCAT
+- |
+  OneSearch@IU
+- |2+
+
+- |2+
+
+- |
+  Resources
+- |
+  Knowledge Base
+- |
+  IT Services
+- |
+  Faculty & Staff Resources
+- |2+
+
+- |2+
+
+- |
+  Email
+- |
+  Imail
+- |
+  Umail
+- |
+  Outlook Web Access
+- |
+  Webmail
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Indiana University Bloomington
+- |2+
+
+- |
+  107 S. Indiana AvenueBloomington, IN47405-7000
+- |2
+   Phone: 812-855-4848
+- |2+
+
+- |
+  askiu@iu.edu
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\tFulfilling the Promise\n"
+- |2+
+
+- "\t\t\n"
+- "\t\t\tCopyright © 2015 The Trustees of Indiana University\n"
+- "\t\t\n"
+- |2+
+
+- "\t\tPrivacy Notice\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- |
+  AboutRankings & Campus Statistics
+- |
+  History
+- |
+  Fulfilling the Promise
+- |
+  Mission
+- |2+
+
+- |
+  Campus InitiativesDiversity
+- |
+  Global Partnerships & Programs
+- |
+  Arts & Humanities
+- |2
+    New Schools & Programs
+- |2+
+
+- |
+  Leadership & Administration
+- |
+  Campus Map
+- |
+  Safety & Emergency Information
+- |
+  Transportation & Parking
+- |
+  Employment
+- |
+  A-Z List
+- |
+  How to Hire IU Students
+- |2+
+
+- |2+
+
+- |
+  AdmissionsHow to Apply
+- |
+  Cost & Finances
+- |
+  Visit IU & Bloomington
+- |2+
+
+- |2+
+
+- |
+  AcademicsThe Academic Experience
+- |
+  Degrees & Majors
+- |
+  Schools
+- |
+  Academic Opportunities
+- |
+  Study Abroad
+- |
+  Online Classes & Programs
+- |
+  Schedule of Classes & Academic Calendar
+- |
+  Academic Advising & Support
+- |
+  Libraries
+- |2+
+
+- |2+
+
+- |
+  ResearchResearch Experiences
+- |
+  Research Centers
+- |
+  Research Resources for Faculty
+- |2+
+
+- |2+
+
+- |
+  Hoosier LifeTraditions & Spirit
+- |
+  Student Organizations
+- |
+  Recreational Sports
+- |
+  Athletics
+- |
+  Health, Wellness & Safety
+- |
+  Housing & Dining
+- |
+  Visiting Bloomington
+- |
+  Attractions & Things to Do
+- |2+
+
+- |2+
+
+- |
+  Your FutureFind Your Passion
+- |
+  Get Experience
+- |
+  Develop Your Career
+- |
+  Use Your Network
+- |
+  Success Stories
+- |2+
+
+- |
+  Alumni & Giving
+- |
+  News & Events
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "// \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\tIndiana University Bloomington\n"
+- "\t\t\t\t\tIndiana University Bloomington\n"
+- "\t\t\t\t\tIU Bloomington\n"
+- "\t\t\t\t\n"
+- "\t\t\tAt IU Bloomington, our promise is to help you fulfill yours.We do it by giving
+  you everything college should be. More than 550 academic programs, including opportunities
+  you won’t find anywhere else. A cream-and-crimson-clad family that you can call
+  on throughout your career. And a springboard to a future that can lead wherever
+  you want.Undergraduate admissionsInternational admissionsGraduate admissionsThe
+  trees. The limestone buildings. The high-tech labs and world-class performance spaces.
+  The people from all over the world. Together they make IU’s campus one of the most
+  inspiring and inviting places you’ll ever be. See for yourself.200+undergraduate
+  majors300+graduate programs1,500+employers recruit at IU each year300+study abroad
+  programs750+student organizations640,000+IU graduates worldwideIU is a really strong
+  community of people who are helping each other succeed.Beginning college, or transferring
+  to a new college, is a big transition. That’s why we have the Office of First Year
+  Experience Programs (FYE): to help undergraduates start strong at IU.FYE will help
+  you explore IU’s many opportunities, pursue the ones that interest you, and shape
+  your IU experience into what you want it to be—starting with New Student Orientation.Indiana
+  University BloomingtonFulfilling the Promise\n"
+- "\t\t\tCopyright © 2015 The Trustees of Indiana University\n"
+- "\t\tPrivacy Notice\n"
+- |2+
+
+- "\t"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 7
+    - 8
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 5.0
+    docPositions:
+    - 4
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 5
+    - 6
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 12.0
+    docPositions:
+    - 4
+    - 5
+    - 6
+    - 54
+    - 55
+    - 56
+    - 104
+    - 215
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 8.0
+    docPositions:
+    - 4
+    - 6
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 4
+    - 7
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  gtm: !ruby/object:Word
+    word: gtm
+    stem: gtm
+    docFrequency: 5.0
+    docPositions:
+    - 4
+    - 5
+    - 7
+    - 8
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 55
+    - 215
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 8.0
+    docPositions:
+    - 5
+    - 55
+    - 56
+    - 57
+    - 132
+    - 215
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 7
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 5.0
+    docPositions:
+    - 6
+    - 7
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  dl: !ruby/object:Word
+    word: dl
+    stem: dl
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 7
+  datalayer: !ruby/object:Word
+    word: datalayer
+    stem: datalay
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 8
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  googletagmanager: !ruby/object:Word
+    word: googletagmanager
+    stem: googletagmanag
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 15
+    - 16
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 16
+    - 44
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 10.0
+    docPositions:
+    - 30
+    - 31
+    - 102
+    - 104
+    - 114
+    - 211
+    - 212
+    - 215
+    - 216
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 9.0
+    docPositions:
+    - 30
+    - 31
+    - 102
+    - 114
+    - 211
+    - 212
+    - 215
+    - 216
+  bloomington: !ruby/object:Word
+    word: bloomington
+    stem: bloomington
+    docFrequency: 13.0
+    docPositions:
+    - 30
+    - 31
+    - 32
+    - 53
+    - 83
+    - 102
+    - 145
+    - 170
+    - 211
+    - 212
+    - 213
+    - 215
+  iu: !ruby/object:Word
+    word: iu
+    stem: iu
+    docFrequency: 25.0
+    docPositions:
+    - 32
+    - 53
+    - 54
+    - 55
+    - 56
+    - 71
+    - 83
+    - 85
+    - 107
+    - 140
+    - 145
+    - 213
+    - 215
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  homeaboutadmissionsacademicsresearchhoosier: !ruby/object:Word
+    word: homeaboutadmissionsacademicsresearchhoosier
+    stem: homeaboutadmissionsacademicsresearchhoosi
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  lifeyour: !ruby/object:Word
+    word: lifeyour
+    stem: lifeyour
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  futurealumni: !ruby/object:Word
+    word: futurealumni
+    stem: futurealumni
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  givingnews: !ruby/object:Word
+    word: givingnews
+    stem: givingnew
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  eventssearchhow: !ruby/object:Word
+    word: eventssearchhow
+    stem: eventssearchhow
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  applycost: !ruby/object:Word
+    word: applycost
+    stem: applycost
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  financesvisit: !ruby/object:Word
+    word: financesvisit
+    stem: financesvisit
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  bloomingtonhomeadmissionsadmissionsbecome: !ruby/object:Word
+    word: bloomingtonhomeadmissionsadmissionsbecome
+    stem: bloomingtonhomeadmissionsadmissionsbecom
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  youat: !ruby/object:Word
+    word: youat
+    stem: youat
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 4.0
+    docPositions:
+    - 53
+    - 57
+    - 215
+  promise: !ruby/object:Word
+    word: promise
+    stem: promis
+    docFrequency: 6.0
+    docPositions:
+    - 53
+    - 111
+    - 126
+    - 215
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 7.0
+    docPositions:
+    - 53
+    - 55
+    - 56
+    - 215
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 20.0
+    docPositions:
+    - 53
+    - 54
+    - 56
+    - 215
+  fulfill: !ruby/object:Word
+    word: fulfill
+    stem: fulfil
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 215
+  yours: !ruby/object:Word
+    word: yours
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 215
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 5.0
+    docPositions:
+    - 54
+    - 55
+    - 215
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 171
+    - 215
+  giving: !ruby/object:Word
+    word: giving
+    stem: give
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 180
+    - 215
+  everything: !ruby/object:Word
+    word: everything
+    stem: everyth
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 55
+    - 215
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 55
+    - 215
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  academic: !ruby/object:Word
+    word: academic
+    stem: academ
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 148
+    - 151
+    - 154
+    - 155
+    - 215
+  programs: !ruby/object:Word
+    word: programs
+    stem: program
+    docFrequency: 8.0
+    docPositions:
+    - 54
+    - 55
+    - 130
+    - 132
+    - 153
+    - 215
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  opportunities: !ruby/object:Word
+    word: opportunities
+    stem: opportun
+    docFrequency: 6.0
+    docPositions:
+    - 54
+    - 56
+    - 151
+    - 215
+  won: !ruby/object:Word
+    word: won
+    stem: won
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 74
+    - 215
+  anywhere: !ruby/object:Word
+    word: anywhere
+    stem: anywher
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  cream: !ruby/object:Word
+    word: cream
+    stem: cream
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 13.0
+    docPositions:
+    - 54
+    - 55
+    - 56
+    - 215
+  crimson: !ruby/object:Word
+    word: crimson
+    stem: crimson
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  clad: !ruby/object:Word
+    word: clad
+    stem: clad
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 5.0
+    docPositions:
+    - 54
+    - 215
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  throughout: !ruby/object:Word
+    word: throughout
+    stem: throughout
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 11.0
+    docPositions:
+    - 54
+    - 55
+    - 56
+    - 174
+    - 176
+    - 177
+    - 215
+  career: !ruby/object:Word
+    word: career
+    stem: career
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 176
+    - 215
+  springboard: !ruby/object:Word
+    word: springboard
+    stem: springboard
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  lead: !ruby/object:Word
+    word: lead
+    stem: lead
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  wherever: !ruby/object:Word
+    word: wherever
+    stem: wherev
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  want: !ruby/object:Word
+    word: want
+    stem: want
+    docFrequency: 6.0
+    docPositions:
+    - 54
+    - 56
+    - 215
+  apply: !ruby/object:Word
+    word: apply
+    stem: appli
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 143
+  become: !ruby/object:Word
+    word: become
+    stem: becom
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  hoosierundergraduate: !ruby/object:Word
+    word: hoosierundergraduate
+    stem: hoosierundergradu
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  admissionsinternational: !ruby/object:Word
+    word: admissionsinternational
+    stem: admissionsintern
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  admissionsgraduate: !ruby/object:Word
+    word: admissionsgraduate
+    stem: admissionsgradu
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  admissionsvisit: !ruby/object:Word
+    word: admissionsvisit
+    stem: admissionsvisit
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  campus: !ruby/object:Word
+    word: campus
+    stem: campu
+    docFrequency: 9.0
+    docPositions:
+    - 54
+    - 57
+    - 79
+    - 124
+    - 129
+    - 135
+    - 215
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  stunning: !ruby/object:Word
+    word: stunning
+    stem: stun
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 5.0
+    docPositions:
+    - 54
+    - 57
+    - 215
+  staythe: !ruby/object:Word
+    word: staythe
+    stem: stayth
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  trees: !ruby/object:Word
+    word: trees
+    stem: tree
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  limestone: !ruby/object:Word
+    word: limestone
+    stem: limeston
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  buildings: !ruby/object:Word
+    word: buildings
+    stem: build
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  labs: !ruby/object:Word
+    word: labs
+    stem: lab
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 5.0
+    docPositions:
+    - 54
+    - 215
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  performance: !ruby/object:Word
+    word: performance
+    stem: perform
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  spaces: !ruby/object:Word
+    word: spaces
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 6.0
+    docPositions:
+    - 54
+    - 55
+    - 75
+    - 215
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 71
+    - 215
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 55
+    - 215
+  inspiring: !ruby/object:Word
+    word: inspiring
+    stem: inspir
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  inviting: !ruby/object:Word
+    word: inviting
+    stem: invit
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  places: !ruby/object:Word
+    word: places
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  ever: !ruby/object:Word
+    word: ever
+    stem: ever
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 4.0
+    docPositions:
+    - 54
+    - 57
+    - 215
+  yourself: !ruby/object:Word
+    word: yourself
+    stem: yourself
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 215
+  plan: !ruby/object:Word
+    word: plan
+    stem: plan
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  visitexplore: !ruby/object:Word
+    word: visitexplore
+    stem: visitexplor
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  belong: !ruby/object:Word
+    word: belong
+    stem: belong
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  succeed: !ruby/object:Word
+    word: succeed
+    stem: succe
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 215
+  undergraduate: !ruby/object:Word
+    word: undergraduate
+    stem: undergradu
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 215
+  graduate: !ruby/object:Word
+    word: graduate
+    stem: graduat
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  employers: !ruby/object:Word
+    word: employers
+    stem: employ
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  recruit: !ruby/object:Word
+    word: recruit
+    stem: recruit
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 215
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 152
+    - 215
+  abroad: !ruby/object:Word
+    word: abroad
+    stem: abroad
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 152
+    - 215
+  student: !ruby/object:Word
+    word: student
+    stem: student
+    docFrequency: 7.0
+    docPositions:
+    - 55
+    - 56
+    - 57
+    - 165
+    - 215
+  graduates: !ruby/object:Word
+    word: graduates
+    stem: graduat
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  worldwidesee: !ruby/object:Word
+    word: worldwidesee
+    stem: worldwidese
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  rankings: !ruby/object:Word
+    word: rankings
+    stem: rank
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  statisticsiu: !ruby/object:Word
+    word: statisticsiu
+    stem: statisticsiu
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  really: !ruby/object:Word
+    word: really
+    stem: realli
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 215
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  helping: !ruby/object:Word
+    word: helping
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  grant: !ruby/object:Word
+    word: grant
+    stem: grant
+    docFrequency: 3.0
+    docPositions:
+    - 55
+  manon: !ruby/object:Word
+    word: manon
+    stem: manon
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  gradread: !ruby/object:Word
+    word: gradread
+    stem: gradread
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  storymake: !ruby/object:Word
+    word: storymake
+    stem: storymak
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 57
+    - 215
+  yearbeginning: !ruby/object:Word
+    word: yearbeginning
+    stem: yearbegin
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  transferring: !ruby/object:Word
+    word: transferring
+    stem: transfer
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  big: !ruby/object:Word
+    word: big
+    stem: big
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  transition: !ruby/object:Word
+    word: transition
+    stem: transit
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  why: !ruby/object:Word
+    word: why
+    stem: why
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  office: !ruby/object:Word
+    word: office
+    stem: offic
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 57
+    - 215
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 8.0
+    docPositions:
+    - 55
+    - 56
+    - 57
+    - 148
+    - 175
+    - 215
+  fye: !ruby/object:Word
+    word: fye
+    stem: fye
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 56
+    - 215
+  undergraduates: !ruby/object:Word
+    word: undergraduates
+    stem: undergradu
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 215
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  pursue: !ruby/object:Word
+    word: pursue
+    stem: pursu
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  ones: !ruby/object:Word
+    word: ones
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  shape: !ruby/object:Word
+    word: shape
+    stem: shape
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  starting: !ruby/object:Word
+    word: starting
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 215
+  orientation: !ruby/object:Word
+    word: orientation
+    stem: orient
+    docFrequency: 4.0
+    docPositions:
+    - 56
+    - 57
+    - 215
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  programsyou: !ruby/object:Word
+    word: programsyou
+    stem: programsy
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  lot: !ruby/object:Word
+    word: lot
+    stem: lot
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  beautiful: !ruby/object:Word
+    word: beautiful
+    stem: beauti
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  instagram: !ruby/object:Word
+    word: instagram
+    stem: instagram
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  pinterest: !ruby/object:Word
+    word: pinterest
+    stem: pinterest
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  plus: !ruby/object:Word
+    word: plus
+    stem: plu
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 90
+  canvas: !ruby/object:Word
+    word: canvas
+    stem: canva
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  oncourse: !ruby/object:Word
+    word: oncourse
+    stem: oncours
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  z: !ruby/object:Word
+    word: z
+    stem: z
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 139
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 139
+  courses: !ruby/object:Word
+    word: courses
+    stem: cours
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 135
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  libraries: !ruby/object:Word
+    word: libraries
+    stem: librari
+    docFrequency: 3.0
+    docPositions:
+    - 83
+    - 156
+  iucat: !ruby/object:Word
+    word: iucat
+    stem: iucat
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  onesearch: !ruby/object:Word
+    word: onesearch
+    stem: onesearch
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 4.0
+    docPositions:
+    - 88
+    - 91
+    - 161
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  base: !ruby/object:Word
+    word: base
+    stem: base
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  faculty: !ruby/object:Word
+    word: faculty
+    stem: faculti
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 161
+  staff: !ruby/object:Word
+    word: staff
+    stem: staff
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  imail: !ruby/object:Word
+    word: imail
+    stem: imail
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  umail: !ruby/object:Word
+    word: umail
+    stem: umail
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  outlook: !ruby/object:Word
+    word: outlook
+    stem: outlook
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  webmail: !ruby/object:Word
+    word: webmail
+    stem: webmail
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  avenuebloomington: !ruby/object:Word
+    word: avenuebloomington
+    stem: avenuebloomington
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  phone: !ruby/object:Word
+    word: phone
+    stem: phone
+    docFrequency: 2.0
+    docPositions:
+    - 105
+  askiu: !ruby/object:Word
+    word: askiu
+    stem: askiu
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  fulfilling: !ruby/object:Word
+    word: fulfilling
+    stem: fulfil
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 126
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 216
+  trustees: !ruby/object:Word
+    word: trustees
+    stem: truste
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 216
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 217
+  notice: !ruby/object:Word
+    word: notice
+    stem: notic
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 217
+  aboutrankings: !ruby/object:Word
+    word: aboutrankings
+    stem: aboutrank
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  mission: !ruby/object:Word
+    word: mission
+    stem: mission
+    docFrequency: 2.0
+    docPositions:
+    - 127
+  initiativesdiversity: !ruby/object:Word
+    word: initiativesdiversity
+    stem: initiativesdivers
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  partnerships: !ruby/object:Word
+    word: partnerships
+    stem: partnership
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  humanities: !ruby/object:Word
+    word: humanities
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  schools: !ruby/object:Word
+    word: schools
+    stem: school
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 150
+  leadership: !ruby/object:Word
+    word: leadership
+    stem: leadership
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  administration: !ruby/object:Word
+    word: administration
+    stem: administr
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  safety: !ruby/object:Word
+    word: safety
+    stem: safeti
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 168
+  emergency: !ruby/object:Word
+    word: emergency
+    stem: emerg
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  transportation: !ruby/object:Word
+    word: transportation
+    stem: transport
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  parking: !ruby/object:Word
+    word: parking
+    stem: park
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  employment: !ruby/object:Word
+    word: employment
+    stem: employ
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  hire: !ruby/object:Word
+    word: hire
+    stem: hire
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  admissionshow: !ruby/object:Word
+    word: admissionshow
+    stem: admissionshow
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  finances: !ruby/object:Word
+    word: finances
+    stem: financ
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  academicsthe: !ruby/object:Word
+    word: academicsthe
+    stem: academicsth
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  degrees: !ruby/object:Word
+    word: degrees
+    stem: degre
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  majors: !ruby/object:Word
+    word: majors
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  classes: !ruby/object:Word
+    word: classes
+    stem: class
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 154
+  schedule: !ruby/object:Word
+    word: schedule
+    stem: schedul
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  calendar: !ruby/object:Word
+    word: calendar
+    stem: calendar
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  advising: !ruby/object:Word
+    word: advising
+    stem: advis
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  researchresearch: !ruby/object:Word
+    word: researchresearch
+    stem: researchresearch
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  experiences: !ruby/object:Word
+    word: experiences
+    stem: experi
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 161
+  centers: !ruby/object:Word
+    word: centers
+    stem: center
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  hoosier: !ruby/object:Word
+    word: hoosier
+    stem: hoosier
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  lifetraditions: !ruby/object:Word
+    word: lifetraditions
+    stem: lifetradit
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  spirit: !ruby/object:Word
+    word: spirit
+    stem: spirit
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  organizations: !ruby/object:Word
+    word: organizations
+    stem: organ
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  recreational: !ruby/object:Word
+    word: recreational
+    stem: recreat
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  athletics: !ruby/object:Word
+    word: athletics
+    stem: athlet
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  wellness: !ruby/object:Word
+    word: wellness
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  housing: !ruby/object:Word
+    word: housing
+    stem: hous
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  dining: !ruby/object:Word
+    word: dining
+    stem: dine
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  visiting: !ruby/object:Word
+    word: visiting
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  attractions: !ruby/object:Word
+    word: attractions
+    stem: attract
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  things: !ruby/object:Word
+    word: things
+    stem: thing
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  futurefind: !ruby/object:Word
+    word: futurefind
+    stem: futurefind
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  passion: !ruby/object:Word
+    word: passion
+    stem: passion
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  develop: !ruby/object:Word
+    word: develop
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  alumni: !ruby/object:Word
+    word: alumni
+    stem: alumni
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  admissionsthe: !ruby/object:Word
+    word: admissionsthe
+    stem: admissionsth
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  worldwideiu: !ruby/object:Word
+    word: worldwideiu
+    stem: worldwideiu
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  beginning: !ruby/object:Word
+    word: beginning
+    stem: begin
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  bloomingtonfulfilling: !ruby/object:Word
+    word: bloomingtonfulfilling
+    stem: bloomingtonfulfil
+    docFrequency: 2.0
+    docPositions:
+    - 215
+lineCount: 220
+wordCount: 765
+rank: 0.31286860295528207
+title: Admissions: Indiana University Bloomington
+links:
+- https://www.indiana.edu
+- https://www.indiana.edu
+- https://www.indiana.edu/about/index.html
+- https://www.indiana.edu/admissions/index.html
+- https://www.indiana.edu/academics/index.html
+- https://www.indiana.edu/research/index.html
+- https://www.indiana.edu/hoosier-life/index.html
+- https://www.indiana.edu/future/index.html
+- https://www.indiana.edu/alumni-giving/index.html
+- https://www.indiana.edu/news-events/index.html
+- https://www.indiana.edu/admissions/apply.html
+- https://www.indiana.edu/admissions/cost-finances.html
+- https://www.indiana.edu/admissions/visit.html
+- http://admissions.indiana.edu/
+- http://ois.indiana.edu/admissions/index.shtml
+- http://graduate.indiana.edu/admissions/index.shtml
+- https://fye.indiana.edu/
+- https://twitter.com/IUBloomington
+- https://facebook.com/IndianaUniversity
+- https://instagram.com/iubloomington
+- https://youtube.com/c/IndianaUniversityBloomington1820
+- https://www.pinterest.com/indianauniv
+- https://www.linkedin.com/edu/school?id=18342
+- https://plus.google.com/116105654836823545019
+- https://canvas.iu.edu/
+- https://oncourse.iu.edu/
+- https://one.iu.edu/
+- http://people.iu.edu/
+- https://www.indiana.edu/social/index.html
+- https://www.indiana.edu/about/a-z-list/index.html
+- http://registrar.indiana.edu/browser/index.shtml
+- http://map.iu.edu/iub/
+- https://libraries.indiana.edu/
+- http://iucat.iu.edu/
+- http://libraries.indiana.edu/resources/onesearch
+- https://kb.iu.edu/
+- https://uits.iu.edu/
+- https://www.indiana.edu/faculty-staff/index.html
+- https://imail.iu.edu/
+- https://umail.iu.edu/
+- https://www.exchange.iu.edu
+- https://webmail.iu.edu/
+- http://www.iu.edu/copyright/index.shtml
+- http://www.iu.edu/
+- https://www.indiana.edu/about/index.html
+- https://www.indiana.edu/about/rankings-statistics.html
+- https://www.indiana.edu/about/history/index.html
+- https://www.indiana.edu/about/fulfilling-promise.html
+- https://www.indiana.edu/about/mission.html
+- https://www.indiana.edu/about/initiatives/index.html
+- https://www.indiana.edu/about/initiatives/diversity.html
+- https://www.indiana.edu/about/initiatives/global.html
+- https://www.indiana.edu/about/initiatives/arts-humanities.html
+- https://www.indiana.edu/about/initiatives/new-schools.html
+- https://www.indiana.edu/about/leadership.html
+- https://www.indiana.edu/about/map.html
+- https://www.indiana.edu/about/safety.html
+- https://www.indiana.edu/about/transportation.html
+- https://www.indiana.edu/about/employment.html
+- https://www.indiana.edu/about/a-z-list/index.html
+- https://www.indiana.edu/about/hire-iu-students.html
+- https://www.indiana.edu/admissions/index.html
+- https://www.indiana.edu/admissions/apply.html
+- https://www.indiana.edu/admissions/cost-finances.html
+- https://www.indiana.edu/admissions/visit.html
+- https://www.indiana.edu/academics/index.html
+- https://www.indiana.edu/academics/academic-experience.html
+- https://www.indiana.edu/academics/degrees-majors/index.html
+- https://www.indiana.edu/academics/schools.html
+- https://www.indiana.edu/academics/opportunities.html
+- https://www.indiana.edu/academics/abroad.html
+- https://www.indiana.edu/academics/online.html
+- https://www.indiana.edu/academics/classes-calendar.html
+- https://www.indiana.edu/academics/advising-support.html
+- https://www.indiana.edu/academics/libraries.html
+- https://www.indiana.edu/research/index.html
+- https://www.indiana.edu/research/experiences.html
+- https://www.indiana.edu/research/centers.html
+- https://www.indiana.edu/research/faculty-resources.html
+- https://www.indiana.edu/hoosier-life/index.html
+- https://www.indiana.edu/hoosier-life/traditions.html
+- https://www.indiana.edu/hoosier-life/student-organizations.html
+- https://www.indiana.edu/hoosier-life/campus-recreation.html
+- https://www.indiana.edu/hoosier-life/athletics.html
+- https://www.indiana.edu/hoosier-life/health-wellness.html
+- https://www.indiana.edu/hoosier-life/housing-dining.html
+- https://www.indiana.edu/hoosier-life/visiting-bloomington.html
+- https://www.indiana.edu/hoosier-life/attractions.html
+- https://www.indiana.edu/future/index.html
+- https://www.indiana.edu/future/explore.html
+- https://www.indiana.edu/future/experience.html
+- https://www.indiana.edu/future/career.html
+- https://www.indiana.edu/future/network.html
+- https://www.indiana.edu/future/success/index.html
+- https://www.indiana.edu/alumni-giving/index.html
+- https://www.indiana.edu/news-events/index.html
+rawText: "\n   \n\r\n\r\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew
+  Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,'script','dataLayer','GTM-NF6HQX');\n
+  \  \n    \n\n        \n        \nSkip to Content\nSkip to Main Navigation\nSkip
+  to Search\n\n    \n\n        \n        \n    \n        \n        \n        \n            \n\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tIndiana
+  University Bloomington\n\t\t\t\t\tIndiana University Bloomington\n\t\t\t\t\tIU Bloomington\n\t\t\t\t\n\t\t\t\n\t\n
+  \       \n    \n        \n        \n        \n            \n    \n        Menu\n
+  \       Search\n    \n\n\n\n        \n    \n        \n            \n            HomeAboutAdmissionsAcademicsResearchHoosier
+  LifeYour FutureAlumni & GivingNews & EventsSearchHow to ApplyCost & FinancesVisit
+  IU & BloomingtonHomeAdmissionsAdmissionsBecome the best version of youAt IU Bloomington,
+  our promise is to help you fulfill yours.\nWe do it by giving you everything college
+  should be. More than 550 academic programs, including opportunities you won’t find
+  anywhere else. A cream-and-crimson-clad family that you can call on throughout your
+  career. And a springboard to a future that can lead wherever you want.Apply to become
+  a HoosierUndergraduate admissionsInternational admissionsGraduate admissionsVisit
+  a campus so stunning that you’ll want to stayThe trees. The limestone buildings.
+  The high-tech labs and world-class performance spaces. The people from all over
+  the world. Together they make IU’s campus one of the most inspiring and inviting
+  places you’ll ever be. See for yourself.\nPlan your visitExplore, belong, and succeed
+  at IU200+undergraduate majors300+graduate programs1,500+employers recruit at IU
+  each year300+study abroad programs750+student organizations640,000+IU graduates
+  worldwideSee more rankings and statisticsIU is a really strong community of people
+  who are helping each other succeed.Grant Manon, recent IU gradRead Grant’s storyMake
+  the most of your first yearBeginning college, or transferring to a new college,
+  is a big transition. That’s why we have the Office of First Year Experience Programs
+  (FYE): to help undergraduates start strong at IU.\nFYE will help you explore IU’s
+  many opportunities, pursue the ones that interest you, and shape your IU experience
+  into what you want it to be—starting with New Student Orientation.\nLearn about
+  First Year Experience ProgramsYou’ll see a lot of our beautiful campus during New
+  Student Orientation.\nTwitter\nFacebook\nInstagram\nYouTube\nPinterest\nLinkedIn\nGoogle
+  Plus\n\n\n\nServices\nCanvas\nOncourse\nOne.IU\n\n\nFind\nPeople\nSocial Media\nA-Z
+  List\nCourses\nCampus Map\n\n\nLibrary\nIU Bloomington Libraries\nIUCAT\nOneSearch@IU\n\n\nResources\nKnowledge
+  Base\nIT Services\nFaculty & Staff Resources\n\n\nEmail\nImail\nUmail\nOutlook Web
+  Access\nWebmail\n\n\n\nIndiana University Bloomington\n\n107 S. Indiana AvenueBloomington,
+  IN47405-7000\n Phone: 812-855-4848\n\naskiu@iu.edu\n\n\n\n\t\tFulfilling the Promise\n\n\t\t\n\t\t\tCopyright
+  © 2015 The Trustees of Indiana University\n\t\t\n\n\t\tPrivacy Notice\n\n\t\n\n
+  \       \n\n\nAboutRankings & Campus Statistics\nHistory\nFulfilling the Promise\nMission\n\nCampus
+  InitiativesDiversity\nGlobal Partnerships & Programs\nArts & Humanities\n  New Schools
+  & Programs\n\nLeadership & Administration\nCampus Map\nSafety & Emergency Information\nTransportation
+  & Parking\nEmployment\nA-Z List\nHow to Hire IU Students\n\n\nAdmissionsHow to Apply\nCost
+  & Finances\nVisit IU & Bloomington\n\n\nAcademicsThe Academic Experience\nDegrees
+  & Majors\nSchools\nAcademic Opportunities\nStudy Abroad\nOnline Classes & Programs\nSchedule
+  of Classes & Academic Calendar\nAcademic Advising & Support\nLibraries\n\n\nResearchResearch
+  Experiences\nResearch Centers\nResearch Resources for Faculty\n\n\nHoosier LifeTraditions
+  & Spirit\nStudent Organizations\nRecreational Sports\nAthletics\nHealth, Wellness
+  & Safety\nHousing & Dining\nVisiting Bloomington\nAttractions & Things to Do\n\n\nYour
+  FutureFind Your Passion\nGet Experience\nDevelop Your Career\nUse Your Network\nSuccess
+  Stories\n\nAlumni & Giving\nNews & Events\n\n        \n    \n    \n    \n\n        \n
+  \       \n// \n\n// \n\n// \n\n// \n\n// \n\n// \n\n// \n\n// \n\n// \n\n// \n\n\t\t\t\t\n\t\t\t\t\tIndiana
+  University Bloomington\n\t\t\t\t\tIndiana University Bloomington\n\t\t\t\t\tIU Bloomington\n\t\t\t\t\n\t\t\tAt
+  IU Bloomington, our promise is to help you fulfill yours.We do it by giving you
+  everything college should be. More than 550 academic programs, including opportunities
+  you won’t find anywhere else. A cream-and-crimson-clad family that you can call
+  on throughout your career. And a springboard to a future that can lead wherever
+  you want.Undergraduate admissionsInternational admissionsGraduate admissionsThe
+  trees. The limestone buildings. The high-tech labs and world-class performance spaces.
+  The people from all over the world. Together they make IU’s campus one of the most
+  inspiring and inviting places you’ll ever be. See for yourself.200+undergraduate
+  majors300+graduate programs1,500+employers recruit at IU each year300+study abroad
+  programs750+student organizations640,000+IU graduates worldwideIU is a really strong
+  community of people who are helping each other succeed.Beginning college, or transferring
+  to a new college, is a big transition. That’s why we have the Office of First Year
+  Experience Programs (FYE): to help undergraduates start strong at IU.FYE will help
+  you explore IU’s many opportunities, pursue the ones that interest you, and shape
+  your IU experience into what you want it to be—starting with New Student Orientation.Indiana
+  University BloomingtonFulfilling the Promise\n\t\t\tCopyright © 2015 The Trustees
+  of Indiana University\n\t\tPrivacy Notice\n\n\t"

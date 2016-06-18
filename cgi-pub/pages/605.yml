@@ -1,0 +1,5001 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1avaykn"
+    line: 14
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1avaykn"
+    line: 93
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1avaykn"
+    line: 109
+    str1: ul
+    str2: 
+    str3: 
+    int1: 0
+    column: 16
+address: http://www.ti.com/corp/docs/kilbyctr/jackbuilt.shtml
+inboundLinks: []
+lines:
+- "    \r\n"
+- |2+
+
+- |
+  $("#tiHeader #nav_history").remove();
+- |
+  $("#tiHeader #sub_history").remove();
+- "\r\n"
+- "var tiContentGroup = \"/About TI\";\r\n"
+- "var tiPageName = \"TI People: Jack Kilby: The Chip that Jack Built\";\r\n"
+- "\r\n"
+- "       TI Home > About TI > Company > Innovation  >  Jack Kilby > The \r\n"
+- "        Chip that Jack Built\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "    Company\r\n"
+- "        \r\n"
+- "  Who we are\r\n"
+- "      TI company blog\r\n"
+- "      Our Products and Technology\r\n"
+- "      Innovation\r\n"
+- "      Manufacturing\r\n"
+- "    \r\n"
+- "    \r\n"
+- "          \r\n"
+- "            \r\n"
+- "            \r\n"
+- "              \r\n"
+- "                 \r\n"
+- "                  TI's commitment to innovation\r\n"
+- "                \r\n"
+- "                \r\n"
+- "                                  Product development\r\n"
+- "\r\n"
+- "                    TI R&D labs\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\tManufacturing technology\r\n"
+- "\r\n"
+- "                    University and Industry standard/consortia\r\n"
+- "\t\t\t\t\tJack Kilby\r\n"
+- "                    \r\n"
+- "\t\t\t\t\tAbout Jack\r\n"
+- "\t\t\t\t\tThe Chip that Jack Built\r\n"
+- "\t\t\t\t\tWhat If He Had Gone on \r\n"
+- "                    Vacation\r\n"
+- "\t\t\t\t\tNobel Prize\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "              \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "                        \r\n"
+- "            \r\n"
+- "              \r\n"
+- "              \r\n"
+- "              See Also \r\n"
+- "                Founders Biographies\r\n"
+- "\t\t\t\t  History of Innovation\r\n"
+- "                About TI\r\n"
+- "Company\r\n"
+- "Citizenship\r\n"
+- "Investor Relations\r\n"
+- "University\r\n"
+- "News Center\r\n"
+- "Careers\r\n"
+- " \r\n"
+- "            \r\n"
+- "                      \r\n"
+- "          \r\n"
+- "\t\t  \r\n"
+- "\t\t \r\n"
+- "          \r\n"
+- "        \r\n"
+- "        \r\n"
+- "          \r\n"
+- "            The Chip that Jack Built\r\n"
+- "          \r\n"
+- "\t\t   \r\n"
+- "          \r\n"
+- "          The Answer to a Problem | Enter \r\n"
+- "            Kilby | Early Successes | Impact \r\n"
+- "            | Toward the Future\r\n"
+- "          \r\n"
+- "          \r\n"
+- "             \r\n"
+- "                    It was a relatively simple device that Jack\r\n"
+- "                     Kilby showed to a handful of co-workers gathered in TI's \r\n"
+- "                    semiconductor lab 50 years ago -- only a transistor \r\n"
+- "                    and other components on a slice of germanium. Little did\r\n"
+- "                     this  group of onlookers know, but Kilby's invention, 7/16-by-1/16-inches\r\n"
+- "                     \r\n"
+- "                    in size and called an integrated circuit, was about to revolutionize\r\n"
+- "                      the electronics industry. \r\n"
+- "                    \r\n"
+- "                  \r\n"
+- "                  The Answer to a Problem\r\n"
+- "                  It was in a relatively deserted laboratory at TI's brand \r\n"
+- "                    new Semiconductor Building where Jack Kilby first hit on the
+  \r\n"
+- "                    idea of the integrated circuit. In July 1958, when most employees
+  \r\n"
+- "                    left for the traditional two-week \r\n"
+- "                    vacation period, Kilby -- as a new employee with no vacation
+  \r\n"
+- "                    -- stayed to man the shop. \r\n"
+- "                   What caused Kilby to think along the lines that eventually \r\n"
+- "                    resulted in the integrated circuit? Like many inventors, he
+  \r\n"
+- "                    set out to solve a problem. In this case, the problem was \r\n"
+- "                    called \"the tyranny of numbers.\" \r\n"
+- "                   For almost 50 years after the turn of the 20th century, \r\n"
+- "                    the electronics industry had been dominated by vacuum tube
+  \r\n"
+- "                    technology. But vacuum tubes had inherent limitations. They
+  \r\n"
+- "                    were fragile, bulky, unreliable, power hungry, and produced
+  \r\n"
+- "                    considerable heat. \r\n"
+- "                   It wasn't until 1947, with the invention of the transistor \r\n"
+- "                    by Bell Telephone Laboratories, that the vacuum tube problem
+  \r\n"
+- "                    was solved. Transistors were miniscule in comparison, more
+  \r\n"
+- "                    reliable, longer lasting, produced less heat, and consumed
+  \r\n"
+- "                    less power. The transistor stimulated engineers to design \r\n"
+- "                    ever more complex electronic circuits and equipment containing
+  \r\n"
+- "                    hundreds or thousands of discrete components such as transistors,
+  \r\n"
+- "                    diodes, rectifiers and capacitors. But the problem was that
+  \r\n"
+- "                    these components still had to be interconnected to form electronic
+  \r\n"
+- "                    circuits, and hand-soldering thousands of components to thousands
+  \r\n"
+- "                    of bits of wire was expensive and time-consuming. It was also
+  \r\n"
+- "                    unreliable; every soldered joint was a potential source of
+  \r\n"
+- "                    trouble. The challenge was to find cost-effective, reliable
+  \r\n"
+- "                    ways of producing these components and interconnecting them.
+  \r\n"
+- "                   One stab at a solution was the Micro-Module program, sponsored
+  \r\n"
+- "                    by the U.S. Army Signal Corps. The idea was to make all the
+  \r\n"
+- "                    components a uniform size and shape, with the wiring built
+  \r\n"
+- "                    into the components. The modules then could be snapped together
+  \r\n"
+- "                    to make circuits, eliminating the need for wiring the connections.\r\n"
+- "\t\t\t\t\tBack to Top \r\n"
+- "                  Enter Kilby\r\n"
+- "                  TI \r\n"
+- "                    was working on the Micro-Module program when Kilby joined \r\n"
+- "                    the company in 1958. Because of his work with Centralab in
+  \r\n"
+- "                    Milwaukee, Kilby was familiar with the \"tyranny of numbers\"
+  \r\n"
+- "                    problem facing the industry. But he didn't think the Micro-Module
+  \r\n"
+- "                    was the answer \x97 it didn't address the basic problem \r\n"
+- "                    of large quantities of components in elaborate circuits.\r\n"
+- "                    So Kilby began searching for an alternative, and in the process
+  \r\n"
+- "                    decided the only thing a semiconductor house could make cost
+  \r\n"
+- "                    effectively was a semiconductor. \"Further thought led me to
+  \r\n"
+- "                    the conclusion that semiconductors were all that were really
+  \r\n"
+- "                    required \x97 that resistors and capacitors [passive devices],
+  \r\n"
+- "                    in particular, could be made from the same material as the
+  \r\n"
+- "                    active devices [transistors]. I also realized that, since \r\n"
+- "                    all of the components could be made of a single material, \r\n"
+- "                    they could also be made in situ interconnected to form a complete
+  \r\n"
+- "                    circuit,\" Kilby wrote in a 1976 article titled \"Invention
+  \r\n"
+- "                    of the IC.\" \r\n"
+- "                   Kilby began to write down and sketch out his ideas in July \r\n"
+- "                    of 1958. By September, he was ready to demonstrate a working
+  \r\n"
+- "                    integrated circuit built on a piece of semiconductor material.
+  \r\n"
+- "                    Several executives, including former TI Chairman Mark Shepherd,
+  \r\n"
+- "                    gathered for the event on September 12, 1958. What they saw
+  \r\n"
+- "                    was a sliver of germanium, with protruding wires, glued to
+  \r\n"
+- "                    a glass slide. It was a rough device, but when Kilby pressed
+  \r\n"
+- "                    the switch, an unending sine curve undulated across the oscilloscope
+  \r\n"
+- "                    screen. His invention worked \x97 he had solved the problem.
+  \r\n"
+- "                  Back to Top\r\n"
+- "\t\t\t\t  Early Successes\r\n"
+- "                  Kilby had made a big breakthrough. But while the U.S. Air \r\n"
+- "                    Force showed some interest in TI's integrated circuit, industry
+  \r\n"
+- "                    reacted skeptically. Indeed the IC and its relative merits
+  \r\n"
+- "                    \"provided much of the entertainment at major technical meetings
+  \r\n"
+- "                    over the next few years,\" Kilby wrote. \r\n"
+- "                   The \r\n"
+- "                    integrated circuit first won a place in the military market
+  \r\n"
+- "                    through programs such as the first computer using silicon \r\n"
+- "                    chips for the Air Force in 1961 and the Minuteman Missile \r\n"
+- "                    in 1962. Recognizing the need for a \"demonstration product\"
+  \r\n"
+- "                    to speed widespread use of the IC, Patrick E. Haggerty, former
+  \r\n"
+- "                    TI chairman, challenged Kilby to design a calculator as powerful
+  \r\n"
+- "                    as the large, electro-mechanical desktop models of the day,
+  \r\n"
+- "                    but small enough to fit in a coat pocket. The resulting electronic
+  \r\n"
+- "                    hand-held calculator, of which Kilby is a co-inventor, successfully
+  \r\n"
+- "                    commercialized the integrated circuit.\r\n"
+- "                  Back to Top\r\n"
+- "\t\t\t\t  Impact\r\n"
+- "                  The impact of Kilby's tiny chip has been far-reaching. Many \r\n"
+- "                    of the electronics products of today could not have been developed
+  \r\n"
+- "                    without it. The chip virtually created the modern computer
+  \r\n"
+- "                    industry, transforming yesterday's room-size machines into
+  \r\n"
+- "                    today's array of mainframes, minicomputers and personal computers.
+  \r\n"
+- "                  \r\n"
+- "                   The chip restructured communications, fostering a host of \r\n"
+- "                    new ways for instant exchanges of information between people,
+  \r\n"
+- "                    businesses and nations.\r\n"
+- "                  Without the chip, man could not explore space or fly to \r\n"
+- "                      the moon. \r\n"
+- "                    The chip helps the deaf to hear and is the heartbeat of \r\n"
+- "                      a myriad of medical diagnostic machines. \r\n"
+- "                    The chip has also touched education, transportation, manufacturing
+  \r\n"
+- "                      and entertainment. \r\n"
+- "                   For Texas Instruments, the integrated circuit has played a \r\n"
+- "                  pivotal role. Over the years, the company has produced billions
+  \r\n"
+- "                  of chips. But the integrated circuit has done more than help
+  \r\n"
+- "                  grow TI. It has enabled an entire industry to grow. Since 1961,
+  \r\n"
+- "                  the worldwide electronics market has grown from $29 billion \r\n"
+- "                  to nearly $1,500 billion.\r\n"
+- "                 This growth will depend on the continued development of newer
+  \r\n"
+- "                  and better technologies -- like those being developed at Texas
+  \r\n"
+- "                  Instruments.\r\n"
+- "                Back to Top\r\n"
+- "\t\t\t\t  Toward the Future\r\n"
+- "                  With \r\n"
+- "                    continuing advances in semiconductors, you can look forward
+  \r\n"
+- "                    to more new amazing encounters with electronic equipment. \r\n"
+- "                    Imagine calling your day care center to check on your child,
+  \r\n"
+- "                    and seeing her smiling face in the screen on your cell phone.
+  \r\n"
+- "                    Imaging turning on the oven from your car phone as you pull
+  \r\n"
+- "                    out of the parking lot at the end of the day. When you get
+  \r\n"
+- "                    home, dinner will be nearly done. Imagine setting your car
+  \r\n"
+- "                    on autopilot, and looking over notes for your next day's meeting
+  \r\n"
+- "                    on your commute home. Imagine you want to see a movie. You
+  \r\n"
+- "                    order it from the web, and within a matter of seconds it's
+  \r\n"
+- "                    ready to view on your television at home. \r\n"
+- "                  \r\n"
+- "                 It sounds like the stuff of science fiction, but new breakthroughs
+  \r\n"
+- "                  are only a short stride away, with the help of technologies \r\n"
+- "                  being developed at Texas Instruments. \r\n"
+- "\t\t\t\t\tBack to Top\r\n"
+- "                \r\n"
+- "              \r\n"
+- "\r\n"
+- "      \r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Who we areTI company blogOur Products and TechnologyInnovationManufacturing\r\n"
+- "          The Answer to a Problem | Enter \r\n"
+- "            Kilby | Early Successes | Impact \r\n"
+- "            | Toward the Future \r\n"
+- "                    It was a relatively simple device that Jack\r\n"
+- "                     Kilby showed to a handful of co-workers gathered in TI's \r\n"
+- "                    semiconductor lab 50 years ago -- only a transistor \r\n"
+- "                    and other components on a slice of germanium. Little did\r\n"
+- "                     this  group of onlookers know, but Kilby's invention, 7/16-by-1/16-inches\r\n"
+- "                     \r\n"
+- "                    in size and called an integrated circuit, was about to revolutionize\r\n"
+- "                      the electronics industry. \r\n"
+- "                    \r\n"
+- "                  It was in a relatively deserted laboratory at TI's brand \r\n"
+- "                    new Semiconductor Building where Jack Kilby first hit on the
+  \r\n"
+- "                    idea of the integrated circuit. In July 1958, when most employees
+  \r\n"
+- "                    left for the traditional two-week \r\n"
+- "                    vacation period, Kilby -- as a new employee with no vacation
+  \r\n"
+- "                    -- stayed to man the shop.  What caused Kilby to think along
+  the lines that eventually \r\n"
+- "                    resulted in the integrated circuit? Like many inventors, he
+  \r\n"
+- "                    set out to solve a problem. In this case, the problem was \r\n"
+- "                    called \"the tyranny of numbers.\" \r\n"
+- "                   For almost 50 years after the turn of the 20th century, \r\n"
+- "                    the electronics industry had been dominated by vacuum tube
+  \r\n"
+- "                    technology. But vacuum tubes had inherent limitations. They
+  \r\n"
+- "                    were fragile, bulky, unreliable, power hungry, and produced
+  \r\n"
+- "                    considerable heat. \r\n"
+- "                   It wasn't until 1947, with the invention of the transistor \r\n"
+- "                    by Bell Telephone Laboratories, that the vacuum tube problem
+  \r\n"
+- "                    was solved. Transistors were miniscule in comparison, more
+  \r\n"
+- "                    reliable, longer lasting, produced less heat, and consumed
+  \r\n"
+- "                    less power. The transistor stimulated engineers to design \r\n"
+- "                    ever more complex electronic circuits and equipment containing
+  \r\n"
+- "                    hundreds or thousands of discrete components such as transistors,
+  \r\n"
+- "                    diodes, rectifiers and capacitors. But the problem was that
+  \r\n"
+- "                    these components still had to be interconnected to form electronic
+  \r\n"
+- "                    circuits, and hand-soldering thousands of components to thousands
+  \r\n"
+- "                    of bits of wire was expensive and time-consuming. It was also
+  \r\n"
+- "                    unreliable; every soldered joint was a potential source of
+  \r\n"
+- "                    trouble. The challenge was to find cost-effective, reliable
+  \r\n"
+- "                    ways of producing these components and interconnecting them.
+  \r\n"
+- "                   One stab at a solution was the Micro-Module program, sponsored
+  \r\n"
+- "                    by the U.S. Army Signal Corps. The idea was to make all the
+  \r\n"
+- "                    components a uniform size and shape, with the wiring built
+  \r\n"
+- "                    into the components. The modules then could be snapped together
+  \r\n"
+- "                    to make circuits, eliminating the need for wiring the connections.\r\n"
+- "\t\t\t\t\tBack to TopTI \r\n"
+- "                    was working on the Micro-Module program when Kilby joined \r\n"
+- "                    the company in 1958. Because of his work with Centralab in
+  \r\n"
+- "                    Milwaukee, Kilby was familiar with the \"tyranny of numbers\"
+  \r\n"
+- "                    problem facing the industry. But he didn't think the Micro-Module
+  \r\n"
+- "                    was the answer \x97 it didn't address the basic problem \r\n"
+- "                    of large quantities of components in elaborate circuits.\r\n"
+- "                    So Kilby began searching for an alternative, and in the process
+  \r\n"
+- "                    decided the only thing a semiconductor house could make cost
+  \r\n"
+- "                    effectively was a semiconductor. \"Further thought led me to
+  \r\n"
+- "                    the conclusion that semiconductors were all that were really
+  \r\n"
+- "                    required \x97 that resistors and capacitors [passive devices],
+  \r\n"
+- "                    in particular, could be made from the same material as the
+  \r\n"
+- "                    active devices [transistors]. I also realized that, since \r\n"
+- "                    all of the components could be made of a single material, \r\n"
+- "                    they could also be made in situ interconnected to form a complete
+  \r\n"
+- "                    circuit,\" Kilby wrote in a 1976 article titled \"Invention
+  \r\n"
+- "                    of the IC.\" \r\n"
+- "                   Kilby began to write down and sketch out his ideas in July \r\n"
+- "                    of 1958. By September, he was ready to demonstrate a working
+  \r\n"
+- "                    integrated circuit built on a piece of semiconductor material.
+  \r\n"
+- "                    Several executives, including former TI Chairman Mark Shepherd,
+  \r\n"
+- "                    gathered for the event on September 12, 1958. What they saw
+  \r\n"
+- "                    was a sliver of germanium, with protruding wires, glued to
+  \r\n"
+- "                    a glass slide. It was a rough device, but when Kilby pressed
+  \r\n"
+- "                    the switch, an unending sine curve undulated across the oscilloscope
+  \r\n"
+- "                    screen. His invention worked \x97 he had solved the problem.
+  \r\n"
+- "                  Back to TopKilby had made a big breakthrough. But while the U.S.
+  Air \r\n"
+- "                    Force showed some interest in TI's integrated circuit, industry
+  \r\n"
+- "                    reacted skeptically. Indeed the IC and its relative merits
+  \r\n"
+- "                    \"provided much of the entertainment at major technical meetings
+  \r\n"
+- "                    over the next few years,\" Kilby wrote. \r\n"
+- "                   The \r\n"
+- "                    integrated circuit first won a place in the military market
+  \r\n"
+- "                    through programs such as the first computer using silicon \r\n"
+- "                    chips for the Air Force in 1961 and the Minuteman Missile \r\n"
+- "                    in 1962. Recognizing the need for a \"demonstration product\"
+  \r\n"
+- "                    to speed widespread use of the IC, Patrick E. Haggerty, former
+  \r\n"
+- "                    TI chairman, challenged Kilby to design a calculator as powerful
+  \r\n"
+- "                    as the large, electro-mechanical desktop models of the day,
+  \r\n"
+- "                    but small enough to fit in a coat pocket. The resulting electronic
+  \r\n"
+- "                    hand-held calculator, of which Kilby is a co-inventor, successfully
+  \r\n"
+- "                    commercialized the integrated circuit.Back to TopThe impact
+  of Kilby's tiny chip has been far-reaching. Many \r\n"
+- "                    of the electronics products of today could not have been developed
+  \r\n"
+- "                    without it. The chip virtually created the modern computer
+  \r\n"
+- "                    industry, transforming yesterday's room-size machines into
+  \r\n"
+- "                    today's array of mainframes, minicomputers and personal computers.
+  \r\n"
+- "                   The chip restructured communications, fostering a host of \r\n"
+- "                    new ways for instant exchanges of information between people,
+  \r\n"
+- "                    businesses and nations.\r\n"
+- "                   For Texas Instruments, the integrated circuit has played a \r\n"
+- "                  pivotal role. Over the years, the company has produced billions
+  \r\n"
+- "                  of chips. But the integrated circuit has done more than help
+  \r\n"
+- "                  grow TI. It has enabled an entire industry to grow. Since 1961,
+  \r\n"
+- "                  the worldwide electronics market has grown from $29 billion \r\n"
+- "                  to nearly $1,500 billion.\r\n"
+- "                 This growth will depend on the continued development of newer
+  \r\n"
+- "                  and better technologies -- like those being developed at Texas
+  \r\n"
+- "                  Instruments.\r\n"
+- "                Back to TopWith \r\n"
+- "                    continuing advances in semiconductors, you can look forward
+  \r\n"
+- "                    to more new amazing encounters with electronic equipment. \r\n"
+- "                    Imagine calling your day care center to check on your child,
+  \r\n"
+- "                    and seeing her smiling face in the screen on your cell phone.
+  \r\n"
+- "                    Imaging turning on the oven from your car phone as you pull
+  \r\n"
+- "                    out of the parking lot at the end of the day. When you get
+  \r\n"
+- "                    home, dinner will be nearly done. Imagine setting your car
+  \r\n"
+- "                    on autopilot, and looking over notes for your next day's meeting
+  \r\n"
+- "                    on your commute home. Imagine you want to see a movie. You
+  \r\n"
+- "                    order it from the web, and within a matter of seconds it's
+  \r\n"
+- "                    ready to view on your television at home.  It sounds like the
+  stuff of science fiction, but new breakthroughs \r\n"
+- "                  are only a short stride away, with the help of technologies \r\n"
+- "                  being developed at Texas Instruments. Back to Top"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 9.0
+    docPositions:
+    - 2
+    - 3
+    - 86
+    - 106
+    - 169
+    - 238
+    - 253
+    - 311
+  tiheader: !ruby/object:Word
+    word: tiheader
+    stem: tihead
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 3
+  nav_history: !ruby/object:Word
+    word: nav_history
+    stem: nav_histori
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  remove: !ruby/object:Word
+    word: remove
+    stem: remov
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 3
+  sub_history: !ruby/object:Word
+    word: sub_history
+    stem: sub_histori
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  ticontentgroup: !ruby/object:Word
+    word: ticontentgroup
+    stem: ticontentgroup
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  ti: !ruby/object:Word
+    word: ti
+    stem: ti
+    docFrequency: 22.0
+    docPositions:
+    - 5
+    - 6
+    - 8
+    - 21
+    - 32
+    - 37
+    - 63
+    - 91
+    - 101
+    - 137
+    - 158
+    - 167
+    - 177
+    - 202
+    - 240
+    - 248
+    - 302
+    - 309
+    - 319
+    - 334
+  tipagename: !ruby/object:Word
+    word: tipagename
+    stem: tipagenam
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 191
+    - 329
+  jack: !ruby/object:Word
+    word: jack
+    stem: jack
+    docFrequency: 13.0
+    docPositions:
+    - 6
+    - 8
+    - 9
+    - 43
+    - 45
+    - 46
+    - 80
+    - 90
+    - 102
+    - 239
+    - 249
+  kilby: !ruby/object:Word
+    word: kilby
+    stem: kilbi
+    docFrequency: 38.0
+    docPositions:
+    - 6
+    - 8
+    - 43
+    - 85
+    - 91
+    - 94
+    - 102
+    - 105
+    - 107
+    - 136
+    - 138
+    - 140
+    - 144
+    - 153
+    - 155
+    - 161
+    - 166
+    - 170
+    - 177
+    - 180
+    - 184
+    - 237
+    - 240
+    - 243
+    - 249
+    - 252
+    - 253
+    - 282
+    - 284
+    - 288
+    - 297
+    - 299
+    - 305
+    - 312
+    - 319
+    - 322
+    - 323
+  chip: !ruby/object:Word
+    word: chip
+    stem: chip
+    docFrequency: 14.0
+    docPositions:
+    - 6
+    - 9
+    - 46
+    - 80
+    - 184
+    - 186
+    - 190
+    - 193
+    - 195
+    - 197
+    - 323
+    - 325
+    - 328
+  built: !ruby/object:Word
+    word: built
+    stem: built
+    docFrequency: 9.0
+    docPositions:
+    - 6
+    - 9
+    - 46
+    - 80
+    - 132
+    - 157
+    - 278
+    - 301
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 8.0
+    docPositions:
+    - 8
+    - 217
+    - 219
+    - 221
+    - 347
+    - 349
+    - 351
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 10.0
+    docPositions:
+    - 8
+    - 18
+    - 21
+    - 64
+    - 139
+    - 200
+    - 235
+    - 283
+    - 332
+  innovation: !ruby/object:Word
+    word: innovation
+    stem: innov
+    docFrequency: 5.0
+    docPositions:
+    - 8
+    - 23
+    - 32
+    - 62
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 235
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 185
+    - 235
+    - 324
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 48.0
+    docPositions:
+    - 22
+    - 42
+    - 93
+    - 96
+    - 114
+    - 119
+    - 121
+    - 123
+    - 125
+    - 126
+    - 129
+    - 132
+    - 144
+    - 148
+    - 155
+    - 168
+    - 174
+    - 188
+    - 192
+    - 195
+    - 198
+    - 206
+    - 214
+    - 218
+    - 220
+    - 235
+    - 242
+    - 245
+    - 260
+    - 265
+    - 267
+    - 269
+    - 271
+    - 272
+    - 275
+    - 278
+    - 288
+    - 292
+    - 299
+    - 310
+    - 316
+    - 327
+    - 330
+    - 338
+    - 344
+    - 348
+    - 350
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 40
+    - 113
+    - 259
+  manufacturing: !ruby/object:Word
+    word: manufacturing
+    stem: manufactur
+    docFrequency: 4.0
+    docPositions:
+    - 24
+    - 40
+    - 197
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 24.0
+    docPositions:
+    - 32
+    - 91
+    - 94
+    - 101
+    - 131
+    - 166
+    - 167
+    - 184
+    - 187
+    - 188
+    - 218
+    - 220
+    - 240
+    - 243
+    - 248
+    - 277
+    - 308
+    - 309
+    - 323
+    - 326
+    - 327
+    - 348
+    - 350
+  commitment: !ruby/object:Word
+    word: commitment
+    stem: commit
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  product: !ruby/object:Word
+    word: product
+    stem: product
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 175
+    - 317
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 205
+    - 337
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  labs: !ruby/object:Word
+    word: labs
+    stem: lab
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 67
+  industry: !ruby/object:Word
+    word: industry
+    stem: industri
+    docFrequency: 14.0
+    docPositions:
+    - 42
+    - 97
+    - 112
+    - 141
+    - 167
+    - 187
+    - 202
+    - 246
+    - 258
+    - 285
+    - 309
+    - 326
+    - 334
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  consortia: !ruby/object:Word
+    word: consortia
+    stem: consortia
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 10.0
+    docPositions:
+    - 47
+    - 108
+    - 141
+    - 156
+    - 163
+    - 254
+    - 285
+    - 300
+    - 307
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 12.0
+    docPositions:
+    - 47
+    - 112
+    - 113
+    - 124
+    - 163
+    - 166
+    - 258
+    - 259
+    - 270
+    - 307
+    - 308
+  gone: !ruby/object:Word
+    word: gone
+    stem: gone
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  vacation: !ruby/object:Word
+    word: vacation
+    stem: vacat
+    docFrequency: 6.0
+    docPositions:
+    - 48
+    - 105
+    - 252
+  nobel: !ruby/object:Word
+    word: nobel
+    stem: nobel
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  prize: !ruby/object:Word
+    word: prize
+    stem: prize
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 4.0
+    docPositions:
+    - 60
+    - 219
+    - 349
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 9.0
+    docPositions:
+    - 60
+    - 126
+    - 150
+    - 152
+    - 197
+    - 272
+    - 294
+    - 296
+  founders: !ruby/object:Word
+    word: founders
+    stem: founder
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  biographies: !ruby/object:Word
+    word: biographies
+    stem: biographi
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  citizenship: !ruby/object:Word
+    word: citizenship
+    stem: citizenship
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  investor: !ruby/object:Word
+    word: investor
+    stem: investor
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 4.0
+    docPositions:
+    - 68
+    - 213
+    - 343
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  answer: !ruby/object:Word
+    word: answer
+    stem: answer
+    docFrequency: 6.0
+    docPositions:
+    - 84
+    - 100
+    - 142
+    - 236
+    - 286
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 18.0
+    docPositions:
+    - 84
+    - 100
+    - 109
+    - 117
+    - 123
+    - 141
+    - 142
+    - 163
+    - 236
+    - 255
+    - 263
+    - 269
+    - 285
+    - 286
+    - 307
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 4.0
+    docPositions:
+    - 84
+    - 136
+    - 236
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 4.0
+    docPositions:
+    - 85
+    - 165
+    - 237
+  successes: !ruby/object:Word
+    word: successes
+    stem: success
+    docFrequency: 4.0
+    docPositions:
+    - 85
+    - 165
+    - 237
+  impact: !ruby/object:Word
+    word: impact
+    stem: impact
+    docFrequency: 6.0
+    docPositions:
+    - 85
+    - 183
+    - 184
+    - 237
+    - 323
+  toward: !ruby/object:Word
+    word: toward
+    stem: toward
+    docFrequency: 4.0
+    docPositions:
+    - 86
+    - 209
+    - 238
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 4.0
+    docPositions:
+    - 86
+    - 209
+    - 238
+  relatively: !ruby/object:Word
+    word: relatively
+    stem: rel
+    docFrequency: 5.0
+    docPositions:
+    - 90
+    - 101
+    - 239
+    - 248
+  simple: !ruby/object:Word
+    word: simple
+    stem: simpl
+    docFrequency: 3.0
+    docPositions:
+    - 90
+    - 239
+  device: !ruby/object:Word
+    word: device
+    stem: devic
+    docFrequency: 5.0
+    docPositions:
+    - 90
+    - 161
+    - 239
+    - 305
+  showed: !ruby/object:Word
+    word: showed
+    stem: show
+    docFrequency: 5.0
+    docPositions:
+    - 91
+    - 167
+    - 240
+    - 309
+  handful: !ruby/object:Word
+    word: handful
+    stem: hand
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 240
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 5.0
+    docPositions:
+    - 91
+    - 180
+    - 240
+    - 322
+  workers: !ruby/object:Word
+    word: workers
+    stem: worker
+    docFrequency: 3.0
+    docPositions:
+    - 91
+    - 240
+  gathered: !ruby/object:Word
+    word: gathered
+    stem: gather
+    docFrequency: 5.0
+    docPositions:
+    - 91
+    - 159
+    - 240
+    - 303
+  semiconductor: !ruby/object:Word
+    word: semiconductor
+    stem: semiconductor
+    docFrequency: 11.0
+    docPositions:
+    - 92
+    - 102
+    - 145
+    - 146
+    - 157
+    - 241
+    - 249
+    - 289
+    - 290
+    - 301
+  lab: !ruby/object:Word
+    word: lab
+    stem: lab
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 241
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 9.0
+    docPositions:
+    - 92
+    - 111
+    - 170
+    - 200
+    - 241
+    - 257
+    - 312
+    - 332
+  ago: !ruby/object:Word
+    word: ago
+    stem: ago
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 241
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 7.0
+    docPositions:
+    - 92
+    - 145
+    - 224
+    - 241
+    - 289
+    - 352
+  transistor: !ruby/object:Word
+    word: transistor
+    stem: transistor
+    docFrequency: 7.0
+    docPositions:
+    - 92
+    - 116
+    - 120
+    - 241
+    - 262
+    - 266
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 242
+  components: !ruby/object:Word
+    word: components
+    stem: compon
+    docFrequency: 19.0
+    docPositions:
+    - 93
+    - 122
+    - 124
+    - 125
+    - 129
+    - 132
+    - 133
+    - 143
+    - 151
+    - 242
+    - 268
+    - 270
+    - 271
+    - 275
+    - 278
+    - 279
+    - 287
+    - 295
+  slice: !ruby/object:Word
+    word: slice
+    stem: slice
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 242
+  germanium: !ruby/object:Word
+    word: germanium
+    stem: germanium
+    docFrequency: 5.0
+    docPositions:
+    - 93
+    - 160
+    - 242
+    - 304
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 242
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 242
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 243
+  onlookers: !ruby/object:Word
+    word: onlookers
+    stem: onlook
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 243
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 243
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 19.0
+    docPositions:
+    - 94
+    - 113
+    - 123
+    - 141
+    - 161
+    - 166
+    - 179
+    - 201
+    - 223
+    - 243
+    - 259
+    - 269
+    - 285
+    - 305
+    - 308
+    - 321
+    - 333
+    - 351
+  invention: !ruby/object:Word
+    word: invention
+    stem: invent
+    docFrequency: 9.0
+    docPositions:
+    - 94
+    - 116
+    - 153
+    - 163
+    - 243
+    - 262
+    - 297
+    - 307
+  inches: !ruby/object:Word
+    word: inches
+    stem: inch
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 243
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 7.0
+    docPositions:
+    - 96
+    - 132
+    - 187
+    - 245
+    - 278
+    - 326
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 5.0
+    docPositions:
+    - 96
+    - 110
+    - 245
+    - 256
+  integrated: !ruby/object:Word
+    word: integrated
+    stem: integr
+    docFrequency: 19.0
+    docPositions:
+    - 96
+    - 103
+    - 108
+    - 157
+    - 167
+    - 172
+    - 181
+    - 199
+    - 201
+    - 245
+    - 250
+    - 254
+    - 301
+    - 309
+    - 314
+    - 323
+    - 331
+    - 333
+  circuit: !ruby/object:Word
+    word: circuit
+    stem: circuit
+    docFrequency: 21.0
+    docPositions:
+    - 96
+    - 103
+    - 108
+    - 153
+    - 157
+    - 167
+    - 172
+    - 181
+    - 199
+    - 201
+    - 245
+    - 250
+    - 254
+    - 297
+    - 301
+    - 309
+    - 314
+    - 323
+    - 331
+    - 333
+  revolutionize: !ruby/object:Word
+    word: revolutionize
+    stem: revolution
+    docFrequency: 3.0
+    docPositions:
+    - 96
+    - 245
+  electronics: !ruby/object:Word
+    word: electronics
+    stem: electron
+    docFrequency: 9.0
+    docPositions:
+    - 97
+    - 112
+    - 185
+    - 203
+    - 246
+    - 258
+    - 324
+    - 335
+  deserted: !ruby/object:Word
+    word: deserted
+    stem: desert
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 248
+  laboratory: !ruby/object:Word
+    word: laboratory
+    stem: laboratori
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 248
+  brand: !ruby/object:Word
+    word: brand
+    stem: brand
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 248
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 11.0
+    docPositions:
+    - 102
+    - 105
+    - 191
+    - 212
+    - 223
+    - 249
+    - 252
+    - 329
+    - 342
+    - 351
+  building: !ruby/object:Word
+    word: building
+    stem: build
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 249
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 7.0
+    docPositions:
+    - 102
+    - 172
+    - 173
+    - 249
+    - 314
+    - 315
+  hit: !ruby/object:Word
+    word: hit
+    stem: hit
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 249
+  idea: !ruby/object:Word
+    word: idea
+    stem: idea
+    docFrequency: 5.0
+    docPositions:
+    - 103
+    - 131
+    - 250
+    - 277
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 5.0
+    docPositions:
+    - 103
+    - 155
+    - 250
+    - 299
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 250
+  employees: !ruby/object:Word
+    word: employees
+    stem: employe
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 250
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 251
+  traditional: !ruby/object:Word
+    word: traditional
+    stem: tradit
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 251
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 251
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 251
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 252
+  employee: !ruby/object:Word
+    word: employee
+    stem: employe
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 252
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 252
+  stayed: !ruby/object:Word
+    word: stayed
+    stem: stai
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 253
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 4.0
+    docPositions:
+    - 106
+    - 193
+    - 253
+  shop: !ruby/object:Word
+    word: shop
+    stem: shop
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 253
+  caused: !ruby/object:Word
+    word: caused
+    stem: caus
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 253
+  think: !ruby/object:Word
+    word: think
+    stem: think
+    docFrequency: 5.0
+    docPositions:
+    - 107
+    - 141
+    - 253
+    - 285
+  along: !ruby/object:Word
+    word: along
+    stem: along
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 253
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 253
+  eventually: !ruby/object:Word
+    word: eventually
+    stem: eventu
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 253
+  resulted: !ruby/object:Word
+    word: resulted
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 254
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 7.0
+    docPositions:
+    - 108
+    - 206
+    - 223
+    - 254
+    - 338
+    - 351
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 5.0
+    docPositions:
+    - 108
+    - 184
+    - 254
+    - 323
+  inventors: !ruby/object:Word
+    word: inventors
+    stem: inventor
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 254
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 255
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 7.0
+    docPositions:
+    - 109
+    - 155
+    - 216
+    - 255
+    - 299
+    - 346
+  solve: !ruby/object:Word
+    word: solve
+    stem: solv
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 255
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 255
+  tyranny: !ruby/object:Word
+    word: tyranny
+    stem: tyranni
+    docFrequency: 5.0
+    docPositions:
+    - 110
+    - 140
+    - 256
+    - 284
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 5.0
+    docPositions:
+    - 110
+    - 140
+    - 256
+    - 284
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 257
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 257
+  turn: !ruby/object:Word
+    word: turn
+    stem: turn
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 257
+  century: !ruby/object:Word
+    word: century
+    stem: centuri
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 257
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 7.0
+    docPositions:
+    - 112
+    - 184
+    - 185
+    - 258
+    - 323
+    - 324
+  dominated: !ruby/object:Word
+    word: dominated
+    stem: domin
+    docFrequency: 3.0
+    docPositions:
+    - 112
+    - 258
+  vacuum: !ruby/object:Word
+    word: vacuum
+    stem: vacuum
+    docFrequency: 7.0
+    docPositions:
+    - 112
+    - 113
+    - 117
+    - 258
+    - 259
+    - 263
+  tube: !ruby/object:Word
+    word: tube
+    stem: tube
+    docFrequency: 5.0
+    docPositions:
+    - 112
+    - 117
+    - 258
+    - 263
+  tubes: !ruby/object:Word
+    word: tubes
+    stem: tube
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 259
+  inherent: !ruby/object:Word
+    word: inherent
+    stem: inher
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 259
+  limitations: !ruby/object:Word
+    word: limitations
+    stem: limit
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 259
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 7.0
+    docPositions:
+    - 113
+    - 152
+    - 159
+    - 259
+    - 296
+    - 303
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 9.0
+    docPositions:
+    - 114
+    - 118
+    - 147
+    - 260
+    - 264
+    - 291
+  fragile: !ruby/object:Word
+    word: fragile
+    stem: fragil
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 260
+  bulky: !ruby/object:Word
+    word: bulky
+    stem: bulki
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 260
+  unreliable: !ruby/object:Word
+    word: unreliable
+    stem: unreli
+    docFrequency: 5.0
+    docPositions:
+    - 114
+    - 127
+    - 260
+    - 273
+  power: !ruby/object:Word
+    word: power
+    stem: power
+    docFrequency: 5.0
+    docPositions:
+    - 114
+    - 120
+    - 260
+    - 266
+  hungry: !ruby/object:Word
+    word: hungry
+    stem: hungri
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 260
+  produced: !ruby/object:Word
+    word: produced
+    stem: produc
+    docFrequency: 7.0
+    docPositions:
+    - 114
+    - 119
+    - 200
+    - 260
+    - 265
+    - 332
+  considerable: !ruby/object:Word
+    word: considerable
+    stem: consider
+    docFrequency: 3.0
+    docPositions:
+    - 115
+    - 261
+  heat: !ruby/object:Word
+    word: heat
+    stem: heat
+    docFrequency: 5.0
+    docPositions:
+    - 115
+    - 119
+    - 261
+    - 265
+  wasn: !ruby/object:Word
+    word: wasn
+    stem: wasn
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 262
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 7.0
+    docPositions:
+    - 116
+    - 141
+    - 142
+    - 262
+    - 285
+    - 286
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 262
+  bell: !ruby/object:Word
+    word: bell
+    stem: bell
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 263
+  telephone: !ruby/object:Word
+    word: telephone
+    stem: telephon
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 263
+  laboratories: !ruby/object:Word
+    word: laboratories
+    stem: laboratori
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 263
+  solved: !ruby/object:Word
+    word: solved
+    stem: solv
+    docFrequency: 5.0
+    docPositions:
+    - 118
+    - 163
+    - 264
+    - 307
+  transistors: !ruby/object:Word
+    word: transistors
+    stem: transistor
+    docFrequency: 7.0
+    docPositions:
+    - 118
+    - 122
+    - 150
+    - 264
+    - 268
+    - 294
+  miniscule: !ruby/object:Word
+    word: miniscule
+    stem: miniscul
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 264
+  comparison: !ruby/object:Word
+    word: comparison
+    stem: comparison
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 264
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 9.0
+    docPositions:
+    - 118
+    - 121
+    - 201
+    - 212
+    - 264
+    - 267
+    - 333
+    - 342
+  reliable: !ruby/object:Word
+    word: reliable
+    stem: reliabl
+    docFrequency: 5.0
+    docPositions:
+    - 119
+    - 128
+    - 265
+    - 274
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 3.0
+    docPositions:
+    - 119
+    - 265
+  lasting: !ruby/object:Word
+    word: lasting
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 119
+    - 265
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 5.0
+    docPositions:
+    - 119
+    - 120
+    - 265
+    - 266
+  consumed: !ruby/object:Word
+    word: consumed
+    stem: consum
+    docFrequency: 3.0
+    docPositions:
+    - 119
+    - 265
+  stimulated: !ruby/object:Word
+    word: stimulated
+    stem: stimul
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 266
+  engineers: !ruby/object:Word
+    word: engineers
+    stem: engin
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 266
+  design: !ruby/object:Word
+    word: design
+    stem: design
+    docFrequency: 5.0
+    docPositions:
+    - 120
+    - 177
+    - 266
+    - 319
+  ever: !ruby/object:Word
+    word: ever
+    stem: ever
+    docFrequency: 3.0
+    docPositions:
+    - 121
+    - 267
+  complex: !ruby/object:Word
+    word: complex
+    stem: complex
+    docFrequency: 3.0
+    docPositions:
+    - 121
+    - 267
+  electronic: !ruby/object:Word
+    word: electronic
+    stem: electron
+    docFrequency: 9.0
+    docPositions:
+    - 121
+    - 124
+    - 179
+    - 212
+    - 267
+    - 270
+    - 321
+    - 342
+  circuits: !ruby/object:Word
+    word: circuits
+    stem: circuit
+    docFrequency: 9.0
+    docPositions:
+    - 121
+    - 125
+    - 134
+    - 143
+    - 267
+    - 271
+    - 280
+    - 287
+  equipment: !ruby/object:Word
+    word: equipment
+    stem: equip
+    docFrequency: 5.0
+    docPositions:
+    - 121
+    - 212
+    - 267
+    - 342
+  containing: !ruby/object:Word
+    word: containing
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 121
+    - 267
+  hundreds: !ruby/object:Word
+    word: hundreds
+    stem: hundr
+    docFrequency: 3.0
+    docPositions:
+    - 122
+    - 268
+  thousands: !ruby/object:Word
+    word: thousands
+    stem: thousand
+    docFrequency: 7.0
+    docPositions:
+    - 122
+    - 125
+    - 268
+    - 271
+  discrete: !ruby/object:Word
+    word: discrete
+    stem: discret
+    docFrequency: 3.0
+    docPositions:
+    - 122
+    - 268
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 5.0
+    docPositions:
+    - 122
+    - 173
+    - 268
+    - 315
+  diodes: !ruby/object:Word
+    word: diodes
+    stem: diod
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 269
+  rectifiers: !ruby/object:Word
+    word: rectifiers
+    stem: rectifi
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 269
+  capacitors: !ruby/object:Word
+    word: capacitors
+    stem: capacitor
+    docFrequency: 5.0
+    docPositions:
+    - 123
+    - 148
+    - 269
+    - 292
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 5.0
+    docPositions:
+    - 124
+    - 129
+    - 270
+    - 275
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 270
+  interconnected: !ruby/object:Word
+    word: interconnected
+    stem: interconnect
+    docFrequency: 5.0
+    docPositions:
+    - 124
+    - 152
+    - 270
+    - 296
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 5.0
+    docPositions:
+    - 124
+    - 152
+    - 270
+    - 296
+  hand: !ruby/object:Word
+    word: hand
+    stem: hand
+    docFrequency: 5.0
+    docPositions:
+    - 125
+    - 180
+    - 271
+    - 322
+  soldering: !ruby/object:Word
+    word: soldering
+    stem: solder
+    docFrequency: 3.0
+    docPositions:
+    - 125
+    - 271
+  bits: !ruby/object:Word
+    word: bits
+    stem: bit
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 272
+  wire: !ruby/object:Word
+    word: wire
+    stem: wire
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 272
+  expensive: !ruby/object:Word
+    word: expensive
+    stem: expens
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 272
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 272
+  consuming: !ruby/object:Word
+    word: consuming
+    stem: consum
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 272
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 273
+  soldered: !ruby/object:Word
+    word: soldered
+    stem: solder
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 273
+  joint: !ruby/object:Word
+    word: joint
+    stem: joint
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 273
+  potential: !ruby/object:Word
+    word: potential
+    stem: potenti
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 273
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 273
+  trouble: !ruby/object:Word
+    word: trouble
+    stem: troubl
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 274
+  challenge: !ruby/object:Word
+    word: challenge
+    stem: challeng
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 274
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 274
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 5.0
+    docPositions:
+    - 128
+    - 145
+    - 274
+    - 289
+  effective: !ruby/object:Word
+    word: effective
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 128
+    - 274
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 5.0
+    docPositions:
+    - 129
+    - 191
+    - 275
+    - 329
+  producing: !ruby/object:Word
+    word: producing
+    stem: produc
+    docFrequency: 3.0
+    docPositions:
+    - 129
+    - 275
+  interconnecting: !ruby/object:Word
+    word: interconnecting
+    stem: interconnect
+    docFrequency: 3.0
+    docPositions:
+    - 129
+    - 275
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 129
+    - 275
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 130
+    - 276
+  stab: !ruby/object:Word
+    word: stab
+    stem: stab
+    docFrequency: 3.0
+    docPositions:
+    - 130
+    - 276
+  solution: !ruby/object:Word
+    word: solution
+    stem: solut
+    docFrequency: 3.0
+    docPositions:
+    - 130
+    - 276
+  micro: !ruby/object:Word
+    word: micro
+    stem: micro
+    docFrequency: 7.0
+    docPositions:
+    - 130
+    - 138
+    - 141
+    - 276
+    - 282
+    - 285
+  module: !ruby/object:Word
+    word: module
+    stem: modul
+    docFrequency: 7.0
+    docPositions:
+    - 130
+    - 138
+    - 141
+    - 276
+    - 282
+    - 285
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 5.0
+    docPositions:
+    - 130
+    - 138
+    - 276
+    - 282
+  sponsored: !ruby/object:Word
+    word: sponsored
+    stem: sponsor
+    docFrequency: 3.0
+    docPositions:
+    - 130
+    - 276
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 5.0
+    docPositions:
+    - 131
+    - 166
+    - 277
+    - 308
+  army: !ruby/object:Word
+    word: army
+    stem: armi
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 277
+  signal: !ruby/object:Word
+    word: signal
+    stem: signal
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 277
+  corps: !ruby/object:Word
+    word: corps
+    stem: corp
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 277
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 7.0
+    docPositions:
+    - 131
+    - 134
+    - 145
+    - 277
+    - 280
+    - 289
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 131
+    - 147
+    - 151
+    - 277
+    - 291
+    - 295
+  uniform: !ruby/object:Word
+    word: uniform
+    stem: uniform
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 278
+  shape: !ruby/object:Word
+    word: shape
+    stem: shape
+    docFrequency: 3.0
+    docPositions:
+    - 132
+    - 278
+  wiring: !ruby/object:Word
+    word: wiring
+    stem: wire
+    docFrequency: 5.0
+    docPositions:
+    - 132
+    - 134
+    - 278
+    - 280
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 5.0
+    docPositions:
+    - 133
+    - 187
+    - 279
+    - 326
+  modules: !ruby/object:Word
+    word: modules
+    stem: modul
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 279
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 279
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 14.0
+    docPositions:
+    - 133
+    - 145
+    - 149
+    - 151
+    - 152
+    - 185
+    - 193
+    - 279
+    - 289
+    - 293
+    - 295
+    - 296
+    - 324
+  snapped: !ruby/object:Word
+    word: snapped
+    stem: snap
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 279
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 279
+  eliminating: !ruby/object:Word
+    word: eliminating
+    stem: elimin
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 280
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 5.0
+    docPositions:
+    - 134
+    - 175
+    - 280
+    - 317
+  connections: !ruby/object:Word
+    word: connections
+    stem: connect
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 280
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 11.0
+    docPositions:
+    - 135
+    - 164
+    - 182
+    - 208
+    - 226
+    - 281
+    - 308
+    - 323
+    - 340
+    - 353
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 7.0
+    docPositions:
+    - 135
+    - 164
+    - 182
+    - 208
+    - 226
+    - 353
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 5.0
+    docPositions:
+    - 138
+    - 156
+    - 282
+    - 300
+  joined: !ruby/object:Word
+    word: joined
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 282
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 3.0
+    docPositions:
+    - 139
+    - 283
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 7.0
+    docPositions:
+    - 139
+    - 155
+    - 163
+    - 283
+    - 299
+    - 307
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 139
+    - 283
+  centralab: !ruby/object:Word
+    word: centralab
+    stem: centralab
+    docFrequency: 3.0
+    docPositions:
+    - 139
+    - 283
+  milwaukee: !ruby/object:Word
+    word: milwaukee
+    stem: milwauke
+    docFrequency: 3.0
+    docPositions:
+    - 140
+    - 284
+  familiar: !ruby/object:Word
+    word: familiar
+    stem: familiar
+    docFrequency: 3.0
+    docPositions:
+    - 140
+    - 284
+  facing: !ruby/object:Word
+    word: facing
+    stem: face
+    docFrequency: 3.0
+    docPositions:
+    - 141
+    - 285
+  didn: !ruby/object:Word
+    word: didn
+    stem: didn
+    docFrequency: 5.0
+    docPositions:
+    - 141
+    - 142
+    - 285
+    - 286
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 3.0
+    docPositions:
+    - 142
+    - 286
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 3.0
+    docPositions:
+    - 142
+    - 286
+  large: !ruby/object:Word
+    word: large
+    stem: larg
+    docFrequency: 5.0
+    docPositions:
+    - 143
+    - 178
+    - 287
+    - 320
+  quantities: !ruby/object:Word
+    word: quantities
+    stem: quantiti
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 287
+  elaborate: !ruby/object:Word
+    word: elaborate
+    stem: elabor
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 287
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 288
+  began: !ruby/object:Word
+    word: began
+    stem: began
+    docFrequency: 5.0
+    docPositions:
+    - 144
+    - 155
+    - 288
+    - 299
+  searching: !ruby/object:Word
+    word: searching
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 288
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 288
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 288
+  decided: !ruby/object:Word
+    word: decided
+    stem: decid
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 289
+  thing: !ruby/object:Word
+    word: thing
+    stem: thing
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 289
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 289
+  effectively: !ruby/object:Word
+    word: effectively
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 290
+  further: !ruby/object:Word
+    word: further
+    stem: further
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 290
+  thought: !ruby/object:Word
+    word: thought
+    stem: thought
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 290
+  led: !ruby/object:Word
+    word: led
+    stem: led
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 290
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 290
+  conclusion: !ruby/object:Word
+    word: conclusion
+    stem: conclus
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 291
+  semiconductors: !ruby/object:Word
+    word: semiconductors
+    stem: semiconductor
+    docFrequency: 5.0
+    docPositions:
+    - 147
+    - 211
+    - 291
+    - 341
+  really: !ruby/object:Word
+    word: really
+    stem: realli
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 291
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 292
+  resistors: !ruby/object:Word
+    word: resistors
+    stem: resistor
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 292
+  passive: !ruby/object:Word
+    word: passive
+    stem: passiv
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 292
+  devices: !ruby/object:Word
+    word: devices
+    stem: devic
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 150
+    - 292
+    - 294
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 293
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 9.0
+    docPositions:
+    - 149
+    - 151
+    - 152
+    - 166
+    - 293
+    - 295
+    - 296
+    - 308
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 293
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 7.0
+    docPositions:
+    - 149
+    - 151
+    - 157
+    - 293
+    - 295
+    - 301
+  active: !ruby/object:Word
+    word: active
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 150
+    - 294
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 150
+    - 294
+  realized: !ruby/object:Word
+    word: realized
+    stem: realiz
+    docFrequency: 3.0
+    docPositions:
+    - 150
+    - 294
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 5.0
+    docPositions:
+    - 150
+    - 202
+    - 294
+    - 334
+  single: !ruby/object:Word
+    word: single
+    stem: singl
+    docFrequency: 3.0
+    docPositions:
+    - 151
+    - 295
+  situ: !ruby/object:Word
+    word: situ
+    stem: situ
+    docFrequency: 3.0
+    docPositions:
+    - 152
+    - 296
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 3.0
+    docPositions:
+    - 152
+    - 296
+  wrote: !ruby/object:Word
+    word: wrote
+    stem: wrote
+    docFrequency: 5.0
+    docPositions:
+    - 153
+    - 170
+    - 297
+    - 312
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 297
+  titled: !ruby/object:Word
+    word: titled
+    stem: titl
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 297
+  ic: !ruby/object:Word
+    word: ic
+    stem: ic
+    docFrequency: 7.0
+    docPositions:
+    - 154
+    - 168
+    - 176
+    - 298
+    - 310
+    - 318
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 299
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 299
+  sketch: !ruby/object:Word
+    word: sketch
+    stem: sketch
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 299
+  ideas: !ruby/object:Word
+    word: ideas
+    stem: idea
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 299
+  september: !ruby/object:Word
+    word: september
+    stem: septemb
+    docFrequency: 5.0
+    docPositions:
+    - 156
+    - 159
+    - 300
+    - 303
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 5.0
+    docPositions:
+    - 156
+    - 221
+    - 300
+    - 351
+  demonstrate: !ruby/object:Word
+    word: demonstrate
+    stem: demonstr
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 300
+  piece: !ruby/object:Word
+    word: piece
+    stem: piec
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 301
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 302
+  executives: !ruby/object:Word
+    word: executives
+    stem: execut
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 302
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 302
+  former: !ruby/object:Word
+    word: former
+    stem: former
+    docFrequency: 5.0
+    docPositions:
+    - 158
+    - 176
+    - 302
+    - 318
+  chairman: !ruby/object:Word
+    word: chairman
+    stem: chairman
+    docFrequency: 5.0
+    docPositions:
+    - 158
+    - 177
+    - 302
+    - 319
+  mark: !ruby/object:Word
+    word: mark
+    stem: mark
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 302
+  shepherd: !ruby/object:Word
+    word: shepherd
+    stem: shepherd
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 302
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 159
+    - 303
+  saw: !ruby/object:Word
+    word: saw
+    stem: saw
+    docFrequency: 3.0
+    docPositions:
+    - 159
+    - 303
+  sliver: !ruby/object:Word
+    word: sliver
+    stem: sliver
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 304
+  protruding: !ruby/object:Word
+    word: protruding
+    stem: protrud
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 304
+  wires: !ruby/object:Word
+    word: wires
+    stem: wire
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 304
+  glued: !ruby/object:Word
+    word: glued
+    stem: glu
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 304
+  glass: !ruby/object:Word
+    word: glass
+    stem: glass
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 305
+  slide: !ruby/object:Word
+    word: slide
+    stem: slide
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 305
+  rough: !ruby/object:Word
+    word: rough
+    stem: rough
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 305
+  pressed: !ruby/object:Word
+    word: pressed
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 305
+  switch: !ruby/object:Word
+    word: switch
+    stem: switch
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  unending: !ruby/object:Word
+    word: unending
+    stem: unend
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  sine: !ruby/object:Word
+    word: sine
+    stem: sine
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  curve: !ruby/object:Word
+    word: curve
+    stem: curv
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  undulated: !ruby/object:Word
+    word: undulated
+    stem: undul
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  across: !ruby/object:Word
+    word: across
+    stem: across
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  oscilloscope: !ruby/object:Word
+    word: oscilloscope
+    stem: oscilloscop
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 306
+  screen: !ruby/object:Word
+    word: screen
+    stem: screen
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 214
+    - 307
+    - 344
+  worked: !ruby/object:Word
+    word: worked
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 307
+  big: !ruby/object:Word
+    word: big
+    stem: big
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 308
+  breakthrough: !ruby/object:Word
+    word: breakthrough
+    stem: breakthrough
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 308
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 308
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 5.0
+    docPositions:
+    - 166
+    - 174
+    - 308
+    - 316
+  force: !ruby/object:Word
+    word: force
+    stem: forc
+    docFrequency: 5.0
+    docPositions:
+    - 167
+    - 174
+    - 309
+    - 316
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 309
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 309
+  reacted: !ruby/object:Word
+    word: reacted
+    stem: react
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  skeptically: !ruby/object:Word
+    word: skeptically
+    stem: skeptic
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  indeed: !ruby/object:Word
+    word: indeed
+    stem: inde
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  relative: !ruby/object:Word
+    word: relative
+    stem: rel
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  merits: !ruby/object:Word
+    word: merits
+    stem: merit
+    docFrequency: 3.0
+    docPositions:
+    - 168
+    - 310
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 311
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 311
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 4.0
+    docPositions:
+    - 169
+    - 198
+    - 311
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 311
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 311
+  meetings: !ruby/object:Word
+    word: meetings
+    stem: meet
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 311
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 7.0
+    docPositions:
+    - 170
+    - 200
+    - 218
+    - 312
+    - 332
+    - 348
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 218
+    - 312
+    - 348
+  few: !ruby/object:Word
+    word: few
+    stem: few
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 312
+  won: !ruby/object:Word
+    word: won
+    stem: won
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 314
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 314
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 314
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 5.0
+    docPositions:
+    - 172
+    - 203
+    - 314
+    - 335
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 315
+  programs: !ruby/object:Word
+    word: programs
+    stem: program
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 315
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 5.0
+    docPositions:
+    - 173
+    - 186
+    - 315
+    - 325
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 315
+  silicon: !ruby/object:Word
+    word: silicon
+    stem: silicon
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 315
+  chips: !ruby/object:Word
+    word: chips
+    stem: chip
+    docFrequency: 5.0
+    docPositions:
+    - 174
+    - 201
+    - 316
+    - 333
+  minuteman: !ruby/object:Word
+    word: minuteman
+    stem: minuteman
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 316
+  missile: !ruby/object:Word
+    word: missile
+    stem: missil
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 316
+  recognizing: !ruby/object:Word
+    word: recognizing
+    stem: recogn
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 317
+  demonstration: !ruby/object:Word
+    word: demonstration
+    stem: demonstr
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 317
+  speed: !ruby/object:Word
+    word: speed
+    stem: speed
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  widespread: !ruby/object:Word
+    word: widespread
+    stem: widespread
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  patrick: !ruby/object:Word
+    word: patrick
+    stem: patrick
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  haggerty: !ruby/object:Word
+    word: haggerty
+    stem: haggerti
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 318
+  challenged: !ruby/object:Word
+    word: challenged
+    stem: challeng
+    docFrequency: 3.0
+    docPositions:
+    - 177
+    - 319
+  calculator: !ruby/object:Word
+    word: calculator
+    stem: calcul
+    docFrequency: 5.0
+    docPositions:
+    - 177
+    - 180
+    - 319
+    - 322
+  powerful: !ruby/object:Word
+    word: powerful
+    stem: power
+    docFrequency: 3.0
+    docPositions:
+    - 177
+    - 319
+  electro: !ruby/object:Word
+    word: electro
+    stem: electro
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 320
+  mechanical: !ruby/object:Word
+    word: mechanical
+    stem: mechan
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 320
+  desktop: !ruby/object:Word
+    word: desktop
+    stem: desktop
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 320
+  models: !ruby/object:Word
+    word: models
+    stem: model
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 320
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 9.0
+    docPositions:
+    - 178
+    - 213
+    - 216
+    - 218
+    - 320
+    - 343
+    - 346
+    - 348
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  fit: !ruby/object:Word
+    word: fit
+    stem: fit
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  coat: !ruby/object:Word
+    word: coat
+    stem: coat
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  pocket: !ruby/object:Word
+    word: pocket
+    stem: pocket
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  resulting: !ruby/object:Word
+    word: resulting
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 321
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 322
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 322
+  inventor: !ruby/object:Word
+    word: inventor
+    stem: inventor
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 322
+  successfully: !ruby/object:Word
+    word: successfully
+    stem: successfulli
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 322
+  commercialized: !ruby/object:Word
+    word: commercialized
+    stem: commerci
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 323
+  tiny: !ruby/object:Word
+    word: tiny
+    stem: tini
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 323
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 14.0
+    docPositions:
+    - 184
+    - 197
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 323
+    - 331
+    - 332
+    - 333
+    - 334
+    - 335
+  far: !ruby/object:Word
+    word: far
+    stem: far
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 323
+  reaching: !ruby/object:Word
+    word: reaching
+    stem: reach
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 323
+  today: !ruby/object:Word
+    word: today
+    stem: todai
+    docFrequency: 5.0
+    docPositions:
+    - 185
+    - 188
+    - 324
+    - 327
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 4.0
+    docPositions:
+    - 185
+    - 193
+    - 324
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 324
+  developed: !ruby/object:Word
+    word: developed
+    stem: develop
+    docFrequency: 7.0
+    docPositions:
+    - 185
+    - 206
+    - 225
+    - 324
+    - 338
+    - 353
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 193
+    - 325
+  virtually: !ruby/object:Word
+    word: virtually
+    stem: virtual
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 325
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 325
+  modern: !ruby/object:Word
+    word: modern
+    stem: modern
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 325
+  transforming: !ruby/object:Word
+    word: transforming
+    stem: transform
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 326
+  yesterday: !ruby/object:Word
+    word: yesterday
+    stem: yesterdai
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 326
+  room: !ruby/object:Word
+    word: room
+    stem: room
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 326
+  machines: !ruby/object:Word
+    word: machines
+    stem: machin
+    docFrequency: 4.0
+    docPositions:
+    - 187
+    - 196
+    - 326
+  array: !ruby/object:Word
+    word: array
+    stem: arrai
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 327
+  mainframes: !ruby/object:Word
+    word: mainframes
+    stem: mainfram
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 327
+  minicomputers: !ruby/object:Word
+    word: minicomputers
+    stem: minicomput
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 327
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 327
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 327
+  restructured: !ruby/object:Word
+    word: restructured
+    stem: restructur
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 328
+  communications: !ruby/object:Word
+    word: communications
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 328
+  fostering: !ruby/object:Word
+    word: fostering
+    stem: foster
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 328
+  host: !ruby/object:Word
+    word: host
+    stem: host
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 328
+  instant: !ruby/object:Word
+    word: instant
+    stem: instant
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 329
+  exchanges: !ruby/object:Word
+    word: exchanges
+    stem: exchang
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 329
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 329
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 329
+  businesses: !ruby/object:Word
+    word: businesses
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 330
+  nations: !ruby/object:Word
+    word: nations
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 330
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  fly: !ruby/object:Word
+    word: fly
+    stem: fly
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  moon: !ruby/object:Word
+    word: moon
+    stem: moon
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  helps: !ruby/object:Word
+    word: helps
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  deaf: !ruby/object:Word
+    word: deaf
+    stem: deaf
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  hear: !ruby/object:Word
+    word: hear
+    stem: hear
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  heartbeat: !ruby/object:Word
+    word: heartbeat
+    stem: heartbeat
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  myriad: !ruby/object:Word
+    word: myriad
+    stem: myriad
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  medical: !ruby/object:Word
+    word: medical
+    stem: medic
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  diagnostic: !ruby/object:Word
+    word: diagnostic
+    stem: diagnost
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  touched: !ruby/object:Word
+    word: touched
+    stem: touch
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  transportation: !ruby/object:Word
+    word: transportation
+    stem: transport
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  texas: !ruby/object:Word
+    word: texas
+    stem: texa
+    docFrequency: 7.0
+    docPositions:
+    - 199
+    - 206
+    - 225
+    - 331
+    - 338
+    - 353
+  instruments: !ruby/object:Word
+    word: instruments
+    stem: instrument
+    docFrequency: 7.0
+    docPositions:
+    - 199
+    - 207
+    - 225
+    - 331
+    - 339
+    - 353
+  played: !ruby/object:Word
+    word: played
+    stem: plai
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 331
+  pivotal: !ruby/object:Word
+    word: pivotal
+    stem: pivot
+    docFrequency: 3.0
+    docPositions:
+    - 200
+    - 332
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 3.0
+    docPositions:
+    - 200
+    - 332
+  billions: !ruby/object:Word
+    word: billions
+    stem: billion
+    docFrequency: 3.0
+    docPositions:
+    - 200
+    - 332
+  done: !ruby/object:Word
+    word: done
+    stem: done
+    docFrequency: 5.0
+    docPositions:
+    - 201
+    - 217
+    - 333
+    - 347
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 333
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 5.0
+    docPositions:
+    - 201
+    - 224
+    - 333
+    - 352
+  grow: !ruby/object:Word
+    word: grow
+    stem: grow
+    docFrequency: 5.0
+    docPositions:
+    - 202
+    - 334
+  enabled: !ruby/object:Word
+    word: enabled
+    stem: enabl
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 334
+  entire: !ruby/object:Word
+    word: entire
+    stem: entir
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 334
+  worldwide: !ruby/object:Word
+    word: worldwide
+    stem: worldwid
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 335
+  grown: !ruby/object:Word
+    word: grown
+    stem: grown
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 335
+  billion: !ruby/object:Word
+    word: billion
+    stem: billion
+    docFrequency: 5.0
+    docPositions:
+    - 203
+    - 204
+    - 335
+    - 336
+  nearly: !ruby/object:Word
+    word: nearly
+    stem: nearli
+    docFrequency: 5.0
+    docPositions:
+    - 204
+    - 217
+    - 336
+    - 347
+  growth: !ruby/object:Word
+    word: growth
+    stem: growth
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 337
+  depend: !ruby/object:Word
+    word: depend
+    stem: depend
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 337
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 337
+  newer: !ruby/object:Word
+    word: newer
+    stem: newer
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 337
+  better: !ruby/object:Word
+    word: better
+    stem: better
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 338
+  technologies: !ruby/object:Word
+    word: technologies
+    stem: technolog
+    docFrequency: 5.0
+    docPositions:
+    - 206
+    - 224
+    - 338
+    - 352
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 338
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 5.0
+    docPositions:
+    - 206
+    - 225
+    - 338
+    - 353
+  continuing: !ruby/object:Word
+    word: continuing
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 341
+  advances: !ruby/object:Word
+    word: advances
+    stem: advanc
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 341
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 11.0
+    docPositions:
+    - 211
+    - 215
+    - 216
+    - 219
+    - 341
+    - 345
+    - 346
+    - 349
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 341
+  look: !ruby/object:Word
+    word: look
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 341
+  forward: !ruby/object:Word
+    word: forward
+    stem: forward
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 341
+  amazing: !ruby/object:Word
+    word: amazing
+    stem: amaz
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 342
+  encounters: !ruby/object:Word
+    word: encounters
+    stem: encount
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 342
+  imagine: !ruby/object:Word
+    word: imagine
+    stem: imagin
+    docFrequency: 7.0
+    docPositions:
+    - 213
+    - 217
+    - 219
+    - 343
+    - 347
+    - 349
+  calling: !ruby/object:Word
+    word: calling
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 213
+    - 343
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 17.0
+    docPositions:
+    - 213
+    - 214
+    - 215
+    - 217
+    - 218
+    - 219
+    - 221
+    - 343
+    - 344
+    - 345
+    - 347
+    - 348
+    - 349
+    - 351
+  care: !ruby/object:Word
+    word: care
+    stem: care
+    docFrequency: 3.0
+    docPositions:
+    - 213
+    - 343
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 213
+    - 343
+  child: !ruby/object:Word
+    word: child
+    stem: child
+    docFrequency: 3.0
+    docPositions:
+    - 213
+    - 343
+  seeing: !ruby/object:Word
+    word: seeing
+    stem: see
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 344
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 344
+  smiling: !ruby/object:Word
+    word: smiling
+    stem: smile
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 344
+  face: !ruby/object:Word
+    word: face
+    stem: face
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 344
+  cell: !ruby/object:Word
+    word: cell
+    stem: cell
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 344
+  phone: !ruby/object:Word
+    word: phone
+    stem: phone
+    docFrequency: 5.0
+    docPositions:
+    - 214
+    - 215
+    - 344
+    - 345
+  imaging: !ruby/object:Word
+    word: imaging
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 215
+    - 345
+  turning: !ruby/object:Word
+    word: turning
+    stem: turn
+    docFrequency: 3.0
+    docPositions:
+    - 215
+    - 345
+  oven: !ruby/object:Word
+    word: oven
+    stem: oven
+    docFrequency: 3.0
+    docPositions:
+    - 215
+    - 345
+  car: !ruby/object:Word
+    word: car
+    stem: car
+    docFrequency: 5.0
+    docPositions:
+    - 215
+    - 217
+    - 345
+    - 347
+  pull: !ruby/object:Word
+    word: pull
+    stem: pull
+    docFrequency: 3.0
+    docPositions:
+    - 215
+    - 345
+  parking: !ruby/object:Word
+    word: parking
+    stem: park
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 346
+  lot: !ruby/object:Word
+    word: lot
+    stem: lot
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 346
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 346
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 346
+  dinner: !ruby/object:Word
+    word: dinner
+    stem: dinner
+    docFrequency: 3.0
+    docPositions:
+    - 217
+    - 347
+  setting: !ruby/object:Word
+    word: setting
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 217
+    - 347
+  autopilot: !ruby/object:Word
+    word: autopilot
+    stem: autopilot
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 348
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 348
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 348
+  meeting: !ruby/object:Word
+    word: meeting
+    stem: meet
+    docFrequency: 3.0
+    docPositions:
+    - 218
+    - 348
+  commute: !ruby/object:Word
+    word: commute
+    stem: commut
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 349
+  want: !ruby/object:Word
+    word: want
+    stem: want
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 349
+  movie: !ruby/object:Word
+    word: movie
+    stem: movi
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 349
+  order: !ruby/object:Word
+    word: order
+    stem: order
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 350
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 350
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 350
+  matter: !ruby/object:Word
+    word: matter
+    stem: matter
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 350
+  seconds: !ruby/object:Word
+    word: seconds
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 220
+    - 350
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 351
+  television: !ruby/object:Word
+    word: television
+    stem: televis
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 351
+  sounds: !ruby/object:Word
+    word: sounds
+    stem: sound
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 351
+  stuff: !ruby/object:Word
+    word: stuff
+    stem: stuff
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 351
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 351
+  fiction: !ruby/object:Word
+    word: fiction
+    stem: fiction
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 351
+  breakthroughs: !ruby/object:Word
+    word: breakthroughs
+    stem: breakthrough
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 351
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 3.0
+    docPositions:
+    - 224
+    - 352
+  stride: !ruby/object:Word
+    word: stride
+    stem: stride
+    docFrequency: 3.0
+    docPositions:
+    - 224
+    - 352
+  away: !ruby/object:Word
+    word: away
+    stem: awai
+    docFrequency: 3.0
+    docPositions:
+    - 224
+    - 352
+  areti: !ruby/object:Word
+    word: areti
+    stem: areti
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  blogour: !ruby/object:Word
+    word: blogour
+    stem: blogour
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  technologyinnovationmanufacturing: !ruby/object:Word
+    word: technologyinnovationmanufacturing
+    stem: technologyinnovationmanufactur
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  topti: !ruby/object:Word
+    word: topti
+    stem: topti
+    docFrequency: 2.0
+    docPositions:
+    - 281
+  topkilby: !ruby/object:Word
+    word: topkilby
+    stem: topkilbi
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  topthe: !ruby/object:Word
+    word: topthe
+    stem: topth
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  topwith: !ruby/object:Word
+    word: topwith
+    stem: topwith
+    docFrequency: 2.0
+    docPositions:
+    - 340
+lineCount: 354
+wordCount: 2361
+rank: 0.2540983606557377
+title: The Chip that Jack Built | Jack Kilby | Innovation | Company | About TI
+links:
+- http://www.ti.com/
+- http://e2e.ti.com/blogs_/b/aroundti/default.aspx
+- http://investor.ti.com
+- http://www.ti.com/lsds/ti/university_program/ti_university_program.page
+- http://newscenter.ti.com/
+- http://careers.ti.com
+rawText: "    \r\n\n$(\"#tiHeader #nav_history\").remove();\n$(\"#tiHeader #sub_history\").remove();\n\r\nvar
+  tiContentGroup = \"/About TI\";\r\nvar tiPageName = \"TI People: Jack Kilby: The
+  Chip that Jack Built\";\r\n\r\n       TI Home > About TI > Company > Innovation
+  \ >  Jack Kilby > The \r\n        Chip that Jack Built\r\n  \r\n\r\n\r\n  \r\n\r\n\r\n
+  \ \r\n\r\n    Company\r\n        \r\n  Who we are\r\n      TI company blog\r\n      Our
+  Products and Technology\r\n      Innovation\r\n      Manufacturing\r\n    \r\n    \r\n
+  \         \r\n            \r\n            \r\n              \r\n                 \r\n
+  \                 TI's commitment to innovation\r\n                \r\n                \r\n
+  \                                 Product development\r\n\r\n                    TI
+  R&D labs\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\tManufacturing technology\r\n\r\n
+  \                   University and Industry standard/consortia\r\n\t\t\t\t\tJack
+  Kilby\r\n                    \r\n\t\t\t\t\tAbout Jack\r\n\t\t\t\t\tThe Chip that
+  Jack Built\r\n\t\t\t\t\tWhat If He Had Gone on \r\n                    Vacation\r\n\t\t\t\t\tNobel
+  Prize\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n              \r\n            \r\n            \r\n
+  \           \r\n                        \r\n            \r\n              \r\n              \r\n
+  \             See Also \r\n                Founders Biographies\r\n\t\t\t\t  History
+  of Innovation\r\n                About TI\r\nCompany\r\nCitizenship\r\nInvestor
+  Relations\r\nUniversity\r\nNews Center\r\nCareers\r\n \r\n            \r\n                      \r\n
+  \         \r\n\t\t  \r\n\t\t \r\n          \r\n        \r\n        \r\n          \r\n
+  \           The Chip that Jack Built\r\n          \r\n\t\t   \r\n          \r\n
+  \         The Answer to a Problem | Enter \r\n            Kilby | Early Successes
+  | Impact \r\n            | Toward the Future\r\n          \r\n          \r\n             \r\n
+  \                   It was a relatively simple device that Jack\r\n                     Kilby
+  showed to a handful of co-workers gathered in TI's \r\n                    semiconductor
+  lab 50 years ago -- only a transistor \r\n                    and other components
+  on a slice of germanium. Little did\r\n                     this  group of onlookers
+  know, but Kilby's invention, 7/16-by-1/16-inches\r\n                     \r\n                    in
+  size and called an integrated circuit, was about to revolutionize\r\n                      the
+  electronics industry. \r\n                    \r\n                  \r\n                  The
+  Answer to a Problem\r\n                  It was in a relatively deserted laboratory
+  at TI's brand \r\n                    new Semiconductor Building where Jack Kilby
+  first hit on the \r\n                    idea of the integrated circuit. In July
+  1958, when most employees \r\n                    left for the traditional two-week
+  \r\n                    vacation period, Kilby -- as a new employee with no vacation
+  \r\n                    -- stayed to man the shop. \r\n                   What caused
+  Kilby to think along the lines that eventually \r\n                    resulted
+  in the integrated circuit? Like many inventors, he \r\n                    set out
+  to solve a problem. In this case, the problem was \r\n                    called
+  \"the tyranny of numbers.\" \r\n                   For almost 50 years after the
+  turn of the 20th century, \r\n                    the electronics industry had been
+  dominated by vacuum tube \r\n                    technology. But vacuum tubes had
+  inherent limitations. They \r\n                    were fragile, bulky, unreliable,
+  power hungry, and produced \r\n                    considerable heat. \r\n                   It
+  wasn't until 1947, with the invention of the transistor \r\n                    by
+  Bell Telephone Laboratories, that the vacuum tube problem \r\n                    was
+  solved. Transistors were miniscule in comparison, more \r\n                    reliable,
+  longer lasting, produced less heat, and consumed \r\n                    less power.
+  The transistor stimulated engineers to design \r\n                    ever more
+  complex electronic circuits and equipment containing \r\n                    hundreds
+  or thousands of discrete components such as transistors, \r\n                    diodes,
+  rectifiers and capacitors. But the problem was that \r\n                    these
+  components still had to be interconnected to form electronic \r\n                    circuits,
+  and hand-soldering thousands of components to thousands \r\n                    of
+  bits of wire was expensive and time-consuming. It was also \r\n                    unreliable;
+  every soldered joint was a potential source of \r\n                    trouble.
+  The challenge was to find cost-effective, reliable \r\n                    ways
+  of producing these components and interconnecting them. \r\n                   One
+  stab at a solution was the Micro-Module program, sponsored \r\n                    by
+  the U.S. Army Signal Corps. The idea was to make all the \r\n                    components
+  a uniform size and shape, with the wiring built \r\n                    into the
+  components. The modules then could be snapped together \r\n                    to
+  make circuits, eliminating the need for wiring the connections.\r\n\t\t\t\t\tBack
+  to Top \r\n                  Enter Kilby\r\n                  TI \r\n                    was
+  working on the Micro-Module program when Kilby joined \r\n                    the
+  company in 1958. Because of his work with Centralab in \r\n                    Milwaukee,
+  Kilby was familiar with the \"tyranny of numbers\" \r\n                    problem
+  facing the industry. But he didn't think the Micro-Module \r\n                    was
+  the answer \x97 it didn't address the basic problem \r\n                    of large
+  quantities of components in elaborate circuits.\r\n                    So Kilby
+  began searching for an alternative, and in the process \r\n                    decided
+  the only thing a semiconductor house could make cost \r\n                    effectively
+  was a semiconductor. \"Further thought led me to \r\n                    the conclusion
+  that semiconductors were all that were really \r\n                    required \x97
+  that resistors and capacitors [passive devices], \r\n                    in particular,
+  could be made from the same material as the \r\n                    active devices
+  [transistors]. I also realized that, since \r\n                    all of the components
+  could be made of a single material, \r\n                    they could also be made
+  in situ interconnected to form a complete \r\n                    circuit,\" Kilby
+  wrote in a 1976 article titled \"Invention \r\n                    of the IC.\"
+  \r\n                   Kilby began to write down and sketch out his ideas in July
+  \r\n                    of 1958. By September, he was ready to demonstrate a working
+  \r\n                    integrated circuit built on a piece of semiconductor material.
+  \r\n                    Several executives, including former TI Chairman Mark Shepherd,
+  \r\n                    gathered for the event on September 12, 1958. What they
+  saw \r\n                    was a sliver of germanium, with protruding wires, glued
+  to \r\n                    a glass slide. It was a rough device, but when Kilby
+  pressed \r\n                    the switch, an unending sine curve undulated across
+  the oscilloscope \r\n                    screen. His invention worked \x97 he had
+  solved the problem. \r\n                  Back to Top\r\n\t\t\t\t  Early Successes\r\n
+  \                 Kilby had made a big breakthrough. But while the U.S. Air \r\n
+  \                   Force showed some interest in TI's integrated circuit, industry
+  \r\n                    reacted skeptically. Indeed the IC and its relative merits
+  \r\n                    \"provided much of the entertainment at major technical
+  meetings \r\n                    over the next few years,\" Kilby wrote. \r\n                   The
+  \r\n                    integrated circuit first won a place in the military market
+  \r\n                    through programs such as the first computer using silicon
+  \r\n                    chips for the Air Force in 1961 and the Minuteman Missile
+  \r\n                    in 1962. Recognizing the need for a \"demonstration product\"
+  \r\n                    to speed widespread use of the IC, Patrick E. Haggerty,
+  former \r\n                    TI chairman, challenged Kilby to design a calculator
+  as powerful \r\n                    as the large, electro-mechanical desktop models
+  of the day, \r\n                    but small enough to fit in a coat pocket. The
+  resulting electronic \r\n                    hand-held calculator, of which Kilby
+  is a co-inventor, successfully \r\n                    commercialized the integrated
+  circuit.\r\n                  Back to Top\r\n\t\t\t\t  Impact\r\n                  The
+  impact of Kilby's tiny chip has been far-reaching. Many \r\n                    of
+  the electronics products of today could not have been developed \r\n                    without
+  it. The chip virtually created the modern computer \r\n                    industry,
+  transforming yesterday's room-size machines into \r\n                    today's
+  array of mainframes, minicomputers and personal computers. \r\n                  \r\n
+  \                  The chip restructured communications, fostering a host of \r\n
+  \                   new ways for instant exchanges of information between people,
+  \r\n                    businesses and nations.\r\n                  Without the
+  chip, man could not explore space or fly to \r\n                      the moon.
+  \r\n                    The chip helps the deaf to hear and is the heartbeat of
+  \r\n                      a myriad of medical diagnostic machines. \r\n                    The
+  chip has also touched education, transportation, manufacturing \r\n                      and
+  entertainment. \r\n                   For Texas Instruments, the integrated circuit
+  has played a \r\n                  pivotal role. Over the years, the company has
+  produced billions \r\n                  of chips. But the integrated circuit has
+  done more than help \r\n                  grow TI. It has enabled an entire industry
+  to grow. Since 1961, \r\n                  the worldwide electronics market has
+  grown from $29 billion \r\n                  to nearly $1,500 billion.\r\n                 This
+  growth will depend on the continued development of newer \r\n                  and
+  better technologies -- like those being developed at Texas \r\n                  Instruments.\r\n
+  \               Back to Top\r\n\t\t\t\t  Toward the Future\r\n                  With
+  \r\n                    continuing advances in semiconductors, you can look forward
+  \r\n                    to more new amazing encounters with electronic equipment.
+  \r\n                    Imagine calling your day care center to check on your child,
+  \r\n                    and seeing her smiling face in the screen on your cell phone.
+  \r\n                    Imaging turning on the oven from your car phone as you pull
+  \r\n                    out of the parking lot at the end of the day. When you get
+  \r\n                    home, dinner will be nearly done. Imagine setting your car
+  \r\n                    on autopilot, and looking over notes for your next day's
+  meeting \r\n                    on your commute home. Imagine you want to see a
+  movie. You \r\n                    order it from the web, and within a matter of
+  seconds it's \r\n                    ready to view on your television at home. \r\n
+  \                 \r\n                 It sounds like the stuff of science fiction,
+  but new breakthroughs \r\n                  are only a short stride away, with the
+  help of technologies \r\n                  being developed at Texas Instruments.
+  \r\n\t\t\t\t\tBack to Top\r\n                \r\n              \r\n\r\n      \r\n
+  \ \r\n\r\n\r\n\r\nWho we areTI company blogOur Products and TechnologyInnovationManufacturing\r\n
+  \         The Answer to a Problem | Enter \r\n            Kilby | Early Successes
+  | Impact \r\n            | Toward the Future \r\n                    It was a relatively
+  simple device that Jack\r\n                     Kilby showed to a handful of co-workers
+  gathered in TI's \r\n                    semiconductor lab 50 years ago -- only
+  a transistor \r\n                    and other components on a slice of germanium.
+  Little did\r\n                     this  group of onlookers know, but Kilby's invention,
+  7/16-by-1/16-inches\r\n                     \r\n                    in size and
+  called an integrated circuit, was about to revolutionize\r\n                      the
+  electronics industry. \r\n                    \r\n                  It was in a
+  relatively deserted laboratory at TI's brand \r\n                    new Semiconductor
+  Building where Jack Kilby first hit on the \r\n                    idea of the integrated
+  circuit. In July 1958, when most employees \r\n                    left for the
+  traditional two-week \r\n                    vacation period, Kilby -- as a new
+  employee with no vacation \r\n                    -- stayed to man the shop.  What
+  caused Kilby to think along the lines that eventually \r\n                    resulted
+  in the integrated circuit? Like many inventors, he \r\n                    set out
+  to solve a problem. In this case, the problem was \r\n                    called
+  \"the tyranny of numbers.\" \r\n                   For almost 50 years after the
+  turn of the 20th century, \r\n                    the electronics industry had been
+  dominated by vacuum tube \r\n                    technology. But vacuum tubes had
+  inherent limitations. They \r\n                    were fragile, bulky, unreliable,
+  power hungry, and produced \r\n                    considerable heat. \r\n                   It
+  wasn't until 1947, with the invention of the transistor \r\n                    by
+  Bell Telephone Laboratories, that the vacuum tube problem \r\n                    was
+  solved. Transistors were miniscule in comparison, more \r\n                    reliable,
+  longer lasting, produced less heat, and consumed \r\n                    less power.
+  The transistor stimulated engineers to design \r\n                    ever more
+  complex electronic circuits and equipment containing \r\n                    hundreds
+  or thousands of discrete components such as transistors, \r\n                    diodes,
+  rectifiers and capacitors. But the problem was that \r\n                    these
+  components still had to be interconnected to form electronic \r\n                    circuits,
+  and hand-soldering thousands of components to thousands \r\n                    of
+  bits of wire was expensive and time-consuming. It was also \r\n                    unreliable;
+  every soldered joint was a potential source of \r\n                    trouble.
+  The challenge was to find cost-effective, reliable \r\n                    ways
+  of producing these components and interconnecting them. \r\n                   One
+  stab at a solution was the Micro-Module program, sponsored \r\n                    by
+  the U.S. Army Signal Corps. The idea was to make all the \r\n                    components
+  a uniform size and shape, with the wiring built \r\n                    into the
+  components. The modules then could be snapped together \r\n                    to
+  make circuits, eliminating the need for wiring the connections.\r\n\t\t\t\t\tBack
+  to TopTI \r\n                    was working on the Micro-Module program when Kilby
+  joined \r\n                    the company in 1958. Because of his work with Centralab
+  in \r\n                    Milwaukee, Kilby was familiar with the \"tyranny of numbers\"
+  \r\n                    problem facing the industry. But he didn't think the Micro-Module
+  \r\n                    was the answer \x97 it didn't address the basic problem
+  \r\n                    of large quantities of components in elaborate circuits.\r\n
+  \                   So Kilby began searching for an alternative, and in the process
+  \r\n                    decided the only thing a semiconductor house could make
+  cost \r\n                    effectively was a semiconductor. \"Further thought
+  led me to \r\n                    the conclusion that semiconductors were all that
+  were really \r\n                    required \x97 that resistors and capacitors
+  [passive devices], \r\n                    in particular, could be made from the
+  same material as the \r\n                    active devices [transistors]. I also
+  realized that, since \r\n                    all of the components could be made
+  of a single material, \r\n                    they could also be made in situ interconnected
+  to form a complete \r\n                    circuit,\" Kilby wrote in a 1976 article
+  titled \"Invention \r\n                    of the IC.\" \r\n                   Kilby
+  began to write down and sketch out his ideas in July \r\n                    of
+  1958. By September, he was ready to demonstrate a working \r\n                    integrated
+  circuit built on a piece of semiconductor material. \r\n                    Several
+  executives, including former TI Chairman Mark Shepherd, \r\n                    gathered
+  for the event on September 12, 1958. What they saw \r\n                    was a
+  sliver of germanium, with protruding wires, glued to \r\n                    a glass
+  slide. It was a rough device, but when Kilby pressed \r\n                    the
+  switch, an unending sine curve undulated across the oscilloscope \r\n                    screen.
+  His invention worked \x97 he had solved the problem. \r\n                  Back
+  to TopKilby had made a big breakthrough. But while the U.S. Air \r\n                    Force
+  showed some interest in TI's integrated circuit, industry \r\n                    reacted
+  skeptically. Indeed the IC and its relative merits \r\n                    \"provided
+  much of the entertainment at major technical meetings \r\n                    over
+  the next few years,\" Kilby wrote. \r\n                   The \r\n                    integrated
+  circuit first won a place in the military market \r\n                    through
+  programs such as the first computer using silicon \r\n                    chips
+  for the Air Force in 1961 and the Minuteman Missile \r\n                    in 1962.
+  Recognizing the need for a \"demonstration product\" \r\n                    to
+  speed widespread use of the IC, Patrick E. Haggerty, former \r\n                    TI
+  chairman, challenged Kilby to design a calculator as powerful \r\n                    as
+  the large, electro-mechanical desktop models of the day, \r\n                    but
+  small enough to fit in a coat pocket. The resulting electronic \r\n                    hand-held
+  calculator, of which Kilby is a co-inventor, successfully \r\n                    commercialized
+  the integrated circuit.Back to TopThe impact of Kilby's tiny chip has been far-reaching.
+  Many \r\n                    of the electronics products of today could not have
+  been developed \r\n                    without it. The chip virtually created the
+  modern computer \r\n                    industry, transforming yesterday's room-size
+  machines into \r\n                    today's array of mainframes, minicomputers
+  and personal computers. \r\n                   The chip restructured communications,
+  fostering a host of \r\n                    new ways for instant exchanges of information
+  between people, \r\n                    businesses and nations.\r\n                   For
+  Texas Instruments, the integrated circuit has played a \r\n                  pivotal
+  role. Over the years, the company has produced billions \r\n                  of
+  chips. But the integrated circuit has done more than help \r\n                  grow
+  TI. It has enabled an entire industry to grow. Since 1961, \r\n                  the
+  worldwide electronics market has grown from $29 billion \r\n                  to
+  nearly $1,500 billion.\r\n                 This growth will depend on the continued
+  development of newer \r\n                  and better technologies -- like those
+  being developed at Texas \r\n                  Instruments.\r\n                Back
+  to TopWith \r\n                    continuing advances in semiconductors, you can
+  look forward \r\n                    to more new amazing encounters with electronic
+  equipment. \r\n                    Imagine calling your day care center to check
+  on your child, \r\n                    and seeing her smiling face in the screen
+  on your cell phone. \r\n                    Imaging turning on the oven from your
+  car phone as you pull \r\n                    out of the parking lot at the end
+  of the day. When you get \r\n                    home, dinner will be nearly done.
+  Imagine setting your car \r\n                    on autopilot, and looking over
+  notes for your next day's meeting \r\n                    on your commute home.
+  Imagine you want to see a movie. You \r\n                    order it from the web,
+  and within a matter of seconds it's \r\n                    ready to view on your
+  television at home.  It sounds like the stuff of science fiction, but new breakthroughs
+  \r\n                  are only a short stride away, with the help of technologies
+  \r\n                  being developed at Texas Instruments. Back to Top"

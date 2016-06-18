@@ -1,0 +1,5571 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://web.archive.org/web/19991012054217/http://pbs.org/wgbh/aia/part4/4p2967.html
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://pbs.org/wgbh/aia/part4/4p2967.html";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "12";
+- |
+  var displayMonth = "Oct";
+- |
+  var displayYear = "1999";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    Sep\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tOCT\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    JAN\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                       \n"
+- |2
+                 12
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     1998
+- "               \n"
+- "               \n"
+- |2
+                 1999
+- "\t       \n"
+- "               \n"
+- "\t           2000\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             133 captures
+- |2
+             12 Oct 99 - 5 Sep 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- |
+  __wm.bt();
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Part 1: 1450-1750
+- |2+
+
+- |2+
+
+- |
+  Part 2: 1750-1805
+- |2+
+
+- |2+
+
+- |
+  Part 3: 1791-1831
+- |2+
+
+- |2+
+
+- |
+  <---Part 4: 1831-1865
+- |2+
+
+- |2+
+
+- |
+  Narrative | Resource Bank | Teacher's Guide
+- |2+
+
+- |2+
+
+- |
+  People & Events
+- |
+  The Civil War and emancipation
+- |2+
+
+- |
+  1861 - 1865
+- |2+
+
+- |2+
+
+- |
+  Resource Bank Contents
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  On November 6, 1860 Abraham Lincoln was elected President of the United States -- an event that outraged southern states.  The Republican party had run on an anti-slavery platform, and many southerners felt that there was no longer a place for them in the Union.  On December 20, 1860, South Carolina seceded.  By Febrary 1, 1861, six more states -- Mississippi, Florida, Alabama, Georgia, Louisiana, and Texas -- had split from the Union.  The seceded states created the Confederate States of America and elected Jefferson Davis, a Mississippi Senator, as their provisional president.In his inaugural address, delivered on March 4, 1861, Lincoln proclaimed that it was his duty to maintain the Union. He also declared that he had no intention of ending slavery where it existed, or of repealing the Fugitive Slave Law -- a position that horrified African Americans and their white allies.  Lincoln's statement, however, did not satisfy the Confederacy, and on April 12 they attacked Fort Sumter, a federal stronghold in Charleston, South Carolina.  Federal troops returned the fire.  The Civil War had begun.Immediately following the attack, four more states -- Virginia, Arkansas, North Carolina, and Tennessee -- severed their ties with the Union.  To retain the loyalty of the remaining border states -- Delaware, Maryland, Kentucky, and Missouri --  President Lincoln insisted that the war was not about slavery or black rights; it was a war to preserve the Union.  His words were not simply aimed at the loyal southern states, however -- most white northerners were not interested in fighting to free slaves or in giving rights to black people. For this reason, the government turned away African American voluteers who rushed to enlist.  Lincoln upheld the laws barring blacks from the army, proving to northern whites that their race privilege would not be threatened.There was an exception, however.  African Americans had been working aboard naval vessels for years, and there was no reason that they should continue.  Black sailors were therefore accepted into the U.S. Navy from the beginning of the war.  Still,  many African Americans wanted to join the fighting and continued to put pressure on federal authorities. Even if Lincoln was not ready to admit it, blacks knew that this was a war against slavery. Some, however, rejected the idea of fighting to preserve a Union that had rejected them and which did not give them the rights of citizens. The federal government had a harder time deciding what to do about escaping slaves.  Because there was no consistent federal policy regarding fugitives, individual commanders made their own decisions.  Some put them to work for the Union forces; others wanted to return them to their owners.  Finally, on August 6, 1861, fugitive slaves were declared to be "contraband of war" if their labor had been used to aid the Confederacy in any way.  And if found to be contraband, they were declared free.As the northern army pushed southward, thousands of fugitives fled across Union lines.  Neither the federal authorities nor the army were prepared for the flood of people, and many of the refugees suffered as a result.  Though the government attempted to provide them with confiscated land, there was not enough to go around.  Many fugitives were put into crowded camps, where starvation and disease led to a high death rate.  Northern citizens, black and white alike, stepped in to fill the gap.  They organized relief societies and provided aid.  They also organized schools to teach the freedmen, women, and children to read and write, thus giving an education to thousands of African Americans throughout the war.Though "contraband" slaves had been declared free, Lincoln continued to insist that this was a war to save the Union, not to free slaves.  But by 1862, Lincoln was considering emancipation as a necessary step toward winning the war.  The South was using enslaved people to aid the war effort.  Black men and women were forced to build fortifications, work as blacksmiths, nurses, boatmen, and laundresses, and to work in factories, hospitals, and armories.  In the meantime, the North was refusing to accept the services of black volunteers and freed slaves, the very people who most wanted to defeat the slaveholders.  In addition, several governments in Europe were considering recognizing the Confederacy and intervening against the Union.  If Lincoln declared this a war to free the slaves, European public opinion would overwhelmingly back the North.On July 22, 1862, Lincoln showed a draft of the preliminary Emancipation Proclamation to his cabinet.  It proposed to emancipate the slaves in all rebel areas on January 1, 1863.  Secretary of State William H. Seward agreed with the proposal, but cautioned Lincoln to wait until the Union had a major victory before formally issuing the proclamation. Lincoln's chance came after the Union victory at the Battle of Antietam in September of 1862.  He issued the preliminary Emancipation Proclamation on September 22.  The proclamation warned the Confederate states to surrender by January 1, 1863, or their slaves would be freed.  Some people were critical of the proclamation for only freeing some of the slaves.  Others, including Frederick Douglass, were jubilant.  Douglass felt that it was the beginning of the end of slavery, and that it would act as a "moral bombshell" to the Confederacy.  Yet he and others feared that Lincoln would give in to pressure from northern conservatives, and would fail to keep his promise.  Despite the opposition, however, the president remained firm.  On January 1, 1863, he issued the final Emancipation Proclamation.  With it he officially freed all slaves within the states or parts of states that were in rebellion and not in Union hands.  This left one million slaves in Union territory still in bondage.   Throughout the North, African Americans and their white allies were exhuberant.  They packed churches and meeting halls and celebrated the news.  In the South, most slaves did not hear of the proclamation for months.  But the purpose of the Civil War had now changed.  The North was not only fighting to preserve the Union, it was fighting to end slavery. Throughout this time, northern black men had continued to pressure the army to enlist them.  A few individual commanders in the field had taken steps to recruit southern African Americans into their forces. But it was only after Lincoln issued the final Emancipation Proclamation that the federal army would officially accept black soldiers into its ranks.  African American men rushed to enlist.  This time they were accepted into all-black units.  The first of these was the Fifty-fourth Massachusetts Colored Regiment, led by white officer Robert Gould Shaw.  Their heroism in combat put to rest worries over the willingness of black soldiers to fight.  Soon other regiments were being formed, and in May 1863 the War Department established the Bureau of Colored Troops.  Black recruiters, many of them abolitionists such as Frederick Douglass, Henry Highland Garnet, and Mary Ann Shadd Cary, brought in troops from throughout the North.  Douglass proclaimed, "I urge you to fly to arms and smite with death the power that would bury the government and your liberty in the same hopeless grave."  Others, such as Harriet Tubman, recruited in the South.  On March 6, 1863, the Secretary of War was informed that "seven hundred and fifty blacks who were waiting for an opportunity to join the Union Army had been rescued from slavery under the leadership of Harriet Ross Tubman...."  By the end of the war more than 186,000 black soldiers had joined the Union army; 93,000 from the Confederate states, 40,000 from the border slave states, and 53,000 from the free states.Black soldiers faced discrimination as well as segregation.  The army was extremely reluctant to commission black officers -- only one hundred gained commissions during the war.  African American soldiers were also given substandard supplies and rations. Probably the worst form of discrimination was the pay differential.  At the beginning of black enlistment, it was assumed that blacks would be kept out of direct combat, and the men were paid as laborers rather than as soldiers.  Black soldiers therefore received $7 per month, plus a $3 clothing allowance, while white soldiers received $13 per month, plus $3.50 for clothes.Black troops strongly resisted this treatment.  The Fifty-Fourth Massachusetts Regiment served a year without pay rather than accept the unfair wages.  Many blacks refused to enlist because of the discriminatory pay.  Finally, in 1864, the War Department sanctioned equal wages for black soldiers.In the South, most slaveholders were convinced that their slaves would remain loyal to them.  Some did, but the vast majority crossed Union lines as soon as Northern troops entered their vicinity.  A Confederate general stated in 1862 that North Carolina was losing approximately a million dollars every week because of the fleeing slaves.Numbers of white southerners also refused to support the Confederacy.  From the beginning, there were factions who vehemently disagreed with secession and remained loyal to the Union.  Many poor southern whites became disillusioned during the course of the war.  Wealthy planters had been granted exemptions from military service early on.  This became especially inflammatory when the South instituted the draft in 1862 and the exemptions remained in place.  It became clear to many poor southern whites that the war was being waged by the rich planters and the poor were fighting it.  In addition, the common people were hit hard by wartime scarcity.  By 1863, there was a food shortage.  Riots and strikes occurred as inflation soared and people became desperate.There were also northerners who resisted the war effort.  Some were pacifists.  Others were white men who resented the fact that the army was drafting them at the same time it excluded blacks.  And there were whites who refused to fight once black soldiers were admitted.  The North was also hit by economic depression, and enraged white people rioted against African Americans, who they accused of stealing their jobs. Finally, on April 18, 1865, the Civil War ended with the surrender of the Confederate army.  617,000 Americans had died in the war, approximately the same number as in all of America's other wars combined. Thousands had been injured.  The southern landscape was devastated. A new chapter in American history opened as the Thirteenth Amendment, passed in January of 1865, was implemented.  It abolished slavery in the United States, and now, with the end of the war, four million African Americans were free.  Thousands of former slaves travelled throughout the south, visiting or searching for loved ones from whom they had become separated.  Harriet Jacobs was one who returned to her old home.  Former slaveholders faced the bewildering fact of emancipation with everything from concern to rage to despair.  Men and women --  black and white and in the North and South -- now began the work of rebuilding the shattered union and of creating a new social order.  This period would be called Reconstruction.  It would hold many promises and many tragic disappointments.  It was the beginning of a long, painful struggle, far longer and more difficult than anyone could realize.  It was the beginning of a struggle that is not yet finished.   As part of Reconstruction, two new amendments were added to the Constitution.  The Fourteenth Amendment, passed in June 1865, granted citizenship to all people born or naturalized in the United States.  The Fifteenth Amendment, passed in February of 1869, guaranteed that no American would be denied the right to vote on the basis of race. For many African Americans, however, this right would be short-lived. Following Reconstruction, they would be denied their legal right to vote in many states until the Voting Rights Act of 1965.  But all of this was yet to come.  The Americans of 1865 were standing at the point between one era and another.  What they knew was that slavery was dead.  With that 250 year legacy behind them, they faced the future.
+- |2+
+
+- |
+  previous | next
+- |2+
+
+- |2+
+
+- |
+  Related Entries:
+- |2+
+
+- "\x95 Emancipation Proclamation\n"
+- "\x95 Retaliation in camp\n"
+- "\x95 A Visit from the Old Mistress\n"
+- "\x95 William Scarborough on the Civil War and emancipation\n"
+- "\x95 Noel Ignatiev on the Civil War and emancipation\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Part 4: Narrative | Resource Bank Contents | Teacher's Guide
+- |2+
+
+- |
+  Africans in America: Home | Resource Bank Index | Search | ShopWGBH | PBS Online | ©
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  previous | next
+- |2+
+
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 23.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 168
+    - 196
+    - 197
+    - 198
+    - 199
+    - 200
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 154
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  pbs: !ruby/object:Word
+    word: pbs
+    stem: pb
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 208
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  wgbh: !ruby/object:Word
+    word: wgbh
+    stem: wgbh
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  aia: !ruby/object:Word
+    word: aia
+    stem: aia
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 5.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+    - 138
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 112
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 189
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 106
+    - 138
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+    - 189
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+    - 189
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 31
+    - 32
+    - 189
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 12.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+    - 189
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 189
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 5.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+    - 189
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 7.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+    - 189
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 189
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 154
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 4.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 7.0
+    docPositions:
+    - 159
+    - 162
+    - 165
+    - 168
+    - 189
+    - 206
+  narrative: !ruby/object:Word
+    word: narrative
+    stem: narr
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 206
+  resource: !ruby/object:Word
+    word: resource
+    stem: resourc
+    docFrequency: 5.0
+    docPositions:
+    - 171
+    - 180
+    - 206
+    - 208
+  bank: !ruby/object:Word
+    word: bank
+    stem: bank
+    docFrequency: 5.0
+    docPositions:
+    - 171
+    - 180
+    - 206
+    - 208
+  teacher: !ruby/object:Word
+    word: teacher
+    stem: teacher
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 206
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 7.0
+    docPositions:
+    - 171
+    - 189
+    - 206
+  guide: !ruby/object:Word
+    word: guide
+    stem: guid
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 206
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 11.0
+    docPositions:
+    - 174
+    - 189
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  civil: !ruby/object:Word
+    word: civil
+    stem: civil
+    docFrequency: 7.0
+    docPositions:
+    - 175
+    - 189
+    - 199
+    - 200
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 27.0
+    docPositions:
+    - 175
+    - 189
+    - 199
+    - 200
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 58.0
+    docPositions:
+    - 175
+    - 189
+    - 199
+    - 200
+  emancipation: !ruby/object:Word
+    word: emancipation
+    stem: emancip
+    docFrequency: 11.0
+    docPositions:
+    - 175
+    - 189
+    - 196
+    - 199
+    - 200
+  contents: !ruby/object:Word
+    word: contents
+    stem: content
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 206
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  abraham: !ruby/object:Word
+    word: abraham
+    stem: abraham
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  lincoln: !ruby/object:Word
+    word: lincoln
+    stem: lincoln
+    docFrequency: 15.0
+    docPositions:
+    - 189
+  elected: !ruby/object:Word
+    word: elected
+    stem: elect
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  president: !ruby/object:Word
+    word: president
+    stem: presid
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 18.0
+    docPositions:
+    - 189
+  outraged: !ruby/object:Word
+    word: outraged
+    stem: outrag
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  southern: !ruby/object:Word
+    word: southern
+    stem: southern
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  republican: !ruby/object:Word
+    word: republican
+    stem: republican
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  party: !ruby/object:Word
+    word: party
+    stem: parti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 20.0
+    docPositions:
+    - 189
+  run: !ruby/object:Word
+    word: run
+    stem: run
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  anti: !ruby/object:Word
+    word: anti
+    stem: anti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  slavery: !ruby/object:Word
+    word: slavery
+    stem: slaveri
+    docFrequency: 10.0
+    docPositions:
+    - 189
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 13.0
+    docPositions:
+    - 189
+  southerners: !ruby/object:Word
+    word: southerners
+    stem: southern
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  felt: !ruby/object:Word
+    word: felt
+    stem: felt
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 10.0
+    docPositions:
+    - 189
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 12.0
+    docPositions:
+    - 189
+  union: !ruby/object:Word
+    word: union
+    stem: union
+    docFrequency: 21.0
+    docPositions:
+    - 189
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 10.0
+    docPositions:
+    - 189
+  carolina: !ruby/object:Word
+    word: carolina
+    stem: carolina
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  seceded: !ruby/object:Word
+    word: seceded
+    stem: seced
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  febrary: !ruby/object:Word
+    word: febrary
+    stem: febrari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  six: !ruby/object:Word
+    word: six
+    stem: six
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  mississippi: !ruby/object:Word
+    word: mississippi
+    stem: mississippi
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  florida: !ruby/object:Word
+    word: florida
+    stem: florida
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  alabama: !ruby/object:Word
+    word: alabama
+    stem: alabama
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  georgia: !ruby/object:Word
+    word: georgia
+    stem: georgia
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  louisiana: !ruby/object:Word
+    word: louisiana
+    stem: louisiana
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  texas: !ruby/object:Word
+    word: texas
+    stem: texa
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  confederate: !ruby/object:Word
+    word: confederate
+    stem: confeder
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 4.0
+    docPositions:
+    - 189
+    - 208
+  jefferson: !ruby/object:Word
+    word: jefferson
+    stem: jefferson
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  davis: !ruby/object:Word
+    word: davis
+    stem: davi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  senator: !ruby/object:Word
+    word: senator
+    stem: senat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 16.0
+    docPositions:
+    - 189
+  provisional: !ruby/object:Word
+    word: provisional
+    stem: provision
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  inaugural: !ruby/object:Word
+    word: inaugural
+    stem: inaugur
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  delivered: !ruby/object:Word
+    word: delivered
+    stem: deliv
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  march: !ruby/object:Word
+    word: march
+    stem: march
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  proclaimed: !ruby/object:Word
+    word: proclaimed
+    stem: proclaim
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  duty: !ruby/object:Word
+    word: duty
+    stem: duti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  maintain: !ruby/object:Word
+    word: maintain
+    stem: maintain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  declared: !ruby/object:Word
+    word: declared
+    stem: declar
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  intention: !ruby/object:Word
+    word: intention
+    stem: intent
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ending: !ruby/object:Word
+    word: ending
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  existed: !ruby/object:Word
+    word: existed
+    stem: exist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  repealing: !ruby/object:Word
+    word: repealing
+    stem: repeal
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fugitive: !ruby/object:Word
+    word: fugitive
+    stem: fugit
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  slave: !ruby/object:Word
+    word: slave
+    stem: slave
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  law: !ruby/object:Word
+    word: law
+    stem: law
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  horrified: !ruby/object:Word
+    word: horrified
+    stem: horrifi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  african: !ruby/object:Word
+    word: african
+    stem: african
+    docFrequency: 13.0
+    docPositions:
+    - 189
+  americans: !ruby/object:Word
+    word: americans
+    stem: american
+    docFrequency: 12.0
+    docPositions:
+    - 189
+  white: !ruby/object:Word
+    word: white
+    stem: white
+    docFrequency: 11.0
+    docPositions:
+    - 189
+  allies: !ruby/object:Word
+    word: allies
+    stem: alli
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  statement: !ruby/object:Word
+    word: statement
+    stem: statement
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 14.0
+    docPositions:
+    - 189
+  satisfy: !ruby/object:Word
+    word: satisfy
+    stem: satisfi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  confederacy: !ruby/object:Word
+    word: confederacy
+    stem: confederaci
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 13.0
+    docPositions:
+    - 189
+  attacked: !ruby/object:Word
+    word: attacked
+    stem: attack
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fort: !ruby/object:Word
+    word: fort
+    stem: fort
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  sumter: !ruby/object:Word
+    word: sumter
+    stem: sumter
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  federal: !ruby/object:Word
+    word: federal
+    stem: feder
+    docFrequency: 8.0
+    docPositions:
+    - 189
+  stronghold: !ruby/object:Word
+    word: stronghold
+    stem: stronghold
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  charleston: !ruby/object:Word
+    word: charleston
+    stem: charleston
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  troops: !ruby/object:Word
+    word: troops
+    stem: troop
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  returned: !ruby/object:Word
+    word: returned
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  fire: !ruby/object:Word
+    word: fire
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  begun: !ruby/object:Word
+    word: begun
+    stem: begun
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  immediately: !ruby/object:Word
+    word: immediately
+    stem: immedi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  attack: !ruby/object:Word
+    word: attack
+    stem: attack
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  four: !ruby/object:Word
+    word: four
+    stem: four
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  virginia: !ruby/object:Word
+    word: virginia
+    stem: virginia
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  arkansas: !ruby/object:Word
+    word: arkansas
+    stem: arkansa
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  north: !ruby/object:Word
+    word: north
+    stem: north
+    docFrequency: 10.0
+    docPositions:
+    - 189
+  tennessee: !ruby/object:Word
+    word: tennessee
+    stem: tennesse
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  severed: !ruby/object:Word
+    word: severed
+    stem: sever
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ties: !ruby/object:Word
+    word: ties
+    stem: ti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  retain: !ruby/object:Word
+    word: retain
+    stem: retain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  loyalty: !ruby/object:Word
+    word: loyalty
+    stem: loyalti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  remaining: !ruby/object:Word
+    word: remaining
+    stem: remain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  delaware: !ruby/object:Word
+    word: delaware
+    stem: delawar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  maryland: !ruby/object:Word
+    word: maryland
+    stem: maryland
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  kentucky: !ruby/object:Word
+    word: kentucky
+    stem: kentucki
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  missouri: !ruby/object:Word
+    word: missouri
+    stem: missouri
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  insisted: !ruby/object:Word
+    word: insisted
+    stem: insist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  black: !ruby/object:Word
+    word: black
+    stem: black
+    docFrequency: 21.0
+    docPositions:
+    - 189
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  preserve: !ruby/object:Word
+    word: preserve
+    stem: preserv
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  words: !ruby/object:Word
+    word: words
+    stem: word
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 31.0
+    docPositions:
+    - 189
+  simply: !ruby/object:Word
+    word: simply
+    stem: simpli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  aimed: !ruby/object:Word
+    word: aimed
+    stem: aim
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  loyal: !ruby/object:Word
+    word: loyal
+    stem: loyal
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  northerners: !ruby/object:Word
+    word: northerners
+    stem: northern
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  interested: !ruby/object:Word
+    word: interested
+    stem: interest
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fighting: !ruby/object:Word
+    word: fighting
+    stem: fight
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 8.0
+    docPositions:
+    - 189
+  slaves: !ruby/object:Word
+    word: slaves
+    stem: slave
+    docFrequency: 17.0
+    docPositions:
+    - 189
+  giving: !ruby/object:Word
+    word: giving
+    stem: give
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  reason: !ruby/object:Word
+    word: reason
+    stem: reason
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  turned: !ruby/object:Word
+    word: turned
+    stem: turn
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  away: !ruby/object:Word
+    word: away
+    stem: awai
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  voluteers: !ruby/object:Word
+    word: voluteers
+    stem: volut
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rushed: !ruby/object:Word
+    word: rushed
+    stem: rush
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  enlist: !ruby/object:Word
+    word: enlist
+    stem: enlist
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  upheld: !ruby/object:Word
+    word: upheld
+    stem: upheld
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  laws: !ruby/object:Word
+    word: laws
+    stem: law
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  barring: !ruby/object:Word
+    word: barring
+    stem: bar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  blacks: !ruby/object:Word
+    word: blacks
+    stem: black
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  army: !ruby/object:Word
+    word: army
+    stem: armi
+    docFrequency: 11.0
+    docPositions:
+    - 189
+  proving: !ruby/object:Word
+    word: proving
+    stem: prove
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  northern: !ruby/object:Word
+    word: northern
+    stem: northern
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  whites: !ruby/object:Word
+    word: whites
+    stem: white
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  race: !ruby/object:Word
+    word: race
+    stem: race
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  privilege: !ruby/object:Word
+    word: privilege
+    stem: privileg
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 16.0
+    docPositions:
+    - 189
+  threatened: !ruby/object:Word
+    word: threatened
+    stem: threaten
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  exception: !ruby/object:Word
+    word: exception
+    stem: except
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  aboard: !ruby/object:Word
+    word: aboard
+    stem: aboard
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  naval: !ruby/object:Word
+    word: naval
+    stem: naval
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  vessels: !ruby/object:Word
+    word: vessels
+    stem: vessel
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  sailors: !ruby/object:Word
+    word: sailors
+    stem: sailor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  therefore: !ruby/object:Word
+    word: therefore
+    stem: therefor
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  accepted: !ruby/object:Word
+    word: accepted
+    stem: accept
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  navy: !ruby/object:Word
+    word: navy
+    stem: navi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  beginning: !ruby/object:Word
+    word: beginning
+    stem: begin
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  wanted: !ruby/object:Word
+    word: wanted
+    stem: want
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  put: !ruby/object:Word
+    word: put
+    stem: put
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  pressure: !ruby/object:Word
+    word: pressure
+    stem: pressur
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  authorities: !ruby/object:Word
+    word: authorities
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  admit: !ruby/object:Word
+    word: admit
+    stem: admit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  knew: !ruby/object:Word
+    word: knew
+    stem: knew
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  rejected: !ruby/object:Word
+    word: rejected
+    stem: reject
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  idea: !ruby/object:Word
+    word: idea
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  citizens: !ruby/object:Word
+    word: citizens
+    stem: citizen
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  harder: !ruby/object:Word
+    word: harder
+    stem: harder
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  deciding: !ruby/object:Word
+    word: deciding
+    stem: decid
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  escaping: !ruby/object:Word
+    word: escaping
+    stem: escap
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  consistent: !ruby/object:Word
+    word: consistent
+    stem: consist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  regarding: !ruby/object:Word
+    word: regarding
+    stem: regard
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fugitives: !ruby/object:Word
+    word: fugitives
+    stem: fugit
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  individual: !ruby/object:Word
+    word: individual
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  commanders: !ruby/object:Word
+    word: commanders
+    stem: command
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  own: !ruby/object:Word
+    word: own
+    stem: own
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  decisions: !ruby/object:Word
+    word: decisions
+    stem: decis
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  forces: !ruby/object:Word
+    word: forces
+    stem: forc
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  others: !ruby/object:Word
+    word: others
+    stem: other
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  owners: !ruby/object:Word
+    word: owners
+    stem: owner
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  finally: !ruby/object:Word
+    word: finally
+    stem: final
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  august: !ruby/object:Word
+    word: august
+    stem: august
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  contraband: !ruby/object:Word
+    word: contraband
+    stem: contraband
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  labor: !ruby/object:Word
+    word: labor
+    stem: labor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  aid: !ruby/object:Word
+    word: aid
+    stem: aid
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  pushed: !ruby/object:Word
+    word: pushed
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  southward: !ruby/object:Word
+    word: southward
+    stem: southward
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  thousands: !ruby/object:Word
+    word: thousands
+    stem: thousand
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  fled: !ruby/object:Word
+    word: fled
+    stem: fled
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  across: !ruby/object:Word
+    word: across
+    stem: across
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  neither: !ruby/object:Word
+    word: neither
+    stem: neither
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  nor: !ruby/object:Word
+    word: nor
+    stem: nor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  prepared: !ruby/object:Word
+    word: prepared
+    stem: prepar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  flood: !ruby/object:Word
+    word: flood
+    stem: flood
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  refugees: !ruby/object:Word
+    word: refugees
+    stem: refuge
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  suffered: !ruby/object:Word
+    word: suffered
+    stem: suffer
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  though: !ruby/object:Word
+    word: though
+    stem: though
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  attempted: !ruby/object:Word
+    word: attempted
+    stem: attempt
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  confiscated: !ruby/object:Word
+    word: confiscated
+    stem: confisc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  land: !ruby/object:Word
+    word: land
+    stem: land
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  crowded: !ruby/object:Word
+    word: crowded
+    stem: crowd
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  camps: !ruby/object:Word
+    word: camps
+    stem: camp
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  starvation: !ruby/object:Word
+    word: starvation
+    stem: starvat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  disease: !ruby/object:Word
+    word: disease
+    stem: diseas
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  led: !ruby/object:Word
+    word: led
+    stem: led
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  death: !ruby/object:Word
+    word: death
+    stem: death
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  rate: !ruby/object:Word
+    word: rate
+    stem: rate
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  alike: !ruby/object:Word
+    word: alike
+    stem: alik
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  stepped: !ruby/object:Word
+    word: stepped
+    stem: step
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fill: !ruby/object:Word
+    word: fill
+    stem: fill
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  gap: !ruby/object:Word
+    word: gap
+    stem: gap
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  organized: !ruby/object:Word
+    word: organized
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  relief: !ruby/object:Word
+    word: relief
+    stem: relief
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  societies: !ruby/object:Word
+    word: societies
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  schools: !ruby/object:Word
+    word: schools
+    stem: school
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  teach: !ruby/object:Word
+    word: teach
+    stem: teach
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  freedmen: !ruby/object:Word
+    word: freedmen
+    stem: freedmen
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  thus: !ruby/object:Word
+    word: thus
+    stem: thu
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  throughout: !ruby/object:Word
+    word: throughout
+    stem: throughout
+    docFrequency: 6.0
+    docPositions:
+    - 189
+  insist: !ruby/object:Word
+    word: insist
+    stem: insist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  save: !ruby/object:Word
+    word: save
+    stem: save
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  considering: !ruby/object:Word
+    word: considering
+    stem: consid
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  necessary: !ruby/object:Word
+    word: necessary
+    stem: necessari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  step: !ruby/object:Word
+    word: step
+    stem: step
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  toward: !ruby/object:Word
+    word: toward
+    stem: toward
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  winning: !ruby/object:Word
+    word: winning
+    stem: win
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  enslaved: !ruby/object:Word
+    word: enslaved
+    stem: enslav
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  forced: !ruby/object:Word
+    word: forced
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  build: !ruby/object:Word
+    word: build
+    stem: build
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fortifications: !ruby/object:Word
+    word: fortifications
+    stem: fortif
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  blacksmiths: !ruby/object:Word
+    word: blacksmiths
+    stem: blacksmith
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  nurses: !ruby/object:Word
+    word: nurses
+    stem: nurs
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  boatmen: !ruby/object:Word
+    word: boatmen
+    stem: boatmen
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  laundresses: !ruby/object:Word
+    word: laundresses
+    stem: laundress
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  factories: !ruby/object:Word
+    word: factories
+    stem: factori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  hospitals: !ruby/object:Word
+    word: hospitals
+    stem: hospit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  armories: !ruby/object:Word
+    word: armories
+    stem: armori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  meantime: !ruby/object:Word
+    word: meantime
+    stem: meantim
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  refusing: !ruby/object:Word
+    word: refusing
+    stem: refus
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  accept: !ruby/object:Word
+    word: accept
+    stem: accept
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  volunteers: !ruby/object:Word
+    word: volunteers
+    stem: volunt
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  freed: !ruby/object:Word
+    word: freed
+    stem: freed
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  very: !ruby/object:Word
+    word: very
+    stem: veri
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  defeat: !ruby/object:Word
+    word: defeat
+    stem: defeat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  slaveholders: !ruby/object:Word
+    word: slaveholders
+    stem: slavehold
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  addition: !ruby/object:Word
+    word: addition
+    stem: addit
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  governments: !ruby/object:Word
+    word: governments
+    stem: govern
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  europe: !ruby/object:Word
+    word: europe
+    stem: europ
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  recognizing: !ruby/object:Word
+    word: recognizing
+    stem: recogn
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  intervening: !ruby/object:Word
+    word: intervening
+    stem: interven
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  european: !ruby/object:Word
+    word: european
+    stem: european
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  overwhelmingly: !ruby/object:Word
+    word: overwhelmingly
+    stem: overwhelmingli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  showed: !ruby/object:Word
+    word: showed
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  draft: !ruby/object:Word
+    word: draft
+    stem: draft
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  preliminary: !ruby/object:Word
+    word: preliminary
+    stem: preliminari
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  proclamation: !ruby/object:Word
+    word: proclamation
+    stem: proclam
+    docFrequency: 10.0
+    docPositions:
+    - 189
+    - 196
+  cabinet: !ruby/object:Word
+    word: cabinet
+    stem: cabinet
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  proposed: !ruby/object:Word
+    word: proposed
+    stem: propos
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  emancipate: !ruby/object:Word
+    word: emancipate
+    stem: emancip
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 189
+  rebel: !ruby/object:Word
+    word: rebel
+    stem: rebel
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  areas: !ruby/object:Word
+    word: areas
+    stem: area
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  january: !ruby/object:Word
+    word: january
+    stem: januari
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  secretary: !ruby/object:Word
+    word: secretary
+    stem: secretari
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  william: !ruby/object:Word
+    word: william
+    stem: william
+    docFrequency: 3.0
+    docPositions:
+    - 189
+    - 199
+  seward: !ruby/object:Word
+    word: seward
+    stem: seward
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  agreed: !ruby/object:Word
+    word: agreed
+    stem: agre
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  proposal: !ruby/object:Word
+    word: proposal
+    stem: propos
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  cautioned: !ruby/object:Word
+    word: cautioned
+    stem: caution
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  wait: !ruby/object:Word
+    word: wait
+    stem: wait
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  victory: !ruby/object:Word
+    word: victory
+    stem: victori
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  formally: !ruby/object:Word
+    word: formally
+    stem: formal
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  issuing: !ruby/object:Word
+    word: issuing
+    stem: issu
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  chance: !ruby/object:Word
+    word: chance
+    stem: chanc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  came: !ruby/object:Word
+    word: came
+    stem: came
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  battle: !ruby/object:Word
+    word: battle
+    stem: battl
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  antietam: !ruby/object:Word
+    word: antietam
+    stem: antietam
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  september: !ruby/object:Word
+    word: september
+    stem: septemb
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  issued: !ruby/object:Word
+    word: issued
+    stem: issu
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  warned: !ruby/object:Word
+    word: warned
+    stem: warn
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  surrender: !ruby/object:Word
+    word: surrender
+    stem: surrend
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  critical: !ruby/object:Word
+    word: critical
+    stem: critic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  freeing: !ruby/object:Word
+    word: freeing
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  frederick: !ruby/object:Word
+    word: frederick
+    stem: frederick
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  douglass: !ruby/object:Word
+    word: douglass
+    stem: douglass
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  jubilant: !ruby/object:Word
+    word: jubilant
+    stem: jubil
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  act: !ruby/object:Word
+    word: act
+    stem: act
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  moral: !ruby/object:Word
+    word: moral
+    stem: moral
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  bombshell: !ruby/object:Word
+    word: bombshell
+    stem: bombshel
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  yet: !ruby/object:Word
+    word: yet
+    stem: yet
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  feared: !ruby/object:Word
+    word: feared
+    stem: fear
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  conservatives: !ruby/object:Word
+    word: conservatives
+    stem: conserv
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fail: !ruby/object:Word
+    word: fail
+    stem: fail
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  promise: !ruby/object:Word
+    word: promise
+    stem: promis
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  despite: !ruby/object:Word
+    word: despite
+    stem: despit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  opposition: !ruby/object:Word
+    word: opposition
+    stem: opposit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  remained: !ruby/object:Word
+    word: remained
+    stem: remain
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  firm: !ruby/object:Word
+    word: firm
+    stem: firm
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  final: !ruby/object:Word
+    word: final
+    stem: final
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  officially: !ruby/object:Word
+    word: officially
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  parts: !ruby/object:Word
+    word: parts
+    stem: part
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rebellion: !ruby/object:Word
+    word: rebellion
+    stem: rebellion
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  hands: !ruby/object:Word
+    word: hands
+    stem: hand
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  million: !ruby/object:Word
+    word: million
+    stem: million
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  territory: !ruby/object:Word
+    word: territory
+    stem: territori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  bondage: !ruby/object:Word
+    word: bondage
+    stem: bondag
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  exhuberant: !ruby/object:Word
+    word: exhuberant
+    stem: exhuber
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  packed: !ruby/object:Word
+    word: packed
+    stem: pack
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  churches: !ruby/object:Word
+    word: churches
+    stem: church
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  meeting: !ruby/object:Word
+    word: meeting
+    stem: meet
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  halls: !ruby/object:Word
+    word: halls
+    stem: hall
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  celebrated: !ruby/object:Word
+    word: celebrated
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  hear: !ruby/object:Word
+    word: hear
+    stem: hear
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  months: !ruby/object:Word
+    word: months
+    stem: month
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  purpose: !ruby/object:Word
+    word: purpose
+    stem: purpos
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  changed: !ruby/object:Word
+    word: changed
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  few: !ruby/object:Word
+    word: few
+    stem: few
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  taken: !ruby/object:Word
+    word: taken
+    stem: taken
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  steps: !ruby/object:Word
+    word: steps
+    stem: step
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  recruit: !ruby/object:Word
+    word: recruit
+    stem: recruit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  soldiers: !ruby/object:Word
+    word: soldiers
+    stem: soldier
+    docFrequency: 11.0
+    docPositions:
+    - 189
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ranks: !ruby/object:Word
+    word: ranks
+    stem: rank
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  units: !ruby/object:Word
+    word: units
+    stem: unit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fifty: !ruby/object:Word
+    word: fifty
+    stem: fifti
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  fourth: !ruby/object:Word
+    word: fourth
+    stem: fourth
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  massachusetts: !ruby/object:Word
+    word: massachusetts
+    stem: massachusett
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  colored: !ruby/object:Word
+    word: colored
+    stem: color
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  regiment: !ruby/object:Word
+    word: regiment
+    stem: regiment
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  officer: !ruby/object:Word
+    word: officer
+    stem: offic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  robert: !ruby/object:Word
+    word: robert
+    stem: robert
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  gould: !ruby/object:Word
+    word: gould
+    stem: gould
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  shaw: !ruby/object:Word
+    word: shaw
+    stem: shaw
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  heroism: !ruby/object:Word
+    word: heroism
+    stem: heroism
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  combat: !ruby/object:Word
+    word: combat
+    stem: combat
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  rest: !ruby/object:Word
+    word: rest
+    stem: rest
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  worries: !ruby/object:Word
+    word: worries
+    stem: worri
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  willingness: !ruby/object:Word
+    word: willingness
+    stem: willing
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fight: !ruby/object:Word
+    word: fight
+    stem: fight
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  soon: !ruby/object:Word
+    word: soon
+    stem: soon
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  regiments: !ruby/object:Word
+    word: regiments
+    stem: regiment
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  formed: !ruby/object:Word
+    word: formed
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  established: !ruby/object:Word
+    word: established
+    stem: establish
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  bureau: !ruby/object:Word
+    word: bureau
+    stem: bureau
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  recruiters: !ruby/object:Word
+    word: recruiters
+    stem: recruit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  abolitionists: !ruby/object:Word
+    word: abolitionists
+    stem: abolitionist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  henry: !ruby/object:Word
+    word: henry
+    stem: henri
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  highland: !ruby/object:Word
+    word: highland
+    stem: highland
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  garnet: !ruby/object:Word
+    word: garnet
+    stem: garnet
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  mary: !ruby/object:Word
+    word: mary
+    stem: mari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ann: !ruby/object:Word
+    word: ann
+    stem: ann
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  shadd: !ruby/object:Word
+    word: shadd
+    stem: shadd
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  cary: !ruby/object:Word
+    word: cary
+    stem: cari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  brought: !ruby/object:Word
+    word: brought
+    stem: brought
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  urge: !ruby/object:Word
+    word: urge
+    stem: urg
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fly: !ruby/object:Word
+    word: fly
+    stem: fly
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  arms: !ruby/object:Word
+    word: arms
+    stem: arm
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  smite: !ruby/object:Word
+    word: smite
+    stem: smite
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  power: !ruby/object:Word
+    word: power
+    stem: power
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  bury: !ruby/object:Word
+    word: bury
+    stem: buri
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  liberty: !ruby/object:Word
+    word: liberty
+    stem: liberti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  hopeless: !ruby/object:Word
+    word: hopeless
+    stem: hopeless
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  grave: !ruby/object:Word
+    word: grave
+    stem: grave
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  harriet: !ruby/object:Word
+    word: harriet
+    stem: harriet
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  tubman: !ruby/object:Word
+    word: tubman
+    stem: tubman
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  recruited: !ruby/object:Word
+    word: recruited
+    stem: recruit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  informed: !ruby/object:Word
+    word: informed
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  seven: !ruby/object:Word
+    word: seven
+    stem: seven
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  hundred: !ruby/object:Word
+    word: hundred
+    stem: hundr
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  waiting: !ruby/object:Word
+    word: waiting
+    stem: wait
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  opportunity: !ruby/object:Word
+    word: opportunity
+    stem: opportun
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rescued: !ruby/object:Word
+    word: rescued
+    stem: rescu
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  leadership: !ruby/object:Word
+    word: leadership
+    stem: leadership
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ross: !ruby/object:Word
+    word: ross
+    stem: ross
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  joined: !ruby/object:Word
+    word: joined
+    stem: join
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  faced: !ruby/object:Word
+    word: faced
+    stem: face
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  discrimination: !ruby/object:Word
+    word: discrimination
+    stem: discrimin
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  segregation: !ruby/object:Word
+    word: segregation
+    stem: segreg
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  extremely: !ruby/object:Word
+    word: extremely
+    stem: extrem
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  reluctant: !ruby/object:Word
+    word: reluctant
+    stem: reluct
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  commission: !ruby/object:Word
+    word: commission
+    stem: commiss
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  officers: !ruby/object:Word
+    word: officers
+    stem: offic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  gained: !ruby/object:Word
+    word: gained
+    stem: gain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  commissions: !ruby/object:Word
+    word: commissions
+    stem: commiss
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  substandard: !ruby/object:Word
+    word: substandard
+    stem: substandard
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  supplies: !ruby/object:Word
+    word: supplies
+    stem: suppli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rations: !ruby/object:Word
+    word: rations
+    stem: ration
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  probably: !ruby/object:Word
+    word: probably
+    stem: probabl
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  worst: !ruby/object:Word
+    word: worst
+    stem: worst
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  pay: !ruby/object:Word
+    word: pay
+    stem: pai
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  differential: !ruby/object:Word
+    word: differential
+    stem: differenti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  enlistment: !ruby/object:Word
+    word: enlistment
+    stem: enlist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  assumed: !ruby/object:Word
+    word: assumed
+    stem: assum
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  kept: !ruby/object:Word
+    word: kept
+    stem: kept
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  direct: !ruby/object:Word
+    word: direct
+    stem: direct
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  paid: !ruby/object:Word
+    word: paid
+    stem: paid
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  laborers: !ruby/object:Word
+    word: laborers
+    stem: labor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rather: !ruby/object:Word
+    word: rather
+    stem: rather
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  received: !ruby/object:Word
+    word: received
+    stem: receiv
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  per: !ruby/object:Word
+    word: per
+    stem: per
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  plus: !ruby/object:Word
+    word: plus
+    stem: plu
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  clothing: !ruby/object:Word
+    word: clothing
+    stem: cloth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  allowance: !ruby/object:Word
+    word: allowance
+    stem: allow
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  clothes: !ruby/object:Word
+    word: clothes
+    stem: cloth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  strongly: !ruby/object:Word
+    word: strongly
+    stem: strongli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  resisted: !ruby/object:Word
+    word: resisted
+    stem: resist
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  treatment: !ruby/object:Word
+    word: treatment
+    stem: treatment
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  served: !ruby/object:Word
+    word: served
+    stem: serv
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  unfair: !ruby/object:Word
+    word: unfair
+    stem: unfair
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  wages: !ruby/object:Word
+    word: wages
+    stem: wage
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  refused: !ruby/object:Word
+    word: refused
+    stem: refus
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  discriminatory: !ruby/object:Word
+    word: discriminatory
+    stem: discriminatori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  sanctioned: !ruby/object:Word
+    word: sanctioned
+    stem: sanction
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  equal: !ruby/object:Word
+    word: equal
+    stem: equal
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  convinced: !ruby/object:Word
+    word: convinced
+    stem: convinc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  remain: !ruby/object:Word
+    word: remain
+    stem: remain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  vast: !ruby/object:Word
+    word: vast
+    stem: vast
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  majority: !ruby/object:Word
+    word: majority
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  crossed: !ruby/object:Word
+    word: crossed
+    stem: cross
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  entered: !ruby/object:Word
+    word: entered
+    stem: enter
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  vicinity: !ruby/object:Word
+    word: vicinity
+    stem: vicin
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  stated: !ruby/object:Word
+    word: stated
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  losing: !ruby/object:Word
+    word: losing
+    stem: lose
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  approximately: !ruby/object:Word
+    word: approximately
+    stem: approxim
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  dollars: !ruby/object:Word
+    word: dollars
+    stem: dollar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fleeing: !ruby/object:Word
+    word: fleeing
+    stem: flee
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  factions: !ruby/object:Word
+    word: factions
+    stem: faction
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  vehemently: !ruby/object:Word
+    word: vehemently
+    stem: vehement
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  disagreed: !ruby/object:Word
+    word: disagreed
+    stem: disagre
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  secession: !ruby/object:Word
+    word: secession
+    stem: secess
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  poor: !ruby/object:Word
+    word: poor
+    stem: poor
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  became: !ruby/object:Word
+    word: became
+    stem: becam
+    docFrequency: 5.0
+    docPositions:
+    - 189
+  disillusioned: !ruby/object:Word
+    word: disillusioned
+    stem: disillus
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  wealthy: !ruby/object:Word
+    word: wealthy
+    stem: wealthi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  planters: !ruby/object:Word
+    word: planters
+    stem: planter
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  granted: !ruby/object:Word
+    word: granted
+    stem: grant
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  exemptions: !ruby/object:Word
+    word: exemptions
+    stem: exempt
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  inflammatory: !ruby/object:Word
+    word: inflammatory
+    stem: inflammatori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  instituted: !ruby/object:Word
+    word: instituted
+    stem: institut
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  waged: !ruby/object:Word
+    word: waged
+    stem: wage
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rich: !ruby/object:Word
+    word: rich
+    stem: rich
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  common: !ruby/object:Word
+    word: common
+    stem: common
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  hit: !ruby/object:Word
+    word: hit
+    stem: hit
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  hard: !ruby/object:Word
+    word: hard
+    stem: hard
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  wartime: !ruby/object:Word
+    word: wartime
+    stem: wartim
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  scarcity: !ruby/object:Word
+    word: scarcity
+    stem: scarciti
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  shortage: !ruby/object:Word
+    word: shortage
+    stem: shortag
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  riots: !ruby/object:Word
+    word: riots
+    stem: riot
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  strikes: !ruby/object:Word
+    word: strikes
+    stem: strike
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  occurred: !ruby/object:Word
+    word: occurred
+    stem: occur
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  inflation: !ruby/object:Word
+    word: inflation
+    stem: inflat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  soared: !ruby/object:Word
+    word: soared
+    stem: soar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  desperate: !ruby/object:Word
+    word: desperate
+    stem: desper
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  pacifists: !ruby/object:Word
+    word: pacifists
+    stem: pacifist
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  resented: !ruby/object:Word
+    word: resented
+    stem: resent
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fact: !ruby/object:Word
+    word: fact
+    stem: fact
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  drafting: !ruby/object:Word
+    word: drafting
+    stem: draft
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  excluded: !ruby/object:Word
+    word: excluded
+    stem: exclud
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  once: !ruby/object:Word
+    word: once
+    stem: onc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  admitted: !ruby/object:Word
+    word: admitted
+    stem: admit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  economic: !ruby/object:Word
+    word: economic
+    stem: econom
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  depression: !ruby/object:Word
+    word: depression
+    stem: depress
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  enraged: !ruby/object:Word
+    word: enraged
+    stem: enrag
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rioted: !ruby/object:Word
+    word: rioted
+    stem: riot
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  accused: !ruby/object:Word
+    word: accused
+    stem: accus
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  stealing: !ruby/object:Word
+    word: stealing
+    stem: steal
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  jobs: !ruby/object:Word
+    word: jobs
+    stem: job
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ended: !ruby/object:Word
+    word: ended
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  died: !ruby/object:Word
+    word: died
+    stem: di
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  wars: !ruby/object:Word
+    word: wars
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  combined: !ruby/object:Word
+    word: combined
+    stem: combin
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  injured: !ruby/object:Word
+    word: injured
+    stem: injur
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  landscape: !ruby/object:Word
+    word: landscape
+    stem: landscap
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  devastated: !ruby/object:Word
+    word: devastated
+    stem: devast
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  chapter: !ruby/object:Word
+    word: chapter
+    stem: chapter
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  opened: !ruby/object:Word
+    word: opened
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  thirteenth: !ruby/object:Word
+    word: thirteenth
+    stem: thirteenth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  amendment: !ruby/object:Word
+    word: amendment
+    stem: amend
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  passed: !ruby/object:Word
+    word: passed
+    stem: pass
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  implemented: !ruby/object:Word
+    word: implemented
+    stem: implement
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  abolished: !ruby/object:Word
+    word: abolished
+    stem: abolish
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  former: !ruby/object:Word
+    word: former
+    stem: former
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  travelled: !ruby/object:Word
+    word: travelled
+    stem: travel
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  visiting: !ruby/object:Word
+    word: visiting
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  searching: !ruby/object:Word
+    word: searching
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  loved: !ruby/object:Word
+    word: loved
+    stem: love
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  ones: !ruby/object:Word
+    word: ones
+    stem: 'on'
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  whom: !ruby/object:Word
+    word: whom
+    stem: whom
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  become: !ruby/object:Word
+    word: become
+    stem: becom
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  separated: !ruby/object:Word
+    word: separated
+    stem: separ
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  jacobs: !ruby/object:Word
+    word: jacobs
+    stem: jacob
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 3.0
+    docPositions:
+    - 189
+    - 198
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 189
+    - 208
+  bewildering: !ruby/object:Word
+    word: bewildering
+    stem: bewild
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  everything: !ruby/object:Word
+    word: everything
+    stem: everyth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  concern: !ruby/object:Word
+    word: concern
+    stem: concern
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rage: !ruby/object:Word
+    word: rage
+    stem: rage
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  despair: !ruby/object:Word
+    word: despair
+    stem: despair
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  began: !ruby/object:Word
+    word: began
+    stem: began
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  rebuilding: !ruby/object:Word
+    word: rebuilding
+    stem: rebuild
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  shattered: !ruby/object:Word
+    word: shattered
+    stem: shatter
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  creating: !ruby/object:Word
+    word: creating
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  order: !ruby/object:Word
+    word: order
+    stem: order
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  reconstruction: !ruby/object:Word
+    word: reconstruction
+    stem: reconstruct
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  hold: !ruby/object:Word
+    word: hold
+    stem: hold
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  promises: !ruby/object:Word
+    word: promises
+    stem: promis
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  tragic: !ruby/object:Word
+    word: tragic
+    stem: tragic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  disappointments: !ruby/object:Word
+    word: disappointments
+    stem: disappoint
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  painful: !ruby/object:Word
+    word: painful
+    stem: pain
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  struggle: !ruby/object:Word
+    word: struggle
+    stem: struggl
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  far: !ruby/object:Word
+    word: far
+    stem: far
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  difficult: !ruby/object:Word
+    word: difficult
+    stem: difficult
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  anyone: !ruby/object:Word
+    word: anyone
+    stem: anyon
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  realize: !ruby/object:Word
+    word: realize
+    stem: realiz
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  finished: !ruby/object:Word
+    word: finished
+    stem: finish
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  amendments: !ruby/object:Word
+    word: amendments
+    stem: amend
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  added: !ruby/object:Word
+    word: added
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  constitution: !ruby/object:Word
+    word: constitution
+    stem: constitut
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fourteenth: !ruby/object:Word
+    word: fourteenth
+    stem: fourteenth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  june: !ruby/object:Word
+    word: june
+    stem: june
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  citizenship: !ruby/object:Word
+    word: citizenship
+    stem: citizenship
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  born: !ruby/object:Word
+    word: born
+    stem: born
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  naturalized: !ruby/object:Word
+    word: naturalized
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  fifteenth: !ruby/object:Word
+    word: fifteenth
+    stem: fifteenth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  february: !ruby/object:Word
+    word: february
+    stem: februari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  guaranteed: !ruby/object:Word
+    word: guaranteed
+    stem: guarante
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  denied: !ruby/object:Word
+    word: denied
+    stem: deni
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 189
+  vote: !ruby/object:Word
+    word: vote
+    stem: vote
+    docFrequency: 3.0
+    docPositions:
+    - 189
+  basis: !ruby/object:Word
+    word: basis
+    stem: basi
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  lived: !ruby/object:Word
+    word: lived
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  voting: !ruby/object:Word
+    word: voting
+    stem: vote
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  come: !ruby/object:Word
+    word: come
+    stem: come
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  standing: !ruby/object:Word
+    word: standing
+    stem: stand
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  era: !ruby/object:Word
+    word: era
+    stem: era
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  dead: !ruby/object:Word
+    word: dead
+    stem: dead
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  legacy: !ruby/object:Word
+    word: legacy
+    stem: legaci
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 214
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 214
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  entries: !ruby/object:Word
+    word: entries
+    stem: entri
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  retaliation: !ruby/object:Word
+    word: retaliation
+    stem: retali
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  camp: !ruby/object:Word
+    word: camp
+    stem: camp
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  mistress: !ruby/object:Word
+    word: mistress
+    stem: mistress
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  scarborough: !ruby/object:Word
+    word: scarborough
+    stem: scarborough
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  noel: !ruby/object:Word
+    word: noel
+    stem: noel
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  ignatiev: !ruby/object:Word
+    word: ignatiev
+    stem: ignatiev
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  africans: !ruby/object:Word
+    word: africans
+    stem: african
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  shopwgbh: !ruby/object:Word
+    word: shopwgbh
+    stem: shopwgbh
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 208
+lineCount: 216
+wordCount: 2455
+rank: 0.25
+title: The Civil War
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://pbs.org/wgbh/aia/part4/4p2967.html\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"12\";\nvar displayMonth = \"Oct\";\nvar displayYear
+  = \"1999\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    Sep\n\t\t\n\t\t\n\t\tOCT\n\t\t\n\t\t\n\t\t
+  \   JAN\n\t\t\n                \n\t    \n               \n                       \n
+  \              12\n\t       \n               \n\t\t   \n\t       \n\t       \n           \n
+  \              \n                   1998\n               \n               \n               1999\n\t
+  \      \n               \n\t           2000\n\t       \n\t       \n           \n
+  \      \n           133 captures\n           12 Oct 99 - 5 Sep 15\n       \n       \n
+  \      \n       \n\t \n       \n       \n       \n   \n       Close\n       Help\n
+  \  \n   \n\n\n__wm.bt();\n\n\n\n\nPart 1: 1450-1750\n\n\nPart 2: 1750-1805\n\n\nPart
+  3: 1791-1831\n\n\n<---Part 4: 1831-1865\n\n\nNarrative | Resource Bank | Teacher's
+  Guide\n\n\nPeople & Events\nThe Civil War and emancipation\n\n1861 - 1865\n\n\nResource
+  Bank Contents\n\n\n\n\n\n\n\n\nOn November 6, 1860 Abraham Lincoln was elected President
+  of the United States -- an event that outraged southern states.  The Republican
+  party had run on an anti-slavery platform, and many southerners felt that there
+  was no longer a place for them in the Union.  On December 20, 1860, South Carolina
+  seceded.  By Febrary 1, 1861, six more states -- Mississippi, Florida, Alabama,
+  Georgia, Louisiana, and Texas -- had split from the Union.  The seceded states created
+  the Confederate States of America and elected Jefferson Davis, a Mississippi Senator,
+  as their provisional president.In his inaugural address, delivered on March 4, 1861,
+  Lincoln proclaimed that it was his duty to maintain the Union. He also declared
+  that he had no intention of ending slavery where it existed, or of repealing the
+  Fugitive Slave Law -- a position that horrified African Americans and their white
+  allies.  Lincoln's statement, however, did not satisfy the Confederacy, and on April
+  12 they attacked Fort Sumter, a federal stronghold in Charleston, South Carolina.
+  \ Federal troops returned the fire.  The Civil War had begun.Immediately following
+  the attack, four more states -- Virginia, Arkansas, North Carolina, and Tennessee
+  -- severed their ties with the Union.  To retain the loyalty of the remaining border
+  states -- Delaware, Maryland, Kentucky, and Missouri --  President Lincoln insisted
+  that the war was not about slavery or black rights; it was a war to preserve the
+  Union.  His words were not simply aimed at the loyal southern states, however --
+  most white northerners were not interested in fighting to free slaves or in giving
+  rights to black people. For this reason, the government turned away African American
+  voluteers who rushed to enlist.  Lincoln upheld the laws barring blacks from the
+  army, proving to northern whites that their race privilege would not be threatened.There
+  was an exception, however.  African Americans had been working aboard naval vessels
+  for years, and there was no reason that they should continue.  Black sailors were
+  therefore accepted into the U.S. Navy from the beginning of the war.  Still,  many
+  African Americans wanted to join the fighting and continued to put pressure on federal
+  authorities. Even if Lincoln was not ready to admit it, blacks knew that this was
+  a war against slavery. Some, however, rejected the idea of fighting to preserve
+  a Union that had rejected them and which did not give them the rights of citizens.
+  The federal government had a harder time deciding what to do about escaping slaves.
+  \ Because there was no consistent federal policy regarding fugitives, individual
+  commanders made their own decisions.  Some put them to work for the Union forces;
+  others wanted to return them to their owners.  Finally, on August 6, 1861, fugitive
+  slaves were declared to be \"contraband of war\" if their labor had been used to
+  aid the Confederacy in any way.  And if found to be contraband, they were declared
+  free.As the northern army pushed southward, thousands of fugitives fled across Union
+  lines.  Neither the federal authorities nor the army were prepared for the flood
+  of people, and many of the refugees suffered as a result.  Though the government
+  attempted to provide them with confiscated land, there was not enough to go around.
+  \ Many fugitives were put into crowded camps, where starvation and disease led to
+  a high death rate.  Northern citizens, black and white alike, stepped in to fill
+  the gap.  They organized relief societies and provided aid.  They also organized
+  schools to teach the freedmen, women, and children to read and write, thus giving
+  an education to thousands of African Americans throughout the war.Though \"contraband\"
+  slaves had been declared free, Lincoln continued to insist that this was a war to
+  save the Union, not to free slaves.  But by 1862, Lincoln was considering emancipation
+  as a necessary step toward winning the war.  The South was using enslaved people
+  to aid the war effort.  Black men and women were forced to build fortifications,
+  work as blacksmiths, nurses, boatmen, and laundresses, and to work in factories,
+  hospitals, and armories.  In the meantime, the North was refusing to accept the
+  services of black volunteers and freed slaves, the very people who most wanted to
+  defeat the slaveholders.  In addition, several governments in Europe were considering
+  recognizing the Confederacy and intervening against the Union.  If Lincoln declared
+  this a war to free the slaves, European public opinion would overwhelmingly back
+  the North.On July 22, 1862, Lincoln showed a draft of the preliminary Emancipation
+  Proclamation to his cabinet.  It proposed to emancipate the slaves in all rebel
+  areas on January 1, 1863.  Secretary of State William H. Seward agreed with the
+  proposal, but cautioned Lincoln to wait until the Union had a major victory before
+  formally issuing the proclamation. Lincoln's chance came after the Union victory
+  at the Battle of Antietam in September of 1862.  He issued the preliminary Emancipation
+  Proclamation on September 22.  The proclamation warned the Confederate states to
+  surrender by January 1, 1863, or their slaves would be freed.  Some people were
+  critical of the proclamation for only freeing some of the slaves.  Others, including
+  Frederick Douglass, were jubilant.  Douglass felt that it was the beginning of the
+  end of slavery, and that it would act as a \"moral bombshell\" to the Confederacy.
+  \ Yet he and others feared that Lincoln would give in to pressure from northern
+  conservatives, and would fail to keep his promise.  Despite the opposition, however,
+  the president remained firm.  On January 1, 1863, he issued the final Emancipation
+  Proclamation.  With it he officially freed all slaves within the states or parts
+  of states that were in rebellion and not in Union hands.  This left one million
+  slaves in Union territory still in bondage.   Throughout the North, African Americans
+  and their white allies were exhuberant.  They packed churches and meeting halls
+  and celebrated the news.  In the South, most slaves did not hear of the proclamation
+  for months.  But the purpose of the Civil War had now changed.  The North was not
+  only fighting to preserve the Union, it was fighting to end slavery. Throughout
+  this time, northern black men had continued to pressure the army to enlist them.
+  \ A few individual commanders in the field had taken steps to recruit southern African
+  Americans into their forces. But it was only after Lincoln issued the final Emancipation
+  Proclamation that the federal army would officially accept black soldiers into its
+  ranks.  African American men rushed to enlist.  This time they were accepted into
+  all-black units.  The first of these was the Fifty-fourth Massachusetts Colored
+  Regiment, led by white officer Robert Gould Shaw.  Their heroism in combat put to
+  rest worries over the willingness of black soldiers to fight.  Soon other regiments
+  were being formed, and in May 1863 the War Department established the Bureau of
+  Colored Troops.  Black recruiters, many of them abolitionists such as Frederick
+  Douglass, Henry Highland Garnet, and Mary Ann Shadd Cary, brought in troops from
+  throughout the North.  Douglass proclaimed, \"I urge you to fly to arms and smite
+  with death the power that would bury the government and your liberty in the same
+  hopeless grave.\"  Others, such as Harriet Tubman, recruited in the South.  On March
+  6, 1863, the Secretary of War was informed that \"seven hundred and fifty blacks
+  who were waiting for an opportunity to join the Union Army had been rescued from
+  slavery under the leadership of Harriet Ross Tubman....\"  By the end of the war
+  more than 186,000 black soldiers had joined the Union army; 93,000 from the Confederate
+  states, 40,000 from the border slave states, and 53,000 from the free states.Black
+  soldiers faced discrimination as well as segregation.  The army was extremely reluctant
+  to commission black officers -- only one hundred gained commissions during the war.
+  \ African American soldiers were also given substandard supplies and rations. Probably
+  the worst form of discrimination was the pay differential.  At the beginning of
+  black enlistment, it was assumed that blacks would be kept out of direct combat,
+  and the men were paid as laborers rather than as soldiers.  Black soldiers therefore
+  received $7 per month, plus a $3 clothing allowance, while white soldiers received
+  $13 per month, plus $3.50 for clothes.Black troops strongly resisted this treatment.
+  \ The Fifty-Fourth Massachusetts Regiment served a year without pay rather than
+  accept the unfair wages.  Many blacks refused to enlist because of the discriminatory
+  pay.  Finally, in 1864, the War Department sanctioned equal wages for black soldiers.In
+  the South, most slaveholders were convinced that their slaves would remain loyal
+  to them.  Some did, but the vast majority crossed Union lines as soon as Northern
+  troops entered their vicinity.  A Confederate general stated in 1862 that North
+  Carolina was losing approximately a million dollars every week because of the fleeing
+  slaves.Numbers of white southerners also refused to support the Confederacy.  From
+  the beginning, there were factions who vehemently disagreed with secession and remained
+  loyal to the Union.  Many poor southern whites became disillusioned during the course
+  of the war.  Wealthy planters had been granted exemptions from military service
+  early on.  This became especially inflammatory when the South instituted the draft
+  in 1862 and the exemptions remained in place.  It became clear to many poor southern
+  whites that the war was being waged by the rich planters and the poor were fighting
+  it.  In addition, the common people were hit hard by wartime scarcity.  By 1863,
+  there was a food shortage.  Riots and strikes occurred as inflation soared and people
+  became desperate.There were also northerners who resisted the war effort.  Some
+  were pacifists.  Others were white men who resented the fact that the army was drafting
+  them at the same time it excluded blacks.  And there were whites who refused to
+  fight once black soldiers were admitted.  The North was also hit by economic depression,
+  and enraged white people rioted against African Americans, who they accused of stealing
+  their jobs. Finally, on April 18, 1865, the Civil War ended with the surrender of
+  the Confederate army.  617,000 Americans had died in the war, approximately the
+  same number as in all of America's other wars combined. Thousands had been injured.
+  \ The southern landscape was devastated. A new chapter in American history opened
+  as the Thirteenth Amendment, passed in January of 1865, was implemented.  It abolished
+  slavery in the United States, and now, with the end of the war, four million African
+  Americans were free.  Thousands of former slaves travelled throughout the south,
+  visiting or searching for loved ones from whom they had become separated.  Harriet
+  Jacobs was one who returned to her old home.  Former slaveholders faced the bewildering
+  fact of emancipation with everything from concern to rage to despair.  Men and women
+  --  black and white and in the North and South -- now began the work of rebuilding
+  the shattered union and of creating a new social order.  This period would be called
+  Reconstruction.  It would hold many promises and many tragic disappointments.  It
+  was the beginning of a long, painful struggle, far longer and more difficult than
+  anyone could realize.  It was the beginning of a struggle that is not yet finished.
+  \  As part of Reconstruction, two new amendments were added to the Constitution.
+  \ The Fourteenth Amendment, passed in June 1865, granted citizenship to all people
+  born or naturalized in the United States.  The Fifteenth Amendment, passed in February
+  of 1869, guaranteed that no American would be denied the right to vote on the basis
+  of race. For many African Americans, however, this right would be short-lived. Following
+  Reconstruction, they would be denied their legal right to vote in many states until
+  the Voting Rights Act of 1965.  But all of this was yet to come.  The Americans
+  of 1865 were standing at the point between one era and another.  What they knew
+  was that slavery was dead.  With that 250 year legacy behind them, they faced the
+  future.\n\nprevious | next\n\n\nRelated Entries:\n\n\x95 Emancipation Proclamation\n\x95
+  Retaliation in camp\n\x95 A Visit from the Old Mistress\n\x95 William Scarborough
+  on the Civil War and emancipation\n\x95 Noel Ignatiev on the Civil War and emancipation\n\n\n\n\n\nPart
+  4: Narrative | Resource Bank Contents | Teacher's Guide\n\nAfricans in America:
+  Home | Resource Bank Index | Search | ShopWGBH | PBS Online | ©\n\n\n\n\n\nprevious
+  | next\n\n"

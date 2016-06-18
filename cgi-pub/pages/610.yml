@@ -1,0 +1,4427 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.idc.com/getdoc.jsp?containerId=prUS24239313
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "        \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    var userId = \"\";\r\n"
+- "    var sessionId = \"6FA0092B3429521E7A81C9B5F88225A1\";\r\n"
+- "    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\r\n"
+- "        'User_ID': userId,\r\n"
+- "        'Session_ID': sessionId,\r\n"
+- "        'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n"
+- "            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n"
+- "            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n"
+- "    })(window,document,'script','dataLayer','GTM-W488RR');\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "        <!--\r\n"
+- "        function MM_jumpMenu(targ, selObj, restore) { //v3.0\r\n"
+- "            eval(targ + \".location='\" + selObj.options[selObj.selectedIndex].value
+  + \"'\");\r\n"
+- "            if (restore) selObj.selectedIndex = 0;\r\n"
+- "        }\r\n"
+- "        //-->\r\n"
+- "    \r\n"
+- "        $(document).ready(function () {\r\n"
+- "          $('.navigation li a').click(function () {\r\n"
+- "                var title = $(this).attr('title');\r\n"
+- "                $('h2').text(title);\r\n"
+- "                return false;\r\n"
+- "            });\r\n"
+- "        });\r\n"
+- "    \r\n"
+- "    //Google tag manager\r\n"
+- "\r\n"
+- "    $(document).ready(function () {\r\n"
+- "        //main navigation\r\n"
+- "        $(\"nav#main-menu > ul > li > a\").click(function(){\r\n"
+- "                dataLayer.push({'NavLinkClickMenu':'Main menu', 'NavLinkClickParent'
+  : 'None', 'NavLinkClickItem': $(this).text() , 'event': 'Nav_Link_Click'});\r\n"
+- "        });\r\n"
+- "        //popup submenu\r\n"
+- "        $(\"nav#main-menu > ul > li > ul > li > a\").click(function(){\r\n"
+- "            dataLayer.push({'NavLinkClickMenu':'Sub menu', 'NavLinkClickParent'
+  : $(this).parent().parent().parent().children(\"a\").text(), 'NavLinkClickItem':
+  $(this).text() , 'event': 'Nav_Link_Click'});\r\n"
+- "        });\r\n"
+- "\r\n"
+- "        //non-popup submenu\r\n"
+- "        $(\"div#subnav-onpage > div > ul > li > a\").click(function(){\r\n"
+- "            dataLayer.push({'NavLinkClickMenu':'Sub menu', 'NavLinkClickParent'
+  : $(this).parent().parent().parent().data(\"parent-menu\"), 'NavLinkClickItem':
+  $(this).text() , 'event': 'Nav_Link_Click'});\r\n"
+- "        });\r\n"
+- "\r\n"
+- "    });\r\n"
+- "\r\n"
+- "\r\n"
+- "IDC HOME\r\n"
+- "      ENERGY\r\n"
+- "      FINANCIAL\r\n"
+- "      GOVERNMENT\r\n"
+- "      HEALTH\r\n"
+- "      MANUFACTURING\r\n"
+- "      RETAIL\r\n"
+- "    \r\n"
+- "        Shopping Cart\r\n"
+- "        Need Help?\r\n"
+- "    \r\n"
+- "  \r\n"
+- "  \r\n"
+- "      IDC\r\n"
+- "\r\n"
+- "      \r\n"
+- "        \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "        \r\n"
+- "    \r\n"
+- "        Advanced Search\r\n"
+- "    \r\n"
+- "\r\n"
+- "    \r\n"
+- "        English\r\n"
+- "        Any language\r\n"
+- "            \r\n"
+- "                Chinese\r\n"
+- "            \r\n"
+- "                English\r\n"
+- "            \r\n"
+- "                French\r\n"
+- "            \r\n"
+- "                German\r\n"
+- "            \r\n"
+- "                Italian\r\n"
+- "            \r\n"
+- "                Japanese\r\n"
+- "            \r\n"
+- "                Korean\r\n"
+- "            \r\n"
+- "                Portuguese\r\n"
+- "            \r\n"
+- "                Russian\r\n"
+- "            \r\n"
+- "                Spanish\r\n"
+- "            \r\n"
+- "        \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    function sendSearch() {\r\n"
+- "        var selectedLanguage = $('#selectedLanguage').text();\r\n"
+- "        if(selectedLanguage == 'Any language'){\r\n"
+- "            selectedLanguage = \"\";\r\n"
+- "        }\r\n"
+- "        $(\".searchbar input[type=hidden]\").val(selectedLanguage);\r\n"
+- "        document.basicSearchForm.submit();\r\n"
+- "    }\r\n"
+- "\r\n"
+- "    // Search Bar dropdown language selection\r\n"
+- "    function DropDown(el) {\r\n"
+- "        this.dd = el;\r\n"
+- "        this.placeholder = this.dd.children('span');\r\n"
+- "        this.opts = this.dd.find('ul.language > li');\r\n"
+- "        this.val = '';\r\n"
+- "        this.index = -1;\r\n"
+- "        this.initEvents();\r\n"
+- "    }\r\n"
+- "    DropDown.prototype = {\r\n"
+- "        initEvents : function() {\r\n"
+- "            var obj = this;\r\n"
+- "\r\n"
+- "            obj.dd.on('click', function(event){\r\n"
+- "                $(this).toggleClass('active');\r\n"
+- "                return false;\r\n"
+- "            });\r\n"
+- "\r\n"
+- "            obj.opts.on('click',function(){\r\n"
+- "                var opt = $(this);\r\n"
+- "                obj.val = opt.text();\r\n"
+- "                obj.index = opt.index();\r\n"
+- "                obj.placeholder.text(obj.val);\r\n"
+- "            });\r\n"
+- "        },\r\n"
+- "        getValue : function() {\r\n"
+- "            return this.val;\r\n"
+- "        },\r\n"
+- "        getIndex : function() {\r\n"
+- "            return this.index;\r\n"
+- "        }\r\n"
+- "    }\r\n"
+- "\r\n"
+- "    $(function() {\r\n"
+- "\r\n"
+- "        var dd = new DropDown( $('.styled-select') );\r\n"
+- "\r\n"
+- "        $(document).click(function() {\r\n"
+- "            // all dropdowns\r\n"
+- "            $('.styled-select').removeClass('active');\r\n"
+- "        });\r\n"
+- "\r\n"
+- "    });\r\n"
+- "\r\n"
+- "\r\n"
+- "      \r\n"
+- "          \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        \r\n"
+- "        \r\n"
+- "            Login\r\n"
+- "        \r\n"
+- "        \r\n"
+- "            Register\r\n"
+- "        \r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    $(document).ready(function() {\r\n"
+- "\r\n"
+- "        $(\"#loggedUser\").click(function() {\r\n"
+- "            var X=$(this).attr('id');\r\n"
+- "            if(X==1)\r\n"
+- "            {\r\n"
+- "                $(\".loginInfo\").hide();\r\n"
+- "                $(this).attr('id', '0');\r\n"
+- "            }\r\n"
+- "            else\r\n"
+- "            {\r\n"
+- "                $(\".loginInfo\").show();\r\n"
+- "                $(this).attr('id', '1');\r\n"
+- "            }\r\n"
+- "        });\r\n"
+- "\r\n"
+- "        //Mouse click on sub menu\r\n"
+- "        $(\".loginInfo\").mouseup(function() {\r\n"
+- "            return false\r\n"
+- "        });\r\n"
+- "\r\n"
+- "        //Mouse click on my account link\r\n"
+- "        $(\"#loggedUser\").mouseup(function() {\r\n"
+- "            return false\r\n"
+- "        });\r\n"
+- "\r\n"
+- "\r\n"
+- "        //Document Click\r\n"
+- "        $('body').mouseup(function() {\r\n"
+- "            $(\".loginInfo\").hide();\r\n"
+- "            $(\"#loggedUser\").attr('id', '');\r\n"
+- "        });\r\n"
+- "\r\n"
+- "        //Document Click for iPad\r\n"
+- "        $(document).bind( 'touchstart', function(e){\r\n"
+- "            $(\".loginInfo\").hide();\r\n"
+- "            $(\"#loggedUser\").attr('id', '');\r\n"
+- "        });\r\n"
+- "        $('.loginInfo').on('touchstart', function(e){\r\n"
+- "            e.stopPropagation();\r\n"
+- "        });\r\n"
+- "\r\n"
+- "    });\r\n"
+- "\r\n"
+- "    function showSub(num) {\r\n"
+- "        $(\"#subSubMenu\" + num).removeClass('submenu-manageAccount_off');\r\n"
+- "        $(\"#subSubMenu\" + num).addClass('submenu-manageAccount');\r\n"
+- "    }\r\n"
+- "\r\n"
+- "    function hideSub(num) {\r\n"
+- "        $(\"#subSubMenu\" + num).removeClass('submenu-manageAccount');\r\n"
+- "        $(\"#subSubMenu\" + num).addClass('submenu-manageAccount_off');\r\n"
+- "    }\r\n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "          Home\r\n"
+- "        \r\n"
+- "        \r\n"
+- "          About IDC\r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Methodology
+- |2
+    Management
+- |2
+    Worldwide Offices
+- |2
+    Careers at IDC
+- |2
+    IDC Media Center
+- "\r\n"
+- "        \r\n"
+- "          Analysts\r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Request Appearance
+- |2
+    Analyst Teams
+- "\r\n"
+- "        \r\n"
+- "          Products + Services\r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  New Research
+- |2
+    Subscription Services
+- |2
+    Contact Sales
+- "\r\n"
+- "        \r\n"
+- "          Events\r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Asia/Pacific
+- |2
+    CEMA
+- |2
+    Latin America
+- |2
+    North America
+- |2
+    Western Europe
+- "\r\n"
+- "        \r\n"
+- "          Contact Us\r\n"
+- "        \r\n"
+- "        \r\n"
+- "          myIDC\r\n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "         \n"
+- |2
+    Local Sites
+- |2
+    Asia/Pacific
+- |2
+           Australia
+- |2
+           China
+- |2
+           Hong Kong
+- |2
+           India
+- |2
+           Indonesia
+- |2
+           Korea
+- |2
+           Malaysia
+- |2
+           New Zealand
+- |2
+           Philippines
+- |2
+           Singapore
+- |2
+           Taiwan
+- |2
+           Thailand
+- |2
+           Vietnam
+- |2
+      Canada
+- |2
+      Central & Eastern Europe
+- |2
+           Belarus
+- |2
+           Bulgaria
+- |2
+           Croatia
+- |2
+           Czech Republic
+- |2
+           Greece
+- |2
+           Hungary
+- |2
+           Kazakhstan
+- |2
+           Poland
+- |2
+           Romania
+- |2
+           Russia
+- |2
+           Serbia
+- |2
+           Slovakia
+- |2
+           Slovenia
+- |2
+           Ukraine
+- |2
+      Japan
+- |2
+      Latin America
+- |2
+           Argentina
+- |2
+           Brazil
+- |2
+           Chile
+- |2
+           Colombia
+- |2
+           Mexico
+- |2
+           Peru
+- |2
+           Venezuela
+- |2
+      Middle East and Africa
+- |2
+           Gulf States/UAE
+- |2
+           Israel
+- |2
+           South Africa
+- |2
+           Turkey
+- |2
+      United States
+- |2
+           IDC Corporate USA
+- |2
+      Western Europe
+- |2
+           Austria
+- |2
+           Benelux
+- |2
+           Denmark
+- |2
+           Finland
+- |2
+           France
+- |2
+           Germany
+- |2
+           Italy
+- |2
+           Norway
+- |2
+           Portugal
+- |2
+           Spain
+- |2
+           Sweden
+- |2
+           United Kingdom
+- "    \n"
+- |2+
+
+- |2+
+
+- |
+  $(document).ready(function() {
+- |2+
+
+- |2
+    $(".ls-link").click(function() {
+- |2
+      var X=$(this).attr('id');
+- |2
+      if(X==1)
+- |2
+      {
+- |2
+        $("#localsites").hide();
+- "      $(this).attr('id', '0'); \n"
+- |2
+      }
+- |2
+      else
+- |2
+      {
+- |2
+        $("#localsites").show();
+- |2
+        $(this).attr('id', '1');
+- |2
+      }
+- |2
+    });
+- |2+
+
+- |2
+    //Mouse click on sub menu
+- |2
+    $("#localsites").mouseup(function() {
+- |2
+      return false
+- |2
+    });
+- |2+
+
+- |2
+    //Mouse click on my account link
+- |2
+    $(".ls-link").mouseup(function() {
+- |2
+      return false
+- |2
+    });
+- |2+
+
+- |2+
+
+- |2
+    //Document Click
+- |2
+    $(document).mouseup(function() {
+- |2
+      $("#localsites").hide();
+- |2
+      $(".ls-link").attr('id', '');
+- |2
+    });
+- "  \n"
+- |2
+    //Document Click for iPad
+- |2
+    $(document).bind( 'touchstart', function(e){
+- |2
+      $("#localsites").hide();
+- |2
+      $(".ls-link").attr('id', '');
+- |2
+    });
+- "  $('#localsites').on('touchstart', function(e){ \n"
+- |2
+      e.stopPropagation();
+- |2
+    });
+- "  \n"
+- "}); \n"
+- "\r\n"
+- "      \r\n"
+- "      \r\n"
+- "      \r\n"
+- "        \r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Methodology
+- |2
+    Management
+- |2
+    Worldwide Offices
+- |2
+    Careers at IDC
+- |2
+    IDC Media Center
+- "\r\n"
+- "        \r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Request Appearance
+- |2
+    Analyst Teams
+- "\r\n"
+- "        \r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  New Research
+- |2
+    Subscription Services
+- |2
+    Contact Sales
+- "\r\n"
+- "        \r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Asia/Pacific
+- |2
+    CEMA
+- |2
+    Latin America
+- |2
+    North America
+- |2
+    Western Europe
+- "\r\n"
+- "        \r\n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "                \r\n"
+- "      \r\n"
+- "  \r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "  \r\n"
+- "      \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Related Links\r\n"
+- "\r\n"
+- "\r\n"
+- "  Browse Research by:\r\n"
+- "  All Research\r\n"
+- "\tBig Data\r\n"
+- "\tCloud Computing\r\n"
+- "\tConsumer\r\n"
+- "\tGlobal IT and Economic Markets\r\n"
+- "\tGovernance, Risk and Compliance\r\n"
+- "\tHardware\r\n"
+- "\tMarketing and Sales Operations\r\n"
+- "\tPricing and Valuation\r\n"
+- "\tServices\r\n"
+- "\tSmall and Medium Business\r\n"
+- "\tSocial Business\r\n"
+- "\tSoftware\r\n"
+- "\tTelecomunications\r\n"
+- "\tVertical Markets\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Featured Analyst
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2
+      Mario Morales
+- "    \n"
+- |2
+      Program Vice President, Semiconductors and EMS
+- "  \n"
+- "  Directions 2016 San Jose/CA: All participating AnalystsDirections 2016 San Jose/CA:
+  Analysts hosting 1-1 MeetingsDirections 2016 San Jose/CA: Analysts hosting Lunch
+  RoundtablesInternet of Things (IoT)Semiconductors       \n"
+- "      \n"
+- |2+
+
+- "      \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Home\r\n"
+- "            About IDC\r\n"
+- "            Analysts\r\n"
+- "            Products + Services\r\n"
+- "            Events\r\n"
+- "            myIDC\r\n"
+- "        \r\n"
+- "        \r\n"
+- "          \r\n"
+- "            IDC Research, Inc.\r\n"
+- "            5 Speen Street\r\n"
+- "            Framingham, MA 01701+1.508.872.8200\r\n"
+- "        \r\n"
+- "        \r\n"
+- "        \r\n"
+- "            \r\n"
+- "                Contact IDC |\r\n"
+- "                Help |\r\n"
+- "                RSS/Feeds |\r\n"
+- "                Follow IDC on Twitter\r\n"
+- "                 | \r\n"
+- "                Mobile Version\r\n"
+- "                    \r\n"
+- "                        $(\"#sitePreferenceDesktop\").attr(\"href\", window.location.href
+  + ( window.location.href.indexOf(\"?\") != -1 ? \"&\" : \"?\") + \"showSite=mobile\");\r\n"
+- "                        $(\"#sitePreferenceDesktop\").click(function(event){dataLayer.push({'event':
+  'Switch_To_Mobile_Version'});});\r\n"
+- "                    \r\n"
+- "\r\n"
+- "            \r\n"
+- "            var addthis_config = {   'services_exclude': 'facebook,twitter,linkedin,google_plusone_share',
+  \  'ui_hover_direction': -1};$(document).ready(function() {   $.getScript('//s7.addthis.com/js/300/addthis_widget.js',
+  function() {       addthis.addEventListener('addthis.menu.share', function(evt)
+  {logEventGA(evt.data.service);});   });});           \r\n"
+- "            \r\n"
+- "            \r\n"
+- "                Careers |\r\n"
+- "                Customer Service |\r\n"
+- "                Sales |\r\n"
+- "                WW Offices |\r\n"
+- "                Web Rights & Licensing |\r\n"
+- "                Privacy Policy |\r\n"
+- "                Terms of Use |\r\n"
+- "                Trademarks\r\n"
+- "            \r\n"
+- "        \r\n"
+- "        \r\n"
+- "            Copyright 2015 IDC.\r\n"
+- "            All rights reserved.\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    (function ($) {\r\n"
+- "        $.fn.list_ticker = function (options) {\r\n"
+- "\r\n"
+- "            var defaults = {\r\n"
+- "                speed: 4000,\r\n"
+- "                effect: 'slide'\r\n"
+- "            };\r\n"
+- "\r\n"
+- "            var options = $.extend(defaults, options);\r\n"
+- "\r\n"
+- "            return this.each(function () {\r\n"
+- "\r\n"
+- "                var obj = $(this);\r\n"
+- "                var list = obj.children();\r\n"
+- "                list.not(':first').hide();\r\n"
+- "\r\n"
+- "                setInterval(function () {\r\n"
+- "\r\n"
+- "                    list = obj.children();\r\n"
+- "                    list.not(':first').hide();\r\n"
+- "\r\n"
+- "                    var first_li = list.eq(0)\r\n"
+- "                    var second_li = list.eq(1)\r\n"
+- "\r\n"
+- "                    if (options.effect == 'slide') {\r\n"
+- "                        first_li.slideUp();\r\n"
+- "                        second_li.slideDown(function () {\r\n"
+- "                            first_li.remove().appendTo(obj);\r\n"
+- "                        });\r\n"
+- "                    } else if (options.effect == 'fade') {\r\n"
+- "                        first_li.fadeOut(function () {\r\n"
+- "                            second_li.fadeIn();\r\n"
+- "                            first_li.remove().appendTo(obj);\r\n"
+- "                        });\r\n"
+- "                    }\r\n"
+- "                }, options.speed)\r\n"
+- "            });\r\n"
+- "        };\r\n"
+- "    })(jQuery);\r\n"
+- "\r\n"
+- "    $(document).ready(function () {\r\n"
+- "        $('#slide').list_ticker({\r\n"
+- "            speed: 4000,\r\n"
+- "            effect: 'slide'\r\n"
+- "        });\r\n"
+- "    })\r\n"
+- "\r\n"
+- "\r\n"
+- "    $(\".MainBanner .bannerListWpr a\").click(function(event) {\r\n"
+- "        dataLayer.push({\r\n"
+- "            'event': 'Main_Banner_Click',\r\n"
+- "            'BannerLink':$(this).attr(\"href\")\r\n"
+- "        });\r\n"
+- "    });\r\n"
+- "    $(\".SmallBanner .bannerListWpr a\").click(function(event) {\r\n"
+- "        dataLayer.push({\r\n"
+- "            'event': 'Small_Banner_Click',\r\n"
+- "            'BannerLink':$(this).attr(\"href\")\r\n"
+- "        });\r\n"
+- "    });\r\n"
+- "    $(\"#cloud-carousel .carousel-cycle a\").click(function(event) {\r\n"
+- "        dataLayer.push({\r\n"
+- "            'event': 'Carousel_Banner_Click',\r\n"
+- "            'BannerLink':$(this).attr(\"href\")\r\n"
+- "        });\r\n"
+- "    });\r\n"
+- "<!--\r\n"
+- "/* You may give each page an identifying name, server, and channel on\r\n"
+- " the next lines. */\r\n"
+- "s.pageName = \"\"\r\n"
+- "s.server = \"\"\r\n"
+- "s.channel = \"\"\r\n"
+- "s.pageType = \"\"\r\n"
+- "s.prop1 = \"\"\r\n"
+- "s.prop2 = \"\"\r\n"
+- "s.prop3 = \"\"\r\n"
+- "s.prop4 = \"\"\r\n"
+- "s.prop5 = \"\"\r\n"
+- "/* Conversion Variables */\r\n"
+- "s.campaign = \"\"\r\n"
+- "s.state = \"\"\r\n"
+- "s.zip = \"\"\r\n"
+- "s.events = \"\"\r\n"
+- "s.products = \"\"\r\n"
+- "s.purchaseID = \"\"\r\n"
+- "s.eVar1 = \"\"\r\n"
+- "s.eVar2 = \"\"\r\n"
+- "s.eVar3 = \"\"\r\n"
+- "s.eVar4 = \"\"\r\n"
+- "s.eVar5 = \"\"\r\n"
+- "/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\r\n"
+- "var s_code = s.t();\r\n"
+- "if (s_code)document.write(s_code)//--><!--\r\n"
+- "if (navigator.appVersion.indexOf('MSIE') >= 0)document.write(unescape('%3C') +
+  '\\!-' + '-')\r\n"
+- "//-->\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "        Shopping Cart\r\n"
+- "        Need Help?\r\n"
+- "    \r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        \r\n"
+- "        \r\n"
+- "                Contact IDC |\r\n"
+- "                Help |\r\n"
+- "                RSS/Feeds |\r\n"
+- "                Follow IDC on Twitter\r\n"
+- "                 | \r\n"
+- "                Mobile Version\r\n"
+- "                    \r\n"
+- "                        $(\"#sitePreferenceDesktop\").attr(\"href\", window.location.href
+  + ( window.location.href.indexOf(\"?\") != -1 ? \"&\" : \"?\") + \"showSite=mobile\");\r\n"
+- "                        $(\"#sitePreferenceDesktop\").click(function(event){dataLayer.push({'event':
+  'Switch_To_Mobile_Version'});});\r\n"
+- "                    \r\n"
+- "                Careers |\r\n"
+- "                Customer Service |\r\n"
+- "                Sales |\r\n"
+- "                WW Offices |\r\n"
+- "                Web Rights & Licensing |\r\n"
+- "                Privacy Policy |\r\n"
+- "                Terms of Use |\r\n"
+- "                Trademarks\r\n"
+- "            "
+index:
+  userid: !ruby/object:Word
+    word: userid
+    stem: userid
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 53
+  sessionid: !ruby/object:Word
+    word: sessionid
+    stem: sessionid
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 54
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 141.0
+    docPositions:
+    - 52
+    - 53
+    - 54
+    - 55
+    - 57
+    - 58
+    - 69
+    - 70
+    - 72
+    - 77
+    - 79
+    - 80
+    - 81
+    - 84
+    - 85
+    - 89
+    - 90
+    - 170
+    - 174
+    - 188
+    - 207
+    - 211
+    - 212
+    - 213
+    - 248
+    - 250
+    - 254
+    - 255
+    - 259
+    - 260
+    - 264
+    - 265
+    - 269
+    - 270
+    - 275
+    - 276
+    - 277
+    - 278
+    - 281
+    - 282
+    - 283
+    - 284
+    - 286
+    - 293
+    - 294
+    - 298
+    - 299
+    - 363
+    - 364
+    - 365
+    - 366
+    - 367
+    - 368
+    - 369
+    - 370
+    - 371
+    - 372
+    - 373
+    - 374
+    - 375
+    - 378
+    - 379
+    - 380
+    - 381
+    - 382
+    - 383
+    - 384
+    - 385
+    - 386
+    - 387
+    - 388
+    - 389
+    - 390
+    - 391
+    - 394
+    - 395
+    - 396
+    - 397
+    - 398
+    - 399
+    - 400
+    - 402
+    - 403
+    - 404
+    - 405
+    - 407
+    - 409
+    - 410
+    - 411
+    - 412
+    - 413
+    - 414
+    - 415
+    - 416
+    - 417
+    - 418
+    - 419
+    - 420
+    - 424
+    - 426
+    - 430
+    - 431
+    - 435
+    - 436
+    - 440
+    - 441
+    - 445
+    - 446
+    - 451
+    - 452
+    - 453
+    - 454
+    - 457
+    - 458
+    - 459
+    - 460
+    - 462
+    - 665
+    - 666
+    - 698
+    - 699
+    - 727
+    - 733
+    - 736
+    - 738
+    - 739
+    - 746
+    - 748
+    - 749
+    - 752
+    - 754
+    - 755
+    - 758
+    - 760
+    - 761
+    - 765
+    - 776
+    - 788
+    - 814
+    - 815
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 49.0
+    docPositions:
+    - 52
+    - 63
+    - 69
+    - 70
+    - 79
+    - 81
+    - 85
+    - 90
+    - 165
+    - 175
+    - 184
+    - 187
+    - 192
+    - 199
+    - 202
+    - 207
+    - 211
+    - 248
+    - 250
+    - 265
+    - 270
+    - 276
+    - 282
+    - 286
+    - 292
+    - 297
+    - 424
+    - 426
+    - 441
+    - 446
+    - 452
+    - 458
+    - 462
+    - 666
+    - 670
+    - 698
+    - 699
+    - 708
+    - 714
+    - 724
+    - 728
+    - 738
+    - 746
+    - 752
+    - 758
+    - 815
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 5.0
+    docPositions:
+    - 52
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 4.0
+    docPositions:
+    - 52
+    - 55
+    - 56
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 25.0
+    docPositions:
+    - 52
+    - 55
+    - 56
+    - 767
+    - 768
+    - 769
+    - 770
+    - 771
+    - 772
+    - 773
+    - 774
+    - 775
+    - 777
+    - 778
+    - 779
+    - 780
+    - 781
+    - 782
+    - 783
+    - 784
+    - 785
+    - 786
+    - 787
+    - 789
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 8.0
+    docPositions:
+    - 52
+    - 56
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 57
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 10.0
+    docPositions:
+    - 52
+    - 82
+    - 86
+    - 91
+    - 666
+    - 747
+    - 753
+    - 759
+    - 815
+  user_id: !ruby/object:Word
+    word: user_id
+    stem: user_id
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  session_id: !ruby/object:Word
+    word: session_id
+    stem: session_id
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  gtm: !ruby/object:Word
+    word: gtm
+    stem: gtm
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 57
+    - 58
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 6.0
+    docPositions:
+    - 55
+    - 209
+    - 332
+    - 370
+    - 492
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 16.0
+    docPositions:
+    - 55
+    - 82
+    - 86
+    - 91
+    - 187
+    - 666
+    - 746
+    - 748
+    - 752
+    - 754
+    - 758
+    - 760
+    - 815
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 57
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 5.0
+    docPositions:
+    - 56
+    - 57
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  dl: !ruby/object:Word
+    word: dl
+    stem: dl
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 57
+  datalayer: !ruby/object:Word
+    word: datalayer
+    stem: datalay
+    docFrequency: 11.0
+    docPositions:
+    - 56
+    - 58
+    - 82
+    - 86
+    - 91
+    - 666
+    - 747
+    - 753
+    - 759
+    - 815
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  googletagmanager: !ruby/object:Word
+    word: googletagmanager
+    stem: googletagmanag
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 12.0
+    docPositions:
+    - 57
+    - 251
+    - 255
+    - 260
+    - 278
+    - 284
+    - 427
+    - 431
+    - 436
+    - 454
+    - 460
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 6.0
+    docPositions:
+    - 58
+    - 665
+    - 814
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 19.0
+    docPositions:
+    - 58
+    - 69
+    - 79
+    - 171
+    - 211
+    - 248
+    - 275
+    - 281
+    - 282
+    - 424
+    - 451
+    - 452
+    - 457
+    - 458
+    - 670
+    - 738
+    - 790
+    - 791
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  mm_jumpmenu: !ruby/object:Word
+    word: mm_jumpmenu
+    stem: mm_jumpmenu
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  targ: !ruby/object:Word
+    word: targ
+    stem: targ
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 64
+  selobj: !ruby/object:Word
+    word: selobj
+    stem: selobj
+    docFrequency: 5.0
+    docPositions:
+    - 63
+    - 64
+    - 65
+  restore: !ruby/object:Word
+    word: restore
+    stem: restor
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 65
+  eval: !ruby/object:Word
+    word: eval
+    stem: eval
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 6.0
+    docPositions:
+    - 64
+    - 665
+    - 814
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 8.0
+    docPositions:
+    - 64
+    - 699
+    - 706
+    - 722
+    - 727
+    - 733
+  selectedindex: !ruby/object:Word
+    word: selectedindex
+    stem: selectedindex
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 65
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 65
+    - 167
+    - 252
+    - 428
+    - 722
+    - 727
+    - 790
+    - 791
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 7.0
+    docPositions:
+    - 69
+    - 79
+    - 248
+    - 424
+    - 670
+    - 738
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 80
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 7.0
+    docPositions:
+    - 70
+    - 81
+    - 85
+    - 90
+    - 178
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 23.0
+    docPositions:
+    - 70
+    - 81
+    - 85
+    - 90
+    - 187
+    - 192
+    - 211
+    - 250
+    - 264
+    - 269
+    - 275
+    - 281
+    - 426
+    - 440
+    - 445
+    - 451
+    - 457
+    - 666
+    - 746
+    - 752
+    - 758
+    - 815
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 72
+  attr: !ruby/object:Word
+    word: attr
+    stem: attr
+    docFrequency: 17.0
+    docPositions:
+    - 71
+    - 251
+    - 255
+    - 260
+    - 278
+    - 284
+    - 427
+    - 431
+    - 436
+    - 454
+    - 460
+    - 665
+    - 749
+    - 755
+    - 761
+    - 814
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 9.0
+    docPositions:
+    - 72
+    - 82
+    - 86
+    - 91
+    - 166
+    - 194
+    - 196
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 10.0
+    docPositions:
+    - 73
+    - 189
+    - 200
+    - 203
+    - 266
+    - 271
+    - 442
+    - 447
+    - 708
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 73
+    - 189
+    - 266
+    - 271
+    - 442
+    - 447
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  tag: !ruby/object:Word
+    word: tag
+    stem: tag
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  manager: !ruby/object:Word
+    word: manager
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 5.0
+    docPositions:
+    - 80
+    - 81
+    - 82
+    - 85
+  nav: !ruby/object:Word
+    word: nav
+    stem: nav
+    docFrequency: 3.0
+    docPositions:
+    - 81
+    - 85
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 10.0
+    docPositions:
+    - 81
+    - 82
+    - 85
+    - 86
+    - 91
+    - 264
+    - 440
+    - 670
+  ul: !ruby/object:Word
+    word: ul
+    stem: ul
+    docFrequency: 6.0
+    docPositions:
+    - 81
+    - 85
+    - 90
+    - 178
+  navlinkclickmenu: !ruby/object:Word
+    word: navlinkclickmenu
+    stem: navlinkclickmenu
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 86
+    - 91
+  navlinkclickparent: !ruby/object:Word
+    word: navlinkclickparent
+    stem: navlinkclickpar
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 86
+    - 91
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  navlinkclickitem: !ruby/object:Word
+    word: navlinkclickitem
+    stem: navlinkclickitem
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 86
+    - 91
+  nav_link_click: !ruby/object:Word
+    word: nav_link_click
+    stem: nav_link_click
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 86
+    - 91
+  popup: !ruby/object:Word
+    word: popup
+    stem: popup
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 89
+  submenu: !ruby/object:Word
+    word: submenu
+    stem: submenu
+    docFrequency: 7.0
+    docPositions:
+    - 84
+    - 89
+    - 293
+    - 294
+    - 298
+    - 299
+  sub: !ruby/object:Word
+    word: sub
+    stem: sub
+    docFrequency: 5.0
+    docPositions:
+    - 86
+    - 91
+    - 264
+    - 440
+  parent: !ruby/object:Word
+    word: parent
+    stem: parent
+    docFrequency: 8.0
+    docPositions:
+    - 86
+    - 91
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 5.0
+    docPositions:
+    - 86
+    - 177
+    - 711
+    - 716
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 90
+  subnav: !ruby/object:Word
+    word: subnav
+    stem: subnav
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  onpage: !ruby/object:Word
+    word: onpage
+    stem: onpag
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 4.0
+    docPositions:
+    - 91
+    - 546
+    - 670
+  idc: !ruby/object:Word
+    word: idc
+    stem: idc
+    docFrequency: 16.0
+    docPositions:
+    - 97
+    - 110
+    - 309
+    - 316
+    - 317
+    - 407
+    - 478
+    - 479
+    - 643
+    - 651
+    - 658
+    - 661
+    - 684
+    - 807
+    - 810
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 4.0
+    docPositions:
+    - 97
+    - 306
+    - 642
+  energy: !ruby/object:Word
+    word: energy
+    stem: energi
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  financial: !ruby/object:Word
+    word: financial
+    stem: financi
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  manufacturing: !ruby/object:Word
+    word: manufacturing
+    stem: manufactur
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  retail: !ruby/object:Word
+    word: retail
+    stem: retail
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  shopping: !ruby/object:Word
+    word: shopping
+    stem: shop
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 798
+  cart: !ruby/object:Word
+    word: cart
+    stem: cart
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 798
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 799
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 5.0
+    docPositions:
+    - 106
+    - 659
+    - 799
+    - 808
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 174
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 143
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 3.0
+    docPositions:
+    - 139
+    - 167
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 5.0
+    docPositions:
+    - 139
+    - 167
+    - 174
+    - 178
+  chinese: !ruby/object:Word
+    word: chinese
+    stem: chines
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  french: !ruby/object:Word
+    word: french
+    stem: french
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  german: !ruby/object:Word
+    word: german
+    stem: german
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  italian: !ruby/object:Word
+    word: italian
+    stem: italian
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  japanese: !ruby/object:Word
+    word: japanese
+    stem: japanes
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  korean: !ruby/object:Word
+    word: korean
+    stem: korean
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  portuguese: !ruby/object:Word
+    word: portuguese
+    stem: portugues
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  russian: !ruby/object:Word
+    word: russian
+    stem: russian
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  spanish: !ruby/object:Word
+    word: spanish
+    stem: spanish
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  sendsearch: !ruby/object:Word
+    word: sendsearch
+    stem: sendsearch
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  selectedlanguage: !ruby/object:Word
+    word: selectedlanguage
+    stem: selectedlanguag
+    docFrequency: 6.0
+    docPositions:
+    - 166
+    - 167
+    - 168
+    - 170
+  searchbar: !ruby/object:Word
+    word: searchbar
+    stem: searchbar
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 6.0
+    docPositions:
+    - 170
+    - 179
+    - 194
+    - 196
+    - 200
+  basicsearchform: !ruby/object:Word
+    word: basicsearchform
+    stem: basicsearchform
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  bar: !ruby/object:Word
+    word: bar
+    stem: bar
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  dropdown: !ruby/object:Word
+    word: dropdown
+    stem: dropdown
+    docFrequency: 5.0
+    docPositions:
+    - 174
+    - 175
+    - 183
+    - 209
+  selection: !ruby/object:Word
+    word: selection
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 176
+  dd: !ruby/object:Word
+    word: dd
+    stem: dd
+    docFrequency: 6.0
+    docPositions:
+    - 176
+    - 177
+    - 178
+    - 187
+    - 209
+  placeholder: !ruby/object:Word
+    word: placeholder
+    stem: placehold
+    docFrequency: 3.0
+    docPositions:
+    - 177
+    - 196
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  opts: !ruby/object:Word
+    word: opts
+    stem: opt
+    docFrequency: 3.0
+    docPositions:
+    - 178
+    - 192
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 5.0
+    docPositions:
+    - 180
+    - 195
+    - 203
+  initevents: !ruby/object:Word
+    word: initevents
+    stem: initev
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 184
+  prototype: !ruby/object:Word
+    word: prototype
+    stem: prototyp
+    docFrequency: 2.0
+    docPositions:
+    - 183
+  obj: !ruby/object:Word
+    word: obj
+    stem: obj
+    docFrequency: 13.0
+    docPositions:
+    - 185
+    - 187
+    - 192
+    - 194
+    - 195
+    - 196
+    - 710
+    - 711
+    - 716
+    - 725
+    - 730
+  toggleclass: !ruby/object:Word
+    word: toggleclass
+    stem: toggleclass
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  active: !ruby/object:Word
+    word: active
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 213
+  opt: !ruby/object:Word
+    word: opt
+    stem: opt
+    docFrequency: 4.0
+    docPositions:
+    - 193
+    - 194
+    - 195
+  getvalue: !ruby/object:Word
+    word: getvalue
+    stem: getvalu
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  getindex: !ruby/object:Word
+    word: getindex
+    stem: getindex
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  styled: !ruby/object:Word
+    word: styled
+    stem: style
+    docFrequency: 3.0
+    docPositions:
+    - 209
+    - 213
+  select: !ruby/object:Word
+    word: select
+    stem: select
+    docFrequency: 3.0
+    docPositions:
+    - 209
+    - 213
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 5.0
+    docPositions:
+    - 212
+    - 545
+    - 614
+    - 685
+  dropdowns: !ruby/object:Word
+    word: dropdowns
+    stem: dropdown
+    docFrequency: 2.0
+    docPositions:
+    - 212
+  removeclass: !ruby/object:Word
+    word: removeclass
+    stem: removeclass
+    docFrequency: 4.0
+    docPositions:
+    - 213
+    - 293
+    - 298
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  register: !ruby/object:Word
+    word: register
+    stem: regist
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  loggeduser: !ruby/object:Word
+    word: loggeduser
+    stem: loggedus
+    docFrequency: 5.0
+    docPositions:
+    - 250
+    - 270
+    - 278
+    - 284
+  x: !ruby/object:Word
+    word: x
+    stem: x
+    docFrequency: 5.0
+    docPositions:
+    - 251
+    - 252
+    - 427
+    - 428
+  logininfo: !ruby/object:Word
+    word: logininfo
+    stem: logininfo
+    docFrequency: 7.0
+    docPositions:
+    - 254
+    - 259
+    - 265
+    - 277
+    - 283
+    - 286
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 9.0
+    docPositions:
+    - 254
+    - 277
+    - 283
+    - 430
+    - 453
+    - 459
+    - 712
+    - 717
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 4.0
+    docPositions:
+    - 257
+    - 433
+    - 727
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 435
+  mouse: !ruby/object:Word
+    word: mouse
+    stem: mous
+    docFrequency: 5.0
+    docPositions:
+    - 264
+    - 269
+    - 440
+    - 445
+  mouseup: !ruby/object:Word
+    word: mouseup
+    stem: mouseup
+    docFrequency: 7.0
+    docPositions:
+    - 265
+    - 270
+    - 276
+    - 441
+    - 446
+    - 452
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 445
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 445
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 7.0
+    docPositions:
+    - 269
+    - 426
+    - 445
+    - 446
+    - 454
+    - 460
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  ipad: !ruby/object:Word
+    word: ipad
+    stem: ipad
+    docFrequency: 3.0
+    docPositions:
+    - 281
+    - 457
+  bind: !ruby/object:Word
+    word: bind
+    stem: bind
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 458
+  touchstart: !ruby/object:Word
+    word: touchstart
+    stem: touchstart
+    docFrequency: 5.0
+    docPositions:
+    - 282
+    - 286
+    - 458
+    - 462
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 7.0
+    docPositions:
+    - 282
+    - 286
+    - 287
+    - 458
+    - 462
+    - 463
+  stoppropagation: !ruby/object:Word
+    word: stoppropagation
+    stem: stoppropag
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 463
+  showsub: !ruby/object:Word
+    word: showsub
+    stem: showsub
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  num: !ruby/object:Word
+    word: num
+    stem: num
+    docFrequency: 7.0
+    docPositions:
+    - 292
+    - 293
+    - 294
+    - 297
+    - 298
+    - 299
+  subsubmenu: !ruby/object:Word
+    word: subsubmenu
+    stem: subsubmenu
+    docFrequency: 5.0
+    docPositions:
+    - 293
+    - 294
+    - 298
+    - 299
+  manageaccount_off: !ruby/object:Word
+    word: manageaccount_off
+    stem: manageaccount_off
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 299
+  addclass: !ruby/object:Word
+    word: addclass
+    stem: addclass
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 299
+  manageaccount: !ruby/object:Word
+    word: manageaccount
+    stem: manageaccount
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 298
+  hidesub: !ruby/object:Word
+    word: hidesub
+    stem: hidesub
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  methodology: !ruby/object:Word
+    word: methodology
+    stem: methodolog
+    docFrequency: 3.0
+    docPositions:
+    - 313
+    - 475
+  management: !ruby/object:Word
+    word: management
+    stem: manag
+    docFrequency: 3.0
+    docPositions:
+    - 314
+    - 476
+  worldwide: !ruby/object:Word
+    word: worldwide
+    stem: worldwid
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 477
+  offices: !ruby/object:Word
+    word: offices
+    stem: offic
+    docFrequency: 5.0
+    docPositions:
+    - 315
+    - 477
+    - 676
+    - 820
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 5.0
+    docPositions:
+    - 316
+    - 478
+    - 673
+    - 817
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 479
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 3.0
+    docPositions:
+    - 317
+    - 479
+  analysts: !ruby/object:Word
+    word: analysts
+    stem: analyst
+    docFrequency: 5.0
+    docPositions:
+    - 320
+    - 614
+    - 644
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 3.0
+    docPositions:
+    - 324
+    - 485
+  appearance: !ruby/object:Word
+    word: appearance
+    stem: appear
+    docFrequency: 3.0
+    docPositions:
+    - 324
+    - 485
+  analyst: !ruby/object:Word
+    word: analyst
+    stem: analyst
+    docFrequency: 4.0
+    docPositions:
+    - 325
+    - 486
+    - 605
+  teams: !ruby/object:Word
+    word: teams
+    stem: team
+    docFrequency: 3.0
+    docPositions:
+    - 325
+    - 486
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 4.0
+    docPositions:
+    - 328
+    - 645
+    - 781
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 6.0
+    docPositions:
+    - 328
+    - 333
+    - 493
+    - 554
+    - 645
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 6.0
+    docPositions:
+    - 332
+    - 492
+    - 544
+    - 545
+    - 651
+  subscription: !ruby/object:Word
+    word: subscription
+    stem: subscript
+    docFrequency: 3.0
+    docPositions:
+    - 333
+    - 493
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 6.0
+    docPositions:
+    - 334
+    - 348
+    - 494
+    - 658
+    - 807
+  sales: !ruby/object:Word
+    word: sales
+    stem: sale
+    docFrequency: 6.0
+    docPositions:
+    - 334
+    - 494
+    - 552
+    - 675
+    - 819
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 337
+    - 646
+    - 780
+  asia: !ruby/object:Word
+    word: asia
+    stem: asia
+    docFrequency: 4.0
+    docPositions:
+    - 341
+    - 362
+    - 500
+  pacific: !ruby/object:Word
+    word: pacific
+    stem: pacif
+    docFrequency: 4.0
+    docPositions:
+    - 341
+    - 362
+    - 500
+  cema: !ruby/object:Word
+    word: cema
+    stem: cema
+    docFrequency: 3.0
+    docPositions:
+    - 342
+    - 501
+  latin: !ruby/object:Word
+    word: latin
+    stem: latin
+    docFrequency: 4.0
+    docPositions:
+    - 343
+    - 393
+    - 502
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 6.0
+    docPositions:
+    - 343
+    - 344
+    - 393
+    - 502
+    - 503
+  north: !ruby/object:Word
+    word: north
+    stem: north
+    docFrequency: 3.0
+    docPositions:
+    - 344
+    - 503
+  western: !ruby/object:Word
+    word: western
+    stem: western
+    docFrequency: 4.0
+    docPositions:
+    - 345
+    - 408
+    - 504
+  europe: !ruby/object:Word
+    word: europe
+    stem: europ
+    docFrequency: 5.0
+    docPositions:
+    - 345
+    - 377
+    - 408
+    - 504
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 348
+  myidc: !ruby/object:Word
+    word: myidc
+    stem: myidc
+    docFrequency: 3.0
+    docPositions:
+    - 351
+    - 647
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 2.0
+    docPositions:
+    - 361
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 361
+  australia: !ruby/object:Word
+    word: australia
+    stem: australia
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  china: !ruby/object:Word
+    word: china
+    stem: china
+    docFrequency: 2.0
+    docPositions:
+    - 364
+  hong: !ruby/object:Word
+    word: hong
+    stem: hong
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  kong: !ruby/object:Word
+    word: kong
+    stem: kong
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  india: !ruby/object:Word
+    word: india
+    stem: india
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  indonesia: !ruby/object:Word
+    word: indonesia
+    stem: indonesia
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  korea: !ruby/object:Word
+    word: korea
+    stem: korea
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  malaysia: !ruby/object:Word
+    word: malaysia
+    stem: malaysia
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  zealand: !ruby/object:Word
+    word: zealand
+    stem: zealand
+    docFrequency: 2.0
+    docPositions:
+    - 370
+  philippines: !ruby/object:Word
+    word: philippines
+    stem: philippin
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  singapore: !ruby/object:Word
+    word: singapore
+    stem: singapor
+    docFrequency: 2.0
+    docPositions:
+    - 372
+  taiwan: !ruby/object:Word
+    word: taiwan
+    stem: taiwan
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  thailand: !ruby/object:Word
+    word: thailand
+    stem: thailand
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  vietnam: !ruby/object:Word
+    word: vietnam
+    stem: vietnam
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  canada: !ruby/object:Word
+    word: canada
+    stem: canada
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  eastern: !ruby/object:Word
+    word: eastern
+    stem: eastern
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  belarus: !ruby/object:Word
+    word: belarus
+    stem: belaru
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  bulgaria: !ruby/object:Word
+    word: bulgaria
+    stem: bulgaria
+    docFrequency: 2.0
+    docPositions:
+    - 379
+  croatia: !ruby/object:Word
+    word: croatia
+    stem: croatia
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  czech: !ruby/object:Word
+    word: czech
+    stem: czech
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  republic: !ruby/object:Word
+    word: republic
+    stem: republ
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  greece: !ruby/object:Word
+    word: greece
+    stem: greec
+    docFrequency: 2.0
+    docPositions:
+    - 382
+  hungary: !ruby/object:Word
+    word: hungary
+    stem: hungari
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  kazakhstan: !ruby/object:Word
+    word: kazakhstan
+    stem: kazakhstan
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  poland: !ruby/object:Word
+    word: poland
+    stem: poland
+    docFrequency: 2.0
+    docPositions:
+    - 385
+  romania: !ruby/object:Word
+    word: romania
+    stem: romania
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  russia: !ruby/object:Word
+    word: russia
+    stem: russia
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  serbia: !ruby/object:Word
+    word: serbia
+    stem: serbia
+    docFrequency: 2.0
+    docPositions:
+    - 388
+  slovakia: !ruby/object:Word
+    word: slovakia
+    stem: slovakia
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  slovenia: !ruby/object:Word
+    word: slovenia
+    stem: slovenia
+    docFrequency: 2.0
+    docPositions:
+    - 390
+  ukraine: !ruby/object:Word
+    word: ukraine
+    stem: ukrain
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  japan: !ruby/object:Word
+    word: japan
+    stem: japan
+    docFrequency: 2.0
+    docPositions:
+    - 392
+  argentina: !ruby/object:Word
+    word: argentina
+    stem: argentina
+    docFrequency: 2.0
+    docPositions:
+    - 394
+  brazil: !ruby/object:Word
+    word: brazil
+    stem: brazil
+    docFrequency: 2.0
+    docPositions:
+    - 395
+  chile: !ruby/object:Word
+    word: chile
+    stem: chile
+    docFrequency: 2.0
+    docPositions:
+    - 396
+  colombia: !ruby/object:Word
+    word: colombia
+    stem: colombia
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  mexico: !ruby/object:Word
+    word: mexico
+    stem: mexico
+    docFrequency: 2.0
+    docPositions:
+    - 398
+  peru: !ruby/object:Word
+    word: peru
+    stem: peru
+    docFrequency: 2.0
+    docPositions:
+    - 399
+  venezuela: !ruby/object:Word
+    word: venezuela
+    stem: venezuela
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  middle: !ruby/object:Word
+    word: middle
+    stem: middl
+    docFrequency: 2.0
+    docPositions:
+    - 401
+  east: !ruby/object:Word
+    word: east
+    stem: east
+    docFrequency: 2.0
+    docPositions:
+    - 401
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 9.0
+    docPositions:
+    - 401
+    - 549
+    - 550
+    - 552
+    - 553
+    - 555
+    - 612
+    - 765
+  africa: !ruby/object:Word
+    word: africa
+    stem: africa
+    docFrequency: 3.0
+    docPositions:
+    - 401
+    - 404
+  gulf: !ruby/object:Word
+    word: gulf
+    stem: gulf
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 3.0
+    docPositions:
+    - 402
+    - 406
+  uae: !ruby/object:Word
+    word: uae
+    stem: uae
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  israel: !ruby/object:Word
+    word: israel
+    stem: israel
+    docFrequency: 2.0
+    docPositions:
+    - 403
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 404
+  turkey: !ruby/object:Word
+    word: turkey
+    stem: turkei
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 3.0
+    docPositions:
+    - 406
+    - 420
+  corporate: !ruby/object:Word
+    word: corporate
+    stem: corpor
+    docFrequency: 2.0
+    docPositions:
+    - 407
+  usa: !ruby/object:Word
+    word: usa
+    stem: usa
+    docFrequency: 2.0
+    docPositions:
+    - 407
+  austria: !ruby/object:Word
+    word: austria
+    stem: austria
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  benelux: !ruby/object:Word
+    word: benelux
+    stem: benelux
+    docFrequency: 2.0
+    docPositions:
+    - 410
+  denmark: !ruby/object:Word
+    word: denmark
+    stem: denmark
+    docFrequency: 2.0
+    docPositions:
+    - 411
+  finland: !ruby/object:Word
+    word: finland
+    stem: finland
+    docFrequency: 2.0
+    docPositions:
+    - 412
+  france: !ruby/object:Word
+    word: france
+    stem: franc
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  germany: !ruby/object:Word
+    word: germany
+    stem: germani
+    docFrequency: 2.0
+    docPositions:
+    - 414
+  italy: !ruby/object:Word
+    word: italy
+    stem: itali
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  norway: !ruby/object:Word
+    word: norway
+    stem: norwai
+    docFrequency: 2.0
+    docPositions:
+    - 416
+  portugal: !ruby/object:Word
+    word: portugal
+    stem: portug
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  spain: !ruby/object:Word
+    word: spain
+    stem: spain
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  sweden: !ruby/object:Word
+    word: sweden
+    stem: sweden
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  kingdom: !ruby/object:Word
+    word: kingdom
+    stem: kingdom
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  ls: !ruby/object:Word
+    word: ls
+    stem: ls
+    docFrequency: 5.0
+    docPositions:
+    - 426
+    - 446
+    - 454
+    - 460
+  localsites: !ruby/object:Word
+    word: localsites
+    stem: localsit
+    docFrequency: 7.0
+    docPositions:
+    - 430
+    - 435
+    - 441
+    - 453
+    - 459
+    - 462
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  big: !ruby/object:Word
+    word: big
+    stem: big
+    docFrequency: 2.0
+    docPositions:
+    - 546
+  cloud: !ruby/object:Word
+    word: cloud
+    stem: cloud
+    docFrequency: 3.0
+    docPositions:
+    - 547
+    - 758
+  computing: !ruby/object:Word
+    word: computing
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 547
+  consumer: !ruby/object:Word
+    word: consumer
+    stem: consum
+    docFrequency: 2.0
+    docPositions:
+    - 548
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 549
+  economic: !ruby/object:Word
+    word: economic
+    stem: econom
+    docFrequency: 2.0
+    docPositions:
+    - 549
+  markets: !ruby/object:Word
+    word: markets
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 549
+    - 559
+  governance: !ruby/object:Word
+    word: governance
+    stem: govern
+    docFrequency: 2.0
+    docPositions:
+    - 550
+  risk: !ruby/object:Word
+    word: risk
+    stem: risk
+    docFrequency: 2.0
+    docPositions:
+    - 550
+  compliance: !ruby/object:Word
+    word: compliance
+    stem: complianc
+    docFrequency: 2.0
+    docPositions:
+    - 550
+  hardware: !ruby/object:Word
+    word: hardware
+    stem: hardwar
+    docFrequency: 2.0
+    docPositions:
+    - 551
+  marketing: !ruby/object:Word
+    word: marketing
+    stem: market
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  operations: !ruby/object:Word
+    word: operations
+    stem: oper
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  pricing: !ruby/object:Word
+    word: pricing
+    stem: price
+    docFrequency: 2.0
+    docPositions:
+    - 553
+  valuation: !ruby/object:Word
+    word: valuation
+    stem: valuat
+    docFrequency: 2.0
+    docPositions:
+    - 553
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 555
+  medium: !ruby/object:Word
+    word: medium
+    stem: medium
+    docFrequency: 2.0
+    docPositions:
+    - 555
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 556
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 556
+  software: !ruby/object:Word
+    word: software
+    stem: softwar
+    docFrequency: 2.0
+    docPositions:
+    - 557
+  telecomunications: !ruby/object:Word
+    word: telecomunications
+    stem: telecomun
+    docFrequency: 2.0
+    docPositions:
+    - 558
+  vertical: !ruby/object:Word
+    word: vertical
+    stem: vertic
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  featured: !ruby/object:Word
+    word: featured
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 605
+  mario: !ruby/object:Word
+    word: mario
+    stem: mario
+    docFrequency: 2.0
+    docPositions:
+    - 610
+  morales: !ruby/object:Word
+    word: morales
+    stem: moral
+    docFrequency: 2.0
+    docPositions:
+    - 610
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 612
+  vice: !ruby/object:Word
+    word: vice
+    stem: vice
+    docFrequency: 2.0
+    docPositions:
+    - 612
+  president: !ruby/object:Word
+    word: president
+    stem: presid
+    docFrequency: 2.0
+    docPositions:
+    - 612
+  semiconductors: !ruby/object:Word
+    word: semiconductors
+    stem: semiconductor
+    docFrequency: 3.0
+    docPositions:
+    - 612
+    - 614
+  ems: !ruby/object:Word
+    word: ems
+    stem: em
+    docFrequency: 2.0
+    docPositions:
+    - 612
+  directions: !ruby/object:Word
+    word: directions
+    stem: direct
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 4.0
+    docPositions:
+    - 614
+  jose: !ruby/object:Word
+    word: jose
+    stem: jose
+    docFrequency: 4.0
+    docPositions:
+    - 614
+  ca: !ruby/object:Word
+    word: ca
+    stem: ca
+    docFrequency: 4.0
+    docPositions:
+    - 614
+  participating: !ruby/object:Word
+    word: participating
+    stem: particip
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  analystsdirections: !ruby/object:Word
+    word: analystsdirections
+    stem: analystsdirect
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  hosting: !ruby/object:Word
+    word: hosting
+    stem: host
+    docFrequency: 3.0
+    docPositions:
+    - 614
+  meetingsdirections: !ruby/object:Word
+    word: meetingsdirections
+    stem: meetingsdirect
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  lunch: !ruby/object:Word
+    word: lunch
+    stem: lunch
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  roundtablesinternet: !ruby/object:Word
+    word: roundtablesinternet
+    stem: roundtablesinternet
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  things: !ruby/object:Word
+    word: things
+    stem: thing
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  iot: !ruby/object:Word
+    word: iot
+    stem: iot
+    docFrequency: 2.0
+    docPositions:
+    - 614
+  inc: !ruby/object:Word
+    word: inc
+    stem: inc
+    docFrequency: 2.0
+    docPositions:
+    - 651
+  speen: !ruby/object:Word
+    word: speen
+    stem: speen
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  street: !ruby/object:Word
+    word: street
+    stem: street
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  framingham: !ruby/object:Word
+    word: framingham
+    stem: framingham
+    docFrequency: 2.0
+    docPositions:
+    - 653
+  ma: !ruby/object:Word
+    word: ma
+    stem: ma
+    docFrequency: 2.0
+    docPositions:
+    - 653
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 3.0
+    docPositions:
+    - 660
+    - 809
+  feeds: !ruby/object:Word
+    word: feeds
+    stem: feed
+    docFrequency: 3.0
+    docPositions:
+    - 660
+    - 809
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 661
+    - 810
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 4.0
+    docPositions:
+    - 661
+    - 670
+    - 810
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 5.0
+    docPositions:
+    - 663
+    - 665
+    - 812
+    - 814
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 3.0
+    docPositions:
+    - 663
+    - 812
+  sitepreferencedesktop: !ruby/object:Word
+    word: sitepreferencedesktop
+    stem: sitepreferencedesktop
+    docFrequency: 5.0
+    docPositions:
+    - 665
+    - 666
+    - 814
+    - 815
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 10.0
+    docPositions:
+    - 665
+    - 749
+    - 755
+    - 761
+    - 814
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 4.0
+    docPositions:
+    - 665
+    - 791
+    - 814
+  showsite: !ruby/object:Word
+    word: showsite
+    stem: showsit
+    docFrequency: 3.0
+    docPositions:
+    - 665
+    - 814
+  switch_to_mobile_version: !ruby/object:Word
+    word: switch_to_mobile_version
+    stem: switch_to_mobile_vers
+    docFrequency: 3.0
+    docPositions:
+    - 666
+    - 815
+  addthis_config: !ruby/object:Word
+    word: addthis_config
+    stem: addthis_config
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  services_exclude: !ruby/object:Word
+    word: services_exclude
+    stem: services_exclud
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  google_plusone_share: !ruby/object:Word
+    word: google_plusone_share
+    stem: google_plusone_shar
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  ui_hover_direction: !ruby/object:Word
+    word: ui_hover_direction
+    stem: ui_hover_direct
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  getscript: !ruby/object:Word
+    word: getscript
+    stem: getscript
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  addthis: !ruby/object:Word
+    word: addthis
+    stem: addthi
+    docFrequency: 4.0
+    docPositions:
+    - 670
+  addthis_widget: !ruby/object:Word
+    word: addthis_widget
+    stem: addthis_widget
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  addeventlistener: !ruby/object:Word
+    word: addeventlistener
+    stem: addeventlisten
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  evt: !ruby/object:Word
+    word: evt
+    stem: evt
+    docFrequency: 3.0
+    docPositions:
+    - 670
+  logeventga: !ruby/object:Word
+    word: logeventga
+    stem: logeventga
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 4.0
+    docPositions:
+    - 670
+    - 674
+    - 818
+  customer: !ruby/object:Word
+    word: customer
+    stem: custom
+    docFrequency: 3.0
+    docPositions:
+    - 674
+    - 818
+  ww: !ruby/object:Word
+    word: ww
+    stem: ww
+    docFrequency: 3.0
+    docPositions:
+    - 676
+    - 820
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 821
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 677
+    - 685
+    - 821
+  licensing: !ruby/object:Word
+    word: licensing
+    stem: licens
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 821
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 678
+    - 822
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 3.0
+    docPositions:
+    - 678
+    - 822
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 679
+    - 823
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 679
+    - 823
+  trademarks: !ruby/object:Word
+    word: trademarks
+    stem: trademark
+    docFrequency: 3.0
+    docPositions:
+    - 680
+    - 824
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 2.0
+    docPositions:
+    - 685
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 699
+  list_ticker: !ruby/object:Word
+    word: list_ticker
+    stem: list_tick
+    docFrequency: 3.0
+    docPositions:
+    - 699
+    - 739
+  defaults: !ruby/object:Word
+    word: defaults
+    stem: default
+    docFrequency: 3.0
+    docPositions:
+    - 701
+    - 706
+  speed: !ruby/object:Word
+    word: speed
+    stem: speed
+    docFrequency: 4.0
+    docPositions:
+    - 702
+    - 733
+    - 740
+  effect: !ruby/object:Word
+    word: effect
+    stem: effect
+    docFrequency: 5.0
+    docPositions:
+    - 703
+    - 722
+    - 727
+    - 741
+  slide: !ruby/object:Word
+    word: slide
+    stem: slide
+    docFrequency: 5.0
+    docPositions:
+    - 703
+    - 722
+    - 739
+    - 741
+  extend: !ruby/object:Word
+    word: extend
+    stem: extend
+    docFrequency: 2.0
+    docPositions:
+    - 706
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 708
+    - 765
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 7.0
+    docPositions:
+    - 711
+    - 712
+    - 716
+    - 717
+    - 719
+    - 720
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 4.0
+    docPositions:
+    - 712
+    - 717
+    - 788
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 712
+    - 717
+  setinterval: !ruby/object:Word
+    word: setinterval
+    stem: setinterv
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  first_li: !ruby/object:Word
+    word: first_li
+    stem: first_li
+    docFrequency: 6.0
+    docPositions:
+    - 719
+    - 723
+    - 725
+    - 728
+    - 730
+  eq: !ruby/object:Word
+    word: eq
+    stem: eq
+    docFrequency: 3.0
+    docPositions:
+    - 719
+    - 720
+  second_li: !ruby/object:Word
+    word: second_li
+    stem: second_li
+    docFrequency: 4.0
+    docPositions:
+    - 720
+    - 724
+    - 729
+  slideup: !ruby/object:Word
+    word: slideup
+    stem: slideup
+    docFrequency: 2.0
+    docPositions:
+    - 723
+  slidedown: !ruby/object:Word
+    word: slidedown
+    stem: slidedown
+    docFrequency: 2.0
+    docPositions:
+    - 724
+  remove: !ruby/object:Word
+    word: remove
+    stem: remov
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 730
+  appendto: !ruby/object:Word
+    word: appendto
+    stem: appendto
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 730
+  fade: !ruby/object:Word
+    word: fade
+    stem: fade
+    docFrequency: 2.0
+    docPositions:
+    - 727
+  fadeout: !ruby/object:Word
+    word: fadeout
+    stem: fadeout
+    docFrequency: 2.0
+    docPositions:
+    - 728
+  fadein: !ruby/object:Word
+    word: fadein
+    stem: fadein
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  mainbanner: !ruby/object:Word
+    word: mainbanner
+    stem: mainbann
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  bannerlistwpr: !ruby/object:Word
+    word: bannerlistwpr
+    stem: bannerlistwpr
+    docFrequency: 3.0
+    docPositions:
+    - 746
+    - 752
+  main_banner_click: !ruby/object:Word
+    word: main_banner_click
+    stem: main_banner_click
+    docFrequency: 2.0
+    docPositions:
+    - 748
+  bannerlink: !ruby/object:Word
+    word: bannerlink
+    stem: bannerlink
+    docFrequency: 4.0
+    docPositions:
+    - 749
+    - 755
+    - 761
+  smallbanner: !ruby/object:Word
+    word: smallbanner
+    stem: smallbann
+    docFrequency: 2.0
+    docPositions:
+    - 752
+  small_banner_click: !ruby/object:Word
+    word: small_banner_click
+    stem: small_banner_click
+    docFrequency: 2.0
+    docPositions:
+    - 754
+  carousel: !ruby/object:Word
+    word: carousel
+    stem: carousel
+    docFrequency: 3.0
+    docPositions:
+    - 758
+  cycle: !ruby/object:Word
+    word: cycle
+    stem: cycl
+    docFrequency: 2.0
+    docPositions:
+    - 758
+  carousel_banner_click: !ruby/object:Word
+    word: carousel_banner_click
+    stem: carousel_banner_click
+    docFrequency: 2.0
+    docPositions:
+    - 760
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  identifying: !ruby/object:Word
+    word: identifying
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  server: !ruby/object:Word
+    word: server
+    stem: server
+    docFrequency: 3.0
+    docPositions:
+    - 765
+    - 768
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 3.0
+    docPositions:
+    - 765
+    - 769
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 2.0
+    docPositions:
+    - 766
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 766
+  pagename: !ruby/object:Word
+    word: pagename
+    stem: pagenam
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  conversion: !ruby/object:Word
+    word: conversion
+    stem: convers
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  variables: !ruby/object:Word
+    word: variables
+    stem: variabl
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  campaign: !ruby/object:Word
+    word: campaign
+    stem: campaign
+    docFrequency: 2.0
+    docPositions:
+    - 777
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 778
+  zip: !ruby/object:Word
+    word: zip
+    stem: zip
+    docFrequency: 2.0
+    docPositions:
+    - 779
+  purchaseid: !ruby/object:Word
+    word: purchaseid
+    stem: purchaseid
+    docFrequency: 2.0
+    docPositions:
+    - 782
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  alter: !ruby/object:Word
+    word: alter
+    stem: alter
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  s_code: !ruby/object:Word
+    word: s_code
+    stem: s_code
+    docFrequency: 4.0
+    docPositions:
+    - 789
+    - 790
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 789
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 790
+    - 791
+  navigator: !ruby/object:Word
+    word: navigator
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 791
+  appversion: !ruby/object:Word
+    word: appversion
+    stem: appvers
+    docFrequency: 2.0
+    docPositions:
+    - 791
+  msie: !ruby/object:Word
+    word: msie
+    stem: msie
+    docFrequency: 2.0
+    docPositions:
+    - 791
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 791
+lineCount: 826
+wordCount: 1269
+rank: 0.2540983606557377
+title: IDC- Article Not Found
+links:
+- http://www.idc.com
+- http://www.ap.idc.asia/events/
+- http://idc-cema.com/eng/events/overview
+- http://www.idclatin.com/events/
+- http://uk.idc.com/western-europe-events/eventshome.jsp
+- http://www.idc.com.sg
+- http://www.idc.com.au/
+- http://www.idc.com.cn/
+- http://www.idc.com.sg/
+- http://www.idcindia.com/
+- http://www.idc.com.my/indonesia
+- http://www.idckorea.com/
+- http://www.idc.com.my/
+- http://www.idcresearch.co.nz/
+- http://www.idc.com.my/philippines
+- http://www.idc.com.sg/
+- http://www.idc.com.tw/
+- http://www.idc.co.th/
+- http://www.idc.com.sg/
+- http://www.idc.ca
+- http://www.idc-cema.com/
+- http://www.idcukraine.com/
+- http://www.idc-cema.com/
+- http://www.idc-adriatics.com/
+- http://www.idc-czech.cz/
+- http://www.idc-cema.com/
+- http://www.idchungary.hu/
+- http://www.idc.com/kazakhstan
+- http://www.idcpoland.pl/
+- http://www.idc-cema.com/
+- http://www.idc.com/russia
+- http://www.idc-adriatics.com/
+- http://www.idc-czech.cz/
+- http://www.idc-adriatics.com/
+- http://www.idcukraine.com
+- http://www.idcjapan.co.jp/
+- http://www.idclatin.com/
+- http://www.idclatin.com/argentina
+- http://www.idclatin.com/brasil
+- http://www.idclatin.com/chile
+- http://www.idccolombia.com.co
+- http://www.idclatin.com/mexico
+- http://www.idclatin.com/peru/
+- http://www.idclatin.com/venezuela
+- http://www.idc-cema.com
+- http://www.idc-cema.com
+- http://www.idc.co.il/
+- http://www.idc-cema.com/
+- http://www.idc-cema.com/
+- http://www.idc.com/home.jsp
+- http://www.idc.com/home.jsp
+- http://www.idc.com/home.jsp
+- http://www.idc-austria.at/
+- http://www.idcbenelux.com/
+- http://www.idc.com/nordic/
+- http://www.idc.com/nordic/
+- http://www.idc.com/france/
+- http://www.idc.de/
+- http://www.idc.com/italy/
+- http://www.idc.com/nordic/
+- http://www.idc.com/portugal/
+- http://www.idc.com/spain/
+- http://www.idc.com/nordic/
+- http://uk.idc.com/
+- http://www.ap.idc.asia/events/
+- http://idc-cema.com/eng/events/overview
+- http://www.idclatin.com/events/
+- http://uk.idc.com/western-europe-events/eventshome.jsp
+- http://www.twitter.com/IDC
+rawText: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    \r\n    \r\n        \r\n
+  \   \r\n\r\n\r\n\r\n\r\n\r\n    \r\n        \r\n    \r\n    \r\n\r\n\r\n\r\n\r\n\r\n
+  \   var userId = \"\";\r\n    var sessionId = \"6FA0092B3429521E7A81C9B5F88225A1\";\r\n
+  \   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\r\n        'User_ID': userId,\r\n
+  \       'Session_ID': sessionId,\r\n        'gtm.start':new Date().getTime(),event:'gtm.js'});var
+  f=d.getElementsByTagName(s)[0],\r\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n
+  \           '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n
+  \   })(window,document,'script','dataLayer','GTM-W488RR');\r\n\r\n\r\n\r\n        <!--\r\n
+  \       function MM_jumpMenu(targ, selObj, restore) { //v3.0\r\n            eval(targ
+  + \".location='\" + selObj.options[selObj.selectedIndex].value + \"'\");\r\n            if
+  (restore) selObj.selectedIndex = 0;\r\n        }\r\n        //-->\r\n    \r\n        $(document).ready(function
+  () {\r\n          $('.navigation li a').click(function () {\r\n                var
+  title = $(this).attr('title');\r\n                $('h2').text(title);\r\n                return
+  false;\r\n            });\r\n        });\r\n    \r\n    //Google tag manager\r\n\r\n
+  \   $(document).ready(function () {\r\n        //main navigation\r\n        $(\"nav#main-menu
+  > ul > li > a\").click(function(){\r\n                dataLayer.push({'NavLinkClickMenu':'Main
+  menu', 'NavLinkClickParent' : 'None', 'NavLinkClickItem': $(this).text() , 'event':
+  'Nav_Link_Click'});\r\n        });\r\n        //popup submenu\r\n        $(\"nav#main-menu
+  > ul > li > ul > li > a\").click(function(){\r\n            dataLayer.push({'NavLinkClickMenu':'Sub
+  menu', 'NavLinkClickParent' : $(this).parent().parent().parent().children(\"a\").text(),
+  'NavLinkClickItem': $(this).text() , 'event': 'Nav_Link_Click'});\r\n        });\r\n\r\n
+  \       //non-popup submenu\r\n        $(\"div#subnav-onpage > div > ul > li > a\").click(function(){\r\n
+  \           dataLayer.push({'NavLinkClickMenu':'Sub menu', 'NavLinkClickParent'
+  : $(this).parent().parent().parent().data(\"parent-menu\"), 'NavLinkClickItem':
+  $(this).text() , 'event': 'Nav_Link_Click'});\r\n        });\r\n\r\n    });\r\n\r\n\r\nIDC
+  HOME\r\n      ENERGY\r\n      FINANCIAL\r\n      GOVERNMENT\r\n      HEALTH\r\n
+  \     MANUFACTURING\r\n      RETAIL\r\n    \r\n        Shopping Cart\r\n        Need
+  Help?\r\n    \r\n  \r\n  \r\n      IDC\r\n\r\n      \r\n        \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \   \r\n\r\n\r\n\r\n    \r\n        \r\n    \r\n        Advanced Search\r\n    \r\n\r\n
+  \   \r\n        English\r\n        Any language\r\n            \r\n                Chinese\r\n
+  \           \r\n                English\r\n            \r\n                French\r\n
+  \           \r\n                German\r\n            \r\n                Italian\r\n
+  \           \r\n                Japanese\r\n            \r\n                Korean\r\n
+  \           \r\n                Portuguese\r\n            \r\n                Russian\r\n
+  \           \r\n                Spanish\r\n            \r\n        \r\n\r\n\r\n\r\n
+  \   function sendSearch() {\r\n        var selectedLanguage = $('#selectedLanguage').text();\r\n
+  \       if(selectedLanguage == 'Any language'){\r\n            selectedLanguage
+  = \"\";\r\n        }\r\n        $(\".searchbar input[type=hidden]\").val(selectedLanguage);\r\n
+  \       document.basicSearchForm.submit();\r\n    }\r\n\r\n    // Search Bar dropdown
+  language selection\r\n    function DropDown(el) {\r\n        this.dd = el;\r\n        this.placeholder
+  = this.dd.children('span');\r\n        this.opts = this.dd.find('ul.language > li');\r\n
+  \       this.val = '';\r\n        this.index = -1;\r\n        this.initEvents();\r\n
+  \   }\r\n    DropDown.prototype = {\r\n        initEvents : function() {\r\n            var
+  obj = this;\r\n\r\n            obj.dd.on('click', function(event){\r\n                $(this).toggleClass('active');\r\n
+  \               return false;\r\n            });\r\n\r\n            obj.opts.on('click',function(){\r\n
+  \               var opt = $(this);\r\n                obj.val = opt.text();\r\n
+  \               obj.index = opt.index();\r\n                obj.placeholder.text(obj.val);\r\n
+  \           });\r\n        },\r\n        getValue : function() {\r\n            return
+  this.val;\r\n        },\r\n        getIndex : function() {\r\n            return
+  this.index;\r\n        }\r\n    }\r\n\r\n    $(function() {\r\n\r\n        var dd
+  = new DropDown( $('.styled-select') );\r\n\r\n        $(document).click(function()
+  {\r\n            // all dropdowns\r\n            $('.styled-select').removeClass('active');\r\n
+  \       });\r\n\r\n    });\r\n\r\n\r\n      \r\n          \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \   \r\n    \r\n        \r\n        \r\n        \r\n            Login\r\n        \r\n
+  \       \r\n            Register\r\n        \r\n\r\n    \r\n\r\n\r\n\r\n\r\n    $(document).ready(function()
+  {\r\n\r\n        $(\"#loggedUser\").click(function() {\r\n            var X=$(this).attr('id');\r\n
+  \           if(X==1)\r\n            {\r\n                $(\".loginInfo\").hide();\r\n
+  \               $(this).attr('id', '0');\r\n            }\r\n            else\r\n
+  \           {\r\n                $(\".loginInfo\").show();\r\n                $(this).attr('id',
+  '1');\r\n            }\r\n        });\r\n\r\n        //Mouse click on sub menu\r\n
+  \       $(\".loginInfo\").mouseup(function() {\r\n            return false\r\n        });\r\n\r\n
+  \       //Mouse click on my account link\r\n        $(\"#loggedUser\").mouseup(function()
+  {\r\n            return false\r\n        });\r\n\r\n\r\n        //Document Click\r\n
+  \       $('body').mouseup(function() {\r\n            $(\".loginInfo\").hide();\r\n
+  \           $(\"#loggedUser\").attr('id', '');\r\n        });\r\n\r\n        //Document
+  Click for iPad\r\n        $(document).bind( 'touchstart', function(e){\r\n            $(\".loginInfo\").hide();\r\n
+  \           $(\"#loggedUser\").attr('id', '');\r\n        });\r\n        $('.loginInfo').on('touchstart',
+  function(e){\r\n            e.stopPropagation();\r\n        });\r\n\r\n    });\r\n\r\n
+  \   function showSub(num) {\r\n        $(\"#subSubMenu\" + num).removeClass('submenu-manageAccount_off');\r\n
+  \       $(\"#subSubMenu\" + num).addClass('submenu-manageAccount');\r\n    }\r\n\r\n
+  \   function hideSub(num) {\r\n        $(\"#subSubMenu\" + num).removeClass('submenu-manageAccount');\r\n
+  \       $(\"#subSubMenu\" + num).addClass('submenu-manageAccount_off');\r\n    }\r\n\r\n
+  \ \r\n\r\n\r\n  \r\n          Home\r\n        \r\n        \r\n          About IDC\r\n
+  \         \n\n\nMethodology\n  Management\n  Worldwide Offices\n  Careers at IDC\n
+  \ IDC Media Center\n\r\n        \r\n          Analysts\r\n          \n\n\nRequest
+  Appearance\n  Analyst Teams\n\r\n        \r\n          Products + Services\r\n          \n\n\nNew
+  Research\n  Subscription Services\n  Contact Sales\n\r\n        \r\n          Events\r\n
+  \         \n\n\nAsia/Pacific\n  CEMA\n  Latin America\n  North America\n  Western
+  Europe\n\r\n        \r\n          Contact Us\r\n        \r\n        \r\n          myIDC\r\n
+  \           \n\n\n\n\n\n\n\r\n         \n  Local Sites\n  Asia/Pacific\n         Australia\n
+  \        China\n         Hong Kong\n         India\n         Indonesia\n         Korea\n
+  \        Malaysia\n         New Zealand\n         Philippines\n         Singapore\n
+  \        Taiwan\n         Thailand\n         Vietnam\n    Canada\n    Central &
+  Eastern Europe\n         Belarus\n         Bulgaria\n         Croatia\n         Czech
+  Republic\n         Greece\n         Hungary\n         Kazakhstan\n         Poland\n
+  \        Romania\n         Russia\n         Serbia\n         Slovakia\n         Slovenia\n
+  \        Ukraine\n    Japan\n    Latin America\n         Argentina\n         Brazil\n
+  \        Chile\n         Colombia\n         Mexico\n         Peru\n         Venezuela\n
+  \   Middle East and Africa\n         Gulf States/UAE\n         Israel\n         South
+  Africa\n         Turkey\n    United States\n         IDC Corporate USA\n    Western
+  Europe\n         Austria\n         Benelux\n         Denmark\n         Finland\n
+  \        France\n         Germany\n         Italy\n         Norway\n         Portugal\n
+  \        Spain\n         Sweden\n         United Kingdom\n    \n\n\n$(document).ready(function()
+  {\n\n  $(\".ls-link\").click(function() {\n    var X=$(this).attr('id');\n    if(X==1)\n
+  \   {\n      $(\"#localsites\").hide();\n      $(this).attr('id', '0'); \n    }\n
+  \   else\n    {\n      $(\"#localsites\").show();\n      $(this).attr('id', '1');\n
+  \   }\n  });\n\n  //Mouse click on sub menu\n  $(\"#localsites\").mouseup(function()
+  {\n    return false\n  });\n\n  //Mouse click on my account link\n  $(\".ls-link\").mouseup(function()
+  {\n    return false\n  });\n\n\n  //Document Click\n  $(document).mouseup(function()
+  {\n    $(\"#localsites\").hide();\n    $(\".ls-link\").attr('id', '');\n  });\n
+  \ \n  //Document Click for iPad\n  $(document).bind( 'touchstart', function(e){\n
+  \   $(\"#localsites\").hide();\n    $(\".ls-link\").attr('id', '');\n  });\n  $('#localsites').on('touchstart',
+  function(e){ \n    e.stopPropagation();\n  });\n  \n}); \n\r\n      \r\n      \r\n
+  \     \r\n        \r\n          \n\n\nMethodology\n  Management\n  Worldwide Offices\n
+  \ Careers at IDC\n  IDC Media Center\n\r\n        \r\n          \n\n\nRequest Appearance\n
+  \ Analyst Teams\n\r\n        \r\n          \n\n\nNew Research\n  Subscription Services\n
+  \ Contact Sales\n\r\n        \r\n          \n\n\nAsia/Pacific\n  CEMA\n  Latin America\n
+  \ North America\n  Western Europe\n\r\n        \r\n          \n\n\n\n\n\n\n\r\n
+  \               \r\n      \r\n  \r\n  \r\n\r\n\r\n\r\n  \r\n    \n\n\n\n\n\n\n\n\n\n\r\n
+  \ \r\n      \r\n    \r\n\r\n\r\n\r\n\r\nRelated Links\r\n\r\n\r\n  Browse Research
+  by:\r\n  All Research\r\n\tBig Data\r\n\tCloud Computing\r\n\tConsumer\r\n\tGlobal
+  IT and Economic Markets\r\n\tGovernance, Risk and Compliance\r\n\tHardware\r\n\tMarketing
+  and Sales Operations\r\n\tPricing and Valuation\r\n\tServices\r\n\tSmall and Medium
+  Business\r\n\tSocial Business\r\n\tSoftware\r\n\tTelecomunications\r\n\tVertical
+  Markets\r\n\r\n\r\n\r\n\r\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured
+  Analyst\n\n\n  \n  \n    Mario Morales\n    \n    Program Vice President, Semiconductors
+  and EMS\n  \n  Directions 2016 San Jose/CA: All participating AnalystsDirections
+  2016 San Jose/CA: Analysts hosting 1-1 MeetingsDirections 2016 San Jose/CA: Analysts
+  hosting Lunch RoundtablesInternet of Things (IoT)Semiconductors       \n      \n\n
+  \     \n  \n\n    \n    \n\r\n  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHome\r\n
+  \           About IDC\r\n            Analysts\r\n            Products + Services\r\n
+  \           Events\r\n            myIDC\r\n        \r\n        \r\n          \r\n
+  \           IDC Research, Inc.\r\n            5 Speen Street\r\n            Framingham,
+  MA 01701+1.508.872.8200\r\n        \r\n        \r\n        \r\n            \r\n
+  \               Contact IDC |\r\n                Help |\r\n                RSS/Feeds
+  |\r\n                Follow IDC on Twitter\r\n                 | \r\n                Mobile
+  Version\r\n                    \r\n                        $(\"#sitePreferenceDesktop\").attr(\"href\",
+  window.location.href + ( window.location.href.indexOf(\"?\") != -1 ? \"&\" : \"?\")
+  + \"showSite=mobile\");\r\n                        $(\"#sitePreferenceDesktop\").click(function(event){dataLayer.push({'event':
+  'Switch_To_Mobile_Version'});});\r\n                    \r\n\r\n            \r\n
+  \           var addthis_config = {   'services_exclude': 'facebook,twitter,linkedin,google_plusone_share',
+  \  'ui_hover_direction': -1};$(document).ready(function() {   $.getScript('//s7.addthis.com/js/300/addthis_widget.js',
+  function() {       addthis.addEventListener('addthis.menu.share', function(evt)
+  {logEventGA(evt.data.service);});   });});           \r\n            \r\n            \r\n
+  \               Careers |\r\n                Customer Service |\r\n                Sales
+  |\r\n                WW Offices |\r\n                Web Rights & Licensing |\r\n
+  \               Privacy Policy |\r\n                Terms of Use |\r\n                Trademarks\r\n
+  \           \r\n        \r\n        \r\n            Copyright 2015 IDC.\r\n            All
+  rights reserved.\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    (function
+  ($) {\r\n        $.fn.list_ticker = function (options) {\r\n\r\n            var
+  defaults = {\r\n                speed: 4000,\r\n                effect: 'slide'\r\n
+  \           };\r\n\r\n            var options = $.extend(defaults, options);\r\n\r\n
+  \           return this.each(function () {\r\n\r\n                var obj = $(this);\r\n
+  \               var list = obj.children();\r\n                list.not(':first').hide();\r\n\r\n
+  \               setInterval(function () {\r\n\r\n                    list = obj.children();\r\n
+  \                   list.not(':first').hide();\r\n\r\n                    var first_li
+  = list.eq(0)\r\n                    var second_li = list.eq(1)\r\n\r\n                    if
+  (options.effect == 'slide') {\r\n                        first_li.slideUp();\r\n
+  \                       second_li.slideDown(function () {\r\n                            first_li.remove().appendTo(obj);\r\n
+  \                       });\r\n                    } else if (options.effect ==
+  'fade') {\r\n                        first_li.fadeOut(function () {\r\n                            second_li.fadeIn();\r\n
+  \                           first_li.remove().appendTo(obj);\r\n                        });\r\n
+  \                   }\r\n                }, options.speed)\r\n            });\r\n
+  \       };\r\n    })(jQuery);\r\n\r\n    $(document).ready(function () {\r\n        $('#slide').list_ticker({\r\n
+  \           speed: 4000,\r\n            effect: 'slide'\r\n        });\r\n    })\r\n\r\n\r\n
+  \   $(\".MainBanner .bannerListWpr a\").click(function(event) {\r\n        dataLayer.push({\r\n
+  \           'event': 'Main_Banner_Click',\r\n            'BannerLink':$(this).attr(\"href\")\r\n
+  \       });\r\n    });\r\n    $(\".SmallBanner .bannerListWpr a\").click(function(event)
+  {\r\n        dataLayer.push({\r\n            'event': 'Small_Banner_Click',\r\n
+  \           'BannerLink':$(this).attr(\"href\")\r\n        });\r\n    });\r\n    $(\"#cloud-carousel
+  .carousel-cycle a\").click(function(event) {\r\n        dataLayer.push({\r\n            'event':
+  'Carousel_Banner_Click',\r\n            'BannerLink':$(this).attr(\"href\")\r\n
+  \       });\r\n    });\r\n<!--\r\n/* You may give each page an identifying name,
+  server, and channel on\r\n the next lines. */\r\ns.pageName = \"\"\r\ns.server =
+  \"\"\r\ns.channel = \"\"\r\ns.pageType = \"\"\r\ns.prop1 = \"\"\r\ns.prop2 = \"\"\r\ns.prop3
+  = \"\"\r\ns.prop4 = \"\"\r\ns.prop5 = \"\"\r\n/* Conversion Variables */\r\ns.campaign
+  = \"\"\r\ns.state = \"\"\r\ns.zip = \"\"\r\ns.events = \"\"\r\ns.products = \"\"\r\ns.purchaseID
+  = \"\"\r\ns.eVar1 = \"\"\r\ns.eVar2 = \"\"\r\ns.eVar3 = \"\"\r\ns.eVar4 = \"\"\r\ns.eVar5
+  = \"\"\r\n/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\r\nvar
+  s_code = s.t();\r\nif (s_code)document.write(s_code)//--><!--\r\nif (navigator.appVersion.indexOf('MSIE')
+  >= 0)document.write(unescape('%3C') + '\\!-' + '-')\r\n//-->\r\n\r\n\r\n\r\n\r\n\r\n
+  \       Shopping Cart\r\n        Need Help?\r\n    \r\n\r\n    \r\n    \r\n        \r\n
+  \       \r\n        \r\n                Contact IDC |\r\n                Help |\r\n
+  \               RSS/Feeds |\r\n                Follow IDC on Twitter\r\n                 |
+  \r\n                Mobile Version\r\n                    \r\n                        $(\"#sitePreferenceDesktop\").attr(\"href\",
+  window.location.href + ( window.location.href.indexOf(\"?\") != -1 ? \"&\" : \"?\")
+  + \"showSite=mobile\");\r\n                        $(\"#sitePreferenceDesktop\").click(function(event){dataLayer.push({'event':
+  'Switch_To_Mobile_Version'});});\r\n                    \r\n                Careers
+  |\r\n                Customer Service |\r\n                Sales |\r\n                WW
+  Offices |\r\n                Web Rights & Licensing |\r\n                Privacy
+  Policy |\r\n                Terms of Use |\r\n                Trademarks\r\n            "

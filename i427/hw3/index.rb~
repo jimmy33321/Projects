@@ -1,0 +1,283 @@
+
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+FINAL INDEX RB UPLOAD
+# I427 Fall 2015, Assignment 3
+#   Code authors:
+#                Nolan Roach - noroach
+#                Michelle Glozman - mglozman
+#                Jimmy Yu - jimmyu
+# -----------------------------Report -----------------------------------------------------------------------------
+# Started off relatively easy, going through and writing the initial functions for index.rb   
+# Had problems with find_tokens for a while because we didn't feed it a clean_string_list'ed
+# and read_html_into_string'ed variable.
+# Our next set of problems was parsing through and finding the title and url to print to #doc.dat.
+
+# We used the yaml library for formatting the output data from index.rb so we could
+# parse through it easier in retrieve.rb
+
+# Much of our formatting and parsing for the title, url comes from string editing and #matching, we tried to use some Nokogiri and URI but couldn't get it to work exactly.
+#----------------------------Report end-------------------------------------------------------------------------
+
+# I427 Fall 2015, Assignment 3
+#   Code authors:
+#                Nolan Roach - noroach
+#   
+#   based on skeleton code by D Crandall
+
+require 'nokogiri'
+require 'rubygems'
+require 'fast_stemmer'
+#just learned about this today. Really neat.
+#anyways, I want this for formatting the output of invindex for retieve.rb
+#the yaml library serializes data
+require 'yaml'
+
+
+def write_data(filename, data)
+  file = File.open(filename, "w")
+  file.puts(data)
+  file.close
+end
+
+#we don't need a 'load yaml' because this rb file only writes to it
+def save_yaml(data, filename)
+        f = File.open(filename,'w') 
+        f.write(data.to_yaml)
+end
+
+# function that takes the name of a file and loads in the stop words from the file.
+#  You could return a list from this function, but a hash might be easier and more efficient.
+#  (Why? Hint: think about how you'll use the stop words.)
+#
+def load_stopwords_file(file)
+  nwarray = []
+  file = File.open(file, "r")
+  nwarray = file.readlines()
+  i = 0
+  while i < nwarray.size
+
+    nwarray[i].slice! "\n"
+    i += 1
+  end
+  return nwarray
+end
+
+
+
+
+# function that takes the name of a directory, and returns a list of all the filenames in that
+# directory.
+#
+def list_files(dir)
+  ls = Dir.entries(dir)
+  return ls
+end
+
+def read_html_file(filename)
+
+  file = File.open(filename)
+  html_code = Nokogiri::HTML(file)
+  file.close
+
+  return html_code.to_s
+end
+
+def convert_html_to_list(filename)
+        htmlArray = Array.new
+        f = File.open(filename)
+        doc = Nokogiri::HTML(f)
+        doc.css('script, link').each { |node| node.remove }
+        words = doc.text.split(/\s+/)
+        #words.each  { |w|  puts w}
+        words.each  { |w| htmlArray.push(w) }
+        return htmlArray
+end
+
+###########
+# function that takes a list of strings, and returns a new list where:
+#   (1) punctuation has been removed
+#   (2) text has been converted to lowercase
+#   (3) any blank strings or strings with only whitespace have been removed
+#   (4) newline characters are removed from end of each word
+#
+def clean_string_list(list)
+  clean_list = []
+
+  list.each do |word|
+    if (word =~ /^.+$/)
+      word.gsub!(/[[:punct:]]/,"")
+      clean_list.push(word.downcase.chomp) if word =~ /^[a-zA-Z]+$/
+    end
+  end
+  return clean_list
+end
+
+# function that takes the *name of an html file stored on disk*, and returns a list
+#  of tokens (words) in that file. 
+#
+def find_tokens(filename)
+        return clean_string_list(convert_html_to_list(filename))
+end
+
+#returns the stemmed token list as a hash mapped to times it appears in the doc
+def find_stem_freq(stem_tokens)
+        freq_words = {}
+        stem_tokens.each do |token|
+                if freq_words.has_key?(token)
+                        freq_words[token] += 1
+                else
+                        freq_words[token] = 1
+                end
+        end
+        return freq_words
+end
+
+
+# function that takes a list of tokens, and a list (or hash) of stop words,
+#  and returns a new list with all of the stop words removed
+#
+def remove_stop_tokens(tokens, stop_words)
+        stop_words.each do |word|
+                if tokens.include?(word)
+                        tokens.delete(word)
+                end
+        end
+        return tokens
+end
+
+
+# function that takes a list of tokens, runs a stemmer on each token,
+#  and then returns a new list with the stems
+#
+def stem_tokens(tokens)
+        stem_tokens = Array.new
+    tokens.each do |token|
+                stem_tokens.push(Stemmer::stem_word(token))
+        end
+        return stem_tokens
+end
+
+
+#
+# You'll likely need other functions. Add them here!
+#
+
+#################################################
+# Main program. We expect the user to run the program like this:
+#
+#   ruby index.rb pages_dir/ index.dat
+#        ruby index.rb pages/ index.dat
+
+# The following is just a main program to help get you started.
+# Feel free to make any changes or additions/subtractions to this code.
+#
+
+# check that the user gave us 3 command line parameters
+if ARGV.size != 2
+  abort "Command line should have 3 parameters."
+end
+
+# fetch command line parameters
+(pages_dir, index_file) = ARGV
+
+# read in list of stopwords from file
+stopwords = load_stopwords_file("stop.txt")
+
+# get the list of files in the specified directory
+file_list = list_files(pages_dir)
+
+# create hash data structures to store inverted index and document index
+#  the inverted index, and the outgoing links
+
+invindex = {}
+docindex = {}
+
+# scan through the documents one-by-one
+file_list.each do |doc_name|
+  print "Parsing HTML document: #{pages_dir + doc_name} \n";
+
+     title = ""
+  f = File.open(pages_dir + doc_name, "r")
+
+
+  titleholder = read_html_file(f)
+  title = titleholder[/<title>(.*?)<\/title>/]
+  f.close()
+  title = title.to_s
+  title = title[7 .. title.size - 9]
+
+  url = ""
+
+
+
+  w = File.open("index.dat", "r")
+  indexholder = w.readlines()
+  currenthtml = doc_name.delete ".html"
+  w.close()
+
+  i = 0
+  n = 0
+  p = 0
+  match = "no"
+
+  while i < indexholder.size
+
+    while n < currenthtml.size
+
+        if  currenthtml[n] == indexholder[i][n]
+          p += 1
+          n += 1
+        else
+
+          n += 1
+        end
+
+    end
+
+
+    if p == currenthtml.size
+      match = "yes"
+    end
+    
+    
+    if match == "yes"
+      url = indexholder[i]
+      url = url[currenthtml.size + 5 .. indexholder[i].size - 1]
+      url.slice! "\n"
+      break
+    end
+
+    n = 0
+    i += 1
+    p = 0
+  end
+
+  tokens = find_tokens(pages_dir + doc_name)
+  tokens = remove_stop_tokens(tokens, stopwords)
+  tokens = stem_tokens(tokens)
+
+  token_count = tokens.size
+  docindex[doc_name] = token_count, title, url
+  
+  doc_freq = find_stem_freq(tokens)
+  doc_freq.each_key do |stem|
+        if not invindex.has_key?(stem)
+                invindex[stem] = [[doc_name, doc_freq[stem]]]
+        else
+                invindex[stem] = invindex[stem].push([doc_name, doc_freq[stem]])
+        end
+  end
+end
+
+# save the hashes to the correct files
+save_yaml(invindex, "invindex.yml")
+save_yaml(docindex, "doc.yml")
+write_data("invindex.dat", invindex)
+write_data("doc.dat", docindex)
+
+# done!
+print "Indexing complete!\n";
+

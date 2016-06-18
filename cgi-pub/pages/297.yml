@@ -1,0 +1,2172 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1qpyit4"
+    line: 79
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 69
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag hgroup invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1qpyit4"
+    line: 147
+    str1: hgroup
+    str2: 
+    str3: 
+    int1: 0
+    column: 57
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1qpyit4"
+    line: 155
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 32
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1qpyit4"
+    line: 175
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 91
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1qpyit4"
+    line: 440
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 69
+address: http://www.ethnologue.com/
+inboundLinks: []
+lines:
+- |2+
+
+- "  \n"
+- |2
+      Skip to main content
+- "  \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "            \n"
+- "  \n"
+- "    \n"
+- "      \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- |2
+        var _sf_startpt=(new Date()).getTime()
+- "  \n"
+- |2+
+
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- |2+
+
+- |
+  (function(){
+- |2
+          var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+- |
+  })("woopra");
+- |2+
+
+- |
+  woopra.config({
+- |2
+      domain: 'ethnologue.com'
+- |
+  });
+- |
+  woopra.track();
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- |2
+        Search form
+- "    \n"
+- "  Search \n"
+- " \n"
+- |2+
+
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- |2
+        Login
+- |
+  Register
+- |
+  Shopping cart
+- |
+  Subscribe
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "            \n"
+- "              \n"
+- |2
+                          Ethnologue
+- "                              \n"
+- "          \n"
+- |2+
+
+- "  \n"
+- |2
+          World Languages
+- |
+  Development
+- |
+  Endangerment
+- |
+  Statistics
+- |
+  About
+- |2+
+
+- |2+
+
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "          \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+      Explore the Languages of the World
+- |2
+      Ethnologue contains information on 7,102 known living languages.
+- |
+  Begin by clicking World Languages in the page header or using one of the Browse By indexes in the page footer.
+- |2
+      Read More
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "\t\n"
+- |2+
+
+- "\t\t\n"
+- "  \n"
+- "\t      \n"
+- "                \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- "          \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "  \n"
+- "      \n"
+- |2+
+
+- " \n"
+- "\t\n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- "            \n"
+- "          \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2
+            Ethnologue launches subscription service
+- "      \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+            December 1, 2015
+- "      \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+            The team of personnel who now work on Ethnologue has grown as the scope of the project and the number and kinds of products we offer have expanded. The time has come where our growth and our plans for continued improvement require us to look at some additional funding options.
+- "      \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "          Read More\r\n"
+- |2+
+
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- "        \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- |2
+            Language of the Day
+- "      \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "          \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "          \r\n"
+- "Moraid\r\n"
+- |2+
+
+- "      \n"
+- |2+
+
+- |2+
+
+- "      \n"
+- "  \n"
+- "  \n"
+- "      \n"
+- "        \n"
+- "      \n"
+- "          A language of Indonesia. Population: 1,000 (1988 SIL).  Status: 6a (Vigorous).
+  Lg Use:  Religious services.  Lg Development:      \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- " \n"
+- "    \n"
+- "          Read More\r\n"
+- |2+
+
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- |
+  Ethnologue Products
+- |
+  Ethnologue is the comprehensive reference work that catalogs all the known living languages in the world today. In addition to this web site, it is made available in a variety of other products: books, country reports, datasets, downloadable maps.
+- "Read more    \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+                Browse by
+- "            \n"
+- "    \n"
+- |2
+        Countries
+- |
+  Language Names
+- |
+  Language Codes
+- |
+  Language Families
+- |
+  Map Titles
+- |
+  Products
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+                Current Edition
+- "            \n"
+- "    \n"
+- |2
+        About Ethnologue
+- |
+  Abbreviations
+- |
+  Bibliography
+- |
+  Credits
+- |
+  Downloads
+- |
+  FAQ
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+                Other Products
+- "            \n"
+- "    \n"
+- |2
+        Ethnoblog
+- |
+  Language of the Day
+- |
+  Print Edition
+- |
+  17th Edition
+- |
+  16th Edition
+- |
+  15th Edition
+- |
+  14th Edition
+- |
+  13th Edition
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+                Related Sites
+- "            \n"
+- "    \n"
+- |2
+        SIL.org
+- |
+  ScriptSource
+- |
+  ISO 639-3
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+                Contact
+- "            \n"
+- "    \n"
+- |2
+        SIL International Publications
+- |
+  7500 West Camp Wisdom Road
+- |
+  Dallas, TX 75236-5629 USA
+- |2+
+
+- |2+
+
+- |
+  publications_intl@sil.org
+- |
+  T: 972-708-7404
+- |
+  F: 972-708-7363Contact us
+- |
+  SIL.org
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      This web edition of the Ethnologue may be cited as: Lewis, M. Paul, Gary
+  F. Simons, and Charles D. Fennig (eds.). 2015. Ethnologue: Languages of the World,
+  Eighteenth edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com.
+  \   \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "                \n"
+- "    \n"
+- "          \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "  \n"
+- "                \n"
+- "    \n"
+- "      Copyright © 2015 SIL International    \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "                \n"
+- "    \n"
+- "      Terms of Use | Privacy Policy    \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "                \n"
+- "    \n"
+- "      \n"
+- |2
+    var _sf_async_config = { uid: 40745, domain: 'ethnologue.com', useCanonical: true };
+- |2
+    (function() {
+- |2
+      function loadChartbeat() {
+- |2
+        window._sf_endpt = (new Date()).getTime();
+- |2
+        var e = document.createElement('script');
+- |2
+        e.setAttribute('language', 'javascript');
+- |2
+        e.setAttribute('type', 'text/javascript');
+- |2
+        e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+- |2
+        document.body.appendChild(e);
+- |2
+      };
+- |2
+      var oldonload = window.onload;
+- |2
+      window.onload = (typeof window.onload != 'function') ?
+- |2
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+- |2
+    })();
+- |2+
+
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- "  \n"
+- |2+
+
+- |2
+    Ethnologue contains information on 7,102 known living languages.
+- |
+  Begin by clicking World Languages in the page header or using one of the Browse By indexes in the page footer.Ethnologue is the comprehensive reference work that catalogs all the known living languages in the world today. In addition to this web site, it is made available in a variety of other products: books, country reports, datasets, downloadable maps.Read moreSIL International Publications
+- |
+  7500 West Camp Wisdom Road
+- |
+  Dallas, TX 75236-5629 USA
+- |
+  publications_intl@sil.org
+- |
+  T: 972-708-7404
+- |
+  F: 972-708-7363Contact us
+- |
+  SIL.org
+- 'This web edition of the Ethnologue may be cited as: Lewis, M. Paul, Gary F. Simons,
+  and Charles D. Fennig (eds.). 2015. Ethnologue: Languages of the World, Eighteenth
+  edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com.'
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  _sf_startpt: !ruby/object:Word
+    word: _sf_startpt
+    stem: _sf_startpt
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 30
+    - 400
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 400
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 400
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 31
+    - 398
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 9.0
+    docPositions:
+    - 29
+    - 30
+    - 398
+    - 399
+    - 408
+    - 409
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 18.0
+    docPositions:
+    - 30
+    - 357
+    - 423
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 11.0
+    docPositions:
+    - 30
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 10.0
+    docPositions:
+    - 30
+    - 401
+    - 402
+    - 403
+    - 404
+    - 405
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 7.0
+    docPositions:
+    - 30
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 6.0
+    docPositions:
+    - 30
+    - 400
+    - 407
+    - 408
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 4.0
+    docPositions:
+    - 30
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 401
+    - 405
+  arguments: !ruby/object:Word
+    word: arguments
+    stem: argument
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 4.0
+    docPositions:
+    - 30
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 401
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 4.0
+    docPositions:
+    - 30
+  config: !ruby/object:Word
+    word: config
+    stem: config
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 33
+  track: !ruby/object:Word
+    word: track
+    stem: track
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 36
+  identify: !ruby/object:Word
+    word: identify
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  trackform: !ruby/object:Word
+    word: trackform
+    stem: trackform
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  trackclick: !ruby/object:Word
+    word: trackclick
+    stem: trackclick
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  _e: !ruby/object:Word
+    word: _e
+    stem: _e
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 3.0
+    docPositions:
+    - 30
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  concat: !ruby/object:Word
+    word: concat
+    stem: concat
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  array: !ruby/object:Word
+    word: array
+    stem: arrai
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  prototype: !ruby/object:Word
+    word: prototype
+    stem: prototyp
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  slice: !ruby/object:Word
+    word: slice
+    stem: slice
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  _w: !ruby/object:Word
+    word: _w
+    stem: _w
+    docFrequency: 4.0
+    docPositions:
+    - 30
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 401
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  static: !ruby/object:Word
+    word: static
+    stem: static
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 404
+  woopra: !ruby/object:Word
+    word: woopra
+    stem: woopra
+    docFrequency: 5.0
+    docPositions:
+    - 30
+    - 31
+    - 33
+    - 36
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 397
+  ethnologue: !ruby/object:Word
+    word: ethnologue
+    stem: ethnologu
+    docFrequency: 18.0
+    docPositions:
+    - 34
+    - 70
+    - 107
+    - 163
+    - 173
+    - 268
+    - 269
+    - 302
+    - 369
+    - 397
+    - 418
+    - 419
+    - 426
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 46
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  register: !ruby/object:Word
+    word: register
+    stem: regist
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  shopping: !ruby/object:Word
+    word: shopping
+    stem: shop
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  cart: !ruby/object:Word
+    word: cart
+    stem: cart
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  subscribe: !ruby/object:Word
+    word: subscribe
+    stem: subscrib
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 9.0
+    docPositions:
+    - 75
+    - 106
+    - 108
+    - 269
+    - 369
+    - 419
+    - 426
+  languages: !ruby/object:Word
+    word: languages
+    stem: languag
+    docFrequency: 11.0
+    docPositions:
+    - 75
+    - 106
+    - 107
+    - 108
+    - 269
+    - 369
+    - 418
+    - 419
+    - 426
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 76
+    - 234
+  endangerment: !ruby/object:Word
+    word: endangerment
+    stem: endanger
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 418
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 418
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 5.0
+    docPositions:
+    - 107
+    - 269
+    - 418
+    - 419
+  living: !ruby/object:Word
+    word: living
+    stem: live
+    docFrequency: 5.0
+    docPositions:
+    - 107
+    - 269
+    - 418
+    - 419
+  begin: !ruby/object:Word
+    word: begin
+    stem: begin
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  clicking: !ruby/object:Word
+    word: clicking
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 5.0
+    docPositions:
+    - 108
+    - 419
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 4.0
+    docPositions:
+    - 108
+    - 283
+    - 419
+  indexes: !ruby/object:Word
+    word: indexes
+    stem: index
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 419
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 6.0
+    docPositions:
+    - 109
+    - 178
+    - 244
+    - 270
+    - 419
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 5.0
+    docPositions:
+    - 109
+    - 178
+    - 244
+    - 270
+  launches: !ruby/object:Word
+    word: launches
+    stem: launch
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  subscription: !ruby/object:Word
+    word: subscription
+    stem: subscript
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  team: !ruby/object:Word
+    word: team
+    stem: team
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  personnel: !ruby/object:Word
+    word: personnel
+    stem: personnel
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 4.0
+    docPositions:
+    - 173
+    - 269
+    - 419
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  grown: !ruby/object:Word
+    word: grown
+    stem: grown
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  scope: !ruby/object:Word
+    word: scope
+    stem: scope
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  project: !ruby/object:Word
+    word: project
+    stem: project
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 6.0
+    docPositions:
+    - 173
+    - 369
+    - 426
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  kinds: !ruby/object:Word
+    word: kinds
+    stem: kind
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 7.0
+    docPositions:
+    - 173
+    - 268
+    - 269
+    - 291
+    - 315
+    - 419
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  offer: !ruby/object:Word
+    word: offer
+    stem: offer
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  expanded: !ruby/object:Word
+    word: expanded
+    stem: expand
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  come: !ruby/object:Word
+    word: come
+    stem: come
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  growth: !ruby/object:Word
+    word: growth
+    stem: growth
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  plans: !ruby/object:Word
+    word: plans
+    stem: plan
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  improvement: !ruby/object:Word
+    word: improvement
+    stem: improv
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 173
+    - 358
+    - 424
+  look: !ruby/object:Word
+    word: look
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  additional: !ruby/object:Word
+    word: additional
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  funding: !ruby/object:Word
+    word: funding
+    stem: fund
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 8.0
+    docPositions:
+    - 212
+    - 234
+    - 287
+    - 288
+    - 289
+    - 319
+    - 402
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 319
+  moraid: !ruby/object:Word
+    word: moraid
+    stem: moraid
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  indonesia: !ruby/object:Word
+    word: indonesia
+    stem: indonesia
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  population: !ruby/object:Word
+    word: population
+    stem: popul
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  sil: !ruby/object:Word
+    word: sil
+    stem: sil
+    docFrequency: 11.0
+    docPositions:
+    - 234
+    - 336
+    - 351
+    - 356
+    - 359
+    - 369
+    - 384
+    - 422
+    - 425
+    - 426
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  vigorous: !ruby/object:Word
+    word: vigorous
+    stem: vigor
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  lg: !ruby/object:Word
+    word: lg
+    stem: lg
+    docFrequency: 3.0
+    docPositions:
+    - 234
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 234
+    - 390
+  religious: !ruby/object:Word
+    word: religious
+    stem: religi
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  comprehensive: !ruby/object:Word
+    word: comprehensive
+    stem: comprehens
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  catalogs: !ruby/object:Word
+    word: catalogs
+    stem: catalog
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  today: !ruby/object:Word
+    word: today
+    stem: todai
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  addition: !ruby/object:Word
+    word: addition
+    stem: addit
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 5.0
+    docPositions:
+    - 269
+    - 369
+    - 419
+    - 426
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  variety: !ruby/object:Word
+    word: variety
+    stem: varieti
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 4.0
+    docPositions:
+    - 269
+    - 315
+    - 419
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  datasets: !ruby/object:Word
+    word: datasets
+    stem: dataset
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  downloadable: !ruby/object:Word
+    word: downloadable
+    stem: download
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 419
+  countries: !ruby/object:Word
+    word: countries
+    stem: countri
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  codes: !ruby/object:Word
+    word: codes
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  families: !ruby/object:Word
+    word: families
+    stem: famili
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 290
+  titles: !ruby/object:Word
+    word: titles
+    stem: titl
+    docFrequency: 2.0
+    docPositions:
+    - 290
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 2.0
+    docPositions:
+    - 299
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 12.0
+    docPositions:
+    - 299
+    - 320
+    - 321
+    - 322
+    - 323
+    - 324
+    - 325
+    - 369
+    - 426
+  abbreviations: !ruby/object:Word
+    word: abbreviations
+    stem: abbrevi
+    docFrequency: 2.0
+    docPositions:
+    - 303
+  bibliography: !ruby/object:Word
+    word: bibliography
+    stem: bibliographi
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  credits: !ruby/object:Word
+    word: credits
+    stem: credit
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 306
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  ethnoblog: !ruby/object:Word
+    word: ethnoblog
+    stem: ethnoblog
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 333
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 333
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 6.0
+    docPositions:
+    - 336
+    - 356
+    - 359
+    - 422
+    - 425
+  scriptsource: !ruby/object:Word
+    word: scriptsource
+    stem: scriptsourc
+    docFrequency: 2.0
+    docPositions:
+    - 337
+  iso: !ruby/object:Word
+    word: iso
+    stem: iso
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 348
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 6.0
+    docPositions:
+    - 351
+    - 369
+    - 384
+    - 419
+    - 426
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 351
+    - 419
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 3.0
+    docPositions:
+    - 352
+    - 420
+  camp: !ruby/object:Word
+    word: camp
+    stem: camp
+    docFrequency: 3.0
+    docPositions:
+    - 352
+    - 420
+  wisdom: !ruby/object:Word
+    word: wisdom
+    stem: wisdom
+    docFrequency: 3.0
+    docPositions:
+    - 352
+    - 420
+  road: !ruby/object:Word
+    word: road
+    stem: road
+    docFrequency: 3.0
+    docPositions:
+    - 352
+    - 420
+  dallas: !ruby/object:Word
+    word: dallas
+    stem: dalla
+    docFrequency: 5.0
+    docPositions:
+    - 353
+    - 369
+    - 421
+    - 426
+  tx: !ruby/object:Word
+    word: tx
+    stem: tx
+    docFrequency: 3.0
+    docPositions:
+    - 353
+    - 421
+  usa: !ruby/object:Word
+    word: usa
+    stem: usa
+    docFrequency: 3.0
+    docPositions:
+    - 353
+    - 421
+  publications_intl: !ruby/object:Word
+    word: publications_intl
+    stem: publications_intl
+    docFrequency: 3.0
+    docPositions:
+    - 356
+    - 422
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 5.0
+    docPositions:
+    - 358
+    - 369
+    - 424
+    - 426
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  cited: !ruby/object:Word
+    word: cited
+    stem: cite
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  lewis: !ruby/object:Word
+    word: lewis
+    stem: lewi
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  paul: !ruby/object:Word
+    word: paul
+    stem: paul
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  gary: !ruby/object:Word
+    word: gary
+    stem: gari
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  simons: !ruby/object:Word
+    word: simons
+    stem: simon
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  charles: !ruby/object:Word
+    word: charles
+    stem: charl
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  fennig: !ruby/object:Word
+    word: fennig
+    stem: fennig
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  eds: !ruby/object:Word
+    word: eds
+    stem: ed
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  eighteenth: !ruby/object:Word
+    word: eighteenth
+    stem: eighteenth
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  texas: !ruby/object:Word
+    word: texas
+    stem: texa
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 3.0
+    docPositions:
+    - 369
+    - 426
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 390
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 390
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 390
+  _sf_async_config: !ruby/object:Word
+    word: _sf_async_config
+    stem: _sf_async_config
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  uid: !ruby/object:Word
+    word: uid
+    stem: uid
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  usecanonical: !ruby/object:Word
+    word: usecanonical
+    stem: usecanon
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  loadchartbeat: !ruby/object:Word
+    word: loadchartbeat
+    stem: loadchartbeat
+    docFrequency: 4.0
+    docPositions:
+    - 399
+    - 409
+  _sf_endpt: !ruby/object:Word
+    word: _sf_endpt
+    stem: _sf_endpt
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  setattribute: !ruby/object:Word
+    word: setattribute
+    stem: setattribut
+    docFrequency: 4.0
+    docPositions:
+    - 402
+    - 403
+    - 404
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 403
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 403
+  chartbeat: !ruby/object:Word
+    word: chartbeat
+    stem: chartbeat
+    docFrequency: 3.0
+    docPositions:
+    - 404
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 405
+  oldonload: !ruby/object:Word
+    word: oldonload
+    stem: oldonload
+    docFrequency: 3.0
+    docPositions:
+    - 407
+    - 409
+  onload: !ruby/object:Word
+    word: onload
+    stem: onload
+    docFrequency: 4.0
+    docPositions:
+    - 407
+    - 408
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  moresil: !ruby/object:Word
+    word: moresil
+    stem: moresil
+    docFrequency: 2.0
+    docPositions:
+    - 419
+lineCount: 427
+wordCount: 623
+rank: 0.28
+title: Ethnologue
+links:
+- http://www.ethnologue.com/17
+- http://archive.ethnologue.com/16
+- http://archive.ethnologue.com/15
+- http://archive.ethnologue.com/14
+- http://web.archive.org/web/19990219082422/http://sil.org/ethnologue/
+- http://www.sil.org
+- http://www.scriptsource.org
+- http://www.sil.org/iso639-3
+- http://sil.org
+- http://www.ethnologue.com
+rawText: "\n  \n    Skip to main content\n  \n  \n  \n      \n  \n  \n            \n
+  \ \n    \n      \n            \n    \n    \n  \n    \n  \n                \n    \n
+  \     var _sf_startpt=(new Date()).getTime()\n  \n\n  \n                \n    \n
+  \     \n\n(function(){\n        var t,i,e,n=window,o=document,a=arguments,s=\"script\",r=[\"config\",\"track\",\"identify\",\"visit\",\"push\",\"call\",\"trackForm\",\"trackClick\"],c=function(){var
+  t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new
+  c;i=o.createElement(s),i.async=1,i.src=\"//static.woopra.com/js/w.js\",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)\n})(\"woopra\");\n\nwoopra.config({\n
+  \   domain: 'ethnologue.com'\n});\nwoopra.track();\n\n  \n\n  \n                \n
+  \   \n      \n      Search form\n    \n  Search \n \n\n    \n  \n  \n\n  \n    \n
+  \ \n                \n    \n      Login\nRegister\nShopping cart\nSubscribe\n\n
+  \ \n  \n\n  \n        \n            \n              \n                        Ethnologue\n
+  \                             \n          \n\n  \n        World Languages\nDevelopment\nEndangerment\nStatistics\nAbout\n\n\n
+  \   \n  \n  \n  \n  \n    \n  \n          \n    \n  \n  \n\n      \n  \n    \n  \n
+  \   \n  \n                \n    \n      \n  \n    \n  \n    Explore the Languages
+  of the World\n    Ethnologue contains information on 7,102 known living languages.\nBegin
+  by clicking World Languages in the page header or using one of the Browse By indexes
+  in the page footer.\n    Read More\n  \n    \n  \n  \n    \n  \n  \n\t\n\n\t\t\n
+  \ \n\t      \n                \n  \n                \n    \n      \n\n  \n  \n    \n
+  \         \n      \n\n\n\n    \n  \n      \n\n \n\t\n  \n  \n    \n  \n    \n  \n
+  \               \n    \n      \n            \n          \n  \n  \n  \n      \n        \n
+  \   \n\n  \n  \n    \n          Ethnologue launches subscription service\n      \n\n\n
+  \   \n          December 1, 2015\n      \n\n\n    \n          The team of personnel
+  who now work on Ethnologue has grown as the scope of the project and the number
+  and kinds of products we offer have expanded. The time has come where our growth
+  and our plans for continued improvement require us to look at some additional funding
+  options.\n      \n\n\n    \n          Read More\r\n\n      \n\n\n\n  \n    \n  \n
+  \ \n  \n  \n  \n  \n    \n  \n  \n\n  \n    \n  \n                \n    \n      \n
+  \       \n  \n  \n      \n        \n    \n\n  \n  \n    \n          Language of
+  the Day\n      \n\n\n    \n          \n      \n\n\n    \n          \r\nMoraid\r\n\n
+  \     \n\n\n      \n  \n  \n      \n        \n      \n          A language of Indonesia.
+  Population: 1,000 (1988 SIL).  Status: 6a (Vigorous). Lg Use:  Religious services.
+  \ Lg Development:      \n    \n  \n  \n  \n  \n  \n  \n \n    \n          Read More\r\n\n
+  \     \n\n\n\n  \n    \n  \n  \n  \n  \n  \n  \n    \n  \n  \n\n  \n    \n  \n                \n
+  \   \n      \nEthnologue Products\nEthnologue is the comprehensive reference work
+  that catalogs all the known living languages in the world today. In addition to
+  this web site, it is made available in a variety of other products: books, country
+  reports, datasets, downloadable maps.\nRead more    \n  \n  \n    \n  \n  \n  \n
+  \ \n  \n    \n  \n    \n  \n              Browse by\n            \n    \n      Countries\nLanguage
+  Names\nLanguage Codes\nLanguage Families\nMap Titles\nProducts\n\n  \n  \n\n  \n
+  \   \n  \n              Current Edition\n            \n    \n      About Ethnologue\nAbbreviations\nBibliography\nCredits\nDownloads\nFAQ\n\n
+  \ \n  \n\n  \n    \n  \n              Other Products\n            \n    \n      Ethnoblog\nLanguage
+  of the Day\nPrint Edition\n17th Edition\n16th Edition\n15th Edition\n14th Edition\n13th
+  Edition\n\n  \n  \n\n  \n    \n  \n              Related Sites\n            \n    \n
+  \     SIL.org\nScriptSource\nISO 639-3\n\n\n\n  \n  \n\n  \n    \n  \n              Contact\n
+  \           \n    \n      SIL International Publications\n7500 West Camp Wisdom
+  Road\nDallas, TX 75236-5629 USA\n\n\npublications_intl@sil.org\nT: 972-708-7404\nF:
+  972-708-7363Contact us\nSIL.org\n    \n  \n  \n\n  \n    \n  \n                \n
+  \   \n      This web edition of the Ethnologue may be cited as: Lewis, M. Paul,
+  Gary F. Simons, and Charles D. Fennig (eds.). 2015. Ethnologue: Languages of the
+  World, Eighteenth edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com.
+  \   \n  \n\n  \n                \n    \n          \n  \n  \n\n  \n    \n  \n                \n
+  \   \n      Copyright © 2015 SIL International    \n  \n\n  \n                \n
+  \   \n      Terms of Use | Privacy Policy    \n  \n\n  \n                \n    \n
+  \     \n  var _sf_async_config = { uid: 40745, domain: 'ethnologue.com', useCanonical:
+  true };\n  (function() {\n    function loadChartbeat() {\n      window._sf_endpt
+  = (new Date()).getTime();\n      var e = document.createElement('script');\n      e.setAttribute('language',
+  'javascript');\n      e.setAttribute('type', 'text/javascript');\n      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');\n
+  \     document.body.appendChild(e);\n    };\n    var oldonload = window.onload;\n
+  \   window.onload = (typeof window.onload != 'function') ?\n      loadChartbeat
+  : function() { oldonload(); loadChartbeat(); };\n  })();\n\n  \n  \n    \n  \n  \n\n
+  \ Ethnologue contains information on 7,102 known living languages.\nBegin by clicking
+  World Languages in the page header or using one of the Browse By indexes in the
+  page footer.Ethnologue is the comprehensive reference work that catalogs all the
+  known living languages in the world today. In addition to this web site, it is made
+  available in a variety of other products: books, country reports, datasets, downloadable
+  maps.Read moreSIL International Publications\n7500 West Camp Wisdom Road\nDallas,
+  TX 75236-5629 USA\npublications_intl@sil.org\nT: 972-708-7404\nF: 972-708-7363Contact
+  us\nSIL.org\nThis web edition of the Ethnologue may be cited as: Lewis, M. Paul,
+  Gary F. Simons, and Charles D. Fennig (eds.). 2015. Ethnologue: Languages of the
+  World, Eighteenth edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com."

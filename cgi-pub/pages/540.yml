@@ -1,0 +1,4343 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 130
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 130
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 285
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 95
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 494
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 109
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 94
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 112
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 125
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 142
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 151
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 166
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 174
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 182
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 193
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 206
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 217
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 232
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 246
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 257
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 264
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 278
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 295
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 314
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 332
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 346
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 363
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 374
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 385
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 396
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 407
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 411
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 452
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 523
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 456
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 659
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 659
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 45
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 660
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 660
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 664
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 664
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 50
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 665
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 665
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 701
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 758
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 992
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 1033
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 75
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5i9k4p"
+    line: 1043
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+address: http://www.gamasutra.com/calendar/calendar.php
+inboundLinks: []
+lines:
+- |2+
+
+- "    \n"
+- "                                \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-skin');
+- " \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "    \n"
+- "         \n"
+- "            \n"
+- |2
+                      Our Properties:
+- |2
+                          Gamasutra
+- |2
+                          GameCareerGuide
+- |2
+                          IndieGames
+- |2
+                          GDC Vault
+- |2
+                          GDC
+- |2
+                          IGF
+- "                   \n"
+- "         \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "     \t\n"
+- "          \t\n"
+- "          \n"
+- "              \n"
+- "                     \n"
+- "                                                                               \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-top');
+- " \n"
+- |2+
+
+- "                                           \n"
+- "    \n"
+- "              \n"
+- "          \n"
+- "    \n"
+- "          \n"
+- " \n"
+- "\t\t\n"
+- "                    \n"
+- "                         \n"
+- "                              \n"
+- |2
+                                     SEARCH
+- "                                   \n"
+- "          \n"
+- |2
+                                                 GO
+- "                                   \n"
+- "                                   \n"
+- "                              \n"
+- "                         \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- "                                  \n"
+- "                                       \n"
+- "                                   \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                \t\n"
+- "                    \t\n"
+- |2
+                                GAME JOBS
+- "                          \n"
+- "                    \n"
+- "                    \n"
+- "                         \n"
+- |2
+                                     updates
+- |2
+                                     Blogs
+- |2
+                                     events
+- |2
+                                     contractors
+- |2
+                                     newsletter
+- |2
+                                     store
+- "                         \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- "                             \n"
+- |2
+                                    SEARCH
+- "                                  \n"
+- |2+
+
+- |2
+                                                GO
+- |2+
+
+- "                                    \n"
+- "                             \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                \n"
+- "                     \n"
+- "                       \n"
+- |2
+                              ALL
+- |2
+                                  CONSOLE/PC
+- |2
+                                  SMARTPHONE/TABLET
+- |2
+                                  INDEPENDENT
+- |2
+                                  VR/AR
+- |2
+                                  SOCIAL/ONLINE
+- "                                \n"
+- "                       \n"
+- "                   \n"
+- "               \t\t\n"
+- "                    \n"
+- "                        \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "        \n"
+- "                    \r\n"
+- "    \t\r\n"
+- "       \r\n"
+- "  \r\n"
+- "     \r\n"
+- "        \r\n"
+- "        \r\n"
+- "        \r\n"
+- "    \r\n"
+- "\r        \n"
+- "        \n"
+- "        \n"
+- "                \n"
+- "        \n"
+- "        \n"
+- "                \r\n"
+- "   \r\n"
+- "   PROGRAMMING\r\n"
+- "\r\n"
+- "   \r\n"
+- "   ART\r\n"
+- "\r\n"
+- "            \r\n"
+- "   AUDIO\r\n"
+- "\r\n"
+- "   \r\n"
+- "   DESIGN\r\n"
+- "\r\n"
+- "   \r\n"
+- "   PRODUCTION\r\n"
+- "\r\n"
+- "   \r\n"
+- "   BIZ/MARKETING\r\n"
+- "\r\n"
+- "             \n"
+- "                  \n"
+- "                    \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-button1');
+- " \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-button2');
+- " \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-callout');
+- " \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-custom1');
+- " \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-custom3');
+- " \n"
+- |2+
+
+- "                \n"
+- "        \n"
+- "\t\t\t              \n"
+- "        \n"
+- "\t\n"
+- "         \n"
+- |2
+              Latest Jobs
+- |2+
+
+- |2
+       View All    
+- |2
+       RSS
+- |2
+       December 14, 2015
+- |2
+       Cryptic StudiosSoftware Engineers (All levels - Graphics, Tools, Console, Engine, etc)
+- "        \n"
+- "        \n"
+- |2
+              Industry GamesSenior FX Artist
+- "        \n"
+- "        \n"
+- |2
+              ROBLOXSenior iOS Developer
+- "        \n"
+- "        \n"
+- |2
+              ROBLOXQA Engineer
+- "        \n"
+- "        \n"
+- |2
+              ROBLOXSenior Full Stack Engineer
+- "        \n"
+- "        \n"
+- |2
+              ROBLOXSenior Front End Engineer
+- "        \n"
+- "        \n"
+- "         \n"
+- "            \n"
+- "           \t\t\t\n"
+- "         \n"
+- |2
+              Latest Blogs
+- |2+
+
+- "    View All \n"
+- |2
+          Post
+- |2
+          RSS
+- |2
+      December 14, 2015
+- "    \n"
+- "         \n"
+- "         \n"
+- "         \n"
+- |2
+              Features
+- |2+
+
+- "    View All \n"
+- |2
+          RSS
+- |2
+      December 14, 2015
+- "    \n"
+- |2
+              Postmortem: Pinball-RPG hybrid Rollers of the Realm
+- |2
+                              [6]
+- "                    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Best of 2014: Gamasutra's Top Games of the Year
+- |2
+                              [10]
+- "                    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Q&A: New AAA studio from 2K Games all about players' stories
+- |2
+                              [8]
+- "                    \n"
+- "        \n"
+- "       \n"
+- "    \t         \n"
+- "\t\t \n"
+- "\t\t \n"
+- "                     \n"
+- "                         \n"
+- "         \n"
+- |2
+              Press Releases
+- |2+
+
+- |2
+      December 14, 2015
+- "\tPR Newswire \n"
+- "\t\n"
+- "\t\n"
+- "\t  #prn_overrides{margin:0 10px 10px 3px; }\n"
+- "\t  #prn_overrides table{background-color:transparent;}\n"
+- "\t  #prn_overrides table td{background-color:transparent;}\n"
+- "\t  #prn_overrides td.linkcell_prn{background:url(//twimgs.com/gamasutra/images/gray_arrow2.gif)
+  no-repeat 0px 7px;padding-left:12px;display:block;width:130px;}\n"
+- "\t  #prn_overrides a.headlinelink_prn{font-family: Verdana, Arial, Helvetica, sans-serif;
+  }\n"
+- "\t\n"
+- "\t\n"
+- "\tView All\n"
+- "\t\n"
+- |2+
+
+- |2
+     Games Press
+- "   \n"
+- |2
+              UnderEarth Preparing to
+- |
+  Surface
+- "        \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- |2
+              UnderEarth Preparing to
+- |
+  Surface
+- "        \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- |2
+              Puzzle Caffe starts beta
+- |
+  test on Google play!
+- "        \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- |2
+              Puzzle Caffe starts beta
+- |
+  test on Google play!
+- "        \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- |2
+              Get Ready for Battlefield
+- |
+  Hardline: Getaway
+- |
+  Coming...
+- "        \n"
+- "        \n"
+- "         View All \n"
+- |2
+         RSS
+- "         \n"
+- "                         \n"
+- "         \n"
+- |2
+              Calendar
+- |2+
+
+- |2
+      View All     Submit Event
+- "             \n"
+- "                         \n"
+- "         \n"
+- |2
+              About
+- |2+
+
+- |2
+      Editor-In-Chief: Kris Graft
+- "            \n"
+- |2
+              Blog Director: Christian Nutt
+- "            \n"
+- |2
+              Senior Contributing Editor: Brandon Sheffield
+- "            \n"
+- |2
+              News Editors: Alex Wawro
+- "            \n"
+- "          \n"
+- "           \n"
+- |2
+              Advertising/Recruitment/Education: Pocco Jimenez
+- |2
+      Contact Gamasutra
+- |2
+      Report a Problem
+- |2
+      Submit News
+- |2
+      Comment Guidelines
+- |2
+      Blogging Guidelines
+- "\tHow We Work\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- "             \n"
+- "         \n"
+- "         \n"
+- |2
+              Gama Network
+- |2+
+
+- |2
+      If you enjoy reading this site, you might also want to check out these UBM Tech sites:
+- "     \n"
+- |2
+      Game Career Guide
+- "    \n"
+- |2
+      Indie Games
+- "             \n"
+- "         \n"
+- "         \n"
+- "                     \n"
+- "         \n"
+- "                \n"
+- "    \n"
+- "  \n"
+- " \n"
+- "  \r\n"
+- "\r\n"
+- " \r\n"
+- "<!--\r\n"
+- "function MM_jumpMenu(targ,selObj,restore){ //v3.0\r\n"
+- "eval(targ+\".location='\"+selObj.options[selObj.selectedIndex].value+\"'\");\r\n"
+- "if (restore) selObj.selectedIndex=0;\r\n"
+- "}\r\n"
+- "//-->\r\n"
+- "\r\n"
+- "    \r\n"
+- "         \r\n"
+- "        \r\n"
+- "            Calendar\r\n"
+- "                             \r\n"
+- "        View All Events        Submit Event\r\n"
+- "         \r\n"
+- "                    \n"
+- |2
+      Event/
+- |2
+      City
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      Start Date/
+- |2
+      End Date
+- |2+
+
+- |2+
+
+- |2
+               December, 2015
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Holiday Gamer (FREE)
+- "                \n"
+- |2
+                                      New York,
+- "                                                            \n"
+- "            \n"
+- |2
+                   December 23, 2015
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Mobile games industry trends seminar
+- "                \n"
+- |2
+                                      West Bromwich,
+- "                                                    West Midlands, \n"
+- |2
+                                                      United Kingdom
+- "                            \n"
+- "            \n"
+- |2
+                   December 31, 2015
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Women & Gaming Industry Seminar
+- "                \n"
+- |2
+                                      Poznan,
+- "                                                    Wilekopolskie, \n"
+- |2
+                                                      Poland
+- "                            \n"
+- "            \n"
+- |2
+                   December 31, 2015
+- "                                            \n"
+- "            \n"
+- |2
+                       January, 2016
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Board Games and Beyond
+- "                \n"
+- |2
+                                      London,
+- "                                                            \n"
+- "            \n"
+- |2
+                   January 11, 2016
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Mobile Games Forum (MGF) London 2016
+- "                \n"
+- |2
+                                      London,
+- "                                                            \n"
+- "            \n"
+- |2
+                   January 19, 2016
+- |2
+                                                          to  January 20, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Ludicious - Zürich Game Festival
+- "                \n"
+- |2
+                                      Zürich,
+- "                                                            \n"
+- "            \n"
+- |2
+                   January 21, 2016
+- |2
+                                                          to  January 24, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  GMASA - Global Mobile App Summit & Awards 2016
+- "                \n"
+- |2
+                                      Bangkok,
+- "                                                    Bangkok, \n"
+- |2
+                                                      Thailand
+- "                            \n"
+- "            \n"
+- |2
+                   January 22, 2016
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  CUNY Games Festival
+- "                \n"
+- |2
+                                      New York,
+- "                                                    NY, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   January 22, 2016
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Global Game Jam
+- "                \n"
+- |2
+                                      Stamford,
+- "                                                    CT, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   January 29, 2016
+- |2
+                                                          to  January 31, 2016
+- "                            \n"
+- "            \n"
+- |2
+                       February, 2016
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Bonus Czysto¶æ Trade Fair
+- "                \n"
+- |2
+                                      Chociwel,
+- "                                                    Zachodniopomorskie, \n"
+- |2
+                                                      Poland
+- "                            \n"
+- "            \n"
+- |2
+                   February 10, 2016
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  2016 D.I.C.E. Summit and Awards Show
+- "                \n"
+- "            \n"
+- |2
+                   February 16, 2016
+- |2
+                                                          to  February 18, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Mobile Growth Fellowship
+- "                \n"
+- |2
+                                      San Francisco,
+- "                                                    California, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   February 17, 2016
+- |2
+                                                          to  February 18, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Mobile Growth Fellowship
+- "                \n"
+- |2
+                                      San Francisco,
+- "                                                    California, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   February 17, 2016
+- |2
+                                                          to  February 18, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Mobile Growth Summit 2016
+- "                \n"
+- |2
+                                      San Francisco,
+- "                                                    California, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   February 17, 2016
+- |2
+                                                          to  February 18, 2016
+- "                            \n"
+- "            \n"
+- |2
+                       April, 2016
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  PixelFest
+- "                \n"
+- |2
+                                      Norfolk,
+- "                                                    VA, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   April 08, 2016
+- |2
+                                                          to  April 10, 2016
+- "                            \n"
+- "            \n"
+- |2
+                       May, 2016
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  DevGAMM Moscow 2015
+- "                \n"
+- |2
+                                      Moscow,
+- "                                                            \n"
+- "            \n"
+- |2
+                   May 12, 2016
+- |2
+                                                          to  May 13, 2016
+- "                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Indievelopment 2016
+- "                \n"
+- |2
+                                      Utrecht,
+- "                                                    Utrecht, \n"
+- |2
+                                                      Netherlands
+- "                            \n"
+- "            \n"
+- |2
+                   May 23, 2016
+- "                                            \n"
+- "            \n"
+- "            \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  MomoCon - Gaming and Animation Convention
+- "                \n"
+- |2
+                                      Atlanta,
+- "                                                    GA, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   May 26, 2016
+- |2
+                                                          to  May 29, 2016
+- "                            \n"
+- "            \n"
+- |2
+                       July, 2016
+- "    \n"
+- "    \t\n"
+- "            \n"
+- "                \n"
+- |2
+                  Hoshicon 2016
+- "                \n"
+- |2
+                                      Charlotte,
+- "                                                    NC, \n"
+- |2
+                                                      United States
+- "                            \n"
+- "            \n"
+- |2
+                   July 15, 2016
+- |2
+                                                          to  July 17, 2016
+- "                            \n"
+- "            \n"
+- "                        \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "            \n"
+- "            \n"
+- |2+
+
+- "        \n"
+- "     \t\n"
+- "               \n"
+- "                   \n"
+- |2+
+
+- "  \n"
+- "                            \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-sky1');
+- " \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- " \n"
+- |2
+    googletag.display('div-gpt-ad-Ltile1');
+- " \n"
+- |2+
+
+- "              \n"
+- "\t\t \n"
+- "               \t\n"
+- "                 \n"
+- "              \n"
+- "        \n"
+- "     \n"
+- "     \n"
+- "     \n"
+- "     \n"
+- "  \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "      \n"
+- "        UBM TECH BRANDS \n"
+- |2
+            Black Hat
+- |2
+            Cloud Connect
+- "          Dark Reading \n"
+- |2
+            Enterprise Connect
+- |2
+          Fusion
+- |2
+            GDC
+- |2
+            GTEC
+- |2
+            Gamasutra
+- |2
+          HDI
+- |2
+            InformationWeek
+- |2
+            Interop
+- |2
+          Network Computing
+- |2
+            No Jitter
+- |2
+            Tower & Small Cell Summit
+- "        \n"
+- "      \n"
+- |2
+          COMMUNITIES SERVED
+- |2
+            Enterprise IT
+- |2
+            Enterprise Communications
+- |2
+            Game Development
+- |2
+            Information Security
+- |2
+            IT Services & Support
+- "       \n"
+- "      \n"
+- |2
+          WORKING WITH US
+- |2
+            Advertising Contacts
+- |2
+            Event Calendar
+- |2
+            Tech Marketing
+- |2
+            Solutions
+- |2
+            Contact Us
+- |2
+            Licensing
+- "        \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+      Terms of Service
+- |2
+        Privacy Statement
+- |2
+        Copyright © 2015 UBM Tech, All rights reserved
+- "    \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  var beacon = new UBM.Beacon({environment: 'p', apiKey: '31fa8154ead6bb6b2bcefa32b0b2bd86ef990485d4def29a6117223512da2973'});
+- |
+  beacon.pageview();
+- |
+  <!--
+- |2
+      /* You may give each page an identifying name, server, and channel on
+- |2
+      the next lines. */
+- "\ts.pageName=\"Calendar\";\n"
+- "\ts.server=\"\";\n"
+- "\ts.channel=\"\";\n"
+- "\ts.pageType=\"\";\n"
+- "\ts.prop1=\"\";\n"
+- "\ts.prop2=\"\";\n"
+- "\ts.prop3=\"Gamasustra |  | Calendar\";\n"
+- "\ts.prop4=\"Calendar\";\n"
+- "\ts.prop5=\"Events\";\n"
+- "\ts.prop6=\"\";\n"
+- "\ts.prop7=\"\";\n"
+- "\ts.prop8=\"userAgent\";\n"
+- "\ts.prop9=\"\";\n"
+- "\ts.prop10=\"\";\n"
+- "\ts.prop13=\"\";\n"
+- "\t/* Conversion Variables */\n"
+- "\ts.campaign=\"\";\n"
+- "\ts.state=\"\";\n"
+- "\ts.zip=\"\";\n"
+- "\ts.events=\"event5\";\n"
+- "\ts.products=\"\";\n"
+- "\ts.purchaseID=\"\";\n"
+- "\ts.eVar1=\"\";\n"
+- "\ts.eVar2=\"\";\n"
+- "\ts.eVar3=\"\";\n"
+- "\ts.eVar4=\"\";\n"
+- "\ts.eVar5=\"\";\n"
+- "\t/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\n"
+- |2
+      var s_code = s.t(); if (s_code) document.write(s_code)//--><!--
+- |2
+      if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
+- |
+  //-->
+- "          \n"
+- "  \n"
+- |2+
+
+index:
+  googletag: !ruby/object:Word
+    word: googletag
+    stem: googletag
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 33
+    - 151
+    - 157
+    - 163
+    - 169
+    - 175
+    - 664
+    - 670
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 11.0
+    docPositions:
+    - 5
+    - 33
+    - 151
+    - 157
+    - 163
+    - 169
+    - 175
+    - 259
+    - 664
+    - 670
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 33
+    - 151
+    - 157
+    - 163
+    - 169
+    - 175
+    - 664
+    - 670
+  gpt: !ruby/object:Word
+    word: gpt
+    stem: gpt
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 33
+    - 151
+    - 157
+    - 163
+    - 169
+    - 175
+    - 664
+    - 670
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 33
+    - 151
+    - 157
+    - 163
+    - 169
+    - 175
+    - 664
+    - 670
+  skin: !ruby/object:Word
+    word: skin
+    stem: skin
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  properties: !ruby/object:Word
+    word: properties
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  gamasutra: !ruby/object:Word
+    word: gamasutra
+    stem: gamasutra
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 233
+    - 259
+    - 321
+    - 701
+  gamecareerguide: !ruby/object:Word
+    word: gamecareerguide
+    stem: gamecareerguid
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  indiegames: !ruby/object:Word
+    word: indiegames
+    stem: indiegam
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  gdc: !ruby/object:Word
+    word: gdc
+    stem: gdc
+    docFrequency: 4.0
+    docPositions:
+    - 17
+    - 18
+    - 699
+  vault: !ruby/object:Word
+    word: vault
+    stem: vault
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  igf: !ruby/object:Word
+    word: igf
+    stem: igf
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 233
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 83
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 86
+  game: !ruby/object:Word
+    word: game
+    stem: game
+    docFrequency: 6.0
+    docPositions:
+    - 67
+    - 340
+    - 450
+    - 491
+    - 713
+  jobs: !ruby/object:Word
+    word: jobs
+    stem: job
+    docFrequency: 3.0
+    docPositions:
+    - 67
+    - 184
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  blogs: !ruby/object:Word
+    word: blogs
+    stem: blog
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 211
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 5.0
+    docPositions:
+    - 74
+    - 367
+    - 754
+    - 765
+  contractors: !ruby/object:Word
+    word: contractors
+    stem: contractor
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 12.0
+    docPositions:
+    - 96
+    - 186
+    - 189
+    - 213
+    - 223
+    - 239
+    - 263
+    - 297
+    - 304
+    - 367
+    - 732
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 3.0
+    docPositions:
+    - 97
+    - 189
+  pc: !ruby/object:Word
+    word: pc
+    stem: pc
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  smartphone: !ruby/object:Word
+    word: smartphone
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  tablet: !ruby/object:Word
+    word: tablet
+    stem: tablet
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  independent: !ruby/object:Word
+    word: independent
+    stem: independ
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  vr: !ruby/object:Word
+    word: vr
+    stem: vr
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  ar: !ruby/object:Word
+    word: ar
+    stem: ar
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  programming: !ruby/object:Word
+    word: programming
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  audio: !ruby/object:Word
+    word: audio
+    stem: audio
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  design: !ruby/object:Word
+    word: design
+    stem: design
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  biz: !ruby/object:Word
+    word: biz
+    stem: biz
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  marketing: !ruby/object:Word
+    word: marketing
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 721
+  callout: !ruby/object:Word
+    word: callout
+    stem: callout
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  latest: !ruby/object:Word
+    word: latest
+    stem: latest
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 211
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 8.0
+    docPositions:
+    - 186
+    - 213
+    - 223
+    - 263
+    - 297
+    - 304
+    - 367
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 5.0
+    docPositions:
+    - 187
+    - 215
+    - 224
+    - 298
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 9.0
+    docPositions:
+    - 188
+    - 216
+    - 225
+    - 252
+    - 379
+    - 389
+    - 403
+    - 417
+  cryptic: !ruby/object:Word
+    word: cryptic
+    stem: cryptic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  studiossoftware: !ruby/object:Word
+    word: studiossoftware
+    stem: studiossoftwar
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  engineers: !ruby/object:Word
+    word: engineers
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  levels: !ruby/object:Word
+    word: levels
+    stem: level
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  graphics: !ruby/object:Word
+    word: graphics
+    stem: graphic
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  engine: !ruby/object:Word
+    word: engine
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  etc: !ruby/object:Word
+    word: etc
+    stem: etc
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  industry: !ruby/object:Word
+    word: industry
+    stem: industri
+    docFrequency: 4.0
+    docPositions:
+    - 192
+    - 396
+    - 410
+  gamessenior: !ruby/object:Word
+    word: gamessenior
+    stem: gamessenior
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  fx: !ruby/object:Word
+    word: fx
+    stem: fx
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  artist: !ruby/object:Word
+    word: artist
+    stem: artist
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  robloxsenior: !ruby/object:Word
+    word: robloxsenior
+    stem: robloxsenior
+    docFrequency: 4.0
+    docPositions:
+    - 195
+    - 201
+    - 204
+  ios: !ruby/object:Word
+    word: ios
+    stem: io
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  developer: !ruby/object:Word
+    word: developer
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  robloxqa: !ruby/object:Word
+    word: robloxqa
+    stem: robloxqa
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  engineer: !ruby/object:Word
+    word: engineer
+    stem: engin
+    docFrequency: 4.0
+    docPositions:
+    - 198
+    - 201
+    - 204
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  stack: !ruby/object:Word
+    word: stack
+    stem: stack
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  front: !ruby/object:Word
+    word: front
+    stem: front
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 3.0
+    docPositions:
+    - 204
+    - 376
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 16.0
+    docPositions:
+    - 214
+    - 215
+    - 224
+    - 228
+    - 234
+    - 240
+    - 256
+    - 257
+    - 258
+    - 259
+    - 260
+    - 298
+    - 744
+    - 761
+    - 773
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  postmortem: !ruby/object:Word
+    word: postmortem
+    stem: postmortem
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  pinball: !ruby/object:Word
+    word: pinball
+    stem: pinbal
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  rpg: !ruby/object:Word
+    word: rpg
+    stem: rpg
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  hybrid: !ruby/object:Word
+    word: hybrid
+    stem: hybrid
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  rollers: !ruby/object:Word
+    word: rollers
+    stem: roller
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  realm: !ruby/object:Word
+    word: realm
+    stem: realm
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 29.0
+    docPositions:
+    - 233
+    - 746
+    - 747
+    - 748
+    - 749
+    - 750
+    - 751
+    - 752
+    - 753
+    - 754
+    - 755
+    - 756
+    - 757
+    - 758
+    - 759
+    - 760
+    - 762
+    - 763
+    - 764
+    - 765
+    - 766
+    - 767
+    - 768
+    - 769
+    - 770
+    - 771
+    - 772
+    - 774
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 9.0
+    docPositions:
+    - 233
+    - 239
+    - 266
+    - 342
+    - 396
+    - 425
+    - 437
+    - 477
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  q: !ruby/object:Word
+    word: q
+    stem: q
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 239
+    - 386
+    - 479
+    - 741
+  aaa: !ruby/object:Word
+    word: aaa
+    stem: aaa
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  studio: !ruby/object:Word
+    word: studio
+    stem: studio
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  players: !ruby/object:Word
+    word: players
+    stem: player
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 250
+    - 266
+  releases: !ruby/object:Word
+    word: releases
+    stem: releas
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  pr: !ruby/object:Word
+    word: pr
+    stem: pr
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  newswire: !ruby/object:Word
+    word: newswire
+    stem: newswir
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  prn_overrides: !ruby/object:Word
+    word: prn_overrides
+    stem: prn_overrid
+    docFrequency: 6.0
+    docPositions:
+    - 256
+    - 257
+    - 258
+    - 259
+    - 260
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 256
+  table: !ruby/object:Word
+    word: table
+    stem: tabl
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 258
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 4.0
+    docPositions:
+    - 257
+    - 258
+    - 259
+  color: !ruby/object:Word
+    word: color
+    stem: color
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 258
+  transparent: !ruby/object:Word
+    word: transparent
+    stem: transpar
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 258
+  td: !ruby/object:Word
+    word: td
+    stem: td
+    docFrequency: 3.0
+    docPositions:
+    - 258
+    - 259
+  linkcell_prn: !ruby/object:Word
+    word: linkcell_prn
+    stem: linkcell_prn
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  twimgs: !ruby/object:Word
+    word: twimgs
+    stem: twimg
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  gif: !ruby/object:Word
+    word: gif
+    stem: gif
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 259
+    - 706
+  repeat: !ruby/object:Word
+    word: repeat
+    stem: repeat
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  headlinelink_prn: !ruby/object:Word
+    word: headlinelink_prn
+    stem: headlinelink_prn
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  font: !ruby/object:Word
+    word: font
+    stem: font
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  verdana: !ruby/object:Word
+    word: verdana
+    stem: verdana
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  arial: !ruby/object:Word
+    word: arial
+    stem: arial
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  helvetica: !ruby/object:Word
+    word: helvetica
+    stem: helvetica
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  sans: !ruby/object:Word
+    word: sans
+    stem: san
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  serif: !ruby/object:Word
+    word: serif
+    stem: serif
+    docFrequency: 2.0
+    docPositions:
+    - 260
+  underearth: !ruby/object:Word
+    word: underearth
+    stem: underearth
+    docFrequency: 3.0
+    docPositions:
+    - 268
+    - 274
+  preparing: !ruby/object:Word
+    word: preparing
+    stem: prepar
+    docFrequency: 3.0
+    docPositions:
+    - 268
+    - 274
+  surface: !ruby/object:Word
+    word: surface
+    stem: surfac
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 275
+  puzzle: !ruby/object:Word
+    word: puzzle
+    stem: puzzl
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 286
+  caffe: !ruby/object:Word
+    word: caffe
+    stem: caff
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 286
+  starts: !ruby/object:Word
+    word: starts
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 286
+  beta: !ruby/object:Word
+    word: beta
+    stem: beta
+    docFrequency: 3.0
+    docPositions:
+    - 280
+    - 286
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 3.0
+    docPositions:
+    - 281
+    - 287
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 281
+    - 287
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 3.0
+    docPositions:
+    - 281
+    - 287
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  battlefield: !ruby/object:Word
+    word: battlefield
+    stem: battlefield
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  hardline: !ruby/object:Word
+    word: hardline
+    stem: hardlin
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  getaway: !ruby/object:Word
+    word: getaway
+    stem: getawai
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  coming: !ruby/object:Word
+    word: coming
+    stem: come
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  calendar: !ruby/object:Word
+    word: calendar
+    stem: calendar
+    docFrequency: 7.0
+    docPositions:
+    - 302
+    - 365
+    - 720
+    - 746
+    - 752
+    - 753
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 4.0
+    docPositions:
+    - 304
+    - 323
+    - 367
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 5.0
+    docPositions:
+    - 304
+    - 367
+    - 370
+    - 720
+  editor: !ruby/object:Word
+    word: editor
+    stem: editor
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 314
+  chief: !ruby/object:Word
+    word: chief
+    stem: chief
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  kris: !ruby/object:Word
+    word: kris
+    stem: kri
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  graft: !ruby/object:Word
+    word: graft
+    stem: graft
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  director: !ruby/object:Word
+    word: director
+    stem: director
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  christian: !ruby/object:Word
+    word: christian
+    stem: christian
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  nutt: !ruby/object:Word
+    word: nutt
+    stem: nutt
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  senior: !ruby/object:Word
+    word: senior
+    stem: senior
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  contributing: !ruby/object:Word
+    word: contributing
+    stem: contribut
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  brandon: !ruby/object:Word
+    word: brandon
+    stem: brandon
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  sheffield: !ruby/object:Word
+    word: sheffield
+    stem: sheffield
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 323
+  editors: !ruby/object:Word
+    word: editors
+    stem: editor
+    docFrequency: 2.0
+    docPositions:
+    - 316
+  alex: !ruby/object:Word
+    word: alex
+    stem: alex
+    docFrequency: 2.0
+    docPositions:
+    - 316
+  wawro: !ruby/object:Word
+    word: wawro
+    stem: wawro
+    docFrequency: 2.0
+    docPositions:
+    - 316
+  advertising: !ruby/object:Word
+    word: advertising
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 719
+  recruitment: !ruby/object:Word
+    word: recruitment
+    stem: recruit
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  pocco: !ruby/object:Word
+    word: pocco
+    stem: pocco
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  jimenez: !ruby/object:Word
+    word: jimenez
+    stem: jimenez
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 723
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 322
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 2.0
+    docPositions:
+    - 322
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 324
+  guidelines: !ruby/object:Word
+    word: guidelines
+    stem: guidelin
+    docFrequency: 3.0
+    docPositions:
+    - 324
+    - 325
+  blogging: !ruby/object:Word
+    word: blogging
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  gama: !ruby/object:Word
+    word: gama
+    stem: gama
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 705
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 338
+    - 358
+    - 774
+    - 775
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 4.0
+    docPositions:
+    - 338
+    - 744
+  enjoy: !ruby/object:Word
+    word: enjoy
+    stem: enjoi
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  reading: !ruby/object:Word
+    word: reading
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 338
+    - 696
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  might: !ruby/object:Word
+    word: might
+    stem: might
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  want: !ruby/object:Word
+    word: want
+    stem: want
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  ubm: !ruby/object:Word
+    word: ubm
+    stem: ubm
+    docFrequency: 5.0
+    docPositions:
+    - 338
+    - 693
+    - 732
+    - 741
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 5.0
+    docPositions:
+    - 338
+    - 693
+    - 721
+    - 732
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  career: !ruby/object:Word
+    word: career
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  guide: !ruby/object:Word
+    word: guide
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  indie: !ruby/object:Word
+    word: indie
+    stem: indi
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  mm_jumpmenu: !ruby/object:Word
+    word: mm_jumpmenu
+    stem: mm_jumpmenu
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  targ: !ruby/object:Word
+    word: targ
+    stem: targ
+    docFrequency: 3.0
+    docPositions:
+    - 356
+    - 357
+  selobj: !ruby/object:Word
+    word: selobj
+    stem: selobj
+    docFrequency: 5.0
+    docPositions:
+    - 356
+    - 357
+    - 358
+  restore: !ruby/object:Word
+    word: restore
+    stem: restor
+    docFrequency: 3.0
+    docPositions:
+    - 356
+    - 358
+  eval: !ruby/object:Word
+    word: eval
+    stem: eval
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  selectedindex: !ruby/object:Word
+    word: selectedindex
+    stem: selectedindex
+    docFrequency: 3.0
+    docPositions:
+    - 357
+    - 358
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  city: !ruby/object:Word
+    word: city
+    stem: citi
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 375
+    - 376
+  holiday: !ruby/object:Word
+    word: holiday
+    stem: holidai
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  gamer: !ruby/object:Word
+    word: gamer
+    stem: gamer
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 384
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 3.0
+    docPositions:
+    - 386
+    - 479
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 7.0
+    docPositions:
+    - 396
+    - 437
+    - 463
+    - 532
+    - 547
+    - 562
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 396
+  seminar: !ruby/object:Word
+    word: seminar
+    stem: seminar
+    docFrequency: 3.0
+    docPositions:
+    - 396
+    - 410
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 399
+  bromwich: !ruby/object:Word
+    word: bromwich
+    stem: bromwich
+    docFrequency: 2.0
+    docPositions:
+    - 398
+  midlands: !ruby/object:Word
+    word: midlands
+    stem: midland
+    docFrequency: 2.0
+    docPositions:
+    - 399
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 10.0
+    docPositions:
+    - 400
+    - 481
+    - 495
+    - 536
+    - 551
+    - 566
+    - 582
+    - 625
+    - 641
+  kingdom: !ruby/object:Word
+    word: kingdom
+    stem: kingdom
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 410
+  gaming: !ruby/object:Word
+    word: gaming
+    stem: game
+    docFrequency: 3.0
+    docPositions:
+    - 410
+    - 621
+  poznan: !ruby/object:Word
+    word: poznan
+    stem: poznan
+    docFrequency: 2.0
+    docPositions:
+    - 412
+  wilekopolskie: !ruby/object:Word
+    word: wilekopolskie
+    stem: wilekopolski
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  poland: !ruby/object:Word
+    word: poland
+    stem: poland
+    docFrequency: 3.0
+    docPositions:
+    - 414
+    - 511
+  january: !ruby/object:Word
+    word: january
+    stem: januari
+    docFrequency: 11.0
+    docPositions:
+    - 420
+    - 430
+    - 442
+    - 443
+    - 455
+    - 456
+    - 470
+    - 484
+    - 498
+    - 499
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 2.0
+    docPositions:
+    - 425
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 5.0
+    docPositions:
+    - 425
+    - 521
+    - 621
+    - 744
+  beyond: !ruby/object:Word
+    word: beyond
+    stem: beyond
+    docFrequency: 2.0
+    docPositions:
+    - 425
+  london: !ruby/object:Word
+    word: london
+    stem: london
+    docFrequency: 4.0
+    docPositions:
+    - 427
+    - 437
+    - 439
+  forum: !ruby/object:Word
+    word: forum
+    stem: forum
+    docFrequency: 2.0
+    docPositions:
+    - 437
+  mgf: !ruby/object:Word
+    word: mgf
+    stem: mgf
+    docFrequency: 2.0
+    docPositions:
+    - 437
+  ludicious: !ruby/object:Word
+    word: ludicious
+    stem: ludici
+    docFrequency: 2.0
+    docPositions:
+    - 450
+  z: !ruby/object:Word
+    word: z
+    stem: z
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 452
+  rich: !ruby/object:Word
+    word: rich
+    stem: rich
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 452
+  festival: !ruby/object:Word
+    word: festival
+    stem: festiv
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 477
+  gmasa: !ruby/object:Word
+    word: gmasa
+    stem: gmasa
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 3.0
+    docPositions:
+    - 463
+    - 491
+  app: !ruby/object:Word
+    word: app
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  summit: !ruby/object:Word
+    word: summit
+    stem: summit
+    docFrequency: 5.0
+    docPositions:
+    - 463
+    - 521
+    - 562
+    - 707
+  awards: !ruby/object:Word
+    word: awards
+    stem: award
+    docFrequency: 3.0
+    docPositions:
+    - 463
+    - 521
+  bangkok: !ruby/object:Word
+    word: bangkok
+    stem: bangkok
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 466
+  thailand: !ruby/object:Word
+    word: thailand
+    stem: thailand
+    docFrequency: 2.0
+    docPositions:
+    - 467
+  cuny: !ruby/object:Word
+    word: cuny
+    stem: cuni
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  ny: !ruby/object:Word
+    word: ny
+    stem: ny
+    docFrequency: 2.0
+    docPositions:
+    - 480
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 9.0
+    docPositions:
+    - 481
+    - 495
+    - 536
+    - 551
+    - 566
+    - 582
+    - 625
+    - 641
+  jam: !ruby/object:Word
+    word: jam
+    stem: jam
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  stamford: !ruby/object:Word
+    word: stamford
+    stem: stamford
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  ct: !ruby/object:Word
+    word: ct
+    stem: ct
+    docFrequency: 2.0
+    docPositions:
+    - 494
+  february: !ruby/object:Word
+    word: february
+    stem: februari
+    docFrequency: 11.0
+    docPositions:
+    - 502
+    - 514
+    - 524
+    - 525
+    - 539
+    - 540
+    - 554
+    - 555
+    - 569
+    - 570
+  bonus: !ruby/object:Word
+    word: bonus
+    stem: bonu
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  czysto: !ruby/object:Word
+    word: czysto
+    stem: czysto
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  trade: !ruby/object:Word
+    word: trade
+    stem: trade
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  fair: !ruby/object:Word
+    word: fair
+    stem: fair
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  chociwel: !ruby/object:Word
+    word: chociwel
+    stem: chociwel
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  zachodniopomorskie: !ruby/object:Word
+    word: zachodniopomorskie
+    stem: zachodniopomorski
+    docFrequency: 2.0
+    docPositions:
+    - 510
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 521
+  growth: !ruby/object:Word
+    word: growth
+    stem: growth
+    docFrequency: 4.0
+    docPositions:
+    - 532
+    - 547
+    - 562
+  fellowship: !ruby/object:Word
+    word: fellowship
+    stem: fellowship
+    docFrequency: 3.0
+    docPositions:
+    - 532
+    - 547
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 4.0
+    docPositions:
+    - 534
+    - 549
+    - 564
+  francisco: !ruby/object:Word
+    word: francisco
+    stem: francisco
+    docFrequency: 4.0
+    docPositions:
+    - 534
+    - 549
+    - 564
+  california: !ruby/object:Word
+    word: california
+    stem: california
+    docFrequency: 4.0
+    docPositions:
+    - 535
+    - 550
+    - 565
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 4.0
+    docPositions:
+    - 573
+    - 585
+    - 586
+  pixelfest: !ruby/object:Word
+    word: pixelfest
+    stem: pixelfest
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  norfolk: !ruby/object:Word
+    word: norfolk
+    stem: norfolk
+    docFrequency: 2.0
+    docPositions:
+    - 580
+  va: !ruby/object:Word
+    word: va
+    stem: va
+    docFrequency: 2.0
+    docPositions:
+    - 581
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 8.0
+    docPositions:
+    - 589
+    - 599
+    - 600
+    - 614
+    - 628
+    - 629
+    - 744
+  devgamm: !ruby/object:Word
+    word: devgamm
+    stem: devgamm
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  moscow: !ruby/object:Word
+    word: moscow
+    stem: moscow
+    docFrequency: 3.0
+    docPositions:
+    - 594
+    - 596
+  indievelopment: !ruby/object:Word
+    word: indievelopment
+    stem: indievelop
+    docFrequency: 2.0
+    docPositions:
+    - 607
+  utrecht: !ruby/object:Word
+    word: utrecht
+    stem: utrecht
+    docFrequency: 3.0
+    docPositions:
+    - 609
+    - 610
+  netherlands: !ruby/object:Word
+    word: netherlands
+    stem: netherland
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  momocon: !ruby/object:Word
+    word: momocon
+    stem: momocon
+    docFrequency: 2.0
+    docPositions:
+    - 621
+  animation: !ruby/object:Word
+    word: animation
+    stem: anim
+    docFrequency: 2.0
+    docPositions:
+    - 621
+  convention: !ruby/object:Word
+    word: convention
+    stem: convent
+    docFrequency: 2.0
+    docPositions:
+    - 621
+  atlanta: !ruby/object:Word
+    word: atlanta
+    stem: atlanta
+    docFrequency: 2.0
+    docPositions:
+    - 623
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 624
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 4.0
+    docPositions:
+    - 632
+    - 644
+    - 645
+  hoshicon: !ruby/object:Word
+    word: hoshicon
+    stem: hoshicon
+    docFrequency: 2.0
+    docPositions:
+    - 637
+  charlotte: !ruby/object:Word
+    word: charlotte
+    stem: charlott
+    docFrequency: 2.0
+    docPositions:
+    - 639
+  nc: !ruby/object:Word
+    word: nc
+    stem: nc
+    docFrequency: 2.0
+    docPositions:
+    - 640
+  brands: !ruby/object:Word
+    word: brands
+    stem: brand
+    docFrequency: 2.0
+    docPositions:
+    - 693
+  black: !ruby/object:Word
+    word: black
+    stem: black
+    docFrequency: 2.0
+    docPositions:
+    - 694
+  hat: !ruby/object:Word
+    word: hat
+    stem: hat
+    docFrequency: 2.0
+    docPositions:
+    - 694
+  cloud: !ruby/object:Word
+    word: cloud
+    stem: cloud
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  connect: !ruby/object:Word
+    word: connect
+    stem: connect
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 697
+  dark: !ruby/object:Word
+    word: dark
+    stem: dark
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  enterprise: !ruby/object:Word
+    word: enterprise
+    stem: enterpris
+    docFrequency: 4.0
+    docPositions:
+    - 697
+    - 711
+    - 712
+  fusion: !ruby/object:Word
+    word: fusion
+    stem: fusion
+    docFrequency: 2.0
+    docPositions:
+    - 698
+  gtec: !ruby/object:Word
+    word: gtec
+    stem: gtec
+    docFrequency: 2.0
+    docPositions:
+    - 700
+  hdi: !ruby/object:Word
+    word: hdi
+    stem: hdi
+    docFrequency: 2.0
+    docPositions:
+    - 702
+  informationweek: !ruby/object:Word
+    word: informationweek
+    stem: informationweek
+    docFrequency: 2.0
+    docPositions:
+    - 703
+  interop: !ruby/object:Word
+    word: interop
+    stem: interop
+    docFrequency: 2.0
+    docPositions:
+    - 704
+  computing: !ruby/object:Word
+    word: computing
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 705
+  jitter: !ruby/object:Word
+    word: jitter
+    stem: jitter
+    docFrequency: 2.0
+    docPositions:
+    - 706
+  tower: !ruby/object:Word
+    word: tower
+    stem: tower
+    docFrequency: 2.0
+    docPositions:
+    - 707
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 707
+  cell: !ruby/object:Word
+    word: cell
+    stem: cell
+    docFrequency: 2.0
+    docPositions:
+    - 707
+  communities: !ruby/object:Word
+    word: communities
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 710
+  served: !ruby/object:Word
+    word: served
+    stem: serv
+    docFrequency: 2.0
+    docPositions:
+    - 710
+  communications: !ruby/object:Word
+    word: communications
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 713
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 715
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 715
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 718
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 718
+    - 723
+  contacts: !ruby/object:Word
+    word: contacts
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 719
+  solutions: !ruby/object:Word
+    word: solutions
+    stem: solut
+    docFrequency: 2.0
+    docPositions:
+    - 722
+  licensing: !ruby/object:Word
+    word: licensing
+    stem: licens
+    docFrequency: 2.0
+    docPositions:
+    - 724
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 730
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 730
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 731
+  statement: !ruby/object:Word
+    word: statement
+    stem: statement
+    docFrequency: 2.0
+    docPositions:
+    - 731
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 4.0
+    docPositions:
+    - 741
+    - 742
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 2.0
+    docPositions:
+    - 741
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 2.0
+    docPositions:
+    - 741
+  apikey: !ruby/object:Word
+    word: apikey
+    stem: apikei
+    docFrequency: 2.0
+    docPositions:
+    - 741
+  pageview: !ruby/object:Word
+    word: pageview
+    stem: pageview
+    docFrequency: 2.0
+    docPositions:
+    - 742
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  identifying: !ruby/object:Word
+    word: identifying
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 744
+  server: !ruby/object:Word
+    word: server
+    stem: server
+    docFrequency: 3.0
+    docPositions:
+    - 744
+    - 747
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 3.0
+    docPositions:
+    - 744
+    - 748
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 2.0
+    docPositions:
+    - 745
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 745
+  pagename: !ruby/object:Word
+    word: pagename
+    stem: pagenam
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 749
+  gamasustra: !ruby/object:Word
+    word: gamasustra
+    stem: gamasustra
+    docFrequency: 2.0
+    docPositions:
+    - 752
+  useragent: !ruby/object:Word
+    word: useragent
+    stem: userag
+    docFrequency: 2.0
+    docPositions:
+    - 757
+  conversion: !ruby/object:Word
+    word: conversion
+    stem: convers
+    docFrequency: 2.0
+    docPositions:
+    - 761
+  variables: !ruby/object:Word
+    word: variables
+    stem: variabl
+    docFrequency: 2.0
+    docPositions:
+    - 761
+  campaign: !ruby/object:Word
+    word: campaign
+    stem: campaign
+    docFrequency: 2.0
+    docPositions:
+    - 762
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  zip: !ruby/object:Word
+    word: zip
+    stem: zip
+    docFrequency: 2.0
+    docPositions:
+    - 764
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 766
+  purchaseid: !ruby/object:Word
+    word: purchaseid
+    stem: purchaseid
+    docFrequency: 2.0
+    docPositions:
+    - 767
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  alter: !ruby/object:Word
+    word: alter
+    stem: alter
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  s_code: !ruby/object:Word
+    word: s_code
+    stem: s_code
+    docFrequency: 4.0
+    docPositions:
+    - 774
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 774
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 775
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 774
+    - 775
+  navigator: !ruby/object:Word
+    word: navigator
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  appversion: !ruby/object:Word
+    word: appversion
+    stem: appvers
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  msie: !ruby/object:Word
+    word: msie
+    stem: msie
+    docFrequency: 2.0
+    docPositions:
+    - 775
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 775
+lineCount: 780
+wordCount: 811
+rank: 0.42201560895215584
+title: Gamasutra - Calendar
+links:
+- http://www.gamasutra.com
+- http://www.gamecareerguide.com
+- http://www.indiegames.com
+- http://www.gdcvault.com
+- http://www.gdconf.com
+- http://www.igf.com
+- http://www.gamasutra.com
+- http://jobs.gamasutra.com/
+- http://www.gamasutra.com/updates/
+- http://www.gamasutra.com/blogs/
+- http://www.gamasutra.com/calendar/calendar.php
+- http://www.gamasutra.com/contractors/contractor_display.php
+- http://www.gamasutra.com/sso/profile.php#newsletters
+- https://store.cmpgame.com/storefront.php?loc=&skin=gamasutra_redesign
+- http://www.gamasutra.com
+- http://www.gamasutra.com/topic/console-pc
+- http://www.gamasutra.com/topic/smartphone-tablet
+- http://www.gamasutra.com/topic/indie
+- http://www.gamasutra.com/topic/vr
+- http://www.gamasutra.com/topic/social-online
+- http://www.gamasutra.com/topic/game-developer
+- http://www.facebook.com/pages/Gamasutra/31610613408
+- http://twitter.com/gamasutra
+- http://www.gamasutra.com/static2/rssfeeds.html
+- http://www.gamasutra.com/category/programming/
+- http://www.gamasutra.com/category/programming/
+- http://www.gamasutra.com/category/art/
+- http://www.gamasutra.com/category/art/
+- http://www.gamasutra.com/category/audio/
+- http://www.gamasutra.com/category/audio/
+- http://www.gamasutra.com/category/design/
+- http://www.gamasutra.com/category/design/
+- http://www.gamasutra.com/category/production/
+- http://www.gamasutra.com/category/production/
+- http://www.gamasutra.com/category/business-marketing/
+- http://www.gamasutra.com/category/business-marketing/
+- http://jobs.gamasutra.com/
+- http://jobs.gamasutra.com/
+- http://feeds.feedburner.com/GamasutraJobs
+- http://jobs.gamasutra.com/job/software-engineers-all-levels-graphics-tools-console-engine-etc-los-gatos-california-29783
+- http://jobs.gamasutra.com/job/senior-fx-artist-gilbert-arizona-29656
+- http://jobs.gamasutra.com/job/senior-ios-developer-san-mateo-california-29762
+- http://jobs.gamasutra.com/job/qa-engineer-san-mateo-california-29761
+- http://jobs.gamasutra.com/job/senior-full-stack-engineer-san-mateo-california-29760
+- http://jobs.gamasutra.com/job/senior-front-end-engineer-san-mateo-california-29759
+- http://www.gamasutra.com/blogs/
+- http://www.gamasutra.com/blogs/
+- http://www.gamasutra.com/blogs/edit/
+- http://www.gamasutra.com/blogs/rss/
+- http://www.gamasutra.com/php-bin/article_display.php
+- http://www.gamasutra.com/php-bin/article_display.php
+- http://feeds.feedburner.com/GamasutraFeatureArticles
+- http://www.gamasutra.com/view/feature/233340/postmortem_pinballrpg_hybrid_.php
+- http://www.gamasutra.com/view/feature/233340/postmortem_pinballrpg_hybrid_.php#comments
+- http://www.gamasutra.com/view/feature/233119/best_of_2014_gamasutras_top_.php
+- http://www.gamasutra.com/view/feature/233119/best_of_2014_gamasutras_top_.php#comments
+- http://www.gamasutra.com/view/feature/231505/qa_new_aaa_studio_from_2k_games_.php
+- http://www.gamasutra.com/view/feature/231505/qa_new_aaa_studio_from_2k_games_.php#comments
+- http://www.gamasutra.com/prnewswire.php
+- http://www.gamasutra.com/prnewswire.php
+- http://www.gamasutra.com/pressreleases_index.php
+- http://www.gamasutra.com/view/pressreleases/261834/UnderEarth_Preparing_to_Surface.php
+- http://www.gamasutra.com/view/pressreleases/261833/UnderEarth_Preparing_to_Surface.php
+- http://www.gamasutra.com/view/pressreleases/261836/Puzzle_Caffe_starts_beta_test_on_Google_play.php
+- http://www.gamasutra.com/view/pressreleases/261835/Puzzle_Caffe_starts_beta_test_on_Google_play.php
+- |-
+  http://www.gamasutra.com/view/pressreleases/261838/Get_Ready_for_Battlefield_Hardline_Getaway_Coming_January
+  2016.php
+- http://www.gamasutra.com/pressreleases_index.php
+- http://www.gamasutra.com/pressreleases/rss/
+- http://www.gamasutra.com/calendar/calendar.php
+- http://www.gamasutra.com/calendar/calendar.php
+- http://www.gamasutra.com/calendar/calendar_submit.php
+- http://www.gamasutra.com/contactus
+- http://www.gamasutra.com/contactus
+- http://www.gamasutra.com/static2/comment_guidelines.html
+- http://www.gamasutra.com/static2/blogsubmissions.html
+- http://www.gamasutra.com/static2/howwework.html
+- http://www.jointhegamenetwork.com/online/gamasutra/index.html
+- http://www.gamecareerguide.com
+- http://www.gamecareerguide.com
+- http://www.indiegames.com/blog
+- http://www.indiegames.com/blog
+- http://www.ubmtechweb.com/
+- http://www.blackhat.com/
+- http://www.cloudconnectevent.com/
+- http://www.darkreading.com/
+- http://www.enterpriseconnect.com/
+- http://www.servicemanagementfusion.com/
+- http://www.gdconf.com/
+- http://www.gtec.ca/
+- http://www.gamasutra.com/
+- http://www.thinkhdi.com/
+- http://www.informationweek.com/
+- http://www.interop.com
+- http://www.networkcomputing.com/
+- http://www.nojitter.com/
+- http://www.towersummit.com
+- http://tech.ubm.com/community-brands/enterprise-it/
+- http://tech.ubm.com/community-brands/enterprise-communications/
+- http://tech.ubm.com/community-brands/game-and-app-developers/
+- http://tech.ubm.com/community-brands/information-security/
+- http://tech.ubm.com/community-brands/technical-service-and-support/
+- http://createyournextcustomer.techweb.com/contact-us/
+- http://events.ubm.com/?company=10
+- http://createyournextcustomer.techweb.com/
+- http://createyournextcustomer.techweb.com/
+- http://tech.ubm.com/contact-us/
+- http://wrightsmedia.com/sites/ubm/index.cfm
+- http://legal.us.ubm.com/terms-of-service/
+- http://legal.us.ubm.com/privacy-policy/
+- http://www.omniture.com
+rawText: "\n    \n                                \n\n \n  googletag.display('div-gpt-ad-skin');\n
+  \n\n            \n\n    \n         \n            \n                    Our Properties:\n
+  \                       Gamasutra\n                        GameCareerGuide\n                        IndieGames\n
+  \                       GDC Vault\n                        GDC\n                        IGF\n
+  \                  \n         \n    \n    \n    \n     \t\n          \t\n          \n
+  \             \n                     \n                                                                               \n\n
+  \n  googletag.display('div-gpt-ad-top');\n \n\n                                           \n
+  \   \n              \n          \n    \n          \n \n\t\t\n                    \n
+  \                        \n                              \n                                   SEARCH\n
+  \                                  \n          \n                                               GO\n
+  \                                  \n                                   \n                              \n
+  \                        \n                    \n                    \n                    \n
+  \                       \n                                  \n                                       \n
+  \                                  \n                        \n                    \n
+  \                   \n                \t\n                    \t\n                              GAME
+  JOBS\n                          \n                    \n                    \n                         \n
+  \                                  updates\n                                   Blogs\n
+  \                                  events\n                                   contractors\n
+  \                                  newsletter\n                                   store\n
+  \                        \n                    \n                    \n                        \n
+  \                            \n                                  SEARCH\n                                  \n\n
+  \                                             GO\n\n                                    \n
+  \                            \n                        \n                    \n
+  \                   \n                \n                     \n                       \n
+  \                           ALL\n                                CONSOLE/PC\n                                SMARTPHONE/TABLET\n
+  \                               INDEPENDENT\n                                VR/AR\n
+  \                               SOCIAL/ONLINE\n                                \n
+  \                      \n                   \n               \t\t\n                    \n
+  \                       \n\n  \n    \n        \n                    \r\n    \t\r\n
+  \      \r\n  \r\n     \r\n        \r\n        \r\n        \r\n    \r\n\r        \n
+  \       \n        \n                \n        \n        \n                \r\n   \r\n
+  \  PROGRAMMING\r\n\r\n   \r\n   ART\r\n\r\n            \r\n   AUDIO\r\n\r\n   \r\n
+  \  DESIGN\r\n\r\n   \r\n   PRODUCTION\r\n\r\n   \r\n   BIZ/MARKETING\r\n\r\n             \n
+  \                 \n                    \n\n \n  googletag.display('div-gpt-ad-button1');\n
+  \n\n            \n\n \n  googletag.display('div-gpt-ad-button2');\n \n\n            \n\n
+  \n  googletag.display('div-gpt-ad-callout');\n \n\n            \n\n \n  googletag.display('div-gpt-ad-custom1');\n
+  \n\n            \n\n \n  googletag.display('div-gpt-ad-custom3');\n \n\n                \n
+  \       \n\t\t\t              \n        \n\t\n         \n            Latest Jobs\n\n
+  \    View All    \n     RSS\n     December 14, 2015\n     Cryptic StudiosSoftware
+  Engineers (All levels - Graphics, Tools, Console, Engine, etc)\n        \n        \n
+  \           Industry GamesSenior FX Artist\n        \n        \n            ROBLOXSenior
+  iOS Developer\n        \n        \n            ROBLOXQA Engineer\n        \n        \n
+  \           ROBLOXSenior Full Stack Engineer\n        \n        \n            ROBLOXSenior
+  Front End Engineer\n        \n        \n         \n            \n           \t\t\t\n
+  \        \n            Latest Blogs\n\n    View All \n        Post\n        RSS\n
+  \   December 14, 2015\n    \n         \n         \n         \n            Features\n\n
+  \   View All \n        RSS\n    December 14, 2015\n    \n            Postmortem:
+  Pinball-RPG hybrid Rollers of the Realm\n                            [6]\n                    \n
+  \       \n        \n        \n            Best of 2014: Gamasutra's Top Games of
+  the Year\n                            [10]\n                    \n        \n        \n
+  \       \n            Q&A: New AAA studio from 2K Games all about players' stories\n
+  \                           [8]\n                    \n        \n       \n    \t
+  \        \n\t\t \n\t\t \n                     \n                         \n         \n
+  \           Press Releases\n\n    December 14, 2015\n\tPR Newswire \n\t\n\t\n\t
+  \ #prn_overrides{margin:0 10px 10px 3px; }\n\t  #prn_overrides table{background-color:transparent;}\n\t
+  \ #prn_overrides table td{background-color:transparent;}\n\t  #prn_overrides td.linkcell_prn{background:url(//twimgs.com/gamasutra/images/gray_arrow2.gif)
+  no-repeat 0px 7px;padding-left:12px;display:block;width:130px;}\n\t  #prn_overrides
+  a.headlinelink_prn{font-family: Verdana, Arial, Helvetica, sans-serif; }\n\t\n\t\n\tView
+  All\n\t\n\n   Games Press\n   \n            UnderEarth Preparing to\nSurface\n        \n
+  \       \n          \n        \n            UnderEarth Preparing to\nSurface\n        \n
+  \       \n          \n        \n            Puzzle Caffe starts beta\ntest on Google
+  play!\n        \n        \n          \n        \n            Puzzle Caffe starts
+  beta\ntest on Google play!\n        \n        \n          \n        \n            Get
+  Ready for Battlefield\nHardline: Getaway\nComing...\n        \n        \n         View
+  All \n       RSS\n         \n                         \n         \n            Calendar\n\n
+  \   View All     Submit Event\n             \n                         \n         \n
+  \           About\n\n    Editor-In-Chief: Kris Graft\n            \n            Blog
+  Director: Christian Nutt\n            \n            Senior Contributing Editor:
+  Brandon Sheffield\n            \n            News Editors: Alex Wawro\n            \n
+  \         \n           \n            Advertising/Recruitment/Education: Pocco Jimenez\n
+  \   Contact Gamasutra\n    Report a Problem\n    Submit News\n    Comment Guidelines\n
+  \   Blogging Guidelines\n\tHow We Work\n\n\n\n    \n        \n\n             \n
+  \        \n         \n            Gama Network\n\n    If you enjoy reading this
+  site, you might also want to check out these UBM Tech sites:\n     \n    Game Career
+  Guide\n    \n    Indie Games\n             \n         \n         \n                     \n
+  \        \n                \n    \n  \n \n  \r\n\r\n \r\n<!--\r\nfunction MM_jumpMenu(targ,selObj,restore){
+  //v3.0\r\neval(targ+\".location='\"+selObj.options[selObj.selectedIndex].value+\"'\");\r\nif
+  (restore) selObj.selectedIndex=0;\r\n}\r\n//-->\r\n\r\n    \r\n         \r\n        \r\n
+  \           Calendar\r\n                             \r\n        View All Events
+         Submit Event\r\n         \r\n                    \n    Event/\n    City\n\n\n\n
+  \   Start Date/\n    End Date\n\n\n             December, 2015\n    \n    \t\n            \n
+  \               \n                Holiday Gamer (FREE)\n                \n                                    New
+  York,\n                                                            \n            \n
+  \                December 23, 2015\n                                            \n
+  \           \n            \n    \t\n            \n                \n                Mobile
+  games industry trends seminar\n                \n                                    West
+  Bromwich,\n                                                    West Midlands, \n
+  \                                                   United Kingdom\n                            \n
+  \           \n                 December 31, 2015\n                                            \n
+  \           \n            \n    \t\n            \n                \n                Women
+  & Gaming Industry Seminar\n                \n                                    Poznan,\n
+  \                                                   Wilekopolskie, \n                                                    Poland\n
+  \                           \n            \n                 December 31, 2015\n
+  \                                           \n            \n                     January,
+  2016\n    \n    \t\n            \n                \n                Board Games
+  and Beyond\n                \n                                    London,\n                                                            \n
+  \           \n                 January 11, 2016\n                                            \n
+  \           \n            \n    \t\n            \n                \n                Mobile
+  Games Forum (MGF) London 2016\n                \n                                    London,\n
+  \                                                           \n            \n                 January
+  19, 2016\n                                                        to  January 20,
+  2016\n                            \n            \n            \n    \t\n            \n
+  \               \n                Ludicious - Zürich Game Festival\n                \n
+  \                                   Zürich,\n                                                            \n
+  \           \n                 January 21, 2016\n                                                        to
+  \ January 24, 2016\n                            \n            \n            \n    \t\n
+  \           \n                \n                GMASA - Global Mobile App Summit
+  & Awards 2016\n                \n                                    Bangkok,\n
+  \                                                   Bangkok, \n                                                    Thailand\n
+  \                           \n            \n                 January 22, 2016\n
+  \                                           \n            \n            \n    \t\n
+  \           \n                \n                CUNY Games Festival\n                \n
+  \                                   New York,\n                                                    NY,
+  \n                                                    United States\n                            \n
+  \           \n                 January 22, 2016\n                                            \n
+  \           \n            \n    \t\n            \n                \n                Global
+  Game Jam\n                \n                                    Stamford,\n                                                    CT,
+  \n                                                    United States\n                            \n
+  \           \n                 January 29, 2016\n                                                        to
+  \ January 31, 2016\n                            \n            \n                     February,
+  2016\n    \n    \t\n            \n                \n                Bonus Czysto¶æ
+  Trade Fair\n                \n                                    Chociwel,\n                                                    Zachodniopomorskie,
+  \n                                                    Poland\n                            \n
+  \           \n                 February 10, 2016\n                                            \n
+  \           \n            \n    \t\n            \n                \n                2016
+  D.I.C.E. Summit and Awards Show\n                \n            \n                 February
+  16, 2016\n                                                        to  February 18,
+  2016\n                            \n            \n            \n    \t\n            \n
+  \               \n                Mobile Growth Fellowship\n                \n                                    San
+  Francisco,\n                                                    California, \n                                                    United
+  States\n                            \n            \n                 February 17,
+  2016\n                                                        to  February 18, 2016\n
+  \                           \n            \n            \n    \t\n            \n
+  \               \n                Mobile Growth Fellowship\n                \n                                    San
+  Francisco,\n                                                    California, \n                                                    United
+  States\n                            \n            \n                 February 17,
+  2016\n                                                        to  February 18, 2016\n
+  \                           \n            \n            \n    \t\n            \n
+  \               \n                Mobile Growth Summit 2016\n                \n
+  \                                   San Francisco,\n                                                    California,
+  \n                                                    United States\n                            \n
+  \           \n                 February 17, 2016\n                                                        to
+  \ February 18, 2016\n                            \n            \n                     April,
+  2016\n    \n    \t\n            \n                \n                PixelFest\n
+  \               \n                                    Norfolk,\n                                                    VA,
+  \n                                                    United States\n                            \n
+  \           \n                 April 08, 2016\n                                                        to
+  \ April 10, 2016\n                            \n            \n                     May,
+  2016\n    \n    \t\n            \n                \n                DevGAMM Moscow
+  2015\n                \n                                    Moscow,\n                                                            \n
+  \           \n                 May 12, 2016\n                                                        to
+  \ May 13, 2016\n                            \n            \n            \n    \t\n
+  \           \n                \n                Indievelopment 2016\n                \n
+  \                                   Utrecht,\n                                                    Utrecht,
+  \n                                                    Netherlands\n                            \n
+  \           \n                 May 23, 2016\n                                            \n
+  \           \n            \n    \t\n            \n                \n                MomoCon
+  - Gaming and Animation Convention\n                \n                                    Atlanta,\n
+  \                                                   GA, \n                                                    United
+  States\n                            \n            \n                 May 26, 2016\n
+  \                                                       to  May 29, 2016\n                            \n
+  \           \n                     July, 2016\n    \n    \t\n            \n                \n
+  \               Hoshicon 2016\n                \n                                    Charlotte,\n
+  \                                                   NC, \n                                                    United
+  States\n                            \n            \n                 July 15, 2016\n
+  \                                                       to  July 17, 2016\n                            \n
+  \           \n                        \r\n    \r\n\r\n\r\n            \n            \n\n
+  \       \n     \t\n               \n                   \n\n  \n                            \n\n
+  \n  googletag.display('div-gpt-ad-sky1');\n \n\n        \n\n \n  googletag.display('div-gpt-ad-Ltile1');\n
+  \n\n              \n\t\t \n               \t\n                 \n              \n
+  \       \n     \n     \n     \n     \n  \n    \n    \n    \n    \n    \n    \n    \n
+  \   \n      \n        UBM TECH BRANDS \n          Black Hat\n          Cloud Connect\n
+  \         Dark Reading \n          Enterprise Connect\n        Fusion\n          GDC\n
+  \         GTEC\n          Gamasutra\n        HDI\n          InformationWeek\n          Interop\n
+  \       Network Computing\n          No Jitter\n          Tower & Small Cell Summit\n
+  \       \n      \n        COMMUNITIES SERVED\n          Enterprise IT\n          Enterprise
+  Communications\n          Game Development\n          Information Security\n          IT
+  Services & Support\n       \n      \n        WORKING WITH US\n          Advertising
+  Contacts\n          Event Calendar\n          Tech Marketing\n          Solutions\n
+  \         Contact Us\n          Licensing\n        \n    \n  \n    \n  \n    Terms
+  of Service\n      Privacy Statement\n      Copyright © 2015 UBM Tech, All rights
+  reserved\n    \n    \n  \n\n\n\n\n\nvar beacon = new UBM.Beacon({environment: 'p',
+  apiKey: '31fa8154ead6bb6b2bcefa32b0b2bd86ef990485d4def29a6117223512da2973'});\nbeacon.pageview();\n<!--\n
+  \   /* You may give each page an identifying name, server, and channel on\n    the
+  next lines. */\n\ts.pageName=\"Calendar\";\n\ts.server=\"\";\n\ts.channel=\"\";\n\ts.pageType=\"\";\n\ts.prop1=\"\";\n\ts.prop2=\"\";\n\ts.prop3=\"Gamasustra
+  |  | Calendar\";\n\ts.prop4=\"Calendar\";\n\ts.prop5=\"Events\";\n\ts.prop6=\"\";\n\ts.prop7=\"\";\n\ts.prop8=\"userAgent\";\n\ts.prop9=\"\";\n\ts.prop10=\"\";\n\ts.prop13=\"\";\n\t/*
+  Conversion Variables */\n\ts.campaign=\"\";\n\ts.state=\"\";\n\ts.zip=\"\";\n\ts.events=\"event5\";\n\ts.products=\"\";\n\ts.purchaseID=\"\";\n\ts.eVar1=\"\";\n\ts.eVar2=\"\";\n\ts.eVar3=\"\";\n\ts.eVar4=\"\";\n\ts.eVar5=\"\";\n\t/*************
+  DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\n    var s_code = s.t();
+  if (s_code) document.write(s_code)//--><!--\n    if (navigator.appVersion.indexOf('MSIE')
+  >= 0) document.write(unescape('%3C') + '\\!-' + '-')\n//-->\n          \n  \n\n"

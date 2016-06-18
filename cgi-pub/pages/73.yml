@@ -1,0 +1,593 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www-history.mcs.st-and.ac.uk/~history/
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- " MacTutor History of Mathematics archive\r\n"
+- "\r\n"
+- "Biographies Index\r\n"
+- "\r\n"
+- "History Topics Index \r\n"
+- "\r\n"
+- "Additional material index\r\n"
+- "\r\n"
+- "Famous curves index\r\n"
+- "\r\n"
+- "Mathematicians of the day\r\n"
+- "\r\n"
+- "Search the archive\r\n"
+- "\r\n"
+- "Help\r\n"
+- "   \r\n"
+- "FAQ\r\n"
+- "   \r\n"
+- "Contact us\r\n"
+- "\r\n"
+- "Recent changes to the archive\r\n"
+- "(Up to October 2015)\r\n"
+- "These include 29 new biographies, 11 extended biographies and 26 new entries in
+  the Additional Material category.\r\n"
+- "\r\n"
+- "Birthplace Maps index\r\n"
+- "Anniversaries for the year\r\n"
+- "Mathematical Societies index\r\n"
+- "Medals, honours, etc. index\r\n"
+- "Chronology index\r\n"
+- "Time lines index\r\n"
+- "Quotations index\r\n"
+- "Mathematical Education index\r\n"
+- " \r\n"
+- "Edinburgh Mathematical Society index\r\n"
+- "British Mathematical Colloquium index\r\n"
+- "Other Web sources on the History of Mathematics\r\n"
+- "\r\n"
+- "Created by John J O'Connor \r\n"
+- "and Edmund F Robertson\r\n"
+- "School of Mathematics and StatisticsUniversity of St Andrews, Scotland\r\n"
+- "JOC/EFR October 2015\r\n"
+- " \r\n"
+- "\r\n"
+- "The URL of this page is: \r\n"
+- "http://www-history.mcs.st-andrews.ac.uk/index.html\r\n"
+- "\r\n"
+- "History Topics Index \r\n"
+- "\r\n"
+- "Additional material index\r\n"
+- "\r\n"
+- "Famous curves index\r\n"
+- "\r\n"
+- "Mathematicians of the day\r\n"
+- "\r\n"
+- "Search the archive\r\n"
+- "\r\n"
+- "Help\r\n"
+- "   \r\n"
+- "FAQ\r\n"
+- "   \r\n"
+- "Contact us\r\n"
+- "\r\n"
+- "\r\n"
+- " \r\n"
+index:
+  mactutor: !ruby/object:Word
+    word: mactutor
+    stem: mactutor
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 6.0
+    docPositions:
+    - 2
+    - 6
+    - 37
+    - 46
+    - 48
+  mathematics: !ruby/object:Word
+    word: mathematics
+    stem: mathemat
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 37
+    - 41
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 14
+    - 22
+    - 56
+  biographies: !ruby/object:Word
+    word: biographies
+    stem: biographi
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 24
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 18.0
+    docPositions:
+    - 4
+    - 6
+    - 8
+    - 10
+    - 26
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 35
+    - 36
+    - 46
+    - 48
+    - 50
+    - 52
+  topics: !ruby/object:Word
+    word: topics
+    stem: topic
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 48
+  additional: !ruby/object:Word
+    word: additional
+    stem: addit
+    docFrequency: 4.0
+    docPositions:
+    - 8
+    - 24
+    - 50
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 4.0
+    docPositions:
+    - 8
+    - 24
+    - 50
+  famous: !ruby/object:Word
+    word: famous
+    stem: famou
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 52
+  curves: !ruby/object:Word
+    word: curves
+    stem: curv
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 52
+  mathematicians: !ruby/object:Word
+    word: mathematicians
+    stem: mathematician
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 54
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 54
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 56
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 16
+    - 58
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 18
+    - 60
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 62
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 62
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  october: !ruby/object:Word
+    word: october
+    stem: octob
+    docFrequency: 3.0
+    docPositions:
+    - 23
+    - 42
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  include: !ruby/object:Word
+    word: include
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 24
+  extended: !ruby/object:Word
+    word: extended
+    stem: extend
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 4.0
+    docPositions:
+    - 24
+    - 40
+    - 41
+  entries: !ruby/object:Word
+    word: entries
+    stem: entri
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  category: !ruby/object:Word
+    word: category
+    stem: categori
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  birthplace: !ruby/object:Word
+    word: birthplace
+    stem: birthplac
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  anniversaries: !ruby/object:Word
+    word: anniversaries
+    stem: anniversari
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 5.0
+    docPositions:
+    - 28
+    - 33
+    - 35
+    - 36
+  societies: !ruby/object:Word
+    word: societies
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  medals: !ruby/object:Word
+    word: medals
+    stem: medal
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  honours: !ruby/object:Word
+    word: honours
+    stem: honour
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  etc: !ruby/object:Word
+    word: etc
+    stem: etc
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  chronology: !ruby/object:Word
+    word: chronology
+    stem: chronolog
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  quotations: !ruby/object:Word
+    word: quotations
+    stem: quotat
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  edinburgh: !ruby/object:Word
+    word: edinburgh
+    stem: edinburgh
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  colloquium: !ruby/object:Word
+    word: colloquium
+    stem: colloquium
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  sources: !ruby/object:Word
+    word: sources
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  john: !ruby/object:Word
+    word: john
+    stem: john
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  connor: !ruby/object:Word
+    word: connor
+    stem: connor
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  edmund: !ruby/object:Word
+    word: edmund
+    stem: edmund
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  robertson: !ruby/object:Word
+    word: robertson
+    stem: robertson
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 2.0
+    docPositions:
+    - 41
+  statisticsuniversity: !ruby/object:Word
+    word: statisticsuniversity
+    stem: statisticsunivers
+    docFrequency: 2.0
+    docPositions:
+    - 41
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 46
+  andrews: !ruby/object:Word
+    word: andrews
+    stem: andrew
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 46
+  scotland: !ruby/object:Word
+    word: scotland
+    stem: scotland
+    docFrequency: 2.0
+    docPositions:
+    - 41
+  joc: !ruby/object:Word
+    word: joc
+    stem: joc
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  efr: !ruby/object:Word
+    word: efr
+    stem: efr
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  mcs: !ruby/object:Word
+    word: mcs
+    stem: mc
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  ac: !ruby/object:Word
+    word: ac
+    stem: ac
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  uk: !ruby/object:Word
+    word: uk
+    stem: uk
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 46
+lineCount: 66
+wordCount: 153
+rank: 0.2607142857142857
+title: MacTutor History of Mathematics
+links:
+- http://www-history.mcs.st-andrews.ac.uk/history/Comments/makecomment0.html
+- http://www-history.mcs.st-andrews.ac.uk/~john
+- http://www-history.mcs.st-andrews.ac.uk/~edmund
+- http://www-maths.mcs.st-andrews.ac.uk/
+- http://www.st-andrews.ac.uk/
+- http://www-maths.mcs.st-andrews.ac.uk/
+rawText: "\r\n\r\n MacTutor History of Mathematics archive\r\n\r\nBiographies Index\r\n\r\nHistory
+  Topics Index \r\n\r\nAdditional material index\r\n\r\nFamous curves index\r\n\r\nMathematicians
+  of the day\r\n\r\nSearch the archive\r\n\r\nHelp\r\n   \r\nFAQ\r\n   \r\nContact
+  us\r\n\r\nRecent changes to the archive\r\n(Up to October 2015)\r\nThese include
+  29 new biographies, 11 extended biographies and 26 new entries in the Additional
+  Material category.\r\n\r\nBirthplace Maps index\r\nAnniversaries for the year\r\nMathematical
+  Societies index\r\nMedals, honours, etc. index\r\nChronology index\r\nTime lines
+  index\r\nQuotations index\r\nMathematical Education index\r\n \r\nEdinburgh Mathematical
+  Society index\r\nBritish Mathematical Colloquium index\r\nOther Web sources on the
+  History of Mathematics\r\n\r\nCreated by John J O'Connor \r\nand Edmund F Robertson\r\nSchool of Mathematics and StatisticsUniversity of St Andrews, Scotland\r\nJOC/EFR
+  October 2015\r\n \r\n\r\nThe URL of this page is: \r\nhttp://www-history.mcs.st-andrews.ac.uk/index.html\r\n\r\nHistory
+  Topics Index \r\n\r\nAdditional material index\r\n\r\nFamous curves index\r\n\r\nMathematicians
+  of the day\r\n\r\nSearch the archive\r\n\r\nHelp\r\n   \r\nFAQ\r\n   \r\nContact
+  us\r\n\r\n\r\n \r\n"

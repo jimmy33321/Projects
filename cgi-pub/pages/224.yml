@@ -1,0 +1,1263 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://khanacademy.zendesk.com/
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- |2
+        Help Center
+- "    \n"
+- |2
+      Submit a request
+- |2
+          Sign in
+- |2+
+
+- "    \n"
+- |2+
+
+- "  I need help with \n"
+- |2+
+
+- |2+
+
+- "  \n"
+- |2
+      Welcome to our Help Center!
+- |2
+      Khan Academy is a 501(3)(c) non-profit with the mission of providing a free, world-class education for anyone, anywhere. All our resources are available at no cost. For that reason, this help center is mostly powered by volunteers.
+- "  \n"
+- "  \n"
+- |2
+      Guides
+- |2
+      Learners
+- |2
+      Teachers & Coaches
+- |2
+      Parents
+- "    Volunteers & Donations \n"
+- "    Translators \n"
+- "  \n"
+- "  \n"
+- |2
+      Categories
+- "    \n"
+- "    Bugs & Troubleshooting \n"
+- |2
+      Frequently asked questions
+- |2
+      Accounts and passwords
+- |2
+     Discuss Khan Academy
+- |2
+      Report a problem
+- "  \n"
+- "      \n"
+- |2
+    Powered by Zendesk
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "    Khan Academy uses Zendesk to provide our Help Center services. Check out Zendesk's
+  Terms of Service and Privacy Policy, as they govern your use of these services.
+  \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- |2
+    /*
+- |2+
+
+- |2
+      Greetings sourcecode lurker!
+- |2+
+
+- |2
+      This is for internal Zendesk and legacy usage,
+- |2
+      we don't support or guarantee any of these values
+- |2
+      so please don't build stuff on top of them.
+- |2+
+
+- |2
+    */
+- |2+
+
+- |2
+    HelpCenter = {};
+- |2
+    HelpCenter.account = {"subdomain":"khanacademy","environment":"production","name":"the Khan Academy Help Center (powered by Zendesk)"};
+- |2
+    HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+- |2
+    HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"wZfjrdAcYg/Ix/z7rpEEpzui06cR2Wc3mIZE7iSIQRfPmkVTKCQ/XERiaP8fkOtGJS4U1fqgCIswxaZvMr/MAw==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":null,"current_record_url":null,"current_record_title":null,"search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://khanacademy.zendesk.com","current_path":null,"show_curlybars_ipm":false,"show_new_community_ipm_for_custom_theme":false,"show_new_community_ipm_for_stock_theme":false};
+- |2+
+
+- |2
+      (function() {
+- |2
+    var Tracker = {};
+- |2+
+
+- |2
+    Tracker.track = function(eventName, data) {
+- |2
+      var url = "https://khanacademy.zendesk.com/hc/tracking/events?locale=en-us";
+- |2+
+
+- |2
+      var payload = {
+- |2
+        "event": eventName,
+- |2
+        "data": data,
+- |2
+        "referrer": document.referrer
+- |2
+      };
+- |2+
+
+- |2
+      var xhr = new XMLHttpRequest();
+- |2+
+
+- |2
+      xhr.open("POST", url, true);
+- |2
+      xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+- |2
+      xhr.send(JSON.stringify(payload));
+- |2
+    };
+- |2+
+
+- |2
+      Tracker.track("front_page_viewed", "BAh7AA==--50d1974e05bddc24bd4b43467913737de44d3c7e");
+- |
+  })();
+- |2+
+
+- "  Welcome to our Help Center!Khan Academy is a 501(3)(c) non-profit with the mission
+  of providing a free, world-class education for anyone, anywhere. All our resources
+  are available at no cost. For that reason, this help center is mostly powered by
+  volunteers."
+index:
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 9.0
+    docPositions:
+    - 9
+    - 16
+    - 20
+    - 21
+    - 48
+    - 63
+    - 89
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 8.0
+    docPositions:
+    - 9
+    - 20
+    - 21
+    - 48
+    - 63
+    - 89
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  welcome: !ruby/object:Word
+    word: welcome
+    stem: welcom
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 89
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 6.0
+    docPositions:
+    - 20
+    - 21
+    - 48
+    - 89
+  khan: !ruby/object:Word
+    word: khan
+    stem: khan
+    docFrequency: 6.0
+    docPositions:
+    - 21
+    - 37
+    - 48
+    - 63
+    - 89
+  academy: !ruby/object:Word
+    word: academy
+    stem: academi
+    docFrequency: 6.0
+    docPositions:
+    - 21
+    - 37
+    - 48
+    - 63
+    - 89
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  profit: !ruby/object:Word
+    word: profit
+    stem: profit
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  mission: !ruby/object:Word
+    word: mission
+    stem: mission
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  providing: !ruby/object:Word
+    word: providing
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  anyone: !ruby/object:Word
+    word: anyone
+    stem: anyon
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  anywhere: !ruby/object:Word
+    word: anywhere
+    stem: anywher
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  reason: !ruby/object:Word
+    word: reason
+    stem: reason
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  mostly: !ruby/object:Word
+    word: mostly
+    stem: mostli
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 89
+  powered: !ruby/object:Word
+    word: powered
+    stem: power
+    docFrequency: 5.0
+    docPositions:
+    - 21
+    - 41
+    - 63
+    - 89
+  volunteers: !ruby/object:Word
+    word: volunteers
+    stem: volunt
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 28
+    - 89
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  learners: !ruby/object:Word
+    word: learners
+    stem: learner
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  teachers: !ruby/object:Word
+    word: teachers
+    stem: teacher
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  coaches: !ruby/object:Word
+    word: coaches
+    stem: coach
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  parents: !ruby/object:Word
+    word: parents
+    stem: parent
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  donations: !ruby/object:Word
+    word: donations
+    stem: donat
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  translators: !ruby/object:Word
+    word: translators
+    stem: translat
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  categories: !ruby/object:Word
+    word: categories
+    stem: categori
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  bugs: !ruby/object:Word
+    word: bugs
+    stem: bug
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  troubleshooting: !ruby/object:Word
+    word: troubleshooting
+    stem: troubleshoot
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  frequently: !ruby/object:Word
+    word: frequently
+    stem: frequent
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  asked: !ruby/object:Word
+    word: asked
+    stem: ask
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  accounts: !ruby/object:Word
+    word: accounts
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 4.0
+    docPositions:
+    - 36
+    - 48
+    - 56
+  passwords: !ruby/object:Word
+    word: passwords
+    stem: password
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  discuss: !ruby/object:Word
+    word: discuss
+    stem: discuss
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  zendesk: !ruby/object:Word
+    word: zendesk
+    stem: zendesk
+    docFrequency: 9.0
+    docPositions:
+    - 41
+    - 48
+    - 56
+    - 63
+    - 64
+    - 65
+    - 71
+  uses: !ruby/object:Word
+    word: uses
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 48
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  govern: !ruby/object:Word
+    word: govern
+    stem: govern
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 57
+  greetings: !ruby/object:Word
+    word: greetings
+    stem: greet
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  sourcecode: !ruby/object:Word
+    word: sourcecode
+    stem: sourcecod
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  lurker: !ruby/object:Word
+    word: lurker
+    stem: lurker
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  internal: !ruby/object:Word
+    word: internal
+    stem: intern
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 65
+  legacy: !ruby/object:Word
+    word: legacy
+    stem: legaci
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  usage: !ruby/object:Word
+    word: usage
+    stem: usag
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 58
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 58
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  guarantee: !ruby/object:Word
+    word: guarantee
+    stem: guarante
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  values: !ruby/object:Word
+    word: values
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  build: !ruby/object:Word
+    word: build
+    stem: build
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  stuff: !ruby/object:Word
+    word: stuff
+    stem: stuff
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  helpcenter: !ruby/object:Word
+    word: helpcenter
+    stem: helpcent
+    docFrequency: 5.0
+    docPositions:
+    - 62
+    - 63
+    - 64
+    - 65
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  subdomain: !ruby/object:Word
+    word: subdomain
+    stem: subdomain
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  khanacademy: !ruby/object:Word
+    word: khanacademy
+    stem: khanacademi
+    docFrequency: 4.0
+    docPositions:
+    - 63
+    - 65
+    - 71
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 64
+  user: !ruby/object:Word
+    word: user
+    stem: user
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  identifier: !ruby/object:Word
+    word: identifier
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 9.0
+    docPositions:
+    - 64
+    - 65
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  anonymous: !ruby/object:Word
+    word: anonymous
+    stem: anonym
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  avatar_url: !ruby/object:Word
+    word: avatar_url
+    stem: avatar_url
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 4.0
+    docPositions:
+    - 64
+    - 65
+    - 71
+  assets: !ruby/object:Word
+    word: assets
+    stem: asset
+    docFrequency: 3.0
+    docPositions:
+    - 64
+  hc: !ruby/object:Word
+    word: hc
+    stem: hc
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 71
+  user_avatar: !ruby/object:Word
+    word: user_avatar
+    stem: user_avatar
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  organizations: !ruby/object:Word
+    word: organizations
+    stem: organ
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  groups: !ruby/object:Word
+    word: groups
+    stem: group
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  current_session: !ruby/object:Word
+    word: current_session
+    stem: current_sess
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  locale: !ruby/object:Word
+    word: locale
+    stem: local
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 71
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 71
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 71
+  csrf_token: !ruby/object:Word
+    word: csrf_token
+    stem: csrf_token
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  wzfjrdacyg: !ruby/object:Word
+    word: wzfjrdacyg
+    stem: wzfjrdacyg
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  ix: !ruby/object:Word
+    word: ix
+    stem: ix
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  maw: !ruby/object:Word
+    word: maw
+    stem: maw
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  shared_csrf_token: !ruby/object:Word
+    word: shared_csrf_token
+    stem: shared_csrf_token
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  settings: !ruby/object:Word
+    word: settings
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  zopim_enabled: !ruby/object:Word
+    word: zopim_enabled
+    stem: zopim_en
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 5.0
+    docPositions:
+    - 65
+  spam_filter_enabled: !ruby/object:Word
+    word: spam_filter_enabled
+    stem: spam_filter_en
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 81
+  current_record_id: !ruby/object:Word
+    word: current_record_id
+    stem: current_record_id
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  current_record_url: !ruby/object:Word
+    word: current_record_url
+    stem: current_record_url
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  current_record_title: !ruby/object:Word
+    word: current_record_title
+    stem: current_record_titl
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  search_results_count: !ruby/object:Word
+    word: search_results_count
+    stem: search_results_count
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  current_text_direction: !ruby/object:Word
+    word: current_text_direction
+    stem: current_text_direct
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  ltr: !ruby/object:Word
+    word: ltr
+    stem: ltr
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  current_brand_url: !ruby/object:Word
+    word: current_brand_url
+    stem: current_brand_url
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  current_path: !ruby/object:Word
+    word: current_path
+    stem: current_path
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  show_curlybars_ipm: !ruby/object:Word
+    word: show_curlybars_ipm
+    stem: show_curlybars_ipm
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  show_new_community_ipm_for_custom_theme: !ruby/object:Word
+    word: show_new_community_ipm_for_custom_theme
+    stem: show_new_community_ipm_for_custom_them
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  show_new_community_ipm_for_stock_theme: !ruby/object:Word
+    word: show_new_community_ipm_for_stock_theme
+    stem: show_new_community_ipm_for_stock_them
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 5.0
+    docPositions:
+    - 67
+    - 74
+    - 75
+    - 76
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 3.0
+    docPositions:
+    - 67
+    - 70
+  tracker: !ruby/object:Word
+    word: tracker
+    stem: tracker
+    docFrequency: 4.0
+    docPositions:
+    - 68
+    - 70
+    - 86
+  track: !ruby/object:Word
+    word: track
+    stem: track
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 86
+  eventname: !ruby/object:Word
+    word: eventname
+    stem: eventnam
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 74
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 4.0
+    docPositions:
+    - 70
+    - 75
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 81
+  tracking: !ruby/object:Word
+    word: tracking
+    stem: track
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  payload: !ruby/object:Word
+    word: payload
+    stem: payload
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 83
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  referrer: !ruby/object:Word
+    word: referrer
+    stem: referr
+    docFrequency: 3.0
+    docPositions:
+    - 76
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  xhr: !ruby/object:Word
+    word: xhr
+    stem: xhr
+    docFrequency: 5.0
+    docPositions:
+    - 79
+    - 81
+    - 82
+    - 83
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  xmlhttprequest: !ruby/object:Word
+    word: xmlhttprequest
+    stem: xmlhttprequest
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  setrequestheader: !ruby/object:Word
+    word: setrequestheader
+    stem: setrequesthead
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  application: !ruby/object:Word
+    word: application
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  json: !ruby/object:Word
+    word: json
+    stem: json
+    docFrequency: 3.0
+    docPositions:
+    - 82
+    - 83
+  charset: !ruby/object:Word
+    word: charset
+    stem: charset
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  utf: !ruby/object:Word
+    word: utf
+    stem: utf
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  stringify: !ruby/object:Word
+    word: stringify
+    stem: stringifi
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  front_page_viewed: !ruby/object:Word
+    word: front_page_viewed
+    stem: front_page_view
+    docFrequency: 2.0
+    docPositions:
+    - 86
+lineCount: 90
+wordCount: 328
+rank: 0.25
+title: Khan Academy Help Center
+links:
+- https://www.khanacademy.org/
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175790-For-Learners
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175820-For-Teachers
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175830-For-Parents
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175840-Help-out-Khan-Academy
+- https://khanacademy.zendesk.com/hc/en-us/categories/200186020-Translators
+- https://khanacademy.zendesk.com/hc/en-us/categories/200190460
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175860-Common-Questions
+- https://khanacademy.zendesk.com/hc/en-us/categories/200175850-Accounts-and-Passwords
+- https://khanacademy.zendesk.com/hc/communities/public/topics
+- https://khanacademy.zendesk.com/hc/en-us/requests/new
+- https://www.zendesk.com/self-service/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_content=the
+  Khan Academy Help Center (powered by Zendesk)
+- https://www.zendesk.com/company/terms
+- https://www.zendesk.com/company/privacy
+rawText: "\n\n\n  \n\n\n  \n    \n      \n      Help Center\n    \n    Submit a request\n
+  \       Sign in\n\n    \n\n  I need help with \n\n\n  \n    Welcome to our Help
+  Center!\n    Khan Academy is a 501(3)(c) non-profit with the mission of providing
+  a free, world-class education for anyone, anywhere. All our resources are available
+  at no cost. For that reason, this help center is mostly powered by volunteers.\n
+  \ \n  \n    Guides\n    Learners\n    Teachers & Coaches\n    Parents\n    Volunteers
+  & Donations \n    Translators \n  \n  \n    Categories\n    \n    Bugs & Troubleshooting
+  \n    Frequently asked questions\n    Accounts and passwords\n   Discuss Khan Academy\n
+  \   Report a problem\n  \n      \n  Powered by Zendesk\n\n\n  \n\n  \n    \n    Khan
+  Academy uses Zendesk to provide our Help Center services. Check out Zendesk's Terms
+  of Service and Privacy Policy, as they govern your use of these services. \n\n  \n\n
+  \ /*\n\n    Greetings sourcecode lurker!\n\n    This is for internal Zendesk and
+  legacy usage,\n    we don't support or guarantee any of these values\n    so please
+  don't build stuff on top of them.\n\n  */\n\n  HelpCenter = {};\n  HelpCenter.account
+  = {\"subdomain\":\"khanacademy\",\"environment\":\"production\",\"name\":\"the Khan
+  Academy Help Center (powered by Zendesk)\"};\n  HelpCenter.user = {\"identifier\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\"email\":null,\"name\":null,\"role\":\"anonymous\",\"avatar_url\":\"https://assets.zendesk.com/hc/assets/user_avatar.png\",\"organizations\":[],\"groups\":[]};\n
+  \ HelpCenter.internal = {\"current_session\":{\"locale\":\"en-us\",\"csrf_token\":\"wZfjrdAcYg/Ix/z7rpEEpzui06cR2Wc3mIZE7iSIQRfPmkVTKCQ/XERiaP8fkOtGJS4U1fqgCIswxaZvMr/MAw==\",\"shared_csrf_token\":null},\"settings\":{\"zopim_enabled\":false,\"spam_filter_enabled\":true},\"current_record_id\":null,\"current_record_url\":null,\"current_record_title\":null,\"search_results_count\":null,\"current_text_direction\":\"ltr\",\"current_brand_url\":\"https://khanacademy.zendesk.com\",\"current_path\":null,\"show_curlybars_ipm\":false,\"show_new_community_ipm_for_custom_theme\":false,\"show_new_community_ipm_for_stock_theme\":false};\n\n
+  \   (function() {\n  var Tracker = {};\n\n  Tracker.track = function(eventName,
+  data) {\n    var url = \"https://khanacademy.zendesk.com/hc/tracking/events?locale=en-us\";\n\n
+  \   var payload = {\n      \"event\": eventName,\n      \"data\": data,\n      \"referrer\":
+  document.referrer\n    };\n\n    var xhr = new XMLHttpRequest();\n\n    xhr.open(\"POST\",
+  url, true);\n    xhr.setRequestHeader(\"Content-Type\", \"application/json; charset=UTF-8\");\n
+  \   xhr.send(JSON.stringify(payload));\n  };\n\n    Tracker.track(\"front_page_viewed\",
+  \"BAh7AA==--50d1974e05bddc24bd4b43467913737de44d3c7e\");\n})();\n\n  Welcome to
+  our Help Center!Khan Academy is a 501(3)(c) non-profit with the mission of providing
+  a free, world-class education for anyone, anywhere. All our resources are available
+  at no cost. For that reason, this help center is mostly powered by volunteers."

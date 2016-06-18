@@ -1,0 +1,970 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: 
+    line: 128
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 41
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: 
+    line: 132
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 242
+address: http://www.time.com/time/printout/0,8816,954266,00.html
+inboundLinks: []
+lines:
+- " \t\n"
+- |2+
+
+- |
+  var adFactory = new TiiAdFactory(adConfig, "printerfriendly");
+- |
+  adFactory.setChannel("u.s.");
+- |
+  adFactory.setSubchannel("");
+- |
+  adFactory.setChannelPage();
+- |2+
+
+- |2+
+
+- |
+  var s_account="timecom";
+- |2+
+
+- |2+
+
+- |
+  s_time.channel = 'time';
+- |
+  s_time.pageName = 'us|the wizard inside the machine|print';
+- |
+  s_time.prop6 = 'nation';
+- |
+  s_time.prop7 = 'print version';
+- |
+  s_time.prop16 = 'us';
+- |2+
+
+- |
+  s_time.prop17 = location.href;
+- |2+
+
+- |2+
+
+- |
+  if (typeof(catsCSV) == "string") s_time.prop13 = catsCSV;
+- |
+  if (typeof(omnitureHookFunction) == "function") eval("omnitureHookFunction();");
+- |
+  var s_code=s_time.t();if(s_code)document.write(s_code)
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- |
+  adFactory.getAd(728, 90).write();
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- "\t   \t\t\t\t\t   \n"
+- "\t   Back to Article\n"
+- " \t   \n"
+- "\t\n"
+- "\t   \t\t\t\t\t   \n"
+- "\t   Click to Print\n"
+- |2+
+
+- " \t   \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\tMonday, Apr. 16, 1984\n"
+- "\t    The Wizard Inside The Machine\n"
+- "\t\t\n"
+- "\t\tBy Alexander L. Taylor III\n"
+- "\t\t\n"
+- "COVER STORY  Software is the magic carpet to the future  Hardware or software?
+  the child of today's computer age might ask.  His world is divided into two parts:
+  hardware, the machinery that makes up a computer, and software, the programs of
+  instructions that tell computers what to do. And while the hardware is visible and
+  tangible, the child knows that software is the soul of the machine. Without software,
+  a computer is little more than a hunk of plastic and silicon that might as well
+  be used as a doorstop. A computer without software is like a car... \n"
+- |2+
+
+- "\t\t\n"
+- "\t\t   \t\t\t\t\t   \n"
+- "\t\t   Click to Print\n"
+- "  \t\t\t   \n"
+- "\t\tFind this article at:\n"
+- "\t\t   http://content.time.com/time/magazine/article/0,9171,954266,00.html\n"
+- "\t\t\t\t\n"
+- " \t  \n"
+- "\t\n"
+- "\t\n"
+- "\t\tCopyright &copy 2014 Time Inc. All rights reserved. Reproduction in whole or
+  in part without permission is prohibited.\t\n"
+- "\t\t\n"
+- "\t\t\tPrivacy Policy|Add TIME Headlines to your Site|Contact Us|Customer Service\n"
+- "\t\t\n"
+- |2+
+
+- "\t\n"
+- " \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "COVER STORY Software is the magic carpet to the future Hardware or software? the
+  child of today's computer age might ask. His world is divided into two parts: hardware,
+  the machinery that makes up a computer, and software, the programs of instructions
+  that tell computers what to do. And while the hardware is visible and tangible,
+  the child knows that software is the soul of the machine. Without software, a computer
+  is little more than a hunk of plastic and silicon that might as well be used as
+  a doorstop. A computer without software is like a car... \n"
+- |2+
+
+- "\t\t"
+index:
+  adfactory: !ruby/object:Word
+    word: adfactory
+    stem: adfactori
+    docFrequency: 6.0
+    docPositions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 30
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  tiiadfactory: !ruby/object:Word
+    word: tiiadfactory
+    stem: tiiadfactori
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  adconfig: !ruby/object:Word
+    word: adconfig
+    stem: adconfig
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  printerfriendly: !ruby/object:Word
+    word: printerfriendly
+    stem: printerfriendli
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  setchannel: !ruby/object:Word
+    word: setchannel
+    stem: setchannel
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 51
+    - 74
+  setsubchannel: !ruby/object:Word
+    word: setsubchannel
+    stem: setsubchannel
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  setchannelpage: !ruby/object:Word
+    word: setchannelpage
+    stem: setchannelpag
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  s_account: !ruby/object:Word
+    word: s_account
+    stem: s_account
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  timecom: !ruby/object:Word
+    word: timecom
+    stem: timecom
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  s_time: !ruby/object:Word
+    word: s_time
+    stem: s_time
+    docFrequency: 9.0
+    docPositions:
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 17
+    - 20
+    - 22
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 6.0
+    docPositions:
+    - 11
+    - 58
+    - 63
+    - 65
+  pagename: !ruby/object:Word
+    word: pagename
+    stem: pagenam
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 15
+    - 65
+  wizard: !ruby/object:Word
+    word: wizard
+    stem: wizard
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 47
+  inside: !ruby/object:Word
+    word: inside
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 47
+  machine: !ruby/object:Word
+    word: machine
+    stem: machin
+    docFrequency: 5.0
+    docPositions:
+    - 12
+    - 47
+    - 51
+    - 74
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 5.0
+    docPositions:
+    - 12
+    - 14
+    - 41
+    - 55
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 21
+    - 22
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 21
+  catscsv: !ruby/object:Word
+    word: catscsv
+    stem: catscsv
+    docFrequency: 3.0
+    docPositions:
+    - 20
+  string: !ruby/object:Word
+    word: string
+    stem: string
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  omniturehookfunction: !ruby/object:Word
+    word: omniturehookfunction
+    stem: omniturehookfunct
+    docFrequency: 3.0
+    docPositions:
+    - 21
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  eval: !ruby/object:Word
+    word: eval
+    stem: eval
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  s_code: !ruby/object:Word
+    word: s_code
+    stem: s_code
+    docFrequency: 4.0
+    docPositions:
+    - 22
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 30
+  getad: !ruby/object:Word
+    word: getad
+    stem: getad
+    docFrequency: 2.0
+    docPositions:
+    - 30
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 4.0
+    docPositions:
+    - 37
+    - 57
+    - 58
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 55
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  alexander: !ruby/object:Word
+    word: alexander
+    stem: alexand
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  taylor: !ruby/object:Word
+    word: taylor
+    stem: taylor
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  iii: !ruby/object:Word
+    word: iii
+    stem: iii
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  software: !ruby/object:Word
+    word: software
+    stem: softwar
+    docFrequency: 13.0
+    docPositions:
+    - 51
+    - 74
+  magic: !ruby/object:Word
+    word: magic
+    stem: magic
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  carpet: !ruby/object:Word
+    word: carpet
+    stem: carpet
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  hardware: !ruby/object:Word
+    word: hardware
+    stem: hardwar
+    docFrequency: 7.0
+    docPositions:
+    - 51
+    - 74
+  child: !ruby/object:Word
+    word: child
+    stem: child
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 74
+  today: !ruby/object:Word
+    word: today
+    stem: todai
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 9.0
+    docPositions:
+    - 51
+    - 74
+  age: !ruby/object:Word
+    word: age
+    stem: ag
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  might: !ruby/object:Word
+    word: might
+    stem: might
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 74
+  ask: !ruby/object:Word
+    word: ask
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  divided: !ruby/object:Word
+    word: divided
+    stem: divid
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  parts: !ruby/object:Word
+    word: parts
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  machinery: !ruby/object:Word
+    word: machinery
+    stem: machineri
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  makes: !ruby/object:Word
+    word: makes
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 9.0
+    docPositions:
+    - 51
+    - 74
+  programs: !ruby/object:Word
+    word: programs
+    stem: program
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  instructions: !ruby/object:Word
+    word: instructions
+    stem: instruct
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  tell: !ruby/object:Word
+    word: tell
+    stem: tell
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  visible: !ruby/object:Word
+    word: visible
+    stem: visibl
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  tangible: !ruby/object:Word
+    word: tangible
+    stem: tangibl
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  knows: !ruby/object:Word
+    word: knows
+    stem: know
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  soul: !ruby/object:Word
+    word: soul
+    stem: soul
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 6.0
+    docPositions:
+    - 51
+    - 63
+    - 74
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  hunk: !ruby/object:Word
+    word: hunk
+    stem: hunk
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  plastic: !ruby/object:Word
+    word: plastic
+    stem: plastic
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  silicon: !ruby/object:Word
+    word: silicon
+    stem: silicon
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  doorstop: !ruby/object:Word
+    word: doorstop
+    stem: doorstop
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  car: !ruby/object:Word
+    word: car
+    stem: car
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 74
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  magazine: !ruby/object:Word
+    word: magazine
+    stem: magazin
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  inc: !ruby/object:Word
+    word: inc
+    stem: inc
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  reproduction: !ruby/object:Word
+    word: reproduction
+    stem: reproduct
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  whole: !ruby/object:Word
+    word: whole
+    stem: whole
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  permission: !ruby/object:Word
+    word: permission
+    stem: permiss
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  prohibited: !ruby/object:Word
+    word: prohibited
+    stem: prohibit
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  headlines: !ruby/object:Word
+    word: headlines
+    stem: headlin
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  customer: !ruby/object:Word
+    word: customer
+    stem: custom
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 65
+lineCount: 77
+wordCount: 337
+rank: 0.2540983606557377
+title: The Wizard Inside The Machine -- Printout -- TIME
+links:
+- https://secure.customersvc.com/servlet/Show?WESPAGE=td/home.html&MSRSMAG=TD
+rawText: " \t\n\nvar adFactory = new TiiAdFactory(adConfig, \"printerfriendly\");\nadFactory.setChannel(\"u.s.\");\nadFactory.setSubchannel(\"\");\nadFactory.setChannelPage();\n\n\nvar
+  s_account=\"timecom\";\n\n\ns_time.channel = 'time';\ns_time.pageName = 'us|the
+  wizard inside the machine|print';\ns_time.prop6 = 'nation';\ns_time.prop7 = 'print
+  version';\ns_time.prop16 = 'us';\n\ns_time.prop17 = location.href;\n\n\nif (typeof(catsCSV)
+  == \"string\") s_time.prop13 = catsCSV;\nif (typeof(omnitureHookFunction) == \"function\")
+  eval(\"omnitureHookFunction();\");\nvar s_code=s_time.t();if(s_code)document.write(s_code)\n\n\n\n\t\n\t\n\t\n\t\nadFactory.getAd(728,
+  90).write();\n\n\t\n\t\n\t\n\t\n\t   \t\t\t\t\t   \n\t   Back to Article\n \t   \n\t\n\t
+  \  \t\t\t\t\t   \n\t   Click to Print\n\n \t   \n\t\n\t\t\n\t\tMonday, Apr. 16,
+  1984\n\t    The Wizard Inside The Machine\n\t\t\n\t\tBy Alexander L. Taylor III\n\t\t\nCOVER
+  STORY  Software is the magic carpet to the future  Hardware or software? the child
+  of today's computer age might ask.  His world is divided into two parts: hardware,
+  the machinery that makes up a computer, and software, the programs of instructions
+  that tell computers what to do. And while the hardware is visible and tangible,
+  the child knows that software is the soul of the machine. Without software, a computer
+  is little more than a hunk of plastic and silicon that might as well be used as
+  a doorstop. A computer without software is like a car... \n\n\t\t\n\t\t   \t\t\t\t\t
+  \  \n\t\t   Click to Print\n  \t\t\t   \n\t\tFind this article at:\n\t\t   http://content.time.com/time/magazine/article/0,9171,954266,00.html\n\t\t\t\t\n
+  \t  \n\t\n\t\n\t\tCopyright &copy 2014 Time Inc. All rights reserved. Reproduction
+  in whole or in part without permission is prohibited.\t\n\t\t\n\t\t\tPrivacy Policy|Add
+  TIME Headlines to your Site|Contact Us|Customer Service\n\t\t\n\n\t\n \n\n\n\n\nCOVER
+  STORY Software is the magic carpet to the future Hardware or software? the child
+  of today's computer age might ask. His world is divided into two parts: hardware,
+  the machinery that makes up a computer, and software, the programs of instructions
+  that tell computers what to do. And while the hardware is visible and tangible,
+  the child knows that software is the soul of the machine. Without software, a computer
+  is little more than a hunk of plastic and silicon that might as well be used as
+  a doorstop. A computer without software is like a car... \n\n\t\t"

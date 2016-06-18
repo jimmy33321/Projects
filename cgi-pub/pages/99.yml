@@ -1,0 +1,6500 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <head> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 26
+    str1: head
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : meta
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 31
+    str1: meta
+    str2: 
+    str3: 
+    int1: 0
+    column: 78
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : meta
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 35
+    str1: meta
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : meta
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 38
+    str1: meta
+    str2: 
+    str3: 
+    int1: 0
+    column: 88
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : meta
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 41
+    str1: meta
+    str2: 
+    str3: 
+    int1: 0
+    column: 76
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : meta
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 45
+    str1: meta
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 232
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 382
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 521
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 646
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 789
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 52
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 932
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <html> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 57
+    str1: html
+    str2: 
+    str3: 
+    int1: 0
+    column: 9
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <head> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 57
+    str1: head
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 60
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 98
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 65
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 69
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 75
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 104
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 80
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 104
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 86
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 100
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 91
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 102
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 96
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : head
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 123
+    str1: head
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <body> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 124
+    str1: body
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 249
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 60
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 268
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 71
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 269
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 98
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 273
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 279
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 117
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 297
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 302
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 150
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 303
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 307
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 312
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 317
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 323
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 330
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 150
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 335
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 341
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 344
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 347
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 350
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 353
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 356
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 359
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 362
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 369
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 375
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 378
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 381
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 388
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 394
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 397
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 400
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 407
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 412
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 418
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 421
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 424
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 427
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 430
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 433
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 436
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 439
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 442
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 445
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 456
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 461
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 467
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 470
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 473
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 476
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 479
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 486
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 492
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 499
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 504
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 510
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 513
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 520
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 525
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 530
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 535
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 541
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 544
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 547
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 550
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 553
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 556
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 559
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 562
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 565
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 568
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 575
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 581
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 584
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 587
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 590
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 593
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 596
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 599
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 602
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 605
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 608
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 611
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 618
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 147
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 624
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 627
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 630
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1058
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 84
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1061
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 77
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1065
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 72
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1067
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 112
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1083
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1086
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 65
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : input
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1088
+    str1: input
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1130
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 157
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1131
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 89
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1145
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 89
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1163
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 92
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID da-thumbs already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1190
+    str1: da-thumbs
+    str2: da-thumbs
+    str3: 
+    int1: 0
+    column: 52
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID da-thumbs already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1197
+    str1: da-thumbs
+    str2: da-thumbs
+    str3: 
+    int1: 0
+    column: 52
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1235
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1235
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1245
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 139
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1246
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 113
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1hwfzyj"
+    line: 1247
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 129
+address: http://www.oxfordreference.com/
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "    \n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "    \n"
+- "\t\n"
+- "\t    urchinTracker();\n"
+- "\t        var oupcookiepolicy_siteid = 'core';\n"
+- "\t        var oupcookiepolicy_messagetype = 'implied';\n"
+- "\t        var oupcookiepolicy_preferredlanguage = 'en';\n"
+- "\t        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';\n"
+- "\t        var oupcookiepolicy_documentroot='/';\n"
+- "\t    We use cookies to enhance your experience on our website. By continuing to
+  use our website, you are agreeing to our use of cookies. You can change your cookie
+  settings at any time.Find out more\n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "   \t\n"
+- "            \n"
+- "           \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "  \n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- |2
+    Jump to Content
+- "  \n"
+- "  \n"
+- "    \n"
+- "      \n"
+- "\t\t\t\t\n"
+- "  \n"
+- |2
+      Personal Profile: Sign in
+- |2
+           or Create
+- "      \n"
+- "      \n"
+- "    \n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tAbout\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tNews\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tSubscriber Services\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tContact Us\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tFor Authors: A Community of Experts\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "  \n"
+- "    \n"
+- |2
+        Oxford Reference
+- "    \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "        \n"
+- |2
+            Publications
+- |2
+            Pages
+- |2
+            Publications
+- |2
+              Pages
+- "          \n"
+- "      \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- "      \n"
+- |2+
+
+- "      \n"
+- |2
+          Help
+- "      \n"
+- "      \n"
+- "            \n"
+- "            \n"
+- "                    Search within my subject specializations: Select ... \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- "            \n"
+- "                Select your specializations: \n"
+- "                    \n"
+- |2
+                        Select All / Clear Selections
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2
+                          Archaeology
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                                Art & Architecture \n"
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                                Bilingual dictionaries \n"
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Classical studies
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Encyclopedias
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Geographical reference
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- "                                English Dictionaries and Thesauri \n"
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  History
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Ancient history (non-classical to 500 CE)
+- "                                            \n"
+- |2
+                                                  Early history (500 CE to 1500)
+- "                                            \n"
+- |2
+                                                  Early Modern History (1500 to 1700)
+- "                                            \n"
+- |2
+                                                  modern history (1700 to 1945)
+- "                                            \n"
+- |2
+                                                  Contemporary History (post 1945)
+- "                                            \n"
+- "                                                Military History \n"
+- "                                            \n"
+- |2
+                                                  Regional and National History
+- "                                            \n"
+- |2
+                                                  Local and Family History
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Language reference
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          History of English
+- "                                            \n"
+- |2
+                                                  Usage and Grammar Guides
+- "                                            \n"
+- "                                                Writing and Editing Guides \n"
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Law
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          History of Law
+- "                                            \n"
+- |2
+                                                  Human Rights and Immigration
+- "                                            \n"
+- |2
+                                                  International Law
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Linguistics
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Literature
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Bibliography
+- "                                            \n"
+- |2
+                                                  Children's literature studies
+- "                                            \n"
+- |2
+                                                  Literary studies (early and medieval)
+- "                                            \n"
+- |2
+                                                  Literary studies (19th century)
+- "                                            \n"
+- |2
+                                                  Literary studies (20th century onwards)
+- "                                            \n"
+- |2
+                                                  Literary studies - fiction, novelists, and prose writers
+- "                                            \n"
+- |2
+                                                  Literary studies - plays and playwrights
+- "                                            \n"
+- |2
+                                                  Literary studies - poetry and poets
+- "                                            \n"
+- |2
+                                                  Literary theory and cultural studies
+- "                                            \n"
+- |2
+                                                  Shakespeare studies and criticism
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                          Media studies
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Medicine and health
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Clinical Medicine
+- "                                            \n"
+- |2
+                                                  Dentistry
+- "                                            \n"
+- |2
+                                                  Public Health and Epidemiology
+- "                                            \n"
+- |2
+                                                  Surgery
+- "                                            \n"
+- |2
+                                                  Psychiatry
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Music
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Opera
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Names studies
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Performing arts
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Dance
+- "                                            \n"
+- |2
+                                                  Theatre
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Philosophy
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Quotations
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Religion
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- |2
+                                  Science and technology
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Astronomy and Cosmology
+- "                                            \n"
+- |2
+                                                  Chemistry
+- "                                            \n"
+- "                                                Earth Sciences and Geography \n"
+- "                                            \n"
+- |2
+                                                  Engineering and Technology
+- "                                            \n"
+- |2
+                                                  Environmental Science
+- "                                            \n"
+- |2
+                                                  History of Science
+- "                                            \n"
+- |2
+                                                  Life Sciences
+- "                                            \n"
+- |2
+                                                  Mathematics and Computer Science
+- "                                            \n"
+- |2
+                                                  Physics
+- "                                            \n"
+- |2
+                                                  Psychology
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Social sciences
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Anthropology
+- "                                            \n"
+- |2
+                                                  Business and Management
+- "                                            \n"
+- |2
+                                                  Economics
+- "                                            \n"
+- |2
+                                                  Education
+- "                                            \n"
+- |2
+                                                  Environment
+- "                                            \n"
+- |2
+                                                  Human Geography
+- "                                            \n"
+- |2
+                                                  Politics
+- "                                            \n"
+- |2
+                                                  Regional and Area Studies
+- "                                            \n"
+- |2
+                                                  Social Welfare and Social Services
+- "                                            \n"
+- |2
+                                                  Sociology
+- "                                            \n"
+- |2
+                                                  Warfare and Defence
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- |2
+                                  Society and culture
+- "                                    \n"
+- "                                        \n"
+- |2
+                                          Cookery, Food, and Drink
+- "                                            \n"
+- |2
+                                                  Customs and Traditions
+- "                                            \n"
+- |2
+                                                  Lifestyle, Home, and garden
+- "                                            \n"
+- "                                        \n"
+- "                            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "          \n"
+- "            \n"
+- "          \n"
+- "        \n"
+- "        \n"
+- "          \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t Subject\n"
+- "\t\t\t  \n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tReference Type\n"
+- "\t\t\t  \n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "      \n"
+- "        \n"
+- |2+
+
+- "\t\tMy Content (0)\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\t\tMy Searches (0)\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "\t\t\t\n"
+- "      \n"
+- "        \n"
+- "        \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tArchaeology\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tArt & Architecture \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tBilingual dictionaries \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tClassical studies\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tEncyclopedias\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tEnglish Dictionaries and Thesauri \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tHistory\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tLanguage reference\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tLaw\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tLinguistics\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tLiterature\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tMedia studies\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tMedicine and health\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tMusic\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tNames studies\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tPerforming arts\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tPhilosophy\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tQuotations\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tReligion\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tScience and technology\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tSocial sciences\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\tSociety and culture\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tBrowse All\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\t\tOverview Pages\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tSubject Reference\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\tTimelines\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tQuotations\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\tEnglish Dictionaries\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\tBilingual Dictionaries\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tBrowse All\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- |
+  Close
+- "      \n"
+- "    \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "      \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "        \n"
+- "        \n"
+- "          \n"
+- "            \n"
+- "              \n"
+- "                Indiana University - Bloomington    \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- "                  \n"
+- "                  \n"
+- "                \n"
+- |2
+                   
+- "              \n"
+- "            \n"
+- "  \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "                \n"
+- "          \n"
+- "                \n"
+- "              \n"
+- "            \n"
+- "            \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- |2
+                    Sign in
+- "                \n"
+- "                \n"
+- "              \n"
+- "            \n"
+- |2+
+
+- "          \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- "    \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\tSubscriber Login\n"
+- "\t\n"
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "      \n"
+- "        \n"
+- "          \n"
+- "            \n"
+- |2
+                Username
+- "              \n"
+- "            \n"
+- |2
+                Password
+- "              \n"
+- "            \n"
+- "          \n"
+- |2
+            Forgotten your password?
+- "          \n"
+- "        \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "\t\t\n"
+- "    \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "          \n"
+- "              \n"
+- "                  \n"
+- |2
+                        Library Card #
+- "                      \n"
+- "                  \n"
+- "              \n"
+- "          \n"
+- |2
+            Login with your Library Card »
+- "          \n"
+- "        \n"
+- "      \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "          \n"
+- |2
+              Login with Athens/Access Management Federation »
+- "            \n"
+- "          \n"
+- "        \n"
+- "                               \n"
+- |2+
+
+- "      \n"
+- |2+
+
+- "      \n"
+- |2
+            document.getElementById('libcardwrapper').style.display = "none";
+- |2
+            document.getElementById('showlibcard').style.display = "block";
+- |2
+        Don't have an account?
+- "    \n"
+- "  \n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- |2+
+
+- |2+
+
+- "      \n"
+- "        \n"
+- |2+
+
+- "\t\n"
+- "\t\tAnswers With Authority\n"
+- |
+     
+- |
+  Discover the best of Oxford's reference titles - on a dynamic digital platform.
+- |
+    Browse & Search Entries
+- |
+           Browse & Search Titles
+- |
+  NEW: Show Titles In My           Subscription
+- |
+  *       *       *       *       *       * 
+- |
+  Collection Options:
+- |
+  Quick Reference:
+- |
+  Core Dictionaries with short-entry answers
+- |
+  Reference Library:
+- |
+  In-depth Encyclopedias and Companions
+- |
+  Free Research Tools:
+- |
+  Historic Timelines
+- |2
+      Essential Quotations
+- |2
+      Subject Overviews
+- |
+  FAQs: Libraries & Institutions
+- |
+  Developing Countries Initiative - Learn More
+- "\t\n"
+- |2+
+
+- "      \n"
+- "      \n"
+- "    \n"
+- |2+
+
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "\t\t \t\t\t\t\t\tArchaeology\n"
+- "    \n"
+- "     \t\t\t\t\t\tArt and Architecture\n"
+- "    \n"
+- "     \t\t\t\t\t\tClassical Studies\n"
+- "    \n"
+- "     \t\t\t\t\t\tHistory\n"
+- "    \n"
+- "     \t\t\t\t\t\tLanguage Reference\n"
+- "    \n"
+- "     \t\t\t\t\t\tLinguistics\n"
+- "    \n"
+- |2+
+
+- |
+  Explore by Subject
+- |
+  Discover the breadth of Oxford Reference’s publishing by learning more about the titles and experts behind each distinct discipline. Select a panel to begin your research journey.
+- |2+
+
+- |2+
+
+- " \t\t\t\t\t\t\tPerforming Arts\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- " \t\t\t\t\t\tLaw\n"
+- "    \n"
+- "     \t\t\t\t\t\tMedicine and Health\n"
+- "    \n"
+- "     \t\t\t\t\t\tMedia Studies\n"
+- "    \n"
+- "     \t\t\t\t\t\tMusic\n"
+- "    \n"
+- "     \t\t\t\t\t\tNames Studies\n"
+- "    \n"
+- "     \t\t\t\t\t\tLiterature\n"
+- "    \n"
+- "     \t\t\t\t\t\tPhilosophy\n"
+- "    \n"
+- "     \t\t\t\t\t\tQuotations\n"
+- "    \n"
+- "     \t\t\t\t\t\tReligion\n"
+- "    \n"
+- "     \t\t\t\t\t\tScience and Technology\n"
+- "    \n"
+- "     \t\t\t\t\t\tSocial Sciences\n"
+- "    \n"
+- "     \t\t\t\t\t\tSociety and Culture\n"
+- "    \n"
+- |
+  FEATURED ARTICLE
+- |
+  2015
+- |
+  Biogeography and Ecology
+- |
+  Alexander von Humboldt has contributed much to laying the foundations of biogeography, so great is Humboldt’s fame that he is often credited with having originated the discipline. But he had at least one predecessor, no less intellectually eminent. Michael Allaby, author of A Dictionary of Ecology, shares his perspective.
+- |
+  Science and Technology
+- |2+
+
+- |
+   
+- |
+   
+- |2+
+
+- |
+  try{Typekit.load();}catch(e){}
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tNew & Noteworthy\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\t\n"
+- "\t \n"
+- "\t\t\t\t\n"
+- "\t\t\tDid you know?\n"
+- "\t\t\tRSS\n"
+- "\t\t\tEmail updates signup\n"
+- "\t\t\t\n"
+- "\t\t\t\tWhat form of art is usually credited to Annibale Carracci?\n"
+- "\t\t\t\tView the answer\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- |2+
+
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t    News\n"
+- "\t        \n"
+- "\t            \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                    December 8, 2015\n"
+- "\t                    Renaissance of the ancient world\n"
+- "\t                    Adam Montefiore writes about the renaissance of the ancient
+  world of wine production. Read more >\n"
+- "\t                \n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                    December 2, 2015\n"
+- "\t                    Oxford University Press to Illuminate Shakespeare in 2016\n"
+- "\t                    As part of the 2016 global ‘Shakespeare 400’ year, OUP is
+  making a wealth of resources available in a new website. Find out more >\n"
+- "\t                \n"
+- "\t            \n"
+- "\t            \n"
+- "\t            \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                    November 30, 2015\n"
+- "\t                    This blasted heath – Justin Kurzel’s new Macbeth\n"
+- "\t                    Dr Erin Sullivan considers the question 'How many children
+  had Lady Macbeth?' Read more >\n"
+- "\t                \n"
+- "\t            \n"
+- "\t            \n"
+- "\t        \n"
+- "          \n"
+- "\t        RSS Feed\n"
+- "\t        More News »\n"
+- "\t    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "\t\n"
+- "\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "      \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- "\t\t\t\t\n"
+- |2
+    Oxford University Press
+- "    \n"
+- "  \n"
+- |2
+      Copyright © 2015. All rights reserved.
+- |2
+      PRINTED FROM OXFORD REFERENCE (www.oxfordreference.com). (c) Copyright Oxford University Press, 2013. All Rights Reserved. Under the terms of the licence agreement, an individual user may print out a PDF of a single entry from a reference work in OR for personal use. Subscriber: Indiana University - Bloomington; date: 14 December 2015
+- "    \n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tCredits\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tLegal notice\n"
+- "\t\t\t\t\t    \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\tPrivacy policy\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "      \n"
+- "\t\n"
+- "  \n"
+- "      \n"
+- "\t\t\n"
+- "  \n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- "  \n"
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t[129.79.247.5|129.79.247.5]\n"
+- "\t\t\t\t\t129.79.247.5\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\tvar accountJsession = 'account_id=12967&jsessionid=02D7FE6960741EC28FD4A299471352D6&turnaway_id=null&siteid=ORO&supplier_tag=Safari';
+  \n"
+- |
+  var NTPT_PGEXTRA= typeof pfpagetags === 'undefined' ? accountJsession : accountJsession + pfpagetags;
+- "\t\tTapestry.onDOMLoaded(function() {\n"
+- |
+  var stylesheet = document.createElement('link'); stylesheet.href = 'http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/css/pf_oiunderbar.css'; stylesheet.rel = 'stylesheet'; stylesheet.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(stylesheet);
+- "(function() {    var underbar = document.createElement('script');  underbar.onloadDone
+  = false;  underbar.src = 'http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/UnderbarHostsJS';
+  \    underbar.type = 'text/javascript'; underbar.async = 'true';     underbar.onload
+  = underbar.onreadystatechange = function() {  \t var rs = this.readyState;     if
+  ((rs && rs != 'complete' && rs != 'loaded') || underbar.onloadDone) return; \t\tunderbar.onloadDone
+  = true; \t\tvar getScript = $j.getScript;  \t\tvar underbarDependencies = ['http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/jquery-ui.min.js','http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/jcarousellite.js','http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/pf_oiunderbarinit.js'];
+  \t\t$j.when.apply(null, $j.map(underbarDependencies, getScript)).done(function()
+  { PF_initOIUnderbar(\":QS:\",\":QS:default\",\"\",\"ORO\"); PF_insertOIUnderbar(0);
+  });     };     var s = document.getElementsByTagName('script')[0];     s.parentNode.insertBefore(underbar,
+  s);   })();\n"
+- |
+  Tapestry.init({"OdoPopupWidgetModule":[{"jquerySelector":"#mainContent","ajaxUpdateURL":"/oso/start.layout.odopopupwidget:ajaxupdate;jsessionid=02D7FE6960741EC28FD4A299471352D6"}],"linkZone":[["ajaxUpdate","odoPopupWidgetZone","/oso/start.layout.odopopupwidget:ajaxupdate;jsessionid=02D7FE6960741EC28FD4A299471352D6"]],"zone":[{"update":"none","element":"euCookiesZone","show":"none"},"odoPopupWidgetZone"]});
+- |
+  });
+- |2+
+
+- |
+  <!--
+- |
+  document.domLoaded=false;
+- |
+  document.observe('dom:loaded',function() { setDomLoaded.defer();});
+- |
+  // -->
+- |
+  Forgotten your password?Don't have an account?Answers With Authority   Discover the best of Oxford's reference titles - on a dynamic digital platform.  Browse & Search Entries         Browse & Search TitlesNEW: Show Titles In My           Subscription*       *       *       *       *       * Collection Options:Quick Reference:
+- |
+  Core Dictionaries with short-entry answersReference Library:
+- |
+  In-depth Encyclopedias and CompanionsFree Research Tools:FAQs: Libraries & InstitutionsDeveloping Countries Initiative - Learn MoreDiscover the breadth of Oxford Reference’s publishing by learning more about the titles and experts behind each distinct discipline. Select a panel to begin your research journey.Alexander von Humboldt has contributed much to laying the foundations of biogeography, so great is Humboldt’s fame that he is often credited with having originated the discipline. But he had at least one predecessor, no less intellectually eminent. Michael Allaby, author of A Dictionary of Ecology, shares his perspective.  
+- 'try{Typekit.load();}catch(e){}Adam Montefiore writes about the renaissance of the
+  ancient world of wine production. Read more >As part of the 2016 global ‘Shakespeare
+  400’ year, OUP is making a wealth of resources available in a new website. Find
+  out more >Dr Erin Sullivan considers the question ''How many children had Lady Macbeth?''
+  Read more >PRINTED FROM OXFORD REFERENCE (www.oxfordreference.com). (c) Copyright
+  Oxford University Press, 2013. All Rights Reserved. Under the terms of the licence
+  agreement, an individual user may print out a PDF of a single entry from a reference
+  work in OR for personal use. Subscriber: Indiana University - Bloomington; date:
+  14 December 2015'
+index:
+  urchintracker: !ruby/object:Word
+    word: urchintracker
+    stem: urchintrack
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  oupcookiepolicy_siteid: !ruby/object:Word
+    word: oupcookiepolicy_siteid
+    stem: oupcookiepolicy_siteid
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  core: !ruby/object:Word
+    word: core
+    stem: core
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 830
+    - 1101
+  oupcookiepolicy_messagetype: !ruby/object:Word
+    word: oupcookiepolicy_messagetype
+    stem: oupcookiepolicy_messagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  implied: !ruby/object:Word
+    word: implied
+    stem: impli
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  oupcookiepolicy_preferredlanguage: !ruby/object:Word
+    word: oupcookiepolicy_preferredlanguage
+    stem: oupcookiepolicy_preferredlanguag
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  oupcookiepolicy_impliedmessageclass: !ruby/object:Word
+    word: oupcookiepolicy_impliedmessageclass
+    stem: oupcookiepolicy_impliedmessageclass
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  cookiepolicyimplied: !ruby/object:Word
+    word: cookiepolicyimplied
+    stem: cookiepolicyimpli
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  oupcookiepolicy_documentroot: !ruby/object:Word
+    word: oupcookiepolicy_documentroot
+    stem: oupcookiepolicy_documentroot
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 16
+    - 1013
+    - 1103
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 3.0
+    docPositions:
+    - 16
+  enhance: !ruby/object:Word
+    word: enhance
+    stem: enhanc
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 9.0
+    docPositions:
+    - 16
+    - 133
+    - 767
+    - 787
+    - 869
+    - 1100
+    - 1102
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 4.0
+    docPositions:
+    - 16
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 5.0
+    docPositions:
+    - 16
+    - 961
+    - 1103
+  continuing: !ruby/object:Word
+    word: continuing
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 926
+  agreeing: !ruby/object:Word
+    word: agreeing
+    stem: agre
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  settings: !ruby/object:Word
+    word: settings
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 961
+    - 1103
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 6.0
+    docPositions:
+    - 16
+    - 961
+    - 1013
+    - 1103
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 12.0
+    docPositions:
+    - 16
+    - 838
+    - 869
+    - 952
+    - 961
+    - 970
+    - 977
+    - 1102
+    - 1103
+  jump: !ruby/object:Word
+    word: jump
+    stem: jump
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 399
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 1013
+    - 1103
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 723
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 56
+    - 945
+    - 977
+  subscriber: !ruby/object:Word
+    word: subscriber
+    stem: subscrib
+    docFrequency: 5.0
+    docPositions:
+    - 67
+    - 745
+    - 1013
+    - 1103
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 67
+    - 334
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  authors: !ruby/object:Word
+    word: authors
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  experts: !ruby/object:Word
+    word: experts
+    stem: expert
+    docFrequency: 4.0
+    docPositions:
+    - 89
+    - 869
+    - 1102
+  oxford: !ruby/object:Word
+    word: oxford
+    stem: oxford
+    docFrequency: 12.0
+    docPositions:
+    - 100
+    - 823
+    - 869
+    - 960
+    - 1009
+    - 1013
+    - 1100
+    - 1102
+    - 1103
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 19.0
+    docPositions:
+    - 100
+    - 159
+    - 188
+    - 386
+    - 497
+    - 618
+    - 823
+    - 829
+    - 831
+    - 863
+    - 869
+    - 1013
+    - 1100
+    - 1102
+    - 1103
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 110
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 4.0
+    docPositions:
+    - 109
+    - 111
+    - 616
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 6.0
+    docPositions:
+    - 127
+    - 824
+    - 825
+    - 1100
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 2.0
+    docPositions:
+    - 127
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 6.0
+    docPositions:
+    - 127
+    - 399
+    - 403
+    - 826
+    - 1100
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 6.0
+    docPositions:
+    - 127
+    - 378
+    - 618
+    - 836
+    - 868
+  specializations: !ruby/object:Word
+    word: specializations
+    stem: special
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 133
+  select: !ruby/object:Word
+    word: select
+    stem: select
+    docFrequency: 6.0
+    docPositions:
+    - 127
+    - 133
+    - 135
+    - 869
+    - 1102
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 135
+    - 610
+    - 651
+    - 1012
+    - 1013
+    - 1103
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  selections: !ruby/object:Word
+    word: selections
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 4.0
+    docPositions:
+    - 140
+    - 417
+    - 855
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 5.0
+    docPositions:
+    - 144
+    - 421
+    - 857
+    - 930
+  architecture: !ruby/object:Word
+    word: architecture
+    stem: architectur
+    docFrequency: 4.0
+    docPositions:
+    - 144
+    - 421
+    - 857
+  bilingual: !ruby/object:Word
+    word: bilingual
+    stem: bilingu
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 425
+    - 649
+  dictionaries: !ruby/object:Word
+    word: dictionaries
+    stem: dictionari
+    docFrequency: 9.0
+    docPositions:
+    - 148
+    - 163
+    - 425
+    - 437
+    - 642
+    - 649
+    - 830
+    - 1101
+  classical: !ruby/object:Word
+    word: classical
+    stem: classic
+    docFrequency: 5.0
+    docPositions:
+    - 152
+    - 170
+    - 429
+    - 859
+  studies: !ruby/object:Word
+    word: studies
+    stem: studi
+    docFrequency: 20.0
+    docPositions:
+    - 152
+    - 219
+    - 221
+    - 223
+    - 225
+    - 227
+    - 229
+    - 231
+    - 233
+    - 235
+    - 239
+    - 265
+    - 332
+    - 429
+    - 513
+    - 559
+    - 859
+    - 880
+    - 884
+  encyclopedias: !ruby/object:Word
+    word: encyclopedias
+    stem: encyclopedia
+    docFrequency: 5.0
+    docPositions:
+    - 156
+    - 433
+    - 832
+    - 1102
+  geographical: !ruby/object:Word
+    word: geographical
+    stem: geograph
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 191
+    - 437
+    - 642
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 42.0
+    docPositions:
+    - 163
+    - 182
+    - 184
+    - 193
+    - 195
+    - 204
+    - 221
+    - 227
+    - 229
+    - 231
+    - 233
+    - 235
+    - 243
+    - 250
+    - 290
+    - 293
+    - 297
+    - 299
+    - 307
+    - 320
+    - 332
+    - 334
+    - 338
+    - 342
+    - 345
+    - 347
+    - 349
+    - 437
+    - 551
+    - 598
+    - 606
+    - 832
+    - 857
+    - 869
+    - 878
+    - 894
+    - 898
+    - 902
+    - 904
+    - 1102
+  thesauri: !ruby/object:Word
+    word: thesauri
+    stem: thesauri
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 437
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 15.0
+    docPositions:
+    - 167
+    - 170
+    - 172
+    - 174
+    - 176
+    - 178
+    - 180
+    - 182
+    - 184
+    - 191
+    - 202
+    - 303
+    - 493
+    - 861
+  ancient: !ruby/object:Word
+    word: ancient
+    stem: ancient
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 951
+    - 952
+    - 1103
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  ce: !ruby/object:Word
+    word: ce
+    stem: ce
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 172
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 4.0
+    docPositions:
+    - 172
+    - 174
+    - 221
+  modern: !ruby/object:Word
+    word: modern
+    stem: modern
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 176
+  contemporary: !ruby/object:Word
+    word: contemporary
+    stem: contemporari
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  regional: !ruby/object:Word
+    word: regional
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 332
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 4.0
+    docPositions:
+    - 188
+    - 497
+    - 863
+  usage: !ruby/object:Word
+    word: usage
+    stem: usag
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  grammar: !ruby/object:Word
+    word: grammar
+    stem: grammar
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 3.0
+    docPositions:
+    - 193
+    - 195
+  writing: !ruby/object:Word
+    word: writing
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  editing: !ruby/object:Word
+    word: editing
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  law: !ruby/object:Word
+    word: law
+    stem: law
+    docFrequency: 6.0
+    docPositions:
+    - 199
+    - 202
+    - 206
+    - 501
+    - 876
+  human: !ruby/object:Word
+    word: human
+    stem: human
+    docFrequency: 3.0
+    docPositions:
+    - 204
+    - 328
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 5.0
+    docPositions:
+    - 204
+    - 1012
+    - 1013
+    - 1103
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 206
+  linguistics: !ruby/object:Word
+    word: linguistics
+    stem: linguist
+    docFrequency: 4.0
+    docPositions:
+    - 210
+    - 505
+    - 865
+  literature: !ruby/object:Word
+    word: literature
+    stem: literatur
+    docFrequency: 5.0
+    docPositions:
+    - 214
+    - 219
+    - 509
+    - 886
+  bibliography: !ruby/object:Word
+    word: bibliography
+    stem: bibliographi
+    docFrequency: 2.0
+    docPositions:
+    - 217
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 4.0
+    docPositions:
+    - 219
+    - 970
+    - 1103
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 12.0
+    docPositions:
+    - 219
+    - 823
+    - 869
+    - 903
+    - 969
+    - 1092
+    - 1100
+    - 1102
+  literary: !ruby/object:Word
+    word: literary
+    stem: literari
+    docFrequency: 8.0
+    docPositions:
+    - 221
+    - 223
+    - 225
+    - 227
+    - 229
+    - 231
+    - 233
+  medieval: !ruby/object:Word
+    word: medieval
+    stem: mediev
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  century: !ruby/object:Word
+    word: century
+    stem: centuri
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 225
+  onwards: !ruby/object:Word
+    word: onwards
+    stem: onward
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  fiction: !ruby/object:Word
+    word: fiction
+    stem: fiction
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  novelists: !ruby/object:Word
+    word: novelists
+    stem: novelist
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  prose: !ruby/object:Word
+    word: prose
+    stem: prose
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  writers: !ruby/object:Word
+    word: writers
+    stem: writer
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  plays: !ruby/object:Word
+    word: plays
+    stem: plai
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  playwrights: !ruby/object:Word
+    word: playwrights
+    stem: playwright
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  poetry: !ruby/object:Word
+    word: poetry
+    stem: poetri
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  poets: !ruby/object:Word
+    word: poets
+    stem: poet
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  theory: !ruby/object:Word
+    word: theory
+    stem: theori
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  cultural: !ruby/object:Word
+    word: cultural
+    stem: cultur
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  shakespeare: !ruby/object:Word
+    word: shakespeare
+    stem: shakespear
+    docFrequency: 5.0
+    docPositions:
+    - 235
+    - 960
+    - 961
+    - 1103
+  criticism: !ruby/object:Word
+    word: criticism
+    stem: critic
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 4.0
+    docPositions:
+    - 239
+    - 513
+    - 880
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 5.0
+    docPositions:
+    - 243
+    - 246
+    - 551
+    - 878
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 5.0
+    docPositions:
+    - 243
+    - 250
+    - 551
+    - 878
+  clinical: !ruby/object:Word
+    word: clinical
+    stem: clinic
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  dentistry: !ruby/object:Word
+    word: dentistry
+    stem: dentistri
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  epidemiology: !ruby/object:Word
+    word: epidemiology
+    stem: epidemiolog
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  surgery: !ruby/object:Word
+    word: surgery
+    stem: surgeri
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  psychiatry: !ruby/object:Word
+    word: psychiatry
+    stem: psychiatri
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 4.0
+    docPositions:
+    - 258
+    - 555
+    - 882
+  opera: !ruby/object:Word
+    word: opera
+    stem: opera
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 4.0
+    docPositions:
+    - 265
+    - 559
+    - 884
+  performing: !ruby/object:Word
+    word: performing
+    stem: perform
+    docFrequency: 4.0
+    docPositions:
+    - 269
+    - 563
+    - 872
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 4.0
+    docPositions:
+    - 269
+    - 563
+    - 872
+  dance: !ruby/object:Word
+    word: dance
+    stem: danc
+    docFrequency: 2.0
+    docPositions:
+    - 272
+  theatre: !ruby/object:Word
+    word: theatre
+    stem: theatr
+    docFrequency: 2.0
+    docPositions:
+    - 274
+  philosophy: !ruby/object:Word
+    word: philosophy
+    stem: philosophi
+    docFrequency: 4.0
+    docPositions:
+    - 278
+    - 567
+    - 888
+  quotations: !ruby/object:Word
+    word: quotations
+    stem: quotat
+    docFrequency: 6.0
+    docPositions:
+    - 282
+    - 590
+    - 633
+    - 835
+    - 890
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 4.0
+    docPositions:
+    - 286
+    - 594
+    - 892
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 8.0
+    docPositions:
+    - 290
+    - 301
+    - 303
+    - 307
+    - 598
+    - 894
+    - 904
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 6.0
+    docPositions:
+    - 290
+    - 299
+    - 598
+    - 894
+    - 904
+  astronomy: !ruby/object:Word
+    word: astronomy
+    stem: astronomi
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  cosmology: !ruby/object:Word
+    word: cosmology
+    stem: cosmolog
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  chemistry: !ruby/object:Word
+    word: chemistry
+    stem: chemistri
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 6.0
+    docPositions:
+    - 297
+    - 305
+    - 315
+    - 602
+    - 896
+  geography: !ruby/object:Word
+    word: geography
+    stem: geographi
+    docFrequency: 3.0
+    docPositions:
+    - 297
+    - 328
+  engineering: !ruby/object:Word
+    word: engineering
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 299
+  environmental: !ruby/object:Word
+    word: environmental
+    stem: environment
+    docFrequency: 2.0
+    docPositions:
+    - 301
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  mathematics: !ruby/object:Word
+    word: mathematics
+    stem: mathemat
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  physics: !ruby/object:Word
+    word: physics
+    stem: physic
+    docFrequency: 2.0
+    docPositions:
+    - 309
+  psychology: !ruby/object:Word
+    word: psychology
+    stem: psycholog
+    docFrequency: 2.0
+    docPositions:
+    - 311
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 6.0
+    docPositions:
+    - 315
+    - 334
+    - 602
+    - 896
+  anthropology: !ruby/object:Word
+    word: anthropology
+    stem: anthropolog
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  management: !ruby/object:Word
+    word: management
+    stem: manag
+    docFrequency: 3.0
+    docPositions:
+    - 320
+    - 795
+  economics: !ruby/object:Word
+    word: economics
+    stem: econom
+    docFrequency: 2.0
+    docPositions:
+    - 322
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 324
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 2.0
+    docPositions:
+    - 330
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  welfare: !ruby/object:Word
+    word: welfare
+    stem: welfar
+    docFrequency: 2.0
+    docPositions:
+    - 334
+  sociology: !ruby/object:Word
+    word: sociology
+    stem: sociolog
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  warfare: !ruby/object:Word
+    word: warfare
+    stem: warfar
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  defence: !ruby/object:Word
+    word: defence
+    stem: defenc
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 4.0
+    docPositions:
+    - 342
+    - 606
+    - 898
+  culture: !ruby/object:Word
+    word: culture
+    stem: cultur
+    docFrequency: 4.0
+    docPositions:
+    - 342
+    - 606
+    - 898
+  cookery: !ruby/object:Word
+    word: cookery
+    stem: cookeri
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  customs: !ruby/object:Word
+    word: customs
+    stem: custom
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  traditions: !ruby/object:Word
+    word: traditions
+    stem: tradit
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  garden: !ruby/object:Word
+    word: garden
+    stem: garden
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 4.0
+    docPositions:
+    - 386
+    - 1091
+    - 1092
+  searches: !ruby/object:Word
+    word: searches
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 403
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 7.0
+    docPositions:
+    - 610
+    - 651
+    - 824
+    - 825
+    - 1100
+  overview: !ruby/object:Word
+    word: overview
+    stem: overview
+    docFrequency: 2.0
+    docPositions:
+    - 616
+  timelines: !ruby/object:Word
+    word: timelines
+    stem: timelin
+    docFrequency: 3.0
+    docPositions:
+    - 631
+    - 834
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 4.0
+    docPositions:
+    - 693
+    - 1013
+    - 1103
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 8.0
+    docPositions:
+    - 693
+    - 960
+    - 1009
+    - 1013
+    - 1103
+  bloomington: !ruby/object:Word
+    word: bloomington
+    stem: bloomington
+    docFrequency: 4.0
+    docPositions:
+    - 693
+    - 1013
+    - 1103
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 4.0
+    docPositions:
+    - 745
+    - 787
+    - 795
+  username: !ruby/object:Word
+    word: username
+    stem: usernam
+    docFrequency: 2.0
+    docPositions:
+    - 760
+  password: !ruby/object:Word
+    word: password
+    stem: password
+    docFrequency: 4.0
+    docPositions:
+    - 763
+    - 767
+    - 1100
+  forgotten: !ruby/object:Word
+    word: forgotten
+    stem: forgotten
+    docFrequency: 3.0
+    docPositions:
+    - 767
+    - 1100
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 5.0
+    docPositions:
+    - 782
+    - 787
+    - 831
+    - 1101
+  card: !ruby/object:Word
+    word: card
+    stem: card
+    docFrequency: 3.0
+    docPositions:
+    - 782
+    - 787
+  athens: !ruby/object:Word
+    word: athens
+    stem: athen
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  federation: !ruby/object:Word
+    word: federation
+    stem: feder
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 9.0
+    docPositions:
+    - 804
+    - 805
+    - 1091
+    - 1092
+    - 1097
+    - 1098
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 3.0
+    docPositions:
+    - 804
+    - 805
+  libcardwrapper: !ruby/object:Word
+    word: libcardwrapper
+    stem: libcardwrapp
+    docFrequency: 2.0
+    docPositions:
+    - 804
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 3.0
+    docPositions:
+    - 804
+    - 805
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 3.0
+    docPositions:
+    - 804
+    - 805
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 4.0
+    docPositions:
+    - 804
+    - 1093
+  showlibcard: !ruby/object:Word
+    word: showlibcard
+    stem: showlibcard
+    docFrequency: 2.0
+    docPositions:
+    - 805
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 2.0
+    docPositions:
+    - 805
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 3.0
+    docPositions:
+    - 806
+    - 1100
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 806
+    - 1100
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 806
+    - 1100
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 3.0
+    docPositions:
+    - 806
+    - 1100
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 4.0
+    docPositions:
+    - 821
+    - 830
+    - 1100
+  authority: !ruby/object:Word
+    word: authority
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 821
+    - 1100
+  discover: !ruby/object:Word
+    word: discover
+    stem: discov
+    docFrequency: 4.0
+    docPositions:
+    - 823
+    - 869
+    - 1100
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 3.0
+    docPositions:
+    - 823
+    - 1100
+  titles: !ruby/object:Word
+    word: titles
+    stem: titl
+    docFrequency: 8.0
+    docPositions:
+    - 823
+    - 825
+    - 826
+    - 869
+    - 1100
+    - 1102
+  dynamic: !ruby/object:Word
+    word: dynamic
+    stem: dynam
+    docFrequency: 3.0
+    docPositions:
+    - 823
+    - 1100
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 3.0
+    docPositions:
+    - 823
+    - 1100
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 3.0
+    docPositions:
+    - 823
+    - 1100
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 5.0
+    docPositions:
+    - 824
+    - 825
+    - 1072
+    - 1092
+  entries: !ruby/object:Word
+    word: entries
+    stem: entri
+    docFrequency: 3.0
+    docPositions:
+    - 824
+    - 1100
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 6.0
+    docPositions:
+    - 826
+    - 914
+    - 961
+    - 969
+    - 1103
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 4.0
+    docPositions:
+    - 826
+    - 1093
+    - 1100
+  subscription: !ruby/object:Word
+    word: subscription
+    stem: subscript
+    docFrequency: 3.0
+    docPositions:
+    - 826
+    - 1100
+  collection: !ruby/object:Word
+    word: collection
+    stem: collect
+    docFrequency: 3.0
+    docPositions:
+    - 828
+    - 1100
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 3.0
+    docPositions:
+    - 828
+    - 1100
+  quick: !ruby/object:Word
+    word: quick
+    stem: quick
+    docFrequency: 3.0
+    docPositions:
+    - 829
+    - 1100
+  short: !ruby/object:Word
+    word: short
+    stem: short
+    docFrequency: 3.0
+    docPositions:
+    - 830
+    - 1101
+  entry: !ruby/object:Word
+    word: entry
+    stem: entri
+    docFrequency: 5.0
+    docPositions:
+    - 830
+    - 1013
+    - 1101
+    - 1103
+  depth: !ruby/object:Word
+    word: depth
+    stem: depth
+    docFrequency: 3.0
+    docPositions:
+    - 832
+    - 1102
+  companions: !ruby/object:Word
+    word: companions
+    stem: companion
+    docFrequency: 2.0
+    docPositions:
+    - 832
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 833
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 5.0
+    docPositions:
+    - 833
+    - 869
+    - 1102
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 3.0
+    docPositions:
+    - 833
+    - 1102
+  historic: !ruby/object:Word
+    word: historic
+    stem: histor
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  essential: !ruby/object:Word
+    word: essential
+    stem: essenti
+    docFrequency: 2.0
+    docPositions:
+    - 835
+  overviews: !ruby/object:Word
+    word: overviews
+    stem: overview
+    docFrequency: 2.0
+    docPositions:
+    - 836
+  faqs: !ruby/object:Word
+    word: faqs
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 837
+    - 1102
+  libraries: !ruby/object:Word
+    word: libraries
+    stem: librari
+    docFrequency: 3.0
+    docPositions:
+    - 837
+    - 1102
+  institutions: !ruby/object:Word
+    word: institutions
+    stem: institut
+    docFrequency: 2.0
+    docPositions:
+    - 837
+  developing: !ruby/object:Word
+    word: developing
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 838
+  countries: !ruby/object:Word
+    word: countries
+    stem: countri
+    docFrequency: 3.0
+    docPositions:
+    - 838
+    - 1102
+  initiative: !ruby/object:Word
+    word: initiative
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 838
+    - 1102
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 838
+    - 1102
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 2.0
+    docPositions:
+    - 868
+  breadth: !ruby/object:Word
+    word: breadth
+    stem: breadth
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  publishing: !ruby/object:Word
+    word: publishing
+    stem: publish
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  learning: !ruby/object:Word
+    word: learning
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  distinct: !ruby/object:Word
+    word: distinct
+    stem: distinct
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  discipline: !ruby/object:Word
+    word: discipline
+    stem: disciplin
+    docFrequency: 5.0
+    docPositions:
+    - 869
+    - 903
+    - 1102
+  panel: !ruby/object:Word
+    word: panel
+    stem: panel
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  begin: !ruby/object:Word
+    word: begin
+    stem: begin
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  journey: !ruby/object:Word
+    word: journey
+    stem: journei
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 1102
+  featured: !ruby/object:Word
+    word: featured
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 900
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 900
+  biogeography: !ruby/object:Word
+    word: biogeography
+    stem: biogeographi
+    docFrequency: 4.0
+    docPositions:
+    - 902
+    - 903
+    - 1102
+  ecology: !ruby/object:Word
+    word: ecology
+    stem: ecolog
+    docFrequency: 4.0
+    docPositions:
+    - 902
+    - 903
+    - 1102
+  alexander: !ruby/object:Word
+    word: alexander
+    stem: alexand
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  von: !ruby/object:Word
+    word: von
+    stem: von
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  humboldt: !ruby/object:Word
+    word: humboldt
+    stem: humboldt
+    docFrequency: 5.0
+    docPositions:
+    - 903
+    - 1102
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  contributed: !ruby/object:Word
+    word: contributed
+    stem: contribut
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  laying: !ruby/object:Word
+    word: laying
+    stem: lai
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  foundations: !ruby/object:Word
+    word: foundations
+    stem: foundat
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  great: !ruby/object:Word
+    word: great
+    stem: great
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  fame: !ruby/object:Word
+    word: fame
+    stem: fame
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 5.0
+    docPositions:
+    - 903
+    - 1102
+  often: !ruby/object:Word
+    word: often
+    stem: often
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  credited: !ruby/object:Word
+    word: credited
+    stem: credit
+    docFrequency: 4.0
+    docPositions:
+    - 903
+    - 930
+    - 1102
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  originated: !ruby/object:Word
+    word: originated
+    stem: origin
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 5.0
+    docPositions:
+    - 903
+    - 970
+    - 1102
+    - 1103
+  least: !ruby/object:Word
+    word: least
+    stem: least
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  predecessor: !ruby/object:Word
+    word: predecessor
+    stem: predecessor
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  intellectually: !ruby/object:Word
+    word: intellectually
+    stem: intellectu
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  eminent: !ruby/object:Word
+    word: eminent
+    stem: emin
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  michael: !ruby/object:Word
+    word: michael
+    stem: michael
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  allaby: !ruby/object:Word
+    word: allaby
+    stem: allabi
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  dictionary: !ruby/object:Word
+    word: dictionary
+    stem: dictionari
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  shares: !ruby/object:Word
+    word: shares
+    stem: share
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  perspective: !ruby/object:Word
+    word: perspective
+    stem: perspect
+    docFrequency: 3.0
+    docPositions:
+    - 903
+    - 1102
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 909
+    - 1103
+  typekit: !ruby/object:Word
+    word: typekit
+    stem: typekit
+    docFrequency: 3.0
+    docPositions:
+    - 909
+    - 1103
+  load: !ruby/object:Word
+    word: load
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 909
+    - 1103
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 3.0
+    docPositions:
+    - 909
+    - 1103
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 909
+    - 1103
+  noteworthy: !ruby/object:Word
+    word: noteworthy
+    stem: noteworthi
+    docFrequency: 2.0
+    docPositions:
+    - 914
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 2.0
+    docPositions:
+    - 926
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 2.0
+    docPositions:
+    - 926
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 3.0
+    docPositions:
+    - 927
+    - 976
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  signup: !ruby/object:Word
+    word: signup
+    stem: signup
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  usually: !ruby/object:Word
+    word: usually
+    stem: usual
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  annibale: !ruby/object:Word
+    word: annibale
+    stem: annibal
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  carracci: !ruby/object:Word
+    word: carracci
+    stem: carracci
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 2.0
+    docPositions:
+    - 931
+  answer: !ruby/object:Word
+    word: answer
+    stem: answer
+    docFrequency: 2.0
+    docPositions:
+    - 931
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 5.0
+    docPositions:
+    - 950
+    - 959
+    - 1013
+    - 1103
+  renaissance: !ruby/object:Word
+    word: renaissance
+    stem: renaiss
+    docFrequency: 4.0
+    docPositions:
+    - 951
+    - 952
+    - 1103
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 4.0
+    docPositions:
+    - 951
+    - 952
+    - 1103
+  adam: !ruby/object:Word
+    word: adam
+    stem: adam
+    docFrequency: 3.0
+    docPositions:
+    - 952
+    - 1103
+  montefiore: !ruby/object:Word
+    word: montefiore
+    stem: montefior
+    docFrequency: 3.0
+    docPositions:
+    - 952
+    - 1103
+  writes: !ruby/object:Word
+    word: writes
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 952
+    - 1103
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 3.0
+    docPositions:
+    - 952
+    - 1103
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 952
+    - 1103
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 5.0
+    docPositions:
+    - 952
+    - 970
+    - 1103
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 5.0
+    docPositions:
+    - 960
+    - 1009
+    - 1013
+    - 1103
+  illuminate: !ruby/object:Word
+    word: illuminate
+    stem: illumin
+    docFrequency: 2.0
+    docPositions:
+    - 960
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  oup: !ruby/object:Word
+    word: oup
+    stem: oup
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  wealth: !ruby/object:Word
+    word: wealth
+    stem: wealth
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 3.0
+    docPositions:
+    - 961
+    - 1103
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 2.0
+    docPositions:
+    - 968
+  blasted: !ruby/object:Word
+    word: blasted
+    stem: blast
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  heath: !ruby/object:Word
+    word: heath
+    stem: heath
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  justin: !ruby/object:Word
+    word: justin
+    stem: justin
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  kurzel: !ruby/object:Word
+    word: kurzel
+    stem: kurzel
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  macbeth: !ruby/object:Word
+    word: macbeth
+    stem: macbeth
+    docFrequency: 4.0
+    docPositions:
+    - 969
+    - 970
+    - 1103
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  erin: !ruby/object:Word
+    word: erin
+    stem: erin
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  sullivan: !ruby/object:Word
+    word: sullivan
+    stem: sullivan
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  considers: !ruby/object:Word
+    word: considers
+    stem: consid
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  lady: !ruby/object:Word
+    word: lady
+    stem: ladi
+    docFrequency: 3.0
+    docPositions:
+    - 970
+    - 1103
+  feed: !ruby/object:Word
+    word: feed
+    stem: feed
+    docFrequency: 2.0
+    docPositions:
+    - 976
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 4.0
+    docPositions:
+    - 1012
+    - 1013
+    - 1103
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 4.0
+    docPositions:
+    - 1012
+    - 1013
+    - 1103
+  printed: !ruby/object:Word
+    word: printed
+    stem: print
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  oxfordreference: !ruby/object:Word
+    word: oxfordreference
+    stem: oxfordrefer
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  licence: !ruby/object:Word
+    word: licence
+    stem: licenc
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  agreement: !ruby/object:Word
+    word: agreement
+    stem: agreement
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  individual: !ruby/object:Word
+    word: individual
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  user: !ruby/object:Word
+    word: user
+    stem: user
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  single: !ruby/object:Word
+    word: single
+    stem: singl
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 1013
+    - 1103
+  credits: !ruby/object:Word
+    word: credits
+    stem: credit
+    docFrequency: 2.0
+    docPositions:
+    - 1019
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 2.0
+    docPositions:
+    - 1030
+  notice: !ruby/object:Word
+    word: notice
+    stem: notic
+    docFrequency: 2.0
+    docPositions:
+    - 1030
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 1041
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 1041
+  accountjsession: !ruby/object:Word
+    word: accountjsession
+    stem: accountjsess
+    docFrequency: 4.0
+    docPositions:
+    - 1088
+    - 1089
+  account_id: !ruby/object:Word
+    word: account_id
+    stem: account_id
+    docFrequency: 2.0
+    docPositions:
+    - 1088
+  jsessionid: !ruby/object:Word
+    word: jsessionid
+    stem: jsessionid
+    docFrequency: 4.0
+    docPositions:
+    - 1088
+    - 1093
+  turnaway_id: !ruby/object:Word
+    word: turnaway_id
+    stem: turnaway_id
+    docFrequency: 2.0
+    docPositions:
+    - 1088
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 3.0
+    docPositions:
+    - 1088
+    - 1092
+  siteid: !ruby/object:Word
+    word: siteid
+    stem: siteid
+    docFrequency: 2.0
+    docPositions:
+    - 1088
+  oro: !ruby/object:Word
+    word: oro
+    stem: oro
+    docFrequency: 3.0
+    docPositions:
+    - 1088
+    - 1092
+  supplier_tag: !ruby/object:Word
+    word: supplier_tag
+    stem: supplier_tag
+    docFrequency: 2.0
+    docPositions:
+    - 1088
+  safari: !ruby/object:Word
+    word: safari
+    stem: safari
+    docFrequency: 2.0
+    docPositions:
+    - 1088
+  ntpt_pgextra: !ruby/object:Word
+    word: ntpt_pgextra
+    stem: ntpt_pgextra
+    docFrequency: 2.0
+    docPositions:
+    - 1089
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 2.0
+    docPositions:
+    - 1089
+  pfpagetags: !ruby/object:Word
+    word: pfpagetags
+    stem: pfpagetag
+    docFrequency: 3.0
+    docPositions:
+    - 1089
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 2.0
+    docPositions:
+    - 1089
+  tapestry: !ruby/object:Word
+    word: tapestry
+    stem: tapestri
+    docFrequency: 3.0
+    docPositions:
+    - 1090
+    - 1093
+  ondomloaded: !ruby/object:Word
+    word: ondomloaded
+    stem: ondomload
+    docFrequency: 2.0
+    docPositions:
+    - 1090
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 6.0
+    docPositions:
+    - 1090
+    - 1092
+    - 1098
+  stylesheet: !ruby/object:Word
+    word: stylesheet
+    stem: stylesheet
+    docFrequency: 7.0
+    docPositions:
+    - 1091
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 1091
+    - 1092
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  wac: !ruby/object:Word
+    word: wac
+    stem: wac
+    docFrequency: 6.0
+    docPositions:
+    - 1091
+    - 1092
+  edgecastcdn: !ruby/object:Word
+    word: edgecastcdn
+    stem: edgecastcdn
+    docFrequency: 6.0
+    docPositions:
+    - 1091
+    - 1092
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 6.0
+    docPositions:
+    - 1091
+    - 1092
+  oi: !ruby/object:Word
+    word: oi
+    stem: oi
+    docFrequency: 6.0
+    docPositions:
+    - 1091
+    - 1092
+  underbar: !ruby/object:Word
+    word: underbar
+    stem: underbar
+    docFrequency: 21.0
+    docPositions:
+    - 1091
+    - 1092
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 4.0
+    docPositions:
+    - 1091
+  pf_oiunderbar: !ruby/object:Word
+    word: pf_oiunderbar
+    stem: pf_oiunderbar
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  rel: !ruby/object:Word
+    word: rel
+    stem: rel
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 3.0
+    docPositions:
+    - 1091
+    - 1092
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 3.0
+    docPositions:
+    - 1091
+    - 1092
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 1091
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+  onloaddone: !ruby/object:Word
+    word: onloaddone
+    stem: onloaddon
+    docFrequency: 4.0
+    docPositions:
+    - 1092
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+    - 1097
+  underbarhostsjs: !ruby/object:Word
+    word: underbarhostsjs
+    stem: underbarhostsj
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+  onload: !ruby/object:Word
+    word: onload
+    stem: onload
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  onreadystatechange: !ruby/object:Word
+    word: onreadystatechange
+    stem: onreadystatechang
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  rs: !ruby/object:Word
+    word: rs
+    stem: rs
+    docFrequency: 5.0
+    docPositions:
+    - 1092
+  readystate: !ruby/object:Word
+    word: readystate
+    stem: readyst
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  loaded: !ruby/object:Word
+    word: loaded
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+    - 1098
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  getscript: !ruby/object:Word
+    word: getscript
+    stem: getscript
+    docFrequency: 4.0
+    docPositions:
+    - 1092
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 4.0
+    docPositions:
+    - 1092
+  underbardependencies: !ruby/object:Word
+    word: underbardependencies
+    stem: underbardepend
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+  ui: !ruby/object:Word
+    word: ui
+    stem: ui
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  jcarousellite: !ruby/object:Word
+    word: jcarousellite
+    stem: jcarousellit
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  pf_oiunderbarinit: !ruby/object:Word
+    word: pf_oiunderbarinit
+    stem: pf_oiunderbarinit
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  apply: !ruby/object:Word
+    word: apply
+    stem: appli
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  done: !ruby/object:Word
+    word: done
+    stem: done
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  pf_initoiunderbar: !ruby/object:Word
+    word: pf_initoiunderbar
+    stem: pf_initoiunderbar
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  qs: !ruby/object:Word
+    word: qs
+    stem: qs
+    docFrequency: 3.0
+    docPositions:
+    - 1092
+  default: !ruby/object:Word
+    word: default
+    stem: default
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  pf_insertoiunderbar: !ruby/object:Word
+    word: pf_insertoiunderbar
+    stem: pf_insertoiunderbar
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 1092
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  odopopupwidgetmodule: !ruby/object:Word
+    word: odopopupwidgetmodule
+    stem: odopopupwidgetmodul
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  jqueryselector: !ruby/object:Word
+    word: jqueryselector
+    stem: jqueryselector
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  maincontent: !ruby/object:Word
+    word: maincontent
+    stem: maincont
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  ajaxupdateurl: !ruby/object:Word
+    word: ajaxupdateurl
+    stem: ajaxupdateurl
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  oso: !ruby/object:Word
+    word: oso
+    stem: oso
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+  layout: !ruby/object:Word
+    word: layout
+    stem: layout
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+  odopopupwidget: !ruby/object:Word
+    word: odopopupwidget
+    stem: odopopupwidget
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+  ajaxupdate: !ruby/object:Word
+    word: ajaxupdate
+    stem: ajaxupd
+    docFrequency: 4.0
+    docPositions:
+    - 1093
+  linkzone: !ruby/object:Word
+    word: linkzone
+    stem: linkzon
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  odopopupwidgetzone: !ruby/object:Word
+    word: odopopupwidgetzone
+    stem: odopopupwidgetzon
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+  zone: !ruby/object:Word
+    word: zone
+    stem: zone
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  update: !ruby/object:Word
+    word: update
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  eucookieszone: !ruby/object:Word
+    word: eucookieszone
+    stem: eucookieszon
+    docFrequency: 2.0
+    docPositions:
+    - 1093
+  domloaded: !ruby/object:Word
+    word: domloaded
+    stem: domload
+    docFrequency: 2.0
+    docPositions:
+    - 1097
+  observe: !ruby/object:Word
+    word: observe
+    stem: observ
+    docFrequency: 2.0
+    docPositions:
+    - 1098
+  dom: !ruby/object:Word
+    word: dom
+    stem: dom
+    docFrequency: 2.0
+    docPositions:
+    - 1098
+  setdomloaded: !ruby/object:Word
+    word: setdomloaded
+    stem: setdomload
+    docFrequency: 2.0
+    docPositions:
+    - 1098
+  defer: !ruby/object:Word
+    word: defer
+    stem: defer
+    docFrequency: 2.0
+    docPositions:
+    - 1098
+  titlesnew: !ruby/object:Word
+    word: titlesnew
+    stem: titlesnew
+    docFrequency: 2.0
+    docPositions:
+    - 1100
+  answersreference: !ruby/object:Word
+    word: answersreference
+    stem: answersrefer
+    docFrequency: 2.0
+    docPositions:
+    - 1101
+  companionsfree: !ruby/object:Word
+    word: companionsfree
+    stem: companionsfre
+    docFrequency: 2.0
+    docPositions:
+    - 1102
+  institutionsdeveloping: !ruby/object:Word
+    word: institutionsdeveloping
+    stem: institutionsdevelop
+    docFrequency: 2.0
+    docPositions:
+    - 1102
+  morediscover: !ruby/object:Word
+    word: morediscover
+    stem: morediscov
+    docFrequency: 2.0
+    docPositions:
+    - 1102
+lineCount: 1104
+wordCount: 1256
+rank: 0.26566951566951563
+title: Oxford Reference - Answers with Authority
+links:
+- http://global.oup.com/cookiepolicy/
+- https://subscriberservices.sams.oup.com/password_reminder.html
+- https://shibboleth2sp.sams.oup.com/shib?dest=http://www.oxfordreference.com/SHIBBOLETH?dest=%2F
+- http://www.oxfordreference.com/page/about
+- http://www.oxfordreference.com/browse?btog=chap&isQuickSearch=true%2Fbrowse%3Fbtog%3Dbook&pageSize=100&sort=relevance
+- http://www.oxfordreference.com/browse?btog=book&isQuickSearch=true&avail_0=unlocked
+- http://www.oxfordreference.com/page/archaeology
+- http://www.oxfordreference.com/page/artandarchitecture/art-and-architecture
+- http://www.oxfordreference.com/page/classical-studies
+- http://www.oxfordreference.com/page/history
+- http://www.oxfordreference.com/page/languagereference/language-reference
+- http://www.oxfordreference.com/page/linguistics
+- http://www.oxfordreference.com/page/performingarts/performing-arts
+- http://www.oxfordreference.com/page/law-subject/law
+- http://www.oxfordreference.com/page/medicineandhealth/medicine-and-health
+- http://www.oxfordreference.com/page/mediastudies/media-studies
+- http://www.oxfordreference.com/page/music
+- http://www.oxfordreference.com/page/namesstudies/names-studies
+- http://www.oxfordreference.com/page/literature
+- http://www.oxfordreference.com/page/philosophy
+- http://www.oxfordreference.com/page/quotations
+- http://www.oxfordreference.com/page/religion
+- http://www.oxfordreference.com/page/scienceandtech/science-and-technology
+- http://www.oxfordreference.com/page/socialsciences/social-sciences
+- http://www.oxfordreference.com/page/societyandculture/society-and-culture
+- http://www.oup.com/
+rawText: "\n\n\t\t\t\n\t\t\t\t\n    \n\n\t\t\t\n\t\t\t\n    \n\t\n\t    urchinTracker();\n\t
+  \       var oupcookiepolicy_siteid = 'core';\n\t        var oupcookiepolicy_messagetype
+  = 'implied';\n\t        var oupcookiepolicy_preferredlanguage = 'en';\n\t        var
+  oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';\n\t        var oupcookiepolicy_documentroot='/';\n\t
+  \   We use cookies to enhance your experience on our website. By continuing to use
+  our website, you are agreeing to our use of cookies. You can change your cookie
+  settings at any time.Find out more\n    \n\n  \n   \t\n            \n           \n
+  \   \n\n  \n  \n\t\n\t\n\n\n\t\t\t\n  Jump to Content\n  \n  \n    \n      \n\t\t\t\t\n
+  \ \n    Personal Profile: Sign in\n         or Create\n      \n      \n    \n\t\t\t\t\t\n\t\t\t\t\tAbout\n\t\t\t\t\t
+  \   \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tNews\n\t\t\t\t\t
+  \   \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tSubscriber
+  Services\n\t\t\t\t\t    \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tContact
+  Us\n\t\t\t\t\t    \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tFor
+  Authors: A Community of Experts\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n
+  \ \n    \n      Oxford Reference\n    \n  \n\n  \n    \n      \n        \n          Publications\n
+  \         Pages\n          Publications\n            Pages\n          \n      \n\n
+  \     \n        \n          \n        \n      \n\n      \n        Help\n      \n
+  \     \n            \n            \n                    Search within my subject
+  specializations: Select ... \n        \n\n        \n            \n            \n
+  \               Select your specializations: \n                    \n                      Select
+  All / Clear Selections\n                    \n                \n                \n
+  \                   \n                        Archaeology\n                                    \n
+  \                               \n                            \n                                Art
+  & Architecture \n                                    \n                                \n
+  \                           \n                                Bilingual dictionaries
+  \n                                    \n                                \n                            \n
+  \                               Classical studies\n                                    \n
+  \                               \n                            \n                                Encyclopedias\n
+  \                                   \n                                        \n
+  \                                       Geographical reference\n                                            \n
+  \                                       \n                            \n                                English
+  Dictionaries and Thesauri \n                                    \n                                \n
+  \                           \n                                History\n                                    \n
+  \                                       \n                                        Ancient
+  history (non-classical to 500 CE)\n                                            \n
+  \                                               Early history (500 CE to 1500)\n
+  \                                           \n                                                Early
+  Modern History (1500 to 1700)\n                                            \n                                                modern
+  history (1700 to 1945)\n                                            \n                                                Contemporary
+  History (post 1945)\n                                            \n                                                Military
+  History \n                                            \n                                                Regional
+  and National History\n                                            \n                                                Local
+  and Family History\n                                            \n                                        \n
+  \                           \n                                Language reference\n
+  \                                   \n                                        \n
+  \                                       History of English\n                                            \n
+  \                                               Usage and Grammar Guides\n                                            \n
+  \                                               Writing and Editing Guides \n                                            \n
+  \                                       \n                            \n                                Law\n
+  \                                   \n                                        \n
+  \                                       History of Law\n                                            \n
+  \                                               Human Rights and Immigration\n                                            \n
+  \                                               International Law\n                                            \n
+  \                                       \n                            \n                                Linguistics\n
+  \                                   \n                                \n                            \n
+  \                               Literature\n                                    \n
+  \                                       \n                                        Bibliography\n
+  \                                           \n                                                Children's
+  literature studies\n                                            \n                                                Literary
+  studies (early and medieval)\n                                            \n                                                Literary
+  studies (19th century)\n                                            \n                                                Literary
+  studies (20th century onwards)\n                                            \n                                                Literary
+  studies - fiction, novelists, and prose writers\n                                            \n
+  \                                               Literary studies - plays and playwrights\n
+  \                                           \n                                                Literary
+  studies - poetry and poets\n                                            \n                                                Literary
+  theory and cultural studies\n                                            \n                                                Shakespeare
+  studies and criticism\n                                            \n                                        \n
+  \                           \n                        Media studies\n                                    \n
+  \                               \n                            \n                                Medicine
+  and health\n                                    \n                                        \n
+  \                                       Clinical Medicine\n                                            \n
+  \                                               Dentistry\n                                            \n
+  \                                               Public Health and Epidemiology\n
+  \                                           \n                                                Surgery\n
+  \                                           \n                                                Psychiatry\n
+  \                                           \n                                        \n
+  \                           \n                                Music\n                                    \n
+  \                                       \n                                        Opera\n
+  \                                           \n                                        \n
+  \                           \n                                Names studies\n                                    \n
+  \                               \n                            \n                                Performing
+  arts\n                                    \n                                        \n
+  \                                       Dance\n                                            \n
+  \                                               Theatre\n                                            \n
+  \                                       \n                            \n                                Philosophy\n
+  \                                   \n                                \n                            \n
+  \                               Quotations\n                                    \n
+  \                               \n                            \n                                Religion\n
+  \                                   \n                                \n                            \n
+  \                               Science and technology\n                                    \n
+  \                                       \n                                        Astronomy
+  and Cosmology\n                                            \n                                                Chemistry\n
+  \                                           \n                                                Earth
+  Sciences and Geography \n                                            \n                                                Engineering
+  and Technology\n                                            \n                                                Environmental
+  Science\n                                            \n                                                History
+  of Science\n                                            \n                                                Life
+  Sciences\n                                            \n                                                Mathematics
+  and Computer Science\n                                            \n                                                Physics\n
+  \                                           \n                                                Psychology\n
+  \                                           \n                                        \n
+  \                           \n                                Social sciences\n
+  \                                   \n                                        \n
+  \                                       Anthropology\n                                            \n
+  \                                               Business and Management\n                                            \n
+  \                                               Economics\n                                            \n
+  \                                               Education\n                                            \n
+  \                                               Environment\n                                            \n
+  \                                               Human Geography\n                                            \n
+  \                                               Politics\n                                            \n
+  \                                               Regional and Area Studies\n                                            \n
+  \                                               Social Welfare and Social Services\n
+  \                                           \n                                                Sociology\n
+  \                                           \n                                                Warfare
+  and Defence\n                                            \n                                        \n
+  \                           \n                                Society and culture\n
+  \                                   \n                                        \n
+  \                                       Cookery, Food, and Drink\n                                            \n
+  \                                               Customs and Traditions\n                                            \n
+  \                                               Lifestyle, Home, and garden\n                                            \n
+  \                                       \n                            \n                        \n
+  \               \n                    \n                \n            \n            \n
+  \       \n    \n\n    \n  \n\n  \n    \n      \n          \n            \n          \n
+  \       \n        \n          \n\n\n\t\n\t\t\n\t\t\t Subject\n\t\t\t  \n\t\t\n\t\n\n\n\t\n\t\t\n\t\t\tReference
+  Type\n\t\t\t  \n\t\t\n\t\n\n\n\n\n\n        \n      \n        \n\n\t\tMy Content
+  (0)\n\t\t\n\t\n\n\t\t\tMy Searches (0)\n\t\t\t\n\t\t\n\t\n    \n  \n\n\t\t\t\n      \n
+  \       \n        \n\t\n\t\t\n\t\t\t\t\t\n\tArchaeology\n\n\t\t\t\t\n\t\t\t\t\t\n\tArt
+  & Architecture \n\n\t\t\t\t\n\t\t\t\t\t\n\tBilingual dictionaries \n\n\t\t\t\t\n\t\t\t\t\t\n\tClassical
+  studies\n\n\t\t\t\t\n\t\t\t\t\t\n\tEncyclopedias\n\n\t\t\t\t\n\t\t\t\t\t\n\tEnglish
+  Dictionaries and Thesauri \n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\t\n\tHistory\n\n\t\t\t\t\n\t\t\t\t\t\n\tLanguage
+  reference\n\n\t\t\t\t\n\t\t\t\t\t\n\tLaw\n\n\t\t\t\t\n\t\t\t\t\t\n\tLinguistics\n\n\t\t\t\t\n\t\t\t\t\t\n\tLiterature\n\n\t\t\t\t\n\t\t\t\t\t\n\tMedia
+  studies\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\t\n\tMedicine
+  and health\n\n\t\t\t\t\n\t\t\t\t\t\n\tMusic\n\n\t\t\t\t\n\t\t\t\t\t\n\tNames studies\n\n\t\t\t\t\n\t\t\t\t\t\n\tPerforming
+  arts\n\n\t\t\t\t\n\t\t\t\t\t\n\tPhilosophy\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\t\n\tQuotations\n\n\t\t\t\t\n\t\t\t\t\t\n\tReligion\n\n\t\t\t\t\n\t\t\t\t\t\n\tScience
+  and technology\n\n\t\t\t\t\n\t\t\t\t\t\n\tSocial sciences\n\n\t\t\t\t\n\t\t\t\t\t\n\tSociety
+  and culture\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tBrowse All\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\t\tOverview
+  Pages\n\t\t\t\t\n\t\t\t\t\tSubject Reference\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\tTimelines\n\t\t\t\t\n\t\t\t\t\tQuotations\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\tEnglish
+  Dictionaries\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\tBilingual
+  Dictionaries\n\t\t\t\t\n\t\t\t\tBrowse All\n\t\t\t\n\t\t\n\t\nClose\n      \n    \n
+  \   \n      \n      \n        \n\t\t\t\t\n\t\t\t\t\t\n\n\t\n\t\n\t\n\n\t\n\n\n\t\n\t\t\n\n\t\n\n\n
+  \   \n      \n\n  \n    \n      \n\n  \n    \n      \n        \n        \n          \n
+  \           \n              \n                Indiana University - Bloomington    \n
+  \               \n                  \n                    \n                  \n
+  \                 \n                \n                 \n              \n            \n
+  \ \n            \n              \n                \n                \n\n\n\n\n\n
+  \ \n                \n          \n                \n              \n            \n
+  \           \n            \n              \n                \n                  Sign
+  in\n                \n                \n              \n            \n\n          \n
+  \       \n      \n      \n    \n  \n    \n      \n    \n  \n\n    \n    \n\n\n\t\n\t\tSubscriber
+  Login\n\t\n\n\t\n\t\t\n\t\t\n    \n      \n      \n      \n        \n      \n        \n
+  \         \n            \n              Username\n              \n            \n
+  \             Password\n              \n            \n          \n          Forgotten
+  your password?\n          \n        \n      \n    \n  \n\n\t\t\n    \n\n      \n
+  \       \n          \n              \n                  \n                      Library
+  Card #\n                      \n                  \n              \n          \n
+  \         Login with your Library Card »\n          \n        \n      \n\n      \n
+  \       \n          \n            Login with Athens/Access Management Federation
+  »\n            \n          \n        \n                               \n\n      \n\n
+  \     \n          document.getElementById('libcardwrapper').style.display = \"none\";\n
+  \         document.getElementById('showlibcard').style.display = \"block\";\n      Don't
+  have an account?\n    \n  \n\t\n\t\n\n\n\n  \n\n\n      \n        \n\n\t\n\t\tAnswers
+  With Authority\n   \nDiscover the best of Oxford's reference titles - on a dynamic
+  digital platform.\n  Browse & Search Entries\n         Browse & Search Titles\nNEW: Show
+  Titles In My           Subscription\n*       *       *       *       *       * \nCollection
+  Options:\nQuick Reference:\nCore Dictionaries with short-entry answers\nReference
+  Library:\nIn-depth Encyclopedias and Companions\nFree Research Tools:\nHistoric
+  Timelines\n    Essential Quotations\n    Subject Overviews\nFAQs: Libraries & Institutions\nDeveloping
+  Countries Initiative - Learn More\n\t\n\n      \n      \n    \n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\t\n\n\t\t\t\t\t\n\n\t\n\t\t
+  \t\t\t\t\t\tArchaeology\n    \n     \t\t\t\t\t\tArt and Architecture\n    \n     \t\t\t\t\t\tClassical
+  Studies\n    \n     \t\t\t\t\t\tHistory\n    \n     \t\t\t\t\t\tLanguage Reference\n
+  \   \n     \t\t\t\t\t\tLinguistics\n    \n\nExplore by Subject\nDiscover the breadth
+  of Oxford Reference’s publishing by learning more about the titles and experts behind
+  each distinct discipline. Select a panel to begin your research journey.\n\n\n \t\t\t\t\t\t\tPerforming
+  Arts\n    \n\n\n \t\t\t\t\t\tLaw\n    \n     \t\t\t\t\t\tMedicine and Health\n    \n
+  \    \t\t\t\t\t\tMedia Studies\n    \n     \t\t\t\t\t\tMusic\n    \n     \t\t\t\t\t\tNames
+  Studies\n    \n     \t\t\t\t\t\tLiterature\n    \n     \t\t\t\t\t\tPhilosophy\n
+  \   \n     \t\t\t\t\t\tQuotations\n    \n     \t\t\t\t\t\tReligion\n    \n     \t\t\t\t\t\tScience
+  and Technology\n    \n     \t\t\t\t\t\tSocial Sciences\n    \n     \t\t\t\t\t\tSociety
+  and Culture\n    \nFEATURED ARTICLE\n2015\nBiogeography and Ecology\nAlexander von
+  Humboldt has contributed much to laying the foundations of biogeography, so great
+  is Humboldt’s fame that he is often credited with having originated the discipline.
+  But he had at least one predecessor, no less intellectually eminent. Michael Allaby,
+  author of A Dictionary of Ecology, shares his perspective.\nScience and Technology\n\n \n \n\ntry{Typekit.load();}catch(e){}\n\t\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tNew
+  & Noteworthy\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t
+  \n\t\t\t\t\n\t\t\tDid you know?\n\t\t\tRSS\n\t\t\tEmail updates signup\n\t\t\t\n\t\t\t\tWhat
+  form of art is usually credited to Annibale Carracci?\n\t\t\t\tView the answer\n\t\t\t\n\t\t\n\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n
+  \   \n\t\t\n\t\t\t\n\t\t    News\n\t        \n\t            \n\t                \n\t
+  \               \n\t                    December 8, 2015\n\t                    Renaissance
+  of the ancient world\n\t                    Adam Montefiore writes about the renaissance
+  of the ancient world of wine production. Read more >\n\t                \n\t            \n\t
+  \           \n\t            \n\t                \n\t                \n\t                    December
+  2, 2015\n\t                    Oxford University Press to Illuminate Shakespeare
+  in 2016\n\t                    As part of the 2016 global ‘Shakespeare 400’ year,
+  OUP is making a wealth of resources available in a new website. Find out more >\n\t
+  \               \n\t            \n\t            \n\t            \n\t                \n\t
+  \               \n\t                    November 30, 2015\n\t                    This
+  blasted heath – Justin Kurzel’s new Macbeth\n\t                    Dr Erin Sullivan
+  considers the question 'How many children had Lady Macbeth?' Read more >\n\t                \n\t
+  \           \n\t            \n\t        \n          \n\t        RSS Feed\n\t        More
+  News »\n\t    \n    \n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\n\t\n\n\t\n\t\n\n\t\n\n\t\n\n
+  \   \n\n\t\t\t\t\n\t\t\t\n      \n      \n    \n    \n\t\t\t\t\n  Oxford University
+  Press\n    \n  \n    Copyright © 2015. All rights reserved.\n    PRINTED FROM OXFORD
+  REFERENCE (www.oxfordreference.com). (c) Copyright Oxford University Press, 2013.
+  All Rights Reserved. Under the terms of the licence agreement, an individual user
+  may print out a PDF of a single entry from a reference work in OR for personal use.
+  Subscriber: Indiana University - Bloomington; date: 14 December 2015\n    \n\n\n\t\n\t\t\t\t\t\n\t\t\t\t\tCredits\n\t\t\t\t\t
+  \   \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tLegal
+  notice\n\t\t\t\t\t    \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tPrivacy
+  policy\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n      \n\t\n  \n      \n\t\t\n
+  \ \n      \n\n\n\n\n\n      \n    \n  \n\n\n\t\t\t\n  \n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\t[129.79.247.5|129.79.247.5]\n\t\t\t\t\t129.79.247.5\n\t\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\n\t\t\t\n\n\t\t\tvar
+  accountJsession = 'account_id=12967&jsessionid=02D7FE6960741EC28FD4A299471352D6&turnaway_id=null&siteid=ORO&supplier_tag=Safari';
+  \nvar NTPT_PGEXTRA= typeof pfpagetags === 'undefined' ? accountJsession : accountJsession
+  + pfpagetags;\n\t\tTapestry.onDOMLoaded(function() {\nvar stylesheet = document.createElement('link');
+  stylesheet.href = 'http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/css/pf_oiunderbar.css';
+  stylesheet.rel = 'stylesheet'; stylesheet.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(stylesheet);\n(function()
+  {    var underbar = document.createElement('script');  underbar.onloadDone = false;
+  \ underbar.src = 'http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/UnderbarHostsJS';
+  \    underbar.type = 'text/javascript'; underbar.async = 'true';     underbar.onload
+  = underbar.onreadystatechange = function() {  \t var rs = this.readyState;     if
+  ((rs && rs != 'complete' && rs != 'loaded') || underbar.onloadDone) return; \t\tunderbar.onloadDone
+  = true; \t\tvar getScript = $j.getScript;  \t\tvar underbarDependencies = ['http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/jquery-ui.min.js','http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/jcarousellite.js','http://wac.e887.edgecastcdn.net/80E887/oi-underbar/underbar/js/pf_oiunderbarinit.js'];
+  \t\t$j.when.apply(null, $j.map(underbarDependencies, getScript)).done(function()
+  { PF_initOIUnderbar(\":QS:\",\":QS:default\",\"\",\"ORO\"); PF_insertOIUnderbar(0);
+  });     };     var s = document.getElementsByTagName('script')[0];     s.parentNode.insertBefore(underbar,
+  s);   })();\nTapestry.init({\"OdoPopupWidgetModule\":[{\"jquerySelector\":\"#mainContent\",\"ajaxUpdateURL\":\"/oso/start.layout.odopopupwidget:ajaxupdate;jsessionid=02D7FE6960741EC28FD4A299471352D6\"}],\"linkZone\":[[\"ajaxUpdate\",\"odoPopupWidgetZone\",\"/oso/start.layout.odopopupwidget:ajaxupdate;jsessionid=02D7FE6960741EC28FD4A299471352D6\"]],\"zone\":[{\"update\":\"none\",\"element\":\"euCookiesZone\",\"show\":\"none\"},\"odoPopupWidgetZone\"]});\n});\n\n<!--\ndocument.domLoaded=false;\ndocument.observe('dom:loaded',function()
+  { setDomLoaded.defer();});\n// -->\nForgotten your password?Don't have an account?Answers
+  With Authority   Discover the best of Oxford's reference titles - on a dynamic digital
+  platform.  Browse & Search Entries         Browse & Search TitlesNEW: Show Titles
+  In My           Subscription*       *       *       *       *       * Collection
+  Options:Quick Reference:\nCore Dictionaries with short-entry answersReference Library:\nIn-depth
+  Encyclopedias and CompanionsFree Research Tools:FAQs: Libraries & InstitutionsDeveloping
+  Countries Initiative - Learn MoreDiscover the breadth of Oxford Reference’s publishing
+  by learning more about the titles and experts behind each distinct discipline. Select
+  a panel to begin your research journey.Alexander von Humboldt has contributed much
+  to laying the foundations of biogeography, so great is Humboldt’s fame that he is
+  often credited with having originated the discipline. But he had at least one predecessor,
+  no less intellectually eminent. Michael Allaby, author of A Dictionary of Ecology,
+  shares his perspective.  \ntry{Typekit.load();}catch(e){}Adam Montefiore writes
+  about the renaissance of the ancient world of wine production. Read more >As part
+  of the 2016 global ‘Shakespeare 400’ year, OUP is making a wealth of resources available
+  in a new website. Find out more >Dr Erin Sullivan considers the question 'How many
+  children had Lady Macbeth?' Read more >PRINTED FROM OXFORD REFERENCE (www.oxfordreference.com).
+  (c) Copyright Oxford University Press, 2013. All Rights Reserved. Under the terms
+  of the licence agreement, an individual user may print out a PDF of a single entry
+  from a reference work in OR for personal use. Subscriber: Indiana University - Bloomington;
+  date: 14 December 2015"

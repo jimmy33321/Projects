@@ -1,0 +1,403 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.smithsonianmag.com/science-nature/when-did-humans-come-to-the-americas-4209273/?all
+inboundLinks: []
+lines:
+- |2+
+
+- "    \n"
+- "        \n"
+- "            \n"
+- |2
+                  Smithsonian
+- "            \n"
+- |2+
+
+- "            \n"
+- |2
+                  Continue to our site »
+- "            \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- |2
+              ADVERTISEMENT
+- "            \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              googletag.cmd.push(function() { googletag.display('div-gpt-ad-chuckweasley-1'); });
+- "                        \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      var _sf_async_config={};
+- |2
+      /** CONFIGURATION START **/
+- |2
+      _sf_async_config.uid = 40371;
+- |2
+      _sf_async_config.domain = 'smithsonianmag.com';
+- |2
+      _sf_async_config.useCanonical = true;
+- |2
+      _sf_async_config.zone = '308522/smithsonianmag.tmus';
+- "    \n"
+- |2
+      /** CONFIGURATION END **/
+- |2+
+
+- |2
+      (function(){
+- |2
+          function loadChartbeat() {
+- |2
+              window._sf_endpt=(new Date()).getTime();
+- |2
+              var e = document.createElement('script');
+- |2
+              e.setAttribute('language', 'javascript');
+- |2
+              e.setAttribute('type', 'text/javascript');
+- |2
+              e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_pub.js');
+- |2
+              document.body.appendChild(e);
+- |2
+          }
+- |2
+          loadChartbeat();
+- |2
+      })();
+- ADVERTISEMENT
+index:
+  smithsonian: !ruby/object:Word
+    word: smithsonian
+    stem: smithsonian
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 51
+  googletag: !ruby/object:Word
+    word: googletag
+    stem: googletag
+    docFrequency: 3.0
+    docPositions:
+    - 21
+  cmd: !ruby/object:Word
+    word: cmd
+    stem: cmd
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 40
+    - 41
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  gpt: !ruby/object:Word
+    word: gpt
+    stem: gpt
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  chuckweasley: !ruby/object:Word
+    word: chuckweasley
+    stem: chuckweaslei
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  _sf_async_config: !ruby/object:Word
+    word: _sf_async_config
+    stem: _sf_async_config
+    docFrequency: 6.0
+    docPositions:
+    - 31
+    - 33
+    - 34
+    - 35
+    - 36
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 32
+    - 38
+    - 40
+  configuration: !ruby/object:Word
+    word: configuration
+    stem: configur
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 38
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  uid: !ruby/object:Word
+    word: uid
+    stem: uid
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  smithsonianmag: !ruby/object:Word
+    word: smithsonianmag
+    stem: smithsonianmag
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 36
+  usecanonical: !ruby/object:Word
+    word: usecanonical
+    stem: usecanon
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  zone: !ruby/object:Word
+    word: zone
+    stem: zone
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  tmus: !ruby/object:Word
+    word: tmus
+    stem: tmu
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  loadchartbeat: !ruby/object:Word
+    word: loadchartbeat
+    stem: loadchartbeat
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 49
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  _sf_endpt: !ruby/object:Word
+    word: _sf_endpt
+    stem: _sf_endpt
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 6.0
+    docPositions:
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 47
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  setattribute: !ruby/object:Word
+    word: setattribute
+    stem: setattribut
+    docFrequency: 4.0
+    docPositions:
+    - 44
+    - 45
+    - 46
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  static: !ruby/object:Word
+    word: static
+    stem: static
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  chartbeat: !ruby/object:Word
+    word: chartbeat
+    stem: chartbeat
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  chartbeat_pub: !ruby/object:Word
+    word: chartbeat_pub
+    stem: chartbeat_pub
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 47
+lineCount: 52
+wordCount: 78
+rank: 0.25
+title: History, Travel, Arts, Science, People, Places | Smithsonian
+links: []
+rawText: "\n    \n        \n            \n                Smithsonian\n            \n\n
+  \           \n                Continue to our site »\n            \n\n            \n
+  \       \n\n        \n            ADVERTISEMENT\n            \n                \n
+  \               \n                    \n                        \n                            googletag.cmd.push(function()
+  { googletag.display('div-gpt-ad-chuckweasley-1'); });\n                        \n
+  \               \n            \n        \n    \n\n\n    \n\n    var _sf_async_config={};\n
+  \   /** CONFIGURATION START **/\n    _sf_async_config.uid = 40371;\n    _sf_async_config.domain
+  = 'smithsonianmag.com';\n    _sf_async_config.useCanonical = true;\n    _sf_async_config.zone
+  = '308522/smithsonianmag.tmus';\n    \n    /** CONFIGURATION END **/\n\n    (function(){\n
+  \       function loadChartbeat() {\n            window._sf_endpt=(new Date()).getTime();\n
+  \           var e = document.createElement('script');\n            e.setAttribute('language',
+  'javascript');\n            e.setAttribute('type', 'text/javascript');\n            e.setAttribute('src',
+  '//static.chartbeat.com/js/chartbeat_pub.js');\n            document.body.appendChild(e);\n
+  \       }\n        loadChartbeat();\n    })();\nADVERTISEMENT"

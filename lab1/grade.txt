@@ -1,0 +1,3 @@
+Your program doesn't quite print every 3 seconds, because you dont flush stdout. You can do that by either using an fflush or by using a \n in your printf(like the lab assignment page recommends).
+
+grade: 99/100

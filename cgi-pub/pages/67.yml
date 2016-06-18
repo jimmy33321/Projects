@@ -1,0 +1,70 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.math-atlas.org/
+inboundLinks: []
+lines:
+- |2+
+
+- |
+  Proceed to http://www.math.niu.edu/~rusin/known-math/ manually.
+- |2+
+
+index:
+  proceed: !ruby/object:Word
+    word: proceed
+    stem: proce
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  niu: !ruby/object:Word
+    word: niu
+    stem: niu
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  rusin: !ruby/object:Word
+    word: rusin
+    stem: rusin
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  manually: !ruby/object:Word
+    word: manually
+    stem: manual
+    docFrequency: 2.0
+    docPositions:
+    - 1
+lineCount: 3
+wordCount: 11
+rank: 0.2607142857142857
+title: www.math-atlas.org
+links:
+- http://www.math.niu.edu/~rusin/known-math/
+rawText: |2+
+
+  Proceed to http://www.math.niu.edu/~rusin/known-math/ manually.
+

@@ -1,0 +1,3037 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : iframe
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-12t8qxt"
+    line: 222
+    str1: iframe
+    str2: 
+    str3: 
+    int1: 0
+    column: 190
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-12t8qxt"
+    line: 432
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-12t8qxt"
+    line: 460
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 355
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-12t8qxt"
+    line: 631
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 61
+address: http://espace.library.uq.edu.au/view/UQ:8064
+inboundLinks: []
+lines:
+- "\r\n"
+- "    \r\n"
+- "    skip nav\r\n"
+- "    \r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "\r\n"
+- "            The University of Queensland\r\n"
+- "            UQ eSpace\r\n"
+- "\r\n"
+- "            \r\n"
+- "                UQ Home\r\n"
+- "                    Contacts\r\n"
+- "                    Study\r\n"
+- "                    Maps\r\n"
+- "                    News\r\n"
+- "                    Events\r\n"
+- "                    Library\r\n"
+- "                    my.UQ\r\n"
+- "                 \r\n"
+- "            \r\n"
+- "\r\n"
+- "            \r\n"
+- "                \r\n"
+- "                    Search Entry\r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "            \r\n"
+- "\r\n"
+- "             \r\n"
+- "\r\n"
+- "                            \r\n"
+- "                                        LOGIN\r\n"
+- "\r\n"
+- "                                        UQ Staff and Students only\r\n"
+- "                \r\n"
+- "            \t\t\t\r\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "            Home\r\n"
+- "                Browse\r\n"
+- "                Search\r\n"
+- "                FAQs\r\n"
+- "                About / Contact\r\n"
+- "\r\n"
+- "                \r\n"
+- "             \r\n"
+- "        \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "        \r\n"
+- "\r\n"
+- "\r\r\n"
+- "\r\n"
+- "\r\n"
+- "  <!--\r\n"
+- "  function setCurrentCollection() {\r\n"
+- "\tvar features = 'width=420,height=200,top=30,left=30,resizable=no,scrollbars=yes,toolbar=no,location=no,menubar=no,status=no';\r\n"
+- "\tvar projWin = window.open('', '_active_collection', features);\r\n"
+- "\tprojWin.focus();\r\n"
+- "\treturn true;\r\n"
+- "  }\r\n"
+- "  \r\n"
+- "  var basic_element = getPageElement('basic_filter_form' + '1');\r\n"
+- "  if (basic_element != null && !isElementVisible(basic_element)) {\r\n"
+- "\ttoggleVisibility('basic_filter_form');\r\n"
+- "  }\r\n"
+- "  -->\r\n"
+- "$(document).ready(function(){$(\".possibly_long\").shorten();});\r\n"
+- "<!--\r\n"
+- "var rel_url = '/';\r\n"
+- "var image_preview_loading = 0;\r\n"
+- "var image_preview_current_id = '';\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "// get an image and put it in the preview image\r\n"
+- "function loadPreview(pid,datastreamID, alt, origami)\r\n"
+- "{\r\n"
+- "    if (image_preview_loading > 0) {\r\n"
+- "        return;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "    if (datastreamID.substring(0, 7) == 'stream_') {\r\n"
+- "        document.getElementById('datastream_preview_td').width = 450;\r\n"
+- "        document.getElementById('datastream_preview_frame').innerHTML='<iframe
+  frameborder=\"no\" width=\"100%\" height=\"400\" src=\"'+rel_url+'view/'+pid+'/'+datastreamID+'?wrapper=no\">';\r\n"
+- "    } else {\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.tiff', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.tif', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.gif', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.eps', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.png', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.bmp', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.BMP', '.jpg');\r\n"
+- "\t\tdatastreamID = str_replace(datastreamID, '.JPG', '.jpg');\r\n"
+- "        \r\n"
+- "        window.open(rel_url+'view/'+pid+'/web_'+datastreamID+'');\r\n"
+- "        return;\r\n"
+- "    }\r\n"
+- "}\r\n"
+- "\r\n"
+- "\r\n"
+- "-->\r\n"
+- "\r\n"
+- "    \r\n"
+- "              \r\n"
+- "\t\t\t  \r\n"
+- "\t\t\t  \r\n"
+- "\t\t\t\t  Are Journalism Students Equipped to Write About Science?\r\n"
+- "\t\t\t\t  \t\t\t\t\tMcIlwaine, Stephen and Nguyen, An (2005) Are Journalism Students
+  Equipped to Write About Science?. Australian Studies in Journalism, 14  41-60.\r\n"
+- "\t\t\t\t\t\r\n"
+- "\r\n"
+- "\t\t\t  \r\n"
+- "        \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "            \r\n"
+- "                    \r\n"
+- "        \r\n"
+- "\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tAttached Files\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(Some files may be inaccessible until you login with
+  your UQ eSpace credentials)\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tName\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\tDescription\r\n"
+- "\t\t\t\t\t\tMIMEType\r\n"
+- "\t\t\t\t\t\tSize\r\n"
+- "\t\t\t\t\t\tDownloads\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t                                                                                                                                                    \r\n"
+- "                                    \r\n"
+- "                                    science_journali.pdf\r\n"
+- "\r\n"
+- "                                                                            \r\n"
+- "                                                                    \t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\tscience_journali.pdf\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "                                        application/pdf\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t81.56KB\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t622\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tAuthor\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                McIlwaine, StephenNguyen, An\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tTitle\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                Are Journalism Students Equipped to Write About Science?\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tJournal name\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                Australian Studies in Journalism   Check publisher's
+  open access policy\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tISSN\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                1038-6130\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tPublication date\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                2005-01-01\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tOpen Access Status\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                File (Author Post-print)\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tVolume\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                14\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tStart page\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                41\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tEnd page\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                60\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tTotal pages\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                20\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tEditor\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                R. Kirkpatrick\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tPlace of publication\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                St Lucia, Queensland\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tPublisher\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                Univ of Queensland, School of Journalism & Communication\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tCollection year\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                2005\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tLanguage\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                eng\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tSubject\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                400101 JournalismC1400104 Communication and Media
+  Studies\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tAbstract\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                Journalists and/or their editors appear to avoid
+  science topics and journalists have the reputation of being largely unequipped to
+  handle medical science, environmental science, or any science, in ways that do not
+  distort, misrepresent or misunderstand the science and that do not promote a continuing
+  feud with scientists. Nurse & Tooze (2000) contend that the result of this has been
+  a generally low quality of debate about science issues and increased public anxiety.
+  Low levels of understanding are the outcome of the public, the media, politicians
+  and other opinion-formers having little idea of how science is done and how scientific
+  knowledge is advanced, they argue. Although a convenient solution to this problem
+  is seen in the training of specialist science journalists, such an apparent solution
+  is impractical and, indeed, probably unsuitable. A better solution would seem to
+  be to prepare all journalism trainees for the inevitable encounters with science
+  and technology and especially the issues surrounding ever more contentious developments.
+  This paper sets out to address the central question of whether generalist journalists
+  can be better equipped to deal successfully with science writing and reporting and
+  whether this can be achieved in their normal tertiary education in journalism. It
+  does this in two ways: First, it looks at students' survey responses to a spectrum
+  of questions about science, science in the news and their knowledge of basic scientific
+  concepts to explore the potential of journalism students to cover science matters.
+  Then it examines the perceived quality of journalism students' writing in a survey
+  of source scientists. The conclusion drawn from this is that most journalism students
+  are quite capable performing the task well.\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tKeyword\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                science journalismjournalism studentscommunication\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\tQ-Index Code\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t                C1\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\r\n"
+- "          \r\n"
+- "                      Document type:\r\n"
+- "                  \r\n"
+- "                  \r\n"
+- "                      Journal Article\r\n"
+- "                  \r\n"
+- "              \r\n"
+- "                      Collections:\r\n"
+- "                  \r\n"
+- "                  \r\n"
+- "                                            Excellence in Research Australia (ERA)
+  - Collection2006 Higher Education Research Data CollectionSchool of Communication
+  and Arts Publications\r\n"
+- "              \r\n"
+- "                \r\n"
+- "\r\n"
+- "\t\r\n"
+- "\r\n"
+- "         \r\n"
+- "\t\t  \r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tVersions\r\n"
+- "\t\t\t\t\tVersion\r\n"
+- "\t\t\t\t\t\tFilter Type\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tFri, 15 Dec 2006, 15:50:41 ESTFri, 20 Jul 2007, 14:52:39 ESTMon,
+  17 Nov 2008, 09:29:27 ESTMon, 17 Nov 2008, 09:30:30 ESTFri, 29 May 2009, 09:02:17
+  ESTMon, 08 Nov 2010, 10:24:36 ESTFri, 03 Oct 2014, 23:24:32 ESTSat, 01 Aug 2015,
+  03:13:11 EST\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\tFilteredFull\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t\t      Citation counts:\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                         Search Google Scholar\r\n"
+- "\t\t\t\t\t\t\t\t\t\t\r\n"
+- "\t\t\t\tCreated:\r\n"
+- "\t\t\t\t  Mon, 31 Jul 2006, 10:00:00 EST \r\n"
+- "\t\t\t\t   by A. D. Nguyen \r\n"
+- "\t\t\t\t   on behalf of School of Journalism and Communication \r\n"
+- "\t\t\t\t  \t\t\t\t  \r\n"
+- "\t\t\t\t\r\n"
+- "\t\t  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\tThe University of Queensland\r\n"
+- "\t\t\tBrisbane\r\n"
+- "\t\t\tSt Lucia, QLD 4072\r\n"
+- "\t\t\t+61 7 3365 1111\r\n"
+- "            Other Campuses: UQ Ipswich, UQ Gatton, UQ Herston\r\n"
+- "            Maps and Directions\r\n"
+- "\t\t\t© 2015 UQ eSpace\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t\tSupplemental Resources\r\n"
+- "\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tA Member of\r\n"
+- "\r\n"
+- "            \r\n"
+- "                   \r\n"
+- "                   \r\n"
+- "                \r\n"
+- "            \r\n"
+- "\r\n"
+- "\t\t\tPrivacy & Terms of use | Right to Information | FeedbackAuthorised by: University
+  Librarian\r\n"
+- "\t    ABN 63 942 912 684\r\n"
+- "\t    CRICOS Provider No:00025B\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tQuick Links\r\n"
+- "\r\n"
+- "\t\t\tFor Media\r\n"
+- "\t\t\tEmergency Contact\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tSocial Media\r\n"
+- "\r\n"
+- "                Facebook\r\n"
+- "                    Twitter\r\n"
+- "                    Flickr\r\n"
+- "                    Instagram\r\n"
+- "                    YouTube\r\n"
+- "                    Vimeo\r\n"
+- "                    iTunes U\r\n"
+- "                    Linkedin\r\n"
+- "                \r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tExplore\r\n"
+- "\t\t\tGiving to UQ\r\n"
+- "\t\t\tFaculties & Divisions\r\n"
+- "\t\t\tUQ Jobs\r\n"
+- "\t\t\tUQ Contacts\r\n"
+- "\t\t\tServices & Facilities\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "\t\t\tNeed Help?\r\n"
+- "\t\t\t\r\n"
+- "            Emergency\r\n"
+- "            Ph. 3365 3333\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\tPowered by Fez  Software • Contact us • Help\r\n"
+- "\t\r\n"
+- "\t\t\tPage generated in 0.79190 seconds   on 2015-09-24 18:35:30\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\r\n"
+- 'skip navPrivacy & Terms of use | Right to Information | FeedbackAuthorised by:
+  University LibrarianABN 63 942 912 684CRICOS Provider No:00025BPh. 3365 3333'
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 389
+  nav: !ruby/object:Word
+    word: nav
+    stem: nav
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 314
+    - 336
+    - 389
+  queensland: !ruby/object:Word
+    word: queensland
+    stem: queensland
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 227
+    - 232
+    - 314
+  uq: !ruby/object:Word
+    word: uq
+    stem: uq
+    docFrequency: 13.0
+    docPositions:
+    - 10
+    - 13
+    - 20
+    - 36
+    - 135
+    - 318
+    - 320
+    - 365
+    - 367
+    - 368
+  espace: !ruby/object:Word
+    word: espace
+    stem: espac
+    docFrequency: 4.0
+    docPositions:
+    - 10
+    - 135
+    - 320
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 44
+  contacts: !ruby/object:Word
+    word: contacts
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 368
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 3.0
+    docPositions:
+    - 16
+    - 319
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 252
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 46
+    - 297
+  entry: !ruby/object:Word
+    word: entry
+    stem: entri
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 135
+  staff: !ruby/object:Word
+    word: staff
+    stem: staff
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 20.0
+    docPositions:
+    - 36
+    - 85
+    - 118
+    - 247
+    - 252
+    - 276
+    - 302
+    - 319
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 9.0
+    docPositions:
+    - 36
+    - 117
+    - 118
+    - 177
+    - 252
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  faqs: !ruby/object:Word
+    word: faqs
+    stem: faq
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 4.0
+    docPositions:
+    - 48
+    - 345
+    - 381
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 4.0
+    docPositions:
+    - 64
+    - 76
+    - 86
+  setcurrentcollection: !ruby/object:Word
+    word: setcurrentcollection
+    stem: setcurrentcollect
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 66
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 65
+    - 93
+    - 94
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 94
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  resizable: !ruby/object:Word
+    word: resizable
+    stem: resiz
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 10.0
+    docPositions:
+    - 65
+    - 94
+    - 338
+    - 389
+  scrollbars: !ruby/object:Word
+    word: scrollbars
+    stem: scrollbar
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  'yes': !ruby/object:Word
+    word: 'yes'
+    stem: ye
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  toolbar: !ruby/object:Word
+    word: toolbar
+    stem: toolbar
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  menubar: !ruby/object:Word
+    word: menubar
+    stem: menubar
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 194
+  projwin: !ruby/object:Word
+    word: projwin
+    stem: projwin
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 67
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 105
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 5.0
+    docPositions:
+    - 66
+    - 105
+    - 182
+    - 194
+  _active_collection: !ruby/object:Word
+    word: _active_collection
+    stem: _active_collect
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 68
+    - 89
+    - 106
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  basic_element: !ruby/object:Word
+    word: basic_element
+    stem: basic_el
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 72
+  getpageelement: !ruby/object:Word
+    word: getpageelement
+    stem: getpageel
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  basic_filter_form: !ruby/object:Word
+    word: basic_filter_form
+    stem: basic_filter_form
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 73
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 88
+    - 92
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  iselementvisible: !ruby/object:Word
+    word: iselementvisible
+    stem: iselementvis
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  togglevisibility: !ruby/object:Word
+    word: togglevisibility
+    stem: togglevis
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 76
+    - 85
+    - 95
+    - 135
+    - 317
+    - 320
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 76
+    - 93
+    - 94
+    - 267
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  possibly_long: !ruby/object:Word
+    word: possibly_long
+    stem: possibly_long
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  shorten: !ruby/object:Word
+    word: shorten
+    stem: shorten
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  rel_url: !ruby/object:Word
+    word: rel_url
+    stem: rel_url
+    docFrequency: 4.0
+    docPositions:
+    - 78
+    - 94
+    - 105
+  image_preview_loading: !ruby/object:Word
+    word: image_preview_loading
+    stem: image_preview_load
+    docFrequency: 3.0
+    docPositions:
+    - 79
+    - 88
+  image_preview_current_id: !ruby/object:Word
+    word: image_preview_current_id
+    stem: image_preview_current_id
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 85
+  put: !ruby/object:Word
+    word: put
+    stem: put
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  preview: !ruby/object:Word
+    word: preview
+    stem: preview
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  loadpreview: !ruby/object:Word
+    word: loadpreview
+    stem: loadpreview
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  pid: !ruby/object:Word
+    word: pid
+    stem: pid
+    docFrequency: 4.0
+    docPositions:
+    - 86
+    - 94
+    - 105
+  datastreamid: !ruby/object:Word
+    word: datastreamid
+    stem: datastreamid
+    docFrequency: 21.0
+    docPositions:
+    - 86
+    - 92
+    - 94
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    - 105
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  origami: !ruby/object:Word
+    word: origami
+    stem: origami
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  stream_: !ruby/object:Word
+    word: stream_
+    stem: stream_
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 3.0
+    docPositions:
+    - 93
+    - 94
+  datastream_preview_td: !ruby/object:Word
+    word: datastream_preview_td
+    stem: datastream_preview_td
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  datastream_preview_frame: !ruby/object:Word
+    word: datastream_preview_frame
+    stem: datastream_preview_fram
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  iframe: !ruby/object:Word
+    word: iframe
+    stem: ifram
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  frameborder: !ruby/object:Word
+    word: frameborder
+    stem: framebord
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 94
+    - 105
+  wrapper: !ruby/object:Word
+    word: wrapper
+    stem: wrapper
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  str_replace: !ruby/object:Word
+    word: str_replace
+    stem: str_replac
+    docFrequency: 9.0
+    docPositions:
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+  tiff: !ruby/object:Word
+    word: tiff
+    stem: tiff
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  jpg: !ruby/object:Word
+    word: jpg
+    stem: jpg
+    docFrequency: 10.0
+    docPositions:
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+  tif: !ruby/object:Word
+    word: tif
+    stem: tif
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  gif: !ruby/object:Word
+    word: gif
+    stem: gif
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  eps: !ruby/object:Word
+    word: eps
+    stem: ep
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  bmp: !ruby/object:Word
+    word: bmp
+    stem: bmp
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 102
+  web_: !ruby/object:Word
+    word: web_
+    stem: web_
+    docFrequency: 2.0
+    docPositions:
+    - 105
+  journalism: !ruby/object:Word
+    word: journalism
+    stem: journal
+    docFrequency: 13.0
+    docPositions:
+    - 117
+    - 118
+    - 177
+    - 182
+    - 232
+    - 252
+    - 302
+  equipped: !ruby/object:Word
+    word: equipped
+    stem: equip
+    docFrequency: 5.0
+    docPositions:
+    - 117
+    - 118
+    - 177
+    - 252
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 4.0
+    docPositions:
+    - 117
+    - 118
+    - 177
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 18.0
+    docPositions:
+    - 117
+    - 118
+    - 177
+    - 252
+    - 257
+  mcilwaine: !ruby/object:Word
+    word: mcilwaine
+    stem: mcilwain
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 172
+  stephen: !ruby/object:Word
+    word: stephen
+    stem: stephen
+    docFrequency: 2.0
+    docPositions:
+    - 118
+  nguyen: !ruby/object:Word
+    word: nguyen
+    stem: nguyen
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 301
+  australian: !ruby/object:Word
+    word: australian
+    stem: australian
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 182
+  studies: !ruby/object:Word
+    word: studies
+    stem: studi
+    docFrequency: 4.0
+    docPositions:
+    - 118
+    - 182
+    - 247
+  attached: !ruby/object:Word
+    word: attached
+    stem: attach
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 135
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 289
+  inaccessible: !ruby/object:Word
+    word: inaccessible
+    stem: inaccess
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  credentials: !ruby/object:Word
+    word: credentials
+    stem: credenti
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 179
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  mimetype: !ruby/object:Word
+    word: mimetype
+    stem: mimetyp
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  science_journali: !ruby/object:Word
+    word: science_journali
+    stem: science_journali
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 156
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 156
+    - 161
+  application: !ruby/object:Word
+    word: application
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 197
+  stephennguyen: !ruby/object:Word
+    word: stephennguyen
+    stem: stephennguyen
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 270
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  publisher: !ruby/object:Word
+    word: publisher
+    stem: publish
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 229
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 194
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  issn: !ruby/object:Word
+    word: issn
+    stem: issn
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 189
+    - 224
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  volume: !ruby/object:Word
+    word: volume
+    stem: volum
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 4.0
+    docPositions:
+    - 204
+    - 209
+    - 383
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  total: !ruby/object:Word
+    word: total
+    stem: total
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  editor: !ruby/object:Word
+    word: editor
+    stem: editor
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  kirkpatrick: !ruby/object:Word
+    word: kirkpatrick
+    stem: kirkpatrick
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 316
+  lucia: !ruby/object:Word
+    word: lucia
+    stem: lucia
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 316
+  univ: !ruby/object:Word
+    word: univ
+    stem: univ
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 3.0
+    docPositions:
+    - 232
+    - 302
+  communication: !ruby/object:Word
+    word: communication
+    stem: commun
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 247
+    - 276
+    - 302
+  collection: !ruby/object:Word
+    word: collection
+    stem: collect
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  eng: !ruby/object:Word
+    word: eng
+    stem: eng
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 244
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 5.0
+    docPositions:
+    - 247
+    - 252
+    - 344
+    - 349
+  abstract: !ruby/object:Word
+    word: abstract
+    stem: abstract
+    docFrequency: 2.0
+    docPositions:
+    - 249
+  journalists: !ruby/object:Word
+    word: journalists
+    stem: journalist
+    docFrequency: 5.0
+    docPositions:
+    - 252
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 4.0
+    docPositions:
+    - 252
+  editors: !ruby/object:Word
+    word: editors
+    stem: editor
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  appear: !ruby/object:Word
+    word: appear
+    stem: appear
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  avoid: !ruby/object:Word
+    word: avoid
+    stem: avoid
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  topics: !ruby/object:Word
+    word: topics
+    stem: topic
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  reputation: !ruby/object:Word
+    word: reputation
+    stem: reput
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  largely: !ruby/object:Word
+    word: largely
+    stem: larg
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  unequipped: !ruby/object:Word
+    word: unequipped
+    stem: unequip
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  handle: !ruby/object:Word
+    word: handle
+    stem: handl
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  medical: !ruby/object:Word
+    word: medical
+    stem: medic
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  environmental: !ruby/object:Word
+    word: environmental
+    stem: environment
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  distort: !ruby/object:Word
+    word: distort
+    stem: distort
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  misrepresent: !ruby/object:Word
+    word: misrepresent
+    stem: misrepres
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  misunderstand: !ruby/object:Word
+    word: misunderstand
+    stem: misunderstand
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  promote: !ruby/object:Word
+    word: promote
+    stem: promot
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  continuing: !ruby/object:Word
+    word: continuing
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  feud: !ruby/object:Word
+    word: feud
+    stem: feud
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  nurse: !ruby/object:Word
+    word: nurse
+    stem: nurs
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  tooze: !ruby/object:Word
+    word: tooze
+    stem: tooz
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  contend: !ruby/object:Word
+    word: contend
+    stem: contend
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  generally: !ruby/object:Word
+    word: generally
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  quality: !ruby/object:Word
+    word: quality
+    stem: qualiti
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  debate: !ruby/object:Word
+    word: debate
+    stem: debat
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  increased: !ruby/object:Word
+    word: increased
+    stem: increas
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  anxiety: !ruby/object:Word
+    word: anxiety
+    stem: anxieti
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  levels: !ruby/object:Word
+    word: levels
+    stem: level
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  understanding: !ruby/object:Word
+    word: understanding
+    stem: understand
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  outcome: !ruby/object:Word
+    word: outcome
+    stem: outcom
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  politicians: !ruby/object:Word
+    word: politicians
+    stem: politician
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 318
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  formers: !ruby/object:Word
+    word: formers
+    stem: former
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  idea: !ruby/object:Word
+    word: idea
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  done: !ruby/object:Word
+    word: done
+    stem: done
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  argue: !ruby/object:Word
+    word: argue
+    stem: argu
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  although: !ruby/object:Word
+    word: although
+    stem: although
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  convenient: !ruby/object:Word
+    word: convenient
+    stem: conveni
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  solution: !ruby/object:Word
+    word: solution
+    stem: solut
+    docFrequency: 4.0
+    docPositions:
+    - 252
+  problem: !ruby/object:Word
+    word: problem
+    stem: problem
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  seen: !ruby/object:Word
+    word: seen
+    stem: seen
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  training: !ruby/object:Word
+    word: training
+    stem: train
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  specialist: !ruby/object:Word
+    word: specialist
+    stem: specialist
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  apparent: !ruby/object:Word
+    word: apparent
+    stem: appar
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  impractical: !ruby/object:Word
+    word: impractical
+    stem: impract
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  indeed: !ruby/object:Word
+    word: indeed
+    stem: inde
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  probably: !ruby/object:Word
+    word: probably
+    stem: probabl
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  unsuitable: !ruby/object:Word
+    word: unsuitable
+    stem: unsuit
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  better: !ruby/object:Word
+    word: better
+    stem: better
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  seem: !ruby/object:Word
+    word: seem
+    stem: seem
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  prepare: !ruby/object:Word
+    word: prepare
+    stem: prepar
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  trainees: !ruby/object:Word
+    word: trainees
+    stem: traine
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  inevitable: !ruby/object:Word
+    word: inevitable
+    stem: inevit
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  encounters: !ruby/object:Word
+    word: encounters
+    stem: encount
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  surrounding: !ruby/object:Word
+    word: surrounding
+    stem: surround
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  ever: !ruby/object:Word
+    word: ever
+    stem: ever
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  contentious: !ruby/object:Word
+    word: contentious
+    stem: contenti
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  developments: !ruby/object:Word
+    word: developments
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  paper: !ruby/object:Word
+    word: paper
+    stem: paper
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  sets: !ruby/object:Word
+    word: sets
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  generalist: !ruby/object:Word
+    word: generalist
+    stem: generalist
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  deal: !ruby/object:Word
+    word: deal
+    stem: deal
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  successfully: !ruby/object:Word
+    word: successfully
+    stem: successfulli
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  writing: !ruby/object:Word
+    word: writing
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  achieved: !ruby/object:Word
+    word: achieved
+    stem: achiev
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  tertiary: !ruby/object:Word
+    word: tertiary
+    stem: tertiari
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 276
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  survey: !ruby/object:Word
+    word: survey
+    stem: survei
+    docFrequency: 3.0
+    docPositions:
+    - 252
+  responses: !ruby/object:Word
+    word: responses
+    stem: respons
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  spectrum: !ruby/object:Word
+    word: spectrum
+    stem: spectrum
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  concepts: !ruby/object:Word
+    word: concepts
+    stem: concept
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 364
+  potential: !ruby/object:Word
+    word: potential
+    stem: potenti
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  matters: !ruby/object:Word
+    word: matters
+    stem: matter
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  examines: !ruby/object:Word
+    word: examines
+    stem: examin
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  perceived: !ruby/object:Word
+    word: perceived
+    stem: perceiv
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  conclusion: !ruby/object:Word
+    word: conclusion
+    stem: conclus
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  drawn: !ruby/object:Word
+    word: drawn
+    stem: drawn
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  quite: !ruby/object:Word
+    word: quite
+    stem: quit
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  capable: !ruby/object:Word
+    word: capable
+    stem: capabl
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  performing: !ruby/object:Word
+    word: performing
+    stem: perform
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  task: !ruby/object:Word
+    word: task
+    stem: task
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  keyword: !ruby/object:Word
+    word: keyword
+    stem: keyword
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  journalismjournalism: !ruby/object:Word
+    word: journalismjournalism
+    stem: journalismjourn
+    docFrequency: 2.0
+    docPositions:
+    - 257
+  studentscommunication: !ruby/object:Word
+    word: studentscommunication
+    stem: studentscommun
+    docFrequency: 2.0
+    docPositions:
+    - 257
+  q: !ruby/object:Word
+    word: q
+    stem: q
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 267
+    - 287
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 270
+  collections: !ruby/object:Word
+    word: collections
+    stem: collect
+    docFrequency: 2.0
+    docPositions:
+    - 273
+  excellence: !ruby/object:Word
+    word: excellence
+    stem: excel
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 3.0
+    docPositions:
+    - 276
+  australia: !ruby/object:Word
+    word: australia
+    stem: australia
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  era: !ruby/object:Word
+    word: era
+    stem: era
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  higher: !ruby/object:Word
+    word: higher
+    stem: higher
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  collectionschool: !ruby/object:Word
+    word: collectionschool
+    stem: collectionschool
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  versions: !ruby/object:Word
+    word: versions
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  fri: !ruby/object:Word
+    word: fri
+    stem: fri
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  estfri: !ruby/object:Word
+    word: estfri
+    stem: estfri
+    docFrequency: 4.0
+    docPositions:
+    - 289
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 300
+  estmon: !ruby/object:Word
+    word: estmon
+    stem: estmon
+    docFrequency: 4.0
+    docPositions:
+    - 289
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 4.0
+    docPositions:
+    - 289
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  estsat: !ruby/object:Word
+    word: estsat
+    stem: estsat
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 289
+  est: !ruby/object:Word
+    word: est
+    stem: est
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 300
+  filteredfull: !ruby/object:Word
+    word: filteredfull
+    stem: filteredful
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  citation: !ruby/object:Word
+    word: citation
+    stem: citat
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  counts: !ruby/object:Word
+    word: counts
+    stem: count
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  scholar: !ruby/object:Word
+    word: scholar
+    stem: scholar
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 299
+  mon: !ruby/object:Word
+    word: mon
+    stem: mon
+    docFrequency: 2.0
+    docPositions:
+    - 300
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 301
+  behalf: !ruby/object:Word
+    word: behalf
+    stem: behalf
+    docFrequency: 2.0
+    docPositions:
+    - 302
+  brisbane: !ruby/object:Word
+    word: brisbane
+    stem: brisban
+    docFrequency: 2.0
+    docPositions:
+    - 315
+  qld: !ruby/object:Word
+    word: qld
+    stem: qld
+    docFrequency: 2.0
+    docPositions:
+    - 316
+  campuses: !ruby/object:Word
+    word: campuses
+    stem: campus
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  ipswich: !ruby/object:Word
+    word: ipswich
+    stem: ipswich
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  gatton: !ruby/object:Word
+    word: gatton
+    stem: gatton
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  herston: !ruby/object:Word
+    word: herston
+    stem: herston
+    docFrequency: 2.0
+    docPositions:
+    - 318
+  directions: !ruby/object:Word
+    word: directions
+    stem: direct
+    docFrequency: 2.0
+    docPositions:
+    - 319
+  supplemental: !ruby/object:Word
+    word: supplemental
+    stem: supplement
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  member: !ruby/object:Word
+    word: member
+    stem: member
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 389
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 389
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 389
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 389
+  feedbackauthorised: !ruby/object:Word
+    word: feedbackauthorised
+    stem: feedbackauthoris
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 389
+  librarian: !ruby/object:Word
+    word: librarian
+    stem: librarian
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  abn: !ruby/object:Word
+    word: abn
+    stem: abn
+    docFrequency: 2.0
+    docPositions:
+    - 337
+  cricos: !ruby/object:Word
+    word: cricos
+    stem: crico
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  provider: !ruby/object:Word
+    word: provider
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 338
+    - 389
+  quick: !ruby/object:Word
+    word: quick
+    stem: quick
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  emergency: !ruby/object:Word
+    word: emergency
+    stem: emerg
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 376
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 349
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  flickr: !ruby/object:Word
+    word: flickr
+    stem: flickr
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  instagram: !ruby/object:Word
+    word: instagram
+    stem: instagram
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 2.0
+    docPositions:
+    - 355
+  vimeo: !ruby/object:Word
+    word: vimeo
+    stem: vimeo
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  itunes: !ruby/object:Word
+    word: itunes
+    stem: itun
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 358
+  giving: !ruby/object:Word
+    word: giving
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  faculties: !ruby/object:Word
+    word: faculties
+    stem: faculti
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  divisions: !ruby/object:Word
+    word: divisions
+    stem: divis
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  jobs: !ruby/object:Word
+    word: jobs
+    stem: job
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  facilities: !ruby/object:Word
+    word: facilities
+    stem: facil
+    docFrequency: 2.0
+    docPositions:
+    - 369
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 381
+  ph: !ruby/object:Word
+    word: ph
+    stem: ph
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  powered: !ruby/object:Word
+    word: powered
+    stem: power
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  fez: !ruby/object:Word
+    word: fez
+    stem: fez
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  software: !ruby/object:Word
+    word: software
+    stem: softwar
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  generated: !ruby/object:Word
+    word: generated
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  seconds: !ruby/object:Word
+    word: seconds
+    stem: second
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  navprivacy: !ruby/object:Word
+    word: navprivacy
+    stem: navprivaci
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  librarianabn: !ruby/object:Word
+    word: librarianabn
+    stem: librarianabn
+    docFrequency: 2.0
+    docPositions:
+    - 389
+lineCount: 390
+wordCount: 852
+rank: 0.2564102564102564
+title: Are Journalism Students Equipped to Write About Science? - UQ eSpace
+links:
+- http://www.uq.edu.au/
+- http://www.uq.edu.au/
+- http://www.uq.edu.au/contacts/
+- http://www.uq.edu.au/study/
+- http://www.uq.edu.au/maps/
+- http://www.uq.edu.au/news/
+- http://www.uq.edu.au/events/
+- http://www.library.uq.edu.au/
+- http://my.uq.edu.au/
+- http://espace.library.uq.edu.au/list/author_id/12345/
+- http://espace.library.uq.edu.au/list/author/Nguyen%2C+An/
+- http://www.sherpa.ac.uk/romeo/search.php?issn=1038-6130
+- http://espace.library.uq.edu.au/list/author/R.+Kirkpatrick/
+- http://espace.library.uq.edu.au/list/subject/400101/
+- http://espace.library.uq.edu.au/list/subject/450009/
+- http://espace.library.uq.edu.au/list/subject/400104/
+- http://espace.library.uq.edu.au/list/subject/450009/
+- http://scholar.google.com/scholar?q=intitle:"Are Journalism Students Equipped to
+  Write About Science?"
+- http://www.uq.edu.au/
+- http://www.uq.edu.au/ipswich/
+- http://www.uq.edu.au/gatton/
+- http://www.uq.edu.au/about/herston-campus
+- http://www.uq.edu.au/maps/
+- http://www.universitiesaustralia.edu.au/
+- http://www.universitas21.com/
+- http://www.edx.org/
+- http://www.go8.edu.au/
+- http://www.uq.edu.au/terms-of-use/
+- http://www.uq.edu.au/rti/
+- http://www.library.uq.edu.au/feedback/add
+- http://www.uq.edu.au/about/cricos-link
+- http://www.uq.edu.au/omc/media
+- http://www.pf.uq.edu.au/emerg.html
+- https://www.facebook.com/uniofqld
+- http://twitter.com/uqnewsonline
+- http://www.flickr.com/photos/uqnews/sets/
+- http://instagram.com/uniofqld
+- https://www.youtube.com/universityqueensland
+- http://vimeo.com/uq
+- http://www.uq.edu.au/itunes/
+- http://www.linkedin.com/edu/school?id=10238
+- http://www.alumni.uq.edu.au/giving
+- http://www.uq.edu.au/departments/
+- http://www.uq.edu.au/uqjobs/
+- http://www.uq.edu.au/contacts/
+- http://www.uq.edu.au/services/
+- http://www.uq.edu.au/uqanswers/
+- http://fez.library.uq.edu.au/
+rawText: "\r\n    \r\n    skip nav\r\n    \r\n\r\n    \r\n    \r\n        \r\n\r\n
+  \           The University of Queensland\r\n            UQ eSpace\r\n\r\n            \r\n
+  \               UQ Home\r\n                    Contacts\r\n                    Study\r\n
+  \                   Maps\r\n                    News\r\n                    Events\r\n
+  \                   Library\r\n                    my.UQ\r\n                 \r\n
+  \           \r\n\r\n            \r\n                \r\n                    Search
+  Entry\r\n                        \r\n                            \r\n            \r\n\r\n
+  \            \r\n\r\n                            \r\n                                        LOGIN\r\n\r\n
+  \                                       UQ Staff and Students only\r\n                \r\n
+  \           \t\t\t\r\n\r\n        \r\n    \r\n    \r\n        \r\n            Home\r\n
+  \               Browse\r\n                Search\r\n                FAQs\r\n                About
+  / Contact\r\n\r\n                \r\n             \r\n        \r\n    \r\n    \r\n\r\n
+  \   \r\n\r\n        \r\n\r\n\r\r\n\r\n\r\n  <!--\r\n  function setCurrentCollection()
+  {\r\n\tvar features = 'width=420,height=200,top=30,left=30,resizable=no,scrollbars=yes,toolbar=no,location=no,menubar=no,status=no';\r\n\tvar
+  projWin = window.open('', '_active_collection', features);\r\n\tprojWin.focus();\r\n\treturn
+  true;\r\n  }\r\n  \r\n  var basic_element = getPageElement('basic_filter_form' +
+  '1');\r\n  if (basic_element != null && !isElementVisible(basic_element)) {\r\n\ttoggleVisibility('basic_filter_form');\r\n
+  \ }\r\n  -->\r\n$(document).ready(function(){$(\".possibly_long\").shorten();});\r\n<!--\r\nvar
+  rel_url = '/';\r\nvar image_preview_loading = 0;\r\nvar image_preview_current_id
+  = '';\r\n\r\n\r\n\r\n\r\n// get an image and put it in the preview image\r\nfunction
+  loadPreview(pid,datastreamID, alt, origami)\r\n{\r\n    if (image_preview_loading
+  > 0) {\r\n        return;\r\n    }\r\n\r\n    if (datastreamID.substring(0, 7) ==
+  'stream_') {\r\n        document.getElementById('datastream_preview_td').width =
+  450;\r\n        document.getElementById('datastream_preview_frame').innerHTML='<iframe
+  frameborder=\"no\" width=\"100%\" height=\"400\" src=\"'+rel_url+'view/'+pid+'/'+datastreamID+'?wrapper=no\">';\r\n
+  \   } else {\r\n\t\tdatastreamID = str_replace(datastreamID, '.tiff', '.jpg');\r\n\t\tdatastreamID
+  = str_replace(datastreamID, '.tif', '.jpg');\r\n\t\tdatastreamID = str_replace(datastreamID,
+  '.gif', '.jpg');\r\n\t\tdatastreamID = str_replace(datastreamID, '.eps', '.jpg');\r\n\t\tdatastreamID
+  = str_replace(datastreamID, '.png', '.jpg');\r\n\t\tdatastreamID = str_replace(datastreamID,
+  '.bmp', '.jpg');\r\n\t\tdatastreamID = str_replace(datastreamID, '.BMP', '.jpg');\r\n\t\tdatastreamID
+  = str_replace(datastreamID, '.JPG', '.jpg');\r\n        \r\n        window.open(rel_url+'view/'+pid+'/web_'+datastreamID+'');\r\n
+  \       return;\r\n    }\r\n}\r\n\r\n\r\n-->\r\n\r\n    \r\n              \r\n\t\t\t
+  \ \r\n\t\t\t  \r\n\t\t\t\t  Are Journalism Students Equipped to Write About Science?\r\n\t\t\t\t
+  \ \t\t\t\t\tMcIlwaine, Stephen and Nguyen, An (2005) Are Journalism Students Equipped
+  to Write About Science?. Australian Studies in Journalism, 14  41-60.\r\n\t\t\t\t\t\r\n\r\n\t\t\t
+  \ \r\n        \r\n            \r\n            \r\n            \r\n            \r\n
+  \           \r\n            \r\n            \r\n            \r\n                    \r\n
+  \       \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tAttached Files\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(Some
+  files may be inaccessible until you login with your UQ eSpace credentials)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tName\r\n\t\t\t\t\t\t\t\t\t\t\t\tDescription\r\n\t\t\t\t\t\tMIMEType\r\n\t\t\t\t\t\tSize\r\n\t\t\t\t\t\tDownloads\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t
+  \                                                                                                                                                   \r\n
+  \                                   \r\n                                    science_journali.pdf\r\n\r\n
+  \                                                                           \r\n
+  \                                                                   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\tscience_journali.pdf\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n
+  \                                       application/pdf\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t81.56KB\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t622\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tAuthor\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               McIlwaine, StephenNguyen, An\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tTitle\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               Are Journalism Students Equipped to Write About Science?\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tJournal
+  name\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                Australian
+  Studies in Journalism   Check publisher's open access policy\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tISSN\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               1038-6130\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tPublication
+  date\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                2005-01-01\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tOpen
+  Access Status\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                File
+  (Author Post-print)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tVolume\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               14\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tStart page\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               41\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tEnd page\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               60\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tTotal pages\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               20\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tEditor\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               R. Kirkpatrick\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tPlace
+  of publication\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                St
+  Lucia, Queensland\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tPublisher\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               Univ of Queensland, School of Journalism & Communication\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tCollection
+  year\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                2005\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tLanguage\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               eng\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tSubject\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               400101 JournalismC1400104 Communication and Media Studies\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tAbstract\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               Journalists and/or their editors appear to avoid science topics
+  and journalists have the reputation of being largely unequipped to handle medical
+  science, environmental science, or any science, in ways that do not distort, misrepresent
+  or misunderstand the science and that do not promote a continuing feud with scientists.
+  Nurse & Tooze (2000) contend that the result of this has been a generally low quality
+  of debate about science issues and increased public anxiety. Low levels of understanding
+  are the outcome of the public, the media, politicians and other opinion-formers
+  having little idea of how science is done and how scientific knowledge is advanced,
+  they argue. Although a convenient solution to this problem is seen in the training
+  of specialist science journalists, such an apparent solution is impractical and,
+  indeed, probably unsuitable. A better solution would seem to be to prepare all journalism
+  trainees for the inevitable encounters with science and technology and especially
+  the issues surrounding ever more contentious developments. This paper sets out to
+  address the central question of whether generalist journalists can be better equipped
+  to deal successfully with science writing and reporting and whether this can be
+  achieved in their normal tertiary education in journalism. It does this in two ways:
+  First, it looks at students' survey responses to a spectrum of questions about science,
+  science in the news and their knowledge of basic scientific concepts to explore
+  the potential of journalism students to cover science matters. Then it examines
+  the perceived quality of journalism students' writing in a survey of source scientists.
+  The conclusion drawn from this is that most journalism students are quite capable
+  performing the task well.\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tKeyword\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+  \               science journalismjournalism studentscommunication\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\tQ-Index
+  Code\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t                C1\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\r\n
+  \         \r\n                      Document type:\r\n                  \r\n                  \r\n
+  \                     Journal Article\r\n                  \r\n              \r\n
+  \                     Collections:\r\n                  \r\n                  \r\n
+  \                                           Excellence in Research Australia (ERA)
+  - Collection2006 Higher Education Research Data CollectionSchool of Communication
+  and Arts Publications\r\n              \r\n                \r\n\r\n\t\r\n\r\n         \r\n\t\t
+  \ \r\n\t\t\t\r\n\t\t\t\tVersions\r\n\t\t\t\t\tVersion\r\n\t\t\t\t\t\tFilter Type\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\tFri,
+  15 Dec 2006, 15:50:41 ESTFri, 20 Jul 2007, 14:52:39 ESTMon, 17 Nov 2008, 09:29:27
+  ESTMon, 17 Nov 2008, 09:30:30 ESTFri, 29 May 2009, 09:02:17 ESTMon, 08 Nov 2010,
+  10:24:36 ESTFri, 03 Oct 2014, 23:24:32 ESTSat, 01 Aug 2015, 03:13:11 EST\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tFilteredFull\r\n\t\t\t\t\t\r\n\t\t\r\n\t\r\n\t\t
+  \     Citation counts:\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                         Search
+  Google Scholar\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tCreated:\r\n\t\t\t\t  Mon, 31
+  Jul 2006, 10:00:00 EST \r\n\t\t\t\t   by A. D. Nguyen \r\n\t\t\t\t   on behalf of
+  School of Journalism and Communication \r\n\t\t\t\t  \t\t\t\t  \r\n\t\t\t\t\r\n\t\t
+  \ \r\n  \r\n  \r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\tThe University of Queensland\r\n\t\t\tBrisbane\r\n\t\t\tSt
+  Lucia, QLD 4072\r\n\t\t\t+61 7 3365 1111\r\n            Other Campuses: UQ Ipswich,
+  UQ Gatton, UQ Herston\r\n            Maps and Directions\r\n\t\t\t© 2015 UQ eSpace\r\n\r\n\t\t\r\n\r\n\t\t\r\n\t\t\tSupplemental
+  Resources\r\n\r\n\t\t\t\r\n\t\t\tA Member of\r\n\r\n            \r\n                   \r\n
+  \                  \r\n                \r\n            \r\n\r\n\t\t\tPrivacy & Terms
+  of use | Right to Information | FeedbackAuthorised by: University Librarian\r\n\t
+  \   ABN 63 942 912 684\r\n\t    CRICOS Provider No:00025B\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\tQuick
+  Links\r\n\r\n\t\t\tFor Media\r\n\t\t\tEmergency Contact\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\tSocial
+  Media\r\n\r\n                Facebook\r\n                    Twitter\r\n                    Flickr\r\n
+  \                   Instagram\r\n                    YouTube\r\n                    Vimeo\r\n
+  \                   iTunes U\r\n                    Linkedin\r\n                \r\n\t\t\r\n\r\n\t\t\r\n\t\t\t\r\n\t\t\tExplore\r\n\t\t\tGiving
+  to UQ\r\n\t\t\tFaculties & Divisions\r\n\t\t\tUQ Jobs\r\n\t\t\tUQ Contacts\r\n\t\t\tServices
+  & Facilities\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\tNeed Help?\r\n\t\t\t\r\n            Emergency\r\n
+  \           Ph. 3365 3333\r\n\t\t\t\r\n\t\t\r\n\r\n\t\tPowered by Fez  Software
+  • Contact us • Help\r\n\t\r\n\t\t\tPage generated in 0.79190 seconds   on 2015-09-24
+  18:35:30\r\n\t\t\r\n\t\t\r\n\r\n\t\r\n\r\nskip navPrivacy & Terms of use | Right
+  to Information | FeedbackAuthorised by: University LibrarianABN 63 942 912 684CRICOS
+  Provider No:00025BPh. 3365 3333"

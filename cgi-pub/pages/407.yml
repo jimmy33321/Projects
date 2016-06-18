@@ -1,0 +1,5562 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.fool.com/ecap/stock-advisor/ss-trip/?utm_source=cnnmoney&utm_medium=contentmarketing&utm_campaign=advertorial_lg&paid=8705&psource=esacnn7410860006&waid=8705&wsource=esacnnwdg0860005
+inboundLinks: []
+lines:
+- |2+
+
+- |
+  <iframe src="https://www.google-analytics.com/gtm/ns?id=GTM-5T83WW"
+- |
+  style="display:none;visibility:hidden" height="0" width="0"></iframe>
+- |
+  (function(p,a,l,i,n,d,r,o,m,e){r={id:'GTM-5T83WW',l:'dataLayer',m:'sync'};
+- |
+  if(!r.gac){o=/;((__utma=)|([^;=]+=GAX?\d+\.))[^;]*/g;m=l.cookie.replace(
+- |
+  /^|(; +)/g,';').match(o);if(m)r.gac=m.sort().join('').substring(1)};e=
+- |
+  'https://www.google-analytics.com/gtm/js?';r.m=='sync'||(p['event']='gtm.js');
+- |
+  for(d in r)if(r.hasOwnProperty(d))e+=n(d)+'='+n(r[d])+'&';a[r.l]=a[r.l]||[];
+- |
+  a[r.l].push(p);if(r.m=='sync'){l.write('<'+i+' src="'+e+'"><\/'+i+'>');}else{
+- |
+  j=l.createElement(i);j.async=!0;j.src=e;f=l.getElementsByTagName(i)[0];
+- |
+  f.parentNode.insertBefore(j,f);}})({'gtm.start':1*new Date()},window,document,
+- "'script',encodeURIComponent);\r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "/*********Body Styles************/     \r\n"
+- "body {\r\n"
+- "    margin: 0;\r\n"
+- "    padding: 0;\r\n"
+- "    font-family: 'Source Sans Pro', sans-serif;\r\n"
+- "    font-size: 18px;\r\n"
+- "    line-height: 28px;\r\n"
+- "    }    \r\n"
+- "    \r\n"
+- ".container {\r\n"
+- "    width: 100%;\r\n"
+- "    } \r\n"
+- " \r\n"
+- " .content {\r\n"
+- "    max-width: 650px;\r\n"
+- "    margin: 0 auto;\r\n"
+- "    }\r\n"
+- "\r\n"
+- ".graybackground {\r\n"
+- "    max-width: 650px;\r\n"
+- "    margin: 0 auto;\r\n"
+- "    }   \r\n"
+- "    \r\n"
+- "/*********Header Styles************/    \r\n"
+- ".hd-wrapper {\r\n"
+- "    background-color: #0589C2;\r\n"
+- "    }\r\n"
+- "\r\n"
+- ".headercontent {\r\n"
+- "    margin: 0 auto;\r\n"
+- "    max-width: 650px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    height: 50px;\r\n"
+- "    margin-bottom: 25px;\r\n"
+- "    } \r\n"
+- "    \r\n"
+- ".NavMenu{\r\n"
+- "    padding:0px 10px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "    \r\n"
+- ".dropdown {\r\n"
+- "    float:left;\r\n"
+- "    height: 30px;\r\n"
+- "    padding: 10px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "a.dropdown-toggle {\r\n"
+- "    color:#ffffff;\r\n"
+- "    }    \r\n"
+- "    \r\n"
+- ".logo {\r\n"
+- "    position: relative;\r\n"
+- "    overflow: visible;\r\n"
+- "    height: 30px;\r\n"
+- "    padding: 10px;\r\n"
+- "    float:right;\r\n"
+- "    }     \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "/*********Text Styles************/ \r\n"
+- "    \r\n"
+- "h1 {\r\n"
+- "    line-height: 40px;\r\n"
+- "    }    \r\n"
+- "    \r\n"
+- "h3 {\r\n"
+- "    margin-top: 10px;\r\n"
+- "    font-size: 26px;\r\n"
+- "    }\r\n"
+- "#byline {\r\n"
+- "    font-size: 14px;\r\n"
+- "    line-height: 22px;\r\n"
+- "    margin-bottom: 5px;\r\n"
+- "    margin-top: 5px;\r\n"
+- "    color: #666;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "blockquote {\r\n"
+- "    padding: 15px 20px;\r\n"
+- "    border-top: 1px dotted #BBBBBB;\r\n"
+- "    border-bottom: 1px dotted #BBBBBB;\r\n"
+- "    margin: 11px 0 11px 0;\r\n"
+- "    }\r\n"
+- "    \r\n"
+- "p {\r\n"
+- "    font-size: 20px;\r\n"
+- "    line-height: 30px;\r\n"
+- "    margin-bottom: 20px; \r\n"
+- "    }\r\n"
+- "\r\n"
+- "#privacy {\r\n"
+- "    font-size: 12px;\r\n"
+- "    margin-top: 20px;\r\n"
+- "    line-height: 20px;\r\n"
+- "    text-align: center;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "#disclosure {\r\n"
+- "    margin-top: 30px;\r\n"
+- "    font-size: 12px;\r\n"
+- "    line-height: 16px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- ".footer p {\r\n"
+- "    margin-top: 15px;\r\n"
+- "    font-size: 12px;\r\n"
+- "    line-height: 16px;\r\n"
+- "    }    \r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "/*********Image Styles************/  \r\n"
+- "    \r\n"
+- ".imgsource {\r\n"
+- "    font-size: 14px;\r\n"
+- "    line-height: 22px;\r\n"
+- "    margin-bottom: 5px;\r\n"
+- "    margin-top: 5px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- ".right-img-wrapper {\r\n"
+- "    float: right;\r\n"
+- "    margin-left: 20px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- ".sideimg {\r\n"
+- "    max-width: 250px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "/*********Ecap Form Field Styles************/\r\n"
+- "\r\n"
+- "input#ecapWidgetForm_submit {\r\n"
+- "    background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top #FFFFFF;\r\n"
+- "    border: medium none;\r\n"
+- "    -webkit-border-radius: 10px;\r\n"
+- "    -moz-border-radius: 10px;\r\n"
+- "    border-radius: 10px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    cursor: pointer;\r\n"
+- "    /*display: block;*/\r\n"
+- "    /*float: left;*/\r\n"
+- "    font-size: 20px;\r\n"
+- "    margin: -1px 0 0 5px;\r\n"
+- "    padding: 10px;\r\n"
+- "    width: 265px;\r\n"
+- "    height: 50px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "#ecapWidget_email {\r\n"
+- "    width: 250px;\r\n"
+- "    height: 40px;\r\n"
+- "    font-size: 20px;\r\n"
+- "    -webkit-border-radius: 5px;\r\n"
+- "    -moz-border-radius: 5px;\r\n"
+- "    border-radius: 5px;\r\n"
+- "    border-style: solid;\r\n"
+- "    border-width: 2px;\r\n"
+- "    border-color: #C5C5C5;\r\n"
+- "    padding-left: 10px;\r\n"
+- "    margin-bottom: 10px;\r\n"
+- "    }\r\n"
+- "        \r\n"
+- "#TMFECapWidgetecapShell2 {\r\n"
+- "    background-color: #ffffff; \r\n"
+- "    border: none; border-radius: 5px 5px 5px 5px; \r\n"
+- "    line-height: 18px; \r\n"
+- "    margin-top: 16px; \r\n"
+- "    padding: 0 20px; \r\n"
+- "    }\r\n"
+- "\r\n"
+- "#widget2header h1{\r\n"
+- "    font-weight: bold !important;\r\n"
+- "    font-size: 26px !important;\r\n"
+- "    line-height: 30px !important;\r\n"
+- "}\r\n"
+- "#ecapWidgetForm_submit2 {\r\n"
+- "    background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top #FFFFFF;\r\n"
+- "    border: medium none;\r\n"
+- "    -webkit-border-radius: 10px;\r\n"
+- "    -moz-border-radius: 10px;\r\n"
+- "    border-radius: 10px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    cursor: pointer;\r\n"
+- "    /*display: block;*/\r\n"
+- "    font-size: 20px;\r\n"
+- "    margin: -1px 0 0 5px;\r\n"
+- "    padding: 10px;\r\n"
+- "    width: 350px;\r\n"
+- "    height: 50px;\r\n"
+- "    }\r\n"
+- "    \r\n"
+- "#ecapWidgetForm_submit3 {\r\n"
+- "    background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top #FFFFFF;\r\n"
+- "    border: medium none;\r\n"
+- "    -webkit-border-radius: 10px;\r\n"
+- "    -moz-border-radius: 10px;\r\n"
+- "    border-radius: 10px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    cursor: pointer;\r\n"
+- "    /*display: block;*/\r\n"
+- "    font-size: 20px;\r\n"
+- "    margin: -1px 0 0 5px;\r\n"
+- "    padding: 10px;\r\n"
+- "    width: 350px;\r\n"
+- "    height: 50px;\r\n"
+- "    }\r\n"
+- "\r\n"
+- "#ecapWidget_email2 {\r\n"
+- "    width: 265px;\r\n"
+- "    height: 40px;\r\n"
+- "    font-size: 20px;\r\n"
+- "    -webkit-border-radius: 5px;\r\n"
+- "    -moz-border-radius: 5px;\r\n"
+- "    border-radius: 5px;\r\n"
+- "    border-style: solid;\r\n"
+- "    border-width: 2px;\r\n"
+- "    color: #C5C5C5;\r\n"
+- "    padding-left: 10px;\r\n"
+- "    margin-bottom: 10px;\r\n"
+- "    }       \r\n"
+- " \r\n"
+- ".redButton {\r\n"
+- "    background: #ffffff url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top;\r\n"
+- "    border: medium none;\r\n"
+- "    border-radius: 10px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    cursor: pointer;\r\n"
+- "    font-size: 20px;\r\n"
+- "    height: 50px;\r\n"
+- "    margin: -1px 0 0 5px;\r\n"
+- "    padding: 10px 53px;\r\n"
+- "    width: 265px;\r\n"
+- "}\r\n"
+- "\r\n"
+- "a.redButton {\r\n"
+- "    background: #ffffff url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top;\r\n"
+- "    border: medium none;\r\n"
+- "    border-radius: 10px;\r\n"
+- "    color: #ffffff;\r\n"
+- "    cursor: pointer;\r\n"
+- "    font-size: 20px;\r\n"
+- "    height: 50px;\r\n"
+- "    margin: -1px 0 0 5px;\r\n"
+- "    padding: 10px 53px;\r\n"
+- "    width: 265px;\r\n"
+- "}\r\n"
+- "        \r\n"
+- "/*********Tables Styles************/\r\n"
+- "        \r\n"
+- ".datagrid table { \r\n"
+- "    border-collapse: collapse; \r\n"
+- "     text-align: left; \r\n"
+- "    width: 100%; \r\n"
+- "    } \r\n"
+- "\r\n"
+- ".datagrid {\r\n"
+- "    font: normal 16px/150% Arial, Helvetica, sans-serif; \r\n"
+- "    background: #fff; \r\n"
+- "    overflow: hidden; \r\n"
+- "    border: 1px solid #ACACAC; \r\n"
+- "    -webkit-border-radius: 3px; \r\n"
+- "    -moz-border-radius: 3px; \r\n"
+- "    border-radius: 3px; \r\n"
+- "    }\r\n"
+- "\r\n"
+- ".datagrid table td, .datagrid table th { \r\n"
+- "    padding: 8px 10px; \r\n"
+- "    }\r\n"
+- "    \r\n"
+- ".datagrid table thead th {\r\n"
+- "    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,
+  #CECECE), color-stop(1, #BDBDBD) );\r\n"
+- "    background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );\r\n"
+- "    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+  endColorstr='#7D7D7D');\r\n"
+- "    background-color:#EBEBEB; \r\n"
+- "    color:#313131; \r\n"
+- "    font-size: 18px; \r\n"
+- "    font-weight: normal; \r\n"
+- "    border-left: 1px solid #ACACAC; \r\n"
+- "    } \r\n"
+- "    \r\n"
+- ".datagrid table thead th:first-child { \r\n"
+- "    border: none; \r\n"
+- "    }\r\n"
+- ".datagrid table tbody td { \r\n"
+- "    color: #555555; \r\n"
+- "    border-left: 1px solid #DBDBDB;\r\n"
+- "    font-size: 16px;\r\n"
+- "    font-weight: normal; \r\n"
+- "    }\r\n"
+- "    \r\n"
+- ".datagrid table tbody .alt td { \r\n"
+- "    background: #F3F3F3; \r\n"
+- "    color: #555555; }\r\n"
+- "    \r\n"
+- ".datagrid table tbody td:first-child { \r\n"
+- "    border-left: none; }\r\n"
+- ".datagrid table tbody tr:last-child td { \r\n"
+- "    border-bottom: none; }\r\n"
+- ".datagrid table tfoot td div { \r\n"
+- "    border-top: 1px solid #8C8C8C;background: #EBEBEB;} \r\n"
+- ".datagrid table tfoot td { \r\n"
+- "    padding: 0; \r\n"
+- "    font-size: 12px \r\n"
+- "    } \r\n"
+- ".datagrid table tfoot td div{ \r\n"
+- "    padding: 2px; }\r\n"
+- ".datagrid table tfoot td ul { \r\n"
+- "    margin: 0; padding:0; list-style: none; text-align: right; }\r\n"
+- ".datagrid table tfoot  li { \r\n"
+- "    display: inline; }\r\n"
+- ".datagrid table tfoot li a { \r\n"
+- "    text-decoration: none; \r\n"
+- "    display: inline-block;  \r\n"
+- "    padding: 2px 8px; \r\n"
+- "    margin: 1px;\r\n"
+- "    color: #F5F5F5;\r\n"
+- "    border: 1px solid #8C8C8C;\r\n"
+- "    -webkit-border-radius: 3px; \r\n"
+- "    -moz-border-radius: 3px; \r\n"
+- "    border-radius: 3px; \r\n"
+- "    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,
+  #8C8C8C), color-stop(1, #7D7D7D) );\r\n"
+- "    background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );\r\n"
+- "    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+  endColorstr='#7D7D7D');background-color:#8C8C8C; \r\n"
+- "    }\r\n"
+- ".datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { \r\n"
+- "    text-decoration: none;\r\n"
+- "    border-color: #7D7D7D; \r\n"
+- "    color: #F5F5F5; \r\n"
+- "    background: none; \r\n"
+- "    background-color:#8C8C8C;\r\n"
+- "    }\r\n"
+- "    \r\n"
+- "div.dhtmlx_window_active, div.dhx_modal_cover_dv { \r\n"
+- "    position: fixed !important; \r\n"
+- "    }\r\n"
+- "\r\n"
+- "   \r\n"
+- "    \r\n"
+- "\r\n"
+- " /*********Mobile Styles************/\r\n"
+- "        \r\n"
+- "\r\n"
+- "@media screen and (max-width: 740px) {\r\n"
+- "\r\n"
+- "    .header {\r\n"
+- "        margin-right: 15px;\r\n"
+- "        margin-left: 15px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .content {\r\n"
+- "           margin-right: 15px;\r\n"
+- "        margin-left: 15px;\r\n"
+- "        margin-top:30px;\r\n"
+- "        }\r\n"
+- "        \r\n"
+- "    .headercontent {\r\n"
+- "        height: 60px;\r\n"
+- "        }\r\n"
+- "        \r\n"
+- "    .graybackground {\r\n"
+- "        margin-right: 15px;\r\n"
+- "        margin-left: 15px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    p {\r\n"
+- "        font-size: 20px;\r\n"
+- "        line-height: 30px;\r\n"
+- "        margin-bottom: 20px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .content h3 {\r\n"
+- "        margin-top: 25px;\r\n"
+- "        }\r\n"
+- "        \r\n"
+- "    .imgsource {\r\n"
+- "        font-size: 12px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "     ul li {\r\n"
+- "        font-size: 20px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    img {\r\n"
+- "        max-width: 100%;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    #content p.articleMeta {\r\n"
+- "        font-size: 14px;\r\n"
+- "        margin-top: 20px;\r\n"
+- "        margin-bottom: 20px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "     .caption {\r\n"
+- "        font-size: 12px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .hotlist {\r\n"
+- "        font-size: 18px;\r\n"
+- "        line-height: 28px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .ecap {\r\n"
+- "        text-align: center;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    input#ecapWidgetForm_submit {\r\n"
+- "        margin: 0 0 0 0px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .footer p {\r\n"
+- "        font-size: 12px;\r\n"
+- "        line-height: 16px;\r\n"
+- "        }\r\n"
+- "    }\r\n"
+- "\r\n"
+- "\r\n"
+- "@media screen and (max-width: 480px) {\r\n"
+- "    h1 {\r\n"
+- "        font-size: 46px;\r\n"
+- "        line-height: 46px;\r\n"
+- "            }\r\n"
+- "\r\n"
+- "    .graytop {\r\n"
+- "        background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-gray-top-30.png\");\r\n"
+- "        height: 30px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .graybottom {\r\n"
+- "        background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-gray-bottom-30.png\");\r\n"
+- "        height: 30px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .bluebottom {\r\n"
+- "        background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-blue-bottom_480x30.png\");\r\n"
+- "        height: 20px;\r\n"
+- "        margin-bottom: -30px;\r\n"
+- "        }\r\n"
+- "    \r\n"
+- "    .headercontent {\r\n"
+- "        height: 55px;\r\n"
+- "        margin-bottom: 0px;\r\n"
+- "        \r\n"
+- "        }\r\n"
+- "    \r\n"
+- "    .logo {\r\n"
+- "        position: relative;\r\n"
+- "        overflow: visible;\r\n"
+- "        height: 25px;\r\n"
+- "        padding-right: 10px;\r\n"
+- "        font-size: 22px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .graybackground {\r\n"
+- "        background-color: #ececec;\r\n"
+- "        padding: 15px;\r\n"
+- "        margin-left: 0px;\r\n"
+- "        margin-right: 0px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    blockquote {\r\n"
+- "        padding: 0px;\r\n"
+- "        border-top: 0px;\r\n"
+- "        border-bottom: 0px;\r\n"
+- "        margin-left: 40px;\r\n"
+- "        margin-right: 30px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    blockquote p {\r\n"
+- "        font-size: 28px;\r\n"
+- "        line-height: 38px;\r\n"
+- "        margin-bottom: 30px;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "\r\n"
+- "    .right-img-wrapper {\r\n"
+- "        display: block !important;\r\n"
+- "        margin: 0 auto;\r\n"
+- "        float: none !important;\r\n"
+- "        min-width: 300px;\r\n"
+- "        max-width: 100%;\r\n"
+- "        text-align: center;\r\n"
+- "        }\r\n"
+- "\r\n"
+- "    .sideimg {\r\n"
+- "        max-width: 100%;\r\n"
+- "        }\r\n"
+- "        \r\n"
+- "    #mobilevisable {\r\n"
+- "        visibility: visible !important; \r\n"
+- "        }\r\n"
+- "        \r\n"
+- "    }    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "  var _kiq = _kiq || [];\r\n"
+- "  (function(){\r\n"
+- "    setTimeout(function(){\r\n"
+- "    var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script');
+  s.type = 'text/javascript';\r\n"
+- "    s.async = true; s.src = '//s3.amazonaws.com/ki.js/57001/cDV.js'; f.parentNode.insertBefore(s,
+  f);\r\n"
+- "    }, 1);\r\n"
+- "  })();\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "\r\n"
+- "The Motley Fool\r\n"
+- "\r\n"
+- "\r\n"
+- "                            \r\n"
+- "                            \r\n"
+- "                         \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "        \r\n"
+- "                    \r\n"
+- "                        \n"
+- |
+  The $15,978 Social Security Bonus Most Retirees Completely Overlook
+- |2+
+
+- |2+
+
+- |
+  Dear Hopeful Retiree,
+- |
+  If you're like most Americans, you're a few years (or more) behind on your retirement savings.
+- |
+  But that's okay!
+- |
+  Because a handful of little-known “Social Security secrets” could ensure a boost in your retirement income.
+- |
+  In fact, one MarketWatch reporter argues that if more Americans knew about them, the government would have to shell out an extra $10 billion annually.
+- |
+  That's money that could go towards retiring earlier, a new car, or even a vacation home!
+- |
+  For example:
+- |
+  Did you know if you're married, there's a simple 17-minute process you and your spouse can go through that could put as much as an extra $15,978 into your pockets... every year?
+- |
+  And no, this little trick has nothing to do with delaying benefits until you reach age 70... but... if you do that as well, you and your spouse would be earning even more!
+- |
+  I just read about a couple in Seattle who, after learning about this trick, boasted:
+- |
+  “We can get about $1,250 a month for the next four years, and still get 132% each at 70. That’s an extra $60,000!”
+- |
+  That's just the beginning. Did you know there's also a weird little loophole that lets you get a one-year, interest-free loan from the Social Security Administration?
+- |
+  That's not just easy money – that's free money!
+- |
+  And it's 100% legal.
+- |
+  As a matter of fact, there's an entire set of completely legal Social Security strategies that could easily add tens of thousands of dollars to your retirement.
+- |2+
+
+- |
+  Once you learn how to take advantage of all these loopholes, you could retire confidently with the peace of mind we're all after. Simply click here to discover how you can take advantage of these strategies.
+- |2+
+
+- |
+  Here’s to you and your family’s wealth,
+- |2+
+
+- |2+
+
+- |
+  Dan CaplingerSocial Security and Retirement-Planning Expert,The Motley Fool
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  The 17-minute secret to securing a $60K Social Security bonus
+- |
+  Everybody loves easy money. Which is exactly what you'll get once you discover all of the little-known, yet completely legal tips, tricks, and loopholes you can use to pocket as much money as possible from Social Security. Enter your email below to request a copy!
+- " \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  The Motley Fool has a disclosure policy.
+- |2+
+
+- |2+
+
+- |
+   
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "                    \r\n"
+- "                            \r\n"
+- "                       \r\n"
+- "                \r\n"
+- "                \r\n"
+- "\r\n"
+- "\r\n"
+- "©1995-2015 The Motley Fool. All rights reserved. |  Privacy/Legal Information\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- |
+  (function (global) {
+- "    \n"
+- |
+  var getQueryStringParam = function(param) {
+- |2
+      param = param.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+- |2
+      var regexS = "[\\?&]" + param + "=([^&#]*)";
+- |2
+      var regex = new RegExp(regexS);
+- |2
+      var results = regex.exec(window.location.search);
+- |2
+      if (results == null) {
+- |2
+          return "";
+- |2
+      } else {
+- |2
+          return decodeURIComponent(results[1].replace(/\+/g, " "));
+- |2
+      }
+- |
+  }
+- |2+
+
+- |
+  var addOrReplace = function(href, originalParam, replacementParam) {
+- |2
+      var paramPattern = new RegExp('(&|\\?)' + originalParam + '=');
+- |2
+      var valueParamPattern = new RegExp('([\\?|\\&]' + originalParam +'=)(?:[^\\&]+)?');
+- |2
+      var replacement = getQueryStringParam(replacementParam);
+- |2
+      if (!replacement) {
+- |2
+          return href
+- |2
+      }
+- "    \n"
+- |2
+      if ( (paramPattern).test(href) ) {
+- |2
+          href = href.replace(valueParamPattern, '$1' + replacement);
+- "        } \n"
+- |2
+      else {
+- |2
+          if (href.indexOf("?") == -1) {
+- |2
+              href = href + "?";
+- |2
+          } else {
+- |2
+              href = href + "&";
+- |2
+          }
+- "        href = href + originalParam + \"=\" + replacement;   \n"
+- "    } \n"
+- |2
+      return href
+- |
+  }
+- |2+
+
+- |
+  var aidSourceHandler = function (href, replacers) {
+- |2
+           if (replacers) {
+- |2
+             jQuery.each(replacers, function (k, v) {
+- |2
+                  href = addOrReplace(href, k, v);
+- |2
+              });
+- |2
+          }
+- |2
+          return href;
+- |2
+      };
+- "    \n"
+- |
+  var pitchReplace = function (href) {
+- |2
+      var replacements = {
+- |2
+          'source': 'psource',
+- |2
+          'src': 'psource',
+- |2
+          'aid': 'paid'
+- |2
+      };
+- "    \n"
+- |2
+      return aidSourceHandler(href, replacements);
+- |
+  };
+- "    \n"
+- |
+  var widgetReplace = function (href) {
+- |2
+      var replacements = {
+- |2
+        'aid': 'waid',
+- |2
+        'source': 'wsource',
+- "      'src': 'wsource'  \n"
+- |2
+      };
+- "    \n"
+- |2
+      return aidSourceHandler(href, replacements);
+- |
+  };
+- "    \n"
+- |
+  var replaceSourceAidInputs = function (form) {
+- |2
+      var replacements = {
+- |2
+        'aid': 'waid',
+- |2
+        'source': 'wsource',
+- "      'src': 'wsource'  \n"
+- |2
+      };
+- "    \n"
+- |2
+      jQuery.each(replacements, function(k, v) {
+- |2
+         jQuery(form).find('input[name='+ k +']').attr('value', getQueryStringParam(v) )
+- |2
+      });
+- "    \n"
+- |
+  };
+- "    \n"
+- |
+  var clickable = function (evt) {
+- |2
+          var fallbackUrl = 'http://fool.com/investor-alert/stock-advisor/stocks15-ac';
+- |2
+          var links = jQuery(this).find('a');
+- |2
+          if (links.length) {
+- |2
+              window.location = jQuery(links).first().attr('href');
+- |2
+          } else {
+- |2
+              window.location = widgetReplace(fallbackUrl);
+- |2
+          }
+- |2
+      }
+- |
+  var promoboxSelector = '#advertorial_promobox, .text-clickable';
+- "  \n"
+- "var qsPrepare = function () {    \n"
+- |2
+      jQuery("a").each( function () {
+- |2
+          this.href = pitchReplace(this.href)
+- |2
+      });
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      jQuery(promoboxSelector).find('a').each(function () {
+- |2
+          this.href = widgetReplace(this.href)
+- |2
+      });
+- "    \n"
+- "    \n"
+- |2
+      jQuery(document).on('submit', 'form', function () {
+- |2
+              replaceSourceAidInputs(this);
+- |2
+      });
+- "    \n"
+- |2
+      jQuery(document).on('click', promoboxSelector, clickable);
+- |
+  };
+- " \n"
+- |
+  jQuery(document).ready(qsPrepare);
+- "    \n"
+- |
+  })(window);
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "    \n"
+- |2
+             function getQueryStringParam(param) {
+- |2
+      param = param.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+- |2
+      var regexS = "[\\?&]" + param + "=([^&#]*)";
+- |2
+      var regex = new RegExp(regexS);
+- |2
+      var results = regex.exec(window.location.search);
+- |2
+      if (results == null) {
+- |2
+          return "";
+- |2
+      } else {
+- |2
+          return decodeURIComponent(results[1].replace(/\+/g, " "));
+- |2
+      }
+- "}   \n"
+- "    \n"
+- |
+  // query mod content
+- |2
+    var partner = getQueryStringParam('partner');
+- |2
+    if (partner === 'outbrain') {
+- |2
+        jQuery(".entry-content > p:last").css({display: 'none'});
+- |2
+        jQuery("#TMFECapWidget").css({display: 'none'});
+- |2
+        jQuery("#promoboxAd").css({display: 'block'});
+- |2
+        jQuery("#pitch").css({display: 'none'});
+- |2
+    }
+- "  else{  \n"
+- |2
+      jQuery("#promoboxAd").css({display: 'none'});
+- |2
+      jQuery("#advertorial").css({display: 'block'});
+- |2
+    }
+- "    \n"
+- |2
+      if (getQueryStringParam('gpitch') == '1') {
+- "        jQuery(\"#genericPitch\").css({display: 'block'});    \n"
+- |2
+          jQuery("#pitch").css({display: 'none'});
+- |2
+      }
+- "    \n"
+- "\r\n"
+- "    \r\n"
+- |2+
+
+- |2+
+
+- |2
+          jQuery(window).load(function () {
+- |
+  if (typeof(window.infotronQueue) !== "undefined") {
+- |2
+              window.infotronQueue.Register('advertorial_pitch');
+- "        window.infotronQueue.Register('TMFECapWidget');        \n"
+- "        \n"
+- |2
+          };
+- |2+
+
+- |2
+          var pitchEngine = PitchEngine();
+- |2+
+
+- "    \n"
+- |2
+              pitchEngine.initialize({
+- |2
+                  site: 'fool',
+- |2
+                  placement: 'advertorial_pitch',
+- |2
+                  pitchContainer: 'advertorial_pitch'
+- |2
+              });
+- |2+
+
+- " \n"
+- |2
+                 var pitchEngine2 = PitchEngine();
+- |2+
+
+- "    \n"
+- |2
+              pitchEngine2.initialize({
+- |2
+                  site: 'fool',
+- |2
+                  placement: 'advertorial_promobox',
+- |2
+                  pitchContainer: 'TMFECapWidget'
+- |2
+              });
+- "        \n"
+- |2
+          window.infotronQueue.EndOfPage('HomerunPageView');
+- |2+
+
+- |2+
+
+- "        });   \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- "        \r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "    window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"queueTime\":0,\"licenseKey\":\"e1dee8de0f\",\"agent\":\"js-agent.newrelic.com/nr-768.min.js\",\"transactionName\":\"blRRZRcEXBdYUkBYWVcedUQLBkYNVl8bVFVYQUAfEwxXE0oLRlRYXVRBbhUEVQE=\",\"applicationID\":\"2274815\",\"errorBeacon\":\"bam.nr-data.net\",\"applicationTime\":82}\r\n"
+- "    if (typeof window.Infotrack !== \"undefined\")  {\r\n"
+- "        window.Infotrack.initialize(\"marketing\");\r\n"
+- "    }\r\n"
+- "  \n"
+- |
+  //<![CDATA[
+- |
+  (function() {
+- |
+  var _analytics_scr = document.createElement('script');
+- |
+  _analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=3';
+- |
+  var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+- |
+  })();
+- |
+  // ]]>
+- Dear Hopeful Retiree,If you're like most Americans, you're a few years (or more)
+  behind on your retirement savings.But that's okay!Because a handful of little-known
+  “Social Security secrets” could ensure a boost in your retirement income.In fact,
+  one MarketWatch reporter argues that if more Americans knew about them, the government
+  would have to shell out an extra $10 billion annually.That's money that could go
+  towards retiring earlier, a new car, or even a vacation home!For example:Did you
+  know if you're married, there's a simple 17-minute process you and your spouse can
+  go through that could put as much as an extra $15,978 into your pockets... every
+  year?And no, this little trick has nothing to do with delaying benefits until you
+  reach age 70... but... if you do that as well, you and your spouse would be earning
+  even more!I just read about a couple in Seattle who, after learning about this trick,
+  boasted:“We can get about $1,250 a month for the next four years, and still get
+  132% each at 70. That’s an extra $60,000!”That's just the beginning. Did you know
+  there's also a weird little loophole that lets you get a one-year, interest-free
+  loan from the Social Security Administration?That's not just easy money – that's
+  free money!And it's 100% legal.As a matter of fact, there's an entire set of completely
+  legal Social Security strategies that could easily add tens of thousands of dollars
+  to your retirement.Once you learn how to take advantage of all these loopholes,
+  you could retire confidently with the peace of mind we're all after. Simply click
+  here to discover how you can take advantage of these strategies.Here’s to you and
+  your family’s wealth,Dan CaplingerSocial Security and Retirement-Planning Expert,The
+  Motley FoolEverybody loves easy money. Which is exactly what you'll get once you
+  discover all of the little-known, yet completely legal tips, tricks, and loopholes
+  you can use to pocket as much money as possible from Social Security. Enter your
+  email below to request a copy! ©1995-2015 The Motley Fool. All rights reserved.
+  |  Privacy/Legal Information
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 113.0
+    docPositions:
+    - 1
+    - 3
+    - 5
+    - 6
+    - 11
+    - 19
+    - 28
+    - 32
+    - 37
+    - 42
+    - 43
+    - 47
+    - 55
+    - 60
+    - 70
+    - 80
+    - 90
+    - 111
+    - 118
+    - 124
+    - 132
+    - 134
+    - 141
+    - 146
+    - 152
+    - 157
+    - 158
+    - 162
+    - 163
+    - 171
+    - 175
+    - 176
+    - 185
+    - 193
+    - 198
+    - 201
+    - 202
+    - 206
+    - 214
+    - 217
+    - 218
+    - 222
+    - 230
+    - 234
+    - 235
+    - 244
+    - 270
+    - 272
+    - 278
+    - 283
+    - 284
+    - 288
+    - 292
+    - 303
+    - 306
+    - 313
+    - 317
+    - 319
+    - 321
+    - 323
+    - 327
+    - 329
+    - 331
+    - 333
+    - 340
+    - 341
+    - 347
+    - 362
+    - 365
+    - 367
+    - 372
+    - 378
+    - 382
+    - 393
+    - 397
+    - 409
+    - 415
+    - 419
+    - 424
+    - 432
+    - 439
+    - 445
+    - 450
+    - 455
+    - 461
+    - 467
+    - 475
+    - 497
+    - 506
+    - 510
+    - 519
+    - 523
+    - 561
+    - 599
+    - 608
+    - 617
+    - 636
+    - 655
+    - 656
+    - 657
+    - 665
+    - 666
+    - 667
+    - 675
+    - 676
+    - 677
+    - 691
+    - 718
+    - 731
+    - 736
+    - 800
+    - 801
+  iframe: !ruby/object:Word
+    word: iframe
+    stem: ifram
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 2
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 6
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 6
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 6
+  gtm: !ruby/object:Word
+    word: gtm
+    stem: gtm
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 3
+    - 6
+    - 10
+  ns: !ruby/object:Word
+    word: ns
+    stem: ns
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 803
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 3
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 178
+    - 237
+    - 330
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 16.0
+    docPositions:
+    - 2
+    - 162
+    - 206
+    - 222
+    - 332
+    - 335
+    - 498
+    - 739
+    - 740
+    - 741
+    - 742
+    - 745
+    - 746
+    - 750
+    - 751
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 21.0
+    docPositions:
+    - 2
+    - 156
+    - 187
+    - 200
+    - 216
+    - 246
+    - 259
+    - 304
+    - 318
+    - 320
+    - 330
+    - 334
+    - 348
+    - 351
+    - 500
+    - 739
+    - 740
+    - 742
+    - 745
+    - 751
+  visibility: !ruby/object:Word
+    word: visibility
+    stem: visibl
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 511
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 281
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 33.0
+    docPositions:
+    - 2
+    - 25
+    - 51
+    - 62
+    - 73
+    - 83
+    - 92
+    - 107
+    - 114
+    - 121
+    - 127
+    - 136
+    - 168
+    - 173
+    - 188
+    - 196
+    - 211
+    - 227
+    - 232
+    - 251
+    - 264
+    - 379
+    - 389
+    - 421
+    - 434
+    - 442
+    - 447
+    - 452
+    - 457
+    - 462
+    - 470
+    - 492
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 23.0
+    docPositions:
+    - 2
+    - 29
+    - 33
+    - 38
+    - 49
+    - 147
+    - 167
+    - 172
+    - 179
+    - 210
+    - 226
+    - 231
+    - 238
+    - 254
+    - 267
+    - 275
+    - 365
+    - 406
+    - 439
+    - 501
+    - 502
+    - 507
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 21.0
+    docPositions:
+    - 3
+    - 519
+    - 520
+    - 608
+    - 610
+    - 622
+    - 644
+    - 646
+    - 653
+    - 663
+    - 673
+    - 680
+    - 686
+    - 697
+    - 698
+    - 704
+    - 709
+    - 724
+    - 758
+    - 801
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 11.0
+    docPositions:
+    - 3
+    - 6
+    - 8
+    - 105
+    - 124
+    - 387
+    - 409
+    - 432
+    - 490
+    - 739
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 10.0
+    docPositions:
+    - 3
+    - 4
+    - 7
+    - 8
+    - 9
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 8.0
+    docPositions:
+    - 3
+    - 8
+    - 9
+    - 560
+    - 807
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 7
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 10.0
+    docPositions:
+    - 3
+    - 4
+    - 7
+    - 521
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 13.0
+    docPositions:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 4
+    - 5
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 8.0
+    docPositions:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 6.0
+    docPositions:
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+  datalayer: !ruby/object:Word
+    word: datalayer
+    stem: datalay
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  sync: !ruby/object:Word
+    word: sync
+    stem: sync
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 6
+    - 8
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 24.0
+    docPositions:
+    - 4
+    - 5
+    - 7
+    - 8
+    - 552
+    - 555
+    - 558
+    - 559
+    - 615
+    - 626
+    - 630
+    - 634
+    - 645
+    - 689
+    - 729
+    - 738
+    - 749
+    - 759
+    - 796
+    - 807
+  gac: !ruby/object:Word
+    word: gac
+    stem: gac
+    docFrequency: 3.0
+    docPositions:
+    - 4
+    - 5
+  __utma: !ruby/object:Word
+    word: __utma
+    stem: __utma
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  gax: !ruby/object:Word
+    word: gax
+    stem: gax
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 13.0
+    docPositions:
+    - 4
+    - 5
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+    - 618
+    - 732
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  replace: !ruby/object:Word
+    word: replace
+    stem: replac
+    docFrequency: 9.0
+    docPositions:
+    - 4
+    - 611
+    - 618
+    - 631
+    - 725
+    - 732
+  match: !ruby/object:Word
+    word: match
+    stem: match
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  sort: !ruby/object:Word
+    word: sort
+    stem: sort
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  hasownproperty: !ruby/object:Word
+    word: hasownproperty
+    stem: hasownproperti
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 8.0
+    docPositions:
+    - 8
+    - 617
+    - 633
+    - 636
+    - 691
+    - 731
+    - 744
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 5.0
+    docPositions:
+    - 9
+    - 10
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 521
+    - 802
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 522
+    - 803
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 7.0
+    docPositions:
+    - 9
+    - 10
+    - 521
+    - 522
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 521
+    - 804
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 4.0
+    docPositions:
+    - 10
+    - 522
+    - 804
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 4.0
+    docPositions:
+    - 10
+    - 522
+    - 804
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 8.0
+    docPositions:
+    - 10
+    - 556
+    - 613
+    - 623
+    - 624
+    - 727
+    - 807
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 15.0
+    docPositions:
+    - 10
+    - 614
+    - 690
+    - 692
+    - 718
+    - 728
+    - 758
+    - 759
+    - 760
+    - 761
+    - 784
+    - 795
+    - 796
+    - 797
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 8.0
+    docPositions:
+    - 10
+    - 521
+    - 709
+    - 713
+    - 716
+    - 802
+    - 804
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 6.0
+    docPositions:
+    - 11
+    - 521
+    - 802
+    - 804
+  encodeuricomponent: !ruby/object:Word
+    word: encodeuricomponent
+    stem: encodeuricompon
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 20
+  styles: !ruby/object:Word
+    word: styles
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 19
+    - 42
+    - 80
+    - 132
+    - 152
+    - 270
+    - 362
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 47.0
+    docPositions:
+    - 21
+    - 34
+    - 39
+    - 48
+    - 52
+    - 87
+    - 93
+    - 94
+    - 102
+    - 108
+    - 113
+    - 119
+    - 125
+    - 137
+    - 138
+    - 143
+    - 165
+    - 182
+    - 189
+    - 208
+    - 224
+    - 241
+    - 252
+    - 265
+    - 330
+    - 337
+    - 368
+    - 369
+    - 373
+    - 374
+    - 375
+    - 383
+    - 384
+    - 390
+    - 394
+    - 411
+    - 412
+    - 429
+    - 458
+    - 463
+    - 478
+    - 479
+    - 486
+    - 487
+    - 493
+    - 499
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 22.0
+    docPositions:
+    - 22
+    - 56
+    - 63
+    - 74
+    - 99
+    - 166
+    - 181
+    - 190
+    - 209
+    - 225
+    - 240
+    - 253
+    - 266
+    - 289
+    - 324
+    - 328
+    - 330
+    - 336
+    - 471
+    - 477
+    - 483
+  font: !ruby/object:Word
+    word: font
+    stem: font
+    docFrequency: 35.0
+    docPositions:
+    - 23
+    - 24
+    - 88
+    - 91
+    - 106
+    - 112
+    - 120
+    - 126
+    - 135
+    - 164
+    - 174
+    - 194
+    - 195
+    - 207
+    - 223
+    - 233
+    - 250
+    - 263
+    - 279
+    - 298
+    - 299
+    - 309
+    - 310
+    - 325
+    - 388
+    - 398
+    - 402
+    - 410
+    - 416
+    - 420
+    - 433
+    - 441
+    - 472
+    - 491
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 4.0
+    docPositions:
+    - 23
+    - 569
+    - 807
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 5.0
+    docPositions:
+    - 23
+    - 655
+    - 666
+    - 676
+  sans: !ruby/object:Word
+    word: sans
+    stem: san
+    docFrequency: 4.0
+    docPositions:
+    - 23
+    - 279
+  pro: !ruby/object:Word
+    word: pro
+    stem: pro
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  serif: !ruby/object:Word
+    word: serif
+    stem: serif
+    docFrequency: 3.0
+    docPositions:
+    - 23
+    - 279
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 30.0
+    docPositions:
+    - 24
+    - 88
+    - 91
+    - 106
+    - 112
+    - 120
+    - 126
+    - 135
+    - 164
+    - 174
+    - 195
+    - 207
+    - 223
+    - 233
+    - 250
+    - 263
+    - 298
+    - 309
+    - 325
+    - 388
+    - 398
+    - 402
+    - 410
+    - 416
+    - 420
+    - 433
+    - 441
+    - 472
+    - 491
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 16.0
+    docPositions:
+    - 25
+    - 83
+    - 92
+    - 107
+    - 114
+    - 121
+    - 127
+    - 136
+    - 188
+    - 196
+    - 389
+    - 421
+    - 434
+    - 442
+    - 492
+  container: !ruby/object:Word
+    word: container
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 7.0
+    docPositions:
+    - 32
+    - 372
+    - 393
+    - 409
+    - 736
+    - 739
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 10.0
+    docPositions:
+    - 33
+    - 38
+    - 49
+    - 147
+    - 365
+    - 406
+    - 439
+    - 502
+    - 507
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 39
+    - 48
+    - 499
+  graybackground: !ruby/object:Word
+    word: graybackground
+    stem: graybackground
+    docFrequency: 4.0
+    docPositions:
+    - 37
+    - 382
+    - 475
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 367
+  hd: !ruby/object:Word
+    word: hd
+    stem: hd
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  wrapper: !ruby/object:Word
+    word: wrapper
+    stem: wrapper
+    docFrequency: 4.0
+    docPositions:
+    - 43
+    - 141
+    - 497
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 23.0
+    docPositions:
+    - 44
+    - 155
+    - 186
+    - 199
+    - 215
+    - 245
+    - 258
+    - 280
+    - 293
+    - 294
+    - 296
+    - 314
+    - 322
+    - 343
+    - 344
+    - 345
+    - 351
+    - 352
+    - 446
+    - 451
+    - 456
+    - 476
+  color: !ruby/object:Word
+    word: color
+    stem: color
+    docFrequency: 27.0
+    docPositions:
+    - 44
+    - 50
+    - 67
+    - 95
+    - 160
+    - 180
+    - 186
+    - 204
+    - 220
+    - 239
+    - 248
+    - 261
+    - 293
+    - 296
+    - 297
+    - 307
+    - 315
+    - 338
+    - 343
+    - 345
+    - 349
+    - 350
+    - 352
+    - 476
+  headercontent: !ruby/object:Word
+    word: headercontent
+    stem: headercont
+    docFrequency: 4.0
+    docPositions:
+    - 47
+    - 378
+    - 461
+  ffffff: !ruby/object:Word
+    word: ffffff
+    stem: ffffff
+    docFrequency: 14.0
+    docPositions:
+    - 50
+    - 67
+    - 155
+    - 160
+    - 186
+    - 199
+    - 204
+    - 215
+    - 220
+    - 245
+    - 248
+    - 258
+    - 261
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 18.0
+    docPositions:
+    - 52
+    - 93
+    - 101
+    - 108
+    - 137
+    - 182
+    - 241
+    - 293
+    - 320
+    - 343
+    - 390
+    - 412
+    - 451
+    - 458
+    - 463
+    - 485
+    - 493
+  navmenu: !ruby/object:Word
+    word: navmenu
+    stem: navmenu
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  dropdown: !ruby/object:Word
+    word: dropdown
+    stem: dropdown
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 66
+  float: !ruby/object:Word
+    word: float
+    stem: float
+    docFrequency: 6.0
+    docPositions:
+    - 61
+    - 75
+    - 142
+    - 163
+    - 500
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 24.0
+    docPositions:
+    - 61
+    - 143
+    - 155
+    - 163
+    - 181
+    - 199
+    - 215
+    - 240
+    - 245
+    - 258
+    - 274
+    - 293
+    - 300
+    - 308
+    - 318
+    - 343
+    - 369
+    - 374
+    - 384
+    - 478
+    - 486
+  toggle: !ruby/object:Word
+    word: toggle
+    stem: toggl
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 467
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 356
+    - 468
+  relative: !ruby/object:Word
+    word: relative
+    stem: rel
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 468
+  overflow: !ruby/object:Word
+    word: overflow
+    stem: overflow
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 281
+    - 469
+  visible: !ruby/object:Word
+    word: visible
+    stem: visibl
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 469
+    - 511
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 12.0
+    docPositions:
+    - 75
+    - 141
+    - 142
+    - 330
+    - 368
+    - 373
+    - 383
+    - 471
+    - 479
+    - 487
+    - 497
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 12.0
+    docPositions:
+    - 80
+    - 115
+    - 274
+    - 330
+    - 334
+    - 348
+    - 425
+    - 503
+    - 521
+    - 695
+    - 803
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 24.0
+    docPositions:
+    - 87
+    - 94
+    - 100
+    - 113
+    - 119
+    - 125
+    - 138
+    - 155
+    - 189
+    - 199
+    - 215
+    - 245
+    - 258
+    - 293
+    - 294
+    - 322
+    - 343
+    - 344
+    - 375
+    - 394
+    - 411
+    - 446
+    - 484
+  byline: !ruby/object:Word
+    word: byline
+    stem: bylin
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  blockquote: !ruby/object:Word
+    word: blockquote
+    stem: blockquot
+    docFrequency: 4.0
+    docPositions:
+    - 98
+    - 482
+    - 490
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 50.0
+    docPositions:
+    - 100
+    - 101
+    - 156
+    - 157
+    - 158
+    - 159
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 187
+    - 200
+    - 201
+    - 202
+    - 203
+    - 216
+    - 217
+    - 218
+    - 219
+    - 234
+    - 235
+    - 236
+    - 237
+    - 238
+    - 246
+    - 247
+    - 259
+    - 260
+    - 273
+    - 282
+    - 283
+    - 284
+    - 285
+    - 300
+    - 304
+    - 308
+    - 318
+    - 320
+    - 322
+    - 339
+    - 340
+    - 341
+    - 342
+    - 349
+    - 484
+    - 485
+  dotted: !ruby/object:Word
+    word: dotted
+    stem: dot
+    docFrequency: 3.0
+    docPositions:
+    - 100
+    - 101
+  bbbbbb: !ruby/object:Word
+    word: bbbbbb
+    stem: bbbbbb
+    docFrequency: 3.0
+    docPositions:
+    - 100
+    - 101
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 111
+    - 599
+    - 807
+  align: !ruby/object:Word
+    word: align
+    stem: align
+    docFrequency: 6.0
+    docPositions:
+    - 115
+    - 274
+    - 330
+    - 425
+    - 503
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 6.0
+    docPositions:
+    - 115
+    - 294
+    - 344
+    - 425
+    - 503
+  disclosure: !ruby/object:Word
+    word: disclosure
+    stem: disclosur
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 584
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 432
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  imgsource: !ruby/object:Word
+    word: imgsource
+    stem: imgsourc
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 397
+  img: !ruby/object:Word
+    word: img
+    stem: img
+    docFrequency: 4.0
+    docPositions:
+    - 141
+    - 405
+    - 497
+  sideimg: !ruby/object:Word
+    word: sideimg
+    stem: sideimg
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 506
+  ecap: !ruby/object:Word
+    word: ecap
+    stem: ecap
+    docFrequency: 3.0
+    docPositions:
+    - 152
+    - 424
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 5.0
+    docPositions:
+    - 152
+    - 673
+    - 681
+    - 709
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 2.0
+    docPositions:
+    - 152
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 4.0
+    docPositions:
+    - 154
+    - 428
+    - 681
+  ecapwidgetform_submit: !ruby/object:Word
+    word: ecapwidgetform_submit
+    stem: ecapwidgetform_submit
+    docFrequency: 3.0
+    docPositions:
+    - 154
+    - 428
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+  foolcdn: !ruby/object:Word
+    word: foolcdn
+    stem: foolcdn
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+  shop: !ruby/object:Word
+    word: shop
+    stem: shop
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 9.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+    - 446
+    - 451
+    - 456
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  bg: !ruby/object:Word
+    word: bg
+    stem: bg
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  grad: !ruby/object:Word
+    word: grad
+    stem: grad
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  jpg: !ruby/object:Word
+    word: jpg
+    stem: jpg
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  repeat: !ruby/object:Word
+    word: repeat
+    stem: repeat
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  scroll: !ruby/object:Word
+    word: scroll
+    stem: scroll
+    docFrequency: 6.0
+    docPositions:
+    - 155
+    - 199
+    - 215
+    - 245
+    - 258
+  medium: !ruby/object:Word
+    word: medium
+    stem: medium
+    docFrequency: 6.0
+    docPositions:
+    - 156
+    - 200
+    - 216
+    - 246
+    - 259
+  webkit: !ruby/object:Word
+    word: webkit
+    stem: webkit
+    docFrequency: 10.0
+    docPositions:
+    - 157
+    - 175
+    - 201
+    - 217
+    - 234
+    - 283
+    - 293
+    - 340
+    - 343
+  radius: !ruby/object:Word
+    word: radius
+    stem: radiu
+    docFrequency: 25.0
+    docPositions:
+    - 157
+    - 158
+    - 159
+    - 175
+    - 176
+    - 177
+    - 187
+    - 201
+    - 202
+    - 203
+    - 217
+    - 218
+    - 219
+    - 234
+    - 235
+    - 236
+    - 247
+    - 260
+    - 283
+    - 284
+    - 285
+    - 340
+    - 341
+    - 342
+  moz: !ruby/object:Word
+    word: moz
+    stem: moz
+    docFrequency: 10.0
+    docPositions:
+    - 158
+    - 176
+    - 202
+    - 218
+    - 235
+    - 284
+    - 294
+    - 341
+    - 344
+  cursor: !ruby/object:Word
+    word: cursor
+    stem: cursor
+    docFrequency: 6.0
+    docPositions:
+    - 161
+    - 205
+    - 221
+    - 249
+    - 262
+  pointer: !ruby/object:Word
+    word: pointer
+    stem: pointer
+    docFrequency: 6.0
+    docPositions:
+    - 161
+    - 205
+    - 221
+    - 249
+    - 262
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 9.0
+    docPositions:
+    - 162
+    - 206
+    - 222
+    - 335
+    - 498
+    - 741
+    - 746
+    - 750
+  ecapwidget_email: !ruby/object:Word
+    word: ecapwidget_email
+    stem: ecapwidget_email
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  solid: !ruby/object:Word
+    word: solid
+    stem: solid
+    docFrequency: 8.0
+    docPositions:
+    - 178
+    - 237
+    - 282
+    - 300
+    - 308
+    - 322
+    - 339
+  weight: !ruby/object:Word
+    word: weight
+    stem: weight
+    docFrequency: 4.0
+    docPositions:
+    - 194
+    - 299
+    - 310
+  bold: !ruby/object:Word
+    word: bold
+    stem: bold
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 8.0
+    docPositions:
+    - 194
+    - 195
+    - 196
+    - 356
+    - 498
+    - 500
+    - 511
+  redbutton: !ruby/object:Word
+    word: redbutton
+    stem: redbutton
+    docFrequency: 3.0
+    docPositions:
+    - 244
+    - 257
+  tables: !ruby/object:Word
+    word: tables
+    stem: tabl
+    docFrequency: 2.0
+    docPositions:
+    - 270
+  datagrid: !ruby/object:Word
+    word: datagrid
+    stem: datagrid
+    docFrequency: 19.0
+    docPositions:
+    - 272
+    - 278
+    - 288
+    - 292
+    - 303
+    - 306
+    - 313
+    - 317
+    - 319
+    - 321
+    - 323
+    - 327
+    - 329
+    - 331
+    - 333
+    - 347
+  table: !ruby/object:Word
+    word: table
+    stem: tabl
+    docFrequency: 18.0
+    docPositions:
+    - 272
+    - 288
+    - 292
+    - 303
+    - 306
+    - 313
+    - 317
+    - 319
+    - 321
+    - 323
+    - 327
+    - 329
+    - 331
+    - 333
+    - 347
+  collapse: !ruby/object:Word
+    word: collapse
+    stem: collaps
+    docFrequency: 3.0
+    docPositions:
+    - 273
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 299
+    - 310
+  arial: !ruby/object:Word
+    word: arial
+    stem: arial
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  helvetica: !ruby/object:Word
+    word: helvetica
+    stem: helvetica
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  fff: !ruby/object:Word
+    word: fff
+    stem: fff
+    docFrequency: 2.0
+    docPositions:
+    - 280
+  acacac: !ruby/object:Word
+    word: acacac
+    stem: acacac
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 300
+  td: !ruby/object:Word
+    word: td
+    stem: td
+    docFrequency: 10.0
+    docPositions:
+    - 288
+    - 306
+    - 313
+    - 317
+    - 319
+    - 321
+    - 323
+    - 327
+    - 329
+  th: !ruby/object:Word
+    word: th
+    stem: th
+    docFrequency: 4.0
+    docPositions:
+    - 288
+    - 292
+    - 303
+  thead: !ruby/object:Word
+    word: thead
+    stem: thead
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 303
+  gradient: !ruby/object:Word
+    word: gradient
+    stem: gradient
+    docFrequency: 7.0
+    docPositions:
+    - 293
+    - 294
+    - 295
+    - 343
+    - 344
+    - 345
+  linear: !ruby/object:Word
+    word: linear
+    stem: linear
+    docFrequency: 5.0
+    docPositions:
+    - 293
+    - 294
+    - 343
+    - 344
+  stop: !ruby/object:Word
+    word: stop
+    stem: stop
+    docFrequency: 5.0
+    docPositions:
+    - 293
+    - 343
+  cecece: !ruby/object:Word
+    word: cecece
+    stem: cecec
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  bdbdbd: !ruby/object:Word
+    word: bdbdbd
+    stem: bdbdbd
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  progid: !ruby/object:Word
+    word: progid
+    stem: progid
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  dximagetransform: !ruby/object:Word
+    word: dximagetransform
+    stem: dximagetransform
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  microsoft: !ruby/object:Word
+    word: microsoft
+    stem: microsoft
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  startcolorstr: !ruby/object:Word
+    word: startcolorstr
+    stem: startcolorstr
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  endcolorstr: !ruby/object:Word
+    word: endcolorstr
+    stem: endcolorstr
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 345
+  ebebeb: !ruby/object:Word
+    word: ebebeb
+    stem: ebebeb
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 322
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 4.0
+    docPositions:
+    - 303
+    - 317
+    - 690
+  child: !ruby/object:Word
+    word: child
+    stem: child
+    docFrequency: 4.0
+    docPositions:
+    - 303
+    - 317
+    - 319
+  tbody: !ruby/object:Word
+    word: tbody
+    stem: tbodi
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 313
+    - 317
+    - 319
+  dbdbdb: !ruby/object:Word
+    word: dbdbdb
+    stem: dbdbdb
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 313
+  tr: !ruby/object:Word
+    word: tr
+    stem: tr
+    docFrequency: 2.0
+    docPositions:
+    - 319
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 319
+    - 739
+  tfoot: !ruby/object:Word
+    word: tfoot
+    stem: tfoot
+    docFrequency: 9.0
+    docPositions:
+    - 321
+    - 323
+    - 327
+    - 329
+    - 331
+    - 333
+    - 347
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 8.0
+    docPositions:
+    - 321
+    - 327
+    - 355
+    - 446
+    - 451
+    - 456
+  ul: !ruby/object:Word
+    word: ul
+    stem: ul
+    docFrequency: 5.0
+    docPositions:
+    - 329
+    - 347
+    - 401
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 330
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 4.0
+    docPositions:
+    - 331
+    - 333
+    - 401
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 335
+  decoration: !ruby/object:Word
+    word: decoration
+    stem: decor
+    docFrequency: 3.0
+    docPositions:
+    - 334
+    - 348
+  active: !ruby/object:Word
+    word: active
+    stem: activ
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  hover: !ruby/object:Word
+    word: hover
+    stem: hover
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  dhtmlx_window_active: !ruby/object:Word
+    word: dhtmlx_window_active
+    stem: dhtmlx_window_act
+    docFrequency: 2.0
+    docPositions:
+    - 355
+  dhx_modal_cover_dv: !ruby/object:Word
+    word: dhx_modal_cover_dv
+    stem: dhx_modal_cover_dv
+    docFrequency: 2.0
+    docPositions:
+    - 355
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 362
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 439
+  screen: !ruby/object:Word
+    word: screen
+    stem: screen
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 439
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 19.0
+    docPositions:
+    - 365
+    - 439
+    - 558
+    - 559
+    - 561
+    - 564
+    - 569
+    - 572
+    - 579
+    - 807
+  articlemeta: !ruby/object:Word
+    word: articlemeta
+    stem: articlemeta
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  caption: !ruby/object:Word
+    word: caption
+    stem: caption
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  hotlist: !ruby/object:Word
+    word: hotlist
+    stem: hotlist
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  graytop: !ruby/object:Word
+    word: graytop
+    stem: graytop
+    docFrequency: 2.0
+    docPositions:
+    - 445
+  gray: !ruby/object:Word
+    word: gray
+    stem: grai
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 451
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 4.0
+    docPositions:
+    - 446
+    - 451
+    - 456
+  graybottom: !ruby/object:Word
+    word: graybottom
+    stem: graybottom
+    docFrequency: 2.0
+    docPositions:
+    - 450
+  bluebottom: !ruby/object:Word
+    word: bluebottom
+    stem: bluebottom
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  blue: !ruby/object:Word
+    word: blue
+    stem: blue
+    docFrequency: 2.0
+    docPositions:
+    - 456
+  ececec: !ruby/object:Word
+    word: ececec
+    stem: ececec
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 795
+  mobilevisable: !ruby/object:Word
+    word: mobilevisable
+    stem: mobilevis
+    docFrequency: 2.0
+    docPositions:
+    - 510
+  _kiq: !ruby/object:Word
+    word: _kiq
+    stem: _kiq
+    docFrequency: 3.0
+    docPositions:
+    - 518
+  settimeout: !ruby/object:Word
+    word: settimeout
+    stem: settimeout
+    docFrequency: 2.0
+    docPositions:
+    - 520
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 30.0
+    docPositions:
+    - 521
+    - 522
+    - 553
+    - 556
+    - 558
+    - 561
+    - 562
+    - 563
+    - 564
+    - 565
+    - 569
+    - 807
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 521
+    - 803
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 522
+    - 803
+  amazonaws: !ruby/object:Word
+    word: amazonaws
+    stem: amazonaw
+    docFrequency: 2.0
+    docPositions:
+    - 522
+  ki: !ruby/object:Word
+    word: ki
+    stem: ki
+    docFrequency: 2.0
+    docPositions:
+    - 522
+  cdv: !ruby/object:Word
+    word: cdv
+    stem: cdv
+    docFrequency: 2.0
+    docPositions:
+    - 522
+  motley: !ruby/object:Word
+    word: motley
+    stem: motlei
+    docFrequency: 7.0
+    docPositions:
+    - 534
+    - 572
+    - 584
+    - 599
+    - 807
+  fool: !ruby/object:Word
+    word: fool
+    stem: fool
+    docFrequency: 9.0
+    docPositions:
+    - 534
+    - 572
+    - 584
+    - 599
+    - 687
+    - 769
+    - 779
+    - 807
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 11.0
+    docPositions:
+    - 548
+    - 554
+    - 562
+    - 565
+    - 578
+    - 579
+    - 807
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 13.0
+    docPositions:
+    - 548
+    - 554
+    - 562
+    - 565
+    - 572
+    - 578
+    - 579
+    - 807
+  bonus: !ruby/object:Word
+    word: bonus
+    stem: bonu
+    docFrequency: 3.0
+    docPositions:
+    - 548
+    - 578
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 4.0
+    docPositions:
+    - 548
+    - 552
+    - 807
+  retirees: !ruby/object:Word
+    word: retirees
+    stem: retire
+    docFrequency: 2.0
+    docPositions:
+    - 548
+  completely: !ruby/object:Word
+    word: completely
+    stem: complet
+    docFrequency: 6.0
+    docPositions:
+    - 548
+    - 565
+    - 579
+    - 807
+  overlook: !ruby/object:Word
+    word: overlook
+    stem: overlook
+    docFrequency: 2.0
+    docPositions:
+    - 548
+  dear: !ruby/object:Word
+    word: dear
+    stem: dear
+    docFrequency: 3.0
+    docPositions:
+    - 551
+    - 807
+  hopeful: !ruby/object:Word
+    word: hopeful
+    stem: hope
+    docFrequency: 3.0
+    docPositions:
+    - 551
+    - 807
+  retiree: !ruby/object:Word
+    word: retiree
+    stem: retire
+    docFrequency: 3.0
+    docPositions:
+    - 551
+    - 807
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 35.0
+    docPositions:
+    - 552
+    - 558
+    - 559
+    - 562
+    - 567
+    - 569
+    - 579
+    - 807
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 9.0
+    docPositions:
+    - 552
+    - 558
+    - 567
+    - 807
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 807
+  americans: !ruby/object:Word
+    word: americans
+    stem: american
+    docFrequency: 5.0
+    docPositions:
+    - 552
+    - 555
+    - 807
+  few: !ruby/object:Word
+    word: few
+    stem: few
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 807
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 552
+    - 561
+    - 807
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 7.0
+    docPositions:
+    - 552
+    - 555
+    - 559
+    - 807
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 807
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 17.0
+    docPositions:
+    - 552
+    - 554
+    - 558
+    - 559
+    - 565
+    - 569
+    - 579
+    - 807
+  retirement: !ruby/object:Word
+    word: retirement
+    stem: retir
+    docFrequency: 9.0
+    docPositions:
+    - 552
+    - 554
+    - 565
+    - 572
+    - 807
+  savings: !ruby/object:Word
+    word: savings
+    stem: save
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 807
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 5.0
+    docPositions:
+    - 553
+    - 559
+    - 807
+  okay: !ruby/object:Word
+    word: okay
+    stem: okai
+    docFrequency: 3.0
+    docPositions:
+    - 553
+    - 807
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  handful: !ruby/object:Word
+    word: handful
+    stem: hand
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 9.0
+    docPositions:
+    - 554
+    - 559
+    - 562
+    - 579
+    - 807
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 5.0
+    docPositions:
+    - 554
+    - 579
+    - 807
+  secrets: !ruby/object:Word
+    word: secrets
+    stem: secret
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 11.0
+    docPositions:
+    - 554
+    - 556
+    - 558
+    - 565
+    - 567
+    - 807
+  ensure: !ruby/object:Word
+    word: ensure
+    stem: ensur
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  boost: !ruby/object:Word
+    word: boost
+    stem: boost
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  income: !ruby/object:Word
+    word: income
+    stem: incom
+    docFrequency: 3.0
+    docPositions:
+    - 554
+    - 807
+  fact: !ruby/object:Word
+    word: fact
+    stem: fact
+    docFrequency: 5.0
+    docPositions:
+    - 555
+    - 565
+    - 807
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 5.0
+    docPositions:
+    - 555
+    - 562
+    - 807
+  marketwatch: !ruby/object:Word
+    word: marketwatch
+    stem: marketwatch
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  reporter: !ruby/object:Word
+    word: reporter
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  argues: !ruby/object:Word
+    word: argues
+    stem: argu
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  knew: !ruby/object:Word
+    word: knew
+    stem: knew
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 5.0
+    docPositions:
+    - 555
+    - 559
+    - 807
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  shell: !ruby/object:Word
+    word: shell
+    stem: shell
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 7.0
+    docPositions:
+    - 555
+    - 558
+    - 561
+    - 807
+  billion: !ruby/object:Word
+    word: billion
+    stem: billion
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  annually: !ruby/object:Word
+    word: annually
+    stem: annual
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 807
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 11.0
+    docPositions:
+    - 556
+    - 563
+    - 579
+    - 807
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 5.0
+    docPositions:
+    - 556
+    - 558
+    - 807
+  towards: !ruby/object:Word
+    word: towards
+    stem: toward
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  retiring: !ruby/object:Word
+    word: retiring
+    stem: retir
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  earlier: !ruby/object:Word
+    word: earlier
+    stem: earlier
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  car: !ruby/object:Word
+    word: car
+    stem: car
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 5.0
+    docPositions:
+    - 556
+    - 559
+    - 807
+  vacation: !ruby/object:Word
+    word: vacation
+    stem: vacat
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 556
+    - 807
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 3.0
+    docPositions:
+    - 557
+    - 807
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 5.0
+    docPositions:
+    - 558
+    - 562
+    - 807
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 5.0
+    docPositions:
+    - 558
+    - 562
+    - 807
+  married: !ruby/object:Word
+    word: married
+    stem: marri
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 7.0
+    docPositions:
+    - 558
+    - 562
+    - 565
+    - 807
+  simple: !ruby/object:Word
+    word: simple
+    stem: simpl
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  minute: !ruby/object:Word
+    word: minute
+    stem: minut
+    docFrequency: 4.0
+    docPositions:
+    - 558
+    - 578
+    - 807
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  spouse: !ruby/object:Word
+    word: spouse
+    stem: spous
+    docFrequency: 5.0
+    docPositions:
+    - 558
+    - 559
+    - 807
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 9.0
+    docPositions:
+    - 558
+    - 561
+    - 567
+    - 579
+    - 807
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  put: !ruby/object:Word
+    word: put
+    stem: put
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 5.0
+    docPositions:
+    - 558
+    - 579
+    - 807
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  pockets: !ruby/object:Word
+    word: pockets
+    stem: pocket
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 558
+    - 807
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 558
+    - 562
+    - 807
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  trick: !ruby/object:Word
+    word: trick
+    stem: trick
+    docFrequency: 5.0
+    docPositions:
+    - 559
+    - 560
+    - 807
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 4.0
+    docPositions:
+    - 559
+    - 584
+    - 807
+  nothing: !ruby/object:Word
+    word: nothing
+    stem: noth
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 5.0
+    docPositions:
+    - 559
+    - 807
+  delaying: !ruby/object:Word
+    word: delaying
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  benefits: !ruby/object:Word
+    word: benefits
+    stem: benefit
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  reach: !ruby/object:Word
+    word: reach
+    stem: reach
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  age: !ruby/object:Word
+    word: age
+    stem: ag
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  earning: !ruby/object:Word
+    word: earning
+    stem: earn
+    docFrequency: 3.0
+    docPositions:
+    - 559
+    - 807
+  just: !ruby/object:Word
+    word: just
+    stem: just
+    docFrequency: 7.0
+    docPositions:
+    - 560
+    - 562
+    - 563
+    - 807
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 560
+    - 807
+  couple: !ruby/object:Word
+    word: couple
+    stem: coupl
+    docFrequency: 3.0
+    docPositions:
+    - 560
+    - 807
+  seattle: !ruby/object:Word
+    word: seattle
+    stem: seattl
+    docFrequency: 3.0
+    docPositions:
+    - 560
+    - 807
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 5.0
+    docPositions:
+    - 560
+    - 567
+    - 807
+  learning: !ruby/object:Word
+    word: learning
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 560
+    - 807
+  boasted: !ruby/object:Word
+    word: boasted
+    stem: boast
+    docFrequency: 3.0
+    docPositions:
+    - 560
+    - 807
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 5.0
+    docPositions:
+    - 561
+    - 567
+    - 807
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 9.0
+    docPositions:
+    - 561
+    - 562
+    - 579
+    - 807
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 3.0
+    docPositions:
+    - 561
+    - 807
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 561
+    - 807
+  four: !ruby/object:Word
+    word: four
+    stem: four
+    docFrequency: 3.0
+    docPositions:
+    - 561
+    - 807
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 3.0
+    docPositions:
+    - 561
+    - 807
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 7.0
+    docPositions:
+    - 561
+    - 646
+    - 680
+    - 698
+    - 704
+    - 807
+  beginning: !ruby/object:Word
+    word: beginning
+    stem: begin
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  weird: !ruby/object:Word
+    word: weird
+    stem: weird
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  loophole: !ruby/object:Word
+    word: loophole
+    stem: loophol
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  lets: !ruby/object:Word
+    word: lets
+    stem: let
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 5.0
+    docPositions:
+    - 562
+    - 563
+    - 807
+  loan: !ruby/object:Word
+    word: loan
+    stem: loan
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  administration: !ruby/object:Word
+    word: administration
+    stem: administr
+    docFrequency: 3.0
+    docPositions:
+    - 562
+    - 807
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 3.0
+    docPositions:
+    - 563
+    - 807
+  easy: !ruby/object:Word
+    word: easy
+    stem: easi
+    docFrequency: 5.0
+    docPositions:
+    - 563
+    - 579
+    - 807
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 9.0
+    docPositions:
+    - 564
+    - 565
+    - 579
+    - 599
+    - 807
+  matter: !ruby/object:Word
+    word: matter
+    stem: matter
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  entire: !ruby/object:Word
+    word: entire
+    stem: entir
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  strategies: !ruby/object:Word
+    word: strategies
+    stem: strategi
+    docFrequency: 5.0
+    docPositions:
+    - 565
+    - 567
+    - 807
+  easily: !ruby/object:Word
+    word: easily
+    stem: easili
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  tens: !ruby/object:Word
+    word: tens
+    stem: ten
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  thousands: !ruby/object:Word
+    word: thousands
+    stem: thousand
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  dollars: !ruby/object:Word
+    word: dollars
+    stem: dollar
+    docFrequency: 3.0
+    docPositions:
+    - 565
+    - 807
+  once: !ruby/object:Word
+    word: once
+    stem: onc
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 579
+    - 807
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  take: !ruby/object:Word
+    word: take
+    stem: take
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 807
+  advantage: !ruby/object:Word
+    word: advantage
+    stem: advantag
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 807
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 9.0
+    docPositions:
+    - 567
+    - 579
+    - 599
+    - 807
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 807
+  loopholes: !ruby/object:Word
+    word: loopholes
+    stem: loophol
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 579
+    - 807
+  retire: !ruby/object:Word
+    word: retire
+    stem: retir
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  confidently: !ruby/object:Word
+    word: confidently
+    stem: confid
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  peace: !ruby/object:Word
+    word: peace
+    stem: peac
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  mind: !ruby/object:Word
+    word: mind
+    stem: mind
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  simply: !ruby/object:Word
+    word: simply
+    stem: simpli
+    docFrequency: 3.0
+    docPositions:
+    - 567
+    - 807
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 4.0
+    docPositions:
+    - 567
+    - 713
+    - 807
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 569
+    - 807
+  discover: !ruby/object:Word
+    word: discover
+    stem: discov
+    docFrequency: 5.0
+    docPositions:
+    - 567
+    - 579
+    - 807
+  wealth: !ruby/object:Word
+    word: wealth
+    stem: wealth
+    docFrequency: 3.0
+    docPositions:
+    - 569
+    - 807
+  dan: !ruby/object:Word
+    word: dan
+    stem: dan
+    docFrequency: 3.0
+    docPositions:
+    - 572
+    - 807
+  caplingersocial: !ruby/object:Word
+    word: caplingersocial
+    stem: caplingersoci
+    docFrequency: 3.0
+    docPositions:
+    - 572
+    - 807
+  planning: !ruby/object:Word
+    word: planning
+    stem: plan
+    docFrequency: 3.0
+    docPositions:
+    - 572
+    - 807
+  expert: !ruby/object:Word
+    word: expert
+    stem: expert
+    docFrequency: 3.0
+    docPositions:
+    - 572
+    - 807
+  secret: !ruby/object:Word
+    word: secret
+    stem: secret
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  securing: !ruby/object:Word
+    word: securing
+    stem: secur
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  everybody: !ruby/object:Word
+    word: everybody
+    stem: everybodi
+    docFrequency: 2.0
+    docPositions:
+    - 579
+  loves: !ruby/object:Word
+    word: loves
+    stem: love
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  exactly: !ruby/object:Word
+    word: exactly
+    stem: exactli
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  yet: !ruby/object:Word
+    word: yet
+    stem: yet
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  tips: !ruby/object:Word
+    word: tips
+    stem: tip
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  tricks: !ruby/object:Word
+    word: tricks
+    stem: trick
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  pocket: !ruby/object:Word
+    word: pocket
+    stem: pocket
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  possible: !ruby/object:Word
+    word: possible
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 3.0
+    docPositions:
+    - 579
+    - 807
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 599
+    - 807
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 599
+    - 807
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 599
+    - 807
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 608
+  getquerystringparam: !ruby/object:Word
+    word: getquerystringparam
+    stem: getquerystringparam
+    docFrequency: 7.0
+    docPositions:
+    - 610
+    - 625
+    - 681
+    - 724
+    - 737
+    - 749
+  param: !ruby/object:Word
+    word: param
+    stem: param
+    docFrequency: 9.0
+    docPositions:
+    - 610
+    - 611
+    - 612
+    - 724
+    - 725
+    - 726
+  regexs: !ruby/object:Word
+    word: regexs
+    stem: regex
+    docFrequency: 5.0
+    docPositions:
+    - 612
+    - 613
+    - 726
+    - 727
+  regex: !ruby/object:Word
+    word: regex
+    stem: regex
+    docFrequency: 5.0
+    docPositions:
+    - 613
+    - 614
+    - 727
+    - 728
+  regexp: !ruby/object:Word
+    word: regexp
+    stem: regexp
+    docFrequency: 5.0
+    docPositions:
+    - 613
+    - 623
+    - 624
+    - 727
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 7.0
+    docPositions:
+    - 614
+    - 615
+    - 618
+    - 728
+    - 729
+    - 732
+  exec: !ruby/object:Word
+    word: exec
+    stem: exec
+    docFrequency: 3.0
+    docPositions:
+    - 614
+    - 728
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 5.0
+    docPositions:
+    - 614
+    - 690
+    - 692
+    - 728
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 614
+    - 728
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 3.0
+    docPositions:
+    - 615
+    - 729
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 10.0
+    docPositions:
+    - 616
+    - 618
+    - 627
+    - 641
+    - 650
+    - 660
+    - 670
+    - 730
+    - 732
+  decodeuricomponent: !ruby/object:Word
+    word: decodeuricomponent
+    stem: decodeuricompon
+    docFrequency: 3.0
+    docPositions:
+    - 618
+    - 732
+  addorreplace: !ruby/object:Word
+    word: addorreplace
+    stem: addorreplac
+    docFrequency: 3.0
+    docPositions:
+    - 622
+    - 647
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 27.0
+    docPositions:
+    - 622
+    - 627
+    - 630
+    - 631
+    - 634
+    - 635
+    - 637
+    - 639
+    - 641
+    - 644
+    - 647
+    - 650
+    - 653
+    - 660
+    - 663
+    - 670
+    - 690
+    - 699
+    - 705
+  originalparam: !ruby/object:Word
+    word: originalparam
+    stem: originalparam
+    docFrequency: 5.0
+    docPositions:
+    - 622
+    - 623
+    - 624
+    - 639
+  replacementparam: !ruby/object:Word
+    word: replacementparam
+    stem: replacementparam
+    docFrequency: 3.0
+    docPositions:
+    - 622
+    - 625
+  parampattern: !ruby/object:Word
+    word: parampattern
+    stem: parampattern
+    docFrequency: 3.0
+    docPositions:
+    - 623
+    - 630
+  valueparampattern: !ruby/object:Word
+    word: valueparampattern
+    stem: valueparampattern
+    docFrequency: 3.0
+    docPositions:
+    - 624
+    - 631
+  replacement: !ruby/object:Word
+    word: replacement
+    stem: replac
+    docFrequency: 5.0
+    docPositions:
+    - 625
+    - 626
+    - 631
+    - 639
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 2.0
+    docPositions:
+    - 630
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  aidsourcehandler: !ruby/object:Word
+    word: aidsourcehandler
+    stem: aidsourcehandl
+    docFrequency: 4.0
+    docPositions:
+    - 644
+    - 660
+    - 670
+  replacers: !ruby/object:Word
+    word: replacers
+    stem: replac
+    docFrequency: 4.0
+    docPositions:
+    - 644
+    - 645
+    - 646
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 5.0
+    docPositions:
+    - 646
+    - 647
+    - 680
+    - 681
+  v: !ruby/object:Word
+    word: v
+    stem: v
+    docFrequency: 5.0
+    docPositions:
+    - 646
+    - 647
+    - 680
+    - 681
+  pitchreplace: !ruby/object:Word
+    word: pitchreplace
+    stem: pitchreplac
+    docFrequency: 3.0
+    docPositions:
+    - 653
+    - 699
+  replacements: !ruby/object:Word
+    word: replacements
+    stem: replac
+    docFrequency: 7.0
+    docPositions:
+    - 654
+    - 660
+    - 664
+    - 670
+    - 674
+    - 680
+  psource: !ruby/object:Word
+    word: psource
+    stem: psourc
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 656
+  aid: !ruby/object:Word
+    word: aid
+    stem: aid
+    docFrequency: 4.0
+    docPositions:
+    - 657
+    - 665
+    - 675
+  paid: !ruby/object:Word
+    word: paid
+    stem: paid
+    docFrequency: 2.0
+    docPositions:
+    - 657
+  widgetreplace: !ruby/object:Word
+    word: widgetreplace
+    stem: widgetreplac
+    docFrequency: 4.0
+    docPositions:
+    - 663
+    - 692
+    - 705
+  waid: !ruby/object:Word
+    word: waid
+    stem: waid
+    docFrequency: 3.0
+    docPositions:
+    - 665
+    - 675
+  wsource: !ruby/object:Word
+    word: wsource
+    stem: wsourc
+    docFrequency: 5.0
+    docPositions:
+    - 666
+    - 667
+    - 676
+    - 677
+  replacesourceaidinputs: !ruby/object:Word
+    word: replacesourceaidinputs
+    stem: replacesourceaidinput
+    docFrequency: 3.0
+    docPositions:
+    - 673
+    - 710
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 4.0
+    docPositions:
+    - 681
+    - 688
+    - 704
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 681
+  attr: !ruby/object:Word
+    word: attr
+    stem: attr
+    docFrequency: 3.0
+    docPositions:
+    - 681
+    - 690
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 681
+  clickable: !ruby/object:Word
+    word: clickable
+    stem: clickabl
+    docFrequency: 4.0
+    docPositions:
+    - 686
+    - 695
+    - 713
+  evt: !ruby/object:Word
+    word: evt
+    stem: evt
+    docFrequency: 2.0
+    docPositions:
+    - 686
+  fallbackurl: !ruby/object:Word
+    word: fallbackurl
+    stem: fallbackurl
+    docFrequency: 3.0
+    docPositions:
+    - 687
+    - 692
+  investor: !ruby/object:Word
+    word: investor
+    stem: investor
+    docFrequency: 2.0
+    docPositions:
+    - 687
+  alert: !ruby/object:Word
+    word: alert
+    stem: alert
+    docFrequency: 2.0
+    docPositions:
+    - 687
+  stock: !ruby/object:Word
+    word: stock
+    stem: stock
+    docFrequency: 2.0
+    docPositions:
+    - 687
+  advisor: !ruby/object:Word
+    word: advisor
+    stem: advisor
+    docFrequency: 2.0
+    docPositions:
+    - 687
+  ac: !ruby/object:Word
+    word: ac
+    stem: ac
+    docFrequency: 2.0
+    docPositions:
+    - 687
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 4.0
+    docPositions:
+    - 688
+    - 689
+    - 690
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 2.0
+    docPositions:
+    - 689
+  promoboxselector: !ruby/object:Word
+    word: promoboxselector
+    stem: promoboxselector
+    docFrequency: 4.0
+    docPositions:
+    - 695
+    - 704
+    - 713
+  advertorial_promobox: !ruby/object:Word
+    word: advertorial_promobox
+    stem: advertorial_promobox
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 780
+  qsprepare: !ruby/object:Word
+    word: qsprepare
+    stem: qsprepar
+    docFrequency: 3.0
+    docPositions:
+    - 697
+    - 716
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 709
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 716
+  query: !ruby/object:Word
+    word: query
+    stem: queri
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  mod: !ruby/object:Word
+    word: mod
+    stem: mod
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 4.0
+    docPositions:
+    - 737
+    - 738
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 738
+  entry: !ruby/object:Word
+    word: entry
+    stem: entri
+    docFrequency: 2.0
+    docPositions:
+    - 739
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 9.0
+    docPositions:
+    - 739
+    - 740
+    - 741
+    - 742
+    - 745
+    - 746
+    - 750
+    - 751
+  tmfecapwidget: !ruby/object:Word
+    word: tmfecapwidget
+    stem: tmfecapwidget
+    docFrequency: 4.0
+    docPositions:
+    - 740
+    - 761
+    - 781
+  promoboxad: !ruby/object:Word
+    word: promoboxad
+    stem: promoboxad
+    docFrequency: 3.0
+    docPositions:
+    - 741
+    - 745
+  pitch: !ruby/object:Word
+    word: pitch
+    stem: pitch
+    docFrequency: 3.0
+    docPositions:
+    - 742
+    - 751
+  advertorial: !ruby/object:Word
+    word: advertorial
+    stem: advertori
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  gpitch: !ruby/object:Word
+    word: gpitch
+    stem: gpitch
+    docFrequency: 2.0
+    docPositions:
+    - 749
+  genericpitch: !ruby/object:Word
+    word: genericpitch
+    stem: genericpitch
+    docFrequency: 2.0
+    docPositions:
+    - 750
+  load: !ruby/object:Word
+    word: load
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 758
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 3.0
+    docPositions:
+    - 759
+    - 796
+  infotronqueue: !ruby/object:Word
+    word: infotronqueue
+    stem: infotronqueu
+    docFrequency: 5.0
+    docPositions:
+    - 759
+    - 760
+    - 761
+    - 784
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 3.0
+    docPositions:
+    - 759
+    - 796
+  register: !ruby/object:Word
+    word: register
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 760
+    - 761
+  advertorial_pitch: !ruby/object:Word
+    word: advertorial_pitch
+    stem: advertorial_pitch
+    docFrequency: 4.0
+    docPositions:
+    - 760
+    - 770
+    - 771
+  pitchengine: !ruby/object:Word
+    word: pitchengine
+    stem: pitchengin
+    docFrequency: 5.0
+    docPositions:
+    - 765
+    - 768
+    - 775
+  initialize: !ruby/object:Word
+    word: initialize
+    stem: initi
+    docFrequency: 4.0
+    docPositions:
+    - 768
+    - 778
+    - 797
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 769
+    - 779
+  placement: !ruby/object:Word
+    word: placement
+    stem: placement
+    docFrequency: 3.0
+    docPositions:
+    - 770
+    - 780
+  pitchcontainer: !ruby/object:Word
+    word: pitchcontainer
+    stem: pitchcontain
+    docFrequency: 3.0
+    docPositions:
+    - 771
+    - 781
+  endofpage: !ruby/object:Word
+    word: endofpage
+    stem: endofpag
+    docFrequency: 2.0
+    docPositions:
+    - 784
+  homerunpageview: !ruby/object:Word
+    word: homerunpageview
+    stem: homerunpageview
+    docFrequency: 2.0
+    docPositions:
+    - 784
+  nreum: !ruby/object:Word
+    word: nreum
+    stem: nreum
+    docFrequency: 4.0
+    docPositions:
+    - 795
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  bam: !ruby/object:Word
+    word: bam
+    stem: bam
+    docFrequency: 3.0
+    docPositions:
+    - 795
+  nr: !ruby/object:Word
+    word: nr
+    stem: nr
+    docFrequency: 4.0
+    docPositions:
+    - 795
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 795
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 3.0
+    docPositions:
+    - 795
+  queuetime: !ruby/object:Word
+    word: queuetime
+    stem: queuetim
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  licensekey: !ruby/object:Word
+    word: licensekey
+    stem: licensekei
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  agent: !ruby/object:Word
+    word: agent
+    stem: agent
+    docFrequency: 3.0
+    docPositions:
+    - 795
+  newrelic: !ruby/object:Word
+    word: newrelic
+    stem: newrel
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  transactionname: !ruby/object:Word
+    word: transactionname
+    stem: transactionnam
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  applicationid: !ruby/object:Word
+    word: applicationid
+    stem: applicationid
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  errorbeacon: !ruby/object:Word
+    word: errorbeacon
+    stem: errorbeacon
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  applicationtime: !ruby/object:Word
+    word: applicationtime
+    stem: applicationtim
+    docFrequency: 2.0
+    docPositions:
+    - 795
+  infotrack: !ruby/object:Word
+    word: infotrack
+    stem: infotrack
+    docFrequency: 3.0
+    docPositions:
+    - 796
+    - 797
+  marketing: !ruby/object:Word
+    word: marketing
+    stem: market
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 800
+  _analytics_scr: !ruby/object:Word
+    word: _analytics_scr
+    stem: _analytics_scr
+    docFrequency: 6.0
+    docPositions:
+    - 802
+    - 803
+    - 804
+  _incapsula_resource: !ruby/object:Word
+    word: _incapsula_resource
+    stem: _incapsula_resourc
+    docFrequency: 2.0
+    docPositions:
+    - 803
+  swjiylwa: !ruby/object:Word
+    word: swjiylwa
+    stem: swjiylwa
+    docFrequency: 2.0
+    docPositions:
+    - 803
+  _analytics_elem: !ruby/object:Word
+    word: _analytics_elem
+    stem: _analytics_elem
+    docFrequency: 4.0
+    docPositions:
+    - 804
+  fooleverybody: !ruby/object:Word
+    word: fooleverybody
+    stem: fooleverybodi
+    docFrequency: 2.0
+    docPositions:
+    - 807
+lineCount: 808
+wordCount: 2687
+rank: 0.2536764705882353
+title: The Motley Fool
+links:
+- http://www.fool.com/
+- http://www.fool.com/mms/mark/ss-ecap/?psource=esacnn7410860006&utm_campaign=advertorial_lg&utm_source=cnnmoney&waid=8705&source=esacnn7410860006&utm_medium=contentmarketing&paid=8705&aid=8705&wsource=esacnnwdg0860005
+- http://www.fool.com/legal/fool-disclosure-policy.aspx?psource=esacnn7410860006&utm_campaign=advertorial_lg&utm_source=cnnmoney&waid=8705&utm_medium=contentmarketing&paid=8705&wsource=esacnnwdg0860005
+- http://www.fool.com/legal/privacy-statement.aspx
+rawText: "\n<iframe src=\"https://www.google-analytics.com/gtm/ns?id=GTM-5T83WW\"\nstyle=\"display:none;visibility:hidden\"
+  height=\"0\" width=\"0\"></iframe>\n(function(p,a,l,i,n,d,r,o,m,e){r={id:'GTM-5T83WW',l:'dataLayer',m:'sync'};\nif(!r.gac){o=/;((__utma=)|([^;=]+=GAX?\\d+\\.))[^;]*/g;m=l.cookie.replace(\n/^|(;
+  +)/g,';').match(o);if(m)r.gac=m.sort().join('').substring(1)};e=\n'https://www.google-analytics.com/gtm/js?';r.m=='sync'||(p['event']='gtm.js');\nfor(d
+  in r)if(r.hasOwnProperty(d))e+=n(d)+'='+n(r[d])+'&';a[r.l]=a[r.l]||[];\na[r.l].push(p);if(r.m=='sync'){l.write('<'+i+'
+  src=\"'+e+'\"><\\/'+i+'>');}else{\nj=l.createElement(i);j.async=!0;j.src=e;f=l.getElementsByTagName(i)[0];\nf.parentNode.insertBefore(j,f);}})({'gtm.start':1*new
+  Date()},window,document,\n'script',encodeURIComponent);\r\n    \r\n    \r\n    \r\n
+  \   \r\n\r\n\r\n\r\n/*********Body Styles************/     \r\nbody {\r\n    margin:
+  0;\r\n    padding: 0;\r\n    font-family: 'Source Sans Pro', sans-serif;\r\n    font-size:
+  18px;\r\n    line-height: 28px;\r\n    }    \r\n    \r\n.container {\r\n    width:
+  100%;\r\n    } \r\n \r\n .content {\r\n    max-width: 650px;\r\n    margin: 0 auto;\r\n
+  \   }\r\n\r\n.graybackground {\r\n    max-width: 650px;\r\n    margin: 0 auto;\r\n
+  \   }   \r\n    \r\n/*********Header Styles************/    \r\n.hd-wrapper {\r\n
+  \   background-color: #0589C2;\r\n    }\r\n\r\n.headercontent {\r\n    margin: 0
+  auto;\r\n    max-width: 650px;\r\n    color: #ffffff;\r\n    height: 50px;\r\n    margin-bottom:
+  25px;\r\n    } \r\n    \r\n.NavMenu{\r\n    padding:0px 10px;\r\n    }\r\n\r\n    \r\n.dropdown
+  {\r\n    float:left;\r\n    height: 30px;\r\n    padding: 10px;\r\n    }\r\n\r\na.dropdown-toggle
+  {\r\n    color:#ffffff;\r\n    }    \r\n    \r\n.logo {\r\n    position: relative;\r\n
+  \   overflow: visible;\r\n    height: 30px;\r\n    padding: 10px;\r\n    float:right;\r\n
+  \   }     \r\n    \r\n\r\n\r\n/*********Text Styles************/ \r\n    \r\nh1
+  {\r\n    line-height: 40px;\r\n    }    \r\n    \r\nh3 {\r\n    margin-top: 10px;\r\n
+  \   font-size: 26px;\r\n    }\r\n#byline {\r\n    font-size: 14px;\r\n    line-height:
+  22px;\r\n    margin-bottom: 5px;\r\n    margin-top: 5px;\r\n    color: #666;\r\n
+  \   }\r\n\r\nblockquote {\r\n    padding: 15px 20px;\r\n    border-top: 1px dotted
+  #BBBBBB;\r\n    border-bottom: 1px dotted #BBBBBB;\r\n    margin: 11px 0 11px 0;\r\n
+  \   }\r\n    \r\np {\r\n    font-size: 20px;\r\n    line-height: 30px;\r\n    margin-bottom:
+  20px; \r\n    }\r\n\r\n#privacy {\r\n    font-size: 12px;\r\n    margin-top: 20px;\r\n
+  \   line-height: 20px;\r\n    text-align: center;\r\n    }\r\n\r\n#disclosure {\r\n
+  \   margin-top: 30px;\r\n    font-size: 12px;\r\n    line-height: 16px;\r\n    }\r\n\r\n.footer
+  p {\r\n    margin-top: 15px;\r\n    font-size: 12px;\r\n    line-height: 16px;\r\n
+  \   }    \r\n\r\n\r\n    \r\n/*********Image Styles************/  \r\n    \r\n.imgsource
+  {\r\n    font-size: 14px;\r\n    line-height: 22px;\r\n    margin-bottom: 5px;\r\n
+  \   margin-top: 5px;\r\n    }\r\n\r\n.right-img-wrapper {\r\n    float: right;\r\n
+  \   margin-left: 20px;\r\n    }\r\n\r\n.sideimg {\r\n    max-width: 250px;\r\n    }\r\n\r\n\r\n\r\n/*********Ecap
+  Form Field Styles************/\r\n\r\ninput#ecapWidgetForm_submit {\r\n    background:
+  url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\") repeat scroll
+  left top #FFFFFF;\r\n    border: medium none;\r\n    -webkit-border-radius: 10px;\r\n
+  \   -moz-border-radius: 10px;\r\n    border-radius: 10px;\r\n    color: #ffffff;\r\n
+  \   cursor: pointer;\r\n    /*display: block;*/\r\n    /*float: left;*/\r\n    font-size:
+  20px;\r\n    margin: -1px 0 0 5px;\r\n    padding: 10px;\r\n    width: 265px;\r\n
+  \   height: 50px;\r\n    }\r\n\r\n#ecapWidget_email {\r\n    width: 250px;\r\n    height:
+  40px;\r\n    font-size: 20px;\r\n    -webkit-border-radius: 5px;\r\n    -moz-border-radius:
+  5px;\r\n    border-radius: 5px;\r\n    border-style: solid;\r\n    border-width:
+  2px;\r\n    border-color: #C5C5C5;\r\n    padding-left: 10px;\r\n    margin-bottom:
+  10px;\r\n    }\r\n        \r\n#TMFECapWidgetecapShell2 {\r\n    background-color:
+  #ffffff; \r\n    border: none; border-radius: 5px 5px 5px 5px; \r\n    line-height:
+  18px; \r\n    margin-top: 16px; \r\n    padding: 0 20px; \r\n    }\r\n\r\n#widget2header
+  h1{\r\n    font-weight: bold !important;\r\n    font-size: 26px !important;\r\n
+  \   line-height: 30px !important;\r\n}\r\n#ecapWidgetForm_submit2 {\r\n    background:
+  url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\") repeat scroll
+  left top #FFFFFF;\r\n    border: medium none;\r\n    -webkit-border-radius: 10px;\r\n
+  \   -moz-border-radius: 10px;\r\n    border-radius: 10px;\r\n    color: #ffffff;\r\n
+  \   cursor: pointer;\r\n    /*display: block;*/\r\n    font-size: 20px;\r\n    margin:
+  -1px 0 0 5px;\r\n    padding: 10px;\r\n    width: 350px;\r\n    height: 50px;\r\n
+  \   }\r\n    \r\n#ecapWidgetForm_submit3 {\r\n    background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top #FFFFFF;\r\n    border: medium none;\r\n    -webkit-border-radius:
+  10px;\r\n    -moz-border-radius: 10px;\r\n    border-radius: 10px;\r\n    color:
+  #ffffff;\r\n    cursor: pointer;\r\n    /*display: block;*/\r\n    font-size: 20px;\r\n
+  \   margin: -1px 0 0 5px;\r\n    padding: 10px;\r\n    width: 350px;\r\n    height:
+  50px;\r\n    }\r\n\r\n#ecapWidget_email2 {\r\n    width: 265px;\r\n    height: 40px;\r\n
+  \   font-size: 20px;\r\n    -webkit-border-radius: 5px;\r\n    -moz-border-radius:
+  5px;\r\n    border-radius: 5px;\r\n    border-style: solid;\r\n    border-width:
+  2px;\r\n    color: #C5C5C5;\r\n    padding-left: 10px;\r\n    margin-bottom: 10px;\r\n
+  \   }       \r\n \r\n.redButton {\r\n    background: #ffffff url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top;\r\n    border: medium none;\r\n    border-radius: 10px;\r\n
+  \   color: #ffffff;\r\n    cursor: pointer;\r\n    font-size: 20px;\r\n    height:
+  50px;\r\n    margin: -1px 0 0 5px;\r\n    padding: 10px 53px;\r\n    width: 265px;\r\n}\r\n\r\na.redButton
+  {\r\n    background: #ffffff url(\"http://g.foolcdn.com/art/shop/newsletters/18/red-bg-grad.jpg\")
+  repeat scroll left top;\r\n    border: medium none;\r\n    border-radius: 10px;\r\n
+  \   color: #ffffff;\r\n    cursor: pointer;\r\n    font-size: 20px;\r\n    height:
+  50px;\r\n    margin: -1px 0 0 5px;\r\n    padding: 10px 53px;\r\n    width: 265px;\r\n}\r\n
+  \       \r\n/*********Tables Styles************/\r\n        \r\n.datagrid table
+  { \r\n    border-collapse: collapse; \r\n     text-align: left; \r\n    width: 100%;
+  \r\n    } \r\n\r\n.datagrid {\r\n    font: normal 16px/150% Arial, Helvetica, sans-serif;
+  \r\n    background: #fff; \r\n    overflow: hidden; \r\n    border: 1px solid #ACACAC;
+  \r\n    -webkit-border-radius: 3px; \r\n    -moz-border-radius: 3px; \r\n    border-radius:
+  3px; \r\n    }\r\n\r\n.datagrid table td, .datagrid table th { \r\n    padding:
+  8px 10px; \r\n    }\r\n    \r\n.datagrid table thead th {\r\n    background:-webkit-gradient(
+  linear, left top, left bottom, color-stop(0.05, #CECECE), color-stop(1, #BDBDBD)
+  );\r\n    background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100%
+  );\r\n    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+  endColorstr='#7D7D7D');\r\n    background-color:#EBEBEB; \r\n    color:#313131;
+  \r\n    font-size: 18px; \r\n    font-weight: normal; \r\n    border-left: 1px solid
+  #ACACAC; \r\n    } \r\n    \r\n.datagrid table thead th:first-child { \r\n    border:
+  none; \r\n    }\r\n.datagrid table tbody td { \r\n    color: #555555; \r\n    border-left:
+  1px solid #DBDBDB;\r\n    font-size: 16px;\r\n    font-weight: normal; \r\n    }\r\n
+  \   \r\n.datagrid table tbody .alt td { \r\n    background: #F3F3F3; \r\n    color:
+  #555555; }\r\n    \r\n.datagrid table tbody td:first-child { \r\n    border-left:
+  none; }\r\n.datagrid table tbody tr:last-child td { \r\n    border-bottom: none;
+  }\r\n.datagrid table tfoot td div { \r\n    border-top: 1px solid #8C8C8C;background:
+  #EBEBEB;} \r\n.datagrid table tfoot td { \r\n    padding: 0; \r\n    font-size:
+  12px \r\n    } \r\n.datagrid table tfoot td div{ \r\n    padding: 2px; }\r\n.datagrid
+  table tfoot td ul { \r\n    margin: 0; padding:0; list-style: none; text-align:
+  right; }\r\n.datagrid table tfoot  li { \r\n    display: inline; }\r\n.datagrid
+  table tfoot li a { \r\n    text-decoration: none; \r\n    display: inline-block;
+  \ \r\n    padding: 2px 8px; \r\n    margin: 1px;\r\n    color: #F5F5F5;\r\n    border:
+  1px solid #8C8C8C;\r\n    -webkit-border-radius: 3px; \r\n    -moz-border-radius:
+  3px; \r\n    border-radius: 3px; \r\n    background:-webkit-gradient( linear, left
+  top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );\r\n    background:-moz-linear-gradient(
+  center top, #8C8C8C 5%, #7D7D7D 100% );\r\n    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+  endColorstr='#7D7D7D');background-color:#8C8C8C; \r\n    }\r\n.datagrid table tfoot
+  ul.active, .datagrid table tfoot ul a:hover { \r\n    text-decoration: none;\r\n
+  \   border-color: #7D7D7D; \r\n    color: #F5F5F5; \r\n    background: none; \r\n
+  \   background-color:#8C8C8C;\r\n    }\r\n    \r\ndiv.dhtmlx_window_active, div.dhx_modal_cover_dv
+  { \r\n    position: fixed !important; \r\n    }\r\n\r\n   \r\n    \r\n\r\n /*********Mobile
+  Styles************/\r\n        \r\n\r\n@media screen and (max-width: 740px) {\r\n\r\n
+  \   .header {\r\n        margin-right: 15px;\r\n        margin-left: 15px;\r\n        }\r\n\r\n
+  \   .content {\r\n           margin-right: 15px;\r\n        margin-left: 15px;\r\n
+  \       margin-top:30px;\r\n        }\r\n        \r\n    .headercontent {\r\n        height:
+  60px;\r\n        }\r\n        \r\n    .graybackground {\r\n        margin-right:
+  15px;\r\n        margin-left: 15px;\r\n        }\r\n\r\n    p {\r\n        font-size:
+  20px;\r\n        line-height: 30px;\r\n        margin-bottom: 20px;\r\n        }\r\n\r\n
+  \   .content h3 {\r\n        margin-top: 25px;\r\n        }\r\n        \r\n    .imgsource
+  {\r\n        font-size: 12px;\r\n        }\r\n\r\n     ul li {\r\n        font-size:
+  20px;\r\n        }\r\n\r\n    img {\r\n        max-width: 100%;\r\n        }\r\n\r\n
+  \   #content p.articleMeta {\r\n        font-size: 14px;\r\n        margin-top:
+  20px;\r\n        margin-bottom: 20px;\r\n        }\r\n\r\n     .caption {\r\n        font-size:
+  12px;\r\n        }\r\n\r\n    .hotlist {\r\n        font-size: 18px;\r\n        line-height:
+  28px;\r\n        }\r\n\r\n    .ecap {\r\n        text-align: center;\r\n        }\r\n\r\n
+  \   input#ecapWidgetForm_submit {\r\n        margin: 0 0 0 0px;\r\n        }\r\n\r\n
+  \   .footer p {\r\n        font-size: 12px;\r\n        line-height: 16px;\r\n        }\r\n
+  \   }\r\n\r\n\r\n@media screen and (max-width: 480px) {\r\n    h1 {\r\n        font-size:
+  46px;\r\n        line-height: 46px;\r\n            }\r\n\r\n    .graytop {\r\n        background:
+  url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-gray-top-30.png\");\r\n        height:
+  30px;\r\n        }\r\n\r\n    .graybottom {\r\n        background: url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-gray-bottom-30.png\");\r\n
+  \       height: 30px;\r\n        }\r\n\r\n    .bluebottom {\r\n        background:
+  url(\"http://g.foolcdn.com/art/shop/newsletters/18/div-blue-bottom_480x30.png\");\r\n
+  \       height: 20px;\r\n        margin-bottom: -30px;\r\n        }\r\n    \r\n
+  \   .headercontent {\r\n        height: 55px;\r\n        margin-bottom: 0px;\r\n
+  \       \r\n        }\r\n    \r\n    .logo {\r\n        position: relative;\r\n
+  \       overflow: visible;\r\n        height: 25px;\r\n        padding-right: 10px;\r\n
+  \       font-size: 22px;\r\n        }\r\n\r\n    .graybackground {\r\n        background-color:
+  #ececec;\r\n        padding: 15px;\r\n        margin-left: 0px;\r\n        margin-right:
+  0px;\r\n        }\r\n\r\n    blockquote {\r\n        padding: 0px;\r\n        border-top:
+  0px;\r\n        border-bottom: 0px;\r\n        margin-left: 40px;\r\n        margin-right:
+  30px;\r\n        }\r\n\r\n    blockquote p {\r\n        font-size: 28px;\r\n        line-height:
+  38px;\r\n        margin-bottom: 30px;\r\n        }\r\n\r\n\r\n    .right-img-wrapper
+  {\r\n        display: block !important;\r\n        margin: 0 auto;\r\n        float:
+  none !important;\r\n        min-width: 300px;\r\n        max-width: 100%;\r\n        text-align:
+  center;\r\n        }\r\n\r\n    .sideimg {\r\n        max-width: 100%;\r\n        }\r\n
+  \       \r\n    #mobilevisable {\r\n        visibility: visible !important; \r\n
+  \       }\r\n        \r\n    }    \r\n    \r\n    \r\n\r\n  var _kiq = _kiq || [];\r\n
+  \ (function(){\r\n    setTimeout(function(){\r\n    var d = document, f = d.getElementsByTagName('script')[0],
+  s = d.createElement('script'); s.type = 'text/javascript';\r\n    s.async = true;
+  s.src = '//s3.amazonaws.com/ki.js/57001/cDV.js'; f.parentNode.insertBefore(s, f);\r\n
+  \   }, 1);\r\n  })();\r\n\r\n\r\n\r\n\r\n\r\n    \r\n                        \r\n
+  \                           \r\n\r\nThe Motley Fool\r\n\r\n\r\n                            \r\n
+  \                           \r\n                         \r\n\r\n\r\n\r\n\r\n\r\n
+  \       \r\n                    \r\n                        \nThe $15,978 Social
+  Security Bonus Most Retirees Completely Overlook\n\n\nDear Hopeful Retiree,\nIf
+  you're like most Americans, you're a few years (or more) behind on your retirement
+  savings.\nBut that's okay!\nBecause a handful of little-known “Social Security secrets”
+  could ensure a boost in your retirement income.\nIn fact, one MarketWatch reporter
+  argues that if more Americans knew about them, the government would have to shell
+  out an extra $10 billion annually.\nThat's money that could go towards retiring
+  earlier, a new car, or even a vacation home!\nFor example:\nDid you know if you're
+  married, there's a simple 17-minute process you and your spouse can go through that
+  could put as much as an extra $15,978 into your pockets... every year?\nAnd no,
+  this little trick has nothing to do with delaying benefits until you reach age 70...
+  but... if you do that as well, you and your spouse would be earning even more!\nI
+  just read about a couple in Seattle who, after learning about this trick, boasted:\n“We
+  can get about $1,250 a month for the next four years, and still get 132% each at
+  70. That’s an extra $60,000!”\nThat's just the beginning. Did you know there's also
+  a weird little loophole that lets you get a one-year, interest-free loan from the
+  Social Security Administration?\nThat's not just easy money – that's free money!\nAnd
+  it's 100% legal.\nAs a matter of fact, there's an entire set of completely legal
+  Social Security strategies that could easily add tens of thousands of dollars to
+  your retirement.\n\nOnce you learn how to take advantage of all these loopholes,
+  you could retire confidently with the peace of mind we're all after. Simply click
+  here to discover how you can take advantage of these strategies.\n\nHere’s to you
+  and your family’s wealth,\n\n\nDan CaplingerSocial Security and Retirement-Planning
+  Expert,The Motley Fool\n\n\n\n\n\nThe 17-minute secret to securing a $60K Social
+  Security bonus\nEverybody loves easy money. Which is exactly what you'll get once
+  you discover all of the little-known, yet completely legal tips, tricks, and loopholes
+  you can use to pocket as much money as possible from Social Security. Enter your
+  email below to request a copy!\n \n\n\n\nThe Motley Fool has a disclosure policy.\n\n\n \n\n\n\n\r\n
+  \                   \r\n                            \r\n                       \r\n
+  \               \r\n                \r\n\r\n\r\n©1995-2015 The Motley Fool. All
+  rights reserved. |  Privacy/Legal Information\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n(function
+  (global) {\n    \nvar getQueryStringParam = function(param) {\n    param = param.replace(/[\\[]/,
+  \"\\\\\\[\").replace(/[\\]]/, \"\\\\\\]\");\n    var regexS = \"[\\\\?&]\" + param
+  + \"=([^&#]*)\";\n    var regex = new RegExp(regexS);\n    var results = regex.exec(window.location.search);\n
+  \   if (results == null) {\n        return \"\";\n    } else {\n        return decodeURIComponent(results[1].replace(/\\+/g,
+  \" \"));\n    }\n}\n\nvar addOrReplace = function(href, originalParam, replacementParam)
+  {\n    var paramPattern = new RegExp('(&|\\\\?)' + originalParam + '=');\n    var
+  valueParamPattern = new RegExp('([\\\\?|\\\\&]' + originalParam +'=)(?:[^\\\\&]+)?');\n
+  \   var replacement = getQueryStringParam(replacementParam);\n    if (!replacement)
+  {\n        return href\n    }\n    \n    if ( (paramPattern).test(href) ) {\n        href
+  = href.replace(valueParamPattern, '$1' + replacement);\n        } \n    else {\n
+  \       if (href.indexOf(\"?\") == -1) {\n            href = href + \"?\";\n        }
+  else {\n            href = href + \"&\";\n        }\n        href = href + originalParam
+  + \"=\" + replacement;   \n    } \n    return href\n}\n\nvar aidSourceHandler =
+  function (href, replacers) {\n         if (replacers) {\n           jQuery.each(replacers,
+  function (k, v) {\n                href = addOrReplace(href, k, v);\n            });\n
+  \       }\n        return href;\n    };\n    \nvar pitchReplace = function (href)
+  {\n    var replacements = {\n        'source': 'psource',\n        'src': 'psource',\n
+  \       'aid': 'paid'\n    };\n    \n    return aidSourceHandler(href, replacements);\n};\n
+  \   \nvar widgetReplace = function (href) {\n    var replacements = {\n      'aid':
+  'waid',\n      'source': 'wsource',\n      'src': 'wsource'  \n    };\n    \n    return
+  aidSourceHandler(href, replacements);\n};\n    \nvar replaceSourceAidInputs = function
+  (form) {\n    var replacements = {\n      'aid': 'waid',\n      'source': 'wsource',\n
+  \     'src': 'wsource'  \n    };\n    \n    jQuery.each(replacements, function(k,
+  v) {\n       jQuery(form).find('input[name='+ k +']').attr('value', getQueryStringParam(v)
+  )\n    });\n    \n};\n    \nvar clickable = function (evt) {\n        var fallbackUrl
+  = 'http://fool.com/investor-alert/stock-advisor/stocks15-ac';\n        var links
+  = jQuery(this).find('a');\n        if (links.length) {\n            window.location
+  = jQuery(links).first().attr('href');\n        } else {\n            window.location
+  = widgetReplace(fallbackUrl);\n        }\n    }\nvar promoboxSelector = '#advertorial_promobox,
+  .text-clickable';\n  \nvar qsPrepare = function () {    \n    jQuery(\"a\").each(
+  function () {\n        this.href = pitchReplace(this.href)\n    });\n\n\n    \n
+  \   jQuery(promoboxSelector).find('a').each(function () {\n        this.href = widgetReplace(this.href)\n
+  \   });\n    \n    \n    jQuery(document).on('submit', 'form', function () {\n            replaceSourceAidInputs(this);\n
+  \   });\n    \n    jQuery(document).on('click', promoboxSelector, clickable);\n};\n
+  \njQuery(document).ready(qsPrepare);\n    \n})(window);\n\r\n\r\n\r\n\n    \n           function
+  getQueryStringParam(param) {\n    param = param.replace(/[\\[]/, \"\\\\\\[\").replace(/[\\]]/,
+  \"\\\\\\]\");\n    var regexS = \"[\\\\?&]\" + param + \"=([^&#]*)\";\n    var regex
+  = new RegExp(regexS);\n    var results = regex.exec(window.location.search);\n    if
+  (results == null) {\n        return \"\";\n    } else {\n        return decodeURIComponent(results[1].replace(/\\+/g,
+  \" \"));\n    }\n}   \n    \n// query mod content\n  var partner = getQueryStringParam('partner');\n
+  \ if (partner === 'outbrain') {\n      jQuery(\".entry-content > p:last\").css({display:
+  'none'});\n      jQuery(\"#TMFECapWidget\").css({display: 'none'});\n      jQuery(\"#promoboxAd\").css({display:
+  'block'});\n      jQuery(\"#pitch\").css({display: 'none'});\n  }\n  else{  \n    jQuery(\"#promoboxAd\").css({display:
+  'none'});\n    jQuery(\"#advertorial\").css({display: 'block'});\n  }\n    \n    if
+  (getQueryStringParam('gpitch') == '1') {\n        jQuery(\"#genericPitch\").css({display:
+  'block'});    \n        jQuery(\"#pitch\").css({display: 'none'});\n    }\n    \n\r\n
+  \   \r\n\n\n        jQuery(window).load(function () {\nif (typeof(window.infotronQueue)
+  !== \"undefined\") {\n            window.infotronQueue.Register('advertorial_pitch');\n
+  \       window.infotronQueue.Register('TMFECapWidget');        \n        \n        };\n\n
+  \       var pitchEngine = PitchEngine();\n\n    \n            pitchEngine.initialize({\n
+  \               site: 'fool',\n                placement: 'advertorial_pitch',\n
+  \               pitchContainer: 'advertorial_pitch'\n            });\n\n \n               var
+  pitchEngine2 = PitchEngine();\n\n    \n            pitchEngine2.initialize({\n                site:
+  'fool',\n                placement: 'advertorial_promobox',\n                pitchContainer:
+  'TMFECapWidget'\n            });\n        \n        window.infotronQueue.EndOfPage('HomerunPageView');\n\n\n
+  \       });   \n  \n\n\n        \r\n\r\n    \r\n\r\n    window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"queueTime\":0,\"licenseKey\":\"e1dee8de0f\",\"agent\":\"js-agent.newrelic.com/nr-768.min.js\",\"transactionName\":\"blRRZRcEXBdYUkBYWVcedUQLBkYNVl8bVFVYQUAfEwxXE0oLRlRYXVRBbhUEVQE=\",\"applicationID\":\"2274815\",\"errorBeacon\":\"bam.nr-data.net\",\"applicationTime\":82}\r\n
+  \   if (typeof window.Infotrack !== \"undefined\")  {\r\n        window.Infotrack.initialize(\"marketing\");\r\n
+  \   }\r\n  \n//<![CDATA[\n(function() {\nvar _analytics_scr = document.createElement('script');\n_analytics_scr.type
+  = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=3';\nvar
+  _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr,
+  _analytics_elem);\n})();\n// ]]>\nDear Hopeful Retiree,If you're like most Americans,
+  you're a few years (or more) behind on your retirement savings.But that's okay!Because a
+  handful of little-known “Social Security secrets” could ensure a boost in your retirement
+  income.In fact, one MarketWatch reporter argues that if more Americans knew about
+  them, the government would have to shell out an extra $10 billion annually.That's
+  money that could go towards retiring earlier, a new car, or even a vacation home!For
+  example:Did you know if you're married, there's a simple 17-minute process you and
+  your spouse can go through that could put as much as an extra $15,978 into your
+  pockets... every year?And no, this little trick has nothing to do with delaying
+  benefits until you reach age 70... but... if you do that as well, you and your spouse
+  would be earning even more!I just read about a couple in Seattle who, after learning
+  about this trick, boasted:“We can get about $1,250 a month for the next four years,
+  and still get 132% each at 70. That’s an extra $60,000!”That's just the beginning.
+  Did you know there's also a weird little loophole that lets you get a one-year,
+  interest-free loan from the Social Security Administration?That's not just easy
+  money – that's free money!And it's 100% legal.As a matter of fact, there's an entire
+  set of completely legal Social Security strategies that could easily add tens of
+  thousands of dollars to your retirement.Once you learn how to take advantage of
+  all these loopholes, you could retire confidently with the peace of mind we're all
+  after. Simply click here to discover how you can take advantage of these strategies.Here’s
+  to you and your family’s wealth,Dan CaplingerSocial Security and Retirement-Planning
+  Expert,The Motley FoolEverybody loves easy money. Which is exactly what you'll get
+  once you discover all of the little-known, yet completely legal tips, tricks, and
+  loopholes you can use to pocket as much money as possible from Social Security.
+  Enter your email below to request a copy! ©1995-2015 The Motley Fool. All rights
+  reserved. |  Privacy/Legal Information"

@@ -1,0 +1,6963 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 351
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 144
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 114
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 144
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 114
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 146
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 146
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 147
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 114
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 147
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 114
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 199
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 207
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 221
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 234
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 236
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 250
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 297
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 299
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 313
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 362
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 364
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 378
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 403
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 116
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 426
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 428
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 442
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 463
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 112
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 494
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 496
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 510
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 541
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 62
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 543
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 557
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag main invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 616
+    str1: main
+    str2: 
+    str3: 
+    int1: 0
+    column: 91
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 616
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 980
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 994
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 40
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1000
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1014
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 40
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1020
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1034
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 40
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1040
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1054
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 40
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1060
+    str1: figure
+    str2: 
+    str3: 
+    int1: 0
+    column: 44
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag figcaption invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1074
+    str1: figcaption
+    str2: 
+    str3: 
+    int1: 0
+    column: 40
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1080
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 232
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1175
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 221
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1184
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 112
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID adsquare already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1193
+    str1: adsquare
+    str2: adsquare
+    str3: 
+    int1: 0
+    column: 92
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 95
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 125
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 145
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 158
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 180
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1224
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 193
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1225
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 86
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 100
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 130
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 150
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 163
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 185
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1226
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 198
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1227
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1231
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1252
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 111
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1252
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1252
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 139
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1322
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 134
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1322
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 151
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1322
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 194
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 104
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 145
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 157
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 169
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 180
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 191
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1325
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 203
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 113
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 130
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 183
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 195
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 207
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 218
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 229
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1326
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 241
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 90
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 107
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 164
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 176
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 188
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 199
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 210
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1327
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 222
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 99
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 116
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 173
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 185
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 197
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 208
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 219
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1328
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 231
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1348
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 43
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1394
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 23
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1395
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1396
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: ul and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1459
+    str1: ul
+    str2: div
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: ul and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1499
+    str1: ul
+    str2: div
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: ul and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1539
+    str1: ul
+    str2: div
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: nav and ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1541
+    str1: nav
+    str2: ul
+    str3: 
+    int1: 0
+    column: 9
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : p
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1544
+    str1: p
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1552
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 336
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1552
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 352
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: section and ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1557
+    str1: section
+    str2: ul
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: footer and ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1558
+    str1: footer
+    str2: ul
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 128
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 134
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 143
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 149
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1607
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 174
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: footer and ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-5mjwp5"
+    line: 1653
+    str1: footer
+    str2: ul
+    str3: 
+    int1: 0
+    column: 383
+address: http://money.cnn.com/data/markets/
+inboundLinks: []
+lines:
+- "  \n"
+- |2+
+
+- |2+
+
+- |
+  .tos-privacy .container {
+- "\twidth: 1140px;\n"
+- |
+  }
+- |2+
+
+- |2
+      Our Terms of Service and Privacy Policy have changed.
+- "    \tBy continuing to use this site, you are agreeing to the new Privacy Policy
+  and Terms of Service.\n"
+- "    \t\t\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "   \n"
+- "   \n"
+- "   \t\n"
+- "   \n"
+- "   \t\n"
+- "    \n"
+- |2
+              Business
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                Mind-blowing supercars of 2015\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tWorld\n"
+- "\t    Access\n"
+- "\t    Companies\n"
+- "\t    Car News\n"
+- "\tAway\n"
+- "\t    America's Choice 2016\n"
+- "\t    Super Bowl\n"
+- "\t    Who is..?\n"
+- "\t    The Feed\t    \n"
+- "\tCNNMoney Investigates\n"
+- "\t\tAmerican Opportunity\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t5 Stunning Stats\n"
+- "\t    Interactives\n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "        \n"
+- |2
+              Markets
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                Oil prices sink below $35 on fears of more Iran oil\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tInvesting\n"
+- "\t\tEconomy\n"
+- "\t\tBuzz\n"
+- "\t    Fed Focus\n"
+- "\t    \n"
+- "\t    \n"
+- "\t    ETF Center\n"
+- "\tPremarkets\n"
+- "\t    Market Movers\n"
+- "\t    Dow 30\n"
+- "\t    After-Hours\n"
+- "\t    World Markets\n"
+- "\tInvesting Guide\n"
+- "\t    The Open\n"
+- "\t    Stockswatch\n"
+- "\t    Tech30\n"
+- "\t    Fear & Greed\n"
+- "\t    \n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "        \n"
+- |2
+              Tech
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                This smartphone's battery can last up to 15 days\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tInnovate\n"
+- "\t    Gadget\n"
+- "\t    Connect\n"
+- "\t    Cyber-Safe\n"
+- "\tElon. Evolution\n"
+- "\t    Best In Tech\n"
+- "\t    Innovative Cities\n"
+- "\t    CES\n"
+- "\tSuperhero Hackers\n"
+- "\t    15 Questions With\n"
+- "\t    Love Inc.\n"
+- "\t    Sex, Drugs & Silicon Valley\n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "         \n"
+- |2
+              Media
+- "        \n"
+- "        \n"
+- |2
+              Personal Finance
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                CEO exits after mutual fund implodes\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tSave\n"
+- "\t    Spend\n"
+- "\t    Ahead\n"
+- "\t    \n"
+- "\t    Wheels\n"
+- "\t    Real Estate\n"
+- "\tCareers\n"
+- |2+
+
+- "\t   \n"
+- "\t    Millennials & Money\n"
+- "\t    Your Money\n"
+- "\t    Homes\n"
+- "\t    Calculators\n"
+- "\tMoney Moves\n"
+- "\t    24 Hours With\n"
+- "\t    \n"
+- "\t    Money Essentials\n"
+- "\t    \n"
+- "\t    My Watch List\n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "        \n"
+- |2
+              Small Biz
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                Laser Christmas lights are this year's frenzy\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tStartups\n"
+- "\t    Empire\t    \n"
+- "\t    Women Entrepreneurs\n"
+- "\t    \n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "        \n"
+- |2
+              Luxury
+- "            \n"
+- "\r\n"
+- "\r\n"
+- |2+
+
+- "\r\n"
+- "\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t    \r\n"
+- "\t\t        \r\n"
+- "\t\t                \r\n"
+- "\t\t                I off-roaded at an English castle and survived to tell the
+  tale\r\n"
+- "\t\t                \r\n"
+- "\t\t        \r\n"
+- "\t            \n"
+- "\tStyle\n"
+- "\t    Voyage\n"
+- "\t    Rare\n"
+- "\tDrive\n"
+- "\t\tWealth\n"
+- "\t    Rich Quiz\n"
+- "\t    \n"
+- "\tThe Collector\n"
+- "\t\tA Gentleman's Guide\n"
+- "\t    Millionaire Calculator\n"
+- "\t\n"
+- "\r\n"
+- "        \r\n"
+- "    \r\n"
+- |2+
+
+- "  \n"
+- "        \n"
+- "      \n"
+- |2+
+
+- "        \n"
+- |2
+            CNN
+- "          \n"
+- |2
+              U.S. Edition
+- |2
+              International
+- "          \n"
+- |2+
+
+- "          \n"
+- "            \n"
+- "            \n"
+- |2
+                Log In
+- "            \n"
+- "            \n"
+- |2
+                Log Out
+- "            \n"
+- "          \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "\t\t\n"
+- "    \n"
+- "        \n"
+- "    \n"
+- "  \n"
+- "   Markets         \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\tUpdated: 5:16pm ET\n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDow\n"
+- "\t\t\t\t\t+0.60%\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t17,368.50\n"
+- "\t\t\t\t\t / \n"
+- "\t\t\t\t\t+103.29\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tNasdaq\n"
+- "\t\t\t\t\t+0.38%\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t4,952.23\n"
+- "\t\t\t\t\t / \n"
+- "\t\t\t\t\t+18.76\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tS&P\n"
+- "\t\t\t\t\t+0.48%\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t2,021.94\n"
+- "\t\t\t\t\t / \n"
+- "\t\t\t\t\t+9.57\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "         \n"
+- "\t\n"
+- "\t\n"
+- "\t\t/* Deployed On: 2015-10-09 09:32:29 */\n"
+- "\t\tif (typeof(crtg_content) !== \"undefined\") {\n"
+- "\t\t    var crtg_split = crtg_content.split(\";\");\n"
+- "\t\t    crtg_split.splice(crtg_split.length - 1, 1);\n"
+- "\t\t    if (typeof window[\"CNNMONEY\"] === \"undefined\") {\n"
+- "\t\t        window.CNNMONEY = {};\n"
+- "\t\t        window.CNNMONEY.adTargets = {};\n"
+- "\t\t    } else if (typeof(window[\"CNNMONEY\"].adTargets) === \"undefined\") {\n"
+- "\t\t        window.CNNMONEY.adTargets = {};\n"
+- "\t\t    }\n"
+- "\t\t    for (var i = 0; i < crtg_split.length; i++) {\n"
+- "\t\t        window[\"CNNMONEY\"].adTargets[(crtg_split[i].split(\"=\"))[0]] = (crtg_split[i].split(\"=\"))[1];\n"
+- "\t\t    }\n"
+- "\t\t}\n"
+- "\t\tAMPTManager.renderSingleSlot(\"ad_mod_1047ae102\", [\n"
+- "\t\t    [150, 50],\n"
+- "\t\t    [150, 60],\n"
+- "\t\t    [300, 100]\n"
+- "\t\t], [\n"
+- "\t\t    [\"transId\", cnnad_transactionID],\n"
+- "\t\t    [\"kuid\", Krux.user],\n"
+- "\t\t    [\"ksg\", Krux.segments],\n"
+- "\t\t    [\"guid\", AMPTManager.readCookie(\"ug\")],\n"
+- "\t\t    [\"pos\", [\"ns_atf_01\"]],\n"
+- "\t\t    [\"mod\", [\"tc1\"]]\n"
+- "\t\t], [], \"8663477/CNNMoney/markets\", 0, false);\n"
+- "\t              \n"
+- "\tMost Popular Stocks  \n"
+- "\t \n"
+- "\t\t\t \n"
+- "\t\t\t\tGoPro Inc \n"
+- "\t\t\t\t17.31 \n"
+- "\t\t\t\t-9.61%\n"
+- "\t\t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t\t \n"
+- "\t\t\t\tKinder Morgan \n"
+- "\t\t\t\t16.00 \n"
+- "\t\t\t\t-3.96%\n"
+- "\t\t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t\t \n"
+- "\t\t\t\tChesapeake Energy \n"
+- "\t\t\t\t4.00 \n"
+- "\t\t\t\t-3.85%\n"
+- "\t\t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t\t \n"
+- "\t\t\t\tE I du Pont de Nemours and Co \n"
+- "\t\t\t\t67.92 \n"
+- "\t\t\t\t-3.58%\n"
+- "\t\t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\t\t \n"
+- "\t\t\t\tChevron \n"
+- "\t\t\t\t89.33 \n"
+- "\t\t\t\t+3.34%\n"
+- "\t\t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\n"
+- "\t\t \n"
+- "\t\t \n"
+- "\t\tUpdated: 4:00pm ET \n"
+- "\t\t \n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- "\tWorld Markets \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tJapan Nikkei 225\n"
+- "\t\t\t\t\t-0.47%\n"
+- "\t\t\t\t\t18,794.34\n"
+- "\t\t\t\t\t-88.66\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tHong Kong Hang Seng\n"
+- "\t\t\t\t\t-0.72%\n"
+- "\t\t\t\t\t21,309.85\n"
+- "\t\t\t\t\t-154.20\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tLondon FTSE 100\n"
+- "\t\t\t\t\t-1.34%\n"
+- "\t\t\t\t\t5,874.06\n"
+- "\t\t\t\t\t-78.72\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tGermany DAX\n"
+- "\t\t\t\t\t-1.94%\n"
+- "\t\t\t\t\t10,139.34\n"
+- "\t\t\t\t\t-196.82\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tUpdated: 7:29pm ET\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "      \n"
+- "\tKey Stats \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t10-year yield\n"
+- "\t\t\t2.22%\n"
+- "\t\t\t+0.09\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tOil\n"
+- "\t\t\t$36.26\n"
+- "\t\t\t-0.14\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tYen\n"
+- "\t\t\t¥121.04\n"
+- "\t\t\t+0.11\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tEuro\n"
+- "\t\t\t$1.10\n"
+- "\t\t\t+0.31\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tGold\n"
+- "\t\t\t$1,062.20\n"
+- "\t\t\t-0.11\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- |2
+      Updated: 7:49pm ET
+- "\t\n"
+- "  \n"
+- |2+
+
+- "\tGainers \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tFirst Solar Inc\n"
+- "\t\t\t\t+5.70%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tElectronic Arts Inc\n"
+- "\t\t\t\t+3.71%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tDiamond Offshore Drilling Inc\n"
+- "\t\t\t\t+3.57%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tChevron Corp\n"
+- "\t\t\t\t+3.34%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMattel Inc\n"
+- "\t\t\t\t+3.12%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\tUpdated: 4:01pm ET\n"
+- "\t\n"
+- "  \n"
+- |2+
+
+- "\tLosers \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSouthwestern Energy Co\n"
+- "\t\t\t\t-9.66%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tNRG Energy Inc\n"
+- "\t\t\t\t-9.27%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTenet Healthcare Corp\n"
+- "\t\t\t\t-9.23%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tNewell Rubbermaid Inc\n"
+- "\t\t\t\t-6.91%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tQorvo Inc\n"
+- "\t\t\t\t-6.60%\n"
+- "\t\t\t\t0.00\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\tUpdated: 4:02pm ET\n"
+- "\t\n"
+- "      \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tTop Investing Stories \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tOil prices sink below $35 on fears of more Iran oil\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tAmerica's 40-year oil export ban may soon be lifted\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tIs GoPro doomed? Stock has been a huge dog\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tCEO exits after mutual fund implodes\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t3 reasons why South Africa is in a mess \n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- "              \n"
+- "\tSector Performance - 3 month performance \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\n"
+- "      \n"
+- "\tCommodities \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOil\n"
+- "\t\t\t\t$36.26\n"
+- "\t\t\t\t-0.14%\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tGas\n"
+- "\t\t\t\t$1.90\n"
+- "\t\t\t\t+0.21%\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tGold\n"
+- "\t\t\t\t$1,062.30\n"
+- "\t\t\t\t-0.10%\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSilver\n"
+- "\t\t\t\t$13.68\n"
+- "\t\t\t\t-0.11%\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tCorn\n"
+- "\t\t\t\t$379.25\n"
+- "\t\t\t\t+0.07%\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\tUpdated: 7:49pm ET\n"
+- "\t\n"
+- "  \n"
+- |2+
+
+- "\tCurrencies \n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEuro\n"
+- "\t\t\t\t$1.10\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tBritish Pound\n"
+- "\t\t\t\t$1.52\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tJapanese Yen\n"
+- "\t\t\t\t¥121.05\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tCanadian Dollar\n"
+- "\t\t\t\t$0.73\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tChinese Yuan\n"
+- "\t\t\t\t¥6.46\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\tUpdated: 6:49pm ET\n"
+- "\t\n"
+- "                       Fear & Greed Index      \n"
+- |
+  .fear-and-greed p {
+- "\tleft:27px !important;\n"
+- |
+  }
+- |2+
+
+- "\t\t\n"
+- "  \t\tWhat emotion is driving the market?\n"
+- "  \t\t\n"
+- "          \n"
+- "\tbody.blog .cnnoutbrain {\n"
+- "\t\tborder: 1px solid #ddd;\n"
+- "\t\tbackground-color: #fff;\n"
+- "\t\tmargin-bottom: 5px;\n"
+- "\t\tpadding: 10px 9px;\n"
+- "\t}\n"
+- |2+
+
+- "           \n"
+- |2+
+
+- "\tBitcoin (XBT) \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- " \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- "\r\n"
+- "\t\t\n"
+- "\t\t\t\tFree Partner Research\n"
+- "\t\t\t\n"
+- "\t\t\t\tShark Tank Just Revealed a Trillion-Dollar Idea (Motley Fool)\n"
+- "\t\t\t\t\t\t\t\t7 Best Stocks for the Next 30 Days (Zacks)\n"
+- "\t\t\t\t\t\t\t\tAre You Ignoring This $15k Social Security Bonus? (Motley Fool)\n"
+- "\t\t\t\t\t\t\t\t5 Stocks Set to Double (Zacks)\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "      \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tLendingTree \n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tPartner Offers\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tNextAdvisor \n"
+- "\t\t\t\n"
+- "\t\t\t\tThe best credit cards of 2015\n"
+- "\t\t\t\t\t\t\t\tAn overlooked method to pay off your credit card balance\n"
+- "\t\t\t\t\t\t\t\tA jaw-dropping $625 intro bonus just hit the market\n"
+- "\t\t\t\t\t\t\t\tThe unbelievable 6% cash back card\n"
+- "\t\t\t\t\t\t\t\tTop 7 credit cards for excellent credit\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "        \n"
+- " \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tGoBankingRates \n"
+- "\t\t\t\n"
+- "\t\t\t\tHow much do you need to borrow this holiday season? Get a low rate personal
+  loan to help \n"
+- "\tAre you earning .01% in your savings account? Learn how you can 10x that today.
+  \n"
+- "\tOpen a 1 year certificate of deposit today \n"
+- "\tSome checking accounts you may not know about…open a new account today! \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tNerdWallet \n"
+- "\t\t\t\n"
+- "\t\t\t\tApplying for a new credit card? Check out these offers first.\n"
+- "\t\t\t\t\t\t\t\tCalculate how much home you can afford using this free tool.\n"
+- "\t\t\t\t\t\t\t\tHow much life insurance do you need to truly protect your family?\n"
+- "\t\t\t\t\t\t\t\tHere's how to find the right lender for your small business.\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "                        \n"
+- "\t\t\n"
+- "\t\t\t\tFutureAdvisor \n"
+- "\t\t\t\n"
+- "\t\t\t\tAre You Sure You're Saving Enough For Retirement? \n"
+- "\tYour 401(k) Isn't Growing as Fast as It Should - Here's Why  \n"
+- "\t6 Sneaky Fees Ruining Your Investment Returns \n"
+- "\tSee the investment tactics millionaires have been using for decades \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "                        \n"
+- "        \n"
+- " \n"
+- "\tfunction getCookie(check_name) {\n"
+- "\t\tvar a_all_cookies = document.cookie.split(';');\n"
+- "\t\tvar a_temp_cookie = '';\n"
+- "\t\tvar ck_name = '';\n"
+- "\t\tvar cookie_value = '';\n"
+- "\t\tvar b_cookie_found = false;\n"
+- "\t\tfor ( i = 0; i < a_all_cookies.length; i++) {\n"
+- "\t\t\ta_temp_cookie = a_all_cookies[i].split('=');\n"
+- "\t\t\tck_name = a_temp_cookie[0].replace(/^\\s+|\\s+$/g, '');\n"
+- "\t\t\tif (ck_name == check_name) {\n"
+- "\t\t\t\tb_cookie_found = true;\n"
+- "\t\t\t\tif (a_temp_cookie.length > 1) {\n"
+- "\t\t\t\t\tcookie_value = unescape(a_temp_cookie[1].replace(/^\\s+|\\s+$/g, ''));\n"
+- "\t\t\t\t}\n"
+- "\t\t\t\treturn cookie_value;\n"
+- "\t\t\t\tbreak;\n"
+- "\t\t\t}\n"
+- "\t\t\ta_temp_cookie = null;\n"
+- "\t\t\tck_name = '';\n"
+- "\t\t}\n"
+- "\t\tif (!b_cookie_found) {\n"
+- "\t\t\treturn null;\n"
+- "\t\t}\n"
+- "\t}\n"
+- |2+
+
+- "\tfunction setCookie(c_name, value) {\n"
+- "\t\tvar exdate = new Date();\n"
+- "\t\texdate.setDate(exdate.getDate() + 365);\n"
+- "\t\tdocument.cookie = c_name + \"=\" + escape(value) + \";expires=\" + exdate.toUTCString()
+  + \";path=/;domain=cnn.com\";\n"
+- "\t\treturn;\n"
+- "\t}\n"
+- |2+
+
+- "\tfunction checkCookie(set_value) {\n"
+- "\t\tif (getCookie('SelectedEdition') == null || getCookie('SelectedEdition') ==
+  \"\") {\n"
+- "\t\t\tsetCookie('SelectedEdition', set_value);\n"
+- "\t\t}\n"
+- "\t\treturn;\n"
+- "\t}\n"
+- |2+
+
+- "\ttry {\n"
+- "\t\tcheckCookie('www');\n"
+- "\t} catch(e) {\n"
+- "\t}\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\tContact Us\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tAdvertise with Us\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tUser Preferences\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tClosed Captioning\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tContent\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tBusiness\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tMarkets\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tInvesting\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tTech\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tPersonal Finance\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tSmall Business\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tLuxury\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tMedia\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tVideo\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tTools\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tSite Map\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tInteractive\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tJob Search\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tReal Estate Search\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tLoan Center\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tCalculators\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tCorrections\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tMarket Data Alerts\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tNews Alerts\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tConnect\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tMy Account\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tMobile Site & Apps\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tFacebook\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tTwitter\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tLinkedIn\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tYouTube\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tRSS Feeds\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\tGoogle+\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\tMost stock quote data provided by BATS. Market indices are shown in real
+  time, except for the DJIA, which is delayed by two minutes. All times are ET. Disclaimer.
+  Morningstar: © 2015 Morningstar, Inc. All Rights Reserved. Factset: FactSet Research
+  Systems Inc. 2015. All rights reserved. Chicago Mercantile Association: Certain
+  market data is the property of Chicago Mercantile Exchange Inc. and its licensors.
+  All rights reserved. Dow Jones: The Dow Jones branded indices are proprietary to
+  and are calculated, distributed and marketed by DJI Opco, a subsidiary of S&P Dow
+  Jones Indices LLC and have been licensed for use to S&P Opco, LLC and CNN. Standard
+  & Poor's and S&P are registered trademarks of Standard & Poor’s Financial Services
+  LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+  All content of the Dow Jones branded indices © S&P Dow Jones Indices LLC 2015 and/or
+  its affiliates.\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- |
+  img#adchoice-logo {
+- "\tdisplay: initial;\n"
+- "\tmargin-left: 5px;\n"
+- |
+  }
+- |2+
+
+- |
+  © 2015 Cable News Network. A Time Warner Company. All Rights Reserved.  Terms under which this service is provided to you.  Privacy Policy. .
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- |
+  if (window.location.hostname === "ref2.money.cnn.com") {
+- |2
+      var cnnOmniture_prodenv = false;
+- |
+  }
+- |
+  else if (window.location.hostname === "dev.money.cnn.com") {
+- |2
+      var cnnOmniture_prodenv = false;
+- |
+  }
+- |
+  else if (window.location.hostname === "train.money.cnn.com") {
+- |2
+      var cnnOmniture_prodenv = false;
+- |
+  }
+- |
+  else if (window.location.hostname === "stage.money.cnn.com") {
+- |2
+      var cnnOmniture_prodenv = false;
+- |
+  }
+- "else { \n"
+- |2
+      var cnnOmniture_prodenv = true;
+- |
+  }
+- |2+
+
+- |
+  <!--
+- |
+  if (window.location.pathname.indexOf(".element") == -1 && window.location.href.indexOf("?fb_xd_fragment#?=&") == -1 && window.location.href.indexOf("search/index.html?") == -1) {
+- "\tvar jsmd=_jsmd.init(); \n"
+- "\tjsmd.send(); \n"
+- |
+  }
+- |
+  //-->
+- |
+  (function(win,doc){
+- |2+
+
+- |
+  var scriptElement, scrSrc;
+- |2+
+
+- |
+  if (typeof (win.ClickTaleCreateDOMElement) != "function")
+- |
+  {
+- "\twin.ClickTaleCreateDOMElement = function(tagName)\n"
+- "\t{\n"
+- "\t\tif (doc.createElementNS)\n"
+- "\t\t{\n"
+- "\t\t\treturn doc.createElementNS('http://www.w3.org/1999/xhtml', tagName);\n"
+- "\t\t}\n"
+- "\t\treturn doc.createElement(tagName);\n"
+- "\t}\n"
+- |
+  }
+- |2+
+
+- |
+  win.WRInitTime=(new Date()).getTime();
+- |2+
+
+- |
+  scriptElement = ClickTaleCreateDOMElement('script');
+- |
+  scriptElement.type = "text/javascript";
+- |2+
+
+- "scrSrc = doc.location.protocol=='https:'? 'https://cdnssl.clicktale.net/':\t'http://cdn.clicktale.net/';\n"
+- |2+
+
+- |
+  scrSrc += 'www04/ptc/1db4a0f2-17e4-45f8-b5fd-5fd78f545b59.js';
+- |2+
+
+- |
+  scriptElement.src = scrSrc;
+- |2+
+
+- |
+  doc.getElementsByTagName('body')[0].appendChild(scriptElement);
+- |
+  })(window,document);
+- |2+
+
+- "\tvar urlPre=\"http://markets.money.cnn.com/\";\n"
+- "\tvar cnnDomain=\"http://money.cnn.com/\";\n"
+- "\tvar cookieDomain=\"cnn.com\";\n"
+- "\tvar tzOffset= -240;\n"
+- "\t//var tzOffset= -300;\n"
+- |2
+     By continuing to use this site, you are agreeing to the new Privacy Policy and Terms of Service.What emotion is driving the market?
+- "\t\t\tMost stock quote data provided by BATS. Market indices are shown in real
+  time, except for the DJIA, which is delayed by two minutes. All times are ET. Disclaimer.
+  Morningstar: © 2015 Morningstar, Inc. All Rights Reserved. Factset: FactSet Research
+  Systems Inc. 2015. All rights reserved. Chicago Mercantile Association: Certain
+  market data is the property of Chicago Mercantile Exchange Inc. and its licensors.
+  All rights reserved. Dow Jones: The Dow Jones branded indices are proprietary to
+  and are calculated, distributed and marketed by DJI Opco, a subsidiary of S&P Dow
+  Jones Indices LLC and have been licensed for use to S&P Opco, LLC and CNN. Standard
+  & Poor's and S&P are registered trademarks of Standard & Poor’s Financial Services
+  LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+  All content of the Dow Jones branded indices © S&P Dow Jones Indices LLC 2015 and/or
+  its affiliates.\n"
+- "\t\t\t\n"
+- |
+  img#adchoice-logo {
+- "\tdisplay: initial;\n"
+- "\tmargin-left: 5px;\n"
+- |
+  }
+- |2+
+
+- |
+  © 2015 Cable News Network. A Time Warner Company. All Rights Reserved.  Terms under which this service is provided to you.  Privacy Policy. .
+- |2+
+
+- |2+
+
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 74.0
+    docPositions:
+    - 3
+    - 282
+    - 286
+    - 294
+    - 298
+    - 306
+    - 310
+    - 321
+    - 328
+    - 336
+    - 337
+    - 338
+    - 340
+    - 341
+    - 342
+    - 343
+    - 344
+    - 345
+    - 346
+    - 353
+    - 363
+    - 373
+    - 383
+    - 393
+    - 410
+    - 412
+    - 418
+    - 420
+    - 428
+    - 430
+    - 436
+    - 438
+    - 454
+    - 464
+    - 465
+    - 475
+    - 476
+    - 486
+    - 487
+    - 497
+    - 498
+    - 511
+    - 520
+    - 529
+    - 538
+    - 547
+    - 561
+    - 570
+    - 579
+    - 588
+    - 597
+    - 647
+    - 648
+    - 656
+    - 657
+    - 665
+    - 666
+    - 674
+    - 675
+    - 683
+    - 684
+    - 696
+    - 702
+    - 708
+    - 714
+    - 720
+    - 726
+    - 905
+    - 1056
+    - 1085
+    - 1113
+    - 1119
+    - 1128
+  tos: !ruby/object:Word
+    word: tos
+    stem: to
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 7.0
+    docPositions:
+    - 3
+    - 7
+    - 8
+    - 1056
+    - 1120
+    - 1128
+  container: !ruby/object:Word
+    word: container
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 6.0
+    docPositions:
+    - 7
+    - 8
+    - 1056
+    - 1120
+    - 1128
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 6.0
+    docPositions:
+    - 7
+    - 8
+    - 1056
+    - 1120
+    - 1128
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 23.0
+    docPositions:
+    - 7
+    - 8
+    - 224
+    - 381
+    - 726
+    - 1047
+    - 1120
+    - 1121
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 6.0
+    docPositions:
+    - 7
+    - 8
+    - 1056
+    - 1120
+    - 1128
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 7
+    - 857
+    - 1047
+    - 1121
+  changed: !ruby/object:Word
+    word: changed
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  continuing: !ruby/object:Word
+    word: continuing
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 1120
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 8
+    - 1047
+    - 1120
+    - 1121
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 5.0
+    docPositions:
+    - 8
+    - 975
+    - 1017
+    - 1120
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 14.0
+    docPositions:
+    - 8
+    - 772
+    - 831
+    - 832
+    - 834
+    - 844
+    - 845
+    - 854
+    - 1056
+    - 1120
+    - 1128
+  agreeing: !ruby/object:Word
+    word: agreeing
+    stem: agre
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 1120
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 7.0
+    docPositions:
+    - 8
+    - 834
+    - 843
+    - 890
+    - 1101
+    - 1120
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 5.0
+    docPositions:
+    - 21
+    - 846
+    - 933
+    - 953
+  mind: !ruby/object:Word
+    word: mind
+    stem: mind
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  blowing: !ruby/object:Word
+    word: blowing
+    stem: blow
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  supercars: !ruby/object:Word
+    word: supercars
+    stem: supercar
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 4.0
+    docPositions:
+    - 37
+    - 87
+    - 404
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  car: !ruby/object:Word
+    word: car
+    stem: car
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 1001
+    - 1056
+    - 1128
+  away: !ruby/object:Word
+    word: away
+    stem: awai
+    docFrequency: 2.0
+    docPositions:
+    - 41
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 617
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 26.0
+    docPositions:
+    - 42
+    - 114
+    - 196
+    - 236
+    - 250
+    - 305
+    - 617
+    - 846
+    - 855
+    - 872
+    - 876
+    - 1047
+    - 1121
+  choice: !ruby/object:Word
+    word: choice
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  super: !ruby/object:Word
+    word: super
+    stem: super
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  bowl: !ruby/object:Word
+    word: bowl
+    stem: bowl
+    docFrequency: 2.0
+    docPositions:
+    - 43
+  feed: !ruby/object:Word
+    word: feed
+    stem: feed
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  cnnmoney: !ruby/object:Word
+    word: cnnmoney
+    stem: cnnmonei
+    docFrequency: 9.0
+    docPositions:
+    - 46
+    - 325
+    - 326
+    - 327
+    - 328
+    - 329
+    - 332
+    - 346
+  investigates: !ruby/object:Word
+    word: investigates
+    stem: investig
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  opportunity: !ruby/object:Word
+    word: opportunity
+    stem: opportun
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  stunning: !ruby/object:Word
+    word: stunning
+    stem: stun
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  stats: !ruby/object:Word
+    word: stats
+    stem: stat
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 448
+  interactives: !ruby/object:Word
+    word: interactives
+    stem: interact
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  markets: !ruby/object:Word
+    word: markets
+    stem: market
+    docFrequency: 8.0
+    docPositions:
+    - 60
+    - 87
+    - 271
+    - 346
+    - 404
+    - 936
+    - 1115
+  oil: !ruby/object:Word
+    word: oil
+    stem: oil
+    docFrequency: 8.0
+    docPositions:
+    - 72
+    - 463
+    - 612
+    - 617
+    - 646
+  prices: !ruby/object:Word
+    word: prices
+    stem: price
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  sink: !ruby/object:Word
+    word: sink
+    stem: sink
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  fears: !ruby/object:Word
+    word: fears
+    stem: fear
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  iran: !ruby/object:Word
+    word: iran
+    stem: iran
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 612
+  investing: !ruby/object:Word
+    word: investing
+    stem: invest
+    docFrequency: 5.0
+    docPositions:
+    - 76
+    - 88
+    - 608
+    - 939
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 942
+  buzz: !ruby/object:Word
+    word: buzz
+    stem: buzz
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  fed: !ruby/object:Word
+    word: fed
+    stem: fed
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  etf: !ruby/object:Word
+    word: etf
+    stem: etf
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 3.0
+    docPositions:
+    - 82
+    - 989
+  premarkets: !ruby/object:Word
+    word: premarkets
+    stem: premarket
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 10.0
+    docPositions:
+    - 84
+    - 731
+    - 801
+    - 998
+    - 1047
+    - 1120
+    - 1121
+  movers: !ruby/object:Word
+    word: movers
+    stem: mover
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  dow: !ruby/object:Word
+    word: dow
+    stem: dow
+    docFrequency: 17.0
+    docPositions:
+    - 85
+    - 281
+    - 1047
+    - 1121
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 4.0
+    docPositions:
+    - 86
+    - 153
+    - 627
+  hours: !ruby/object:Word
+    word: hours
+    stem: hour
+    docFrequency: 3.0
+    docPositions:
+    - 86
+    - 171
+  guide: !ruby/object:Word
+    word: guide
+    stem: guid
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 236
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 4.0
+    docPositions:
+    - 89
+    - 833
+    - 834
+  stockswatch: !ruby/object:Word
+    word: stockswatch
+    stem: stockswatch
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  fear: !ruby/object:Word
+    word: fear
+    stem: fear
+    docFrequency: 4.0
+    docPositions:
+    - 92
+    - 725
+    - 726
+  greed: !ruby/object:Word
+    word: greed
+    stem: greed
+    docFrequency: 4.0
+    docPositions:
+    - 92
+    - 725
+    - 726
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 4.0
+    docPositions:
+    - 102
+    - 123
+    - 945
+  smartphone: !ruby/object:Word
+    word: smartphone
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  battery: !ruby/object:Word
+    word: battery
+    stem: batteri
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 4.0
+    docPositions:
+    - 114
+    - 832
+    - 844
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 771
+  innovate: !ruby/object:Word
+    word: innovate
+    stem: innov
+    docFrequency: 2.0
+    docPositions:
+    - 118
+  gadget: !ruby/object:Word
+    word: gadget
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  connect: !ruby/object:Word
+    word: connect
+    stem: connect
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 1009
+  cyber: !ruby/object:Word
+    word: cyber
+    stem: cyber
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  safe: !ruby/object:Word
+    word: safe
+    stem: safe
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  elon: !ruby/object:Word
+    word: elon
+    stem: elon
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  evolution: !ruby/object:Word
+    word: evolution
+    stem: evolut
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 4.0
+    docPositions:
+    - 123
+    - 771
+    - 799
+  innovative: !ruby/object:Word
+    word: innovative
+    stem: innov
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  cities: !ruby/object:Word
+    word: cities
+    stem: citi
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  ces: !ruby/object:Word
+    word: ces
+    stem: ce
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  superhero: !ruby/object:Word
+    word: superhero
+    stem: superhero
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  hackers: !ruby/object:Word
+    word: hackers
+    stem: hacker
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 127
+  love: !ruby/object:Word
+    word: love
+    stem: love
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  inc: !ruby/object:Word
+    word: inc
+    stem: inc
+    docFrequency: 16.0
+    docPositions:
+    - 128
+    - 351
+    - 510
+    - 519
+    - 528
+    - 546
+    - 569
+    - 587
+    - 596
+    - 1047
+    - 1121
+  sex: !ruby/object:Word
+    word: sex
+    stem: sex
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  drugs: !ruby/object:Word
+    word: drugs
+    stem: drug
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  silicon: !ruby/object:Word
+    word: silicon
+    stem: silicon
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  valley: !ruby/object:Word
+    word: valley
+    stem: vallei
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 138
+    - 959
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 4.0
+    docPositions:
+    - 141
+    - 831
+    - 950
+  finance: !ruby/object:Word
+    word: finance
+    stem: financ
+    docFrequency: 3.0
+    docPositions:
+    - 141
+    - 950
+  ceo: !ruby/object:Word
+    word: ceo
+    stem: ceo
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 627
+  exits: !ruby/object:Word
+    word: exits
+    stem: exit
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 627
+  mutual: !ruby/object:Word
+    word: mutual
+    stem: mutual
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 627
+  fund: !ruby/object:Word
+    word: fund
+    stem: fund
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 627
+  implodes: !ruby/object:Word
+    word: implodes
+    stem: implod
+    docFrequency: 3.0
+    docPositions:
+    - 153
+    - 627
+  save: !ruby/object:Word
+    word: save
+    stem: save
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  spend: !ruby/object:Word
+    word: spend
+    stem: spend
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  ahead: !ruby/object:Word
+    word: ahead
+    stem: ahead
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  wheels: !ruby/object:Word
+    word: wheels
+    stem: wheel
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 5.0
+    docPositions:
+    - 162
+    - 984
+    - 1047
+    - 1121
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 984
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  millennials: !ruby/object:Word
+    word: millennials
+    stem: millenni
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 11.0
+    docPositions:
+    - 166
+    - 167
+    - 170
+    - 173
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+    - 1115
+    - 1116
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 8.0
+    docPositions:
+    - 167
+    - 800
+    - 832
+    - 845
+    - 846
+    - 855
+    - 856
+  homes: !ruby/object:Word
+    word: homes
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  calculators: !ruby/object:Word
+    word: calculators
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 992
+  moves: !ruby/object:Word
+    word: moves
+    stem: move
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  essentials: !ruby/object:Word
+    word: essentials
+    stem: essenti
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 1014
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 4.0
+    docPositions:
+    - 184
+    - 846
+    - 953
+  biz: !ruby/object:Word
+    word: biz
+    stem: biz
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  laser: !ruby/object:Word
+    word: laser
+    stem: laser
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  christmas: !ruby/object:Word
+    word: christmas
+    stem: christma
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  lights: !ruby/object:Word
+    word: lights
+    stem: light
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 196
+    - 452
+    - 617
+    - 833
+  frenzy: !ruby/object:Word
+    word: frenzy
+    stem: frenzi
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  startups: !ruby/object:Word
+    word: startups
+    stem: startup
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  empire: !ruby/object:Word
+    word: empire
+    stem: empir
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  entrepreneurs: !ruby/object:Word
+    word: entrepreneurs
+    stem: entrepreneur
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  luxury: !ruby/object:Word
+    word: luxury
+    stem: luxuri
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 956
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 12.0
+    docPositions:
+    - 224
+    - 331
+    - 332
+    - 381
+    - 870
+    - 871
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 3.0
+    docPositions:
+    - 224
+    - 800
+  roaded: !ruby/object:Word
+    word: roaded
+    stem: road
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  castle: !ruby/object:Word
+    word: castle
+    stem: castl
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  survived: !ruby/object:Word
+    word: survived
+    stem: surviv
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  tell: !ruby/object:Word
+    word: tell
+    stem: tell
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  tale: !ruby/object:Word
+    word: tale
+    stem: tale
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  voyage: !ruby/object:Word
+    word: voyage
+    stem: voyag
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  rare: !ruby/object:Word
+    word: rare
+    stem: rare
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  drive: !ruby/object:Word
+    word: drive
+    stem: drive
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  wealth: !ruby/object:Word
+    word: wealth
+    stem: wealth
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  rich: !ruby/object:Word
+    word: rich
+    stem: rich
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  quiz: !ruby/object:Word
+    word: quiz
+    stem: quiz
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  collector: !ruby/object:Word
+    word: collector
+    stem: collector
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  gentleman: !ruby/object:Word
+    word: gentleman
+    stem: gentleman
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  millionaire: !ruby/object:Word
+    word: millionaire
+    stem: millionair
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  calculator: !ruby/object:Word
+    word: calculator
+    stem: calcul
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  cnn: !ruby/object:Word
+    word: cnn
+    stem: cnn
+    docFrequency: 12.0
+    docPositions:
+    - 248
+    - 892
+    - 1047
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+    - 1115
+    - 1116
+    - 1117
+    - 1121
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 250
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 3.0
+    docPositions:
+    - 257
+    - 260
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 843
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 9.0
+    docPositions:
+    - 278
+    - 399
+    - 443
+    - 502
+    - 552
+    - 602
+    - 688
+    - 723
+  et: !ruby/object:Word
+    word: et
+    stem: et
+    docFrequency: 11.0
+    docPositions:
+    - 278
+    - 399
+    - 443
+    - 502
+    - 552
+    - 602
+    - 688
+    - 723
+    - 1047
+    - 1121
+  nasdaq: !ruby/object:Word
+    word: nasdaq
+    stem: nasdaq
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 11.0
+    docPositions:
+    - 305
+    - 726
+    - 1047
+    - 1121
+  deployed: !ruby/object:Word
+    word: deployed
+    stem: deploi
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 15.0
+    docPositions:
+    - 322
+    - 325
+    - 328
+    - 873
+    - 875
+    - 884
+    - 897
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+    - 1080
+    - 1089
+    - 1093
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 5.0
+    docPositions:
+    - 322
+    - 325
+    - 328
+    - 1089
+  crtg_content: !ruby/object:Word
+    word: crtg_content
+    stem: crtg_content
+    docFrequency: 3.0
+    docPositions:
+    - 322
+    - 323
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 4.0
+    docPositions:
+    - 322
+    - 325
+    - 328
+  crtg_split: !ruby/object:Word
+    word: crtg_split
+    stem: crtg_split
+    docFrequency: 7.0
+    docPositions:
+    - 323
+    - 324
+    - 331
+    - 332
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 6.0
+    docPositions:
+    - 323
+    - 332
+    - 865
+    - 871
+  splice: !ruby/object:Word
+    word: splice
+    stem: splice
+    docFrequency: 2.0
+    docPositions:
+    - 324
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 5.0
+    docPositions:
+    - 324
+    - 331
+    - 870
+    - 875
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 15.0
+    docPositions:
+    - 325
+    - 326
+    - 327
+    - 328
+    - 329
+    - 332
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+    - 1080
+    - 1113
+  adtargets: !ruby/object:Word
+    word: adtargets
+    stem: adtarget
+    docFrequency: 5.0
+    docPositions:
+    - 327
+    - 328
+    - 329
+    - 332
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 6.0
+    docPositions:
+    - 328
+    - 1066
+    - 1069
+    - 1072
+    - 1075
+  amptmanager: !ruby/object:Word
+    word: amptmanager
+    stem: amptmanag
+    docFrequency: 3.0
+    docPositions:
+    - 335
+    - 343
+  rendersingleslot: !ruby/object:Word
+    word: rendersingleslot
+    stem: rendersingleslot
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  transid: !ruby/object:Word
+    word: transid
+    stem: transid
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  cnnad_transactionid: !ruby/object:Word
+    word: cnnad_transactionid
+    stem: cnnad_transactionid
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  kuid: !ruby/object:Word
+    word: kuid
+    stem: kuid
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  krux: !ruby/object:Word
+    word: krux
+    stem: krux
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 342
+  user: !ruby/object:Word
+    word: user
+    stem: user
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 919
+  ksg: !ruby/object:Word
+    word: ksg
+    stem: ksg
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  segments: !ruby/object:Word
+    word: segments
+    stem: segment
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  guid: !ruby/object:Word
+    word: guid
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 343
+  readcookie: !ruby/object:Word
+    word: readcookie
+    stem: readcooki
+    docFrequency: 2.0
+    docPositions:
+    - 343
+  ug: !ruby/object:Word
+    word: ug
+    stem: ug
+    docFrequency: 2.0
+    docPositions:
+    - 343
+  pos: !ruby/object:Word
+    word: pos
+    stem: po
+    docFrequency: 2.0
+    docPositions:
+    - 344
+  mod: !ruby/object:Word
+    word: mod
+    stem: mod
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 346
+    - 869
+    - 1064
+    - 1067
+    - 1070
+    - 1073
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 4.0
+    docPositions:
+    - 348
+    - 1047
+    - 1121
+  popular: !ruby/object:Word
+    word: popular
+    stem: popular
+    docFrequency: 2.0
+    docPositions:
+    - 348
+  stocks: !ruby/object:Word
+    word: stocks
+    stem: stock
+    docFrequency: 4.0
+    docPositions:
+    - 348
+    - 771
+    - 773
+  gopro: !ruby/object:Word
+    word: gopro
+    stem: gopro
+    docFrequency: 3.0
+    docPositions:
+    - 351
+    - 622
+  kinder: !ruby/object:Word
+    word: kinder
+    stem: kinder
+    docFrequency: 2.0
+    docPositions:
+    - 361
+  morgan: !ruby/object:Word
+    word: morgan
+    stem: morgan
+    docFrequency: 2.0
+    docPositions:
+    - 361
+  chesapeake: !ruby/object:Word
+    word: chesapeake
+    stem: chesapeak
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  energy: !ruby/object:Word
+    word: energy
+    stem: energi
+    docFrequency: 4.0
+    docPositions:
+    - 371
+    - 560
+    - 569
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 381
+    - 905
+  du: !ruby/object:Word
+    word: du
+    stem: du
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  pont: !ruby/object:Word
+    word: pont
+    stem: pont
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  nemours: !ruby/object:Word
+    word: nemours
+    stem: nemour
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 3.0
+    docPositions:
+    - 381
+    - 560
+  chevron: !ruby/object:Word
+    word: chevron
+    stem: chevron
+    docFrequency: 3.0
+    docPositions:
+    - 391
+    - 537
+  japan: !ruby/object:Word
+    word: japan
+    stem: japan
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  nikkei: !ruby/object:Word
+    word: nikkei
+    stem: nikkei
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  hong: !ruby/object:Word
+    word: hong
+    stem: hong
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  kong: !ruby/object:Word
+    word: kong
+    stem: kong
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  hang: !ruby/object:Word
+    word: hang
+    stem: hang
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  seng: !ruby/object:Word
+    word: seng
+    stem: seng
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  london: !ruby/object:Word
+    word: london
+    stem: london
+    docFrequency: 2.0
+    docPositions:
+    - 427
+  ftse: !ruby/object:Word
+    word: ftse
+    stem: ftse
+    docFrequency: 2.0
+    docPositions:
+    - 427
+  germany: !ruby/object:Word
+    word: germany
+    stem: germani
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  dax: !ruby/object:Word
+    word: dax
+    stem: dax
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 2.0
+    docPositions:
+    - 448
+  yield: !ruby/object:Word
+    word: yield
+    stem: yield
+    docFrequency: 2.0
+    docPositions:
+    - 452
+  yen: !ruby/object:Word
+    word: yen
+    stem: yen
+    docFrequency: 3.0
+    docPositions:
+    - 474
+    - 707
+  euro: !ruby/object:Word
+    word: euro
+    stem: euro
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 695
+  gold: !ruby/object:Word
+    word: gold
+    stem: gold
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 664
+  gainers: !ruby/object:Word
+    word: gainers
+    stem: gainer
+    docFrequency: 2.0
+    docPositions:
+    - 506
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 510
+    - 843
+  solar: !ruby/object:Word
+    word: solar
+    stem: solar
+    docFrequency: 2.0
+    docPositions:
+    - 510
+  electronic: !ruby/object:Word
+    word: electronic
+    stem: electron
+    docFrequency: 2.0
+    docPositions:
+    - 519
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 519
+  diamond: !ruby/object:Word
+    word: diamond
+    stem: diamond
+    docFrequency: 2.0
+    docPositions:
+    - 528
+  offshore: !ruby/object:Word
+    word: offshore
+    stem: offshor
+    docFrequency: 2.0
+    docPositions:
+    - 528
+  drilling: !ruby/object:Word
+    word: drilling
+    stem: drill
+    docFrequency: 2.0
+    docPositions:
+    - 528
+  corp: !ruby/object:Word
+    word: corp
+    stem: corp
+    docFrequency: 3.0
+    docPositions:
+    - 537
+    - 578
+  mattel: !ruby/object:Word
+    word: mattel
+    stem: mattel
+    docFrequency: 2.0
+    docPositions:
+    - 546
+  losers: !ruby/object:Word
+    word: losers
+    stem: loser
+    docFrequency: 2.0
+    docPositions:
+    - 556
+  southwestern: !ruby/object:Word
+    word: southwestern
+    stem: southwestern
+    docFrequency: 2.0
+    docPositions:
+    - 560
+  nrg: !ruby/object:Word
+    word: nrg
+    stem: nrg
+    docFrequency: 2.0
+    docPositions:
+    - 569
+  tenet: !ruby/object:Word
+    word: tenet
+    stem: tenet
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  healthcare: !ruby/object:Word
+    word: healthcare
+    stem: healthcar
+    docFrequency: 2.0
+    docPositions:
+    - 578
+  newell: !ruby/object:Word
+    word: newell
+    stem: newel
+    docFrequency: 2.0
+    docPositions:
+    - 587
+  rubbermaid: !ruby/object:Word
+    word: rubbermaid
+    stem: rubbermaid
+    docFrequency: 2.0
+    docPositions:
+    - 587
+  qorvo: !ruby/object:Word
+    word: qorvo
+    stem: qorvo
+    docFrequency: 2.0
+    docPositions:
+    - 596
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 608
+    - 803
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 608
+  export: !ruby/object:Word
+    word: export
+    stem: export
+    docFrequency: 2.0
+    docPositions:
+    - 617
+  ban: !ruby/object:Word
+    word: ban
+    stem: ban
+    docFrequency: 2.0
+    docPositions:
+    - 617
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 617
+    - 834
+  soon: !ruby/object:Word
+    word: soon
+    stem: soon
+    docFrequency: 2.0
+    docPositions:
+    - 617
+  lifted: !ruby/object:Word
+    word: lifted
+    stem: lift
+    docFrequency: 2.0
+    docPositions:
+    - 617
+  doomed: !ruby/object:Word
+    word: doomed
+    stem: doom
+    docFrequency: 2.0
+    docPositions:
+    - 622
+  stock: !ruby/object:Word
+    word: stock
+    stem: stock
+    docFrequency: 4.0
+    docPositions:
+    - 622
+    - 1047
+    - 1121
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 622
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 5.0
+    docPositions:
+    - 622
+    - 857
+    - 1047
+    - 1121
+  huge: !ruby/object:Word
+    word: huge
+    stem: huge
+    docFrequency: 2.0
+    docPositions:
+    - 622
+  dog: !ruby/object:Word
+    word: dog
+    stem: dog
+    docFrequency: 2.0
+    docPositions:
+    - 622
+  reasons: !ruby/object:Word
+    word: reasons
+    stem: reason
+    docFrequency: 2.0
+    docPositions:
+    - 632
+  why: !ruby/object:Word
+    word: why
+    stem: why
+    docFrequency: 3.0
+    docPositions:
+    - 632
+    - 855
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 632
+  africa: !ruby/object:Word
+    word: africa
+    stem: africa
+    docFrequency: 2.0
+    docPositions:
+    - 632
+  mess: !ruby/object:Word
+    word: mess
+    stem: mess
+    docFrequency: 2.0
+    docPositions:
+    - 632
+  sector: !ruby/object:Word
+    word: sector
+    stem: sector
+    docFrequency: 2.0
+    docPositions:
+    - 637
+  performance: !ruby/object:Word
+    word: performance
+    stem: perform
+    docFrequency: 3.0
+    docPositions:
+    - 637
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 2.0
+    docPositions:
+    - 637
+  commodities: !ruby/object:Word
+    word: commodities
+    stem: commod
+    docFrequency: 2.0
+    docPositions:
+    - 642
+  gas: !ruby/object:Word
+    word: gas
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  silver: !ruby/object:Word
+    word: silver
+    stem: silver
+    docFrequency: 2.0
+    docPositions:
+    - 673
+  corn: !ruby/object:Word
+    word: corn
+    stem: corn
+    docFrequency: 2.0
+    docPositions:
+    - 682
+  currencies: !ruby/object:Word
+    word: currencies
+    stem: currenc
+    docFrequency: 2.0
+    docPositions:
+    - 692
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  pound: !ruby/object:Word
+    word: pound
+    stem: pound
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  japanese: !ruby/object:Word
+    word: japanese
+    stem: japanes
+    docFrequency: 2.0
+    docPositions:
+    - 707
+  canadian: !ruby/object:Word
+    word: canadian
+    stem: canadian
+    docFrequency: 2.0
+    docPositions:
+    - 713
+  dollar: !ruby/object:Word
+    word: dollar
+    stem: dollar
+    docFrequency: 3.0
+    docPositions:
+    - 713
+    - 770
+  chinese: !ruby/object:Word
+    word: chinese
+    stem: chines
+    docFrequency: 2.0
+    docPositions:
+    - 719
+  yuan: !ruby/object:Word
+    word: yuan
+    stem: yuan
+    docFrequency: 2.0
+    docPositions:
+    - 719
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 1080
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 727
+    - 1053
+    - 1125
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 2.0
+    docPositions:
+    - 727
+  emotion: !ruby/object:Word
+    word: emotion
+    stem: emot
+    docFrequency: 3.0
+    docPositions:
+    - 731
+    - 1120
+  driving: !ruby/object:Word
+    word: driving
+    stem: drive
+    docFrequency: 3.0
+    docPositions:
+    - 731
+    - 1120
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 734
+    - 1112
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  cnnoutbrain: !ruby/object:Word
+    word: cnnoutbrain
+    stem: cnnoutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 735
+  solid: !ruby/object:Word
+    word: solid
+    stem: solid
+    docFrequency: 2.0
+    docPositions:
+    - 735
+  ddd: !ruby/object:Word
+    word: ddd
+    stem: ddd
+    docFrequency: 2.0
+    docPositions:
+    - 735
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  color: !ruby/object:Word
+    word: color
+    stem: color
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  fff: !ruby/object:Word
+    word: fff
+    stem: fff
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 4.0
+    docPositions:
+    - 737
+    - 1053
+    - 1125
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 2.0
+    docPositions:
+    - 737
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 738
+  bitcoin: !ruby/object:Word
+    word: bitcoin
+    stem: bitcoin
+    docFrequency: 2.0
+    docPositions:
+    - 743
+  xbt: !ruby/object:Word
+    word: xbt
+    stem: xbt
+    docFrequency: 2.0
+    docPositions:
+    - 743
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 3.0
+    docPositions:
+    - 768
+    - 844
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 3.0
+    docPositions:
+    - 768
+    - 788
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 4.0
+    docPositions:
+    - 768
+    - 1047
+    - 1121
+  shark: !ruby/object:Word
+    word: shark
+    stem: shark
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  tank: !ruby/object:Word
+    word: tank
+    stem: tank
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  just: !ruby/object:Word
+    word: just
+    stem: just
+    docFrequency: 3.0
+    docPositions:
+    - 770
+    - 801
+  revealed: !ruby/object:Word
+    word: revealed
+    stem: reveal
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  trillion: !ruby/object:Word
+    word: trillion
+    stem: trillion
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  idea: !ruby/object:Word
+    word: idea
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  motley: !ruby/object:Word
+    word: motley
+    stem: motlei
+    docFrequency: 3.0
+    docPositions:
+    - 770
+    - 772
+  fool: !ruby/object:Word
+    word: fool
+    stem: fool
+    docFrequency: 3.0
+    docPositions:
+    - 770
+    - 772
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 2.0
+    docPositions:
+    - 771
+  zacks: !ruby/object:Word
+    word: zacks
+    stem: zack
+    docFrequency: 3.0
+    docPositions:
+    - 771
+    - 773
+  ignoring: !ruby/object:Word
+    word: ignoring
+    stem: ignor
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  bonus: !ruby/object:Word
+    word: bonus
+    stem: bonu
+    docFrequency: 3.0
+    docPositions:
+    - 772
+    - 801
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  double: !ruby/object:Word
+    word: double
+    stem: doubl
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  lendingtree: !ruby/object:Word
+    word: lendingtree
+    stem: lendingtre
+    docFrequency: 2.0
+    docPositions:
+    - 779
+  offers: !ruby/object:Word
+    word: offers
+    stem: offer
+    docFrequency: 3.0
+    docPositions:
+    - 788
+    - 843
+  nextadvisor: !ruby/object:Word
+    word: nextadvisor
+    stem: nextadvisor
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  credit: !ruby/object:Word
+    word: credit
+    stem: credit
+    docFrequency: 6.0
+    docPositions:
+    - 799
+    - 800
+    - 803
+    - 843
+  cards: !ruby/object:Word
+    word: cards
+    stem: card
+    docFrequency: 3.0
+    docPositions:
+    - 799
+    - 803
+  overlooked: !ruby/object:Word
+    word: overlooked
+    stem: overlook
+    docFrequency: 2.0
+    docPositions:
+    - 800
+  method: !ruby/object:Word
+    word: method
+    stem: method
+    docFrequency: 2.0
+    docPositions:
+    - 800
+  pay: !ruby/object:Word
+    word: pay
+    stem: pai
+    docFrequency: 2.0
+    docPositions:
+    - 800
+  card: !ruby/object:Word
+    word: card
+    stem: card
+    docFrequency: 4.0
+    docPositions:
+    - 800
+    - 802
+    - 843
+  balance: !ruby/object:Word
+    word: balance
+    stem: balanc
+    docFrequency: 2.0
+    docPositions:
+    - 800
+  jaw: !ruby/object:Word
+    word: jaw
+    stem: jaw
+    docFrequency: 2.0
+    docPositions:
+    - 801
+  dropping: !ruby/object:Word
+    word: dropping
+    stem: drop
+    docFrequency: 2.0
+    docPositions:
+    - 801
+  intro: !ruby/object:Word
+    word: intro
+    stem: intro
+    docFrequency: 2.0
+    docPositions:
+    - 801
+  hit: !ruby/object:Word
+    word: hit
+    stem: hit
+    docFrequency: 2.0
+    docPositions:
+    - 801
+  unbelievable: !ruby/object:Word
+    word: unbelievable
+    stem: unbeliev
+    docFrequency: 2.0
+    docPositions:
+    - 802
+  cash: !ruby/object:Word
+    word: cash
+    stem: cash
+    docFrequency: 2.0
+    docPositions:
+    - 802
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 802
+  excellent: !ruby/object:Word
+    word: excellent
+    stem: excel
+    docFrequency: 2.0
+    docPositions:
+    - 803
+  gobankingrates: !ruby/object:Word
+    word: gobankingrates
+    stem: gobankingr
+    docFrequency: 2.0
+    docPositions:
+    - 829
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 4.0
+    docPositions:
+    - 831
+    - 844
+    - 845
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 831
+    - 845
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 3.0
+    docPositions:
+    - 831
+    - 845
+  borrow: !ruby/object:Word
+    word: borrow
+    stem: borrow
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  holiday: !ruby/object:Word
+    word: holiday
+    stem: holidai
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  season: !ruby/object:Word
+    word: season
+    stem: season
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  rate: !ruby/object:Word
+    word: rate
+    stem: rate
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  loan: !ruby/object:Word
+    word: loan
+    stem: loan
+    docFrequency: 3.0
+    docPositions:
+    - 831
+    - 989
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  earning: !ruby/object:Word
+    word: earning
+    stem: earn
+    docFrequency: 2.0
+    docPositions:
+    - 832
+  savings: !ruby/object:Word
+    word: savings
+    stem: save
+    docFrequency: 2.0
+    docPositions:
+    - 832
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 4.0
+    docPositions:
+    - 832
+    - 834
+    - 1014
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 832
+  today: !ruby/object:Word
+    word: today
+    stem: todai
+    docFrequency: 4.0
+    docPositions:
+    - 832
+    - 833
+    - 834
+  certificate: !ruby/object:Word
+    word: certificate
+    stem: certif
+    docFrequency: 2.0
+    docPositions:
+    - 833
+  deposit: !ruby/object:Word
+    word: deposit
+    stem: deposit
+    docFrequency: 2.0
+    docPositions:
+    - 833
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  checking: !ruby/object:Word
+    word: checking
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  accounts: !ruby/object:Word
+    word: accounts
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 2.0
+    docPositions:
+    - 834
+  nerdwallet: !ruby/object:Word
+    word: nerdwallet
+    stem: nerdwallet
+    docFrequency: 2.0
+    docPositions:
+    - 841
+  applying: !ruby/object:Word
+    word: applying
+    stem: appli
+    docFrequency: 2.0
+    docPositions:
+    - 843
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 843
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 843
+  calculate: !ruby/object:Word
+    word: calculate
+    stem: calcul
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  afford: !ruby/object:Word
+    word: afford
+    stem: afford
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 844
+    - 857
+  tool: !ruby/object:Word
+    word: tool
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 2.0
+    docPositions:
+    - 845
+  insurance: !ruby/object:Word
+    word: insurance
+    stem: insur
+    docFrequency: 2.0
+    docPositions:
+    - 845
+  truly: !ruby/object:Word
+    word: truly
+    stem: truli
+    docFrequency: 2.0
+    docPositions:
+    - 845
+  protect: !ruby/object:Word
+    word: protect
+    stem: protect
+    docFrequency: 2.0
+    docPositions:
+    - 845
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 2.0
+    docPositions:
+    - 845
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 3.0
+    docPositions:
+    - 846
+    - 855
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 846
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 846
+  lender: !ruby/object:Word
+    word: lender
+    stem: lender
+    docFrequency: 2.0
+    docPositions:
+    - 846
+  futureadvisor: !ruby/object:Word
+    word: futureadvisor
+    stem: futureadvisor
+    docFrequency: 2.0
+    docPositions:
+    - 852
+  sure: !ruby/object:Word
+    word: sure
+    stem: sure
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  saving: !ruby/object:Word
+    word: saving
+    stem: save
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  retirement: !ruby/object:Word
+    word: retirement
+    stem: retir
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  isn: !ruby/object:Word
+    word: isn
+    stem: isn
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  growing: !ruby/object:Word
+    word: growing
+    stem: grow
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  fast: !ruby/object:Word
+    word: fast
+    stem: fast
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 855
+  sneaky: !ruby/object:Word
+    word: sneaky
+    stem: sneaki
+    docFrequency: 2.0
+    docPositions:
+    - 856
+  fees: !ruby/object:Word
+    word: fees
+    stem: fee
+    docFrequency: 2.0
+    docPositions:
+    - 856
+  ruining: !ruby/object:Word
+    word: ruining
+    stem: ruin
+    docFrequency: 2.0
+    docPositions:
+    - 856
+  investment: !ruby/object:Word
+    word: investment
+    stem: invest
+    docFrequency: 3.0
+    docPositions:
+    - 856
+    - 857
+  returns: !ruby/object:Word
+    word: returns
+    stem: return
+    docFrequency: 2.0
+    docPositions:
+    - 856
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 857
+  tactics: !ruby/object:Word
+    word: tactics
+    stem: tactic
+    docFrequency: 2.0
+    docPositions:
+    - 857
+  millionaires: !ruby/object:Word
+    word: millionaires
+    stem: millionair
+    docFrequency: 2.0
+    docPositions:
+    - 857
+  decades: !ruby/object:Word
+    word: decades
+    stem: decad
+    docFrequency: 2.0
+    docPositions:
+    - 857
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 864
+    - 889
+    - 896
+    - 1085
+    - 1089
+    - 1091
+  getcookie: !ruby/object:Word
+    word: getcookie
+    stem: getcooki
+    docFrequency: 4.0
+    docPositions:
+    - 864
+    - 897
+  check_name: !ruby/object:Word
+    word: check_name
+    stem: check_nam
+    docFrequency: 3.0
+    docPositions:
+    - 864
+    - 873
+  a_all_cookies: !ruby/object:Word
+    word: a_all_cookies
+    stem: a_all_cooki
+    docFrequency: 4.0
+    docPositions:
+    - 865
+    - 870
+    - 871
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 4.0
+    docPositions:
+    - 865
+    - 892
+    - 1113
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 3.0
+    docPositions:
+    - 865
+    - 892
+  a_temp_cookie: !ruby/object:Word
+    word: a_temp_cookie
+    stem: a_temp_cooki
+    docFrequency: 7.0
+    docPositions:
+    - 866
+    - 871
+    - 872
+    - 875
+    - 876
+    - 881
+  ck_name: !ruby/object:Word
+    word: ck_name
+    stem: ck_name
+    docFrequency: 5.0
+    docPositions:
+    - 867
+    - 872
+    - 873
+    - 882
+  cookie_value: !ruby/object:Word
+    word: cookie_value
+    stem: cookie_valu
+    docFrequency: 4.0
+    docPositions:
+    - 868
+    - 876
+    - 878
+  b_cookie_found: !ruby/object:Word
+    word: b_cookie_found
+    stem: b_cookie_found
+    docFrequency: 4.0
+    docPositions:
+    - 869
+    - 874
+    - 884
+  replace: !ruby/object:Word
+    word: replace
+    stem: replac
+    docFrequency: 3.0
+    docPositions:
+    - 872
+    - 876
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 3.0
+    docPositions:
+    - 872
+    - 876
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 874
+    - 1076
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 876
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 7.0
+    docPositions:
+    - 878
+    - 885
+    - 893
+    - 900
+    - 1095
+    - 1097
+  break: !ruby/object:Word
+    word: break
+    stem: break
+    docFrequency: 2.0
+    docPositions:
+    - 879
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 4.0
+    docPositions:
+    - 881
+    - 885
+    - 897
+  setcookie: !ruby/object:Word
+    word: setcookie
+    stem: setcooki
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 898
+  c_name: !ruby/object:Word
+    word: c_name
+    stem: c_name
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 892
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 892
+  exdate: !ruby/object:Word
+    word: exdate
+    stem: exdat
+    docFrequency: 5.0
+    docPositions:
+    - 890
+    - 891
+    - 892
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 890
+    - 1101
+  setdate: !ruby/object:Word
+    word: setdate
+    stem: setdat
+    docFrequency: 2.0
+    docPositions:
+    - 891
+  getdate: !ruby/object:Word
+    word: getdate
+    stem: getdat
+    docFrequency: 2.0
+    docPositions:
+    - 891
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 2.0
+    docPositions:
+    - 892
+  expires: !ruby/object:Word
+    word: expires
+    stem: expir
+    docFrequency: 2.0
+    docPositions:
+    - 892
+  toutcstring: !ruby/object:Word
+    word: toutcstring
+    stem: toutcstr
+    docFrequency: 2.0
+    docPositions:
+    - 892
+  path: !ruby/object:Word
+    word: path
+    stem: path
+    docFrequency: 2.0
+    docPositions:
+    - 892
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 2.0
+    docPositions:
+    - 892
+  checkcookie: !ruby/object:Word
+    word: checkcookie
+    stem: checkcooki
+    docFrequency: 3.0
+    docPositions:
+    - 896
+    - 904
+  set_value: !ruby/object:Word
+    word: set_value
+    stem: set_valu
+    docFrequency: 3.0
+    docPositions:
+    - 896
+    - 898
+  selectededition: !ruby/object:Word
+    word: selectededition
+    stem: selectededit
+    docFrequency: 4.0
+    docPositions:
+    - 897
+    - 898
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 903
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 905
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 913
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 913
+    - 916
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 916
+  preferences: !ruby/object:Word
+    word: preferences
+    stem: prefer
+    docFrequency: 2.0
+    docPositions:
+    - 919
+  closed: !ruby/object:Word
+    word: closed
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 922
+  captioning: !ruby/object:Word
+    word: captioning
+    stem: caption
+    docFrequency: 2.0
+    docPositions:
+    - 922
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 4.0
+    docPositions:
+    - 928
+    - 1047
+    - 1121
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 2.0
+    docPositions:
+    - 962
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 970
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 975
+  interactive: !ruby/object:Word
+    word: interactive
+    stem: interact
+    docFrequency: 2.0
+    docPositions:
+    - 978
+  job: !ruby/object:Word
+    word: job
+    stem: job
+    docFrequency: 2.0
+    docPositions:
+    - 981
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 4.0
+    docPositions:
+    - 981
+    - 984
+    - 1080
+  corrections: !ruby/object:Word
+    word: corrections
+    stem: correct
+    docFrequency: 2.0
+    docPositions:
+    - 995
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 6.0
+    docPositions:
+    - 998
+    - 1047
+    - 1121
+  alerts: !ruby/object:Word
+    word: alerts
+    stem: alert
+    docFrequency: 3.0
+    docPositions:
+    - 998
+    - 1001
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 1017
+  apps: !ruby/object:Word
+    word: apps
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 1017
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 1020
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 1023
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 1026
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 2.0
+    docPositions:
+    - 1031
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 2.0
+    docPositions:
+    - 1034
+  feeds: !ruby/object:Word
+    word: feeds
+    stem: feed
+    docFrequency: 2.0
+    docPositions:
+    - 1034
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 2.0
+    docPositions:
+    - 1037
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 1040
+  quote: !ruby/object:Word
+    word: quote
+    stem: quot
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  bats: !ruby/object:Word
+    word: bats
+    stem: bat
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  indices: !ruby/object:Word
+    word: indices
+    stem: indic
+    docFrequency: 11.0
+    docPositions:
+    - 1047
+    - 1121
+  shown: !ruby/object:Word
+    word: shown
+    stem: shown
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  except: !ruby/object:Word
+    word: except
+    stem: except
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  djia: !ruby/object:Word
+    word: djia
+    stem: djia
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 13.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  disclaimer: !ruby/object:Word
+    word: disclaimer
+    stem: disclaim
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  morningstar: !ruby/object:Word
+    word: morningstar
+    stem: morningstar
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 9.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 9.0
+    docPositions:
+    - 1047
+    - 1056
+    - 1121
+    - 1128
+  factset: !ruby/object:Word
+    word: factset
+    stem: factset
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  systems: !ruby/object:Word
+    word: systems
+    stem: system
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  chicago: !ruby/object:Word
+    word: chicago
+    stem: chicago
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  mercantile: !ruby/object:Word
+    word: mercantile
+    stem: mercantil
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  association: !ruby/object:Word
+    word: association
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  certain: !ruby/object:Word
+    word: certain
+    stem: certain
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  exchange: !ruby/object:Word
+    word: exchange
+    stem: exchang
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  licensors: !ruby/object:Word
+    word: licensors
+    stem: licensor
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  jones: !ruby/object:Word
+    word: jones
+    stem: jone
+    docFrequency: 15.0
+    docPositions:
+    - 1047
+    - 1121
+  branded: !ruby/object:Word
+    word: branded
+    stem: brand
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  proprietary: !ruby/object:Word
+    word: proprietary
+    stem: proprietari
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  calculated: !ruby/object:Word
+    word: calculated
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  distributed: !ruby/object:Word
+    word: distributed
+    stem: distribut
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  marketed: !ruby/object:Word
+    word: marketed
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  dji: !ruby/object:Word
+    word: dji
+    stem: dji
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  opco: !ruby/object:Word
+    word: opco
+    stem: opco
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  subsidiary: !ruby/object:Word
+    word: subsidiary
+    stem: subsidiari
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 11.0
+    docPositions:
+    - 1047
+    - 1121
+  licensed: !ruby/object:Word
+    word: licensed
+    stem: licens
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  poor: !ruby/object:Word
+    word: poor
+    stem: poor
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  registered: !ruby/object:Word
+    word: registered
+    stem: regist
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  trademarks: !ruby/object:Word
+    word: trademarks
+    stem: trademark
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  financial: !ruby/object:Word
+    word: financial
+    stem: financi
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  trademark: !ruby/object:Word
+    word: trademark
+    stem: trademark
+    docFrequency: 5.0
+    docPositions:
+    - 1047
+    - 1121
+  holdings: !ruby/object:Word
+    word: holdings
+    stem: hold
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  affiliates: !ruby/object:Word
+    word: affiliates
+    stem: affili
+    docFrequency: 3.0
+    docPositions:
+    - 1047
+    - 1121
+  img: !ruby/object:Word
+    word: img
+    stem: img
+    docFrequency: 3.0
+    docPositions:
+    - 1051
+    - 1123
+  adchoice: !ruby/object:Word
+    word: adchoice
+    stem: adchoic
+    docFrequency: 3.0
+    docPositions:
+    - 1051
+    - 1123
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 1051
+    - 1123
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 3.0
+    docPositions:
+    - 1052
+    - 1124
+  initial: !ruby/object:Word
+    word: initial
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 1052
+    - 1124
+  cable: !ruby/object:Word
+    word: cable
+    stem: cabl
+    docFrequency: 3.0
+    docPositions:
+    - 1056
+    - 1128
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 1056
+    - 1128
+  warner: !ruby/object:Word
+    word: warner
+    stem: warner
+    docFrequency: 3.0
+    docPositions:
+    - 1056
+    - 1128
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 1056
+    - 1128
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 3.0
+    docPositions:
+    - 1056
+    - 1128
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 9.0
+    docPositions:
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+    - 1080
+    - 1106
+  hostname: !ruby/object:Word
+    word: hostname
+    stem: hostnam
+    docFrequency: 5.0
+    docPositions:
+    - 1063
+    - 1066
+    - 1069
+    - 1072
+  cnnomniture_prodenv: !ruby/object:Word
+    word: cnnomniture_prodenv
+    stem: cnnomniture_prodenv
+    docFrequency: 6.0
+    docPositions:
+    - 1064
+    - 1067
+    - 1070
+    - 1073
+    - 1076
+  dev: !ruby/object:Word
+    word: dev
+    stem: dev
+    docFrequency: 2.0
+    docPositions:
+    - 1066
+  train: !ruby/object:Word
+    word: train
+    stem: train
+    docFrequency: 2.0
+    docPositions:
+    - 1069
+  stage: !ruby/object:Word
+    word: stage
+    stem: stage
+    docFrequency: 2.0
+    docPositions:
+    - 1072
+  pathname: !ruby/object:Word
+    word: pathname
+    stem: pathnam
+    docFrequency: 2.0
+    docPositions:
+    - 1080
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 4.0
+    docPositions:
+    - 1080
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 2.0
+    docPositions:
+    - 1080
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 3.0
+    docPositions:
+    - 1080
+  fb_xd_fragment: !ruby/object:Word
+    word: fb_xd_fragment
+    stem: fb_xd_fragment
+    docFrequency: 2.0
+    docPositions:
+    - 1080
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 1080
+  jsmd: !ruby/object:Word
+    word: jsmd
+    stem: jsmd
+    docFrequency: 3.0
+    docPositions:
+    - 1081
+    - 1082
+  _jsmd: !ruby/object:Word
+    word: _jsmd
+    stem: _jsmd
+    docFrequency: 2.0
+    docPositions:
+    - 1081
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 2.0
+    docPositions:
+    - 1081
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 1082
+  win: !ruby/object:Word
+    word: win
+    stem: win
+    docFrequency: 5.0
+    docPositions:
+    - 1085
+    - 1089
+    - 1091
+    - 1101
+  doc: !ruby/object:Word
+    word: doc
+    stem: doc
+    docFrequency: 7.0
+    docPositions:
+    - 1085
+    - 1093
+    - 1095
+    - 1097
+    - 1106
+    - 1112
+  scriptelement: !ruby/object:Word
+    word: scriptelement
+    stem: scriptel
+    docFrequency: 6.0
+    docPositions:
+    - 1087
+    - 1103
+    - 1104
+    - 1110
+    - 1112
+  scrsrc: !ruby/object:Word
+    word: scrsrc
+    stem: scrsrc
+    docFrequency: 5.0
+    docPositions:
+    - 1087
+    - 1106
+    - 1108
+    - 1110
+  clicktalecreatedomelement: !ruby/object:Word
+    word: clicktalecreatedomelement
+    stem: clicktalecreatedomel
+    docFrequency: 4.0
+    docPositions:
+    - 1089
+    - 1091
+    - 1103
+  tagname: !ruby/object:Word
+    word: tagname
+    stem: tagnam
+    docFrequency: 4.0
+    docPositions:
+    - 1091
+    - 1095
+    - 1097
+  createelementns: !ruby/object:Word
+    word: createelementns
+    stem: createelementn
+    docFrequency: 3.0
+    docPositions:
+    - 1093
+    - 1095
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 2.0
+    docPositions:
+    - 1095
+  xhtml: !ruby/object:Word
+    word: xhtml
+    stem: xhtml
+    docFrequency: 2.0
+    docPositions:
+    - 1095
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 1097
+  wrinittime: !ruby/object:Word
+    word: wrinittime
+    stem: wrinittim
+    docFrequency: 2.0
+    docPositions:
+    - 1101
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 2.0
+    docPositions:
+    - 1101
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 1103
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 1104
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 1104
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 1106
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 1106
+  cdnssl: !ruby/object:Word
+    word: cdnssl
+    stem: cdnssl
+    docFrequency: 2.0
+    docPositions:
+    - 1106
+  clicktale: !ruby/object:Word
+    word: clicktale
+    stem: clicktal
+    docFrequency: 3.0
+    docPositions:
+    - 1106
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 3.0
+    docPositions:
+    - 1106
+  cdn: !ruby/object:Word
+    word: cdn
+    stem: cdn
+    docFrequency: 2.0
+    docPositions:
+    - 1106
+  ptc: !ruby/object:Word
+    word: ptc
+    stem: ptc
+    docFrequency: 2.0
+    docPositions:
+    - 1108
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 1112
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 1112
+  urlpre: !ruby/object:Word
+    word: urlpre
+    stem: urlpr
+    docFrequency: 2.0
+    docPositions:
+    - 1115
+  cnndomain: !ruby/object:Word
+    word: cnndomain
+    stem: cnndomain
+    docFrequency: 2.0
+    docPositions:
+    - 1116
+  cookiedomain: !ruby/object:Word
+    word: cookiedomain
+    stem: cookiedomain
+    docFrequency: 2.0
+    docPositions:
+    - 1117
+  tzoffset: !ruby/object:Word
+    word: tzoffset
+    stem: tzoffset
+    docFrequency: 3.0
+    docPositions:
+    - 1118
+    - 1119
+lineCount: 1131
+wordCount: 1708
+rank: 0.2979166666666667
+title: Stock Market Data - Dow Jones, Nasdaq, S&P 500 - CNNMoney
+links:
+- http://cnn.com/
+- http://markets.money.cnn.com/secure/watchlist/
+- http://cnn.com/style/
+- http://cnn.com
+- http://money.cnn.com/data/fear-and-greed/
+- http://www.fool.com/mms/mark/rb-shark-tank?utm_source=cnnmoney&utm_medium=contentmarketing&utm_campaign=advertorial_lg&paid=8766&psource=erbcnn7410010002&waid=8674&wsource=esacnnwdg0010012
+- http://www.zacks.com/registration/pfp/?ALERT=RPT_7BST_LP203&ADID=CNN_CONTENT_7BEST
+- http://www.fool.com/ecap/stock-advisor/ss-trip/?utm_source=cnnmoney&utm_medium=contentmarketing&utm_campaign=advertorial_lg&paid=8705&psource=esacnn7410860006&waid=8705&wsource=esacnnwdg0860005
+- https://www.lendingtree.com/?esourceid=6164156&cchannel=bd&csource=cnn-money&siteid=headerlink
+- http://www.nextadvisor.com/credit_cards/index.php?kw=cnnmoneybp_int_nabrand-121015
+- http://www.nextadvisor.com/blog/2014/12/11/best-credit-cards-2015/?kw=cnnmoneybp_dsk_best2015-p1-121015
+- http://www.nextadvisor.com/blog/2015/01/02/chase-slate-best-bet-for-balance-transfers/?kw=cnnmoneybp_dsk_look-p2-121415
+- http://www.nextadvisor.com/blog/2015/11/16/chase-sapphire-preferred-launches-big-intro-bonus/?kw=cnnmoneybp_dsk_jd625intro-p3-121015
+- http://www.nextadvisor.com/blog/2015/02/18/blue-cash-preferred-american-express-provides-great-cash-back/?kw=cnnmoneybp_dsk_unbelcash-p4-121015
+- http://www.nextadvisor.com/blog/2013/11/06/top-7-credit-card-offers-for-those-with-excellent-credit/?kw=cnnmoneybp_dsk_top7exc-1-p5-121015
+- https://campaigns.gobankingrates.com/r/55d5097d7f/?subid=cnnmoney-pdbanner01
+- https://campaigns.gobankingrates.com/r/55ccb8c751/?subid=
+- https://campaigns.gobankingrates.com/r/5579d4d35f/
+- https://campaigns.gobankingrates.com/r/5579fac152/
+- https://campaigns.gobankingrates.com/r/56171e73ba/
+- https://www.nerdwallet.com/travel-miles-credit-cards?utm_source=cnn&utm_medium=cpc&utm_campaign=cc_mktg_paid_101415_traveltool&utm_content=header
+- http://www.nerdwallet.com/credit-cards/?utm_source=cnn&utm_medium=cpc&utm_campaign=cc_mktg_paid_110315_ccoffers&utm_content=ta&mktg_img=&mktg_hline=&mktg_body=&mktg_link=&mktg_place=
+- https://www.nerdwallet.com/mortgages/how-much-house-can-i-afford/?utm_source=cnn&utm_medium=cpc&utm_campaign=houseafford_mktg_paid_110315_houseafford&utm_content=ta&mktg_img=&mktg_hline=&mktg_body=&mktg_link=&mktg_place=
+- https://www.nerdwallet.com/life-insurance/?utm_source=cnn&utm_medium=cpc&utm_campaign=lifeinsurance_mktg_paid_110315_lifeinsurance&utm_content=ta&mktg_img=&mktg_hline=&mktg_body=&mktg_link=&mktg_place=
+- http://www.nerdwallet.com/blog/best-business-loans/?utm_source=cnn&utm_medium=cpc&utm_campaign=businessloans_mktg_paid_110315_businessloans&utm_content=ta&mktg_img=&mktg_hline=&mktg_body=&mktg_link=&mktg_place=
+- https://ad.doubleclick.net/ddm/trackclk/N9515.8535CNNNETWORK5/B8975714.121613451;dc_trk_aid=294554360;dc_trk_cid=60710769
+- https://ad.doubleclick.net/ddm/trackclk/N9515.8535CNNNETWORK5/B8975714.123793949;dc_trk_aid=296790936;dc_trk_cid=60710769
+- https://ad.doubleclick.net/ddm/trackclk/N9515.8535CNNNETWORK5/B8975714.125094686;dc_trk_aid=297991672;dc_trk_cid=60710769
+- https://ad.doubleclick.net/ddm/trackclk/N9515.8535CNNNETWORK5/B8975714.124084443;dc_trk_aid=297048153;dc_trk_cid=60710769;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=
+- https://ad.doubleclick.net/ddm/trackclk/N9515.8535CNNNETWORK5/B8975714.123246116;dc_trk_aid=296212589;dc_trk_cid=60710769
+- http://jobsearch.money.cnn.com/a/all-jobs/list
+- http://realestate.money.cnn.com/
+- http://facebook.com/cnnmoney
+- http://twitter.com/cnnmoney
+- http://www.linkedin.com/today/money.cnn.com
+- http://www.youtube.com/CNNMoney
+- https://plus.google.com/115995105609774588517/
+- http://money.cnn.com/services/disclaimer.html
+rawText: "  \n\n\n.tos-privacy .container {\n\twidth: 1140px;\n}\n\n    Our Terms
+  of Service and Privacy Policy have changed.\n    \tBy continuing to use this site,
+  you are agreeing to the new Privacy Policy and Terms of Service.\n    \t\t\n    \n\n\n\n
+  \  \n   \n   \n   \t\n   \n   \t\n    \n            Business\n            \n\r\n\r\n\n\r\n\t\r\n
+  \   \r\n        \r\n\t\t    \r\n\t\t        \r\n\t\t                \r\n\t\t                Mind-blowing
+  supercars of 2015\r\n\t\t                \r\n\t\t        \r\n\t            \n\tWorld\n\t
+  \   Access\n\t    Companies\n\t    Car News\n\tAway\n\t    America's Choice 2016\n\t
+  \   Super Bowl\n\t    Who is..?\n\t    The Feed\t    \n\tCNNMoney Investigates\n\t\tAmerican
+  Opportunity\n\t\t\n\t\t\n\t\t5 Stunning Stats\n\t    Interactives\n\t\n\r\n        \r\n
+  \   \r\n\n  \n        \n        \n            Markets\n            \n\r\n\r\n\n\r\n\t\r\n
+  \   \r\n        \r\n\t\t    \r\n\t\t        \r\n\t\t                \r\n\t\t                Oil
+  prices sink below $35 on fears of more Iran oil\r\n\t\t                \r\n\t\t
+  \       \r\n\t            \n\tInvesting\n\t\tEconomy\n\t\tBuzz\n\t    Fed Focus\n\t
+  \   \n\t    \n\t    ETF Center\n\tPremarkets\n\t    Market Movers\n\t    Dow 30\n\t
+  \   After-Hours\n\t    World Markets\n\tInvesting Guide\n\t    The Open\n\t    Stockswatch\n\t
+  \   Tech30\n\t    Fear & Greed\n\t    \n\t\n\r\n        \r\n    \r\n\n  \n        \n
+  \       \n            Tech\n            \n\r\n\r\n\n\r\n\t\r\n    \r\n        \r\n\t\t
+  \   \r\n\t\t        \r\n\t\t                \r\n\t\t                This smartphone's
+  battery can last up to 15 days\r\n\t\t                \r\n\t\t        \r\n\t            \n\tInnovate\n\t
+  \   Gadget\n\t    Connect\n\t    Cyber-Safe\n\tElon. Evolution\n\t    Best In Tech\n\t
+  \   Innovative Cities\n\t    CES\n\tSuperhero Hackers\n\t    15 Questions With\n\t
+  \   Love Inc.\n\t    Sex, Drugs & Silicon Valley\n\t\n\r\n        \r\n    \r\n\n
+  \ \n        \n         \n            Media\n        \n        \n            Personal
+  Finance\n            \n\r\n\r\n\n\r\n\t\r\n    \r\n        \r\n\t\t    \r\n\t\t
+  \       \r\n\t\t                \r\n\t\t                CEO exits after mutual fund
+  implodes\r\n\t\t                \r\n\t\t        \r\n\t            \n\tSave\n\t    Spend\n\t
+  \   Ahead\n\t    \n\t    Wheels\n\t    Real Estate\n\tCareers\n\n\t   \n\t    Millennials
+  & Money\n\t    Your Money\n\t    Homes\n\t    Calculators\n\tMoney Moves\n\t    24
+  Hours With\n\t    \n\t    Money Essentials\n\t    \n\t    My Watch List\n\t\n\r\n
+  \       \r\n    \r\n\n  \n        \n        \n            Small Biz\n            \n\r\n\r\n\n\r\n\t\r\n
+  \   \r\n        \r\n\t\t    \r\n\t\t        \r\n\t\t                \r\n\t\t                Laser
+  Christmas lights are this year's frenzy\r\n\t\t                \r\n\t\t        \r\n\t
+  \           \n\tStartups\n\t    Empire\t    \n\t    Women Entrepreneurs\n\t    \n\t\n\r\n
+  \       \r\n    \r\n\n  \n        \n        \n            Luxury\n            \n\r\n\r\n\n\r\n\t\r\n
+  \   \r\n        \r\n\t\t    \r\n\t\t        \r\n\t\t                \r\n\t\t                I
+  off-roaded at an English castle and survived to tell the tale\r\n\t\t                \r\n\t\t
+  \       \r\n\t            \n\tStyle\n\t    Voyage\n\t    Rare\n\tDrive\n\t\tWealth\n\t
+  \   Rich Quiz\n\t    \n\tThe Collector\n\t\tA Gentleman's Guide\n\t    Millionaire
+  Calculator\n\t\n\r\n        \r\n    \r\n\n  \n        \n      \n\n        \n          CNN\n
+  \         \n            U.S. Edition\n            International\n          \n\n
+  \         \n            \n            \n              Log In\n            \n            \n
+  \             Log Out\n            \n          \n        \n        \n    \n\t\t\n
+  \   \n        \n    \n  \n   Markets         \n\n\n\n\n\t\n\t\n\t\tUpdated: 5:16pm
+  ET\n\t\t\n\t\t\t\t\n\t\t\t\t\tDow\n\t\t\t\t\t+0.60%\n\t\t\t\t\t\n\t\t\t\t\t17,368.50\n\t\t\t\t\t / \n\t\t\t\t\t+103.29\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tNasdaq\n\t\t\t\t\t+0.38%\n\t\t\t\t\t\n\t\t\t\t\t4,952.23\n\t\t\t\t\t / \n\t\t\t\t\t+18.76\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tS&P\n\t\t\t\t\t+0.48%\n\t\t\t\t\t\n\t\t\t\t\t2,021.94\n\t\t\t\t\t / \n\t\t\t\t\t+9.57\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n
+  \        \n\t\n\t\n\t\t/* Deployed On: 2015-10-09 09:32:29 */\n\t\tif (typeof(crtg_content)
+  !== \"undefined\") {\n\t\t    var crtg_split = crtg_content.split(\";\");\n\t\t
+  \   crtg_split.splice(crtg_split.length - 1, 1);\n\t\t    if (typeof window[\"CNNMONEY\"]
+  === \"undefined\") {\n\t\t        window.CNNMONEY = {};\n\t\t        window.CNNMONEY.adTargets
+  = {};\n\t\t    } else if (typeof(window[\"CNNMONEY\"].adTargets) === \"undefined\")
+  {\n\t\t        window.CNNMONEY.adTargets = {};\n\t\t    }\n\t\t    for (var i =
+  0; i < crtg_split.length; i++) {\n\t\t        window[\"CNNMONEY\"].adTargets[(crtg_split[i].split(\"=\"))[0]]
+  = (crtg_split[i].split(\"=\"))[1];\n\t\t    }\n\t\t}\n\t\tAMPTManager.renderSingleSlot(\"ad_mod_1047ae102\",
+  [\n\t\t    [150, 50],\n\t\t    [150, 60],\n\t\t    [300, 100]\n\t\t], [\n\t\t    [\"transId\",
+  cnnad_transactionID],\n\t\t    [\"kuid\", Krux.user],\n\t\t    [\"ksg\", Krux.segments],\n\t\t
+  \   [\"guid\", AMPTManager.readCookie(\"ug\")],\n\t\t    [\"pos\", [\"ns_atf_01\"]],\n\t\t
+  \   [\"mod\", [\"tc1\"]]\n\t\t], [], \"8663477/CNNMoney/markets\", 0, false);\n\t
+  \             \n\tMost Popular Stocks  \n\t \n\t\t\t \n\t\t\t\tGoPro Inc \n\t\t\t\t17.31
+  \n\t\t\t\t-9.61%\n\t\t\t\t\n\t\t\t \n\t\t\n\t\t \n\t\t \n\t\t \n\t\t\t \n\t\t\t\tKinder
+  Morgan \n\t\t\t\t16.00 \n\t\t\t\t-3.96%\n\t\t\t\t\n\t\t\t \n\t\t\n\t\t \n\t\t \n\t\t
+  \n\t\t\t \n\t\t\t\tChesapeake Energy \n\t\t\t\t4.00 \n\t\t\t\t-3.85%\n\t\t\t\t\n\t\t\t
+  \n\t\t\n\t\t \n\t\t \n\t\t \n\t\t\t \n\t\t\t\tE I du Pont de Nemours and Co \n\t\t\t\t67.92
+  \n\t\t\t\t-3.58%\n\t\t\t\t\n\t\t\t \n\t\t\n\t\t \n\t\t \n\t\t \n\t\t\t \n\t\t\t\tChevron
+  \n\t\t\t\t89.33 \n\t\t\t\t+3.34%\n\t\t\t\t\n\t\t\t \n\t\t\n\t\t \n\t\t \n\t\tUpdated:
+  4:00pm ET \n\t\t \n\t\n\n    \n\tWorld Markets \n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tJapan
+  Nikkei 225\n\t\t\t\t\t-0.47%\n\t\t\t\t\t18,794.34\n\t\t\t\t\t-88.66\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tHong
+  Kong Hang Seng\n\t\t\t\t\t-0.72%\n\t\t\t\t\t21,309.85\n\t\t\t\t\t-154.20\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tLondon
+  FTSE 100\n\t\t\t\t\t-1.34%\n\t\t\t\t\t5,874.06\n\t\t\t\t\t-78.72\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tGermany
+  DAX\n\t\t\t\t\t-1.94%\n\t\t\t\t\t10,139.34\n\t\t\t\t\t-196.82\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\tUpdated:
+  7:29pm ET\n\t\t\n\t\n\n      \n\tKey Stats \n\t\n\t\n\t\t\n\t\t\t10-year yield\n\t\t\t2.22%\n\t\t\t+0.09\n\t\t\n\t\n\t\n\n\n\t\n\t\n\t\t\n\t\t\tOil\n\t\t\t$36.26\n\t\t\t-0.14\n\t\t\n\t\n\t\n\n\n\t\n\t\n\t\t\n\t\t\tYen\n\t\t\t¥121.04\n\t\t\t+0.11\n\t\t\n\t\n\t\n\n\n\t\n\t\n\t\t\n\t\t\tEuro\n\t\t\t$1.10\n\t\t\t+0.31\n\t\t\n\t\n\t\n\n\n\t\n\t\n\t\t\n\t\t\tGold\n\t\t\t$1,062.20\n\t\t\t-0.11\n\t\t\n\t\n\t\n
+  \   Updated: 7:49pm ET\n\t\n  \n\n\tGainers \n\t\n\t\n\t\t\t\n\t\t\t\tFirst Solar
+  Inc\n\t\t\t\t+5.70%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tElectronic
+  Arts Inc\n\t\t\t\t+3.71%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tDiamond
+  Offshore Drilling Inc\n\t\t\t\t+3.57%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tChevron
+  Corp\n\t\t\t\t+3.34%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tMattel
+  Inc\n\t\t\t\t+3.12%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\tUpdated: 4:01pm ET\n\t\n
+  \ \n\n\tLosers \n\t\n\t\n\t\t\t\n\t\t\t\tSouthwestern Energy Co\n\t\t\t\t-9.66%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tNRG
+  Energy Inc\n\t\t\t\t-9.27%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tTenet
+  Healthcare Corp\n\t\t\t\t-9.23%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tNewell
+  Rubbermaid Inc\n\t\t\t\t-6.91%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tQorvo
+  Inc\n\t\t\t\t-6.60%\n\t\t\t\t0.00\n\t\t\t\n\t\t\n\t\t\n\tUpdated: 4:02pm ET\n\t\n
+  \     \n\n\n\n\tTop Investing Stories \n\t\n\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tOil prices
+  sink below $35 on fears of more Iran oil\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tAmerica's
+  40-year oil export ban may soon be lifted\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tIs
+  GoPro doomed? Stock has been a huge dog\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tCEO
+  exits after mutual fund implodes\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t3
+  reasons why South Africa is in a mess \n\t\t\t\t\n\t\t\n\n              \n\tSector
+  Performance - 3 month performance \n\t\n\t\t\n\t\n      \n\tCommodities \n\t\n\t\n\t\t\t\n\t\t\t\tOil\n\t\t\t\t$36.26\n\t\t\t\t-0.14%\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tGas\n\t\t\t\t$1.90\n\t\t\t\t+0.21%\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tGold\n\t\t\t\t$1,062.30\n\t\t\t\t-0.10%\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tSilver\n\t\t\t\t$13.68\n\t\t\t\t-0.11%\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tCorn\n\t\t\t\t$379.25\n\t\t\t\t+0.07%\n\t\t\t\n\t\t\n\t\t\n\tUpdated:
+  7:49pm ET\n\t\n  \n\n\tCurrencies \n\t\n\t\t\t\n\t\t\t\tEuro\n\t\t\t\t$1.10\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tBritish
+  Pound\n\t\t\t\t$1.52\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tJapanese Yen\n\t\t\t\t¥121.05\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tCanadian
+  Dollar\n\t\t\t\t$0.73\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tChinese Yuan\n\t\t\t\t¥6.46\n\t\t\t\n\t\t\n\tUpdated:
+  6:49pm ET\n\t\n                       Fear & Greed Index      \n.fear-and-greed
+  p {\n\tleft:27px !important;\n}\n\n\t\t\n  \t\tWhat emotion is driving the market?\n
+  \ \t\t\n          \n\tbody.blog .cnnoutbrain {\n\t\tborder: 1px solid #ddd;\n\t\tbackground-color:
+  #fff;\n\t\tmargin-bottom: 5px;\n\t\tpadding: 10px 9px;\n\t}\n\n           \n\n\tBitcoin
+  (XBT) \n\t\n\t\t\n\t\n\n \n\n\n\n\n\n\n\n\n\n\n\r\n\n\n\n\n\n\r\n\r\n\t\t\n\t\t\t\tFree
+  Partner Research\n\t\t\t\n\t\t\t\tShark Tank Just Revealed a Trillion-Dollar Idea
+  (Motley Fool)\n\t\t\t\t\t\t\t\t7 Best Stocks for the Next 30 Days (Zacks)\n\t\t\t\t\t\t\t\tAre
+  You Ignoring This $15k Social Security Bonus? (Motley Fool)\n\t\t\t\t\t\t\t\t5 Stocks
+  Set to Double (Zacks)\n\t\t\t\t\n\t\t\n      \n                        \n\t\t\n\t\t\t\tLendingTree
+  \n\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\n                        \n                        \n\t\t\n\t\t\t\tPartner
+  Offers\n\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\n                        \n                        \n\t\t\n\t\t\t\tNextAdvisor
+  \n\t\t\t\n\t\t\t\tThe best credit cards of 2015\n\t\t\t\t\t\t\t\tAn overlooked method
+  to pay off your credit card balance\n\t\t\t\t\t\t\t\tA jaw-dropping $625 intro bonus
+  just hit the market\n\t\t\t\t\t\t\t\tThe unbelievable 6% cash back card\n\t\t\t\t\t\t\t\tTop
+  7 credit cards for excellent credit\n\t\t\t\t\n\t\t\n                        \n
+  \       \n \n\n\n\n\n\n\n\n\n\n\n\r\n\n\n\n\n\n\n        \n                        \n\t\t\n\t\t\t\tGoBankingRates
+  \n\t\t\t\n\t\t\t\tHow much do you need to borrow this holiday season? Get a low
+  rate personal loan to help \n\tAre you earning .01% in your savings account? Learn
+  how you can 10x that today. \n\tOpen a 1 year certificate of deposit today \n\tSome
+  checking accounts you may not know about…open a new account today! \n\n\t\t\t\t\n\t\t\n
+  \                       \n                        \n\t\t\n\t\t\t\tNerdWallet \n\t\t\t\n\t\t\t\tApplying
+  for a new credit card? Check out these offers first.\n\t\t\t\t\t\t\t\tCalculate
+  how much home you can afford using this free tool.\n\t\t\t\t\t\t\t\tHow much life
+  insurance do you need to truly protect your family?\n\t\t\t\t\t\t\t\tHere's how
+  to find the right lender for your small business.\n\t\t\t\t\n\t\t\n                        \n
+  \                       \n\t\t\n\t\t\t\tFutureAdvisor \n\t\t\t\n\t\t\t\tAre You
+  Sure You're Saving Enough For Retirement? \n\tYour 401(k) Isn't Growing as Fast
+  as It Should - Here's Why  \n\t6 Sneaky Fees Ruining Your Investment Returns \n\tSee
+  the investment tactics millionaires have been using for decades \n\n\t\t\t\t\n\t\t\n
+  \                       \n        \n \n\tfunction getCookie(check_name) {\n\t\tvar
+  a_all_cookies = document.cookie.split(';');\n\t\tvar a_temp_cookie = '';\n\t\tvar
+  ck_name = '';\n\t\tvar cookie_value = '';\n\t\tvar b_cookie_found = false;\n\t\tfor
+  ( i = 0; i < a_all_cookies.length; i++) {\n\t\t\ta_temp_cookie = a_all_cookies[i].split('=');\n\t\t\tck_name
+  = a_temp_cookie[0].replace(/^\\s+|\\s+$/g, '');\n\t\t\tif (ck_name == check_name)
+  {\n\t\t\t\tb_cookie_found = true;\n\t\t\t\tif (a_temp_cookie.length > 1) {\n\t\t\t\t\tcookie_value
+  = unescape(a_temp_cookie[1].replace(/^\\s+|\\s+$/g, ''));\n\t\t\t\t}\n\t\t\t\treturn
+  cookie_value;\n\t\t\t\tbreak;\n\t\t\t}\n\t\t\ta_temp_cookie = null;\n\t\t\tck_name
+  = '';\n\t\t}\n\t\tif (!b_cookie_found) {\n\t\t\treturn null;\n\t\t}\n\t}\n\n\tfunction
+  setCookie(c_name, value) {\n\t\tvar exdate = new Date();\n\t\texdate.setDate(exdate.getDate()
+  + 365);\n\t\tdocument.cookie = c_name + \"=\" + escape(value) + \";expires=\" +
+  exdate.toUTCString() + \";path=/;domain=cnn.com\";\n\t\treturn;\n\t}\n\n\tfunction
+  checkCookie(set_value) {\n\t\tif (getCookie('SelectedEdition') == null || getCookie('SelectedEdition')
+  == \"\") {\n\t\t\tsetCookie('SelectedEdition', set_value);\n\t\t}\n\t\treturn;\n\t}\n\n\ttry
+  {\n\t\tcheckCookie('www');\n\t} catch(e) {\n\t}\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\tContact
+  Us\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tAdvertise with Us\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tUser
+  Preferences\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tClosed Captioning\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tContent\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tBusiness\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tMarkets\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tInvesting\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tEconomy\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tTech\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tPersonal
+  Finance\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tSmall Business\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLuxury\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tMedia\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVideo\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tTools\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tSite
+  Map\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tInteractive\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tJob
+  Search\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tReal Estate Search\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLoan
+  Center\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tCalculators\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tCorrections\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tMarket
+  Data Alerts\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tNews Alerts\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tConnect\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tMy
+  Account\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tMobile Site & Apps\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tFacebook\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tTwitter\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLinkedIn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tYouTube\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tRSS
+  Feeds\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tNewsletters\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tGoogle+\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\tMost
+  stock quote data provided by BATS. Market indices are shown in real time, except
+  for the DJIA, which is delayed by two minutes. All times are ET. Disclaimer. Morningstar:
+  © 2015 Morningstar, Inc. All Rights Reserved. Factset: FactSet Research Systems
+  Inc. 2015. All rights reserved. Chicago Mercantile Association: Certain market data
+  is the property of Chicago Mercantile Exchange Inc. and its licensors. All rights
+  reserved. Dow Jones: The Dow Jones branded indices are proprietary to and are calculated,
+  distributed and marketed by DJI Opco, a subsidiary of S&P Dow Jones Indices LLC
+  and have been licensed for use to S&P Opco, LLC and CNN. Standard & Poor's and S&P
+  are registered trademarks of Standard & Poor’s Financial Services LLC and Dow Jones
+  is a registered trademark of Dow Jones Trademark Holdings LLC. All content of the
+  Dow Jones branded indices © S&P Dow Jones Indices LLC 2015 and/or its affiliates.\n\t\t\n\t\t\n\t\t\t\nimg#adchoice-logo
+  {\n\tdisplay: initial;\n\tmargin-left: 5px;\n}\n\n© 2015 Cable News Network. A Time
+  Warner Company. All Rights Reserved.  Terms under which this service is provided
+  to you.  Privacy Policy. .\n\n\n\n\t\n\n\nif (window.location.hostname === \"ref2.money.cnn.com\")
+  {\n    var cnnOmniture_prodenv = false;\n}\nelse if (window.location.hostname ===
+  \"dev.money.cnn.com\") {\n    var cnnOmniture_prodenv = false;\n}\nelse if (window.location.hostname
+  === \"train.money.cnn.com\") {\n    var cnnOmniture_prodenv = false;\n}\nelse if
+  (window.location.hostname === \"stage.money.cnn.com\") {\n    var cnnOmniture_prodenv
+  = false;\n}\nelse { \n    var cnnOmniture_prodenv = true;\n}\n\n<!--\nif (window.location.pathname.indexOf(\".element\")
+  == -1 && window.location.href.indexOf(\"?fb_xd_fragment#?=&\") == -1 && window.location.href.indexOf(\"search/index.html?\")
+  == -1) {\n\tvar jsmd=_jsmd.init(); \n\tjsmd.send(); \n}\n//-->\n(function(win,doc){\n\nvar
+  scriptElement, scrSrc;\n\nif (typeof (win.ClickTaleCreateDOMElement) != \"function\")\n{\n\twin.ClickTaleCreateDOMElement
+  = function(tagName)\n\t{\n\t\tif (doc.createElementNS)\n\t\t{\n\t\t\treturn doc.createElementNS('http://www.w3.org/1999/xhtml',
+  tagName);\n\t\t}\n\t\treturn doc.createElement(tagName);\n\t}\n}\n\nwin.WRInitTime=(new
+  Date()).getTime();\n\nscriptElement = ClickTaleCreateDOMElement('script');\nscriptElement.type
+  = \"text/javascript\";\n\nscrSrc = doc.location.protocol=='https:'? 'https://cdnssl.clicktale.net/':\t'http://cdn.clicktale.net/';\n\nscrSrc
+  += 'www04/ptc/1db4a0f2-17e4-45f8-b5fd-5fd78f545b59.js';\n\nscriptElement.src = scrSrc;\n\ndoc.getElementsByTagName('body')[0].appendChild(scriptElement);\n})(window,document);\n\n\tvar
+  urlPre=\"http://markets.money.cnn.com/\";\n\tvar cnnDomain=\"http://money.cnn.com/\";\n\tvar
+  cookieDomain=\"cnn.com\";\n\tvar tzOffset= -240;\n\t//var tzOffset= -300;\n   By
+  continuing to use this site, you are agreeing to the new Privacy Policy and Terms
+  of Service.What emotion is driving the market?\n\t\t\tMost stock quote data provided
+  by BATS. Market indices are shown in real time, except for the DJIA, which is delayed
+  by two minutes. All times are ET. Disclaimer. Morningstar: © 2015 Morningstar, Inc.
+  All Rights Reserved. Factset: FactSet Research Systems Inc. 2015. All rights reserved.
+  Chicago Mercantile Association: Certain market data is the property of Chicago Mercantile
+  Exchange Inc. and its licensors. All rights reserved. Dow Jones: The Dow Jones branded
+  indices are proprietary to and are calculated, distributed and marketed by DJI Opco,
+  a subsidiary of S&P Dow Jones Indices LLC and have been licensed for use to S&P
+  Opco, LLC and CNN. Standard & Poor's and S&P are registered trademarks of Standard
+  & Poor’s Financial Services LLC and Dow Jones is a registered trademark of Dow Jones
+  Trademark Holdings LLC. All content of the Dow Jones branded indices © S&P Dow Jones
+  Indices LLC 2015 and/or its affiliates.\n\t\t\t\nimg#adchoice-logo {\n\tdisplay:
+  initial;\n\tmargin-left: 5px;\n}\n\n© 2015 Cable News Network. A Time Warner Company.
+  All Rights Reserved.  Terms under which this service is provided to you.  Privacy
+  Policy. .\n\n\n"

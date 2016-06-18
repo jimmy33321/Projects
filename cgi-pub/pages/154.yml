@@ -1,0 +1,4573 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://www.bbc.co.uk/history
+inboundLinks: []
+lines:
+- |2+
+
+- "                  /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads'))
+  { googletag.cmd.push(function() { googletag.display('bbccom_interstitial'); });
+  } }()); /*]]>*/  /*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom
+  && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function()
+  { googletag.display('bbccom_wallpaper'); }); } else { googletag.display(\"wallpaper\");
+  } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); if (wallpaper !==
+  null && wallpaper !== undefined) { wallpaper.setDomElement('bbccom_wallpaper');
+  } } }()); /*]]>*/  /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads'))
+  { document.write(unescape('%3Cscript id=\"gnlAdsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+  } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript
+  id=\"gnlAnalyticsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E')); } if
+  (window.bbcdotcom && bbcdotcom.config.isActive('continuousPlay')) { document.write(unescape('%3Cscript
+  id=\"gnlContinuousPlayEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+  } }()); /*]]>*/       <![CDATA[ <section> <div id=\"bbccookies\" class=\"bbccookies-banner
+  orb-banner-wrapper bbccookies-d\"> <div id=\"bbccookies-prompt\" class=\"orb-banner
+  b-g-p b-r b-f\"> <h2 class=\"orb-banner-title\"> Cookies on the BBC website  <p
+  class=\"orb-banner-content\" dir=\"ltr\"> The BBC has updated its cookie policy.
+  We use cookies to ensure that we give you the best experience on our website. This
+  includes cookies from third party social media websites if you visit a page which
+  contains embedded content from social media. Such third party cookies may track
+  your use of the BBC website.<span class=\"bbccookies-international-message\"> We
+  and our partners also use cookies to ensure we show you advertising that is relevant
+  to you. If you continue without changing your settings, we'll assume that you are
+  happy to receive all cookies on the BBC website. However, you can change your cookie
+  settings at any time.  <ul class=\"orb-banner-options\"> <li id=\"bbccookies-continue\">
+  <button type=\"button\" id=\"bbccookies-continue-button\">Continue  <li id=\"bbccookies-settings\">
+  <a href=\"/privacy/cookies/managing/cookie-settings.html\">Change settings  <li
+  id=\"bbccookies-more\"><a href=\"/privacy/cookies/bbc\">Find out more    ]]>/*<![CDATA[*/
+  (function(){if(bbccookies._showPrompt()){var g=document,b=g.getElementById(\"blq-pre-mast\"),e=g.getElementById(\"blq-bbccookies-tmpl\"),a,f;if(b&&g.createElement){a=g.createElement(\"div\");f=e.innerHTML;f=f.replace(\"<\"+\"![CDATA[\",\"\").replace(\"]]\"+\">\",\"\");a.innerHTML=f;b.appendChild(a);blqCookieContinueButton=g.getElementById(\"bbccookies-continue-button\");blqCookieContinueButton.onclick=function(){a.parentNode.removeChild(a);return
+  false};bbccookies._setPolicy(bbccookies.readPolicy())}var c=g.getElementById(\"bbccookies\");if(c&&!window.orb.fig(\"uk\")){c.className=c.className.replace(/\\bbbccookies-d\\b/,\"\");c.className=c.className+(\"
+  bbccookies-w\")}}})(); /*]]>*//*<![CDATA[*/ if (bbccookies.isAllowed('s1')) { require(['istats-1'],
+  function (istats) {  istats.invoke(); }); } /*]]>*//*<![CDATA[*/ if (bbccookies.isAllowed('s1'))
+  { (function () { require(['istats-1'], function (istats) { istatsTrackingUrl = istats.getDefaultURL();
+  if (istats.isEnabled() && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl);
+  } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track
+  */ } function sitestat(n) { var j = document, f = j.location, b = \"\"; if (j.cookie.indexOf(\"st_ux=\")
+  != -1) { var k = j.cookie.split(\";\"); var e = \"st_ux\", h = document.domain,
+  a = \"/\"; if (typeof ns_ != \"undefined\" && typeof ns_.ux != \"undefined\") {
+  e = ns_.ux.cName || e; h = ns_.ux.cDomain || h; a = ns_.ux.cPath || a } for (var
+  g = 0, f = k.length; g < f; g++) { var m = k[g].indexOf(\"st_ux=\"); if (m != -1)
+  { b = \"&\" + decodeURI(k[g].substring(m + 6)) } } bbccookies.set(e + \"=; expires=\"
+  + new Date(new Date().getTime() - 60).toGMTString() + \"; path=\" + a + \"; domain=\"
+  + h); } window.ns_pixelUrl = n;  } }); })(); } else { window.istats = {enabled:
+  false}; } /*]]>*/   \n"
+- "         Accessibility links Accessibility Help       BBC iD     require(['idcta/statusbar'],
+  function(statusbar) { new statusbar.Statusbar({\"id\":\"idcta-statusbar\",\"publiclyCacheable\":true});
+  });    BBC navigation  News      News      Sport      Weather      Shop      Earth
+  \     Travel      Capital      iPlayer      Culture      Autos      Future      TV
+  \     Radio      CBBC      CBeebies      Food      Arts      Make It Digital      iWonder
+  \     Bitesize      Music      Nature      Earth      Local      Travel     Menu
+  \        Search the BBC      <![CDATA[ <div id=\"orb-panel-<%= panelname %>\" class=\"orb-panel\"
+  aria-labelledby=\"orb-nav-<%= panelname %>\"> <div class=\"orb-panel-content b-g-p
+  b-r\"> <%= panelcontent %>   ]]>                \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "    \n"
+- |2
+                  BBC History
+- "        \n"
+- "    \n"
+- |2
+      More
+- "        \n"
+- "            \n"
+- "                    \n"
+- |2
+                          Home
+- "                    \n"
+- "                \n"
+- "                            \n"
+- "                    \n"
+- |2
+                          Taking Liberties
+- "                    \n"
+- "                \n"
+- "                        \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2
+                          iWonder
+- |2
+              How did the heroes of the Caribbean help win WW2?
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- "                    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "   \n"
+- "       \n"
+- "   \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- |2+
+
+- |2
+                      iWonder
+- "        \n"
+- |2
+          Whatever happened to the British Empire?
+- |2+
+
+- "                                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "                                \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- "                    \n"
+- |2+
+
+- "        \n"
+- "        Blood and Gold: The Making of Spain \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+          IPLAYER
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1946
+- |2
+                                  Future
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1946 &hyphen; Future
+- |2
+              The story of Britain's hidden role in the space race
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1947
+- |2
+                                  2004
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1947 &hyphen; 2004
+- "            Ten weather events that shook Britain \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1914
+- |2
+                                  2015
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1914 &hyphen; 2015
+- |2
+               The Quintinshill Rail Disaster: Tragedy on the Home Front
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1918
+- |2
+                                  2013
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1918 &hyphen; 2013
+- |2
+              Nelson Mandela: The last great liberator?
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1508BC
+- |2
+                                  2015
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1508BC &hyphen; 2015
+- |2
+              Ten women who ruled the world
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  275BC
+- |2
+                                  2000
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          275BC &hyphen; 2000
+- |2
+              Leaving a trace: Forensic science through history
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1929
+- |2
+                                  1968
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1929 &hyphen; 1968
+- |2
+              Did Martin Luther's dream become a reality?
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- |2+
+
+- |2
+                      iWonder
+- "        \n"
+- |2
+          Would Churchill's depression disqualify him as PM today?
+- |2+
+
+- "                    \n"
+- |2
+          Presented by John Sergeant
+- "        \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "                                \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- |2+
+
+- |2
+                      iWonder
+- "        \n"
+- |2
+          Did Winston's words win the war?
+- |2+
+
+- "                                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1874
+- |2
+                                  1965
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1874 &hyphen; 1965
+- |2
+              Sir Winston Churchill: The greatest Briton?
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- |2+
+
+- "            \n"
+- "    \n"
+- "                    \n"
+- "                \n"
+- "                    iWonder \n"
+- "                    Scientists who changed our world \n"
+- |2
+                      5 articles
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- "            iWonder \n"
+- "            Scientists who changed our world \n"
+- "            \n"
+- |2
+                                      Isaac Newton
+- |2
+                                      Charles Darwin
+- "                                    Louis Pasteur  \n"
+- |2
+                                      Albert Einstein
+- |2
+                                      Stephen Hawking
+- "                            \n"
+- "                    \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2
+                                  1900
+- |2
+                                  2015
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+                          iWonder
+- |2
+                          1900 &hyphen; 2015
+- "            What a racquet: Britainâ\x80\x99s Davis Cup history\n"
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                                \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "            \n"
+- |2+
+
+- |2
+                      iWonder
+- "        \n"
+- "        What is the point of the Commonwealth today? \n"
+- |2+
+
+- "                                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "                \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Show more links
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      iWonder
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      British history
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      Ancient history
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      Family history
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      History for kids
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      Historic figures
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      History on BBC radio
+- "                \n"
+- "            \n"
+- "                        \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                      History highlights
+- "                \n"
+- "            \n"
+- "                    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      (function () {
+- |2
+          require(['genrePage'], function (GenrePage) {
+- |2
+              var config = {
+- |2
+                  features: {
+- |2
+                      parallax: "1"
+- |2
+                  },
+- |2
+                  timelinesScriptUrl: "http://www.bbc.co.uk/timelines/kandlembeddedtimelines-1"
+- |2
+              };
+- |2+
+
+- |2
+              var g = new GenrePage(document, config);
+- |2
+              g.init();
+- |2
+          });
+- |2
+      })();
+- |2
+         Explore the BBC   News      News      Sport      Weather      Shop      Earth      Travel      Capital      iPlayer      Culture      Autos      Future      TV      Radio      CBBC      CBeebies      Food      Arts      Make It Digital      iWonder      Bitesize      Music      Nature      Earth      Local      Travel           Terms of Use      About the BBC      Privacy Policy      Cookies      Accessibility Help      Parental Guidance      Contact the BBC          Advertise with us      Ad choices      Copyright © 2015 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.          /*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics) { bbcdotcom.analytics.page(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies && bbccookies.readPolicy('performance') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain = "bbc.co.uk"; _sf_async_config.title = "Homepage"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections = "Homepage"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path = "/"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement("script"); e.setAttribute("language", "javascript"); e.setAttribute("type", "text/javascript"); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != "function") ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/    document.write('<' + 'script id="orb-js-script" data-assetpath="http://static.bbci.co.uk/frameworks/barlesque/3.2.4/orb/4/" src="http://static.bbci.co.uk/frameworks/barlesque/3.2.4/orb/4/script/orb.min.js"><' + '/script>');  (function() {
+- |2
+      'use strict';
+- |2+
+
+- |2
+      var promoManager = {
+- |2
+          url: '',
+- |2
+          promoLoaded: false,
+- |2
+                  makeUrl: function (theme, site, win) {
+- |2
+              var loc = win? win.location : window.location,
+- |2
+                  proto = loc.protocol,
+- |2
+                  host = loc.host,
+- |2
+                  url = proto + '//' + ((proto.match(/s:/i) && !host.match(/^www\.(int|test)\./i))? 'ssl.' : 'www.'),
+- |2
+                  themes = ['light', 'dark'];
+- |2+
+
+- |2
+              if ( host.match(/^(?:www|ssl|m)\.(int|test|stage|live)\.bbc\./i) ) {
+- |2
+                  url += RegExp.$1 + '.';
+- |2
+              }
+- |2
+              else if ( host.match(/^pal\.sandbox\./i) ) {
+- |2
+                  url += 'test.';
+- |2
+              }
+- |2+
+
+- |2
+                          theme = themes[ +(theme === themes[0]) ];
+- "           \n"
+- |2
+             return url + 'bbc.co.uk/navpromo/card/' + site + '/' + theme;
+- |2
+          },
+- |2
+                  init: function(node) {
+- |2
+              var disabledByCookie = (document.cookie.indexOf('ckns_orb_nopromo=1') > -1),
+- |2
+                  that = this;
+- "            \n"
+- |2
+              if (window.promomanagerOverride) {
+- |2
+                  for (var p in promomanagerOverride) {
+- |2
+                      that[p] = promomanagerOverride[p];
+- |2
+                  }
+- |2
+              }
+- "                \n"
+- |2
+              if ( window.orb.fig('uk') && !disabledByCookie ) {
+- |2
+                  require(['orb/async/_footerpromo', 'istats-1'], function(promo, istats) {
+- |2+
+
+- |2
+                      var virtualSite = istats.getSite() || 'default';
+- |2
+                      that.url = (window.promomanagerOverride || that).makeUrl('light', virtualSite);
+- |2+
+
+- "                    if (that.url) { \n"
+- |2
+                          promo.load(that.url, node, {
+- |2
+                                                            onSuccess: function(e) {
+- |2
+                                  if(e.status === 'success') {
+- |2
+                                      node.parentNode.className = node.parentNode.className + ' orb-footer-promo-loaded';
+- |2
+                                      promoManager.promoLoaded = true;
+- |2
+                                      promoManager.event('promo-loaded').fire(e);
+- |2
+                                  }
+- |2
+                               },
+- |2
+                               onError: function() {
+- |2
+                                  istats.log('error', 'orb-footer-promo-failed');
+- |2
+                                  bbccookies.set('ckns_orb_nopromo=1; expires=' + new Date(new Date().getTime() + 1000 * 60 * 10).toGMTString() + ';path=/;');
+- |2
+                               }
+- "                        });   \n"
+- |2
+                      }
+- |2
+                  });
+- |2
+              }
+- |2
+          }
+- |2
+      };
+- "    \n"
+- "        \n"
+- |2
+      define('orb/promomanager', ['orb/lib/_event'], function (event) {
+- |2
+          event.mixin(promoManager);
+- |2
+          return promoManager;
+- |2
+      });
+- "    \n"
+- |2
+      require(['orb/promomanager'], function (promoManager) {
+- |2
+          promoManager.init(document.getElementById('navp-orb-footer-promo'));
+- |2
+      })
+- |
+  })();
+- "  require(['orb/lib/_$', 'orb/features/_mastheadimages'], function ($, mastheadimages)
+  { 'use strict'; function updateSigninImage() { var ctaImg = $('#idcta-image')[0];
+  if (ctaImg) { var imgDefault = ctaImg.src; var imgInverse = $.getAttr(ctaImg, 'data-activesrc');
+  ctaImg.src = imgDefault.replace('signin', 'signedin'); if (imgInverse) { imgInverse
+  = imgInverse.replace('signin', 'signedin'); $.setAttr(ctaImg, 'data-activesrc',
+  imgInverse); mastheadimages.precacheImage(ctaImg); } } } function shorten(text,
+  length) { if (text.length > length) { return text.substring(0, length - 1) + 'â\x80¦';
+  } return text; } function updateSigninText(elm, name) { var shortName = shorten(name,
+  14); elm.textContent = elm.innerText = shortName; if (shortName !== name) { elm.title
+  = name; } } function updateForAuthorisedState() { var ctaElm = $('#idcta-username')[0],
+  ctaLink = $('#idcta-link')[0], name, signinUrl; if (ctaElm && ctaLink) { require(['id-statusbar-config',
+  'idcta/idcta-1'], function (idConfig, idcta) { var signedin = idcta.hasCookie();
+  if (signedin) { name = idcta.getNameFromCookie() || idConfig.translation_signedin;
+  updateSigninImage(); } else { name = idConfig.translation_signedout; signinUrl =
+  idConfig.signin_url; } if (name) { updateSigninText(ctaElm, name); } if (signinUrl)
+  { ctaLink.href = signinUrl; } }); } } $.ready(function () { updateForAuthorisedState();
+  $.removeClass($('.orb-nav-id')[0], 'orb-nav-id-default'); }); });  if (typeof require
+  !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external',
+  { region: document.getElementsByTagName('body')[0] }); istats.track('download',
+  { region: document.getElementsByTagName('body')[0] }); }); } \n"
+- |2
+      var cookie = "; " + document.cookie;
+- |2
+      var cSplit = cookie.split("; ckns_policy=");
+- |2
+      var ckns_policy = cSplit.pop().split(";").shift();
+- |2+
+
+- |2
+      if(ckns_policy != "101" && ckns_policy != "000" && ckns_policy != "010"){
+- |2
+          var _sf_async_config={};
+- |2+
+
+- |2
+          /** CONFIGURATION START **/
+- |2
+          _sf_async_config.uid = 50924;
+- |2
+          _sf_async_config.domain = 'bbc.co.uk';
+- |2
+          _sf_async_config.useCanonical = true;
+- |2
+          _sf_async_config.sections = 'kandlgenres';
+- |2
+          _sf_async_config.authors = '';
+- |2+
+
+- |2
+          /** CONFIGURATION END **/
+- |2
+          (function(){
+- |2
+              function loadChartbeat() {
+- |2
+                  window._sf_endpt=(new Date()).getTime();
+- |2
+                  var e = document.createElement('script');
+- |2
+                  e.setAttribute('language', 'javascript');
+- |2
+                  e.setAttribute('type', 'text/javascript');
+- |2
+                  e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+- |2
+                  document.body.appendChild(e);
+- |2
+              }
+- |2
+              var oldonload = window.onload;
+- |2
+              window.onload = (typeof window.onload != 'function') ?
+- |2
+                  loadChartbeat : function() { oldonload(); loadChartbeat(); };
+- |2
+          })();
+- |2
+      }
+- |
+  IPLAYER
+- |2
+                                  1946
+- |2
+                                  Future
+- |2
+                              1946 &hyphen; FutureThe story of Britain's hidden role in the space race
+- |2
+                                  1947
+- |2
+                                  2004
+- "                            1947 &hyphen; 2004Ten weather events that shook Britain
+  \n"
+- |2
+                                  1914
+- |2
+                                  2015
+- |2
+                              1914 &hyphen; 2015 The Quintinshill Rail Disaster: Tragedy on the Home Front
+- |2
+                                  1918
+- |2
+                                  2013
+- |2
+                              1918 &hyphen; 2013Nelson Mandela: The last great liberator?
+- |2
+                                  1508BC
+- |2
+                                  2015
+- |2
+                              1508BC &hyphen; 2015Ten women who ruled the world
+- |2
+                                  275BC
+- |2
+                                  2000
+- |2
+                              275BC &hyphen; 2000Leaving a trace: Forensic science through history
+- |2
+                                  1929
+- |2
+                                  1968
+- |2
+                              1929 &hyphen; 1968Did Martin Luther's dream become a reality?Presented by John Sergeant
+- |2
+                                  1874
+- |2
+                                  1965
+- |2
+                              1874 &hyphen; 1965Sir Winston Churchill: The greatest Briton?
+- |2
+                                  1900
+- |2
+                                  2015
+- "                            1900 &hyphen; 2015What a racquet: Britainâ\x80\x99s
+  Davis Cup history"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 476
+    - 490
+    - 567
+    - 574
+    - 575
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 14.0
+    docPositions:
+    - 1
+    - 2
+    - 489
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 39.0
+    docPositions:
+    - 1
+    - 2
+    - 476
+    - 477
+    - 489
+    - 495
+    - 513
+    - 524
+    - 531
+    - 538
+    - 550
+    - 555
+    - 559
+    - 575
+    - 576
+    - 585
+    - 586
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 39.0
+    docPositions:
+    - 1
+    - 489
+    - 502
+    - 505
+    - 517
+    - 523
+    - 529
+    - 532
+    - 559
+    - 564
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 29.0
+    docPositions:
+    - 1
+    - 489
+    - 496
+    - 517
+    - 523
+    - 527
+    - 577
+    - 584
+    - 585
+  bbcdotcom: !ruby/object:Word
+    word: bbcdotcom
+    stem: bbcdotcom
+    docFrequency: 28.0
+    docPositions:
+    - 1
+    - 489
+  config: !ruby/object:Word
+    word: config
+    stem: config
+    docFrequency: 10.0
+    docPositions:
+    - 1
+    - 478
+    - 485
+    - 559
+  isactive: !ruby/object:Word
+    word: isactive
+    stem: isact
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  ads: !ruby/object:Word
+    word: ads
+    stem: ad
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  googletag: !ruby/object:Word
+    word: googletag
+    stem: googletag
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  cmd: !ruby/object:Word
+    word: cmd
+    stem: cmd
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  bbccom_interstitial: !ruby/object:Word
+    word: bbccom_interstitial
+    stem: bbccom_interstiti
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  wallpaper: !ruby/object:Word
+    word: wallpaper
+    stem: wallpap
+    docFrequency: 8.0
+    docPositions:
+    - 1
+  isasync: !ruby/object:Word
+    word: isasync
+    stem: isasync
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  bbccom_wallpaper: !ruby/object:Word
+    word: bbccom_wallpaper
+    stem: bbccom_wallpap
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 505
+    - 559
+  adverts: !ruby/object:Word
+    word: adverts
+    stem: advert
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  adregister: !ruby/object:Word
+    word: adregister
+    stem: adregist
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  getad: !ruby/object:Word
+    word: getad
+    stem: getad
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 559
+  setdomelement: !ruby/object:Word
+    word: setdomelement
+    stem: setdomel
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 18.0
+    docPositions:
+    - 1
+    - 485
+    - 489
+    - 514
+    - 556
+    - 559
+    - 560
+    - 578
+    - 582
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 489
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 17.0
+    docPositions:
+    - 1
+    - 2
+    - 489
+    - 559
+  gnladsenabled: !ruby/object:Word
+    word: gnladsenabled
+    stem: gnladsen
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 12.0
+    docPositions:
+    - 1
+    - 2
+  bbccom_display_none: !ruby/object:Word
+    word: bbccom_display_none
+    stem: bbccom_display_non
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 10.0
+    docPositions:
+    - 1
+    - 489
+    - 578
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+  gnlanalyticsenabled: !ruby/object:Word
+    word: gnlanalyticsenabled
+    stem: gnlanalyticsen
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  continuousplay: !ruby/object:Word
+    word: continuousplay
+    stem: continuousplai
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  gnlcontinuousplayenabled: !ruby/object:Word
+    word: gnlcontinuousplayenabled
+    stem: gnlcontinuousplayen
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 2
+  bbccookies: !ruby/object:Word
+    word: bbccookies
+    stem: bbccooki
+    docFrequency: 23.0
+    docPositions:
+    - 1
+    - 489
+    - 540
+  banner: !ruby/object:Word
+    word: banner
+    stem: banner
+    docFrequency: 7.0
+    docPositions:
+    - 1
+  orb: !ruby/object:Word
+    word: orb
+    stem: orb
+    docFrequency: 27.0
+    docPositions:
+    - 1
+    - 2
+    - 489
+    - 523
+    - 524
+    - 533
+    - 539
+    - 550
+    - 555
+    - 556
+    - 559
+  wrapper: !ruby/object:Word
+    word: wrapper
+    stem: wrapper
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  prompt: !ruby/object:Word
+    word: prompt
+    stem: prompt
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 12.0
+    docPositions:
+    - 1
+    - 2
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 17.0
+    docPositions:
+    - 1
+    - 2
+    - 485
+    - 486
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 2
+    - 518
+    - 519
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 2
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 10.0
+    docPositions:
+    - 1
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+    - 559
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 10.0
+    docPositions:
+    - 1
+    - 489
+  bbc: !ruby/object:Word
+    word: bbc
+    stem: bbc
+    docFrequency: 21.0
+    docPositions:
+    - 1
+    - 2
+    - 9
+    - 460
+    - 482
+    - 489
+    - 502
+    - 511
+    - 569
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 2
+    - 489
+  dir: !ruby/object:Word
+    word: dir
+    stem: dir
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  ltr: !ruby/object:Word
+    word: ltr
+    stem: ltr
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 10.0
+    docPositions:
+    - 1
+    - 514
+    - 560
+    - 561
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 489
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 489
+    - 490
+    - 559
+  ensure: !ruby/object:Word
+    word: ensure
+    stem: ensur
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 8.0
+    docPositions:
+    - 1
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 341
+    - 348
+    - 489
+  includes: !ruby/object:Word
+    word: includes
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  third: !ruby/object:Word
+    word: third
+    stem: third
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  party: !ruby/object:Word
+    word: party
+    stem: parti
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  websites: !ruby/object:Word
+    word: websites
+    stem: websit
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 489
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  embedded: !ruby/object:Word
+    word: embedded
+    stem: embed
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  track: !ruby/object:Word
+    word: track
+    stem: track
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 559
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  message: !ruby/object:Word
+    word: message
+    stem: messag
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 75
+  partners: !ruby/object:Word
+    word: partners
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 406
+  advertising: !ruby/object:Word
+    word: advertising
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  changing: !ruby/object:Word
+    word: changing
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  settings: !ruby/object:Word
+    word: settings
+    stem: set
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  assume: !ruby/object:Word
+    word: assume
+    stem: assum
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  happy: !ruby/object:Word
+    word: happy
+    stem: happi
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  receive: !ruby/object:Word
+    word: receive
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  ul: !ruby/object:Word
+    word: ul
+    stem: ul
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  button: !ruby/object:Word
+    word: button
+    stem: button
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+    - 580
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 559
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+  managing: !ruby/object:Word
+    word: managing
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 12
+    - 406
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  _showprompt: !ruby/object:Word
+    word: _showprompt
+    stem: _showprompt
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 556
+  blq: !ruby/object:Word
+    word: blq
+    stem: blq
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  mast: !ruby/object:Word
+    word: mast
+    stem: mast
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 20.0
+    docPositions:
+    - 1
+    - 489
+    - 531
+    - 532
+    - 535
+    - 578
+    - 579
+    - 580
+    - 581
+    - 582
+  tmpl: !ruby/object:Word
+    word: tmpl
+    stem: tmpl
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 489
+    - 578
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  replace: !ruby/object:Word
+    word: replace
+    stem: replac
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 559
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+    - 582
+  blqcookiecontinuebutton: !ruby/object:Word
+    word: blqcookiecontinuebutton
+    stem: blqcookiecontinuebutton
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  onclick: !ruby/object:Word
+    word: onclick
+    stem: onclick
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 533
+  removechild: !ruby/object:Word
+    word: removechild
+    stem: removechild
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 511
+    - 552
+    - 559
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 494
+  _setpolicy: !ruby/object:Word
+    word: _setpolicy
+    stem: _setpolici
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  readpolicy: !ruby/object:Word
+    word: readpolicy
+    stem: readpolici
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 489
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 7.0
+    docPositions:
+    - 1
+  fig: !ruby/object:Word
+    word: fig
+    stem: fig
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 523
+  uk: !ruby/object:Word
+    word: uk
+    stem: uk
+    docFrequency: 9.0
+    docPositions:
+    - 1
+    - 482
+    - 489
+    - 511
+    - 523
+    - 569
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 533
+  bbbccookies: !ruby/object:Word
+    word: bbbccookies
+    stem: bbbccooki
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  isallowed: !ruby/object:Word
+    word: isallowed
+    stem: isallow
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 11.0
+    docPositions:
+    - 1
+    - 2
+    - 477
+    - 524
+    - 555
+    - 559
+  istats: !ruby/object:Word
+    word: istats
+    stem: istat
+    docFrequency: 17.0
+    docPositions:
+    - 1
+    - 524
+    - 526
+    - 539
+    - 559
+  invoke: !ruby/object:Word
+    word: invoke
+    stem: invok
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  istatstrackingurl: !ruby/object:Word
+    word: istatstrackingurl
+    stem: istatstrackingurl
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  getdefaulturl: !ruby/object:Word
+    word: getdefaulturl
+    stem: getdefaulturl
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  isenabled: !ruby/object:Word
+    word: isenabled
+    stem: isen
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  bbcflagpoles_istats: !ruby/object:Word
+    word: bbcflagpoles_istats
+    stem: bbcflagpoles_istat
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  sitestat: !ruby/object:Word
+    word: sitestat
+    stem: sitestat
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  ns_pixelurl: !ruby/object:Word
+    word: ns_pixelurl
+    stem: ns_pixelurl
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  flash: !ruby/object:Word
+    word: flash
+    stem: flash
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 1
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 489
+    - 496
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 514
+  st_ux: !ruby/object:Word
+    word: st_ux
+    stem: st_ux
+    docFrequency: 4.0
+    docPositions:
+    - 1
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 561
+    - 562
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 489
+    - 569
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 489
+    - 559
+    - 585
+  ns_: !ruby/object:Word
+    word: ns_
+    stem: ns_
+    docFrequency: 6.0
+    docPositions:
+    - 1
+  ux: !ruby/object:Word
+    word: ux
+    stem: ux
+    docFrequency: 5.0
+    docPositions:
+    - 1
+  cname: !ruby/object:Word
+    word: cname
+    stem: cname
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  cdomain: !ruby/object:Word
+    word: cdomain
+    stem: cdomain
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  cpath: !ruby/object:Word
+    word: cpath
+    stem: cpath
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 6.0
+    docPositions:
+    - 1
+    - 559
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 502
+  decodeuri: !ruby/object:Word
+    word: decodeuri
+    stem: decodeuri
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 559
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 540
+  expires: !ruby/object:Word
+    word: expires
+    stem: expir
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 540
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 9.0
+    docPositions:
+    - 1
+    - 2
+    - 485
+    - 489
+    - 540
+    - 577
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 489
+    - 540
+    - 577
+  gettime: !ruby/object:Word
+    word: gettime
+    stem: gettim
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 489
+    - 540
+    - 577
+  togmtstring: !ruby/object:Word
+    word: togmtstring
+    stem: togmtstr
+    docFrequency: 3.0
+    docPositions:
+    - 1
+    - 540
+  path: !ruby/object:Word
+    word: path
+    stem: path
+    docFrequency: 4.0
+    docPositions:
+    - 1
+    - 489
+    - 540
+  enabled: !ruby/object:Word
+    word: enabled
+    stem: enabl
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  accessibility: !ruby/object:Word
+    word: accessibility
+    stem: access
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 489
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 406
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 32
+    - 489
+  idcta: !ruby/object:Word
+    word: idcta
+    stem: idcta
+    docFrequency: 11.0
+    docPositions:
+    - 2
+    - 559
+  statusbar: !ruby/object:Word
+    word: statusbar
+    stem: statusbar
+    docFrequency: 7.0
+    docPositions:
+    - 2
+    - 559
+  publiclycacheable: !ruby/object:Word
+    word: publiclycacheable
+    stem: publiclycach
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 534
+    - 570
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 489
+  sport: !ruby/object:Word
+    word: sport
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 134
+    - 489
+    - 595
+  shop: !ruby/object:Word
+    word: shop
+    stem: shop
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 489
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 489
+  capital: !ruby/object:Word
+    word: capital
+    stem: capit
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  iplayer: !ruby/object:Word
+    word: iplayer
+    stem: iplay
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 81
+    - 489
+    - 589
+  culture: !ruby/object:Word
+    word: culture
+    stem: cultur
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  autos: !ruby/object:Word
+    word: autos
+    stem: auto
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 6.0
+    docPositions:
+    - 2
+    - 97
+    - 107
+    - 489
+    - 591
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 460
+    - 489
+  cbbc: !ruby/object:Word
+    word: cbbc
+    stem: cbbc
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  cbeebies: !ruby/object:Word
+    word: cbeebies
+    stem: cbeebi
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  iwonder: !ruby/object:Word
+    word: iwonder
+    stem: iwond
+    docFrequency: 20.0
+    docPositions:
+    - 2
+    - 31
+    - 56
+    - 106
+    - 132
+    - 158
+    - 184
+    - 210
+    - 236
+    - 262
+    - 277
+    - 298
+    - 326
+    - 340
+    - 347
+    - 377
+    - 392
+    - 418
+    - 489
+  bitesize: !ruby/object:Word
+    word: bitesize
+    stem: bites
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 489
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  panel: !ruby/object:Word
+    word: panel
+    stem: panel
+    docFrequency: 4.0
+    docPositions:
+    - 2
+  panelname: !ruby/object:Word
+    word: panelname
+    stem: panelnam
+    docFrequency: 3.0
+    docPositions:
+    - 2
+  aria: !ruby/object:Word
+    word: aria
+    stem: aria
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  labelledby: !ruby/object:Word
+    word: labelledby
+    stem: labelledbi
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  nav: !ruby/object:Word
+    word: nav
+    stem: nav
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 559
+  panelcontent: !ruby/object:Word
+    word: panelcontent
+    stem: panelcont
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 12.0
+    docPositions:
+    - 9
+    - 238
+    - 379
+    - 425
+    - 432
+    - 439
+    - 446
+    - 460
+    - 467
+    - 607
+    - 616
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 160
+    - 598
+  taking: !ruby/object:Word
+    word: taking
+    stem: take
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  liberties: !ruby/object:Word
+    word: liberties
+    stem: liberti
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 4.0
+    docPositions:
+    - 32
+    - 264
+    - 300
+  heroes: !ruby/object:Word
+    word: heroes
+    stem: hero
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  caribbean: !ruby/object:Word
+    word: caribbean
+    stem: caribbean
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  win: !ruby/object:Word
+    word: win
+    stem: win
+    docFrequency: 6.0
+    docPositions:
+    - 32
+    - 300
+    - 495
+    - 496
+  whatever: !ruby/object:Word
+    word: whatever
+    stem: whatev
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  happened: !ruby/object:Word
+    word: happened
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 425
+  empire: !ruby/object:Word
+    word: empire
+    stem: empir
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  blood: !ruby/object:Word
+    word: blood
+    stem: blood
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  gold: !ruby/object:Word
+    word: gold
+    stem: gold
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  spain: !ruby/object:Word
+    word: spain
+    stem: spain
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  hyphen: !ruby/object:Word
+    word: hyphen
+    stem: hyphen
+    docFrequency: 19.0
+    docPositions:
+    - 107
+    - 133
+    - 159
+    - 185
+    - 211
+    - 237
+    - 263
+    - 327
+    - 378
+    - 592
+    - 595
+    - 598
+    - 601
+    - 604
+    - 607
+    - 610
+    - 613
+    - 616
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 592
+  britain: !ruby/object:Word
+    word: britain
+    stem: britain
+    docFrequency: 7.0
+    docPositions:
+    - 108
+    - 134
+    - 379
+    - 592
+    - 595
+    - 616
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 10.0
+    docPositions:
+    - 108
+    - 264
+    - 279
+    - 300
+    - 379
+    - 499
+    - 592
+    - 610
+    - 616
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 592
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 592
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 592
+  race: !ruby/object:Word
+    word: race
+    stem: race
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 592
+  ten: !ruby/object:Word
+    word: ten
+    stem: ten
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 212
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 595
+  shook: !ruby/object:Word
+    word: shook
+    stem: shook
+    docFrequency: 3.0
+    docPositions:
+    - 134
+    - 595
+  quintinshill: !ruby/object:Word
+    word: quintinshill
+    stem: quintinshil
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 598
+  rail: !ruby/object:Word
+    word: rail
+    stem: rail
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 598
+  disaster: !ruby/object:Word
+    word: disaster
+    stem: disast
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 598
+  tragedy: !ruby/object:Word
+    word: tragedy
+    stem: tragedi
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 598
+  front: !ruby/object:Word
+    word: front
+    stem: front
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 598
+  nelson: !ruby/object:Word
+    word: nelson
+    stem: nelson
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  mandela: !ruby/object:Word
+    word: mandela
+    stem: mandela
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 601
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 601
+  great: !ruby/object:Word
+    word: great
+    stem: great
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 601
+  liberator: !ruby/object:Word
+    word: liberator
+    stem: liber
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 601
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 604
+  ruled: !ruby/object:Word
+    word: ruled
+    stem: rule
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 604
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 5.0
+    docPositions:
+    - 212
+    - 341
+    - 348
+    - 604
+  leaving: !ruby/object:Word
+    word: leaving
+    stem: leav
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  trace: !ruby/object:Word
+    word: trace
+    stem: trace
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 607
+  forensic: !ruby/object:Word
+    word: forensic
+    stem: forens
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 607
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 607
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 607
+  martin: !ruby/object:Word
+    word: martin
+    stem: martin
+    docFrequency: 3.0
+    docPositions:
+    - 264
+    - 610
+  luther: !ruby/object:Word
+    word: luther
+    stem: luther
+    docFrequency: 3.0
+    docPositions:
+    - 264
+    - 610
+  dream: !ruby/object:Word
+    word: dream
+    stem: dream
+    docFrequency: 3.0
+    docPositions:
+    - 264
+    - 610
+  become: !ruby/object:Word
+    word: become
+    stem: becom
+    docFrequency: 3.0
+    docPositions:
+    - 264
+    - 610
+  reality: !ruby/object:Word
+    word: reality
+    stem: realiti
+    docFrequency: 3.0
+    docPositions:
+    - 264
+    - 610
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  churchill: !ruby/object:Word
+    word: churchill
+    stem: churchil
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 328
+    - 613
+  depression: !ruby/object:Word
+    word: depression
+    stem: depress
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  disqualify: !ruby/object:Word
+    word: disqualify
+    stem: disqualifi
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  him: !ruby/object:Word
+    word: him
+    stem: him
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  pm: !ruby/object:Word
+    word: pm
+    stem: pm
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  today: !ruby/object:Word
+    word: today
+    stem: todai
+    docFrequency: 3.0
+    docPositions:
+    - 279
+    - 394
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 610
+  john: !ruby/object:Word
+    word: john
+    stem: john
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 610
+  sergeant: !ruby/object:Word
+    word: sergeant
+    stem: sergeant
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 610
+  winston: !ruby/object:Word
+    word: winston
+    stem: winston
+    docFrequency: 4.0
+    docPositions:
+    - 300
+    - 328
+    - 613
+  words: !ruby/object:Word
+    word: words
+    stem: word
+    docFrequency: 2.0
+    docPositions:
+    - 300
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 300
+  sir: !ruby/object:Word
+    word: sir
+    stem: sir
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  greatest: !ruby/object:Word
+    word: greatest
+    stem: greatest
+    docFrequency: 3.0
+    docPositions:
+    - 328
+    - 613
+  briton: !ruby/object:Word
+    word: briton
+    stem: briton
+    docFrequency: 3.0
+    docPositions:
+    - 328
+    - 613
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 348
+  changed: !ruby/object:Word
+    word: changed
+    stem: chang
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 348
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 342
+  isaac: !ruby/object:Word
+    word: isaac
+    stem: isaac
+    docFrequency: 2.0
+    docPositions:
+    - 350
+  newton: !ruby/object:Word
+    word: newton
+    stem: newton
+    docFrequency: 2.0
+    docPositions:
+    - 350
+  charles: !ruby/object:Word
+    word: charles
+    stem: charl
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  darwin: !ruby/object:Word
+    word: darwin
+    stem: darwin
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  louis: !ruby/object:Word
+    word: louis
+    stem: loui
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  pasteur: !ruby/object:Word
+    word: pasteur
+    stem: pasteur
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  albert: !ruby/object:Word
+    word: albert
+    stem: albert
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  einstein: !ruby/object:Word
+    word: einstein
+    stem: einstein
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  stephen: !ruby/object:Word
+    word: stephen
+    stem: stephen
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  hawking: !ruby/object:Word
+    word: hawking
+    stem: hawk
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  racquet: !ruby/object:Word
+    word: racquet
+    stem: racquet
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 616
+  davis: !ruby/object:Word
+    word: davis
+    stem: davi
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 616
+  cup: !ruby/object:Word
+    word: cup
+    stem: cup
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 616
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 394
+  commonwealth: !ruby/object:Word
+    word: commonwealth
+    stem: commonwealth
+    docFrequency: 2.0
+    docPositions:
+    - 394
+  ancient: !ruby/object:Word
+    word: ancient
+    stem: ancient
+    docFrequency: 2.0
+    docPositions:
+    - 432
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  kids: !ruby/object:Word
+    word: kids
+    stem: kid
+    docFrequency: 2.0
+    docPositions:
+    - 446
+  historic: !ruby/object:Word
+    word: historic
+    stem: histor
+    docFrequency: 2.0
+    docPositions:
+    - 453
+  figures: !ruby/object:Word
+    word: figures
+    stem: figur
+    docFrequency: 2.0
+    docPositions:
+    - 453
+  highlights: !ruby/object:Word
+    word: highlights
+    stem: highlight
+    docFrequency: 2.0
+    docPositions:
+    - 467
+  genrepage: !ruby/object:Word
+    word: genrepage
+    stem: genrepag
+    docFrequency: 4.0
+    docPositions:
+    - 477
+    - 485
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 3.0
+    docPositions:
+    - 479
+    - 559
+  parallax: !ruby/object:Word
+    word: parallax
+    stem: parallax
+    docFrequency: 2.0
+    docPositions:
+    - 480
+  timelinesscripturl: !ruby/object:Word
+    word: timelinesscripturl
+    stem: timelinesscripturl
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 7.0
+    docPositions:
+    - 482
+    - 489
+    - 511
+    - 569
+  timelines: !ruby/object:Word
+    word: timelines
+    stem: timelin
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  kandlembeddedtimelines: !ruby/object:Word
+    word: kandlembeddedtimelines
+    stem: kandlembeddedtimelin
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 4.0
+    docPositions:
+    - 486
+    - 513
+    - 556
+  explore: !ruby/object:Word
+    word: explore
+    stem: explor
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  parental: !ruby/object:Word
+    word: parental
+    stem: parent
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  guidance: !ruby/object:Word
+    word: guidance
+    stem: guidanc
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  responsible: !ruby/object:Word
+    word: responsible
+    stem: respons
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  external: !ruby/object:Word
+    word: external
+    stem: extern
+    docFrequency: 4.0
+    docPositions:
+    - 489
+    - 559
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  approach: !ruby/object:Word
+    word: approach
+    stem: approach
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  linking: !ruby/object:Word
+    word: linking
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  currencyproviders: !ruby/object:Word
+    word: currencyproviders
+    stem: currencyprovid
+    docFrequency: 5.0
+    docPositions:
+    - 489
+  postwrite: !ruby/object:Word
+    word: postwrite
+    stem: postwrit
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 7.0
+    docPositions:
+    - 489
+    - 559
+  stats: !ruby/object:Word
+    word: stats
+    stem: stat
+    docFrequency: 3.0
+    docPositions:
+    - 489
+  utils: !ruby/object:Word
+    word: utils
+    stem: util
+    docFrequency: 3.0
+    docPositions:
+    - 489
+  pathname: !ruby/object:Word
+    word: pathname
+    stem: pathnam
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  performance: !ruby/object:Word
+    word: performance
+    stem: perform
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  wwhpedition: !ruby/object:Word
+    word: wwhpedition
+    stem: wwhpedit
+    docFrequency: 9.0
+    docPositions:
+    - 489
+  getmetapropertycontent: !ruby/object:Word
+    word: getmetapropertycontent
+    stem: getmetapropertycont
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  wwhp: !ruby/object:Word
+    word: wwhp
+    stem: wwhp
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  _sf_async_config: !ruby/object:Word
+    word: _sf_async_config
+    stem: _sf_async_config
+    docFrequency: 14.0
+    docPositions:
+    - 489
+    - 565
+    - 568
+    - 569
+    - 570
+    - 571
+    - 572
+  configuration: !ruby/object:Word
+    word: configuration
+    stem: configur
+    docFrequency: 5.0
+    docPositions:
+    - 489
+    - 567
+    - 574
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 567
+  uid: !ruby/object:Word
+    word: uid
+    stem: uid
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 568
+  homepage: !ruby/object:Word
+    word: homepage
+    stem: homepag
+    docFrequency: 4.0
+    docPositions:
+    - 489
+  sections: !ruby/object:Word
+    word: sections
+    stem: section
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 571
+  region: !ruby/object:Word
+    word: region
+    stem: region
+    docFrequency: 4.0
+    docPositions:
+    - 489
+    - 559
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 574
+  loadchartbeat: !ruby/object:Word
+    word: loadchartbeat
+    stem: loadchartbeat
+    docFrequency: 7.0
+    docPositions:
+    - 489
+    - 576
+    - 586
+  _sf_endpt: !ruby/object:Word
+    word: _sf_endpt
+    stem: _sf_endpt
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 577
+  setattribute: !ruby/object:Word
+    word: setattribute
+    stem: setattribut
+    docFrequency: 7.0
+    docPositions:
+    - 489
+    - 579
+    - 580
+    - 581
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 3.0
+    docPositions:
+    - 489
+    - 579
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 7.0
+    docPositions:
+    - 489
+    - 559
+    - 580
+  static: !ruby/object:Word
+    word: static
+    stem: static
+    docFrequency: 5.0
+    docPositions:
+    - 489
+    - 581
+  chartbeat: !ruby/object:Word
+    word: chartbeat
+    stem: chartbeat
+    docFrequency: 5.0
+    docPositions:
+    - 489
+    - 581
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 5.0
+    docPositions:
+    - 489
+    - 559
+    - 582
+  oldonload: !ruby/object:Word
+    word: oldonload
+    stem: oldonload
+    docFrequency: 5.0
+    docPositions:
+    - 489
+    - 584
+    - 586
+  onload: !ruby/object:Word
+    word: onload
+    stem: onload
+    docFrequency: 7.0
+    docPositions:
+    - 489
+    - 584
+    - 585
+  assetpath: !ruby/object:Word
+    word: assetpath
+    stem: assetpath
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  bbci: !ruby/object:Word
+    word: bbci
+    stem: bbci
+    docFrequency: 3.0
+    docPositions:
+    - 489
+  frameworks: !ruby/object:Word
+    word: frameworks
+    stem: framework
+    docFrequency: 3.0
+    docPositions:
+    - 489
+  barlesque: !ruby/object:Word
+    word: barlesque
+    stem: barlesqu
+    docFrequency: 3.0
+    docPositions:
+    - 489
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  strict: !ruby/object:Word
+    word: strict
+    stem: strict
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 559
+  promomanager: !ruby/object:Word
+    word: promomanager
+    stem: promomanag
+    docFrequency: 10.0
+    docPositions:
+    - 492
+    - 534
+    - 535
+    - 550
+    - 551
+    - 552
+    - 555
+    - 556
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 9.0
+    docPositions:
+    - 493
+    - 499
+    - 503
+    - 506
+    - 511
+    - 527
+    - 529
+    - 530
+  promoloaded: !ruby/object:Word
+    word: promoloaded
+    stem: promoload
+    docFrequency: 3.0
+    docPositions:
+    - 494
+    - 534
+  makeurl: !ruby/object:Word
+    word: makeurl
+    stem: makeurl
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 527
+  theme: !ruby/object:Word
+    word: theme
+    stem: theme
+    docFrequency: 5.0
+    docPositions:
+    - 495
+    - 509
+    - 511
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 511
+  loc: !ruby/object:Word
+    word: loc
+    stem: loc
+    docFrequency: 4.0
+    docPositions:
+    - 496
+    - 497
+    - 498
+  proto: !ruby/object:Word
+    word: proto
+    stem: proto
+    docFrequency: 4.0
+    docPositions:
+    - 497
+    - 499
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 497
+  host: !ruby/object:Word
+    word: host
+    stem: host
+    docFrequency: 6.0
+    docPositions:
+    - 498
+    - 499
+    - 502
+    - 505
+  match: !ruby/object:Word
+    word: match
+    stem: match
+    docFrequency: 5.0
+    docPositions:
+    - 499
+    - 502
+    - 505
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 5.0
+    docPositions:
+    - 499
+    - 502
+    - 505
+  int: !ruby/object:Word
+    word: int
+    stem: int
+    docFrequency: 3.0
+    docPositions:
+    - 499
+    - 502
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 4.0
+    docPositions:
+    - 499
+    - 502
+    - 506
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 3.0
+    docPositions:
+    - 499
+    - 502
+  themes: !ruby/object:Word
+    word: themes
+    stem: theme
+    docFrequency: 4.0
+    docPositions:
+    - 500
+    - 509
+  light: !ruby/object:Word
+    word: light
+    stem: light
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 527
+  dark: !ruby/object:Word
+    word: dark
+    stem: dark
+    docFrequency: 2.0
+    docPositions:
+    - 500
+  stage: !ruby/object:Word
+    word: stage
+    stem: stage
+    docFrequency: 2.0
+    docPositions:
+    - 502
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 502
+  regexp: !ruby/object:Word
+    word: regexp
+    stem: regexp
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  pal: !ruby/object:Word
+    word: pal
+    stem: pal
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  sandbox: !ruby/object:Word
+    word: sandbox
+    stem: sandbox
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  navpromo: !ruby/object:Word
+    word: navpromo
+    stem: navpromo
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  card: !ruby/object:Word
+    word: card
+    stem: card
+    docFrequency: 2.0
+    docPositions:
+    - 511
+  node: !ruby/object:Word
+    word: node
+    stem: node
+    docFrequency: 5.0
+    docPositions:
+    - 513
+    - 530
+    - 533
+  disabledbycookie: !ruby/object:Word
+    word: disabledbycookie
+    stem: disabledbycooki
+    docFrequency: 3.0
+    docPositions:
+    - 514
+    - 523
+  ckns_orb_nopromo: !ruby/object:Word
+    word: ckns_orb_nopromo
+    stem: ckns_orb_nopromo
+    docFrequency: 3.0
+    docPositions:
+    - 514
+    - 540
+  promomanageroverride: !ruby/object:Word
+    word: promomanageroverride
+    stem: promomanageroverrid
+    docFrequency: 5.0
+    docPositions:
+    - 517
+    - 518
+    - 519
+    - 527
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 524
+  _footerpromo: !ruby/object:Word
+    word: _footerpromo
+    stem: _footerpromo
+    docFrequency: 2.0
+    docPositions:
+    - 524
+  promo: !ruby/object:Word
+    word: promo
+    stem: promo
+    docFrequency: 7.0
+    docPositions:
+    - 524
+    - 530
+    - 533
+    - 535
+    - 539
+    - 556
+  virtualsite: !ruby/object:Word
+    word: virtualsite
+    stem: virtualsit
+    docFrequency: 3.0
+    docPositions:
+    - 526
+    - 527
+  getsite: !ruby/object:Word
+    word: getsite
+    stem: getsit
+    docFrequency: 2.0
+    docPositions:
+    - 526
+  default: !ruby/object:Word
+    word: default
+    stem: default
+    docFrequency: 3.0
+    docPositions:
+    - 526
+    - 559
+  load: !ruby/object:Word
+    word: load
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 530
+  onsuccess: !ruby/object:Word
+    word: onsuccess
+    stem: onsuccess
+    docFrequency: 2.0
+    docPositions:
+    - 531
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 2.0
+    docPositions:
+    - 532
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 2.0
+    docPositions:
+    - 532
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 4.0
+    docPositions:
+    - 533
+    - 539
+    - 556
+  loaded: !ruby/object:Word
+    word: loaded
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 533
+    - 535
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 535
+    - 550
+    - 551
+  fire: !ruby/object:Word
+    word: fire
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 535
+  onerror: !ruby/object:Word
+    word: onerror
+    stem: onerror
+    docFrequency: 2.0
+    docPositions:
+    - 538
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  error: !ruby/object:Word
+    word: error
+    stem: error
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  failed: !ruby/object:Word
+    word: failed
+    stem: fail
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  define: !ruby/object:Word
+    word: define
+    stem: defin
+    docFrequency: 2.0
+    docPositions:
+    - 550
+  lib: !ruby/object:Word
+    word: lib
+    stem: lib
+    docFrequency: 3.0
+    docPositions:
+    - 550
+    - 559
+  _event: !ruby/object:Word
+    word: _event
+    stem: _event
+    docFrequency: 2.0
+    docPositions:
+    - 550
+  mixin: !ruby/object:Word
+    word: mixin
+    stem: mixin
+    docFrequency: 2.0
+    docPositions:
+    - 551
+  navp: !ruby/object:Word
+    word: navp
+    stem: navp
+    docFrequency: 2.0
+    docPositions:
+    - 556
+  _: !ruby/object:Word
+    word: _
+    stem: _
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  _mastheadimages: !ruby/object:Word
+    word: _mastheadimages
+    stem: _mastheadimag
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  mastheadimages: !ruby/object:Word
+    word: mastheadimages
+    stem: mastheadimag
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  updatesigninimage: !ruby/object:Word
+    word: updatesigninimage
+    stem: updatesigninimag
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  ctaimg: !ruby/object:Word
+    word: ctaimg
+    stem: ctaimg
+    docFrequency: 8.0
+    docPositions:
+    - 559
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  imgdefault: !ruby/object:Word
+    word: imgdefault
+    stem: imgdefault
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  imginverse: !ruby/object:Word
+    word: imginverse
+    stem: imginvers
+    docFrequency: 6.0
+    docPositions:
+    - 559
+  getattr: !ruby/object:Word
+    word: getattr
+    stem: getattr
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  activesrc: !ruby/object:Word
+    word: activesrc
+    stem: activesrc
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  signin: !ruby/object:Word
+    word: signin
+    stem: signin
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  signedin: !ruby/object:Word
+    word: signedin
+    stem: signedin
+    docFrequency: 5.0
+    docPositions:
+    - 559
+  setattr: !ruby/object:Word
+    word: setattr
+    stem: setattr
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  precacheimage: !ruby/object:Word
+    word: precacheimage
+    stem: precacheimag
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  shorten: !ruby/object:Word
+    word: shorten
+    stem: shorten
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  updatesignintext: !ruby/object:Word
+    word: updatesignintext
+    stem: updatesignintext
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  elm: !ruby/object:Word
+    word: elm
+    stem: elm
+    docFrequency: 5.0
+    docPositions:
+    - 559
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 10.0
+    docPositions:
+    - 559
+  shortname: !ruby/object:Word
+    word: shortname
+    stem: shortnam
+    docFrequency: 4.0
+    docPositions:
+    - 559
+  textcontent: !ruby/object:Word
+    word: textcontent
+    stem: textcont
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  innertext: !ruby/object:Word
+    word: innertext
+    stem: innertext
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  updateforauthorisedstate: !ruby/object:Word
+    word: updateforauthorisedstate
+    stem: updateforauthorisedst
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  ctaelm: !ruby/object:Word
+    word: ctaelm
+    stem: ctaelm
+    docFrequency: 4.0
+    docPositions:
+    - 559
+  username: !ruby/object:Word
+    word: username
+    stem: usernam
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  ctalink: !ruby/object:Word
+    word: ctalink
+    stem: ctalink
+    docFrequency: 4.0
+    docPositions:
+    - 559
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  signinurl: !ruby/object:Word
+    word: signinurl
+    stem: signinurl
+    docFrequency: 5.0
+    docPositions:
+    - 559
+  idconfig: !ruby/object:Word
+    word: idconfig
+    stem: idconfig
+    docFrequency: 5.0
+    docPositions:
+    - 559
+  hascookie: !ruby/object:Word
+    word: hascookie
+    stem: hascooki
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  getnamefromcookie: !ruby/object:Word
+    word: getnamefromcookie
+    stem: getnamefromcooki
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  translation_signedin: !ruby/object:Word
+    word: translation_signedin
+    stem: translation_signedin
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  translation_signedout: !ruby/object:Word
+    word: translation_signedout
+    stem: translation_signedout
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  signin_url: !ruby/object:Word
+    word: signin_url
+    stem: signin_url
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  removeclass: !ruby/object:Word
+    word: removeclass
+    stem: removeclass
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 3.0
+    docPositions:
+    - 559
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 559
+  csplit: !ruby/object:Word
+    word: csplit
+    stem: csplit
+    docFrequency: 3.0
+    docPositions:
+    - 561
+    - 562
+  ckns_policy: !ruby/object:Word
+    word: ckns_policy
+    stem: ckns_polici
+    docFrequency: 6.0
+    docPositions:
+    - 561
+    - 562
+    - 564
+  pop: !ruby/object:Word
+    word: pop
+    stem: pop
+    docFrequency: 2.0
+    docPositions:
+    - 562
+  shift: !ruby/object:Word
+    word: shift
+    stem: shift
+    docFrequency: 2.0
+    docPositions:
+    - 562
+  usecanonical: !ruby/object:Word
+    word: usecanonical
+    stem: usecanon
+    docFrequency: 2.0
+    docPositions:
+    - 570
+  kandlgenres: !ruby/object:Word
+    word: kandlgenres
+    stem: kandlgenr
+    docFrequency: 2.0
+    docPositions:
+    - 571
+  authors: !ruby/object:Word
+    word: authors
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 572
+  futurethe: !ruby/object:Word
+    word: futurethe
+    stem: futureth
+    docFrequency: 2.0
+    docPositions:
+    - 592
+lineCount: 617
+wordCount: 1733
+rank: 0.26111111111111107
+title: BBC History
+links:
+- https://ssl.bbc.co.uk/id/status
+- http://www.bbc.co.uk/news/
+- http://www.bbc.com/news/
+- http://shop.bbc.com/
+- http://www.bbc.com/earth/
+- http://www.bbc.com/travel/
+- http://www.bbc.com/capital/
+- http://www.bbc.com/culture/
+- http://www.bbc.com/autos/
+- http://www.bbc.com/future/
+- http://www.bbc.com/earth/
+- http://search.bbc.co.uk/search
+- http://www.bbc.co.uk/guides/z2bg4wx
+- http://www.bbc.co.uk/guides/zcnmtfr
+- http://www.bbc.co.uk/iplayer/episode/b06rwgp7/blood-and-gold-the-making-of-spain-with-simon-sebag-montefiore-1-conquest
+- http://www.bbc.co.uk/timelines/zqjgk7h
+- http://www.bbc.co.uk/timelines/zcwj2hv
+- http://www.bbc.co.uk/timelines/z9w9d2p
+- http://www.bbc.co.uk/timelines/ztd26sg
+- http://www.bbc.co.uk/timelines/zp9qmp3
+- http://www.bbc.co.uk/timelines/zcq2xnb
+- 'http://www.bbc.co.uk/timelines/z86tn39 '
+- http://www.bbc.co.uk/guides/zqjpsbk
+- http://www.bbc.co.uk/guides/z83j7ty
+- http://www.bbc.co.uk/timelines/z363gk7
+- http://www.bbc.co.uk/timelines/zwwgcdm
+- http://www.bbc.co.uk/timelines/zq8gcdm
+- http://www.bbc.co.uk/timelines/z9kj2hv
+- http://www.bbc.co.uk/timelines/zxy6sg8
+- http://www.bbc.co.uk/timelines/zwjmtfr
+- 'http://www.bbc.co.uk/timelines/zw2wmnb '
+- http://www.bbc.co.uk/guides/zghsfg8
+- http://www.bbc.co.uk/iwonder
+- http://www.bbc.co.uk/history/british/
+- http://www.bbc.co.uk/history/ancient/
+- http://www.bbc.co.uk/history/familyhistory/
+- http://www.bbc.co.uk/history/forkids/
+- http://www.bbc.co.uk/history/historic_figures/
+- http://www.bbc.co.uk/radio/programmes/genres/factual/history/player
+- http://www.bbc.co.uk/iplayer/categories/history/highlights
+- http://www.bbc.co.uk/news/
+- http://www.bbc.com/news/
+- http://shop.bbc.com/
+- http://www.bbc.com/earth/
+- http://www.bbc.com/travel/
+- http://www.bbc.com/capital/
+- http://www.bbc.com/culture/
+- http://www.bbc.com/autos/
+- http://www.bbc.com/future/
+- http://www.bbc.com/earth/
+- http://advertising.bbcworldwide.com/
+rawText: "\n                  /*<![CDATA[*/ (function() { if (window.bbcdotcom &&
+  bbcdotcom.config.isActive('ads')) { googletag.cmd.push(function() { googletag.display('bbccom_interstitial');
+  }); } }()); /*]]>*/  /*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom
+  && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function()
+  { googletag.display('bbccom_wallpaper'); }); } else { googletag.display(\"wallpaper\");
+  } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); if (wallpaper !==
+  null && wallpaper !== undefined) { wallpaper.setDomElement('bbccom_wallpaper');
+  } } }()); /*]]>*/  /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads'))
+  { document.write(unescape('%3Cscript id=\"gnlAdsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+  } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript
+  id=\"gnlAnalyticsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E')); } if
+  (window.bbcdotcom && bbcdotcom.config.isActive('continuousPlay')) { document.write(unescape('%3Cscript
+  id=\"gnlContinuousPlayEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+  } }()); /*]]>*/       <![CDATA[ <section> <div id=\"bbccookies\" class=\"bbccookies-banner
+  orb-banner-wrapper bbccookies-d\"> <div id=\"bbccookies-prompt\" class=\"orb-banner
+  b-g-p b-r b-f\"> <h2 class=\"orb-banner-title\"> Cookies on the BBC website  <p
+  class=\"orb-banner-content\" dir=\"ltr\"> The BBC has updated its cookie policy.
+  We use cookies to ensure that we give you the best experience on our website. This
+  includes cookies from third party social media websites if you visit a page which
+  contains embedded content from social media. Such third party cookies may track
+  your use of the BBC website.<span class=\"bbccookies-international-message\"> We
+  and our partners also use cookies to ensure we show you advertising that is relevant
+  to you. If you continue without changing your settings, we'll assume that you are
+  happy to receive all cookies on the BBC website. However, you can change your cookie
+  settings at any time.  <ul class=\"orb-banner-options\"> <li id=\"bbccookies-continue\">
+  <button type=\"button\" id=\"bbccookies-continue-button\">Continue  <li id=\"bbccookies-settings\">
+  <a href=\"/privacy/cookies/managing/cookie-settings.html\">Change settings  <li
+  id=\"bbccookies-more\"><a href=\"/privacy/cookies/bbc\">Find out more    ]]>/*<![CDATA[*/
+  (function(){if(bbccookies._showPrompt()){var g=document,b=g.getElementById(\"blq-pre-mast\"),e=g.getElementById(\"blq-bbccookies-tmpl\"),a,f;if(b&&g.createElement){a=g.createElement(\"div\");f=e.innerHTML;f=f.replace(\"<\"+\"![CDATA[\",\"\").replace(\"]]\"+\">\",\"\");a.innerHTML=f;b.appendChild(a);blqCookieContinueButton=g.getElementById(\"bbccookies-continue-button\");blqCookieContinueButton.onclick=function(){a.parentNode.removeChild(a);return
+  false};bbccookies._setPolicy(bbccookies.readPolicy())}var c=g.getElementById(\"bbccookies\");if(c&&!window.orb.fig(\"uk\")){c.className=c.className.replace(/\\bbbccookies-d\\b/,\"\");c.className=c.className+(\"
+  bbccookies-w\")}}})(); /*]]>*//*<![CDATA[*/ if (bbccookies.isAllowed('s1')) { require(['istats-1'],
+  function (istats) {  istats.invoke(); }); } /*]]>*//*<![CDATA[*/ if (bbccookies.isAllowed('s1'))
+  { (function () { require(['istats-1'], function (istats) { istatsTrackingUrl = istats.getDefaultURL();
+  if (istats.isEnabled() && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl);
+  } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track
+  */ } function sitestat(n) { var j = document, f = j.location, b = \"\"; if (j.cookie.indexOf(\"st_ux=\")
+  != -1) { var k = j.cookie.split(\";\"); var e = \"st_ux\", h = document.domain,
+  a = \"/\"; if (typeof ns_ != \"undefined\" && typeof ns_.ux != \"undefined\") {
+  e = ns_.ux.cName || e; h = ns_.ux.cDomain || h; a = ns_.ux.cPath || a } for (var
+  g = 0, f = k.length; g < f; g++) { var m = k[g].indexOf(\"st_ux=\"); if (m != -1)
+  { b = \"&\" + decodeURI(k[g].substring(m + 6)) } } bbccookies.set(e + \"=; expires=\"
+  + new Date(new Date().getTime() - 60).toGMTString() + \"; path=\" + a + \"; domain=\"
+  + h); } window.ns_pixelUrl = n;  } }); })(); } else { window.istats = {enabled:
+  false}; } /*]]>*/   \n         Accessibility links Accessibility Help       BBC
+  iD     require(['idcta/statusbar'], function(statusbar) { new statusbar.Statusbar({\"id\":\"idcta-statusbar\",\"publiclyCacheable\":true});
+  });    BBC navigation  News      News      Sport      Weather      Shop      Earth
+  \     Travel      Capital      iPlayer      Culture      Autos      Future      TV
+  \     Radio      CBBC      CBeebies      Food      Arts      Make It Digital      iWonder
+  \     Bitesize      Music      Nature      Earth      Local      Travel     Menu
+  \        Search the BBC      <![CDATA[ <div id=\"orb-panel-<%= panelname %>\" class=\"orb-panel\"
+  aria-labelledby=\"orb-nav-<%= panelname %>\"> <div class=\"orb-panel-content b-g-p
+  b-r\"> <%= panelcontent %>   ]]>                \n            \n\n\n    \n        \n
+  \   \n                BBC History\n        \n    \n    More\n        \n            \n
+  \                   \n                        Home\n                    \n                \n
+  \                           \n                    \n                        Taking
+  Liberties\n                    \n                \n                        \n    \n
+  \       \n\n    \n        \n\n                        iWonder\n            How did
+  the heroes of the Caribbean help win WW2?\n\n            \n        \n        \n
+  \                   \n    \n\n    \n    \n   \n       \n   \n    \n\n    \n    \n
+  \   \n\n    \n\n        \n            \n\n                    iWonder\n        \n
+  \       Whatever happened to the British Empire?\n\n                                \n\n
+  \   \n    \n    \n    \n                                \n\n    \n\n        \n            \n
+  \                   \n\n        \n        Blood and Gold: The Making of Spain \n\n
+  \           \n\n    \n    \n        IPLAYER\n    \n\n\n    \n    \n    \n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1946\n                                Future\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1946 &hyphen; Future\n            The story of Britain's
+  hidden role in the space race\n        \n\n        \n    \n\n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1947\n                                2004\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1947 &hyphen; 2004\n            Ten weather events that
+  shook Britain \n        \n\n        \n    \n\n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1914\n                                2015\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1914 &hyphen; 2015\n             The Quintinshill Rail Disaster:
+  Tragedy on the Home Front\n        \n\n        \n    \n\n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1918\n                                2013\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1918 &hyphen; 2013\n            Nelson Mandela: The last
+  great liberator?\n        \n\n        \n    \n\n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1508BC\n                                2015\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1508BC &hyphen; 2015\n            Ten women who ruled the
+  world\n        \n\n        \n    \n\n                                \n    \n        \n
+  \           \n                \n                    \n                        \n
+  \                           \n                                275BC\n                                2000\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       275BC &hyphen; 2000\n            Leaving a trace: Forensic
+  science through history\n        \n\n        \n    \n\n                                \n
+  \   \n        \n            \n                \n                    \n                        \n
+  \                           \n                                1929\n                                1968\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1929 &hyphen; 1968\n            Did Martin Luther's dream
+  become a reality?\n        \n\n        \n    \n\n                                \n\n
+  \   \n\n        \n            \n\n                    iWonder\n        \n        Would
+  Churchill's depression disqualify him as PM today?\n\n                    \n        Presented
+  by John Sergeant\n        \n\n            \n\n    \n    \n    \n    \n                                \n\n
+  \   \n\n        \n            \n\n                    iWonder\n        \n        Did
+  Winston's words win the war?\n\n                                \n\n    \n    \n
+  \   \n    \n                                \n    \n        \n            \n                \n
+  \                   \n                        \n                            \n                                1874\n
+  \                               1965\n                            \n                        \n
+  \                   \n                \n                \n            \n        \n
+  \       \n                        iWonder\n                        1874 &hyphen;
+  1965\n            Sir Winston Churchill: The greatest Briton?\n        \n\n        \n
+  \   \n\n                                \n\n            \n    \n                    \n
+  \               \n                    iWonder \n                    Scientists who
+  changed our world \n                    5 articles\n                \n            \n
+  \       \n        \n            iWonder \n            Scientists who changed our
+  world \n            \n                                    Isaac Newton\n                                    Charles
+  Darwin\n                                    Louis Pasteur  \n                                    Albert
+  Einstein\n                                    Stephen Hawking\n                            \n
+  \                   \n    \n\n                                \n    \n        \n
+  \           \n                \n                    \n                        \n
+  \                           \n                                1900\n                                2015\n
+  \                           \n                        \n                    \n                \n
+  \               \n            \n        \n        \n                        iWonder\n
+  \                       1900 &hyphen; 2015\n            What a racquet: Britainâ\x80\x99s
+  Davis Cup history\n        \n\n        \n    \n\n                                \n\n
+  \   \n\n        \n            \n\n                    iWonder\n        \n        What
+  is the point of the Commonwealth today? \n\n                                \n\n
+  \   \n    \n    \n    \n                \n        \n        \n        \n            Show
+  more links\n        \n    \n\n    \n        \n    \n        \n                        \n
+  \               \n                    \n                        \n                    iWonder\n
+  \               \n            \n                        \n                \n                    \n
+  \                       \n                    British history\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    Ancient history\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    Family history\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    History for kids\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    Historic figures\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    History on BBC radio\n                \n
+  \           \n                        \n                \n                    \n
+  \                       \n                    History highlights\n                \n
+  \           \n                    \n    \n\n\n\n\n    (function () {\n        require(['genrePage'],
+  function (GenrePage) {\n            var config = {\n                features: {\n
+  \                   parallax: \"1\"\n                },\n                timelinesScriptUrl:
+  \"http://www.bbc.co.uk/timelines/kandlembeddedtimelines-1\"\n            };\n\n
+  \           var g = new GenrePage(document, config);\n            g.init();\n        });\n
+  \   })();\n       Explore the BBC   News      News      Sport      Weather      Shop
+  \     Earth      Travel      Capital      iPlayer      Culture      Autos      Future
+  \     TV      Radio      CBBC      CBeebies      Food      Arts      Make It Digital
+  \     iWonder      Bitesize      Music      Nature      Earth      Local      Travel
+  \          Terms of Use      About the BBC      Privacy Policy      Cookies      Accessibility
+  Help      Parental Guidance      Contact the BBC          Advertise with us      Ad
+  choices      Copyright © 2015 BBC. The BBC is not responsible for the content of
+  external sites. Read about our approach to external linking.          /*<![CDATA[*/
+  if (window.bbcdotcom && window.bbcdotcom.analytics) { bbcdotcom.analytics.page();
+  } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) {
+  bbcdotcom.currencyProviders.write(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom
+  && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/
+  \ /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats &&
+  bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/'
+  && window.bbccookies && bbccookies.readPolicy('performance') ) { var wwhpEdition
+  = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={};
+  /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain
+  = \"bbc.co.uk\"; _sf_async_config.title = \"Homepage\"+(wwhpEdition !== '' ? ' -
+  '+wwhpEdition : ''); _sf_async_config.sections = \"Homepage\"+(wwhpEdition !== ''
+  ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path
+  = \"/\"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){
+  function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement(\"script\");
+  e.setAttribute(\"language\", \"javascript\"); e.setAttribute(\"type\", \"text/javascript\");
+  e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e);
+  } var oldonload = window.onload; window.onload = (typeof window.onload != \"function\")
+  ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/
+  \   document.write('<' + 'script id=\"orb-js-script\" data-assetpath=\"http://static.bbci.co.uk/frameworks/barlesque/3.2.4/orb/4/\"
+  src=\"http://static.bbci.co.uk/frameworks/barlesque/3.2.4/orb/4/script/orb.min.js\"><'
+  + '/script>');  (function() {\n    'use strict';\n\n    var promoManager = {\n        url:
+  '',\n        promoLoaded: false,\n                makeUrl: function (theme, site,
+  win) {\n            var loc = win? win.location : window.location,\n                proto
+  = loc.protocol,\n                host = loc.host,\n                url = proto +
+  '//' + ((proto.match(/s:/i) && !host.match(/^www\\.(int|test)\\./i))? 'ssl.' : 'www.'),\n
+  \               themes = ['light', 'dark'];\n\n            if ( host.match(/^(?:www|ssl|m)\\.(int|test|stage|live)\\.bbc\\./i)
+  ) {\n                url += RegExp.$1 + '.';\n            }\n            else if
+  ( host.match(/^pal\\.sandbox\\./i) ) {\n                url += 'test.';\n            }\n\n
+  \                       theme = themes[ +(theme === themes[0]) ];\n           \n
+  \          return url + 'bbc.co.uk/navpromo/card/' + site + '/' + theme;\n        },\n
+  \               init: function(node) {\n            var disabledByCookie = (document.cookie.indexOf('ckns_orb_nopromo=1')
+  > -1),\n                that = this;\n            \n            if (window.promomanagerOverride)
+  {\n                for (var p in promomanagerOverride) {\n                    that[p]
+  = promomanagerOverride[p];\n                }\n            }\n                \n
+  \           if ( window.orb.fig('uk') && !disabledByCookie ) {\n                require(['orb/async/_footerpromo',
+  'istats-1'], function(promo, istats) {\n\n                    var virtualSite =
+  istats.getSite() || 'default';\n                    that.url = (window.promomanagerOverride
+  || that).makeUrl('light', virtualSite);\n\n                    if (that.url) { \n
+  \                       promo.load(that.url, node, {\n                                                          onSuccess:
+  function(e) {\n                                if(e.status === 'success') {\n                                    node.parentNode.className
+  = node.parentNode.className + ' orb-footer-promo-loaded';\n                                    promoManager.promoLoaded
+  = true;\n                                    promoManager.event('promo-loaded').fire(e);\n
+  \                               }\n                             },\n                             onError:
+  function() {\n                                istats.log('error', 'orb-footer-promo-failed');\n
+  \                               bbccookies.set('ckns_orb_nopromo=1; expires=' +
+  new Date(new Date().getTime() + 1000 * 60 * 10).toGMTString() + ';path=/;');\n                             }\n
+  \                       });   \n                    }\n                });\n            }\n
+  \       }\n    };\n    \n        \n    define('orb/promomanager', ['orb/lib/_event'],
+  function (event) {\n        event.mixin(promoManager);\n        return promoManager;\n
+  \   });\n    \n    require(['orb/promomanager'], function (promoManager) {\n        promoManager.init(document.getElementById('navp-orb-footer-promo'));\n
+  \   })\n})();\n  require(['orb/lib/_$', 'orb/features/_mastheadimages'], function
+  ($, mastheadimages) { 'use strict'; function updateSigninImage() { var ctaImg =
+  $('#idcta-image')[0]; if (ctaImg) { var imgDefault = ctaImg.src; var imgInverse
+  = $.getAttr(ctaImg, 'data-activesrc'); ctaImg.src = imgDefault.replace('signin',
+  'signedin'); if (imgInverse) { imgInverse = imgInverse.replace('signin', 'signedin');
+  $.setAttr(ctaImg, 'data-activesrc', imgInverse); mastheadimages.precacheImage(ctaImg);
+  } } } function shorten(text, length) { if (text.length > length) { return text.substring(0,
+  length - 1) + 'â\x80¦'; } return text; } function updateSigninText(elm, name) {
+  var shortName = shorten(name, 14); elm.textContent = elm.innerText = shortName;
+  if (shortName !== name) { elm.title = name; } } function updateForAuthorisedState()
+  { var ctaElm = $('#idcta-username')[0], ctaLink = $('#idcta-link')[0], name, signinUrl;
+  if (ctaElm && ctaLink) { require(['id-statusbar-config', 'idcta/idcta-1'], function
+  (idConfig, idcta) { var signedin = idcta.hasCookie(); if (signedin) { name = idcta.getNameFromCookie()
+  || idConfig.translation_signedin; updateSigninImage(); } else { name = idConfig.translation_signedout;
+  signinUrl = idConfig.signin_url; } if (name) { updateSigninText(ctaElm, name); }
+  if (signinUrl) { ctaLink.href = signinUrl; } }); } } $.ready(function () { updateForAuthorisedState();
+  $.removeClass($('.orb-nav-id')[0], 'orb-nav-id-default'); }); });  if (typeof require
+  !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external',
+  { region: document.getElementsByTagName('body')[0] }); istats.track('download',
+  { region: document.getElementsByTagName('body')[0] }); }); } \n    var cookie =
+  \"; \" + document.cookie;\n    var cSplit = cookie.split(\"; ckns_policy=\");\n
+  \   var ckns_policy = cSplit.pop().split(\";\").shift();\n\n    if(ckns_policy !=
+  \"101\" && ckns_policy != \"000\" && ckns_policy != \"010\"){\n        var _sf_async_config={};\n\n
+  \       /** CONFIGURATION START **/\n        _sf_async_config.uid = 50924;\n        _sf_async_config.domain
+  = 'bbc.co.uk';\n        _sf_async_config.useCanonical = true;\n        _sf_async_config.sections
+  = 'kandlgenres';\n        _sf_async_config.authors = '';\n\n        /** CONFIGURATION
+  END **/\n        (function(){\n            function loadChartbeat() {\n                window._sf_endpt=(new
+  Date()).getTime();\n                var e = document.createElement('script');\n
+  \               e.setAttribute('language', 'javascript');\n                e.setAttribute('type',
+  'text/javascript');\n                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');\n
+  \               document.body.appendChild(e);\n            }\n            var oldonload
+  = window.onload;\n            window.onload = (typeof window.onload != 'function')
+  ?\n                loadChartbeat : function() { oldonload(); loadChartbeat(); };\n
+  \       })();\n    }\nIPLAYER\n                                1946\n                                Future\n
+  \                           1946 &hyphen; FutureThe story of Britain's hidden role
+  in the space race\n                                1947\n                                2004\n
+  \                           1947 &hyphen; 2004Ten weather events that shook Britain
+  \n                                1914\n                                2015\n                            1914
+  &hyphen; 2015 The Quintinshill Rail Disaster: Tragedy on the Home Front\n                                1918\n
+  \                               2013\n                            1918 &hyphen;
+  2013Nelson Mandela: The last great liberator?\n                                1508BC\n
+  \                               2015\n                            1508BC &hyphen;
+  2015Ten women who ruled the world\n                                275BC\n                                2000\n
+  \                           275BC &hyphen; 2000Leaving a trace: Forensic science
+  through history\n                                1929\n                                1968\n
+  \                           1929 &hyphen; 1968Did Martin Luther's dream become a
+  reality?Presented by John Sergeant\n                                1874\n                                1965\n
+  \                           1874 &hyphen; 1965Sir Winston Churchill: The greatest
+  Briton?\n                                1900\n                                2015\n
+  \                           1900 &hyphen; 2015What a racquet: Britainâ\x80\x99s
+  Davis Cup history"

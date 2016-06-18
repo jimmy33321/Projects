@@ -1,0 +1,5138 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 171
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 388
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 413
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 461
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 564
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 587
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 622
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 187
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 783
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 795
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 962
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 966
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 979
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 994
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1023
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 55
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 213
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 217
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 222
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 226
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kofjqh"
+    line: 1025
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 233
+address: http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html?intcmp=hpbt3&intcmp=latestnews
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- |2+
+
+- " \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+          Fox News
+- |2
+              Fox Business
+- |2
+              Fox News Latino
+- |2
+              Fox News Go
+- |2
+              Fox News Radio
+- |2
+              Fox Nation
+- |2
+              Fox News Insider
+- "        \n"
+- "            \n"
+- |2
+                  Sign in to comment!
+- "            \n"
+- |2
+              Login
+- "        \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\tMenu\n"
+- "\t\n"
+- "\t\n"
+- "\t\tHome\n"
+- "\t\tFoxNews.com\n"
+- "\t\tPolitics\n"
+- "\t\t\n"
+- "\t\t\tSearch\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\tvar articleInfo = {\n"
+- "\t\t\tvcmId: \"b6325774-460d-40b1-accf-5219bfe1f644\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html\",\n"
+- "\t\t\tpubDate:\"2015-12-14\",\n"
+- "\t\t\tmyTopChannelName:\"politics\",\n"
+- "\t\t\tsummary:\"<p>A conservative watchdog group called Monday for a federal investigation
+  into Hillary Clinton's actions toward a deep-sea mining company tied to her son-in-law.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"false\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"b6325774-460d-40b1-accf-5219bfe1f644\";\n"
+- "\t\tvar disqus_category_id = \"464441\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "     \t\n"
+- "    \t\n"
+- "            \n"
+- "        \n"
+- "    \t\n"
+- "                        \n"
+- |2
+                              Politics Home
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Elections 2016
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Executive
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Senate
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              House
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Defense
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Judiciary
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Fox News Poll
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "            \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      State Department
+- |2+
+
+- |2+
+
+- |
+  Watchdog group calls for probe of Clinton relationship with firm tied to son-in-law
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2
+          Published
+- |2
+              December 14, 2015
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tFoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "        \t\n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t    Facebook0\n"
+- "\t\tTwitter0\t \n"
+- "\t\t\n"
+- "\t\tEmail\n"
+- "\t\tPrint  \n"
+- "\t  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                        \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t \n"
+- "\t\t\t\t   \t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- |2
+                  A conservative watchdog group called Monday for a federal investigation into Hillary Clinton's actions toward a deep-sea mining company tied to her son-in-law.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  As first reported by Time magazine, the Foundation for Accountability and Civic Trust (FACT) filed a complaint with the U.S. Office of Government Ethics alleging that Clinton gave Neptune Minerals "special access to the State Department based upon the company’s relationships with Secretary Clinton’s family members and donors to the Clinton Foundation."
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The complaint comes two weeks after emails released by the State Department show that Clinton, now the Democratic presidential front-runner, ordered a senior State Department official to look into the request from Marc Mezvinsky.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Mezvinsky, a partner in a New York hedge fund and the husband of Clinton's daughter Chelsea, had received an email in May 2012 from investor Harry Siklas asking if he could help set up contacts with Clinton or other State Department officials.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  That August, Clinton relayed a copy of the investor's email to Mezvinsky to Thomas Nides, then a deputy secretary of state and now vice chairman at Morgan Stanley, a major New York financial services firm. "Could you have someone follow up on this request which was forwarded to me?" Clinton asked Nides. He replied: "I'll get on it."
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  At the time, Clinton was advocating for an Obama administration push to win Senate approval for a sweeping law of the sea treaty. The pact would have aided U.S. mining companies scouring for minerals in international waters, but the Republican-dominated Senate blocked it.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The emails do not show whether Clinton or other State Department officials met with Siklas or with Neptune executives. Federal ethics guidelines warn government employees to "not give preferential treatment to any private organization or individual," but there are no specific provisions prohibiting officials from considering requests prompted by relatives.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  In the email, Siklas also said that his then-employer, Goldman Sachs, was representing Neptune. Before joining Eaglevale, Mezvinsky also had worked for eight years at Goldman, partly during Siklas' tenure there between 2004 and 2007. Members of the influential New York firm were one of Clinton's top funders in her 2008 presidential race, giving more than $225,000 that cycle. The firm has also been a major donor to the Clinton Foundation, giving between $1 million and $5 million.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  "We believe that requests like this from anyone other than Goldman Sachs and her son-in-law were not passed along," FACT Executive Director Matt Whitaker told Time, "so there was a preference given in her duty as Secretary of State in comparison to other requests."
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Whitaker said the Office of Government Ethics could refer the matter to the Justice Department once it conducts an investigation into the emails. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The Associated Press contributed to this report. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- " \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "                   \t\t\n"
+- "                    \t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- " \n"
+- "\t                 \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- " \n"
+- |2
+     Advertisement
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                \r\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "       \t \tTrending in Politics\n"
+- "            \n"
+- "\t\t\t      \t1\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tAgents reportedly blocked by secret US policy from looking at social
+  media of visa applicants\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t2\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t3\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t4\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in
+  daring Syria raid\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t5\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tWatchdog group calls for probe of Clinton relationship with firm
+  tied to son-in-law\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t           \n"
+- |2
+             See all Trends
+- "            \n"
+- " \t      \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- "    \n"
+- |2+
+
+- "\r\n"
+- |2+
+
+- "            \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "     \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "       \t\r\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "   \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\tFox NewsPolitics\n"
+- "\t\t\tPolitics Home\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\tPresidential Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\tCongressional Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\tFoxNews.com\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t©2015 FOX News Network, LLC. All rights reserved. This material may not be
+  published, broadcast, rewritten, or redistributed. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      (function($){
+- |2
+          $.ad.pre();
+- |2
+          if (window.FOX) { FOX.site.bottomInit(); }
+- |2
+      }(jQuery));
+- "    \n"
+- |
+  Sign in to comment!Sign in to comment!
+- "\t\t\t\t\t \n"
+- "\t\t\t\tA conservative watchdog group called Monday for a federal investigation
+  into Hillary Clinton's actions toward a deep-sea mining company tied to her son-in-law.As
+  first reported by Time magazine, the Foundation for Accountability and Civic Trust
+  (FACT) filed a complaint with the U.S. Office of Government Ethics alleging that
+  Clinton gave Neptune Minerals \"special access to the State Department based upon
+  the company’s relationships with Secretary Clinton’s family members and donors to
+  the Clinton Foundation.\"The complaint comes two weeks after emails released by
+  the State Department show that Clinton, now the Democratic presidential front-runner, ordered
+  a senior State Department official to look into the request from Marc Mezvinsky.Mezvinsky,
+  a partner in a New York hedge fund and the husband of Clinton's daughter Chelsea,
+  had received an email in May 2012 from investor Harry Siklas asking if he could
+  help set up contacts with Clinton or other State Department officials.That August,
+  Clinton relayed a copy of the investor's email to Mezvinsky to Thomas Nides, then
+  a deputy secretary of state and now vice chairman at Morgan Stanley, a major New
+  York financial services firm. \"Could you have someone follow up on this request
+  which was forwarded to me?\" Clinton asked Nides. He replied: \"I'll get on it.\"At
+  the time, Clinton was advocating for an Obama administration push to win Senate
+  approval for a sweeping law of the sea treaty. The pact would have aided U.S. mining
+  companies scouring for minerals in international waters, but the Republican-dominated
+  Senate blocked it.The emails do not show whether Clinton or other State Department
+  officials met with Siklas or with Neptune executives. Federal ethics guidelines
+  warn government employees to \"not give preferential treatment to any private organization
+  or individual,\" but there are no specific provisions prohibiting officials from
+  considering requests prompted by relatives.In the email, Siklas also said that his
+  then-employer, Goldman Sachs, was representing Neptune. Before joining Eaglevale,
+  Mezvinsky also had worked for eight years at Goldman, partly during Siklas' tenure
+  there between 2004 and 2007. Members of the influential New York firm were one of
+  Clinton's top funders in her 2008 presidential race, giving more than $225,000 that
+  cycle. The firm has also been a major donor to the Clinton Foundation, giving between
+  $1 million and $5 million.\"We believe that requests like this from anyone other
+  than Goldman Sachs and her son-in-law were not passed along,\" FACT Executive Director
+  Matt Whitaker told Time, \"so there was a preference given in her duty as Secretary
+  of State in comparison to other requests.\"Whitaker said the Office of Government
+  Ethics could refer the matter to the Justice Department once it conducts an investigation
+  into the emails. The Associated Press contributed to this report. AdvertisementAdvertisement©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ"
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 222
+    - 231
+    - 360
+    - 752
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 764
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 22
+    - 23
+    - 223
+    - 231
+    - 233
+    - 251
+    - 557
+    - 716
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 225
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 767
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 767
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 208
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 28.0
+    docPositions:
+    - 11
+    - 150
+    - 151
+    - 152
+    - 153
+    - 154
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 185
+    - 186
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 328
+    - 715
+    - 756
+    - 764
+    - 769
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 20.0
+    docPositions:
+    - 11
+    - 18
+    - 61
+    - 147
+    - 154
+    - 179
+    - 180
+    - 182
+    - 183
+    - 184
+    - 186
+    - 197
+    - 199
+    - 200
+    - 201
+    - 203
+    - 328
+    - 756
+    - 769
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 17.0
+    docPositions:
+    - 11
+    - 23
+    - 35
+    - 49
+    - 60
+    - 70
+    - 81
+    - 92
+    - 104
+    - 110
+    - 119
+    - 132
+    - 145
+    - 221
+    - 251
+    - 716
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 16
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 16
+    - 19
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 557
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 66
+    - 76
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 170
+    - 424
+    - 444
+    - 769
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 18
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 4.0
+    docPositions:
+    - 19
+    - 184
+    - 201
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 6.0
+    docPositions:
+    - 25
+    - 273
+    - 454
+    - 717
+    - 769
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 8.0
+    docPositions:
+    - 26
+    - 284
+    - 439
+    - 718
+    - 769
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 4.0
+    docPositions:
+    - 27
+    - 295
+    - 719
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 719
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 4.0
+    docPositions:
+    - 28
+    - 306
+    - 720
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 317
+    - 721
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 127
+    - 722
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 723
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 5.0
+    docPositions:
+    - 31
+    - 444
+    - 723
+    - 769
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 723
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 8.0
+    docPositions:
+    - 34
+    - 35
+    - 120
+    - 419
+    - 439
+    - 769
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 26.0
+    docPositions:
+    - 34
+    - 35
+    - 93
+    - 94
+    - 95
+    - 147
+    - 148
+    - 234
+    - 414
+    - 419
+    - 429
+    - 434
+    - 439
+    - 449
+    - 618
+    - 769
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 122
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 124
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 123
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 74
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 125
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 128
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 49
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 9.0
+    docPositions:
+    - 60
+    - 66
+    - 161
+    - 454
+    - 756
+    - 762
+    - 763
+    - 765
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 4.0
+    docPositions:
+    - 69
+    - 70
+    - 74
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 567
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 4.0
+    docPositions:
+    - 77
+    - 88
+    - 105
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 4.0
+    docPositions:
+    - 80
+    - 81
+    - 86
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 4.0
+    docPositions:
+    - 83
+    - 144
+    - 145
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 7.0
+    docPositions:
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 98
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 104
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 110
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 160
+    - 175
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 4.0
+    docPositions:
+    - 115
+    - 434
+    - 769
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 119
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 132
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 141
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 434
+    - 769
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 148
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 152
+    - 153
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 419
+    - 769
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 3.0
+    docPositions:
+    - 154
+    - 167
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 6.0
+    docPositions:
+    - 158
+    - 424
+    - 434
+    - 769
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 4.0
+    docPositions:
+    - 159
+    - 459
+    - 769
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 175
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 4.0
+    docPositions:
+    - 165
+    - 419
+    - 769
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 165
+    - 171
+    - 464
+    - 769
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 6.0
+    docPositions:
+    - 179
+    - 449
+    - 736
+    - 749
+    - 769
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 198
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 199
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 200
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 202
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 203
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  articleinfo: !ruby/object:Word
+    word: articleinfo
+    stem: articleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  accf: !ruby/object:Word
+    word: accf
+    stem: accf
+    docFrequency: 3.0
+    docPositions:
+    - 230
+    - 239
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  watchdog: !ruby/object:Word
+    word: watchdog
+    stem: watchdog
+    docFrequency: 7.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 635
+    - 769
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 7.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 635
+    - 769
+  reportedly: !ruby/object:Word
+    word: reportedly
+    stem: reportedli
+    docFrequency: 3.0
+    docPositions:
+    - 231
+    - 567
+  calls: !ruby/object:Word
+    word: calls
+    stem: call
+    docFrequency: 4.0
+    docPositions:
+    - 231
+    - 343
+    - 635
+  probe: !ruby/object:Word
+    word: probe
+    stem: probe
+    docFrequency: 4.0
+    docPositions:
+    - 231
+    - 343
+    - 635
+  clinton: !ruby/object:Word
+    word: clinton
+    stem: clinton
+    docFrequency: 31.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 419
+    - 424
+    - 429
+    - 434
+    - 439
+    - 444
+    - 449
+    - 635
+    - 769
+  relationship: !ruby/object:Word
+    word: relationship
+    stem: relationship
+    docFrequency: 4.0
+    docPositions:
+    - 231
+    - 343
+    - 635
+  firm: !ruby/object:Word
+    word: firm
+    stem: firm
+    docFrequency: 10.0
+    docPositions:
+    - 231
+    - 343
+    - 434
+    - 449
+    - 635
+    - 769
+  tied: !ruby/object:Word
+    word: tied
+    stem: ti
+    docFrequency: 7.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 635
+    - 769
+  son: !ruby/object:Word
+    word: son
+    stem: son
+    docFrequency: 9.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 454
+    - 635
+    - 769
+  law: !ruby/object:Word
+    word: law
+    stem: law
+    docFrequency: 11.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 414
+    - 439
+    - 454
+    - 635
+    - 769
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 234
+  conservative: !ruby/object:Word
+    word: conservative
+    stem: conserv
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  federal: !ruby/object:Word
+    word: federal
+    stem: feder
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 414
+    - 444
+    - 769
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 414
+    - 459
+    - 769
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 8.0
+    docPositions:
+    - 234
+    - 414
+    - 424
+    - 459
+    - 769
+  hillary: !ruby/object:Word
+    word: hillary
+    stem: hillari
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  actions: !ruby/object:Word
+    word: actions
+    stem: action
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  toward: !ruby/object:Word
+    word: toward
+    stem: toward
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  deep: !ruby/object:Word
+    word: deep
+    stem: deep
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 414
+    - 769
+  sea: !ruby/object:Word
+    word: sea
+    stem: sea
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 414
+    - 439
+    - 769
+  mining: !ruby/object:Word
+    word: mining
+    stem: mine
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 414
+    - 439
+    - 769
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 414
+    - 419
+    - 769
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 10.0
+    docPositions:
+    - 234
+    - 414
+    - 449
+    - 454
+    - 769
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 4.0
+    docPositions:
+    - 237
+    - 429
+    - 769
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  elections: !ruby/object:Word
+    word: elections
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  poll: !ruby/object:Word
+    word: poll
+    stem: poll
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 16.0
+    docPositions:
+    - 340
+    - 419
+    - 424
+    - 429
+    - 434
+    - 444
+    - 454
+    - 769
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 14.0
+    docPositions:
+    - 340
+    - 419
+    - 424
+    - 429
+    - 444
+    - 459
+    - 769
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 356
+    - 756
+    - 769
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 8.0
+    docPositions:
+    - 374
+    - 429
+    - 434
+    - 449
+    - 769
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 439
+    - 454
+    - 769
+  magazine: !ruby/object:Word
+    word: magazine
+    stem: magazin
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  foundation: !ruby/object:Word
+    word: foundation
+    stem: foundat
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 449
+    - 769
+  accountability: !ruby/object:Word
+    word: accountability
+    stem: account
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 15.0
+    docPositions:
+    - 419
+    - 429
+    - 434
+    - 449
+    - 454
+    - 769
+  civic: !ruby/object:Word
+    word: civic
+    stem: civic
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  trust: !ruby/object:Word
+    word: trust
+    stem: trust
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  fact: !ruby/object:Word
+    word: fact
+    stem: fact
+    docFrequency: 5.0
+    docPositions:
+    - 419
+    - 454
+    - 769
+  filed: !ruby/object:Word
+    word: filed
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  complaint: !ruby/object:Word
+    word: complaint
+    stem: complaint
+    docFrequency: 5.0
+    docPositions:
+    - 419
+    - 424
+    - 769
+  office: !ruby/object:Word
+    word: office
+    stem: offic
+    docFrequency: 5.0
+    docPositions:
+    - 419
+    - 459
+    - 769
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 444
+    - 459
+    - 769
+  ethics: !ruby/object:Word
+    word: ethics
+    stem: ethic
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 444
+    - 459
+    - 769
+  alleging: !ruby/object:Word
+    word: alleging
+    stem: alleg
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  gave: !ruby/object:Word
+    word: gave
+    stem: gave
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  neptune: !ruby/object:Word
+    word: neptune
+    stem: neptun
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 444
+    - 449
+    - 769
+  minerals: !ruby/object:Word
+    word: minerals
+    stem: miner
+    docFrequency: 5.0
+    docPositions:
+    - 419
+    - 439
+    - 769
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  upon: !ruby/object:Word
+    word: upon
+    stem: upon
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  relationships: !ruby/object:Word
+    word: relationships
+    stem: relationship
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  secretary: !ruby/object:Word
+    word: secretary
+    stem: secretari
+    docFrequency: 7.0
+    docPositions:
+    - 419
+    - 434
+    - 454
+    - 769
+  family: !ruby/object:Word
+    word: family
+    stem: famili
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 5.0
+    docPositions:
+    - 419
+    - 449
+    - 769
+  donors: !ruby/object:Word
+    word: donors
+    stem: donor
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 769
+  comes: !ruby/object:Word
+    word: comes
+    stem: come
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  weeks: !ruby/object:Word
+    word: weeks
+    stem: week
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  emails: !ruby/object:Word
+    word: emails
+    stem: email
+    docFrequency: 7.0
+    docPositions:
+    - 424
+    - 444
+    - 459
+    - 769
+  released: !ruby/object:Word
+    word: released
+    stem: releas
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  democratic: !ruby/object:Word
+    word: democratic
+    stem: democrat
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  presidential: !ruby/object:Word
+    word: presidential
+    stem: presidenti
+    docFrequency: 6.0
+    docPositions:
+    - 424
+    - 449
+    - 725
+    - 769
+  front: !ruby/object:Word
+    word: front
+    stem: front
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  runner: !ruby/object:Word
+    word: runner
+    stem: runner
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  ordered: !ruby/object:Word
+    word: ordered
+    stem: order
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  senior: !ruby/object:Word
+    word: senior
+    stem: senior
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  official: !ruby/object:Word
+    word: official
+    stem: offici
+    docFrequency: 4.0
+    docPositions:
+    - 424
+    - 618
+    - 769
+  look: !ruby/object:Word
+    word: look
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 5.0
+    docPositions:
+    - 424
+    - 434
+    - 769
+  marc: !ruby/object:Word
+    word: marc
+    stem: marc
+    docFrequency: 3.0
+    docPositions:
+    - 424
+    - 769
+  mezvinsky: !ruby/object:Word
+    word: mezvinsky
+    stem: mezvinski
+    docFrequency: 9.0
+    docPositions:
+    - 424
+    - 429
+    - 434
+    - 449
+    - 769
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 7.0
+    docPositions:
+    - 429
+    - 434
+    - 449
+    - 769
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 7.0
+    docPositions:
+    - 429
+    - 434
+    - 449
+    - 769
+  hedge: !ruby/object:Word
+    word: hedge
+    stem: hedg
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  fund: !ruby/object:Word
+    word: fund
+    stem: fund
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  husband: !ruby/object:Word
+    word: husband
+    stem: husband
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  daughter: !ruby/object:Word
+    word: daughter
+    stem: daughter
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  chelsea: !ruby/object:Word
+    word: chelsea
+    stem: chelsea
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 5.0
+    docPositions:
+    - 429
+    - 449
+    - 769
+  received: !ruby/object:Word
+    word: received
+    stem: receiv
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 5.0
+    docPositions:
+    - 429
+    - 756
+    - 769
+  investor: !ruby/object:Word
+    word: investor
+    stem: investor
+    docFrequency: 5.0
+    docPositions:
+    - 429
+    - 434
+    - 769
+  harry: !ruby/object:Word
+    word: harry
+    stem: harri
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  siklas: !ruby/object:Word
+    word: siklas
+    stem: sikla
+    docFrequency: 9.0
+    docPositions:
+    - 429
+    - 444
+    - 449
+    - 769
+  asking: !ruby/object:Word
+    word: asking
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 429
+    - 764
+    - 769
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 5.0
+    docPositions:
+    - 429
+    - 434
+    - 769
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 7.0
+    docPositions:
+    - 429
+    - 434
+    - 459
+    - 769
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 5.0
+    docPositions:
+    - 429
+    - 434
+    - 769
+  contacts: !ruby/object:Word
+    word: contacts
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 429
+    - 769
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 9.0
+    docPositions:
+    - 429
+    - 444
+    - 454
+    - 769
+  officials: !ruby/object:Word
+    word: officials
+    stem: offici
+    docFrequency: 7.0
+    docPositions:
+    - 429
+    - 444
+    - 769
+  august: !ruby/object:Word
+    word: august
+    stem: august
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  relayed: !ruby/object:Word
+    word: relayed
+    stem: relai
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  thomas: !ruby/object:Word
+    word: thomas
+    stem: thoma
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  nides: !ruby/object:Word
+    word: nides
+    stem: nide
+    docFrequency: 5.0
+    docPositions:
+    - 434
+    - 769
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 5.0
+    docPositions:
+    - 434
+    - 449
+    - 769
+  deputy: !ruby/object:Word
+    word: deputy
+    stem: deputi
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  vice: !ruby/object:Word
+    word: vice
+    stem: vice
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  chairman: !ruby/object:Word
+    word: chairman
+    stem: chairman
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  morgan: !ruby/object:Word
+    word: morgan
+    stem: morgan
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  stanley: !ruby/object:Word
+    word: stanley
+    stem: stanlei
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 5.0
+    docPositions:
+    - 434
+    - 449
+    - 769
+  financial: !ruby/object:Word
+    word: financial
+    stem: financi
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 434
+    - 439
+    - 769
+  someone: !ruby/object:Word
+    word: someone
+    stem: someon
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  forwarded: !ruby/object:Word
+    word: forwarded
+    stem: forward
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  asked: !ruby/object:Word
+    word: asked
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  replied: !ruby/object:Word
+    word: replied
+    stem: repli
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 434
+    - 769
+  advocating: !ruby/object:Word
+    word: advocating
+    stem: advoc
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  obama: !ruby/object:Word
+    word: obama
+    stem: obama
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  administration: !ruby/object:Word
+    word: administration
+    stem: administr
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  win: !ruby/object:Word
+    word: win
+    stem: win
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  approval: !ruby/object:Word
+    word: approval
+    stem: approv
+    docFrequency: 5.0
+    docPositions:
+    - 439
+    - 725
+    - 738
+    - 769
+  sweeping: !ruby/object:Word
+    word: sweeping
+    stem: sweep
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  treaty: !ruby/object:Word
+    word: treaty
+    stem: treati
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  pact: !ruby/object:Word
+    word: pact
+    stem: pact
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  aided: !ruby/object:Word
+    word: aided
+    stem: aid
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  scouring: !ruby/object:Word
+    word: scouring
+    stem: scour
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  waters: !ruby/object:Word
+    word: waters
+    stem: water
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 5.0
+    docPositions:
+    - 439
+    - 444
+    - 769
+  republican: !ruby/object:Word
+    word: republican
+    stem: republican
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  dominated: !ruby/object:Word
+    word: dominated
+    stem: domin
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 769
+  blocked: !ruby/object:Word
+    word: blocked
+    stem: block
+    docFrequency: 4.0
+    docPositions:
+    - 439
+    - 567
+    - 769
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 9.0
+    docPositions:
+    - 444
+    - 454
+    - 756
+    - 769
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  met: !ruby/object:Word
+    word: met
+    stem: met
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  executives: !ruby/object:Word
+    word: executives
+    stem: execut
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  guidelines: !ruby/object:Word
+    word: guidelines
+    stem: guidelin
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  warn: !ruby/object:Word
+    word: warn
+    stem: warn
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  employees: !ruby/object:Word
+    word: employees
+    stem: employe
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  preferential: !ruby/object:Word
+    word: preferential
+    stem: preferenti
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  treatment: !ruby/object:Word
+    word: treatment
+    stem: treatment
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  private: !ruby/object:Word
+    word: private
+    stem: privat
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  organization: !ruby/object:Word
+    word: organization
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  individual: !ruby/object:Word
+    word: individual
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 7.0
+    docPositions:
+    - 444
+    - 449
+    - 454
+    - 769
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  provisions: !ruby/object:Word
+    word: provisions
+    stem: provis
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  prohibiting: !ruby/object:Word
+    word: prohibiting
+    stem: prohibit
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  considering: !ruby/object:Word
+    word: considering
+    stem: consid
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  requests: !ruby/object:Word
+    word: requests
+    stem: request
+    docFrequency: 7.0
+    docPositions:
+    - 444
+    - 454
+    - 769
+  prompted: !ruby/object:Word
+    word: prompted
+    stem: prompt
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  relatives: !ruby/object:Word
+    word: relatives
+    stem: rel
+    docFrequency: 3.0
+    docPositions:
+    - 444
+    - 769
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 7.0
+    docPositions:
+    - 449
+    - 769
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 459
+    - 769
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  employer: !ruby/object:Word
+    word: employer
+    stem: employ
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  goldman: !ruby/object:Word
+    word: goldman
+    stem: goldman
+    docFrequency: 7.0
+    docPositions:
+    - 449
+    - 454
+    - 769
+  sachs: !ruby/object:Word
+    word: sachs
+    stem: sach
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 454
+    - 769
+  representing: !ruby/object:Word
+    word: representing
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  joining: !ruby/object:Word
+    word: joining
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  eaglevale: !ruby/object:Word
+    word: eaglevale
+    stem: eagleval
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  worked: !ruby/object:Word
+    word: worked
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  eight: !ruby/object:Word
+    word: eight
+    stem: eight
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  partly: !ruby/object:Word
+    word: partly
+    stem: partli
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  tenure: !ruby/object:Word
+    word: tenure
+    stem: tenur
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 769
+  influential: !ruby/object:Word
+    word: influential
+    stem: influenti
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 454
+    - 769
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 618
+    - 753
+    - 769
+  funders: !ruby/object:Word
+    word: funders
+    stem: funder
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  race: !ruby/object:Word
+    word: race
+    stem: race
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  giving: !ruby/object:Word
+    word: giving
+    stem: give
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 769
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 454
+    - 769
+  cycle: !ruby/object:Word
+    word: cycle
+    stem: cycl
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  donor: !ruby/object:Word
+    word: donor
+    stem: donor
+    docFrequency: 3.0
+    docPositions:
+    - 449
+    - 769
+  million: !ruby/object:Word
+    word: million
+    stem: million
+    docFrequency: 5.0
+    docPositions:
+    - 449
+    - 769
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  believe: !ruby/object:Word
+    word: believe
+    stem: believ
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  anyone: !ruby/object:Word
+    word: anyone
+    stem: anyon
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  passed: !ruby/object:Word
+    word: passed
+    stem: pass
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  along: !ruby/object:Word
+    word: along
+    stem: along
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  director: !ruby/object:Word
+    word: director
+    stem: director
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  matt: !ruby/object:Word
+    word: matt
+    stem: matt
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  whitaker: !ruby/object:Word
+    word: whitaker
+    stem: whitak
+    docFrequency: 5.0
+    docPositions:
+    - 454
+    - 459
+    - 769
+  told: !ruby/object:Word
+    word: told
+    stem: told
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  preference: !ruby/object:Word
+    word: preference
+    stem: prefer
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  duty: !ruby/object:Word
+    word: duty
+    stem: duti
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  comparison: !ruby/object:Word
+    word: comparison
+    stem: comparison
+    docFrequency: 3.0
+    docPositions:
+    - 454
+    - 769
+  refer: !ruby/object:Word
+    word: refer
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 769
+  matter: !ruby/object:Word
+    word: matter
+    stem: matter
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 769
+  once: !ruby/object:Word
+    word: once
+    stem: onc
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 769
+  conducts: !ruby/object:Word
+    word: conducts
+    stem: conduct
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 769
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 464
+    - 769
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 464
+    - 769
+  contributed: !ruby/object:Word
+    word: contributed
+    stem: contribut
+    docFrequency: 3.0
+    docPositions:
+    - 464
+    - 769
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 530
+    - 663
+  agents: !ruby/object:Word
+    word: agents
+    stem: agent
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  secret: !ruby/object:Word
+    word: secret
+    stem: secret
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  visa: !ruby/object:Word
+    word: visa
+    stem: visa
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  applicants: !ruby/object:Word
+    word: applicants
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  botched: !ruby/object:Word
+    word: botched
+    stem: botch
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  ransom: !ruby/object:Word
+    word: ransom
+    stem: ransom
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  rep: !ruby/object:Word
+    word: rep
+    stem: rep
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  presses: !ruby/object:Word
+    word: presses
+    stem: press
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  fbi: !ruby/object:Word
+    word: fbi
+    stem: fbi
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  payment: !ruby/object:Word
+    word: payment
+    stem: payment
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  bergdahl: !ruby/object:Word
+    word: bergdahl
+    stem: bergdahl
+    docFrequency: 3.0
+    docPositions:
+    - 584
+    - 601
+  charges: !ruby/object:Word
+    word: charges
+    stem: charg
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  referred: !ruby/object:Word
+    word: referred
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  trial: !ruby/object:Word
+    word: trial
+    stem: trial
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  court: !ruby/object:Word
+    word: court
+    stem: court
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  martial: !ruby/object:Word
+    word: martial
+    stem: martial
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  army: !ruby/object:Word
+    word: army
+    stem: armi
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  elite: !ruby/object:Word
+    word: elite
+    stem: elit
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  delta: !ruby/object:Word
+    word: delta
+    stem: delta
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  force: !ruby/object:Word
+    word: force
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  kills: !ruby/object:Word
+    word: kills
+    stem: kill
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  isis: !ruby/object:Word
+    word: isis
+    stem: isi
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  abu: !ruby/object:Word
+    word: abu
+    stem: abu
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  sayyaf: !ruby/object:Word
+    word: sayyaf
+    stem: sayyaf
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  daring: !ruby/object:Word
+    word: daring
+    stem: dare
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  syria: !ruby/object:Word
+    word: syria
+    stem: syria
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  raid: !ruby/object:Word
+    word: raid
+    stem: raid
+    docFrequency: 2.0
+    docPositions:
+    - 618
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 640
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 640
+    - 756
+    - 769
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 640
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 3.0
+    docPositions:
+    - 652
+    - 763
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  newspolitics: !ruby/object:Word
+    word: newspolitics
+    stem: newspolit
+    docFrequency: 2.0
+    docPositions:
+    - 715
+  approve: !ruby/object:Word
+    word: approve
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 729
+    - 742
+  disapprove: !ruby/object:Word
+    word: disapprove
+    stem: disapprov
+    docFrequency: 3.0
+    docPositions:
+    - 733
+    - 746
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 736
+    - 749
+  congressional: !ruby/object:Word
+    word: congressional
+    stem: congression
+    docFrequency: 2.0
+    docPositions:
+    - 738
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 756
+    - 769
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 762
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 764
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 764
+  advertisementadvertisement: !ruby/object:Word
+    word: advertisementadvertisement
+    stem: advertisementadvertis
+    docFrequency: 2.0
+    docPositions:
+    - 769
+lineCount: 770
+wordCount: 1613
+rank: 0.25
+title: Watchdog group calls for probe of Clinton relationship with firm tied to son-in-law
+  | Fox News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/politics/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/elections/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/executive-branch/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/senate/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/house/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/defense/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/judiciary/index.html?intcmp=subnav
+- http://www.foxnews.com/official-polls/index.html?intcmp=subnav
+- http://www.foxnews.com/
+- http://video.foxnews.com/v/4660725450001/group-wants-clinton-probed-over-firm-tied-to-son-in-law
+- http://time.com/4147115/hillary-clinton-emails-marc-mezvinsky/
+- http://www.foxnews.com/politics/2015/12/14/agents-reportedly-blocked-by-secret-us-policy-from-looking-at-social-media-visa-applicants.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/charges-against-bergdahl-referred-to-trial-by-court-martial.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/05/16/us-conducts-raid-on-isis-in-syria-kills-top-official.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html?intcmp=trending
+- http://www.foxnews.com/trending/
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/
+rawText: "\n\t\n\n\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox News
+  Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch Live\n\t\t\t\t\tShow
+  Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\n\n
+  \n    \n        \n\n\n\n        Fox News\n            Fox Business\n            Fox
+  News Latino\n            Fox News Go\n            Fox News Radio\n            Fox
+  Nation\n            Fox News Insider\n        \n            \n                Sign
+  in to comment!\n            \n            Login\n        \n    \n\n            \n
+  \       \n\t    \n\n\n\t\t\n\t\tMenu\n\t\n\t\n\t\tHome\n\t\tFoxNews.com\n\t\tPolitics\n\t\t\n\t\t\tSearch\n\t\t\t\t\n\t\n\n\t\tvar
+  articleInfo = {\n\t\t\tvcmId: \"b6325774-460d-40b1-accf-5219bfe1f644\",\n\t\t\turl:
+  \"http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html\",\n\t\t\tpubDate:\"2015-12-14\",\n\t\t\tmyTopChannelName:\"politics\",\n\t\t\tsummary:\"<p>A
+  conservative watchdog group called Monday for a federal investigation into Hillary
+  Clinton's actions toward a deep-sea mining company tied to her son-in-law.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting:
+  \"false\",\n\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n\t\t};\n\t\tvar
+  disqus_identifier = \"b6325774-460d-40b1-accf-5219bfe1f644\";\n\t\tvar disqus_category_id
+  = \"464441\";\n\t\tvar disqus_developer = 1;\n\n    \n    \n     \t\n    \t\n            \n
+  \       \n    \t\n                        \n                            Politics
+  Home\n                        \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Elections 2016\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Executive\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Senate\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            House\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Defense\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Judiciary\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Fox News Poll\n                        \n
+  \                   \n                \n\t\t\t\n\t\t\n            \n                    \n\n\n\n\n
+  \   State Department\n\n\nWatchdog group calls for probe of Clinton relationship
+  with firm tied to son-in-law\n\n\n\n\t\n\t\t\n\t\t\n\t    \n    \n\n    \n        \n\n
+  \       Published\n            December 14, 2015\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tFoxNews.com\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n
+  \       \t\n        \n    \n\n\n\n\t\n\t    Facebook0\n\t\tTwitter0\t \n\t\t\n\t\tEmail\n\t\tPrint
+  \ \n\t  \n\n\n\n                    \n                        \n\n    \n    \n\t\n\t\t\n\t\t\t\n
+  \               \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t \n\t\t\t\t   \t\t\t\t\t\n\t\t\t\n\t\t
+  \       \n\n    \n\n\n\n\n\r\n\n                        \n\n\n\n\n\n    \n        \n
+  \       \n        \n            \n                A conservative watchdog group
+  called Monday for a federal investigation into Hillary Clinton's actions toward
+  a deep-sea mining company tied to her son-in-law.\n                \n                \r\n\n
+  \           \n                As first reported by Time magazine, the Foundation
+  for Accountability and Civic Trust (FACT) filed a complaint with the U.S. Office
+  of Government Ethics alleging that Clinton gave Neptune Minerals \"special access
+  to the State Department based upon the company’s relationships with Secretary Clinton’s
+  family members and donors to the Clinton Foundation.\"\n                \n                \r\n\n
+  \           \n                The complaint comes two weeks after emails released
+  by the State Department show that Clinton, now the Democratic presidential front-runner, ordered
+  a senior State Department official to look into the request from Marc Mezvinsky.\n
+  \               \n                \r\n\n            \n                Mezvinsky,
+  a partner in a New York hedge fund and the husband of Clinton's daughter Chelsea,
+  had received an email in May 2012 from investor Harry Siklas asking if he could
+  help set up contacts with Clinton or other State Department officials.\n                \n
+  \               \r\n\n            \n                That August, Clinton relayed
+  a copy of the investor's email to Mezvinsky to Thomas Nides, then a deputy secretary
+  of state and now vice chairman at Morgan Stanley, a major New York financial services
+  firm. \"Could you have someone follow up on this request which was forwarded to
+  me?\" Clinton asked Nides. He replied: \"I'll get on it.\"\n                \n                \r\n\n
+  \           \n                At the time, Clinton was advocating for an Obama administration
+  push to win Senate approval for a sweeping law of the sea treaty. The pact would
+  have aided U.S. mining companies scouring for minerals in international waters,
+  but the Republican-dominated Senate blocked it.\n                \n                \r\n\n
+  \           \n                The emails do not show whether Clinton or other State
+  Department officials met with Siklas or with Neptune executives. Federal ethics
+  guidelines warn government employees to \"not give preferential treatment to any
+  private organization or individual,\" but there are no specific provisions prohibiting
+  officials from considering requests prompted by relatives.\n                \n                \r\n\n
+  \           \n                In the email, Siklas also said that his then-employer,
+  Goldman Sachs, was representing Neptune. Before joining Eaglevale, Mezvinsky also
+  had worked for eight years at Goldman, partly during Siklas' tenure there between
+  2004 and 2007. Members of the influential New York firm were one of Clinton's top
+  funders in her 2008 presidential race, giving more than $225,000 that cycle. The
+  firm has also been a major donor to the Clinton Foundation, giving between $1 million
+  and $5 million.\n                \n                \r\n\n            \n                \"We
+  believe that requests like this from anyone other than Goldman Sachs and her son-in-law
+  were not passed along,\" FACT Executive Director Matt Whitaker told Time, \"so there
+  was a preference given in her duty as Secretary of State in comparison to other
+  requests.\"\n                \n                \r\n\n            \n                Whitaker
+  said the Office of Government Ethics could refer the matter to the Justice Department
+  once it conducts an investigation into the emails. \n                \n                \r\n\n
+  \           \n                The Associated Press contributed to this report. \n
+  \               \n                \r\n\n            \n\n            \n                \n
+  \                   \n                \n                \n\n\n \n\n            \n
+  \       \n    \n                        \n                        \n\n\n\n\n\n\n\n
+  \                  \t\t\n                    \t\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n \n\t\n
+  \       \n    \n    \n    \n\n\t                    \n\n\n\n\n \n\t\n        \n
+  \   \n    \n    \n \n\t                 \n                \n            \n                \n\n
+  \   \n    \n    \n         \n \n   Advertisement\n\n\n\n    \n\n\n\r\n\n                \r\n\n\n\t\t\t\t\n\n
+  \   \n    \n    \n        \n    \n\n\n\n\n    \n    \n    \n         \n       \t
+  \tTrending in Politics\n            \n\t\t\t      \t1\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tAgents reportedly blocked by secret US policy from looking at social media
+  of visa applicants\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t2\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t3\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n\t\t\t
+  \     \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
+  \     \n\t\t\t      \n\t\t\t      \n\t\t\t      \t4\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in daring
+  Syria raid\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t5\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tWatchdog group calls for probe of Clinton relationship with
+  firm tied to son-in-law\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t
+  \          \n           See all Trends\n            \n \t      \n    \n\n\n    \n
+  \   \n    \n         \n     \n         \n        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"});
+  } catch(err) { } \n\n    \n\n\n\n    \n    \n    \n        \n \n   Advertisement\n\t
+  \  \n    \n\n\r\n\n            \n            \n\n\n\n\n     \n    \n\n            \n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n\n\n\n
+  \       \n    \n    \n       \t\r\n\n    \n    \n\n   \n    \n\n\n\n\n\n\n\n\t    \n\n\n\t\t\n\t\t\tFox
+  NewsPolitics\n\t\t\tPolitics Home\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\tPresidential Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\tCongressional Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\t\n\t\t\tFoxNews.com\n\t\t\tBack to Top\n\t\t\n\t\t\n\t\t\t©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ\n\t\t\n\t\n\n    \n\n    (function($){\n        $.ad.pre();\n        if
+  (window.FOX) { FOX.site.bottomInit(); }\n    }(jQuery));\n    \nSign in to comment!Sign
+  in to comment!\n\t\t\t\t\t \n\t\t\t\tA conservative watchdog group called Monday
+  for a federal investigation into Hillary Clinton's actions toward a deep-sea mining
+  company tied to her son-in-law.As first reported by Time magazine, the Foundation
+  for Accountability and Civic Trust (FACT) filed a complaint with the U.S. Office
+  of Government Ethics alleging that Clinton gave Neptune Minerals \"special access
+  to the State Department based upon the company’s relationships with Secretary Clinton’s
+  family members and donors to the Clinton Foundation.\"The complaint comes two weeks
+  after emails released by the State Department show that Clinton, now the Democratic
+  presidential front-runner, ordered a senior State Department official to look into
+  the request from Marc Mezvinsky.Mezvinsky, a partner in a New York hedge fund and
+  the husband of Clinton's daughter Chelsea, had received an email in May 2012 from
+  investor Harry Siklas asking if he could help set up contacts with Clinton or other
+  State Department officials.That August, Clinton relayed a copy of the investor's
+  email to Mezvinsky to Thomas Nides, then a deputy secretary of state and now vice
+  chairman at Morgan Stanley, a major New York financial services firm. \"Could you
+  have someone follow up on this request which was forwarded to me?\" Clinton asked
+  Nides. He replied: \"I'll get on it.\"At the time, Clinton was advocating for an
+  Obama administration push to win Senate approval for a sweeping law of the sea treaty.
+  The pact would have aided U.S. mining companies scouring for minerals in international
+  waters, but the Republican-dominated Senate blocked it.The emails do not show whether
+  Clinton or other State Department officials met with Siklas or with Neptune executives.
+  Federal ethics guidelines warn government employees to \"not give preferential treatment
+  to any private organization or individual,\" but there are no specific provisions
+  prohibiting officials from considering requests prompted by relatives.In the email,
+  Siklas also said that his then-employer, Goldman Sachs, was representing Neptune. Before
+  joining Eaglevale, Mezvinsky also had worked for eight years at Goldman, partly
+  during Siklas' tenure there between 2004 and 2007. Members of the influential New
+  York firm were one of Clinton's top funders in her 2008 presidential race, giving
+  more than $225,000 that cycle. The firm has also been a major donor to the Clinton
+  Foundation, giving between $1 million and $5 million.\"We believe that requests
+  like this from anyone other than Goldman Sachs and her son-in-law were not passed
+  along,\" FACT Executive Director Matt Whitaker told Time, \"so there was a preference
+  given in her duty as Secretary of State in comparison to other requests.\"Whitaker
+  said the Office of Government Ethics could refer the matter to the Justice Department
+  once it conducts an investigation into the emails. The Associated Press contributed
+  to this report. AdvertisementAdvertisement©2015 FOX News Network, LLC. All rights
+  reserved. This material may not be published, broadcast, rewritten, or redistributed.
+  All market data delayed 20 minutes. Privacy - Terms - FAQ"

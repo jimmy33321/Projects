@@ -1,0 +1,5119 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 42
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 42
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 48
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 48
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 230
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 3012
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID headword already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 256
+    str1: headword
+    str2: headword
+    str3: 
+    int1: 0
+    column: 144
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID hw-attribute-0 already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 256
+    str1: hw-attribute-0
+    str2: hw-attribute-0
+    str3: 
+    int1: 0
+    column: 340
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID headword already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 262
+    str1: headword
+    str2: headword
+    str3: 
+    int1: 0
+    column: 138
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID hw-attribute-0 already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 262
+    str1: hw-attribute-0
+    str2: hw-attribute-0
+    str3: 
+    int1: 0
+    column: 335
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag jum invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 262
+    str1: jum
+    str2: 
+    str3: 
+    int1: 0
+    column: 712
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag cryp invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 262
+    str1: cryp
+    str2: 
+    str3: 
+    int1: 0
+    column: 719
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 329
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 98
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 329
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 112
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 329
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 902
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 55
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 74
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 78
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 83
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1v350xi"
+    line: 627
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 94
+address: http://www.merriam-webster.com/dictionary/science
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "        \t\r\n"
+- "            \t\r\n"
+- "                \tJoin Us On  \r\n"
+- "                \r\n"
+- "                \r\n"
+- "                    \r\n"
+- "                \r\n"
+- "                \r\n"
+- "                \tAn Encyclopædia Britannica Company\r\n"
+- "                \r\n"
+- "            \t\r\n"
+- "                    Dictionary\r\n"
+- "                    Thesaurus\r\n"
+- "                    Medical\r\n"
+- "                    Scrabble®\r\n"
+- "                    Spanish Central\r\n"
+- "            \t\r\n"
+- "\t\t\t\t\r\n"
+- "                   \r\n"
+- "                       Browse DictionaryBrowse Thesaurus\r\n"
+- "                   \r\n"
+- "                   \r\n"
+- "                      Get our free apps!iPhone•iPad•Android\r\n"
+- "                   \r\n"
+- "                \r\n"
+- "                            \r\n"
+- "      \r\n"
+- "        \t\t\t\r\n"
+- "        \t\r\n"
+- "            \t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\t\r\n"
+- "                        \t\r\n"
+- "                        \t\r\n"
+- "                        \r\n"
+- "\t\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "                \r\n"
+- "            \r\n"
+- "            \r\n"
+- "\t\tinitMWOLAutoComplete();\r\n"
+- "\t    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t    output_creative('div-gpt-ad-700937592189251447-4');\r\n"
+- "\t\r\n"
+- "\r\n"
+- "    \r\n"
+- "\t\t\t                \r\n"
+- "                \t\r\n"
+- "                        \r\n"
+- "                    \t\r\n"
+- "                            \r\n"
+- "                        \r\n"
+- "                            Games\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "\r\n"
+- "                \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                    \t\r\n"
+- "                            Word of the Day\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "\r\n"
+- "                \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                        \r\n"
+- "                            Video\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "\r\n"
+- "                \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                        \r\n"
+- "                            Blog: Words at Play\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "\r\n"
+- "                \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                            \r\n"
+- "                        \r\n"
+- "                            My Faves\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "                \t\r\n"
+- "\t\r\n"
+- "\t\t\t.main_content_area {float:right !important;}              \r\n"
+- "\t                \t\r\n"
+- "\t    \r\n"
+- "\t\tDictionary\r\n"
+- "\t    \r\n"
+- "\t\t\t       \r\n"
+- "                    \r\n"
+- "        science\r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t/* <![CDATA[ */ \r\n"
+- "\t\t   EBcitation = {\r\n"
+- "\t\t\t\"source\": \"website\",\r\n"
+- "\t\t\t\"npnd\": \"yes\",\r\n"
+- "\t\t\t\"website\": {\r\n"
+- "\t\t\t\t\"title\": \"science\"\r\n"
+- "\t\t\t},\r\n"
+- "\t\t\t\"pubonline\": {\r\n"
+- "\t\t\t\t\"title\": \"Merriam-Webster.com\",\r\n"
+- "\t\t\t\t\"url\": \"http://www.merriam-webster.com/dictionary/science\",\r\n"
+- "\t\t\t\t\"inst\": \"Merriam-Webster\"\r\n"
+- "\t\t\t},\r\n"
+- "\t\t\t\"contributors\": [\r\n"
+- "\t\t\t\t{\r\n"
+- "\t\t\t\t\t\"function\": \"author\",\r\n"
+- "\t\t\t\t}\r\n"
+- "\t\t\t]\r\n"
+- "\t\t};\r\n"
+- "\t\t   EBversion  = \"1.0\";\r\n"
+- "\t\t   document.write(unescape(\"%3Cscript src=\\'http://media.easybib.com/citethis/\"+EBversion+\"/widget_mini.js\\'
+  type=\\'text/javascript\\'%3E%3C/script%3E\"));\r\n"
+- "\t\t/* ]]> */\r\n"
+- "\t\t\r\n"
+- "    \r\n"
+- "    \r\n"
+- "            \r\n"
+- "    \r\n"
+- "    \r\n"
+- "            Tweet\r\n"
+- "            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,
+  'script', 'twitter-wjs');\r\n"
+- " noun sci·ence \\ˈsī-ən(t)s\\                                                    \r\n"
+- "                                                        : knowledge about or study
+  of the natural world based on facts learned through experiments and observation:
+  a particular area of scientific study (such as biology, physics, or chemistry) :
+  a particular branch of science: a subject that is formally studied in a college,
+  university, etc.\r\n"
+- "                                                    Full Definition of SCIENCE1
+  \ :  the state of knowing :  knowledge as distinguished from ignorance or misunderstanding
+  2a   :  a department of systematized knowledge as an object of study <the science
+  of theology>  b   :  something (as a sport or technique) that may be studied or
+  learned like systematized knowledge <have it down to a science> 3a   :  knowledge
+  or a system of knowledge covering general truths or the operation of general laws
+  especially as obtained and tested through scientific method  b   :  such knowledge
+  or such a system of knowledge concerned with the physical world and its phenomena
+  :  natural science 4  :  a system or method reconciling practical ends with scientific
+  laws <cooking is both a science and an art> 5  capitalized   :  christian science
+  \t\tSee science defined for English-language learners \t\tSee science defined for
+  kids \r\n"
+- "ADVERTISEMENT\r\n"
+- "    \r\n"
+- "        \r\n"
+- "\r\n"
+- |
+  Examples of SCIENCEThe program encourages students to pursue a career in science.
+- |
+  a list of terms commonly used in science
+- |
+  a new branch of science
+- |
+  advances in science and technology
+- |
+  Students are required to take two sciences.
+- |
+  students majoring in a science
+- |
+  The Malay tapir, the largest of the world's four tapir species, remained largely invisible to science until recently. The other three species of these odd, endearing animals all live in South America. —Anthony King, New York Times, 2 June 2009
+- |
+  If there were any doubt, Golden's muckraking investigation—he is the Ida Tarbell of college admissions—reveals that almost every word uttered by representatives of the top colleges about the care and nuance and science of the much vaunted admissions process is bunk. —Michael Wolff, New York Times Book Review, 17 Sept. 2006
+- |
+  Of course, there is both corporate and government-sponsored grant money available for such initiatives in science and engineering. And scientists are used to working together in laboratories. But in the humanities it was different, said the deans. —David Laurence, Association of Departments of English Bulletin, Winter 2004
+- |
+  The journal Annales was started in 1929, by Bloch and Lucien Febvre, two friends conversant with the new sciences of sociology and geography, psychology and anthropology. —Stephen Kotkin, New Yorker, 29 Sept. 2003
+- "[+]more[-]hide        \r\n"
+- "            mw_ask_the_editors_module();\r\n"
+- |2
+          Origin of SCIENCEMiddle English, from Anglo-French, from Latin scientia, from scient-, sciens having knowledge, from present participle of scire to know; perhaps akin to Sanskrit chyati he cuts off, Latin scindere to split  — more at shedFirst Known Use: 14th centuryRelated to SCIENCESynonymslore, knowledge, wisdomRelated Wordsdope, information, intelligence, know, lowdown, news, skinny [slang]; data, evidence, facts; acquaintance, awareness, familiarity, literacy; erudition, learning, scholarship; expertise, know-howNear Antonymsignorance, inexperience, innocence, nescience, unfamiliarity[+]more[-]hideOther Physics Termsamplitude, centrifugal, centripetal, convection, gradient, hysteresis, kinetic, lase, quantum
+- |
+  _gaq.push(['_trackEvent', 'Subject - Physics Terms', 'Displayed', 'science']);
+- "\r\n"
+- "    mw_scrabble_speed_bump();\r\n"
+- "SCIENCE Defined for Kidsscience  noun  sci·ence \\ˈsī-əns\\Definition of SCIENCE
+  for Kids1  :  knowledge about the natural world that is based on facts learned through
+  experiments and observation  2  :  an area of study that deals with the natural
+  world (as biology or physics)  3  :  a subject that is formally studied <the science
+  of linguistics>  4  :  something that can be studied and learned <Pitching is a
+  science.> \r\n"
+- "    Word Root of SCIENCE\r\n"
+- "    \r\n"
+- "    The Latin word scīre, meaning “to know” or “to understand,” gives us the root
+  sci. Words from the Latin scīre have something to do with knowing or understanding.
+  Science is the understanding of the world and how everything in it works. A person's
+  conscience is the knowledge of right and wrong and the feeling that he or she should
+  do right. Anything that is conscious knows what it is feeling.    \r\n"
+- "\r\n"
+- "\r\n"
+- "Medical Dictionaryscience  noun  sci·ence  \\ˈsī-ən(t)s\\Medical Definition of
+  SCIENCE :  knowledge or a system of knowledge covering general truths or the operation
+  of general laws especially as obtained and tested through the scientific method
+  and concerned with the physical world and its phenomena \r\n"
+- "Learn More About SCIENCE Thesaurus: All synonyms and antonyms for \"science\"\r\n"
+- "Spanish Central: Spanish translation of \"science\"\r\n"
+- "Nglish: Translation of \"science\" for Spanish speakers\r\n"
+- "Britannica English: Translation of \"science\" for Arabic speakersBrowse\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t39 ENTRIES FOUND:\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\tscience\n"
+- |
+  science fair
+- |
+  science fiction
+- |
+  science of language
+- |
+  science of religion
+- |
+  Bachelor of Science
+- |
+  basic science
+- |
+  behavioral science
+- |
+  big science
+- |
+  Christian Science
+- |
+  cognitive science
+- |
+  computer science
+- |
+  creation science
+- |
+  dismal science
+- |
+  domestic science
+- |
+  earth science
+- |
+  economic science
+- |
+  exact science
+- |
+  forensic science
+- |
+  gay science
+- |
+  general science
+- |
+  information science
+- |
+  Jewish Science
+- |
+  library science
+- |
+  life science
+- |
+  master of science
+- |
+  materials science
+- |
+  military science
+- |
+  natural science
+- |
+  normative science
+- "\t\t\t\t\t\r\n"
+- "\t\t\tNext Word in the Dictionary: sciencedPrevious Word in the Dictionary: SCIDAll
+  Words Near: science\r\n"
+- "ADVERTISEMENT\r\n"
+- "\r\n"
+- "\r\n"
+- "\t.yahoo-image{background-size: cover !important;}\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  var sectionCode = sectionCode || [];\r\n"
+- " \r\n"
+- "  sectionCode.push(\"7f7bc6b1-e165-4743-ba27-34066b26073a\");\r\n"
+- " \r\n"
+- "  (function(){\r\n"
+- "    var script = document.createElement(\"script\");\r\n"
+- "    script.async = true;\r\n"
+- "    script.src = \"https://s.yimg.com/av/gemini/ga/gemini.js\";\r\n"
+- "    document.body.appendChild(script);\r\n"
+- "  })();\r\n"
+- "Seen & HeardWhat made you want to look up science? Please tell us where you read
+  or heard it (including the quote, if possible).View Seen & Heard Highlights from
+  Around the Site \r\n"
+- "    \r\n"
+- "\t.inner_content {\r\n"
+- "\t\tbackground-color: #184057;\r\n"
+- "\t\tpadding: 16px 0 15px;\r\n"
+- "\t\ttext-align: center;\r\n"
+- "\t\twidth: 100%;\r\n"
+- "\t\tbox-shadow: inset 0px 0px 8px 1px rgba(0,0,0,0.15);\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\t.inner_content span {\r\n"
+- "\t\tfont-size: 1em;\r\n"
+- "\t\tline-height: 1.2em;\r\n"
+- "\t\tcolor: #fff;\r\n"
+- "\t\tfont-weight: 400;\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\t.inner_content span a {\r\n"
+- "\t\tborder-bottom: 1px solid #fff;\r\n"
+- "\t\ttext-decoration: none;\r\n"
+- "\t\tcolor: #fff;\r\n"
+- "\t}\r\n"
+- "\r\n"
+- "\tWe're working on a new site. Click here to get a sneak preview.\r\n"
+- "\r\n"
+- "\r\n"
+- "    $('#banner-temp').remove();\r\n"
+- "    $('.beta_banner_container').insertBefore($('.header_container'));\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t   \t    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        \r\n"
+- "            \r\n"
+- "\r\n"
+- "        \r\n"
+- "            Test Your Vocabulary!\r\n"
+- "        \r\n"
+- "\r\n"
+- "        \r\n"
+- "            \r\n"
+- "        \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "$('.quizzes_LR_ref_container')[0].minOffset = $('.main_content_area').offset().top;\r\n"
+- "$(window).scroll(function() {\r\n"
+- "    var promo = $('.quizzes_LR_ref_container');\r\n"
+- "    var footer = $('.footer_container');\r\n"
+- "    var left_rail = $('.main_content_area');\r\n"
+- "    //if ((promo.offset().top + promo.height() + 10) >= footer.offset().top) {\r\n"
+- "    if (promo.offset().top >= (footer.offset().top - 325)) {\r\n"
+- "        //promo.offset({ top: footer.offset().top - promo.height() - 10 });\r\n"
+- "        promo.offset({ top: footer.offset().top - 325 });\r\n"
+- "    } \r\n"
+- "    else if (promo.offset().top < promo[0].minOffset) {\r\n"
+- "        promo.offset({ top: promo[0].minOffset });\r\n"
+- "    };\r\n"
+- "});\r\n"
+- "\r\n"
+- "            \r\n"
+- "                       \r\n"
+- "            \r\n"
+- "\t\t\n"
+- |2
+      mw_word_of_the_day_rail_promo();
+- |2+
+
+- "    \n"
+- |2
+          output_creative('div-gpt-ad-300917135440447318-2');
+- "     \n"
+- |2+
+
+- |2+
+
+- |2
+      mw_top_ten_list_rail_promo();
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          output_creative('div-gpt-ad-894456462400224661-6');
+- "    \n"
+- |2+
+
+- |2+
+
+- |2
+      mw_quiz_rail_promo();
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          output_creative('div-gpt-ad-148753587139584500-8');
+- "    \n"
+- |2+
+
+- |2+
+
+- |2
+      mw_trend_watch_rail_promo();
+- "\r\n"
+- "        \r\n"
+- "        \r\n"
+- "        \r\n"
+- "\t\r\n"
+- "\tnew MWOLPopularityWidget({\r\n"
+- "\t\treference: \"dictionary\",\r\n"
+- "\t\tword: \"science\"\r\n"
+- "\t});\r\n"
+- |2+
+
+- |2
+      // Output the my saved words widget.
+- |2
+      new MWOLSavedWordWidget({
+- |2
+          reference: "dictionary",
+- |2
+          word: "science"
+- |2
+      });
+- "\r\n"
+- "\t\t\t\r\n"
+- "    \r\n"
+- "        \r\n"
+- "        10 Charming Words for Nasty People\r\n"
+- "        Put-downs with flair\r\n"
+- "        Learn More \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        When \"Literally\" isn't, well, literal\r\n"
+- "        How to use a word that (literally) drives some people nuts.\r\n"
+- "        Watch Now \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        Know what this is?\r\n"
+- "        Test your vocab with our fun, fast game\r\n"
+- "        Go Play \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        Fear of cats?\r\n"
+- "        Ailurophobia, and 9 other unusual fears\r\n"
+- "        Learn More \r\n"
+- "    \r\n"
+- "        \r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "\t\r\n"
+- "        <!--\r\n"
+- "        function popWin(URL){\r\n"
+- "        aWindow=window.open(URL,\"audio_window\",\"toolbar=no,scrollbars=yes,status=no,resizable=yes,menubar=no,width=604,height=300\");}\r\n"
+- "        // -->\r\n"
+- "    \r\n"
+- "        setupEntry();\r\n"
+- "        mw_recirc_bar();\r\n"
+- "    \r\n"
+- "        \r\n"
+- "    \r\n"
+- "        \r\n"
+- "\t\t\t            \r\n"
+- "                \r\n"
+- "                    Join Us\r\n"
+- "                    \r\n"
+- "                    \t\r\n"
+- "                        \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                        \tMerriam-Webster  on Facebook \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "                    \r\n"
+- "                    \t\r\n"
+- "                        \t\r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                        \tMerriam-Webster  on Twitter \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "                \r\n"
+- "                \r\n"
+- "                    Bookstore: Digital and Print\r\n"
+- "                    \r\n"
+- "                    \tMerriam-Webster references for Mobile, Kindle, print, and
+  more.\r\n"
+- "                    \r\n"
+- "                    \r\n"
+- "                    \tSee All \r\n"
+- "                    \r\n"
+- "                \r\n"
+- "                \r\n"
+- "                    Other Merriam-Webster Dictionaries\r\n"
+- "                    \r\n"
+- "                    \tSpanish Central \r\n"
+- "                        \tLearner's ESL Dictionary \r\n"
+- "                        \tWordCentral for Kids \r\n"
+- "                        \tVisual Dictionary \r\n"
+- "                        \r\n"
+- "                    \r\n"
+- "                    \tSCRABBLE® Word Finder \r\n"
+- "                        \tMerriam-Webster's Unabridged Dictionary \r\n"
+- "                            Britannica English - Arabic Translation \r\n"
+- "                            Nglish - Spanish-English Translation \r\n"
+- "                        \r\n"
+- "                \r\n"
+- "            \r\n"
+- "        \r\n"
+- "        \r\n"
+- "\t\t\t            \r\n"
+- "                Home \r\n"
+- "                    Help \r\n"
+- "                    About Us \r\n"
+- "                    Shop \r\n"
+- "                    Advertising Info \r\n"
+- "                    Dictionary API \r\n"
+- "                    Privacy Policy \r\n"
+- "                    Terms of Use\r\n"
+- "                About Our Ads \r\n"
+- "                    Contact Us \r\n"
+- "                    Browser Tools \r\n"
+- "                    The Open Dictionary\r\n"
+- "                \r\n"
+- "            \r\n"
+- "                © document.write(new Date().getFullYear()); Merriam-Webster, Incorporated\r\n"
+- "                \r\n"
+- "            \r\n"
+- "            \tBrowse the Dictionary \r\n"
+- "                    Browse the Thesaurus \r\n"
+- "                    Browse the Spanish-English Dictionary \r\n"
+- "                    Browse the Medical Dictionary\r\n"
+- "                        \r\n"
+- "    \r\n"
+- "\r\n"
+- "\t\r\n"
+- "    _qoptions=\r\n"
+- "        {\tqacct:\"p-2a93ALTZSnZrY\"\r\n"
+- "                    };\r\n"
+- "    \r\n"
+- "    //<!--\r\n"
+- "        function _quantgc(n) {\r\n"
+- "        var c=document.cookie;if(!c)return '';\r\n"
+- "        var i=c.indexOf(n+\"=\");if(-1==i)return '';\r\n"
+- "        var len=i+n.length+1;\r\n"
+- "        var end=c.indexOf(\";\", len);\r\n"
+- "        return c.substring(len,end<0?c.length:end);\r\n"
+- "        }\r\n"
+- "        quantSegs = \"\";\r\n"
+- "        var _qsegs = _quantgc('__qseg').split('|');\r\n"
+- "        for (var i=0;i < _qsegs.length;i++) {\r\n"
+- "        var qArr=_qsegs[i].split(\"_\")\r\n"
+- "        if (qArr.length>1) { if (quantSegs.length >= 1){ quantSegs += \",\";} quantSegs
+  += qArr[1]; }\r\n"
+- "        }\r\n"
+- "    // -->\r\n"
+- "    \r\n"
+- "        \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    !\r\n"
+- "    document.write(unescape(\"%3Cscript src='\" + (document.location.protocol ==
+  \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js'
+  %3E%3C/script%3E\"));\r\n"
+- "    \r\n"
+- "    COMSCORE.beacon({\r\n"
+- "    c1:2,\r\n"
+- "    c2:6035486,\r\n"
+- "    c3:\"\",\r\n"
+- "    c4:\"\",\r\n"
+- "    c5:\"\",\r\n"
+- "    c6:\"\",\r\n"
+- "    c15:\"\"\r\n"
+- "    });\r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "    setupFBConnect();\r\n"
+- ": knowledge about or study of the natural world based on facts learned through
+  experiments and observation: a particular area of scientific study (such as biology,
+  physics, or chemistry) : a particular branch of science: a subject that is formally
+  studied in a college, university, etc.What made you want to look up science? Please
+  tell us where you read or heard it (including the quote, if possible)."
+index:
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 387
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 8.0
+    docPositions:
+    - 7
+    - 173
+    - 235
+    - 387
+    - 435
+    - 442
+    - 503
+  encyclop: !ruby/object:Word
+    word: encyclop
+    stem: encyclop
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dia: !ruby/object:Word
+    word: dia
+    stem: dia
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  britannica: !ruby/object:Word
+    word: britannica
+    stem: britannica
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 180
+    - 425
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dictionary: !ruby/object:Word
+    word: dictionary
+    stem: dictionari
+    docFrequency: 16.0
+    docPositions:
+    - 16
+    - 111
+    - 127
+    - 215
+    - 331
+    - 337
+    - 418
+    - 420
+    - 424
+    - 438
+    - 444
+    - 450
+    - 452
+    - 453
+  thesaurus: !ruby/object:Word
+    word: thesaurus
+    stem: thesauru
+    docFrequency: 5.0
+    docPositions:
+    - 17
+    - 24
+    - 177
+    - 451
+  medical: !ruby/object:Word
+    word: medical
+    stem: medic
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 176
+    - 453
+  scrabble: !ruby/object:Word
+    word: scrabble
+    stem: scrabbl
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 423
+  spanish: !ruby/object:Word
+    word: spanish
+    stem: spanish
+    docFrequency: 8.0
+    docPositions:
+    - 20
+    - 178
+    - 179
+    - 417
+    - 426
+    - 452
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 178
+    - 417
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 6.0
+    docPositions:
+    - 24
+    - 450
+    - 451
+    - 452
+    - 453
+  dictionarybrowse: !ruby/object:Word
+    word: dictionarybrowse
+    stem: dictionarybrows
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 258
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 4.0
+    docPositions:
+    - 27
+    - 359
+    - 441
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  apps: !ruby/object:Word
+    word: apps
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  iphone: !ruby/object:Word
+    word: iphone
+    stem: iphon
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  ipad: !ruby/object:Word
+    word: ipad
+    stem: ipad
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  android: !ruby/object:Word
+    word: android
+    stem: android
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  initmwolautocomplete: !ruby/object:Word
+    word: initmwolautocomplete
+    stem: initmwolautocomplet
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  output_creative: !ruby/object:Word
+    word: output_creative
+    stem: output_cr
+    docFrequency: 5.0
+    docPositions:
+    - 52
+    - 304
+    - 312
+    - 320
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 5.0
+    docPositions:
+    - 52
+    - 304
+    - 312
+    - 320
+  gpt: !ruby/object:Word
+    word: gpt
+    stem: gpt
+    docFrequency: 5.0
+    docPositions:
+    - 52
+    - 304
+    - 312
+    - 320
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 5.0
+    docPositions:
+    - 52
+    - 304
+    - 312
+    - 320
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  word: !ruby/object:Word
+    word: word
+    stem: word
+    docFrequency: 11.0
+    docPositions:
+    - 72
+    - 161
+    - 171
+    - 173
+    - 215
+    - 332
+    - 338
+    - 352
+    - 423
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  words: !ruby/object:Word
+    word: words
+    stem: word
+    docFrequency: 6.0
+    docPositions:
+    - 92
+    - 173
+    - 215
+    - 335
+    - 344
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 3.0
+    docPositions:
+    - 92
+    - 360
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 335
+  faves: !ruby/object:Word
+    word: faves
+    stem: fave
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 31.0
+    docPositions:
+    - 108
+    - 118
+    - 120
+    - 121
+    - 122
+    - 123
+    - 125
+    - 126
+    - 127
+    - 128
+    - 130
+    - 132
+    - 146
+    - 148
+    - 164
+    - 219
+    - 229
+    - 237
+    - 245
+    - 252
+    - 261
+    - 262
+    - 282
+    - 283
+    - 287
+    - 289
+    - 335
+    - 447
+    - 459
+    - 503
+  main_content_area: !ruby/object:Word
+    word: main_content_area
+    stem: main_content_area
+    docFrequency: 4.0
+    docPositions:
+    - 108
+    - 282
+    - 286
+  float: !ruby/object:Word
+    word: float
+    stem: float
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 108
+    - 173
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 3.0
+    docPositions:
+    - 108
+    - 219
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 69.0
+    docPositions:
+    - 115
+    - 123
+    - 127
+    - 148
+    - 149
+    - 154
+    - 155
+    - 156
+    - 157
+    - 159
+    - 160
+    - 161
+    - 162
+    - 167
+    - 170
+    - 171
+    - 173
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 184
+    - 185
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 204
+    - 205
+    - 206
+    - 207
+    - 208
+    - 209
+    - 210
+    - 211
+    - 212
+    - 213
+    - 215
+    - 235
+    - 332
+    - 338
+    - 503
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 118
+  ebcitation: !ruby/object:Word
+    word: ebcitation
+    stem: ebcit
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 122
+  npnd: !ruby/object:Word
+    word: npnd
+    stem: npnd
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  'yes': !ruby/object:Word
+    word: 'yes'
+    stem: ye
+    docFrequency: 4.0
+    docPositions:
+    - 121
+    - 376
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 126
+  pubonline: !ruby/object:Word
+    word: pubonline
+    stem: pubonlin
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  merriam: !ruby/object:Word
+    word: merriam
+    stem: merriam
+    docFrequency: 10.0
+    docPositions:
+    - 126
+    - 127
+    - 128
+    - 393
+    - 401
+    - 408
+    - 415
+    - 424
+    - 447
+  webster: !ruby/object:Word
+    word: webster
+    stem: webster
+    docFrequency: 10.0
+    docPositions:
+    - 126
+    - 127
+    - 128
+    - 393
+    - 401
+    - 408
+    - 415
+    - 424
+    - 447
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 4.0
+    docPositions:
+    - 127
+    - 375
+    - 376
+  inst: !ruby/object:Word
+    word: inst
+    stem: inst
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  contributors: !ruby/object:Word
+    word: contributors
+    stem: contributor
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 132
+    - 146
+    - 229
+    - 283
+    - 375
+    - 463
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  ebversion: !ruby/object:Word
+    word: ebversion
+    stem: ebvers
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 137
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 9.0
+    docPositions:
+    - 137
+    - 146
+    - 230
+    - 233
+    - 447
+    - 464
+    - 484
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 4.0
+    docPositions:
+    - 137
+    - 447
+    - 484
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 484
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  easybib: !ruby/object:Word
+    word: easybib
+    stem: easybib
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  citethis: !ruby/object:Word
+    word: citethis
+    stem: citethi
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  widget_mini: !ruby/object:Word
+    word: widget_mini
+    stem: widget_mini
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 4.0
+    docPositions:
+    - 137
+    - 240
+    - 254
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 9.0
+    docPositions:
+    - 137
+    - 146
+    - 230
+    - 231
+    - 232
+    - 233
+    - 484
+  tweet: !ruby/object:Word
+    word: tweet
+    stem: tweet
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 146
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 15.0
+    docPositions:
+    - 146
+    - 147
+    - 160
+    - 161
+    - 170
+    - 173
+    - 176
+    - 232
+    - 418
+    - 424
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 146
+  fjs: !ruby/object:Word
+    word: fjs
+    stem: fj
+    docFrequency: 4.0
+    docPositions:
+    - 146
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 459
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 272
+    - 359
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 484
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 5.0
+    docPositions:
+    - 146
+    - 232
+    - 484
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 12.0
+    docPositions:
+    - 146
+    - 161
+    - 235
+    - 287
+    - 288
+    - 292
+    - 464
+    - 465
+    - 474
+    - 503
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 230
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 401
+  widgets: !ruby/object:Word
+    word: widgets
+    stem: widget
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 262
+  wjs: !ruby/object:Word
+    word: wjs
+    stem: wj
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  noun: !ruby/object:Word
+    word: noun
+    stem: noun
+    docFrequency: 4.0
+    docPositions:
+    - 147
+    - 170
+    - 176
+  sci: !ruby/object:Word
+    word: sci
+    stem: sci
+    docFrequency: 5.0
+    docPositions:
+    - 147
+    - 170
+    - 173
+    - 176
+  ence: !ruby/object:Word
+    word: ence
+    stem: enc
+    docFrequency: 4.0
+    docPositions:
+    - 147
+    - 170
+    - 176
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 6.0
+    docPositions:
+    - 147
+    - 176
+    - 463
+    - 465
+    - 466
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 4.0
+    docPositions:
+    - 147
+    - 176
+    - 351
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 16.0
+    docPositions:
+    - 148
+    - 149
+    - 166
+    - 170
+    - 173
+    - 176
+    - 503
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 7.0
+    docPositions:
+    - 148
+    - 149
+    - 170
+    - 503
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 7.0
+    docPositions:
+    - 148
+    - 149
+    - 170
+    - 212
+    - 503
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 9.0
+    docPositions:
+    - 148
+    - 149
+    - 160
+    - 170
+    - 173
+    - 176
+    - 503
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  facts: !ruby/object:Word
+    word: facts
+    stem: fact
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 166
+    - 170
+    - 503
+  learned: !ruby/object:Word
+    word: learned
+    stem: learn
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 149
+    - 170
+    - 503
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 149
+    - 170
+    - 176
+    - 503
+  experiments: !ruby/object:Word
+    word: experiments
+    stem: experi
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 27.0
+    docPositions:
+    - 148
+    - 149
+    - 157
+    - 161
+    - 162
+    - 163
+    - 170
+    - 173
+    - 176
+    - 177
+    - 366
+    - 406
+    - 408
+    - 503
+  observation: !ruby/object:Word
+    word: observation
+    stem: observ
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 503
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 149
+    - 176
+    - 503
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 149
+    - 162
+    - 503
+  biology: !ruby/object:Word
+    word: biology
+    stem: biologi
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  physics: !ruby/object:Word
+    word: physics
+    stem: physic
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 166
+    - 167
+    - 170
+    - 503
+  chemistry: !ruby/object:Word
+    word: chemistry
+    stem: chemistri
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 503
+  branch: !ruby/object:Word
+    word: branch
+    stem: branch
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 156
+    - 503
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 167
+    - 170
+    - 503
+  formally: !ruby/object:Word
+    word: formally
+    stem: formal
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 170
+    - 503
+  studied: !ruby/object:Word
+    word: studied
+    stem: studi
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 149
+    - 170
+    - 503
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 4.0
+    docPositions:
+    - 148
+    - 161
+    - 503
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 503
+  etc: !ruby/object:Word
+    word: etc
+    stem: etc
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 503
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  definition: !ruby/object:Word
+    word: definition
+    stem: definit
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 170
+    - 176
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  knowing: !ruby/object:Word
+    word: knowing
+    stem: know
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 173
+  distinguished: !ruby/object:Word
+    word: distinguished
+    stem: distinguish
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  ignorance: !ruby/object:Word
+    word: ignorance
+    stem: ignor
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  misunderstanding: !ruby/object:Word
+    word: misunderstanding
+    stem: misunderstand
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  systematized: !ruby/object:Word
+    word: systematized
+    stem: systemat
+    docFrequency: 3.0
+    docPositions:
+    - 149
+  object: !ruby/object:Word
+    word: object
+    stem: object
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  theology: !ruby/object:Word
+    word: theology
+    stem: theologi
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 484
+  something: !ruby/object:Word
+    word: something
+    stem: someth
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 170
+    - 173
+  sport: !ruby/object:Word
+    word: sport
+    stem: sport
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  technique: !ruby/object:Word
+    word: technique
+    stem: techniqu
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 173
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 5.0
+    docPositions:
+    - 149
+    - 176
+  covering: !ruby/object:Word
+    word: covering
+    stem: cover
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 6.0
+    docPositions:
+    - 149
+    - 176
+    - 204
+  truths: !ruby/object:Word
+    word: truths
+    stem: truth
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  operation: !ruby/object:Word
+    word: operation
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  laws: !ruby/object:Word
+    word: laws
+    stem: law
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 176
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  obtained: !ruby/object:Word
+    word: obtained
+    stem: obtain
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  tested: !ruby/object:Word
+    word: tested
+    stem: test
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  method: !ruby/object:Word
+    word: method
+    stem: method
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 176
+  concerned: !ruby/object:Word
+    word: concerned
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  physical: !ruby/object:Word
+    word: physical
+    stem: physic
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  phenomena: !ruby/object:Word
+    word: phenomena
+    stem: phenomena
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 176
+  reconciling: !ruby/object:Word
+    word: reconciling
+    stem: reconcil
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  practical: !ruby/object:Word
+    word: practical
+    stem: practic
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  ends: !ruby/object:Word
+    word: ends
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  cooking: !ruby/object:Word
+    word: cooking
+    stem: cook
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 162
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  capitalized: !ruby/object:Word
+    word: capitalized
+    stem: capit
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  christian: !ruby/object:Word
+    word: christian
+    stem: christian
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 193
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 411
+  defined: !ruby/object:Word
+    word: defined
+    stem: defin
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 170
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 8.0
+    docPositions:
+    - 149
+    - 162
+    - 166
+    - 180
+    - 425
+    - 426
+    - 452
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 187
+  learners: !ruby/object:Word
+    word: learners
+    stem: learner
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  kids: !ruby/object:Word
+    word: kids
+    stem: kid
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 419
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 150
+    - 216
+  examples: !ruby/object:Word
+    word: examples
+    stem: exampl
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  sciencethe: !ruby/object:Word
+    word: sciencethe
+    stem: scienceth
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  encourages: !ruby/object:Word
+    word: encourages
+    stem: encourag
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 4.0
+    docPositions:
+    - 154
+    - 158
+    - 159
+  pursue: !ruby/object:Word
+    word: pursue
+    stem: pursu
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  career: !ruby/object:Word
+    word: career
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 4.0
+    docPositions:
+    - 155
+    - 167
+    - 440
+  commonly: !ruby/object:Word
+    word: commonly
+    stem: commonli
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 162
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 10.0
+    docPositions:
+    - 156
+    - 160
+    - 161
+    - 163
+    - 258
+    - 330
+    - 336
+    - 447
+  advances: !ruby/object:Word
+    word: advances
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  take: !ruby/object:Word
+    word: take
+    stem: take
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 163
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 163
+  majoring: !ruby/object:Word
+    word: majoring
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  malay: !ruby/object:Word
+    word: malay
+    stem: malai
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  tapir: !ruby/object:Word
+    word: tapir
+    stem: tapir
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  largest: !ruby/object:Word
+    word: largest
+    stem: largest
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  four: !ruby/object:Word
+    word: four
+    stem: four
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  species: !ruby/object:Word
+    word: species
+    stem: speci
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  remained: !ruby/object:Word
+    word: remained
+    stem: remain
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  largely: !ruby/object:Word
+    word: largely
+    stem: larg
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  invisible: !ruby/object:Word
+    word: invisible
+    stem: invis
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 4.0
+    docPositions:
+    - 160
+    - 366
+    - 415
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  odd: !ruby/object:Word
+    word: odd
+    stem: odd
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  endearing: !ruby/object:Word
+    word: endearing
+    stem: endear
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  animals: !ruby/object:Word
+    word: animals
+    stem: anim
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 160
+    - 177
+    - 411
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  anthony: !ruby/object:Word
+    word: anthony
+    stem: anthoni
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  king: !ruby/object:Word
+    word: king
+    stem: king
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 161
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 160
+    - 161
+  june: !ruby/object:Word
+    word: june
+    stem: june
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 162
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  doubt: !ruby/object:Word
+    word: doubt
+    stem: doubt
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  golden: !ruby/object:Word
+    word: golden
+    stem: golden
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  muckraking: !ruby/object:Word
+    word: muckraking
+    stem: muckrak
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 4.0
+    docPositions:
+    - 161
+    - 166
+    - 173
+  ida: !ruby/object:Word
+    word: ida
+    stem: ida
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  tarbell: !ruby/object:Word
+    word: tarbell
+    stem: tarbel
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  admissions: !ruby/object:Word
+    word: admissions
+    stem: admiss
+    docFrequency: 3.0
+    docPositions:
+    - 161
+  reveals: !ruby/object:Word
+    word: reveals
+    stem: reveal
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  uttered: !ruby/object:Word
+    word: uttered
+    stem: utter
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 13.0
+    docPositions:
+    - 161
+    - 282
+    - 287
+    - 288
+    - 289
+    - 290
+    - 292
+    - 293
+  colleges: !ruby/object:Word
+    word: colleges
+    stem: colleg
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  care: !ruby/object:Word
+    word: care
+    stem: care
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  nuance: !ruby/object:Word
+    word: nuance
+    stem: nuanc
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  vaunted: !ruby/object:Word
+    word: vaunted
+    stem: vaunt
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  bunk: !ruby/object:Word
+    word: bunk
+    stem: bunk
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  michael: !ruby/object:Word
+    word: michael
+    stem: michael
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  wolff: !ruby/object:Word
+    word: wolff
+    stem: wolff
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  review: !ruby/object:Word
+    word: review
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  sept: !ruby/object:Word
+    word: sept
+    stem: sept
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 163
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  corporate: !ruby/object:Word
+    word: corporate
+    stem: corpor
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  sponsored: !ruby/object:Word
+    word: sponsored
+    stem: sponsor
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  grant: !ruby/object:Word
+    word: grant
+    stem: grant
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  initiatives: !ruby/object:Word
+    word: initiatives
+    stem: initi
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  engineering: !ruby/object:Word
+    word: engineering
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 258
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  laboratories: !ruby/object:Word
+    word: laboratories
+    stem: laboratori
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  humanities: !ruby/object:Word
+    word: humanities
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  different: !ruby/object:Word
+    word: different
+    stem: differ
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  deans: !ruby/object:Word
+    word: deans
+    stem: dean
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  david: !ruby/object:Word
+    word: david
+    stem: david
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  laurence: !ruby/object:Word
+    word: laurence
+    stem: laurenc
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  association: !ruby/object:Word
+    word: association
+    stem: associ
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  departments: !ruby/object:Word
+    word: departments
+    stem: depart
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  bulletin: !ruby/object:Word
+    word: bulletin
+    stem: bulletin
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  winter: !ruby/object:Word
+    word: winter
+    stem: winter
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  annales: !ruby/object:Word
+    word: annales
+    stem: annal
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  started: !ruby/object:Word
+    word: started
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  bloch: !ruby/object:Word
+    word: bloch
+    stem: bloch
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  lucien: !ruby/object:Word
+    word: lucien
+    stem: lucien
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  febvre: !ruby/object:Word
+    word: febvre
+    stem: febvr
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  conversant: !ruby/object:Word
+    word: conversant
+    stem: convers
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  sociology: !ruby/object:Word
+    word: sociology
+    stem: sociolog
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  geography: !ruby/object:Word
+    word: geography
+    stem: geographi
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  psychology: !ruby/object:Word
+    word: psychology
+    stem: psycholog
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  anthropology: !ruby/object:Word
+    word: anthropology
+    stem: anthropolog
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  stephen: !ruby/object:Word
+    word: stephen
+    stem: stephen
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  kotkin: !ruby/object:Word
+    word: kotkin
+    stem: kotkin
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  yorker: !ruby/object:Word
+    word: yorker
+    stem: yorker
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 8.0
+    docPositions:
+    - 164
+    - 166
+    - 177
+    - 346
+    - 367
+    - 408
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  mw_ask_the_editors_module: !ruby/object:Word
+    word: mw_ask_the_editors_module
+    stem: mw_ask_the_editors_modul
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  origin: !ruby/object:Word
+    word: origin
+    stem: origin
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sciencemiddle: !ruby/object:Word
+    word: sciencemiddle
+    stem: sciencemiddl
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  anglo: !ruby/object:Word
+    word: anglo
+    stem: anglo
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  french: !ruby/object:Word
+    word: french
+    stem: french
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  latin: !ruby/object:Word
+    word: latin
+    stem: latin
+    docFrequency: 5.0
+    docPositions:
+    - 166
+    - 173
+  scientia: !ruby/object:Word
+    word: scientia
+    stem: scientia
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  scient: !ruby/object:Word
+    word: scient
+    stem: scient
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sciens: !ruby/object:Word
+    word: sciens
+    stem: scien
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  participle: !ruby/object:Word
+    word: participle
+    stem: participl
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  scire: !ruby/object:Word
+    word: scire
+    stem: scire
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 6.0
+    docPositions:
+    - 166
+    - 173
+    - 358
+  perhaps: !ruby/object:Word
+    word: perhaps
+    stem: perhap
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  akin: !ruby/object:Word
+    word: akin
+    stem: akin
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sanskrit: !ruby/object:Word
+    word: sanskrit
+    stem: sanskrit
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  chyati: !ruby/object:Word
+    word: chyati
+    stem: chyati
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  cuts: !ruby/object:Word
+    word: cuts
+    stem: cut
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  scindere: !ruby/object:Word
+    word: scindere
+    stem: scinder
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 4.0
+    docPositions:
+    - 166
+    - 471
+    - 473
+  shedfirst: !ruby/object:Word
+    word: shedfirst
+    stem: shedfirst
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 166
+    - 352
+    - 440
+  centuryrelated: !ruby/object:Word
+    word: centuryrelated
+    stem: centuryrel
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  sciencesynonymslore: !ruby/object:Word
+    word: sciencesynonymslore
+    stem: sciencesynonymslor
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  wisdomrelated: !ruby/object:Word
+    word: wisdomrelated
+    stem: wisdomrel
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  wordsdope: !ruby/object:Word
+    word: wordsdope
+    stem: wordsdop
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 205
+  intelligence: !ruby/object:Word
+    word: intelligence
+    stem: intellig
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  lowdown: !ruby/object:Word
+    word: lowdown
+    stem: lowdown
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  skinny: !ruby/object:Word
+    word: skinny
+    stem: skinni
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  slang: !ruby/object:Word
+    word: slang
+    stem: slang
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  evidence: !ruby/object:Word
+    word: evidence
+    stem: evid
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  acquaintance: !ruby/object:Word
+    word: acquaintance
+    stem: acquaint
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  awareness: !ruby/object:Word
+    word: awareness
+    stem: awar
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  familiarity: !ruby/object:Word
+    word: familiarity
+    stem: familiar
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  literacy: !ruby/object:Word
+    word: literacy
+    stem: literaci
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  erudition: !ruby/object:Word
+    word: erudition
+    stem: erudit
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  learning: !ruby/object:Word
+    word: learning
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  scholarship: !ruby/object:Word
+    word: scholarship
+    stem: scholarship
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  expertise: !ruby/object:Word
+    word: expertise
+    stem: expertis
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  hownear: !ruby/object:Word
+    word: hownear
+    stem: hownear
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  antonymsignorance: !ruby/object:Word
+    word: antonymsignorance
+    stem: antonymsignor
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  inexperience: !ruby/object:Word
+    word: inexperience
+    stem: inexperi
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  innocence: !ruby/object:Word
+    word: innocence
+    stem: innoc
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  nescience: !ruby/object:Word
+    word: nescience
+    stem: nescienc
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  unfamiliarity: !ruby/object:Word
+    word: unfamiliarity
+    stem: unfamiliar
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  hideother: !ruby/object:Word
+    word: hideother
+    stem: hideoth
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  termsamplitude: !ruby/object:Word
+    word: termsamplitude
+    stem: termsamplitud
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  centrifugal: !ruby/object:Word
+    word: centrifugal
+    stem: centrifug
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  centripetal: !ruby/object:Word
+    word: centripetal
+    stem: centripet
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  convection: !ruby/object:Word
+    word: convection
+    stem: convect
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  gradient: !ruby/object:Word
+    word: gradient
+    stem: gradient
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  hysteresis: !ruby/object:Word
+    word: hysteresis
+    stem: hysteresi
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  kinetic: !ruby/object:Word
+    word: kinetic
+    stem: kinet
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  lase: !ruby/object:Word
+    word: lase
+    stem: lase
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  quantum: !ruby/object:Word
+    word: quantum
+    stem: quantum
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  _gaq: !ruby/object:Word
+    word: _gaq
+    stem: _gaq
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 227
+  _trackevent: !ruby/object:Word
+    word: _trackevent
+    stem: _trackev
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  displayed: !ruby/object:Word
+    word: displayed
+    stem: displai
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  mw_scrabble_speed_bump: !ruby/object:Word
+    word: mw_scrabble_speed_bump
+    stem: mw_scrabble_speed_bump
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  kidsscience: !ruby/object:Word
+    word: kidsscience
+    stem: kidsscienc
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  ns: !ruby/object:Word
+    word: ns
+    stem: ns
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  deals: !ruby/object:Word
+    word: deals
+    stem: deal
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  linguistics: !ruby/object:Word
+    word: linguistics
+    stem: linguist
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  pitching: !ruby/object:Word
+    word: pitching
+    stem: pitch
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  root: !ruby/object:Word
+    word: root
+    stem: root
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 173
+  sc: !ruby/object:Word
+    word: sc
+    stem: sc
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 4.0
+    docPositions:
+    - 173
+    - 258
+  meaning: !ruby/object:Word
+    word: meaning
+    stem: mean
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  understand: !ruby/object:Word
+    word: understand
+    stem: understand
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  gives: !ruby/object:Word
+    word: gives
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  understanding: !ruby/object:Word
+    word: understanding
+    stem: understand
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  everything: !ruby/object:Word
+    word: everything
+    stem: everyth
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  works: !ruby/object:Word
+    word: works
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  person: !ruby/object:Word
+    word: person
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  conscience: !ruby/object:Word
+    word: conscience
+    stem: conscienc
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  wrong: !ruby/object:Word
+    word: wrong
+    stem: wrong
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  feeling: !ruby/object:Word
+    word: feeling
+    stem: feel
+    docFrequency: 3.0
+    docPositions:
+    - 173
+  she: !ruby/object:Word
+    word: she
+    stem: she
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  conscious: !ruby/object:Word
+    word: conscious
+    stem: consciou
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  knows: !ruby/object:Word
+    word: knows
+    stem: know
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  dictionaryscience: !ruby/object:Word
+    word: dictionaryscience
+    stem: dictionarysci
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 4.0
+    docPositions:
+    - 177
+    - 346
+    - 367
+  synonyms: !ruby/object:Word
+    word: synonyms
+    stem: synonym
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  antonyms: !ruby/object:Word
+    word: antonyms
+    stem: antonym
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  translation: !ruby/object:Word
+    word: translation
+    stem: translat
+    docFrequency: 6.0
+    docPositions:
+    - 178
+    - 179
+    - 180
+    - 425
+    - 426
+  nglish: !ruby/object:Word
+    word: nglish
+    stem: nglish
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 426
+  speakers: !ruby/object:Word
+    word: speakers
+    stem: speaker
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  arabic: !ruby/object:Word
+    word: arabic
+    stem: arab
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 425
+  speakersbrowse: !ruby/object:Word
+    word: speakersbrowse
+    stem: speakersbrows
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  entries: !ruby/object:Word
+    word: entries
+    stem: entri
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  fair: !ruby/object:Word
+    word: fair
+    stem: fair
+    docFrequency: 2.0
+    docPositions:
+    - 185
+  fiction: !ruby/object:Word
+    word: fiction
+    stem: fiction
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  bachelor: !ruby/object:Word
+    word: bachelor
+    stem: bachelor
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  behavioral: !ruby/object:Word
+    word: behavioral
+    stem: behavior
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  big: !ruby/object:Word
+    word: big
+    stem: big
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  cognitive: !ruby/object:Word
+    word: cognitive
+    stem: cognit
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  creation: !ruby/object:Word
+    word: creation
+    stem: creation
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  dismal: !ruby/object:Word
+    word: dismal
+    stem: dismal
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  domestic: !ruby/object:Word
+    word: domestic
+    stem: domest
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  economic: !ruby/object:Word
+    word: economic
+    stem: econom
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  exact: !ruby/object:Word
+    word: exact
+    stem: exact
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  forensic: !ruby/object:Word
+    word: forensic
+    stem: forens
+    docFrequency: 2.0
+    docPositions:
+    - 202
+  gay: !ruby/object:Word
+    word: gay
+    stem: gai
+    docFrequency: 2.0
+    docPositions:
+    - 203
+  jewish: !ruby/object:Word
+    word: jewish
+    stem: jewish
+    docFrequency: 2.0
+    docPositions:
+    - 206
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  master: !ruby/object:Word
+    word: master
+    stem: master
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  materials: !ruby/object:Word
+    word: materials
+    stem: materi
+    docFrequency: 2.0
+    docPositions:
+    - 210
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 2.0
+    docPositions:
+    - 211
+  normative: !ruby/object:Word
+    word: normative
+    stem: norm
+    docFrequency: 2.0
+    docPositions:
+    - 213
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  sciencedprevious: !ruby/object:Word
+    word: sciencedprevious
+    stem: sciencedprevi
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  scidall: !ruby/object:Word
+    word: scidall
+    stem: scidal
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  near: !ruby/object:Word
+    word: near
+    stem: near
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  yahoo: !ruby/object:Word
+    word: yahoo
+    stem: yahoo
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 238
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 246
+  cover: !ruby/object:Word
+    word: cover
+    stem: cover
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  sectioncode: !ruby/object:Word
+    word: sectioncode
+    stem: sectioncod
+    docFrequency: 4.0
+    docPositions:
+    - 225
+    - 227
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  yimg: !ruby/object:Word
+    word: yimg
+    stem: yimg
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  av: !ruby/object:Word
+    word: av
+    stem: av
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  gemini: !ruby/object:Word
+    word: gemini
+    stem: gemini
+    docFrequency: 3.0
+    docPositions:
+    - 232
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  seen: !ruby/object:Word
+    word: seen
+    stem: seen
+    docFrequency: 3.0
+    docPositions:
+    - 235
+  heardwhat: !ruby/object:Word
+    word: heardwhat
+    stem: heardwhat
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 5.0
+    docPositions:
+    - 235
+    - 503
+  want: !ruby/object:Word
+    word: want
+    stem: want
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  look: !ruby/object:Word
+    word: look
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  tell: !ruby/object:Word
+    word: tell
+    stem: tell
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  heard: !ruby/object:Word
+    word: heard
+    stem: heard
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 503
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  quote: !ruby/object:Word
+    word: quote
+    stem: quot
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  possible: !ruby/object:Word
+    word: possible
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 503
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  highlights: !ruby/object:Word
+    word: highlights
+    stem: highlight
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 258
+  inner_content: !ruby/object:Word
+    word: inner_content
+    stem: inner_cont
+    docFrequency: 4.0
+    docPositions:
+    - 237
+    - 245
+    - 252
+  color: !ruby/object:Word
+    word: color
+    stem: color
+    docFrequency: 4.0
+    docPositions:
+    - 238
+    - 248
+    - 255
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  align: !ruby/object:Word
+    word: align
+    stem: align
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 376
+  box: !ruby/object:Word
+    word: box
+    stem: box
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  shadow: !ruby/object:Word
+    word: shadow
+    stem: shadow
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  inset: !ruby/object:Word
+    word: inset
+    stem: inset
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  rgba: !ruby/object:Word
+    word: rgba
+    stem: rgba
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 3.0
+    docPositions:
+    - 245
+    - 252
+  font: !ruby/object:Word
+    word: font
+    stem: font
+    docFrequency: 3.0
+    docPositions:
+    - 246
+    - 249
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 5.0
+    docPositions:
+    - 247
+    - 287
+    - 289
+    - 376
+  fff: !ruby/object:Word
+    word: fff
+    stem: fff
+    docFrequency: 4.0
+    docPositions:
+    - 248
+    - 253
+    - 255
+  weight: !ruby/object:Word
+    word: weight
+    stem: weight
+    docFrequency: 2.0
+    docPositions:
+    - 249
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  solid: !ruby/object:Word
+    word: solid
+    stem: solid
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  decoration: !ruby/object:Word
+    word: decoration
+    stem: decor
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  sneak: !ruby/object:Word
+    word: sneak
+    stem: sneak
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  preview: !ruby/object:Word
+    word: preview
+    stem: preview
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  banner: !ruby/object:Word
+    word: banner
+    stem: banner
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  temp: !ruby/object:Word
+    word: temp
+    stem: temp
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  remove: !ruby/object:Word
+    word: remove
+    stem: remov
+    docFrequency: 2.0
+    docPositions:
+    - 261
+  beta_banner_container: !ruby/object:Word
+    word: beta_banner_container
+    stem: beta_banner_contain
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  header_container: !ruby/object:Word
+    word: header_container
+    stem: header_contain
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 272
+    - 359
+  vocabulary: !ruby/object:Word
+    word: vocabulary
+    stem: vocabulari
+    docFrequency: 2.0
+    docPositions:
+    - 272
+  quizzes_lr_ref_container: !ruby/object:Word
+    word: quizzes_lr_ref_container
+    stem: quizzes_lr_ref_contain
+    docFrequency: 3.0
+    docPositions:
+    - 282
+    - 284
+  minoffset: !ruby/object:Word
+    word: minoffset
+    stem: minoffset
+    docFrequency: 4.0
+    docPositions:
+    - 282
+    - 292
+    - 293
+  offset: !ruby/object:Word
+    word: offset
+    stem: offset
+    docFrequency: 12.0
+    docPositions:
+    - 282
+    - 287
+    - 288
+    - 289
+    - 290
+    - 292
+    - 293
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 283
+    - 376
+  scroll: !ruby/object:Word
+    word: scroll
+    stem: scroll
+    docFrequency: 2.0
+    docPositions:
+    - 283
+  promo: !ruby/object:Word
+    word: promo
+    stem: promo
+    docFrequency: 12.0
+    docPositions:
+    - 284
+    - 287
+    - 288
+    - 289
+    - 290
+    - 292
+    - 293
+  footer: !ruby/object:Word
+    word: footer
+    stem: footer
+    docFrequency: 6.0
+    docPositions:
+    - 285
+    - 287
+    - 288
+    - 289
+    - 290
+  footer_container: !ruby/object:Word
+    word: footer_container
+    stem: footer_contain
+    docFrequency: 2.0
+    docPositions:
+    - 285
+  left_rail: !ruby/object:Word
+    word: left_rail
+    stem: left_rail
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  mw_word_of_the_day_rail_promo: !ruby/object:Word
+    word: mw_word_of_the_day_rail_promo
+    stem: mw_word_of_the_day_rail_promo
+    docFrequency: 2.0
+    docPositions:
+    - 301
+  mw_top_ten_list_rail_promo: !ruby/object:Word
+    word: mw_top_ten_list_rail_promo
+    stem: mw_top_ten_list_rail_promo
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  mw_quiz_rail_promo: !ruby/object:Word
+    word: mw_quiz_rail_promo
+    stem: mw_quiz_rail_promo
+    docFrequency: 2.0
+    docPositions:
+    - 316
+  mw_trend_watch_rail_promo: !ruby/object:Word
+    word: mw_trend_watch_rail_promo
+    stem: mw_trend_watch_rail_promo
+    docFrequency: 2.0
+    docPositions:
+    - 324
+  mwolpopularitywidget: !ruby/object:Word
+    word: mwolpopularitywidget
+    stem: mwolpopularitywidget
+    docFrequency: 2.0
+    docPositions:
+    - 330
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 337
+  output: !ruby/object:Word
+    word: output
+    stem: output
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  saved: !ruby/object:Word
+    word: saved
+    stem: save
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  widget: !ruby/object:Word
+    word: widget
+    stem: widget
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  mwolsavedwordwidget: !ruby/object:Word
+    word: mwolsavedwordwidget
+    stem: mwolsavedwordwidget
+    docFrequency: 2.0
+    docPositions:
+    - 336
+  charming: !ruby/object:Word
+    word: charming
+    stem: charm
+    docFrequency: 2.0
+    docPositions:
+    - 344
+  nasty: !ruby/object:Word
+    word: nasty
+    stem: nasti
+    docFrequency: 2.0
+    docPositions:
+    - 344
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 3.0
+    docPositions:
+    - 344
+    - 352
+  put: !ruby/object:Word
+    word: put
+    stem: put
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  downs: !ruby/object:Word
+    word: downs
+    stem: down
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  flair: !ruby/object:Word
+    word: flair
+    stem: flair
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  literally: !ruby/object:Word
+    word: literally
+    stem: liter
+    docFrequency: 3.0
+    docPositions:
+    - 351
+    - 352
+  isn: !ruby/object:Word
+    word: isn
+    stem: isn
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  literal: !ruby/object:Word
+    word: literal
+    stem: liter
+    docFrequency: 2.0
+    docPositions:
+    - 351
+  drives: !ruby/object:Word
+    word: drives
+    stem: drive
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  nuts: !ruby/object:Word
+    word: nuts
+    stem: nut
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 353
+  vocab: !ruby/object:Word
+    word: vocab
+    stem: vocab
+    docFrequency: 2.0
+    docPositions:
+    - 359
+  fun: !ruby/object:Word
+    word: fun
+    stem: fun
+    docFrequency: 2.0
+    docPositions:
+    - 359
+  fast: !ruby/object:Word
+    word: fast
+    stem: fast
+    docFrequency: 2.0
+    docPositions:
+    - 359
+  game: !ruby/object:Word
+    word: game
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 359
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 2.0
+    docPositions:
+    - 360
+  fear: !ruby/object:Word
+    word: fear
+    stem: fear
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  cats: !ruby/object:Word
+    word: cats
+    stem: cat
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  ailurophobia: !ruby/object:Word
+    word: ailurophobia
+    stem: ailurophobia
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  unusual: !ruby/object:Word
+    word: unusual
+    stem: unusu
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  fears: !ruby/object:Word
+    word: fears
+    stem: fear
+    docFrequency: 2.0
+    docPositions:
+    - 366
+  popwin: !ruby/object:Word
+    word: popwin
+    stem: popwin
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  awindow: !ruby/object:Word
+    word: awindow
+    stem: awindow
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 376
+    - 444
+  audio_window: !ruby/object:Word
+    word: audio_window
+    stem: audio_window
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  toolbar: !ruby/object:Word
+    word: toolbar
+    stem: toolbar
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 4.0
+    docPositions:
+    - 376
+  scrollbars: !ruby/object:Word
+    word: scrollbars
+    stem: scrollbar
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  resizable: !ruby/object:Word
+    word: resizable
+    stem: resiz
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  menubar: !ruby/object:Word
+    word: menubar
+    stem: menubar
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  setupentry: !ruby/object:Word
+    word: setupentry
+    stem: setupentri
+    docFrequency: 2.0
+    docPositions:
+    - 379
+  mw_recirc_bar: !ruby/object:Word
+    word: mw_recirc_bar
+    stem: mw_recirc_bar
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  bookstore: !ruby/object:Word
+    word: bookstore
+    stem: bookstor
+    docFrequency: 2.0
+    docPositions:
+    - 406
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 2.0
+    docPositions:
+    - 406
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 3.0
+    docPositions:
+    - 406
+    - 408
+  references: !ruby/object:Word
+    word: references
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  kindle: !ruby/object:Word
+    word: kindle
+    stem: kindl
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  dictionaries: !ruby/object:Word
+    word: dictionaries
+    stem: dictionari
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  learner: !ruby/object:Word
+    word: learner
+    stem: learner
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  esl: !ruby/object:Word
+    word: esl
+    stem: esl
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  wordcentral: !ruby/object:Word
+    word: wordcentral
+    stem: wordcentr
+    docFrequency: 2.0
+    docPositions:
+    - 419
+  visual: !ruby/object:Word
+    word: visual
+    stem: visual
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  finder: !ruby/object:Word
+    word: finder
+    stem: finder
+    docFrequency: 2.0
+    docPositions:
+    - 423
+  unabridged: !ruby/object:Word
+    word: unabridged
+    stem: unabridg
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 433
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 434
+  shop: !ruby/object:Word
+    word: shop
+    stem: shop
+    docFrequency: 2.0
+    docPositions:
+    - 436
+  advertising: !ruby/object:Word
+    word: advertising
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 437
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 437
+  api: !ruby/object:Word
+    word: api
+    stem: api
+    docFrequency: 2.0
+    docPositions:
+    - 438
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  ads: !ruby/object:Word
+    word: ads
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 441
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 442
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 2.0
+    docPositions:
+    - 443
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 443
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 447
+  getfullyear: !ruby/object:Word
+    word: getfullyear
+    stem: getfullyear
+    docFrequency: 2.0
+    docPositions:
+    - 447
+  incorporated: !ruby/object:Word
+    word: incorporated
+    stem: incorpor
+    docFrequency: 2.0
+    docPositions:
+    - 447
+  _qoptions: !ruby/object:Word
+    word: _qoptions
+    stem: _qoption
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  qacct: !ruby/object:Word
+    word: qacct
+    stem: qacct
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  _quantgc: !ruby/object:Word
+    word: _quantgc
+    stem: _quantgc
+    docFrequency: 3.0
+    docPositions:
+    - 463
+    - 471
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 7.0
+    docPositions:
+    - 464
+    - 465
+    - 467
+    - 468
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 464
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 464
+    - 465
+    - 468
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 8.0
+    docPositions:
+    - 465
+    - 466
+    - 472
+    - 473
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 467
+  len: !ruby/object:Word
+    word: len
+    stem: len
+    docFrequency: 4.0
+    docPositions:
+    - 466
+    - 467
+    - 468
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 6.0
+    docPositions:
+    - 466
+    - 468
+    - 472
+    - 474
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 4.0
+    docPositions:
+    - 467
+    - 468
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 2.0
+    docPositions:
+    - 468
+  quantsegs: !ruby/object:Word
+    word: quantsegs
+    stem: quantseg
+    docFrequency: 5.0
+    docPositions:
+    - 470
+    - 474
+  _qsegs: !ruby/object:Word
+    word: _qsegs
+    stem: _qseg
+    docFrequency: 4.0
+    docPositions:
+    - 471
+    - 472
+    - 473
+  __qseg: !ruby/object:Word
+    word: __qseg
+    stem: __qseg
+    docFrequency: 2.0
+    docPositions:
+    - 471
+  qarr: !ruby/object:Word
+    word: qarr
+    stem: qarr
+    docFrequency: 4.0
+    docPositions:
+    - 473
+    - 474
+  _: !ruby/object:Word
+    word: _
+    stem: _
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  sb: !ruby/object:Word
+    word: sb
+    stem: sb
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  scorecardresearch: !ruby/object:Word
+    word: scorecardresearch
+    stem: scorecardresearch
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 3.0
+    docPositions:
+    - 484
+    - 486
+  comscore: !ruby/object:Word
+    word: comscore
+    stem: comscor
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  setupfbconnect: !ruby/object:Word
+    word: setupfbconnect
+    stem: setupfbconnect
+    docFrequency: 2.0
+    docPositions:
+    - 502
+lineCount: 504
+wordCount: 1585
+rank: 0.2564102564102564
+title: Science | Definition of science by Merriam-Webster
+links:
+- http://www.facebook.com/merriamwebster
+- http://twitter.com/merriamwebster
+- http://www.britannica.com
+- http://scrabble.merriam.com/
+- http://www.spanishcentral.com
+- http://itunes.apple.com/us/app/merriam-webster-dictionary/id399452287?mt=8
+- http://itunes.apple.com/us/app/merriam-webster-dictionary/id438477986?mt=8
+- https://market.android.com/details?id=com.merriamwebster
+- https://twitter.com/share
+- http://www.learnersdictionary.com/search/science
+- http://www.wordcentral.com/cgi-bin/student?book=Student&va=science
+- http://www.spanishcentral.com/translate/science
+- http://www.spanishcentral.com/translate/science
+- http://www.nglish.com/spanish/science
+- http://www.nglish.com/spanish/science
+- http://arabic.britannicaenglish.com/science
+- http://arabic.britannicaenglish.com/science
+- http://beta.merriam-webster.com/
+- http://www.facebook.com/merriamwebster
+- http://www.facebook.com/merriamwebster
+- http://twitter.com/merriamwebster
+- http://twitter.com/merriamwebster
+- http://www.spanishcentral.com/
+- http://www.learnersdictionary.com/
+- http://www.wordcentral.com/
+- http://visual.merriam-webster.com/
+- http://scrabble.merriam.com/
+- http://unabridged.merriam-webster.com/?refr=U_mwol_other
+- http://arabic.britannicaenglish.com/en
+- http://www.nglish.com/spanish
+- http://www.dictionaryapi.com/
+- http://nws.merriam-webster.com/opendictionary/
+- http://www.spanishcentral.com/browse/a
+rawText: "\r\n\r\n\r\n\r\n\t\t\r\n        \t\r\n            \t\r\n                \tJoin
+  Us On  \r\n                \r\n                \r\n                    \r\n                \r\n
+  \               \r\n                \tAn Encyclopædia Britannica Company\r\n                \r\n
+  \           \t\r\n                    Dictionary\r\n                    Thesaurus\r\n
+  \                   Medical\r\n                    Scrabble®\r\n                    Spanish
+  Central\r\n            \t\r\n\t\t\t\t\r\n                   \r\n                       Browse
+  DictionaryBrowse Thesaurus\r\n                   \r\n                   \r\n                      Get
+  our free apps!iPhone•iPad•Android\r\n                   \r\n                \r\n
+  \                           \r\n      \r\n        \t\t\t\r\n        \t\r\n            \t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n
+  \                       \t\r\n                        \t\r\n                        \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n
+  \               \r\n            \r\n            \r\n\t\tinitMWOLAutoComplete();\r\n\t
+  \   \r\n\r\n\r\n\r\n\r\n\t\r\n\t    output_creative('div-gpt-ad-700937592189251447-4');\r\n\t\r\n\r\n
+  \   \r\n\t\t\t                \r\n                \t\r\n                        \r\n
+  \                   \t\r\n                            \r\n                        \r\n
+  \                           Games\r\n                        \r\n                        \r\n
+  \                   \r\n\r\n                \t\r\n                        \r\n                        \r\n
+  \                           \r\n                    \t\r\n                            Word
+  of the Day\r\n                        \r\n                        \r\n                    \r\n\r\n
+  \               \t\r\n                        \r\n                        \r\n                            \r\n
+  \                       \r\n                            Video\r\n                        \r\n
+  \                       \r\n                    \r\n\r\n                \t\r\n                        \r\n
+  \                       \r\n                            \r\n                        \r\n
+  \                           Blog: Words at Play\r\n                        \r\n
+  \                       \r\n                    \r\n\r\n                \t\r\n                        \r\n
+  \                       \r\n                            \r\n                        \r\n
+  \                           My Faves\r\n                        \r\n                        \r\n
+  \                   \r\n                \t\r\n\t\r\n\t\t\t.main_content_area {float:right
+  !important;}              \r\n\t                \t\r\n\t    \r\n\t\tDictionary\r\n\t
+  \   \r\n\t\t\t       \r\n                    \r\n        science\r\n\t\r\n\t\t\r\n\t\t/*
+  <![CDATA[ */ \r\n\t\t   EBcitation = {\r\n\t\t\t\"source\": \"website\",\r\n\t\t\t\"npnd\":
+  \"yes\",\r\n\t\t\t\"website\": {\r\n\t\t\t\t\"title\": \"science\"\r\n\t\t\t},\r\n\t\t\t\"pubonline\":
+  {\r\n\t\t\t\t\"title\": \"Merriam-Webster.com\",\r\n\t\t\t\t\"url\": \"http://www.merriam-webster.com/dictionary/science\",\r\n\t\t\t\t\"inst\":
+  \"Merriam-Webster\"\r\n\t\t\t},\r\n\t\t\t\"contributors\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"function\":
+  \"author\",\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t};\r\n\t\t   EBversion  = \"1.0\";\r\n\t\t
+  \  document.write(unescape(\"%3Cscript src=\\'http://media.easybib.com/citethis/\"+EBversion+\"/widget_mini.js\\'
+  type=\\'text/javascript\\'%3E%3C/script%3E\"));\r\n\t\t/* ]]> */\r\n\t\t\r\n    \r\n
+  \   \r\n            \r\n    \r\n    \r\n            Tweet\r\n            !function(d,s,id){var
+  js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,
+  'script', 'twitter-wjs');\r\n noun sci·ence \\ˈsī-ən(t)s\\                                                    \r\n
+  \                                                       : knowledge about or study
+  of the natural world based on facts learned through experiments and observation:
+  a particular area of scientific study (such as biology, physics, or chemistry) :
+  a particular branch of science: a subject that is formally studied in a college,
+  university, etc.\r\n                                                    Full Definition
+  of SCIENCE1  :  the state of knowing :  knowledge as distinguished from ignorance
+  or misunderstanding 2a   :  a department of systematized knowledge as an object
+  of study <the science of theology>  b   :  something (as a sport or technique) that
+  may be studied or learned like systematized knowledge <have it down to a science>
+  3a   :  knowledge or a system of knowledge covering general truths or the operation
+  of general laws especially as obtained and tested through scientific method  b   : 
+  such knowledge or such a system of knowledge concerned with the physical world and
+  its phenomena :  natural science 4  :  a system or method reconciling practical
+  ends with scientific laws <cooking is both a science and an art> 5  capitalized
+  \  :  christian science \t\tSee science defined for English-language learners \t\tSee
+  science defined for kids \r\nADVERTISEMENT\r\n    \r\n        \r\n\r\nExamples of
+  SCIENCEThe program encourages students to pursue a career in science.\na list of
+  terms commonly used in science\na new branch of science\nadvances in science and
+  technology\nStudents are required to take two sciences.\nstudents majoring in a
+  science\nThe Malay tapir, the largest of the world's four tapir species, remained
+  largely invisible to science until recently. The other three species of these odd,
+  endearing animals all live in South America. —Anthony King, New York Times, 2 June
+  2009\nIf there were any doubt, Golden's muckraking investigation—he is the Ida Tarbell
+  of college admissions—reveals that almost every word uttered by representatives
+  of the top colleges about the care and nuance and science of the much vaunted admissions
+  process is bunk. —Michael Wolff, New York Times Book Review, 17 Sept. 2006\nOf course,
+  there is both corporate and government-sponsored grant money available for such
+  initiatives in science and engineering. And scientists are used to working together
+  in laboratories. But in the humanities it was different, said the deans. —David
+  Laurence, Association of Departments of English Bulletin, Winter 2004\nThe journal
+  Annales was started in 1929, by Bloch and Lucien Febvre, two friends conversant
+  with the new sciences of sociology and geography, psychology and anthropology. —Stephen
+  Kotkin, New Yorker, 29 Sept. 2003\n[+]more[-]hide        \r\n            mw_ask_the_editors_module();\r\n
+  \       Origin of SCIENCEMiddle English, from Anglo-French, from Latin scientia,
+  from scient-, sciens having knowledge, from present participle of scire to know;
+  perhaps akin to Sanskrit chyati he cuts off, Latin scindere to split  — more at
+  shedFirst Known Use: 14th centuryRelated to SCIENCESynonymslore, knowledge, wisdomRelated
+  Wordsdope, information, intelligence, know, lowdown, news, skinny [slang]; data,
+  evidence, facts; acquaintance, awareness, familiarity, literacy; erudition, learning,
+  scholarship; expertise, know-howNear Antonymsignorance, inexperience, innocence,
+  nescience, unfamiliarity[+]more[-]hideOther Physics Termsamplitude, centrifugal,
+  centripetal, convection, gradient, hysteresis, kinetic, lase, quantum\n_gaq.push(['_trackEvent',
+  'Subject - Physics Terms', 'Displayed', 'science']);\n\r\n    mw_scrabble_speed_bump();\r\nSCIENCE
+  Defined for Kidsscience  noun  sci·ence \\ˈsī-əns\\Definition of SCIENCE for Kids1
+  \ :  knowledge about the natural world that is based on facts learned through experiments
+  and observation  2  :  an area of study that deals with the natural world (as biology
+  or physics)  3  :  a subject that is formally studied <the science of linguistics>
+  \ 4  :  something that can be studied and learned <Pitching is a science.> \r\n
+  \   Word Root of SCIENCE\r\n    \r\n    The Latin word scīre, meaning “to know”
+  or “to understand,” gives us the root sci. Words from the Latin scīre have something
+  to do with knowing or understanding. Science is the understanding of the world and
+  how everything in it works. A person's conscience is the knowledge of right and
+  wrong and the feeling that he or she should do right. Anything that is conscious
+  knows what it is feeling.    \r\n\r\n\r\nMedical Dictionaryscience  noun  sci·ence
+  \ \\ˈsī-ən(t)s\\Medical Definition of SCIENCE :  knowledge or a system of knowledge
+  covering general truths or the operation of general laws especially as obtained
+  and tested through the scientific method and concerned with the physical world and
+  its phenomena \r\nLearn More About SCIENCE Thesaurus: All synonyms and antonyms
+  for \"science\"\r\nSpanish Central: Spanish translation of \"science\"\r\nNglish:
+  Translation of \"science\" for Spanish speakers\r\nBritannica English: Translation
+  of \"science\" for Arabic speakersBrowse\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t39 ENTRIES
+  FOUND:\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\tscience\nscience fair\nscience fiction\nscience
+  of language\nscience of religion\nBachelor of Science\nbasic science\nbehavioral
+  science\nbig science\nChristian Science\ncognitive science\ncomputer science\ncreation
+  science\ndismal science\ndomestic science\nearth science\neconomic science\nexact
+  science\nforensic science\ngay science\ngeneral science\ninformation science\nJewish
+  Science\nlibrary science\nlife science\nmaster of science\nmaterials science\nmilitary
+  science\nnatural science\nnormative science\n\t\t\t\t\t\r\n\t\t\tNext Word in the
+  Dictionary: sciencedPrevious Word in the Dictionary: SCIDAll Words Near: science\r\nADVERTISEMENT\r\n\r\n\r\n\t.yahoo-image{background-size:
+  cover !important;}\r\n\r\n\r\n\r\n\r\n\r\n  var sectionCode = sectionCode || [];\r\n
+  \r\n  sectionCode.push(\"7f7bc6b1-e165-4743-ba27-34066b26073a\");\r\n \r\n  (function(){\r\n
+  \   var script = document.createElement(\"script\");\r\n    script.async = true;\r\n
+  \   script.src = \"https://s.yimg.com/av/gemini/ga/gemini.js\";\r\n    document.body.appendChild(script);\r\n
+  \ })();\r\nSeen & HeardWhat made you want to look up science? Please tell us where
+  you read or heard it (including the quote, if possible).View Seen & Heard Highlights
+  from Around the Site \r\n    \r\n\t.inner_content {\r\n\t\tbackground-color: #184057;\r\n\t\tpadding:
+  16px 0 15px;\r\n\t\ttext-align: center;\r\n\t\twidth: 100%;\r\n\t\tbox-shadow: inset
+  0px 0px 8px 1px rgba(0,0,0,0.15);\r\n\t}\r\n\r\n\t.inner_content span {\r\n\t\tfont-size:
+  1em;\r\n\t\tline-height: 1.2em;\r\n\t\tcolor: #fff;\r\n\t\tfont-weight: 400;\r\n\t}\r\n\r\n\t.inner_content
+  span a {\r\n\t\tborder-bottom: 1px solid #fff;\r\n\t\ttext-decoration: none;\r\n\t\tcolor:
+  #fff;\r\n\t}\r\n\r\n\tWe're working on a new site. Click here to get a sneak preview.\r\n\r\n\r\n
+  \   $('#banner-temp').remove();\r\n    $('.beta_banner_container').insertBefore($('.header_container'));\r\n\r\n\t\t\r\n\t
+  \  \t    \r\n    \r\n        \r\n        \r\n            \r\n\r\n        \r\n            Test
+  Your Vocabulary!\r\n        \r\n\r\n        \r\n            \r\n        \r\n    \r\n\r\n\r\n\r\n$('.quizzes_LR_ref_container')[0].minOffset
+  = $('.main_content_area').offset().top;\r\n$(window).scroll(function() {\r\n    var
+  promo = $('.quizzes_LR_ref_container');\r\n    var footer = $('.footer_container');\r\n
+  \   var left_rail = $('.main_content_area');\r\n    //if ((promo.offset().top +
+  promo.height() + 10) >= footer.offset().top) {\r\n    if (promo.offset().top >=
+  (footer.offset().top - 325)) {\r\n        //promo.offset({ top: footer.offset().top
+  - promo.height() - 10 });\r\n        promo.offset({ top: footer.offset().top - 325
+  });\r\n    } \r\n    else if (promo.offset().top < promo[0].minOffset) {\r\n        promo.offset({
+  top: promo[0].minOffset });\r\n    };\r\n});\r\n\r\n            \r\n                       \r\n
+  \           \r\n\t\t\n    mw_word_of_the_day_rail_promo();\n\n    \n        output_creative('div-gpt-ad-300917135440447318-2');\n
+  \    \n\n\n    mw_top_ten_list_rail_promo();\n\n\n    \n        output_creative('div-gpt-ad-894456462400224661-6');\n
+  \   \n\n\n    mw_quiz_rail_promo();\n\n\n    \n        output_creative('div-gpt-ad-148753587139584500-8');\n
+  \   \n\n\n    mw_trend_watch_rail_promo();\n\r\n        \r\n        \r\n        \r\n\t\r\n\tnew
+  MWOLPopularityWidget({\r\n\t\treference: \"dictionary\",\r\n\t\tword: \"science\"\r\n\t});\r\n\n
+  \   // Output the my saved words widget.\n    new MWOLSavedWordWidget({\n        reference:
+  \"dictionary\",\n        word: \"science\"\n    });\n\r\n\t\t\t\r\n    \r\n        \r\n
+  \       10 Charming Words for Nasty People\r\n        Put-downs with flair\r\n        Learn
+  More \r\n    \r\n    \r\n    \r\n        \r\n        When \"Literally\" isn't, well,
+  literal\r\n        How to use a word that (literally) drives some people nuts.\r\n
+  \       Watch Now \r\n    \r\n    \r\n    \r\n        \r\n        Know what this
+  is?\r\n        Test your vocab with our fun, fast game\r\n        Go Play \r\n    \r\n
+  \   \r\n    \r\n        \r\n        Fear of cats?\r\n        Ailurophobia, and 9
+  other unusual fears\r\n        Learn More \r\n    \r\n        \r\n\r\n    \r\n    \r\n\t\r\n
+  \       <!--\r\n        function popWin(URL){\r\n        aWindow=window.open(URL,\"audio_window\",\"toolbar=no,scrollbars=yes,status=no,resizable=yes,menubar=no,width=604,height=300\");}\r\n
+  \       // -->\r\n    \r\n        setupEntry();\r\n        mw_recirc_bar();\r\n
+  \   \r\n        \r\n    \r\n        \r\n\t\t\t            \r\n                \r\n
+  \                   Join Us\r\n                    \r\n                    \t\r\n
+  \                       \t\r\n                        \r\n                        \r\n
+  \                       \tMerriam-Webster  on Facebook \r\n                        \r\n
+  \                   \r\n                    \r\n                    \t\r\n                        \t\r\n
+  \                       \r\n                        \r\n                        \tMerriam-Webster
+  \ on Twitter \r\n                        \r\n                    \r\n                \r\n
+  \               \r\n                    Bookstore: Digital and Print\r\n                    \r\n
+  \                   \tMerriam-Webster references for Mobile, Kindle, print, and
+  more.\r\n                    \r\n                    \r\n                    \tSee
+  All \r\n                    \r\n                \r\n                \r\n                    Other
+  Merriam-Webster Dictionaries\r\n                    \r\n                    \tSpanish
+  Central \r\n                        \tLearner's ESL Dictionary \r\n                        \tWordCentral
+  for Kids \r\n                        \tVisual Dictionary \r\n                        \r\n
+  \                   \r\n                    \tSCRABBLE® Word Finder \r\n                        \tMerriam-Webster's
+  Unabridged Dictionary \r\n                            Britannica English - Arabic
+  Translation \r\n                            Nglish - Spanish-English Translation
+  \r\n                        \r\n                \r\n            \r\n        \r\n
+  \       \r\n\t\t\t            \r\n                Home \r\n                    Help
+  \r\n                    About Us \r\n                    Shop \r\n                    Advertising
+  Info \r\n                    Dictionary API \r\n                    Privacy Policy
+  \r\n                    Terms of Use\r\n                About Our Ads \r\n                    Contact
+  Us \r\n                    Browser Tools \r\n                    The Open Dictionary\r\n
+  \               \r\n            \r\n                © document.write(new Date().getFullYear());
+  Merriam-Webster, Incorporated\r\n                \r\n            \r\n            \tBrowse
+  the Dictionary \r\n                    Browse the Thesaurus \r\n                    Browse
+  the Spanish-English Dictionary \r\n                    Browse the Medical Dictionary\r\n
+  \                       \r\n    \r\n\r\n\t\r\n    _qoptions=\r\n        {\tqacct:\"p-2a93ALTZSnZrY\"\r\n
+  \                   };\r\n    \r\n    //<!--\r\n        function _quantgc(n) {\r\n
+  \       var c=document.cookie;if(!c)return '';\r\n        var i=c.indexOf(n+\"=\");if(-1==i)return
+  '';\r\n        var len=i+n.length+1;\r\n        var end=c.indexOf(\";\", len);\r\n
+  \       return c.substring(len,end<0?c.length:end);\r\n        }\r\n        quantSegs
+  = \"\";\r\n        var _qsegs = _quantgc('__qseg').split('|');\r\n        for (var
+  i=0;i < _qsegs.length;i++) {\r\n        var qArr=_qsegs[i].split(\"_\")\r\n        if
+  (qArr.length>1) { if (quantSegs.length >= 1){ quantSegs += \",\";} quantSegs +=
+  qArr[1]; }\r\n        }\r\n    // -->\r\n    \r\n        \r\n    \r\n    \r\n    \r\n
+  \   \r\n    !\r\n    document.write(unescape(\"%3Cscript src='\" + (document.location.protocol
+  == \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js'
+  %3E%3C/script%3E\"));\r\n    \r\n    COMSCORE.beacon({\r\n    c1:2,\r\n    c2:6035486,\r\n
+  \   c3:\"\",\r\n    c4:\"\",\r\n    c5:\"\",\r\n    c6:\"\",\r\n    c15:\"\"\r\n
+  \   });\r\n    \r\n    \r\n    \r\n    \r\n    \r\n\r\n\r\n    setupFBConnect();\r\n:
+  knowledge about or study of the natural world based on facts learned through experiments
+  and observation: a particular area of scientific study (such as biology, physics,
+  or chemistry) : a particular branch of science: a subject that is formally studied
+  in a college, university, etc.What made you want to look up science? Please tell
+  us where you read or heard it (including the quote, if possible)."

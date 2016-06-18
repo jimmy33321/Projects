@@ -1,0 +1,4639 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 46
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 140
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 61
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 148
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 63
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 334
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 64
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 338
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 71
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 172
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 101
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 311
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 21
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 325
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 32
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 366
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 415
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 74
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 421
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 79
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 436
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 240
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 453
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 35
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 459
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 460
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 463
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 465
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 36
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 466
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 819
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 835
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 35
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 838
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 839
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 859
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 873
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 891
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 920
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 52
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 67
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 166
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 170
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 175
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 179
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-kmhxoo"
+    line: 922
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 186
+address: http://www.foxnews.com/us/2015/12/14/california-hit-with-chilly-blast-as-east-coast-keeps-warm/?intcmp=latestnews
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\t\n"
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=us', 'subsection=regions');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\tFox News\n"
+- "\t\t\tFox Business\n"
+- "\t\t\tFox News Latino\n"
+- "\t\t\tFox News Go\n"
+- "\t\t\tFox News Radio\n"
+- "\t\t\tFox Nation\n"
+- "\t\t\tFox News Insider\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\tMenu\n"
+- "\t\n"
+- "\t\n"
+- "\t\tHome\n"
+- "\t\tFoxNews.com\n"
+- "\t\t\n"
+- "\t\t\tSearch\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t  \n"
+- " \n"
+- "   \n"
+- "\t\t\n"
+- "\t\t  \t\n"
+- "\t\tvar vcmArticleInfo = {\n"
+- "\t\t\tvcmId: \"e7c08a775b0a1510VgnVCM100000d7c1a8c0RCRD\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/us/2015/12/14/california-hit-with-chilly-blast-as-east-coast-keeps-warm/\",\n"
+- "\t\t\tpubDate:\"December 14, 2015\",\n"
+- "\t\t\tmyTopChannelName:\"us\",\n"
+- "\t\t\tsummary:\"<p>A blast of wintry weather could keep Southern California\\'s
+  temperatures in the 50s Monday, but the thermometer could hit the upper 60s in parts
+  of New York and Pennsylvania.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"true\",\n"
+- "\t\t\tsponsored:\"false\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"e7c08a775b0a1510VgnVCM100000d7c1a8c0RCRD\";\n"
+- "\t\tvar disqus_category_id = \"462851\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\tU.S. Home\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\n"
+- "\t\t\tNew York\n"
+- "\t\t\tCalifornia hit with chilly blast as East Coast keeps warm\n"
+- "\t\t\t\n"
+- "\t\t\t \t\t\n"
+- "\t\t\t \t\tPublished December 14, 2015FoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t                Facebook0\n"
+- "\t\t                Twitter0\n"
+- "\t\t                livefyre\n"
+- "\t                \tEmail\n"
+- "\t\t\t            Print\t                \n"
+- "\t\t            \n"
+- "\t                       \n"
+- "\t            \n"
+- "            \t\t\t\n"
+- "\t\t\t \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\t   \t\t\t\t\t\n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\tA blast of wintry weather could keep Southern California's temperatures
+  in the 50s Monday, but the thermometer could hit the upper 60s in parts of New York
+  and Pennsylvania. \n"
+- "A weekend storm that dumped rain and snow on Southern California had largely moved
+  out Monday, leaving behind temperatures about 10 degrees colder than normal. Overnight
+  temperatures dipped into the 30s in Los Angeles County, and will barely top 60 during
+  the day. \n"
+- "A high surf advisory is in effect for San Diego County through Tuesday, with waves
+  up to 8 feet expected. \n"
+- "Drivers are urged to use caution on mountain roads where wind gusts up to 70 mph
+  are predicted. Chains are required on several roads after snow fell on the San Bernardino
+  Mountains. \n"
+- |
+  A stretch of northbound Interstate 5 near Castaic was reopened after a closure caused by flash flooding.
+- " \n"
+- "Meanwhile, forecasters said unseasonably warm temperatures were expected to linger
+  in the Northeast for most of the coming week. The thermometer hit 70 degrees at
+  New York's JFK airport Sunday, shattering the day's previous record of 63 degrees.
+  \n"
+- |
+  The Associated Press contributed to this report.
+- "\t\t\n"
+- "\t\n"
+- "\t\t\n"
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- |2+
+
+- "\t\t\t\t    Trending in U.S.\n"
+- "\t\t\t     \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t1\n"
+- "\t\t\t\t\tProsecutor: Massachusetts teen who raped and killed teacher knew right
+  from wrong \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t2\n"
+- "\t\t\t\t\tSchool principal bans Santa, Thanksgiving and Pledge of Allegiance\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t3\n"
+- "\t\t\t\t\tIndiana school uses mannequins for Nativity scene after ban, audience
+  moved to tears\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t4\n"
+- "\t\t\t\t\tVideo, 911 call detail cops firing 33 times at man who refused to drop
+  gun\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t5\n"
+- "\t\t\t\t\tSchool cuts HS yearbook photo over American flag backdrop \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\tSee all Trends\n"
+- "\t\n"
+- " \n"
+- "   \n"
+- |2+
+
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- |2+
+
+- "\t\tBank Rates\n"
+- "\t\t\n"
+- "\t\t\t \n"
+- "\t\t\t\t\t\t\tMortgage\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t  \n"
+- "\t\t\t\t\t\t\tHome Equity\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t  \n"
+- "\t\t\t\t\t\t\tAutos\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t  \n"
+- "\t\t\t\t\t\t\tCD Rates\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t  \t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- |
+  Loan Type
+- |2
+        Graph
+- |2
+        Rate
+- |2
+        +/-
+- |2
+        Last Week
+- |2
+     30 Y Fixed
+- "      \n"
+- "      3.81% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.97% \n"
+- |2
+            
+- |2
+     15 Y Fixed
+- "      \n"
+- "      3.00% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.02% \n"
+- |2
+            
+- |2
+     30 Y Fixed Jumbo
+- "      \n"
+- "      4.30% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.47% \n"
+- |2
+            
+- |2
+     5/1 ARM
+- "      \n"
+- "      3.21% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.31% \n"
+- |2
+            
+- |2
+     5/1 Jumbo ARM
+- "      \n"
+- "      3.90% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.91% \n"
+- |2
+            
+- "   \n"
+- |2
+     Find Personalized RatesSearch
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\t\t\n"
+- |
+  Loan Type
+- |2
+        Graph
+- |2
+        Rate
+- |2
+        +/-
+- |2
+        Last Week
+- "   $30K HELOC \n"
+- "      \n"
+- "      4.54% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.69% \n"
+- |2
+            
+- "   $50K HELOC \n"
+- "      \n"
+- "      4.06% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.10% \n"
+- |2
+            
+- |2
+     $30K Loan
+- "      \n"
+- "      4.48% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.47% \n"
+- |2
+            
+- |2
+     $50K Loan
+- "      \n"
+- "      4.14% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.12% \n"
+- |2
+            
+- |2
+     $75K Loan
+- "      \n"
+- "      4.14% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      4.12% \n"
+- |2
+            
+- "   \n"
+- |2
+     Find Personalized RatesSearch
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\t\t\n"
+- |
+  Loan Type
+- |2
+        Graph
+- |2
+        Rate
+- |2
+        +/-
+- |2
+        Last Week
+- |2
+     36 M New
+- "      \n"
+- "      3.00% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "         \t\t\t--\n"
+- "         \n"
+- "      \n"
+- "      3.00% \n"
+- |2
+            
+- |2
+     36 M Used
+- "      \n"
+- "      3.16% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.19% \n"
+- |2
+            
+- |2
+     48 M New
+- "      \n"
+- "      3.20% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.22% \n"
+- |2
+            
+- |2
+     48 M Used
+- "      \n"
+- "      2.85% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "         \t\t\t--\n"
+- "         \n"
+- "      \n"
+- "      2.85% \n"
+- |2
+            
+- |2
+     60 M New
+- "      \n"
+- "      3.32% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      3.34% \n"
+- |2
+            
+- "   \n"
+- |2
+     Find Personalized RatesSearch
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\t\t\n"
+- |
+  Loan Type
+- |2
+        Graph
+- |2
+        Yield
+- |2
+        +/-
+- |2
+        Last Week
+- |2
+     6 month
+- "      \n"
+- "      0.34% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      0.33% \n"
+- |2
+            
+- |2
+     1 yr
+- "      \n"
+- "      0.61% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "         \t\t\t--\n"
+- "         \n"
+- "      \n"
+- "      0.62% \n"
+- |2
+            
+- |2
+     5 yr
+- "      \n"
+- "      1.38% \n"
+- "         \t    \n"
+- "      \n"
+- "      \n"
+- "      1.36% \n"
+- |2
+            
+- "   \n"
+- |2
+     Compare Rates
+- |2
+           1-year CD
+- |2
+           1-year CD
+- |2
+              6-month CD
+- |2
+              3-month CD
+- |2
+              5-year CD
+- |2
+              1-year jumbo CD
+- |2
+              Money Market Account
+- |2
+              Jumbo MMA
+- |2
+           Search
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "      \t\n"
+- "   \n"
+- "\t\t\n"
+- "\t\t\t\t \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- |2+
+
+- "\t\t\n"
+- "   \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- "\t\t\t\n"
+- "\t\n"
+- "\t\t  \t\n"
+- "\t\t\t  \t   \n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "      \n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\t\t \n"
+- "\t\t    \t  \t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\tSite Index\n"
+- "\t\tSections\n"
+- "\t\t\t\tHome\n"
+- "\t\t\t\t\tVideo\n"
+- "\t\t\t\t\tPolitics\n"
+- "\t\t\t\t\tU.S.\n"
+- "\t\t\t\t\tOpinion\n"
+- "\t\t\t\t\tEntertainment\n"
+- "\t\t\t\t\tTech\n"
+- "\t\t\t\t\tScience\n"
+- "\t\t\t\t\tHealth\n"
+- "\t\t\t\t\tTravel\n"
+- "\t\t\t\t\tLifestyle\n"
+- "\t\t\t\t\tWorld\n"
+- "\t\t\t\t\tSports\n"
+- "\t\t\t\t\tWeather\n"
+- "\t\t\t\t\tOn Air\n"
+- "\t\t\t\tTools\n"
+- "\t\t\t\tLive Video\n"
+- "\t\t\t\t\tTrending\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\tAlerts\n"
+- "\t\t\t\t\tMobile\n"
+- "\t\t\t\t\tPodcasts\n"
+- "\t\t\t\t\tRadio\n"
+- "\t\t\t\t\tFox News Store\n"
+- "\t\t\t\t\tApps & Downloads\n"
+- "\t\t\t\tAbout\n"
+- "\t\t\t\tOn Air Personalities\n"
+- "\t\t\t\t\tCareers\n"
+- "\t\t\t\t\tCollege Students\n"
+- "\t\t\t\t\tFox Around the World\n"
+- "\t\t\t\t\tAdvertise With Us\n"
+- "\t\t\t\t\tTerms of Use\n"
+- "\t\t\t\t\tPrivacy Policy\n"
+- "\t\t\t\t\tAd Choices\n"
+- "\t\t\t\t\tContact Us\n"
+- "\t\t\t\t\tEmail Newsroom\n"
+- "\t\t\t\t\tFAQ\n"
+- "\t\t\t\t\tMedia Relations\n"
+- "\t\t\t\t\tClosed Captioning Policy\n"
+- "\t\t\t\tFollow\n"
+- "\t\t\t\tFacebook\n"
+- "\t\t\t\t\tTwitter\n"
+- "\t\t\t\t\tGoogle+\n"
+- "\t\t\t\t\tLinkedIn\n"
+- "\t\t\t\t\tRSS\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\n"
+- "\t\t\tFox News\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\tThis material may not be published, broadcast, rewritten, or redistributed.
+  ©2015 FOX News Network, LLC. All rights reserved. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\n"
+- |2+
+
+- "\t         \n"
+- |2
+   jQuery.ad.pre(); FOX.site.bottomInit();
+- "  \t\n"
+- Sign in to comment!A blast of wintry weather could keep Southern California's temperatures
+  in the 50s Monday, but the thermometer could hit the upper 60s in parts of New York
+  and Pennsylvania.A weekend storm that dumped rain and snow on Southern California
+  had largely moved out Monday, leaving behind temperatures about 10 degrees colder
+  than normal. Overnight temperatures dipped into the 30s in Los Angeles County, and
+  will barely top 60 during the day.A high surf advisory is in effect for San Diego
+  County through Tuesday, with waves up to 8 feet expected.Drivers are urged to use
+  caution on mountain roads where wind gusts up to 70 mph are predicted. Chains are
+  required on several roads after snow fell on the San Bernardino Mountains.A stretch
+  of northbound Interstate 5 near Castaic was reopened after a closure caused by flash
+  flooding.Meanwhile, forecasters said unseasonably warm temperatures were expected
+  to linger in the Northeast for most of the coming week. The thermometer hit 70 degrees
+  at New York's JFK airport Sunday, shattering the day's previous record of 63 degrees.The
+  Associated Press contributed to this report.AdvertisementAdvertisementThis material
+  may not be published, broadcast, rewritten, or redistributed. ©2015 FOX News Network,
+  LLC. All rights reserved. All market data delayed 20 minutes. Privacy - Terms -
+  FAQ
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 204
+    - 221
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 625
+    - 681
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 3
+    - 221
+    - 223
+    - 657
+    - 661
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 5.0
+    docPositions:
+    - 3
+    - 43
+    - 126
+    - 276
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 206
+    - 584
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 683
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 683
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 28.0
+    docPositions:
+    - 9
+    - 148
+    - 149
+    - 150
+    - 151
+    - 152
+    - 177
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 650
+    - 656
+    - 674
+    - 677
+    - 681
+    - 683
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 21.0
+    docPositions:
+    - 9
+    - 16
+    - 59
+    - 145
+    - 152
+    - 177
+    - 178
+    - 180
+    - 181
+    - 182
+    - 184
+    - 188
+    - 190
+    - 191
+    - 192
+    - 194
+    - 650
+    - 674
+    - 677
+    - 683
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 18.0
+    docPositions:
+    - 9
+    - 21
+    - 33
+    - 47
+    - 58
+    - 68
+    - 79
+    - 90
+    - 102
+    - 108
+    - 117
+    - 130
+    - 143
+    - 203
+    - 236
+    - 371
+    - 627
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 14
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 14
+    - 17
+    - 643
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 319
+    - 644
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 7.0
+    docPositions:
+    - 13
+    - 64
+    - 74
+    - 341
+    - 628
+    - 643
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 168
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 16
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 5.0
+    docPositions:
+    - 17
+    - 182
+    - 192
+    - 649
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 21
+    - 629
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 3.0
+    docPositions:
+    - 28
+    - 125
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 7.0
+    docPositions:
+    - 32
+    - 33
+    - 118
+    - 236
+    - 319
+    - 630
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 18.0
+    docPositions:
+    - 32
+    - 33
+    - 91
+    - 92
+    - 93
+    - 145
+    - 146
+    - 224
+    - 236
+    - 304
+    - 310
+    - 319
+    - 630
+    - 683
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 240
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 120
+    - 244
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 4.0
+    docPositions:
+    - 36
+    - 122
+    - 248
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 252
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 4.0
+    docPositions:
+    - 38
+    - 121
+    - 256
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 72
+    - 260
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 264
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 123
+    - 268
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 272
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 272
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 4.0
+    docPositions:
+    - 46
+    - 47
+    - 631
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 632
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 9.0
+    docPositions:
+    - 58
+    - 64
+    - 159
+    - 439
+    - 447
+    - 455
+    - 463
+    - 471
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 5.0
+    docPositions:
+    - 67
+    - 68
+    - 72
+    - 633
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 669
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 4.0
+    docPositions:
+    - 75
+    - 86
+    - 103
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 5.0
+    docPositions:
+    - 78
+    - 79
+    - 84
+    - 634
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 6.0
+    docPositions:
+    - 81
+    - 142
+    - 143
+    - 641
+    - 653
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 8.0
+    docPositions:
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 96
+    - 635
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 4.0
+    docPositions:
+    - 101
+    - 102
+    - 636
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 4.0
+    docPositions:
+    - 107
+    - 108
+    - 637
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 111
+    - 158
+    - 173
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 5.0
+    docPositions:
+    - 116
+    - 117
+    - 638
+    - 656
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 118
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 4.0
+    docPositions:
+    - 129
+    - 130
+    - 639
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 139
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 146
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 662
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 150
+    - 151
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 305
+    - 683
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 5.0
+    docPositions:
+    - 152
+    - 165
+    - 310
+    - 683
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 158
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 173
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 169
+    - 311
+    - 683
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 341
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 189
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 190
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 191
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 193
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 194
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  vcmarticleinfo: !ruby/object:Word
+    word: vcmarticleinfo
+    stem: vcmarticleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  california: !ruby/object:Word
+    word: california
+    stem: california
+    docFrequency: 8.0
+    docPositions:
+    - 221
+    - 224
+    - 281
+    - 304
+    - 305
+    - 683
+  hit: !ruby/object:Word
+    word: hit
+    stem: hit
+    docFrequency: 8.0
+    docPositions:
+    - 221
+    - 224
+    - 281
+    - 304
+    - 310
+    - 683
+  chilly: !ruby/object:Word
+    word: chilly
+    stem: chilli
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 281
+  blast: !ruby/object:Word
+    word: blast
+    stem: blast
+    docFrequency: 6.0
+    docPositions:
+    - 221
+    - 224
+    - 281
+    - 304
+    - 683
+  east: !ruby/object:Word
+    word: east
+    stem: east
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 281
+  coast: !ruby/object:Word
+    word: coast
+    stem: coast
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 281
+  keeps: !ruby/object:Word
+    word: keeps
+    stem: keep
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 281
+  warm: !ruby/object:Word
+    word: warm
+    stem: warm
+    docFrequency: 5.0
+    docPositions:
+    - 221
+    - 281
+    - 310
+    - 683
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 284
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 224
+  wintry: !ruby/object:Word
+    word: wintry
+    stem: wintri
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 5.0
+    docPositions:
+    - 224
+    - 304
+    - 640
+    - 683
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 7.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  southern: !ruby/object:Word
+    word: southern
+    stem: southern
+    docFrequency: 6.0
+    docPositions:
+    - 224
+    - 304
+    - 305
+    - 683
+  temperatures: !ruby/object:Word
+    word: temperatures
+    stem: temperatur
+    docFrequency: 10.0
+    docPositions:
+    - 224
+    - 304
+    - 305
+    - 310
+    - 683
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 6.0
+    docPositions:
+    - 224
+    - 304
+    - 305
+    - 683
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  thermometer: !ruby/object:Word
+    word: thermometer
+    stem: thermomet
+    docFrequency: 6.0
+    docPositions:
+    - 224
+    - 304
+    - 310
+    - 683
+  upper: !ruby/object:Word
+    word: upper
+    stem: upper
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  parts: !ruby/object:Word
+    word: parts
+    stem: part
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 10.0
+    docPositions:
+    - 224
+    - 280
+    - 304
+    - 310
+    - 490
+    - 509
+    - 528
+    - 683
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 7.0
+    docPositions:
+    - 224
+    - 280
+    - 304
+    - 310
+    - 683
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 10.0
+    docPositions:
+    - 224
+    - 304
+    - 305
+    - 323
+    - 329
+    - 683
+  pennsylvania: !ruby/object:Word
+    word: pennsylvania
+    stem: pennsylvania
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 304
+    - 683
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 226
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 226
+  sponsored: !ruby/object:Word
+    word: sponsored
+    stem: sponsor
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 284
+    - 677
+    - 683
+  livefyre: !ruby/object:Word
+    word: livefyre
+    stem: livefyr
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 662
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 293
+  storm: !ruby/object:Word
+    word: storm
+    stem: storm
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  dumped: !ruby/object:Word
+    word: dumped
+    stem: dump
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  rain: !ruby/object:Word
+    word: rain
+    stem: rain
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  snow: !ruby/object:Word
+    word: snow
+    stem: snow
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 307
+    - 683
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  largely: !ruby/object:Word
+    word: largely
+    stem: larg
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  moved: !ruby/object:Word
+    word: moved
+    stem: move
+    docFrequency: 4.0
+    docPositions:
+    - 305
+    - 335
+    - 683
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  leaving: !ruby/object:Word
+    word: leaving
+    stem: leav
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  degrees: !ruby/object:Word
+    word: degrees
+    stem: degre
+    docFrequency: 7.0
+    docPositions:
+    - 305
+    - 310
+    - 683
+  colder: !ruby/object:Word
+    word: colder
+    stem: colder
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  overnight: !ruby/object:Word
+    word: overnight
+    stem: overnight
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  dipped: !ruby/object:Word
+    word: dipped
+    stem: dip
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  los: !ruby/object:Word
+    word: los
+    stem: lo
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  angeles: !ruby/object:Word
+    word: angeles
+    stem: angel
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  county: !ruby/object:Word
+    word: county
+    stem: counti
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 306
+    - 683
+  barely: !ruby/object:Word
+    word: barely
+    stem: bare
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 4.0
+    docPositions:
+    - 305
+    - 675
+    - 683
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 683
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 5.0
+    docPositions:
+    - 305
+    - 310
+    - 683
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  surf: !ruby/object:Word
+    word: surf
+    stem: surf
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  advisory: !ruby/object:Word
+    word: advisory
+    stem: advisori
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  effect: !ruby/object:Word
+    word: effect
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 307
+    - 683
+  diego: !ruby/object:Word
+    word: diego
+    stem: diego
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  tuesday: !ruby/object:Word
+    word: tuesday
+    stem: tuesdai
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  waves: !ruby/object:Word
+    word: waves
+    stem: wave
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 307
+    - 683
+  feet: !ruby/object:Word
+    word: feet
+    stem: feet
+    docFrequency: 3.0
+    docPositions:
+    - 306
+    - 683
+  expected: !ruby/object:Word
+    word: expected
+    stem: expect
+    docFrequency: 5.0
+    docPositions:
+    - 306
+    - 310
+    - 683
+  drivers: !ruby/object:Word
+    word: drivers
+    stem: driver
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  urged: !ruby/object:Word
+    word: urged
+    stem: urg
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 307
+    - 658
+    - 683
+  caution: !ruby/object:Word
+    word: caution
+    stem: caution
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  mountain: !ruby/object:Word
+    word: mountain
+    stem: mountain
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  roads: !ruby/object:Word
+    word: roads
+    stem: road
+    docFrequency: 5.0
+    docPositions:
+    - 307
+    - 683
+  wind: !ruby/object:Word
+    word: wind
+    stem: wind
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  gusts: !ruby/object:Word
+    word: gusts
+    stem: gust
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  mph: !ruby/object:Word
+    word: mph
+    stem: mph
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  predicted: !ruby/object:Word
+    word: predicted
+    stem: predict
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  chains: !ruby/object:Word
+    word: chains
+    stem: chain
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 6.0
+    docPositions:
+    - 307
+    - 308
+    - 335
+    - 683
+  fell: !ruby/object:Word
+    word: fell
+    stem: fell
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  bernardino: !ruby/object:Word
+    word: bernardino
+    stem: bernardino
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  mountains: !ruby/object:Word
+    word: mountains
+    stem: mountain
+    docFrequency: 3.0
+    docPositions:
+    - 307
+    - 683
+  stretch: !ruby/object:Word
+    word: stretch
+    stem: stretch
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  northbound: !ruby/object:Word
+    word: northbound
+    stem: northbound
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  interstate: !ruby/object:Word
+    word: interstate
+    stem: interst
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  near: !ruby/object:Word
+    word: near
+    stem: near
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  castaic: !ruby/object:Word
+    word: castaic
+    stem: castaic
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  reopened: !ruby/object:Word
+    word: reopened
+    stem: reopen
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  closure: !ruby/object:Word
+    word: closure
+    stem: closur
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  caused: !ruby/object:Word
+    word: caused
+    stem: caus
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  flash: !ruby/object:Word
+    word: flash
+    stem: flash
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  flooding: !ruby/object:Word
+    word: flooding
+    stem: flood
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 683
+  meanwhile: !ruby/object:Word
+    word: meanwhile
+    stem: meanwhil
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  forecasters: !ruby/object:Word
+    word: forecasters
+    stem: forecast
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  unseasonably: !ruby/object:Word
+    word: unseasonably
+    stem: unseason
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  linger: !ruby/object:Word
+    word: linger
+    stem: linger
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  northeast: !ruby/object:Word
+    word: northeast
+    stem: northeast
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  coming: !ruby/object:Word
+    word: coming
+    stem: come
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 7.0
+    docPositions:
+    - 310
+    - 387
+    - 438
+    - 489
+    - 546
+    - 683
+  jfk: !ruby/object:Word
+    word: jfk
+    stem: jfk
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  airport: !ruby/object:Word
+    word: airport
+    stem: airport
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  shattering: !ruby/object:Word
+    word: shattering
+    stem: shatter
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 310
+    - 683
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 683
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 683
+  contributed: !ruby/object:Word
+    word: contributed
+    stem: contribut
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 683
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 362
+  prosecutor: !ruby/object:Word
+    word: prosecutor
+    stem: prosecutor
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  massachusetts: !ruby/object:Word
+    word: massachusetts
+    stem: massachusett
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  teen: !ruby/object:Word
+    word: teen
+    stem: teen
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  raped: !ruby/object:Word
+    word: raped
+    stem: rape
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  killed: !ruby/object:Word
+    word: killed
+    stem: kill
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  teacher: !ruby/object:Word
+    word: teacher
+    stem: teacher
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  knew: !ruby/object:Word
+    word: knew
+    stem: knew
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  wrong: !ruby/object:Word
+    word: wrong
+    stem: wrong
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 4.0
+    docPositions:
+    - 329
+    - 335
+    - 347
+  principal: !ruby/object:Word
+    word: principal
+    stem: princip
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  bans: !ruby/object:Word
+    word: bans
+    stem: ban
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  santa: !ruby/object:Word
+    word: santa
+    stem: santa
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  thanksgiving: !ruby/object:Word
+    word: thanksgiving
+    stem: thanksgiv
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  pledge: !ruby/object:Word
+    word: pledge
+    stem: pledg
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  allegiance: !ruby/object:Word
+    word: allegiance
+    stem: allegi
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  uses: !ruby/object:Word
+    word: uses
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  mannequins: !ruby/object:Word
+    word: mannequins
+    stem: mannequin
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  nativity: !ruby/object:Word
+    word: nativity
+    stem: nativ
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  scene: !ruby/object:Word
+    word: scene
+    stem: scene
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  ban: !ruby/object:Word
+    word: ban
+    stem: ban
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  audience: !ruby/object:Word
+    word: audience
+    stem: audienc
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  tears: !ruby/object:Word
+    word: tears
+    stem: tear
+    docFrequency: 2.0
+    docPositions:
+    - 335
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  detail: !ruby/object:Word
+    word: detail
+    stem: detail
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  cops: !ruby/object:Word
+    word: cops
+    stem: cop
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  firing: !ruby/object:Word
+    word: firing
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  refused: !ruby/object:Word
+    word: refused
+    stem: refus
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  drop: !ruby/object:Word
+    word: drop
+    stem: drop
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  gun: !ruby/object:Word
+    word: gun
+    stem: gun
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  cuts: !ruby/object:Word
+    word: cuts
+    stem: cut
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  hs: !ruby/object:Word
+    word: hs
+    stem: hs
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  yearbook: !ruby/object:Word
+    word: yearbook
+    stem: yearbook
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  photo: !ruby/object:Word
+    word: photo
+    stem: photo
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  flag: !ruby/object:Word
+    word: flag
+    stem: flag
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  backdrop: !ruby/object:Word
+    word: backdrop
+    stem: backdrop
+    docFrequency: 2.0
+    docPositions:
+    - 347
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 356
+    - 677
+    - 683
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  bank: !ruby/object:Word
+    word: bank
+    stem: bank
+    docFrequency: 2.0
+    docPositions:
+    - 365
+  rates: !ruby/object:Word
+    word: rates
+    stem: rate
+    docFrequency: 4.0
+    docPositions:
+    - 365
+    - 377
+    - 575
+  mortgage: !ruby/object:Word
+    word: mortgage
+    stem: mortgag
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  equity: !ruby/object:Word
+    word: equity
+    stem: equiti
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  autos: !ruby/object:Word
+    word: autos
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  cd: !ruby/object:Word
+    word: cd
+    stem: cd
+    docFrequency: 8.0
+    docPositions:
+    - 377
+    - 576
+    - 577
+    - 578
+    - 579
+    - 580
+    - 581
+  loan: !ruby/object:Word
+    word: loan
+    stem: loan
+    docFrequency: 8.0
+    docPositions:
+    - 383
+    - 434
+    - 455
+    - 463
+    - 471
+    - 485
+    - 542
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 5.0
+    docPositions:
+    - 383
+    - 434
+    - 485
+    - 542
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 5.0
+    docPositions:
+    - 384
+    - 435
+    - 486
+    - 543
+  rate: !ruby/object:Word
+    word: rate
+    stem: rate
+    docFrequency: 4.0
+    docPositions:
+    - 385
+    - 436
+    - 487
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 5.0
+    docPositions:
+    - 387
+    - 438
+    - 489
+    - 546
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 4.0
+    docPositions:
+    - 388
+    - 396
+    - 404
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 4.0
+    docPositions:
+    - 388
+    - 396
+    - 404
+  jumbo: !ruby/object:Word
+    word: jumbo
+    stem: jumbo
+    docFrequency: 5.0
+    docPositions:
+    - 404
+    - 420
+    - 581
+    - 583
+  arm: !ruby/object:Word
+    word: arm
+    stem: arm
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 420
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 4.0
+    docPositions:
+    - 429
+    - 480
+    - 537
+  personalized: !ruby/object:Word
+    word: personalized
+    stem: person
+    docFrequency: 4.0
+    docPositions:
+    - 429
+    - 480
+    - 537
+  ratessearch: !ruby/object:Word
+    word: ratessearch
+    stem: ratessearch
+    docFrequency: 4.0
+    docPositions:
+    - 429
+    - 480
+    - 537
+  heloc: !ruby/object:Word
+    word: heloc
+    stem: heloc
+    docFrequency: 3.0
+    docPositions:
+    - 439
+    - 447
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 6.0
+    docPositions:
+    - 490
+    - 501
+    - 509
+    - 517
+    - 528
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 517
+  yield: !ruby/object:Word
+    word: yield
+    stem: yield
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 4.0
+    docPositions:
+    - 547
+    - 578
+    - 579
+  yr: !ruby/object:Word
+    word: yr
+    stem: yr
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 566
+  compare: !ruby/object:Word
+    word: compare
+    stem: compar
+    docFrequency: 2.0
+    docPositions:
+    - 575
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 576
+    - 577
+    - 580
+    - 581
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 2.0
+    docPositions:
+    - 582
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 4.0
+    docPositions:
+    - 582
+    - 677
+    - 683
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 582
+  mma: !ruby/object:Word
+    word: mma
+    stem: mma
+    docFrequency: 2.0
+    docPositions:
+    - 583
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 4.0
+    docPositions:
+    - 594
+    - 660
+    - 681
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 625
+  sections: !ruby/object:Word
+    word: sections
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 626
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 642
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 645
+    - 672
+  alerts: !ruby/object:Word
+    word: alerts
+    stem: alert
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 647
+  podcasts: !ruby/object:Word
+    word: podcasts
+    stem: podcast
+    docFrequency: 2.0
+    docPositions:
+    - 648
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 2.0
+    docPositions:
+    - 650
+  apps: !ruby/object:Word
+    word: apps
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 651
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 651
+  personalities: !ruby/object:Word
+    word: personalities
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 653
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 654
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 656
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 657
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 4.0
+    docPositions:
+    - 658
+    - 677
+    - 683
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 659
+    - 677
+    - 683
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 3.0
+    docPositions:
+    - 659
+    - 665
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 660
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 4.0
+    docPositions:
+    - 663
+    - 677
+    - 683
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 664
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 664
+  closed: !ruby/object:Word
+    word: closed
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 665
+  captioning: !ruby/object:Word
+    word: captioning
+    stem: caption
+    docFrequency: 2.0
+    docPositions:
+    - 665
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 666
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 667
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 668
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 670
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 2.0
+    docPositions:
+    - 671
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 675
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 677
+    - 683
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 681
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 681
+  advertisementadvertisementthis: !ruby/object:Word
+    word: advertisementadvertisementthis
+    stem: advertisementadvertisementthi
+    docFrequency: 2.0
+    docPositions:
+    - 683
+lineCount: 684
+wordCount: 1245
+rank: 0.25
+title: California hit with chilly blast as East Coast keeps warm | Fox News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/us/immigration/index.html
+- http://www.foxnews.com/category/us/northeast/new_york
+- http://www.foxnews.com/
+- http://video.foxnews.com/v/4660533804001/national-forecast-for-monday-december-14
+- http://www.foxnews.com/us/2015/12/14/closing-arguments-to-be-heard-in-trial-massachusetts-teen-accused-killing-math/?intcmp=trending
+- http://www.foxnews.com/us/2015/12/13/school-principal-bans-santa-thanksgiving-and-pledge-allegiance/?intcmp=trending
+- http://www.foxnews.com/us/2015/12/14/indiana-school-uses-mannequins-for-nativity-scene-after-ban-audience-moved-to/?intcmp=trending
+- http://www.foxnews.com/us/2015/12/14/11-calls-describe-gunman-shot-by-california-deputies-33-times/?intcmp=trending
+- http://www.foxnews.com/us/2015/12/13/hs-yearbook-photo-with-american-flag-backdrop-stirs-flap/?intcmp=trending
+- http://www.foxnews.com/trending/
+- http://www.bankrate.com/?pid=p:foxbz
+- http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&prods=1
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=2&state=zz&d=1825&t=Line&ids=1
+- http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&prods=2
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=2&state=zz&d=1825&t=Line&ids=10
+- http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&prods=4
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=2&state=zz&d=1825&t=Line&ids=325
+- http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&prods=6
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=2&state=zz&d=1825&t=Line&ids=341
+- http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&prods=7
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=2&state=zz&d=1825&t=Line&ids=359
+- http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&prods=437
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=30
+- http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&prods=507
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=522
+- http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&prods=438
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=240
+- http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&prods=506
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=528
+- http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&prods=457
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=472
+- http://www.bankrate.com/funnel/auto/?pid=p:foxbz&prods=40
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=45
+- http://www.bankrate.com/funnel/auto/?pid=p:foxbz&prods=42
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=223
+- http://www.bankrate.com/funnel/auto/?pid=p:foxbz&prods=39
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=23
+- http://www.bankrate.com/funnel/auto/?pid=p:foxbz&prods=74
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=227
+- http://www.bankrate.com/funnel/auto/?pid=p:foxbz&prods=41
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=8&state=zz&d=1825&t=Line&ids=234
+- http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&prods=14&local=true
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=7&state=zz&d=1825&t=Line&ids=156
+- http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&prods=15&local=true
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=7&state=zz&d=1825&t=Line&ids=50
+- http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&prods=19&local=true
+- http://www.bankrate.com/funnel/graph/?pid=p:foxbz&cat=7&state=zz&d=1825&t=Line&ids=138
+rawText: "\n\t\t\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=us',
+  'subsection=regions');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox
+  News Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch
+  Live\n\t\t\t\t\tShow Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\t\t\t\n\t\tFox
+  News\n\t\t\tFox Business\n\t\t\tFox News Latino\n\t\t\tFox News Go\n\t\t\tFox News
+  Radio\n\t\t\tFox Nation\n\t\t\tFox News Insider\n\t\t\n\t\n\n\t\t\t\t\n\t\t\n\t\tMenu\n\t\n\t\n\t\tHome\n\t\tFoxNews.com\n\t\t\n\t\t\tSearch\n\t\t\t\t\n\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\n\t\t\n\t\t
+  \ \n \n   \n\t\t\n\t\t  \t\n\t\tvar vcmArticleInfo = {\n\t\t\tvcmId: \"e7c08a775b0a1510VgnVCM100000d7c1a8c0RCRD\",\n\t\t\turl:
+  \"http://www.foxnews.com/us/2015/12/14/california-hit-with-chilly-blast-as-east-coast-keeps-warm/\",\n\t\t\tpubDate:\"December
+  14, 2015\",\n\t\t\tmyTopChannelName:\"us\",\n\t\t\tsummary:\"<p>A blast of wintry
+  weather could keep Southern California\\'s temperatures in the 50s Monday, but the
+  thermometer could hit the upper 60s in parts of New York and Pennsylvania.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting:
+  \"true\",\n\t\t\tsponsored:\"false\",\n\t\t\tpartnerInfo: {\"partner\": {\"source\":
+  \"\",\"info\": []}}\n\t\t};\n\t\tvar disqus_identifier = \"e7c08a775b0a1510VgnVCM100000d7c1a8c0RCRD\";\n\t\tvar
+  disqus_category_id = \"462851\";\n\t\tvar disqus_developer = 1;\n\n\n\t\t\t\t\n\t\t\t\t\tU.S.
+  Home\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tCrime\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tTerrorism\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tEconomy\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tImmigration\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisasters\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tMilitary\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tEducation\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tEnvironment\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tRegions\n\t\t\t\n\t\t\t\n\t\n\t\t\tNew
+  York\n\t\t\tCalifornia hit with chilly blast as East Coast keeps warm\n\t\t\t\n\t\t\t
+  \t\t\n\t\t\t \t\tPublished December 14, 2015FoxNews.com\n\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t
+  \               Facebook0\n\t\t                Twitter0\n\t\t                livefyre\n\t
+  \               \tEmail\n\t\t\t            Print\t                \n\t\t            \n\t
+  \                      \n\t            \n            \t\t\t\n\t\t\t \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t
+  \  \t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tA blast of wintry weather
+  could keep Southern California's temperatures in the 50s Monday, but the thermometer
+  could hit the upper 60s in parts of New York and Pennsylvania. \nA weekend storm
+  that dumped rain and snow on Southern California had largely moved out Monday, leaving
+  behind temperatures about 10 degrees colder than normal. Overnight temperatures
+  dipped into the 30s in Los Angeles County, and will barely top 60 during the day.
+  \nA high surf advisory is in effect for San Diego County through Tuesday, with waves
+  up to 8 feet expected. \nDrivers are urged to use caution on mountain roads where
+  wind gusts up to 70 mph are predicted. Chains are required on several roads after
+  snow fell on the San Bernardino Mountains. \nA stretch of northbound Interstate
+  5 near Castaic was reopened after a closure caused by flash flooding.\n \nMeanwhile,
+  forecasters said unseasonably warm temperatures were expected to linger in the Northeast
+  for most of the coming week. The thermometer hit 70 degrees at New York's JFK airport
+  Sunday, shattering the day's previous record of 63 degrees. \nThe Associated Press
+  contributed to this report.\n\t\t\n\t\n\t\t\n \n   Advertisement\n\t   \n\n\t\t\t\t
+  \   Trending in U.S.\n\t\t\t     \n\t\t\t \t\n\t\t\t \t\t1\n\t\t\t\t\tProsecutor:
+  Massachusetts teen who raped and killed teacher knew right from wrong \n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t
+  \ \n\t\t\t \t\n\t\t\t \t\t2\n\t\t\t\t\tSchool principal bans Santa, Thanksgiving
+  and Pledge of Allegiance\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t  \n\t\t\t \t\n\t\t\t \t\t3\n\t\t\t\t\tIndiana
+  school uses mannequins for Nativity scene after ban, audience moved to tears\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t
+  \ \n\t\t\t \t\n\t\t\t \t\t4\n\t\t\t\t\tVideo, 911 call detail cops firing 33 times
+  at man who refused to drop gun\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t  \n\t\t\t \t\n\t\t\t
+  \t\t5\n\t\t\t\t\tSchool cuts HS yearbook photo over American flag backdrop \n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t
+  \ \n\t\t\t\n\t\t\n\t\t\n\t\n\t\n\tSee all Trends\n\t\n \n   \n\n \n   Advertisement\n\t
+  \  \n\n\t\tBank Rates\n\t\t\n\t\t\t \n\t\t\t\t\t\t\tMortgage\n\t\t\t\t\t\t\n\t\t\t\t\t
+  \ \n\t\t\t\t\t\t\tHome Equity\n\t\t\t\t\t\t\n\t\t\t\t\t  \n\t\t\t\t\t\t\tAutos\n\t\t\t\t\t\t\n\t\t\t\t\t
+  \ \n\t\t\t\t\t\t\tCD Rates\n\t\t\t\t\t\t\n\t\t\t\t\t  \t\t\t\n\t\t\n\t\t\n\t\t\t\t\nLoan
+  Type\n      Graph\n      Rate\n      +/-\n      Last Week\n   30 Y Fixed\n      \n
+  \     3.81% \n         \t    \n      \n      \n      3.97% \n          \n   15 Y
+  Fixed\n      \n      3.00% \n         \t    \n      \n      \n      3.02% \n          \n
+  \  30 Y Fixed Jumbo\n      \n      4.30% \n         \t    \n      \n      \n      4.47%
+  \n          \n   5/1 ARM\n      \n      3.21% \n         \t    \n      \n      \n
+  \     3.31% \n          \n   5/1 Jumbo ARM\n      \n      3.90% \n         \t    \n
+  \     \n      \n      3.91% \n          \n   \n   Find Personalized RatesSearch\n\n\n\t\t\n\t\t\t\t\nLoan
+  Type\n      Graph\n      Rate\n      +/-\n      Last Week\n   $30K HELOC \n      \n
+  \     4.54% \n         \t    \n      \n      \n      4.69% \n          \n   $50K
+  HELOC \n      \n      4.06% \n         \t    \n      \n      \n      4.10% \n          \n
+  \  $30K Loan\n      \n      4.48% \n         \t    \n      \n      \n      4.47%
+  \n          \n   $50K Loan\n      \n      4.14% \n         \t    \n      \n      \n
+  \     4.12% \n          \n   $75K Loan\n      \n      4.14% \n         \t    \n
+  \     \n      \n      4.12% \n          \n   \n   Find Personalized RatesSearch\n\n\n\t\t\n\t\t\t\t\nLoan
+  Type\n      Graph\n      Rate\n      +/-\n      Last Week\n   36 M New\n      \n
+  \     3.00% \n         \t    \n      \n      \n         \t\t\t--\n         \n      \n
+  \     3.00% \n          \n   36 M Used\n      \n      3.16% \n         \t    \n
+  \     \n      \n      3.19% \n          \n   48 M New\n      \n      3.20% \n         \t
+  \   \n      \n      \n      3.22% \n          \n   48 M Used\n      \n      2.85%
+  \n         \t    \n      \n      \n         \t\t\t--\n         \n      \n      2.85%
+  \n          \n   60 M New\n      \n      3.32% \n         \t    \n      \n      \n
+  \     3.34% \n          \n   \n   Find Personalized RatesSearch\n\n\n\t\t\n\t\t\t\t\nLoan
+  Type\n      Graph\n      Yield\n      +/-\n      Last Week\n   6 month\n      \n
+  \     0.34% \n         \t    \n      \n      \n      0.33% \n          \n   1 yr\n
+  \     \n      0.61% \n         \t    \n      \n      \n         \t\t\t--\n         \n
+  \     \n      0.62% \n          \n   5 yr\n      \n      1.38% \n         \t    \n
+  \     \n      \n      1.36% \n          \n   \n   Compare Rates\n         1-year
+  CD\n         1-year CD\n            6-month CD\n            3-month CD\n            5-year
+  CD\n            1-year jumbo CD\n            Money Market Account\n            Jumbo
+  MMA\n         Search\n\n\n\t\t\n      \t\n   \n\t\t\n\t\t\t\t \n     \n         \n
+  \       try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) { }
+  \n\n\t\t\n   \n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\n\t\t\t\n\t\n\t\t
+  \ \t\n\t\t\t  \t   \n\t\t\n\t\t\t\t\n\t\t\n      \n\t\t\n\t\n\n\n\n \n\t\t\t \n\t\t
+  \   \t  \t\n\t\t\t\n\t\t\t\t\n\t\tSite Index\n\t\tSections\n\t\t\t\tHome\n\t\t\t\t\tVideo\n\t\t\t\t\tPolitics\n\t\t\t\t\tU.S.\n\t\t\t\t\tOpinion\n\t\t\t\t\tEntertainment\n\t\t\t\t\tTech\n\t\t\t\t\tScience\n\t\t\t\t\tHealth\n\t\t\t\t\tTravel\n\t\t\t\t\tLifestyle\n\t\t\t\t\tWorld\n\t\t\t\t\tSports\n\t\t\t\t\tWeather\n\t\t\t\t\tOn
+  Air\n\t\t\t\tTools\n\t\t\t\tLive Video\n\t\t\t\t\tTrending\n\t\t\t\t\tNewsletters\n\t\t\t\t\tAlerts\n\t\t\t\t\tMobile\n\t\t\t\t\tPodcasts\n\t\t\t\t\tRadio\n\t\t\t\t\tFox
+  News Store\n\t\t\t\t\tApps & Downloads\n\t\t\t\tAbout\n\t\t\t\tOn Air Personalities\n\t\t\t\t\tCareers\n\t\t\t\t\tCollege
+  Students\n\t\t\t\t\tFox Around the World\n\t\t\t\t\tAdvertise With Us\n\t\t\t\t\tTerms
+  of Use\n\t\t\t\t\tPrivacy Policy\n\t\t\t\t\tAd Choices\n\t\t\t\t\tContact Us\n\t\t\t\t\tEmail
+  Newsroom\n\t\t\t\t\tFAQ\n\t\t\t\t\tMedia Relations\n\t\t\t\t\tClosed Captioning
+  Policy\n\t\t\t\tFollow\n\t\t\t\tFacebook\n\t\t\t\t\tTwitter\n\t\t\t\t\tGoogle+\n\t\t\t\t\tLinkedIn\n\t\t\t\t\tRSS\n\t\t\t\t\tNewsletters\n\t\t\t\t\n\t\t\tFox
+  News\n\t\t\tBack to Top\n\t\t\n\t\tThis material may not be published, broadcast,
+  rewritten, or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All
+  market data delayed 20 minutes. Privacy - Terms - FAQ\n\t\n\n\t         \n jQuery.ad.pre();
+  FOX.site.bottomInit();\n  \t\nSign in to comment!A blast of wintry weather could
+  keep Southern California's temperatures in the 50s Monday, but the thermometer could
+  hit the upper 60s in parts of New York and Pennsylvania.A weekend storm that dumped
+  rain and snow on Southern California had largely moved out Monday, leaving behind
+  temperatures about 10 degrees colder than normal. Overnight temperatures dipped
+  into the 30s in Los Angeles County, and will barely top 60 during the day.A high
+  surf advisory is in effect for San Diego County through Tuesday, with waves up to
+  8 feet expected.Drivers are urged to use caution on mountain roads where wind gusts
+  up to 70 mph are predicted. Chains are required on several roads after snow fell
+  on the San Bernardino Mountains.A stretch of northbound Interstate 5 near Castaic
+  was reopened after a closure caused by flash flooding.Meanwhile, forecasters said
+  unseasonably warm temperatures were expected to linger in the Northeast for most
+  of the coming week. The thermometer hit 70 degrees at New York's JFK airport Sunday,
+  shattering the day's previous record of 63 degrees.The Associated Press contributed
+  to this report.AdvertisementAdvertisementThis material may not be published, broadcast,
+  rewritten, or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All
+  market data delayed 20 minutes. Privacy - Terms - FAQ"

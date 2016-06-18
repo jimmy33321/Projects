@@ -1,0 +1,6457 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 67
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 87
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 67
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 138
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 67
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 157
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 67
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 163
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID navigation already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 145
+    str1: navigation
+    str2: navigation
+    str3: 
+    int1: 0
+    column: 53
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 455
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 340
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID degreeEndagerment already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 491
+    str1: degreeEndagerment
+    str2: degreeEndagerment
+    str3: 
+    int1: 0
+    column: 48
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 634
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 159
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : form
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1ht1e4n"
+    line: 687
+    str1: form
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+address: http://www.unesco.org/culture/languages-atlas/index.php
+inboundLinks: []
+lines:
+- |2+
+
+- "        \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2
+    var _gaq = _gaq || [];
+- |2
+    _gaq.push(['_setAccount', 'UA-19082631-1']);
+- |2
+    _gaq.push(['_trackPageview']);
+- |2+
+
+- |2
+    (function() {
+- |2
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+- |2
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+- |2
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+- |2
+    })();
+- |2+
+
+- "\r\n"
+- |
+  @import "/culture/languages-atlas/assets/_core/css//jquery-ui-themes/custom-theme/jquery-ui-1.8.5.custom.css";Loading content...
+- |2+
+
+- "    \n"
+- "        \n"
+- "            Alert: \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "            Info : \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                      English
+- |2+
+
+- |2
+                          Français
+- |2+
+
+- |2
+                          Español
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                \n"
+- "                \n"
+- |2
+                      v.2.0 Beta
+- "                \n"
+- "            \n"
+- "            \n"
+- "                \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- "                \n"
+- |2
+                      UNESCO
+- |2
+                          Education
+- |2
+                          Natural Sciences
+- |2
+                          Social and Human Sciences
+- |2
+                          Culture
+- |2
+                          Communication and Information
+- |2
+                          Media Services
+- "                    \n"
+- "                \n"
+- "                    \n"
+- "                                                   \n"
+- "                       \n"
+- |2
+                         UNESCO Atlas of the World's Languages in Danger
+- |2
+                         unesco.org
+- "                       \n"
+- |2
+                             document.getElementById("navmain").className = "menujs menu";
+- "                       \n"
+- "               \n"
+- "               \n"
+- "               \n"
+- "                   \n"
+- "                       \n"
+- |2+
+
+- "                               \n"
+- "                           \n"
+- |2+
+
+- "                       \n"
+- "                   \n"
+- "                   \n"
+- "                       \n"
+- "                       \n"
+- "                           \n"
+- "                               \n"
+- |2
+                                     About Atlas
+- "                                   \n"
+- |2
+                                             Endangered Languages
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Atlas of languages in danger
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Previous editions (1996, 2001)
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Editors and contributors
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Language mapping
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Contribute your comments
+- "                                       \n"
+- "                                       \n"
+- |2
+                                             Browsing functionalities
+- "                                       \n"
+- "                                   \n"
+- "                           \n"
+- "                           \n"
+- |2
+                                 Resources
+- "                               \n"
+- "                                   \n"
+- "                                           \n"
+- "                                               \n"
+- |2
+                                                     Interactive Atlas
+- "                                               \n"
+- "                                           \n"
+- "                                       \n"
+- "                                       \n"
+- "                                               \n"
+- |2
+                                                     Statistics
+- "                                               \n"
+- "                                           \n"
+- "                                       \n"
+- "                                       \n"
+- "                                           \n"
+- "                                               \n"
+- |2
+                                                     Download dataset
+- "                                               \n"
+- "                                           \n"
+- "                                       \n"
+- "                                       \n"
+- "                                               \n"
+- |2
+                                                     Terms of Use
+- "                                               \n"
+- "                                           \n"
+- "                                       \n"
+- "                                   \n"
+- "                           \n"
+- "                           \n"
+- |2
+                                 Last updated
+- "                                    \r\n"
+- "    Nov 13 2015                Emilian    Nov 9 2015                Miami-Illinois
+  \                   Somyev                    Micmac (Canada)                    Maliseet
+  \                   Urum                    Lae                    Cocama-Cocamilla
+  (Peru)                    Huron-Wyandot (Canada)                    Panamahka        \r\n"
+- "\r\n"
+- "    $(function() {\r\n"
+- "        $(\"button\" ).button();\r\n"
+- "    });\r\n"
+- "                           \n"
+- "                       \n"
+- |2+
+
+- "                       \n"
+- "                       \n"
+- "                           \n"
+- "                           \n"
+- "                               \n"
+- "                               \n"
+- "                        \n"
+- |2
+      Interactive Atlas
+- "    \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                     \n"
+- |2
+                      UNESCO Interactive Atlas of the World’s Languages in Danger
+- "                    \n"
+- "                            The online edition of the Atlas is complementary to
+  the                             print edition                            It does
+  not reproduce the regional and thematic chapters of the print version, but it offers
+  additional information on the listed endangered languages. Via this interface, you
+  can browse through them, using combinations of search criteria and/or zooming in
+  the map below (see                             Browsing functionnalities                            ).
+  \                            For more detailed information, please consult the                             Languages
+  mapping                            ,                             Contribute your
+  comments                             and                             FAQ                             pages.
+  \                   \n"
+- "                    \n"
+- "                    \n"
+- |2
+                              For remarks on a specific language, please use the in-built forms ('submit a comment' tab) of the Interactive Atlas. If you wish to suggest an endangered language to be included in the Atlas, please fill in this                             form.
+- "                    \n"
+- "                    \n"
+- "                        For more general comments, please email atlas_AT_unesco.org.
+  \                   \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- |2
+                      Search tools
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                            Country or area- All -Afghanistan(23)Albania(4)Algeria(13)Angola(4)Argentina(18)Armenia(2)Australia(108)Austria(5)Azerbaijan(11)Bangladesh(5)Belarus(3)Belgium(8)Belize(4)Benin(1)Bhutan(19)Bolivia
+  (Plurinational State of)(39)Bosnia and Herzegovina(2)Botswana(11)Brazil(190)Bulgaria(6)Burkina
+  Faso(1)Cambodia(19)Cameroon(36)Canada(87)Central African Republic(5)Chad(29)Chile(7)China(144)Colombia(68)Congo(2)Cook
+  Islands(4)Costa Rica(8)Côte d'Ivoire(4)Croatia(8)Cyprus(1)Czech Republic(4)Democratic
+  Republic of the Congo(6)Denmark(3)Dominica(1)Ecuador(14)Egypt(3)El Salvador(2)Equatorial
+  Guinea(3)Eritrea(1)Estonia(3)Ethiopia(28)Faroe Islands(1)Fiji(1)Finland(7)France(26)French
+  Guiana (France)(4)French Polynesia (France)(4)Gabon(8)Georgia(11)Germany(13)Ghana(5)Greece(10)Greenland
+  (Kingdom of Denmark)(3)Guam (U.S.A.)(1)Guatemala(23)Guinea(8)Guinea-Bissau(3)Guyana(12)Honduras(8)Hungary(5)India(197)Indonesia(143)Iran
+  (Islamic Republic of)(25)Iraq(8)Ireland(1)Israel(13)Italy(31)Japan(8)Jordan(2)Kazakhstan(1)Kenya(13)Kyrgyzstan(2)Lao
+  People's Democratic Republic(32)Latvia(5)Lebanon(2)Lesotho(1)Libya(6)Liechtenstein(1)Lithuania(4)Luxembourg(3)Malaysia(26)Mali(2)Mauritania(2)Mexico(143)Micronesia
+  (Federated States of)(13)Monaco(1)Mongolia(7)Montenegro(1)Morocco(7)Myanmar(28)Namibia(1)Nauru(2)Nepal(71)Netherlands(6)New
+  Caledonia (France)(16)New Zealand(1)Nicaragua(11)Niger(2)Nigeria(29)Niue(1)Norfolk
+  Island (Australia)(1)Norway(6)Oman(8)Pakistan(27)Palau(2)Palestine(1)Panama(8)Papua
+  New Guinea(98)Paraguay(12)Peru(62)Philippines(15)Pitcairn  (U.K.)(1)Poland(8)Portugal(1)Republic
+  of Korea(1)Republic of Moldova(2)Romania(11)Russian Federation(131)San Marino(1)Senegal(15)Serbia(6)Sierra
+  Leone(5)Slovakia(5)Slovenia(3)Solomon Islands(17)South Africa(10)Spain(5)Sri Lanka(1)Sudan(65)Suriname(8)Sweden(8)Switzerland(8)Syrian
+  Arab Republic(7)Tajikistan(11)Thailand(25)The former Yugoslav Republic of Macedonia(7)Timor-Leste(6)Togo(1)Tokelau(1)Tunisia(3)Turkey(18)Turkmenistan(1)Tuvalu(1)Uganda(6)Ukraine(14)United
+  Kingdom of Great Britain and Northern Ireland(11)United Republic of Tanzania(12)United
+  States of America(191)Uruguay(1)Uzbekistan(3)Vanuatu(46)Venezuela (Bolivarian Republic
+  of)(34)Viet Nam(27)Western Sahara(1)Yemen(4)                            \n"
+- "                            Vitality- All -VulnerableDefinitely endangeredSeverely
+  endangeredCritically endangeredExtinct                        \n"
+- "                        \n"
+- "                            \n"
+- "                            Language name                            \n"
+- "                            ISO 639-3 code                        \n"
+- "                        \n"
+- "                            \n"
+- "                            Number of speakers from                            \n"
+- "                            to                        \n"
+- "                        \n"
+- "                            \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                  vulnerable
+- |2
+                                  definitely endangered
+- |2
+                                  severely endangered
+- |2
+                                  critically endangered
+- |2
+                                  extinct                                R = Revitalized                                more on vitality
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                             Search languages                              Clear
+  Search                             Number of languages found : 2465                            \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                        \n"
+- "                     \n"
+- "//<![CDATA[ \n"
+- |
+  var map;
+- |
+  var newInfowindow;
+- |
+  var mapMarkers = [];
+- |
+  var mapPoints = [];
+- |
+  var markerHtmls = [];
+- |
+  var useSideBar = false;
+- |
+  var latlng = new google.maps.LatLng(1.406109,25.515625);
+- |
+  function initializer(){
+- |2
+   var Options = {
+- |2
+   zoom: 1,
+- |2
+   center: latlng,
+- |2
+   navigationControl: true,
+- |2
+   navigationControlOptions: {position: google.maps.ControlPosition.BOTTOM,
+- |2
+   style: google.maps.NavigationControlStyle.ANDROID
+- |2
+   },
+- |2
+   scaleControl: false,
+- |2
+   mapTypeControl: true,
+- |2
+   mapTypeControlOptions: {position: google.maps.ControlPosition.TOP_LEFT,
+- |2
+   style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+- " }\t,\n"
+- |2
+   mapTypeId: google.maps.MapTypeId.TERRAIN
+- |
+  }
+- "map = new google.maps.Map(document.getElementById('map'), Options); \n"
+- |
+  loadGoogleMap();};   function loadMarkerContent(marker, infowindow, lat, lng){
+- |2
+     var pointLat = lat;
+- |2
+     var pointLng = lng;
+- |2
+         $.ajax({
+- |2
+             type: 'POST',           cache: false,           url: 'ajax-true-atlasMapLangInfo-infoWindow_Create.html',
+- |2
+             data: ({latlng:pointLat+'/'+pointLng}),
+- |2
+             success: function(data){
+- |2
+                         infowindow.setContent(data);
+- |2
+                         infowindow.open(map, marker);
+- |2
+                         setTimeout(function () { $('#tabs').tabs({ fxSlide: true, fxFade: true, fxSpeed: 'fast' }); }, 400);
+- |2
+                     }
+- |2
+         });
+- |2
+     }
+- |2
+     function Clicked(markerNum) {
+- |2
+         var infowindow = new google.maps.InfoWindow();
+- |2
+         setInfowindow(mapMarkers[markerNum], infowindow, mapPoints[markerNum].lat(),mapPoints[markerNum].lng());
+- |2
+         map.setZoom(4);
+- |2
+         mapMenu_Click(markerNum);
+- |2
+     }
+- |
+  function loadGoogleMap() {
+- |2
+     var bounds = new google.maps.LatLngBounds();
+- |
+  }
+- |
+  function setInfowindow(marker, infowindow, lat, lng){
+- |2
+     var pointLat = lat;
+- |2
+     var pointLng = lng;
+- |2
+     if(newInfowindow != undefined){
+- |2
+         newInfowindow.close();
+- |2
+     }
+- |2
+     newInfowindow = infowindow;
+- |2
+     loadMarkerContent(marker, newInfowindow, pointLat, pointLng);
+- |
+  }
+- |
+  function createMarker(map, pointLatLng, markerTitle, markerHtml, iconImage){
+- |2
+     var iconImageUrl = '/culture/languages-atlas/assets/_core/images/gmap/'+iconImage;
+- |2
+     var iconShadowUrl = '/culture/languages-atlas/assets/_core/images/gmap/mm_20_shadow.png';
+- |2
+     var iconSize = new google.maps.Size(12, 20);
+- |2
+     var iconShadowSize = new google.maps.Size(24, 20);
+- |2
+     var iconPosition = new google.maps.Point(0,0);
+- |2
+     var iconHotSpotOffset = new google.maps.Point(0,20);
+- |2
+     var infoWindowAnchor = new google.maps.Point(6,20);
+- |2
+     var infoShadowAnchor = new google.maps.Point(5,1);
+- |2
+     var markerImage = new google.maps.MarkerImage(iconImageUrl, iconSize, iconPosition, iconHotSpotOffset);
+- |2
+     var markerShadow = new google.maps.MarkerImage(iconShadowUrl, iconShadowSize, iconPosition, iconHotSpotOffset);
+- |2
+     var shape = {
+- |2
+         coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+- |2
+         type: 'poly'
+- |2
+     };
+- |2
+     var markerOptions = {
+- |2
+         position: pointLatLng,
+- |2
+         map: map,
+- |2
+         shadow: markerShadow,
+- |2
+         icon: markerImage,
+- |2
+         shape: shape,
+- |2
+         title: markerTitle
+- |2
+     };
+- |2
+     //alert(pointLatLng.lat()+ '/'+pointLatLng.lng());
+- |2
+     var marker = new google.maps.Marker(markerOptions);
+- "   google.maps.event.addListener(marker, 'click', function() { \n"
+- |2
+         map.setZoom(4);
+- |2
+         var infowindow = new google.maps.InfoWindow();
+- |2
+         mapMenu_Click($(this).attr('id'));
+- |2
+         setInfowindow(marker, infowindow, pointLatLng.lat(), pointLatLng.lng());
+- |2
+     });
+- |2
+     return marker;
+- |
+  }
+- |
+  /**
+- |
+  * Function called when marker on the map is clicked.
+- |
+  * Opens an info window (bubble) above the marker.
+- |
+  * @param {Number} markerNum Number of marker in global array
+- |
+  */
+- |
+  setTimeout('initializer()', 500);
+- |
+  //]]>
+- "                                \n"
+- "                                \n"
+- "                        The designations employed and the presentation of material
+  in this Atlas do not imply the expression of any opinion whatsoever on the part
+  of UNESCO concerning the legal status of any country, territory, city or area or
+  of its authorities, or concerning the delimitation of its frontiers or boundaries.
+  \                           \n"
+- "                            \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "The interactive online edition of the UNESCO Atlas of the World’s Languages in
+  Danger is complementary to the print edition and may be cited as:                             \n"
+- |2
+                              Moseley, Christopher (ed.). 2010. Atlas of the World’s Languages in Danger, 3rd edn. Paris, UNESCO Publishing. Online version: http://www.unesco.org/culture/en/endangeredlanguages/atlas
+- "                            \n"
+- |2+
+
+- |2
+                              Close
+- |2
+                                  Back to top
+- "                            \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "        \n"
+- |2
+              Search by country name.
+- |2
+              Select the name of the country in the dropdown menu and click on “search corresponding endangered languages”.
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- |2
+              Note that the number in brackets that appears next to the name of the country (e.g. Indonesia (147)) corresponds to the number of languages listed for that country and not to the number of geographical points (for more information on the mapping methodology, see Language mapping in the Atlas.)
+- "        \n"
+- "        \n"
+- |2
+              Select one of the 5 degrees of vitality which are explained in the link “more on vitality” placed above the map.
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- "        \n"
+- "        \n"
+- |2
+              Type the name of the language into the search field and click “search corresponding endangered languages”.
+- |2
+              Users may also type only a part of the name and the dropdown menu will provide a list of predictions that are similar to the query typed. Add a sentence on the possibility to search for variants/alternative names.
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- "        \n"
+- "        \n"
+- |2
+              To search by ISO 639-3 language code, the user may enter the ISO which consists of three letters or more codes separated by ', ' e.g. rpo, col, tra, aal.
+- |2
+              Note that the dropdown will provide predictions of ISO codes, containing one or more letters of the query typed.
+- |2
+              For instance, if users type ‘ho’ into the search field, the dropdown menu will offer options such as ‘aho’, ‘cho’, ‘gho’. For more information on ISO codes please visit:
+- |2
+              http://www.ethnologue.com/codes
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- "        \n"
+- "        \n"
+- |2
+              To search an endangered language by its number of speakers, users can type numbers between 0 and infinite into the search field.
+- |2
+              For instance, if the number “50” is typed into the search box “from”, the search result will display the languages which have 50 or more speakers.
+- |2
+              Note that the parameters “to” and “from” must be used separately.
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- "        \n"
+- "        \n"
+- |2
+              To search an endangered language by its number of speakers, users can type numbers between 0 and infinite into the search field.
+- |2
+              For instance, if the number “90” is typed into the search box “to”, the search result will display the languages which have 90 or less speakers.
+- |2
+              Note that the parameters “to” and “from” must be used separately.
+- |2
+              This search field can be used together with other search parameters. Search results will be displayed on the map.
+- "        \n"
+- "        \n"
+- |2
+      Degrees of endangerment
+- |2+
+
+- |2
+      The present edition designates the degrees of endangerment a little differently than the previous editions. The new terminology is based on UNESCO’s     Language Vitality and Endangerment framework
+- |2
+       that establishes six degrees of vitality/endangerment based on nine factors. Of these factors, the most salient is that of intergenerational transmission.
+- |2+
+
+- |
+  Degree of endangerment
+- |2
+              Intergenerational Language Transmission
+- "        \n"
+- |2
+              safe
+- |2
+              language is spoken by all generations; intergenerational transmission is uninterrupted>> not included in the Atlas
+- "        \n"
+- |2
+              vulnerable
+- |2
+              most children speak the language, but it may be restricted to certain domains (e.g., home)
+- "        \n"
+- |2
+              definitely endangered
+- |2
+              children no longer learn the language as mother tongue in the home
+- "        \n"
+- |2
+              severely endangered
+- |2
+              language is spoken by grandparents and older generations; while the parent generation may understand it, they do not speak it to children or among themselves
+- "        \n"
+- |2
+              critically endangered
+- |2
+              the youngest speakers are grandparents and older, and they speak the language partially and infrequently
+- "        \n"
+- |2
+              extinct
+- |2
+              there are no speakers left>> included in the Atlas if presumably extinct since the 1950s
+- "        \n"
+- |2+
+
+- |2
+      $.fx.speeds._default = 1000;
+- |2
+      $(function() {
+- "\t$(\"div.InfoBox\").css('display','inline');\n"
+- |
+  $("div.InfoBox").dialog({
+- |2
+                  autoOpen: false,
+- |2
+                  show: 'blind',
+- |2
+                  hide: 'explode',
+- |2
+                  modal: true,
+- "\t\t\t\tbuttons:{ \"Close\": function() { $(this).dialog('close'); } },\n"
+- "\t\t\t\tclose: function(event, ui) { $(this).hide(); }\n"
+- |2
+          });
+- |2
+          if($(".dialog").attr("id") == '#htmlVitalityDegreeInfoBox'){
+- |2
+              $("div.InfoBox").dialog({
+- |2
+                  autoOpen: false,
+- |2
+                  show: 'blind',
+- |2
+                  hide: 'explode',
+- |2
+                  modal: true,
+- "\t\t\t\tbuttons:{ \"Close\": function() { $(this).dialog('destroy'); } },\n"
+- "\t\t\t\tclose: function(event, ui) { $(this).hide(); }\n"
+- |2
+              });
+- |2
+          }
+- |2
+          $(".dialog").click(function() {
+- |2
+              if( $("#"+this.id+"Box").attr("id") == "htmlVitalityDegreeInfoBox"){
+- |2
+                  $("#"+this.id+"Box").dialog("option", "minWidth", 550);
+- |2
+              }else{
+- |2
+                  $("#"+this.id+"Box").dialog("option", "minWidth", 450);
+- |2
+              }
+- "\t\t\t$(\"#\"+this.id+\"Box\").dialog('open');\n"
+- |2
+              return false;
+- |2
+          });
+- |2
+      });
+- |2
+      $(document).ready(function(){
+- |2
+          $("#map_menu li a").mouseup(function(){
+- |2
+              $(this).addClass('mapMenu_active')
+- |2
+          });
+- |2
+      });
+- "\t\n"
+- "                               \n"
+- "                           \n"
+- "                       \n"
+- "                       \n"
+- |2+
+
+- "                       \n"
+- "                   \n"
+- "               \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "                \n"
+- |2
+                  Our priorities
+- "            \n"
+- "            \n"
+- |2
+                  Africa
+- "            \n"
+- "            \n"
+- |2
+                  Gender Equality
+- "            \n"
+- |2
+                  EFA
+- "            \n"
+- "            \n"
+- |2
+                  Sustainability
+- "            \n"
+- "            \n"
+- |2
+                  Ethics
+- "            \n"
+- "            \n"
+- |2
+                  Cultural Diversity
+- "            \n"
+- |2
+                  Intercultural Dialogue
+- "            \n"
+- |2
+                  Knowledge society
+- "        \n"
+- "        \n"
+- "                \n"
+- |2
+                  More
+- "            \n"
+- "            \n"
+- |2
+                  World Heritage
+- "            \n"
+- "            \n"
+- |2
+                  Water
+- "            \n"
+- "            \n"
+- |2
+                  Intangible Heritage
+- "            \n"
+- "            \n"
+- |2
+                  Press Freedom
+- "            \n"
+- |2
+                  HIV and AIDS
+- |2
+              Climate Change
+- |2
+              Languages
+- |2
+              Post-conflitYouth
+- "        \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "                \n"
+- |2
+                  Resources
+- "            \n"
+- |2
+                  Conventions & Recommendations
+- "            \n"
+- "            \n"
+- |2
+                  Documents
+- "            \n"
+- "            \n"
+- |2
+                  Statistics
+- "            \n"
+- "            \n"
+- |2
+                  Photos
+- "            \n"
+- "            \n"
+- |2
+                  Bookstore
+- "            \n"
+- "            \n"
+- |2
+                  Media
+- "            \n"
+- "            \n"
+- |2
+                  Name and logo
+- "            \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- |2
+                  Terms of use
+- "            \n"
+- "            \n"
+- |2
+                  Contact us
+- "            \n"
+- "            \n"
+- |2
+                  Sitemap
+- "            \n"
+- "            \n"
+- |2
+                  © UNESCO 1995-2010
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "                               \n"
+- "                           \n"
+- "                       \n"
+- |2+
+
+- "            Alert: \n"
+- |2
+              Info : unesco.org
+- "                            The online edition of the Atlas is complementary to
+  the                             print edition                            It does
+  not reproduce the regional and thematic chapters of the print version, but it offers
+  additional information on the listed endangered languages. Via this interface, you
+  can browse through them, using combinations of search criteria and/or zooming in
+  the map below (see                             Browsing functionnalities                            ).
+  \                            For more detailed information, please consult the                             Languages
+  mapping                            ,                             Contribute your
+  comments                             and                             FAQ                             pages.
+  \                   \n"
+- |2
+                              For remarks on a specific language, please use the in-built forms ('submit a comment' tab) of the Interactive Atlas. If you wish to suggest an endangered language to be included in the Atlas, please fill in this                             form.
+- "                    \n"
+- "                        For more general comments, please email atlas_AT_unesco.org.
+  \                   \n"
+- "                        The designations employed and the presentation of material
+  in this Atlas do not imply the expression of any opinion whatsoever on the part
+  of UNESCO concerning the legal status of any country, territory, city or area or
+  of its authorities, or concerning the delimitation of its frontiers or boundaries.
+  \                           \n"
+- |
+  The interactive online edition of the UNESCO Atlas of the World’s Languages in Danger is complementary to the print edition and may be cited as:                             Search by country name.Select the name of the country in the dropdown menu and click on “search corresponding endangered languages”.This search field can be used together with other search parameters. Search results will be displayed on the map.Note that the number in brackets that appears next to the name of the country (e.g. Indonesia (147)) corresponds to the number of languages listed for that country and not to the number of geographical points (for more information on the mapping methodology, see Language mapping in the Atlas.)Select one of the 5 degrees of vitality which are explained in the link “more on vitality” placed above the map.This search field can be used together with other search parameters. Search results will be displayed on the map.Type the name of the language into the search field and click “search corresponding endangered languages”.Users may also type only a part of the name and the dropdown menu will provide a list of predictions that are similar to the query typed. Add a sentence on the possibility to search for variants/alternative names.This search field can be used together with other search parameters. Search results will be displayed on the map.To search by ISO 639-3 language code, the user may enter the ISO which consists of three letters or more codes separated by ', ' e.g. rpo, col, tra, aal.Note that the dropdown will provide predictions of ISO codes, containing one or more letters of the query typed.For instance, if users type ‘ho’ into the search field, the dropdown menu will offer options such as ‘aho’, ‘cho’, ‘gho’. For more information on ISO codes please visit:This search field can be used together with other search parameters. Search results will be displayed on the map.To search an endangered language by its number of speakers, users can type numbers between 0 and infinite into the search field.For instance, if the number “50” is typed into the search box “from”, the search result will display the languages which have 50 or more speakers.Note that the parameters “to” and “from” must be used separately.This search field can be used together with other search parameters. Search results will be displayed on the map.To search an endangered language by its number of speakers, users can type numbers between 0 and infinite into the search field.For instance, if the number “90” is typed into the search box “to”, the search result will display the languages which have 90 or less speakers.Note that the parameters “to” and “from” must be used separately.This search field can be used together with other search parameters. Search results will be displayed on the map.
+- |2
+      The present edition designates the degrees of endangerment a little differently than the previous editions. The new terminology is based on UNESCO’s     Language Vitality and Endangerment framework
+- "     that establishes six degrees of vitality/endangerment based on nine factors.
+  Of these factors, the most salient is that of intergenerational transmission."
+index:
+  _gaq: !ruby/object:Word
+    word: _gaq
+    stem: _gaq
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 6
+    - 7
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 7
+  _setaccount: !ruby/object:Word
+    word: _setaccount
+    stem: _setaccount
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 25.0
+    docPositions:
+    - 9
+    - 16
+    - 148
+    - 149
+    - 214
+    - 241
+    - 292
+    - 303
+    - 304
+    - 305
+    - 389
+    - 390
+    - 391
+    - 392
+    - 401
+    - 410
+    - 412
+    - 413
+    - 414
+    - 416
+    - 420
+    - 421
+    - 422
+    - 521
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 21.0
+    docPositions:
+    - 9
+    - 148
+    - 222
+    - 238
+    - 244
+    - 247
+    - 251
+    - 257
+    - 260
+    - 269
+    - 294
+    - 303
+    - 390
+    - 397
+    - 398
+    - 406
+    - 407
+    - 410
+    - 420
+    - 421
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 11
+    - 12
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 11
+    - 12
+    - 70
+    - 237
+    - 420
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 12
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 14.0
+    docPositions:
+    - 10
+    - 242
+    - 282
+    - 338
+    - 339
+    - 345
+    - 350
+    - 356
+    - 539
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 9.0
+    docPositions:
+    - 10
+    - 226
+    - 231
+    - 242
+    - 247
+    - 396
+    - 405
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 11
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 22.0
+    docPositions:
+    - 11
+    - 221
+    - 227
+    - 228
+    - 232
+    - 233
+    - 235
+    - 237
+    - 252
+    - 258
+    - 272
+    - 273
+    - 274
+    - 275
+    - 276
+    - 277
+    - 278
+    - 279
+    - 293
+    - 294
+    - 296
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 13.0
+    docPositions:
+    - 12
+    - 67
+    - 168
+    - 186
+    - 316
+    - 317
+    - 364
+    - 539
+    - 540
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  import: !ruby/object:Word
+    word: import
+    stem: import
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  culture: !ruby/object:Word
+    word: culture
+    stem: cultur
+    docFrequency: 6.0
+    docPositions:
+    - 16
+    - 59
+    - 270
+    - 271
+    - 317
+  languages: !ruby/object:Word
+    word: languages
+    stem: languag
+    docFrequency: 28.0
+    docPositions:
+    - 16
+    - 67
+    - 90
+    - 93
+    - 168
+    - 170
+    - 208
+    - 270
+    - 271
+    - 316
+    - 317
+    - 329
+    - 331
+    - 338
+    - 351
+    - 357
+    - 480
+    - 534
+    - 539
+  atlas: !ruby/object:Word
+    word: atlas
+    stem: atla
+    docFrequency: 26.0
+    docPositions:
+    - 16
+    - 67
+    - 88
+    - 93
+    - 118
+    - 161
+    - 168
+    - 170
+    - 173
+    - 270
+    - 271
+    - 311
+    - 316
+    - 317
+    - 331
+    - 371
+    - 386
+    - 534
+    - 535
+    - 538
+    - 539
+  assets: !ruby/object:Word
+    word: assets
+    stem: asset
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 270
+    - 271
+  _core: !ruby/object:Word
+    word: _core
+    stem: _core
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 270
+    - 271
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 391
+  ui: !ruby/object:Word
+    word: ui
+    stem: ui
+    docFrequency: 5.0
+    docPositions:
+    - 16
+    - 398
+    - 407
+  themes: !ruby/object:Word
+    word: themes
+    stem: theme
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  custom: !ruby/object:Word
+    word: custom
+    stem: custom
+    docFrequency: 3.0
+    docPositions:
+    - 16
+  theme: !ruby/object:Word
+    word: theme
+    stem: theme
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  loading: !ruby/object:Word
+    word: loading
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  alert: !ruby/object:Word
+    word: alert
+    stem: alert
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 292
+    - 532
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 304
+    - 533
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  fran: !ruby/object:Word
+    word: fran
+    stem: fran
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  ais: !ruby/object:Word
+    word: ais
+    stem: ai
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  espa: !ruby/object:Word
+    word: espa
+    stem: espa
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  ol: !ruby/object:Word
+    word: ol
+    stem: ol
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  v: !ruby/object:Word
+    word: v
+    stem: v
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  beta: !ruby/object:Word
+    word: beta
+    stem: beta
+    docFrequency: 2.0
+    docPositions:
+    - 46
+  unesco: !ruby/object:Word
+    word: unesco
+    stem: unesco
+    docFrequency: 15.0
+    docPositions:
+    - 55
+    - 67
+    - 68
+    - 168
+    - 311
+    - 316
+    - 317
+    - 364
+    - 521
+    - 533
+    - 538
+    - 539
+    - 540
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 58
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 40.0
+    docPositions:
+    - 58
+    - 60
+    - 99
+    - 170
+    - 186
+    - 311
+    - 316
+    - 329
+    - 331
+    - 338
+    - 339
+    - 350
+    - 352
+    - 356
+    - 358
+    - 364
+    - 380
+    - 383
+    - 478
+    - 507
+    - 534
+    - 538
+    - 539
+    - 540
+  human: !ruby/object:Word
+    word: human
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  communication: !ruby/object:Word
+    word: communication
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 10.0
+    docPositions:
+    - 60
+    - 170
+    - 331
+    - 345
+    - 534
+    - 539
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 61
+    - 504
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 7.0
+    docPositions:
+    - 67
+    - 168
+    - 316
+    - 317
+    - 467
+    - 539
+  danger: !ruby/object:Word
+    word: danger
+    stem: danger
+    docFrequency: 7.0
+    docPositions:
+    - 67
+    - 93
+    - 168
+    - 316
+    - 317
+    - 539
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 6.0
+    docPositions:
+    - 68
+    - 176
+    - 317
+    - 533
+    - 537
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 237
+  navmain: !ruby/object:Word
+    word: navmain
+    stem: navmain
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  menujs: !ruby/object:Word
+    word: menujs
+    stem: menuj
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 8.0
+    docPositions:
+    - 70
+    - 329
+    - 339
+    - 345
+    - 539
+  endangered: !ruby/object:Word
+    word: endangered
+    stem: endang
+    docFrequency: 20.0
+    docPositions:
+    - 90
+    - 170
+    - 173
+    - 201
+    - 202
+    - 203
+    - 329
+    - 338
+    - 350
+    - 356
+    - 376
+    - 379
+    - 382
+    - 534
+    - 535
+    - 539
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 4.0
+    docPositions:
+    - 96
+    - 364
+    - 540
+  editions: !ruby/object:Word
+    word: editions
+    stem: edit
+    docFrequency: 4.0
+    docPositions:
+    - 96
+    - 364
+    - 540
+  editors: !ruby/object:Word
+    word: editors
+    stem: editor
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  contributors: !ruby/object:Word
+    word: contributors
+    stem: contributor
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 25.0
+    docPositions:
+    - 102
+    - 173
+    - 190
+    - 331
+    - 338
+    - 343
+    - 350
+    - 356
+    - 364
+    - 368
+    - 371
+    - 374
+    - 377
+    - 380
+    - 383
+    - 535
+    - 539
+    - 540
+  mapping: !ruby/object:Word
+    word: mapping
+    stem: map
+    docFrequency: 8.0
+    docPositions:
+    - 102
+    - 170
+    - 331
+    - 534
+    - 539
+  contribute: !ruby/object:Word
+    word: contribute
+    stem: contribut
+    docFrequency: 4.0
+    docPositions:
+    - 105
+    - 170
+    - 534
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 4.0
+    docPositions:
+    - 105
+    - 170
+    - 534
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 6.0
+    docPositions:
+    - 105
+    - 170
+    - 176
+    - 534
+    - 537
+  browsing: !ruby/object:Word
+    word: browsing
+    stem: brows
+    docFrequency: 4.0
+    docPositions:
+    - 108
+    - 170
+    - 534
+  functionalities: !ruby/object:Word
+    word: functionalities
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 487
+  interactive: !ruby/object:Word
+    word: interactive
+    stem: interact
+    docFrequency: 8.0
+    docPositions:
+    - 118
+    - 161
+    - 168
+    - 173
+    - 316
+    - 535
+    - 539
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 495
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  dataset: !ruby/object:Word
+    word: dataset
+    stem: dataset
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 512
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 137
+    - 173
+    - 512
+    - 535
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 3.0
+    docPositions:
+    - 146
+  emilian: !ruby/object:Word
+    word: emilian
+    stem: emilian
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  miami: !ruby/object:Word
+    word: miami
+    stem: miami
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  illinois: !ruby/object:Word
+    word: illinois
+    stem: illinoi
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  somyev: !ruby/object:Word
+    word: somyev
+    stem: somyev
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  micmac: !ruby/object:Word
+    word: micmac
+    stem: micmac
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  canada: !ruby/object:Word
+    word: canada
+    stem: canada
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 186
+  maliseet: !ruby/object:Word
+    word: maliseet
+    stem: maliseet
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  urum: !ruby/object:Word
+    word: urum
+    stem: urum
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  lae: !ruby/object:Word
+    word: lae
+    stem: lae
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  cocama: !ruby/object:Word
+    word: cocama
+    stem: cocama
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  cocamilla: !ruby/object:Word
+    word: cocamilla
+    stem: cocamilla
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  peru: !ruby/object:Word
+    word: peru
+    stem: peru
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 186
+  huron: !ruby/object:Word
+    word: huron
+    stem: huron
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  wyandot: !ruby/object:Word
+    word: wyandot
+    stem: wyandot
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  panamahka: !ruby/object:Word
+    word: panamahka
+    stem: panamahka
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  button: !ruby/object:Word
+    word: button
+    stem: button
+    docFrequency: 3.0
+    docPositions:
+    - 149
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 6.0
+    docPositions:
+    - 170
+    - 316
+    - 317
+    - 534
+    - 539
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 11.0
+    docPositions:
+    - 170
+    - 316
+    - 364
+    - 534
+    - 539
+    - 540
+  complementary: !ruby/object:Word
+    word: complementary
+    stem: complementari
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 316
+    - 534
+    - 539
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 7.0
+    docPositions:
+    - 170
+    - 316
+    - 534
+    - 539
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 9.0
+    docPositions:
+    - 170
+    - 311
+    - 331
+    - 371
+    - 380
+    - 534
+    - 538
+    - 539
+  reproduce: !ruby/object:Word
+    word: reproduce
+    stem: reproduc
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  regional: !ruby/object:Word
+    word: regional
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  thematic: !ruby/object:Word
+    word: thematic
+    stem: themat
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  chapters: !ruby/object:Word
+    word: chapters
+    stem: chapter
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 4.0
+    docPositions:
+    - 170
+    - 317
+    - 534
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 4.0
+    docPositions:
+    - 170
+    - 374
+    - 534
+  offers: !ruby/object:Word
+    word: offers
+    stem: offer
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  additional: !ruby/object:Word
+    word: additional
+    stem: addit
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  listed: !ruby/object:Word
+    word: listed
+    stem: list
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 331
+    - 534
+    - 539
+  via: !ruby/object:Word
+    word: via
+    stem: via
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  interface: !ruby/object:Word
+    word: interface
+    stem: interfac
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 173
+    - 534
+    - 535
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 19.0
+    docPositions:
+    - 170
+    - 330
+    - 335
+    - 340
+    - 347
+    - 350
+    - 353
+    - 356
+    - 359
+    - 534
+    - 539
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  combinations: !ruby/object:Word
+    word: combinations
+    stem: combin
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 72.0
+    docPositions:
+    - 170
+    - 180
+    - 208
+    - 328
+    - 329
+    - 330
+    - 335
+    - 338
+    - 339
+    - 340
+    - 343
+    - 345
+    - 347
+    - 350
+    - 351
+    - 353
+    - 356
+    - 357
+    - 359
+    - 534
+    - 539
+  criteria: !ruby/object:Word
+    word: criteria
+    stem: criteria
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  zooming: !ruby/object:Word
+    word: zooming
+    stem: zoom
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 28.0
+    docPositions:
+    - 170
+    - 215
+    - 237
+    - 246
+    - 254
+    - 269
+    - 286
+    - 295
+    - 303
+    - 330
+    - 334
+    - 335
+    - 340
+    - 347
+    - 353
+    - 359
+    - 534
+    - 539
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 331
+    - 534
+    - 539
+  functionnalities: !ruby/object:Word
+    word: functionnalities
+    stem: functionn
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 19.0
+    docPositions:
+    - 170
+    - 176
+    - 204
+    - 331
+    - 334
+    - 343
+    - 344
+    - 345
+    - 351
+    - 464
+    - 534
+    - 537
+    - 539
+  detailed: !ruby/object:Word
+    word: detailed
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 11.0
+    docPositions:
+    - 170
+    - 173
+    - 176
+    - 345
+    - 534
+    - 535
+    - 537
+    - 539
+  consult: !ruby/object:Word
+    word: consult
+    stem: consult
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 534
+  remarks: !ruby/object:Word
+    word: remarks
+    stem: remark
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  built: !ruby/object:Word
+    word: built
+    stem: built
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  forms: !ruby/object:Word
+    word: forms
+    stem: form
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  tab: !ruby/object:Word
+    word: tab
+    stem: tab
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 13.0
+    docPositions:
+    - 173
+    - 263
+    - 345
+    - 351
+    - 357
+    - 386
+    - 400
+    - 411
+    - 535
+    - 539
+  wish: !ruby/object:Word
+    word: wish
+    stem: wish
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  suggest: !ruby/object:Word
+    word: suggest
+    stem: suggest
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  included: !ruby/object:Word
+    word: included
+    stem: includ
+    docFrequency: 5.0
+    docPositions:
+    - 173
+    - 371
+    - 386
+    - 535
+  fill: !ruby/object:Word
+    word: fill
+    stem: fill
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 535
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 537
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 537
+  atlas_at_unesco: !ruby/object:Word
+    word: atlas_at_unesco
+    stem: atlas_at_unesco
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 537
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 12.0
+    docPositions:
+    - 186
+    - 311
+    - 328
+    - 329
+    - 331
+    - 538
+    - 539
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 311
+    - 538
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 187
+    - 371
+  afghanistan: !ruby/object:Word
+    word: afghanistan
+    stem: afghanistan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  albania: !ruby/object:Word
+    word: albania
+    stem: albania
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  algeria: !ruby/object:Word
+    word: algeria
+    stem: algeria
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  angola: !ruby/object:Word
+    word: angola
+    stem: angola
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  argentina: !ruby/object:Word
+    word: argentina
+    stem: argentina
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  armenia: !ruby/object:Word
+    word: armenia
+    stem: armenia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  australia: !ruby/object:Word
+    word: australia
+    stem: australia
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  austria: !ruby/object:Word
+    word: austria
+    stem: austria
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  azerbaijan: !ruby/object:Word
+    word: azerbaijan
+    stem: azerbaijan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bangladesh: !ruby/object:Word
+    word: bangladesh
+    stem: bangladesh
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  belarus: !ruby/object:Word
+    word: belarus
+    stem: belaru
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  belgium: !ruby/object:Word
+    word: belgium
+    stem: belgium
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  belize: !ruby/object:Word
+    word: belize
+    stem: beliz
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  benin: !ruby/object:Word
+    word: benin
+    stem: benin
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bhutan: !ruby/object:Word
+    word: bhutan
+    stem: bhutan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bolivia: !ruby/object:Word
+    word: bolivia
+    stem: bolivia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  plurinational: !ruby/object:Word
+    word: plurinational
+    stem: plurin
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bosnia: !ruby/object:Word
+    word: bosnia
+    stem: bosnia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  herzegovina: !ruby/object:Word
+    word: herzegovina
+    stem: herzegovina
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  botswana: !ruby/object:Word
+    word: botswana
+    stem: botswana
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  brazil: !ruby/object:Word
+    word: brazil
+    stem: brazil
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bulgaria: !ruby/object:Word
+    word: bulgaria
+    stem: bulgaria
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  burkina: !ruby/object:Word
+    word: burkina
+    stem: burkina
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  faso: !ruby/object:Word
+    word: faso
+    stem: faso
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  cambodia: !ruby/object:Word
+    word: cambodia
+    stem: cambodia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  cameroon: !ruby/object:Word
+    word: cameroon
+    stem: cameroon
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  african: !ruby/object:Word
+    word: african
+    stem: african
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  republic: !ruby/object:Word
+    word: republic
+    stem: republ
+    docFrequency: 12.0
+    docPositions:
+    - 186
+  chad: !ruby/object:Word
+    word: chad
+    stem: chad
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  chile: !ruby/object:Word
+    word: chile
+    stem: chile
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  china: !ruby/object:Word
+    word: china
+    stem: china
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  colombia: !ruby/object:Word
+    word: colombia
+    stem: colombia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  congo: !ruby/object:Word
+    word: congo
+    stem: congo
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  cook: !ruby/object:Word
+    word: cook
+    stem: cook
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  islands: !ruby/object:Word
+    word: islands
+    stem: island
+    docFrequency: 4.0
+    docPositions:
+    - 186
+  costa: !ruby/object:Word
+    word: costa
+    stem: costa
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  rica: !ruby/object:Word
+    word: rica
+    stem: rica
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  te: !ruby/object:Word
+    word: te
+    stem: te
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ivoire: !ruby/object:Word
+    word: ivoire
+    stem: ivoir
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  croatia: !ruby/object:Word
+    word: croatia
+    stem: croatia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  cyprus: !ruby/object:Word
+    word: cyprus
+    stem: cypru
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  czech: !ruby/object:Word
+    word: czech
+    stem: czech
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  democratic: !ruby/object:Word
+    word: democratic
+    stem: democrat
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  denmark: !ruby/object:Word
+    word: denmark
+    stem: denmark
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  dominica: !ruby/object:Word
+    word: dominica
+    stem: dominica
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ecuador: !ruby/object:Word
+    word: ecuador
+    stem: ecuador
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  egypt: !ruby/object:Word
+    word: egypt
+    stem: egypt
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  el: !ruby/object:Word
+    word: el
+    stem: el
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  salvador: !ruby/object:Word
+    word: salvador
+    stem: salvador
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  equatorial: !ruby/object:Word
+    word: equatorial
+    stem: equatori
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  guinea: !ruby/object:Word
+    word: guinea
+    stem: guinea
+    docFrequency: 5.0
+    docPositions:
+    - 186
+  eritrea: !ruby/object:Word
+    word: eritrea
+    stem: eritrea
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  estonia: !ruby/object:Word
+    word: estonia
+    stem: estonia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ethiopia: !ruby/object:Word
+    word: ethiopia
+    stem: ethiopia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  faroe: !ruby/object:Word
+    word: faroe
+    stem: faro
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  fiji: !ruby/object:Word
+    word: fiji
+    stem: fiji
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  finland: !ruby/object:Word
+    word: finland
+    stem: finland
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  france: !ruby/object:Word
+    word: france
+    stem: franc
+    docFrequency: 5.0
+    docPositions:
+    - 186
+  french: !ruby/object:Word
+    word: french
+    stem: french
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  guiana: !ruby/object:Word
+    word: guiana
+    stem: guiana
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  polynesia: !ruby/object:Word
+    word: polynesia
+    stem: polynesia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  gabon: !ruby/object:Word
+    word: gabon
+    stem: gabon
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  georgia: !ruby/object:Word
+    word: georgia
+    stem: georgia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  germany: !ruby/object:Word
+    word: germany
+    stem: germani
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ghana: !ruby/object:Word
+    word: ghana
+    stem: ghana
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  greece: !ruby/object:Word
+    word: greece
+    stem: greec
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  greenland: !ruby/object:Word
+    word: greenland
+    stem: greenland
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  kingdom: !ruby/object:Word
+    word: kingdom
+    stem: kingdom
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  guam: !ruby/object:Word
+    word: guam
+    stem: guam
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  guatemala: !ruby/object:Word
+    word: guatemala
+    stem: guatemala
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bissau: !ruby/object:Word
+    word: bissau
+    stem: bissau
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  guyana: !ruby/object:Word
+    word: guyana
+    stem: guyana
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  honduras: !ruby/object:Word
+    word: honduras
+    stem: hondura
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  hungary: !ruby/object:Word
+    word: hungary
+    stem: hungari
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  india: !ruby/object:Word
+    word: india
+    stem: india
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  indonesia: !ruby/object:Word
+    word: indonesia
+    stem: indonesia
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 331
+    - 539
+  iran: !ruby/object:Word
+    word: iran
+    stem: iran
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  islamic: !ruby/object:Word
+    word: islamic
+    stem: islam
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  iraq: !ruby/object:Word
+    word: iraq
+    stem: iraq
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ireland: !ruby/object:Word
+    word: ireland
+    stem: ireland
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  israel: !ruby/object:Word
+    word: israel
+    stem: israel
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  italy: !ruby/object:Word
+    word: italy
+    stem: itali
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  japan: !ruby/object:Word
+    word: japan
+    stem: japan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  jordan: !ruby/object:Word
+    word: jordan
+    stem: jordan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  kazakhstan: !ruby/object:Word
+    word: kazakhstan
+    stem: kazakhstan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  kenya: !ruby/object:Word
+    word: kenya
+    stem: kenya
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  kyrgyzstan: !ruby/object:Word
+    word: kyrgyzstan
+    stem: kyrgyzstan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  lao: !ruby/object:Word
+    word: lao
+    stem: lao
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  latvia: !ruby/object:Word
+    word: latvia
+    stem: latvia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  lebanon: !ruby/object:Word
+    word: lebanon
+    stem: lebanon
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  lesotho: !ruby/object:Word
+    word: lesotho
+    stem: lesotho
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  libya: !ruby/object:Word
+    word: libya
+    stem: libya
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  liechtenstein: !ruby/object:Word
+    word: liechtenstein
+    stem: liechtenstein
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  lithuania: !ruby/object:Word
+    word: lithuania
+    stem: lithuania
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  luxembourg: !ruby/object:Word
+    word: luxembourg
+    stem: luxembourg
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  malaysia: !ruby/object:Word
+    word: malaysia
+    stem: malaysia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  mali: !ruby/object:Word
+    word: mali
+    stem: mali
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  mauritania: !ruby/object:Word
+    word: mauritania
+    stem: mauritania
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  mexico: !ruby/object:Word
+    word: mexico
+    stem: mexico
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  micronesia: !ruby/object:Word
+    word: micronesia
+    stem: micronesia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  federated: !ruby/object:Word
+    word: federated
+    stem: feder
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 3.0
+    docPositions:
+    - 186
+  monaco: !ruby/object:Word
+    word: monaco
+    stem: monaco
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  mongolia: !ruby/object:Word
+    word: mongolia
+    stem: mongolia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  montenegro: !ruby/object:Word
+    word: montenegro
+    stem: montenegro
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  morocco: !ruby/object:Word
+    word: morocco
+    stem: morocco
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  myanmar: !ruby/object:Word
+    word: myanmar
+    stem: myanmar
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  namibia: !ruby/object:Word
+    word: namibia
+    stem: namibia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  nauru: !ruby/object:Word
+    word: nauru
+    stem: nauru
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  nepal: !ruby/object:Word
+    word: nepal
+    stem: nepal
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  netherlands: !ruby/object:Word
+    word: netherlands
+    stem: netherland
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 20.0
+    docPositions:
+    - 186
+    - 221
+    - 237
+    - 252
+    - 258
+    - 272
+    - 273
+    - 274
+    - 275
+    - 276
+    - 277
+    - 278
+    - 279
+    - 293
+    - 296
+    - 364
+    - 540
+  caledonia: !ruby/object:Word
+    word: caledonia
+    stem: caledonia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  zealand: !ruby/object:Word
+    word: zealand
+    stem: zealand
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  nicaragua: !ruby/object:Word
+    word: nicaragua
+    stem: nicaragua
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  niger: !ruby/object:Word
+    word: niger
+    stem: niger
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  nigeria: !ruby/object:Word
+    word: nigeria
+    stem: nigeria
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  niue: !ruby/object:Word
+    word: niue
+    stem: niue
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  norfolk: !ruby/object:Word
+    word: norfolk
+    stem: norfolk
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  norway: !ruby/object:Word
+    word: norway
+    stem: norwai
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  oman: !ruby/object:Word
+    word: oman
+    stem: oman
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  pakistan: !ruby/object:Word
+    word: pakistan
+    stem: pakistan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  palau: !ruby/object:Word
+    word: palau
+    stem: palau
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  palestine: !ruby/object:Word
+    word: palestine
+    stem: palestin
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  panama: !ruby/object:Word
+    word: panama
+    stem: panama
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  papua: !ruby/object:Word
+    word: papua
+    stem: papua
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  paraguay: !ruby/object:Word
+    word: paraguay
+    stem: paraguai
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  philippines: !ruby/object:Word
+    word: philippines
+    stem: philippin
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  pitcairn: !ruby/object:Word
+    word: pitcairn
+    stem: pitcairn
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  k: !ruby/object:Word
+    word: k
+    stem: k
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  poland: !ruby/object:Word
+    word: poland
+    stem: poland
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  portugal: !ruby/object:Word
+    word: portugal
+    stem: portug
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  korea: !ruby/object:Word
+    word: korea
+    stem: korea
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  moldova: !ruby/object:Word
+    word: moldova
+    stem: moldova
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  romania: !ruby/object:Word
+    word: romania
+    stem: romania
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  russian: !ruby/object:Word
+    word: russian
+    stem: russian
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  federation: !ruby/object:Word
+    word: federation
+    stem: feder
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  marino: !ruby/object:Word
+    word: marino
+    stem: marino
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  senegal: !ruby/object:Word
+    word: senegal
+    stem: seneg
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  serbia: !ruby/object:Word
+    word: serbia
+    stem: serbia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  sierra: !ruby/object:Word
+    word: sierra
+    stem: sierra
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  leone: !ruby/object:Word
+    word: leone
+    stem: leon
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  slovakia: !ruby/object:Word
+    word: slovakia
+    stem: slovakia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  slovenia: !ruby/object:Word
+    word: slovenia
+    stem: slovenia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  solomon: !ruby/object:Word
+    word: solomon
+    stem: solomon
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  africa: !ruby/object:Word
+    word: africa
+    stem: africa
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 442
+  spain: !ruby/object:Word
+    word: spain
+    stem: spain
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  sri: !ruby/object:Word
+    word: sri
+    stem: sri
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  lanka: !ruby/object:Word
+    word: lanka
+    stem: lanka
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  sudan: !ruby/object:Word
+    word: sudan
+    stem: sudan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  suriname: !ruby/object:Word
+    word: suriname
+    stem: surinam
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  sweden: !ruby/object:Word
+    word: sweden
+    stem: sweden
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  switzerland: !ruby/object:Word
+    word: switzerland
+    stem: switzerland
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  syrian: !ruby/object:Word
+    word: syrian
+    stem: syrian
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  arab: !ruby/object:Word
+    word: arab
+    stem: arab
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  tajikistan: !ruby/object:Word
+    word: tajikistan
+    stem: tajikistan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  thailand: !ruby/object:Word
+    word: thailand
+    stem: thailand
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  former: !ruby/object:Word
+    word: former
+    stem: former
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  yugoslav: !ruby/object:Word
+    word: yugoslav
+    stem: yugoslav
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  macedonia: !ruby/object:Word
+    word: macedonia
+    stem: macedonia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  timor: !ruby/object:Word
+    word: timor
+    stem: timor
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  leste: !ruby/object:Word
+    word: leste
+    stem: lest
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  togo: !ruby/object:Word
+    word: togo
+    stem: togo
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  tokelau: !ruby/object:Word
+    word: tokelau
+    stem: tokelau
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  tunisia: !ruby/object:Word
+    word: tunisia
+    stem: tunisia
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  turkey: !ruby/object:Word
+    word: turkey
+    stem: turkei
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  turkmenistan: !ruby/object:Word
+    word: turkmenistan
+    stem: turkmenistan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  tuvalu: !ruby/object:Word
+    word: tuvalu
+    stem: tuvalu
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  uganda: !ruby/object:Word
+    word: uganda
+    stem: uganda
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  ukraine: !ruby/object:Word
+    word: ukraine
+    stem: ukrain
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 4.0
+    docPositions:
+    - 186
+  great: !ruby/object:Word
+    word: great
+    stem: great
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  britain: !ruby/object:Word
+    word: britain
+    stem: britain
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  northern: !ruby/object:Word
+    word: northern
+    stem: northern
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  tanzania: !ruby/object:Word
+    word: tanzania
+    stem: tanzania
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  uruguay: !ruby/object:Word
+    word: uruguay
+    stem: uruguai
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  uzbekistan: !ruby/object:Word
+    word: uzbekistan
+    stem: uzbekistan
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  vanuatu: !ruby/object:Word
+    word: vanuatu
+    stem: vanuatu
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  venezuela: !ruby/object:Word
+    word: venezuela
+    stem: venezuela
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  bolivarian: !ruby/object:Word
+    word: bolivarian
+    stem: bolivarian
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  viet: !ruby/object:Word
+    word: viet
+    stem: viet
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  nam: !ruby/object:Word
+    word: nam
+    stem: nam
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  western: !ruby/object:Word
+    word: western
+    stem: western
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  sahara: !ruby/object:Word
+    word: sahara
+    stem: sahara
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  yemen: !ruby/object:Word
+    word: yemen
+    stem: yemen
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  vitality: !ruby/object:Word
+    word: vitality
+    stem: vital
+    docFrequency: 11.0
+    docPositions:
+    - 187
+    - 204
+    - 334
+    - 364
+    - 365
+    - 539
+    - 540
+    - 541
+  vulnerabledefinitely: !ruby/object:Word
+    word: vulnerabledefinitely
+    stem: vulnerabledefinit
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  endangeredseverely: !ruby/object:Word
+    word: endangeredseverely
+    stem: endangeredsever
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  endangeredcritically: !ruby/object:Word
+    word: endangeredcritically
+    stem: endangeredcrit
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  endangeredextinct: !ruby/object:Word
+    word: endangeredextinct
+    stem: endangeredextinct
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 13.0
+    docPositions:
+    - 190
+    - 328
+    - 329
+    - 331
+    - 338
+    - 339
+    - 507
+    - 539
+  iso: !ruby/object:Word
+    word: iso
+    stem: iso
+    docFrequency: 10.0
+    docPositions:
+    - 191
+    - 343
+    - 344
+    - 345
+    - 539
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 4.0
+    docPositions:
+    - 191
+    - 343
+    - 539
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 19.0
+    docPositions:
+    - 194
+    - 208
+    - 305
+    - 331
+    - 350
+    - 351
+    - 356
+    - 357
+    - 539
+  speakers: !ruby/object:Word
+    word: speakers
+    stem: speaker
+    docFrequency: 12.0
+    docPositions:
+    - 194
+    - 350
+    - 351
+    - 356
+    - 357
+    - 383
+    - 386
+    - 539
+  vulnerable: !ruby/object:Word
+    word: vulnerable
+    stem: vulner
+    docFrequency: 3.0
+    docPositions:
+    - 200
+    - 373
+  definitely: !ruby/object:Word
+    word: definitely
+    stem: definit
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 376
+  severely: !ruby/object:Word
+    word: severely
+    stem: sever
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 379
+  critically: !ruby/object:Word
+    word: critically
+    stem: critic
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 382
+  extinct: !ruby/object:Word
+    word: extinct
+    stem: extinct
+    docFrequency: 4.0
+    docPositions:
+    - 204
+    - 385
+    - 386
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  revitalized: !ruby/object:Word
+    word: revitalized
+    stem: revit
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  newinfowindow: !ruby/object:Word
+    word: newinfowindow
+    stem: newinfowindow
+    docFrequency: 6.0
+    docPositions:
+    - 216
+    - 263
+    - 264
+    - 266
+    - 267
+  mapmarkers: !ruby/object:Word
+    word: mapmarkers
+    stem: mapmark
+    docFrequency: 3.0
+    docPositions:
+    - 217
+    - 253
+  mappoints: !ruby/object:Word
+    word: mappoints
+    stem: mappoint
+    docFrequency: 4.0
+    docPositions:
+    - 218
+    - 253
+  markerhtmls: !ruby/object:Word
+    word: markerhtmls
+    stem: markerhtml
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  usesidebar: !ruby/object:Word
+    word: usesidebar
+    stem: usesidebar
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 220
+    - 230
+    - 242
+    - 393
+    - 402
+    - 417
+  latlng: !ruby/object:Word
+    word: latlng
+    stem: latlng
+    docFrequency: 5.0
+    docPositions:
+    - 221
+    - 225
+    - 243
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 21.0
+    docPositions:
+    - 221
+    - 227
+    - 228
+    - 232
+    - 233
+    - 235
+    - 237
+    - 252
+    - 258
+    - 272
+    - 273
+    - 274
+    - 275
+    - 276
+    - 277
+    - 278
+    - 279
+    - 293
+    - 294
+    - 296
+  initializer: !ruby/object:Word
+    word: initializer
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 307
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 5.0
+    docPositions:
+    - 223
+    - 237
+    - 345
+    - 539
+  zoom: !ruby/object:Word
+    word: zoom
+    stem: zoom
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  navigationcontrol: !ruby/object:Word
+    word: navigationcontrol
+    stem: navigationcontrol
+    docFrequency: 2.0
+    docPositions:
+    - 226
+  navigationcontroloptions: !ruby/object:Word
+    word: navigationcontroloptions
+    stem: navigationcontrolopt
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 4.0
+    docPositions:
+    - 227
+    - 232
+    - 285
+  controlposition: !ruby/object:Word
+    word: controlposition
+    stem: controlposit
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 232
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 3.0
+    docPositions:
+    - 228
+    - 233
+  navigationcontrolstyle: !ruby/object:Word
+    word: navigationcontrolstyle
+    stem: navigationcontrolstyl
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  android: !ruby/object:Word
+    word: android
+    stem: android
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  scalecontrol: !ruby/object:Word
+    word: scalecontrol
+    stem: scalecontrol
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  maptypecontrol: !ruby/object:Word
+    word: maptypecontrol
+    stem: maptypecontrol
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  maptypecontroloptions: !ruby/object:Word
+    word: maptypecontroloptions
+    stem: maptypecontrolopt
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  top_left: !ruby/object:Word
+    word: top_left
+    stem: top_left
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  maptypecontrolstyle: !ruby/object:Word
+    word: maptypecontrolstyle
+    stem: maptypecontrolstyl
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  dropdown_menu: !ruby/object:Word
+    word: dropdown_menu
+    stem: dropdown_menu
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  maptypeid: !ruby/object:Word
+    word: maptypeid
+    stem: maptypeid
+    docFrequency: 3.0
+    docPositions:
+    - 235
+  terrain: !ruby/object:Word
+    word: terrain
+    stem: terrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  loadgooglemap: !ruby/object:Word
+    word: loadgooglemap
+    stem: loadgooglemap
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 257
+  loadmarkercontent: !ruby/object:Word
+    word: loadmarkercontent
+    stem: loadmarkercont
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 267
+  marker: !ruby/object:Word
+    word: marker
+    stem: marker
+    docFrequency: 13.0
+    docPositions:
+    - 238
+    - 246
+    - 260
+    - 267
+    - 293
+    - 294
+    - 298
+    - 300
+    - 303
+    - 304
+    - 305
+  infowindow: !ruby/object:Word
+    word: infowindow
+    stem: infowindow
+    docFrequency: 12.0
+    docPositions:
+    - 238
+    - 245
+    - 246
+    - 252
+    - 253
+    - 260
+    - 266
+    - 296
+    - 298
+  lat: !ruby/object:Word
+    word: lat
+    stem: lat
+    docFrequency: 8.0
+    docPositions:
+    - 238
+    - 239
+    - 253
+    - 260
+    - 261
+    - 292
+    - 298
+  lng: !ruby/object:Word
+    word: lng
+    stem: lng
+    docFrequency: 8.0
+    docPositions:
+    - 238
+    - 240
+    - 253
+    - 260
+    - 262
+    - 292
+    - 298
+  pointlat: !ruby/object:Word
+    word: pointlat
+    stem: pointlat
+    docFrequency: 5.0
+    docPositions:
+    - 239
+    - 243
+    - 261
+    - 267
+  pointlng: !ruby/object:Word
+    word: pointlng
+    stem: pointlng
+    docFrequency: 5.0
+    docPositions:
+    - 240
+    - 243
+    - 262
+    - 267
+  ajax: !ruby/object:Word
+    word: ajax
+    stem: ajax
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 242
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 481
+  cache: !ruby/object:Word
+    word: cache
+    stem: cach
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  atlasmaplanginfo: !ruby/object:Word
+    word: atlasmaplanginfo
+    stem: atlasmaplanginfo
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  infowindow_create: !ruby/object:Word
+    word: infowindow_create
+    stem: infowindow_cr
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 4.0
+    docPositions:
+    - 243
+    - 244
+    - 245
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 2.0
+    docPositions:
+    - 244
+  setcontent: !ruby/object:Word
+    word: setcontent
+    stem: setcont
+    docFrequency: 2.0
+    docPositions:
+    - 245
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 246
+    - 416
+  settimeout: !ruby/object:Word
+    word: settimeout
+    stem: settimeout
+    docFrequency: 3.0
+    docPositions:
+    - 247
+    - 307
+  tabs: !ruby/object:Word
+    word: tabs
+    stem: tab
+    docFrequency: 3.0
+    docPositions:
+    - 247
+  fxslide: !ruby/object:Word
+    word: fxslide
+    stem: fxslide
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  fxfade: !ruby/object:Word
+    word: fxfade
+    stem: fxfade
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  fxspeed: !ruby/object:Word
+    word: fxspeed
+    stem: fxspeed
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  fast: !ruby/object:Word
+    word: fast
+    stem: fast
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  clicked: !ruby/object:Word
+    word: clicked
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 251
+    - 303
+  markernum: !ruby/object:Word
+    word: markernum
+    stem: markernum
+    docFrequency: 7.0
+    docPositions:
+    - 251
+    - 253
+    - 255
+    - 305
+  setinfowindow: !ruby/object:Word
+    word: setinfowindow
+    stem: setinfowindow
+    docFrequency: 4.0
+    docPositions:
+    - 253
+    - 260
+    - 298
+  setzoom: !ruby/object:Word
+    word: setzoom
+    stem: setzoom
+    docFrequency: 3.0
+    docPositions:
+    - 254
+    - 295
+  mapmenu_click: !ruby/object:Word
+    word: mapmenu_click
+    stem: mapmenu_click
+    docFrequency: 3.0
+    docPositions:
+    - 255
+    - 297
+  bounds: !ruby/object:Word
+    word: bounds
+    stem: bound
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  latlngbounds: !ruby/object:Word
+    word: latlngbounds
+    stem: latlngbound
+    docFrequency: 2.0
+    docPositions:
+    - 258
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 8.0
+    docPositions:
+    - 264
+    - 320
+    - 397
+    - 398
+    - 406
+    - 407
+  createmarker: !ruby/object:Word
+    word: createmarker
+    stem: createmark
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  pointlatlng: !ruby/object:Word
+    word: pointlatlng
+    stem: pointlatlng
+    docFrequency: 7.0
+    docPositions:
+    - 269
+    - 285
+    - 292
+    - 298
+  markertitle: !ruby/object:Word
+    word: markertitle
+    stem: markertitl
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 290
+  markerhtml: !ruby/object:Word
+    word: markerhtml
+    stem: markerhtml
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  iconimage: !ruby/object:Word
+    word: iconimage
+    stem: iconimag
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 270
+  iconimageurl: !ruby/object:Word
+    word: iconimageurl
+    stem: iconimageurl
+    docFrequency: 3.0
+    docPositions:
+    - 270
+    - 278
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 270
+    - 271
+  gmap: !ruby/object:Word
+    word: gmap
+    stem: gmap
+    docFrequency: 3.0
+    docPositions:
+    - 270
+    - 271
+  iconshadowurl: !ruby/object:Word
+    word: iconshadowurl
+    stem: iconshadowurl
+    docFrequency: 3.0
+    docPositions:
+    - 271
+    - 279
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  iconsize: !ruby/object:Word
+    word: iconsize
+    stem: icons
+    docFrequency: 3.0
+    docPositions:
+    - 272
+    - 278
+  size: !ruby/object:Word
+    word: size
+    stem: size
+    docFrequency: 3.0
+    docPositions:
+    - 272
+    - 273
+  iconshadowsize: !ruby/object:Word
+    word: iconshadowsize
+    stem: iconshadows
+    docFrequency: 3.0
+    docPositions:
+    - 273
+    - 279
+  iconposition: !ruby/object:Word
+    word: iconposition
+    stem: iconposit
+    docFrequency: 4.0
+    docPositions:
+    - 274
+    - 278
+    - 279
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 5.0
+    docPositions:
+    - 274
+    - 275
+    - 276
+    - 277
+  iconhotspotoffset: !ruby/object:Word
+    word: iconhotspotoffset
+    stem: iconhotspotoffset
+    docFrequency: 4.0
+    docPositions:
+    - 275
+    - 278
+    - 279
+  infowindowanchor: !ruby/object:Word
+    word: infowindowanchor
+    stem: infowindowanchor
+    docFrequency: 2.0
+    docPositions:
+    - 276
+  infoshadowanchor: !ruby/object:Word
+    word: infoshadowanchor
+    stem: infoshadowanchor
+    docFrequency: 2.0
+    docPositions:
+    - 277
+  markerimage: !ruby/object:Word
+    word: markerimage
+    stem: markerimag
+    docFrequency: 5.0
+    docPositions:
+    - 278
+    - 279
+    - 288
+  markershadow: !ruby/object:Word
+    word: markershadow
+    stem: markershadow
+    docFrequency: 3.0
+    docPositions:
+    - 279
+    - 287
+  shape: !ruby/object:Word
+    word: shape
+    stem: shape
+    docFrequency: 4.0
+    docPositions:
+    - 280
+    - 289
+  coord: !ruby/object:Word
+    word: coord
+    stem: coord
+    docFrequency: 2.0
+    docPositions:
+    - 281
+  poly: !ruby/object:Word
+    word: poly
+    stem: poli
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  markeroptions: !ruby/object:Word
+    word: markeroptions
+    stem: markeropt
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 293
+  shadow: !ruby/object:Word
+    word: shadow
+    stem: shadow
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  icon: !ruby/object:Word
+    word: icon
+    stem: icon
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 2.0
+    docPositions:
+    - 290
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 294
+    - 398
+    - 407
+  addlistener: !ruby/object:Word
+    word: addlistener
+    stem: addlisten
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 7.0
+    docPositions:
+    - 294
+    - 329
+    - 338
+    - 410
+    - 539
+  attr: !ruby/object:Word
+    word: attr
+    stem: attr
+    docFrequency: 4.0
+    docPositions:
+    - 297
+    - 400
+    - 411
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 8.0
+    docPositions:
+    - 297
+    - 400
+    - 411
+    - 412
+    - 414
+    - 416
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 300
+    - 417
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 303
+  opens: !ruby/object:Word
+    word: opens
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  bubble: !ruby/object:Word
+    word: bubble
+    stem: bubbl
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  above: !ruby/object:Word
+    word: above
+    stem: abov
+    docFrequency: 4.0
+    docPositions:
+    - 304
+    - 334
+    - 539
+  param: !ruby/object:Word
+    word: param
+    stem: param
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  array: !ruby/object:Word
+    word: array
+    stem: arrai
+    docFrequency: 2.0
+    docPositions:
+    - 305
+  designations: !ruby/object:Word
+    word: designations
+    stem: design
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  employed: !ruby/object:Word
+    word: employed
+    stem: emploi
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  presentation: !ruby/object:Word
+    word: presentation
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 4.0
+    docPositions:
+    - 311
+    - 380
+    - 538
+  imply: !ruby/object:Word
+    word: imply
+    stem: impli
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  expression: !ruby/object:Word
+    word: expression
+    stem: express
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 538
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  whatsoever: !ruby/object:Word
+    word: whatsoever
+    stem: whatsoev
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 339
+    - 538
+    - 539
+  concerning: !ruby/object:Word
+    word: concerning
+    stem: concern
+    docFrequency: 5.0
+    docPositions:
+    - 311
+    - 538
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  territory: !ruby/object:Word
+    word: territory
+    stem: territori
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  city: !ruby/object:Word
+    word: city
+    stem: citi
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 9.0
+    docPositions:
+    - 311
+    - 350
+    - 356
+    - 538
+    - 539
+  authorities: !ruby/object:Word
+    word: authorities
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  delimitation: !ruby/object:Word
+    word: delimitation
+    stem: delimit
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  frontiers: !ruby/object:Word
+    word: frontiers
+    stem: frontier
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  boundaries: !ruby/object:Word
+    word: boundaries
+    stem: boundari
+    docFrequency: 3.0
+    docPositions:
+    - 311
+    - 538
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 9.0
+    docPositions:
+    - 316
+    - 339
+    - 343
+    - 374
+    - 380
+    - 539
+  cited: !ruby/object:Word
+    word: cited
+    stem: cite
+    docFrequency: 3.0
+    docPositions:
+    - 316
+    - 539
+  moseley: !ruby/object:Word
+    word: moseley
+    stem: moselei
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  christopher: !ruby/object:Word
+    word: christopher
+    stem: christoph
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  ed: !ruby/object:Word
+    word: ed
+    stem: ed
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  edn: !ruby/object:Word
+    word: edn
+    stem: edn
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  paris: !ruby/object:Word
+    word: paris
+    stem: pari
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  publishing: !ruby/object:Word
+    word: publishing
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  endangeredlanguages: !ruby/object:Word
+    word: endangeredlanguages
+    stem: endangeredlanguag
+    docFrequency: 2.0
+    docPositions:
+    - 317
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 321
+  select: !ruby/object:Word
+    word: select
+    stem: select
+    docFrequency: 5.0
+    docPositions:
+    - 329
+    - 334
+    - 539
+  dropdown: !ruby/object:Word
+    word: dropdown
+    stem: dropdown
+    docFrequency: 9.0
+    docPositions:
+    - 329
+    - 339
+    - 344
+    - 345
+    - 539
+  corresponding: !ruby/object:Word
+    word: corresponding
+    stem: correspond
+    docFrequency: 5.0
+    docPositions:
+    - 329
+    - 338
+    - 539
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 21.0
+    docPositions:
+    - 330
+    - 335
+    - 338
+    - 340
+    - 345
+    - 347
+    - 350
+    - 353
+    - 356
+    - 359
+    - 539
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 17.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 352
+    - 353
+    - 358
+    - 359
+    - 539
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 13.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 353
+    - 359
+    - 539
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 13.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 353
+    - 359
+    - 539
+  parameters: !ruby/object:Word
+    word: parameters
+    stem: paramet
+    docFrequency: 17.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 352
+    - 353
+    - 358
+    - 359
+    - 539
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 13.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 353
+    - 359
+    - 539
+  displayed: !ruby/object:Word
+    word: displayed
+    stem: displai
+    docFrequency: 13.0
+    docPositions:
+    - 330
+    - 335
+    - 340
+    - 347
+    - 353
+    - 359
+    - 539
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 9.0
+    docPositions:
+    - 331
+    - 344
+    - 352
+    - 358
+    - 539
+  brackets: !ruby/object:Word
+    word: brackets
+    stem: bracket
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  appears: !ruby/object:Word
+    word: appears
+    stem: appear
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 6.0
+    docPositions:
+    - 331
+    - 343
+    - 374
+    - 539
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 6.0
+    docPositions:
+    - 331
+    - 343
+    - 374
+    - 539
+  corresponds: !ruby/object:Word
+    word: corresponds
+    stem: correspond
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  geographical: !ruby/object:Word
+    word: geographical
+    stem: geograph
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  points: !ruby/object:Word
+    word: points
+    stem: point
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  methodology: !ruby/object:Word
+    word: methodology
+    stem: methodolog
+    docFrequency: 3.0
+    docPositions:
+    - 331
+    - 539
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 5.0
+    docPositions:
+    - 334
+    - 344
+    - 539
+  degrees: !ruby/object:Word
+    word: degrees
+    stem: degre
+    docFrequency: 8.0
+    docPositions:
+    - 334
+    - 362
+    - 364
+    - 365
+    - 539
+    - 540
+    - 541
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 9.0
+    docPositions:
+    - 334
+    - 343
+    - 351
+    - 357
+    - 539
+  explained: !ruby/object:Word
+    word: explained
+    stem: explain
+    docFrequency: 3.0
+    docPositions:
+    - 334
+    - 539
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 334
+    - 539
+  placed: !ruby/object:Word
+    word: placed
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 334
+    - 539
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 13.0
+    docPositions:
+    - 338
+    - 345
+    - 350
+    - 351
+    - 356
+    - 357
+    - 539
+  users: !ruby/object:Word
+    word: users
+    stem: user
+    docFrequency: 9.0
+    docPositions:
+    - 339
+    - 345
+    - 350
+    - 356
+    - 539
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 5.0
+    docPositions:
+    - 339
+    - 344
+    - 539
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  predictions: !ruby/object:Word
+    word: predictions
+    stem: predict
+    docFrequency: 5.0
+    docPositions:
+    - 339
+    - 344
+    - 539
+  similar: !ruby/object:Word
+    word: similar
+    stem: similar
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  query: !ruby/object:Word
+    word: query
+    stem: queri
+    docFrequency: 5.0
+    docPositions:
+    - 339
+    - 344
+    - 539
+  typed: !ruby/object:Word
+    word: typed
+    stem: type
+    docFrequency: 9.0
+    docPositions:
+    - 339
+    - 344
+    - 351
+    - 357
+    - 539
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  sentence: !ruby/object:Word
+    word: sentence
+    stem: sentenc
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  possibility: !ruby/object:Word
+    word: possibility
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  variants: !ruby/object:Word
+    word: variants
+    stem: variant
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 339
+    - 539
+  user: !ruby/object:Word
+    word: user
+    stem: user
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  consists: !ruby/object:Word
+    word: consists
+    stem: consist
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  letters: !ruby/object:Word
+    word: letters
+    stem: letter
+    docFrequency: 5.0
+    docPositions:
+    - 343
+    - 344
+    - 539
+  codes: !ruby/object:Word
+    word: codes
+    stem: code
+    docFrequency: 8.0
+    docPositions:
+    - 343
+    - 344
+    - 345
+    - 346
+    - 539
+  separated: !ruby/object:Word
+    word: separated
+    stem: separ
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  rpo: !ruby/object:Word
+    word: rpo
+    stem: rpo
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  col: !ruby/object:Word
+    word: col
+    stem: col
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  tra: !ruby/object:Word
+    word: tra
+    stem: tra
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  aal: !ruby/object:Word
+    word: aal
+    stem: aal
+    docFrequency: 3.0
+    docPositions:
+    - 343
+    - 539
+  containing: !ruby/object:Word
+    word: containing
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 344
+    - 539
+  instance: !ruby/object:Word
+    word: instance
+    stem: instanc
+    docFrequency: 7.0
+    docPositions:
+    - 345
+    - 351
+    - 357
+    - 539
+  ho: !ruby/object:Word
+    word: ho
+    stem: ho
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  offer: !ruby/object:Word
+    word: offer
+    stem: offer
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  aho: !ruby/object:Word
+    word: aho
+    stem: aho
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  cho: !ruby/object:Word
+    word: cho
+    stem: cho
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  gho: !ruby/object:Word
+    word: gho
+    stem: gho
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 345
+    - 539
+  ethnologue: !ruby/object:Word
+    word: ethnologue
+    stem: ethnologu
+    docFrequency: 2.0
+    docPositions:
+    - 346
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 5.0
+    docPositions:
+    - 350
+    - 356
+    - 539
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 5.0
+    docPositions:
+    - 350
+    - 356
+    - 539
+  infinite: !ruby/object:Word
+    word: infinite
+    stem: infinit
+    docFrequency: 5.0
+    docPositions:
+    - 350
+    - 356
+    - 539
+  box: !ruby/object:Word
+    word: box
+    stem: box
+    docFrequency: 9.0
+    docPositions:
+    - 351
+    - 357
+    - 411
+    - 412
+    - 414
+    - 416
+    - 539
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 5.0
+    docPositions:
+    - 351
+    - 357
+    - 539
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 351
+    - 357
+    - 391
+    - 539
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 351
+    - 357
+    - 539
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 5.0
+    docPositions:
+    - 352
+    - 358
+    - 539
+  separately: !ruby/object:Word
+    word: separately
+    stem: separ
+    docFrequency: 5.0
+    docPositions:
+    - 352
+    - 358
+    - 539
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 357
+    - 539
+  endangerment: !ruby/object:Word
+    word: endangerment
+    stem: endanger
+    docFrequency: 9.0
+    docPositions:
+    - 362
+    - 364
+    - 365
+    - 367
+    - 540
+    - 541
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  designates: !ruby/object:Word
+    word: designates
+    stem: design
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  little: !ruby/object:Word
+    word: little
+    stem: littl
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  differently: !ruby/object:Word
+    word: differently
+    stem: differ
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  terminology: !ruby/object:Word
+    word: terminology
+    stem: terminolog
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 5.0
+    docPositions:
+    - 364
+    - 365
+    - 540
+    - 541
+  framework: !ruby/object:Word
+    word: framework
+    stem: framework
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 540
+  establishes: !ruby/object:Word
+    word: establishes
+    stem: establish
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 541
+  six: !ruby/object:Word
+    word: six
+    stem: six
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 541
+  nine: !ruby/object:Word
+    word: nine
+    stem: nine
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 541
+  factors: !ruby/object:Word
+    word: factors
+    stem: factor
+    docFrequency: 5.0
+    docPositions:
+    - 365
+    - 541
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 541
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 4.0
+    docPositions:
+    - 365
+    - 374
+    - 541
+  salient: !ruby/object:Word
+    word: salient
+    stem: salient
+    docFrequency: 3.0
+    docPositions:
+    - 365
+    - 541
+  intergenerational: !ruby/object:Word
+    word: intergenerational
+    stem: intergener
+    docFrequency: 5.0
+    docPositions:
+    - 365
+    - 368
+    - 371
+    - 541
+  transmission: !ruby/object:Word
+    word: transmission
+    stem: transmiss
+    docFrequency: 5.0
+    docPositions:
+    - 365
+    - 368
+    - 371
+    - 541
+  degree: !ruby/object:Word
+    word: degree
+    stem: degre
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  safe: !ruby/object:Word
+    word: safe
+    stem: safe
+    docFrequency: 2.0
+    docPositions:
+    - 370
+  spoken: !ruby/object:Word
+    word: spoken
+    stem: spoken
+    docFrequency: 3.0
+    docPositions:
+    - 371
+    - 380
+  generations: !ruby/object:Word
+    word: generations
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 371
+    - 380
+  uninterrupted: !ruby/object:Word
+    word: uninterrupted
+    stem: uninterrupt
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 4.0
+    docPositions:
+    - 374
+    - 377
+    - 380
+  speak: !ruby/object:Word
+    word: speak
+    stem: speak
+    docFrequency: 4.0
+    docPositions:
+    - 374
+    - 380
+    - 383
+  restricted: !ruby/object:Word
+    word: restricted
+    stem: restrict
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  certain: !ruby/object:Word
+    word: certain
+    stem: certain
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  domains: !ruby/object:Word
+    word: domains
+    stem: domain
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 374
+    - 377
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 377
+    - 386
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  mother: !ruby/object:Word
+    word: mother
+    stem: mother
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  tongue: !ruby/object:Word
+    word: tongue
+    stem: tongu
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  grandparents: !ruby/object:Word
+    word: grandparents
+    stem: grandpar
+    docFrequency: 3.0
+    docPositions:
+    - 380
+    - 383
+  older: !ruby/object:Word
+    word: older
+    stem: older
+    docFrequency: 3.0
+    docPositions:
+    - 380
+    - 383
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  parent: !ruby/object:Word
+    word: parent
+    stem: parent
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  generation: !ruby/object:Word
+    word: generation
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  understand: !ruby/object:Word
+    word: understand
+    stem: understand
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 380
+    - 383
+  among: !ruby/object:Word
+    word: among
+    stem: among
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  themselves: !ruby/object:Word
+    word: themselves
+    stem: themselv
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  youngest: !ruby/object:Word
+    word: youngest
+    stem: youngest
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  partially: !ruby/object:Word
+    word: partially
+    stem: partial
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  infrequently: !ruby/object:Word
+    word: infrequently
+    stem: infrequ
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  presumably: !ruby/object:Word
+    word: presumably
+    stem: presum
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  fx: !ruby/object:Word
+    word: fx
+    stem: fx
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  speeds: !ruby/object:Word
+    word: speeds
+    stem: speed
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  _default: !ruby/object:Word
+    word: _default
+    stem: _default
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 4.0
+    docPositions:
+    - 391
+    - 392
+    - 401
+  infobox: !ruby/object:Word
+    word: infobox
+    stem: infobox
+    docFrequency: 4.0
+    docPositions:
+    - 391
+    - 392
+    - 401
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  dialog: !ruby/object:Word
+    word: dialog
+    stem: dialog
+    docFrequency: 10.0
+    docPositions:
+    - 392
+    - 397
+    - 400
+    - 401
+    - 406
+    - 410
+    - 412
+    - 414
+    - 416
+  autoopen: !ruby/object:Word
+    word: autoopen
+    stem: autoopen
+    docFrequency: 3.0
+    docPositions:
+    - 393
+    - 402
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 394
+    - 403
+  blind: !ruby/object:Word
+    word: blind
+    stem: blind
+    docFrequency: 3.0
+    docPositions:
+    - 394
+    - 403
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 5.0
+    docPositions:
+    - 395
+    - 398
+    - 404
+    - 407
+  explode: !ruby/object:Word
+    word: explode
+    stem: explod
+    docFrequency: 3.0
+    docPositions:
+    - 395
+    - 404
+  modal: !ruby/object:Word
+    word: modal
+    stem: modal
+    docFrequency: 3.0
+    docPositions:
+    - 396
+    - 405
+  buttons: !ruby/object:Word
+    word: buttons
+    stem: button
+    docFrequency: 3.0
+    docPositions:
+    - 397
+    - 406
+  htmlvitalitydegreeinfobox: !ruby/object:Word
+    word: htmlvitalitydegreeinfobox
+    stem: htmlvitalitydegreeinfobox
+    docFrequency: 3.0
+    docPositions:
+    - 400
+    - 411
+  destroy: !ruby/object:Word
+    word: destroy
+    stem: destroi
+    docFrequency: 2.0
+    docPositions:
+    - 406
+  option: !ruby/object:Word
+    word: option
+    stem: option
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 414
+  minwidth: !ruby/object:Word
+    word: minwidth
+    stem: minwidth
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 414
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  map_menu: !ruby/object:Word
+    word: map_menu
+    stem: map_menu
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  mouseup: !ruby/object:Word
+    word: mouseup
+    stem: mouseup
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  addclass: !ruby/object:Word
+    word: addclass
+    stem: addclass
+    docFrequency: 2.0
+    docPositions:
+    - 422
+  mapmenu_active: !ruby/object:Word
+    word: mapmenu_active
+    stem: mapmenu_act
+    docFrequency: 2.0
+    docPositions:
+    - 422
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  priorities: !ruby/object:Word
+    word: priorities
+    stem: prioriti
+    docFrequency: 2.0
+    docPositions:
+    - 439
+  gender: !ruby/object:Word
+    word: gender
+    stem: gender
+    docFrequency: 2.0
+    docPositions:
+    - 445
+  equality: !ruby/object:Word
+    word: equality
+    stem: equal
+    docFrequency: 2.0
+    docPositions:
+    - 445
+  efa: !ruby/object:Word
+    word: efa
+    stem: efa
+    docFrequency: 2.0
+    docPositions:
+    - 447
+  sustainability: !ruby/object:Word
+    word: sustainability
+    stem: sustain
+    docFrequency: 2.0
+    docPositions:
+    - 450
+  ethics: !ruby/object:Word
+    word: ethics
+    stem: ethic
+    docFrequency: 2.0
+    docPositions:
+    - 453
+  cultural: !ruby/object:Word
+    word: cultural
+    stem: cultur
+    docFrequency: 2.0
+    docPositions:
+    - 456
+  diversity: !ruby/object:Word
+    word: diversity
+    stem: divers
+    docFrequency: 2.0
+    docPositions:
+    - 456
+  intercultural: !ruby/object:Word
+    word: intercultural
+    stem: intercultur
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  dialogue: !ruby/object:Word
+    word: dialogue
+    stem: dialogu
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  heritage: !ruby/object:Word
+    word: heritage
+    stem: heritag
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 473
+  water: !ruby/object:Word
+    word: water
+    stem: water
+    docFrequency: 2.0
+    docPositions:
+    - 470
+  intangible: !ruby/object:Word
+    word: intangible
+    stem: intang
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  hiv: !ruby/object:Word
+    word: hiv
+    stem: hiv
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  aids: !ruby/object:Word
+    word: aids
+    stem: aid
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  climate: !ruby/object:Word
+    word: climate
+    stem: climat
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  conflityouth: !ruby/object:Word
+    word: conflityouth
+    stem: conflityouth
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  conventions: !ruby/object:Word
+    word: conventions
+    stem: convent
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  recommendations: !ruby/object:Word
+    word: recommendations
+    stem: recommend
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  documents: !ruby/object:Word
+    word: documents
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  photos: !ruby/object:Word
+    word: photos
+    stem: photo
+    docFrequency: 2.0
+    docPositions:
+    - 498
+  bookstore: !ruby/object:Word
+    word: bookstore
+    stem: bookstor
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 515
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 515
+  sitemap: !ruby/object:Word
+    word: sitemap
+    stem: sitemap
+    docFrequency: 2.0
+    docPositions:
+    - 518
+lineCount: 542
+wordCount: 2747
+rank: 0.28
+title: UNESCO Atlas of the World's Languages in danger
+links:
+- http://www.unesco.org
+- http://www.unesco.org/en/education
+- http://portal.unesco.org/science/en/ev.php-URL_ID=5572&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://www.unesco.org/new/en/social-and-human-sciences/
+- http://portal.unesco.org/culture/en/ev.php@URL_ID=2309&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/ci/en/ev.php-URL_ID=1657&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://www.unesco.org/new/en/media-services/
+- http://www.unesco.org
+- http://www.unesco.org
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/previous-editions-1996-2001/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/editors-and-contributors/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/language-mapping/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/contribute-your-comments/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/browsing-functionalities/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/terms-of-use/
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-349.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-771.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-23.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-1317.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-2352.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-1336.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-2112.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-590.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-2397.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-1889.html
+- http://publishing.unesco.org/details.aspx?Code_Livre=4728
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/browsing-functionalities/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/language-mapping/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/atlas-of-languages-in-danger/contribute-your-comments/
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/faq-on-endangered-languages/
+- http://www.unesco.org/culture/languages-atlas/en/resources/new_language_suggestion_form_broadcast.html
+- http://www.unesco.org/culture/languages-atlas/en/atlasmap.html
+- http://www.unesco.org/culture/ich/index.php?lg=en&pg=00212
+- http://www.ethnologue.com/codes
+- http://www.unesco.org/new/en/culture/themes/endangered-languages/language-vitality/
+- http://portal.unesco.org/en/ev.php-URL_ID=19521&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/en/ev.php-URL_ID=3160&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://www.unesco.org/en/efa/
+- http://www.unesco.org/en/esd/
+- http://www.unesco.org/shs/en/ethics
+- http://portal.unesco.org/culture/en/ev.php-URL_ID=34321&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/culture/en/ev.php-URL_ID=35020&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/ci/en/ev.php-URL_ID=1645&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/culture/en/ev.php-URL_ID=34323&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://www.unesco.org/water/index_en.shtml
+- http://portal.unesco.org/culture/en/ev.php-URL_ID=34325&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/ci/en/ev.php-URL_ID=1530&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/en/ev.php-URL_ID=33437&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/science/en/ev.php-URL_ID=5296&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://portal.unesco.org/culture/en/ev.php-URL_ID=35097&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://www.unesco.org/en/pcpd
+- http://www.unesco.org/en/youth
+- http://portal.unesco.org/en/ev.php-URL_ID=12024&URL_DO=DO_TOPIC&URL_SECTION=201.html
+- http://unesdoc.unesco.org/ulis/ene/
+- http://www.uis.unesco.org/ev_en.php?ID=2867_201&ID2=DO_TOPIC
+- http://photobank.unesco.org/exec/index.htm?lang=en
+- http://publishing.unesco.org/default.aspx?&change=en
+- http://www.unesco.org/new/en/media-services/
+- http://www.unesco.org/new/en/name-and-logo/
+- http://www.unesco.org/new/en/terms-of-use/
+- http://www.unesco.org/new/en/unesco/about-us/where-we-are/contact-us/
+- http://www.unesco.org/new/en/sitemap/
+- http://www.unesco.org/new/en/terms-of-use/terms-of-use/copyright/
+rawText: "\n        \n            \n\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount',
+  'UA-19082631-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var
+  ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n
+  \   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+  + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(ga, s);\n  })();\n\n\r\n@import \"/culture/languages-atlas/assets/_core/css//jquery-ui-themes/custom-theme/jquery-ui-1.8.5.custom.css\";Loading
+  content...\n\n    \n        \n            Alert: \n    \n\n\n    \n        \n            Info
+  : \n    \n\n\n    \n        \n        \n            \n                \n                    English\n\n
+  \                       Français\n\n                        Español\n                        \n
+  \                   \n                \n                \n                \n                \n
+  \                   v.2.0 Beta\n                \n            \n            \n                \n
+  \               \n                \n\n                \n                    UNESCO\n
+  \                       Education\n                        Natural Sciences\n                        Social
+  and Human Sciences\n                        Culture\n                        Communication
+  and Information\n                        Media Services\n                    \n
+  \               \n                    \n                                                   \n
+  \                      \n                       UNESCO Atlas of the World's Languages
+  in Danger\n                       unesco.org\n                       \n                           document.getElementById(\"navmain\").className
+  = \"menujs menu\";\n                       \n               \n               \n
+  \              \n                   \n                       \n\n                               \n
+  \                          \n\n                       \n                   \n                   \n
+  \                      \n                       \n                           \n
+  \                              \n                                   About Atlas\n
+  \                                  \n                                           Endangered
+  Languages\n                                       \n                                       \n
+  \                                          Atlas of languages in danger\n                                       \n
+  \                                      \n                                           Previous
+  editions (1996, 2001)\n                                       \n                                       \n
+  \                                          Editors and contributors\n                                       \n
+  \                                      \n                                           Language
+  mapping\n                                       \n                                       \n
+  \                                          Contribute your comments\n                                       \n
+  \                                      \n                                           Browsing
+  functionalities\n                                       \n                                   \n
+  \                          \n                           \n                               Resources\n
+  \                              \n                                   \n                                           \n
+  \                                              \n                                                   Interactive
+  Atlas\n                                               \n                                           \n
+  \                                      \n                                       \n
+  \                                              \n                                                   Statistics\n
+  \                                              \n                                           \n
+  \                                      \n                                       \n
+  \                                          \n                                               \n
+  \                                                  Download dataset\n                                               \n
+  \                                          \n                                       \n
+  \                                      \n                                               \n
+  \                                                  Terms of Use\n                                               \n
+  \                                          \n                                       \n
+  \                                  \n                           \n                           \n
+  \                              Last updated\n                                    \r\n
+  \   Nov 13 2015                Emilian    Nov 9 2015                Miami-Illinois
+  \                   Somyev                    Micmac (Canada)                    Maliseet
+  \                   Urum                    Lae                    Cocama-Cocamilla
+  (Peru)                    Huron-Wyandot (Canada)                    Panamahka        \r\n\r\n
+  \   $(function() {\r\n        $(\"button\" ).button();\r\n    });\r\n                           \n
+  \                      \n\n                       \n                       \n                           \n
+  \                          \n                               \n                               \n
+  \                       \n    Interactive Atlas\n    \n        \n        \n            \n
+  \               \n                     \n                    UNESCO Interactive
+  Atlas of the World’s Languages in Danger\n                    \n                            The
+  online edition of the Atlas is complementary to the                             print
+  edition                            It does not reproduce the regional and thematic
+  chapters of the print version, but it offers additional information on the listed
+  endangered languages. Via this interface, you can browse through them, using combinations
+  of search criteria and/or zooming in the map below (see                             Browsing
+  functionnalities                            ).                             For more
+  detailed information, please consult the                             Languages mapping
+  \                           ,                             Contribute your comments
+  \                            and                             FAQ                             pages.
+  \                   \n                    \n                    \n                            For
+  remarks on a specific language, please use the in-built forms ('submit a comment'
+  tab) of the Interactive Atlas. If you wish to suggest an endangered language to
+  be included in the Atlas, please fill in this                             form.\n
+  \                   \n                    \n                        For more general
+  comments, please email atlas_AT_unesco.org.                    \n                    \n
+  \                   \n                    \n                    Search tools\n                    \n
+  \                   \n                        \n                        \n                            \n
+  \                           Country or area- All -Afghanistan(23)Albania(4)Algeria(13)Angola(4)Argentina(18)Armenia(2)Australia(108)Austria(5)Azerbaijan(11)Bangladesh(5)Belarus(3)Belgium(8)Belize(4)Benin(1)Bhutan(19)Bolivia
+  (Plurinational State of)(39)Bosnia and Herzegovina(2)Botswana(11)Brazil(190)Bulgaria(6)Burkina
+  Faso(1)Cambodia(19)Cameroon(36)Canada(87)Central African Republic(5)Chad(29)Chile(7)China(144)Colombia(68)Congo(2)Cook
+  Islands(4)Costa Rica(8)Côte d'Ivoire(4)Croatia(8)Cyprus(1)Czech Republic(4)Democratic
+  Republic of the Congo(6)Denmark(3)Dominica(1)Ecuador(14)Egypt(3)El Salvador(2)Equatorial
+  Guinea(3)Eritrea(1)Estonia(3)Ethiopia(28)Faroe Islands(1)Fiji(1)Finland(7)France(26)French
+  Guiana (France)(4)French Polynesia (France)(4)Gabon(8)Georgia(11)Germany(13)Ghana(5)Greece(10)Greenland
+  (Kingdom of Denmark)(3)Guam (U.S.A.)(1)Guatemala(23)Guinea(8)Guinea-Bissau(3)Guyana(12)Honduras(8)Hungary(5)India(197)Indonesia(143)Iran
+  (Islamic Republic of)(25)Iraq(8)Ireland(1)Israel(13)Italy(31)Japan(8)Jordan(2)Kazakhstan(1)Kenya(13)Kyrgyzstan(2)Lao
+  People's Democratic Republic(32)Latvia(5)Lebanon(2)Lesotho(1)Libya(6)Liechtenstein(1)Lithuania(4)Luxembourg(3)Malaysia(26)Mali(2)Mauritania(2)Mexico(143)Micronesia
+  (Federated States of)(13)Monaco(1)Mongolia(7)Montenegro(1)Morocco(7)Myanmar(28)Namibia(1)Nauru(2)Nepal(71)Netherlands(6)New
+  Caledonia (France)(16)New Zealand(1)Nicaragua(11)Niger(2)Nigeria(29)Niue(1)Norfolk
+  Island (Australia)(1)Norway(6)Oman(8)Pakistan(27)Palau(2)Palestine(1)Panama(8)Papua
+  New Guinea(98)Paraguay(12)Peru(62)Philippines(15)Pitcairn  (U.K.)(1)Poland(8)Portugal(1)Republic
+  of Korea(1)Republic of Moldova(2)Romania(11)Russian Federation(131)San Marino(1)Senegal(15)Serbia(6)Sierra
+  Leone(5)Slovakia(5)Slovenia(3)Solomon Islands(17)South Africa(10)Spain(5)Sri Lanka(1)Sudan(65)Suriname(8)Sweden(8)Switzerland(8)Syrian
+  Arab Republic(7)Tajikistan(11)Thailand(25)The former Yugoslav Republic of Macedonia(7)Timor-Leste(6)Togo(1)Tokelau(1)Tunisia(3)Turkey(18)Turkmenistan(1)Tuvalu(1)Uganda(6)Ukraine(14)United
+  Kingdom of Great Britain and Northern Ireland(11)United Republic of Tanzania(12)United
+  States of America(191)Uruguay(1)Uzbekistan(3)Vanuatu(46)Venezuela (Bolivarian Republic
+  of)(34)Viet Nam(27)Western Sahara(1)Yemen(4)                            \n                            Vitality-
+  All -VulnerableDefinitely endangeredSeverely endangeredCritically endangeredExtinct
+  \                       \n                        \n                            \n
+  \                           Language name                            \n                            ISO
+  639-3 code                        \n                        \n                            \n
+  \                           Number of speakers from                            \n
+  \                           to                        \n                        \n
+  \                           \n                            \n                                \n
+  \                               vulnerable\n                                definitely
+  endangered\n                                severely endangered\n                                critically
+  endangered\n                                extinct                                R
+  = Revitalized                                more on vitality\n                            \n
+  \                       \n                        \n                             Search
+  languages                              Clear Search                             Number
+  of languages found : 2465                            \n                            \n
+  \                       \n                        \n                        \n                     \n//<![CDATA[
+  \nvar map;\nvar newInfowindow;\nvar mapMarkers = [];\nvar mapPoints = [];\nvar markerHtmls
+  = [];\nvar useSideBar = false;\nvar latlng = new google.maps.LatLng(1.406109,25.515625);\nfunction
+  initializer(){\n var Options = {\n zoom: 1,\n center: latlng,\n navigationControl:
+  true,\n navigationControlOptions: {position: google.maps.ControlPosition.BOTTOM,\n
+  style: google.maps.NavigationControlStyle.ANDROID\n },\n scaleControl: false,\n
+  mapTypeControl: true,\n mapTypeControlOptions: {position: google.maps.ControlPosition.TOP_LEFT,\n
+  style: google.maps.MapTypeControlStyle.DROPDOWN_MENU\n }\t,\n mapTypeId: google.maps.MapTypeId.TERRAIN\n}\nmap
+  = new google.maps.Map(document.getElementById('map'), Options); \nloadGoogleMap();};
+  \  function loadMarkerContent(marker, infowindow, lat, lng){\n   var pointLat =
+  lat;\n   var pointLng = lng;\n       $.ajax({\n           type: 'POST',           cache:
+  false,           url: 'ajax-true-atlasMapLangInfo-infoWindow_Create.html',\n           data:
+  ({latlng:pointLat+'/'+pointLng}),\n           success: function(data){\n                       infowindow.setContent(data);\n
+  \                      infowindow.open(map, marker);\n                       setTimeout(function
+  () { $('#tabs').tabs({ fxSlide: true, fxFade: true, fxSpeed: 'fast' }); }, 400);\n
+  \                  }\n       });\n   }\n   function Clicked(markerNum) {\n       var
+  infowindow = new google.maps.InfoWindow();\n       setInfowindow(mapMarkers[markerNum],
+  infowindow, mapPoints[markerNum].lat(),mapPoints[markerNum].lng());\n       map.setZoom(4);\n
+  \      mapMenu_Click(markerNum);\n   }\nfunction loadGoogleMap() {\n   var bounds
+  = new google.maps.LatLngBounds();\n}\nfunction setInfowindow(marker, infowindow,
+  lat, lng){\n   var pointLat = lat;\n   var pointLng = lng;\n   if(newInfowindow
+  != undefined){\n       newInfowindow.close();\n   }\n   newInfowindow = infowindow;\n
+  \  loadMarkerContent(marker, newInfowindow, pointLat, pointLng);\n}\nfunction createMarker(map,
+  pointLatLng, markerTitle, markerHtml, iconImage){\n   var iconImageUrl = '/culture/languages-atlas/assets/_core/images/gmap/'+iconImage;\n
+  \  var iconShadowUrl = '/culture/languages-atlas/assets/_core/images/gmap/mm_20_shadow.png';\n
+  \  var iconSize = new google.maps.Size(12, 20);\n   var iconShadowSize = new google.maps.Size(24,
+  20);\n   var iconPosition = new google.maps.Point(0,0);\n   var iconHotSpotOffset
+  = new google.maps.Point(0,20);\n   var infoWindowAnchor = new google.maps.Point(6,20);\n
+  \  var infoShadowAnchor = new google.maps.Point(5,1);\n   var markerImage = new
+  google.maps.MarkerImage(iconImageUrl, iconSize, iconPosition, iconHotSpotOffset);\n
+  \  var markerShadow = new google.maps.MarkerImage(iconShadowUrl, iconShadowSize,
+  iconPosition, iconHotSpotOffset);\n   var shape = {\n       coord: [1, 1, 1, 20,
+  18, 20, 18 , 1],\n       type: 'poly'\n   };\n   var markerOptions = {\n       position:
+  pointLatLng,\n       map: map,\n       shadow: markerShadow,\n       icon: markerImage,\n
+  \      shape: shape,\n       title: markerTitle\n   };\n   //alert(pointLatLng.lat()+
+  '/'+pointLatLng.lng());\n   var marker = new google.maps.Marker(markerOptions);\n
+  \  google.maps.event.addListener(marker, 'click', function() { \n       map.setZoom(4);\n
+  \      var infowindow = new google.maps.InfoWindow();\n       mapMenu_Click($(this).attr('id'));\n
+  \      setInfowindow(marker, infowindow, pointLatLng.lat(), pointLatLng.lng());\n
+  \  });\n   return marker;\n}\n/**\n* Function called when marker on the map is clicked.\n*
+  Opens an info window (bubble) above the marker.\n* @param {Number} markerNum Number
+  of marker in global array\n*/\nsetTimeout('initializer()', 500);\n//]]>\n                                \n
+  \                               \n                        The designations employed
+  and the presentation of material in this Atlas do not imply the expression of any
+  opinion whatsoever on the part of UNESCO concerning the legal status of any country,
+  territory, city or area or of its authorities, or concerning the delimitation of
+  its frontiers or boundaries.                            \n                            \n\n
+  \                       \n                            \nThe interactive online edition
+  of the UNESCO Atlas of the World’s Languages in Danger is complementary to the print
+  edition and may be cited as:                             \n                            Moseley,
+  Christopher (ed.). 2010. Atlas of the World’s Languages in Danger, 3rd edn. Paris,
+  UNESCO Publishing. Online version: http://www.unesco.org/culture/en/endangeredlanguages/atlas\n
+  \                           \n\n                            Close\n                                Back
+  to top\n                            \n                    \n                \n            \n
+  \       \n        \n            Search by country name.\n            Select the
+  name of the country in the dropdown menu and click on “search corresponding endangered
+  languages”.\n            This search field can be used together with other search
+  parameters. Search results will be displayed on the map.\n            Note that
+  the number in brackets that appears next to the name of the country (e.g. Indonesia
+  (147)) corresponds to the number of languages listed for that country and not to
+  the number of geographical points (for more information on the mapping methodology,
+  see Language mapping in the Atlas.)\n        \n        \n            Select one
+  of the 5 degrees of vitality which are explained in the link “more on vitality”
+  placed above the map.\n            This search field can be used together with other
+  search parameters. Search results will be displayed on the map.\n        \n        \n
+  \           Type the name of the language into the search field and click “search
+  corresponding endangered languages”.\n            Users may also type only a part
+  of the name and the dropdown menu will provide a list of predictions that are similar
+  to the query typed. Add a sentence on the possibility to search for variants/alternative
+  names.\n            This search field can be used together with other search parameters.
+  Search results will be displayed on the map.\n        \n        \n            To
+  search by ISO 639-3 language code, the user may enter the ISO which consists of
+  three letters or more codes separated by ', ' e.g. rpo, col, tra, aal.\n            Note
+  that the dropdown will provide predictions of ISO codes, containing one or more
+  letters of the query typed.\n            For instance, if users type ‘ho’ into the
+  search field, the dropdown menu will offer options such as ‘aho’, ‘cho’, ‘gho’.
+  For more information on ISO codes please visit:\n            http://www.ethnologue.com/codes\n
+  \           This search field can be used together with other search parameters.
+  Search results will be displayed on the map.\n        \n        \n            To
+  search an endangered language by its number of speakers, users can type numbers
+  between 0 and infinite into the search field.\n            For instance, if the
+  number “50” is typed into the search box “from”, the search result will display
+  the languages which have 50 or more speakers.\n            Note that the parameters
+  “to” and “from” must be used separately.\n            This search field can be used
+  together with other search parameters. Search results will be displayed on the map.\n
+  \       \n        \n            To search an endangered language by its number of
+  speakers, users can type numbers between 0 and infinite into the search field.\n
+  \           For instance, if the number “90” is typed into the search box “to”,
+  the search result will display the languages which have 90 or less speakers.\n            Note
+  that the parameters “to” and “from” must be used separately.\n            This search
+  field can be used together with other search parameters. Search results will be
+  displayed on the map.\n        \n        \n    Degrees of endangerment\n\n    The
+  present edition designates the degrees of endangerment a little differently than
+  the previous editions. The new terminology is based on UNESCO’s     Language Vitality
+  and Endangerment framework\n     that establishes six degrees of vitality/endangerment
+  based on nine factors. Of these factors, the most salient is that of intergenerational
+  transmission.\n\nDegree of endangerment\n            Intergenerational Language
+  Transmission\n        \n            safe\n            language is spoken by all
+  generations; intergenerational transmission is uninterrupted>> not included in the
+  Atlas\n        \n            vulnerable\n            most children speak the language,
+  but it may be restricted to certain domains (e.g., home)\n        \n            definitely
+  endangered\n            children no longer learn the language as mother tongue in
+  the home\n        \n            severely endangered\n            language is spoken
+  by grandparents and older generations; while the parent generation may understand
+  it, they do not speak it to children or among themselves\n        \n            critically
+  endangered\n            the youngest speakers are grandparents and older, and they
+  speak the language partially and infrequently\n        \n            extinct\n            there
+  are no speakers left>> included in the Atlas if presumably extinct since the 1950s\n
+  \       \n\n    $.fx.speeds._default = 1000;\n    $(function() {\n\t$(\"div.InfoBox\").css('display','inline');\n$(\"div.InfoBox\").dialog({\n
+  \               autoOpen: false,\n                show: 'blind',\n                hide:
+  'explode',\n                modal: true,\n\t\t\t\tbuttons:{ \"Close\": function()
+  { $(this).dialog('close'); } },\n\t\t\t\tclose: function(event, ui) { $(this).hide();
+  }\n        });\n        if($(\".dialog\").attr(\"id\") == '#htmlVitalityDegreeInfoBox'){\n
+  \           $(\"div.InfoBox\").dialog({\n                autoOpen: false,\n                show:
+  'blind',\n                hide: 'explode',\n                modal: true,\n\t\t\t\tbuttons:{
+  \"Close\": function() { $(this).dialog('destroy'); } },\n\t\t\t\tclose: function(event,
+  ui) { $(this).hide(); }\n            });\n        }\n        $(\".dialog\").click(function()
+  {\n            if( $(\"#\"+this.id+\"Box\").attr(\"id\") == \"htmlVitalityDegreeInfoBox\"){\n
+  \               $(\"#\"+this.id+\"Box\").dialog(\"option\", \"minWidth\", 550);\n
+  \           }else{\n                $(\"#\"+this.id+\"Box\").dialog(\"option\",
+  \"minWidth\", 450);\n            }\n\t\t\t$(\"#\"+this.id+\"Box\").dialog('open');\n
+  \           return false;\n        });\n    });\n    $(document).ready(function(){\n
+  \       $(\"#map_menu li a\").mouseup(function(){\n            $(this).addClass('mapMenu_active')\n
+  \       });\n    });\n\t\n                               \n                           \n
+  \                      \n                       \n\n                       \n                   \n
+  \              \n        \n\n    \n        \n                \n                Our
+  priorities\n            \n            \n                Africa\n            \n            \n
+  \               Gender Equality\n            \n                EFA\n            \n
+  \           \n                Sustainability\n            \n            \n                Ethics\n
+  \           \n            \n                Cultural Diversity\n            \n                Intercultural
+  Dialogue\n            \n                Knowledge society\n        \n        \n
+  \               \n                More\n            \n            \n                World
+  Heritage\n            \n            \n                Water\n            \n            \n
+  \               Intangible Heritage\n            \n            \n                Press
+  Freedom\n            \n                HIV and AIDS\n            Climate Change\n
+  \           Languages\n            Post-conflitYouth\n        \n\n        \n        \n
+  \               \n                Resources\n            \n                Conventions
+  & Recommendations\n            \n            \n                Documents\n            \n
+  \           \n                Statistics\n            \n            \n                Photos\n
+  \           \n            \n                Bookstore\n            \n            \n
+  \               Media\n            \n            \n                Name and logo\n
+  \           \n        \n    \n        \n                Terms of use\n            \n
+  \           \n                Contact us\n            \n            \n                Sitemap\n
+  \           \n            \n                © UNESCO 1995-2010\n            \n        \n
+  \   \n\n    \n\n                               \n                           \n                       \n\n
+  \           Alert: \n            Info : unesco.org\n                            The
+  online edition of the Atlas is complementary to the                             print
+  edition                            It does not reproduce the regional and thematic
+  chapters of the print version, but it offers additional information on the listed
+  endangered languages. Via this interface, you can browse through them, using combinations
+  of search criteria and/or zooming in the map below (see                             Browsing
+  functionnalities                            ).                             For more
+  detailed information, please consult the                             Languages mapping
+  \                           ,                             Contribute your comments
+  \                            and                             FAQ                             pages.
+  \                   \n                            For remarks on a specific language,
+  please use the in-built forms ('submit a comment' tab) of the Interactive Atlas.
+  If you wish to suggest an endangered language to be included in the Atlas, please
+  fill in this                             form.\n                    \n                        For
+  more general comments, please email atlas_AT_unesco.org.                    \n                        The
+  designations employed and the presentation of material in this Atlas do not imply
+  the expression of any opinion whatsoever on the part of UNESCO concerning the legal
+  status of any country, territory, city or area or of its authorities, or concerning
+  the delimitation of its frontiers or boundaries.                            \nThe
+  interactive online edition of the UNESCO Atlas of the World’s Languages in Danger
+  is complementary to the print edition and may be cited as:                             Search
+  by country name.Select the name of the country in the dropdown menu and click on
+  “search corresponding endangered languages”.This search field can be used together
+  with other search parameters. Search results will be displayed on the map.Note that
+  the number in brackets that appears next to the name of the country (e.g. Indonesia
+  (147)) corresponds to the number of languages listed for that country and not to
+  the number of geographical points (for more information on the mapping methodology,
+  see Language mapping in the Atlas.)Select one of the 5 degrees of vitality which
+  are explained in the link “more on vitality” placed above the map.This search field
+  can be used together with other search parameters. Search results will be displayed
+  on the map.Type the name of the language into the search field and click “search
+  corresponding endangered languages”.Users may also type only a part of the name
+  and the dropdown menu will provide a list of predictions that are similar to the
+  query typed. Add a sentence on the possibility to search for variants/alternative
+  names.This search field can be used together with other search parameters. Search
+  results will be displayed on the map.To search by ISO 639-3 language code, the user
+  may enter the ISO which consists of three letters or more codes separated by ',
+  ' e.g. rpo, col, tra, aal.Note that the dropdown will provide predictions of ISO
+  codes, containing one or more letters of the query typed.For instance, if users
+  type ‘ho’ into the search field, the dropdown menu will offer options such as ‘aho’,
+  ‘cho’, ‘gho’. For more information on ISO codes please visit:This search field can
+  be used together with other search parameters. Search results will be displayed
+  on the map.To search an endangered language by its number of speakers, users can
+  type numbers between 0 and infinite into the search field.For instance, if the number
+  “50” is typed into the search box “from”, the search result will display the languages
+  which have 50 or more speakers.Note that the parameters “to” and “from” must be
+  used separately.This search field can be used together with other search parameters.
+  Search results will be displayed on the map.To search an endangered language by
+  its number of speakers, users can type numbers between 0 and infinite into the search
+  field.For instance, if the number “90” is typed into the search box “to”, the search
+  result will display the languages which have 90 or less speakers.Note that the parameters
+  “to” and “from” must be used separately.This search field can be used together with
+  other search parameters. Search results will be displayed on the map.\n    The present
+  edition designates the degrees of endangerment a little differently than the previous
+  editions. The new terminology is based on UNESCO’s     Language Vitality and Endangerment
+  framework\n     that establishes six degrees of vitality/endangerment based on nine
+  factors. Of these factors, the most salient is that of intergenerational transmission."

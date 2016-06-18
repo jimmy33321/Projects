@@ -1,0 +1,3505 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag rss invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 2
+    str1: rss
+    str2: 
+    str3: 
+    int1: 0
+    column: 60
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag channel invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 3
+    str1: channel
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Namespace prefix atom is not defined
+    domain: 3
+    code: 201
+    level: 1
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 4
+    str1: atom
+    str2: 
+    str3: 
+    int1: 0
+    column: 88
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag atom:link invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 4
+    str1: atom:link
+    str2: 
+    str3: 
+    int1: 0
+    column: 88
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 6
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 7
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag lastbuilddate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 8
+    str1: lastbuilddate
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag language invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 9
+    str1: language
+    str2: 
+    str3: 
+    int1: 0
+    column: 16
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag webmaster invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 10
+    str1: webmaster
+    str2: 
+    str3: 
+    int1: 0
+    column: 17
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 11
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 12
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 13
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 14
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 15
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 16
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 16
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 17
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 18
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 19
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 20
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 21
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 22
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 130
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 23
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 24
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 25
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 25
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 26
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 27
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 28
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 121
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 29
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 30
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 31
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 110
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 32
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 33
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 34
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 34
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 35
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 36
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 37
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 38
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 39
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 40
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 141
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 41
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 42
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 43
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 43
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 45
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 46
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 47
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 48
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 49
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 50
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 106
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 51
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 52
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 53
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 53
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 54
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 55
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 56
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 121
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 57
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 58
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 59
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 108
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 60
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 61
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 62
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 62
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 63
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 64
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 65
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 66
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 67
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 68
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 108
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 69
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 70
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 71
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 71
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 72
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 73
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 74
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 75
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 76
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 77
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 78
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 79
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 80
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 80
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 81
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 82
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 83
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 84
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 85
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 86
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 105
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 87
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 88
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 89
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 89
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 90
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 91
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 92
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 120
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 93
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 94
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 95
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 96
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 97
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 98
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 98
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 99
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 100
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 101
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 102
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 103
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 104
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 138
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 105
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 106
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 107
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 107
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 108
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 109
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 110
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 111
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 112
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 113
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 114
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 115
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 116
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 116
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 117
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 118
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 119
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 120
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 121
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 122
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 121
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 123
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 124
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 125
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 125
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 126
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 127
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 128
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 129
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 130
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 131
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 105
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 132
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 133
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 134
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 134
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 135
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 136
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 137
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 138
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 139
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 140
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 152
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 141
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 142
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 143
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 143
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 144
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 145
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 146
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 147
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 148
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 149
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 144
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 150
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 151
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 152
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 152
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 153
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 154
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 155
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 156
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 157
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 158
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 159
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 160
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 161
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 161
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 162
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 163
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 164
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 165
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 166
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 167
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 128
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 168
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 169
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 170
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 170
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 171
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 172
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 173
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 174
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 175
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 176
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 137
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 177
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 178
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 179
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 179
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 180
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 181
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 182
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 124
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag item invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 183
+    str1: item
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 184
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : link
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 185
+    str1: link
+    str2: 
+    str3: 
+    int1: 0
+    column: 125
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag authorlink invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 186
+    str1: authorlink
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag category invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 187
+    str1: category
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag description invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 188
+    str1: description
+    str2: 
+    str3: 
+    int1: 0
+    column: 22
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 188
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag guid invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 189
+    str1: guid
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag pubdate invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 190
+    str1: pubdate
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag enclosure invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-hk1a1m"
+    line: 191
+    str1: enclosure
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+address: http://www.gamasutra.com/blogs/rss/
+inboundLinks: []
+lines:
+- "Gamasutra.com - All Blogshttp://www.gamasutra.com/blogs/\r\n"
+- "      Gamasutra BlogsMon, 14 Dec 2015 08:15:02 ESTen-usscarless@think-services.com
+  (Simon Carless)http://www.gamasutra.com/blogs/ErnstTenBosch/20151214/261741/Getting_into_Game_Production__Part_2.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/ErnstTenBosch/829868/Production,Serioushttp://www.gamasutra.com/blogs/ErnstTenBosch/20151214/261741/Getting_into_Game_Production__Part_2.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/DamianKastbauer/20151211/261576/Who_Cares_About_Game_Audio_Organizations.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/DamianKastbauer/295773/Audiohttp://www.gamasutra.com/blogs/DamianKastbauer/20151211/261576/Who_Cares_About_Game_Audio_Organizations.phpFri,
+  11 Dec 2015 11:48:00 ESThttp://www.gamasutra.com/blogs/JoolsWatsham/20151210/261527/Dreaming_of_Voxel_Goats.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/JoolsWatsham/936292/Audio,Business/Marketing,Design,Programming,Production,Art,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/JoolsWatsham/20151210/261527/Dreaming_of_Voxel_Goats.phpThu,
+  10 Dec 2015 05:43:00 ESThttp://www.gamasutra.com/blogs/MaryMin/20151210/261461/How_to_Protect_Your_Mobile_Game_from_Holiday_Season_Hacking.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/MaryMin/997743/Smartphone/Tablethttp://www.gamasutra.com/blogs/MaryMin/20151210/261461/How_to_Protect_Your_Mobile_Game_from_Holiday_Season_Hacking.phpThu,
+  10 Dec 2015 10:54:00 ESThttp://www.gamasutra.com/blogs/BradWardell/20151209/261198/The_Big_O_means_less.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/BradWardell/450723/Programminghttp://www.gamasutra.com/blogs/BradWardell/20151209/261198/The_Big_O_means_less.phpWed,
+  09 Dec 2015 10:28:00 ESThttp://www.gamasutra.com/blogs/BenSawyer/20151209/261371/Indie_Game_App_Store_Gap.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/BenSawyer/107281/Business/Marketing,Indiehttp://www.gamasutra.com/blogs/BenSawyer/20151209/261371/Indie_Game_App_Store_Gap.phpWed,
+  09 Dec 2015 10:20:00 ESThttp://www.gamasutra.com/blogs/ShaunLeach/20151207/261217/Communication_Breakdown.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/ShaunLeach/1003261/Programming,Serioushttp://www.gamasutra.com/blogs/ShaunLeach/20151207/261217/Communication_Breakdown.phpMon,
+  07 Dec 2015 07:42:00 ESThttp://www.gamasutra.com/blogs/JunxueLi/20151207/261100/How_we_design_a_map_for_Block_Star_Party.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/JunxueLi/940564/Design,Art,Social/Online,Smartphone/Tablethttp://www.gamasutra.com/blogs/JunxueLi/20151207/261100/How_we_design_a_map_for_Block_Star_Party.phpMon,
+  07 Dec 2015 09:56:00 ESThttp://www.gamasutra.com/blogs/SandeChen/20151207/261159/For_the_Love_of_a_Dog.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/SandeChen/43521/Design,Console/PChttp://www.gamasutra.com/blogs/SandeChen/20151207/261159/For_the_Love_of_a_Dog.phpMon,
+  07 Dec 2015 09:49:00 ESThttp://www.gamasutra.com/blogs/ErnstTenBosch/20151204/260930/Getting_into_Game_Production__Part_1.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/ErnstTenBosch/829868/Production,Serioushttp://www.gamasutra.com/blogs/ErnstTenBosch/20151204/260930/Getting_into_Game_Production__Part_1.phpFri,
+  04 Dec 2015 01:14:00 ESThttp://www.gamasutra.com/blogs/KennethNg/20151214/260241/Top_Free_Project_Management_Tools_for_Small_Businesses.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/KennethNg/998774/Business/Marketing,Serious,Indiehttp://www.gamasutra.com/blogs/KennethNg/20151214/260241/Top_Free_Project_Management_Tools_for_Small_Businesses.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MatthewShaile/20151214/261704/Arrival_in_Hell_Dev_Blog_6_Dialogue.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/MatthewShaile/1004090/Audio,Design,Programming,Production,Console/PC,Indiehttp://www.gamasutra.com/blogs/MatthewShaile/20151214/261704/Arrival_in_Hell_Dev_Blog_6_Dialogue.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/JesseWoo/20151214/261708/Can_I_portray_a_real_person_in_my_game.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/JesseWoo/1000868/http://www.gamasutra.com/blogs/JesseWoo/20151214/261708/Can_I_portray_a_real_person_in_my_game.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/EricaFrank/20151214/261735/Undertale_Is_Winning.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/EricaFrank/1003096/Business/Marketing,Serious,Indiehttp://www.gamasutra.com/blogs/EricaFrank/20151214/261735/Undertale_Is_Winning.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/RoySmith/20151214/261740/The_VTech_hack_marks_the_end_of_the_quotWild_Westquot_phase_of_gaming.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/RoySmith/950078/Business/Marketing,Smartphone/Tablethttp://www.gamasutra.com/blogs/RoySmith/20151214/261740/The_VTech_hack_marks_the_end_of_the_quotWild_Westquot_phase_of_gaming.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/CriticalDistance/20151214/261746/This_Week_in_Video_Game_Blogging_Why_game_jams_matter.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/CriticalDistance/1003342/Design,Console/PC,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/CriticalDistance/20151214/261746/This_Week_in_Video_Game_Blogging_Why_game_jams_matter.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MeganHughes/20151214/261765/Mountain_Creation_from_Data_Tutorial.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/MeganHughes/992928/Programming,Production,Art,Console/PC,Indiehttp://www.gamasutra.com/blogs/MeganHughes/20151214/261765/Mountain_Creation_from_Data_Tutorial.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/KonstantinosDimopoulos/20151214/261776/Game_Cities_The_Motionless_City.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/KonstantinosDimopoulos/1003861/Design,Art,Console/PC,Serious,Indiehttp://www.gamasutra.com/blogs/KonstantinosDimopoulos/20151214/261776/Game_Cities_The_Motionless_City.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MauricioPerin/20151214/261797/A_Subtle_shader_making_an_invisible_thing_visible.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/MauricioPerin/1004469/Art,Console/PC,Indiehttp://www.gamasutra.com/blogs/MauricioPerin/20151214/261797/A_Subtle_shader_making_an_invisible_thing_visible.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/JakeSones/20151214/261712/The_story_of_a_pretty_decent_game_failing.php\r\n"
+- "\t\t http://www.gamasutra.com/blogs/author/JakeSones/918569/Business/Marketing,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/JakeSones/20151214/261712/The_story_of_a_pretty_decent_game_failing.phpMon,
+  14 Dec 2015 01:33:00 EST"
+index:
+  gamasutra: !ruby/object:Word
+    word: gamasutra
+    stem: gamasutra
+    docFrequency: 64.0
+    docPositions:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  blogshttp: !ruby/object:Word
+    word: blogshttp
+    stem: blogshttp
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  blogs: !ruby/object:Word
+    word: blogs
+    stem: blog
+    docFrequency: 62.0
+    docPositions:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+  blogsmon: !ruby/object:Word
+    word: blogsmon
+    stem: blogsmon
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 22.0
+    docPositions:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+  esten: !ruby/object:Word
+    word: esten
+    stem: esten
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  usscarless: !ruby/object:Word
+    word: usscarless
+    stem: usscarless
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  think: !ruby/object:Word
+    word: think
+    stem: think
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  simon: !ruby/object:Word
+    word: simon
+    stem: simon
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  carless: !ruby/object:Word
+    word: carless
+    stem: carless
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  ernsttenbosch: !ruby/object:Word
+    word: ernsttenbosch
+    stem: ernsttenbosch
+    docFrequency: 7.0
+    docPositions:
+    - 1
+    - 2
+    - 10
+    - 11
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 21.0
+    docPositions:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 21.0
+    docPositions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 6.0
+    docPositions:
+    - 2
+    - 4
+    - 11
+    - 13
+    - 18
+  serioushttp: !ruby/object:Word
+    word: serioushttp
+    stem: serioushttp
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 8
+    - 11
+  phpmon: !ruby/object:Word
+    word: phpmon
+    stem: phpmon
+    docFrequency: 15.0
+    docPositions:
+    - 2
+    - 8
+    - 9
+    - 10
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+  esthttp: !ruby/object:Word
+    word: esthttp
+    stem: esthttp
+    docFrequency: 20.0
+    docPositions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  damiankastbauer: !ruby/object:Word
+    word: damiankastbauer
+    stem: damiankastbau
+    docFrequency: 4.0
+    docPositions:
+    - 2
+    - 3
+  who_cares_about_game_audio_organizations: !ruby/object:Word
+    word: who_cares_about_game_audio_organizations
+    stem: who_cares_about_game_audio_organ
+    docFrequency: 3.0
+    docPositions:
+    - 2
+    - 3
+  audiohttp: !ruby/object:Word
+    word: audiohttp
+    stem: audiohttp
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  phpfri: !ruby/object:Word
+    word: phpfri
+    stem: phpfri
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 11
+  joolswatsham: !ruby/object:Word
+    word: joolswatsham
+    stem: joolswatsham
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 4
+  dreaming_of_voxel_goats: !ruby/object:Word
+    word: dreaming_of_voxel_goats
+    stem: dreaming_of_voxel_goat
+    docFrequency: 3.0
+    docPositions:
+    - 3
+    - 4
+  audio: !ruby/object:Word
+    word: audio
+    stem: audio
+    docFrequency: 3.0
+    docPositions:
+    - 4
+    - 13
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 7
+    - 12
+    - 15
+    - 16
+    - 21
+  marketing: !ruby/object:Word
+    word: marketing
+    stem: market
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 7
+    - 12
+    - 15
+    - 16
+    - 21
+  design: !ruby/object:Word
+    word: design
+    stem: design
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 9
+    - 10
+    - 13
+    - 17
+    - 19
+  programming: !ruby/object:Word
+    word: programming
+    stem: program
+    docFrequency: 5.0
+    docPositions:
+    - 4
+    - 8
+    - 13
+    - 18
+  art: !ruby/object:Word
+    word: art
+    stem: art
+    docFrequency: 6.0
+    docPositions:
+    - 4
+    - 9
+    - 18
+    - 19
+    - 20
+  indie: !ruby/object:Word
+    word: indie
+    stem: indi
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 17
+    - 21
+  smartphone: !ruby/object:Word
+    word: smartphone
+    stem: smartphon
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 5
+    - 9
+    - 16
+    - 17
+    - 21
+  tablethttp: !ruby/object:Word
+    word: tablethttp
+    stem: tablethttp
+    docFrequency: 7.0
+    docPositions:
+    - 4
+    - 5
+    - 9
+    - 16
+    - 17
+    - 21
+  phpthu: !ruby/object:Word
+    word: phpthu
+    stem: phpthu
+    docFrequency: 3.0
+    docPositions:
+    - 4
+    - 5
+  marymin: !ruby/object:Word
+    word: marymin
+    stem: marymin
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 5
+  how_to_protect_your_mobile_game_from_holiday_season_hacking: !ruby/object:Word
+    word: how_to_protect_your_mobile_game_from_holiday_season_hacking
+    stem: how_to_protect_your_mobile_game_from_holiday_season_hack
+    docFrequency: 3.0
+    docPositions:
+    - 4
+    - 5
+  bradwardell: !ruby/object:Word
+    word: bradwardell
+    stem: bradwardel
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 6
+  the_big_o_means_less: !ruby/object:Word
+    word: the_big_o_means_less
+    stem: the_big_o_means_less
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 6
+  programminghttp: !ruby/object:Word
+    word: programminghttp
+    stem: programminghttp
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  phpwed: !ruby/object:Word
+    word: phpwed
+    stem: phpwed
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 7
+  bensawyer: !ruby/object:Word
+    word: bensawyer
+    stem: bensawy
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 7
+  indie_game_app_store_gap: !ruby/object:Word
+    word: indie_game_app_store_gap
+    stem: indie_game_app_store_gap
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 7
+  indiehttp: !ruby/object:Word
+    word: indiehttp
+    stem: indiehttp
+    docFrequency: 8.0
+    docPositions:
+    - 7
+    - 12
+    - 13
+    - 15
+    - 18
+    - 19
+    - 20
+  shaunleach: !ruby/object:Word
+    word: shaunleach
+    stem: shaunleach
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 8
+  communication_breakdown: !ruby/object:Word
+    word: communication_breakdown
+    stem: communication_breakdown
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 8
+  junxueli: !ruby/object:Word
+    word: junxueli
+    stem: junxu
+    docFrequency: 4.0
+    docPositions:
+    - 8
+    - 9
+  how_we_design_a_map_for_block_star_party: !ruby/object:Word
+    word: how_we_design_a_map_for_block_star_party
+    stem: how_we_design_a_map_for_block_star_parti
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 9
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  sandechen: !ruby/object:Word
+    word: sandechen
+    stem: sandechen
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 10
+  for_the_love_of_a_dog: !ruby/object:Word
+    word: for_the_love_of_a_dog
+    stem: for_the_love_of_a_dog
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 10
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 13
+    - 17
+    - 18
+    - 19
+    - 20
+  pchttp: !ruby/object:Word
+    word: pchttp
+    stem: pchttp
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  kennethng: !ruby/object:Word
+    word: kennethng
+    stem: kennethng
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 12
+  top_free_project_management_tools_for_small_businesses: !ruby/object:Word
+    word: top_free_project_management_tools_for_small_businesses
+    stem: top_free_project_management_tools_for_small_busi
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 12
+  serious: !ruby/object:Word
+    word: serious
+    stem: seriou
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 15
+    - 19
+  matthewshaile: !ruby/object:Word
+    word: matthewshaile
+    stem: matthewshail
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 13
+  pc: !ruby/object:Word
+    word: pc
+    stem: pc
+    docFrequency: 6.0
+    docPositions:
+    - 13
+    - 17
+    - 18
+    - 19
+    - 20
+  jessewoo: !ruby/object:Word
+    word: jessewoo
+    stem: jessewoo
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 14
+  can_i_portray_a_real_person_in_my_game: !ruby/object:Word
+    word: can_i_portray_a_real_person_in_my_game
+    stem: can_i_portray_a_real_person_in_my_gam
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 14
+  ericafrank: !ruby/object:Word
+    word: ericafrank
+    stem: ericafrank
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 15
+  undertale_is_winning: !ruby/object:Word
+    word: undertale_is_winning
+    stem: undertale_is_win
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 15
+  roysmith: !ruby/object:Word
+    word: roysmith
+    stem: roysmith
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 16
+  the_vtech_hack_marks_the_end_of_the_quotwild_westquot_phase_of_gaming: !ruby/object:Word
+    word: the_vtech_hack_marks_the_end_of_the_quotwild_westquot_phase_of_gaming
+    stem: the_vtech_hack_marks_the_end_of_the_quotwild_westquot_phase_of_gam
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 16
+  criticaldistance: !ruby/object:Word
+    word: criticaldistance
+    stem: criticaldist
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 17
+  this_week_in_video_game_blogging_why_game_jams_matter: !ruby/object:Word
+    word: this_week_in_video_game_blogging_why_game_jams_matter
+    stem: this_week_in_video_game_blogging_why_game_jams_matt
+    docFrequency: 3.0
+    docPositions:
+    - 16
+    - 17
+  meganhughes: !ruby/object:Word
+    word: meganhughes
+    stem: meganhugh
+    docFrequency: 4.0
+    docPositions:
+    - 17
+    - 18
+  mountain_creation_from_data_tutorial: !ruby/object:Word
+    word: mountain_creation_from_data_tutorial
+    stem: mountain_creation_from_data_tutori
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 18
+  konstantinosdimopoulos: !ruby/object:Word
+    word: konstantinosdimopoulos
+    stem: konstantinosdimopoulo
+    docFrequency: 4.0
+    docPositions:
+    - 18
+    - 19
+  game_cities_the_motionless_city: !ruby/object:Word
+    word: game_cities_the_motionless_city
+    stem: game_cities_the_motionless_c
+    docFrequency: 3.0
+    docPositions:
+    - 18
+    - 19
+  mauricioperin: !ruby/object:Word
+    word: mauricioperin
+    stem: mauricioperin
+    docFrequency: 4.0
+    docPositions:
+    - 19
+    - 20
+  a_subtle_shader_making_an_invisible_thing_visible: !ruby/object:Word
+    word: a_subtle_shader_making_an_invisible_thing_visible
+    stem: a_subtle_shader_making_an_invisible_thing_vis
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 20
+  jakesones: !ruby/object:Word
+    word: jakesones
+    stem: jakeson
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 21
+  the_story_of_a_pretty_decent_game_failing: !ruby/object:Word
+    word: the_story_of_a_pretty_decent_game_failing
+    stem: the_story_of_a_pretty_decent_game_fail
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 21
+  est: !ruby/object:Word
+    word: est
+    stem: est
+    docFrequency: 2.0
+    docPositions:
+    - 21
+lineCount: 22
+wordCount: 763
+rank: 0.2811779189251984
+title: Gamasutra.com - All Blogs
+links: []
+rawText: "Gamasutra.com - All Blogshttp://www.gamasutra.com/blogs/\r\n      Gamasutra
+  BlogsMon, 14 Dec 2015 08:15:02 ESTen-usscarless@think-services.com (Simon Carless)http://www.gamasutra.com/blogs/ErnstTenBosch/20151214/261741/Getting_into_Game_Production__Part_2.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/ErnstTenBosch/829868/Production,Serioushttp://www.gamasutra.com/blogs/ErnstTenBosch/20151214/261741/Getting_into_Game_Production__Part_2.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/DamianKastbauer/20151211/261576/Who_Cares_About_Game_Audio_Organizations.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/DamianKastbauer/295773/Audiohttp://www.gamasutra.com/blogs/DamianKastbauer/20151211/261576/Who_Cares_About_Game_Audio_Organizations.phpFri,
+  11 Dec 2015 11:48:00 ESThttp://www.gamasutra.com/blogs/JoolsWatsham/20151210/261527/Dreaming_of_Voxel_Goats.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/JoolsWatsham/936292/Audio,Business/Marketing,Design,Programming,Production,Art,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/JoolsWatsham/20151210/261527/Dreaming_of_Voxel_Goats.phpThu,
+  10 Dec 2015 05:43:00 ESThttp://www.gamasutra.com/blogs/MaryMin/20151210/261461/How_to_Protect_Your_Mobile_Game_from_Holiday_Season_Hacking.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/MaryMin/997743/Smartphone/Tablethttp://www.gamasutra.com/blogs/MaryMin/20151210/261461/How_to_Protect_Your_Mobile_Game_from_Holiday_Season_Hacking.phpThu,
+  10 Dec 2015 10:54:00 ESThttp://www.gamasutra.com/blogs/BradWardell/20151209/261198/The_Big_O_means_less.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/BradWardell/450723/Programminghttp://www.gamasutra.com/blogs/BradWardell/20151209/261198/The_Big_O_means_less.phpWed,
+  09 Dec 2015 10:28:00 ESThttp://www.gamasutra.com/blogs/BenSawyer/20151209/261371/Indie_Game_App_Store_Gap.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/BenSawyer/107281/Business/Marketing,Indiehttp://www.gamasutra.com/blogs/BenSawyer/20151209/261371/Indie_Game_App_Store_Gap.phpWed,
+  09 Dec 2015 10:20:00 ESThttp://www.gamasutra.com/blogs/ShaunLeach/20151207/261217/Communication_Breakdown.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/ShaunLeach/1003261/Programming,Serioushttp://www.gamasutra.com/blogs/ShaunLeach/20151207/261217/Communication_Breakdown.phpMon,
+  07 Dec 2015 07:42:00 ESThttp://www.gamasutra.com/blogs/JunxueLi/20151207/261100/How_we_design_a_map_for_Block_Star_Party.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/JunxueLi/940564/Design,Art,Social/Online,Smartphone/Tablethttp://www.gamasutra.com/blogs/JunxueLi/20151207/261100/How_we_design_a_map_for_Block_Star_Party.phpMon,
+  07 Dec 2015 09:56:00 ESThttp://www.gamasutra.com/blogs/SandeChen/20151207/261159/For_the_Love_of_a_Dog.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/SandeChen/43521/Design,Console/PChttp://www.gamasutra.com/blogs/SandeChen/20151207/261159/For_the_Love_of_a_Dog.phpMon,
+  07 Dec 2015 09:49:00 ESThttp://www.gamasutra.com/blogs/ErnstTenBosch/20151204/260930/Getting_into_Game_Production__Part_1.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/ErnstTenBosch/829868/Production,Serioushttp://www.gamasutra.com/blogs/ErnstTenBosch/20151204/260930/Getting_into_Game_Production__Part_1.phpFri,
+  04 Dec 2015 01:14:00 ESThttp://www.gamasutra.com/blogs/KennethNg/20151214/260241/Top_Free_Project_Management_Tools_for_Small_Businesses.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/KennethNg/998774/Business/Marketing,Serious,Indiehttp://www.gamasutra.com/blogs/KennethNg/20151214/260241/Top_Free_Project_Management_Tools_for_Small_Businesses.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MatthewShaile/20151214/261704/Arrival_in_Hell_Dev_Blog_6_Dialogue.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/MatthewShaile/1004090/Audio,Design,Programming,Production,Console/PC,Indiehttp://www.gamasutra.com/blogs/MatthewShaile/20151214/261704/Arrival_in_Hell_Dev_Blog_6_Dialogue.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/JesseWoo/20151214/261708/Can_I_portray_a_real_person_in_my_game.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/JesseWoo/1000868/http://www.gamasutra.com/blogs/JesseWoo/20151214/261708/Can_I_portray_a_real_person_in_my_game.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/EricaFrank/20151214/261735/Undertale_Is_Winning.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/EricaFrank/1003096/Business/Marketing,Serious,Indiehttp://www.gamasutra.com/blogs/EricaFrank/20151214/261735/Undertale_Is_Winning.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/RoySmith/20151214/261740/The_VTech_hack_marks_the_end_of_the_quotWild_Westquot_phase_of_gaming.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/RoySmith/950078/Business/Marketing,Smartphone/Tablethttp://www.gamasutra.com/blogs/RoySmith/20151214/261740/The_VTech_hack_marks_the_end_of_the_quotWild_Westquot_phase_of_gaming.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/CriticalDistance/20151214/261746/This_Week_in_Video_Game_Blogging_Why_game_jams_matter.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/CriticalDistance/1003342/Design,Console/PC,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/CriticalDistance/20151214/261746/This_Week_in_Video_Game_Blogging_Why_game_jams_matter.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MeganHughes/20151214/261765/Mountain_Creation_from_Data_Tutorial.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/MeganHughes/992928/Programming,Production,Art,Console/PC,Indiehttp://www.gamasutra.com/blogs/MeganHughes/20151214/261765/Mountain_Creation_from_Data_Tutorial.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/KonstantinosDimopoulos/20151214/261776/Game_Cities_The_Motionless_City.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/KonstantinosDimopoulos/1003861/Design,Art,Console/PC,Serious,Indiehttp://www.gamasutra.com/blogs/KonstantinosDimopoulos/20151214/261776/Game_Cities_The_Motionless_City.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/MauricioPerin/20151214/261797/A_Subtle_shader_making_an_invisible_thing_visible.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/MauricioPerin/1004469/Art,Console/PC,Indiehttp://www.gamasutra.com/blogs/MauricioPerin/20151214/261797/A_Subtle_shader_making_an_invisible_thing_visible.phpMon,
+  14 Dec 2015 01:54:00 ESThttp://www.gamasutra.com/blogs/JakeSones/20151214/261712/The_story_of_a_pretty_decent_game_failing.php\r\n\t\t
+  http://www.gamasutra.com/blogs/author/JakeSones/918569/Business/Marketing,Indie,Smartphone/Tablethttp://www.gamasutra.com/blogs/JakeSones/20151214/261712/The_story_of_a_pretty_decent_game_failing.phpMon,
+  14 Dec 2015 01:33:00 EST"

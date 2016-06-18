@@ -1,0 +1,2660 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID epoLogo already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-21537-eor5m1"
+    line: 69
+    str1: epoLogo
+    str2: epoLogo
+    str3: 
+    int1: 0
+    column: 250
+address: http://www.epo.org/about-us/annual-reports-statistics/annual-report/2012/statistics-trends/granted-patents.html
+inboundLinks: []
+lines:
+- "  Site searchSearch current area onlyAdvanced searchPatent searchAdvanced patent
+  searchDeutschEnglishFrançaisMedia About usEuropean Patent OrganisationThe OfficeBoards
+  of appealJobsTendersAnnual reports and statistics Contact  Service & support Website
+  updatesFAQOnline services and softwarePublicationsOrderingFormsUseful linksContact
+  usOfficial holidaysForumsGlossaryRSS feeds HomeSearching for patentsApplying for
+  a patentLaw & practiceNews & issuesLearning & eventsHomeAbout usAnnual reports and
+  statisticsAnnual reportsAnnual report 2012Statistics and trendsGranted patentsAnnual
+  Report 2012Statistics and trendsPrintShareFacebookXingLinkedInGoogle +TwitterPresident's
+  forewordHighlights 2012No more barriersStatistics and trendsEuropean patent filingsEuropean
+  patent applicationsTop applicantsGranted patentsSearches, examinations, oppositionsBoards
+  of appealFive-year reviewDownload centre   \n"
+- |2+
+
+- |
+  Granted patents
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Key trend
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Geographic origin of the granted patents
+- |2+
+
+- |
+  European companies' share of patents granted by the EPO remains stable at around 50%.  Grants to Japanese and US companies went up slightly, while the number of European patents obtained by Korean and Chinese companies is still very low, but growing rapidly.
+- |2+
+
+- |
+  View the grants statistics by country of origin.
+- |2+
+
+- |2+
+
+- |
+  Analysis based on granted patents published in 2012. Patents have been allocated to the country of residence of the first-named patentee.
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Download(PDF, 421 KB)
+- "\tDownload (XLS, 54 KB)\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Overview
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Download(PDF, 421 KB)
+- "\tDownload (XLS, 54 KB)\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  By residence
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Download(PDF, 421 KB)
+- "\tDownload (XLS, 54 KB)\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  by EPO member state
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Download(PDF, 421 KB)
+- "\tDownload (XLS, 54 KB)\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  By non-member state
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Download(PDF, 421 KB)
+- "\tDownload (XLS, 54 KB)\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      Quick NavigationHomepage [Alt] + 0Skip navigation [Alt] + 1Sitemap [Alt] + 8Accessibility information [Alt] + 9 SitemapAccessibilityTerms of useLegal noticeSecurityLast updated: 5.3.2013 
+- |2
+          var lenyaRoot = "/epoweb2/live";
+- |2
+          if (window.location.host.indexOf('internal.epo.org') !== -1) {
+- |2
+            head.load(lenyaRoot+"/javascript/vendor/jslog.min.js");
+- |2
+            console.log('Error logging enabled.');
+- |2
+          }
+- "      \n"
+- |2
+        var i18nSearchText = 'Enter search term',
+- |2
+            i19nSearchText = 'Search patents using keywords, numbers or dates',
+- |2
+            lenyaRoot = "/epoweb2/live",
+- |2
+            docHref   = location.href,
+- |2
+            docRoot   = docHref.substring(0, docHref.indexOf('.html')),
+- |2
+            lang      = docRoot.substr(docRoot.length-3, 3),
+- |2
+            getLenyaPath;
+- |2+
+
+- |2
+        if (lang == '_de' || lang == '_fr') {
+- |2
+          docRoot = docRoot.substr(0, docRoot.length-3);
+- |2
+        }
+- |2+
+
+- |2
+        getLenyaPath = function () {
+- |2
+          //check if 'authoring' or 'live' is in the path ... otherwise rewrites in place
+- |2
+          var lenyaPath = window.location.pathname, p = "", s;
+- |2+
+
+- |2
+          if (lenyaPath.indexOf('/live') !== -1 || lenyaPath.indexOf('/authoring') !== -1) {
+- |2
+            s = lenyaPath.split('/');
+- |2
+            p = '/'+s[1]+'/'+s[2];
+- |2
+          }
+- |2
+          return p;
+- |2
+        };
+- |2+
+
+- |2
+        // mobile device detection
+- |2
+        // see: https://github.com/kaimallea/isMobile
+- |2
+        //
+- |2
+        (function(i){var e=/iPhone/i,n=/iPod/i,o=/iPad/i,t=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,r=/Android/i,d=/BlackBerry/i,s=/Opera Mini/i,a=/IEMobile/i,b=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,h=RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),c=function(i,e){return i.test(e)},l=function(i){var l=i||navigator.userAgent;this.apple={phone:c(e,l),ipod:c(n,l),tablet:c(o,l),device:c(e,l)||c(n,l)||c(o,l)},this.android={phone:c(t,l),tablet:!c(t,l)&&c(r,l),device:c(t,l)||c(r,l)},this.other={blackberry:c(d,l),opera:c(s,l),windows:c(a,l),firefox:c(b,l),device:c(d,l)||c(s,l)||c(a,l)||c(b,l)},this.seven_inch=c(h,l),this.any=this.apple.device||this.android.device||this.other.device||this.seven_inch},v=i.isMobile=new l;v.Class=l})(window);
+- |2+
+
+- "      \n"
+- |2+
+
+- |2
+        if( typeof(djConfig) == 'undefined') {
+- |2
+          var djConfig = { isDebug: false };
+- |2
+        }
+- |2
+        if( typeof(djConfig.parseOnLoad) == 'undefined') {
+- "      \tdjConfig.parseOnLoad = false;\n"
+- |2
+        }
+- |2
+        djConfig.baseUrl = "/modules/dojotoolkit/release/dojo/";
+- |2
+        djConfig.locale = 'en';
+- |2
+        djConfig.bindEncoding = "utf-8";
+- |2
+        djConfig.modulePaths = { epoweb2: '/modules/epogui/javascript/epoweb2' };
+- |2
+        djConfig.jsVersion = 150414;
+- |2
+        djConfig.lenyaRoot = getLenyaPath();
+- |2
+        djConfig.useFQN = false;
+- |2
+        djConfig.fqnDomain = 'http://www.epo.org';
+- |2
+        // djConfig.extraLocale = ['de', 'en', 'fr']
+- |2+
+
+- |2
+        // make sure, these CSS files are loaded last
+- |2+
+
+- |2
+        head.load(
+- |2
+          { dojo: "/modules/dojotoolkit/release/dojo/dojo.js?version="+djConfig.jsVersion },
+- |2
+          { jQuery: djConfig.lenyaRoot+"/javascript/jquery-1.11.2.min.js" },
+- |2
+          { put: djConfig.lenyaRoot+"/javascript/put.js?version="+djConfig.jsVersion },
+- |2
+          { moment: djConfig.lenyaRoot+"/javascript/moment.min.js?version="+djConfig.jsVersion },
+- |2
+          { classList: djConfig.lenyaRoot+"/javascript/classList.min.js"},
+- |2
+          { loStorage: djConfig.lenyaRoot+"/javascript/vendor/loStorage.min.js"}
+- |2
+        );
+- |2+
+
+- |2
+        head.ready([ "dojo", "jQuery", "loStorage"], function() {
+- |2
+          dojoRelease.require("dijit.dijit");
+- |2
+          dojoRelease.require("dijit.form.Form");
+- |2
+          dojoRelease.require("dijit.form.TextBox");
+- |2
+          dojoRelease.require("dijit.form.CheckBox");
+- |2
+          dojoRelease.require("dijit.layout.AccordionContainer");
+- |2+
+
+- |2
+          head.load(
+- |2
+            djConfig.lenyaRoot+"/javascript/prototype/prototype.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/humane.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/transparency.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.plugins.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.paging.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.highlight.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.urlshortener.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.datetimepicker.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/unslider.min.js",
+- |2
+            // djConfig.lenyaRoot+"/javascript/vendor/jquery.confirm.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/custombox.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/velocity.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/velocity.ui.min.js",
+- |2
+            // START new MediaCenter code //
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.expandable.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.placeholder.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.filtertable.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.fitvids.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.waitforimages.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery.bxslider.min.js",
+- |2
+            djConfig.lenyaRoot+"/javascript/vendor/jquery-ui.min.js",
+- |2
+            // END new MediaCenter code //
+- "        \tdjConfig.lenyaRoot+\"/javascript/epoGlobal.min.js?version=\"+djConfig.jsVersion,\n"
+- |2
+            djConfig.lenyaRoot+"/javascript/init.min.js?version="+djConfig.jsVersion
+- |2
+          );
+- |2
+        });
+- |2+
+
+- |2
+        head.ready(function() {
+- |2
+            if (typeof (initialize) === 'function') {
+- |2
+              initialize();
+- |2
+            }
+- |2
+        });
+- |2+
+
+- "      \n"
+- "    \n"
+- |2
+        head.ready("jQuery", function() {
+- |2
+          head.load(
+- |2
+            "/modules/epogui/javascript/epoweb2/widgets/LightBox/vendor/js/jquery.magnific-popup.min.js"
+- |2
+          );
+- |2
+        });
+- "    \n"
+- "  \n"
+- |2
+      if (head.browser.ie) {
+- |2
+        head.load(lenyaRoot+'/css/css_IE'+head.browser.version+'.css');
+- |2
+      }
+- |2
+    usingMobileDevice
+- |2+
+
+- |
+  European companies' share of patents granted by the EPO remains stable at around 50%.  Grants to Japanese and US companies went up slightly, while the number of European patents obtained by Korean and Chinese companies is still very low, but growing rapidly.
+- |2+
+
+- |
+  View the grants statistics by country of origin.
+- |2+
+
+- Analysis based on granted patents published in 2012. Patents have been allocated
+  to the country of residence of the first-named patentee.
+index:
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  searchsearch: !ruby/object:Word
+    word: searchsearch
+    stem: searchsearch
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  onlyadvanced: !ruby/object:Word
+    word: onlyadvanced
+    stem: onlyadvanc
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  searchpatent: !ruby/object:Word
+    word: searchpatent
+    stem: searchpat
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  searchadvanced: !ruby/object:Word
+    word: searchadvanced
+    stem: searchadvanc
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  patent: !ruby/object:Word
+    word: patent
+    stem: patent
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  searchdeutschenglishfran: !ruby/object:Word
+    word: searchdeutschenglishfran
+    stem: searchdeutschenglishfran
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  aismedia: !ruby/object:Word
+    word: aismedia
+    stem: aismedia
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  useuropean: !ruby/object:Word
+    word: useuropean
+    stem: useuropean
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  organisationthe: !ruby/object:Word
+    word: organisationthe
+    stem: organisationth
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  officeboards: !ruby/object:Word
+    word: officeboards
+    stem: officeboard
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  appealjobstendersannual: !ruby/object:Word
+    word: appealjobstendersannual
+    stem: appealjobstendersannu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 11.0
+    docPositions:
+    - 0
+    - 14
+    - 219
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 4.0
+    docPositions:
+    - 0
+    - 16
+    - 221
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  updatesfaqonline: !ruby/object:Word
+    word: updatesfaqonline
+    stem: updatesfaqonlin
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  softwarepublicationsorderingformsuseful: !ruby/object:Word
+    word: softwarepublicationsorderingformsuseful
+    stem: softwarepublicationsorderingformsus
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  linkscontact: !ruby/object:Word
+    word: linkscontact
+    stem: linkscontact
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  usofficial: !ruby/object:Word
+    word: usofficial
+    stem: usoffici
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  holidaysforumsglossaryrss: !ruby/object:Word
+    word: holidaysforumsglossaryrss
+    stem: holidaysforumsglossaryrss
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  feeds: !ruby/object:Word
+    word: feeds
+    stem: feed
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  homesearching: !ruby/object:Word
+    word: homesearching
+    stem: homesearch
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  patentsapplying: !ruby/object:Word
+    word: patentsapplying
+    stem: patentsappli
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  patentlaw: !ruby/object:Word
+    word: patentlaw
+    stem: patentlaw
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  practicenews: !ruby/object:Word
+    word: practicenews
+    stem: practicenew
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  issueslearning: !ruby/object:Word
+    word: issueslearning
+    stem: issueslearn
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  eventshomeabout: !ruby/object:Word
+    word: eventshomeabout
+    stem: eventshomeabout
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  usannual: !ruby/object:Word
+    word: usannual
+    stem: usannu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  statisticsannual: !ruby/object:Word
+    word: statisticsannual
+    stem: statisticsannu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  reportsannual: !ruby/object:Word
+    word: reportsannual
+    stem: reportsannu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  trendsgranted: !ruby/object:Word
+    word: trendsgranted
+    stem: trendsgrant
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  patentsannual: !ruby/object:Word
+    word: patentsannual
+    stem: patentsannu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  trendsprintsharefacebookxinglinkedingoogle: !ruby/object:Word
+    word: trendsprintsharefacebookxinglinkedingoogle
+    stem: trendsprintsharefacebookxinglinkedingoogl
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  twitterpresident: !ruby/object:Word
+    word: twitterpresident
+    stem: twitterpresid
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 9.0
+    docPositions:
+    - 0
+    - 121
+    - 124
+    - 125
+    - 133
+  forewordhighlights: !ruby/object:Word
+    word: forewordhighlights
+    stem: forewordhighlight
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  barriersstatistics: !ruby/object:Word
+    word: barriersstatistics
+    stem: barriersstatist
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  trendseuropean: !ruby/object:Word
+    word: trendseuropean
+    stem: trendseuropean
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  filingseuropean: !ruby/object:Word
+    word: filingseuropean
+    stem: filingseuropean
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  applicationstop: !ruby/object:Word
+    word: applicationstop
+    stem: applicationstop
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  applicantsgranted: !ruby/object:Word
+    word: applicantsgranted
+    stem: applicantsgr
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  patentssearches: !ruby/object:Word
+    word: patentssearches
+    stem: patentssearch
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  examinations: !ruby/object:Word
+    word: examinations
+    stem: examin
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  oppositionsboards: !ruby/object:Word
+    word: oppositionsboards
+    stem: oppositionsboard
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  appealfive: !ruby/object:Word
+    word: appealfive
+    stem: appealf
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  reviewdownload: !ruby/object:Word
+    word: reviewdownload
+    stem: reviewdownload
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  centre: !ruby/object:Word
+    word: centre
+    stem: centr
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  granted: !ruby/object:Word
+    word: granted
+    stem: grant
+    docFrequency: 7.0
+    docPositions:
+    - 2
+    - 12
+    - 14
+    - 19
+    - 219
+    - 223
+  patents: !ruby/object:Word
+    word: patents
+    stem: patent
+    docFrequency: 12.0
+    docPositions:
+    - 2
+    - 12
+    - 14
+    - 19
+    - 108
+    - 219
+    - 223
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  trend: !ruby/object:Word
+    word: trend
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  geographic: !ruby/object:Word
+    word: geographic
+    stem: geograph
+    docFrequency: 2.0
+    docPositions:
+    - 12
+  origin: !ruby/object:Word
+    word: origin
+    stem: origin
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 16
+    - 221
+  european: !ruby/object:Word
+    word: european
+    stem: european
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 219
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 7.0
+    docPositions:
+    - 14
+    - 219
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  epo: !ruby/object:Word
+    word: epo
+    stem: epo
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 68
+    - 102
+    - 150
+    - 219
+  remains: !ruby/object:Word
+    word: remains
+    stem: remain
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  stable: !ruby/object:Word
+    word: stable
+    stem: stabl
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  grants: !ruby/object:Word
+    word: grants
+    stem: grant
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 16
+    - 219
+    - 221
+  japanese: !ruby/object:Word
+    word: japanese
+    stem: japanes
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  went: !ruby/object:Word
+    word: went
+    stem: went
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  slightly: !ruby/object:Word
+    word: slightly
+    stem: slightli
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  obtained: !ruby/object:Word
+    word: obtained
+    stem: obtain
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  korean: !ruby/object:Word
+    word: korean
+    stem: korean
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  chinese: !ruby/object:Word
+    word: chinese
+    stem: chines
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  very: !ruby/object:Word
+    word: very
+    stem: veri
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  growing: !ruby/object:Word
+    word: growing
+    stem: grow
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  rapidly: !ruby/object:Word
+    word: rapidly
+    stem: rapidli
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 219
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 16
+    - 221
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 5.0
+    docPositions:
+    - 16
+    - 19
+    - 221
+    - 223
+  analysis: !ruby/object:Word
+    word: analysis
+    stem: analysi
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  allocated: !ruby/object:Word
+    word: allocated
+    stem: alloc
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  residence: !ruby/object:Word
+    word: residence
+    stem: resid
+    docFrequency: 4.0
+    docPositions:
+    - 19
+    - 51
+    - 223
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  named: !ruby/object:Word
+    word: named
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  patentee: !ruby/object:Word
+    word: patentee
+    stem: patente
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 223
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 11.0
+    docPositions:
+    - 24
+    - 25
+    - 41
+    - 42
+    - 58
+    - 59
+    - 75
+    - 76
+    - 92
+    - 93
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 6.0
+    docPositions:
+    - 24
+    - 41
+    - 58
+    - 75
+    - 92
+  kb: !ruby/object:Word
+    word: kb
+    stem: kb
+    docFrequency: 11.0
+    docPositions:
+    - 24
+    - 25
+    - 41
+    - 42
+    - 58
+    - 59
+    - 75
+    - 76
+    - 92
+    - 93
+  xls: !ruby/object:Word
+    word: xls
+    stem: xl
+    docFrequency: 6.0
+    docPositions:
+    - 25
+    - 42
+    - 59
+    - 76
+    - 93
+  overview: !ruby/object:Word
+    word: overview
+    stem: overview
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  member: !ruby/object:Word
+    word: member
+    stem: member
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 85
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 85
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  quick: !ruby/object:Word
+    word: quick
+    stem: quick
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  navigationhomepage: !ruby/object:Word
+    word: navigationhomepage
+    stem: navigationhomepag
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 5.0
+    docPositions:
+    - 100
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  sitemapaccessibilityterms: !ruby/object:Word
+    word: sitemapaccessibilityterms
+    stem: sitemapaccessibilityterm
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  uselegal: !ruby/object:Word
+    word: uselegal
+    stem: useleg
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  noticesecuritylast: !ruby/object:Word
+    word: noticesecuritylast
+    stem: noticesecuritylast
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  lenyaroot: !ruby/object:Word
+    word: lenyaroot
+    stem: lenyaroot
+    docFrequency: 33.0
+    docPositions:
+    - 101
+    - 103
+    - 109
+    - 148
+    - 157
+    - 158
+    - 159
+    - 160
+    - 161
+    - 172
+    - 173
+    - 174
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 194
+    - 195
+    - 215
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 5.0
+    docPositions:
+    - 101
+    - 109
+    - 120
+    - 123
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 102
+    - 115
+    - 120
+    - 123
+    - 137
+    - 140
+    - 200
+    - 214
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 4.0
+    docPositions:
+    - 102
+    - 121
+    - 133
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 4.0
+    docPositions:
+    - 102
+    - 110
+    - 121
+  host: !ruby/object:Word
+    word: host
+    stem: host
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 5.0
+    docPositions:
+    - 102
+    - 111
+    - 123
+  internal: !ruby/object:Word
+    word: internal
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 150
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 11.0
+    docPositions:
+    - 103
+    - 155
+    - 164
+    - 171
+    - 199
+    - 207
+    - 208
+    - 214
+    - 215
+  load: !ruby/object:Word
+    word: load
+    stem: load
+    docFrequency: 6.0
+    docPositions:
+    - 103
+    - 155
+    - 171
+    - 208
+    - 215
+  vendor: !ruby/object:Word
+    word: vendor
+    stem: vendor
+    docFrequency: 23.0
+    docPositions:
+    - 103
+    - 161
+    - 173
+    - 174
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 209
+  jslog: !ruby/object:Word
+    word: jslog
+    stem: jslog
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 25.0
+    docPositions:
+    - 103
+    - 157
+    - 159
+    - 160
+    - 161
+    - 173
+    - 174
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 182
+    - 183
+    - 184
+    - 187
+    - 188
+    - 190
+    - 191
+    - 192
+    - 194
+    - 195
+    - 209
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  error: !ruby/object:Word
+    word: error
+    stem: error
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  logging: !ruby/object:Word
+    word: logging
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  enabled: !ruby/object:Word
+    word: enabled
+    stem: enabl
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  enter: !ruby/object:Word
+    word: enter
+    stem: enter
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 107
+    - 108
+  term: !ruby/object:Word
+    word: term
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  keywords: !ruby/object:Word
+    word: keywords
+    stem: keyword
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  dates: !ruby/object:Word
+    word: dates
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  dochref: !ruby/object:Word
+    word: dochref
+    stem: dochref
+    docFrequency: 4.0
+    docPositions:
+    - 110
+    - 111
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  docroot: !ruby/object:Word
+    word: docroot
+    stem: docroot
+    docFrequency: 7.0
+    docPositions:
+    - 111
+    - 112
+    - 116
+  substring: !ruby/object:Word
+    word: substring
+    stem: substr
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  lang: !ruby/object:Word
+    word: lang
+    stem: lang
+    docFrequency: 4.0
+    docPositions:
+    - 112
+    - 115
+  substr: !ruby/object:Word
+    word: substr
+    stem: substr
+    docFrequency: 3.0
+    docPositions:
+    - 112
+    - 116
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 3.0
+    docPositions:
+    - 112
+    - 116
+  getlenyapath: !ruby/object:Word
+    word: getlenyapath
+    stem: getlenyapath
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 119
+    - 148
+  _de: !ruby/object:Word
+    word: _de
+    stem: _de
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  _fr: !ruby/object:Word
+    word: _fr
+    stem: _fr
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 9.0
+    docPositions:
+    - 119
+    - 133
+    - 164
+    - 199
+    - 200
+    - 207
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 17.0
+    docPositions:
+    - 120
+    - 130
+    - 131
+    - 133
+    - 151
+    - 153
+    - 156
+    - 157
+    - 158
+    - 159
+    - 160
+    - 161
+    - 181
+    - 185
+    - 193
+    - 209
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  authoring: !ruby/object:Word
+    word: authoring
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 123
+  path: !ruby/object:Word
+    word: path
+    stem: path
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  otherwise: !ruby/object:Word
+    word: otherwise
+    stem: otherwis
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  rewrites: !ruby/object:Word
+    word: rewrites
+    stem: rewrit
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  lenyapath: !ruby/object:Word
+    word: lenyapath
+    stem: lenyapath
+    docFrequency: 5.0
+    docPositions:
+    - 121
+    - 123
+    - 124
+  pathname: !ruby/object:Word
+    word: pathname
+    stem: pathnam
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 4.0
+    docPositions:
+    - 121
+    - 125
+    - 127
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 133
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  device: !ruby/object:Word
+    word: device
+    stem: devic
+    docFrequency: 8.0
+    docPositions:
+    - 130
+    - 133
+  detection: !ruby/object:Word
+    word: detection
+    stem: detect
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  github: !ruby/object:Word
+    word: github
+    stem: github
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  kaimallea: !ruby/object:Word
+    word: kaimallea
+    stem: kaimallea
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  ismobile: !ruby/object:Word
+    word: ismobile
+    stem: ismobil
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 133
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 17.0
+    docPositions:
+    - 133
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 6.0
+    docPositions:
+    - 133
+  iphone: !ruby/object:Word
+    word: iphone
+    stem: iphon
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 4.0
+    docPositions:
+    - 133
+  ipod: !ruby/object:Word
+    word: ipod
+    stem: ipod
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 4.0
+    docPositions:
+    - 133
+  ipad: !ruby/object:Word
+    word: ipad
+    stem: ipad
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 5.0
+    docPositions:
+    - 133
+  bandroid: !ruby/object:Word
+    word: bandroid
+    stem: bandroid
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 8.0
+    docPositions:
+    - 133
+  bmobile: !ruby/object:Word
+    word: bmobile
+    stem: bmobil
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 4.0
+    docPositions:
+    - 133
+  android: !ruby/object:Word
+    word: android
+    stem: android
+    docFrequency: 4.0
+    docPositions:
+    - 133
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 4.0
+    docPositions:
+    - 133
+  blackberry: !ruby/object:Word
+    word: blackberry
+    stem: blackberri
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  opera: !ruby/object:Word
+    word: opera
+    stem: opera
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  mini: !ruby/object:Word
+    word: mini
+    stem: mini
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  iemobile: !ruby/object:Word
+    word: iemobile
+    stem: iemobil
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  bfirefox: !ruby/object:Word
+    word: bfirefox
+    stem: bfirefox
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  regexp: !ruby/object:Word
+    word: regexp
+    stem: regexp
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  nexus: !ruby/object:Word
+    word: nexus
+    stem: nexu
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  kindle: !ruby/object:Word
+    word: kindle
+    stem: kindl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  fire: !ruby/object:Word
+    word: fire
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  silk: !ruby/object:Word
+    word: silk
+    stem: silk
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  gt: !ruby/object:Word
+    word: gt
+    stem: gt
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 22.0
+    docPositions:
+    - 133
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 25.0
+    docPositions:
+    - 133
+  navigator: !ruby/object:Word
+    word: navigator
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  useragent: !ruby/object:Word
+    word: useragent
+    stem: userag
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  apple: !ruby/object:Word
+    word: apple
+    stem: appl
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  phone: !ruby/object:Word
+    word: phone
+    stem: phone
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  tablet: !ruby/object:Word
+    word: tablet
+    stem: tablet
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  windows: !ruby/object:Word
+    word: windows
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  firefox: !ruby/object:Word
+    word: firefox
+    stem: firefox
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  seven_inch: !ruby/object:Word
+    word: seven_inch
+    stem: seven_inch
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  v: !ruby/object:Word
+    word: v
+    stem: v
+    docFrequency: 3.0
+    docPositions:
+    - 133
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 133
+    - 185
+    - 193
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 4.0
+    docPositions:
+    - 137
+    - 140
+    - 200
+  djconfig: !ruby/object:Word
+    word: djconfig
+    stem: djconfig
+    docFrequency: 46.0
+    docPositions:
+    - 137
+    - 138
+    - 140
+    - 141
+    - 143
+    - 144
+    - 145
+    - 146
+    - 147
+    - 148
+    - 149
+    - 150
+    - 151
+    - 156
+    - 157
+    - 158
+    - 159
+    - 160
+    - 161
+    - 172
+    - 173
+    - 174
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 194
+    - 195
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 140
+  isdebug: !ruby/object:Word
+    word: isdebug
+    stem: isdebug
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 4.0
+    docPositions:
+    - 138
+    - 141
+    - 149
+  parseonload: !ruby/object:Word
+    word: parseonload
+    stem: parseonload
+    docFrequency: 3.0
+    docPositions:
+    - 140
+    - 141
+  baseurl: !ruby/object:Word
+    word: baseurl
+    stem: baseurl
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  modules: !ruby/object:Word
+    word: modules
+    stem: modul
+    docFrequency: 5.0
+    docPositions:
+    - 143
+    - 146
+    - 156
+    - 209
+  dojotoolkit: !ruby/object:Word
+    word: dojotoolkit
+    stem: dojotoolkit
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 156
+  release: !ruby/object:Word
+    word: release
+    stem: releas
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 156
+  dojo: !ruby/object:Word
+    word: dojo
+    stem: dojo
+    docFrequency: 6.0
+    docPositions:
+    - 143
+    - 156
+    - 164
+  locale: !ruby/object:Word
+    word: locale
+    stem: local
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 151
+  bindencoding: !ruby/object:Word
+    word: bindencoding
+    stem: bindencod
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  utf: !ruby/object:Word
+    word: utf
+    stem: utf
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  modulepaths: !ruby/object:Word
+    word: modulepaths
+    stem: modulepath
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  epogui: !ruby/object:Word
+    word: epogui
+    stem: epogui
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 209
+  jsversion: !ruby/object:Word
+    word: jsversion
+    stem: jsversion
+    docFrequency: 7.0
+    docPositions:
+    - 147
+    - 156
+    - 158
+    - 159
+    - 194
+    - 195
+  usefqn: !ruby/object:Word
+    word: usefqn
+    stem: usefqn
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  fqndomain: !ruby/object:Word
+    word: fqndomain
+    stem: fqndomain
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  extralocale: !ruby/object:Word
+    word: extralocale
+    stem: extralocal
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  fr: !ruby/object:Word
+    word: fr
+    stem: fr
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  sure: !ruby/object:Word
+    word: sure
+    stem: sure
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 4.0
+    docPositions:
+    - 153
+    - 215
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  loaded: !ruby/object:Word
+    word: loaded
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 7.0
+    docPositions:
+    - 156
+    - 158
+    - 159
+    - 194
+    - 195
+    - 215
+  put: !ruby/object:Word
+    word: put
+    stem: put
+    docFrequency: 3.0
+    docPositions:
+    - 158
+  moment: !ruby/object:Word
+    word: moment
+    stem: moment
+    docFrequency: 3.0
+    docPositions:
+    - 159
+  classlist: !ruby/object:Word
+    word: classlist
+    stem: classlist
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  lostorage: !ruby/object:Word
+    word: lostorage
+    stem: lostorag
+    docFrequency: 4.0
+    docPositions:
+    - 161
+    - 164
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 4.0
+    docPositions:
+    - 164
+    - 199
+    - 207
+  dojorelease: !ruby/object:Word
+    word: dojorelease
+    stem: dojoreleas
+    docFrequency: 6.0
+    docPositions:
+    - 165
+    - 166
+    - 167
+    - 168
+    - 169
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 6.0
+    docPositions:
+    - 165
+    - 166
+    - 167
+    - 168
+    - 169
+  dijit: !ruby/object:Word
+    word: dijit
+    stem: dijit
+    docFrequency: 7.0
+    docPositions:
+    - 165
+    - 166
+    - 167
+    - 168
+    - 169
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 5.0
+    docPositions:
+    - 166
+    - 167
+    - 168
+  textbox: !ruby/object:Word
+    word: textbox
+    stem: textbox
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  checkbox: !ruby/object:Word
+    word: checkbox
+    stem: checkbox
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  layout: !ruby/object:Word
+    word: layout
+    stem: layout
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  accordioncontainer: !ruby/object:Word
+    word: accordioncontainer
+    stem: accordioncontain
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  prototype: !ruby/object:Word
+    word: prototype
+    stem: prototyp
+    docFrequency: 3.0
+    docPositions:
+    - 172
+  humane: !ruby/object:Word
+    word: humane
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  transparency: !ruby/object:Word
+    word: transparency
+    stem: transpar
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  plugins: !ruby/object:Word
+    word: plugins
+    stem: plugin
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  paging: !ruby/object:Word
+    word: paging
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  highlight: !ruby/object:Word
+    word: highlight
+    stem: highlight
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  urlshortener: !ruby/object:Word
+    word: urlshortener
+    stem: urlshorten
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  datetimepicker: !ruby/object:Word
+    word: datetimepicker
+    stem: datetimepick
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  unslider: !ruby/object:Word
+    word: unslider
+    stem: unslid
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  confirm: !ruby/object:Word
+    word: confirm
+    stem: confirm
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  custombox: !ruby/object:Word
+    word: custombox
+    stem: custombox
+    docFrequency: 2.0
+    docPositions:
+    - 182
+  velocity: !ruby/object:Word
+    word: velocity
+    stem: veloc
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 184
+  ui: !ruby/object:Word
+    word: ui
+    stem: ui
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 192
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 185
+  mediacenter: !ruby/object:Word
+    word: mediacenter
+    stem: mediacent
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 193
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 193
+  expandable: !ruby/object:Word
+    word: expandable
+    stem: expand
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  placeholder: !ruby/object:Word
+    word: placeholder
+    stem: placehold
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  filtertable: !ruby/object:Word
+    word: filtertable
+    stem: filtert
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  fitvids: !ruby/object:Word
+    word: fitvids
+    stem: fitvid
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  waitforimages: !ruby/object:Word
+    word: waitforimages
+    stem: waitforimag
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  bxslider: !ruby/object:Word
+    word: bxslider
+    stem: bxslider
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  epoglobal: !ruby/object:Word
+    word: epoglobal
+    stem: epoglob
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  initialize: !ruby/object:Word
+    word: initialize
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 200
+    - 201
+  widgets: !ruby/object:Word
+    word: widgets
+    stem: widget
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  lightbox: !ruby/object:Word
+    word: lightbox
+    stem: lightbox
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  magnific: !ruby/object:Word
+    word: magnific
+    stem: magnif
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  popup: !ruby/object:Word
+    word: popup
+    stem: popup
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 3.0
+    docPositions:
+    - 214
+    - 215
+  ie: !ruby/object:Word
+    word: ie
+    stem: ie
+    docFrequency: 2.0
+    docPositions:
+    - 214
+  css_ie: !ruby/object:Word
+    word: css_ie
+    stem: css_ie
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  usingmobiledevice: !ruby/object:Word
+    word: usingmobiledevice
+    stem: usingmobiledevic
+    docFrequency: 2.0
+    docPositions:
+    - 217
+lineCount: 224
+wordCount: 974
+rank: 0.25
+title: |
+  EPO - Granted patents
+links:
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/4D0C304859450DE8C1257B1D0052A20E/$File/granted_patents_en.pdf
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/52A3539B85816EDFC1257B1D0052E664/$File/granted_patents_en.xls
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/4D0C304859450DE8C1257B1D0052A20E/$File/granted_patents_en.pdf
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/52A3539B85816EDFC1257B1D0052E664/$File/granted_patents_en.xls
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/4D0C304859450DE8C1257B1D0052A20E/$File/granted_patents_en.pdf
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/52A3539B85816EDFC1257B1D0052E664/$File/granted_patents_en.xls
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/4D0C304859450DE8C1257B1D0052A20E/$File/granted_patents_en.pdf
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/52A3539B85816EDFC1257B1D0052E664/$File/granted_patents_en.xls
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/4D0C304859450DE8C1257B1D0052A20E/$File/granted_patents_en.pdf
+- http://documents.epo.org/projects/babylon/eponet.nsf/0/52A3539B85816EDFC1257B1D0052E664/$File/granted_patents_en.xls
+rawText: "  Site searchSearch current area onlyAdvanced searchPatent searchAdvanced
+  patent searchDeutschEnglishFrançaisMedia About usEuropean Patent OrganisationThe
+  OfficeBoards of appealJobsTendersAnnual reports and statistics Contact  Service
+  & support Website updatesFAQOnline services and softwarePublicationsOrderingFormsUseful
+  linksContact usOfficial holidaysForumsGlossaryRSS feeds HomeSearching for patentsApplying
+  for a patentLaw & practiceNews & issuesLearning & eventsHomeAbout usAnnual reports
+  and statisticsAnnual reportsAnnual report 2012Statistics and trendsGranted patentsAnnual
+  Report 2012Statistics and trendsPrintShareFacebookXingLinkedInGoogle +TwitterPresident's
+  forewordHighlights 2012No more barriersStatistics and trendsEuropean patent filingsEuropean
+  patent applicationsTop applicantsGranted patentsSearches, examinations, oppositionsBoards
+  of appealFive-year reviewDownload centre   \n\nGranted patents\n\n\n\n\nKey trend\n\n\n\n\nGeographic
+  origin of the granted patents\n\nEuropean companies' share of patents granted by
+  the EPO remains stable at around 50%.  Grants to Japanese and US companies went
+  up slightly, while the number of European patents obtained by Korean and Chinese
+  companies is still very low, but growing rapidly.\n\nView the grants statistics
+  by country of origin.\n\n\nAnalysis based on granted patents published in 2012.
+  Patents have been allocated to the country of residence of the first-named patentee.\n\n\n\n\nDownload(PDF,
+  421 KB)\n\tDownload (XLS, 54 KB)\n\n\n\n\n\n\n\n\nOverview\n\n\n\n\n\n\nDownload(PDF,
+  421 KB)\n\tDownload (XLS, 54 KB)\n\n\n\n\n\n\n\n\nBy residence\n\n\n\n\n\n\nDownload(PDF,
+  421 KB)\n\tDownload (XLS, 54 KB)\n\n\n\n\n\n\n\n\nby EPO member state\n\n\n\n\n\n\nDownload(PDF,
+  421 KB)\n\tDownload (XLS, 54 KB)\n\n\n\n\n\n\n\n\nBy non-member state\n\n\n\n\n\n\nDownload(PDF,
+  421 KB)\n\tDownload (XLS, 54 KB)\n\n\n\n\n\n\n    Quick NavigationHomepage [Alt]
+  + 0Skip navigation [Alt] + 1Sitemap [Alt] + 8Accessibility information [Alt] + 9 SitemapAccessibilityTerms
+  of useLegal noticeSecurityLast updated: 5.3.2013 \n        var lenyaRoot = \"/epoweb2/live\";\n
+  \       if (window.location.host.indexOf('internal.epo.org') !== -1) {\n          head.load(lenyaRoot+\"/javascript/vendor/jslog.min.js\");\n
+  \         console.log('Error logging enabled.');\n        }\n      \n      var i18nSearchText
+  = 'Enter search term',\n          i19nSearchText = 'Search patents using keywords,
+  numbers or dates',\n          lenyaRoot = \"/epoweb2/live\",\n          docHref
+  \  = location.href,\n          docRoot   = docHref.substring(0, docHref.indexOf('.html')),\n
+  \         lang      = docRoot.substr(docRoot.length-3, 3),\n          getLenyaPath;\n\n
+  \     if (lang == '_de' || lang == '_fr') {\n        docRoot = docRoot.substr(0,
+  docRoot.length-3);\n      }\n\n      getLenyaPath = function () {\n        //check
+  if 'authoring' or 'live' is in the path ... otherwise rewrites in place\n        var
+  lenyaPath = window.location.pathname, p = \"\", s;\n\n        if (lenyaPath.indexOf('/live')
+  !== -1 || lenyaPath.indexOf('/authoring') !== -1) {\n          s = lenyaPath.split('/');\n
+  \         p = '/'+s[1]+'/'+s[2];\n        }\n        return p;\n      };\n\n      //
+  mobile device detection\n      // see: https://github.com/kaimallea/isMobile\n      //\n
+  \     (function(i){var e=/iPhone/i,n=/iPod/i,o=/iPad/i,t=/(?=.*\\bAndroid\\b)(?=.*\\bMobile\\b)/i,r=/Android/i,d=/BlackBerry/i,s=/Opera
+  Mini/i,a=/IEMobile/i,b=/(?=.*\\bFirefox\\b)(?=.*\\bMobile\\b)/i,h=RegExp(\"(?:Nexus
+  7|BNTV250|Kindle Fire|Silk|GT-P1000)\",\"i\"),c=function(i,e){return i.test(e)},l=function(i){var
+  l=i||navigator.userAgent;this.apple={phone:c(e,l),ipod:c(n,l),tablet:c(o,l),device:c(e,l)||c(n,l)||c(o,l)},this.android={phone:c(t,l),tablet:!c(t,l)&&c(r,l),device:c(t,l)||c(r,l)},this.other={blackberry:c(d,l),opera:c(s,l),windows:c(a,l),firefox:c(b,l),device:c(d,l)||c(s,l)||c(a,l)||c(b,l)},this.seven_inch=c(h,l),this.any=this.apple.device||this.android.device||this.other.device||this.seven_inch},v=i.isMobile=new
+  l;v.Class=l})(window);\n\n      \n\n      if( typeof(djConfig) == 'undefined') {\n
+  \       var djConfig = { isDebug: false };\n      }\n      if( typeof(djConfig.parseOnLoad)
+  == 'undefined') {\n      \tdjConfig.parseOnLoad = false;\n      }\n      djConfig.baseUrl
+  = \"/modules/dojotoolkit/release/dojo/\";\n      djConfig.locale = 'en';\n      djConfig.bindEncoding
+  = \"utf-8\";\n      djConfig.modulePaths = { epoweb2: '/modules/epogui/javascript/epoweb2'
+  };\n      djConfig.jsVersion = 150414;\n      djConfig.lenyaRoot = getLenyaPath();\n
+  \     djConfig.useFQN = false;\n      djConfig.fqnDomain = 'http://www.epo.org';\n
+  \     // djConfig.extraLocale = ['de', 'en', 'fr']\n\n      // make sure, these
+  CSS files are loaded last\n\n      head.load(\n        { dojo: \"/modules/dojotoolkit/release/dojo/dojo.js?version=\"+djConfig.jsVersion
+  },\n        { jQuery: djConfig.lenyaRoot+\"/javascript/jquery-1.11.2.min.js\" },\n
+  \       { put: djConfig.lenyaRoot+\"/javascript/put.js?version=\"+djConfig.jsVersion
+  },\n        { moment: djConfig.lenyaRoot+\"/javascript/moment.min.js?version=\"+djConfig.jsVersion
+  },\n        { classList: djConfig.lenyaRoot+\"/javascript/classList.min.js\"},\n
+  \       { loStorage: djConfig.lenyaRoot+\"/javascript/vendor/loStorage.min.js\"}\n
+  \     );\n\n      head.ready([ \"dojo\", \"jQuery\", \"loStorage\"], function()
+  {\n        dojoRelease.require(\"dijit.dijit\");\n        dojoRelease.require(\"dijit.form.Form\");\n
+  \       dojoRelease.require(\"dijit.form.TextBox\");\n        dojoRelease.require(\"dijit.form.CheckBox\");\n
+  \       dojoRelease.require(\"dijit.layout.AccordionContainer\");\n\n        head.load(\n
+  \         djConfig.lenyaRoot+\"/javascript/prototype/prototype.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/humane.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/transparency.min.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/jquery.plugins.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.paging.min.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/jquery.highlight.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.urlshortener.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.datetimepicker.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/unslider.min.js\",\n          //
+  djConfig.lenyaRoot+\"/javascript/vendor/jquery.confirm.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/custombox.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/velocity.min.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/velocity.ui.min.js\",\n
+  \         // START new MediaCenter code //\n          djConfig.lenyaRoot+\"/javascript/vendor/jquery.expandable.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.placeholder.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.filtertable.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.fitvids.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/jquery.waitforimages.min.js\",\n
+  \         djConfig.lenyaRoot+\"/javascript/vendor/jquery.bxslider.min.js\",\n          djConfig.lenyaRoot+\"/javascript/vendor/jquery-ui.min.js\",\n
+  \         // END new MediaCenter code //\n        \tdjConfig.lenyaRoot+\"/javascript/epoGlobal.min.js?version=\"+djConfig.jsVersion,\n
+  \         djConfig.lenyaRoot+\"/javascript/init.min.js?version=\"+djConfig.jsVersion\n
+  \       );\n      });\n\n      head.ready(function() {\n          if (typeof (initialize)
+  === 'function') {\n            initialize();\n          }\n      });\n\n      \n
+  \   \n      head.ready(\"jQuery\", function() {\n        head.load(\n          \"/modules/epogui/javascript/epoweb2/widgets/LightBox/vendor/js/jquery.magnific-popup.min.js\"\n
+  \       );\n      });\n    \n  \n    if (head.browser.ie) {\n      head.load(lenyaRoot+'/css/css_IE'+head.browser.version+'.css');\n
+  \   }\n  usingMobileDevice\n\nEuropean companies' share of patents granted by the
+  EPO remains stable at around 50%.  Grants to Japanese and US companies went up slightly,
+  while the number of European patents obtained by Korean and Chinese companies is
+  still very low, but growing rapidly.\n\nView the grants statistics by country of
+  origin.\n\nAnalysis based on granted patents published in 2012. Patents have been
+  allocated to the country of residence of the first-named patentee."

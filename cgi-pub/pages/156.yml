@@ -1,0 +1,4836 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 5
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 21
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 60
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 28
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 61
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 61
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 95
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Namespace prefix gcse is not defined
+    domain: 3
+    code: 201
+    level: 1
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 67
+    str1: gcse
+    str2: 
+    str3: 
+    int1: 0
+    column: 50
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag gcse:searchbox-only invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 67
+    str1: gcse:searchbox-only
+    str2: 
+    str3: 
+    int1: 0
+    column: 50
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 77
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 82
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 77
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 109
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 105
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 26
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID twitter-head already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 111
+    str1: twitter-head
+    str2: twitter-head
+    str3: 
+    int1: 0
+    column: 143
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID google-head already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 113
+    str1: google-head
+    str2: google-head
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID four-square already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 114
+    str1: four-square
+    str2: four-square
+    str3: 
+    int1: 0
+    column: 115
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 181
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 59
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Namespace prefix gcse is not defined
+    domain: 3
+    code: 201
+    level: 1
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 186
+    str1: gcse
+    str2: 
+    str3: 
+    int1: 0
+    column: 56
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag gcse:searchbox-only invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 186
+    str1: gcse:searchbox-only
+    str2: 
+    str3: 
+    int1: 0
+    column: 56
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 86
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 113
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 456
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 25
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1112
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 35
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag aside invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1284
+    str1: aside
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1286
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1316
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 25
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1374
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 42
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1415
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 96
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-pucbqo"
+    line: 1483
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 110
+address: http://www.history.com
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "  \n"
+- |2+
+
+- |2
+      Close
+- "    \n"
+- "        \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- |2
+          Shows
+- "      \n"
+- |2
+        Videos
+- |2
+        Schedule
+- |2
+        Topics
+- |2
+        Games
+- |2
+        Shop
+- |2
+      This day in history
+- |2
+        News
+- |2
+        Ask History
+- |2
+        History Lists
+- "      \n"
+- |2
+          Hungry History
+- |2
+          Speeches & Audio
+- "      \n"
+- |2
+      Facebook
+- |2
+        Twitter
+- |2
+        Instagram
+- |2
+        Google
+- |2
+        Foursquare
+- |2
+        Youtube
+- |2
+        Email
+- |2
+        Get Email Updates Email
+- "    \n"
+- "\r\n"
+- "  \r\n"
+- "  \n"
+- "  \n"
+- |2
+       Follow HIstory
+- |2
+        Facebook
+- |2
+        Twitter
+- |2
+        Instagram
+- |2
+        Google
+- |2
+        Foursquare
+- |2
+        Youtube
+- "   \n"
+- |2
+        Email
+- "    \n"
+- "      \n"
+- |2
+            Watch Live
+- "        \n"
+- "      \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "      \n"
+- |2
+          ×
+- |2
+          Want FULL ACCESS?
+- "        Watch more HISTORY® videos by signing in with your TV provider. \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- |2
+          Featured TV Providers
+- |2
+            See More TV Providers
+- "        \n"
+- "          \n"
+- "            \n"
+- "          \n"
+- "          \n"
+- "            \n"
+- "            \n"
+- "              \n"
+- "            \n"
+- "          \n"
+- "        \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- |2
+          Don't see your TV provider? Check back soon or see our FAQs here.
+- "      \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- |2
+        History
+- "    \n"
+- "    \n"
+- "     \n"
+- "     \n"
+- |2
+        Advertisement
+- "      \n"
+- "     \n"
+- "      \n"
+- "      \n"
+- "          \n"
+- "              \n"
+- "              \n"
+- "            \n"
+- "            \n"
+- |2
+                Shows
+- "            \n"
+- |2
+              Videos
+- |2
+              Schedule
+- |2
+              Topics
+- |2
+              Games
+- "            \n"
+- |2
+                Shop
+- "              \n"
+- "              \n"
+- |2
+                  Promotions
+- |2
+                  History Store
+- "                  \n"
+- |2
+                      Vikings Store
+- "                  \n"
+- |2
+                      Ancient Aliens Store
+- "                  \n"
+- |2
+                      American Pickers Store
+- "                  \n"
+- |2
+                      Pawn Stars Store
+- "                  \n"
+- "                \n"
+- "            \n"
+- |2
+            This day in history
+- |2
+              News
+- |2
+              Ask History
+- |2
+              History Lists
+- "            \n"
+- |2
+                Hungry History
+- |2
+                Speeches & Audio
+- "            \n"
+- "          \n"
+- "      \n"
+- |2
+          OPEN
+- |2
+          History
+- "        \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- |2
+      ×
+- "  \n"
+- "   \n"
+- |2+
+
+- "  \r\n"
+- "    \n"
+- |2
+    December 14, 2015
+- "  \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "              \n"
+- "                \n"
+- "              \n"
+- |2
+                    NEW EPISODES TUESDAYS AT 9/8C
+- |2
+                    The Curse of Oak Island
+- "              \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                    NEW EPISODES TUESDAYS AT 9/8C
+- |2
+                    The Curse of Oak Island
+- "                \n"
+- |2
+                  What will they find? Watch the latest episode now.
+- "                \n"
+- |2
+                    »More
+- "                \n"
+- "                \n"
+- "                Watch more shows and videos\r\n"
+- " \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "              \n"
+- "                \n"
+- "              \n"
+- |2
+                    NEW EPISODES WEDNESDAYS AT 10/9C
+- |2
+                    Christmas Through the Decades
+- "              \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                    NEW EPISODES WEDNESDAYS AT 10/9C
+- |2
+                    Christmas Through the Decades
+- "                \n"
+- |2
+                  Watch full episodes now.
+- "                \n"
+- |2
+                    »More
+- "                \n"
+- "                \n"
+- "                Watch more shows and videos\r\n"
+- " \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "              \n"
+- "                \n"
+- "              \n"
+- |2
+                    NEW EPISODES SUNDAYS AT 9/8C
+- |2
+                    Ax Men
+- "              \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                    NEW EPISODES SUNDAYS AT 9/8C
+- |2
+                    Ax Men
+- "                \n"
+- |2
+                  Cut into all-new episodes now.
+- "                \n"
+- |2
+                    »More
+- "                \n"
+- "                \n"
+- "                 \r\n"
+- "Watch more shows and videos\r\n"
+- " \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "              \n"
+- "                \n"
+- "              \n"
+- |2
+                    VIDEO
+- |2
+                    Origins of Hanukkah
+- "              \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                    VIDEO
+- |2
+                    Origins of Hanukkah
+- "                \n"
+- |2
+                  Get the story behind the eight-day Festival of Lights.
+- "                \n"
+- |2
+                    »More
+- "                \n"
+- "                \n"
+- "                Hanukkah Foods: Latkes - Video\r\n"
+- " \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "        \n"
+- "              \n"
+- "                \n"
+- "              \n"
+- |2
+                    NEWS
+- |2
+                    Billion-Dollar Shipwreck Found
+- "              \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2
+                    NEWS
+- |2
+                    Billion-Dollar Shipwreck Found
+- "                \n"
+- |2
+                  The recently-discovered wreck might be the richest in the world.
+- "                \n"
+- |2
+                    »More
+- "                \n"
+- "                \n"
+- "                Get more HISTORY news\r\n"
+- " \n"
+- "        \n"
+- "      \n"
+- "      \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "  \n"
+- "  \n"
+- "    \n"
+- "  \n"
+- |2
+        ‹
+- "      ›  \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "      \n"
+- "        \n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "  \r\n"
+- "   \r\n"
+- "  \r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "\r\n"
+- "              \n"
+- "\tPopular Shows\n"
+- "    \n"
+- "             \n"
+- "        \n"
+- "        \n"
+- |2+
+
+- "  \t\t\n"
+- "\t\t  New Episodes  Tuesdays at 9/8c \n"
+- "\t\t\n"
+- "\t\t  New Episodes  Wednesdays at 10/9c \n"
+- "\t\t\n"
+- "\t\t  New Episodes  Sundays at 9/8c \n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- |2+
+
+- "\t\t\n"
+- "\t\t  New Episodes  Thursdays at 9/8c   \n"
+- "\t\t\n"
+- "\t\t  New Episodes   Tuesdays at 10/9c   \n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t \n"
+- |2+
+
+- |2
+    Full Episodes
+- "  \n"
+- "    \n"
+- "      \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Hunting Hitler: Ratlines
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    The Curse of Oak Island: Disappearing Act
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    HISTORY Specials: Tech Effect: Pearl Harbor
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    HISTORY Specials: Unsung Heroes Of Pearl Harbor
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    HISTORY Specials: USS Arizona
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    HISTORY Specials: Tora, Tora, Tora: The Real Story Of Pearl Harbor
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Hunting Hitler: The Tunnel
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    The Curse of Oak Island: The Overton Stone
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Christmas Through the Decades: Christmas Through the Decades: The 60s
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Hunting Hitler: Escape From Berlin
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    HISTORY Specials: Dead or Alive: Stranded in the Alaskan Wilderness
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Alone: Winds of Hell
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Alone: Stalked
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Alone: The Talons of Fear
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Alone: Of Wolf and Man
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Alone: And So It Begins
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Axpocalypse
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: All Hands on Deck
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Great Logs of Fire
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Rock Bottom
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Fall of a Legend
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Cuts Like a Knife
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Log Runners
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                    \n"
+- |2
+                    Play video
+- "                \n"
+- "                \n"
+- |2
+                    Ax Men: Jet Logged
+- "                  \n"
+- "                \n"
+- "                                \n"
+- "            \n"
+- "      \n"
+- |2
+      ‹
+- |2
+      ›
+- "                  \n"
+- "      \n"
+- "      \n"
+- "                  \n"
+- "                  \n"
+- "  \n"
+- " \n"
+- |2+
+
+- "          \n"
+- |2
+    NEWS & FEATURES
+- "                      \n"
+- "    \n"
+- "              \n"
+- "                \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Hunting Hitler
+- |2
+                          Follow the demise of the infamous dictator
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            American Pickers
+- |2
+                          Go through picks with Frank and Mike
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            America's Greatest Prison Breaks
+- |2
+                          Get the stories of these clever criminals
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            History in the Headlines
+- |2
+                          Discover a legendary billion-dollar shipwreck
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Ask History
+- |2
+                          Did Gladiators always fight to the death?
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Pawn Stars
+- |2
+                          Check out what's new at the shop
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Christmas Through the Decades
+- |2
+                          Experience Christmas through the ages
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            History Lists
+- |2
+                          Get the stories of 8 Pearl Harbor heroes
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            The Making of Trump
+- |2
+                          Watch what makes the tycoon tick
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Ax Men
+- |2
+                          Cut down green gold with these men
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Mona Lisa
+- |2
+                          See what was found underneath the portrait
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                                          \n"
+- "                      \n"
+- "                      \n"
+- "                                            \n"
+- "                      \n"
+- |2
+                            Ultimate History Quiz
+- |2
+                          Challenge your friends
+- "                        \n"
+- "                      \n"
+- "                                      \n"
+- "                  \n"
+- |2+
+
+- "                \n"
+- |2+
+
+- |2
+                ‹
+- |2
+                ›
+- "              \n"
+- "                \n"
+- "                \n"
+- "                   \n"
+- "                           \n"
+- "            \n"
+- "          \n"
+- "                  \n"
+- "\r\n"
+- "   \r\n"
+- "      \r\n"
+- "  \r\n"
+- "  \n"
+- |2+
+
+- "      \n"
+- "            \n"
+- |2
+          Popular Topics:
+- "          \n"
+- |2
+            Boston Tea Party
+- "          \n"
+- |2
+            Treaty of Paris
+- "          \n"
+- |2
+            Kwanzaa
+- "          \n"
+- |2
+            George Washington
+- "          \n"
+- |2
+            History of Christmas
+- "          \n"
+- |2
+            Bill of Rights
+- "          \n"
+- "          \n"
+- "        \n"
+- "      \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "   \n"
+- "  \t\n"
+- "    \n"
+- "    \n"
+- "    \t\t\n"
+- "\t\t\t\tShop History\n"
+- "\t\t\t\n"
+- "      \n"
+- "\t\t\t\n"
+- "\t\t\t               \n"
+- "              \n"
+- "              \n"
+- "              \n"
+- "              \tVikings\n"
+- |2
+                  Shop the Vikings Store for DVDs, apparel, jewelry and more.
+- |2
+                  Buy Now
+- "              \n"
+- "              \n"
+- "            \t\t\t\t\n"
+- "      \n"
+- "      \n"
+- "\t\t\t\n"
+- "\t\t\t               \n"
+- "              \n"
+- "              \n"
+- "              \n"
+- "              \tTexas Rising\n"
+- |2
+                  Shop the Texas Rising Store for the book, apparel and much more.
+- |2
+                  Buy Now
+- "              \n"
+- "              \n"
+- "            \t\t\t\t\n"
+- "      \n"
+- "      \n"
+- "\t\t\t\n"
+- "\t\t\t               \n"
+- "              \n"
+- "              \n"
+- "              \n"
+- "              \tAlone\n"
+- |2
+                  Alone in the wilderness? Get your survival kit at the History Store.
+- |2
+                  Buy Now
+- "              \n"
+- "              \n"
+- "            \t\t\t\t\n"
+- "      \n"
+- "      \n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- "\t\r\n"
+- " \r\n"
+- "  \r\n"
+- "  \r\n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- " \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+        HISTORY.com
+- |2
+        FAQ/Contact Us
+- |2
+          Shop HISTORY
+- |2
+          Email Updates
+- |2
+          Mobile
+- "      \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- |2
+        A+E Networks Corp.
+- |2
+        Advertise With Us
+- |2
+          Corporate Information
+- |2
+          Around the World
+- |2
+          Employment Opportunities
+- "        TV Parental Guidelines      \n"
+- |2
+          Privacy Policy
+- |2
+          Terms of Use
+- |2
+          Copyright Policy
+- |2
+          Ad Choices
+- |2
+          Closed Captioning
+- "      \n"
+- "    \n"
+- "    \n"
+- |2
+        Shop Our Store
+- |2
+        Swamp People
+- |2
+          Pawn Stars
+- |2
+          Ax Men
+- |2
+          American Pickers
+- |2
+          Ice Road Truckers
+- |2
+          History Channel DVDs
+- |2
+          War DVDs
+- |2
+          History Books
+- |2
+          History Gifts
+- "      \n"
+- "    \n"
+- "    \n"
+- |2
+        A+E Networks Digital
+- |2
+        A&E
+- |2
+          lifetime
+- |2
+          History
+- |2
+          lmn
+- |2
+          FYI
+- |2
+          H2
+- "      \n"
+- |2
+          HISTORY Education
+- |2
+            HISTORY en Español
+- |2
+            Asterisk
+- "          \n"
+- |2
+          HISTORY Shop
+- |2
+            MILITARY HISTORY
+- |2
+          Planet H
+- |2
+            Biography
+- |2
+          Crime and Investigation
+- |2
+            LifetimeMoms
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "   \n"
+- "    \n"
+- "    \n"
+- "  \n"
+- "      \n"
+- |2
+          A+E Networks
+- "      \n"
+- |2
+        Contact Us
+- |2
+            Copyright Policy
+- |2
+            Privacy Policy
+- |2
+            Terms of Use
+- |2
+            Ad Choices
+- |2
+            Closed Captioning
+- |2
+        © 2015, A&E Television Networks, LLC. All Rights Reserved.
+- "      \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "    \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- |2
+      require( ['common/video/aetn.video.adobePass'], function(adobePass) {                           aetn.video.adobePass.init( {} );                       });require( ['common/social/button'], function(socialbutton) {                      var sb = new socialbutton();                      sb.create('globalnav-facebook', {type: 'facebook-like', shareUrl:'http://www.facebook.com/history'});                    });require( ['common/video/aetn.video.historyview'], function(historyview) {                       });require( ['common/social/button'], function(socialbutton)  {            var sb = new socialbutton(); sb.create('icon-twitter-2', {type: 'twitter-follow-intent', elementType: 'class'});                });require( ['common/social/button'], function(socialbutton)  {            var sb = new socialbutton(); sb.create('icon-foursquare-2', {type: 'popup-blank',shareUrl:'https://foursquare.com/historychannel',elementType: 'class'});                });require( ['common/social/button'], function(socialbutton)  {            var sb = new socialbutton(); sb.create('icon-googleplus-2', {type: 'popup-blank',shareUrl:'https://plus.google.com/+HISTORY/posts',elementType: 'class'});                });require( ['common/search/googlesearch'], function(gs)  {            gs();                });require( ['common/ui/sidenav'], function(sn)  {            sn(null, true);          });require(['common/ads/googletag'], function() {                       window.googletag._aetnnewads = [];                     });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function() {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[728,90]], 'ad_85' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);window.googletag._aetnnewads.push( ad ); }); });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function() {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[970,66],[970,250]], 'ad_641' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);window.googletag._aetnnewads.push( ad ); }); });require( ['common/carousel/hero'], function(hero) {                         hero('524f0e4365d4f_carousel');                     });                     require(['common/carousel/touchcarousel'], function (touchcarousel) {                       var _wrapper = $('#524f0e4365d4f_carousel');                       var carousel = new touchcarousel('524f0e4365d4f_carousel', {                         implementCarousel: false                       , nextCallback: $.proxy(_wrapper.carousel, _wrapper, 'next')                       , prevCallback: $.proxy(_wrapper.carousel, _wrapper, 'prev')                       });                       carousel.init();                     });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function() {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[300,250]], 'ad_973' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);ad.ad_id='#ad_973';window.googletag._aetnoutofviewads.push( ad ); }); });require( ['jquery', 'common/carousel/touchcarousel'], function($) {                 $('#524f1163e6d3a_carousel').touchcarousel();               });require( ['jquery'], function($) {                 $('.thumb-box').each( function() {                   $(this).popover({                     trigger: 'hover',                     delay: 800,                     html: true,                     container: $(this).parents('.slider')                   })                });               });require(['common/carousel/touchcarousel'], function (touchcarousel) {                       var carousel = new touchcarousel('524f10bcc3e09_carousel');                       carousel.init();                     });window.utag_data = {"brand_prefix":"HIS","page_level_1":"Home","page_level_2":"","page_level_3":"","page_level_4":"","page_level_5":"","tv_vs_non_tv":"Non-TV","show_genre":"None","show_name":"None","movie_name":"None","product_type":"HomePage","page_number":"None","page_url":"www.history.com/","page_domain":"www.history.com","game_name":"None","game_type":"None","network_type":"history"};
+- |
+  window.utag_data.page_title = document.title;
+- |
+  window.utag_data.is_tve_authenticated =  $.cookie( "tveProvider" ) === null ? "0" : "1";
+- |
+  window.utag_data.tve_provider_name = $.cookie( "tveProvider" ) === null ? "0" : $.cookie( "tveProvider" );
+- "require( [\"common/analytics/tealium\"], function(tealium) {                      tealium(\"history\",
+  \"prod\");                    });require( ['common/international/historyredirect'],
+  function(georedirect) {                        georedirect();                      });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {window.googletag.pubads().setTargeting(
+  's1', 'historyhome' );window.googletag.pubads().setTargeting( 'pid', 'historyhome'
+  ); }); });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {           window.googletag.display('ad_85');         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {           window.googletag.display('ad_641');
+  \        });       });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {           window.googletag.display('ad_973');         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {           try { amznads.setTargetingForGPTAsync('amznslots');
+  } catch(e) { }         });       });require(['common/ads/googletag'], function()
+  {           window.googletag.cmd.push(function() {           window.googletag.pubads().refresh(
+  window.googletag._aetnnewads );           window.googletag._aetnads = window.googletag._aetnads.concat(
+  window.googletag._aetnnewads );         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {             window.googletag._displayInView();
+  \          });       });\r\n"
+- "\r\n"
+- "    \r\n"
+- " \r\n"
+- What will they find? Watch the latest episode now.Watch full episodes now.Cut into
+  all-new episodes now.Get the story behind the eight-day Festival of Lights.The recently-discovered
+  wreck might be the richest in the world.© 2015, A&E Television Networks, LLC. All
+  Rights Reserved.
+index:
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  shows: !ruby/object:Word
+    word: shows
+    stem: show
+    docFrequency: 7.0
+    docPositions:
+    - 12
+    - 108
+    - 192
+    - 217
+    - 243
+    - 337
+  videos: !ruby/object:Word
+    word: videos
+    stem: video
+    docFrequency: 7.0
+    docPositions:
+    - 14
+    - 60
+    - 110
+    - 192
+    - 217
+    - 243
+  schedule: !ruby/object:Word
+    word: schedule
+    stem: schedul
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 111
+  topics: !ruby/object:Word
+    word: topics
+    stem: topic
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 112
+    - 836
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 113
+  shop: !ruby/object:Word
+    word: shop
+    stem: shop
+    docFrequency: 10.0
+    docPositions:
+    - 18
+    - 115
+    - 738
+    - 861
+    - 870
+    - 883
+    - 919
+    - 940
+    - 965
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 5.0
+    docPositions:
+    - 19
+    - 131
+    - 263
+    - 1018
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 43.0
+    docPositions:
+    - 19
+    - 21
+    - 22
+    - 24
+    - 40
+    - 60
+    - 93
+    - 119
+    - 131
+    - 133
+    - 134
+    - 136
+    - 142
+    - 293
+    - 397
+    - 409
+    - 421
+    - 433
+    - 493
+    - 713
+    - 725
+    - 761
+    - 809
+    - 846
+    - 861
+    - 896
+    - 917
+    - 919
+    - 946
+    - 948
+    - 949
+    - 956
+    - 961
+    - 962
+    - 965
+    - 966
+    - 1010
+    - 1014
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 7.0
+    docPositions:
+    - 20
+    - 132
+    - 278
+    - 285
+    - 293
+    - 666
+  ask: !ruby/object:Word
+    word: ask
+    stem: ask
+    docFrequency: 4.0
+    docPositions:
+    - 21
+    - 133
+    - 725
+  lists: !ruby/object:Word
+    word: lists
+    stem: list
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 134
+    - 761
+  hungry: !ruby/object:Word
+    word: hungry
+    stem: hungri
+    docFrequency: 3.0
+    docPositions:
+    - 24
+    - 136
+  speeches: !ruby/object:Word
+    word: speeches
+    stem: speech
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 137
+  audio: !ruby/object:Word
+    word: audio
+    stem: audio
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 137
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 41
+    - 1010
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 5.0
+    docPositions:
+    - 28
+    - 42
+    - 1010
+  instagram: !ruby/object:Word
+    word: instagram
+    stem: instagram
+    docFrequency: 3.0
+    docPositions:
+    - 29
+    - 43
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 44
+    - 1010
+  foursquare: !ruby/object:Word
+    word: foursquare
+    stem: foursquar
+    docFrequency: 5.0
+    docPositions:
+    - 31
+    - 45
+    - 1010
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 46
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 6.0
+    docPositions:
+    - 33
+    - 34
+    - 48
+    - 920
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 8.0
+    docPositions:
+    - 34
+    - 263
+    - 293
+    - 702
+    - 762
+    - 896
+    - 1018
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 920
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 4.0
+    docPositions:
+    - 40
+    - 678
+    - 1010
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 11.0
+    docPositions:
+    - 51
+    - 60
+    - 187
+    - 192
+    - 212
+    - 217
+    - 243
+    - 774
+    - 1018
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  want: !ruby/object:Word
+    word: want
+    stem: want
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 5.0
+    docPositions:
+    - 59
+    - 212
+    - 362
+    - 1018
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 14.0
+    docPositions:
+    - 60
+    - 65
+    - 189
+    - 192
+    - 214
+    - 217
+    - 239
+    - 243
+    - 265
+    - 290
+    - 293
+    - 870
+    - 883
+  signing: !ruby/object:Word
+    word: signing
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 5.0
+    docPositions:
+    - 60
+    - 80
+    - 810
+    - 896
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 7.0
+    docPositions:
+    - 60
+    - 64
+    - 65
+    - 80
+    - 931
+    - 1010
+  provider: !ruby/object:Word
+    word: provider
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 80
+  featured: !ruby/object:Word
+    word: featured
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  providers: !ruby/object:Word
+    word: providers
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 65
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 5.0
+    docPositions:
+    - 65
+    - 80
+    - 798
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 738
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  soon: !ruby/object:Word
+    word: soon
+    stem: soon
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 3.0
+    docPositions:
+    - 80
+    - 940
+  faqs: !ruby/object:Word
+    word: faqs
+    stem: faq
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  promotions: !ruby/object:Word
+    word: promotions
+    stem: promot
+    docFrequency: 2.0
+    docPositions:
+    - 118
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 10.0
+    docPositions:
+    - 119
+    - 121
+    - 123
+    - 125
+    - 127
+    - 870
+    - 883
+    - 896
+    - 940
+  vikings: !ruby/object:Word
+    word: vikings
+    stem: vike
+    docFrequency: 4.0
+    docPositions:
+    - 121
+    - 869
+    - 870
+  ancient: !ruby/object:Word
+    word: ancient
+    stem: ancient
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  aliens: !ruby/object:Word
+    word: aliens
+    stem: alien
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 4.0
+    docPositions:
+    - 125
+    - 689
+    - 944
+  pickers: !ruby/object:Word
+    word: pickers
+    stem: picker
+    docFrequency: 4.0
+    docPositions:
+    - 125
+    - 689
+    - 944
+  pawn: !ruby/object:Word
+    word: pawn
+    stem: pawn
+    docFrequency: 4.0
+    docPositions:
+    - 127
+    - 737
+    - 942
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 4.0
+    docPositions:
+    - 127
+    - 737
+    - 942
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 21.0
+    docPositions:
+    - 177
+    - 184
+    - 202
+    - 209
+    - 227
+    - 234
+    - 237
+    - 344
+    - 346
+    - 348
+    - 354
+    - 356
+    - 738
+    - 1010
+    - 1018
+  episodes: !ruby/object:Word
+    word: episodes
+    stem: episod
+    docFrequency: 17.0
+    docPositions:
+    - 177
+    - 184
+    - 202
+    - 209
+    - 212
+    - 227
+    - 234
+    - 237
+    - 344
+    - 346
+    - 348
+    - 354
+    - 356
+    - 362
+    - 1018
+  tuesdays: !ruby/object:Word
+    word: tuesdays
+    stem: tuesdai
+    docFrequency: 5.0
+    docPositions:
+    - 177
+    - 184
+    - 344
+    - 356
+  curse: !ruby/object:Word
+    word: curse
+    stem: curs
+    docFrequency: 5.0
+    docPositions:
+    - 178
+    - 185
+    - 385
+    - 457
+  oak: !ruby/object:Word
+    word: oak
+    stem: oak
+    docFrequency: 5.0
+    docPositions:
+    - 178
+    - 185
+    - 385
+    - 457
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 5.0
+    docPositions:
+    - 178
+    - 185
+    - 385
+    - 457
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 1018
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 1018
+  latest: !ruby/object:Word
+    word: latest
+    stem: latest
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 1018
+  episode: !ruby/object:Word
+    word: episode
+    stem: episod
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 1018
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 10.0
+    docPositions:
+    - 187
+    - 212
+    - 237
+    - 871
+    - 884
+    - 897
+    - 1018
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 189
+    - 214
+    - 239
+    - 265
+    - 290
+    - 989
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 10.0
+    docPositions:
+    - 192
+    - 217
+    - 243
+    - 541
+    - 553
+    - 690
+    - 870
+    - 883
+    - 969
+  wednesdays: !ruby/object:Word
+    word: wednesdays
+    stem: wednesdai
+    docFrequency: 4.0
+    docPositions:
+    - 202
+    - 209
+    - 346
+  christmas: !ruby/object:Word
+    word: christmas
+    stem: christma
+    docFrequency: 8.0
+    docPositions:
+    - 203
+    - 210
+    - 469
+    - 749
+    - 750
+    - 846
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 8.0
+    docPositions:
+    - 203
+    - 210
+    - 469
+    - 690
+    - 749
+    - 750
+  decades: !ruby/object:Word
+    word: decades
+    stem: decad
+    docFrequency: 6.0
+    docPositions:
+    - 203
+    - 210
+    - 469
+    - 749
+  sundays: !ruby/object:Word
+    word: sundays
+    stem: sundai
+    docFrequency: 4.0
+    docPositions:
+    - 227
+    - 234
+    - 348
+  ax: !ruby/object:Word
+    word: ax
+    stem: ax
+    docFrequency: 13.0
+    docPositions:
+    - 228
+    - 235
+    - 565
+    - 577
+    - 589
+    - 601
+    - 613
+    - 625
+    - 637
+    - 649
+    - 785
+    - 943
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 14.0
+    docPositions:
+    - 228
+    - 235
+    - 565
+    - 577
+    - 589
+    - 601
+    - 613
+    - 625
+    - 637
+    - 649
+    - 785
+    - 786
+    - 943
+  cut: !ruby/object:Word
+    word: cut
+    stem: cut
+    docFrequency: 4.0
+    docPositions:
+    - 237
+    - 786
+    - 1018
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 237
+    - 1018
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 237
+    - 577
+    - 989
+    - 1018
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 33.0
+    docPositions:
+    - 253
+    - 260
+    - 268
+    - 370
+    - 382
+    - 394
+    - 406
+    - 418
+    - 430
+    - 442
+    - 454
+    - 466
+    - 478
+    - 490
+    - 502
+    - 514
+    - 526
+    - 538
+    - 550
+    - 562
+    - 574
+    - 586
+    - 598
+    - 610
+    - 622
+    - 634
+    - 646
+    - 1010
+  origins: !ruby/object:Word
+    word: origins
+    stem: origin
+    docFrequency: 3.0
+    docPositions:
+    - 254
+    - 261
+  hanukkah: !ruby/object:Word
+    word: hanukkah
+    stem: hanukkah
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 261
+    - 268
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 4.0
+    docPositions:
+    - 263
+    - 433
+    - 1018
+  behind: !ruby/object:Word
+    word: behind
+    stem: behind
+    docFrequency: 3.0
+    docPositions:
+    - 263
+    - 1018
+  eight: !ruby/object:Word
+    word: eight
+    stem: eight
+    docFrequency: 3.0
+    docPositions:
+    - 263
+    - 1018
+  festival: !ruby/object:Word
+    word: festival
+    stem: festiv
+    docFrequency: 3.0
+    docPositions:
+    - 263
+    - 1018
+  lights: !ruby/object:Word
+    word: lights
+    stem: light
+    docFrequency: 3.0
+    docPositions:
+    - 263
+    - 1018
+  foods: !ruby/object:Word
+    word: foods
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 268
+  latkes: !ruby/object:Word
+    word: latkes
+    stem: latk
+    docFrequency: 2.0
+    docPositions:
+    - 268
+  billion: !ruby/object:Word
+    word: billion
+    stem: billion
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 286
+    - 714
+  dollar: !ruby/object:Word
+    word: dollar
+    stem: dollar
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 286
+    - 714
+  shipwreck: !ruby/object:Word
+    word: shipwreck
+    stem: shipwreck
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 286
+    - 714
+  found: !ruby/object:Word
+    word: found
+    stem: found
+    docFrequency: 4.0
+    docPositions:
+    - 279
+    - 286
+    - 798
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1018
+  discovered: !ruby/object:Word
+    word: discovered
+    stem: discov
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1018
+  wreck: !ruby/object:Word
+    word: wreck
+    stem: wreck
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1018
+  might: !ruby/object:Word
+    word: might
+    stem: might
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1018
+  richest: !ruby/object:Word
+    word: richest
+    stem: richest
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1018
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 4.0
+    docPositions:
+    - 288
+    - 929
+    - 1018
+  popular: !ruby/object:Word
+    word: popular
+    stem: popular
+    docFrequency: 3.0
+    docPositions:
+    - 337
+    - 836
+  thursdays: !ruby/object:Word
+    word: thursdays
+    stem: thursdai
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 25.0
+    docPositions:
+    - 370
+    - 382
+    - 394
+    - 406
+    - 418
+    - 430
+    - 442
+    - 454
+    - 466
+    - 478
+    - 490
+    - 502
+    - 514
+    - 526
+    - 538
+    - 550
+    - 562
+    - 574
+    - 586
+    - 598
+    - 610
+    - 622
+    - 634
+    - 646
+  hunting: !ruby/object:Word
+    word: hunting
+    stem: hunt
+    docFrequency: 5.0
+    docPositions:
+    - 373
+    - 445
+    - 481
+    - 677
+  hitler: !ruby/object:Word
+    word: hitler
+    stem: hitler
+    docFrequency: 5.0
+    docPositions:
+    - 373
+    - 445
+    - 481
+    - 677
+  ratlines: !ruby/object:Word
+    word: ratlines
+    stem: ratlin
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  disappearing: !ruby/object:Word
+    word: disappearing
+    stem: disappear
+    docFrequency: 2.0
+    docPositions:
+    - 385
+  act: !ruby/object:Word
+    word: act
+    stem: act
+    docFrequency: 2.0
+    docPositions:
+    - 385
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 6.0
+    docPositions:
+    - 397
+    - 409
+    - 421
+    - 433
+    - 493
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  effect: !ruby/object:Word
+    word: effect
+    stem: effect
+    docFrequency: 2.0
+    docPositions:
+    - 397
+  pearl: !ruby/object:Word
+    word: pearl
+    stem: pearl
+    docFrequency: 5.0
+    docPositions:
+    - 397
+    - 409
+    - 433
+    - 762
+  harbor: !ruby/object:Word
+    word: harbor
+    stem: harbor
+    docFrequency: 5.0
+    docPositions:
+    - 397
+    - 409
+    - 433
+    - 762
+  unsung: !ruby/object:Word
+    word: unsung
+    stem: unsung
+    docFrequency: 2.0
+    docPositions:
+    - 409
+  heroes: !ruby/object:Word
+    word: heroes
+    stem: hero
+    docFrequency: 3.0
+    docPositions:
+    - 409
+    - 762
+  uss: !ruby/object:Word
+    word: uss
+    stem: uss
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  arizona: !ruby/object:Word
+    word: arizona
+    stem: arizona
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  tora: !ruby/object:Word
+    word: tora
+    stem: tora
+    docFrequency: 4.0
+    docPositions:
+    - 433
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 2.0
+    docPositions:
+    - 433
+  tunnel: !ruby/object:Word
+    word: tunnel
+    stem: tunnel
+    docFrequency: 2.0
+    docPositions:
+    - 445
+  overton: !ruby/object:Word
+    word: overton
+    stem: overton
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  stone: !ruby/object:Word
+    word: stone
+    stem: stone
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  berlin: !ruby/object:Word
+    word: berlin
+    stem: berlin
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  dead: !ruby/object:Word
+    word: dead
+    stem: dead
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  alive: !ruby/object:Word
+    word: alive
+    stem: aliv
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  stranded: !ruby/object:Word
+    word: stranded
+    stem: strand
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  alaskan: !ruby/object:Word
+    word: alaskan
+    stem: alaskan
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  wilderness: !ruby/object:Word
+    word: wilderness
+    stem: wilder
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 896
+  alone: !ruby/object:Word
+    word: alone
+    stem: alon
+    docFrequency: 8.0
+    docPositions:
+    - 505
+    - 517
+    - 529
+    - 541
+    - 553
+    - 895
+    - 896
+  winds: !ruby/object:Word
+    word: winds
+    stem: wind
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  hell: !ruby/object:Word
+    word: hell
+    stem: hell
+    docFrequency: 2.0
+    docPositions:
+    - 505
+  stalked: !ruby/object:Word
+    word: stalked
+    stem: stalk
+    docFrequency: 2.0
+    docPositions:
+    - 517
+  talons: !ruby/object:Word
+    word: talons
+    stem: talon
+    docFrequency: 2.0
+    docPositions:
+    - 529
+  fear: !ruby/object:Word
+    word: fear
+    stem: fear
+    docFrequency: 2.0
+    docPositions:
+    - 529
+  wolf: !ruby/object:Word
+    word: wolf
+    stem: wolf
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 2.0
+    docPositions:
+    - 553
+  begins: !ruby/object:Word
+    word: begins
+    stem: begin
+    docFrequency: 2.0
+    docPositions:
+    - 553
+  axpocalypse: !ruby/object:Word
+    word: axpocalypse
+    stem: axpocalyps
+    docFrequency: 2.0
+    docPositions:
+    - 565
+  hands: !ruby/object:Word
+    word: hands
+    stem: hand
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  deck: !ruby/object:Word
+    word: deck
+    stem: deck
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  great: !ruby/object:Word
+    word: great
+    stem: great
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  logs: !ruby/object:Word
+    word: logs
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  fire: !ruby/object:Word
+    word: fire
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  rock: !ruby/object:Word
+    word: rock
+    stem: rock
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  fall: !ruby/object:Word
+    word: fall
+    stem: fall
+    docFrequency: 2.0
+    docPositions:
+    - 613
+  legend: !ruby/object:Word
+    word: legend
+    stem: legend
+    docFrequency: 2.0
+    docPositions:
+    - 613
+  cuts: !ruby/object:Word
+    word: cuts
+    stem: cut
+    docFrequency: 2.0
+    docPositions:
+    - 625
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 625
+    - 1010
+  knife: !ruby/object:Word
+    word: knife
+    stem: knife
+    docFrequency: 2.0
+    docPositions:
+    - 625
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 637
+  runners: !ruby/object:Word
+    word: runners
+    stem: runner
+    docFrequency: 2.0
+    docPositions:
+    - 637
+  jet: !ruby/object:Word
+    word: jet
+    stem: jet
+    docFrequency: 2.0
+    docPositions:
+    - 649
+  logged: !ruby/object:Word
+    word: logged
+    stem: log
+    docFrequency: 2.0
+    docPositions:
+    - 649
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 666
+  demise: !ruby/object:Word
+    word: demise
+    stem: demis
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  infamous: !ruby/object:Word
+    word: infamous
+    stem: infam
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  dictator: !ruby/object:Word
+    word: dictator
+    stem: dictat
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 2.0
+    docPositions:
+    - 690
+  picks: !ruby/object:Word
+    word: picks
+    stem: pick
+    docFrequency: 2.0
+    docPositions:
+    - 690
+  frank: !ruby/object:Word
+    word: frank
+    stem: frank
+    docFrequency: 2.0
+    docPositions:
+    - 690
+  mike: !ruby/object:Word
+    word: mike
+    stem: mike
+    docFrequency: 2.0
+    docPositions:
+    - 690
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 3.0
+    docPositions:
+    - 701
+    - 738
+  greatest: !ruby/object:Word
+    word: greatest
+    stem: greatest
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  prison: !ruby/object:Word
+    word: prison
+    stem: prison
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  breaks: !ruby/object:Word
+    word: breaks
+    stem: break
+    docFrequency: 2.0
+    docPositions:
+    - 701
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 702
+    - 762
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 3.0
+    docPositions:
+    - 702
+    - 786
+  clever: !ruby/object:Word
+    word: clever
+    stem: clever
+    docFrequency: 2.0
+    docPositions:
+    - 702
+  criminals: !ruby/object:Word
+    word: criminals
+    stem: crimin
+    docFrequency: 2.0
+    docPositions:
+    - 702
+  headlines: !ruby/object:Word
+    word: headlines
+    stem: headlin
+    docFrequency: 2.0
+    docPositions:
+    - 713
+  discover: !ruby/object:Word
+    word: discover
+    stem: discov
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  legendary: !ruby/object:Word
+    word: legendary
+    stem: legendari
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  gladiators: !ruby/object:Word
+    word: gladiators
+    stem: gladiat
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  always: !ruby/object:Word
+    word: always
+    stem: alwai
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  fight: !ruby/object:Word
+    word: fight
+    stem: fight
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  death: !ruby/object:Word
+    word: death
+    stem: death
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 738
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 2.0
+    docPositions:
+    - 750
+  ages: !ruby/object:Word
+    word: ages
+    stem: ag
+    docFrequency: 2.0
+    docPositions:
+    - 750
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  trump: !ruby/object:Word
+    word: trump
+    stem: trump
+    docFrequency: 2.0
+    docPositions:
+    - 773
+  makes: !ruby/object:Word
+    word: makes
+    stem: make
+    docFrequency: 2.0
+    docPositions:
+    - 774
+  tycoon: !ruby/object:Word
+    word: tycoon
+    stem: tycoon
+    docFrequency: 2.0
+    docPositions:
+    - 774
+  tick: !ruby/object:Word
+    word: tick
+    stem: tick
+    docFrequency: 2.0
+    docPositions:
+    - 774
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 2.0
+    docPositions:
+    - 786
+  green: !ruby/object:Word
+    word: green
+    stem: green
+    docFrequency: 2.0
+    docPositions:
+    - 786
+  gold: !ruby/object:Word
+    word: gold
+    stem: gold
+    docFrequency: 2.0
+    docPositions:
+    - 786
+  mona: !ruby/object:Word
+    word: mona
+    stem: mona
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  lisa: !ruby/object:Word
+    word: lisa
+    stem: lisa
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  underneath: !ruby/object:Word
+    word: underneath
+    stem: underneath
+    docFrequency: 2.0
+    docPositions:
+    - 798
+  portrait: !ruby/object:Word
+    word: portrait
+    stem: portrait
+    docFrequency: 2.0
+    docPositions:
+    - 798
+  ultimate: !ruby/object:Word
+    word: ultimate
+    stem: ultim
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  quiz: !ruby/object:Word
+    word: quiz
+    stem: quiz
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  challenge: !ruby/object:Word
+    word: challenge
+    stem: challeng
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  boston: !ruby/object:Word
+    word: boston
+    stem: boston
+    docFrequency: 2.0
+    docPositions:
+    - 838
+  tea: !ruby/object:Word
+    word: tea
+    stem: tea
+    docFrequency: 2.0
+    docPositions:
+    - 838
+  party: !ruby/object:Word
+    word: party
+    stem: parti
+    docFrequency: 2.0
+    docPositions:
+    - 838
+  treaty: !ruby/object:Word
+    word: treaty
+    stem: treati
+    docFrequency: 2.0
+    docPositions:
+    - 840
+  paris: !ruby/object:Word
+    word: paris
+    stem: pari
+    docFrequency: 2.0
+    docPositions:
+    - 840
+  kwanzaa: !ruby/object:Word
+    word: kwanzaa
+    stem: kwanzaa
+    docFrequency: 2.0
+    docPositions:
+    - 842
+  george: !ruby/object:Word
+    word: george
+    stem: georg
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  washington: !ruby/object:Word
+    word: washington
+    stem: washington
+    docFrequency: 2.0
+    docPositions:
+    - 844
+  bill: !ruby/object:Word
+    word: bill
+    stem: bill
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 848
+    - 989
+    - 1018
+  dvds: !ruby/object:Word
+    word: dvds
+    stem: dvd
+    docFrequency: 4.0
+    docPositions:
+    - 870
+    - 946
+    - 947
+  apparel: !ruby/object:Word
+    word: apparel
+    stem: apparel
+    docFrequency: 3.0
+    docPositions:
+    - 870
+    - 883
+  jewelry: !ruby/object:Word
+    word: jewelry
+    stem: jewelri
+    docFrequency: 2.0
+    docPositions:
+    - 870
+  buy: !ruby/object:Word
+    word: buy
+    stem: bui
+    docFrequency: 4.0
+    docPositions:
+    - 871
+    - 884
+    - 897
+  texas: !ruby/object:Word
+    word: texas
+    stem: texa
+    docFrequency: 3.0
+    docPositions:
+    - 882
+    - 883
+  rising: !ruby/object:Word
+    word: rising
+    stem: rise
+    docFrequency: 3.0
+    docPositions:
+    - 882
+    - 883
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 883
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 2.0
+    docPositions:
+    - 883
+  survival: !ruby/object:Word
+    word: survival
+    stem: surviv
+    docFrequency: 2.0
+    docPositions:
+    - 896
+  kit: !ruby/object:Word
+    word: kit
+    stem: kit
+    docFrequency: 2.0
+    docPositions:
+    - 896
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 2.0
+    docPositions:
+    - 918
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 918
+    - 983
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 918
+    - 927
+    - 983
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 921
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 8.0
+    docPositions:
+    - 926
+    - 953
+    - 954
+    - 981
+    - 989
+    - 1014
+    - 1018
+  networks: !ruby/object:Word
+    word: networks
+    stem: network
+    docFrequency: 6.0
+    docPositions:
+    - 926
+    - 953
+    - 981
+    - 989
+    - 1018
+  corp: !ruby/object:Word
+    word: corp
+    stem: corp
+    docFrequency: 2.0
+    docPositions:
+    - 926
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 927
+  corporate: !ruby/object:Word
+    word: corporate
+    stem: corpor
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 928
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 929
+  employment: !ruby/object:Word
+    word: employment
+    stem: employ
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  opportunities: !ruby/object:Word
+    word: opportunities
+    stem: opportun
+    docFrequency: 2.0
+    docPositions:
+    - 930
+  parental: !ruby/object:Word
+    word: parental
+    stem: parent
+    docFrequency: 2.0
+    docPositions:
+    - 931
+  guidelines: !ruby/object:Word
+    word: guidelines
+    stem: guidelin
+    docFrequency: 2.0
+    docPositions:
+    - 931
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 932
+    - 985
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 5.0
+    docPositions:
+    - 932
+    - 934
+    - 984
+    - 985
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 933
+    - 986
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 933
+    - 986
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 3.0
+    docPositions:
+    - 934
+    - 984
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 10.0
+    docPositions:
+    - 935
+    - 987
+    - 1010
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 3.0
+    docPositions:
+    - 935
+    - 987
+  closed: !ruby/object:Word
+    word: closed
+    stem: close
+    docFrequency: 3.0
+    docPositions:
+    - 936
+    - 988
+  captioning: !ruby/object:Word
+    word: captioning
+    stem: caption
+    docFrequency: 3.0
+    docPositions:
+    - 936
+    - 988
+  swamp: !ruby/object:Word
+    word: swamp
+    stem: swamp
+    docFrequency: 2.0
+    docPositions:
+    - 941
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 2.0
+    docPositions:
+    - 941
+  ice: !ruby/object:Word
+    word: ice
+    stem: ic
+    docFrequency: 2.0
+    docPositions:
+    - 945
+  road: !ruby/object:Word
+    word: road
+    stem: road
+    docFrequency: 2.0
+    docPositions:
+    - 945
+  truckers: !ruby/object:Word
+    word: truckers
+    stem: trucker
+    docFrequency: 2.0
+    docPositions:
+    - 945
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 2.0
+    docPositions:
+    - 946
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 947
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 948
+  gifts: !ruby/object:Word
+    word: gifts
+    stem: gift
+    docFrequency: 2.0
+    docPositions:
+    - 949
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 2.0
+    docPositions:
+    - 953
+  lifetime: !ruby/object:Word
+    word: lifetime
+    stem: lifetim
+    docFrequency: 2.0
+    docPositions:
+    - 955
+  lmn: !ruby/object:Word
+    word: lmn
+    stem: lmn
+    docFrequency: 2.0
+    docPositions:
+    - 957
+  fyi: !ruby/object:Word
+    word: fyi
+    stem: fyi
+    docFrequency: 2.0
+    docPositions:
+    - 958
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 961
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 2.0
+    docPositions:
+    - 962
+  espa: !ruby/object:Word
+    word: espa
+    stem: espa
+    docFrequency: 2.0
+    docPositions:
+    - 962
+  ol: !ruby/object:Word
+    word: ol
+    stem: ol
+    docFrequency: 2.0
+    docPositions:
+    - 962
+  asterisk: !ruby/object:Word
+    word: asterisk
+    stem: asterisk
+    docFrequency: 2.0
+    docPositions:
+    - 963
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 2.0
+    docPositions:
+    - 966
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 967
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 967
+  biography: !ruby/object:Word
+    word: biography
+    stem: biographi
+    docFrequency: 2.0
+    docPositions:
+    - 968
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 2.0
+    docPositions:
+    - 969
+  lifetimemoms: !ruby/object:Word
+    word: lifetimemoms
+    stem: lifetimemom
+    docFrequency: 2.0
+    docPositions:
+    - 970
+  television: !ruby/object:Word
+    word: television
+    stem: televis
+    docFrequency: 3.0
+    docPositions:
+    - 989
+    - 1018
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 989
+    - 1018
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 989
+    - 1018
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 27.0
+    docPositions:
+    - 1010
+    - 1014
+  common: !ruby/object:Word
+    word: common
+    stem: common
+    docFrequency: 26.0
+    docPositions:
+    - 1010
+    - 1014
+  aetn: !ruby/object:Word
+    word: aetn
+    stem: aetn
+    docFrequency: 7.0
+    docPositions:
+    - 1010
+  adobepass: !ruby/object:Word
+    word: adobepass
+    stem: adobepass
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 38.0
+    docPositions:
+    - 1010
+    - 1014
+  init: !ruby/object:Word
+    word: init
+    stem: init
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+  button: !ruby/object:Word
+    word: button
+    stem: button
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+  socialbutton: !ruby/object:Word
+    word: socialbutton
+    stem: socialbutton
+    docFrequency: 9.0
+    docPositions:
+    - 1010
+  sb: !ruby/object:Word
+    word: sb
+    stem: sb
+    docFrequency: 9.0
+    docPositions:
+    - 1010
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+  globalnav: !ruby/object:Word
+    word: globalnav
+    stem: globalnav
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+  shareurl: !ruby/object:Word
+    word: shareurl
+    stem: shareurl
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  historyview: !ruby/object:Word
+    word: historyview
+    stem: historyview
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  icon: !ruby/object:Word
+    word: icon
+    stem: icon
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  intent: !ruby/object:Word
+    word: intent
+    stem: intent
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  elementtype: !ruby/object:Word
+    word: elementtype
+    stem: elementtyp
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  popup: !ruby/object:Word
+    word: popup
+    stem: popup
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  blank: !ruby/object:Word
+    word: blank
+    stem: blank
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  historychannel: !ruby/object:Word
+    word: historychannel
+    stem: historychannel
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  googleplus: !ruby/object:Word
+    word: googleplus
+    stem: googleplu
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  plus: !ruby/object:Word
+    word: plus
+    stem: plu
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  posts: !ruby/object:Word
+    word: posts
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  googlesearch: !ruby/object:Word
+    word: googlesearch
+    stem: googlesearch
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  gs: !ruby/object:Word
+    word: gs
+    stem: gs
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  ui: !ruby/object:Word
+    word: ui
+    stem: ui
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  sidenav: !ruby/object:Word
+    word: sidenav
+    stem: sidenav
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  sn: !ruby/object:Word
+    word: sn
+    stem: sn
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+    - 1012
+    - 1013
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 6.0
+    docPositions:
+    - 1010
+  ads: !ruby/object:Word
+    word: ads
+    stem: ad
+    docFrequency: 12.0
+    docPositions:
+    - 1010
+    - 1014
+  googletag: !ruby/object:Word
+    word: googletag
+    stem: googletag
+    docFrequency: 43.0
+    docPositions:
+    - 1010
+    - 1014
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 36.0
+    docPositions:
+    - 1010
+    - 1011
+    - 1012
+    - 1013
+    - 1014
+  _aetnnewads: !ruby/object:Word
+    word: _aetnnewads
+    stem: _aetnnewad
+    docFrequency: 6.0
+    docPositions:
+    - 1010
+    - 1014
+  cmd: !ruby/object:Word
+    word: cmd
+    stem: cmd
+    docFrequency: 11.0
+    docPositions:
+    - 1010
+    - 1014
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 14.0
+    docPositions:
+    - 1010
+    - 1014
+  defineslot: !ruby/object:Word
+    word: defineslot
+    stem: defineslot
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  hist: !ruby/object:Word
+    word: hist
+    stem: hist
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+  historyhome: !ruby/object:Word
+    word: historyhome
+    stem: historyhom
+    docFrequency: 6.0
+    docPositions:
+    - 1010
+    - 1014
+  addservice: !ruby/object:Word
+    word: addservice
+    stem: addservic
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  pubads: !ruby/object:Word
+    word: pubads
+    stem: pubad
+    docFrequency: 7.0
+    docPositions:
+    - 1010
+    - 1014
+  settargeting: !ruby/object:Word
+    word: settargeting
+    stem: settarget
+    docFrequency: 6.0
+    docPositions:
+    - 1010
+    - 1014
+  pos: !ruby/object:Word
+    word: pos
+    stem: po
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  setcollapseemptydiv: !ruby/object:Word
+    word: setcollapseemptydiv
+    stem: setcollapseemptydiv
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  carousel: !ruby/object:Word
+    word: carousel
+    stem: carousel
+    docFrequency: 11.0
+    docPositions:
+    - 1010
+  hero: !ruby/object:Word
+    word: hero
+    stem: hero
+    docFrequency: 4.0
+    docPositions:
+    - 1010
+  touchcarousel: !ruby/object:Word
+    word: touchcarousel
+    stem: touchcarousel
+    docFrequency: 9.0
+    docPositions:
+    - 1010
+  _wrapper: !ruby/object:Word
+    word: _wrapper
+    stem: _wrapper
+    docFrequency: 6.0
+    docPositions:
+    - 1010
+  implementcarousel: !ruby/object:Word
+    word: implementcarousel
+    stem: implementcarousel
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  nextcallback: !ruby/object:Word
+    word: nextcallback
+    stem: nextcallback
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  proxy: !ruby/object:Word
+    word: proxy
+    stem: proxi
+    docFrequency: 3.0
+    docPositions:
+    - 1010
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  prevcallback: !ruby/object:Word
+    word: prevcallback
+    stem: prevcallback
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  prev: !ruby/object:Word
+    word: prev
+    stem: prev
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  ad_id: !ruby/object:Word
+    word: ad_id
+    stem: ad_id
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  _aetnoutofviewads: !ruby/object:Word
+    word: _aetnoutofviewads
+    stem: _aetnoutofviewad
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  thumb: !ruby/object:Word
+    word: thumb
+    stem: thumb
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  box: !ruby/object:Word
+    word: box
+    stem: box
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  popover: !ruby/object:Word
+    word: popover
+    stem: popov
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  trigger: !ruby/object:Word
+    word: trigger
+    stem: trigger
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  hover: !ruby/object:Word
+    word: hover
+    stem: hover
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  delay: !ruby/object:Word
+    word: delay
+    stem: delai
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  container: !ruby/object:Word
+    word: container
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  parents: !ruby/object:Word
+    word: parents
+    stem: parent
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  slider: !ruby/object:Word
+    word: slider
+    stem: slider
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  utag_data: !ruby/object:Word
+    word: utag_data
+    stem: utag_data
+    docFrequency: 5.0
+    docPositions:
+    - 1010
+    - 1011
+    - 1012
+    - 1013
+  brand_prefix: !ruby/object:Word
+    word: brand_prefix
+    stem: brand_prefix
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  tv_vs_non_tv: !ruby/object:Word
+    word: tv_vs_non_tv
+    stem: tv_vs_non_tv
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  show_genre: !ruby/object:Word
+    word: show_genre
+    stem: show_genr
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 7.0
+    docPositions:
+    - 1010
+  show_name: !ruby/object:Word
+    word: show_name
+    stem: show_nam
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  movie_name: !ruby/object:Word
+    word: movie_name
+    stem: movie_nam
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  product_type: !ruby/object:Word
+    word: product_type
+    stem: product_typ
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  homepage: !ruby/object:Word
+    word: homepage
+    stem: homepag
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  page_number: !ruby/object:Word
+    word: page_number
+    stem: page_numb
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  page_url: !ruby/object:Word
+    word: page_url
+    stem: page_url
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  page_domain: !ruby/object:Word
+    word: page_domain
+    stem: page_domain
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  game_name: !ruby/object:Word
+    word: game_name
+    stem: game_nam
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  game_type: !ruby/object:Word
+    word: game_type
+    stem: game_typ
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  network_type: !ruby/object:Word
+    word: network_type
+    stem: network_typ
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  page_title: !ruby/object:Word
+    word: page_title
+    stem: page_titl
+    docFrequency: 2.0
+    docPositions:
+    - 1011
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 1011
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 2.0
+    docPositions:
+    - 1011
+  is_tve_authenticated: !ruby/object:Word
+    word: is_tve_authenticated
+    stem: is_tve_authent
+    docFrequency: 2.0
+    docPositions:
+    - 1012
+  cookie: !ruby/object:Word
+    word: cookie
+    stem: cooki
+    docFrequency: 4.0
+    docPositions:
+    - 1012
+    - 1013
+  tveprovider: !ruby/object:Word
+    word: tveprovider
+    stem: tveprovid
+    docFrequency: 4.0
+    docPositions:
+    - 1012
+    - 1013
+  tve_provider_name: !ruby/object:Word
+    word: tve_provider_name
+    stem: tve_provider_nam
+    docFrequency: 2.0
+    docPositions:
+    - 1013
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  tealium: !ruby/object:Word
+    word: tealium
+    stem: tealium
+    docFrequency: 4.0
+    docPositions:
+    - 1014
+  prod: !ruby/object:Word
+    word: prod
+    stem: prod
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  historyredirect: !ruby/object:Word
+    word: historyredirect
+    stem: historyredirect
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  georedirect: !ruby/object:Word
+    word: georedirect
+    stem: georedirect
+    docFrequency: 3.0
+    docPositions:
+    - 1014
+  pid: !ruby/object:Word
+    word: pid
+    stem: pid
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 4.0
+    docPositions:
+    - 1014
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  amznads: !ruby/object:Word
+    word: amznads
+    stem: amznad
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  settargetingforgptasync: !ruby/object:Word
+    word: settargetingforgptasync
+    stem: settargetingforgptasync
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  amznslots: !ruby/object:Word
+    word: amznslots
+    stem: amznslot
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  refresh: !ruby/object:Word
+    word: refresh
+    stem: refresh
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  _aetnads: !ruby/object:Word
+    word: _aetnads
+    stem: _aetnad
+    docFrequency: 3.0
+    docPositions:
+    - 1014
+  concat: !ruby/object:Word
+    word: concat
+    stem: concat
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  _displayinview: !ruby/object:Word
+    word: _displayinview
+    stem: _displayinview
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+lineCount: 1019
+wordCount: 1354
+rank: 0.26111111111111107
+title: History.com — American & World History
+links:
+- http://www.history.com/shows
+- http://www.history.com/videos
+- http://www.history.com/schedule
+- http://www.history.com/topics
+- http://www.history.com/games
+- http://www.shophistorystore.com/?utm_source=history&utm_medium=globalshoptab&utm_campaign=history
+- http://www.history.com/this-day-in-history
+- http://www.history.com/news
+- http://www.history.com/ask-history
+- http://www.history.com/history-lists
+- http://www.history.com/hungry-history
+- http://www.history.com/speeches
+- http://www.facebook.com/history
+- https://twitter.com/intent/user?screen_name=history
+- http://instagram.com/historyofficial
+- https://plus.google.com/+HISTORY/posts
+- https://foursquare.com/historychannel
+- http://www.youtube.com/subscription_center?add_user=historychannel
+- http://www.history.com/emails
+- http://www.history.com/emails
+- http://www.facebook.com/sharer/sharer.php?u=http://www.history.com
+- https://twitter.com/intent/user?screen_name=history
+- http://instagram.com/history
+- https://plus.google.com/+HISTORY/posts
+- https://foursquare.com/historychannel
+- http://www.youtube.com/subscription_center?add_user=historychannel
+- http://www.history.com/full-access
+- 'http://www.history.com '
+- http://www.history.com/shows
+- http://www.history.com/videos
+- http://www.history.com/schedule
+- http://www.history.com/topics
+- http://www.history.com/games
+- http://www.shophistorystore.com/?utm_source=history&utm_medium=globalshoptab&utm_campaign=history
+- http://www.shophistorystore.com/?utm_source=history&utm_medium=shopdrop&utm_campaign=historystore
+- http://www.vikingstvstore.com/?utm_source=history&utm_medium=shopdrop&utm_campaign=vikings%20store
+- http://www.shopancientaliens.com/?utm_source=history&utm_medium=shopdrop&utm_campaign=ancientaliens
+- http://www.shophistorystore.com/shows/american-pickers/?utm_source=history&utm_medium=shopdrop&utm_campaign=americanpickers
+- http://www.shophistorystore.com/shows/pawn-stars/?utm_source=history&utm_medium=shopdrop&utm_campaign=pawnstars
+- http://www.history.com/this-day-in-history
+- http://www.history.com/news
+- http://www.history.com/ask-history
+- http://www.history.com/history-lists
+- http://www.history.com/hungry-history
+- http://www.history.com/speeches
+- 'http://www.history.com '
+- http://www.history.com/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/videos
+- http://www.history.com/videos
+- http://www.history.com/topics/holidays/hanukkah/videos/history-of-hanukkah
+- http://www.history.com/topics/holidays/hanukkah/videos/history-of-hanukkah
+- http://www.history.com/topics/holidays/hanukkah/videos/history-of-hanukkah
+- http://www.history.com/topics/holidays/hanukkah/videos/history-of-hanukkah
+- http://www.history.com/topics/holidays/hanukkah/videos/history-of-hanukkah
+- http://www.history.com/topics/holidays/hanukkah/videos/hanukkah-foods-latkes
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news
+- http://www.history.com/shows/hunting-hitler/videos
+- http://www.history.com/shows/american-pickers/videos
+- http://www.history.com/shows/americas-greatest-prison-breaks/videos
+- http://www.history.com/news/legendary-billion-dollar-shipwreck-found-off-colombian-coast
+- http://www.history.com/news/ask-history/did-gladiators-always-fight-to-the-death
+- http://www.history.com/shows/pawn-stars/videos
+- http://www.history.com/shows/christmas-through-the-decades/videos
+- http://www.history.com/news/history-lists/8-tales-of-pearl-harbor-heroics
+- http://www.history.com/shows/the-making-of-trump/videos
+- http://www.history.com/shows/ax-men/videos
+- http://www.history.com/news/scientist-finds-hidden-portraits-underneath-mona-lisa
+- http://quiz.history.com/generalinterest
+- http://www.history.com/topics/american-revolution/boston-tea-party
+- http://www.history.com/topics/american-revolution/treaty-of-paris
+- http://www.history.com/topics/holidays/kwanzaa-history
+- http://www.history.com/topics/us-presidents/george-washington
+- http://www.history.com/topics/christmas/history-of-christmas
+- http://www.history.com/topics/bill-of-rights
+- http://www.vikingstvstore.com/?utm_source=history&utm_medium=homepage%20product%20pod&utm_campaign=vikings%20store
+- http://www.vikingstvstore.com/?utm_source=history&utm_medium=homepage%20product%20pod&utm_campaign=vikings%20store
+- http://www.shoptexasrising.com/?utm_source=history&utm_medium=homepageproductpod&utm_campaign=texasrising
+- http://www.shoptexasrising.com/?utm_source=history&utm_medium=homepageproductpod&utm_campaign=texasrising
+- http://www.shophistorystore.com/alone-1-person-deluxe-survival-kit/details/117527234?utm_source=history&utm_medium=homepageproductpod&utm_campaign=alonesurvivalkit
+- http://www.shophistorystore.com/alone-1-person-deluxe-survival-kit/details/117527234?utm_source=history&utm_medium=homepageproductpod&utm_campaign=alonesurvivalkit
+- http://shop.history.com/
+- http://www.aenetworks.com/advertise
+- http://www.aenetworks.com/
+- http://www.historychannel.tv/
+- http://www.aenetworks.com/careers
+- http://www.aenetworks.com/guidelines
+- http://www.aenetworks.com/privacy
+- http://www.aenetworks.com/terms
+- http://www.aenetworks.com/copyright
+- http://www.aenetworks.com/adchoices
+- http://www.aenetworks.com/closed-caption-support
+- http://shop.history.com/swamp-people/index.php?v=history_show_swamp-people
+- http://shop.history.com/pawn-stars/index.php?v=history_show_pawn-stars
+- http://shop.history.com/ax-men/index.php?v=history_show_ax-men
+- http://shop.history.com/american-pickers/index.php?v=history_show_american-pickers
+- http://shop.history.com/ice-road-truckers/index.php?v=history_show_ice-road-truckers
+- http://shop.history.com/dvds-books/index.php?v=history_dvds-and-books&fbst=80
+- http://shop.history.com/war-warfare/index.php?v=history_subject_war-and-warfare
+- http://shop.history.com/books/index.php?v=history_dvds-and-books_books
+- http://shop.history.com/gift-guide/index.php?v=history_gift-guide
+- http://www.aetv.com/
+- http://www.mylifetime.com/
+- http://www.mylifetime.com/movies/lifetime-movie-network
+- http://www.fyi.tv/
+- http://www.historyenespanol.com/espanol/
+- http://www.theasterisktoday.com/
+- http://shop.history.com/
+- http://military.history.com/
+- http://www.planethistory.com/
+- http://www.biography.com/
+- http://www.crimeandinvestigationnetwork.com/
+- http://www.lifetimemoms.com/
+- http://www.aenetworks.com/
+- http://www.aenetworks.com/contact
+- http://www.aenetworks.com/copyright
+- http://www.aenetworks.com/privacy
+- http://www.aenetworks.com/terms
+- http://www.aenetworks.com/adchoices
+- http://www.aenetworks.com/closed-caption-support
+- https://play.google.com/store/apps/details?id=com.aetn.history.watch&referrer=utm_source%3DInternal%26utm_medium%3DInterstitial%26utm_campaign%3DCNP_MobileInterstitial
+rawText: "\r\n\r\n\r\n  \r\n  \n\n    Close\n    \n        \n        \n      \n      \n
+  \       Shows\n      \n      Videos\n      Schedule\n      Topics\n      Games\n
+  \     Shop\n    This day in history\n      News\n      Ask History\n      History
+  Lists\n      \n        Hungry History\n        Speeches & Audio\n      \n    Facebook\n
+  \     Twitter\n      Instagram\n      Google\n      Foursquare\n      Youtube\n
+  \     Email\n      Get Email Updates Email\n    \n\r\n  \r\n  \n  \n     Follow
+  HIstory\n      Facebook\n      Twitter\n      Instagram\n      Google\n      Foursquare\n
+  \     Youtube\n   \n      Email\n    \n      \n          Watch Live\n        \n
+  \     \n\n    \n    \n      \n        ×\n        Want FULL ACCESS?\n        Watch
+  more HISTORY® videos by signing in with your TV provider. \n      \n      \n      \n
+  \       Featured TV Providers\n          See More TV Providers\n        \n          \n
+  \           \n          \n          \n            \n            \n              \n
+  \           \n          \n        \n        \n      \n      \n        Don't see
+  your TV provider? Check back soon or see our FAQs here.\n      \n    \n    \n\n
+  \ \n\n\n\n  \n  \n  \n    \n      History\n    \n    \n     \n     \n      Advertisement\n
+  \     \n     \n      \n      \n          \n              \n              \n            \n
+  \           \n              Shows\n            \n            Videos\n            Schedule\n
+  \           Topics\n            Games\n            \n              Shop\n              \n
+  \             \n                Promotions\n                History Store\n                  \n
+  \                   Vikings Store\n                  \n                    Ancient
+  Aliens Store\n                  \n                    American Pickers Store\n                  \n
+  \                   Pawn Stars Store\n                  \n                \n            \n
+  \         This day in history\n            News\n            Ask History\n            History
+  Lists\n            \n              Hungry History\n              Speeches & Audio\n
+  \           \n          \n      \n        OPEN\n        History\n        \n      \n
+  \   \n  \n\n\n\n\n  \n    \n      \n    \n    \n  \n\n\n\n\n\n   \n    ×\n  \n   \n\n
+  \ \r\n    \n  December 14, 2015\n  \n      \n      \n        \n              \n
+  \               \n              \n                  NEW EPISODES TUESDAYS AT 9/8C\n
+  \                 The Curse of Oak Island\n              \n        \n        \n
+  \           \n                \n                  NEW EPISODES TUESDAYS AT 9/8C\n
+  \                 The Curse of Oak Island\n                \n                What
+  will they find? Watch the latest episode now.\n                \n                  »More\n
+  \               \n                \n                Watch more shows and videos\r\n
+  \n        \n      \n      \n      \n        \n              \n                \n
+  \             \n                  NEW EPISODES WEDNESDAYS AT 10/9C\n                  Christmas
+  Through the Decades\n              \n        \n        \n            \n                \n
+  \                 NEW EPISODES WEDNESDAYS AT 10/9C\n                  Christmas
+  Through the Decades\n                \n                Watch full episodes now.\n
+  \               \n                  »More\n                \n                \n
+  \               Watch more shows and videos\r\n \n        \n      \n      \n      \n
+  \       \n              \n                \n              \n                  NEW
+  EPISODES SUNDAYS AT 9/8C\n                  Ax Men\n              \n        \n        \n
+  \           \n                \n                  NEW EPISODES SUNDAYS AT 9/8C\n
+  \                 Ax Men\n                \n                Cut into all-new episodes
+  now.\n                \n                  »More\n                \n                \n
+  \                \r\nWatch more shows and videos\r\n \n        \n      \n      \n
+  \     \n        \n              \n                \n              \n                  VIDEO\n
+  \                 Origins of Hanukkah\n              \n        \n        \n            \n
+  \               \n                  VIDEO\n                  Origins of Hanukkah\n
+  \               \n                Get the story behind the eight-day Festival of
+  Lights.\n                \n                  »More\n                \n                \n
+  \               Hanukkah Foods: Latkes - Video\r\n \n        \n      \n      \n
+  \     \n        \n              \n                \n              \n                  NEWS\n
+  \                 Billion-Dollar Shipwreck Found\n              \n        \n        \n
+  \           \n                \n                  NEWS\n                  Billion-Dollar
+  Shipwreck Found\n                \n                The recently-discovered wreck
+  might be the richest in the world.\n                \n                  »More\n
+  \               \n                \n                Get more HISTORY news\r\n \n
+  \       \n      \n      \n  \n\n  \n      \n      \n      \n      \n      \n      \n
+  \     \n      \n      \n      \n      \n  \n  \n    \n  \n      ‹\n      ›  \n    \n
+  \ \n\n      \n        \n\r\n\r\n\r\n  \r\n  \r\n  \r\n  \r\n   \r\n  \r\n    \r\n
+  \   \r\n    \r\n\r\n              \n\tPopular Shows\n    \n             \n        \n
+  \       \n\n  \t\t\n\t\t  New Episodes  Tuesdays at 9/8c \n\t\t\n\t\t  New Episodes
+  \ Wednesdays at 10/9c \n\t\t\n\t\t  New Episodes  Sundays at 9/8c \n\t\t\n\t\t\n\t\t\n\n\t\t\n\t\t
+  \ New Episodes  Thursdays at 9/8c   \n\t\t\n\t\t  New Episodes   Tuesdays at 10/9c
+  \  \n\t\t\n\t\n\n\t \n\n  Full Episodes\n  \n    \n      \n              \n                \n
+  \                 \n                    \n                  Play video\n                \n
+  \               \n                  Hunting Hitler: Ratlines\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  The Curse of Oak Island:
+  Disappearing Act\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  HISTORY
+  Specials: Tech Effect: Pearl Harbor\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  HISTORY
+  Specials: Unsung Heroes Of Pearl Harbor\n                  \n                \n
+  \                               \n            \n              \n                \n
+  \                 \n                    \n                  Play video\n                \n
+  \               \n                  HISTORY Specials: USS Arizona\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  HISTORY Specials: Tora,
+  Tora, Tora: The Real Story Of Pearl Harbor\n                  \n                \n
+  \                               \n            \n              \n                \n
+  \                 \n                    \n                  Play video\n                \n
+  \               \n                  Hunting Hitler: The Tunnel\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  The Curse of Oak Island:
+  The Overton Stone\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Christmas
+  Through the Decades: Christmas Through the Decades: The 60s\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  Hunting Hitler: Escape
+  From Berlin\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  HISTORY
+  Specials: Dead or Alive: Stranded in the Alaskan Wilderness\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  Alone: Winds of Hell\n
+  \                 \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Alone: Stalked\n                  \n
+  \               \n                                \n            \n              \n
+  \               \n                  \n                    \n                  Play
+  video\n                \n                \n                  Alone: The Talons of
+  Fear\n                  \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Alone: Of Wolf and
+  Man\n                  \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Alone: And So It Begins\n
+  \                 \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Ax Men: Axpocalypse\n
+  \                 \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Ax Men: All Hands on
+  Deck\n                  \n                \n                                \n            \n
+  \             \n                \n                  \n                    \n                  Play
+  video\n                \n                \n                  Ax Men: Great Logs
+  of Fire\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Ax
+  Men: Rock Bottom\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Ax
+  Men: Fall of a Legend\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Ax
+  Men: Cuts Like a Knife\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Ax
+  Men: Log Runners\n                  \n                \n                                \n
+  \           \n              \n                \n                  \n                    \n
+  \                 Play video\n                \n                \n                  Ax
+  Men: Jet Logged\n                  \n                \n                                \n
+  \           \n      \n    ‹\n    ›\n                  \n      \n      \n                  \n
+  \                 \n  \n \n\n          \n  NEWS & FEATURES\n                      \n
+  \   \n              \n                \n\n                                          \n
+  \                     \n                      \n                                            \n
+  \                     \n                          Hunting Hitler\n                        Follow
+  the demise of the infamous dictator\n                        \n                      \n
+  \                                     \n                  \n\n                                          \n
+  \                     \n                      \n                                            \n
+  \                     \n                          American Pickers\n                        Go
+  through picks with Frank and Mike\n                        \n                      \n
+  \                                     \n                  \n\n                                          \n
+  \                     \n                      \n                                            \n
+  \                     \n                          America's Greatest Prison Breaks\n
+  \                       Get the stories of these clever criminals\n                        \n
+  \                     \n                                      \n                  \n\n
+  \                                         \n                      \n                      \n
+  \                                           \n                      \n                          History
+  in the Headlines\n                        Discover a legendary billion-dollar shipwreck\n
+  \                       \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Ask History\n                        Did Gladiators always
+  fight to the death?\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Pawn Stars\n                        Check out what's new
+  at the shop\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Christmas Through the Decades\n                        Experience
+  Christmas through the ages\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         History Lists\n                        Get the stories
+  of 8 Pearl Harbor heroes\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         The Making of Trump\n                        Watch what
+  makes the tycoon tick\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Ax Men\n                        Cut down green gold with
+  these men\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Mona Lisa\n                        See what was found
+  underneath the portrait\n                        \n                      \n                                      \n
+  \                 \n\n                                          \n                      \n
+  \                     \n                                            \n                      \n
+  \                         Ultimate History Quiz\n                        Challenge
+  your friends\n                        \n                      \n                                      \n
+  \                 \n\n                \n\n              ‹\n              ›\n              \n
+  \               \n                \n                   \n                           \n
+  \           \n          \n                  \n\r\n   \r\n      \r\n  \r\n  \n\n
+  \     \n            \n        Popular Topics:\n          \n          Boston Tea
+  Party\n          \n          Treaty of Paris\n          \n          Kwanzaa\n          \n
+  \         George Washington\n          \n          History of Christmas\n          \n
+  \         Bill of Rights\n          \n          \n        \n      \n    \n\n\n   \n
+  \ \t\n    \n    \n    \t\t\n\t\t\t\tShop History\n\t\t\t\n      \n\t\t\t\n\t\t\t
+  \              \n              \n              \n              \n              \tVikings\n
+  \               Shop the Vikings Store for DVDs, apparel, jewelry and more.\n                Buy
+  Now\n              \n              \n            \t\t\t\t\n      \n      \n\t\t\t\n\t\t\t
+  \              \n              \n              \n              \n              \tTexas
+  Rising\n                Shop the Texas Rising Store for the book, apparel and much
+  more.\n                Buy Now\n              \n              \n            \t\t\t\t\n
+  \     \n      \n\t\t\t\n\t\t\t               \n              \n              \n
+  \             \n              \tAlone\n                Alone in the wilderness?
+  Get your survival kit at the History Store.\n                Buy Now\n              \n
+  \             \n            \t\t\t\t\n      \n      \n\t\t\n\t\t\t\t\n\t\r\n \r\n
+  \ \r\n  \r\n\r\n  \r\n\r\n\r\n \n\n    \n    \n      HISTORY.com\n      FAQ/Contact
+  Us\n        Shop HISTORY\n        Email Updates\n        Mobile\n      \n      \n
+  \   \n    \n      A+E Networks Corp.\n      Advertise With Us\n        Corporate
+  Information\n        Around the World\n        Employment Opportunities\n        TV
+  Parental Guidelines      \n        Privacy Policy\n        Terms of Use\n        Copyright
+  Policy\n        Ad Choices\n        Closed Captioning\n      \n    \n    \n      Shop
+  Our Store\n      Swamp People\n        Pawn Stars\n        Ax Men\n        American
+  Pickers\n        Ice Road Truckers\n        History Channel DVDs\n        War DVDs\n
+  \       History Books\n        History Gifts\n      \n    \n    \n      A+E Networks
+  Digital\n      A&E\n        lifetime\n        History\n        lmn\n        FYI\n
+  \       H2\n      \n        HISTORY Education\n          HISTORY en Español\n          Asterisk\n
+  \         \n        HISTORY Shop\n          MILITARY HISTORY\n        Planet H\n
+  \         Biography\n        Crime and Investigation\n          LifetimeMoms\n        \n
+  \   \n\n    \n    \n   \n    \n    \n  \n      \n        A+E Networks\n      \n
+  \     Contact Us\n          Copyright Policy\n          Privacy Policy\n          Terms
+  of Use\n          Ad Choices\n          Closed Captioning\n      © 2015, A&E Television
+  Networks, LLC. All Rights Reserved.\n      \n    \n\n  \n    \n      \n    \n            \n\n\n\r\n\r\n
+  \ \r\n  \r\n\r\n\r\n\r\n\r\n\r\n\r\n    require( ['common/video/aetn.video.adobePass'],
+  function(adobePass) {                           aetn.video.adobePass.init( {} );
+  \                      });require( ['common/social/button'], function(socialbutton)
+  {                      var sb = new socialbutton();                      sb.create('globalnav-facebook',
+  {type: 'facebook-like', shareUrl:'http://www.facebook.com/history'});                    });require(
+  ['common/video/aetn.video.historyview'], function(historyview) {                       });require(
+  ['common/social/button'], function(socialbutton)  {            var sb = new socialbutton();
+  sb.create('icon-twitter-2', {type: 'twitter-follow-intent', elementType: 'class'});
+  \               });require( ['common/social/button'], function(socialbutton)  {
+  \           var sb = new socialbutton(); sb.create('icon-foursquare-2', {type: 'popup-blank',shareUrl:'https://foursquare.com/historychannel',elementType:
+  'class'});                });require( ['common/social/button'], function(socialbutton)
+  \ {            var sb = new socialbutton(); sb.create('icon-googleplus-2', {type:
+  'popup-blank',shareUrl:'https://plus.google.com/+HISTORY/posts',elementType: 'class'});
+  \               });require( ['common/search/googlesearch'], function(gs)  {            gs();
+  \               });require( ['common/ui/sidenav'], function(sn)  {            sn(null,
+  true);          });require(['common/ads/googletag'], function() {                       window.googletag._aetnnewads
+  = [];                     });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[728,90]],
+  'ad_85' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);window.googletag._aetnnewads.push(
+  ad ); }); });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[970,66],[970,250]],
+  'ad_641' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);window.googletag._aetnnewads.push(
+  ad ); }); });require( ['common/carousel/hero'], function(hero) {                         hero('524f0e4365d4f_carousel');
+  \                    });                     require(['common/carousel/touchcarousel'],
+  function (touchcarousel) {                       var _wrapper = $('#524f0e4365d4f_carousel');
+  \                      var carousel = new touchcarousel('524f0e4365d4f_carousel',
+  {                         implementCarousel: false                       , nextCallback:
+  $.proxy(_wrapper.carousel, _wrapper, 'next')                       , prevCallback:
+  $.proxy(_wrapper.carousel, _wrapper, 'prev')                       });                       carousel.init();
+  \                    });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {var ad = window.googletag.defineSlot( '/5936/aetn.hist.home/historyhome', [[300,250]],
+  'ad_973' ).addService( window.googletag.pubads() ).setTargeting( 'pos', 'top' ).setCollapseEmptyDiv(true);ad.ad_id='#ad_973';window.googletag._aetnoutofviewads.push(
+  ad ); }); });require( ['jquery', 'common/carousel/touchcarousel'], function($) {
+  \                $('#524f1163e6d3a_carousel').touchcarousel();               });require(
+  ['jquery'], function($) {                 $('.thumb-box').each( function() {                   $(this).popover({
+  \                    trigger: 'hover',                     delay: 800,                     html:
+  true,                     container: $(this).parents('.slider')                   })
+  \               });               });require(['common/carousel/touchcarousel'],
+  function (touchcarousel) {                       var carousel = new touchcarousel('524f10bcc3e09_carousel');
+  \                      carousel.init();                     });window.utag_data
+  = {\"brand_prefix\":\"HIS\",\"page_level_1\":\"Home\",\"page_level_2\":\"\",\"page_level_3\":\"\",\"page_level_4\":\"\",\"page_level_5\":\"\",\"tv_vs_non_tv\":\"Non-TV\",\"show_genre\":\"None\",\"show_name\":\"None\",\"movie_name\":\"None\",\"product_type\":\"HomePage\",\"page_number\":\"None\",\"page_url\":\"www.history.com/\",\"page_domain\":\"www.history.com\",\"game_name\":\"None\",\"game_type\":\"None\",\"network_type\":\"history\"};\nwindow.utag_data.page_title
+  = document.title;\nwindow.utag_data.is_tve_authenticated =  $.cookie( \"tveProvider\"
+  ) === null ? \"0\" : \"1\";\nwindow.utag_data.tve_provider_name = $.cookie( \"tveProvider\"
+  ) === null ? \"0\" : $.cookie( \"tveProvider\" );\nrequire( [\"common/analytics/tealium\"],
+  function(tealium) {                      tealium(\"history\", \"prod\");                    });require(
+  ['common/international/historyredirect'], function(georedirect) {                        georedirect();
+  \                     });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {window.googletag.pubads().setTargeting( 's1', 'historyhome' );window.googletag.pubads().setTargeting(
+  'pid', 'historyhome' ); }); });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {           window.googletag.display('ad_85');         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {           window.googletag.display('ad_641');
+  \        });       });require(['common/ads/googletag'], function() {           window.googletag.cmd.push(function()
+  {           window.googletag.display('ad_973');         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {           try { amznads.setTargetingForGPTAsync('amznslots');
+  } catch(e) { }         });       });require(['common/ads/googletag'], function()
+  {           window.googletag.cmd.push(function() {           window.googletag.pubads().refresh(
+  window.googletag._aetnnewads );           window.googletag._aetnads = window.googletag._aetnads.concat(
+  window.googletag._aetnnewads );         });       });require(['common/ads/googletag'],
+  function() {           window.googletag.cmd.push(function() {             window.googletag._displayInView();
+  \          });       });\r\n\r\n    \r\n \r\nWhat will they find? Watch the latest
+  episode now.Watch full episodes now.Cut into all-new episodes now.Get the story
+  behind the eight-day Festival of Lights.The recently-discovered wreck might be the
+  richest in the world.© 2015, A&E Television Networks, LLC. All Rights Reserved."

@@ -1,0 +1,4045 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://web.archive.org/web/20120620155719/http://www.govcomm.harris.com/solutions/products/census/maf-tiger.asp
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://www.govcomm.harris.com/solutions/products/census/maf-tiger.asp";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "20";
+- |
+  var displayMonth = "Jun";
+- |
+  var displayYear = "2012";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    May\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tJUN\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    NOV\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                       \n"
+- |2
+                 20
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2011
+- "               \n"
+- "               \n"
+- |2
+                 2012
+- "\t       \n"
+- "               \n"
+- "\t           2013\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             12 captures
+- |2
+             20 Jun 12 - 8 Sep 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();\r\n"
+- "\t\r\n"
+- "\t\tHarris Home|\r\n"
+- "\t\t\tContact Us| \r\n"
+- "\t\t\tAbout Harris|\r\n"
+- "\t\t\tCareers| \r\n"
+- "\t\t\tInvestors\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tHome\r\n"
+- "About UsCommitment to Excellence\r\n"
+- "Leadership\r\n"
+- "Senior Executive Account Managers\r\n"
+- "Industry Certifications\r\n"
+- "Capabilities\r\n"
+- "Harris Corporate Overview Video\r\n"
+- "\r\n"
+- "SolutionsSearch By Keyword\r\n"
+- "Download Product Documentation\r\n"
+- "Custom Solutions\r\n"
+- "IDIQs / GSA Schedules\r\n"
+- "Information Request\r\n"
+- "Alphabetical Index\r\n"
+- "\r\n"
+- "TechnologiesFacilities\r\n"
+- "Demos\r\n"
+- "\r\n"
+- "Supplier PartnershipStandards of Business Conduct (pdf)\r\n"
+- "Current Suppliers\r\n"
+- "Becoming a Supplier\r\n"
+- "Small Business Program\r\n"
+- "Supplier Contacts\r\n"
+- "Supplier Network\r\n"
+- "\r\n"
+- "SupportDepot Support\r\n"
+- "Help Desk Services\r\n"
+- "Logistics\r\n"
+- "Technical Publications\r\n"
+- "Technical Training\r\n"
+- "Fielded Systems Customer Support\r\n"
+- "Integrated Logistics Support\r\n"
+- "\r\n"
+- "News & InformationArchived News Releases\r\n"
+- "Events & Trade Show Calendar\r\n"
+- "News\r\n"
+- "Multimedia Downloads\r\n"
+- "Media Contact\r\n"
+- "Email PR\r\n"
+- "\r\n"
+- "Contact UsOnline Request form\r\n"
+- "Locations\r\n"
+- "\r\n"
+- "IDIQs / GSA Schedules\r\n"
+- "Careers\r\n"
+- "Site Map\r\n"
+- "\r\n"
+- "\t\t\tvar MenuBar2 = new Spry.Widget.MenuBar(\"MenuBar2\");\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\tMAF/TIGERMaster Address File/Topologically IntegratedGeographic Encoding
+  and Referencing\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "  \r\n"
+- "    \r\n"
+- "      Bureau of the Census—MAF/TIGER® Accuracy Improvement Project\r\n"
+- "    \r\n"
+- "    \r\n"
+- "            \r\n"
+- "              MAF\r\n"
+- "              Master Address File\r\n"
+- "            \r\n"
+- "          \r\n"
+- "          \r\n"
+- "            \r\n"
+- "              TIGER\r\n"
+- "\r\n"
+- "              Topologically Integrated Geographic Encoding and Reference\r\n"
+- "            \r\n"
+- "          \r\n"
+- "        \r\n"
+- "            The MAF is a complete and current list of all addresses and locations
+  where people live, as well as the addresses or locations where people work. Also,
+  the MAF is intended to contain information that identifies methods for the Census
+  Bureau to communicate with the residents or employees at these addresses and locations.\r\n"
+- "          \r\n"
+- "          \r\n"
+- "            TIGER is the system and digital database developed at the Census Bureau
+  to support the decennial census and other Census Bureau statistical programs. The
+  topological structure of the TIGER database defines the types, locations, names,
+  and relationships of streets, rivers, railroads, and other geographic features to
+  each other and to the numerous geographic entities for which the Census Bureau tabulates
+  data from its censuses and household surveys.\r\n"
+- "          \r\n"
+- "        The MAF/TIGER® Accuracy Improvement Project(MTAIP) ensured the delivery
+  of accurate, improved, and current information to the MAF/TIGER database, including corrected
+  coordinates for TIGER features. MTAIP identified new features for TIGER with accurate
+  coordinates and required attributes for the United States, Puerto Rico, and the
+  associated Island Areas. A further goal is development of a maintenance mechanism
+  to regularly update the inventory of features in the TIGER database. This project
+  accurately located over 45 million geographic features within the United States
+  and its territories for use in the Census Bureau’s decennial census. This facilitated
+  the use of GPS-equipped portable devices as part of the decennial census process.
+  A spatially improved and more complete MAF/TIGER database enabled enumerators to
+  get to the proper location efficiently, significantly reducing the costs of field
+  enumeration. \r\n"
+- "\r\n"
+- "This comprehensive database is used by a broad cross-section of government customers
+  including:\r\n"
+- "    \r\n"
+- "        Improved accuracy and completeness in redistricting political district
+  boundaries and the corresponding population data to determine the number of delegates
+  to the U.S.\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        House of Representatives\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Location of census statistics directly affects the distribution of $185B/yr
+  in federal funds to state, county, and local government programs such as schools,
+  transportation projects, Medicare, and others\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Supports all statistical sampling conducted yearly to keep the demographic
+  data current\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Transportation layer for USGS National Map Program\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Critical geospatial data layer for Homeland Security activities\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Created in cooperation with state and local governments; direct benefit
+  to state and local governments for urban planning and E-911\r\n"
+- "      \r\n"
+- "    \r\n"
+- "      MAF/TIGER Attribution\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        Street center-lines and their names\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Lakes, streams, and their names\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Railroads\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Geographic entity boundaries, names, and codes (for governmental units,
+  census tracts, census blocks, etc.)\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Housing unit locations (selected areas)\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Key geographic locations (for airports, schools, etc.)\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        ZIP codes and address ranges (for streets with city-style addresses)\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Mailing address, if one exists\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Descriptive address, when no city-style address exists\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Census geographic location\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Source and history data\r\n"
+- "      \r\n"
+- "    \r\n"
+- "      Also used by commercial customers for:\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        Demographic studies\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Planning\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Address geocoding\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        On-board vehicle navigation systems\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Commercial map generation\r\n"
+- "      \r\n"
+- "    \r\n"
+- "      Distributed Production Management System\r\n"
+- "    \r\n"
+- "    \r\n"
+- "        Centralizes information control\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Orchestrates activities ongoing at geographically distributed locations\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Facilitates oversight\r\n"
+- "      \r\n"
+- "      \r\n"
+- "        Web-based, anytime, anywhere access to status\r\n"
+- "      \r\n"
+- "    \t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\tContact Harris.|\r\n"
+- "\t\t\tTerms of Use.| \r\n"
+- "\t\t\tAbout Harris|\r\n"
+- "\t\t\t© 2012  Harris Corporation. \r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"/web/20120620155719/https://ssl.\"
+  : \"/web/20120620155719/http://www.\");\r\n"
+- "\t\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js'
+  type='text/javascript'%3E%3C/script%3E\"));\r\n"
+- "\t\r\n"
+- "\t\tvar pageTracker = _gat._getTracker(\"UA-3866600-8\");\r\n"
+- "\t\tpageTracker._initData();\r\n"
+- "\t\tpageTracker._trackPageview();\r\n"
+- "\t\r\n"
+- "      Bureau of the Census—MAF/TIGER® Accuracy Improvement Project\r\n"
+- "    The MAF/TIGER® Accuracy Improvement Project(MTAIP) ensured the delivery of
+  accurate, improved, and current information to the MAF/TIGER database, including corrected
+  coordinates for TIGER features. MTAIP identified new features for TIGER with accurate
+  coordinates and required attributes for the United States, Puerto Rico, and the
+  associated Island Areas. A further goal is development of a maintenance mechanism
+  to regularly update the inventory of features in the TIGER database. This project
+  accurately located over 45 million geographic features within the United States
+  and its territories for use in the Census Bureau’s decennial census. This facilitated
+  the use of GPS-equipped portable devices as part of the decennial census process.
+  A spatially improved and more complete MAF/TIGER database enabled enumerators to
+  get to the proper location efficiently, significantly reducing the costs of field
+  enumeration. \r\n"
+- "\r\n"
+- "This comprehensive database is used by a broad cross-section of government customers
+  including:Improved accuracy and completeness in redistricting political district
+  boundaries and the corresponding population data to determine the number of delegates
+  to the U.S.House of RepresentativesLocation of census statistics directly affects
+  the distribution of $185B/yr in federal funds to state, county, and local government
+  programs such as schools, transportation projects, Medicare, and othersSupports
+  all statistical sampling conducted yearly to keep the demographic data currentTransportation
+  layer for USGS National Map ProgramCritical geospatial data layer for Homeland Security
+  activitiesCreated in cooperation with state and local governments; direct benefit
+  to state and local governments for urban planning and E-911\r\n"
+- "      MAF/TIGER Attribution\r\n"
+- "    Street center-lines and their namesLakes, streams, and their namesRailroadsGeographic
+  entity boundaries, names, and codes (for governmental units, census tracts, census
+  blocks, etc.)Housing unit locations (selected areas)Key geographic locations (for
+  airports, schools, etc.)ZIP codes and address ranges (for streets with city-style
+  addresses)Mailing address, if one existsDescriptive address, when no city-style
+  address existsCensus geographic locationSource and history data\r\n"
+- "      Also used by commercial customers for:\r\n"
+- "    Demographic studiesPlanningAddress geocodingOn-board vehicle navigation systemsCommercial
+  map generation\r\n"
+- "      Distributed Production Management System\r\n"
+- "    Centralizes information controlOrchestrates activities ongoing at geographically
+  distributed locationsFacilitates oversightWeb-based, anytime, anywhere access to
+  status"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 18.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 373
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 154
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 5.0
+    docPositions:
+    - 6
+    - 347
+    - 377
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  govcomm: !ruby/object:Word
+    word: govcomm
+    stem: govcomm
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  harris: !ruby/object:Word
+    word: harris
+    stem: harri
+    docFrequency: 8.0
+    docPositions:
+    - 7
+    - 156
+    - 158
+    - 177
+    - 370
+    - 372
+    - 373
+  solutions: !ruby/object:Word
+    word: solutions
+    stem: solut
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 181
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  census: !ruby/object:Word
+    word: census
+    stem: censu
+    docFrequency: 22.0
+    docPositions:
+    - 7
+    - 235
+    - 251
+    - 254
+    - 256
+    - 266
+    - 293
+    - 311
+    - 384
+    - 385
+    - 387
+    - 389
+  maf: !ruby/object:Word
+    word: maf
+    stem: maf
+    docFrequency: 16.0
+    docPositions:
+    - 7
+    - 227
+    - 235
+    - 239
+    - 251
+    - 256
+    - 281
+    - 384
+    - 385
+    - 388
+  tiger: !ruby/object:Word
+    word: tiger
+    stem: tiger
+    docFrequency: 21.0
+    docPositions:
+    - 7
+    - 235
+    - 245
+    - 254
+    - 256
+    - 281
+    - 384
+    - 385
+    - 388
+  asp: !ruby/object:Word
+    word: asp
+    stem: asp
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 5.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+    - 138
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 138
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 112
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 377
+    - 378
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 7.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+    - 305
+    - 389
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 12.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+    - 302
+    - 308
+    - 389
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 32
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 10.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 154
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 4.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 149
+    - 197
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 171
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 5.0
+    docPositions:
+    - 157
+    - 208
+    - 211
+    - 370
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 3.0
+    docPositions:
+    - 159
+    - 215
+  investors: !ruby/object:Word
+    word: investors
+    stem: investor
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  uscommitment: !ruby/object:Word
+    word: uscommitment
+    stem: uscommit
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  excellence: !ruby/object:Word
+    word: excellence
+    stem: excel
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  leadership: !ruby/object:Word
+    word: leadership
+    stem: leadership
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  senior: !ruby/object:Word
+    word: senior
+    stem: senior
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  managers: !ruby/object:Word
+    word: managers
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  industry: !ruby/object:Word
+    word: industry
+    stem: industri
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  certifications: !ruby/object:Word
+    word: certifications
+    stem: certif
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  capabilities: !ruby/object:Word
+    word: capabilities
+    stem: capabl
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  corporate: !ruby/object:Word
+    word: corporate
+    stem: corpor
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  overview: !ruby/object:Word
+    word: overview
+    stem: overview
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  solutionssearch: !ruby/object:Word
+    word: solutionssearch
+    stem: solutionssearch
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  keyword: !ruby/object:Word
+    word: keyword
+    stem: keyword
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  product: !ruby/object:Word
+    word: product
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  documentation: !ruby/object:Word
+    word: documentation
+    stem: document
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  custom: !ruby/object:Word
+    word: custom
+    stem: custom
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  idiqs: !ruby/object:Word
+    word: idiqs
+    stem: idiq
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 214
+  gsa: !ruby/object:Word
+    word: gsa
+    stem: gsa
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 214
+  schedules: !ruby/object:Word
+    word: schedules
+    stem: schedul
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 214
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 7.0
+    docPositions:
+    - 183
+    - 251
+    - 256
+    - 338
+    - 385
+    - 393
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 211
+  alphabetical: !ruby/object:Word
+    word: alphabetical
+    stem: alphabet
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  technologiesfacilities: !ruby/object:Word
+    word: technologiesfacilities
+    stem: technologiesfacil
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  demos: !ruby/object:Word
+    word: demos
+    stem: demo
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  supplier: !ruby/object:Word
+    word: supplier
+    stem: supplier
+    docFrequency: 5.0
+    docPositions:
+    - 189
+    - 191
+    - 193
+    - 194
+  partnershipstandards: !ruby/object:Word
+    word: partnershipstandards
+    stem: partnershipstandard
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 189
+    - 192
+  conduct: !ruby/object:Word
+    word: conduct
+    stem: conduct
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 6.0
+    docPositions:
+    - 190
+    - 251
+    - 256
+    - 269
+    - 385
+  suppliers: !ruby/object:Word
+    word: suppliers
+    stem: supplier
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  becoming: !ruby/object:Word
+    word: becoming
+    stem: becom
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 192
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 272
+  contacts: !ruby/object:Word
+    word: contacts
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 193
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  supportdepot: !ruby/object:Word
+    word: supportdepot
+    stem: supportdepot
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 5.0
+    docPositions:
+    - 196
+    - 201
+    - 202
+    - 254
+  desk: !ruby/object:Word
+    word: desk
+    stem: desk
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 197
+  logistics: !ruby/object:Word
+    word: logistics
+    stem: logist
+    docFrequency: 3.0
+    docPositions:
+    - 198
+    - 202
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 200
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  training: !ruby/object:Word
+    word: training
+    stem: train
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  fielded: !ruby/object:Word
+    word: fielded
+    stem: field
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  systems: !ruby/object:Word
+    word: systems
+    stem: system
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 329
+  customer: !ruby/object:Word
+    word: customer
+    stem: custom
+    docFrequency: 2.0
+    docPositions:
+    - 201
+  integrated: !ruby/object:Word
+    word: integrated
+    stem: integr
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 247
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 204
+    - 206
+  informationarchived: !ruby/object:Word
+    word: informationarchived
+    stem: informationarchiv
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  releases: !ruby/object:Word
+    word: releases
+    stem: releas
+    docFrequency: 2.0
+    docPositions:
+    - 204
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  trade: !ruby/object:Word
+    word: trade
+    stem: trade
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  calendar: !ruby/object:Word
+    word: calendar
+    stem: calendar
+    docFrequency: 2.0
+    docPositions:
+    - 205
+  multimedia: !ruby/object:Word
+    word: multimedia
+    stem: multimedia
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  pr: !ruby/object:Word
+    word: pr
+    stem: pr
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  usonline: !ruby/object:Word
+    word: usonline
+    stem: usonlin
+    docFrequency: 2.0
+    docPositions:
+    - 211
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 211
+  locations: !ruby/object:Word
+    word: locations
+    stem: locat
+    docFrequency: 11.0
+    docPositions:
+    - 212
+    - 251
+    - 254
+    - 296
+    - 299
+    - 341
+    - 389
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 216
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 6.0
+    docPositions:
+    - 216
+    - 272
+    - 332
+    - 387
+    - 391
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 218
+    - 256
+    - 385
+  spry: !ruby/object:Word
+    word: spry
+    stem: spry
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  widget: !ruby/object:Word
+    word: widget
+    stem: widget
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  menubar: !ruby/object:Word
+    word: menubar
+    stem: menubar
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  tigermaster: !ruby/object:Word
+    word: tigermaster
+    stem: tigermast
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 12.0
+    docPositions:
+    - 227
+    - 240
+    - 302
+    - 305
+    - 308
+    - 326
+    - 389
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 240
+  topologically: !ruby/object:Word
+    word: topologically
+    stem: topolog
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 247
+  integratedgeographic: !ruby/object:Word
+    word: integratedgeographic
+    stem: integratedgeograph
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  encoding: !ruby/object:Word
+    word: encoding
+    stem: encod
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 247
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 46.0
+    docPositions:
+    - 227
+    - 247
+    - 251
+    - 254
+    - 256
+    - 260
+    - 266
+    - 278
+    - 284
+    - 287
+    - 293
+    - 302
+    - 314
+    - 385
+    - 387
+    - 389
+  referencing: !ruby/object:Word
+    word: referencing
+    stem: referenc
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  bureau: !ruby/object:Word
+    word: bureau
+    stem: bureau
+    docFrequency: 9.0
+    docPositions:
+    - 235
+    - 251
+    - 254
+    - 256
+    - 384
+    - 385
+  accuracy: !ruby/object:Word
+    word: accuracy
+    stem: accuraci
+    docFrequency: 7.0
+    docPositions:
+    - 235
+    - 256
+    - 260
+    - 384
+    - 385
+    - 387
+  improvement: !ruby/object:Word
+    word: improvement
+    stem: improv
+    docFrequency: 5.0
+    docPositions:
+    - 235
+    - 256
+    - 384
+    - 385
+  project: !ruby/object:Word
+    word: project
+    stem: project
+    docFrequency: 7.0
+    docPositions:
+    - 235
+    - 256
+    - 384
+    - 385
+  master: !ruby/object:Word
+    word: master
+    stem: master
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  geographic: !ruby/object:Word
+    word: geographic
+    stem: geograph
+    docFrequency: 11.0
+    docPositions:
+    - 247
+    - 254
+    - 256
+    - 293
+    - 299
+    - 311
+    - 385
+    - 389
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 4.0
+    docPositions:
+    - 251
+    - 256
+    - 385
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 251
+    - 269
+    - 387
+  addresses: !ruby/object:Word
+    word: addresses
+    stem: address
+    docFrequency: 6.0
+    docPositions:
+    - 251
+    - 302
+    - 389
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 3.0
+    docPositions:
+    - 251
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 4.0
+    docPositions:
+    - 251
+    - 317
+    - 390
+  intended: !ruby/object:Word
+    word: intended
+    stem: intend
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  contain: !ruby/object:Word
+    word: contain
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  identifies: !ruby/object:Word
+    word: identifies
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  methods: !ruby/object:Word
+    word: methods
+    stem: method
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  communicate: !ruby/object:Word
+    word: communicate
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  residents: !ruby/object:Word
+    word: residents
+    stem: resid
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  employees: !ruby/object:Word
+    word: employees
+    stem: employe
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 335
+    - 392
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  database: !ruby/object:Word
+    word: database
+    stem: databas
+    docFrequency: 11.0
+    docPositions:
+    - 254
+    - 256
+    - 258
+    - 385
+    - 387
+  developed: !ruby/object:Word
+    word: developed
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  decennial: !ruby/object:Word
+    word: decennial
+    stem: decenni
+    docFrequency: 6.0
+    docPositions:
+    - 254
+    - 256
+    - 385
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 4.0
+    docPositions:
+    - 254
+  statistical: !ruby/object:Word
+    word: statistical
+    stem: statist
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 269
+    - 387
+  programs: !ruby/object:Word
+    word: programs
+    stem: program
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 266
+    - 387
+  topological: !ruby/object:Word
+    word: topological
+    stem: topolog
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  structure: !ruby/object:Word
+    word: structure
+    stem: structur
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  defines: !ruby/object:Word
+    word: defines
+    stem: defin
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  types: !ruby/object:Word
+    word: types
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 6.0
+    docPositions:
+    - 254
+    - 284
+    - 287
+    - 293
+    - 389
+  relationships: !ruby/object:Word
+    word: relationships
+    stem: relationship
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  streets: !ruby/object:Word
+    word: streets
+    stem: street
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 302
+    - 389
+  rivers: !ruby/object:Word
+    word: rivers
+    stem: river
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  railroads: !ruby/object:Word
+    word: railroads
+    stem: railroad
+    docFrequency: 3.0
+    docPositions:
+    - 254
+    - 290
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 10.0
+    docPositions:
+    - 254
+    - 256
+    - 385
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  numerous: !ruby/object:Word
+    word: numerous
+    stem: numer
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  entities: !ruby/object:Word
+    word: entities
+    stem: entiti
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  tabulates: !ruby/object:Word
+    word: tabulates
+    stem: tabul
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 10.0
+    docPositions:
+    - 254
+    - 260
+    - 269
+    - 275
+    - 314
+    - 387
+    - 389
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 4.0
+    docPositions:
+    - 254
+    - 256
+    - 385
+  censuses: !ruby/object:Word
+    word: censuses
+    stem: census
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  household: !ruby/object:Word
+    word: household
+    stem: household
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  surveys: !ruby/object:Word
+    word: surveys
+    stem: survei
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  mtaip: !ruby/object:Word
+    word: mtaip
+    stem: mtaip
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 385
+  ensured: !ruby/object:Word
+    word: ensured
+    stem: ensur
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  delivery: !ruby/object:Word
+    word: delivery
+    stem: deliveri
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  accurate: !ruby/object:Word
+    word: accurate
+    stem: accur
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 385
+  improved: !ruby/object:Word
+    word: improved
+    stem: improv
+    docFrequency: 7.0
+    docPositions:
+    - 256
+    - 260
+    - 385
+    - 387
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 258
+    - 385
+    - 387
+  corrected: !ruby/object:Word
+    word: corrected
+    stem: correct
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  coordinates: !ruby/object:Word
+    word: coordinates
+    stem: coordin
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 385
+  identified: !ruby/object:Word
+    word: identified
+    stem: identifi
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  attributes: !ruby/object:Word
+    word: attributes
+    stem: attribut
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 385
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 385
+  puerto: !ruby/object:Word
+    word: puerto
+    stem: puerto
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  rico: !ruby/object:Word
+    word: rico
+    stem: rico
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  areas: !ruby/object:Word
+    word: areas
+    stem: area
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 296
+    - 385
+    - 389
+  further: !ruby/object:Word
+    word: further
+    stem: further
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  goal: !ruby/object:Word
+    word: goal
+    stem: goal
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  maintenance: !ruby/object:Word
+    word: maintenance
+    stem: mainten
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  mechanism: !ruby/object:Word
+    word: mechanism
+    stem: mechan
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  regularly: !ruby/object:Word
+    word: regularly
+    stem: regularli
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  update: !ruby/object:Word
+    word: update
+    stem: updat
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  inventory: !ruby/object:Word
+    word: inventory
+    stem: inventori
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  accurately: !ruby/object:Word
+    word: accurately
+    stem: accur
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  located: !ruby/object:Word
+    word: located
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  million: !ruby/object:Word
+    word: million
+    stem: million
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  territories: !ruby/object:Word
+    word: territories
+    stem: territori
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 256
+    - 371
+    - 385
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 5.0
+    docPositions:
+    - 256
+    - 260
+    - 385
+    - 387
+  facilitated: !ruby/object:Word
+    word: facilitated
+    stem: facilit
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  gps: !ruby/object:Word
+    word: gps
+    stem: gp
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  equipped: !ruby/object:Word
+    word: equipped
+    stem: equip
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  portable: !ruby/object:Word
+    word: portable
+    stem: portabl
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  devices: !ruby/object:Word
+    word: devices
+    stem: devic
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  spatially: !ruby/object:Word
+    word: spatially
+    stem: spatial
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  enabled: !ruby/object:Word
+    word: enabled
+    stem: enabl
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  enumerators: !ruby/object:Word
+    word: enumerators
+    stem: enumer
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  proper: !ruby/object:Word
+    word: proper
+    stem: proper
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 6.0
+    docPositions:
+    - 256
+    - 266
+    - 311
+    - 377
+    - 385
+  efficiently: !ruby/object:Word
+    word: efficiently
+    stem: effici
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  significantly: !ruby/object:Word
+    word: significantly
+    stem: significantli
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  reducing: !ruby/object:Word
+    word: reducing
+    stem: reduc
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  costs: !ruby/object:Word
+    word: costs
+    stem: cost
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  enumeration: !ruby/object:Word
+    word: enumeration
+    stem: enumer
+    docFrequency: 3.0
+    docPositions:
+    - 256
+    - 385
+  comprehensive: !ruby/object:Word
+    word: comprehensive
+    stem: comprehens
+    docFrequency: 3.0
+    docPositions:
+    - 258
+    - 387
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 258
+    - 317
+    - 387
+    - 390
+  broad: !ruby/object:Word
+    word: broad
+    stem: broad
+    docFrequency: 3.0
+    docPositions:
+    - 258
+    - 387
+  cross: !ruby/object:Word
+    word: cross
+    stem: cross
+    docFrequency: 3.0
+    docPositions:
+    - 258
+    - 387
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 3.0
+    docPositions:
+    - 258
+    - 387
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 5.0
+    docPositions:
+    - 258
+    - 266
+    - 387
+  customers: !ruby/object:Word
+    word: customers
+    stem: custom
+    docFrequency: 5.0
+    docPositions:
+    - 258
+    - 317
+    - 387
+    - 390
+  completeness: !ruby/object:Word
+    word: completeness
+    stem: complet
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  redistricting: !ruby/object:Word
+    word: redistricting
+    stem: redistrict
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  political: !ruby/object:Word
+    word: political
+    stem: polit
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  district: !ruby/object:Word
+    word: district
+    stem: district
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  boundaries: !ruby/object:Word
+    word: boundaries
+    stem: boundari
+    docFrequency: 5.0
+    docPositions:
+    - 260
+    - 293
+    - 387
+    - 389
+  corresponding: !ruby/object:Word
+    word: corresponding
+    stem: correspond
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  population: !ruby/object:Word
+    word: population
+    stem: popul
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  determine: !ruby/object:Word
+    word: determine
+    stem: determin
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  delegates: !ruby/object:Word
+    word: delegates
+    stem: deleg
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 387
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 3.0
+    docPositions:
+    - 263
+    - 387
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  directly: !ruby/object:Word
+    word: directly
+    stem: directli
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  affects: !ruby/object:Word
+    word: affects
+    stem: affect
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  distribution: !ruby/object:Word
+    word: distribution
+    stem: distribut
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  yr: !ruby/object:Word
+    word: yr
+    stem: yr
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  federal: !ruby/object:Word
+    word: federal
+    stem: feder
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  funds: !ruby/object:Word
+    word: funds
+    stem: fund
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 7.0
+    docPositions:
+    - 266
+    - 278
+    - 387
+  county: !ruby/object:Word
+    word: county
+    stem: counti
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 7.0
+    docPositions:
+    - 266
+    - 278
+    - 387
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  schools: !ruby/object:Word
+    word: schools
+    stem: school
+    docFrequency: 5.0
+    docPositions:
+    - 266
+    - 299
+    - 387
+    - 389
+  transportation: !ruby/object:Word
+    word: transportation
+    stem: transport
+    docFrequency: 4.0
+    docPositions:
+    - 266
+    - 272
+    - 387
+  projects: !ruby/object:Word
+    word: projects
+    stem: project
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  medicare: !ruby/object:Word
+    word: medicare
+    stem: medicar
+    docFrequency: 3.0
+    docPositions:
+    - 266
+    - 387
+  others: !ruby/object:Word
+    word: others
+    stem: other
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  supports: !ruby/object:Word
+    word: supports
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 269
+  sampling: !ruby/object:Word
+    word: sampling
+    stem: sampl
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 387
+  conducted: !ruby/object:Word
+    word: conducted
+    stem: conduct
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 387
+  yearly: !ruby/object:Word
+    word: yearly
+    stem: yearli
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 387
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 3.0
+    docPositions:
+    - 269
+    - 387
+  demographic: !ruby/object:Word
+    word: demographic
+    stem: demograph
+    docFrequency: 5.0
+    docPositions:
+    - 269
+    - 320
+    - 387
+    - 391
+  layer: !ruby/object:Word
+    word: layer
+    stem: layer
+    docFrequency: 5.0
+    docPositions:
+    - 272
+    - 275
+    - 387
+  usgs: !ruby/object:Word
+    word: usgs
+    stem: usg
+    docFrequency: 3.0
+    docPositions:
+    - 272
+    - 387
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 272
+    - 387
+  critical: !ruby/object:Word
+    word: critical
+    stem: critic
+    docFrequency: 2.0
+    docPositions:
+    - 275
+  geospatial: !ruby/object:Word
+    word: geospatial
+    stem: geospati
+    docFrequency: 3.0
+    docPositions:
+    - 275
+    - 387
+  homeland: !ruby/object:Word
+    word: homeland
+    stem: homeland
+    docFrequency: 3.0
+    docPositions:
+    - 275
+    - 387
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 3.0
+    docPositions:
+    - 275
+    - 387
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 4.0
+    docPositions:
+    - 275
+    - 341
+    - 393
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 278
+  cooperation: !ruby/object:Word
+    word: cooperation
+    stem: cooper
+    docFrequency: 3.0
+    docPositions:
+    - 278
+    - 387
+  governments: !ruby/object:Word
+    word: governments
+    stem: govern
+    docFrequency: 5.0
+    docPositions:
+    - 278
+    - 387
+  direct: !ruby/object:Word
+    word: direct
+    stem: direct
+    docFrequency: 3.0
+    docPositions:
+    - 278
+    - 387
+  benefit: !ruby/object:Word
+    word: benefit
+    stem: benefit
+    docFrequency: 3.0
+    docPositions:
+    - 278
+    - 387
+  urban: !ruby/object:Word
+    word: urban
+    stem: urban
+    docFrequency: 3.0
+    docPositions:
+    - 278
+    - 387
+  planning: !ruby/object:Word
+    word: planning
+    stem: plan
+    docFrequency: 4.0
+    docPositions:
+    - 278
+    - 323
+    - 387
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 278
+    - 387
+  attribution: !ruby/object:Word
+    word: attribution
+    stem: attribut
+    docFrequency: 3.0
+    docPositions:
+    - 281
+    - 388
+  street: !ruby/object:Word
+    word: street
+    stem: street
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 389
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 389
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 3.0
+    docPositions:
+    - 284
+    - 389
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 5.0
+    docPositions:
+    - 284
+    - 287
+    - 389
+  lakes: !ruby/object:Word
+    word: lakes
+    stem: lake
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  streams: !ruby/object:Word
+    word: streams
+    stem: stream
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 389
+  entity: !ruby/object:Word
+    word: entity
+    stem: entiti
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 389
+  codes: !ruby/object:Word
+    word: codes
+    stem: code
+    docFrequency: 5.0
+    docPositions:
+    - 293
+    - 302
+    - 389
+  governmental: !ruby/object:Word
+    word: governmental
+    stem: government
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 389
+  units: !ruby/object:Word
+    word: units
+    stem: unit
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 389
+  tracts: !ruby/object:Word
+    word: tracts
+    stem: tract
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 389
+  blocks: !ruby/object:Word
+    word: blocks
+    stem: block
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 389
+  etc: !ruby/object:Word
+    word: etc
+    stem: etc
+    docFrequency: 5.0
+    docPositions:
+    - 293
+    - 299
+    - 389
+  housing: !ruby/object:Word
+    word: housing
+    stem: hous
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 389
+  unit: !ruby/object:Word
+    word: unit
+    stem: unit
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 389
+  selected: !ruby/object:Word
+    word: selected
+    stem: select
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 389
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 3.0
+    docPositions:
+    - 299
+    - 389
+  airports: !ruby/object:Word
+    word: airports
+    stem: airport
+    docFrequency: 3.0
+    docPositions:
+    - 299
+    - 389
+  zip: !ruby/object:Word
+    word: zip
+    stem: zip
+    docFrequency: 3.0
+    docPositions:
+    - 302
+    - 389
+  ranges: !ruby/object:Word
+    word: ranges
+    stem: rang
+    docFrequency: 3.0
+    docPositions:
+    - 302
+    - 389
+  city: !ruby/object:Word
+    word: city
+    stem: citi
+    docFrequency: 5.0
+    docPositions:
+    - 302
+    - 308
+    - 389
+  mailing: !ruby/object:Word
+    word: mailing
+    stem: mail
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 389
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 389
+  exists: !ruby/object:Word
+    word: exists
+    stem: exist
+    docFrequency: 3.0
+    docPositions:
+    - 305
+    - 308
+  descriptive: !ruby/object:Word
+    word: descriptive
+    stem: descript
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 308
+    - 389
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 314
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 3.0
+    docPositions:
+    - 314
+    - 389
+  commercial: !ruby/object:Word
+    word: commercial
+    stem: commerci
+    docFrequency: 4.0
+    docPositions:
+    - 317
+    - 332
+    - 390
+  studies: !ruby/object:Word
+    word: studies
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  geocoding: !ruby/object:Word
+    word: geocoding
+    stem: geocod
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 3.0
+    docPositions:
+    - 329
+    - 391
+  vehicle: !ruby/object:Word
+    word: vehicle
+    stem: vehicl
+    docFrequency: 3.0
+    docPositions:
+    - 329
+    - 391
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 3.0
+    docPositions:
+    - 329
+    - 391
+  generation: !ruby/object:Word
+    word: generation
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 391
+  distributed: !ruby/object:Word
+    word: distributed
+    stem: distribut
+    docFrequency: 5.0
+    docPositions:
+    - 335
+    - 341
+    - 392
+    - 393
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 335
+    - 392
+  management: !ruby/object:Word
+    word: management
+    stem: manag
+    docFrequency: 3.0
+    docPositions:
+    - 335
+    - 392
+  centralizes: !ruby/object:Word
+    word: centralizes
+    stem: central
+    docFrequency: 3.0
+    docPositions:
+    - 338
+    - 393
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 2.0
+    docPositions:
+    - 338
+  orchestrates: !ruby/object:Word
+    word: orchestrates
+    stem: orchestr
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  ongoing: !ruby/object:Word
+    word: ongoing
+    stem: ongo
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 393
+  geographically: !ruby/object:Word
+    word: geographically
+    stem: geograph
+    docFrequency: 3.0
+    docPositions:
+    - 341
+    - 393
+  facilitates: !ruby/object:Word
+    word: facilitates
+    stem: facilit
+    docFrequency: 2.0
+    docPositions:
+    - 344
+  oversight: !ruby/object:Word
+    word: oversight
+    stem: oversight
+    docFrequency: 2.0
+    docPositions:
+    - 344
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 3.0
+    docPositions:
+    - 347
+    - 393
+  anytime: !ruby/object:Word
+    word: anytime
+    stem: anytim
+    docFrequency: 3.0
+    docPositions:
+    - 347
+    - 393
+  anywhere: !ruby/object:Word
+    word: anywhere
+    stem: anywher
+    docFrequency: 3.0
+    docPositions:
+    - 347
+    - 393
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 347
+    - 393
+  status: !ruby/object:Word
+    word: status
+    stem: statu
+    docFrequency: 3.0
+    docPositions:
+    - 347
+    - 393
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  corporation: !ruby/object:Word
+    word: corporation
+    stem: corpor
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  gajshost: !ruby/object:Word
+    word: gajshost
+    stem: gajshost
+    docFrequency: 3.0
+    docPositions:
+    - 377
+    - 378
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 377
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 378
+  pagetracker: !ruby/object:Word
+    word: pagetracker
+    stem: pagetrack
+    docFrequency: 4.0
+    docPositions:
+    - 380
+    - 381
+    - 382
+  _gat: !ruby/object:Word
+    word: _gat
+    stem: _gat
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  _gettracker: !ruby/object:Word
+    word: _gettracker
+    stem: _gettrack
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  _initdata: !ruby/object:Word
+    word: _initdata
+    stem: _initdata
+    docFrequency: 2.0
+    docPositions:
+    - 381
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 382
+  representativeslocation: !ruby/object:Word
+    word: representativeslocation
+    stem: representativesloc
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  otherssupports: !ruby/object:Word
+    word: otherssupports
+    stem: otherssupport
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  currenttransportation: !ruby/object:Word
+    word: currenttransportation
+    stem: currenttransport
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  programcritical: !ruby/object:Word
+    word: programcritical
+    stem: programcrit
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  activitiescreated: !ruby/object:Word
+    word: activitiescreated
+    stem: activitiescr
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  nameslakes: !ruby/object:Word
+    word: nameslakes
+    stem: nameslak
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  namesrailroadsgeographic: !ruby/object:Word
+    word: namesrailroadsgeographic
+    stem: namesrailroadsgeograph
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  existsdescriptive: !ruby/object:Word
+    word: existsdescriptive
+    stem: existsdescript
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  existscensus: !ruby/object:Word
+    word: existscensus
+    stem: existscensu
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  locationsource: !ruby/object:Word
+    word: locationsource
+    stem: locationsourc
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  studiesplanningaddress: !ruby/object:Word
+    word: studiesplanningaddress
+    stem: studiesplanningaddress
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  geocodingon: !ruby/object:Word
+    word: geocodingon
+    stem: geocodingon
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  systemscommercial: !ruby/object:Word
+    word: systemscommercial
+    stem: systemscommerci
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  controlorchestrates: !ruby/object:Word
+    word: controlorchestrates
+    stem: controlorchestr
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  locationsfacilitates: !ruby/object:Word
+    word: locationsfacilitates
+    stem: locationsfacilit
+    docFrequency: 2.0
+    docPositions:
+    - 393
+  oversightweb: !ruby/object:Word
+    word: oversightweb
+    stem: oversightweb
+    docFrequency: 2.0
+    docPositions:
+    - 393
+lineCount: 394
+wordCount: 1417
+rank: 0.25
+title: Master Address File/Topologically Integrated Geographic Encoding and Referencing
+  (MAF/TIGER)
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.govcomm.harris.com/solutions/products/census/maf-tiger.asp\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"20\";\nvar displayMonth = \"Jun\";\nvar displayYear
+  = \"2012\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    May\n\t\t\n\t\t\n\t\tJUN\n\t\t\n\t\t\n\t\t
+  \   NOV\n\t\t\n                \n\t    \n               \n                       \n
+  \              20\n\t       \n               \n\t\t   \n\t       \n\t       \n           \n
+  \              \n                   2011\n               \n               \n               2012\n\t
+  \      \n               \n\t           2013\n\t       \n\t       \n           \n
+  \      \n           12 captures\n           20 Jun 12 - 8 Sep 15\n       \n       \n
+  \      \n       \n\t \n       \n       \n       \n   \n       Close\n       Help\n
+  \  \n   \n\n\n__wm.bt();\r\n\t\r\n\t\tHarris Home|\r\n\t\t\tContact Us| \r\n\t\t\tAbout
+  Harris|\r\n\t\t\tCareers| \r\n\t\t\tInvestors\r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\tHome\r\nAbout
+  UsCommitment to Excellence\r\nLeadership\r\nSenior Executive Account Managers\r\nIndustry
+  Certifications\r\nCapabilities\r\nHarris Corporate Overview Video\r\n\r\nSolutionsSearch
+  By Keyword\r\nDownload Product Documentation\r\nCustom Solutions\r\nIDIQs / GSA
+  Schedules\r\nInformation Request\r\nAlphabetical Index\r\n\r\nTechnologiesFacilities\r\nDemos\r\n\r\nSupplier
+  PartnershipStandards of Business Conduct (pdf)\r\nCurrent Suppliers\r\nBecoming
+  a Supplier\r\nSmall Business Program\r\nSupplier Contacts\r\nSupplier Network\r\n\r\nSupportDepot
+  Support\r\nHelp Desk Services\r\nLogistics\r\nTechnical Publications\r\nTechnical
+  Training\r\nFielded Systems Customer Support\r\nIntegrated Logistics Support\r\n\r\nNews
+  & InformationArchived News Releases\r\nEvents & Trade Show Calendar\r\nNews\r\nMultimedia
+  Downloads\r\nMedia Contact\r\nEmail PR\r\n\r\nContact UsOnline Request form\r\nLocations\r\n\r\nIDIQs
+  / GSA Schedules\r\nCareers\r\nSite Map\r\n\r\n\t\t\tvar MenuBar2 = new Spry.Widget.MenuBar(\"MenuBar2\");\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\tMAF/TIGERMaster
+  Address File/Topologically IntegratedGeographic Encoding and Referencing\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n
+  \ \r\n    \r\n      Bureau of the Census—MAF/TIGER® Accuracy Improvement Project\r\n
+  \   \r\n    \r\n            \r\n              MAF\r\n              Master Address
+  File\r\n            \r\n          \r\n          \r\n            \r\n              TIGER\r\n\r\n
+  \             Topologically Integrated Geographic Encoding and Reference\r\n            \r\n
+  \         \r\n        \r\n            The MAF is a complete and current list of
+  all addresses and locations where people live, as well as the addresses or locations
+  where people work. Also, the MAF is intended to contain information that identifies
+  methods for the Census Bureau to communicate with the residents or employees at
+  these addresses and locations.\r\n          \r\n          \r\n            TIGER
+  is the system and digital database developed at the Census Bureau to support the
+  decennial census and other Census Bureau statistical programs. The topological structure
+  of the TIGER database defines the types, locations, names, and relationships of
+  streets, rivers, railroads, and other geographic features to each other and to the
+  numerous geographic entities for which the Census Bureau tabulates data from its
+  censuses and household surveys.\r\n          \r\n        The MAF/TIGER® Accuracy
+  Improvement Project(MTAIP) ensured the delivery of accurate, improved, and current
+  information to the MAF/TIGER database, including corrected coordinates for TIGER
+  features. MTAIP identified new features for TIGER with accurate coordinates and
+  required attributes for the United States, Puerto Rico, and the associated Island
+  Areas. A further goal is development of a maintenance mechanism to regularly update
+  the inventory of features in the TIGER database. This project accurately located
+  over 45 million geographic features within the United States and its territories
+  for use in the Census Bureau’s decennial census. This facilitated the use of GPS-equipped
+  portable devices as part of the decennial census process. A spatially improved and
+  more complete MAF/TIGER database enabled enumerators to get to the proper location
+  efficiently, significantly reducing the costs of field enumeration. \r\n\r\nThis
+  comprehensive database is used by a broad cross-section of government customers
+  including:\r\n    \r\n        Improved accuracy and completeness in redistricting
+  political district boundaries and the corresponding population data to determine
+  the number of delegates to the U.S.\r\n      \r\n      \r\n        House of Representatives\r\n
+  \     \r\n      \r\n        Location of census statistics directly affects the distribution
+  of $185B/yr in federal funds to state, county, and local government programs such
+  as schools, transportation projects, Medicare, and others\r\n      \r\n      \r\n
+  \       Supports all statistical sampling conducted yearly to keep the demographic
+  data current\r\n      \r\n      \r\n        Transportation layer for USGS National
+  Map Program\r\n      \r\n      \r\n        Critical geospatial data layer for Homeland
+  Security activities\r\n      \r\n      \r\n        Created in cooperation with state
+  and local governments; direct benefit to state and local governments for urban planning
+  and E-911\r\n      \r\n    \r\n      MAF/TIGER Attribution\r\n    \r\n    \r\n        Street
+  center-lines and their names\r\n      \r\n      \r\n        Lakes, streams, and
+  their names\r\n      \r\n      \r\n        Railroads\r\n      \r\n      \r\n        Geographic
+  entity boundaries, names, and codes (for governmental units, census tracts, census
+  blocks, etc.)\r\n      \r\n      \r\n        Housing unit locations (selected areas)\r\n
+  \     \r\n      \r\n        Key geographic locations (for airports, schools, etc.)\r\n
+  \     \r\n      \r\n        ZIP codes and address ranges (for streets with city-style
+  addresses)\r\n      \r\n      \r\n        Mailing address, if one exists\r\n      \r\n
+  \     \r\n        Descriptive address, when no city-style address exists\r\n      \r\n
+  \     \r\n        Census geographic location\r\n      \r\n      \r\n        Source
+  and history data\r\n      \r\n    \r\n      Also used by commercial customers for:\r\n
+  \   \r\n    \r\n        Demographic studies\r\n      \r\n      \r\n        Planning\r\n
+  \     \r\n      \r\n        Address geocoding\r\n      \r\n      \r\n        On-board
+  vehicle navigation systems\r\n      \r\n      \r\n        Commercial map generation\r\n
+  \     \r\n    \r\n      Distributed Production Management System\r\n    \r\n    \r\n
+  \       Centralizes information control\r\n      \r\n      \r\n        Orchestrates
+  activities ongoing at geographically distributed locations\r\n      \r\n      \r\n
+  \       Facilitates oversight\r\n      \r\n      \r\n        Web-based, anytime,
+  anywhere access to status\r\n      \r\n    \t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\tContact
+  Harris.|\r\n\t\t\tTerms of Use.| \r\n\t\t\tAbout Harris|\r\n\t\t\t© 2012  Harris
+  Corporation. \r\n\t\t\r\n\t\r\n\t\r\n\t\tvar gaJsHost = ((\"https:\" == document.location.protocol)
+  ? \"/web/20120620155719/https://ssl.\" : \"/web/20120620155719/http://www.\");\r\n\t\tdocument.write(unescape(\"%3Cscript
+  src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n\t\r\n\t\tvar
+  pageTracker = _gat._getTracker(\"UA-3866600-8\");\r\n\t\tpageTracker._initData();\r\n\t\tpageTracker._trackPageview();\r\n\t\r\n
+  \     Bureau of the Census—MAF/TIGER® Accuracy Improvement Project\r\n    The MAF/TIGER®
+  Accuracy Improvement Project(MTAIP) ensured the delivery of accurate, improved,
+  and current information to the MAF/TIGER database, including corrected coordinates
+  for TIGER features. MTAIP identified new features for TIGER with accurate coordinates
+  and required attributes for the United States, Puerto Rico, and the associated Island
+  Areas. A further goal is development of a maintenance mechanism to regularly update
+  the inventory of features in the TIGER database. This project accurately located
+  over 45 million geographic features within the United States and its territories
+  for use in the Census Bureau’s decennial census. This facilitated the use of GPS-equipped
+  portable devices as part of the decennial census process. A spatially improved and
+  more complete MAF/TIGER database enabled enumerators to get to the proper location
+  efficiently, significantly reducing the costs of field enumeration. \r\n\r\nThis
+  comprehensive database is used by a broad cross-section of government customers
+  including:Improved accuracy and completeness in redistricting political district
+  boundaries and the corresponding population data to determine the number of delegates
+  to the U.S.House of RepresentativesLocation of census statistics directly affects
+  the distribution of $185B/yr in federal funds to state, county, and local government
+  programs such as schools, transportation projects, Medicare, and othersSupports
+  all statistical sampling conducted yearly to keep the demographic data currentTransportation
+  layer for USGS National Map ProgramCritical geospatial data layer for Homeland Security
+  activitiesCreated in cooperation with state and local governments; direct benefit
+  to state and local governments for urban planning and E-911\r\n      MAF/TIGER Attribution\r\n
+  \   Street center-lines and their namesLakes, streams, and their namesRailroadsGeographic
+  entity boundaries, names, and codes (for governmental units, census tracts, census
+  blocks, etc.)Housing unit locations (selected areas)Key geographic locations (for
+  airports, schools, etc.)ZIP codes and address ranges (for streets with city-style
+  addresses)Mailing address, if one existsDescriptive address, when no city-style
+  address existsCensus geographic locationSource and history data\r\n      Also used
+  by commercial customers for:\r\n    Demographic studiesPlanningAddress geocodingOn-board
+  vehicle navigation systemsCommercial map generation\r\n      Distributed Production
+  Management System\r\n    Centralizes information controlOrchestrates activities
+  ongoing at geographically distributed locationsFacilitates oversightWeb-based, anytime,
+  anywhere access to status"

@@ -1,0 +1,4136 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-wvjnam"
+    line: 216
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 11
+address: https://web.archive.org/web/20100610204548/http://www.euroscience.org/esof.html
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://www.euroscience.org/esof.html";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "10";
+- |
+  var displayMonth = "Jun";
+- |
+  var displayYear = "2010";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    APR\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tJUN\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    JUL\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                   \n"
+- "               \n"
+- "               \n"
+- |2
+                 10
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2009
+- "               \n"
+- "               \n"
+- |2
+                 2010
+- "\t       \n"
+- "               \n"
+- "\t           2011\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             40 captures
+- |2
+             24 Mar 08 - 30 Nov 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();\t\t\t\t\t\t\t\t\tMembers Area\n"
+- "\t\t\t\t\t\n"
+- "\t\n"
+- "    \t    \t    \t\t\tAbout us\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience Organisation\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience History\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience Foundation\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience Media Coverage\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tPress Review\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tLegal Disclaimer\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience Statements\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tActivities\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEarthwake- Science across Television\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuropean Young Researchers Award\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience 10th Anniversary\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEuroscience Media Awards\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEurowistdom- Women in Science\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tRammal Award\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tScience meets Peotry\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tSouth Eastern European Event\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEvents elsewhere\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tArchives\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tLocal Sections\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tAzerbaijan section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tBulgarian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEstonian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tGeorgian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tGreek section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tGrenoble section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tIle-de-France section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tIrish section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tLeman section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tMoldavian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tRomanian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tRussian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tCentral Russian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tSerbian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tUkranian section\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tWorkgroups\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tHigher Education\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tEthics in Science\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tSociety in Science\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tScience Communication\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tScience Policy\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tScience Publishing\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tYoung Scientists\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\t\tESOF\n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2004\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2006\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2008\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2010\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2012\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tESOF2014\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tJoin us\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tMembership Categories and Fees\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tPayment Options\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tOnline Registration\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tWork for Euroscience\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tNewsletter\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tOld issues\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tPolicy updates\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "    \t    \t    \t\t\tThe Euroscientist\n"
+- "\t\t\t\n"
+- " \r\n"
+- "\tAbout us\r\n"
+- "\tActivities\r\n"
+- "\tLocal Sections\r\n"
+- "\tWorkgroups\r\n"
+- "\tESOF\r\n"
+- "\tESOF2004\r\n"
+- "\tESOF2006\r\n"
+- "\tESOF2008\r\n"
+- "\tESOF2010\r\n"
+- "\tESOF2012\r\n"
+- "\tESOF2014\r\n"
+- "\tJoin us\r\n"
+- "\tNewsletter\r\n"
+- "\tThe Euroscientist\r\n"
+- " \r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\t\t\tContact\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tSeltz Raymond, \r\n"
+- "\t\t\t\tSecretary General\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t1 quai Lezay-Marnésia \r\n"
+- "\t\t\t67000 Strasbourg\r\n"
+- "\t\t\tTel : +33 (0) 388 24 11 50\r\n"
+- "\t\t\tFax : +33 (0) 388 24 75 56\r\n"
+- "\t\t\t\t\t\t\tEmail : Please use our contact form\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\r\n"
+- " \r\n"
+- "\t\r\n"
+- "\tSearch Site\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\tESOF Events\r\n"
+- "\r\n"
+- "\r\n"
+- "\tThe ESOF2010 Competition : \r\n"
+- "\tSCHOOL COMPETITION WITHIN ESOF2010ESOF2010 intends to stimulate science education
+  in schools through a specific School Programme\r\n"
+- "\t02 july 2010\r\n"
+- "\r\n"
+- "\r\n"
+- "\tESOF2012 in Dublin! : \r\n"
+- "\tDublin to host Europe’s largest interdisciplinary science conference in 2012Strasbourg,
+  Thursday 26 November 2008\r\n"
+- "\t01 july 2012\r\n"
+- "\r\n"
+- "\r\n"
+- "\tPreparations Start for the European City of Science : \r\n"
+- "\tMeeting to mark the formal commencement of preparations to host the\n"
+- "European City of Science in Dublin in 2012.\r\n"
+- "\t01 july 2012\r\n"
+- "\r\n"
+- "\r\n"
+- "\tESOF2014 Call for proposals : \r\n"
+- "\tThe Call for ESOF 2014 is now open!!!\r\n"
+- "\t01 september 2009\r\n"
+- "\r\n"
+- " \t\tHomepage\t\t\t\tESOFESOF: The Euroscience Open Forum About ESOF  For too long,
+  Europe was lacking an independent arena for open dialogue\n"
+- |
+  on the role of all the sciences, including the humanities, in society.
+- |
+  We have it now with the Euroscience Open Forum. The initiative was
+- |
+  taken in 1998 by the researchers themselves: the Euroscience Open Forum
+- |
+  was brought to life by Euroscience.Euroscience recognised the need
+- |
+  for an interdisciplinary, pan-European meeting place for open dialogue
+- |
+  and the exchange of ideas.Visit the ESOF2010 web siteThe ESOF conceptScience and technology are becoming increasingly important as they
+- |
+  concern and affect everybody. The Euroscience Open Forum is not an
+- |
+  ordinary scientific conference, but a totally new concept. It consists
+- |
+  of a Forum for discussion of topical issues, an embedded conference
+- |
+  (with an exhibition) to showcase European achievements right across the
+- |
+  scientific and technological spectrum, and an outreach programme.The
+- |
+  outreach programme consists of a large number of events and happenings
+- |
+  throughout the ESOF host city, which are targeted to the public at
+- |
+  large of all ages. At ESOF2004 in Stockholm, the outreach programme
+- |
+  “Science in the City” attracted 11000 visitors. At ESOF2006, the
+- |
+  outreach programme was linked to the “Wissenschaftssommer”, attracting
+- |
+  some 60000 visitors.In Barcelona 2008, the event was a huge success in regards to the particpants number at the conference alone. It reached up to 2500 participants! ESOF also serves as a young scientists’
+- |
+  forum, encouraging students, PhD students and post-docs to share their
+- |
+  experience and participate in debates about such subjects as the
+- |
+  European Charter for Researchers, how to motivate young people to
+- |
+  engage in scientific careers, and how the construction of the European
+- |
+  Research Area enhances the prospects of young scientists.ESOF’s aims are:Presenting scientific and technological developments at the
+- |
+  cutting edge in all their variety from natural sciences to the social
+- |
+  sciences and the humanitiesStimulating the European public’s awareness of and interest in science and technologyFostering
+- |
+  a European dialogue on science and technology, society and policy by
+- |
+  offering a platform for cross-disciplinary interaction and
+- |
+  communication on current trends and future roads for science and
+- |
+  technology, their interaction with society and policy and the role of
+- |
+  the publicESOF’s European itineraryThe Euroscience Open Forum is held every other year, visiting the major
+- |
+  scientific cities of Europe and bringing European science to the
+- |
+  attention of all citizens.The starting point of ESOF’s European
+- |
+  journey was Stockholm, Sweden, in 2004. Two years later, 2006, ESOF’s
+- |
+  itinerary brought the vent to Munich, Germany. The
+- |
+  route continued southwards to the capital
+- |
+  of Catalonia, Barcelona, Spain in 2008. After 2008, a neighbouring country of Spain will host the growing event. In 2010 ESOF will be held in Torino, Italy. Torino has also been chosen to be the European Youth city in 2010 ,which gives extra attention to the city.ESOF’s exciting host cities reflect
+- |
+  Europe’s cultural diversity. Thus, you will experience that the spirit
+- |
+  of every Euroscience Open Forum is different…ESOF’s success depends on you, too!You can contribute to this open dialogue on all the sciences and on their role in shaping a knowledge-based society.ESOF
+- |
+  invites individuals and organisations to submit their best ideas in the
+- |
+  form of proposals for the programme. The best of these proposals will
+- |
+  be selected for the Forum by a Programme Committee of international
+- "standing.For information about ESOF2010, please visit http://www.esof2010.org/  Copyright
+  2007 Euroscience.org\r\n"
+- "\t\t\tLegal Disclaimer\r\n"
+- "\t\t\tSite Map\r\n"
+- "\tSite by \n"
+- "\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"/web/20100610204548/https://ssl.\"
+  : \"/web/20100610204548/http://www.\");\n"
+- "\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js'
+  type='text/javascript'%3E%3C/script%3E\"));\n"
+- |2+
+
+- "\tvar pageTracker = _gat._getTracker(\"UA-3911928-1\");\n"
+- "\tpageTracker._initData();\n"
+- "\tpageTracker._trackPageview();\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tSeltz Raymond, \r\n"
+- "\t\t\t\tSecretary General\t\t\r\n"
+- "\t\t\t1 quai Lezay-Marnésia \r\n"
+- "\t\t\t67000 Strasbourg\r\n"
+- "\t\t\tTel : +33 (0) 388 24 11 50\r\n"
+- "\t\t\tFax : +33 (0) 388 24 75 56\r\n"
+- "\t\t\t\t\t\t\tEmail : Please use our contact form\r\n"
+- "\t\t\t\t\t\r\n"
+- "\tThe ESOF2010 Competition : \r\n"
+- "\tSCHOOL COMPETITION WITHIN ESOF2010ESOF2010 intends to stimulate science education
+  in schools through a specific School Programme\r\n"
+- "\t02 july 2010\r\n"
+- "\r\n"
+- "\tESOF2012 in Dublin! : \r\n"
+- "\tDublin to host Europe’s largest interdisciplinary science conference in 2012Strasbourg,
+  Thursday 26 November 2008\r\n"
+- "\t01 july 2012\r\n"
+- "\r\n"
+- "\tPreparations Start for the European City of Science : \r\n"
+- "\tMeeting to mark the formal commencement of preparations to host the\n"
+- "European City of Science in Dublin in 2012.\r\n"
+- "\t01 july 2012\r\n"
+- "\r\n"
+- "\tESOF2014 Call for proposals : \r\n"
+- "\tThe Call for ESOF 2014 is now open!!!\r\n"
+- "\t01 september 2009\r\n"
+- The Call for ESOF 2014 is now open!!!
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 20.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 455
+    - 465
+    - 470
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 156
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 5.0
+    docPositions:
+    - 6
+    - 461
+    - 500
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  euroscience: !ruby/object:Word
+    word: euroscience
+    stem: eurosci
+    docFrequency: 19.0
+    docPositions:
+    - 7
+    - 163
+    - 167
+    - 171
+    - 175
+    - 187
+    - 203
+    - 207
+    - 375
+    - 455
+    - 457
+    - 458
+    - 459
+    - 462
+    - 484
+    - 492
+    - 496
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 496
+  esof: !ruby/object:Word
+    word: esof
+    stem: esof
+    docFrequency: 19.0
+    docPositions:
+    - 7
+    - 330
+    - 398
+    - 432
+    - 452
+    - 455
+    - 461
+    - 468
+    - 472
+    - 477
+    - 486
+    - 487
+    - 490
+    - 492
+    - 529
+    - 531
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 112
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 500
+    - 501
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 4.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 6.0
+    docPositions:
+    - 31
+    - 32
+    - 223
+    - 472
+    - 490
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 11.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+    - 484
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 490
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 478
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 4.0
+    docPositions:
+    - 47
+    - 455
+    - 492
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 156
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 5.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+    - 461
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 477
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 159
+    - 359
+    - 394
+    - 405
+  organisation: !ruby/object:Word
+    word: organisation
+    stem: organis
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  foundation: !ruby/object:Word
+    word: foundation
+    stem: foundat
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 207
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  review: !ruby/object:Word
+    word: review
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 497
+  disclaimer: !ruby/object:Word
+    word: disclaimer
+    stem: disclaim
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 497
+  statements: !ruby/object:Word
+    word: statements
+    stem: statement
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  activities: !ruby/object:Word
+    word: activities
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 395
+  earthwake: !ruby/object:Word
+    word: earthwake
+    stem: earthwak
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 22.0
+    docPositions:
+    - 195
+    - 211
+    - 219
+    - 307
+    - 311
+    - 315
+    - 319
+    - 323
+    - 436
+    - 441
+    - 445
+    - 447
+    - 470
+    - 479
+    - 480
+    - 482
+    - 485
+    - 516
+    - 520
+    - 523
+    - 525
+  across: !ruby/object:Word
+    word: across
+    stem: across
+    docFrequency: 3.0
+    docPositions:
+    - 195
+    - 465
+  television: !ruby/object:Word
+    word: television
+    stem: televis
+    docFrequency: 2.0
+    docPositions:
+    - 195
+  european: !ruby/object:Word
+    word: european
+    stem: european
+    docFrequency: 17.0
+    docPositions:
+    - 199
+    - 223
+    - 445
+    - 447
+    - 460
+    - 465
+    - 475
+    - 476
+    - 479
+    - 480
+    - 484
+    - 485
+    - 486
+    - 490
+    - 523
+    - 525
+  young: !ruby/object:Word
+    word: young
+    stem: young
+    docFrequency: 6.0
+    docPositions:
+    - 199
+    - 327
+    - 472
+    - 475
+    - 477
+  researchers: !ruby/object:Word
+    word: researchers
+    stem: research
+    docFrequency: 4.0
+    docPositions:
+    - 199
+    - 458
+    - 475
+  award: !ruby/object:Word
+    word: award
+    stem: award
+    docFrequency: 3.0
+    docPositions:
+    - 199
+    - 215
+  anniversary: !ruby/object:Word
+    word: anniversary
+    stem: anniversari
+    docFrequency: 2.0
+    docPositions:
+    - 203
+  awards: !ruby/object:Word
+    word: awards
+    stem: award
+    docFrequency: 2.0
+    docPositions:
+    - 207
+  eurowistdom: !ruby/object:Word
+    word: eurowistdom
+    stem: eurowistdom
+    docFrequency: 2.0
+    docPositions:
+    - 211
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 211
+  rammal: !ruby/object:Word
+    word: rammal
+    stem: rammal
+    docFrequency: 2.0
+    docPositions:
+    - 215
+  meets: !ruby/object:Word
+    word: meets
+    stem: meet
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  peotry: !ruby/object:Word
+    word: peotry
+    stem: peotri
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  south: !ruby/object:Word
+    word: south
+    stem: south
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  eastern: !ruby/object:Word
+    word: eastern
+    stem: eastern
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 227
+    - 432
+    - 467
+  elsewhere: !ruby/object:Word
+    word: elsewhere
+    stem: elsewher
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  archives: !ruby/object:Word
+    word: archives
+    stem: archiv
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  local: !ruby/object:Word
+    word: local
+    stem: local
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 396
+  sections: !ruby/object:Word
+    word: sections
+    stem: section
+    docFrequency: 3.0
+    docPositions:
+    - 235
+    - 396
+  azerbaijan: !ruby/object:Word
+    word: azerbaijan
+    stem: azerbaijan
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 16.0
+    docPositions:
+    - 239
+    - 243
+    - 247
+    - 251
+    - 255
+    - 259
+    - 263
+    - 267
+    - 271
+    - 275
+    - 279
+    - 283
+    - 287
+    - 291
+    - 295
+  bulgarian: !ruby/object:Word
+    word: bulgarian
+    stem: bulgarian
+    docFrequency: 2.0
+    docPositions:
+    - 243
+  estonian: !ruby/object:Word
+    word: estonian
+    stem: estonian
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  georgian: !ruby/object:Word
+    word: georgian
+    stem: georgian
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  greek: !ruby/object:Word
+    word: greek
+    stem: greek
+    docFrequency: 2.0
+    docPositions:
+    - 255
+  grenoble: !ruby/object:Word
+    word: grenoble
+    stem: grenobl
+    docFrequency: 2.0
+    docPositions:
+    - 259
+  ile: !ruby/object:Word
+    word: ile
+    stem: il
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  france: !ruby/object:Word
+    word: france
+    stem: franc
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  irish: !ruby/object:Word
+    word: irish
+    stem: irish
+    docFrequency: 2.0
+    docPositions:
+    - 267
+  leman: !ruby/object:Word
+    word: leman
+    stem: leman
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  moldavian: !ruby/object:Word
+    word: moldavian
+    stem: moldavian
+    docFrequency: 2.0
+    docPositions:
+    - 275
+  romanian: !ruby/object:Word
+    word: romanian
+    stem: romanian
+    docFrequency: 2.0
+    docPositions:
+    - 279
+  russian: !ruby/object:Word
+    word: russian
+    stem: russian
+    docFrequency: 3.0
+    docPositions:
+    - 283
+    - 287
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 2.0
+    docPositions:
+    - 287
+  serbian: !ruby/object:Word
+    word: serbian
+    stem: serbian
+    docFrequency: 2.0
+    docPositions:
+    - 291
+  ukranian: !ruby/object:Word
+    word: ukranian
+    stem: ukranian
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  workgroups: !ruby/object:Word
+    word: workgroups
+    stem: workgroup
+    docFrequency: 3.0
+    docPositions:
+    - 299
+    - 397
+  higher: !ruby/object:Word
+    word: higher
+    stem: higher
+    docFrequency: 2.0
+    docPositions:
+    - 303
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 4.0
+    docPositions:
+    - 303
+    - 436
+    - 516
+  ethics: !ruby/object:Word
+    word: ethics
+    stem: ethic
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 6.0
+    docPositions:
+    - 311
+    - 456
+    - 480
+    - 483
+    - 492
+  communication: !ruby/object:Word
+    word: communication
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 315
+    - 482
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 5.0
+    docPositions:
+    - 319
+    - 387
+    - 480
+    - 483
+  publishing: !ruby/object:Word
+    word: publishing
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 323
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 4.0
+    docPositions:
+    - 327
+    - 472
+    - 477
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 3.0
+    docPositions:
+    - 359
+    - 405
+  membership: !ruby/object:Word
+    word: membership
+    stem: membership
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  categories: !ruby/object:Word
+    word: categories
+    stem: categori
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 25.0
+    docPositions:
+    - 363
+    - 461
+    - 462
+    - 466
+    - 467
+    - 473
+    - 474
+    - 476
+    - 477
+    - 479
+    - 480
+    - 481
+    - 482
+    - 483
+    - 485
+    - 492
+    - 493
+  fees: !ruby/object:Word
+    word: fees
+    stem: fee
+    docFrequency: 2.0
+    docPositions:
+    - 363
+  payment: !ruby/object:Word
+    word: payment
+    stem: payment
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  options: !ruby/object:Word
+    word: options
+    stem: option
+    docFrequency: 2.0
+    docPositions:
+    - 367
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  registration: !ruby/object:Word
+    word: registration
+    stem: registr
+    docFrequency: 2.0
+    docPositions:
+    - 371
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 375
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 379
+    - 406
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 2.0
+    docPositions:
+    - 383
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 383
+    - 464
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 387
+  euroscientist: !ruby/object:Word
+    word: euroscientist
+    stem: euroscientist
+    docFrequency: 3.0
+    docPositions:
+    - 391
+    - 407
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 4.0
+    docPositions:
+    - 411
+    - 421
+    - 513
+  seltz: !ruby/object:Word
+    word: seltz
+    stem: seltz
+    docFrequency: 3.0
+    docPositions:
+    - 414
+    - 507
+  raymond: !ruby/object:Word
+    word: raymond
+    stem: raymond
+    docFrequency: 3.0
+    docPositions:
+    - 414
+    - 507
+  secretary: !ruby/object:Word
+    word: secretary
+    stem: secretari
+    docFrequency: 3.0
+    docPositions:
+    - 415
+    - 508
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 415
+    - 508
+  quai: !ruby/object:Word
+    word: quai
+    stem: quai
+    docFrequency: 3.0
+    docPositions:
+    - 417
+    - 509
+  lezay: !ruby/object:Word
+    word: lezay
+    stem: lezai
+    docFrequency: 3.0
+    docPositions:
+    - 417
+    - 509
+  marn: !ruby/object:Word
+    word: marn
+    stem: marn
+    docFrequency: 3.0
+    docPositions:
+    - 417
+    - 509
+  sia: !ruby/object:Word
+    word: sia
+    stem: sia
+    docFrequency: 3.0
+    docPositions:
+    - 417
+    - 509
+  strasbourg: !ruby/object:Word
+    word: strasbourg
+    stem: strasbourg
+    docFrequency: 3.0
+    docPositions:
+    - 418
+    - 510
+  tel: !ruby/object:Word
+    word: tel
+    stem: tel
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 511
+  fax: !ruby/object:Word
+    word: fax
+    stem: fax
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 512
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 513
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 4.0
+    docPositions:
+    - 421
+    - 496
+    - 513
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 513
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 513
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 4.0
+    docPositions:
+    - 421
+    - 494
+    - 513
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 427
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 4.0
+    docPositions:
+    - 427
+    - 498
+    - 499
+  competition: !ruby/object:Word
+    word: competition
+    stem: competit
+    docFrequency: 5.0
+    docPositions:
+    - 435
+    - 436
+    - 515
+    - 516
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 5.0
+    docPositions:
+    - 436
+    - 516
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  intends: !ruby/object:Word
+    word: intends
+    stem: intend
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  stimulate: !ruby/object:Word
+    word: stimulate
+    stem: stimul
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  schools: !ruby/object:Word
+    word: schools
+    stem: school
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 516
+  programme: !ruby/object:Word
+    word: programme
+    stem: programm
+    docFrequency: 9.0
+    docPositions:
+    - 436
+    - 466
+    - 467
+    - 469
+    - 471
+    - 494
+    - 495
+    - 516
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 7.0
+    docPositions:
+    - 437
+    - 442
+    - 448
+    - 517
+    - 521
+    - 526
+  dublin: !ruby/object:Word
+    word: dublin
+    stem: dublin
+    docFrequency: 7.0
+    docPositions:
+    - 440
+    - 441
+    - 447
+    - 519
+    - 520
+    - 525
+  host: !ruby/object:Word
+    word: host
+    stem: host
+    docFrequency: 8.0
+    docPositions:
+    - 441
+    - 446
+    - 468
+    - 490
+    - 520
+    - 524
+  europe: !ruby/object:Word
+    word: europe
+    stem: europ
+    docFrequency: 6.0
+    docPositions:
+    - 441
+    - 455
+    - 485
+    - 491
+    - 520
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 11.0
+    docPositions:
+    - 441
+    - 477
+    - 479
+    - 484
+    - 486
+    - 487
+    - 490
+    - 491
+    - 492
+    - 520
+  largest: !ruby/object:Word
+    word: largest
+    stem: largest
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 520
+  interdisciplinary: !ruby/object:Word
+    word: interdisciplinary
+    stem: interdisciplinari
+    docFrequency: 4.0
+    docPositions:
+    - 441
+    - 460
+    - 520
+  conference: !ruby/object:Word
+    word: conference
+    stem: confer
+    docFrequency: 6.0
+    docPositions:
+    - 441
+    - 463
+    - 464
+    - 472
+    - 520
+  thursday: !ruby/object:Word
+    word: thursday
+    stem: thursdai
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 520
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 520
+  preparations: !ruby/object:Word
+    word: preparations
+    stem: prepar
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 446
+    - 523
+    - 524
+  start: !ruby/object:Word
+    word: start
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 523
+  city: !ruby/object:Word
+    word: city
+    stem: citi
+    docFrequency: 9.0
+    docPositions:
+    - 445
+    - 447
+    - 468
+    - 470
+    - 490
+    - 523
+    - 525
+  meeting: !ruby/object:Word
+    word: meeting
+    stem: meet
+    docFrequency: 4.0
+    docPositions:
+    - 446
+    - 460
+    - 524
+  mark: !ruby/object:Word
+    word: mark
+    stem: mark
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 524
+  formal: !ruby/object:Word
+    word: formal
+    stem: formal
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 524
+  commencement: !ruby/object:Word
+    word: commencement
+    stem: commenc
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 524
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 6.0
+    docPositions:
+    - 451
+    - 452
+    - 528
+    - 529
+    - 531
+  proposals: !ruby/object:Word
+    word: proposals
+    stem: propos
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 494
+    - 528
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 5.0
+    docPositions:
+    - 452
+    - 457
+    - 529
+    - 531
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 13.0
+    docPositions:
+    - 452
+    - 455
+    - 457
+    - 458
+    - 460
+    - 462
+    - 484
+    - 492
+    - 529
+    - 531
+  september: !ruby/object:Word
+    word: september
+    stem: septemb
+    docFrequency: 3.0
+    docPositions:
+    - 453
+    - 530
+  homepage: !ruby/object:Word
+    word: homepage
+    stem: homepag
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  esofesof: !ruby/object:Word
+    word: esofesof
+    stem: esofesof
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  forum: !ruby/object:Word
+    word: forum
+    stem: forum
+    docFrequency: 10.0
+    docPositions:
+    - 455
+    - 457
+    - 458
+    - 462
+    - 464
+    - 473
+    - 484
+    - 492
+    - 495
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  lacking: !ruby/object:Word
+    word: lacking
+    stem: lack
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  independent: !ruby/object:Word
+    word: independent
+    stem: independ
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  arena: !ruby/object:Word
+    word: arena
+    stem: arena
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  dialogue: !ruby/object:Word
+    word: dialogue
+    stem: dialogu
+    docFrequency: 5.0
+    docPositions:
+    - 455
+    - 460
+    - 480
+    - 492
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 4.0
+    docPositions:
+    - 456
+    - 483
+    - 492
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 456
+    - 469
+    - 478
+    - 486
+    - 492
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 5.0
+    docPositions:
+    - 456
+    - 478
+    - 479
+    - 492
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 456
+  humanities: !ruby/object:Word
+    word: humanities
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 456
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  initiative: !ruby/object:Word
+    word: initiative
+    stem: initi
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  taken: !ruby/object:Word
+    word: taken
+    stem: taken
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  themselves: !ruby/object:Word
+    word: themselves
+    stem: themselv
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  brought: !ruby/object:Word
+    word: brought
+    stem: brought
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 488
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  recognised: !ruby/object:Word
+    word: recognised
+    stem: recognis
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  need: !ruby/object:Word
+    word: need
+    stem: need
+    docFrequency: 2.0
+    docPositions:
+    - 459
+  pan: !ruby/object:Word
+    word: pan
+    stem: pan
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  exchange: !ruby/object:Word
+    word: exchange
+    stem: exchang
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  ideas: !ruby/object:Word
+    word: ideas
+    stem: idea
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 493
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 496
+  sitethe: !ruby/object:Word
+    word: sitethe
+    stem: siteth
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  conceptscience: !ruby/object:Word
+    word: conceptscience
+    stem: conceptsci
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 4.0
+    docPositions:
+    - 461
+    - 480
+    - 483
+  becoming: !ruby/object:Word
+    word: becoming
+    stem: becom
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  increasingly: !ruby/object:Word
+    word: increasingly
+    stem: increasingli
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 461
+  concern: !ruby/object:Word
+    word: concern
+    stem: concern
+    docFrequency: 2.0
+    docPositions:
+    - 462
+  affect: !ruby/object:Word
+    word: affect
+    stem: affect
+    docFrequency: 2.0
+    docPositions:
+    - 462
+  everybody: !ruby/object:Word
+    word: everybody
+    stem: everybodi
+    docFrequency: 2.0
+    docPositions:
+    - 462
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 462
+  ordinary: !ruby/object:Word
+    word: ordinary
+    stem: ordinari
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 6.0
+    docPositions:
+    - 463
+    - 466
+    - 476
+    - 477
+    - 485
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  totally: !ruby/object:Word
+    word: totally
+    stem: total
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  concept: !ruby/object:Word
+    word: concept
+    stem: concept
+    docFrequency: 2.0
+    docPositions:
+    - 463
+  consists: !ruby/object:Word
+    word: consists
+    stem: consist
+    docFrequency: 3.0
+    docPositions:
+    - 463
+    - 467
+  discussion: !ruby/object:Word
+    word: discussion
+    stem: discuss
+    docFrequency: 2.0
+    docPositions:
+    - 464
+  topical: !ruby/object:Word
+    word: topical
+    stem: topic
+    docFrequency: 2.0
+    docPositions:
+    - 464
+  embedded: !ruby/object:Word
+    word: embedded
+    stem: embed
+    docFrequency: 2.0
+    docPositions:
+    - 464
+  exhibition: !ruby/object:Word
+    word: exhibition
+    stem: exhibit
+    docFrequency: 2.0
+    docPositions:
+    - 465
+  showcase: !ruby/object:Word
+    word: showcase
+    stem: showcas
+    docFrequency: 2.0
+    docPositions:
+    - 465
+  achievements: !ruby/object:Word
+    word: achievements
+    stem: achiev
+    docFrequency: 2.0
+    docPositions:
+    - 465
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 465
+  technological: !ruby/object:Word
+    word: technological
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 477
+  spectrum: !ruby/object:Word
+    word: spectrum
+    stem: spectrum
+    docFrequency: 2.0
+    docPositions:
+    - 466
+  outreach: !ruby/object:Word
+    word: outreach
+    stem: outreach
+    docFrequency: 5.0
+    docPositions:
+    - 466
+    - 467
+    - 469
+    - 471
+  large: !ruby/object:Word
+    word: large
+    stem: larg
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 469
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 472
+  happenings: !ruby/object:Word
+    word: happenings
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 467
+  throughout: !ruby/object:Word
+    word: throughout
+    stem: throughout
+    docFrequency: 2.0
+    docPositions:
+    - 468
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 3.0
+    docPositions:
+    - 468
+    - 490
+  targeted: !ruby/object:Word
+    word: targeted
+    stem: target
+    docFrequency: 2.0
+    docPositions:
+    - 468
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 468
+    - 479
+  ages: !ruby/object:Word
+    word: ages
+    stem: ag
+    docFrequency: 2.0
+    docPositions:
+    - 469
+  stockholm: !ruby/object:Word
+    word: stockholm
+    stem: stockholm
+    docFrequency: 3.0
+    docPositions:
+    - 469
+    - 487
+  attracted: !ruby/object:Word
+    word: attracted
+    stem: attract
+    docFrequency: 2.0
+    docPositions:
+    - 470
+  visitors: !ruby/object:Word
+    word: visitors
+    stem: visitor
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 472
+  linked: !ruby/object:Word
+    word: linked
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 471
+  wissenschaftssommer: !ruby/object:Word
+    word: wissenschaftssommer
+    stem: wissenschaftssomm
+    docFrequency: 2.0
+    docPositions:
+    - 471
+  attracting: !ruby/object:Word
+    word: attracting
+    stem: attract
+    docFrequency: 2.0
+    docPositions:
+    - 471
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  barcelona: !ruby/object:Word
+    word: barcelona
+    stem: barcelona
+    docFrequency: 3.0
+    docPositions:
+    - 472
+    - 490
+  huge: !ruby/object:Word
+    word: huge
+    stem: huge
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  success: !ruby/object:Word
+    word: success
+    stem: success
+    docFrequency: 3.0
+    docPositions:
+    - 472
+    - 492
+  regards: !ruby/object:Word
+    word: regards
+    stem: regard
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  particpants: !ruby/object:Word
+    word: particpants
+    stem: particp
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  alone: !ruby/object:Word
+    word: alone
+    stem: alon
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  reached: !ruby/object:Word
+    word: reached
+    stem: reach
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  participants: !ruby/object:Word
+    word: participants
+    stem: particip
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 3.0
+    docPositions:
+    - 472
+    - 490
+  serves: !ruby/object:Word
+    word: serves
+    stem: serv
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  encouraging: !ruby/object:Word
+    word: encouraging
+    stem: encourag
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 3.0
+    docPositions:
+    - 473
+  phd: !ruby/object:Word
+    word: phd
+    stem: phd
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  docs: !ruby/object:Word
+    word: docs
+    stem: doc
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 6.0
+    docPositions:
+    - 473
+    - 478
+    - 483
+    - 492
+    - 493
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 3.0
+    docPositions:
+    - 474
+    - 491
+  participate: !ruby/object:Word
+    word: participate
+    stem: particip
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  debates: !ruby/object:Word
+    word: debates
+    stem: debat
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  charter: !ruby/object:Word
+    word: charter
+    stem: charter
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  motivate: !ruby/object:Word
+    word: motivate
+    stem: motiv
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  engage: !ruby/object:Word
+    word: engage
+    stem: engag
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  construction: !ruby/object:Word
+    word: construction
+    stem: construct
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  enhances: !ruby/object:Word
+    word: enhances
+    stem: enhanc
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  prospects: !ruby/object:Word
+    word: prospects
+    stem: prospect
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  aims: !ruby/object:Word
+    word: aims
+    stem: aim
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  presenting: !ruby/object:Word
+    word: presenting
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  developments: !ruby/object:Word
+    word: developments
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  cutting: !ruby/object:Word
+    word: cutting
+    stem: cut
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  variety: !ruby/object:Word
+    word: variety
+    stem: varieti
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  humanitiesstimulating: !ruby/object:Word
+    word: humanitiesstimulating
+    stem: humanitiesstimul
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  awareness: !ruby/object:Word
+    word: awareness
+    stem: awar
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  interest: !ruby/object:Word
+    word: interest
+    stem: interest
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  technologyfostering: !ruby/object:Word
+    word: technologyfostering
+    stem: technologyfost
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  offering: !ruby/object:Word
+    word: offering
+    stem: offer
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  platform: !ruby/object:Word
+    word: platform
+    stem: platform
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  cross: !ruby/object:Word
+    word: cross
+    stem: cross
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  disciplinary: !ruby/object:Word
+    word: disciplinary
+    stem: disciplinari
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  interaction: !ruby/object:Word
+    word: interaction
+    stem: interact
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 483
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  future: !ruby/object:Word
+    word: future
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  roads: !ruby/object:Word
+    word: roads
+    stem: road
+    docFrequency: 2.0
+    docPositions:
+    - 482
+  publicesof: !ruby/object:Word
+    word: publicesof
+    stem: publicesof
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  itinerarythe: !ruby/object:Word
+    word: itinerarythe
+    stem: itineraryth
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 3.0
+    docPositions:
+    - 484
+    - 490
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 484
+    - 492
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  visiting: !ruby/object:Word
+    word: visiting
+    stem: visit
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  cities: !ruby/object:Word
+    word: cities
+    stem: citi
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 490
+  bringing: !ruby/object:Word
+    word: bringing
+    stem: bring
+    docFrequency: 2.0
+    docPositions:
+    - 485
+  attention: !ruby/object:Word
+    word: attention
+    stem: attent
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 490
+  citizens: !ruby/object:Word
+    word: citizens
+    stem: citizen
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  starting: !ruby/object:Word
+    word: starting
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 486
+  journey: !ruby/object:Word
+    word: journey
+    stem: journei
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  sweden: !ruby/object:Word
+    word: sweden
+    stem: sweden
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  later: !ruby/object:Word
+    word: later
+    stem: later
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  itinerary: !ruby/object:Word
+    word: itinerary
+    stem: itinerari
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  vent: !ruby/object:Word
+    word: vent
+    stem: vent
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  munich: !ruby/object:Word
+    word: munich
+    stem: munich
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  germany: !ruby/object:Word
+    word: germany
+    stem: germani
+    docFrequency: 2.0
+    docPositions:
+    - 488
+  route: !ruby/object:Word
+    word: route
+    stem: rout
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  continued: !ruby/object:Word
+    word: continued
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  southwards: !ruby/object:Word
+    word: southwards
+    stem: southward
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  capital: !ruby/object:Word
+    word: capital
+    stem: capit
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  catalonia: !ruby/object:Word
+    word: catalonia
+    stem: catalonia
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  spain: !ruby/object:Word
+    word: spain
+    stem: spain
+    docFrequency: 3.0
+    docPositions:
+    - 490
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  neighbouring: !ruby/object:Word
+    word: neighbouring
+    stem: neighbour
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  country: !ruby/object:Word
+    word: country
+    stem: countri
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  growing: !ruby/object:Word
+    word: growing
+    stem: grow
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  torino: !ruby/object:Word
+    word: torino
+    stem: torino
+    docFrequency: 3.0
+    docPositions:
+    - 490
+  italy: !ruby/object:Word
+    word: italy
+    stem: itali
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  chosen: !ruby/object:Word
+    word: chosen
+    stem: chosen
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  youth: !ruby/object:Word
+    word: youth
+    stem: youth
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  gives: !ruby/object:Word
+    word: gives
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  exciting: !ruby/object:Word
+    word: exciting
+    stem: excit
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  reflect: !ruby/object:Word
+    word: reflect
+    stem: reflect
+    docFrequency: 2.0
+    docPositions:
+    - 490
+  cultural: !ruby/object:Word
+    word: cultural
+    stem: cultur
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  diversity: !ruby/object:Word
+    word: diversity
+    stem: divers
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  thus: !ruby/object:Word
+    word: thus
+    stem: thu
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 4.0
+    docPositions:
+    - 491
+    - 492
+  spirit: !ruby/object:Word
+    word: spirit
+    stem: spirit
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  different: !ruby/object:Word
+    word: different
+    stem: differ
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  depends: !ruby/object:Word
+    word: depends
+    stem: depend
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  contribute: !ruby/object:Word
+    word: contribute
+    stem: contribut
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  shaping: !ruby/object:Word
+    word: shaping
+    stem: shape
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 2.0
+    docPositions:
+    - 492
+  invites: !ruby/object:Word
+    word: invites
+    stem: invit
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  individuals: !ruby/object:Word
+    word: individuals
+    stem: individu
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  organisations: !ruby/object:Word
+    word: organisations
+    stem: organis
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  submit: !ruby/object:Word
+    word: submit
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 493
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 494
+  selected: !ruby/object:Word
+    word: selected
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 495
+  committee: !ruby/object:Word
+    word: committee
+    stem: committe
+    docFrequency: 2.0
+    docPositions:
+    - 495
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 2.0
+    docPositions:
+    - 495
+  standing: !ruby/object:Word
+    word: standing
+    stem: stand
+    docFrequency: 2.0
+    docPositions:
+    - 496
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 496
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 496
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 498
+  gajshost: !ruby/object:Word
+    word: gajshost
+    stem: gajshost
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 501
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 500
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 2.0
+    docPositions:
+    - 500
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 500
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 500
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 2.0
+    docPositions:
+    - 501
+  pagetracker: !ruby/object:Word
+    word: pagetracker
+    stem: pagetrack
+    docFrequency: 4.0
+    docPositions:
+    - 503
+    - 504
+    - 505
+  _gat: !ruby/object:Word
+    word: _gat
+    stem: _gat
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  _gettracker: !ruby/object:Word
+    word: _gettracker
+    stem: _gettrack
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 503
+  _initdata: !ruby/object:Word
+    word: _initdata
+    stem: _initdata
+    docFrequency: 2.0
+    docPositions:
+    - 504
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 505
+lineCount: 532
+wordCount: 1396
+rank: 0.2564102564102564
+title: 'ESOF: The Euroscience Open Forum'
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.euroscience.org/esof.html\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"10\";\nvar displayMonth = \"Jun\";\nvar displayYear
+  = \"2010\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    APR\n\t\t\n\t\t\n\t\tJUN\n\t\t\n\t\t\n\t\t
+  \   JUL\n\t\t\n                \n\t    \n               \n                   \n
+  \              \n               \n               10\n\t       \n               \n\t\t
+  \  \n\t       \n\t       \n           \n               \n                   2009\n
+  \              \n               \n               2010\n\t       \n               \n\t
+  \          2011\n\t       \n\t       \n           \n       \n           40 captures\n
+  \          24 Mar 08 - 30 Nov 15\n       \n       \n       \n       \n\t \n       \n
+  \      \n       \n   \n       Close\n       Help\n   \n   \n\n\n__wm.bt();\t\t\t\t\t\t\t\t\tMembers
+  Area\n\t\t\t\t\t\n\t\n    \t    \t    \t\t\tAbout us\n\t\t\t\n\n\t\n    \t    \t
+  \   \t\t\tEuroscience Organisation\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEuroscience
+  History\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEuroscience Foundation\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tEuroscience Media Coverage\n\t\t\t\n\n\t\n    \t    \t    \t\t\tPress
+  Review\n\t\t\t\n\n\t\n    \t    \t    \t\t\tLegal Disclaimer\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tEuroscience Statements\n\t\t\t\n\n\t\n    \t    \t    \t\t\tActivities\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tEarthwake- Science across Television\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tEuropean Young Researchers Award\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEuroscience
+  10th Anniversary\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEuroscience Media Awards\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tEurowistdom- Women in Science\n\t\t\t\n\n\t\n    \t    \t
+  \   \t\t\tRammal Award\n\t\t\t\n\n\t\n    \t    \t    \t\t\tScience meets Peotry\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tSouth Eastern European Event\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEvents
+  elsewhere\n\t\t\t\n\n\t\n    \t    \t    \t\t\tArchives\n\t\t\t\n\n\t\n    \t    \t
+  \   \t\t\tLocal Sections\n\t\t\t\n\n\t\n    \t    \t    \t\t\tAzerbaijan section\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tBulgarian section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tEstonian
+  section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tGeorgian section\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tGreek section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tGrenoble section\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tIle-de-France section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tIrish
+  section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tLeman section\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tMoldavian section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tRomanian
+  section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tRussian section\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tCentral Russian section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tSerbian
+  section\n\t\t\t\n\n\t\n    \t    \t    \t\t\tUkranian section\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tWorkgroups\n\t\t\t\n\n\t\n    \t    \t    \t\t\tHigher Education\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tEthics in Science\n\t\t\t\n\n\t\n    \t    \t    \t\t\tSociety
+  in Science\n\t\t\t\n\n\t\n    \t    \t    \t\t\tScience Communication\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tScience Policy\n\t\t\t\n\n\t\n    \t    \t    \t\t\tScience
+  Publishing\n\t\t\t\n\n\t\n    \t    \t    \t\t\tYoung Scientists\n\t\t\t\n\n\t\t\tESOF\n
+  \   \n    \n\n\t\n    \t    \t    \t\t\tESOF2004\n\t\t\t\n\n\t\n    \t    \t    \t\t\tESOF2006\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tESOF2008\n\t\t\t\n\n\t\n    \t    \t    \t\t\tESOF2010\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tESOF2012\n\t\t\t\n\n\t\n    \t    \t    \t\t\tESOF2014\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tJoin us\n\t\t\t\n\n\t\n    \t    \t    \t\t\tMembership Categories
+  and Fees\n\t\t\t\n\n\t\n    \t    \t    \t\t\tPayment Options\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tOnline Registration\n\t\t\t\n\n\t\n    \t    \t    \t\t\tWork for
+  Euroscience\n\t\t\t\n\n\t\n    \t    \t    \t\t\tNewsletter\n\t\t\t\n\n\t\n    \t
+  \   \t    \t\t\tOld issues\n\t\t\t\n\n\t\n    \t    \t    \t\t\tPolicy updates\n\t\t\t\n\n\t\n
+  \   \t    \t    \t\t\tThe Euroscientist\n\t\t\t\n \r\n\tAbout us\r\n\tActivities\r\n\tLocal
+  Sections\r\n\tWorkgroups\r\n\tESOF\r\n\tESOF2004\r\n\tESOF2006\r\n\tESOF2008\r\n\tESOF2010\r\n\tESOF2012\r\n\tESOF2014\r\n\tJoin
+  us\r\n\tNewsletter\r\n\tThe Euroscientist\r\n \r\n\t\r\n\t\r\n\t\t\t\tContact\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\tSeltz
+  Raymond, \r\n\t\t\t\tSecretary General\t\t\r\n\t\t\r\n\t\t\t1 quai Lezay-Marnésia
+  \r\n\t\t\t67000 Strasbourg\r\n\t\t\tTel : +33 (0) 388 24 11 50\r\n\t\t\tFax : +33
+  (0) 388 24 75 56\r\n\t\t\t\t\t\t\tEmail : Please use our contact form\r\n\t\t\t\t\t\r\n\t\t\r\n\t\r\n \r\n\t\r\n\tSearch
+  Site\r\n\t\t\r\n\t\t\t\r\n\t\r\n\r\n\tESOF Events\r\n\r\n\r\n\tThe ESOF2010 Competition
+  : \r\n\tSCHOOL COMPETITION WITHIN ESOF2010ESOF2010 intends to stimulate science
+  education in schools through a specific School Programme\r\n\t02 july 2010\r\n\r\n\r\n\tESOF2012
+  in Dublin! : \r\n\tDublin to host Europe’s largest interdisciplinary science conference
+  in 2012Strasbourg, Thursday 26 November 2008\r\n\t01 july 2012\r\n\r\n\r\n\tPreparations
+  Start for the European City of Science : \r\n\tMeeting to mark the formal commencement
+  of preparations to host the\nEuropean City of Science in Dublin in 2012.\r\n\t01
+  july 2012\r\n\r\n\r\n\tESOF2014 Call for proposals : \r\n\tThe Call for ESOF 2014
+  is now open!!!\r\n\t01 september 2009\r\n\r\n \t\tHomepage\t\t\t\tESOFESOF: The
+  Euroscience Open Forum About ESOF  For too long, Europe was lacking an independent
+  arena for open dialogue\non the role of all the sciences, including the humanities,
+  in society.\nWe have it now with the Euroscience Open Forum. The initiative was\ntaken
+  in 1998 by the researchers themselves: the Euroscience Open Forum\nwas brought to
+  life by Euroscience.Euroscience recognised the need\nfor an interdisciplinary, pan-European
+  meeting place for open dialogue\nand the exchange of ideas.Visit the ESOF2010 web
+  siteThe ESOF conceptScience and technology are becoming increasingly important as
+  they\nconcern and affect everybody. The Euroscience Open Forum is not an\nordinary
+  scientific conference, but a totally new concept. It consists\nof a Forum for discussion
+  of topical issues, an embedded conference\n(with an exhibition) to showcase European
+  achievements right across the\nscientific and technological spectrum, and an outreach
+  programme.The\noutreach programme consists of a large number of events and happenings\nthroughout
+  the ESOF host city, which are targeted to the public at\nlarge of all ages. At ESOF2004
+  in Stockholm, the outreach programme\n“Science in the City” attracted 11000 visitors.
+  At ESOF2006, the\noutreach programme was linked to the “Wissenschaftssommer”, attracting\nsome
+  60000 visitors.In Barcelona 2008, the event was a huge success in regards to the
+  particpants number at the conference alone. It reached up to 2500 participants!
+  ESOF also serves as a young scientists’\nforum, encouraging students, PhD students
+  and post-docs to share their\nexperience and participate in debates about such subjects
+  as the\nEuropean Charter for Researchers, how to motivate young people to\nengage
+  in scientific careers, and how the construction of the European\nResearch Area enhances
+  the prospects of young scientists.ESOF’s aims are:Presenting scientific and technological
+  developments at the\ncutting edge in all their variety from natural sciences to
+  the social\nsciences and the humanitiesStimulating the European public’s awareness
+  of and interest in science and technologyFostering\na European dialogue on science
+  and technology, society and policy by\noffering a platform for cross-disciplinary
+  interaction and\ncommunication on current trends and future roads for science and\ntechnology,
+  their interaction with society and policy and the role of\nthe publicESOF’s European
+  itineraryThe Euroscience Open Forum is held every other year, visiting the major\nscientific
+  cities of Europe and bringing European science to the\nattention of all citizens.The
+  starting point of ESOF’s European\njourney was Stockholm, Sweden, in 2004. Two years
+  later, 2006, ESOF’s\nitinerary brought the vent to Munich, Germany. The\nroute continued
+  southwards to the capital\nof Catalonia, Barcelona, Spain in 2008. After 2008, a
+  neighbouring country of Spain will host the growing event. In 2010 ESOF will be
+  held in Torino, Italy. Torino has also been chosen to be the European Youth city
+  in 2010 ,which gives extra attention to the city.ESOF’s exciting host cities reflect\nEurope’s
+  cultural diversity. Thus, you will experience that the spirit\nof every Euroscience
+  Open Forum is different…ESOF’s success depends on you, too!You can contribute to
+  this open dialogue on all the sciences and on their role in shaping a knowledge-based
+  society.ESOF\ninvites individuals and organisations to submit their best ideas in
+  the\nform of proposals for the programme. The best of these proposals will\nbe selected
+  for the Forum by a Programme Committee of international\nstanding.For information
+  about ESOF2010, please visit http://www.esof2010.org/  Copyright 2007 Euroscience.org\r\n\t\t\tLegal
+  Disclaimer\r\n\t\t\tSite Map\r\n\tSite by \n\tvar gaJsHost = ((\"https:\" == document.location.protocol)
+  ? \"/web/20100610204548/https://ssl.\" : \"/web/20100610204548/http://www.\");\n\tdocument.write(unescape(\"%3Cscript
+  src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n\n\tvar
+  pageTracker = _gat._getTracker(\"UA-3911928-1\");\n\tpageTracker._initData();\n\tpageTracker._trackPageview();\r\n\t\t\t\r\n\t\t\t\tSeltz
+  Raymond, \r\n\t\t\t\tSecretary General\t\t\r\n\t\t\t1 quai Lezay-Marnésia \r\n\t\t\t67000
+  Strasbourg\r\n\t\t\tTel : +33 (0) 388 24 11 50\r\n\t\t\tFax : +33 (0) 388 24 75
+  56\r\n\t\t\t\t\t\t\tEmail : Please use our contact form\r\n\t\t\t\t\t\r\n\tThe ESOF2010
+  Competition : \r\n\tSCHOOL COMPETITION WITHIN ESOF2010ESOF2010 intends to stimulate
+  science education in schools through a specific School Programme\r\n\t02 july 2010\r\n\r\n\tESOF2012
+  in Dublin! : \r\n\tDublin to host Europe’s largest interdisciplinary science conference
+  in 2012Strasbourg, Thursday 26 November 2008\r\n\t01 july 2012\r\n\r\n\tPreparations
+  Start for the European City of Science : \r\n\tMeeting to mark the formal commencement
+  of preparations to host the\nEuropean City of Science in Dublin in 2012.\r\n\t01
+  july 2012\r\n\r\n\tESOF2014 Call for proposals : \r\n\tThe Call for ESOF 2014 is
+  now open!!!\r\n\t01 september 2009\r\nThe Call for ESOF 2014 is now open!!!"

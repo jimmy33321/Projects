@@ -1,0 +1,5585 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 109
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 47
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 353
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : strong
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 390
+    str1: strong
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : script
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 398
+    str1: script
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 399
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 461
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 26
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 484
+    str1: ul
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 525
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1093
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 156
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1167
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 109
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1167
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1167
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 146
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1167
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 160
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1176
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1179
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1181
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : h2
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1212
+    str1: h2
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : header
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1213
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 14
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1216
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 11
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : span
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1217
+    str1: span
+    str2: 
+    str3: 
+    int1: 0
+    column: 127
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : a
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1217
+    str1: a
+    str2: 
+    str3: 
+    int1: 0
+    column: 131
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-11yzam9"
+    line: 1218
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+address: http://www.jstor.org/stable/10.2307/3482762
+inboundLinks: []
+lines:
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Skip to Main Content
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- |2
+              JSTOR Home
+- "        \n"
+- |2
+          Search
+- |2
+      Advanced Search
+- "    \n"
+- |
+  Browse
+- |2
+      by Title
+- |2
+          by Publisher
+- "    \n"
+- |
+  MyJSTOR
+- |2
+      My Profile
+- |2
+          Shelf
+- |2
+          JPASS Downloads
+- |2
+          Purchase History
+- "        \n"
+- "    \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2
+                  Filter search by
+- |2
+                  In This IssueIn This TitleAll Content
+- "        \n"
+- "    \n"
+- |2
+      Search
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      Login
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+      Help
+- |2+
+
+- "    \n"
+- |2
+      Contact Us
+- |2+
+
+- "    \n"
+- |2
+      About
+- |2+
+
+- |2+
+
+- "            \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- |2
+          Educational Studies in Mathematics
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          Vol. 25, No. 4, Dec., 1993
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          Images of Mathematic...
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "         \n"
+- "           \n"
+- "               \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "                \n"
+- "                \n"
+- "            \n"
+- "             \n"
+- "                 \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        Images of Mathematics Held by University Teachers of Mathematical Sciences
+  \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- |
+  Roberta Mura
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          Educational Studies in Mathematics
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Vol. 25, No. 4 (Dec., 1993), pp. 375-385
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          Published by: Springer
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- |2
+          Stable URL: http://www.jstor.org/stable/3482762
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Page Count: 11
+- "    \n"
+- |2+
+
+- |2+
+
+- "             \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                            \n"
+- "                                \n"
+- "\t\n"
+- |2+
+
+- |2
+      Download PDF
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t    \n"
+- "                \n"
+- "    \n"
+- |2
+          Cite this Item
+- "    \n"
+- "    \n"
+- |2+
+
+- |2
+      Cite This Item
+- "    \n"
+- "        \n"
+- |2
+              Copy Citation
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Export Citation
+- "        \n"
+- "        \n"
+- |2
+              Export to RefWorks
+- "        \n"
+- "        \n"
+- |2
+              Export a RIS file (For EndNote, ProCite, Reference Manager, Zotero…)
+- "        \n"
+- "        \n"
+- |2
+              Export a Text file (For BibTex)
+- "        \n"
+- "    \n"
+- |2
+      × Close Overlay
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- |2
+      <div class="mbm mlm">
+- |2
+          <strong class="mbs">{{ label }}
+- |2
+          <div class="clearfix">
+- |2
+              <div id="{{ label }}_text" class="{{ class_name }} left pas brdra citation-copy">{{ citation }}
+- |2
+              Copy
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \t\n"
+- "    \t\tJournal Info\n"
+- "        \t\n"
+- |2+
+
+- "    \n"
+- |2
+      Educational Studies in Mathematics
+- |2+
+
+- |2
+      Description: Educational Studies in Mathematics presents new ideas and developments of major importance to those working in the field of mathematical education. It seeks to reflect both the variety of research concerns within this field and the range of methods used to study them. It deals with didactical, methodological and pedagogical subjects, rather than with specific programmes for teaching mathematics.
+- "    \n"
+- |2+
+
+- |2
+      Coverage: 1968-2011 (Vol. 1, No. 1/2 - Vol. 78, No. 3)
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+              Moving Wall: 3 years (What is the moving wall?)
+- "            \n"
+- |2
+                  Moving Wall
+- "                    \n"
+- |2
+                          The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.
+- |2
+                          Terms Related to the Moving Wall
+- |2
+                              Fixed walls: Journals with no new volumes being added to the archive.
+- |2
+                              Absorbed: Journals that are combined with another title.
+- |2
+                              Complete: Journals that are no longer published or that have been
+- |2
+                              combined with another title.
+- "                        \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      ISSN: 00131954
+- |2+
+
+- |2+
+
+- |2
+      EISSN: 15730816
+- |2+
+
+- "        \n"
+- "    Subjects: \n"
+- "            \n"
+- |2
+                  Mathematics,
+- "            \n"
+- |2
+                  Science & Mathematics,
+- "            \n"
+- |2
+                  Education,
+- "            \n"
+- |2
+                  Social Sciences
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \t\n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "     \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "\t    \n"
+- "    \n"
+- "        \n"
+- |2
+              Article Tools
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Cite this Item
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2
+                          Journal Info
+- "                    \n"
+- "                \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        Your access to JSTOR provided by \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "            \n"
+- |2+
+
+- "            \n"
+- "\t\n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- |2
+              « Previous Item
+- "        \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t        \n"
+- "\t            \n"
+- "\t                    Article\n"
+- "\t                \n"
+- "\t                \n"
+- "    \n"
+- |2
+          Thumbnails
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2
+              References
+- "        \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t    \n"
+- "\t    \n"
+- "\t        \n"
+- "\t                                   \n"
+- "\t                \n"
+- "\t                    \n"
+- "\t                        You have javascript disabled.\n"
+- "\t\t\t\t\t\t\n"
+- "\t                    \n"
+- |2
+      To read this item, please use PDF
+- |2+
+
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- |2+
+
+- "\t                \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Previous Page
+- |2
+          Previous Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "            \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      <!--//<![CDATA[
+- |2
+          var m3_u = (location.protocol=='https:'
+- |2
+                  ? 'https://ja.jstor.org/www/serve/ajs.php'
+- |2
+                  : 'http://ja.jstor.org/www/serve/ajs.php');
+- |2+
+
+- |2
+          if (!document.MAX_used){
+- |2
+              document.MAX_used = ',';
+- |2
+          }
+- |2
+          document.write("<script type='text/javascript' src='" + m3_u);
+- "        \n"
+- |2
+      var is_urp = false,
+- |2
+      is_shelved = false;
+- |2
+      document.write("?zoneid=16");
+- |2
+      document.write("&amp;articleId=10.2307/3482762");
+- "    \n"
+- |2
+          document.write ("&amp;issueId=10.2307/i277340");
+- |2
+          document.write("&amp;publisherCode=springer");
+- "    \n"
+- |2
+      document.write ("&amp;journalCode=educstudmath");
+- |2
+      document.write("&amp;urp=" + is_urp);
+- |2
+      document.write("&amp;rfs=" + is_shelved);
+- |2+
+
+- |2
+          document.write('&amp;cb=1168065261');
+- |2
+          if (document.MAX_used != ','){
+- |2
+              document.write("&amp;exclude=" + document.MAX_used);
+- |2
+          }
+- |2
+          document.write(document.charset ?
+- |2
+                                  '&amp;charset='+document.charset :
+- |2
+                                  (document.characterSet ?
+- |2
+                                          '&amp;charset='+document.characterSet : ''));
+- |2
+          document.write("&amp;loc=" + escape(window.location));
+- |2
+          if (document.referrer) {
+- |2
+              document.write("&amp;referer=" + escape(document.referrer));
+- |2
+          }
+- |2
+          if (document.context) {
+- |2
+              document.write("&context=" + escape(document.context));
+- |2
+          }
+- |2
+          if (document.mmm_fo) {
+- |2
+              document.write("&amp;mmm_fo=1");
+- |2
+          }
+- |2
+          document.write("'><\/script>");
+- |2
+      //]]>-->
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Next Page
+- |2
+          Next Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      We're having trouble loading this content. Download the PDF instead.
+- "    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- |2
+      Page Thumbnails
+- "   \n"
+- "    \n"
+- "        \n"
+- "                    \n"
+- "                        \n"
+- |
+  [375]
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  376
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  377
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  378
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  379
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  380
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  381
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  382
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  383
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  384
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  385
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "\t    \n"
+- "\t        \n"
+- "    \n"
+- "    \n"
+- |2
+      Abstract
+- "    \n"
+- "    \n"
+- |2
+          For some time now mathematics educators have been studying elementary and secondary school teachers' views of mathematics. A knowledge of university teachers' views of this discipline can provide a useful background to these research endeavours. As part of a national survey of men and women teachers of mathematical sciences in Canadian universities, I included a question concerning the definition of mathematics. In this article I present the themes emerging from a content analysis of the responses obtained and discuss them in relation to research on school teachers' perception of mathematics. I also report the results concerning the university teachers answers to a second question relevant to the image of mathematics, namely identifying up to ten books which, in their opinion, have had the most influence on the development of mathematics.
+- "    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- |2
+          Notes and References
+- |2
+          This item contains 15 references.
+- "        \n"
+- "        \n"
+- "            \n"
+- |2
+              References
+- "            \n"
+- "            \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Brown, L.: 1992, 'The influence of teachers on children's image of mathematics', For the Learning of Mathematics12(2), 29-33.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Bush, W. S., Lamb, C. E., and Alsina, I.: 1990, 'Gaining certification to teach secondary mathematics: A study of three teachers from other disciplines', Focus on Learning Problems in Mathematics 12(1), 41-60.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Cooney, T., Goffrey, F., Stephens, M., and Nickson, M.: 1985, 'The professional life of teachers', For the Learning of Mathematics5(2), 24-30.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Davis, P. J. and Hersh, R.: 1981, The Mathematical Experience, Birkhauser, Boston.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Dieudonné, J.: 1982, 'Mathématiques vides et mathématiques significatives', in R. Ap6ry, M. Caveing, J.-P. Descles et al., Penser les Mathématiques, Editions du Seuil, Paris, pp. 15-38.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Dionne, J. J.: 1988, Vers un Renouvellement de la Formation et du Perfectionnement des Maîtres du Primaire: Le Problème de la Didactique des Mathématiques, Les Publications de la Faculte des Sciences de l'Education, Universite de Montreal, Montreal.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Ernest, P.: 1989, 'The impact of beliefs on the teaching of mathematics', in C. Keitel, P. Damerow, A. Bishop, and P. Gerdes (eds.), Mathematics, Education and Society, UNESCO Science and Technology Education Document Series, No. 35, Paris, pp. 99-101.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Ernest, P.: 1991, The Philosophy of Mathematics Education, The Palmer Press, London.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Ernest, P.: 1992, 'The nature of mathematics: Towards a social constructivist account', Science and Education1(1), 89-100.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Lerman, S.: 1990, 'Alternative perspectives of the nature of mathematics and their influence on the teaching of mathematics', British Educational Research Journal16(1), 53-61.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Mura, R.: 1991, 'Sans distinction de sexe? Les carri6res universitaires en sciences mathdmatiques', The Canadian Journal of Higher Education21(3), 59-95.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Nimier, J.: 1986, Les maths, le français, les langues . . . à quoi ça me sert?, CEDIC/Nathan, Paris.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Perry, W. G., Jr.: 1970, Forms of Intellectual and Ethical Development in the College Years: A Scheme, Holt, Rinehart & Winston, New York.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Thompson, A. G.: 1984, 'The relationship of teachers' conception s of mathematics and mathematics teaching to instructional practice', Educational Studies in Mathematics15(2), 105-127.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2
+                                      Underhill, R. G.: 1988, 'Mathematics teachers' beliefs: Review and reflections', Focus on Learning Problems in Mathematics10(3), 43-59.
+- "                                    \n"
+- "                                \n"
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t        \n"
+- "\t    \n"
+- "        \n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- "    \n"
+- |2
+          Educational Studies in Mathematics © 1993 Springer
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t    \n"
+- "\t    \n"
+- "            \n"
+- "               \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+          Request Permissions
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+          JSTOR Home
+- |2
+              About
+- |2
+              Search
+- |2
+              Browse
+- |2
+              Terms and Conditions
+- |2
+              Privacy Policy
+- |2
+              Cookies
+- |2
+              Accessibility
+- |2
+              Help
+- "            \n"
+- |2
+      Contact Us
+- |2+
+
+- |2
+          JSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- |2
+          ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA.
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |
+  <div id="loading" class="reveal-modal small" aria-live="polite" aria-relevant="additions" aria-atomic="true" aria-busy="false" data-reveal aria-labelledby="loadingTitle" aria-hidden="true" role="dialog">
+- |2
+      <header>
+- |2
+          <h2 id="loadingTitle">{{ heading }}
+- "    \n"
+- |2
+      <div id="loadingBody" class="reveal-body">
+- |2
+          {{ body }}
+- "    \n"
+- |2
+      <a href="#" class="close-reveal-modal" aria-label="Close Overlay">&#215; <span class="visuallyhidden">Close Overlay
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+    var addthis_config =
+- |2
+    {
+- "\t\t  pubid: \"ra-562109fdc69f4e2d\"\n"
+- |2
+    };
+- "  var addthis_share = \n"
+- |2
+    {
+- "\t\t  url: \"http://www.jstor.org/stable/3482762\"\n"
+- "\t\t  \n"
+- |2
+    };
+- |2+
+
+- |2
+      // COUNTER 4 tagging code
+- |2
+      window.starData = {
+- |2
+          'contentType': 'journal',
+- |2
+          'journal': 'Educational Studies in Mathematics',
+- |2
+          'article': 'Images of Mathematics Held by University Teachers of Mathematical Sciences',
+- |2
+          'institution_consortium_map': ['indiana.edu'],
+- |2
+          'yop': '1993',
+- |2
+          'doi': '10.2307/3482762',
+- |2
+          'SEARCH_FED': 'False',
+- |2
+          'has_access': true,
+- |2
+          'page_scan': true,
+- |2
+          'pdf_only': false,
+- |2
+          'full_text': false
+- |2
+      };
+- |2+
+
+- |2
+                  var _$tarQ = _$tarQ || [];
+- "                    \n"
+- "                (function (){ \n"
+- |2
+                          var stars = document.createElement('script'),
+- |2
+                              s = document.getElementsByTagName('script')[0];
+- "                        \n"
+- "                        stars.async= true; \n"
+- "                        stars.type = 'text/javascript'; \n"
+- "                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n"
+- "                        \n"
+- "                        s.parentNode.insertBefore(stars, s); \n"
+- |2
+                      }
+- |2
+                  )();
+- "            \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              //To prevent JS errors when disabled
+- |2
+              if(typeof _satellite !== "undefined"){
+- |2
+                  _satellite.pageBottom();
+- |2
+              }
+- |2
+          The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.Your access to JSTOR provided by To read this item, please use PDFThis item contains 15 references.JSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- "        ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®,
+  and ITHAKA® are registered trademarks of ITHAKA."
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 5.0
+    docPositions:
+    - 4
+    - 48
+    - 552
+    - 655
+  jstor: !ruby/object:Word
+    word: jstor
+    stem: jstor
+    docFrequency: 19.0
+    docPositions:
+    - 10
+    - 186
+    - 287
+    - 290
+    - 373
+    - 467
+    - 468
+    - 970
+    - 982
+    - 983
+    - 1005
+    - 1047
+    - 1050
+    - 1053
+    - 1054
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 970
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 6.0
+    docPositions:
+    - 12
+    - 13
+    - 47
+    - 51
+    - 972
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 973
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 296
+    - 298
+  publisher: !ruby/object:Word
+    word: publisher
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 17
+    - 289
+    - 1049
+  myjstor: !ruby/object:Word
+    word: myjstor
+    stem: myjstor
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  shelf: !ruby/object:Word
+    word: shelf
+    stem: shelf
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  jpass: !ruby/object:Word
+    word: jpass
+    stem: jpass
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 983
+    - 1054
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  purchase: !ruby/object:Word
+    word: purchase
+    stem: purchas
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  issuein: !ruby/object:Word
+    word: issuein
+    stem: issuein
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  titleall: !ruby/object:Word
+    word: titleall
+    stem: titleal
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 978
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 980
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 980
+  educational: !ruby/object:Word
+    word: educational
+    stem: educ
+    docFrequency: 9.0
+    docPositions:
+    - 97
+    - 167
+    - 269
+    - 271
+    - 831
+    - 899
+    - 942
+    - 1012
+  studies: !ruby/object:Word
+    word: studies
+    stem: studi
+    docFrequency: 8.0
+    docPositions:
+    - 97
+    - 167
+    - 269
+    - 271
+    - 899
+    - 942
+    - 1012
+  mathematics: !ruby/object:Word
+    word: mathematics
+    stem: mathemat
+    docFrequency: 30.0
+    docPositions:
+    - 97
+    - 148
+    - 167
+    - 269
+    - 271
+    - 315
+    - 317
+    - 655
+    - 678
+    - 695
+    - 780
+    - 797
+    - 814
+    - 831
+    - 899
+    - 916
+    - 942
+    - 1012
+    - 1013
+  vol: !ruby/object:Word
+    word: vol
+    stem: vol
+    docFrequency: 5.0
+    docPositions:
+    - 105
+    - 172
+    - 274
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 8.0
+    docPositions:
+    - 105
+    - 172
+    - 274
+    - 295
+    - 297
+    - 780
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 172
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 148
+    - 1013
+  mathematic: !ruby/object:Word
+    word: mathematic
+    stem: mathemat
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 1013
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 5.0
+    docPositions:
+    - 148
+    - 655
+    - 1013
+  teachers: !ruby/object:Word
+    word: teachers
+    stem: teacher
+    docFrequency: 13.0
+    docPositions:
+    - 148
+    - 655
+    - 678
+    - 695
+    - 712
+    - 899
+    - 916
+    - 1013
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 6.0
+    docPositions:
+    - 148
+    - 271
+    - 655
+    - 729
+    - 1013
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 7.0
+    docPositions:
+    - 148
+    - 321
+    - 655
+    - 763
+    - 848
+    - 1013
+  roberta: !ruby/object:Word
+    word: roberta
+    stem: roberta
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  mura: !ruby/object:Word
+    word: mura
+    stem: mura
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 848
+  pp: !ruby/object:Word
+    word: pp
+    stem: pp
+    docFrequency: 4.0
+    docPositions:
+    - 172
+    - 746
+    - 780
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 5.0
+    docPositions:
+    - 179
+    - 287
+    - 297
+    - 1047
+  springer: !ruby/object:Word
+    word: springer
+    stem: springer
+    docFrequency: 4.0
+    docPositions:
+    - 179
+    - 481
+    - 942
+  stable: !ruby/object:Word
+    word: stable
+    stem: stabl
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 1005
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 1005
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 5.0
+    docPositions:
+    - 186
+    - 467
+    - 468
+    - 1005
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 7.0
+    docPositions:
+    - 191
+    - 450
+    - 451
+    - 517
+    - 518
+    - 563
+  count: !ruby/object:Word
+    word: count
+    stem: count
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 552
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 4.0
+    docPositions:
+    - 205
+    - 423
+    - 552
+  cite: !ruby/object:Word
+    word: cite
+    stem: cite
+    docFrequency: 4.0
+    docPositions:
+    - 213
+    - 217
+    - 349
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 9.0
+    docPositions:
+    - 213
+    - 217
+    - 349
+    - 390
+    - 423
+    - 664
+    - 1053
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 4.0
+    docPositions:
+    - 220
+    - 254
+    - 255
+  citation: !ruby/object:Word
+    word: citation
+    stem: citat
+    docFrequency: 5.0
+    docPositions:
+    - 220
+    - 232
+    - 254
+  export: !ruby/object:Word
+    word: export
+    stem: export
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 235
+    - 238
+    - 241
+  refworks: !ruby/object:Word
+    word: refworks
+    stem: refwork
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  ris: !ruby/object:Word
+    word: ris
+    stem: ri
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 241
+  endnote: !ruby/object:Word
+    word: endnote
+    stem: endnot
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  procite: !ruby/object:Word
+    word: procite
+    stem: procit
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  manager: !ruby/object:Word
+    word: manager
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  zotero: !ruby/object:Word
+    word: zotero
+    stem: zotero
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 4.0
+    docPositions:
+    - 241
+    - 473
+    - 1031
+  bibtex: !ruby/object:Word
+    word: bibtex
+    stem: bibtex
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 36.0
+    docPositions:
+    - 244
+    - 251
+    - 252
+    - 253
+    - 254
+    - 390
+    - 465
+    - 467
+    - 468
+    - 492
+    - 493
+    - 494
+    - 569
+    - 983
+    - 988
+    - 989
+    - 990
+    - 992
+    - 993
+    - 995
+    - 1009
+    - 1011
+    - 1012
+    - 1013
+    - 1014
+    - 1015
+    - 1016
+    - 1017
+    - 1018
+    - 1019
+    - 1020
+    - 1021
+    - 1026
+    - 1042
+    - 1054
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 5.0
+    docPositions:
+    - 244
+    - 995
+  overlay: !ruby/object:Word
+    word: overlay
+    stem: overlai
+    docFrequency: 4.0
+    docPositions:
+    - 244
+    - 995
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 6.0
+    docPositions:
+    - 251
+    - 253
+    - 254
+    - 988
+    - 992
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 9.0
+    docPositions:
+    - 251
+    - 252
+    - 253
+    - 254
+    - 988
+    - 992
+    - 995
+  mbm: !ruby/object:Word
+    word: mbm
+    stem: mbm
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  mlm: !ruby/object:Word
+    word: mlm
+    stem: mlm
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  mbs: !ruby/object:Word
+    word: mbs
+    stem: mb
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  label: !ruby/object:Word
+    word: label
+    stem: label
+    docFrequency: 4.0
+    docPositions:
+    - 252
+    - 254
+    - 995
+  clearfix: !ruby/object:Word
+    word: clearfix
+    stem: clearfix
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 254
+    - 988
+    - 990
+    - 992
+  _text: !ruby/object:Word
+    word: _text
+    stem: _text
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  class_name: !ruby/object:Word
+    word: class_name
+    stem: class_nam
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  pas: !ruby/object:Word
+    word: pas
+    stem: pa
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  brdra: !ruby/object:Word
+    word: brdra
+    stem: brdra
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 10.0
+    docPositions:
+    - 265
+    - 287
+    - 292
+    - 355
+    - 848
+    - 1011
+    - 1012
+    - 1047
+    - 1052
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 265
+    - 355
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  presents: !ruby/object:Word
+    word: presents
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 295
+    - 882
+  ideas: !ruby/object:Word
+    word: ideas
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 30.0
+    docPositions:
+    - 271
+    - 287
+    - 292
+    - 655
+    - 663
+    - 695
+    - 712
+    - 729
+    - 780
+    - 814
+    - 831
+    - 882
+    - 899
+    - 916
+    - 974
+    - 982
+    - 983
+    - 1047
+    - 1052
+    - 1053
+    - 1054
+  developments: !ruby/object:Word
+    word: developments
+    stem: develop
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  importance: !ruby/object:Word
+    word: importance
+    stem: import
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 3.0
+    docPositions:
+    - 271
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 7.0
+    docPositions:
+    - 271
+    - 319
+    - 763
+    - 780
+    - 797
+  seeks: !ruby/object:Word
+    word: seeks
+    stem: seek
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  reflect: !ruby/object:Word
+    word: reflect
+    stem: reflect
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  variety: !ruby/object:Word
+    word: variety
+    stem: varieti
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 7.0
+    docPositions:
+    - 271
+    - 655
+    - 831
+    - 982
+    - 1053
+  concerns: !ruby/object:Word
+    word: concerns
+    stem: concern
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  range: !ruby/object:Word
+    word: range
+    stem: rang
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  methods: !ruby/object:Word
+    word: methods
+    stem: method
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 3.0
+    docPositions:
+    - 271
+    - 695
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 271
+    - 655
+  deals: !ruby/object:Word
+    word: deals
+    stem: deal
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  didactical: !ruby/object:Word
+    word: didactical
+    stem: didact
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  methodological: !ruby/object:Word
+    word: methodological
+    stem: methodolog
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  pedagogical: !ruby/object:Word
+    word: pedagogical
+    stem: pedagog
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 3.0
+    docPositions:
+    - 271
+    - 313
+  rather: !ruby/object:Word
+    word: rather
+    stem: rather
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  programmes: !ruby/object:Word
+    word: programmes
+    stem: programm
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  teaching: !ruby/object:Word
+    word: teaching
+    stem: teach
+    docFrequency: 7.0
+    docPositions:
+    - 271
+    - 780
+    - 831
+    - 899
+    - 982
+    - 1053
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 2.0
+    docPositions:
+    - 274
+  moving: !ruby/object:Word
+    word: moving
+    stem: move
+    docFrequency: 15.0
+    docPositions:
+    - 282
+    - 284
+    - 286
+    - 288
+    - 289
+    - 291
+    - 293
+    - 294
+    - 1046
+    - 1048
+    - 1049
+    - 1051
+    - 1053
+  wall: !ruby/object:Word
+    word: wall
+    stem: wall
+    docFrequency: 13.0
+    docPositions:
+    - 282
+    - 284
+    - 286
+    - 289
+    - 291
+    - 293
+    - 294
+    - 1046
+    - 1049
+    - 1051
+    - 1053
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 282
+    - 288
+    - 882
+    - 1048
+  represents: !ruby/object:Word
+    word: represents
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 1046
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 4.0
+    docPositions:
+    - 286
+    - 655
+    - 1046
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 1046
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 1046
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 1046
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 5.0
+    docPositions:
+    - 286
+    - 287
+    - 1046
+    - 1047
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 7.0
+    docPositions:
+    - 287
+    - 290
+    - 293
+    - 1047
+    - 1050
+    - 1053
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 4.0
+    docPositions:
+    - 287
+    - 655
+    - 1047
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 1047
+  walls: !ruby/object:Word
+    word: walls
+    stem: wall
+    docFrequency: 4.0
+    docPositions:
+    - 288
+    - 295
+    - 1048
+  generally: !ruby/object:Word
+    word: generally
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1048
+  represented: !ruby/object:Word
+    word: represented
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1048
+  rare: !ruby/object:Word
+    word: rare
+    stem: rare
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1048
+  instances: !ruby/object:Word
+    word: instances
+    stem: instanc
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 1048
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 5.0
+    docPositions:
+    - 289
+    - 292
+    - 1049
+    - 1052
+  elected: !ruby/object:Word
+    word: elected
+    stem: elect
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 1049
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 7.0
+    docPositions:
+    - 289
+    - 297
+    - 420
+    - 655
+    - 1049
+  zero: !ruby/object:Word
+    word: zero
+    stem: zero
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 1049
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 1049
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 5.0
+    docPositions:
+    - 289
+    - 655
+    - 831
+    - 1049
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 7.0
+    docPositions:
+    - 289
+    - 291
+    - 292
+    - 1049
+    - 1051
+    - 1052
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 1050
+  shortly: !ruby/object:Word
+    word: shortly
+    stem: shortli
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 1050
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 1050
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 1050
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 1051
+  calculating: !ruby/object:Word
+    word: calculating
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 1051
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 9.0
+    docPositions:
+    - 291
+    - 292
+    - 293
+    - 1051
+    - 1052
+    - 1053
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 291
+    - 982
+    - 1051
+    - 1053
+  counted: !ruby/object:Word
+    word: counted
+    stem: count
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 1051
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 1052
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 292
+    - 470
+    - 488
+    - 496
+    - 499
+    - 502
+    - 1043
+    - 1052
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 3.0
+    docPositions:
+    - 293
+    - 1053
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 974
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  journals: !ruby/object:Word
+    word: journals
+    stem: journal
+    docFrequency: 4.0
+    docPositions:
+    - 295
+    - 296
+    - 297
+  volumes: !ruby/object:Word
+    word: volumes
+    stem: volum
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  added: !ruby/object:Word
+    word: added
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  absorbed: !ruby/object:Word
+    word: absorbed
+    stem: absorb
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  combined: !ruby/object:Word
+    word: combined
+    stem: combin
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 298
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 298
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 3.0
+    docPositions:
+    - 297
+    - 655
+  issn: !ruby/object:Word
+    word: issn
+    stem: issn
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  eissn: !ruby/object:Word
+    word: eissn
+    stem: eissn
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 4.0
+    docPositions:
+    - 317
+    - 780
+    - 814
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 321
+    - 814
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 5.0
+    docPositions:
+    - 345
+    - 399
+    - 655
+    - 1013
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 345
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 373
+    - 1053
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 373
+    - 1053
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 373
+    - 1053
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 4.0
+    docPositions:
+    - 390
+    - 450
+    - 451
+  thumbnails: !ruby/object:Word
+    word: thumbnails
+    stem: thumbnail
+    docFrequency: 3.0
+    docPositions:
+    - 403
+    - 563
+  references: !ruby/object:Word
+    word: references
+    stem: refer
+    docFrequency: 6.0
+    docPositions:
+    - 408
+    - 663
+    - 664
+    - 668
+    - 1053
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  disabled: !ruby/object:Word
+    word: disabled
+    stem: disabl
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 1042
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 3.0
+    docPositions:
+    - 423
+    - 1053
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 423
+    - 1053
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 423
+    - 982
+    - 1053
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 465
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 495
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 466
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 467
+  ja: !ruby/object:Word
+    word: ja
+    stem: ja
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 468
+  serve: !ruby/object:Word
+    word: serve
+    stem: serv
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 468
+  ajs: !ruby/object:Word
+    word: ajs
+    stem: aj
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 468
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 468
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 33.0
+    docPositions:
+    - 470
+    - 471
+    - 473
+    - 477
+    - 478
+    - 480
+    - 481
+    - 483
+    - 484
+    - 485
+    - 487
+    - 488
+    - 489
+    - 491
+    - 492
+    - 493
+    - 494
+    - 495
+    - 496
+    - 497
+    - 499
+    - 500
+    - 502
+    - 503
+    - 505
+    - 780
+    - 1027
+    - 1028
+  max_used: !ruby/object:Word
+    word: max_used
+    stem: max_us
+    docFrequency: 5.0
+    docPositions:
+    - 470
+    - 471
+    - 488
+    - 489
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 17.0
+    docPositions:
+    - 473
+    - 477
+    - 478
+    - 480
+    - 481
+    - 483
+    - 484
+    - 485
+    - 487
+    - 489
+    - 491
+    - 495
+    - 497
+    - 500
+    - 503
+    - 505
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 5.0
+    docPositions:
+    - 473
+    - 505
+    - 1027
+    - 1028
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 473
+    - 1031
+  is_urp: !ruby/object:Word
+    word: is_urp
+    stem: is_urp
+    docFrequency: 3.0
+    docPositions:
+    - 475
+    - 484
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 475
+    - 476
+    - 988
+    - 1017
+    - 1020
+    - 1021
+  is_shelved: !ruby/object:Word
+    word: is_shelved
+    stem: is_shelv
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 485
+  zoneid: !ruby/object:Word
+    word: zoneid
+    stem: zoneid
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  amp: !ruby/object:Word
+    word: amp
+    stem: amp
+    docFrequency: 14.0
+    docPositions:
+    - 478
+    - 480
+    - 481
+    - 483
+    - 484
+    - 485
+    - 487
+    - 489
+    - 492
+    - 494
+    - 495
+    - 497
+    - 503
+  articleid: !ruby/object:Word
+    word: articleid
+    stem: articleid
+    docFrequency: 2.0
+    docPositions:
+    - 478
+  issueid: !ruby/object:Word
+    word: issueid
+    stem: issueid
+    docFrequency: 2.0
+    docPositions:
+    - 480
+  publishercode: !ruby/object:Word
+    word: publishercode
+    stem: publishercod
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  journalcode: !ruby/object:Word
+    word: journalcode
+    stem: journalcod
+    docFrequency: 2.0
+    docPositions:
+    - 483
+  educstudmath: !ruby/object:Word
+    word: educstudmath
+    stem: educstudmath
+    docFrequency: 2.0
+    docPositions:
+    - 483
+  urp: !ruby/object:Word
+    word: urp
+    stem: urp
+    docFrequency: 2.0
+    docPositions:
+    - 484
+  rfs: !ruby/object:Word
+    word: rfs
+    stem: rf
+    docFrequency: 2.0
+    docPositions:
+    - 485
+  cb: !ruby/object:Word
+    word: cb
+    stem: cb
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  exclude: !ruby/object:Word
+    word: exclude
+    stem: exclud
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  charset: !ruby/object:Word
+    word: charset
+    stem: charset
+    docFrequency: 5.0
+    docPositions:
+    - 491
+    - 492
+    - 494
+  characterset: !ruby/object:Word
+    word: characterset
+    stem: characterset
+    docFrequency: 3.0
+    docPositions:
+    - 493
+    - 494
+  loc: !ruby/object:Word
+    word: loc
+    stem: loc
+    docFrequency: 2.0
+    docPositions:
+    - 495
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 4.0
+    docPositions:
+    - 495
+    - 497
+    - 500
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 1010
+  referrer: !ruby/object:Word
+    word: referrer
+    stem: referr
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 497
+  referer: !ruby/object:Word
+    word: referer
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 497
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 4.0
+    docPositions:
+    - 499
+    - 500
+  mmm_fo: !ruby/object:Word
+    word: mmm_fo
+    stem: mmm_fo
+    docFrequency: 3.0
+    docPositions:
+    - 502
+    - 503
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 517
+    - 518
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  trouble: !ruby/object:Word
+    word: trouble
+    stem: troubl
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  loading: !ruby/object:Word
+    word: loading
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 988
+  instead: !ruby/object:Word
+    word: instead
+    stem: instead
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  abstract: !ruby/object:Word
+    word: abstract
+    stem: abstract
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  educators: !ruby/object:Word
+    word: educators
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  studying: !ruby/object:Word
+    word: studying
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  elementary: !ruby/object:Word
+    word: elementary
+    stem: elementari
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  secondary: !ruby/object:Word
+    word: secondary
+    stem: secondari
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 695
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 3.0
+    docPositions:
+    - 655
+  views: !ruby/object:Word
+    word: views
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 655
+  knowledge: !ruby/object:Word
+    word: knowledge
+    stem: knowledg
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  discipline: !ruby/object:Word
+    word: discipline
+    stem: disciplin
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  endeavours: !ruby/object:Word
+    word: endeavours
+    stem: endeavour
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 4.0
+    docPositions:
+    - 655
+    - 982
+    - 1053
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  survey: !ruby/object:Word
+    word: survey
+    stem: survei
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  canadian: !ruby/object:Word
+    word: canadian
+    stem: canadian
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 848
+  universities: !ruby/object:Word
+    word: universities
+    stem: univers
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 5.0
+    docPositions:
+    - 655
+    - 695
+  included: !ruby/object:Word
+    word: included
+    stem: includ
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 655
+  concerning: !ruby/object:Word
+    word: concerning
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 655
+  definition: !ruby/object:Word
+    word: definition
+    stem: definit
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  present: !ruby/object:Word
+    word: present
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  themes: !ruby/object:Word
+    word: themes
+    stem: theme
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  emerging: !ruby/object:Word
+    word: emerging
+    stem: emerg
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  analysis: !ruby/object:Word
+    word: analysis
+    stem: analysi
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  responses: !ruby/object:Word
+    word: responses
+    stem: respons
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  obtained: !ruby/object:Word
+    word: obtained
+    stem: obtain
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  discuss: !ruby/object:Word
+    word: discuss
+    stem: discuss
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  relation: !ruby/object:Word
+    word: relation
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  perception: !ruby/object:Word
+    word: perception
+    stem: percept
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 988
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 678
+  namely: !ruby/object:Word
+    word: namely
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  identifying: !ruby/object:Word
+    word: identifying
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  ten: !ruby/object:Word
+    word: ten
+    stem: ten
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 2.0
+    docPositions:
+    - 655
+  influence: !ruby/object:Word
+    word: influence
+    stem: influenc
+    docFrequency: 4.0
+    docPositions:
+    - 655
+    - 678
+    - 831
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 655
+    - 882
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 664
+    - 1053
+  brown: !ruby/object:Word
+    word: brown
+    stem: brown
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 678
+    - 763
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 8.0
+    docPositions:
+    - 678
+    - 695
+    - 831
+    - 899
+    - 1028
+    - 1034
+  learning: !ruby/object:Word
+    word: learning
+    stem: learn
+    docFrequency: 5.0
+    docPositions:
+    - 678
+    - 695
+    - 712
+    - 916
+  bush: !ruby/object:Word
+    word: bush
+    stem: bush
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 882
+  lamb: !ruby/object:Word
+    word: lamb
+    stem: lamb
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 780
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  alsina: !ruby/object:Word
+    word: alsina
+    stem: alsina
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  gaining: !ruby/object:Word
+    word: gaining
+    stem: gain
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  certification: !ruby/object:Word
+    word: certification
+    stem: certif
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  teach: !ruby/object:Word
+    word: teach
+    stem: teach
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  disciplines: !ruby/object:Word
+    word: disciplines
+    stem: disciplin
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 916
+  problems: !ruby/object:Word
+    word: problems
+    stem: problem
+    docFrequency: 3.0
+    docPositions:
+    - 695
+    - 916
+  cooney: !ruby/object:Word
+    word: cooney
+    stem: coonei
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  goffrey: !ruby/object:Word
+    word: goffrey
+    stem: goffrei
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  stephens: !ruby/object:Word
+    word: stephens
+    stem: stephen
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 4.0
+    docPositions:
+    - 712
+    - 746
+  nickson: !ruby/object:Word
+    word: nickson
+    stem: nickson
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  professional: !ruby/object:Word
+    word: professional
+    stem: profession
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 2.0
+    docPositions:
+    - 712
+  davis: !ruby/object:Word
+    word: davis
+    stem: davi
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 8.0
+    docPositions:
+    - 729
+    - 746
+    - 780
+    - 797
+    - 814
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 7.0
+    docPositions:
+    - 729
+    - 746
+    - 763
+    - 865
+  hersh: !ruby/object:Word
+    word: hersh
+    stem: hersh
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 5.0
+    docPositions:
+    - 729
+    - 746
+    - 848
+    - 916
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  birkhauser: !ruby/object:Word
+    word: birkhauser
+    stem: birkhaus
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  boston: !ruby/object:Word
+    word: boston
+    stem: boston
+    docFrequency: 2.0
+    docPositions:
+    - 729
+  dieudonn: !ruby/object:Word
+    word: dieudonn
+    stem: dieudonn
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 5.0
+    docPositions:
+    - 746
+    - 763
+  matiques: !ruby/object:Word
+    word: matiques
+    stem: matiqu
+    docFrequency: 5.0
+    docPositions:
+    - 746
+    - 763
+  vides: !ruby/object:Word
+    word: vides
+    stem: vide
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  et: !ruby/object:Word
+    word: et
+    stem: et
+    docFrequency: 4.0
+    docPositions:
+    - 746
+    - 763
+  significatives: !ruby/object:Word
+    word: significatives
+    stem: signif
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  caveing: !ruby/object:Word
+    word: caveing
+    stem: cave
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  descles: !ruby/object:Word
+    word: descles
+    stem: descl
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  al: !ruby/object:Word
+    word: al
+    stem: al
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  penser: !ruby/object:Word
+    word: penser
+    stem: penser
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  les: !ruby/object:Word
+    word: les
+    stem: le
+    docFrequency: 6.0
+    docPositions:
+    - 746
+    - 763
+    - 848
+    - 865
+  editions: !ruby/object:Word
+    word: editions
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  du: !ruby/object:Word
+    word: du
+    stem: du
+    docFrequency: 4.0
+    docPositions:
+    - 746
+    - 763
+  seuil: !ruby/object:Word
+    word: seuil
+    stem: seuil
+    docFrequency: 2.0
+    docPositions:
+    - 746
+  paris: !ruby/object:Word
+    word: paris
+    stem: pari
+    docFrequency: 4.0
+    docPositions:
+    - 746
+    - 780
+    - 865
+  dionne: !ruby/object:Word
+    word: dionne
+    stem: dionn
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  vers: !ruby/object:Word
+    word: vers
+    stem: ver
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  un: !ruby/object:Word
+    word: un
+    stem: un
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  renouvellement: !ruby/object:Word
+    word: renouvellement
+    stem: renouvel
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 7.0
+    docPositions:
+    - 763
+    - 848
+  la: !ruby/object:Word
+    word: la
+    stem: la
+    docFrequency: 4.0
+    docPositions:
+    - 763
+  formation: !ruby/object:Word
+    word: formation
+    stem: format
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  perfectionnement: !ruby/object:Word
+    word: perfectionnement
+    stem: perfectionn
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  des: !ruby/object:Word
+    word: des
+    stem: de
+    docFrequency: 4.0
+    docPositions:
+    - 763
+  ma: !ruby/object:Word
+    word: ma
+    stem: ma
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  tres: !ruby/object:Word
+    word: tres
+    stem: tre
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  primaire: !ruby/object:Word
+    word: primaire
+    stem: primair
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  le: !ruby/object:Word
+    word: le
+    stem: le
+    docFrequency: 3.0
+    docPositions:
+    - 763
+    - 865
+  probl: !ruby/object:Word
+    word: probl
+    stem: probl
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 3.0
+    docPositions:
+    - 763
+    - 865
+  didactique: !ruby/object:Word
+    word: didactique
+    stem: didactiqu
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  faculte: !ruby/object:Word
+    word: faculte
+    stem: facult
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  universite: !ruby/object:Word
+    word: universite
+    stem: universit
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  montreal: !ruby/object:Word
+    word: montreal
+    stem: montreal
+    docFrequency: 3.0
+    docPositions:
+    - 763
+  ernest: !ruby/object:Word
+    word: ernest
+    stem: ernest
+    docFrequency: 4.0
+    docPositions:
+    - 780
+    - 797
+    - 814
+  impact: !ruby/object:Word
+    word: impact
+    stem: impact
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  beliefs: !ruby/object:Word
+    word: beliefs
+    stem: belief
+    docFrequency: 3.0
+    docPositions:
+    - 780
+    - 916
+  keitel: !ruby/object:Word
+    word: keitel
+    stem: keitel
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  damerow: !ruby/object:Word
+    word: damerow
+    stem: damerow
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  bishop: !ruby/object:Word
+    word: bishop
+    stem: bishop
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  gerdes: !ruby/object:Word
+    word: gerdes
+    stem: gerd
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  eds: !ruby/object:Word
+    word: eds
+    stem: ed
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  unesco: !ruby/object:Word
+    word: unesco
+    stem: unesco
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  series: !ruby/object:Word
+    word: series
+    stem: seri
+    docFrequency: 2.0
+    docPositions:
+    - 780
+  philosophy: !ruby/object:Word
+    word: philosophy
+    stem: philosophi
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  palmer: !ruby/object:Word
+    word: palmer
+    stem: palmer
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  london: !ruby/object:Word
+    word: london
+    stem: london
+    docFrequency: 2.0
+    docPositions:
+    - 797
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 3.0
+    docPositions:
+    - 814
+    - 831
+  towards: !ruby/object:Word
+    word: towards
+    stem: toward
+    docFrequency: 2.0
+    docPositions:
+    - 814
+  constructivist: !ruby/object:Word
+    word: constructivist
+    stem: constructivist
+    docFrequency: 2.0
+    docPositions:
+    - 814
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 2.0
+    docPositions:
+    - 814
+  lerman: !ruby/object:Word
+    word: lerman
+    stem: lerman
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  perspectives: !ruby/object:Word
+    word: perspectives
+    stem: perspect
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 2.0
+    docPositions:
+    - 831
+  sans: !ruby/object:Word
+    word: sans
+    stem: san
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  distinction: !ruby/object:Word
+    word: distinction
+    stem: distinct
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  sexe: !ruby/object:Word
+    word: sexe
+    stem: sex
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  universitaires: !ruby/object:Word
+    word: universitaires
+    stem: universitair
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  en: !ruby/object:Word
+    word: en
+    stem: en
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  mathdmatiques: !ruby/object:Word
+    word: mathdmatiques
+    stem: mathdmatiqu
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  higher: !ruby/object:Word
+    word: higher
+    stem: higher
+    docFrequency: 2.0
+    docPositions:
+    - 848
+  nimier: !ruby/object:Word
+    word: nimier
+    stem: nimier
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  maths: !ruby/object:Word
+    word: maths
+    stem: math
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  fran: !ruby/object:Word
+    word: fran
+    stem: fran
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  ais: !ruby/object:Word
+    word: ais
+    stem: ai
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  langues: !ruby/object:Word
+    word: langues
+    stem: langu
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  quoi: !ruby/object:Word
+    word: quoi
+    stem: quoi
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  sert: !ruby/object:Word
+    word: sert
+    stem: sert
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  cedic: !ruby/object:Word
+    word: cedic
+    stem: cedic
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  nathan: !ruby/object:Word
+    word: nathan
+    stem: nathan
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  perry: !ruby/object:Word
+    word: perry
+    stem: perri
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 4.0
+    docPositions:
+    - 882
+    - 899
+    - 916
+  jr: !ruby/object:Word
+    word: jr
+    stem: jr
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  forms: !ruby/object:Word
+    word: forms
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  intellectual: !ruby/object:Word
+    word: intellectual
+    stem: intellectu
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  ethical: !ruby/object:Word
+    word: ethical
+    stem: ethic
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  scheme: !ruby/object:Word
+    word: scheme
+    stem: scheme
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  holt: !ruby/object:Word
+    word: holt
+    stem: holt
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  rinehart: !ruby/object:Word
+    word: rinehart
+    stem: rinehart
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  winston: !ruby/object:Word
+    word: winston
+    stem: winston
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  thompson: !ruby/object:Word
+    word: thompson
+    stem: thompson
+    docFrequency: 2.0
+    docPositions:
+    - 899
+  relationship: !ruby/object:Word
+    word: relationship
+    stem: relationship
+    docFrequency: 2.0
+    docPositions:
+    - 899
+  conception: !ruby/object:Word
+    word: conception
+    stem: concept
+    docFrequency: 2.0
+    docPositions:
+    - 899
+  instructional: !ruby/object:Word
+    word: instructional
+    stem: instruct
+    docFrequency: 2.0
+    docPositions:
+    - 899
+  practice: !ruby/object:Word
+    word: practice
+    stem: practic
+    docFrequency: 2.0
+    docPositions:
+    - 899
+  underhill: !ruby/object:Word
+    word: underhill
+    stem: underhil
+    docFrequency: 2.0
+    docPositions:
+    - 916
+  review: !ruby/object:Word
+    word: review
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 916
+  reflections: !ruby/object:Word
+    word: reflections
+    stem: reflect
+    docFrequency: 2.0
+    docPositions:
+    - 916
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 2.0
+    docPositions:
+    - 956
+  permissions: !ruby/object:Word
+    word: permissions
+    stem: permiss
+    docFrequency: 2.0
+    docPositions:
+    - 956
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 2.0
+    docPositions:
+    - 974
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 975
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 975
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 976
+  accessibility: !ruby/object:Word
+    word: accessibility
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 977
+  ithaka: !ruby/object:Word
+    word: ithaka
+    stem: ithaka
+    docFrequency: 9.0
+    docPositions:
+    - 982
+    - 983
+    - 1053
+    - 1054
+  profit: !ruby/object:Word
+    word: profit
+    stem: profit
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  organization: !ruby/object:Word
+    word: organization
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  helping: !ruby/object:Word
+    word: helping
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  academic: !ruby/object:Word
+    word: academic
+    stem: academ
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  technologies: !ruby/object:Word
+    word: technologies
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  preserve: !ruby/object:Word
+    word: preserve
+    stem: preserv
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  scholarly: !ruby/object:Word
+    word: scholarly
+    stem: scholarli
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  advance: !ruby/object:Word
+    word: advance
+    stem: advanc
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  sustainable: !ruby/object:Word
+    word: sustainable
+    stem: sustain
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 982
+    - 1053
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  registered: !ruby/object:Word
+    word: registered
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  trademarks: !ruby/object:Word
+    word: trademarks
+    stem: trademark
+    docFrequency: 3.0
+    docPositions:
+    - 983
+    - 1054
+  reveal: !ruby/object:Word
+    word: reveal
+    stem: reveal
+    docFrequency: 5.0
+    docPositions:
+    - 988
+    - 992
+    - 995
+  modal: !ruby/object:Word
+    word: modal
+    stem: modal
+    docFrequency: 3.0
+    docPositions:
+    - 988
+    - 995
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  aria: !ruby/object:Word
+    word: aria
+    stem: aria
+    docFrequency: 8.0
+    docPositions:
+    - 988
+    - 995
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  polite: !ruby/object:Word
+    word: polite
+    stem: polit
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  additions: !ruby/object:Word
+    word: additions
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  atomic: !ruby/object:Word
+    word: atomic
+    stem: atom
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 6.0
+    docPositions:
+    - 988
+    - 1018
+    - 1019
+    - 1030
+  busy: !ruby/object:Word
+    word: busy
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  labelledby: !ruby/object:Word
+    word: labelledby
+    stem: labelledbi
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  loadingtitle: !ruby/object:Word
+    word: loadingtitle
+    stem: loadingtitl
+    docFrequency: 3.0
+    docPositions:
+    - 988
+    - 990
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  dialog: !ruby/object:Word
+    word: dialog
+    stem: dialog
+    docFrequency: 2.0
+    docPositions:
+    - 988
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 2.0
+    docPositions:
+    - 989
+  heading: !ruby/object:Word
+    word: heading
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 990
+  loadingbody: !ruby/object:Word
+    word: loadingbody
+    stem: loadingbodi
+    docFrequency: 2.0
+    docPositions:
+    - 992
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 992
+    - 993
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 995
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 2.0
+    docPositions:
+    - 995
+  visuallyhidden: !ruby/object:Word
+    word: visuallyhidden
+    stem: visuallyhidden
+    docFrequency: 2.0
+    docPositions:
+    - 995
+  addthis_config: !ruby/object:Word
+    word: addthis_config
+    stem: addthis_config
+    docFrequency: 2.0
+    docPositions:
+    - 999
+  pubid: !ruby/object:Word
+    word: pubid
+    stem: pubid
+    docFrequency: 2.0
+    docPositions:
+    - 1001
+  ra: !ruby/object:Word
+    word: ra
+    stem: ra
+    docFrequency: 2.0
+    docPositions:
+    - 1001
+  addthis_share: !ruby/object:Word
+    word: addthis_share
+    stem: addthis_shar
+    docFrequency: 2.0
+    docPositions:
+    - 1003
+  counter: !ruby/object:Word
+    word: counter
+    stem: counter
+    docFrequency: 2.0
+    docPositions:
+    - 1009
+  tagging: !ruby/object:Word
+    word: tagging
+    stem: tag
+    docFrequency: 2.0
+    docPositions:
+    - 1009
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 1009
+  stardata: !ruby/object:Word
+    word: stardata
+    stem: stardata
+    docFrequency: 2.0
+    docPositions:
+    - 1010
+  contenttype: !ruby/object:Word
+    word: contenttype
+    stem: contenttyp
+    docFrequency: 2.0
+    docPositions:
+    - 1011
+  institution_consortium_map: !ruby/object:Word
+    word: institution_consortium_map
+    stem: institution_consortium_map
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 1014
+  yop: !ruby/object:Word
+    word: yop
+    stem: yop
+    docFrequency: 2.0
+    docPositions:
+    - 1015
+  doi: !ruby/object:Word
+    word: doi
+    stem: doi
+    docFrequency: 2.0
+    docPositions:
+    - 1016
+  search_fed: !ruby/object:Word
+    word: search_fed
+    stem: search_f
+    docFrequency: 2.0
+    docPositions:
+    - 1017
+  has_access: !ruby/object:Word
+    word: has_access
+    stem: has_access
+    docFrequency: 2.0
+    docPositions:
+    - 1018
+  page_scan: !ruby/object:Word
+    word: page_scan
+    stem: page_scan
+    docFrequency: 2.0
+    docPositions:
+    - 1019
+  pdf_only: !ruby/object:Word
+    word: pdf_only
+    stem: pdf_onli
+    docFrequency: 2.0
+    docPositions:
+    - 1020
+  full_text: !ruby/object:Word
+    word: full_text
+    stem: full_text
+    docFrequency: 2.0
+    docPositions:
+    - 1021
+  _: !ruby/object:Word
+    word: _
+    stem: _
+    docFrequency: 3.0
+    docPositions:
+    - 1024
+  tarq: !ruby/object:Word
+    word: tarq
+    stem: tarq
+    docFrequency: 3.0
+    docPositions:
+    - 1024
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 1026
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 6.0
+    docPositions:
+    - 1027
+    - 1030
+    - 1031
+    - 1032
+    - 1034
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 1027
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 1028
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 1030
+  receiver: !ruby/object:Word
+    word: receiver
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 1032
+  star: !ruby/object:Word
+    word: star
+    stem: star
+    docFrequency: 3.0
+    docPositions:
+    - 1032
+  ith: !ruby/object:Word
+    word: ith
+    stem: ith
+    docFrequency: 2.0
+    docPositions:
+    - 1032
+  semcs: !ruby/object:Word
+    word: semcs
+    stem: semc
+    docFrequency: 2.0
+    docPositions:
+    - 1032
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 2.0
+    docPositions:
+    - 1032
+  aws: !ruby/object:Word
+    word: aws
+    stem: aw
+    docFrequency: 2.0
+    docPositions:
+    - 1032
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 1034
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 1034
+  prevent: !ruby/object:Word
+    word: prevent
+    stem: prevent
+    docFrequency: 2.0
+    docPositions:
+    - 1042
+  errors: !ruby/object:Word
+    word: errors
+    stem: error
+    docFrequency: 2.0
+    docPositions:
+    - 1042
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 2.0
+    docPositions:
+    - 1043
+  _satellite: !ruby/object:Word
+    word: _satellite
+    stem: _satellit
+    docFrequency: 3.0
+    docPositions:
+    - 1043
+    - 1044
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 2.0
+    docPositions:
+    - 1043
+  pagebottom: !ruby/object:Word
+    word: pagebottom
+    stem: pagebottom
+    docFrequency: 2.0
+    docPositions:
+    - 1044
+  pdfthis: !ruby/object:Word
+    word: pdfthis
+    stem: pdfthi
+    docFrequency: 2.0
+    docPositions:
+    - 1053
+lineCount: 1055
+wordCount: 1511
+rank: 0.2607142857142857
+title: |2
+
+      Images of Mathematics Held by University Teachers of Mathematical Sciences on JSTOR
+links:
+- http://about.jstor.org/support-training/help
+- http://about.jstor.org/
+- http://libraries.iub.edu
+- http://ja.jstor.org/www/serve/ck.php?n=a680fa70&cb=5920056271
+- https://www.copyright.com/openurl.do?sid=pd_ITHAKA&servicename=all&WT.mc_id=tpd_ITHAKA19334192&issn=00131954&date=1993
+- http://about.jstor.org/
+- http://about.jstor.org/terms
+- http://about.jstor.org/privacy
+- http://about.jstor.org/content/jstors-use-cookies
+- http://about.jstor.org/accessibility
+- http://about.jstor.org/support-training/help
+rawText: "\n        \n        \n        \n            Skip to Main Content\n        \n\n
+  \       \n\n        \n            JSTOR Home\n        \n        Search\n    Advanced
+  Search\n    \nBrowse\n    by Title\n        by Publisher\n    \nMyJSTOR\n    My
+  Profile\n        Shelf\n        JPASS Downloads\n        Purchase History\n        \n
+  \   \n    \n            \n    \n        \n            \n                \n                    \n\n\n
+  \   \n    \n        \n        \n            \n    \n    \n        \n        \n    \n
+  \       \n            \n                Filter search by\n                In This
+  IssueIn This TitleAll Content\n        \n    \n    Search\n    \n\n\n        \n
+  \   \n\n\n                    \n                \n                \n                    \n\n
+  \   \n\n\n    \n    Login\n\n    \n    \n    Help\n\n    \n    Contact Us\n\n    \n
+  \   About\n\n\n            \n            \n                \n                    \n
+  \                       \n                            \n\n\n                        \n
+  \                       \n                            \n                                \n\n\n
+  \       \n        \n        Educational Studies in Mathematics\n        \n        \n
+  \   \n\n    \n        \n        \n        Vol. 25, No. 4, Dec., 1993\n        \n
+  \       \n    \n\n    \n        \n        \n        Images of Mathematic...\n        \n
+  \       \n    \n\n\n                        \n                        \n                            \n
+  \                               \n\n\n    \n         \n           \n               \n
+  \               \n                    \n\n    \n\n    \n\n\n                \n                \n
+  \           \n             \n                 \n    \n        \n            \n\n\n
+  \   \n        Images of Mathematics Held by University Teachers of Mathematical
+  Sciences \n    \n\n        \n\n        \n        \n    \n        \nRoberta Mura\n
+  \   \n\n    \n\n    \n        \n\n\n    \n        Educational Studies in Mathematics\n
+  \   \n\n        \n    \n        Vol. 25, No. 4 (Dec., 1993), pp. 375-385\n    \n\n
+  \       \n\n\n    \n        Published by: Springer\n    \n\n        \n    \n        \n
+  \   \n        Stable URL: http://www.jstor.org/stable/3482762\n    \n\n        \n
+  \   \n        Page Count: 11\n    \n\n\n             \n\n        \n    \n\n                            \n
+  \                           \n                                \n\t\n\n    Download
+  PDF\n\n\n\n \n\t    \n                \n    \n        Cite this Item\n    \n    \n\n
+  \   Cite This Item\n    \n        \n            Copy Citation\n        \n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        \n
+  \       \n            Export Citation\n        \n        \n            Export to
+  RefWorks\n        \n        \n            Export a RIS file (For EndNote, ProCite,
+  Reference Manager, Zotero…)\n        \n        \n            Export a Text file
+  (For BibTex)\n        \n    \n    × Close Overlay\n\n\n\n        \n        \n    \n
+  \   <div class=\"mbm mlm\">\n        <strong class=\"mbs\">{{ label }}\n        <div
+  class=\"clearfix\">\n            <div id=\"{{ label }}_text\" class=\"{{ class_name
+  }} left pas brdra citation-copy\">{{ citation }}\n            Copy\n        \n    \n\n\n
+  \       \n\n        \n    \n    \t\n    \t\tJournal Info\n        \t\n\n    \n    Educational
+  Studies in Mathematics\n\n    Description: Educational Studies in Mathematics presents
+  new ideas and developments of major importance to those working in the field of
+  mathematical education. It seeks to reflect both the variety of research concerns
+  within this field and the range of methods used to study them. It deals with didactical,
+  methodological and pedagogical subjects, rather than with specific programmes for
+  teaching mathematics.\n    \n\n    Coverage: 1968-2011 (Vol. 1, No. 1/2 - Vol. 78,
+  No. 3)\n\n\n    \n\n\n\n    \n            Moving Wall: 3 years (What is the moving
+  wall?)\n            \n                Moving Wall\n                    \n                        The
+  \"moving wall\" represents the time period between the last issue\n                        available
+  in JSTOR and the most recently published issue of a journal.\n                        Moving
+  walls are generally represented in years. In rare instances, a\n                        publisher
+  has elected to have a \"zero\" moving wall, so their current\n                        issues
+  are available in JSTOR shortly after publication.\n                        Note:
+  In calculating the moving wall, the current year is not counted.\n                        For
+  example, if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.\n                        Terms
+  Related to the Moving Wall\n                            Fixed walls: Journals with
+  no new volumes being added to the archive.\n                            Absorbed:
+  Journals that are combined with another title.\n                            Complete:
+  Journals that are no longer published or that have been\n                            combined
+  with another title.\n                        \n                \n            \n
+  \       \n    \n\n\n\n    ISSN: 00131954\n\n\n    EISSN: 15730816\n\n        \n
+  \   Subjects: \n            \n                Mathematics,\n            \n                Science
+  & Mathematics,\n            \n                Education,\n            \n                Social
+  Sciences\n            \n    \n\n\n    \t\n    \n    \n        \n            \n    \n
+  \   \n    \n     \n    \n\n\n        \n    \n    \n    \n\t    \n    \n        \n
+  \           Article Tools\n                \n                    \n                        \n
+  \                           Cite this Item\n                        \n                    \n
+  \               \n                \n                    \n                        Journal
+  Info\n                    \n                \n            \n    \n\n    \n\n                            \n
+  \                       \n                        \n                        \n                    \n
+  \                   \n                        \n\n\n    \n        Your access to
+  JSTOR provided by \n    \n\n\n                    \n                \n            \n\n
+  \           \n\t\n\t    \n\t        \n\t            \n\n\n    \n        \n            «
+  Previous Item\n        \n        \n        \n    \n\n\t        \n\t        \n\t
+  \           \n\t                    Article\n\t                \n\t                \n
+  \   \n        Thumbnails\n    \n    \n    \n        \n            References\n        \n
+  \   \n    \n\n\t            \n\t    \n\t    \n\t        \n\t                                   \n\t
+  \               \n\t                    \n\t                        You have javascript
+  disabled.\n\t\t\t\t\t\t\n\t                    \n    To read this item, please use
+  PDF\n\n\t                \n\t                \n\t                \n\t                \n\n\t
+  \               \n    \n        \n    \n        \n            \n                \n\n
+  \           \n        \n        \n    \n    \n    \n    \n        \n\n        \n\n
+  \   \n        Previous Page\n        Previous Page\n    \n\n\n        \n            \n
+  \               \n                    \n            \n            \n                \n\n\n\n
+  \   <!--//<![CDATA[\n        var m3_u = (location.protocol=='https:'\n                ?
+  'https://ja.jstor.org/www/serve/ajs.php'\n                : 'http://ja.jstor.org/www/serve/ajs.php');\n\n
+  \       if (!document.MAX_used){\n            document.MAX_used = ',';\n        }\n
+  \       document.write(\"<script type='text/javascript' src='\" + m3_u);\n        \n
+  \   var is_urp = false,\n    is_shelved = false;\n    document.write(\"?zoneid=16\");\n
+  \   document.write(\"&amp;articleId=10.2307/3482762\");\n    \n        document.write
+  (\"&amp;issueId=10.2307/i277340\");\n        document.write(\"&amp;publisherCode=springer\");\n
+  \   \n    document.write (\"&amp;journalCode=educstudmath\");\n    document.write(\"&amp;urp=\"
+  + is_urp);\n    document.write(\"&amp;rfs=\" + is_shelved);\n\n        document.write('&amp;cb=1168065261');\n
+  \       if (document.MAX_used != ','){\n            document.write(\"&amp;exclude=\"
+  + document.MAX_used);\n        }\n        document.write(document.charset ?\n                                '&amp;charset='+document.charset
+  :\n                                (document.characterSet ?\n                                        '&amp;charset='+document.characterSet
+  : ''));\n        document.write(\"&amp;loc=\" + escape(window.location));\n        if
+  (document.referrer) {\n            document.write(\"&amp;referer=\" + escape(document.referrer));\n
+  \       }\n        if (document.context) {\n            document.write(\"&context=\"
+  + escape(document.context));\n        }\n        if (document.mmm_fo) {\n            document.write(\"&amp;mmm_fo=1\");\n
+  \       }\n        document.write(\"'><\\/script>\");\n    //]]>-->\n\n    \n        \n\n\n
+  \           \n        \n        \n\n    \n        Next Page\n        Next Page\n
+  \   \n\n\n        \n\n    \n\n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n\n\n    \n    We're having trouble loading this content. Download the PDF
+  instead.\n    \n    \n\n\n\n\n\n    \n    \n        \n    Page Thumbnails\n   \n
+  \   \n        \n                    \n                        \n[375]\n                    \n
+  \               \n            \n                \n                    \n                        \n376\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n377\n                    \n                \n            \n
+  \               \n                    \n                        \n378\n                    \n
+  \               \n            \n                \n                    \n                        \n379\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n380\n                    \n                \n            \n
+  \               \n                    \n                        \n381\n                    \n
+  \               \n            \n                \n                    \n                        \n382\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n383\n                    \n                \n            \n
+  \               \n                    \n                        \n384\n                    \n
+  \               \n            \n                \n                    \n                        \n385\n
+  \                   \n                \n            \n        \n    \n\n    \n    \n\t
+  \   \n\t        \n    \n    \n    Abstract\n    \n    \n        For some time now
+  mathematics educators have been studying elementary and secondary school teachers'
+  views of mathematics. A knowledge of university teachers' views of this discipline
+  can provide a useful background to these research endeavours. As part of a national
+  survey of men and women teachers of mathematical sciences in Canadian universities,
+  I included a question concerning the definition of mathematics. In this article
+  I present the themes emerging from a content analysis of the responses obtained
+  and discuss them in relation to research on school teachers' perception of mathematics.
+  I also report the results concerning the university teachers answers to a second
+  question relevant to the image of mathematics, namely identifying up to ten books
+  which, in their opinion, have had the most influence on the development of mathematics.\n
+  \   \n    \n\n\n    \n    \n    \n        Notes and References\n        This item
+  contains 15 references.\n        \n        \n            \n            References\n
+  \           \n            \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Brown, L.: 1992, 'The influence of teachers
+  on children's image of mathematics', For the Learning of Mathematics12(2), 29-33.\n
+  \                                   \n                                \n                            \n
+  \                       \n                        \n                    \n                \n
+  \           \n                \n                    \n                        \n
+  \                       \n\n                        \n                            \n
+  \                               \n                                    Bush, W. S.,
+  Lamb, C. E., and Alsina, I.: 1990, 'Gaining certification to teach secondary mathematics:
+  A study of three teachers from other disciplines', Focus on Learning Problems in
+  Mathematics 12(1), 41-60.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Cooney,
+  T., Goffrey, F., Stephens, M., and Nickson, M.: 1985, 'The professional life of
+  teachers', For the Learning of Mathematics5(2), 24-30.\n                                    \n
+  \                               \n                            \n                        \n
+  \                       \n                    \n                \n            \n
+  \               \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Davis, P. J. and Hersh, R.: 1981, The Mathematical
+  Experience, Birkhauser, Boston.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Dieudonné,
+  J.: 1982, 'Mathématiques vides et mathématiques significatives', in R. Ap6ry, M.
+  Caveing, J.-P. Descles et al., Penser les Mathématiques, Editions du Seuil, Paris,
+  pp. 15-38.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Dionne,
+  J. J.: 1988, Vers un Renouvellement de la Formation et du Perfectionnement des Maîtres
+  du Primaire: Le Problème de la Didactique des Mathématiques, Les Publications de
+  la Faculte des Sciences de l'Education, Universite de Montreal, Montreal.\n                                    \n
+  \                               \n                            \n                        \n
+  \                       \n                    \n                \n            \n
+  \               \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Ernest, P.: 1989, 'The impact of beliefs on
+  the teaching of mathematics', in C. Keitel, P. Damerow, A. Bishop, and P. Gerdes
+  (eds.), Mathematics, Education and Society, UNESCO Science and Technology Education
+  Document Series, No. 35, Paris, pp. 99-101.\n                                    \n
+  \                               \n                            \n                        \n
+  \                       \n                    \n                \n            \n
+  \               \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Ernest, P.: 1991, The Philosophy of Mathematics
+  Education, The Palmer Press, London.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Ernest,
+  P.: 1992, 'The nature of mathematics: Towards a social constructivist account',
+  Science and Education1(1), 89-100.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Lerman,
+  S.: 1990, 'Alternative perspectives of the nature of mathematics and their influence
+  on the teaching of mathematics', British Educational Research Journal16(1), 53-61.\n
+  \                                   \n                                \n                            \n
+  \                       \n                        \n                    \n                \n
+  \           \n                \n                    \n                        \n
+  \                       \n\n                        \n                            \n
+  \                               \n                                    Mura, R.:
+  1991, 'Sans distinction de sexe? Les carri6res universitaires en sciences mathdmatiques',
+  The Canadian Journal of Higher Education21(3), 59-95.\n                                    \n
+  \                               \n                            \n                        \n
+  \                       \n                    \n                \n            \n
+  \               \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Nimier, J.: 1986, Les maths, le français, les
+  langues . . . à quoi ça me sert?, CEDIC/Nathan, Paris.\n                                    \n
+  \                               \n                            \n                        \n
+  \                       \n                    \n                \n            \n
+  \               \n                    \n                        \n                        \n\n
+  \                       \n                            \n                                \n
+  \                                   Perry, W. G., Jr.: 1970, Forms of Intellectual
+  and Ethical Development in the College Years: A Scheme, Holt, Rinehart & Winston,
+  New York.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n                        \n\n                        \n
+  \                           \n                                \n                                    Thompson,
+  A. G.: 1984, 'The relationship of teachers' conception s of mathematics and mathematics
+  teaching to instructional practice', Educational Studies in Mathematics15(2), 105-127.\n
+  \                                   \n                                \n                            \n
+  \                       \n                        \n                    \n                \n
+  \           \n                \n                    \n                        \n
+  \                       \n\n                        \n                            \n
+  \                               \n                                    Underhill,
+  R. G.: 1988, 'Mathematics teachers' beliefs: Review and reflections', Focus on Learning
+  Problems in Mathematics10(3), 43-59.\n                                    \n                                \n
+  \                           \n                        \n                        \n
+  \                   \n                \n            \n            \n        \n    \n
+  \   \n\n\t    \n    \n    \n\n\t            \n\t        \n\t    \n        \n\t    \n\t
+  \       \n\t            \n    \n        Educational Studies in Mathematics © 1993
+  Springer\n    \n\n\t        \n\t    \n\t    \n            \n               \n\n\n\n\n
+  \   \n    \n        Request Permissions\n    \n\n            \n        \n\t\n\n\n
+  \           \n    \n\n        \n        \n        \n        JSTOR Home\n            About\n
+  \           Search\n            Browse\n            Terms and Conditions\n            Privacy
+  Policy\n            Cookies\n            Accessibility\n            Help\n            \n
+  \   Contact Us\n\n        JSTOR is part of ITHAKA, a not-for-profit organization
+  helping the academic community use digital technologies to preserve the scholarly
+  record and to advance research and teaching in sustainable ways.\n        ©2000-2015
+  ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered
+  trademarks of ITHAKA.\n    \n\n        \n\n<div id=\"loading\" class=\"reveal-modal
+  small\" aria-live=\"polite\" aria-relevant=\"additions\" aria-atomic=\"true\" aria-busy=\"false\"
+  data-reveal aria-labelledby=\"loadingTitle\" aria-hidden=\"true\" role=\"dialog\">\n
+  \   <header>\n        <h2 id=\"loadingTitle\">{{ heading }}\n    \n    <div id=\"loadingBody\"
+  class=\"reveal-body\">\n        {{ body }}\n    \n    <a href=\"#\" class=\"close-reveal-modal\"
+  aria-label=\"Close Overlay\">&#215; <span class=\"visuallyhidden\">Close Overlay\n\n\n
+  \   \n  var addthis_config =\n  {\n\t\t  pubid: \"ra-562109fdc69f4e2d\"\n  };\n
+  \ var addthis_share = \n  {\n\t\t  url: \"http://www.jstor.org/stable/3482762\"\n\t\t
+  \ \n  };\n\n    // COUNTER 4 tagging code\n    window.starData = {\n        'contentType':
+  'journal',\n        'journal': 'Educational Studies in Mathematics',\n        'article':
+  'Images of Mathematics Held by University Teachers of Mathematical Sciences',\n
+  \       'institution_consortium_map': ['indiana.edu'],\n        'yop': '1993',\n
+  \       'doi': '10.2307/3482762',\n        'SEARCH_FED': 'False',\n        'has_access':
+  true,\n        'page_scan': true,\n        'pdf_only': false,\n        'full_text':
+  false\n    };\n\n                var _$tarQ = _$tarQ || [];\n                    \n
+  \               (function (){ \n                        var stars = document.createElement('script'),\n
+  \                           s = document.getElementsByTagName('script')[0];\n                        \n
+  \                       stars.async= true; \n                        stars.type
+  = 'text/javascript'; \n                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n                        \n                        s.parentNode.insertBefore(stars,
+  s); \n                    }\n                )();\n            \n        \n        \n
+  \       \n        \n            //To prevent JS errors when disabled\n            if(typeof
+  _satellite !== \"undefined\"){\n                _satellite.pageBottom();\n            }\n
+  \       The \"moving wall\" represents the time period between the last issue\n
+  \                       available in JSTOR and the most recently published issue
+  of a journal.\n                        Moving walls are generally represented in
+  years. In rare instances, a\n                        publisher has elected to have
+  a \"zero\" moving wall, so their current\n                        issues are available
+  in JSTOR shortly after publication.\n                        Note: In calculating
+  the moving wall, the current year is not counted.\n                        For example,
+  if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.Your access to JSTOR provided by
+  To read this item, please use PDFThis item contains 15 references.JSTOR is part
+  of ITHAKA, a not-for-profit organization helping the academic community use digital
+  technologies to preserve the scholarly record and to advance research and teaching
+  in sustainable ways.\n        ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the
+  JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA."

@@ -1,0 +1,3522 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 65
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 172
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 95
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 305
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 21
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 319
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 32
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 360
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 405
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 74
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 411
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 79
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 432
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 35
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 438
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 439
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 442
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 444
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 36
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 445
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 517
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 533
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 35
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 536
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 537
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 557
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 571
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 589
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 618
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 52
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 63
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 67
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 177
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 181
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 186
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 190
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsuhdr"
+    line: 620
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 197
+address: http://fxn.ws/1YayKPZ
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\t\n"
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=world',
+  'subsection=terrorism');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\tFox News\n"
+- "\t\t\tFox Business\n"
+- "\t\t\tFox News Latino\n"
+- "\t\t\tFox News Go\n"
+- "\t\t\tFox News Radio\n"
+- "\t\t\tFox Nation\n"
+- "\t\t\tFox News Insider\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "\t\tMenu\n"
+- "\t\n"
+- "\t\n"
+- "\t\tHome\n"
+- "\t\tFoxNews.com\n"
+- "\t\t\n"
+- "\t\t\tSearch\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t  \n"
+- " \n"
+- "   \n"
+- "\t\t\n"
+- "\t\t  \t\n"
+- "\t\tvar vcmArticleInfo = {\n"
+- "\t\t\tvcmId: \"e7028a775b0a1510VgnVCM100000d7c1a8c0RCRD\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/world/2015/12/14/isis-reportedly-wants-members-to-kill-children-with-down-syndrome/\",\n"
+- "\t\t\tpubDate:\"December 14, 2015\",\n"
+- "\t\t\tmyTopChannelName:\"world\",\n"
+- "\t\t\tsummary:\"<p>ISIS militants have reportedly authorized the terror group\\'s
+  members to kill newborn babies with Down syndrome, as well as other disabled children,
+  Iraqi activists claimed on Sunday.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"false\",\n"
+- "\t\t\tsponsored:\"false\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"e7028a775b0a1510VgnVCM100000d7c1a8c0RCRD\";\n"
+- "\t\tvar disqus_category_id = \"462852\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\tWorld Home\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\n"
+- "\t\t\tTerrorism\n"
+- "\t\t\tISIS killing babies with Down syndrome, activists claim\n"
+- "\t\t\t\n"
+- "\t\t\t \t\t\n"
+- "\t\t\t \t\tPublished December 14, 2015FoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t                Facebook0\n"
+- "\t\t                Twitter0\n"
+- "\t\t                Email\n"
+- "\t\t\t            Print\t                \n"
+- "\t\t            \n"
+- "\t                       \n"
+- "\t            \n"
+- "            \t\t\t\n"
+- "\t\t\t ISIS militants have reportedly authorized the terror group's members to
+  kill newborn babies with Down syndrome, as well as other disabled children, Iraqi
+  activists claimed on Sunday. \n"
+- "According to the group known as Mosul Eye, 38 babies have already been killed since
+  the religious decree was issued.  \n"
+- "The information and video have not been confirmed. Abu Said Aljazrawi, a Saudi
+  judge on the Shar’i board of ISIS, issued the so-called \"Oral Fatwa,\" those activists
+  report, saying babies as young as one week old have been killed as a result. \n"
+- |
+  The babies were suffocated or given lethal injections, according to Mosul Eye.
+- "\t\t\n"
+- "\t\n"
+- "\t\t\n"
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- |2+
+
+- "\t\t\t\t    Trending in World\n"
+- "\t\t\t     \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t1\n"
+- "\t\t\t\t\tBritish sniper killed 5 ISIS terrorists with 3 shots, report claims\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t2\n"
+- "\t\t\t\t\t ISIS killing babies with Down syndrome, activists claim\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t3\n"
+- "\t\t\t\t\tIranian woman to be stoned to death as world marks UN 'Human Rights Day'\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t4\n"
+- "\t\t\t\t\tGlobal supermarkets selling shrimp peeled by slaves\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t \t\n"
+- "\t\t\t \t\t5\n"
+- "\t\t\t\t\tArrest warrant issued for Qaddafi son days after his kidnapping\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\tSee all Trends\n"
+- "\t\n"
+- " \n"
+- "   \n"
+- |2+
+
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- |2+
+
+- "\t\t\n"
+- "\t\t\t\t \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- |2+
+
+- "\t\t\n"
+- "   \n"
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\t  \t\n"
+- "\t\t\t  \t   \n"
+- "\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "      \n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\t\t \n"
+- "\t\t    \t  \t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\tSite Index\n"
+- "\t\tSections\n"
+- "\t\t\t\tHome\n"
+- "\t\t\t\t\tVideo\n"
+- "\t\t\t\t\tPolitics\n"
+- "\t\t\t\t\tU.S.\n"
+- "\t\t\t\t\tOpinion\n"
+- "\t\t\t\t\tEntertainment\n"
+- "\t\t\t\t\tTech\n"
+- "\t\t\t\t\tScience\n"
+- "\t\t\t\t\tHealth\n"
+- "\t\t\t\t\tTravel\n"
+- "\t\t\t\t\tLifestyle\n"
+- "\t\t\t\t\tWorld\n"
+- "\t\t\t\t\tSports\n"
+- "\t\t\t\t\tWeather\n"
+- "\t\t\t\t\tOn Air\n"
+- "\t\t\t\tTools\n"
+- "\t\t\t\tLive Video\n"
+- "\t\t\t\t\tTrending\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\tAlerts\n"
+- "\t\t\t\t\tMobile\n"
+- "\t\t\t\t\tPodcasts\n"
+- "\t\t\t\t\tRadio\n"
+- "\t\t\t\t\tFox News Store\n"
+- "\t\t\t\t\tApps & Downloads\n"
+- "\t\t\t\tAbout\n"
+- "\t\t\t\tOn Air Personalities\n"
+- "\t\t\t\t\tCareers\n"
+- "\t\t\t\t\tCollege Students\n"
+- "\t\t\t\t\tFox Around the World\n"
+- "\t\t\t\t\tAdvertise With Us\n"
+- "\t\t\t\t\tTerms of Use\n"
+- "\t\t\t\t\tPrivacy Policy\n"
+- "\t\t\t\t\tAd Choices\n"
+- "\t\t\t\t\tContact Us\n"
+- "\t\t\t\t\tEmail Newsroom\n"
+- "\t\t\t\t\tFAQ\n"
+- "\t\t\t\t\tMedia Relations\n"
+- "\t\t\t\t\tClosed Captioning Policy\n"
+- "\t\t\t\tFollow\n"
+- "\t\t\t\tFacebook\n"
+- "\t\t\t\t\tTwitter\n"
+- "\t\t\t\t\tGoogle+\n"
+- "\t\t\t\t\tLinkedIn\n"
+- "\t\t\t\t\tRSS\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\n"
+- "\t\t\tFox News\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\tThis material may not be published, broadcast, rewritten, or redistributed.
+  ©2015 FOX News Network, LLC. All rights reserved. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\n"
+- |2+
+
+- "\t         \n"
+- |2
+   jQuery.ad.pre(); FOX.site.bottomInit();
+- "  \t\n"
+- Sign in to comment!ISIS militants have reportedly authorized the terror group's
+  members to kill newborn babies with Down syndrome, as well as other disabled children,
+  Iraqi activists claimed on Sunday.According to the group known as Mosul Eye, 38
+  babies have already been killed since the religious decree was issued. The information
+  and video have not been confirmed. Abu Said Aljazrawi, a Saudi judge on the Shar’i
+  board of ISIS, issued the so-called "Oral Fatwa," those activists report, saying
+  babies as young as one week old have been killed as a result.The babies were suffocated
+  or given lethal injections, according to Mosul Eye.AdvertisementAdvertisementThis
+  material may not be published, broadcast, rewritten, or redistributed. ©2015 FOX
+  News Network, LLC. All rights reserved. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 204
+    - 221
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 4.0
+    docPositions:
+    - 3
+    - 385
+    - 441
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 11.0
+    docPositions:
+    - 3
+    - 116
+    - 117
+    - 221
+    - 223
+    - 236
+    - 304
+    - 320
+    - 398
+    - 416
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 3
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 6.0
+    docPositions:
+    - 3
+    - 35
+    - 120
+    - 248
+    - 276
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 206
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 443
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 443
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 28.0
+    docPositions:
+    - 9
+    - 148
+    - 149
+    - 150
+    - 151
+    - 152
+    - 177
+    - 178
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 410
+    - 416
+    - 434
+    - 437
+    - 441
+    - 443
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 21.0
+    docPositions:
+    - 9
+    - 16
+    - 59
+    - 145
+    - 152
+    - 177
+    - 178
+    - 180
+    - 181
+    - 182
+    - 184
+    - 188
+    - 190
+    - 191
+    - 192
+    - 194
+    - 410
+    - 434
+    - 437
+    - 443
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 17.0
+    docPositions:
+    - 9
+    - 21
+    - 33
+    - 47
+    - 58
+    - 68
+    - 79
+    - 90
+    - 102
+    - 108
+    - 117
+    - 130
+    - 143
+    - 203
+    - 236
+    - 387
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 14
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 14
+    - 17
+    - 403
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 304
+    - 404
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 8.0
+    docPositions:
+    - 13
+    - 64
+    - 74
+    - 295
+    - 388
+    - 403
+    - 443
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 168
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 16
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 5.0
+    docPositions:
+    - 17
+    - 182
+    - 192
+    - 409
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 21
+    - 389
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 4.0
+    docPositions:
+    - 28
+    - 125
+    - 268
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 6.0
+    docPositions:
+    - 32
+    - 33
+    - 118
+    - 240
+    - 390
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 12.0
+    docPositions:
+    - 32
+    - 33
+    - 91
+    - 92
+    - 93
+    - 145
+    - 146
+    - 224
+    - 293
+    - 390
+    - 443
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 4.0
+    docPositions:
+    - 36
+    - 122
+    - 256
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 4.0
+    docPositions:
+    - 38
+    - 121
+    - 252
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 72
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 40
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 123
+    - 260
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 4.0
+    docPositions:
+    - 43
+    - 126
+    - 272
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 4.0
+    docPositions:
+    - 46
+    - 47
+    - 391
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 392
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 58
+    - 64
+    - 159
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 5.0
+    docPositions:
+    - 67
+    - 68
+    - 72
+    - 393
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 429
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 4.0
+    docPositions:
+    - 75
+    - 86
+    - 103
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 5.0
+    docPositions:
+    - 78
+    - 79
+    - 84
+    - 394
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 6.0
+    docPositions:
+    - 81
+    - 142
+    - 143
+    - 401
+    - 413
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 8.0
+    docPositions:
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 96
+    - 395
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 6.0
+    docPositions:
+    - 93
+    - 221
+    - 224
+    - 293
+    - 443
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 4.0
+    docPositions:
+    - 101
+    - 102
+    - 396
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 104
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 4.0
+    docPositions:
+    - 107
+    - 108
+    - 397
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 111
+    - 158
+    - 173
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 240
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 3.0
+    docPositions:
+    - 119
+    - 244
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 4.0
+    docPositions:
+    - 122
+    - 256
+    - 326
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 264
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 4.0
+    docPositions:
+    - 129
+    - 130
+    - 399
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 133
+    - 139
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 145
+    - 146
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 145
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 3.0
+    docPositions:
+    - 146
+    - 422
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 149
+    - 150
+    - 151
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 6.0
+    docPositions:
+    - 152
+    - 165
+    - 224
+    - 293
+    - 443
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 154
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 4.0
+    docPositions:
+    - 157
+    - 295
+    - 443
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 158
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 6.0
+    docPositions:
+    - 161
+    - 294
+    - 296
+    - 443
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 173
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 6.0
+    docPositions:
+    - 163
+    - 169
+    - 295
+    - 308
+    - 443
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 177
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 179
+    - 189
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 190
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 191
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 193
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 184
+    - 194
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  vcmarticleinfo: !ruby/object:Word
+    word: vcmarticleinfo
+    stem: vcmarticleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  isis: !ruby/object:Word
+    word: isis
+    stem: isi
+    docFrequency: 10.0
+    docPositions:
+    - 221
+    - 224
+    - 277
+    - 293
+    - 295
+    - 308
+    - 314
+    - 443
+  reportedly: !ruby/object:Word
+    word: reportedly
+    stem: reportedli
+    docFrequency: 5.0
+    docPositions:
+    - 221
+    - 224
+    - 293
+    - 443
+  wants: !ruby/object:Word
+    word: wants
+    stem: want
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 5.0
+    docPositions:
+    - 221
+    - 224
+    - 293
+    - 443
+  kill: !ruby/object:Word
+    word: kill
+    stem: kill
+    docFrequency: 5.0
+    docPositions:
+    - 221
+    - 224
+    - 293
+    - 443
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 7.0
+    docPositions:
+    - 221
+    - 224
+    - 277
+    - 293
+    - 314
+    - 443
+  syndrome: !ruby/object:Word
+    word: syndrome
+    stem: syndrom
+    docFrequency: 7.0
+    docPositions:
+    - 221
+    - 224
+    - 277
+    - 293
+    - 314
+    - 443
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 3.0
+    docPositions:
+    - 222
+    - 280
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 224
+  militants: !ruby/object:Word
+    word: militants
+    stem: milit
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 10.0
+    docPositions:
+    - 224
+    - 293
+    - 294
+    - 295
+    - 443
+  authorized: !ruby/object:Word
+    word: authorized
+    stem: author
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  terror: !ruby/object:Word
+    word: terror
+    stem: terror
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 6.0
+    docPositions:
+    - 224
+    - 293
+    - 294
+    - 443
+  newborn: !ruby/object:Word
+    word: newborn
+    stem: newborn
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  babies: !ruby/object:Word
+    word: babies
+    stem: babi
+    docFrequency: 12.0
+    docPositions:
+    - 224
+    - 277
+    - 293
+    - 294
+    - 295
+    - 296
+    - 314
+    - 443
+  well: !ruby/object:Word
+    word: well
+    stem: well
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  disabled: !ruby/object:Word
+    word: disabled
+    stem: disabl
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  iraqi: !ruby/object:Word
+    word: iraqi
+    stem: iraqi
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  activists: !ruby/object:Word
+    word: activists
+    stem: activist
+    docFrequency: 8.0
+    docPositions:
+    - 224
+    - 277
+    - 293
+    - 295
+    - 314
+    - 443
+  claimed: !ruby/object:Word
+    word: claimed
+    stem: claim
+    docFrequency: 4.0
+    docPositions:
+    - 224
+    - 293
+    - 443
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 226
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 3.0
+    docPositions:
+    - 226
+    - 227
+  sponsored: !ruby/object:Word
+    word: sponsored
+    stem: sponsor
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 228
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  killing: !ruby/object:Word
+    word: killing
+    stem: kill
+    docFrequency: 3.0
+    docPositions:
+    - 277
+    - 314
+  claim: !ruby/object:Word
+    word: claim
+    stem: claim
+    docFrequency: 3.0
+    docPositions:
+    - 277
+    - 314
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 280
+    - 437
+    - 443
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 422
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 288
+  according: !ruby/object:Word
+    word: according
+    stem: accord
+    docFrequency: 5.0
+    docPositions:
+    - 294
+    - 296
+    - 443
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 443
+  mosul: !ruby/object:Word
+    word: mosul
+    stem: mosul
+    docFrequency: 5.0
+    docPositions:
+    - 294
+    - 296
+    - 443
+  already: !ruby/object:Word
+    word: already
+    stem: alreadi
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 443
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 7.0
+    docPositions:
+    - 294
+    - 295
+    - 443
+  killed: !ruby/object:Word
+    word: killed
+    stem: kill
+    docFrequency: 6.0
+    docPositions:
+    - 294
+    - 295
+    - 308
+    - 443
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 443
+  religious: !ruby/object:Word
+    word: religious
+    stem: religi
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 443
+  decree: !ruby/object:Word
+    word: decree
+    stem: decre
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 443
+  issued: !ruby/object:Word
+    word: issued
+    stem: issu
+    docFrequency: 6.0
+    docPositions:
+    - 294
+    - 295
+    - 332
+    - 443
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 295
+    - 437
+    - 443
+  confirmed: !ruby/object:Word
+    word: confirmed
+    stem: confirm
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  abu: !ruby/object:Word
+    word: abu
+    stem: abu
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  aljazrawi: !ruby/object:Word
+    word: aljazrawi
+    stem: aljazrawi
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  saudi: !ruby/object:Word
+    word: saudi
+    stem: saudi
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  shar: !ruby/object:Word
+    word: shar
+    stem: shar
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  oral: !ruby/object:Word
+    word: oral
+    stem: oral
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  fatwa: !ruby/object:Word
+    word: fatwa
+    stem: fatwa
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  those: !ruby/object:Word
+    word: those
+    stem: those
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  saying: !ruby/object:Word
+    word: saying
+    stem: sai
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  young: !ruby/object:Word
+    word: young
+    stem: young
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  result: !ruby/object:Word
+    word: result
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 295
+    - 443
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 443
+  suffocated: !ruby/object:Word
+    word: suffocated
+    stem: suffoc
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 443
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 443
+  lethal: !ruby/object:Word
+    word: lethal
+    stem: lethal
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 443
+  injections: !ruby/object:Word
+    word: injections
+    stem: inject
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 443
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 301
+    - 347
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  sniper: !ruby/object:Word
+    word: sniper
+    stem: sniper
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  terrorists: !ruby/object:Word
+    word: terrorists
+    stem: terrorist
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  shots: !ruby/object:Word
+    word: shots
+    stem: shot
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  claims: !ruby/object:Word
+    word: claims
+    stem: claim
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  iranian: !ruby/object:Word
+    word: iranian
+    stem: iranian
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  woman: !ruby/object:Word
+    word: woman
+    stem: woman
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  stoned: !ruby/object:Word
+    word: stoned
+    stem: stone
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  death: !ruby/object:Word
+    word: death
+    stem: death
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  marks: !ruby/object:Word
+    word: marks
+    stem: mark
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  un: !ruby/object:Word
+    word: un
+    stem: un
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  human: !ruby/object:Word
+    word: human
+    stem: human
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 320
+    - 437
+    - 443
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  supermarkets: !ruby/object:Word
+    word: supermarkets
+    stem: supermarket
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  selling: !ruby/object:Word
+    word: selling
+    stem: sell
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  shrimp: !ruby/object:Word
+    word: shrimp
+    stem: shrimp
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  peeled: !ruby/object:Word
+    word: peeled
+    stem: peel
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  slaves: !ruby/object:Word
+    word: slaves
+    stem: slave
+    docFrequency: 2.0
+    docPositions:
+    - 326
+  arrest: !ruby/object:Word
+    word: arrest
+    stem: arrest
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  warrant: !ruby/object:Word
+    word: warrant
+    stem: warrant
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  qaddafi: !ruby/object:Word
+    word: qaddafi
+    stem: qaddafi
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  son: !ruby/object:Word
+    word: son
+    stem: son
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  kidnapping: !ruby/object:Word
+    word: kidnapping
+    stem: kidnap
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 341
+    - 437
+    - 443
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 341
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 4.0
+    docPositions:
+    - 354
+    - 420
+    - 441
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 385
+  sections: !ruby/object:Word
+    word: sections
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 386
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 2.0
+    docPositions:
+    - 400
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 405
+    - 432
+  alerts: !ruby/object:Word
+    word: alerts
+    stem: alert
+    docFrequency: 2.0
+    docPositions:
+    - 406
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 407
+  podcasts: !ruby/object:Word
+    word: podcasts
+    stem: podcast
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 2.0
+    docPositions:
+    - 410
+  apps: !ruby/object:Word
+    word: apps
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 411
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 411
+  personalities: !ruby/object:Word
+    word: personalities
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 413
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 414
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 2.0
+    docPositions:
+    - 415
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 416
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 417
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 417
+    - 421
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 4.0
+    docPositions:
+    - 418
+    - 437
+    - 443
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 418
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 419
+    - 437
+    - 443
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 3.0
+    docPositions:
+    - 419
+    - 425
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 421
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 4.0
+    docPositions:
+    - 423
+    - 437
+    - 443
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 424
+  closed: !ruby/object:Word
+    word: closed
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 425
+  captioning: !ruby/object:Word
+    word: captioning
+    stem: caption
+    docFrequency: 2.0
+    docPositions:
+    - 425
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 426
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 427
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 428
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 430
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 2.0
+    docPositions:
+    - 431
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 2.0
+    docPositions:
+    - 435
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 443
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 441
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 441
+  advertisementadvertisementthis: !ruby/object:Word
+    word: advertisementadvertisementthis
+    stem: advertisementadvertisementthi
+    docFrequency: 2.0
+    docPositions:
+    - 443
+lineCount: 444
+wordCount: 866
+rank: 0.25
+title: ISIS killing babies with Down syndrome, activists claim | Fox News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/world/terrorism/index.html
+- http://www.foxnews.com/
+- http://www.foxnews.com/world/2015/12/14/british-sniper-killed-5-isis-militants-with-3-shots-report-claims/?intcmp=trending
+- http://www.foxnews.com/world/2015/12/14/isis-reportedly-wants-members-to-kill-children-with-down-syndrome/?intcmp=trending
+- http://www.foxnews.com/world/2015/12/10/iranian-woman-to-be-stoned-to-death-as-rest-world-marks-un-human-rights-day/?intcmp=trending
+- http://www.foxnews.com/world/2015/12/14/global-supermarkets-selling-shrimp-peeled-by-slaves/?intcmp=trending
+- http://www.foxnews.com/world/2015/12/14/lebanon-issues-arrest-warrant-for-gadhafi-son-in-178-case-missing-imam/?intcmp=trending
+- http://www.foxnews.com/trending/
+rawText: "\n\t\t\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=world',
+  'subsection=terrorism');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox
+  News Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch
+  Live\n\t\t\t\t\tShow Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\t\t\t\n\t\tFox
+  News\n\t\t\tFox Business\n\t\t\tFox News Latino\n\t\t\tFox News Go\n\t\t\tFox News
+  Radio\n\t\t\tFox Nation\n\t\t\tFox News Insider\n\t\t\n\t\n\n\t\t\t\t\n\t\t\n\t\tMenu\n\t\n\t\n\t\tHome\n\t\tFoxNews.com\n\t\t\n\t\t\tSearch\n\t\t\t\t\n\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\n\t\t\n\t\t
+  \ \n \n   \n\t\t\n\t\t  \t\n\t\tvar vcmArticleInfo = {\n\t\t\tvcmId: \"e7028a775b0a1510VgnVCM100000d7c1a8c0RCRD\",\n\t\t\turl:
+  \"http://www.foxnews.com/world/2015/12/14/isis-reportedly-wants-members-to-kill-children-with-down-syndrome/\",\n\t\t\tpubDate:\"December
+  14, 2015\",\n\t\t\tmyTopChannelName:\"world\",\n\t\t\tsummary:\"<p>ISIS militants
+  have reportedly authorized the terror group\\'s members to kill newborn babies with
+  Down syndrome, as well as other disabled children, Iraqi activists claimed on Sunday.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting:
+  \"false\",\n\t\t\tsponsored:\"false\",\n\t\t\tpartnerInfo: {\"partner\": {\"source\":
+  \"\",\"info\": []}}\n\t\t};\n\t\tvar disqus_identifier = \"e7028a775b0a1510VgnVCM100000d7c1a8c0RCRD\";\n\t\tvar
+  disqus_category_id = \"462852\";\n\t\tvar disqus_developer = 1;\n\n\n\t\t\t\t\n\t\t\t\t\tWorld
+  Home\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tU.N.\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tConflicts\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tTerrorism\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisasters\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tEnvironment\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tReligion\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tScandals\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tRegions\n\t\t\t\n\t\t\t\n\t\n\t\t\tTerrorism\n\t\t\tISIS
+  killing babies with Down syndrome, activists claim\n\t\t\t\n\t\t\t \t\t\n\t\t\t
+  \t\tPublished December 14, 2015FoxNews.com\n\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t
+  \               Facebook0\n\t\t                Twitter0\n\t\t                Email\n\t\t\t
+  \           Print\t                \n\t\t            \n\t                       \n\t
+  \           \n            \t\t\t\n\t\t\t ISIS militants have reportedly authorized
+  the terror group's members to kill newborn babies with Down syndrome, as well as
+  other disabled children, Iraqi activists claimed on Sunday. \nAccording to the group
+  known as Mosul Eye, 38 babies have already been killed since the religious decree
+  was issued.  \nThe information and video have not been confirmed. Abu Said Aljazrawi,
+  a Saudi judge on the Shar’i board of ISIS, issued the so-called \"Oral Fatwa,\"
+  those activists report, saying babies as young as one week old have been killed
+  as a result. \nThe babies were suffocated or given lethal injections, according
+  to Mosul Eye.\n\t\t\n\t\n\t\t\n \n   Advertisement\n\t   \n\n\t\t\t\t    Trending
+  in World\n\t\t\t     \n\t\t\t \t\n\t\t\t \t\t1\n\t\t\t\t\tBritish sniper killed
+  5 ISIS terrorists with 3 shots, report claims\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t  \n\t\t\t
+  \t\n\t\t\t \t\t2\n\t\t\t\t\t ISIS killing babies with Down syndrome, activists claim\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t
+  \ \n\t\t\t \t\n\t\t\t \t\t3\n\t\t\t\t\tIranian woman to be stoned to death as world
+  marks UN 'Human Rights Day'\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t  \n\t\t\t \t\n\t\t\t
+  \t\t4\n\t\t\t\t\tGlobal supermarkets selling shrimp peeled by slaves\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t
+  \ \n\t\t\t \t\n\t\t\t \t\t5\n\t\t\t\t\tArrest warrant issued for Qaddafi son days
+  after his kidnapping\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t  \n\t\t\t\n\t\t\n\t\t\n\t\n\t\n\tSee
+  all Trends\n\t\n \n   \n\n \n   Advertisement\n\t   \n\n\t\t\n\t\t\t\t \n     \n
+  \        \n        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err)
+  { } \n\n\t\t\n   \n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\n\t\n\t\n\t\t
+  \ \t\n\t\t\t  \t   \n\t\t\n\t\t\t\t\n\t\t\n      \n\t\t\n\t\n\n\n\n \n\t\t\t \n\t\t
+  \   \t  \t\n\t\t\t\n\t\t\t\t\n\t\tSite Index\n\t\tSections\n\t\t\t\tHome\n\t\t\t\t\tVideo\n\t\t\t\t\tPolitics\n\t\t\t\t\tU.S.\n\t\t\t\t\tOpinion\n\t\t\t\t\tEntertainment\n\t\t\t\t\tTech\n\t\t\t\t\tScience\n\t\t\t\t\tHealth\n\t\t\t\t\tTravel\n\t\t\t\t\tLifestyle\n\t\t\t\t\tWorld\n\t\t\t\t\tSports\n\t\t\t\t\tWeather\n\t\t\t\t\tOn
+  Air\n\t\t\t\tTools\n\t\t\t\tLive Video\n\t\t\t\t\tTrending\n\t\t\t\t\tNewsletters\n\t\t\t\t\tAlerts\n\t\t\t\t\tMobile\n\t\t\t\t\tPodcasts\n\t\t\t\t\tRadio\n\t\t\t\t\tFox
+  News Store\n\t\t\t\t\tApps & Downloads\n\t\t\t\tAbout\n\t\t\t\tOn Air Personalities\n\t\t\t\t\tCareers\n\t\t\t\t\tCollege
+  Students\n\t\t\t\t\tFox Around the World\n\t\t\t\t\tAdvertise With Us\n\t\t\t\t\tTerms
+  of Use\n\t\t\t\t\tPrivacy Policy\n\t\t\t\t\tAd Choices\n\t\t\t\t\tContact Us\n\t\t\t\t\tEmail
+  Newsroom\n\t\t\t\t\tFAQ\n\t\t\t\t\tMedia Relations\n\t\t\t\t\tClosed Captioning
+  Policy\n\t\t\t\tFollow\n\t\t\t\tFacebook\n\t\t\t\t\tTwitter\n\t\t\t\t\tGoogle+\n\t\t\t\t\tLinkedIn\n\t\t\t\t\tRSS\n\t\t\t\t\tNewsletters\n\t\t\t\t\n\t\t\tFox
+  News\n\t\t\tBack to Top\n\t\t\n\t\tThis material may not be published, broadcast,
+  rewritten, or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All
+  market data delayed 20 minutes. Privacy - Terms - FAQ\n\t\n\n\t         \n jQuery.ad.pre();
+  FOX.site.bottomInit();\n  \t\nSign in to comment!ISIS militants have reportedly
+  authorized the terror group's members to kill newborn babies with Down syndrome,
+  as well as other disabled children, Iraqi activists claimed on Sunday.According
+  to the group known as Mosul Eye, 38 babies have already been killed since the religious
+  decree was issued. The information and video have not been confirmed. Abu Said Aljazrawi,
+  a Saudi judge on the Shar’i board of ISIS, issued the so-called \"Oral Fatwa,\"
+  those activists report, saying babies as young as one week old have been killed
+  as a result.The babies were suffocated or given lethal injections, according to
+  Mosul Eye.AdvertisementAdvertisementThis material may not be published, broadcast,
+  rewritten, or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All
+  market data delayed 20 minutes. Privacy - Terms - FAQ"

@@ -1,0 +1,107 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: http://metamath.org/
+inboundLinks: []
+lines:
+- |
+  This page uses frames, but your browser doesn't support them.
+- |2
+      Click here to continue.
+- "  \n"
+- |2+
+
+- |2+
+
+index:
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  uses: !ruby/object:Word
+    word: uses
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  frames: !ruby/object:Word
+    word: frames
+    stem: frame
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  doesn: !ruby/object:Word
+    word: doesn
+    stem: doesn
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 2.0
+    docPositions:
+    - 1
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 1
+lineCount: 5
+wordCount: 15
+rank: 0.2607142857142857
+title: ''
+links:
+- http://au.metamath.org/mm.html
+rawText: "This page uses frames, but your browser doesn't support them.\n    Click
+  here to continue.\n  \n\n\n"

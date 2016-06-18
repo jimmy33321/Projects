@@ -1,0 +1,853 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf?id=g5sFAAAAIAAJ&output=pdf&sig=fg_jzCIwiXQiuqVE7Q_ciy4ulok
+inboundLinks: []
+lines:
+- 'Search Images Maps Play YouTube News Gmail Drive More »Sign inwindow._OC_autoDir
+  &&window._OC_autoDir(''vheadq'', ''tia-vheadq'');Advanced Book SearchBooksbooks.google.comhttps://books.google.com/books/about/The_Historians_History_of_the_World.html?id=g5sFAAAAIAAJ&utm_source=gb-gplus-shareThe
+  Historians'' History of the WorldMy libraryHelpAdvanced Book SearchDownload EPUBDownload
+  PDFeBook - FREEGet this book in printAbeBooksOn Demand BooksAmazonFind in a libraryAll
+  sellers »_OC_InitNavbar({"child_node":[{"title":"My library","url":"https://books.google.com/books?uid=114584440181414684107\u0026ie=ISO-8859-1\u0026source=gbs_lp_bookshelf_list","id":"my_library","collapsed":true},{"title":"My
+  History","url":"","id":"my_history","collapsed":true},{"title":"Books on Google
+  Play","url":"https://play.google.com/store/books","id":"ebookstore","collapsed":true}],"highlighted_node_id":""});To
+  continue with your download, please type the characters you see below: (function()
+  {document.getElementById(''captcha'').focus();var playAudioLink = document.getElementById(''playAudioLink'');playAudioLink.href
+  = ''#'';playAudioLink.target = '''';playAudioLink.onclick = function() {var wavURL
+  = ''/books?capid\x3dAFLRE737mAjBgf4-Okq8GfRZKz_9VQ1DviG8c_CuIeLFOQPG_nXd999IEzXjVy7K0uPD3-LOdkAhxNpDUPnyN8wDnXKiYZ8jHg'';var
+  embedCode = ''<EMBED SRC='' + wavURL + '' HIDDEN="true" AUTOSTART="true" >'';document.getElementById(''playAudio'').innerHTML
+  = embedCode;var input = document.getElementById(''captcha'');input.value='''';input.focus();};})();About
+  Google Books - Privacy Policy - Terms of Service - Blog - Information for Publishers
+  - Report an issue - Help - Sitemap - Google Homevar _gaq = _gaq || [];_gaq.push([''_setAccount'',
+  ''UA-18010-1'']);_gaq.push([''_trackPageview'']);(function() {var ga = document.createElement(''script'');
+  ga.type = ''text/javascript''; ga.async = true;ga.src = (''https:'' == document.location.protocol
+  ? ''https://ssl'' : ''http://www'') + ''.google-analytics.com/ga.js'';var s = document.getElementsByTagName(''script'')[0];
+  s.parentNode.insertBefore(ga, s);})();(function() {var href = window.location.href;if
+  (href.indexOf(''?'') !== -1) {var parameters = href.split(''?'')[1].split(''&'');for
+  (var i = 0; i < parameters.length; i++) {var param = parameters[i].split(''='');if
+  (param[0] == ''focus'') {var elem = document.getElementById(param[1]);if (elem)
+  {elem.focus();}}}}})();Get this book in print'
+index:
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  maps: !ruby/object:Word
+    word: maps
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  youtube: !ruby/object:Word
+    word: youtube
+    stem: youtub
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  gmail: !ruby/object:Word
+    word: gmail
+    stem: gmail
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  drive: !ruby/object:Word
+    word: drive
+    stem: drive
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  inwindow: !ruby/object:Word
+    word: inwindow
+    stem: inwindow
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  _oc_autodir: !ruby/object:Word
+    word: _oc_autodir
+    stem: _oc_autodir
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  vheadq: !ruby/object:Word
+    word: vheadq
+    stem: vheadq
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  tia: !ruby/object:Word
+    word: tia
+    stem: tia
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  searchbooksbooks: !ruby/object:Word
+    word: searchbooksbooks
+    stem: searchbooksbook
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 9.0
+    docPositions:
+    - 0
+  comhttps: !ruby/object:Word
+    word: comhttps
+    stem: comhttp
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 9.0
+    docPositions:
+    - 0
+  the_historians_history_of_the_world: !ruby/object:Word
+    word: the_historians_history_of_the_world
+    stem: the_historians_history_of_the_world
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  utm_source: !ruby/object:Word
+    word: utm_source
+    stem: utm_sourc
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  gb: !ruby/object:Word
+    word: gb
+    stem: gb
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  gplus: !ruby/object:Word
+    word: gplus
+    stem: gplu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  sharethe: !ruby/object:Word
+    word: sharethe
+    stem: shareth
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  historians: !ruby/object:Word
+    word: historians
+    stem: historian
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  worldmy: !ruby/object:Word
+    word: worldmy
+    stem: worldmi
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  libraryhelpadvanced: !ruby/object:Word
+    word: libraryhelpadvanced
+    stem: libraryhelpadvanc
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  searchdownload: !ruby/object:Word
+    word: searchdownload
+    stem: searchdownload
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  epubdownload: !ruby/object:Word
+    word: epubdownload
+    stem: epubdownload
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  pdfebook: !ruby/object:Word
+    word: pdfebook
+    stem: pdfebook
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  freeget: !ruby/object:Word
+    word: freeget
+    stem: freeget
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  printabebookson: !ruby/object:Word
+    word: printabebookson
+    stem: printabebookson
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  demand: !ruby/object:Word
+    word: demand
+    stem: demand
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  booksamazonfind: !ruby/object:Word
+    word: booksamazonfind
+    stem: booksamazonfind
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  libraryall: !ruby/object:Word
+    word: libraryall
+    stem: libraryal
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  sellers: !ruby/object:Word
+    word: sellers
+    stem: seller
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  _oc_initnavbar: !ruby/object:Word
+    word: _oc_initnavbar
+    stem: _oc_initnavbar
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  child_node: !ruby/object:Word
+    word: child_node
+    stem: child_nod
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  uid: !ruby/object:Word
+    word: uid
+    stem: uid
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  iso: !ruby/object:Word
+    word: iso
+    stem: iso
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  gbs_lp_bookshelf_list: !ruby/object:Word
+    word: gbs_lp_bookshelf_list
+    stem: gbs_lp_bookshelf_list
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  my_library: !ruby/object:Word
+    word: my_library
+    stem: my_librari
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  collapsed: !ruby/object:Word
+    word: collapsed
+    stem: collaps
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 7.0
+    docPositions:
+    - 0
+  my_history: !ruby/object:Word
+    word: my_history
+    stem: my_histori
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  ebookstore: !ruby/object:Word
+    word: ebookstore
+    stem: ebookstor
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  highlighted_node_id: !ruby/object:Word
+    word: highlighted_node_id
+    stem: highlighted_node_id
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  characters: !ruby/object:Word
+    word: characters
+    stem: charact
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 9.0
+    docPositions:
+    - 0
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 6.0
+    docPositions:
+    - 0
+  captcha: !ruby/object:Word
+    word: captcha
+    stem: captcha
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  playaudiolink: !ruby/object:Word
+    word: playaudiolink
+    stem: playaudiolink
+    docFrequency: 6.0
+    docPositions:
+    - 0
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 6.0
+    docPositions:
+    - 0
+  target: !ruby/object:Word
+    word: target
+    stem: target
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  onclick: !ruby/object:Word
+    word: onclick
+    stem: onclick
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  wavurl: !ruby/object:Word
+    word: wavurl
+    stem: wavurl
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  capid: !ruby/object:Word
+    word: capid
+    stem: capid
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  embedcode: !ruby/object:Word
+    word: embedcode
+    stem: embedcod
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  autostart: !ruby/object:Word
+    word: autostart
+    stem: autostart
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  playaudio: !ruby/object:Word
+    word: playaudio
+    stem: playaudio
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  publishers: !ruby/object:Word
+    word: publishers
+    stem: publish
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  sitemap: !ruby/object:Word
+    word: sitemap
+    stem: sitemap
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  homevar: !ruby/object:Word
+    word: homevar
+    stem: homevar
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  _gaq: !ruby/object:Word
+    word: _gaq
+    stem: _gaq
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  _setaccount: !ruby/object:Word
+    word: _setaccount
+    stem: _setaccount
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  _trackpageview: !ruby/object:Word
+    word: _trackpageview
+    stem: _trackpageview
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 7.0
+    docPositions:
+    - 0
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 0
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  ssl: !ruby/object:Word
+    word: ssl
+    stem: ssl
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  parameters: !ruby/object:Word
+    word: parameters
+    stem: paramet
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  split: !ruby/object:Word
+    word: split
+    stem: split
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 5.0
+    docPositions:
+    - 0
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  param: !ruby/object:Word
+    word: param
+    stem: param
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  elem: !ruby/object:Word
+    word: elem
+    stem: elem
+    docFrequency: 4.0
+    docPositions:
+    - 0
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 2.0
+    docPositions:
+    - 0
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 0
+lineCount: 1
+wordCount: 280
+rank: 0.26111111111111107
+title: 'The Historians'' History of the World: A Comprehensive Narrative of the Rise
+  ... - Google Books'
+links:
+- https://www.google.com/search?hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&sa=N&tab=pw
+- https://www.google.com/search?hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&tbm=isch&source=og&sa=N&tab=pi
+- https://maps.google.com/maps?hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&sa=N&tab=pl
+- https://play.google.com/?hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&sa=N&tab=p8
+- https://www.youtube.com/results?hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&sa=N&tab=p1
+- https://news.google.com/nwshp?hl=en&tab=pn
+- https://mail.google.com/mail/?tab=pm
+- https://drive.google.com/?tab=po
+- https://www.google.com/intl/en/options/
+- https://www.google.com/accounts/Login?service=print&continue=https://books.google.com/books%3Fid%3Dg5sFAAAAIAAJ%26hl%3Den%26capid%3DAFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w%26continue%3Dhttps://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%253Fid%253Dg5sFAAAAIAAJ%2526output%253Dpdf%2526hl%253Den&hl=en
+- https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf?id=g5sFAAAAIAAJ&hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&output=html_text
+- https://books.google.com/books?ie=ISO-8859-1
+- https://books.google.com/advanced_book_search?ie=ISO-8859-1
+- https://www.google.com/accounts/Login?service=print&continue=https://books.google.com/books%3Fop%3Dlookup%26id%3Dg5sFAAAAIAAJ%26continue%3Dhttps://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%253Fid%253Dg5sFAAAAIAAJ%2526output%253Dpdf%2526hl%253Den%26ie%3DISO-8859-1&hl=en
+- https://books.google.com/books?id=g5sFAAAAIAAJ&printsec=frontcover&ie=ISO-8859-1&source=gbs_atb
+- https://books.google.com/books/reader?id=g5sFAAAAIAAJ&ie=ISO-8859-1&printsec=frontcover&output=reader&source=gbs_atb
+- https://www.google.com/accounts/Login?service=print&continue=https://books.google.com/books%3Fop%3Dlibrary%26ie%3DISO-8859-1&hl=en
+- http://books.google.com/support/topic/4359341?hl=en
+- https://books.google.com/advanced_book_search?ie=ISO-8859-1
+- https://books.google.com/books/download/The_Historians_History_of_the_World.epub?id=g5sFAAAAIAAJ&ie=ISO-8859-1&output=epub
+- https://books.google.com/books/download/The_Historians_History_of_the_World.pdf?id=g5sFAAAAIAAJ&ie=ISO-8859-1&output=pdf&sig=ACfU3U2xhB9rJVJDBXbd3ciYXwYBBNduXA
+- https://play.google.com/store/books/details?id=g5sFAAAAIAAJ&rdid=book-g5sFAAAAIAAJ&rdot=1
+- http://dogbert.abebooks.com/servlet/SearchResults?tn=Historians%27+History+World
+- http://net.ondemandbooks.com/google/g5sFAAAAIAAJ
+- http://www.amazon.com/exec/obidos/external-search/?field-keywords=Historians%27+History+World&index=books
+- https://books.google.com/url?id=g5sFAAAAIAAJ&q=http://worldcat.org/oclc/33838498&clientid=librarylink&usg=AFQjCNEQbC2XbOtPGGgeLyxDS9vYT4Vp9g&source=gbs_buy_r
+- https://books.google.com/books?id=g5sFAAAAIAAJ&sitesec=buy&ie=ISO-8859-1&source=gbs_buy_r
+- http://booksearch.blogspot.com/
+- http://books.google.com/support/partner/?hl=en
+- http://books.google.com/support/answer/180577?hl=en&url=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf?id=g5sFAAAAIAAJ&hl=en&capid=AFLRE71Q3h3mJHX60wMyq_GX-dCjU3ycDIvSeKUWDGQcX6XDadIUbQf5AT89I0PDJLsa-rnrY4eda8oeNtZGoUkJnq8aMrzq0w&continue=https://books.google.com/books/pdf/The_Historians__History_of_the_World.pdf%3Fid%3Dg5sFAAAAIAAJ%26output%3Dpdf%26hl%3Den&v=g5sFAAAAIAAJ&is=atb
+- http://books.google.com/support/topic/4359341?hl=en
+- https://www.google.com/
+rawText: 'Search Images Maps Play YouTube News Gmail Drive More »Sign inwindow._OC_autoDir
+  &&window._OC_autoDir(''vheadq'', ''tia-vheadq'');Advanced Book SearchBooksbooks.google.comhttps://books.google.com/books/about/The_Historians_History_of_the_World.html?id=g5sFAAAAIAAJ&utm_source=gb-gplus-shareThe
+  Historians'' History of the WorldMy libraryHelpAdvanced Book SearchDownload EPUBDownload
+  PDFeBook - FREEGet this book in printAbeBooksOn Demand BooksAmazonFind in a libraryAll
+  sellers »_OC_InitNavbar({"child_node":[{"title":"My library","url":"https://books.google.com/books?uid=114584440181414684107\u0026ie=ISO-8859-1\u0026source=gbs_lp_bookshelf_list","id":"my_library","collapsed":true},{"title":"My
+  History","url":"","id":"my_history","collapsed":true},{"title":"Books on Google
+  Play","url":"https://play.google.com/store/books","id":"ebookstore","collapsed":true}],"highlighted_node_id":""});To
+  continue with your download, please type the characters you see below: (function()
+  {document.getElementById(''captcha'').focus();var playAudioLink = document.getElementById(''playAudioLink'');playAudioLink.href
+  = ''#'';playAudioLink.target = '''';playAudioLink.onclick = function() {var wavURL
+  = ''/books?capid\x3dAFLRE737mAjBgf4-Okq8GfRZKz_9VQ1DviG8c_CuIeLFOQPG_nXd999IEzXjVy7K0uPD3-LOdkAhxNpDUPnyN8wDnXKiYZ8jHg'';var
+  embedCode = ''<EMBED SRC='' + wavURL + '' HIDDEN="true" AUTOSTART="true" >'';document.getElementById(''playAudio'').innerHTML
+  = embedCode;var input = document.getElementById(''captcha'');input.value='''';input.focus();};})();About
+  Google Books - Privacy Policy - Terms of Service - Blog - Information for Publishers
+  - Report an issue - Help - Sitemap - Google Homevar _gaq = _gaq || [];_gaq.push([''_setAccount'',
+  ''UA-18010-1'']);_gaq.push([''_trackPageview'']);(function() {var ga = document.createElement(''script'');
+  ga.type = ''text/javascript''; ga.async = true;ga.src = (''https:'' == document.location.protocol
+  ? ''https://ssl'' : ''http://www'') + ''.google-analytics.com/ga.js'';var s = document.getElementsByTagName(''script'')[0];
+  s.parentNode.insertBefore(ga, s);})();(function() {var href = window.location.href;if
+  (href.indexOf(''?'') !== -1) {var parameters = href.split(''?'')[1].split(''&'');for
+  (var i = 0; i < parameters.length; i++) {var param = parameters[i].split(''='');if
+  (param[0] == ''focus'') {var elem = document.getElementById(param[1]);if (elem)
+  {elem.focus();}}}}})();Get this book in print'

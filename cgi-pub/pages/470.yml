@@ -1,0 +1,6417 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 178
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 395
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 421
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 469
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 561
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 593
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 637
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 241
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 847
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 863
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 979
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 20
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1070
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 29
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1105
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 33
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1108
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1109
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1129
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1143
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1161
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1195
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 115
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 55
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 175
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 179
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 184
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 188
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-spnoex"
+    line: 1197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 195
+address: http://fxn.ws/1Z8PnbS
+inboundLinks: []
+lines:
+- " \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=tech',
+  'subsection=');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- |2+
+
+- " \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+          Fox News
+- |2
+              Fox Business
+- |2
+              Fox News Latino
+- |2
+              Fox News Go
+- |2
+              Fox News Radio
+- |2
+              Fox Nation
+- |2
+              Fox News Insider
+- "        \n"
+- "            \n"
+- |2
+                  Sign in to comment!
+- "            \n"
+- |2
+              Login
+- "        \n"
+- "    \n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- "       \n"
+- "\t    \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\tMenu\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHome\n"
+- "\t\t\t\tTechnology\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tSearch\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\tFoxNews.com\n"
+- "\t\t\t\n"
+- |2+
+
+- "\t\tvar articleInfo = {\n"
+- "\t\t\tvcmId: \"a5eddb32-a938-4234-a438-1de2b5d765a7\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/tech/2015/12/14/faa-taps-sensor-technology-to-tackle-airport-drone-threat.html\",\n"
+- "\t\t\tpubDate:\"2015-12-14\",\n"
+- "\t\t\tmyTopChannelName:\"tech\",\n"
+- "\t\t\tsummary:\"<p>Faced with a growing drone threat to aircraft, the Federal Aviation
+  Administration has teamed up with IT specialist CACI International in an attempt
+  to protect the airspace around airports.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"true\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"a5eddb32-a938-4234-a438-1de2b5d765a7\";\n"
+- "\t\tvar disqus_category_id = \"\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "     \t\n"
+- "    \t\n"
+- "            \n"
+- "        \n"
+- "    \t\n"
+- "                        \n"
+- "                            Tech Home \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Computers
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Google
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Video Games
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Military Tech
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              War Games
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Slideshows
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "            \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      Drones
+- |2+
+
+- |2+
+
+- |
+  FAA taps sensor technology to tackle airport drone threat
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        By        \t\n"
+- "            \n"
+- "            \t            \t\t\n"
+- "            \t\t James Rogers\n"
+- "                    \n"
+- "                 \n"
+- "                        \n"
+- "            \n"
+- "        \n"
+- |2+
+
+- |2
+          Published
+- |2
+              December 14, 2015
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tFoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "        \t\n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t    Facebook0\n"
+- "\t\tTwitter0\t \n"
+- "\t\t\n"
+- "\t\t\tlivefyre\n"
+- "\t\t\n"
+- "\t\tEmail\n"
+- "\t\tPrint  \n"
+- "\t  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "            \n"
+- "                \n"
+- "\t                    \n"
+- "\t                        File photo - An airplane flies over a drone during the
+  Polar Bear Plunge on Coney Island in the Brooklyn borough of New York Jan. 1, 2015.
+  (REUTERS/Carlo Allegri)\n"
+- "\t                        \n"
+- "\t                \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "\r\n"
+- |2+
+
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- |2
+                  Faced with a growing drone threat to aircraft, the Federal Aviation Administration has teamed up with IT specialist CACI International in an attempt to protect the airspace around airports.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Officials are alarmed by the scale of safety risk posed by drones, also known as Unmanned Aerial Systems (UAS). A study released by Bard College Friday noted 921 incidents involving drones and manned aircraft in U.S. airspace between Dec. 17, 2013, and Sept. 12, 2015.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  In October, as part of the FAA’s Pathfinder program, the agency signed an agreement to evaluate CACI’s technology within a 5-mile radius of airports.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Related: The laser cannon that kills drones
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “Safety is always the FAA's top priority, and we are concerned about the increasing number of instances where pilots have reported seeing unmanned aircraft flying nearby,” said FAA Deputy Administrator Mike Whitaker, in testimony before the House Aviation Subcommittee.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The FAA explained that CACI’s prototype sensor-based detection system will be evaluated at airports selected by the agency. Specific details of how the system will work have not yet been released by the FAA, although it will reportedly use radio signals to detect and tackle drone threats.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Arlington, Va.-based CACI referred a FoxNews.com request for comment to the FAA. The company, however, recently launched its SkyTracker system, which creates an electronic boundary around sensitive locations, such as airports.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Related: Amazon shows off drone delivery prototypes
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The system uses UAS radio links to identify and locate drones flying in banned or protected airspace, according to CACI, and can also locate the drone’s operator. “The CACI system triangulates the position of misused UAS for accurate geolocation and tracking, while differentiating them from other UAS in the same area,” explains CACI, in a statement on its website.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  CACI says that SkyTracker can also “initiate countermeasures,” effectively stopping specific drones.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The FAA is also reportedly looking at geo-fencing, a system that uses GPS and Radio Frequency Identification (RFID) technology to limit where unmanned aircraft can fly as it attempts to protect aircraft.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Related: 'Bird' gadget lets you control a drone with your finger
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Missy Cummings, associate professor in the Department of Mechanical Engineering and Materials Science at Duke University, warns that developing effective anti-drone technology is a difficult task. “Tracking small airborne objects that are slow moving close to the ground is notoriously difficult with significant signal-to-noise ratio problems,” she told FoxNews.com, via email. “No system will be perfect and how to guard against interlopers, even if you could track them is, of course, another issue -- you can’t jam all GPS signals, for example, in an airport area because it would affect the planes trying to land and take off.”
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The FAA prohibits the use of unmanned aircraft within 5 miles of any airport within the U.S. without permission from air traffic control.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  On Monday the agency also announced new regulations requiring drone registration in an effort to keep track of soaring ownership. The online registration would apply to owners of small drones weighing more than 0.55 pounds and less than 55 pounds, including payloads such as on-board cameras, according to a statement.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The FAA’s progress around commercial drones has been a source of frustration for many companies. Amazon, for example, has been a vocal critic of the pace of regulatory efforts for commercial drones. Last year the retail giant threatened to move more of its drone development work outside of America unless the FAA relaxed its rules.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  In May the FAA announced its Pathfinder testing program, which is studying drone use in a number of industries, such as newsgathering, agriculture and transport.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Follow James Rogers on Twitter @jamesjrogers
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                   
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                   
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- " \n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "                   \t\t\n"
+- |2+
+
+- |2+
+
+- |2
+      + FollowFoxNewsSciTech on Facebook
+- |2+
+
+- "                    \t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- " \n"
+- "\t                 \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |
+  ADVERTISEMENT
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                \r\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "       \t \tTrending in Tech\n"
+- "            \n"
+- "\t\t\t      \t1\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tAmazon pulls hoverboards from its site after fire reports\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t2\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t13 top kitchen tech holiday gift ideas\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t3\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tTown's fear of solar farms becomes Internet sensation\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t4\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t12-inch Retina MacBook Review: Best MacBook yet if you believe in
+  Apple's vision\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t5\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t3 eBay hot sellers taking up space in your home right now\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t           \n"
+- |2
+             See all Trends
+- "            \n"
+- " \t      \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- " \n"
+- "   \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "    \n"
+- "\t\n"
+- "    \n"
+- "        \n"
+- |2
+              Scitech Connect
+- "            \n"
+- |2
+                  Subscribe to the daily Geek Sheet for the top science and technology stories.
+- |2
+                  Thank you! Your subscription has been submitted.
+- "                \n"
+- "                    \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- " \n"
+- |2
+     Advertisement
+- " \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- " \n"
+- "    \n"
+- |2+
+
+- "\r\n"
+- |2+
+
+- "            \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "     \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "       \t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "    \n"
+- "    \n"
+- "    \t\n"
+- "    \t\n"
+- "\t\t\t\n"
+- "\t\t\t\t(function() {\n"
+- "\t\t\t\t\tvar zergnet = document.createElement('script');\n"
+- "\t\t\t\t\tzergnet.type = 'text/javascript'; zergnet.async = true;\n"
+- "\t\t\t\t\tzergnet.src = 'http://www.zergnet.com/zerg.js?id=33641';\n"
+- "\t\t\t\t\tvar znscr = document.getElementsByTagName('script')[0];\n"
+- "\t\t\t\t\tznscr.parentNode.insertBefore(zergnet, znscr);\n"
+- "\t\t\t\t})();\n"
+- "\t\t\t\n"
+- "\r\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "   \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tSite Index\n"
+- "\t\tSections\n"
+- "\t\t\t\tHome\n"
+- "\t\t\t\t\tVideo\n"
+- "\t\t\t\t\tPolitics\n"
+- "\t\t\t\t\tU.S.\n"
+- "\t\t\t\t\tOpinion\n"
+- "\t\t\t\t\tEntertainment\n"
+- "\t\t\t\t\tTech\n"
+- "\t\t\t\t\tScience\n"
+- "\t\t\t\t\tHealth\n"
+- "\t\t\t\t\tTravel\n"
+- "\t\t\t\t\tLifestyle\n"
+- "\t\t\t\t\tWorld\n"
+- "\t\t\t\t\tSports\n"
+- "\t\t\t\t\tWeather\n"
+- "\t\t\t\t\tOn Air\n"
+- "\t\t\t\tTools\n"
+- "\t\t\t\tLive Video\n"
+- "\t\t\t\t\tTrending\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\tAlerts\n"
+- "\t\t\t\t\tMobile\n"
+- "\t\t\t\t\tPodcasts\n"
+- "\t\t\t\t\tRadio\n"
+- "\t\t\t\t\tFox News Store\n"
+- "\t\t\t\t\tApps & Downloads\n"
+- "\t\t\t\tAbout\n"
+- "\t\t\t\tOn Air Personalities\n"
+- "\t\t\t\t\tCareers\n"
+- "\t\t\t\t\tCollege Students\n"
+- "\t\t\t\t\tFox Around the World\n"
+- "\t\t\t\t\tAdvertise With Us\n"
+- "\t\t\t\t\tTerms of Use\n"
+- "\t\t\t\t\tPrivacy Policy\n"
+- "\t\t\t\t\tAd Choices\n"
+- "\t\t\t\t\tContact Us\n"
+- "\t\t\t\t\tEmail Newsroom\n"
+- "\t\t\t\t\tFAQ\n"
+- "\t\t\t\t\tMedia Relations\n"
+- "\t\t\t\t\tClosed Captioning Policy\n"
+- "\t\t\t\tFollow\n"
+- "\t\t\t\tFacebook\n"
+- "\t\t\t\t\tTwitter\n"
+- "\t\t\t\t\tGoogle+\n"
+- "\t\t\t\t\tLinkedIn\n"
+- "\t\t\t\t\tRSS\n"
+- "\t\t\t\t\tNewsletters\n"
+- "\t\t\t\t\n"
+- "\t\t\tFox News\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\tThis material may not be published, broadcast, rewritten, or redistributed.
+  ©2015 FOX News Network, LLC. All rights reserved. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      (function($){
+- |2
+          $.ad.pre();
+- |2
+          if (window.FOX) { FOX.site.bottomInit(); }
+- |2
+      }(jQuery));
+- "    \n"
+- "Sign in to comment!Sign in to comment!By        \t\n"
+- "            \n"
+- "            \t            \t\t\n"
+- "            \t\t James Rogers\n"
+- "                    \n"
+- "                 \n"
+- "                        \n"
+- "            \n"
+- "\t                        File photo - An airplane flies over a drone during the
+  Polar Bear Plunge on Coney Island in the Brooklyn borough of New York Jan. 1, 2015.
+  (REUTERS/Carlo Allegri)\n"
+- "\t                        \n"
+- "\t                Faced with a growing drone threat to aircraft, the Federal Aviation
+  Administration has teamed up with IT specialist CACI International in an attempt
+  to protect the airspace around airports.Officials are alarmed by the scale of safety
+  risk posed by drones, also known as Unmanned Aerial Systems (UAS). A study released
+  by Bard College Friday noted 921 incidents involving drones and manned aircraft
+  in U.S. airspace between Dec. 17, 2013, and Sept. 12, 2015.In October, as part of
+  the FAA’s Pathfinder program, the agency signed an agreement to evaluate CACI’s
+  technology within a 5-mile radius of airports.Related: The laser cannon that kills
+  drones“Safety is always the FAA's top priority, and we are concerned about the increasing
+  number of instances where pilots have reported seeing unmanned aircraft flying nearby,”
+  said FAA Deputy Administrator Mike Whitaker, in testimony before the House Aviation
+  Subcommittee.The FAA explained that CACI’s prototype sensor-based detection system
+  will be evaluated at airports selected by the agency. Specific details of how the
+  system will work have not yet been released by the FAA, although it will reportedly
+  use radio signals to detect and tackle drone threats.Arlington, Va.-based CACI referred
+  a FoxNews.com request for comment to the FAA. The company, however, recently launched
+  its SkyTracker system, which creates an electronic boundary around sensitive locations,
+  such as airports.Related: Amazon shows off drone delivery prototypesThe system uses
+  UAS radio links to identify and locate drones flying in banned or protected airspace,
+  according to CACI, and can also locate the drone’s operator. “The CACI system triangulates
+  the position of misused UAS for accurate geolocation and tracking, while differentiating
+  them from other UAS in the same area,” explains CACI, in a statement on its website.CACI
+  says that SkyTracker can also “initiate countermeasures,” effectively stopping specific
+  drones.The FAA is also reportedly looking at geo-fencing, a system that uses GPS
+  and Radio Frequency Identification (RFID) technology to limit where unmanned aircraft
+  can fly as it attempts to protect aircraft.Related: 'Bird' gadget lets you control
+  a drone with your fingerMissy Cummings, associate professor in the Department of
+  Mechanical Engineering and Materials Science at Duke University, warns that developing
+  effective anti-drone technology is a difficult task. “Tracking small airborne objects
+  that are slow moving close to the ground is notoriously difficult with significant
+  signal-to-noise ratio problems,” she told FoxNews.com, via email. “No system will
+  be perfect and how to guard against interlopers, even if you could track them is,
+  of course, another issue -- you can’t jam all GPS signals, for example, in an airport
+  area because it would affect the planes trying to land and take off.”The FAA prohibits
+  the use of unmanned aircraft within 5 miles of any airport within the U.S. without
+  permission from air traffic control.On Monday the agency also announced new regulations
+  requiring drone registration in an effort to keep track of soaring ownership. The
+  online registration would apply to owners of small drones weighing more than 0.55
+  pounds and less than 55 pounds, including payloads such as on-board cameras, according
+  to a statement.The FAA’s progress around commercial drones has been a source of
+  frustration for many companies. Amazon, for example, has been a vocal critic of
+  the pace of regulatory efforts for commercial drones. Last year the retail giant
+  threatened to move more of its drone development work outside of America unless
+  the FAA relaxed its rules.In May the FAA announced its Pathfinder testing program,
+  which is studying drone use in a number of industries, such as newsgathering, agriculture
+  and transport.Follow James Rogers on Twitter @jamesjrogers  + FollowFoxNewsSciTech
+  on FacebookADVERTISEMENTSubscribe to the daily Geek Sheet for the top science and
+  technology stories.AdvertisementThis material may not be published, broadcast, rewritten,
+  or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All market data
+  delayed 20 minutes. Privacy - Terms - FAQ"
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 9.0
+    docPositions:
+    - 5
+    - 227
+    - 232
+    - 359
+    - 450
+    - 480
+    - 909
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 627
+    - 837
+    - 896
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 12.0
+    docPositions:
+    - 5
+    - 69
+    - 70
+    - 74
+    - 232
+    - 234
+    - 252
+    - 296
+    - 617
+    - 644
+    - 845
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 225
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 899
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 206
+    - 450
+    - 899
+    - 909
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 208
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 29.0
+    docPositions:
+    - 11
+    - 150
+    - 151
+    - 152
+    - 153
+    - 154
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 185
+    - 186
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 862
+    - 868
+    - 886
+    - 889
+    - 896
+    - 909
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 21.0
+    docPositions:
+    - 11
+    - 18
+    - 61
+    - 147
+    - 154
+    - 179
+    - 180
+    - 182
+    - 183
+    - 184
+    - 186
+    - 197
+    - 199
+    - 200
+    - 201
+    - 203
+    - 862
+    - 886
+    - 889
+    - 909
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 18.0
+    docPositions:
+    - 11
+    - 23
+    - 35
+    - 49
+    - 60
+    - 70
+    - 81
+    - 92
+    - 104
+    - 110
+    - 119
+    - 132
+    - 145
+    - 222
+    - 252
+    - 695
+    - 839
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 16
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 5.0
+    docPositions:
+    - 12
+    - 16
+    - 19
+    - 855
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 617
+    - 856
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 7.0
+    docPositions:
+    - 15
+    - 66
+    - 76
+    - 285
+    - 840
+    - 855
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 170
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 18
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 184
+    - 201
+    - 445
+    - 460
+    - 470
+    - 861
+    - 909
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 23
+    - 841
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 4.0
+    docPositions:
+    - 27
+    - 440
+    - 909
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 127
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 2.0
+    docPositions:
+    - 31
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 9.0
+    docPositions:
+    - 34
+    - 35
+    - 120
+    - 425
+    - 485
+    - 842
+    - 909
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 27.0
+    docPositions:
+    - 34
+    - 35
+    - 93
+    - 94
+    - 95
+    - 147
+    - 148
+    - 425
+    - 430
+    - 440
+    - 445
+    - 460
+    - 485
+    - 495
+    - 661
+    - 678
+    - 842
+    - 909
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 122
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 124
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 123
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 74
+    - 296
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 125
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 128
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 4.0
+    docPositions:
+    - 48
+    - 49
+    - 843
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 844
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 10.0
+    docPositions:
+    - 60
+    - 66
+    - 161
+    - 440
+    - 547
+    - 807
+    - 894
+    - 895
+    - 897
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 4.0
+    docPositions:
+    - 72
+    - 274
+    - 881
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 4.0
+    docPositions:
+    - 76
+    - 285
+    - 307
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 5.0
+    docPositions:
+    - 77
+    - 88
+    - 105
+    - 318
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 9.0
+    docPositions:
+    - 80
+    - 81
+    - 86
+    - 480
+    - 725
+    - 846
+    - 909
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 8.0
+    docPositions:
+    - 83
+    - 144
+    - 145
+    - 485
+    - 853
+    - 865
+    - 909
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 83
+    - 695
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 8.0
+    docPositions:
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 98
+    - 847
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 4.0
+    docPositions:
+    - 103
+    - 104
+    - 848
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 4.0
+    docPositions:
+    - 109
+    - 110
+    - 849
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 160
+    - 175
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 5.0
+    docPositions:
+    - 118
+    - 119
+    - 850
+    - 868
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 4.0
+    docPositions:
+    - 131
+    - 132
+    - 851
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 141
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 10.0
+    docPositions:
+    - 146
+    - 475
+    - 480
+    - 678
+    - 726
+    - 909
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 5.0
+    docPositions:
+    - 147
+    - 148
+    - 495
+    - 909
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 874
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 152
+    - 153
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 3.0
+    docPositions:
+    - 154
+    - 167
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 155
+    - 627
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 3.0
+    docPositions:
+    - 158
+    - 695
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 175
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 171
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 4.0
+    docPositions:
+    - 172
+    - 398
+    - 907
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 307
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 4.0
+    docPositions:
+    - 176
+    - 725
+    - 909
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 6.0
+    docPositions:
+    - 179
+    - 490
+    - 495
+    - 909
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 198
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 199
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 200
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 202
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 203
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 12.0
+    docPositions:
+    - 223
+    - 232
+    - 333
+    - 430
+    - 470
+    - 480
+    - 725
+    - 909
+  articleinfo: !ruby/object:Word
+    word: articleinfo
+    stem: articleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  faa: !ruby/object:Word
+    word: faa
+    stem: faa
+    docFrequency: 25.0
+    docPositions:
+    - 232
+    - 333
+    - 430
+    - 440
+    - 445
+    - 450
+    - 470
+    - 485
+    - 495
+    - 500
+    - 909
+  taps: !ruby/object:Word
+    word: taps
+    stem: tap
+    docFrequency: 3.0
+    docPositions:
+    - 232
+    - 333
+  sensor: !ruby/object:Word
+    word: sensor
+    stem: sensor
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 333
+    - 445
+    - 909
+  tackle: !ruby/object:Word
+    word: tackle
+    stem: tackl
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 333
+    - 445
+    - 909
+  airport: !ruby/object:Word
+    word: airport
+    stem: airport
+    docFrequency: 7.0
+    docPositions:
+    - 232
+    - 333
+    - 480
+    - 485
+    - 909
+  drone: !ruby/object:Word
+    word: drone
+    stem: drone
+    docFrequency: 24.0
+    docPositions:
+    - 232
+    - 235
+    - 333
+    - 398
+    - 420
+    - 445
+    - 455
+    - 460
+    - 475
+    - 480
+    - 490
+    - 495
+    - 500
+    - 907
+    - 909
+  threat: !ruby/object:Word
+    word: threat
+    stem: threat
+    docFrequency: 6.0
+    docPositions:
+    - 232
+    - 235
+    - 333
+    - 420
+    - 909
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 235
+  faced: !ruby/object:Word
+    word: faced
+    stem: face
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  growing: !ruby/object:Word
+    word: growing
+    stem: grow
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  aircraft: !ruby/object:Word
+    word: aircraft
+    stem: aircraft
+    docFrequency: 14.0
+    docPositions:
+    - 235
+    - 420
+    - 425
+    - 440
+    - 470
+    - 485
+    - 909
+  federal: !ruby/object:Word
+    word: federal
+    stem: feder
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  aviation: !ruby/object:Word
+    word: aviation
+    stem: aviat
+    docFrequency: 6.0
+    docPositions:
+    - 235
+    - 420
+    - 440
+    - 909
+  administration: !ruby/object:Word
+    word: administration
+    stem: administr
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 9.0
+    docPositions:
+    - 235
+    - 420
+    - 495
+    - 726
+    - 909
+  teamed: !ruby/object:Word
+    word: teamed
+    stem: team
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 5.0
+    docPositions:
+    - 235
+    - 420
+    - 695
+    - 909
+  specialist: !ruby/object:Word
+    word: specialist
+    stem: specialist
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  caci: !ruby/object:Word
+    word: caci
+    stem: caci
+    docFrequency: 18.0
+    docPositions:
+    - 235
+    - 420
+    - 430
+    - 445
+    - 450
+    - 460
+    - 465
+    - 909
+  international: !ruby/object:Word
+    word: international
+    stem: intern
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  attempt: !ruby/object:Word
+    word: attempt
+    stem: attempt
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 420
+    - 909
+  protect: !ruby/object:Word
+    word: protect
+    stem: protect
+    docFrequency: 6.0
+    docPositions:
+    - 235
+    - 420
+    - 470
+    - 909
+  airspace: !ruby/object:Word
+    word: airspace
+    stem: airspac
+    docFrequency: 8.0
+    docPositions:
+    - 235
+    - 420
+    - 425
+    - 460
+    - 909
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 9.0
+    docPositions:
+    - 235
+    - 420
+    - 450
+    - 495
+    - 868
+    - 909
+  airports: !ruby/object:Word
+    word: airports
+    stem: airport
+    docFrequency: 10.0
+    docPositions:
+    - 235
+    - 420
+    - 430
+    - 445
+    - 450
+    - 909
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 3.0
+    docPositions:
+    - 237
+    - 809
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 4.0
+    docPositions:
+    - 238
+    - 495
+    - 909
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 242
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  drones: !ruby/object:Word
+    word: drones
+    stem: drone
+    docFrequency: 18.0
+    docPositions:
+    - 330
+    - 425
+    - 435
+    - 460
+    - 465
+    - 490
+    - 495
+    - 909
+  james: !ruby/object:Word
+    word: james
+    stem: jame
+    docFrequency: 5.0
+    docPositions:
+    - 348
+    - 505
+    - 902
+    - 909
+  rogers: !ruby/object:Word
+    word: rogers
+    stem: roger
+    docFrequency: 5.0
+    docPositions:
+    - 348
+    - 505
+    - 902
+    - 909
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 355
+    - 889
+    - 909
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  livefyre: !ruby/object:Word
+    word: livefyre
+    stem: livefyr
+    docFrequency: 2.0
+    docPositions:
+    - 373
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 5.0
+    docPositions:
+    - 375
+    - 480
+    - 874
+    - 909
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  photo: !ruby/object:Word
+    word: photo
+    stem: photo
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  airplane: !ruby/object:Word
+    word: airplane
+    stem: airplan
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  flies: !ruby/object:Word
+    word: flies
+    stem: fli
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  polar: !ruby/object:Word
+    word: polar
+    stem: polar
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  bear: !ruby/object:Word
+    word: bear
+    stem: bear
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  plunge: !ruby/object:Word
+    word: plunge
+    stem: plung
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  coney: !ruby/object:Word
+    word: coney
+    stem: conei
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  island: !ruby/object:Word
+    word: island
+    stem: island
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  brooklyn: !ruby/object:Word
+    word: brooklyn
+    stem: brooklyn
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  borough: !ruby/object:Word
+    word: borough
+    stem: borough
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 5.0
+    docPositions:
+    - 398
+    - 490
+    - 907
+    - 909
+  york: !ruby/object:Word
+    word: york
+    stem: york
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  reuters: !ruby/object:Word
+    word: reuters
+    stem: reuter
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  carlo: !ruby/object:Word
+    word: carlo
+    stem: carlo
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  allegri: !ruby/object:Word
+    word: allegri
+    stem: allegri
+    docFrequency: 3.0
+    docPositions:
+    - 398
+    - 907
+  officials: !ruby/object:Word
+    word: officials
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  alarmed: !ruby/object:Word
+    word: alarmed
+    stem: alarm
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  scale: !ruby/object:Word
+    word: scale
+    stem: scale
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  safety: !ruby/object:Word
+    word: safety
+    stem: safeti
+    docFrequency: 5.0
+    docPositions:
+    - 425
+    - 440
+    - 909
+  risk: !ruby/object:Word
+    word: risk
+    stem: risk
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  posed: !ruby/object:Word
+    word: posed
+    stem: pose
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 11.0
+    docPositions:
+    - 425
+    - 460
+    - 465
+    - 470
+    - 490
+    - 909
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  unmanned: !ruby/object:Word
+    word: unmanned
+    stem: unman
+    docFrequency: 9.0
+    docPositions:
+    - 425
+    - 440
+    - 470
+    - 485
+    - 909
+  aerial: !ruby/object:Word
+    word: aerial
+    stem: aerial
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  systems: !ruby/object:Word
+    word: systems
+    stem: system
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  uas: !ruby/object:Word
+    word: uas
+    stem: ua
+    docFrequency: 9.0
+    docPositions:
+    - 425
+    - 460
+    - 909
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  released: !ruby/object:Word
+    word: released
+    stem: releas
+    docFrequency: 5.0
+    docPositions:
+    - 425
+    - 445
+    - 909
+  bard: !ruby/object:Word
+    word: bard
+    stem: bard
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  college: !ruby/object:Word
+    word: college
+    stem: colleg
+    docFrequency: 4.0
+    docPositions:
+    - 425
+    - 867
+    - 909
+  friday: !ruby/object:Word
+    word: friday
+    stem: fridai
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  noted: !ruby/object:Word
+    word: noted
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  incidents: !ruby/object:Word
+    word: incidents
+    stem: incid
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  involving: !ruby/object:Word
+    word: involving
+    stem: involv
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 29.0
+    docPositions:
+    - 425
+    - 440
+    - 445
+    - 460
+    - 470
+    - 480
+    - 490
+    - 500
+    - 725
+    - 909
+  manned: !ruby/object:Word
+    word: manned
+    stem: man
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  sept: !ruby/object:Word
+    word: sept
+    stem: sept
+    docFrequency: 3.0
+    docPositions:
+    - 425
+    - 909
+  october: !ruby/object:Word
+    word: october
+    stem: octob
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  pathfinder: !ruby/object:Word
+    word: pathfinder
+    stem: pathfind
+    docFrequency: 5.0
+    docPositions:
+    - 430
+    - 500
+    - 909
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 5.0
+    docPositions:
+    - 430
+    - 500
+    - 909
+  agency: !ruby/object:Word
+    word: agency
+    stem: agenc
+    docFrequency: 7.0
+    docPositions:
+    - 430
+    - 445
+    - 490
+    - 909
+  signed: !ruby/object:Word
+    word: signed
+    stem: sign
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  agreement: !ruby/object:Word
+    word: agreement
+    stem: agreement
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  evaluate: !ruby/object:Word
+    word: evaluate
+    stem: evalu
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 7.0
+    docPositions:
+    - 430
+    - 485
+    - 909
+  mile: !ruby/object:Word
+    word: mile
+    stem: mile
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  radius: !ruby/object:Word
+    word: radius
+    stem: radiu
+    docFrequency: 3.0
+    docPositions:
+    - 430
+    - 909
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 7.0
+    docPositions:
+    - 435
+    - 455
+    - 475
+    - 909
+  laser: !ruby/object:Word
+    word: laser
+    stem: laser
+    docFrequency: 3.0
+    docPositions:
+    - 435
+    - 909
+  cannon: !ruby/object:Word
+    word: cannon
+    stem: cannon
+    docFrequency: 3.0
+    docPositions:
+    - 435
+    - 909
+  kills: !ruby/object:Word
+    word: kills
+    stem: kill
+    docFrequency: 3.0
+    docPositions:
+    - 435
+    - 909
+  always: !ruby/object:Word
+    word: always
+    stem: alwai
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 7.0
+    docPositions:
+    - 440
+    - 644
+    - 725
+    - 887
+    - 909
+  priority: !ruby/object:Word
+    word: priority
+    stem: prioriti
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  concerned: !ruby/object:Word
+    word: concerned
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  increasing: !ruby/object:Word
+    word: increasing
+    stem: increas
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 5.0
+    docPositions:
+    - 440
+    - 500
+    - 909
+  instances: !ruby/object:Word
+    word: instances
+    stem: instanc
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  pilots: !ruby/object:Word
+    word: pilots
+    stem: pilot
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 440
+    - 445
+    - 909
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  seeing: !ruby/object:Word
+    word: seeing
+    stem: see
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  flying: !ruby/object:Word
+    word: flying
+    stem: fly
+    docFrequency: 5.0
+    docPositions:
+    - 440
+    - 460
+    - 909
+  nearby: !ruby/object:Word
+    word: nearby
+    stem: nearbi
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  deputy: !ruby/object:Word
+    word: deputy
+    stem: deputi
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  administrator: !ruby/object:Word
+    word: administrator
+    stem: administr
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  mike: !ruby/object:Word
+    word: mike
+    stem: mike
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  whitaker: !ruby/object:Word
+    word: whitaker
+    stem: whitak
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  testimony: !ruby/object:Word
+    word: testimony
+    stem: testimoni
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  subcommittee: !ruby/object:Word
+    word: subcommittee
+    stem: subcommitte
+    docFrequency: 3.0
+    docPositions:
+    - 440
+    - 909
+  explained: !ruby/object:Word
+    word: explained
+    stem: explain
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  prototype: !ruby/object:Word
+    word: prototype
+    stem: prototyp
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 450
+    - 909
+  detection: !ruby/object:Word
+    word: detection
+    stem: detect
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 15.0
+    docPositions:
+    - 445
+    - 450
+    - 460
+    - 470
+    - 480
+    - 909
+  evaluated: !ruby/object:Word
+    word: evaluated
+    stem: evalu
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  selected: !ruby/object:Word
+    word: selected
+    stem: select
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 465
+    - 909
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 495
+    - 909
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 889
+    - 909
+  yet: !ruby/object:Word
+    word: yet
+    stem: yet
+    docFrequency: 4.0
+    docPositions:
+    - 445
+    - 678
+    - 909
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 8.0
+    docPositions:
+    - 445
+    - 495
+    - 726
+    - 909
+  although: !ruby/object:Word
+    word: although
+    stem: although
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  reportedly: !ruby/object:Word
+    word: reportedly
+    stem: reportedli
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 470
+    - 909
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 8.0
+    docPositions:
+    - 445
+    - 485
+    - 500
+    - 870
+    - 909
+  signals: !ruby/object:Word
+    word: signals
+    stem: signal
+    docFrequency: 5.0
+    docPositions:
+    - 445
+    - 480
+    - 909
+  detect: !ruby/object:Word
+    word: detect
+    stem: detect
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  threats: !ruby/object:Word
+    word: threats
+    stem: threat
+    docFrequency: 3.0
+    docPositions:
+    - 445
+    - 909
+  arlington: !ruby/object:Word
+    word: arlington
+    stem: arlington
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  va: !ruby/object:Word
+    word: va
+    stem: va
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  referred: !ruby/object:Word
+    word: referred
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  launched: !ruby/object:Word
+    word: launched
+    stem: launch
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 12.0
+    docPositions:
+    - 450
+    - 460
+    - 495
+    - 500
+    - 627
+    - 909
+  skytracker: !ruby/object:Word
+    word: skytracker
+    stem: skytrack
+    docFrequency: 5.0
+    docPositions:
+    - 450
+    - 465
+    - 909
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 5.0
+    docPositions:
+    - 450
+    - 500
+    - 909
+  creates: !ruby/object:Word
+    word: creates
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  electronic: !ruby/object:Word
+    word: electronic
+    stem: electron
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  boundary: !ruby/object:Word
+    word: boundary
+    stem: boundari
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  sensitive: !ruby/object:Word
+    word: sensitive
+    stem: sensit
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  locations: !ruby/object:Word
+    word: locations
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 450
+    - 909
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 7.0
+    docPositions:
+    - 450
+    - 490
+    - 500
+    - 909
+  amazon: !ruby/object:Word
+    word: amazon
+    stem: amazon
+    docFrequency: 6.0
+    docPositions:
+    - 455
+    - 495
+    - 627
+    - 909
+  shows: !ruby/object:Word
+    word: shows
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 455
+    - 909
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 5.0
+    docPositions:
+    - 455
+    - 480
+    - 909
+  delivery: !ruby/object:Word
+    word: delivery
+    stem: deliveri
+    docFrequency: 3.0
+    docPositions:
+    - 455
+    - 909
+  prototypes: !ruby/object:Word
+    word: prototypes
+    stem: prototyp
+    docFrequency: 2.0
+    docPositions:
+    - 455
+  uses: !ruby/object:Word
+    word: uses
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 470
+    - 909
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  identify: !ruby/object:Word
+    word: identify
+    stem: identifi
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  locate: !ruby/object:Word
+    word: locate
+    stem: locat
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 909
+  banned: !ruby/object:Word
+    word: banned
+    stem: ban
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  protected: !ruby/object:Word
+    word: protected
+    stem: protect
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  according: !ruby/object:Word
+    word: according
+    stem: accord
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 490
+    - 909
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 9.0
+    docPositions:
+    - 460
+    - 465
+    - 470
+    - 480
+    - 909
+  operator: !ruby/object:Word
+    word: operator
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  triangulates: !ruby/object:Word
+    word: triangulates
+    stem: triangul
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  misused: !ruby/object:Word
+    word: misused
+    stem: misus
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  accurate: !ruby/object:Word
+    word: accurate
+    stem: accur
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  geolocation: !ruby/object:Word
+    word: geolocation
+    stem: geoloc
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  tracking: !ruby/object:Word
+    word: tracking
+    stem: track
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 480
+    - 909
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  differentiating: !ruby/object:Word
+    word: differentiating
+    stem: differenti
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 480
+    - 909
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  area: !ruby/object:Word
+    word: area
+    stem: area
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 480
+    - 909
+  explains: !ruby/object:Word
+    word: explains
+    stem: explain
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  statement: !ruby/object:Word
+    word: statement
+    stem: statement
+    docFrequency: 5.0
+    docPositions:
+    - 460
+    - 490
+    - 909
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 3.0
+    docPositions:
+    - 460
+    - 909
+  says: !ruby/object:Word
+    word: says
+    stem: sai
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 909
+  initiate: !ruby/object:Word
+    word: initiate
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 909
+  countermeasures: !ruby/object:Word
+    word: countermeasures
+    stem: countermeasur
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 909
+  effectively: !ruby/object:Word
+    word: effectively
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 909
+  stopping: !ruby/object:Word
+    word: stopping
+    stem: stop
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 909
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  geo: !ruby/object:Word
+    word: geo
+    stem: geo
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  fencing: !ruby/object:Word
+    word: fencing
+    stem: fenc
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  gps: !ruby/object:Word
+    word: gps
+    stem: gp
+    docFrequency: 5.0
+    docPositions:
+    - 470
+    - 480
+    - 909
+  frequency: !ruby/object:Word
+    word: frequency
+    stem: frequenc
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  identification: !ruby/object:Word
+    word: identification
+    stem: identif
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  rfid: !ruby/object:Word
+    word: rfid
+    stem: rfid
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  limit: !ruby/object:Word
+    word: limit
+    stem: limit
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  fly: !ruby/object:Word
+    word: fly
+    stem: fly
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  attempts: !ruby/object:Word
+    word: attempts
+    stem: attempt
+    docFrequency: 3.0
+    docPositions:
+    - 470
+    - 909
+  bird: !ruby/object:Word
+    word: bird
+    stem: bird
+    docFrequency: 3.0
+    docPositions:
+    - 475
+    - 909
+  gadget: !ruby/object:Word
+    word: gadget
+    stem: gadget
+    docFrequency: 3.0
+    docPositions:
+    - 475
+    - 909
+  lets: !ruby/object:Word
+    word: lets
+    stem: let
+    docFrequency: 3.0
+    docPositions:
+    - 475
+    - 909
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 5.0
+    docPositions:
+    - 475
+    - 485
+    - 909
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 5.0
+    docPositions:
+    - 475
+    - 695
+    - 726
+    - 909
+  finger: !ruby/object:Word
+    word: finger
+    stem: finger
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  missy: !ruby/object:Word
+    word: missy
+    stem: missi
+    docFrequency: 2.0
+    docPositions:
+    - 480
+  cummings: !ruby/object:Word
+    word: cummings
+    stem: cum
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  associate: !ruby/object:Word
+    word: associate
+    stem: associ
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  professor: !ruby/object:Word
+    word: professor
+    stem: professor
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  mechanical: !ruby/object:Word
+    word: mechanical
+    stem: mechan
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  engineering: !ruby/object:Word
+    word: engineering
+    stem: engin
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  materials: !ruby/object:Word
+    word: materials
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  duke: !ruby/object:Word
+    word: duke
+    stem: duke
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  warns: !ruby/object:Word
+    word: warns
+    stem: warn
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  developing: !ruby/object:Word
+    word: developing
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  effective: !ruby/object:Word
+    word: effective
+    stem: effect
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  anti: !ruby/object:Word
+    word: anti
+    stem: anti
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  difficult: !ruby/object:Word
+    word: difficult
+    stem: difficult
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 909
+  task: !ruby/object:Word
+    word: task
+    stem: task
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 490
+    - 909
+  airborne: !ruby/object:Word
+    word: airborne
+    stem: airborn
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  objects: !ruby/object:Word
+    word: objects
+    stem: object
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  slow: !ruby/object:Word
+    word: slow
+    stem: slow
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  moving: !ruby/object:Word
+    word: moving
+    stem: move
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  ground: !ruby/object:Word
+    word: ground
+    stem: ground
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  notoriously: !ruby/object:Word
+    word: notoriously
+    stem: notori
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  significant: !ruby/object:Word
+    word: significant
+    stem: signific
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  signal: !ruby/object:Word
+    word: signal
+    stem: signal
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  noise: !ruby/object:Word
+    word: noise
+    stem: nois
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  ratio: !ruby/object:Word
+    word: ratio
+    stem: ratio
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  problems: !ruby/object:Word
+    word: problems
+    stem: problem
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  she: !ruby/object:Word
+    word: she
+    stem: she
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  told: !ruby/object:Word
+    word: told
+    stem: told
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  via: !ruby/object:Word
+    word: via
+    stem: via
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  perfect: !ruby/object:Word
+    word: perfect
+    stem: perfect
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  guard: !ruby/object:Word
+    word: guard
+    stem: guard
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  interlopers: !ruby/object:Word
+    word: interlopers
+    stem: interlop
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 678
+    - 896
+    - 909
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  track: !ruby/object:Word
+    word: track
+    stem: track
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 490
+    - 909
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  jam: !ruby/object:Word
+    word: jam
+    stem: jam
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 8.0
+    docPositions:
+    - 480
+    - 700
+    - 889
+    - 909
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 495
+    - 909
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 490
+    - 909
+  affect: !ruby/object:Word
+    word: affect
+    stem: affect
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  planes: !ruby/object:Word
+    word: planes
+    stem: plane
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  trying: !ruby/object:Word
+    word: trying
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  land: !ruby/object:Word
+    word: land
+    stem: land
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  take: !ruby/object:Word
+    word: take
+    stem: take
+    docFrequency: 3.0
+    docPositions:
+    - 480
+    - 909
+  prohibits: !ruby/object:Word
+    word: prohibits
+    stem: prohibit
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  miles: !ruby/object:Word
+    word: miles
+    stem: mile
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  permission: !ruby/object:Word
+    word: permission
+    stem: permiss
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  traffic: !ruby/object:Word
+    word: traffic
+    stem: traffic
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 909
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  announced: !ruby/object:Word
+    word: announced
+    stem: announc
+    docFrequency: 5.0
+    docPositions:
+    - 490
+    - 500
+    - 909
+  regulations: !ruby/object:Word
+    word: regulations
+    stem: regul
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  requiring: !ruby/object:Word
+    word: requiring
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  registration: !ruby/object:Word
+    word: registration
+    stem: registr
+    docFrequency: 5.0
+    docPositions:
+    - 490
+    - 909
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  keep: !ruby/object:Word
+    word: keep
+    stem: keep
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  soaring: !ruby/object:Word
+    word: soaring
+    stem: soar
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  ownership: !ruby/object:Word
+    word: ownership
+    stem: ownership
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  apply: !ruby/object:Word
+    word: apply
+    stem: appli
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  owners: !ruby/object:Word
+    word: owners
+    stem: owner
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  weighing: !ruby/object:Word
+    word: weighing
+    stem: weigh
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  than: !ruby/object:Word
+    word: than
+    stem: than
+    docFrequency: 5.0
+    docPositions:
+    - 490
+    - 909
+  pounds: !ruby/object:Word
+    word: pounds
+    stem: pound
+    docFrequency: 5.0
+    docPositions:
+    - 490
+    - 909
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  payloads: !ruby/object:Word
+    word: payloads
+    stem: payload
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  cameras: !ruby/object:Word
+    word: cameras
+    stem: camera
+    docFrequency: 3.0
+    docPositions:
+    - 490
+    - 909
+  progress: !ruby/object:Word
+    word: progress
+    stem: progress
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  commercial: !ruby/object:Word
+    word: commercial
+    stem: commerci
+    docFrequency: 5.0
+    docPositions:
+    - 495
+    - 909
+  frustration: !ruby/object:Word
+    word: frustration
+    stem: frustrat
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  many: !ruby/object:Word
+    word: many
+    stem: mani
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  vocal: !ruby/object:Word
+    word: vocal
+    stem: vocal
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  critic: !ruby/object:Word
+    word: critic
+    stem: critic
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  pace: !ruby/object:Word
+    word: pace
+    stem: pace
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  regulatory: !ruby/object:Word
+    word: regulatory
+    stem: regulatori
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  efforts: !ruby/object:Word
+    word: efforts
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  retail: !ruby/object:Word
+    word: retail
+    stem: retail
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  giant: !ruby/object:Word
+    word: giant
+    stem: giant
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  threatened: !ruby/object:Word
+    word: threatened
+    stem: threaten
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  move: !ruby/object:Word
+    word: move
+    stem: move
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  development: !ruby/object:Word
+    word: development
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  outside: !ruby/object:Word
+    word: outside
+    stem: outsid
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  unless: !ruby/object:Word
+    word: unless
+    stem: unless
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  relaxed: !ruby/object:Word
+    word: relaxed
+    stem: relax
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  rules: !ruby/object:Word
+    word: rules
+    stem: rule
+    docFrequency: 3.0
+    docPositions:
+    - 495
+    - 909
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 5.0
+    docPositions:
+    - 500
+    - 889
+    - 909
+  testing: !ruby/object:Word
+    word: testing
+    stem: test
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  studying: !ruby/object:Word
+    word: studying
+    stem: studi
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  industries: !ruby/object:Word
+    word: industries
+    stem: industri
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  newsgathering: !ruby/object:Word
+    word: newsgathering
+    stem: newsgath
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  agriculture: !ruby/object:Word
+    word: agriculture
+    stem: agricultur
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  transport: !ruby/object:Word
+    word: transport
+    stem: transport
+    docFrequency: 3.0
+    docPositions:
+    - 500
+    - 909
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 4.0
+    docPositions:
+    - 505
+    - 878
+    - 909
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 4.0
+    docPositions:
+    - 505
+    - 880
+    - 909
+  jamesjrogers: !ruby/object:Word
+    word: jamesjrogers
+    stem: jamesjrog
+    docFrequency: 3.0
+    docPositions:
+    - 505
+    - 909
+  followfoxnewsscitech: !ruby/object:Word
+    word: followfoxnewsscitech
+    stem: followfoxnewsscitech
+    docFrequency: 3.0
+    docPositions:
+    - 547
+    - 909
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 3.0
+    docPositions:
+    - 547
+    - 879
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 587
+    - 746
+  pulls: !ruby/object:Word
+    word: pulls
+    stem: pull
+    docFrequency: 2.0
+    docPositions:
+    - 627
+  hoverboards: !ruby/object:Word
+    word: hoverboards
+    stem: hoverboard
+    docFrequency: 2.0
+    docPositions:
+    - 627
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 2.0
+    docPositions:
+    - 627
+  fire: !ruby/object:Word
+    word: fire
+    stem: fire
+    docFrequency: 2.0
+    docPositions:
+    - 627
+  kitchen: !ruby/object:Word
+    word: kitchen
+    stem: kitchen
+    docFrequency: 2.0
+    docPositions:
+    - 644
+  holiday: !ruby/object:Word
+    word: holiday
+    stem: holidai
+    docFrequency: 2.0
+    docPositions:
+    - 644
+  gift: !ruby/object:Word
+    word: gift
+    stem: gift
+    docFrequency: 2.0
+    docPositions:
+    - 644
+  ideas: !ruby/object:Word
+    word: ideas
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 644
+  town: !ruby/object:Word
+    word: town
+    stem: town
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  fear: !ruby/object:Word
+    word: fear
+    stem: fear
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  solar: !ruby/object:Word
+    word: solar
+    stem: solar
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  farms: !ruby/object:Word
+    word: farms
+    stem: farm
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  becomes: !ruby/object:Word
+    word: becomes
+    stem: becom
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  internet: !ruby/object:Word
+    word: internet
+    stem: internet
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  sensation: !ruby/object:Word
+    word: sensation
+    stem: sensat
+    docFrequency: 2.0
+    docPositions:
+    - 661
+  inch: !ruby/object:Word
+    word: inch
+    stem: inch
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  retina: !ruby/object:Word
+    word: retina
+    stem: retina
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  macbook: !ruby/object:Word
+    word: macbook
+    stem: macbook
+    docFrequency: 3.0
+    docPositions:
+    - 678
+  review: !ruby/object:Word
+    word: review
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  believe: !ruby/object:Word
+    word: believe
+    stem: believ
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  apple: !ruby/object:Word
+    word: apple
+    stem: appl
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  vision: !ruby/object:Word
+    word: vision
+    stem: vision
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  ebay: !ruby/object:Word
+    word: ebay
+    stem: ebai
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  hot: !ruby/object:Word
+    word: hot
+    stem: hot
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  sellers: !ruby/object:Word
+    word: sellers
+    stem: seller
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  taking: !ruby/object:Word
+    word: taking
+    stem: take
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 2.0
+    docPositions:
+    - 695
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 700
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 700
+  scitech: !ruby/object:Word
+    word: scitech
+    stem: scitech
+    docFrequency: 2.0
+    docPositions:
+    - 723
+  connect: !ruby/object:Word
+    word: connect
+    stem: connect
+    docFrequency: 2.0
+    docPositions:
+    - 723
+  subscribe: !ruby/object:Word
+    word: subscribe
+    stem: subscrib
+    docFrequency: 2.0
+    docPositions:
+    - 725
+  daily: !ruby/object:Word
+    word: daily
+    stem: daili
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 909
+  geek: !ruby/object:Word
+    word: geek
+    stem: geek
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 909
+  sheet: !ruby/object:Word
+    word: sheet
+    stem: sheet
+    docFrequency: 3.0
+    docPositions:
+    - 725
+    - 909
+  thank: !ruby/object:Word
+    word: thank
+    stem: thank
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  subscription: !ruby/object:Word
+    word: subscription
+    stem: subscript
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  submitted: !ruby/object:Word
+    word: submitted
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 726
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 4.0
+    docPositions:
+    - 759
+    - 872
+    - 895
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 3.0
+    docPositions:
+    - 807
+    - 894
+  zergnet: !ruby/object:Word
+    word: zergnet
+    stem: zergnet
+    docFrequency: 7.0
+    docPositions:
+    - 808
+    - 809
+    - 810
+    - 812
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 808
+    - 811
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 808
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 808
+    - 811
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  zerg: !ruby/object:Word
+    word: zerg
+    stem: zerg
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  znscr: !ruby/object:Word
+    word: znscr
+    stem: znscr
+    docFrequency: 4.0
+    docPositions:
+    - 811
+    - 812
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 811
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 812
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 812
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 837
+  sections: !ruby/object:Word
+    word: sections
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 838
+  weather: !ruby/object:Word
+    word: weather
+    stem: weather
+    docFrequency: 2.0
+    docPositions:
+    - 852
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 854
+  newsletters: !ruby/object:Word
+    word: newsletters
+    stem: newslett
+    docFrequency: 3.0
+    docPositions:
+    - 857
+    - 884
+  alerts: !ruby/object:Word
+    word: alerts
+    stem: alert
+    docFrequency: 2.0
+    docPositions:
+    - 858
+  mobile: !ruby/object:Word
+    word: mobile
+    stem: mobil
+    docFrequency: 2.0
+    docPositions:
+    - 859
+  podcasts: !ruby/object:Word
+    word: podcasts
+    stem: podcast
+    docFrequency: 2.0
+    docPositions:
+    - 860
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 2.0
+    docPositions:
+    - 862
+  apps: !ruby/object:Word
+    word: apps
+    stem: app
+    docFrequency: 2.0
+    docPositions:
+    - 863
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 863
+  personalities: !ruby/object:Word
+    word: personalities
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 865
+  careers: !ruby/object:Word
+    word: careers
+    stem: career
+    docFrequency: 2.0
+    docPositions:
+    - 866
+  students: !ruby/object:Word
+    word: students
+    stem: student
+    docFrequency: 2.0
+    docPositions:
+    - 867
+  advertise: !ruby/object:Word
+    word: advertise
+    stem: advertis
+    docFrequency: 2.0
+    docPositions:
+    - 869
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 869
+    - 873
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 4.0
+    docPositions:
+    - 870
+    - 889
+    - 909
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 4.0
+    docPositions:
+    - 871
+    - 889
+    - 909
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 3.0
+    docPositions:
+    - 871
+    - 877
+  choices: !ruby/object:Word
+    word: choices
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 872
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 873
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 4.0
+    docPositions:
+    - 875
+    - 889
+    - 909
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 876
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 876
+  closed: !ruby/object:Word
+    word: closed
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 877
+  captioning: !ruby/object:Word
+    word: captioning
+    stem: caption
+    docFrequency: 2.0
+    docPositions:
+    - 877
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 882
+  rss: !ruby/object:Word
+    word: rss
+    stem: rss
+    docFrequency: 2.0
+    docPositions:
+    - 883
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 887
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 889
+    - 909
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 895
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 896
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 896
+  prototypesthe: !ruby/object:Word
+    word: prototypesthe
+    stem: prototypesth
+    docFrequency: 2.0
+    docPositions:
+    - 909
+  fingermissy: !ruby/object:Word
+    word: fingermissy
+    stem: fingermissi
+    docFrequency: 2.0
+    docPositions:
+    - 909
+  facebookadvertisementsubscribe: !ruby/object:Word
+    word: facebookadvertisementsubscribe
+    stem: facebookadvertisementsubscrib
+    docFrequency: 2.0
+    docPositions:
+    - 909
+  advertisementthis: !ruby/object:Word
+    word: advertisementthis
+    stem: advertisementthi
+    docFrequency: 2.0
+    docPositions:
+    - 909
+lineCount: 910
+wordCount: 2060
+rank: 0.25
+title: FAA taps sensor technology to tackle airport drone threat | Fox News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/tech?intcmp=subnav
+- http://www.foxnews.com/category/tech/topics/computers.html?intcmp=subnav
+- http://www.foxnews.com/category/tech/companies/google.html?intcmp=subnav
+- http://www.foxnews.com/category/tech/topics/video-games.html?intcmp=subnav
+- http://www.foxnews.com/category/tech/topics/military-tech.html?intcmp=subnav
+- http://www.foxnews.com/category/columns/war-games.html?intcmp=subnav
+- http://www.foxnews.com/tech/slideshow.html?intcmp=subnav
+- http://www.foxnews.com/archive/james-rogers
+- http://www.foxnews.com/
+- http://dronecenter.bard.edu/files/2015/12/12-11-Drone-Sightings-and-Close-Encounters.pdf
+- https://www.faa.gov/news/updates/?newsId=83927
+- http://www.foxnews.com/tech/2015/09/02/laser-cannon-that-kills-drones.html
+- http://www.aopa.org/News-and-Video/All-News/2015/October/08/Drone-action-urged
+- http://www.foxnews.com/tech/2015/11/30/amazon-shows-off-drone-delivery-prototypes.html
+- http://www.caci.com/Skytracker/Solutions.shtml
+- http://www.aopa.org/News-and-Video/All-News/2015/October/08/Drone-action-urged
+- http://www.foxnews.com/tech/2015/10/16/bird-gadget-lets-control-drone-with-your-finger.html
+- http://www.foxnews.com/politics/2015/12/14/faa-announces-drone-registration-rules-as-report-highlights-soaring-dangers.html?intcmp=hpbt1
+- http://www.foxnews.com/tech/2014/12/09/frustrated-amazon-warns-faa-it-may-move-drone-research-abroad/
+- http://www.foxnews.com/tech/2015/05/06/faa-touts-drone-testing-program-partners-with-cnn.html
+- https://twitter.com/jamesjrogers
+- https://www.facebook.com/FoxNewsSciTech
+- http://www.foxnews.com/tech/2015/12/14/amazon-pulls-hoverboards-from-its-site-after-fire-reports.html?intcmp=trending
+- http://www.foxnews.com/tech/2015/12/10/13-top-kitchen-tech-holiday-gift-ideas.html?intcmp=trending
+- http://www.foxnews.com/tech/2015/12/14/town-fear-solar-farms-becomes-internet-sensation.html?intcmp=trending
+- http://www.foxnews.com/tech/2015/12/14/12-inch-retina-macbook-review-best-macbook-yet-if-believe-in-apples-vision.html?intcmp=trending
+- http://www.foxnews.com/tech/2015/09/05/3-ebay-hot-sellers-taking-up-space-in-your-home-right-now.html?intcmp=trending
+- http://trending.foxnews.com/#tech
+rawText: " \n\t\n\n\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=tech',
+  'subsection=');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox News
+  Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch Live\n\t\t\t\t\tShow
+  Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\n\n
+  \n    \n        \n\n\n\n        Fox News\n            Fox Business\n            Fox
+  News Latino\n            Fox News Go\n            Fox News Radio\n            Fox
+  Nation\n            Fox News Insider\n        \n            \n                Sign
+  in to comment!\n            \n            Login\n        \n    \n\n\t\n\n\n       \n\t
+  \   \n\n\t\t\t\t\n\t\t\t\tMenu\n\t\t\t\n\t\t\t\n\t\t\t\tHome\n\t\t\t\tTechnology\n\t\t\t\t\n\t\t\t\t\tSearch\n\t\t\t\t\t\t\n\t\t\t\tFoxNews.com\n\t\t\t\n\n\t\tvar
+  articleInfo = {\n\t\t\tvcmId: \"a5eddb32-a938-4234-a438-1de2b5d765a7\",\n\t\t\turl:
+  \"http://www.foxnews.com/tech/2015/12/14/faa-taps-sensor-technology-to-tackle-airport-drone-threat.html\",\n\t\t\tpubDate:\"2015-12-14\",\n\t\t\tmyTopChannelName:\"tech\",\n\t\t\tsummary:\"<p>Faced
+  with a growing drone threat to aircraft, the Federal Aviation Administration has
+  teamed up with IT specialist CACI International in an attempt to protect the airspace
+  around airports.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting:
+  \"true\",\n\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n\t\t};\n\t\tvar
+  disqus_identifier = \"a5eddb32-a938-4234-a438-1de2b5d765a7\";\n\t\tvar disqus_category_id
+  = \"\";\n\t\tvar disqus_developer = 1;\n\n    \n    \n     \t\n    \t\n            \n
+  \       \n    \t\n                        \n                            Tech Home
+  \n                        \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Computers\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Google\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Video
+  Games\n                        \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Military Tech\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           War Games\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Slideshows\n
+  \                       \n                    \n                \n\t\t\t\n\t\t\n
+  \           \n                    \n\n\n\n\n    Drones\n\n\nFAA taps sensor technology
+  to tackle airport drone threat\n\n\n\n\t\n\t\t\n\t\t\n\t    \n    \n\n    \n        \n
+  \       By        \t\n            \n            \t            \t\t\n            \t\t
+  James Rogers\n                    \n                 \n                        \n
+  \           \n        \n\n        Published\n            December 14, 2015\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tFoxNews.com\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n
+  \       \t\n        \n    \n\n\n\n\t\n\t    Facebook0\n\t\tTwitter0\t \n\t\t\n\t\t\tlivefyre\n\t\t\n\t\tEmail\n\t\tPrint
+  \ \n\t  \n\n\n\n                    \n                        \n\n\n\n\n    \n\n
+  \   \n\n    \n        \n        \n            \n            \n                \n\t
+  \                   \n\t                        File photo - An airplane flies over
+  a drone during the Polar Bear Plunge on Coney Island in the Brooklyn borough of
+  New York Jan. 1, 2015. (REUTERS/Carlo Allegri)\n\t                        \n\t                \n
+  \               \n            \n        \n    \n\n    \n\r\n\n                        \n\n\n\n\n\n
+  \   \n        \n        \n        \n            \n                Faced with a growing
+  drone threat to aircraft, the Federal Aviation Administration has teamed up with
+  IT specialist CACI International in an attempt to protect the airspace around airports.\n
+  \               \n                \r\n\n            \n                Officials
+  are alarmed by the scale of safety risk posed by drones, also known as Unmanned
+  Aerial Systems (UAS). A study released by Bard College Friday noted 921 incidents
+  involving drones and manned aircraft in U.S. airspace between Dec. 17, 2013, and
+  Sept. 12, 2015.\n                \n                \r\n\n            \n                In
+  October, as part of the FAA’s Pathfinder program, the agency signed an agreement
+  to evaluate CACI’s technology within a 5-mile radius of airports.\n                \n
+  \               \r\n\n            \n                Related: The laser cannon that
+  kills drones\n                \n                \r\n\n            \n                “Safety
+  is always the FAA's top priority, and we are concerned about the increasing number
+  of instances where pilots have reported seeing unmanned aircraft flying nearby,”
+  said FAA Deputy Administrator Mike Whitaker, in testimony before the House Aviation
+  Subcommittee.\n                \n                \r\n\n            \n                The
+  FAA explained that CACI’s prototype sensor-based detection system will be evaluated
+  at airports selected by the agency. Specific details of how the system will work
+  have not yet been released by the FAA, although it will reportedly use radio signals
+  to detect and tackle drone threats.\n                \n                \r\n\n            \n
+  \               Arlington, Va.-based CACI referred a FoxNews.com request for comment
+  to the FAA. The company, however, recently launched its SkyTracker system, which
+  creates an electronic boundary around sensitive locations, such as airports.\n                \n
+  \               \r\n\n            \n                Related: Amazon shows off drone
+  delivery prototypes\n                \n                \r\n\n            \n                The
+  system uses UAS radio links to identify and locate drones flying in banned or protected
+  airspace, according to CACI, and can also locate the drone’s operator. “The CACI
+  system triangulates the position of misused UAS for accurate geolocation and tracking,
+  while differentiating them from other UAS in the same area,” explains CACI, in a
+  statement on its website.\n                \n                \r\n\n            \n
+  \               CACI says that SkyTracker can also “initiate countermeasures,” effectively
+  stopping specific drones.\n                \n                \r\n\n            \n
+  \               The FAA is also reportedly looking at geo-fencing, a system that
+  uses GPS and Radio Frequency Identification (RFID) technology to limit where unmanned
+  aircraft can fly as it attempts to protect aircraft.\n                \n                \r\n\n
+  \           \n                Related: 'Bird' gadget lets you control a drone with
+  your finger\n                \n                \r\n\n            \n                Missy
+  Cummings, associate professor in the Department of Mechanical Engineering and Materials
+  Science at Duke University, warns that developing effective anti-drone technology
+  is a difficult task. “Tracking small airborne objects that are slow moving close
+  to the ground is notoriously difficult with significant signal-to-noise ratio problems,”
+  she told FoxNews.com, via email. “No system will be perfect and how to guard against
+  interlopers, even if you could track them is, of course, another issue -- you can’t
+  jam all GPS signals, for example, in an airport area because it would affect the
+  planes trying to land and take off.”\n                \n                \r\n\n            \n
+  \               The FAA prohibits the use of unmanned aircraft within 5 miles of
+  any airport within the U.S. without permission from air traffic control.\n                \n
+  \               \r\n\n            \n                On Monday the agency also announced
+  new regulations requiring drone registration in an effort to keep track of soaring
+  ownership. The online registration would apply to owners of small drones weighing
+  more than 0.55 pounds and less than 55 pounds, including payloads such as on-board
+  cameras, according to a statement.\n                \n                \r\n\n            \n
+  \               The FAA’s progress around commercial drones has been a source of
+  frustration for many companies. Amazon, for example, has been a vocal critic of
+  the pace of regulatory efforts for commercial drones. Last year the retail giant
+  threatened to move more of its drone development work outside of America unless
+  the FAA relaxed its rules.\n                \n                \r\n\n            \n
+  \               In May the FAA announced its Pathfinder testing program, which is
+  studying drone use in a number of industries, such as newsgathering, agriculture
+  and transport.\n                \n                \r\n\n            \n                Follow
+  James Rogers on Twitter @jamesjrogers\n                \n                \r\n\n
+  \           \n                 \n                \n                \r\n\n            \n
+  \                \n                \n                \r\n\n            \n\n            \n
+  \               \n                    \n                \n                \n\n\n
+  \n\n\t\n\n            \n        \n    \n                        \n                        \n\n\n\n\n\n\n\n
+  \                  \t\t\n\n\n    + FollowFoxNewsSciTech on Facebook\n\n                    \t\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n
+  \n\t\n        \n    \n    \n    \n\n\t                    \n\n\n\n\n \n\t\n        \n
+  \   \n    \n    \n \n\t                 \n                \n            \n                \n\n
+  \   \n    \n    \n        \n\nADVERTISEMENT\n\n    \n\n\n\r\n\n                \r\n\n\n\t\t\t\t\n\n
+  \   \n    \n    \n        \n\n\n\n\n\n    \n\n\n\n\n    \n    \n    \n         \n
+  \      \t \tTrending in Tech\n            \n\t\t\t      \t1\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tAmazon pulls hoverboards from its site after fire reports\n\t\t\t
+  \     \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
+  \     \n\t\t\t      \n\t\t\t      \n\t\t\t      \t2\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \t13 top kitchen tech holiday gift ideas\n\t\t\t      \t\t\t\t   \n\t\t\t
+  \     \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t      \n\t\t\t      \n\t\t\t
+  \     \n\t\t\t      \t3\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t      \tTown's
+  fear of solar farms becomes Internet sensation\n\t\t\t      \t\t\t\t   \n\t\t\t
+  \     \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t      \n\t\t\t      \n\t\t\t
+  \     \n\t\t\t      \t4\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t      \t12-inch
+  Retina MacBook Review: Best MacBook yet if you believe in Apple's vision\n\t\t\t
+  \     \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
+  \     \n\t\t\t      \n\t\t\t      \n\t\t\t      \t5\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \t3 eBay hot sellers taking up space in your home right now\n\t\t\t      \t\t\t\t
+  \  \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t           \n           See all
+  Trends\n            \n \t      \n    \n\n\n    \n    \n    \n        \n \n   \n
+  \   \n\n\n\n\n\n\t\n    \n\t\n    \n        \n            Scitech Connect\n            \n
+  \               Subscribe to the daily Geek Sheet for the top science and technology
+  stories.\n                Thank you! Your subscription has been submitted.\n                \n
+  \                   \n                \n                    \n                        \n
+  \                   \n                    \n                \n            \n        \n
+  \   \n\t\n\n\n    \n    \n    \n        \n \n   Advertisement\n \n\n    \n\n\n\n
+  \   \n    \n    \n         \n     \n         \n        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"});
+  } catch(err) { } \n \n    \n\n\r\n\n            \n            \n\n\n\n\n     \n
+  \   \n\n            \n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n\n\n\n    \n\n        \n
+  \   \n    \n       \t\n\n\n\n\n\n\t\n    \n    \n    \t\n    \t\n\t\t\t\n\t\t\t\t(function()
+  {\n\t\t\t\t\tvar zergnet = document.createElement('script');\n\t\t\t\t\tzergnet.type
+  = 'text/javascript'; zergnet.async = true;\n\t\t\t\t\tzergnet.src = 'http://www.zergnet.com/zerg.js?id=33641';\n\t\t\t\t\tvar
+  znscr = document.getElementsByTagName('script')[0];\n\t\t\t\t\tznscr.parentNode.insertBefore(zergnet,
+  znscr);\n\t\t\t\t})();\n\t\t\t\n\r\n\n    \n    \n\n   \n    \n\n\n\n\n\n\n\n\t
+  \   \n\n\n\n\n\t\n\t\t\n\t\t\n\t\tSite Index\n\t\tSections\n\t\t\t\tHome\n\t\t\t\t\tVideo\n\t\t\t\t\tPolitics\n\t\t\t\t\tU.S.\n\t\t\t\t\tOpinion\n\t\t\t\t\tEntertainment\n\t\t\t\t\tTech\n\t\t\t\t\tScience\n\t\t\t\t\tHealth\n\t\t\t\t\tTravel\n\t\t\t\t\tLifestyle\n\t\t\t\t\tWorld\n\t\t\t\t\tSports\n\t\t\t\t\tWeather\n\t\t\t\t\tOn
+  Air\n\t\t\t\tTools\n\t\t\t\tLive Video\n\t\t\t\t\tTrending\n\t\t\t\t\tNewsletters\n\t\t\t\t\tAlerts\n\t\t\t\t\tMobile\n\t\t\t\t\tPodcasts\n\t\t\t\t\tRadio\n\t\t\t\t\tFox
+  News Store\n\t\t\t\t\tApps & Downloads\n\t\t\t\tAbout\n\t\t\t\tOn Air Personalities\n\t\t\t\t\tCareers\n\t\t\t\t\tCollege
+  Students\n\t\t\t\t\tFox Around the World\n\t\t\t\t\tAdvertise With Us\n\t\t\t\t\tTerms
+  of Use\n\t\t\t\t\tPrivacy Policy\n\t\t\t\t\tAd Choices\n\t\t\t\t\tContact Us\n\t\t\t\t\tEmail
+  Newsroom\n\t\t\t\t\tFAQ\n\t\t\t\t\tMedia Relations\n\t\t\t\t\tClosed Captioning
+  Policy\n\t\t\t\tFollow\n\t\t\t\tFacebook\n\t\t\t\t\tTwitter\n\t\t\t\t\tGoogle+\n\t\t\t\t\tLinkedIn\n\t\t\t\t\tRSS\n\t\t\t\t\tNewsletters\n\t\t\t\t\n\t\t\tFox
+  News\n\t\t\tBack to Top\n\t\t\n\t\tThis material may not be published, broadcast,
+  rewritten, or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All
+  market data delayed 20 minutes. Privacy - Terms - FAQ\n\t\n\n    \n\n    (function($){\n
+  \       $.ad.pre();\n        if (window.FOX) { FOX.site.bottomInit(); }\n    }(jQuery));\n
+  \   \nSign in to comment!Sign in to comment!By        \t\n            \n            \t
+  \           \t\t\n            \t\t James Rogers\n                    \n                 \n
+  \                       \n            \n\t                        File photo - An
+  airplane flies over a drone during the Polar Bear Plunge on Coney Island in the
+  Brooklyn borough of New York Jan. 1, 2015. (REUTERS/Carlo Allegri)\n\t                        \n\t
+  \               Faced with a growing drone threat to aircraft, the Federal Aviation
+  Administration has teamed up with IT specialist CACI International in an attempt
+  to protect the airspace around airports.Officials are alarmed by the scale of safety
+  risk posed by drones, also known as Unmanned Aerial Systems (UAS). A study released
+  by Bard College Friday noted 921 incidents involving drones and manned aircraft
+  in U.S. airspace between Dec. 17, 2013, and Sept. 12, 2015.In October, as part of
+  the FAA’s Pathfinder program, the agency signed an agreement to evaluate CACI’s
+  technology within a 5-mile radius of airports.Related: The laser cannon that kills
+  drones“Safety is always the FAA's top priority, and we are concerned about the increasing
+  number of instances where pilots have reported seeing unmanned aircraft flying nearby,”
+  said FAA Deputy Administrator Mike Whitaker, in testimony before the House Aviation
+  Subcommittee.The FAA explained that CACI’s prototype sensor-based detection system
+  will be evaluated at airports selected by the agency. Specific details of how the
+  system will work have not yet been released by the FAA, although it will reportedly
+  use radio signals to detect and tackle drone threats.Arlington, Va.-based CACI referred
+  a FoxNews.com request for comment to the FAA. The company, however, recently launched
+  its SkyTracker system, which creates an electronic boundary around sensitive locations,
+  such as airports.Related: Amazon shows off drone delivery prototypesThe system uses
+  UAS radio links to identify and locate drones flying in banned or protected airspace,
+  according to CACI, and can also locate the drone’s operator. “The CACI system triangulates
+  the position of misused UAS for accurate geolocation and tracking, while differentiating
+  them from other UAS in the same area,” explains CACI, in a statement on its website.CACI
+  says that SkyTracker can also “initiate countermeasures,” effectively stopping specific
+  drones.The FAA is also reportedly looking at geo-fencing, a system that uses GPS
+  and Radio Frequency Identification (RFID) technology to limit where unmanned aircraft
+  can fly as it attempts to protect aircraft.Related: 'Bird' gadget lets you control
+  a drone with your fingerMissy Cummings, associate professor in the Department of
+  Mechanical Engineering and Materials Science at Duke University, warns that developing
+  effective anti-drone technology is a difficult task. “Tracking small airborne objects
+  that are slow moving close to the ground is notoriously difficult with significant
+  signal-to-noise ratio problems,” she told FoxNews.com, via email. “No system will
+  be perfect and how to guard against interlopers, even if you could track them is,
+  of course, another issue -- you can’t jam all GPS signals, for example, in an airport
+  area because it would affect the planes trying to land and take off.”The FAA prohibits
+  the use of unmanned aircraft within 5 miles of any airport within the U.S. without
+  permission from air traffic control.On Monday the agency also announced new regulations
+  requiring drone registration in an effort to keep track of soaring ownership. The
+  online registration would apply to owners of small drones weighing more than 0.55
+  pounds and less than 55 pounds, including payloads such as on-board cameras, according
+  to a statement.The FAA’s progress around commercial drones has been a source of
+  frustration for many companies. Amazon, for example, has been a vocal critic of
+  the pace of regulatory efforts for commercial drones. Last year the retail giant
+  threatened to move more of its drone development work outside of America unless
+  the FAA relaxed its rules.In May the FAA announced its Pathfinder testing program,
+  which is studying drone use in a number of industries, such as newsgathering, agriculture
+  and transport.Follow James Rogers on Twitter @jamesjrogers  + FollowFoxNewsSciTech
+  on FacebookADVERTISEMENTSubscribe to the daily Geek Sheet for the top science and
+  technology stories.AdvertisementThis material may not be published, broadcast, rewritten,
+  or redistributed. ©2015 FOX News Network, LLC. All rights reserved. All market data
+  delayed 20 minutes. Privacy - Terms - FAQ"

@@ -1,0 +1,3940 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 107
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 47
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 351
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : strong
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 388
+    str1: strong
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : script
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 396
+    str1: script
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : li
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 397
+    str1: li
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : ul
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 476
+    str1: ul
+    str2: 
+    str3: 
+    int1: 0
+    column: 10
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 517
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 926
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 109
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 926
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 122
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 926
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 146
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 926
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 160
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 935
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 938
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 15
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 940
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : h2
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 971
+    str1: h2
+    str2: 
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : header
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 972
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 14
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 975
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 11
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : span
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 976
+    str1: span
+    str2: 
+    str3: 
+    int1: 0
+    column: 127
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : a
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 976
+    str1: a
+    str2: 
+    str3: 
+    int1: 0
+    column: 131
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-8760-e6evx5"
+    line: 977
+    str1: div
+    str2: 
+    str3: 
+    int1: 0
+    column: 7
+address: http://www.jstor.org/stable/1558283?seq=13#page_scan_tab_contents
+inboundLinks: []
+lines:
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Skip to Main Content
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- |2
+              JSTOR Home
+- "        \n"
+- |2
+          Search
+- |2
+      Advanced Search
+- "    \n"
+- |
+  Browse
+- |2
+      by Title
+- |2
+          by Publisher
+- "    \n"
+- |
+  MyJSTOR
+- |2
+      My Profile
+- |2
+          Shelf
+- |2
+          JPASS Downloads
+- |2
+          Purchase History
+- "        \n"
+- "    \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2
+                  Filter search by
+- |2
+                  In This IssueIn This TitleAll Content
+- "        \n"
+- "    \n"
+- |2
+      Search
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      Login
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+      Help
+- |2+
+
+- "    \n"
+- |2
+      Contact Us
+- |2+
+
+- "    \n"
+- |2
+      About
+- |2+
+
+- |2+
+
+- "            \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- |2
+          Proceedings of the American Philosophica...
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          Vol. 148, No. 2, Jun., 2004
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- |2
+          What Is the History ...
+- "        \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                        \n"
+- "                        \n"
+- "                            \n"
+- "                                \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "         \n"
+- "           \n"
+- "               \n"
+- "                \n"
+- "                    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "                \n"
+- "                \n"
+- "            \n"
+- "             \n"
+- "                 \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        What Is the History of Medieval Optics Really about? \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- |
+  A. Mark Smith
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          Proceedings of the American Philosophical Society
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Vol. 148, No. 2 (Jun., 2004), pp. 180-194
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+          Published by: American Philosophical Society
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- |2
+          Stable URL: http://www.jstor.org/stable/1558283
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2
+          Page Count: 15
+- "    \n"
+- |2+
+
+- |2+
+
+- "             \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                            \n"
+- "                                \n"
+- "\t\n"
+- |2+
+
+- |2
+      Download PDF
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t    \n"
+- "                \n"
+- "    \n"
+- |2
+          Cite this Item
+- "    \n"
+- "    \n"
+- |2+
+
+- |2
+      Cite This Item
+- "    \n"
+- "        \n"
+- |2
+              Copy Citation
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              Export Citation
+- "        \n"
+- "        \n"
+- |2
+              Export to RefWorks
+- "        \n"
+- "        \n"
+- |2
+              Export a RIS file (For EndNote, ProCite, Reference Manager, Zotero…)
+- "        \n"
+- "        \n"
+- |2
+              Export a Text file (For BibTex)
+- "        \n"
+- "    \n"
+- |2
+      × Close Overlay
+- |2+
+
+- |2+
+
+- |2+
+
+- "        \n"
+- "        \n"
+- "    \n"
+- |2
+      <div class="mbm mlm">
+- |2
+          <strong class="mbs">{{ label }}
+- |2
+          <div class="clearfix">
+- |2
+              <div id="{{ label }}_text" class="{{ class_name }} left pas brdra citation-copy">{{ citation }}
+- |2
+              Copy
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \t\n"
+- "    \t\tJournal Info\n"
+- "        \t\n"
+- |2+
+
+- "    \n"
+- |2
+      Proceedings of the American Philosophical Society
+- |2+
+
+- |2
+      Description: The Proceedings journal contains papers that have been read before the members of the American Philosophical Society at meetings held in April and November. The papers sometimes are given as part of a topical symposium. In addition, articles that have been submitted by outside authors, reviewed by qualified scholars in the particular fields of study, and accepted for publication by the Committee on Publications, are published. Proceedings articles generally are 30 pages in length or less, although exceptions are made. The Proceedings journal also contains biographical memoirs of deceased members of the Society.
+- "    \n"
+- |2+
+
+- |2
+      Coverage: 1838-2011 (Vol. 1, No. 1 - Vol. 155, No. 4)
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+              Moving Wall: 3 years (What is the moving wall?)
+- "            \n"
+- |2
+                  Moving Wall
+- "                    \n"
+- |2
+                          The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.
+- |2
+                          Terms Related to the Moving Wall
+- |2
+                              Fixed walls: Journals with no new volumes being added to the archive.
+- |2
+                              Absorbed: Journals that are combined with another title.
+- |2
+                              Complete: Journals that are no longer published or that have been
+- |2
+                              combined with another title.
+- "                        \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      ISSN: 0003049X
+- |2+
+
+- |2+
+
+- "        \n"
+- "    Subjects: \n"
+- "            \n"
+- |2
+                  History,
+- "            \n"
+- |2
+                  History
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \t\n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "     \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "\t    \n"
+- "    \n"
+- "        \n"
+- |2
+              Article Tools
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Cite this Item
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- "                    \n"
+- |2
+                          Journal Info
+- "                    \n"
+- "                \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "                            \n"
+- "                        \n"
+- "                        \n"
+- "                        \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        Your access to JSTOR provided by \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                \n"
+- "            \n"
+- |2+
+
+- "            \n"
+- "\t\n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- |2
+              « Previous Item
+- "        \n"
+- |2
+           | 
+- "        \n"
+- |2
+              Next Item »
+- "        \n"
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t        \n"
+- "\t            \n"
+- "\t                    Article\n"
+- "\t                \n"
+- "\t                \n"
+- "    \n"
+- |2
+          Thumbnails
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t    \n"
+- "\t    \n"
+- "\t        \n"
+- "\t                                   \n"
+- "\t                \n"
+- "\t                    \n"
+- "\t                        You have javascript disabled.\n"
+- "\t\t\t\t\t\t\n"
+- "\t                    \n"
+- |2
+      To read this item, please use PDF
+- |2+
+
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- "\t                \n"
+- |2+
+
+- "\t                \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- "        \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Previous Page
+- |2
+          Previous Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "            \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      <!--//<![CDATA[
+- |2
+          var m3_u = (location.protocol=='https:'
+- |2
+                  ? 'https://ja.jstor.org/www/serve/ajs.php'
+- |2
+                  : 'http://ja.jstor.org/www/serve/ajs.php');
+- |2+
+
+- |2
+          if (!document.MAX_used){
+- |2
+              document.MAX_used = ',';
+- |2
+          }
+- |2
+          document.write("<script type='text/javascript' src='" + m3_u);
+- "        \n"
+- |2
+      var is_urp = false,
+- |2
+      is_shelved = false;
+- |2
+      document.write("?zoneid=16");
+- |2
+      document.write("&amp;articleId=10.2307/1558283");
+- "    \n"
+- |2
+          document.write ("&amp;issueId=10.2307/i270047");
+- |2
+          document.write("&amp;publisherCode=amps");
+- "    \n"
+- |2
+      document.write ("&amp;journalCode=procamerphilsoci");
+- |2
+      document.write("&amp;urp=" + is_urp);
+- |2
+      document.write("&amp;rfs=" + is_shelved);
+- |2+
+
+- |2
+          document.write('&amp;cb=1333288902');
+- |2
+          if (document.MAX_used != ','){
+- |2
+              document.write("&amp;exclude=" + document.MAX_used);
+- |2
+          }
+- |2
+          document.write(document.charset ?
+- |2
+                                  '&amp;charset='+document.charset :
+- |2
+                                  (document.characterSet ?
+- |2
+                                          '&amp;charset='+document.characterSet : ''));
+- |2
+          document.write("&amp;loc=" + escape(window.location));
+- |2
+          if (document.referrer) {
+- |2
+              document.write("&amp;referer=" + escape(document.referrer));
+- |2
+          }
+- |2
+          if (document.context) {
+- |2
+              document.write("&context=" + escape(document.context));
+- |2
+          }
+- |2
+          if (document.mmm_fo) {
+- |2
+              document.write("&amp;mmm_fo=1");
+- |2
+          }
+- |2
+          document.write("'><\/script>");
+- |2
+      //]]>-->
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "        \n"
+- "        \n"
+- |2+
+
+- "    \n"
+- |2
+          Next Page
+- |2
+          Next Page
+- "    \n"
+- |2+
+
+- |2+
+
+- "        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- "            \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+      We're having trouble loading this content. Download the PDF instead.
+- "    \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- |2
+      Page Thumbnails
+- "   \n"
+- "    \n"
+- "        \n"
+- "                    \n"
+- "                        \n"
+- |
+  180
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  181
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  182
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  183
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  184
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  185
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  186
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  187
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  188
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  189
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  190
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  191
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  192
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  193
+- "                    \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- |
+  194
+- "                    \n"
+- "                \n"
+- "            \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t            \n"
+- "\t        \n"
+- "\t    \n"
+- "        \n"
+- "\t    \n"
+- "\t        \n"
+- "\t            \n"
+- "    \n"
+- |2
+          Proceedings of the American Philosophical Society © 2004 American Philosophical Society
+- "    \n"
+- |2+
+
+- "\t        \n"
+- "\t    \n"
+- "\t    \n"
+- "            \n"
+- "               \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- |2
+          Request Permissions
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "            \n"
+- "    \n"
+- |2+
+
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+          JSTOR Home
+- |2
+              About
+- |2
+              Search
+- |2
+              Browse
+- |2
+              Terms and Conditions
+- |2
+              Privacy Policy
+- |2
+              Cookies
+- |2
+              Accessibility
+- |2
+              Help
+- "            \n"
+- |2
+      Contact Us
+- |2+
+
+- |2
+          JSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- |2
+          ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA.
+- "    \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |
+  <div id="loading" class="reveal-modal small" aria-live="polite" aria-relevant="additions" aria-atomic="true" aria-busy="false" data-reveal aria-labelledby="loadingTitle" aria-hidden="true" role="dialog">
+- |2
+      <header>
+- |2
+          <h2 id="loadingTitle">{{ heading }}
+- "    \n"
+- |2
+      <div id="loadingBody" class="reveal-body">
+- |2
+          {{ body }}
+- "    \n"
+- |2
+      <a href="#" class="close-reveal-modal" aria-label="Close Overlay">&#215; <span class="visuallyhidden">Close Overlay
+- |2+
+
+- |2+
+
+- "    \n"
+- |2
+    var addthis_config =
+- |2
+    {
+- "\t\t  pubid: \"ra-562109fdc69f4e2d\"\n"
+- |2
+    };
+- "  var addthis_share = \n"
+- |2
+    {
+- "\t\t  url: \"http://www.jstor.org/stable/1558283\"\n"
+- "\t\t  \n"
+- |2
+    };
+- |2+
+
+- |2
+      // COUNTER 4 tagging code
+- |2
+      window.starData = {
+- |2
+          'contentType': 'journal',
+- |2
+          'journal': 'Proceedings of the American Philosophical Society',
+- |2
+          'article': 'What Is the History of Medieval Optics Really about?',
+- |2
+          'institution_consortium_map': ['indiana.edu'],
+- |2
+          'yop': '2004',
+- |2
+          'doi': '10.2307/1558283',
+- |2
+          'SEARCH_FED': 'False',
+- |2
+          'has_access': true,
+- |2
+          'page_scan': true,
+- |2
+          'pdf_only': false,
+- |2
+          'full_text': false
+- |2
+      };
+- |2+
+
+- |2
+                  var _$tarQ = _$tarQ || [];
+- "                    \n"
+- "                (function (){ \n"
+- |2
+                          var stars = document.createElement('script'),
+- |2
+                              s = document.getElementsByTagName('script')[0];
+- "                        \n"
+- "                        stars.async= true; \n"
+- "                        stars.type = 'text/javascript'; \n"
+- "                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n"
+- "                        \n"
+- "                        s.parentNode.insertBefore(stars, s); \n"
+- |2
+                      }
+- |2
+                  )();
+- "            \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- |2
+              //To prevent JS errors when disabled
+- |2
+              if(typeof _satellite !== "undefined"){
+- |2
+                  _satellite.pageBottom();
+- |2
+              }
+- |2
+          The "moving wall" represents the time period between the last issue
+- |2
+                          available in JSTOR and the most recently published issue of a journal.
+- |2
+                          Moving walls are generally represented in years. In rare instances, a
+- |2
+                          publisher has elected to have a "zero" moving wall, so their current
+- |2
+                          issues are available in JSTOR shortly after publication.
+- |2
+                          Note: In calculating the moving wall, the current year is not counted.
+- |2
+                          For example, if the current year is 2008 and a journal has a 5 year
+- |2
+                          moving wall, articles from the year 2002 are available.Your access to JSTOR provided by To read this item, please use PDFJSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+- "        ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®,
+  and ITHAKA® are registered trademarks of ITHAKA."
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 4.0
+    docPositions:
+    - 4
+    - 48
+    - 552
+  jstor: !ruby/object:Word
+    word: jstor
+    stem: jstor
+    docFrequency: 18.0
+    docPositions:
+    - 10
+    - 186
+    - 287
+    - 290
+    - 367
+    - 459
+    - 460
+    - 714
+    - 726
+    - 727
+    - 749
+    - 791
+    - 794
+    - 797
+    - 798
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 714
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 6.0
+    docPositions:
+    - 12
+    - 13
+    - 47
+    - 51
+    - 716
+  advanced: !ruby/object:Word
+    word: advanced
+    stem: advanc
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 3.0
+    docPositions:
+    - 15
+    - 717
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 296
+    - 298
+  publisher: !ruby/object:Word
+    word: publisher
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 17
+    - 289
+    - 793
+  myjstor: !ruby/object:Word
+    word: myjstor
+    stem: myjstor
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  shelf: !ruby/object:Word
+    word: shelf
+    stem: shelf
+    docFrequency: 2.0
+    docPositions:
+    - 21
+  jpass: !ruby/object:Word
+    word: jpass
+    stem: jpass
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 727
+    - 798
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  purchase: !ruby/object:Word
+    word: purchase
+    stem: purchas
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 7.0
+    docPositions:
+    - 23
+    - 113
+    - 148
+    - 313
+    - 315
+    - 757
+  filter: !ruby/object:Word
+    word: filter
+    stem: filter
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  issuein: !ruby/object:Word
+    word: issuein
+    stem: issuein
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  titleall: !ruby/object:Word
+    word: titleall
+    stem: titleal
+    docFrequency: 2.0
+    docPositions:
+    - 48
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 722
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 724
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 75
+    - 724
+  proceedings: !ruby/object:Word
+    word: proceedings
+    stem: proceed
+    docFrequency: 9.0
+    docPositions:
+    - 97
+    - 167
+    - 269
+    - 271
+    - 686
+    - 756
+  american: !ruby/object:Word
+    word: american
+    stem: american
+    docFrequency: 9.0
+    docPositions:
+    - 97
+    - 167
+    - 179
+    - 269
+    - 271
+    - 686
+    - 756
+  philosophica: !ruby/object:Word
+    word: philosophica
+    stem: philosophica
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  vol: !ruby/object:Word
+    word: vol
+    stem: vol
+    docFrequency: 5.0
+    docPositions:
+    - 105
+    - 172
+    - 274
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 7.0
+    docPositions:
+    - 105
+    - 172
+    - 274
+    - 295
+    - 297
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 172
+  medieval: !ruby/object:Word
+    word: medieval
+    stem: mediev
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 757
+  optics: !ruby/object:Word
+    word: optics
+    stem: optic
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 757
+  really: !ruby/object:Word
+    word: really
+    stem: realli
+    docFrequency: 3.0
+    docPositions:
+    - 148
+    - 757
+  mark: !ruby/object:Word
+    word: mark
+    stem: mark
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  philosophical: !ruby/object:Word
+    word: philosophical
+    stem: philosoph
+    docFrequency: 8.0
+    docPositions:
+    - 167
+    - 179
+    - 269
+    - 271
+    - 686
+    - 756
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 9.0
+    docPositions:
+    - 167
+    - 179
+    - 269
+    - 271
+    - 686
+    - 756
+  pp: !ruby/object:Word
+    word: pp
+    stem: pp
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 6.0
+    docPositions:
+    - 179
+    - 271
+    - 287
+    - 297
+    - 791
+  stable: !ruby/object:Word
+    word: stable
+    stem: stabl
+    docFrequency: 4.0
+    docPositions:
+    - 186
+    - 749
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 749
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 5.0
+    docPositions:
+    - 186
+    - 459
+    - 460
+    - 749
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 7.0
+    docPositions:
+    - 191
+    - 442
+    - 443
+    - 509
+    - 510
+    - 563
+  count: !ruby/object:Word
+    word: count
+    stem: count
+    docFrequency: 2.0
+    docPositions:
+    - 191
+  download: !ruby/object:Word
+    word: download
+    stem: download
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 552
+  pdf: !ruby/object:Word
+    word: pdf
+    stem: pdf
+    docFrequency: 4.0
+    docPositions:
+    - 205
+    - 415
+    - 552
+  cite: !ruby/object:Word
+    word: cite
+    stem: cite
+    docFrequency: 4.0
+    docPositions:
+    - 213
+    - 217
+    - 343
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 8.0
+    docPositions:
+    - 213
+    - 217
+    - 343
+    - 384
+    - 388
+    - 415
+    - 797
+  copy: !ruby/object:Word
+    word: copy
+    stem: copi
+    docFrequency: 4.0
+    docPositions:
+    - 220
+    - 254
+    - 255
+  citation: !ruby/object:Word
+    word: citation
+    stem: citat
+    docFrequency: 5.0
+    docPositions:
+    - 220
+    - 232
+    - 254
+  export: !ruby/object:Word
+    word: export
+    stem: export
+    docFrequency: 5.0
+    docPositions:
+    - 232
+    - 235
+    - 238
+    - 241
+  refworks: !ruby/object:Word
+    word: refworks
+    stem: refwork
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  ris: !ruby/object:Word
+    word: ris
+    stem: ri
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 241
+  endnote: !ruby/object:Word
+    word: endnote
+    stem: endnot
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  procite: !ruby/object:Word
+    word: procite
+    stem: procit
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  reference: !ruby/object:Word
+    word: reference
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  manager: !ruby/object:Word
+    word: manager
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  zotero: !ruby/object:Word
+    word: zotero
+    stem: zotero
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 4.0
+    docPositions:
+    - 241
+    - 465
+    - 775
+  bibtex: !ruby/object:Word
+    word: bibtex
+    stem: bibtex
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 35.0
+    docPositions:
+    - 244
+    - 251
+    - 252
+    - 253
+    - 254
+    - 384
+    - 457
+    - 459
+    - 460
+    - 484
+    - 485
+    - 486
+    - 727
+    - 732
+    - 733
+    - 734
+    - 736
+    - 737
+    - 739
+    - 753
+    - 755
+    - 756
+    - 757
+    - 758
+    - 759
+    - 760
+    - 761
+    - 762
+    - 763
+    - 764
+    - 765
+    - 770
+    - 786
+    - 798
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 5.0
+    docPositions:
+    - 244
+    - 739
+  overlay: !ruby/object:Word
+    word: overlay
+    stem: overlai
+    docFrequency: 4.0
+    docPositions:
+    - 244
+    - 739
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 6.0
+    docPositions:
+    - 251
+    - 253
+    - 254
+    - 732
+    - 736
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 9.0
+    docPositions:
+    - 251
+    - 252
+    - 253
+    - 254
+    - 732
+    - 736
+    - 739
+  mbm: !ruby/object:Word
+    word: mbm
+    stem: mbm
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  mlm: !ruby/object:Word
+    word: mlm
+    stem: mlm
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  strong: !ruby/object:Word
+    word: strong
+    stem: strong
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  mbs: !ruby/object:Word
+    word: mbs
+    stem: mb
+    docFrequency: 2.0
+    docPositions:
+    - 252
+  label: !ruby/object:Word
+    word: label
+    stem: label
+    docFrequency: 4.0
+    docPositions:
+    - 252
+    - 254
+    - 739
+  clearfix: !ruby/object:Word
+    word: clearfix
+    stem: clearfix
+    docFrequency: 2.0
+    docPositions:
+    - 253
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 5.0
+    docPositions:
+    - 254
+    - 732
+    - 734
+    - 736
+  _text: !ruby/object:Word
+    word: _text
+    stem: _text
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  class_name: !ruby/object:Word
+    word: class_name
+    stem: class_nam
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  pas: !ruby/object:Word
+    word: pas
+    stem: pa
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  brdra: !ruby/object:Word
+    word: brdra
+    stem: brdra
+    docFrequency: 2.0
+    docPositions:
+    - 254
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 11.0
+    docPositions:
+    - 265
+    - 271
+    - 287
+    - 292
+    - 349
+    - 755
+    - 756
+    - 791
+    - 796
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 265
+    - 349
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 271
+  papers: !ruby/object:Word
+    word: papers
+    stem: paper
+    docFrequency: 3.0
+    docPositions:
+    - 271
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 7.0
+    docPositions:
+    - 271
+    - 289
+    - 297
+    - 412
+    - 793
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 297
+  read: !ruby/object:Word
+    word: read
+    stem: read
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 415
+    - 797
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 3.0
+    docPositions:
+    - 271
+  meetings: !ruby/object:Word
+    word: meetings
+    stem: meet
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  april: !ruby/object:Word
+    word: april
+    stem: april
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 14.0
+    docPositions:
+    - 271
+    - 287
+    - 292
+    - 718
+    - 726
+    - 727
+    - 791
+    - 796
+    - 797
+    - 798
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  sometimes: !ruby/object:Word
+    word: sometimes
+    stem: sometim
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 726
+    - 797
+  topical: !ruby/object:Word
+    word: topical
+    stem: topic
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  symposium: !ruby/object:Word
+    word: symposium
+    stem: symposium
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  addition: !ruby/object:Word
+    word: addition
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  articles: !ruby/object:Word
+    word: articles
+    stem: articl
+    docFrequency: 5.0
+    docPositions:
+    - 271
+    - 293
+    - 797
+  submitted: !ruby/object:Word
+    word: submitted
+    stem: submit
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  outside: !ruby/object:Word
+    word: outside
+    stem: outsid
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  authors: !ruby/object:Word
+    word: authors
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  reviewed: !ruby/object:Word
+    word: reviewed
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  qualified: !ruby/object:Word
+    word: qualified
+    stem: qualifi
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  scholars: !ruby/object:Word
+    word: scholars
+    stem: scholar
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  fields: !ruby/object:Word
+    word: fields
+    stem: field
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  study: !ruby/object:Word
+    word: study
+    stem: studi
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  accepted: !ruby/object:Word
+    word: accepted
+    stem: accept
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  publication: !ruby/object:Word
+    word: publication
+    stem: public
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 290
+    - 794
+  committee: !ruby/object:Word
+    word: committee
+    stem: committe
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  publications: !ruby/object:Word
+    word: publications
+    stem: public
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  generally: !ruby/object:Word
+    word: generally
+    stem: gener
+    docFrequency: 4.0
+    docPositions:
+    - 271
+    - 288
+    - 792
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  less: !ruby/object:Word
+    word: less
+    stem: less
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  although: !ruby/object:Word
+    word: although
+    stem: although
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  exceptions: !ruby/object:Word
+    word: exceptions
+    stem: except
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  biographical: !ruby/object:Word
+    word: biographical
+    stem: biograph
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  memoirs: !ruby/object:Word
+    word: memoirs
+    stem: memoir
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  deceased: !ruby/object:Word
+    word: deceased
+    stem: deceas
+    docFrequency: 2.0
+    docPositions:
+    - 271
+  coverage: !ruby/object:Word
+    word: coverage
+    stem: coverag
+    docFrequency: 2.0
+    docPositions:
+    - 274
+  moving: !ruby/object:Word
+    word: moving
+    stem: move
+    docFrequency: 15.0
+    docPositions:
+    - 282
+    - 284
+    - 286
+    - 288
+    - 289
+    - 291
+    - 293
+    - 294
+    - 790
+    - 792
+    - 793
+    - 795
+    - 797
+  wall: !ruby/object:Word
+    word: wall
+    stem: wall
+    docFrequency: 13.0
+    docPositions:
+    - 282
+    - 284
+    - 286
+    - 289
+    - 291
+    - 293
+    - 294
+    - 790
+    - 793
+    - 795
+    - 797
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 4.0
+    docPositions:
+    - 282
+    - 288
+    - 792
+  represents: !ruby/object:Word
+    word: represents
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 790
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 790
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 790
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 790
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 286
+    - 790
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 5.0
+    docPositions:
+    - 286
+    - 287
+    - 790
+    - 791
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 7.0
+    docPositions:
+    - 287
+    - 290
+    - 293
+    - 791
+    - 794
+    - 797
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 791
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 287
+    - 791
+  walls: !ruby/object:Word
+    word: walls
+    stem: wall
+    docFrequency: 4.0
+    docPositions:
+    - 288
+    - 295
+    - 792
+  represented: !ruby/object:Word
+    word: represented
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 792
+  rare: !ruby/object:Word
+    word: rare
+    stem: rare
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 792
+  instances: !ruby/object:Word
+    word: instances
+    stem: instanc
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 792
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 5.0
+    docPositions:
+    - 289
+    - 292
+    - 793
+    - 796
+  elected: !ruby/object:Word
+    word: elected
+    stem: elect
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 793
+  zero: !ruby/object:Word
+    word: zero
+    stem: zero
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 793
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 793
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 3.0
+    docPositions:
+    - 289
+    - 793
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 7.0
+    docPositions:
+    - 289
+    - 291
+    - 292
+    - 793
+    - 795
+    - 796
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 794
+  shortly: !ruby/object:Word
+    word: shortly
+    stem: shortli
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 794
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 3.0
+    docPositions:
+    - 290
+    - 794
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 795
+  calculating: !ruby/object:Word
+    word: calculating
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 795
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 9.0
+    docPositions:
+    - 291
+    - 292
+    - 293
+    - 795
+    - 796
+    - 797
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 291
+    - 726
+    - 795
+    - 797
+  counted: !ruby/object:Word
+    word: counted
+    stem: count
+    docFrequency: 3.0
+    docPositions:
+    - 291
+    - 795
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 3.0
+    docPositions:
+    - 292
+    - 796
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 9.0
+    docPositions:
+    - 292
+    - 462
+    - 480
+    - 488
+    - 491
+    - 494
+    - 787
+    - 796
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 294
+    - 718
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  journals: !ruby/object:Word
+    word: journals
+    stem: journal
+    docFrequency: 4.0
+    docPositions:
+    - 295
+    - 296
+    - 297
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  volumes: !ruby/object:Word
+    word: volumes
+    stem: volum
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  added: !ruby/object:Word
+    word: added
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 2.0
+    docPositions:
+    - 295
+  absorbed: !ruby/object:Word
+    word: absorbed
+    stem: absorb
+    docFrequency: 2.0
+    docPositions:
+    - 296
+  combined: !ruby/object:Word
+    word: combined
+    stem: combin
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 298
+  another: !ruby/object:Word
+    word: another
+    stem: anoth
+    docFrequency: 3.0
+    docPositions:
+    - 296
+    - 298
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  longer: !ruby/object:Word
+    word: longer
+    stem: longer
+    docFrequency: 2.0
+    docPositions:
+    - 297
+  issn: !ruby/object:Word
+    word: issn
+    stem: issn
+    docFrequency: 2.0
+    docPositions:
+    - 307
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 311
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 4.0
+    docPositions:
+    - 339
+    - 395
+    - 757
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 339
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 3.0
+    docPositions:
+    - 367
+    - 797
+  access: !ruby/object:Word
+    word: access
+    stem: access
+    docFrequency: 3.0
+    docPositions:
+    - 367
+    - 797
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 367
+    - 797
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 4.0
+    docPositions:
+    - 384
+    - 442
+    - 443
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 4.0
+    docPositions:
+    - 388
+    - 509
+    - 510
+  thumbnails: !ruby/object:Word
+    word: thumbnails
+    stem: thumbnail
+    docFrequency: 3.0
+    docPositions:
+    - 399
+    - 563
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 412
+  disabled: !ruby/object:Word
+    word: disabled
+    stem: disabl
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 786
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 415
+    - 797
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 415
+    - 726
+    - 797
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 457
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 3.0
+    docPositions:
+    - 458
+    - 487
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 2.0
+    docPositions:
+    - 458
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 3.0
+    docPositions:
+    - 458
+    - 459
+  ja: !ruby/object:Word
+    word: ja
+    stem: ja
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 460
+  serve: !ruby/object:Word
+    word: serve
+    stem: serv
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 460
+  ajs: !ruby/object:Word
+    word: ajs
+    stem: aj
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 460
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 3.0
+    docPositions:
+    - 459
+    - 460
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 32.0
+    docPositions:
+    - 462
+    - 463
+    - 465
+    - 469
+    - 470
+    - 472
+    - 473
+    - 475
+    - 476
+    - 477
+    - 479
+    - 480
+    - 481
+    - 483
+    - 484
+    - 485
+    - 486
+    - 487
+    - 488
+    - 489
+    - 491
+    - 492
+    - 494
+    - 495
+    - 497
+    - 771
+    - 772
+  max_used: !ruby/object:Word
+    word: max_used
+    stem: max_us
+    docFrequency: 5.0
+    docPositions:
+    - 462
+    - 463
+    - 480
+    - 481
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 17.0
+    docPositions:
+    - 465
+    - 469
+    - 470
+    - 472
+    - 473
+    - 475
+    - 476
+    - 477
+    - 479
+    - 481
+    - 483
+    - 487
+    - 489
+    - 492
+    - 495
+    - 497
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 5.0
+    docPositions:
+    - 465
+    - 497
+    - 771
+    - 772
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 465
+    - 775
+  is_urp: !ruby/object:Word
+    word: is_urp
+    stem: is_urp
+    docFrequency: 3.0
+    docPositions:
+    - 467
+    - 476
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 7.0
+    docPositions:
+    - 467
+    - 468
+    - 732
+    - 761
+    - 764
+    - 765
+  is_shelved: !ruby/object:Word
+    word: is_shelved
+    stem: is_shelv
+    docFrequency: 3.0
+    docPositions:
+    - 468
+    - 477
+  zoneid: !ruby/object:Word
+    word: zoneid
+    stem: zoneid
+    docFrequency: 2.0
+    docPositions:
+    - 469
+  amp: !ruby/object:Word
+    word: amp
+    stem: amp
+    docFrequency: 14.0
+    docPositions:
+    - 470
+    - 472
+    - 473
+    - 475
+    - 476
+    - 477
+    - 479
+    - 481
+    - 484
+    - 486
+    - 487
+    - 489
+    - 495
+  articleid: !ruby/object:Word
+    word: articleid
+    stem: articleid
+    docFrequency: 2.0
+    docPositions:
+    - 470
+  issueid: !ruby/object:Word
+    word: issueid
+    stem: issueid
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  publishercode: !ruby/object:Word
+    word: publishercode
+    stem: publishercod
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  amps: !ruby/object:Word
+    word: amps
+    stem: amp
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  journalcode: !ruby/object:Word
+    word: journalcode
+    stem: journalcod
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  procamerphilsoci: !ruby/object:Word
+    word: procamerphilsoci
+    stem: procamerphilsoci
+    docFrequency: 2.0
+    docPositions:
+    - 475
+  urp: !ruby/object:Word
+    word: urp
+    stem: urp
+    docFrequency: 2.0
+    docPositions:
+    - 476
+  rfs: !ruby/object:Word
+    word: rfs
+    stem: rf
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  cb: !ruby/object:Word
+    word: cb
+    stem: cb
+    docFrequency: 2.0
+    docPositions:
+    - 479
+  exclude: !ruby/object:Word
+    word: exclude
+    stem: exclud
+    docFrequency: 2.0
+    docPositions:
+    - 481
+  charset: !ruby/object:Word
+    word: charset
+    stem: charset
+    docFrequency: 5.0
+    docPositions:
+    - 483
+    - 484
+    - 486
+  characterset: !ruby/object:Word
+    word: characterset
+    stem: characterset
+    docFrequency: 3.0
+    docPositions:
+    - 485
+    - 486
+  loc: !ruby/object:Word
+    word: loc
+    stem: loc
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  escape: !ruby/object:Word
+    word: escape
+    stem: escap
+    docFrequency: 4.0
+    docPositions:
+    - 487
+    - 489
+    - 492
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 3.0
+    docPositions:
+    - 487
+    - 754
+  referrer: !ruby/object:Word
+    word: referrer
+    stem: referr
+    docFrequency: 3.0
+    docPositions:
+    - 488
+    - 489
+  referer: !ruby/object:Word
+    word: referer
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 489
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 4.0
+    docPositions:
+    - 491
+    - 492
+  mmm_fo: !ruby/object:Word
+    word: mmm_fo
+    stem: mmm_fo
+    docFrequency: 3.0
+    docPositions:
+    - 494
+    - 495
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  having: !ruby/object:Word
+    word: having
+    stem: have
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  trouble: !ruby/object:Word
+    word: trouble
+    stem: troubl
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  loading: !ruby/object:Word
+    word: loading
+    stem: load
+    docFrequency: 3.0
+    docPositions:
+    - 552
+    - 732
+  instead: !ruby/object:Word
+    word: instead
+    stem: instead
+    docFrequency: 2.0
+    docPositions:
+    - 552
+  request: !ruby/object:Word
+    word: request
+    stem: request
+    docFrequency: 2.0
+    docPositions:
+    - 700
+  permissions: !ruby/object:Word
+    word: permissions
+    stem: permiss
+    docFrequency: 2.0
+    docPositions:
+    - 700
+  conditions: !ruby/object:Word
+    word: conditions
+    stem: condit
+    docFrequency: 2.0
+    docPositions:
+    - 718
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 719
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 719
+  cookies: !ruby/object:Word
+    word: cookies
+    stem: cooki
+    docFrequency: 2.0
+    docPositions:
+    - 720
+  accessibility: !ruby/object:Word
+    word: accessibility
+    stem: access
+    docFrequency: 2.0
+    docPositions:
+    - 721
+  ithaka: !ruby/object:Word
+    word: ithaka
+    stem: ithaka
+    docFrequency: 9.0
+    docPositions:
+    - 726
+    - 727
+    - 797
+    - 798
+  profit: !ruby/object:Word
+    word: profit
+    stem: profit
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  organization: !ruby/object:Word
+    word: organization
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  helping: !ruby/object:Word
+    word: helping
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  academic: !ruby/object:Word
+    word: academic
+    stem: academ
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  digital: !ruby/object:Word
+    word: digital
+    stem: digit
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  technologies: !ruby/object:Word
+    word: technologies
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  preserve: !ruby/object:Word
+    word: preserve
+    stem: preserv
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  scholarly: !ruby/object:Word
+    word: scholarly
+    stem: scholarli
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  advance: !ruby/object:Word
+    word: advance
+    stem: advanc
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  teaching: !ruby/object:Word
+    word: teaching
+    stem: teach
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  sustainable: !ruby/object:Word
+    word: sustainable
+    stem: sustain
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 726
+    - 797
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  registered: !ruby/object:Word
+    word: registered
+    stem: regist
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  trademarks: !ruby/object:Word
+    word: trademarks
+    stem: trademark
+    docFrequency: 3.0
+    docPositions:
+    - 727
+    - 798
+  reveal: !ruby/object:Word
+    word: reveal
+    stem: reveal
+    docFrequency: 5.0
+    docPositions:
+    - 732
+    - 736
+    - 739
+  modal: !ruby/object:Word
+    word: modal
+    stem: modal
+    docFrequency: 3.0
+    docPositions:
+    - 732
+    - 739
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  aria: !ruby/object:Word
+    word: aria
+    stem: aria
+    docFrequency: 8.0
+    docPositions:
+    - 732
+    - 739
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  polite: !ruby/object:Word
+    word: polite
+    stem: polit
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  additions: !ruby/object:Word
+    word: additions
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  atomic: !ruby/object:Word
+    word: atomic
+    stem: atom
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 6.0
+    docPositions:
+    - 732
+    - 762
+    - 763
+    - 774
+  busy: !ruby/object:Word
+    word: busy
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  labelledby: !ruby/object:Word
+    word: labelledby
+    stem: labelledbi
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  loadingtitle: !ruby/object:Word
+    word: loadingtitle
+    stem: loadingtitl
+    docFrequency: 3.0
+    docPositions:
+    - 732
+    - 734
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  dialog: !ruby/object:Word
+    word: dialog
+    stem: dialog
+    docFrequency: 2.0
+    docPositions:
+    - 732
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 2.0
+    docPositions:
+    - 733
+  heading: !ruby/object:Word
+    word: heading
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  loadingbody: !ruby/object:Word
+    word: loadingbody
+    stem: loadingbodi
+    docFrequency: 2.0
+    docPositions:
+    - 736
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 3.0
+    docPositions:
+    - 736
+    - 737
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 739
+  span: !ruby/object:Word
+    word: span
+    stem: span
+    docFrequency: 2.0
+    docPositions:
+    - 739
+  visuallyhidden: !ruby/object:Word
+    word: visuallyhidden
+    stem: visuallyhidden
+    docFrequency: 2.0
+    docPositions:
+    - 739
+  addthis_config: !ruby/object:Word
+    word: addthis_config
+    stem: addthis_config
+    docFrequency: 2.0
+    docPositions:
+    - 743
+  pubid: !ruby/object:Word
+    word: pubid
+    stem: pubid
+    docFrequency: 2.0
+    docPositions:
+    - 745
+  ra: !ruby/object:Word
+    word: ra
+    stem: ra
+    docFrequency: 2.0
+    docPositions:
+    - 745
+  addthis_share: !ruby/object:Word
+    word: addthis_share
+    stem: addthis_shar
+    docFrequency: 2.0
+    docPositions:
+    - 747
+  counter: !ruby/object:Word
+    word: counter
+    stem: counter
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  tagging: !ruby/object:Word
+    word: tagging
+    stem: tag
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  stardata: !ruby/object:Word
+    word: stardata
+    stem: stardata
+    docFrequency: 2.0
+    docPositions:
+    - 754
+  contenttype: !ruby/object:Word
+    word: contenttype
+    stem: contenttyp
+    docFrequency: 2.0
+    docPositions:
+    - 755
+  institution_consortium_map: !ruby/object:Word
+    word: institution_consortium_map
+    stem: institution_consortium_map
+    docFrequency: 2.0
+    docPositions:
+    - 758
+  indiana: !ruby/object:Word
+    word: indiana
+    stem: indiana
+    docFrequency: 2.0
+    docPositions:
+    - 758
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 758
+  yop: !ruby/object:Word
+    word: yop
+    stem: yop
+    docFrequency: 2.0
+    docPositions:
+    - 759
+  doi: !ruby/object:Word
+    word: doi
+    stem: doi
+    docFrequency: 2.0
+    docPositions:
+    - 760
+  search_fed: !ruby/object:Word
+    word: search_fed
+    stem: search_f
+    docFrequency: 2.0
+    docPositions:
+    - 761
+  has_access: !ruby/object:Word
+    word: has_access
+    stem: has_access
+    docFrequency: 2.0
+    docPositions:
+    - 762
+  page_scan: !ruby/object:Word
+    word: page_scan
+    stem: page_scan
+    docFrequency: 2.0
+    docPositions:
+    - 763
+  pdf_only: !ruby/object:Word
+    word: pdf_only
+    stem: pdf_onli
+    docFrequency: 2.0
+    docPositions:
+    - 764
+  full_text: !ruby/object:Word
+    word: full_text
+    stem: full_text
+    docFrequency: 2.0
+    docPositions:
+    - 765
+  _: !ruby/object:Word
+    word: _
+    stem: _
+    docFrequency: 3.0
+    docPositions:
+    - 768
+  tarq: !ruby/object:Word
+    word: tarq
+    stem: tarq
+    docFrequency: 3.0
+    docPositions:
+    - 768
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  stars: !ruby/object:Word
+    word: stars
+    stem: star
+    docFrequency: 6.0
+    docPositions:
+    - 771
+    - 774
+    - 775
+    - 776
+    - 778
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 2.0
+    docPositions:
+    - 771
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 4.0
+    docPositions:
+    - 772
+    - 778
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 2.0
+    docPositions:
+    - 774
+  receiver: !ruby/object:Word
+    word: receiver
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  star: !ruby/object:Word
+    word: star
+    stem: star
+    docFrequency: 3.0
+    docPositions:
+    - 776
+  ith: !ruby/object:Word
+    word: ith
+    stem: ith
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  semcs: !ruby/object:Word
+    word: semcs
+    stem: semc
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  aws: !ruby/object:Word
+    word: aws
+    stem: aw
+    docFrequency: 2.0
+    docPositions:
+    - 776
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 778
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 778
+  prevent: !ruby/object:Word
+    word: prevent
+    stem: prevent
+    docFrequency: 2.0
+    docPositions:
+    - 786
+  errors: !ruby/object:Word
+    word: errors
+    stem: error
+    docFrequency: 2.0
+    docPositions:
+    - 786
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 2.0
+    docPositions:
+    - 787
+  _satellite: !ruby/object:Word
+    word: _satellite
+    stem: _satellit
+    docFrequency: 3.0
+    docPositions:
+    - 787
+    - 788
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 2.0
+    docPositions:
+    - 787
+  pagebottom: !ruby/object:Word
+    word: pagebottom
+    stem: pagebottom
+    docFrequency: 2.0
+    docPositions:
+    - 788
+  pdfjstor: !ruby/object:Word
+    word: pdfjstor
+    stem: pdfjstor
+    docFrequency: 2.0
+    docPositions:
+    - 797
+lineCount: 799
+wordCount: 1048
+rank: 0.2564102564102564
+title: |2
+
+      What Is the History of Medieval Optics Really about? on JSTOR
+links:
+- http://about.jstor.org/support-training/help
+- http://about.jstor.org/
+- http://libraries.iub.edu
+- http://ja.jstor.org/www/serve/ck.php?n=a680fa70&cb=1608286726
+- https://www.copyright.com/openurl.do?sid=pd_ITHAKA&servicename=all&WT.mc_id=tpd_ITHAKA19334192&issn=0003049X&date=2004
+- http://about.jstor.org/
+- http://about.jstor.org/terms
+- http://about.jstor.org/privacy
+- http://about.jstor.org/content/jstors-use-cookies
+- http://about.jstor.org/accessibility
+- http://about.jstor.org/support-training/help
+rawText: "\n        \n        \n        \n            Skip to Main Content\n        \n\n
+  \       \n\n        \n            JSTOR Home\n        \n        Search\n    Advanced
+  Search\n    \nBrowse\n    by Title\n        by Publisher\n    \nMyJSTOR\n    My
+  Profile\n        Shelf\n        JPASS Downloads\n        Purchase History\n        \n
+  \   \n    \n            \n    \n        \n            \n                \n                    \n\n\n
+  \   \n    \n        \n        \n            \n    \n    \n        \n        \n    \n
+  \       \n            \n                Filter search by\n                In This
+  IssueIn This TitleAll Content\n        \n    \n    Search\n    \n\n\n        \n
+  \   \n\n\n                    \n                \n                \n                    \n\n
+  \   \n\n\n    \n    Login\n\n    \n    \n    Help\n\n    \n    Contact Us\n\n    \n
+  \   About\n\n\n            \n            \n                \n                    \n
+  \                       \n                            \n\n\n                        \n
+  \                       \n                            \n                                \n\n\n
+  \       \n        \n        Proceedings of the American Philosophica...\n        \n
+  \       \n    \n\n    \n        \n        \n        Vol. 148, No. 2, Jun., 2004\n
+  \       \n        \n    \n\n    \n        \n        \n        What Is the History
+  ...\n        \n        \n    \n\n\n                        \n                        \n
+  \                           \n                                \n\n\n    \n         \n
+  \          \n               \n                \n                    \n\n    \n\n
+  \   \n\n\n                \n                \n            \n             \n                 \n
+  \   \n        \n            \n\n\n    \n        What Is the History of Medieval
+  Optics Really about? \n    \n\n        \n\n        \n        \n    \n        \nA.
+  Mark Smith\n    \n\n    \n\n    \n        \n\n\n    \n        Proceedings of the
+  American Philosophical Society\n    \n\n        \n    \n        Vol. 148, No. 2
+  (Jun., 2004), pp. 180-194\n    \n\n        \n\n\n    \n        Published by: American
+  Philosophical Society\n    \n\n        \n    \n        \n    \n        Stable URL:
+  http://www.jstor.org/stable/1558283\n    \n\n        \n    \n        Page Count:
+  15\n    \n\n\n             \n\n        \n    \n\n                            \n
+  \                           \n                                \n\t\n\n    Download
+  PDF\n\n\n\n \n\t    \n                \n    \n        Cite this Item\n    \n    \n\n
+  \   Cite This Item\n    \n        \n            Copy Citation\n        \n        \n
+  \       \n        \n        \n        \n        \n        \n        \n        \n
+  \       \n            Export Citation\n        \n        \n            Export to
+  RefWorks\n        \n        \n            Export a RIS file (For EndNote, ProCite,
+  Reference Manager, Zotero…)\n        \n        \n            Export a Text file
+  (For BibTex)\n        \n    \n    × Close Overlay\n\n\n\n        \n        \n    \n
+  \   <div class=\"mbm mlm\">\n        <strong class=\"mbs\">{{ label }}\n        <div
+  class=\"clearfix\">\n            <div id=\"{{ label }}_text\" class=\"{{ class_name
+  }} left pas brdra citation-copy\">{{ citation }}\n            Copy\n        \n    \n\n\n
+  \       \n\n        \n    \n    \t\n    \t\tJournal Info\n        \t\n\n    \n    Proceedings
+  of the American Philosophical Society\n\n    Description: The Proceedings journal
+  contains papers that have been read before the members of the American Philosophical
+  Society at meetings held in April and November. The papers sometimes are given as
+  part of a topical symposium. In addition, articles that have been submitted by outside
+  authors, reviewed by qualified scholars in the particular fields of study, and accepted
+  for publication by the Committee on Publications, are published. Proceedings articles
+  generally are 30 pages in length or less, although exceptions are made. The Proceedings
+  journal also contains biographical memoirs of deceased members of the Society.\n
+  \   \n\n    Coverage: 1838-2011 (Vol. 1, No. 1 - Vol. 155, No. 4)\n\n\n    \n\n\n\n
+  \   \n            Moving Wall: 3 years (What is the moving wall?)\n            \n
+  \               Moving Wall\n                    \n                        The \"moving
+  wall\" represents the time period between the last issue\n                        available
+  in JSTOR and the most recently published issue of a journal.\n                        Moving
+  walls are generally represented in years. In rare instances, a\n                        publisher
+  has elected to have a \"zero\" moving wall, so their current\n                        issues
+  are available in JSTOR shortly after publication.\n                        Note:
+  In calculating the moving wall, the current year is not counted.\n                        For
+  example, if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.\n                        Terms
+  Related to the Moving Wall\n                            Fixed walls: Journals with
+  no new volumes being added to the archive.\n                            Absorbed:
+  Journals that are combined with another title.\n                            Complete:
+  Journals that are no longer published or that have been\n                            combined
+  with another title.\n                        \n                \n            \n
+  \       \n    \n\n\n\n    ISSN: 0003049X\n\n\n        \n    Subjects: \n            \n
+  \               History,\n            \n                History\n            \n
+  \   \n\n\n    \t\n    \n    \n        \n            \n    \n    \n    \n     \n
+  \   \n\n\n        \n    \n    \n    \n\t    \n    \n        \n            Article
+  Tools\n                \n                    \n                        \n                            Cite
+  this Item\n                        \n                    \n                \n                \n
+  \                   \n                        Journal Info\n                    \n
+  \               \n            \n    \n\n    \n\n                            \n                        \n
+  \                       \n                        \n                    \n                    \n
+  \                       \n\n\n    \n        Your access to JSTOR provided by \n
+  \   \n\n\n                    \n                \n            \n\n            \n\t\n\t
+  \   \n\t        \n\t            \n\n\n    \n        \n            « Previous Item\n
+  \       \n         | \n        \n            Next Item »\n        \n    \n\n\t        \n\t
+  \       \n\t            \n\t                    Article\n\t                \n\t
+  \               \n    \n        Thumbnails\n    \n    \n    \n    \n\n\t            \n\t
+  \   \n\t    \n\t        \n\t                                   \n\t                \n\t
+  \                   \n\t                        You have javascript disabled.\n\t\t\t\t\t\t\n\t
+  \                   \n    To read this item, please use PDF\n\n\t                \n\t
+  \               \n\t                \n\t                \n\n\t                \n
+  \   \n        \n    \n        \n            \n                \n\n            \n
+  \       \n        \n    \n    \n    \n    \n        \n\n        \n\n    \n        Previous
+  Page\n        Previous Page\n    \n\n\n        \n            \n                \n
+  \                   \n            \n            \n                \n\n\n\n    <!--//<![CDATA[\n
+  \       var m3_u = (location.protocol=='https:'\n                ? 'https://ja.jstor.org/www/serve/ajs.php'\n
+  \               : 'http://ja.jstor.org/www/serve/ajs.php');\n\n        if (!document.MAX_used){\n
+  \           document.MAX_used = ',';\n        }\n        document.write(\"<script
+  type='text/javascript' src='\" + m3_u);\n        \n    var is_urp = false,\n    is_shelved
+  = false;\n    document.write(\"?zoneid=16\");\n    document.write(\"&amp;articleId=10.2307/1558283\");\n
+  \   \n        document.write (\"&amp;issueId=10.2307/i270047\");\n        document.write(\"&amp;publisherCode=amps\");\n
+  \   \n    document.write (\"&amp;journalCode=procamerphilsoci\");\n    document.write(\"&amp;urp=\"
+  + is_urp);\n    document.write(\"&amp;rfs=\" + is_shelved);\n\n        document.write('&amp;cb=1333288902');\n
+  \       if (document.MAX_used != ','){\n            document.write(\"&amp;exclude=\"
+  + document.MAX_used);\n        }\n        document.write(document.charset ?\n                                '&amp;charset='+document.charset
+  :\n                                (document.characterSet ?\n                                        '&amp;charset='+document.characterSet
+  : ''));\n        document.write(\"&amp;loc=\" + escape(window.location));\n        if
+  (document.referrer) {\n            document.write(\"&amp;referer=\" + escape(document.referrer));\n
+  \       }\n        if (document.context) {\n            document.write(\"&context=\"
+  + escape(document.context));\n        }\n        if (document.mmm_fo) {\n            document.write(\"&amp;mmm_fo=1\");\n
+  \       }\n        document.write(\"'><\\/script>\");\n    //]]>-->\n\n    \n        \n\n\n
+  \           \n        \n        \n\n    \n        Next Page\n        Next Page\n
+  \   \n\n\n        \n\n    \n\n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n            \n    \n            \n    \n            \n    \n            \n
+  \   \n\n\n    \n    We're having trouble loading this content. Download the PDF
+  instead.\n    \n    \n\n\n\n\n\n    \n    \n        \n    Page Thumbnails\n   \n
+  \   \n        \n                    \n                        \n180\n                    \n
+  \               \n            \n                \n                    \n                        \n181\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n182\n                    \n                \n            \n
+  \               \n                    \n                        \n183\n                    \n
+  \               \n            \n                \n                    \n                        \n184\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n185\n                    \n                \n            \n
+  \               \n                    \n                        \n186\n                    \n
+  \               \n            \n                \n                    \n                        \n187\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n188\n                    \n                \n            \n
+  \               \n                    \n                        \n189\n                    \n
+  \               \n            \n                \n                    \n                        \n190\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n191\n                    \n                \n            \n
+  \               \n                    \n                        \n192\n                    \n
+  \               \n            \n                \n                    \n                        \n193\n
+  \                   \n                \n            \n                \n                    \n
+  \                       \n194\n                    \n                \n            \n
+  \       \n    \n\n    \n    \n    \n\n\t            \n\t        \n\t    \n        \n\t
+  \   \n\t        \n\t            \n    \n        Proceedings of the American Philosophical
+  Society © 2004 American Philosophical Society\n    \n\n\t        \n\t    \n\t    \n
+  \           \n               \n\n\n\n\n    \n    \n        Request Permissions\n
+  \   \n\n            \n        \n\t\n\n\n            \n    \n\n        \n        \n
+  \       \n        JSTOR Home\n            About\n            Search\n            Browse\n
+  \           Terms and Conditions\n            Privacy Policy\n            Cookies\n
+  \           Accessibility\n            Help\n            \n    Contact Us\n\n        JSTOR
+  is part of ITHAKA, a not-for-profit organization helping the academic community
+  use digital technologies to preserve the scholarly record and to advance research
+  and teaching in sustainable ways.\n        ©2000-2015 ITHAKA. All Rights Reserved.
+  JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA.\n
+  \   \n\n        \n\n<div id=\"loading\" class=\"reveal-modal small\" aria-live=\"polite\"
+  aria-relevant=\"additions\" aria-atomic=\"true\" aria-busy=\"false\" data-reveal
+  aria-labelledby=\"loadingTitle\" aria-hidden=\"true\" role=\"dialog\">\n    <header>\n
+  \       <h2 id=\"loadingTitle\">{{ heading }}\n    \n    <div id=\"loadingBody\"
+  class=\"reveal-body\">\n        {{ body }}\n    \n    <a href=\"#\" class=\"close-reveal-modal\"
+  aria-label=\"Close Overlay\">&#215; <span class=\"visuallyhidden\">Close Overlay\n\n\n
+  \   \n  var addthis_config =\n  {\n\t\t  pubid: \"ra-562109fdc69f4e2d\"\n  };\n
+  \ var addthis_share = \n  {\n\t\t  url: \"http://www.jstor.org/stable/1558283\"\n\t\t
+  \ \n  };\n\n    // COUNTER 4 tagging code\n    window.starData = {\n        'contentType':
+  'journal',\n        'journal': 'Proceedings of the American Philosophical Society',\n
+  \       'article': 'What Is the History of Medieval Optics Really about?',\n        'institution_consortium_map':
+  ['indiana.edu'],\n        'yop': '2004',\n        'doi': '10.2307/1558283',\n        'SEARCH_FED':
+  'False',\n        'has_access': true,\n        'page_scan': true,\n        'pdf_only':
+  false,\n        'full_text': false\n    };\n\n                var _$tarQ = _$tarQ
+  || [];\n                    \n                (function (){ \n                        var
+  stars = document.createElement('script'),\n                            s = document.getElementsByTagName('script')[0];\n
+  \                       \n                        stars.async= true; \n                        stars.type
+  = 'text/javascript'; \n                        stars.src =  \"http://receiver.star.ith.semcs.net/star-aws.js\"
+  ; \n                        \n                        s.parentNode.insertBefore(stars,
+  s); \n                    }\n                )();\n            \n        \n        \n
+  \       \n        \n            //To prevent JS errors when disabled\n            if(typeof
+  _satellite !== \"undefined\"){\n                _satellite.pageBottom();\n            }\n
+  \       The \"moving wall\" represents the time period between the last issue\n
+  \                       available in JSTOR and the most recently published issue
+  of a journal.\n                        Moving walls are generally represented in
+  years. In rare instances, a\n                        publisher has elected to have
+  a \"zero\" moving wall, so their current\n                        issues are available
+  in JSTOR shortly after publication.\n                        Note: In calculating
+  the moving wall, the current year is not counted.\n                        For example,
+  if the current year is 2008 and a journal has a 5 year\n                        moving
+  wall, articles from the year 2002 are available.Your access to JSTOR provided by
+  To read this item, please use PDFJSTOR is part of ITHAKA, a not-for-profit organization
+  helping the academic community use digital technologies to preserve the scholarly
+  record and to advance research and teaching in sustainable ways.\n        ©2000-2015
+  ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered
+  trademarks of ITHAKA."

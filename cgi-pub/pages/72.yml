@@ -1,0 +1,4811 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID top already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-s88fu8"
+    line: 52
+    str1: top
+    str2: top
+    str3: 
+    int1: 0
+    column: 29
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID dokuwiki__top already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-s88fu8"
+    line: 53
+    str1: dokuwiki__top
+    str2: dokuwiki__top
+    str3: 
+    int1: 0
+    column: 49
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID mathematical_structures already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-s88fu8"
+    line: 62
+    str1: mathematical_structures
+    str2: mathematical_structures
+    str3: 
+    int1: 0
+    column: 67
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      ID alphabetical_list_of_all_classes already defined
+    domain: 23
+    code: 513
+    level: 2
+    file: "/tmp/open-uri20151214-8760-s88fu8"
+    line: 111
+    str1: alphabetical_list_of_all_classes
+    str2: alphabetical_list_of_all_classes
+    str3: 
+    int1: 0
+    column: 85
+address: http://www.math.chapman.edu/~jipsen/structures/doku.php/
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "            \n"
+- "        \n"
+- "          \n"
+- "          \n"
+- "          \n"
+- "          \n"
+- |2+
+
+- |2+
+
+- |
+  Mathematical Structures
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  The webpages collected here list information about classes of
+- |
+  mathematical structures. The aim is to have a central place to check
+- "what properties are known about these structures. \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  These pages are currently still under construction. Knowledgeable readers are encouraged to add or correct information.
+- |
+  To enable the edit button on each page, use the Login link (above) to log in or create an account.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Initially the main content concerns mostly first-order classes of relational
+- |
+  structures and, more particularly, equationally defined classes of algebraic structures.
+- |
+  If you are familiar with some of these classes of structures, feel
+- |
+  free to add some relevant information and references by using the edit
+- "link on the respective page. Pages are written in DokuWiki syntax, but mathematical
+  notation is in standard LaTeX. \n"
+- |
+  The previous
+- |
+  versions of these pages are still available at http://math.chapman.edu/cgi-bin/structures.pl and http://math.chapman.edu/cgi-bin/structures .
+- |
+  You can use this Sandbox page to try out editing (without worrying about deleting
+- |
+  useful information).
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Suggestions or comments? Just follow the link and edit the page.
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  New: Boldface links below display lists of finite algebras in a particular class (calculated locally in the browser).
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Acknowledgements | Notation and terminology | Properties | Tools | Online books and lecture notes
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Varieties | Quasivarieties | Universal classes | First-order classes | Second-order classes
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Algebras | Logics | Syntax | Terms | Equations | Horn formulas | Universal formulas | First-order formulas
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Alphabetical list of all classes
+- |2+
+
+- |
+  Abelian groups     Abelian group
+- |2+
+
+- |
+  Abelian lattice-ordered groups
+- |2+
+
+- |
+  Abelian ordered groups
+- |2+
+
+- |
+  Abelian p-groups
+- |2+
+
+- |
+  Abelian partially ordered groups
+- |2+
+
+- |
+  Action algebras     Action algebra
+- |2+
+
+- |
+  Action lattices
+- |2+
+
+- |
+  Algebraic lattices
+- |2+
+
+- |
+  Algebraic posets     Algebraic poset
+- |2+
+
+- |
+  Algebraic semilattices
+- |2+
+
+- |
+  Allegories     Allegory (category theory)
+- |2+
+
+- |
+  Almost distributive lattices
+- |2+
+
+- |
+  Associative algebras     Associative algebra
+- |2+
+
+- |
+  Banach spaces     Banach space
+- |2+
+
+- |
+  Bands     Band (mathematics), Finite bands
+- |2+
+
+- |
+  Basic logic algebras
+- |2+
+
+- |
+  BCI-algebras     BCI algebra
+- |2+
+
+- |
+  BCK-algebras     BCK algebra
+- |2+
+
+- |
+  BCK-join-semilattices
+- |2+
+
+- |
+  BCK-lattices
+- |2+
+
+- |
+  BCK-meet-semilattices
+- |2+
+
+- |
+  Bilattices
+- |2+
+
+- |
+  Bilinear algebras
+- |2+
+
+- |
+  BL-algebras
+- |2+
+
+- "Binars, Finite binars, with identity, with zero, with identity and zero, \n"
+- |2+
+
+- |
+  Boolean algebras     Boolean algebra (structure)
+- |2+
+
+- |
+  Boolean algebras with operators
+- |2+
+
+- |
+  Boolean groups
+- |2+
+
+- |
+  Boolean lattices
+- |2+
+
+- |
+  Boolean modules over a relation algebra
+- |2+
+
+- |
+  Boolean monoids
+- |2+
+
+- |
+  Boolean rings
+- |2+
+
+- |
+  Boolean semigroups
+- |2+
+
+- |
+  Boolean semilattices
+- |2+
+
+- |
+  Boolean spaces
+- |2+
+
+- |
+  Bounded distributive lattices
+- |2+
+
+- |
+  Bounded lattices
+- |2+
+
+- |
+  Bounded residuated lattices
+- |2+
+
+- |
+  Brouwerian algebras
+- |2+
+
+- |
+  Brouwerian semilattices
+- |2+
+
+- |
+  C*-algebras
+- |2+
+
+- |
+  Cancellative commutative monoids
+- |2+
+
+- |
+  Cancellative commutative semigroups
+- |2+
+
+- |
+  Cancellative monoids
+- |2+
+
+- |
+  Cancellative semigroups
+- |2+
+
+- |
+  Cancellative residuated lattices
+- |2+
+
+- |
+  Categories
+- |2+
+
+- |
+  Chains
+- |2+
+
+- |
+  Clifford semigroups
+- |2+
+
+- |
+  Clifford algebras
+- |2+
+
+- |
+  Closure algebras
+- |2+
+
+- |
+  Commutative BCK-algebras
+- |2+
+
+- "Commutative binars, Finite commutative binars, with identity, with zero, with identity
+  and zero \n"
+- |2+
+
+- |
+  Commutative integral ordered monoids, Finite commutative integral ordered monoids
+- |2+
+
+- |
+  Commutative inverse semigroups
+- |2+
+
+- |
+  Commutative lattice-ordered monoids
+- |2+
+
+- |
+  Commutative lattice-ordered rings
+- |2+
+
+- |
+  Commutative lattice-ordered semigroups
+- |2+
+
+- |
+  Commutative monoids, Finite commutative monoids, Finite commutative monoids with zero
+- |2+
+
+- |
+  Commutative ordered monoids
+- |2+
+
+- |
+  Commutative ordered rings
+- |2+
+
+- |
+  Commutative ordered semigroups, Finite commutative ordered semigroups
+- |2+
+
+- |
+  Commutative partially ordered monoids
+- |2+
+
+- |
+  Commutative partially ordered semigroups
+- |2+
+
+- |
+  Commutative regular rings
+- |2+
+
+- |
+  Commutative residuated lattice-ordered semigroups
+- |2+
+
+- |
+  Commutative residuated lattices
+- |2+
+
+- |
+  Commutative residuated partially ordered monoids
+- |2+
+
+- |
+  Commutative residuated partially ordered semigroups
+- |2+
+
+- |
+  Commutative rings
+- |2+
+
+- |
+  Commutative rings with identity
+- |2+
+
+- |
+  Commutative semigroups, Finite commutative semigroups, with zero
+- |2+
+
+- |
+  Compact topological spaces
+- |2+
+
+- |
+  Compact zero-dimensional Hausdorff spaces
+- |2+
+
+- |
+  Complemented lattices
+- |2+
+
+- |
+  Complemented distributive lattices
+- |2+
+
+- |
+  Complemented modular lattices
+- |2+
+
+- |
+  Complete distributive lattices
+- |2+
+
+- |
+  Complete lattices
+- |2+
+
+- |
+  Complete semilattices
+- |2+
+
+- |
+  Complete partial orders
+- |2+
+
+- |
+  Completely regular Hausdorff spaces
+- |2+
+
+- |
+  Completely regular semigroups
+- |2+
+
+- |
+  Continuous lattices
+- |2+
+
+- |
+  Continuous posets
+- |2+
+
+- |
+  Cylindric algebras
+- |2+
+
+- |
+  De Morgan algebras
+- |2+
+
+- |
+  De Morgan monoids
+- |2+
+
+- |
+  Dedekind categories
+- |2+
+
+- |
+  Dedekind domains
+- |2+
+
+- |
+  Dense linear orders
+- |2+
+
+- |
+  Digraph algebras
+- |2+
+
+- |
+  Directed complete partial orders
+- |2+
+
+- |
+  Directed partial orders
+- |2+
+
+- |
+  Directed graphs
+- |2+
+
+- |
+  Directoids
+- |2+
+
+- |
+  Distributive allegories
+- |2+
+
+- |
+  Distributive double p-algebras
+- |2+
+
+- |
+  Distributive dual p-algebras
+- |2+
+
+- |
+  Distributive lattice expansions
+- |2+
+
+- |
+  Distributive lattices
+- |2+
+
+- |
+  Distributive lattices with operators
+- |2+
+
+- |
+  Distributive lattice ordered semigroups
+- |2+
+
+- |
+  Distributive p-algebras
+- |2+
+
+- |
+  Distributive residuated lattices
+- |2+
+
+- |
+  Division algebras
+- |2+
+
+- |
+  Division rings
+- |2+
+
+- |
+  Double Stone algebras
+- |2+
+
+- |
+  Dunn monoids
+- |2+
+
+- |
+  Dynamic algebras
+- |2+
+
+- |
+  Entropic groupoids
+- |2+
+
+- |
+  Equivalence algebras
+- |2+
+
+- |
+  Equivalence relations
+- |2+
+
+- |
+  Euclidean domains
+- |2+
+
+- |
+  f-rings
+- |2+
+
+- |
+  Fields
+- |2+
+
+- |
+  FL-algebras
+- |2+
+
+- |
+  FLc-algebras
+- |2+
+
+- |
+  FLe-algebras
+- |2+
+
+- |
+  FLew-algebras
+- |2+
+
+- |
+  FLw-algebras
+- |2+
+
+- |
+  Frames
+- |2+
+
+- |
+  Function rings
+- |2+
+
+- |
+  G-sets
+- |2+
+
+- |
+  Generalized BL-algebras
+- |2+
+
+- |
+  Generalized Boolean algebras
+- |2+
+
+- |
+  Generalized MV-algebras
+- |2+
+
+- |
+  Goedel algebras
+- |2+
+
+- |
+  Graphs
+- |2+
+
+- |
+  Groupoids
+- |2+
+
+- |
+  Groups
+- |2+
+
+- |
+  Hausdorff spaces
+- |2+
+
+- |
+  Heyting algebras
+- |2+
+
+- |
+  Hilbert algebras
+- |2+
+
+- |
+  Hilbert spaces
+- |2+
+
+- |
+  Hoops
+- |2+
+
+- |
+  Idempotent semirings
+- |2+
+
+- |
+  Idempotent semirings with identity
+- |2+
+
+- |
+  Idempotent semirings with identity and zero
+- |2+
+
+- |
+  Idempotent semirings with zero
+- |2+
+
+- |
+  Implication algebras
+- |2+
+
+- |
+  Implicative lattices
+- |2+
+
+- |
+  Integral domains
+- |2+
+
+- |
+  Integral ordered monoids, finite integral ordered monoids
+- |2+
+
+- |
+  Integral relation algebras
+- |2+
+
+- |
+  Integral residuated lattices
+- |2+
+
+- |
+  Intuitionistic linear logic algebras
+- |2+
+
+- |
+  Inverse semigroups
+- |2+
+
+- |
+  Involutive FL-algebras
+- |2+
+
+- |
+  Involutive lattices
+- |2+
+
+- |
+  Involutive residuated lattices
+- |2+
+
+- |
+  Join-semidistributive lattices
+- |2+
+
+- |
+  Join-semilattices
+- |2+
+
+- |
+  Jordan algebras
+- |2+
+
+- |
+  Kleene algebras
+- |2+
+
+- |
+  Kleene lattices
+- |2+
+
+- |
+  Kleene logic algebras
+- |2+
+
+- |
+  Lambek algebras
+- |2+
+
+- |
+  Lattice-ordered groups
+- |2+
+
+- |
+  Lattice-ordered monoids
+- |2+
+
+- |
+  Lattice-ordered rings
+- |2+
+
+- |
+  Lattice-ordered semigroups
+- |2+
+
+- |
+  Lattices
+- |2+
+
+- |
+  Left cancellative semigroups
+- |2+
+
+- |
+  Lie algebras
+- |2+
+
+- |
+  Linear Heyting algebras
+- |2+
+
+- |
+  Linear logic algebras
+- |2+
+
+- |
+  Linear orders
+- |2+
+
+- |
+  Locales
+- |2+
+
+- |
+  Locally compact topological spaces
+- |2+
+
+- |
+  Loops
+- |2+
+
+- |
+  Lukasiewicz algebras of order n
+- |2+
+
+- |
+  M-sets
+- |2+
+
+- |
+  Medial groupoids
+- |2+
+
+- |
+  Medial quasigroups
+- |2+
+
+- |
+  Meet-semidistributive lattices
+- |2+
+
+- |
+  Meet-semilattices
+- |2+
+
+- |
+  Metric spaces
+- |2+
+
+- |
+  Modal algebras
+- |2+
+
+- |
+  Modular lattices
+- |2+
+
+- |
+  Modular ortholattices
+- |2+
+
+- |
+  Modules over a ring
+- |2+
+
+- |
+  Monadic algebras
+- |2+
+
+- |
+  Monoidal t-norm logic algebras
+- |2+
+
+- |
+  Monoids, Finite monoids, with zero
+- |2+
+
+- |
+  Monounary algebras
+- |2+
+
+- |
+  Moufang loops
+- |2+
+
+- |
+  Moufang quasigroups
+- |2+
+
+- |
+  Multiplicative additive linear logic algebras
+- |2+
+
+- |
+  Multiplicative lattices
+- |2+
+
+- |
+  Multiplicative semilattices
+- |2+
+
+- |
+  Multisets
+- |2+
+
+- |
+  MV-algebras
+- |2+
+
+- |
+  Neardistributive lattices
+- |2+
+
+- |
+  Near-rings
+- |2+
+
+- |
+  Near-rings with identity
+- |2+
+
+- |
+  Near-fields
+- |2+
+
+- |
+  Nilpotent groups
+- |2+
+
+- |
+  Nonassociative relation algebras
+- |2+
+
+- |
+  Nonassociative algebras
+- |2+
+
+- |
+  Normal bands
+- |2+
+
+- |
+  Normal valued lattice-ordered groups
+- |2+
+
+- |
+  Normed vector spaces
+- |2+
+
+- |
+  Ockham algebras
+- |2+
+
+- |
+  Order algebras
+- |2+
+
+- |
+  Ordered abelian groups
+- |2+
+
+- |
+  Ordered fields
+- |2+
+
+- |
+  Ordered groups
+- |2+
+
+- |
+  Ordered monoids
+- |2+
+
+- |
+  Ordered monoids with zero
+- |2+
+
+- |
+  Ordered rings
+- |2+
+
+- |
+  Ordered semigroups, Finite ordered semigroups, Finite ordered semigroups with zero
+- |2+
+
+- |
+  Ordered semilattices, Finite ordered semilattices
+- |2+
+
+- |
+  Ordered sets
+- |2+
+
+- |
+  Ore domains
+- |2+
+
+- |
+  Ortholattices
+- |2+
+
+- |
+  Orthomodular lattices
+- |2+
+
+- |
+  p-groups
+- |2+
+
+- |
+  Partial groupoids
+- |2+
+
+- |
+  Partial semigroups
+- |2+
+
+- |
+  Partially ordered groups
+- |2+
+
+- |
+  Partially ordered monoids
+- |2+
+
+- |
+  Partially ordered semigroups
+- |2+
+
+- |
+  Partially ordered sets
+- |2+
+
+- |
+  Peirce algebras
+- |2+
+
+- |
+  Pocrims
+- |2+
+
+- |
+  Pointed residuated lattices
+- |2+
+
+- |
+  Polrims
+- |2+
+
+- |
+  Polyadic algebras
+- |2+
+
+- |
+  Posets
+- |2+
+
+- |
+  Post algebras
+- |2+
+
+- |
+  Preordered sets
+- |2+
+
+- |
+  Priestley spaces
+- |2+
+
+- |
+  Principal Ideal Domains
+- |2+
+
+- |
+  Process algebras
+- |2+
+
+- |
+  Pseudo basic logic algebras
+- |2+
+
+- |
+  Pseudo MTL-algebras
+- |2+
+
+- |
+  Pseudo MV-algebras
+- |2+
+
+- |
+  Pseudocomplemented distributive lattices
+- |2+
+
+- |
+  Pure discriminator algebras
+- |2+
+
+- |
+  Quantales
+- |2+
+
+- |
+  Quasigroups
+- |2+
+
+- |
+  Quasi-implication algebras
+- |2+
+
+- |
+  Quasi-MV-algebra
+- |2+
+
+- |
+  Quasi-ordered sets
+- |2+
+
+- |
+  Quasitrivial groupoids
+- |2+
+
+- |
+  Rectangular bands
+- |2+
+
+- |
+  Reflexive relations
+- |2+
+
+- |
+  Regular rings
+- |2+
+
+- |
+  Regular semigroups
+- |2+
+
+- |
+  Relation algebras
+- |2+
+
+- |
+  Relative Stone algebras
+- |2+
+
+- |
+  Relativized relation algebras
+- |2+
+
+- |
+  Representable cylindric algebras
+- |2+
+
+- |
+  Representable lattice-ordered groups
+- |2+
+
+- |
+  Representable relation algebras
+- |2+
+
+- |
+  Representable residuated lattices
+- |2+
+
+- |
+  Residuated idempotent semirings
+- |2+
+
+- |
+  Residuated lattice-ordered semigroups
+- |2+
+
+- |
+  Residuated lattices
+- |2+
+
+- |
+  Residuated partially ordered monoids
+- |2+
+
+- |
+  Residuated partially ordered semigroups
+- |2+
+
+- |
+  Rings
+- |2+
+
+- |
+  Rings with identity
+- |2+
+
+- |
+  Schroeder categories
+- |2+
+
+- |
+  Semiassociative relation algebras
+- |2+
+
+- |
+  Semidistributive lattices
+- |2+
+
+- |
+  Semigroups, Finite semigroups
+- |2+
+
+- |
+  Semigroups with identity
+- |2+
+
+- |
+  Semigroups with zero, Finite semigroups with zero
+- |2+
+
+- |
+  Semilattices, Finite semilattices
+- |2+
+
+- |
+  Semilattices with identity, Finite semilattices with identity
+- |2+
+
+- |
+  Semilattices with zero
+- |2+
+
+- |
+  Semirings
+- |2+
+
+- |
+  Semirings with identity
+- |2+
+
+- |
+  Semirings with identity and zero
+- |2+
+
+- |
+  Semirings with zero
+- |2+
+
+- |
+  Sequential algebras
+- |2+
+
+- |
+  Sets
+- |2+
+
+- |
+  Shells
+- |2+
+
+- |
+  Skew-fields
+- |2+
+
+- |
+  Skew lattices
+- |2+
+
+- |
+  Small categories
+- |2+
+
+- |
+  Sober T0-spaces
+- |2+
+
+- |
+  Solvable groups
+- |2+
+
+- |
+  Sqrt-quasi-MV-algebras
+- |2+
+
+- |
+  Stably compact spaces
+- |2+
+
+- |
+  Steiner quasigroups
+- |2+
+
+- |
+  Stone algebras
+- |2+
+
+- |
+  Symmetric relations
+- |2+
+
+- |
+  T0-spaces
+- |2+
+
+- |
+  T1-spaces
+- |2+
+
+- |
+  T2-spaces
+- |2+
+
+- |
+  Tarski algebras
+- |2+
+
+- |
+  Tense algebras
+- |2+
+
+- |
+  Temporal algebras
+- |2+
+
+- |
+  Topological groups
+- |2+
+
+- |
+  Topological spaces
+- |2+
+
+- |
+  Topological vector spaces
+- |2+
+
+- |
+  Torsion groups
+- |2+
+
+- |
+  Totally ordered abelian groups
+- |2+
+
+- |
+  Totally ordered groups
+- |2+
+
+- |
+  Totally ordered monoids
+- |2+
+
+- |
+  Transitive relations
+- |2+
+
+- |
+  Trees
+- |2+
+
+- |
+  Tournaments
+- |2+
+
+- |
+  Unary algebras
+- |2+
+
+- |
+  Unique factorization domains
+- |2+
+
+- |
+  Unital rings
+- |2+
+
+- |
+  Vector spaces
+- |2+
+
+- |
+  Wajsberg algebras
+- |2+
+
+- |
+  Wajsberg hoops
+- |2+
+
+- |
+  Weakly associative lattices
+- |2+
+
+- |
+  Weakly associative relation algebras
+- |2+
+
+- |
+  Weakly representable relation algebras
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Template
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "          \n"
+- |2+
+
+- "          \n"
+- |2
+              Trace: » index.html
+- "          \n"
+- |2+
+
+- "          \n"
+- "          \n"
+- "        \n"
+- "      \n"
+- "    \n"
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2
+        Article
+- |2
+          Discussion
+- |2
+          Show pagesource
+- |2
+          Old revisions
+- "      \n"
+- |2+
+
+- "    \n"
+- "      \n"
+- |2
+          Login
+- "        \n"
+- "    \n"
+- "    \n"
+- |2
+        Search
+- "      \n"
+- "        \n"
+- |2
+             
+- "          \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2
+        Toolbox
+- "      \n"
+- |2
+          What links here
+- |2
+            Recent changes
+- |2
+            Upload file
+- |2
+            Site index
+- |2
+            Printable version
+- |2
+            Permanent link
+- |2
+            Cite this article
+- "        \n"
+- "    \n"
+- |2+
+
+- "   \n"
+- |2+
+
+- "  \n"
+- |2+
+
+- "  \n"
+- "    \n"
+- "    \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "      \n"
+- "    \n"
+- "    \n"
+- |2
+          index.html.txt · Last modified: 2015/06/06 11:52 by jipsen
+- "      \n"
+- |2
+          Except where otherwise noted, content on this wiki is licensed under the following license:CC Attribution-Noncommercial-Share Alike 3.0 Unported
+- "      \n"
+- "      \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- "  \n"
+- |
+   
+- |2+
+
+- |2+
+
+- |
+  The webpages collected here list information about classes of
+- |
+  mathematical structures. The aim is to have a central place to check
+- "what properties are known about these structures. \n"
+- |2+
+
+- |
+  These pages are currently still under construction. Knowledgeable readers are encouraged to add or correct information.
+- |
+  To enable the edit button on each page, use the Login link (above) to log in or create an account.
+- |2+
+
+- |
+  Initially the main content concerns mostly first-order classes of relational
+- |
+  structures and, more particularly, equationally defined classes of algebraic structures.
+- |
+  If you are familiar with some of these classes of structures, feel
+- |
+  free to add some relevant information and references by using the edit
+- "link on the respective page. Pages are written in DokuWiki syntax, but mathematical
+  notation is in standard LaTeX. \n"
+- |
+  The previous
+- |
+  versions of these pages are still available at http://math.chapman.edu/cgi-bin/structures.pl and http://math.chapman.edu/cgi-bin/structures .
+- |
+  You can use this Sandbox page to try out editing (without worrying about deleting
+- |
+  useful information).
+- |2+
+
+- |
+  Suggestions or comments? Just follow the link and edit the page.
+- |2+
+
+- |
+  New: Boldface links below display lists of finite algebras in a particular class (calculated locally in the browser).
+- |2+
+
+- |
+  Acknowledgements | Notation and terminology | Properties | Tools | Online books and lecture notes
+- |2+
+
+- |
+  Varieties | Quasivarieties | Universal classes | First-order classes | Second-order classes
+- |2+
+
+- |
+  Algebras | Logics | Syntax | Terms | Equations | Horn formulas | Universal formulas | First-order formulas
+- |2+
+
+- |2+
+
+- |
+  Template
+- |2+
+
+- |2
+              Trace: » index.html
+- "          "
+index:
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 6.0
+    docPositions:
+    - 15
+    - 21
+    - 35
+    - 783
+    - 793
+  structures: !ruby/object:Word
+    word: structures
+    stem: structur
+    docFrequency: 16.0
+    docPositions:
+    - 15
+    - 21
+    - 22
+    - 32
+    - 33
+    - 37
+    - 783
+    - 784
+    - 790
+    - 791
+    - 795
+  webpages: !ruby/object:Word
+    word: webpages
+    stem: webpag
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 782
+  collected: !ruby/object:Word
+    word: collected
+    stem: collect
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 782
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 747
+    - 782
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 4.0
+    docPositions:
+    - 20
+    - 64
+    - 782
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 9.0
+    docPositions:
+    - 20
+    - 26
+    - 34
+    - 39
+    - 782
+    - 786
+    - 792
+    - 797
+  classes: !ruby/object:Word
+    word: classes
+    stem: class
+    docFrequency: 16.0
+    docPositions:
+    - 20
+    - 31
+    - 32
+    - 33
+    - 55
+    - 64
+    - 782
+    - 789
+    - 790
+    - 791
+    - 805
+  aim: !ruby/object:Word
+    word: aim
+    stem: aim
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 783
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 783
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 783
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 783
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 21
+    - 783
+  properties: !ruby/object:Word
+    word: properties
+    stem: properti
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 51
+    - 784
+    - 803
+  known: !ruby/object:Word
+    word: known
+    stem: known
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 784
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 9.0
+    docPositions:
+    - 22
+    - 26
+    - 33
+    - 37
+    - 784
+    - 786
+    - 791
+    - 795
+  pages: !ruby/object:Word
+    word: pages
+    stem: page
+    docFrequency: 7.0
+    docPositions:
+    - 26
+    - 35
+    - 37
+    - 786
+    - 793
+    - 795
+  currently: !ruby/object:Word
+    word: currently
+    stem: current
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  still: !ruby/object:Word
+    word: still
+    stem: still
+    docFrequency: 5.0
+    docPositions:
+    - 26
+    - 37
+    - 786
+    - 795
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 772
+    - 786
+  construction: !ruby/object:Word
+    word: construction
+    stem: construct
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  knowledgeable: !ruby/object:Word
+    word: knowledgeable
+    stem: knowledg
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  readers: !ruby/object:Word
+    word: readers
+    stem: reader
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  encouraged: !ruby/object:Word
+    word: encouraged
+    stem: encourag
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 5.0
+    docPositions:
+    - 26
+    - 34
+    - 786
+    - 792
+  correct: !ruby/object:Word
+    word: correct
+    stem: correct
+    docFrequency: 3.0
+    docPositions:
+    - 26
+    - 786
+  enable: !ruby/object:Word
+    word: enable
+    stem: enabl
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  edit: !ruby/object:Word
+    word: edit
+    stem: edit
+    docFrequency: 7.0
+    docPositions:
+    - 27
+    - 34
+    - 43
+    - 787
+    - 792
+    - 799
+  button: !ruby/object:Word
+    word: button
+    stem: button
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 9.0
+    docPositions:
+    - 27
+    - 35
+    - 38
+    - 43
+    - 787
+    - 793
+    - 796
+    - 799
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 5.0
+    docPositions:
+    - 27
+    - 38
+    - 787
+    - 796
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 4.0
+    docPositions:
+    - 27
+    - 730
+    - 787
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 35
+    - 43
+    - 752
+    - 787
+    - 793
+    - 799
+  above: !ruby/object:Word
+    word: above
+    stem: abov
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  account: !ruby/object:Word
+    word: account
+    stem: account
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 787
+  initially: !ruby/object:Word
+    word: initially
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 789
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 789
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 4.0
+    docPositions:
+    - 31
+    - 772
+    - 789
+  concerns: !ruby/object:Word
+    word: concerns
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 789
+  mostly: !ruby/object:Word
+    word: mostly
+    stem: mostli
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 789
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 7.0
+    docPositions:
+    - 31
+    - 55
+    - 59
+    - 789
+    - 805
+    - 807
+  order: !ruby/object:Word
+    word: order
+    stem: order
+    docFrequency: 11.0
+    docPositions:
+    - 31
+    - 55
+    - 59
+    - 408
+    - 474
+    - 789
+    - 805
+    - 807
+  relational: !ruby/object:Word
+    word: relational
+    stem: relat
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 789
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 17.0
+    docPositions:
+    - 32
+    - 34
+    - 37
+    - 43
+    - 51
+    - 114
+    - 170
+    - 342
+    - 616
+    - 790
+    - 792
+    - 795
+    - 799
+    - 803
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 790
+  particularly: !ruby/object:Word
+    word: particularly
+    stem: particularli
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 790
+  equationally: !ruby/object:Word
+    word: equationally
+    stem: equation
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 790
+  defined: !ruby/object:Word
+    word: defined
+    stem: defin
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 790
+  algebraic: !ruby/object:Word
+    word: algebraic
+    stem: algebra
+    docFrequency: 7.0
+    docPositions:
+    - 32
+    - 80
+    - 82
+    - 84
+    - 790
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 791
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 5.0
+    docPositions:
+    - 33
+    - 38
+    - 791
+    - 796
+  familiar: !ruby/object:Word
+    word: familiar
+    stem: familiar
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 791
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 5.0
+    docPositions:
+    - 33
+    - 34
+    - 791
+    - 792
+  feel: !ruby/object:Word
+    word: feel
+    stem: feel
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 791
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 792
+  relevant: !ruby/object:Word
+    word: relevant
+    stem: relev
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 792
+  references: !ruby/object:Word
+    word: references
+    stem: refer
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 792
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 792
+  respective: !ruby/object:Word
+    word: respective
+    stem: respect
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  written: !ruby/object:Word
+    word: written
+    stem: written
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  dokuwiki: !ruby/object:Word
+    word: dokuwiki
+    stem: dokuwiki
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  syntax: !ruby/object:Word
+    word: syntax
+    stem: syntax
+    docFrequency: 5.0
+    docPositions:
+    - 35
+    - 59
+    - 793
+    - 807
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  notation: !ruby/object:Word
+    word: notation
+    stem: notat
+    docFrequency: 5.0
+    docPositions:
+    - 35
+    - 51
+    - 793
+    - 803
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  latex: !ruby/object:Word
+    word: latex
+    stem: latex
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 793
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 794
+  versions: !ruby/object:Word
+    word: versions
+    stem: version
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 795
+  available: !ruby/object:Word
+    word: available
+    stem: avail
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 795
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 795
+  chapman: !ruby/object:Word
+    word: chapman
+    stem: chapman
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 795
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 795
+  cgi: !ruby/object:Word
+    word: cgi
+    stem: cgi
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 795
+  bin: !ruby/object:Word
+    word: bin
+    stem: bin
+    docFrequency: 5.0
+    docPositions:
+    - 37
+    - 795
+  pl: !ruby/object:Word
+    word: pl
+    stem: pl
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 795
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  sandbox: !ruby/object:Word
+    word: sandbox
+    stem: sandbox
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  editing: !ruby/object:Word
+    word: editing
+    stem: edit
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  worrying: !ruby/object:Word
+    word: worrying
+    stem: worri
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  deleting: !ruby/object:Word
+    word: deleting
+    stem: delet
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 796
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 39
+    - 797
+  suggestions: !ruby/object:Word
+    word: suggestions
+    stem: suggest
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 799
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 799
+  just: !ruby/object:Word
+    word: just
+    stem: just
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 799
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 799
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  boldface: !ruby/object:Word
+    word: boldface
+    stem: boldfac
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 4.0
+    docPositions:
+    - 47
+    - 747
+    - 801
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  lists: !ruby/object:Word
+    word: lists
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  finite: !ruby/object:Word
+    word: finite
+    stem: finit
+    docFrequency: 20.0
+    docPositions:
+    - 47
+    - 94
+    - 114
+    - 170
+    - 172
+    - 182
+    - 188
+    - 208
+    - 352
+    - 434
+    - 488
+    - 490
+    - 600
+    - 604
+    - 606
+    - 608
+    - 801
+  algebras: !ruby/object:Word
+    word: algebras
+    stem: algebra
+    docFrequency: 87.0
+    docPositions:
+    - 47
+    - 59
+    - 76
+    - 90
+    - 96
+    - 98
+    - 100
+    - 110
+    - 112
+    - 116
+    - 118
+    - 142
+    - 146
+    - 164
+    - 166
+    - 168
+    - 236
+    - 238
+    - 248
+    - 260
+    - 262
+    - 272
+    - 276
+    - 280
+    - 284
+    - 288
+    - 298
+    - 300
+    - 302
+    - 304
+    - 306
+    - 314
+    - 316
+    - 318
+    - 320
+    - 330
+    - 332
+    - 346
+    - 354
+    - 358
+    - 362
+    - 372
+    - 374
+    - 378
+    - 380
+    - 394
+    - 396
+    - 398
+    - 408
+    - 422
+    - 430
+    - 432
+    - 436
+    - 442
+    - 450
+    - 462
+    - 464
+    - 472
+    - 474
+    - 514
+    - 522
+    - 526
+    - 534
+    - 536
+    - 538
+    - 540
+    - 544
+    - 550
+    - 566
+    - 568
+    - 570
+    - 572
+    - 576
+    - 596
+    - 620
+    - 636
+    - 642
+    - 652
+    - 654
+    - 656
+    - 678
+    - 686
+    - 692
+    - 694
+    - 801
+    - 807
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  calculated: !ruby/object:Word
+    word: calculated
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  locally: !ruby/object:Word
+    word: locally
+    stem: local
+    docFrequency: 4.0
+    docPositions:
+    - 47
+    - 404
+    - 801
+  browser: !ruby/object:Word
+    word: browser
+    stem: browser
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 801
+  acknowledgements: !ruby/object:Word
+    word: acknowledgements
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  terminology: !ruby/object:Word
+    word: terminology
+    stem: terminolog
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  lecture: !ruby/object:Word
+    word: lecture
+    stem: lectur
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 803
+  varieties: !ruby/object:Word
+    word: varieties
+    stem: varieti
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 805
+  quasivarieties: !ruby/object:Word
+    word: quasivarieties
+    stem: quasivarieti
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 805
+  universal: !ruby/object:Word
+    word: universal
+    stem: univers
+    docFrequency: 5.0
+    docPositions:
+    - 55
+    - 59
+    - 805
+    - 807
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 805
+  logics: !ruby/object:Word
+    word: logics
+    stem: logic
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 807
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 807
+  equations: !ruby/object:Word
+    word: equations
+    stem: equat
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 807
+  horn: !ruby/object:Word
+    word: horn
+    stem: horn
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 807
+  formulas: !ruby/object:Word
+    word: formulas
+    stem: formula
+    docFrequency: 7.0
+    docPositions:
+    - 59
+    - 807
+  alphabetical: !ruby/object:Word
+    word: alphabetical
+    stem: alphabet
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  abelian: !ruby/object:Word
+    word: abelian
+    stem: abelian
+    docFrequency: 9.0
+    docPositions:
+    - 66
+    - 68
+    - 70
+    - 72
+    - 74
+    - 476
+    - 666
+  groups: !ruby/object:Word
+    word: groups
+    stem: group
+    docFrequency: 21.0
+    docPositions:
+    - 66
+    - 68
+    - 70
+    - 72
+    - 74
+    - 120
+    - 326
+    - 382
+    - 460
+    - 468
+    - 476
+    - 480
+    - 500
+    - 506
+    - 574
+    - 634
+    - 658
+    - 664
+    - 666
+    - 668
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  lattice: !ruby/object:Word
+    word: lattice
+    stem: lattic
+    docFrequency: 15.0
+    docPositions:
+    - 68
+    - 176
+    - 178
+    - 180
+    - 196
+    - 264
+    - 270
+    - 382
+    - 384
+    - 386
+    - 388
+    - 468
+    - 574
+    - 582
+  ordered: !ruby/object:Word
+    word: ordered
+    stem: order
+    docFrequency: 50.0
+    docPositions:
+    - 68
+    - 70
+    - 74
+    - 172
+    - 176
+    - 178
+    - 180
+    - 184
+    - 186
+    - 188
+    - 190
+    - 192
+    - 196
+    - 200
+    - 202
+    - 270
+    - 352
+    - 382
+    - 384
+    - 386
+    - 388
+    - 468
+    - 476
+    - 478
+    - 480
+    - 482
+    - 484
+    - 486
+    - 488
+    - 490
+    - 492
+    - 506
+    - 508
+    - 510
+    - 512
+    - 554
+    - 574
+    - 582
+    - 586
+    - 588
+    - 666
+    - 668
+    - 670
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 6.0
+    docPositions:
+    - 72
+    - 260
+    - 262
+    - 272
+    - 500
+  partially: !ruby/object:Word
+    word: partially
+    stem: partial
+    docFrequency: 12.0
+    docPositions:
+    - 74
+    - 190
+    - 192
+    - 200
+    - 202
+    - 506
+    - 508
+    - 510
+    - 512
+    - 586
+    - 588
+  action: !ruby/object:Word
+    word: action
+    stem: action
+    docFrequency: 4.0
+    docPositions:
+    - 76
+    - 78
+  algebra: !ruby/object:Word
+    word: algebra
+    stem: algebra
+    docFrequency: 8.0
+    docPositions:
+    - 76
+    - 90
+    - 98
+    - 100
+    - 116
+    - 124
+    - 552
+  lattices: !ruby/object:Word
+    word: lattices
+    stem: lattic
+    docFrequency: 39.0
+    docPositions:
+    - 78
+    - 80
+    - 88
+    - 104
+    - 122
+    - 136
+    - 138
+    - 140
+    - 156
+    - 198
+    - 214
+    - 216
+    - 218
+    - 220
+    - 222
+    - 232
+    - 266
+    - 268
+    - 274
+    - 348
+    - 356
+    - 364
+    - 366
+    - 368
+    - 376
+    - 390
+    - 416
+    - 424
+    - 444
+    - 452
+    - 498
+    - 518
+    - 542
+    - 578
+    - 584
+    - 598
+    - 628
+    - 690
+  posets: !ruby/object:Word
+    word: posets
+    stem: poset
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 234
+    - 524
+  poset: !ruby/object:Word
+    word: poset
+    stem: poset
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  semilattices: !ruby/object:Word
+    word: semilattices
+    stem: semilattic
+    docFrequency: 17.0
+    docPositions:
+    - 84
+    - 102
+    - 106
+    - 132
+    - 144
+    - 224
+    - 370
+    - 418
+    - 446
+    - 490
+    - 606
+    - 608
+    - 610
+  allegories: !ruby/object:Word
+    word: allegories
+    stem: allegori
+    docFrequency: 3.0
+    docPositions:
+    - 86
+    - 258
+  allegory: !ruby/object:Word
+    word: allegory
+    stem: allegori
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  category: !ruby/object:Word
+    word: category
+    stem: categori
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  theory: !ruby/object:Word
+    word: theory
+    stem: theori
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  distributive: !ruby/object:Word
+    word: distributive
+    stem: distribut
+    docFrequency: 15.0
+    docPositions:
+    - 88
+    - 136
+    - 216
+    - 220
+    - 258
+    - 260
+    - 262
+    - 264
+    - 266
+    - 268
+    - 270
+    - 272
+    - 274
+    - 542
+  associative: !ruby/object:Word
+    word: associative
+    stem: associ
+    docFrequency: 5.0
+    docPositions:
+    - 90
+    - 690
+    - 692
+  banach: !ruby/object:Word
+    word: banach
+    stem: banach
+    docFrequency: 3.0
+    docPositions:
+    - 92
+  spaces: !ruby/object:Word
+    word: spaces
+    stem: space
+    docFrequency: 20.0
+    docPositions:
+    - 92
+    - 134
+    - 210
+    - 212
+    - 228
+    - 328
+    - 334
+    - 404
+    - 420
+    - 470
+    - 530
+    - 632
+    - 638
+    - 646
+    - 648
+    - 650
+    - 660
+    - 662
+    - 684
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 92
+  bands: !ruby/object:Word
+    word: bands
+    stem: band
+    docFrequency: 5.0
+    docPositions:
+    - 94
+    - 466
+    - 558
+  band: !ruby/object:Word
+    word: band
+    stem: band
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  mathematics: !ruby/object:Word
+    word: mathematics
+    stem: mathemat
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 3.0
+    docPositions:
+    - 96
+    - 536
+  logic: !ruby/object:Word
+    word: logic
+    stem: logic
+    docFrequency: 8.0
+    docPositions:
+    - 96
+    - 358
+    - 378
+    - 398
+    - 432
+    - 442
+    - 536
+  bci: !ruby/object:Word
+    word: bci
+    stem: bci
+    docFrequency: 3.0
+    docPositions:
+    - 98
+  bck: !ruby/object:Word
+    word: bck
+    stem: bck
+    docFrequency: 7.0
+    docPositions:
+    - 100
+    - 102
+    - 104
+    - 106
+    - 168
+  join: !ruby/object:Word
+    word: join
+    stem: join
+    docFrequency: 4.0
+    docPositions:
+    - 102
+    - 368
+    - 370
+  meet: !ruby/object:Word
+    word: meet
+    stem: meet
+    docFrequency: 4.0
+    docPositions:
+    - 106
+    - 416
+    - 418
+  bilattices: !ruby/object:Word
+    word: bilattices
+    stem: bilattic
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  bilinear: !ruby/object:Word
+    word: bilinear
+    stem: bilinear
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  bl: !ruby/object:Word
+    word: bl
+    stem: bl
+    docFrequency: 3.0
+    docPositions:
+    - 112
+    - 314
+  binars: !ruby/object:Word
+    word: binars
+    stem: binar
+    docFrequency: 5.0
+    docPositions:
+    - 114
+    - 170
+  identity: !ruby/object:Word
+    word: identity
+    stem: ident
+    docFrequency: 15.0
+    docPositions:
+    - 114
+    - 170
+    - 206
+    - 340
+    - 342
+    - 456
+    - 592
+    - 602
+    - 608
+    - 614
+    - 616
+  zero: !ruby/object:Word
+    word: zero
+    stem: zero
+    docFrequency: 18.0
+    docPositions:
+    - 114
+    - 170
+    - 182
+    - 208
+    - 212
+    - 342
+    - 344
+    - 434
+    - 484
+    - 488
+    - 604
+    - 610
+    - 616
+    - 618
+  boolean: !ruby/object:Word
+    word: boolean
+    stem: boolean
+    docFrequency: 13.0
+    docPositions:
+    - 116
+    - 118
+    - 120
+    - 122
+    - 124
+    - 126
+    - 128
+    - 130
+    - 132
+    - 134
+    - 316
+  structure: !ruby/object:Word
+    word: structure
+    stem: structur
+    docFrequency: 2.0
+    docPositions:
+    - 116
+  operators: !ruby/object:Word
+    word: operators
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 268
+  modules: !ruby/object:Word
+    word: modules
+    stem: modul
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 428
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 124
+    - 428
+  relation: !ruby/object:Word
+    word: relation
+    stem: relat
+    docFrequency: 10.0
+    docPositions:
+    - 124
+    - 354
+    - 462
+    - 566
+    - 570
+    - 576
+    - 596
+    - 692
+    - 694
+  monoids: !ruby/object:Word
+    word: monoids
+    stem: monoid
+    docFrequency: 25.0
+    docPositions:
+    - 126
+    - 148
+    - 152
+    - 172
+    - 176
+    - 182
+    - 184
+    - 190
+    - 200
+    - 240
+    - 282
+    - 352
+    - 384
+    - 434
+    - 482
+    - 484
+    - 508
+    - 586
+    - 670
+  rings: !ruby/object:Word
+    word: rings
+    stem: ring
+    docFrequency: 18.0
+    docPositions:
+    - 128
+    - 178
+    - 186
+    - 194
+    - 204
+    - 206
+    - 278
+    - 294
+    - 310
+    - 386
+    - 454
+    - 456
+    - 486
+    - 562
+    - 590
+    - 592
+    - 682
+  semigroups: !ruby/object:Word
+    word: semigroups
+    stem: semigroup
+    docFrequency: 32.0
+    docPositions:
+    - 130
+    - 150
+    - 154
+    - 162
+    - 174
+    - 180
+    - 188
+    - 192
+    - 196
+    - 202
+    - 208
+    - 230
+    - 270
+    - 360
+    - 388
+    - 392
+    - 488
+    - 504
+    - 510
+    - 564
+    - 582
+    - 588
+    - 600
+    - 602
+    - 604
+  bounded: !ruby/object:Word
+    word: bounded
+    stem: bound
+    docFrequency: 4.0
+    docPositions:
+    - 136
+    - 138
+    - 140
+  residuated: !ruby/object:Word
+    word: residuated
+    stem: residu
+    docFrequency: 17.0
+    docPositions:
+    - 140
+    - 156
+    - 196
+    - 198
+    - 200
+    - 202
+    - 274
+    - 356
+    - 366
+    - 518
+    - 578
+    - 580
+    - 582
+    - 584
+    - 586
+    - 588
+  brouwerian: !ruby/object:Word
+    word: brouwerian
+    stem: brouwerian
+    docFrequency: 3.0
+    docPositions:
+    - 142
+    - 144
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  cancellative: !ruby/object:Word
+    word: cancellative
+    stem: cancel
+    docFrequency: 7.0
+    docPositions:
+    - 148
+    - 150
+    - 152
+    - 154
+    - 156
+    - 392
+  commutative: !ruby/object:Word
+    word: commutative
+    stem: commut
+    docFrequency: 30.0
+    docPositions:
+    - 148
+    - 150
+    - 168
+    - 170
+    - 172
+    - 174
+    - 176
+    - 178
+    - 180
+    - 182
+    - 184
+    - 186
+    - 188
+    - 190
+    - 192
+    - 194
+    - 196
+    - 198
+    - 200
+    - 202
+    - 204
+    - 206
+    - 208
+  categories: !ruby/object:Word
+    word: categories
+    stem: categori
+    docFrequency: 5.0
+    docPositions:
+    - 158
+    - 242
+    - 594
+    - 630
+  chains: !ruby/object:Word
+    word: chains
+    stem: chain
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  clifford: !ruby/object:Word
+    word: clifford
+    stem: clifford
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 164
+  closure: !ruby/object:Word
+    word: closure
+    stem: closur
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  integral: !ruby/object:Word
+    word: integral
+    stem: integr
+    docFrequency: 8.0
+    docPositions:
+    - 172
+    - 350
+    - 352
+    - 354
+    - 356
+  inverse: !ruby/object:Word
+    word: inverse
+    stem: invers
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 360
+  regular: !ruby/object:Word
+    word: regular
+    stem: regular
+    docFrequency: 6.0
+    docPositions:
+    - 194
+    - 228
+    - 230
+    - 562
+    - 564
+  compact: !ruby/object:Word
+    word: compact
+    stem: compact
+    docFrequency: 5.0
+    docPositions:
+    - 210
+    - 212
+    - 404
+    - 638
+  topological: !ruby/object:Word
+    word: topological
+    stem: topolog
+    docFrequency: 6.0
+    docPositions:
+    - 210
+    - 404
+    - 658
+    - 660
+    - 662
+  dimensional: !ruby/object:Word
+    word: dimensional
+    stem: dimension
+    docFrequency: 2.0
+    docPositions:
+    - 212
+  hausdorff: !ruby/object:Word
+    word: hausdorff
+    stem: hausdorff
+    docFrequency: 4.0
+    docPositions:
+    - 212
+    - 228
+    - 328
+  complemented: !ruby/object:Word
+    word: complemented
+    stem: complement
+    docFrequency: 4.0
+    docPositions:
+    - 214
+    - 216
+    - 218
+  modular: !ruby/object:Word
+    word: modular
+    stem: modular
+    docFrequency: 4.0
+    docPositions:
+    - 218
+    - 424
+    - 426
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 6.0
+    docPositions:
+    - 220
+    - 222
+    - 224
+    - 226
+    - 250
+  partial: !ruby/object:Word
+    word: partial
+    stem: partial
+    docFrequency: 6.0
+    docPositions:
+    - 226
+    - 250
+    - 252
+    - 502
+    - 504
+  orders: !ruby/object:Word
+    word: orders
+    stem: order
+    docFrequency: 6.0
+    docPositions:
+    - 226
+    - 246
+    - 250
+    - 252
+    - 400
+  completely: !ruby/object:Word
+    word: completely
+    stem: complet
+    docFrequency: 3.0
+    docPositions:
+    - 228
+    - 230
+  continuous: !ruby/object:Word
+    word: continuous
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 232
+    - 234
+  cylindric: !ruby/object:Word
+    word: cylindric
+    stem: cylindr
+    docFrequency: 3.0
+    docPositions:
+    - 236
+    - 572
+  de: !ruby/object:Word
+    word: de
+    stem: de
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 240
+  morgan: !ruby/object:Word
+    word: morgan
+    stem: morgan
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 240
+  dedekind: !ruby/object:Word
+    word: dedekind
+    stem: dedekind
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 244
+  domains: !ruby/object:Word
+    word: domains
+    stem: domain
+    docFrequency: 7.0
+    docPositions:
+    - 244
+    - 292
+    - 350
+    - 494
+    - 532
+    - 680
+  dense: !ruby/object:Word
+    word: dense
+    stem: dens
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  linear: !ruby/object:Word
+    word: linear
+    stem: linear
+    docFrequency: 7.0
+    docPositions:
+    - 246
+    - 358
+    - 396
+    - 398
+    - 400
+    - 442
+  digraph: !ruby/object:Word
+    word: digraph
+    stem: digraph
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  directed: !ruby/object:Word
+    word: directed
+    stem: direct
+    docFrequency: 4.0
+    docPositions:
+    - 250
+    - 252
+    - 254
+  graphs: !ruby/object:Word
+    word: graphs
+    stem: graph
+    docFrequency: 3.0
+    docPositions:
+    - 254
+    - 322
+  directoids: !ruby/object:Word
+    word: directoids
+    stem: directoid
+    docFrequency: 2.0
+    docPositions:
+    - 256
+  double: !ruby/object:Word
+    word: double
+    stem: doubl
+    docFrequency: 3.0
+    docPositions:
+    - 260
+    - 280
+  dual: !ruby/object:Word
+    word: dual
+    stem: dual
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  expansions: !ruby/object:Word
+    word: expansions
+    stem: expans
+    docFrequency: 2.0
+    docPositions:
+    - 264
+  division: !ruby/object:Word
+    word: division
+    stem: divis
+    docFrequency: 3.0
+    docPositions:
+    - 276
+    - 278
+  stone: !ruby/object:Word
+    word: stone
+    stem: stone
+    docFrequency: 4.0
+    docPositions:
+    - 280
+    - 568
+    - 642
+  dunn: !ruby/object:Word
+    word: dunn
+    stem: dunn
+    docFrequency: 2.0
+    docPositions:
+    - 282
+  dynamic: !ruby/object:Word
+    word: dynamic
+    stem: dynam
+    docFrequency: 2.0
+    docPositions:
+    - 284
+  entropic: !ruby/object:Word
+    word: entropic
+    stem: entrop
+    docFrequency: 2.0
+    docPositions:
+    - 286
+  groupoids: !ruby/object:Word
+    word: groupoids
+    stem: groupoid
+    docFrequency: 6.0
+    docPositions:
+    - 286
+    - 324
+    - 412
+    - 502
+    - 556
+  equivalence: !ruby/object:Word
+    word: equivalence
+    stem: equival
+    docFrequency: 3.0
+    docPositions:
+    - 288
+    - 290
+  relations: !ruby/object:Word
+    word: relations
+    stem: relat
+    docFrequency: 5.0
+    docPositions:
+    - 290
+    - 560
+    - 644
+    - 672
+  euclidean: !ruby/object:Word
+    word: euclidean
+    stem: euclidean
+    docFrequency: 2.0
+    docPositions:
+    - 292
+  f: !ruby/object:Word
+    word: f
+    stem: f
+    docFrequency: 2.0
+    docPositions:
+    - 294
+  fields: !ruby/object:Word
+    word: fields
+    stem: field
+    docFrequency: 5.0
+    docPositions:
+    - 296
+    - 458
+    - 478
+    - 626
+  fl: !ruby/object:Word
+    word: fl
+    stem: fl
+    docFrequency: 3.0
+    docPositions:
+    - 298
+    - 362
+  flc: !ruby/object:Word
+    word: flc
+    stem: flc
+    docFrequency: 2.0
+    docPositions:
+    - 300
+  fle: !ruby/object:Word
+    word: fle
+    stem: fle
+    docFrequency: 2.0
+    docPositions:
+    - 302
+  flew: !ruby/object:Word
+    word: flew
+    stem: flew
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  flw: !ruby/object:Word
+    word: flw
+    stem: flw
+    docFrequency: 2.0
+    docPositions:
+    - 306
+  frames: !ruby/object:Word
+    word: frames
+    stem: frame
+    docFrequency: 2.0
+    docPositions:
+    - 308
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 310
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 2.0
+    docPositions:
+    - 312
+  sets: !ruby/object:Word
+    word: sets
+    stem: set
+    docFrequency: 8.0
+    docPositions:
+    - 312
+    - 410
+    - 492
+    - 512
+    - 528
+    - 554
+    - 622
+  generalized: !ruby/object:Word
+    word: generalized
+    stem: gener
+    docFrequency: 4.0
+    docPositions:
+    - 314
+    - 316
+    - 318
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 6.0
+    docPositions:
+    - 318
+    - 450
+    - 540
+    - 552
+    - 636
+  goedel: !ruby/object:Word
+    word: goedel
+    stem: goedel
+    docFrequency: 2.0
+    docPositions:
+    - 320
+  heyting: !ruby/object:Word
+    word: heyting
+    stem: heyt
+    docFrequency: 3.0
+    docPositions:
+    - 330
+    - 396
+  hilbert: !ruby/object:Word
+    word: hilbert
+    stem: hilbert
+    docFrequency: 3.0
+    docPositions:
+    - 332
+    - 334
+  hoops: !ruby/object:Word
+    word: hoops
+    stem: hoop
+    docFrequency: 3.0
+    docPositions:
+    - 336
+    - 688
+  idempotent: !ruby/object:Word
+    word: idempotent
+    stem: idempot
+    docFrequency: 6.0
+    docPositions:
+    - 338
+    - 340
+    - 342
+    - 344
+    - 580
+  semirings: !ruby/object:Word
+    word: semirings
+    stem: semir
+    docFrequency: 10.0
+    docPositions:
+    - 338
+    - 340
+    - 342
+    - 344
+    - 580
+    - 612
+    - 614
+    - 616
+    - 618
+  implication: !ruby/object:Word
+    word: implication
+    stem: implic
+    docFrequency: 3.0
+    docPositions:
+    - 346
+    - 550
+  implicative: !ruby/object:Word
+    word: implicative
+    stem: implic
+    docFrequency: 2.0
+    docPositions:
+    - 348
+  intuitionistic: !ruby/object:Word
+    word: intuitionistic
+    stem: intuitionist
+    docFrequency: 2.0
+    docPositions:
+    - 358
+  involutive: !ruby/object:Word
+    word: involutive
+    stem: involut
+    docFrequency: 4.0
+    docPositions:
+    - 362
+    - 364
+    - 366
+  semidistributive: !ruby/object:Word
+    word: semidistributive
+    stem: semidistribut
+    docFrequency: 4.0
+    docPositions:
+    - 368
+    - 416
+    - 598
+  jordan: !ruby/object:Word
+    word: jordan
+    stem: jordan
+    docFrequency: 2.0
+    docPositions:
+    - 372
+  kleene: !ruby/object:Word
+    word: kleene
+    stem: kleen
+    docFrequency: 4.0
+    docPositions:
+    - 374
+    - 376
+    - 378
+  lambek: !ruby/object:Word
+    word: lambek
+    stem: lambek
+    docFrequency: 2.0
+    docPositions:
+    - 380
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 2.0
+    docPositions:
+    - 392
+  lie: !ruby/object:Word
+    word: lie
+    stem: lie
+    docFrequency: 2.0
+    docPositions:
+    - 394
+  locales: !ruby/object:Word
+    word: locales
+    stem: local
+    docFrequency: 2.0
+    docPositions:
+    - 402
+  loops: !ruby/object:Word
+    word: loops
+    stem: loop
+    docFrequency: 3.0
+    docPositions:
+    - 406
+    - 438
+  lukasiewicz: !ruby/object:Word
+    word: lukasiewicz
+    stem: lukasiewicz
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 408
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 2.0
+    docPositions:
+    - 410
+  medial: !ruby/object:Word
+    word: medial
+    stem: medial
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 414
+  quasigroups: !ruby/object:Word
+    word: quasigroups
+    stem: quasigroup
+    docFrequency: 5.0
+    docPositions:
+    - 414
+    - 440
+    - 548
+    - 640
+  metric: !ruby/object:Word
+    word: metric
+    stem: metric
+    docFrequency: 2.0
+    docPositions:
+    - 420
+  modal: !ruby/object:Word
+    word: modal
+    stem: modal
+    docFrequency: 2.0
+    docPositions:
+    - 422
+  ortholattices: !ruby/object:Word
+    word: ortholattices
+    stem: ortholattic
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 496
+  ring: !ruby/object:Word
+    word: ring
+    stem: ring
+    docFrequency: 2.0
+    docPositions:
+    - 428
+  monadic: !ruby/object:Word
+    word: monadic
+    stem: monad
+    docFrequency: 2.0
+    docPositions:
+    - 430
+  monoidal: !ruby/object:Word
+    word: monoidal
+    stem: monoid
+    docFrequency: 2.0
+    docPositions:
+    - 432
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 432
+  norm: !ruby/object:Word
+    word: norm
+    stem: norm
+    docFrequency: 2.0
+    docPositions:
+    - 432
+  monounary: !ruby/object:Word
+    word: monounary
+    stem: monounari
+    docFrequency: 2.0
+    docPositions:
+    - 436
+  moufang: !ruby/object:Word
+    word: moufang
+    stem: moufang
+    docFrequency: 3.0
+    docPositions:
+    - 438
+    - 440
+  multiplicative: !ruby/object:Word
+    word: multiplicative
+    stem: multipl
+    docFrequency: 4.0
+    docPositions:
+    - 442
+    - 444
+    - 446
+  additive: !ruby/object:Word
+    word: additive
+    stem: addit
+    docFrequency: 2.0
+    docPositions:
+    - 442
+  multisets: !ruby/object:Word
+    word: multisets
+    stem: multiset
+    docFrequency: 2.0
+    docPositions:
+    - 448
+  neardistributive: !ruby/object:Word
+    word: neardistributive
+    stem: neardistribut
+    docFrequency: 2.0
+    docPositions:
+    - 452
+  near: !ruby/object:Word
+    word: near
+    stem: near
+    docFrequency: 4.0
+    docPositions:
+    - 454
+    - 456
+    - 458
+  nilpotent: !ruby/object:Word
+    word: nilpotent
+    stem: nilpot
+    docFrequency: 2.0
+    docPositions:
+    - 460
+  nonassociative: !ruby/object:Word
+    word: nonassociative
+    stem: nonassoci
+    docFrequency: 3.0
+    docPositions:
+    - 462
+    - 464
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 468
+  valued: !ruby/object:Word
+    word: valued
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 468
+  normed: !ruby/object:Word
+    word: normed
+    stem: norm
+    docFrequency: 2.0
+    docPositions:
+    - 470
+  vector: !ruby/object:Word
+    word: vector
+    stem: vector
+    docFrequency: 4.0
+    docPositions:
+    - 470
+    - 662
+    - 684
+  ockham: !ruby/object:Word
+    word: ockham
+    stem: ockham
+    docFrequency: 2.0
+    docPositions:
+    - 472
+  ore: !ruby/object:Word
+    word: ore
+    stem: or
+    docFrequency: 2.0
+    docPositions:
+    - 494
+  orthomodular: !ruby/object:Word
+    word: orthomodular
+    stem: orthomodular
+    docFrequency: 2.0
+    docPositions:
+    - 498
+  peirce: !ruby/object:Word
+    word: peirce
+    stem: peirc
+    docFrequency: 2.0
+    docPositions:
+    - 514
+  pocrims: !ruby/object:Word
+    word: pocrims
+    stem: pocrim
+    docFrequency: 2.0
+    docPositions:
+    - 516
+  pointed: !ruby/object:Word
+    word: pointed
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 518
+  polrims: !ruby/object:Word
+    word: polrims
+    stem: polrim
+    docFrequency: 2.0
+    docPositions:
+    - 520
+  polyadic: !ruby/object:Word
+    word: polyadic
+    stem: polyad
+    docFrequency: 2.0
+    docPositions:
+    - 522
+  post: !ruby/object:Word
+    word: post
+    stem: post
+    docFrequency: 2.0
+    docPositions:
+    - 526
+  preordered: !ruby/object:Word
+    word: preordered
+    stem: preorder
+    docFrequency: 2.0
+    docPositions:
+    - 528
+  priestley: !ruby/object:Word
+    word: priestley
+    stem: priestlei
+    docFrequency: 2.0
+    docPositions:
+    - 530
+  principal: !ruby/object:Word
+    word: principal
+    stem: princip
+    docFrequency: 2.0
+    docPositions:
+    - 532
+  ideal: !ruby/object:Word
+    word: ideal
+    stem: ideal
+    docFrequency: 2.0
+    docPositions:
+    - 532
+  process: !ruby/object:Word
+    word: process
+    stem: process
+    docFrequency: 2.0
+    docPositions:
+    - 534
+  pseudo: !ruby/object:Word
+    word: pseudo
+    stem: pseudo
+    docFrequency: 4.0
+    docPositions:
+    - 536
+    - 538
+    - 540
+  mtl: !ruby/object:Word
+    word: mtl
+    stem: mtl
+    docFrequency: 2.0
+    docPositions:
+    - 538
+  pseudocomplemented: !ruby/object:Word
+    word: pseudocomplemented
+    stem: pseudocompl
+    docFrequency: 2.0
+    docPositions:
+    - 542
+  pure: !ruby/object:Word
+    word: pure
+    stem: pure
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  discriminator: !ruby/object:Word
+    word: discriminator
+    stem: discrimin
+    docFrequency: 2.0
+    docPositions:
+    - 544
+  quantales: !ruby/object:Word
+    word: quantales
+    stem: quantal
+    docFrequency: 2.0
+    docPositions:
+    - 546
+  quasi: !ruby/object:Word
+    word: quasi
+    stem: quasi
+    docFrequency: 5.0
+    docPositions:
+    - 550
+    - 552
+    - 554
+    - 636
+  quasitrivial: !ruby/object:Word
+    word: quasitrivial
+    stem: quasitrivi
+    docFrequency: 2.0
+    docPositions:
+    - 556
+  rectangular: !ruby/object:Word
+    word: rectangular
+    stem: rectangular
+    docFrequency: 2.0
+    docPositions:
+    - 558
+  reflexive: !ruby/object:Word
+    word: reflexive
+    stem: reflex
+    docFrequency: 2.0
+    docPositions:
+    - 560
+  relative: !ruby/object:Word
+    word: relative
+    stem: rel
+    docFrequency: 2.0
+    docPositions:
+    - 568
+  relativized: !ruby/object:Word
+    word: relativized
+    stem: relativ
+    docFrequency: 2.0
+    docPositions:
+    - 570
+  representable: !ruby/object:Word
+    word: representable
+    stem: represent
+    docFrequency: 6.0
+    docPositions:
+    - 572
+    - 574
+    - 576
+    - 578
+    - 694
+  schroeder: !ruby/object:Word
+    word: schroeder
+    stem: schroeder
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  semiassociative: !ruby/object:Word
+    word: semiassociative
+    stem: semiassoci
+    docFrequency: 2.0
+    docPositions:
+    - 596
+  sequential: !ruby/object:Word
+    word: sequential
+    stem: sequenti
+    docFrequency: 2.0
+    docPositions:
+    - 620
+  shells: !ruby/object:Word
+    word: shells
+    stem: shell
+    docFrequency: 2.0
+    docPositions:
+    - 624
+  skew: !ruby/object:Word
+    word: skew
+    stem: skew
+    docFrequency: 3.0
+    docPositions:
+    - 626
+    - 628
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 2.0
+    docPositions:
+    - 630
+  sober: !ruby/object:Word
+    word: sober
+    stem: sober
+    docFrequency: 2.0
+    docPositions:
+    - 632
+  solvable: !ruby/object:Word
+    word: solvable
+    stem: solvabl
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  sqrt: !ruby/object:Word
+    word: sqrt
+    stem: sqrt
+    docFrequency: 2.0
+    docPositions:
+    - 636
+  stably: !ruby/object:Word
+    word: stably
+    stem: stabli
+    docFrequency: 2.0
+    docPositions:
+    - 638
+  steiner: !ruby/object:Word
+    word: steiner
+    stem: steiner
+    docFrequency: 2.0
+    docPositions:
+    - 640
+  symmetric: !ruby/object:Word
+    word: symmetric
+    stem: symmetr
+    docFrequency: 2.0
+    docPositions:
+    - 644
+  tarski: !ruby/object:Word
+    word: tarski
+    stem: tarski
+    docFrequency: 2.0
+    docPositions:
+    - 652
+  tense: !ruby/object:Word
+    word: tense
+    stem: tens
+    docFrequency: 2.0
+    docPositions:
+    - 654
+  temporal: !ruby/object:Word
+    word: temporal
+    stem: tempor
+    docFrequency: 2.0
+    docPositions:
+    - 656
+  torsion: !ruby/object:Word
+    word: torsion
+    stem: torsion
+    docFrequency: 2.0
+    docPositions:
+    - 664
+  totally: !ruby/object:Word
+    word: totally
+    stem: total
+    docFrequency: 4.0
+    docPositions:
+    - 666
+    - 668
+    - 670
+  transitive: !ruby/object:Word
+    word: transitive
+    stem: transit
+    docFrequency: 2.0
+    docPositions:
+    - 672
+  trees: !ruby/object:Word
+    word: trees
+    stem: tree
+    docFrequency: 2.0
+    docPositions:
+    - 674
+  tournaments: !ruby/object:Word
+    word: tournaments
+    stem: tournament
+    docFrequency: 2.0
+    docPositions:
+    - 676
+  unary: !ruby/object:Word
+    word: unary
+    stem: unari
+    docFrequency: 2.0
+    docPositions:
+    - 678
+  unique: !ruby/object:Word
+    word: unique
+    stem: uniqu
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  factorization: !ruby/object:Word
+    word: factorization
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  unital: !ruby/object:Word
+    word: unital
+    stem: unit
+    docFrequency: 2.0
+    docPositions:
+    - 682
+  wajsberg: !ruby/object:Word
+    word: wajsberg
+    stem: wajsberg
+    docFrequency: 3.0
+    docPositions:
+    - 686
+    - 688
+  weakly: !ruby/object:Word
+    word: weakly
+    stem: weakli
+    docFrequency: 4.0
+    docPositions:
+    - 690
+    - 692
+    - 694
+  template: !ruby/object:Word
+    word: template
+    stem: templat
+    docFrequency: 3.0
+    docPositions:
+    - 698
+    - 810
+  trace: !ruby/object:Word
+    word: trace
+    stem: trace
+    docFrequency: 3.0
+    docPositions:
+    - 706
+    - 812
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 5.0
+    docPositions:
+    - 706
+    - 750
+    - 770
+    - 812
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 4.0
+    docPositions:
+    - 706
+    - 770
+    - 812
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 3.0
+    docPositions:
+    - 722
+    - 753
+  discussion: !ruby/object:Word
+    word: discussion
+    stem: discuss
+    docFrequency: 2.0
+    docPositions:
+    - 723
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 724
+  pagesource: !ruby/object:Word
+    word: pagesource
+    stem: pagesourc
+    docFrequency: 2.0
+    docPositions:
+    - 724
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 2.0
+    docPositions:
+    - 725
+  revisions: !ruby/object:Word
+    word: revisions
+    stem: revis
+    docFrequency: 2.0
+    docPositions:
+    - 725
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 2.0
+    docPositions:
+    - 734
+  toolbox: !ruby/object:Word
+    word: toolbox
+    stem: toolbox
+    docFrequency: 2.0
+    docPositions:
+    - 745
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 748
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 748
+  upload: !ruby/object:Word
+    word: upload
+    stem: upload
+    docFrequency: 2.0
+    docPositions:
+    - 749
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 749
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 750
+  printable: !ruby/object:Word
+    word: printable
+    stem: printabl
+    docFrequency: 2.0
+    docPositions:
+    - 751
+  version: !ruby/object:Word
+    word: version
+    stem: version
+    docFrequency: 2.0
+    docPositions:
+    - 751
+  permanent: !ruby/object:Word
+    word: permanent
+    stem: perman
+    docFrequency: 2.0
+    docPositions:
+    - 752
+  cite: !ruby/object:Word
+    word: cite
+    stem: cite
+    docFrequency: 2.0
+    docPositions:
+    - 753
+  txt: !ruby/object:Word
+    word: txt
+    stem: txt
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  modified: !ruby/object:Word
+    word: modified
+    stem: modifi
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  jipsen: !ruby/object:Word
+    word: jipsen
+    stem: jipsen
+    docFrequency: 2.0
+    docPositions:
+    - 770
+  except: !ruby/object:Word
+    word: except
+    stem: except
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  otherwise: !ruby/object:Word
+    word: otherwise
+    stem: otherwis
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  noted: !ruby/object:Word
+    word: noted
+    stem: note
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  wiki: !ruby/object:Word
+    word: wiki
+    stem: wiki
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  licensed: !ruby/object:Word
+    word: licensed
+    stem: licens
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  license: !ruby/object:Word
+    word: license
+    stem: licens
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  cc: !ruby/object:Word
+    word: cc
+    stem: cc
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  attribution: !ruby/object:Word
+    word: attribution
+    stem: attribut
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  noncommercial: !ruby/object:Word
+    word: noncommercial
+    stem: noncommerci
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  share: !ruby/object:Word
+    word: share
+    stem: share
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  alike: !ruby/object:Word
+    word: alike
+    stem: alik
+    docFrequency: 2.0
+    docPositions:
+    - 772
+  unported: !ruby/object:Word
+    word: unported
+    stem: unport
+    docFrequency: 2.0
+    docPositions:
+    - 772
+lineCount: 814
+wordCount: 1418
+rank: 0.2607142857142857
+title: index.html - MathStructures
+links:
+- http://math.chapman.edu/cgi-bin/structures.pl
+- http://math.chapman.edu/cgi-bin/structures
+- http://en.wikipedia.org/wiki/Abelian group
+- http://en.wikipedia.org/wiki/Action algebra
+- http://en.wikipedia.org/wiki/Algebraic poset
+- http://en.wikipedia.org/wiki/Allegory (category theory)
+- http://en.wikipedia.org/wiki/Associative algebra
+- http://en.wikipedia.org/wiki/Banach space
+- http://en.wikipedia.org/wiki/Band (mathematics)
+- http://en.wikipedia.org/wiki/BCI algebra
+- http://en.wikipedia.org/wiki/BCK algebra
+- http://en.wikipedia.org/wiki/Boolean algebra (structure)
+- http://en.wikipedia.org/wiki/C*-algebras
+- http://en.wikipedia.org/wiki/Clifford algebras
+- http://en.wikipedia.org/wiki/Locally compact topological spaces
+- http://en.wikipedia.org/wiki/Topological vector spaces
+- http://andreas-haerter.com/projects/dokuwiki-template-monobook
+- http://www.dokuwiki.org
+- http://validator.w3.org/check/referer
+- http://creativecommons.org/licenses/by-nc-sa/3.0/
+rawText: "\n\n\n  \n    \n      \n      \n            \n        \n          \n          \n
+  \         \n          \n\n\nMathematical Structures\n\n\n\n\nThe webpages collected
+  here list information about classes of\nmathematical structures. The aim is to have
+  a central place to check\nwhat properties are known about these structures. \n\n\n\nThese
+  pages are currently still under construction. Knowledgeable readers are encouraged
+  to add or correct information.\nTo enable the edit button on each page, use the
+  Login link (above) to log in or create an account.\n\n\n\nInitially the main content
+  concerns mostly first-order classes of relational\nstructures and, more particularly,
+  equationally defined classes of algebraic structures.\nIf you are familiar with
+  some of these classes of structures, feel\nfree to add some relevant information
+  and references by using the edit\nlink on the respective page. Pages are written
+  in DokuWiki syntax, but mathematical notation is in standard LaTeX. \nThe previous\nversions
+  of these pages are still available at http://math.chapman.edu/cgi-bin/structures.pl
+  and http://math.chapman.edu/cgi-bin/structures .\nYou can use this Sandbox page
+  to try out editing (without worrying about deleting\nuseful information).\n\n\n\nSuggestions
+  or comments? Just follow the link and edit the page.\n\n\n\nNew: Boldface links
+  below display lists of finite algebras in a particular class (calculated locally
+  in the browser).\n\n\n\nAcknowledgements | Notation and terminology | Properties
+  | Tools | Online books and lecture notes\n\n\n\nVarieties | Quasivarieties | Universal
+  classes | First-order classes | Second-order classes\n\n\n\nAlgebras | Logics |
+  Syntax | Terms | Equations | Horn formulas | Universal formulas | First-order formulas\n\n\n\n\nAlphabetical
+  list of all classes\n\nAbelian groups     Abelian group\n\nAbelian lattice-ordered
+  groups\n\nAbelian ordered groups\n\nAbelian p-groups\n\nAbelian partially ordered
+  groups\n\nAction algebras     Action algebra\n\nAction lattices\n\nAlgebraic lattices\n\nAlgebraic
+  posets     Algebraic poset\n\nAlgebraic semilattices\n\nAllegories     Allegory
+  (category theory)\n\nAlmost distributive lattices\n\nAssociative algebras     Associative
+  algebra\n\nBanach spaces     Banach space\n\nBands     Band (mathematics), Finite
+  bands\n\nBasic logic algebras\n\nBCI-algebras     BCI algebra\n\nBCK-algebras    
+  BCK algebra\n\nBCK-join-semilattices\n\nBCK-lattices\n\nBCK-meet-semilattices\n\nBilattices\n\nBilinear
+  algebras\n\nBL-algebras\n\nBinars, Finite binars, with identity, with zero, with
+  identity and zero, \n\nBoolean algebras     Boolean algebra (structure)\n\nBoolean
+  algebras with operators\n\nBoolean groups\n\nBoolean lattices\n\nBoolean modules
+  over a relation algebra\n\nBoolean monoids\n\nBoolean rings\n\nBoolean semigroups\n\nBoolean
+  semilattices\n\nBoolean spaces\n\nBounded distributive lattices\n\nBounded lattices\n\nBounded
+  residuated lattices\n\nBrouwerian algebras\n\nBrouwerian semilattices\n\nC*-algebras\n\nCancellative
+  commutative monoids\n\nCancellative commutative semigroups\n\nCancellative monoids\n\nCancellative
+  semigroups\n\nCancellative residuated lattices\n\nCategories\n\nChains\n\nClifford
+  semigroups\n\nClifford algebras\n\nClosure algebras\n\nCommutative BCK-algebras\n\nCommutative
+  binars, Finite commutative binars, with identity, with zero, with identity and zero
+  \n\nCommutative integral ordered monoids, Finite commutative integral ordered monoids\n\nCommutative
+  inverse semigroups\n\nCommutative lattice-ordered monoids\n\nCommutative lattice-ordered
+  rings\n\nCommutative lattice-ordered semigroups\n\nCommutative monoids, Finite commutative
+  monoids, Finite commutative monoids with zero\n\nCommutative ordered monoids\n\nCommutative
+  ordered rings\n\nCommutative ordered semigroups, Finite commutative ordered semigroups\n\nCommutative
+  partially ordered monoids\n\nCommutative partially ordered semigroups\n\nCommutative
+  regular rings\n\nCommutative residuated lattice-ordered semigroups\n\nCommutative
+  residuated lattices\n\nCommutative residuated partially ordered monoids\n\nCommutative
+  residuated partially ordered semigroups\n\nCommutative rings\n\nCommutative rings
+  with identity\n\nCommutative semigroups, Finite commutative semigroups, with zero\n\nCompact
+  topological spaces\n\nCompact zero-dimensional Hausdorff spaces\n\nComplemented
+  lattices\n\nComplemented distributive lattices\n\nComplemented modular lattices\n\nComplete
+  distributive lattices\n\nComplete lattices\n\nComplete semilattices\n\nComplete
+  partial orders\n\nCompletely regular Hausdorff spaces\n\nCompletely regular semigroups\n\nContinuous
+  lattices\n\nContinuous posets\n\nCylindric algebras\n\nDe Morgan algebras\n\nDe
+  Morgan monoids\n\nDedekind categories\n\nDedekind domains\n\nDense linear orders\n\nDigraph
+  algebras\n\nDirected complete partial orders\n\nDirected partial orders\n\nDirected
+  graphs\n\nDirectoids\n\nDistributive allegories\n\nDistributive double p-algebras\n\nDistributive
+  dual p-algebras\n\nDistributive lattice expansions\n\nDistributive lattices\n\nDistributive
+  lattices with operators\n\nDistributive lattice ordered semigroups\n\nDistributive
+  p-algebras\n\nDistributive residuated lattices\n\nDivision algebras\n\nDivision
+  rings\n\nDouble Stone algebras\n\nDunn monoids\n\nDynamic algebras\n\nEntropic groupoids\n\nEquivalence
+  algebras\n\nEquivalence relations\n\nEuclidean domains\n\nf-rings\n\nFields\n\nFL-algebras\n\nFLc-algebras\n\nFLe-algebras\n\nFLew-algebras\n\nFLw-algebras\n\nFrames\n\nFunction
+  rings\n\nG-sets\n\nGeneralized BL-algebras\n\nGeneralized Boolean algebras\n\nGeneralized
+  MV-algebras\n\nGoedel algebras\n\nGraphs\n\nGroupoids\n\nGroups\n\nHausdorff spaces\n\nHeyting
+  algebras\n\nHilbert algebras\n\nHilbert spaces\n\nHoops\n\nIdempotent semirings\n\nIdempotent
+  semirings with identity\n\nIdempotent semirings with identity and zero\n\nIdempotent
+  semirings with zero\n\nImplication algebras\n\nImplicative lattices\n\nIntegral
+  domains\n\nIntegral ordered monoids, finite integral ordered monoids\n\nIntegral
+  relation algebras\n\nIntegral residuated lattices\n\nIntuitionistic linear logic
+  algebras\n\nInverse semigroups\n\nInvolutive FL-algebras\n\nInvolutive lattices\n\nInvolutive
+  residuated lattices\n\nJoin-semidistributive lattices\n\nJoin-semilattices\n\nJordan
+  algebras\n\nKleene algebras\n\nKleene lattices\n\nKleene logic algebras\n\nLambek
+  algebras\n\nLattice-ordered groups\n\nLattice-ordered monoids\n\nLattice-ordered
+  rings\n\nLattice-ordered semigroups\n\nLattices\n\nLeft cancellative semigroups\n\nLie
+  algebras\n\nLinear Heyting algebras\n\nLinear logic algebras\n\nLinear orders\n\nLocales\n\nLocally
+  compact topological spaces\n\nLoops\n\nLukasiewicz algebras of order n\n\nM-sets\n\nMedial
+  groupoids\n\nMedial quasigroups\n\nMeet-semidistributive lattices\n\nMeet-semilattices\n\nMetric
+  spaces\n\nModal algebras\n\nModular lattices\n\nModular ortholattices\n\nModules
+  over a ring\n\nMonadic algebras\n\nMonoidal t-norm logic algebras\n\nMonoids, Finite
+  monoids, with zero\n\nMonounary algebras\n\nMoufang loops\n\nMoufang quasigroups\n\nMultiplicative
+  additive linear logic algebras\n\nMultiplicative lattices\n\nMultiplicative semilattices\n\nMultisets\n\nMV-algebras\n\nNeardistributive
+  lattices\n\nNear-rings\n\nNear-rings with identity\n\nNear-fields\n\nNilpotent groups\n\nNonassociative
+  relation algebras\n\nNonassociative algebras\n\nNormal bands\n\nNormal valued lattice-ordered
+  groups\n\nNormed vector spaces\n\nOckham algebras\n\nOrder algebras\n\nOrdered abelian
+  groups\n\nOrdered fields\n\nOrdered groups\n\nOrdered monoids\n\nOrdered monoids
+  with zero\n\nOrdered rings\n\nOrdered semigroups, Finite ordered semigroups, Finite
+  ordered semigroups with zero\n\nOrdered semilattices, Finite ordered semilattices\n\nOrdered
+  sets\n\nOre domains\n\nOrtholattices\n\nOrthomodular lattices\n\np-groups\n\nPartial
+  groupoids\n\nPartial semigroups\n\nPartially ordered groups\n\nPartially ordered
+  monoids\n\nPartially ordered semigroups\n\nPartially ordered sets\n\nPeirce algebras\n\nPocrims\n\nPointed
+  residuated lattices\n\nPolrims\n\nPolyadic algebras\n\nPosets\n\nPost algebras\n\nPreordered
+  sets\n\nPriestley spaces\n\nPrincipal Ideal Domains\n\nProcess algebras\n\nPseudo
+  basic logic algebras\n\nPseudo MTL-algebras\n\nPseudo MV-algebras\n\nPseudocomplemented
+  distributive lattices\n\nPure discriminator algebras\n\nQuantales\n\nQuasigroups\n\nQuasi-implication
+  algebras\n\nQuasi-MV-algebra\n\nQuasi-ordered sets\n\nQuasitrivial groupoids\n\nRectangular
+  bands\n\nReflexive relations\n\nRegular rings\n\nRegular semigroups\n\nRelation
+  algebras\n\nRelative Stone algebras\n\nRelativized relation algebras\n\nRepresentable
+  cylindric algebras\n\nRepresentable lattice-ordered groups\n\nRepresentable relation
+  algebras\n\nRepresentable residuated lattices\n\nResiduated idempotent semirings\n\nResiduated
+  lattice-ordered semigroups\n\nResiduated lattices\n\nResiduated partially ordered
+  monoids\n\nResiduated partially ordered semigroups\n\nRings\n\nRings with identity\n\nSchroeder
+  categories\n\nSemiassociative relation algebras\n\nSemidistributive lattices\n\nSemigroups,
+  Finite semigroups\n\nSemigroups with identity\n\nSemigroups with zero, Finite semigroups
+  with zero\n\nSemilattices, Finite semilattices\n\nSemilattices with identity, Finite
+  semilattices with identity\n\nSemilattices with zero\n\nSemirings\n\nSemirings with
+  identity\n\nSemirings with identity and zero\n\nSemirings with zero\n\nSequential
+  algebras\n\nSets\n\nShells\n\nSkew-fields\n\nSkew lattices\n\nSmall categories\n\nSober
+  T0-spaces\n\nSolvable groups\n\nSqrt-quasi-MV-algebras\n\nStably compact spaces\n\nSteiner
+  quasigroups\n\nStone algebras\n\nSymmetric relations\n\nT0-spaces\n\nT1-spaces\n\nT2-spaces\n\nTarski
+  algebras\n\nTense algebras\n\nTemporal algebras\n\nTopological groups\n\nTopological
+  spaces\n\nTopological vector spaces\n\nTorsion groups\n\nTotally ordered abelian
+  groups\n\nTotally ordered groups\n\nTotally ordered monoids\n\nTransitive relations\n\nTrees\n\nTournaments\n\nUnary
+  algebras\n\nUnique factorization domains\n\nUnital rings\n\nVector spaces\n\nWajsberg
+  algebras\n\nWajsberg hoops\n\nWeakly associative lattices\n\nWeakly associative
+  relation algebras\n\nWeakly representable relation algebras\n\n\n\nTemplate\n\n\n\n\n
+  \         \n\n          \n            Trace: » index.html\n          \n\n          \n
+  \         \n        \n      \n    \n  \n\n  \n    \n      \n    \n    \n    \n      Article\n
+  \       Discussion\n        Show pagesource\n        Old revisions\n      \n\n    \n
+  \     \n        Login\n        \n    \n    \n      Search\n      \n        \n           \n
+  \         \n      \n    \n    \n    \n    \n    \n      Toolbox\n      \n        What
+  links here\n          Recent changes\n          Upload file\n          Site index\n
+  \         Printable version\n          Permanent link\n          Cite this article\n
+  \       \n    \n\n   \n\n  \n\n  \n    \n    \n      \n      \n      \n      \n
+  \   \n    \n        index.html.txt · Last modified: 2015/06/06 11:52 by jipsen\n
+  \     \n        Except where otherwise noted, content on this wiki is licensed under
+  the following license:CC Attribution-Noncommercial-Share Alike 3.0 Unported\n      \n
+  \     \n        \n    \n\n  \n \n\n\nThe webpages collected here list information
+  about classes of\nmathematical structures. The aim is to have a central place to
+  check\nwhat properties are known about these structures. \n\nThese pages are currently
+  still under construction. Knowledgeable readers are encouraged to add or correct
+  information.\nTo enable the edit button on each page, use the Login link (above)
+  to log in or create an account.\n\nInitially the main content concerns mostly first-order
+  classes of relational\nstructures and, more particularly, equationally defined classes
+  of algebraic structures.\nIf you are familiar with some of these classes of structures,
+  feel\nfree to add some relevant information and references by using the edit\nlink
+  on the respective page. Pages are written in DokuWiki syntax, but mathematical notation
+  is in standard LaTeX. \nThe previous\nversions of these pages are still available
+  at http://math.chapman.edu/cgi-bin/structures.pl and http://math.chapman.edu/cgi-bin/structures
+  .\nYou can use this Sandbox page to try out editing (without worrying about deleting\nuseful
+  information).\n\nSuggestions or comments? Just follow the link and edit the page.\n\nNew:
+  Boldface links below display lists of finite algebras in a particular class (calculated
+  locally in the browser).\n\nAcknowledgements | Notation and terminology | Properties
+  | Tools | Online books and lecture notes\n\nVarieties | Quasivarieties | Universal
+  classes | First-order classes | Second-order classes\n\nAlgebras | Logics | Syntax
+  | Terms | Equations | Horn formulas | Universal formulas | First-order formulas\n\n\nTemplate\n\n
+  \           Trace: » index.html\n          "

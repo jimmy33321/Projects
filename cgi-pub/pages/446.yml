@@ -1,0 +1,5944 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 171
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 388
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 413
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 461
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 564
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 587
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 624
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 175
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 845
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 857
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1026
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1030
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1043
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1058
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1087
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 55
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 192
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 196
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 201
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 205
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-1bnf5ai"
+    line: 1089
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 212
+address: http://www.foxnews.com/politics/2015/12/14/obama-touts-military-gains-but-signals-no-strategy-shift-in-isis-fight.html?intcmp=latestnews
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=executive');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- |2+
+
+- " \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+          Fox News
+- |2
+              Fox Business
+- |2
+              Fox News Latino
+- |2
+              Fox News Go
+- |2
+              Fox News Radio
+- |2
+              Fox Nation
+- |2
+              Fox News Insider
+- "        \n"
+- "            \n"
+- |2
+                  Sign in to comment!
+- "            \n"
+- |2
+              Login
+- "        \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\tMenu\n"
+- "\t\n"
+- "\t\n"
+- "\t\tHome\n"
+- "\t\tFoxNews.com\n"
+- "\t\tPolitics\n"
+- "\t\t\n"
+- "\t\t\tSearch\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\tvar articleInfo = {\n"
+- "\t\t\tvcmId: \"e89cf7ac-77ed-4def-b033-0e00c16927f2\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/politics/2015/12/14/obama-touts-military-gains-but-signals-no-strategy-shift-in-isis-fight.html\",\n"
+- "\t\t\tpubDate:\"2015-12-14\",\n"
+- "\t\t\tmyTopChannelName:\"politics\",\n"
+- "\t\t\tsummary:\"<p>In what was billed as a major public push of U.S. strategy to
+  defeat the Islamic State, President Obama took only a few minutes at the Pentagon
+  on Monday to outline several recent successes but offered no new plans toward stopping
+  the terror group’s growing, global threat.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"true\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"e89cf7ac-77ed-4def-b033-0e00c16927f2\";\n"
+- "\t\tvar disqus_category_id = \"464441\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "     \t\n"
+- "    \t\n"
+- "            \n"
+- "        \n"
+- "    \t\n"
+- "                        \n"
+- |2
+                              Politics Home
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Elections 2016
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Executive
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Senate
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              House
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Defense
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Judiciary
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Fox News Poll
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "            \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      Pentagon
+- |2+
+
+- |2+
+
+- |
+  Obama touts military gains, but signals no strategy shift in ISIS fight
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- |2+
+
+- |2
+          Published
+- |2
+              December 14, 2015
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tFoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "        \t\n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t    Facebook0\n"
+- "\t\tTwitter0\t \n"
+- "\t\t\n"
+- "\t\t\tlivefyre\n"
+- "\t\t\n"
+- "\t\tEmail\n"
+- "\t\tPrint  \n"
+- "\t  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                        \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t \n"
+- "\t\t\t\t   \t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- |2
+                  In what was billed as a major public push of U.S. strategy to defeat the Islamic State, President Obama took only a few minutes at the Pentagon on Monday to outline several recent successes but offered no new plans toward stopping the terror group’s growing, global threat.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “As we squeeze its heart, we'll make it harder for ISIL to pump out its terror and propaganda,” said Obama, following the rare Pentagon meeting with his National Security Council.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The president restated his multi-prong strategy of a massive air campaign, targeting Islamic State leaders and diplomatic efforts to end the civil war in Syria, where the group has flourished.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Obama said the “mission to destroy” so far includes 9,000 airstrikes since the bombing started in September 2014 and a record number of bombs dropped in November.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  He said the effort since spring also has resulted in the deaths of at least seven Islamic State leaders, including second-in-command Fadhil Ahmad al-Hayali.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “The point is, ISIL leaders cannot hide, and our next message to them is ‘You are next,’ ” Obama said from the Pentagon briefing room, flanked by Secretary of Defense Ash Carter and several U.S. generals.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Obama said the effort has also helped recapture significant territory that the group has taken in Syria and Iraq, where the group also has a foothold.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The address was part of the president’s week-long, high-profile effort to ease Americans’ fears about ISIS, which also has been associated with the deadly terror attacks in Paris and most recently in California.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Beyond the airstrikes, Obama’s strategy has thus far included military support for Iraqi troops and the deployment of about 50 U.S. Special Forces members in Syria.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The president also this week is slated for a briefing at the National Counterterrorism Center.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Obama’s visits to agencies charged with keeping the U.S. safe follow his Dec. 6 address from the Oval Office that attempted to reassure the public but that critics said failed to do the job.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The address came weeks after 130 people were killed in the Paris suicide bombings and days after the deadly shootings in San Bernardino, Calif., in which a Muslim husband-wife team killed 14 people and wounded nearly two dozen others at a holiday party.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The attackers in both incidents appeared to have at least been inspired by the Islamic State.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  FBI Director James Comey said last week that the couple in the California attack had been “radicalized” at least two years before the attack and had bonded over online talk of "jihad" and "martyrdom."
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The wife, Tashfeen Malik, 29, came to the U.S. from Pakistan in July 2014 on a fiancée visa, despite apparently expressing her desire publically to commit jihad. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  U.S. officials insist there are no new specific and/or credible threats to the United States.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  But the apparent lack of warning before San Bernardino has raised concerns about whether the U.S. has a handle on potential attacks, especially during high-profile times such as the end-of-year holidays.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  At the National Counterterrorism Center, which analyzes intelligence at its facility in suburban Virginia, Obama planned to address reporters Thursday after a briefing by intelligence and security agencies on threat assessments. Obama receives a similar briefing each year before the holidays.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  In addition, the White House scheduled a conference call Monday with religious leaders about ways to fight discrimination and promote religious tolerance.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Obama will also speak Tuesday at the National Archives Museum, where 31 immigrants from Iraq, Ethiopia, Uganda and 23 other nations will be sworn in as U.S. citizens.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Concerns about extremism emanating from the Middle East have also taken center stage in the presidential race.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The Associated Press contributed to this report. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                   
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- " \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "                   \t\t\n"
+- "                    \t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- " \n"
+- "\t                 \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- " \n"
+- |2
+     Advertisement
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                \r\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "       \t \tTrending in Politics\n"
+- "            \n"
+- "\t\t\t      \t1\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tAgents reportedly blocked by secret US policy from looking at social
+  media of visa applicants\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t2\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t3\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t4\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in
+  daring Syria raid\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t5\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tWatchdog group calls for probe of Clinton relationship with firm
+  tied to son-in-law\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t           \n"
+- |2
+             See all Trends
+- "            \n"
+- " \t      \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- "    \n"
+- |2+
+
+- "\r\n"
+- |2+
+
+- "            \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "     \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "       \t\r\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "   \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\tFox NewsPolitics\n"
+- "\t\t\tPolitics Home\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\tPresidential Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\tCongressional Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\tFoxNews.com\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t©2015 FOX News Network, LLC. All rights reserved. This material may not be
+  published, broadcast, rewritten, or redistributed. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      (function($){
+- |2
+          $.ad.pre();
+- |2
+          if (window.FOX) { FOX.site.bottomInit(); }
+- |2
+      }(jQuery));
+- "    \n"
+- |
+  Sign in to comment!Sign in to comment!
+- "\t\t\t\t\t \n"
+- "\t\t\t\tIn what was billed as a major public push of U.S. strategy to defeat the
+  Islamic State, President Obama took only a few minutes at the Pentagon on Monday
+  to outline several recent successes but offered no new plans toward stopping the
+  terror group’s growing, global threat.“As we squeeze its heart, we'll make it harder
+  for ISIL to pump out its terror and propaganda,” said Obama, following the rare
+  Pentagon meeting with his National Security Council.The president restated his multi-prong
+  strategy of a massive air campaign, targeting Islamic State leaders and diplomatic
+  efforts to end the civil war in Syria, where the group has flourished.Obama said
+  the “mission to destroy” so far includes 9,000 airstrikes since the bombing started
+  in September 2014 and a record number of bombs dropped in November.He said the effort
+  since spring also has resulted in the deaths of at least seven Islamic State leaders,
+  including second-in-command Fadhil Ahmad al-Hayali.“The point is, ISIL leaders cannot
+  hide, and our next message to them is ‘You are next,’ ” Obama said from the Pentagon
+  briefing room, flanked by Secretary of Defense Ash Carter and several U.S. generals.Obama
+  said the effort has also helped recapture significant territory that the group has
+  taken in Syria and Iraq, where the group also has a foothold.The address was part
+  of the president’s week-long, high-profile effort to ease Americans’ fears about
+  ISIS, which also has been associated with the deadly terror attacks in Paris and
+  most recently in California.Beyond the airstrikes, Obama’s strategy has thus far
+  included military support for Iraqi troops and the deployment of about 50 U.S. Special
+  Forces members in Syria.The president also this week is slated for a briefing at
+  the National Counterterrorism Center.Obama’s visits to agencies charged with keeping
+  the U.S. safe follow his Dec. 6 address from the Oval Office that attempted to reassure
+  the public but that critics said failed to do the job.The address came weeks after
+  130 people were killed in the Paris suicide bombings and days after the deadly shootings
+  in San Bernardino, Calif., in which a Muslim husband-wife team killed 14 people
+  and wounded nearly two dozen others at a holiday party.The attackers in both incidents
+  appeared to have at least been inspired by the Islamic State.FBI Director James
+  Comey said last week that the couple in the California attack had been “radicalized”
+  at least two years before the attack and had bonded over online talk of \"jihad\"
+  and \"martyrdom.\"The wife, Tashfeen Malik, 29, came to the U.S. from Pakistan in
+  July 2014 on a fiancée visa, despite apparently expressing her desire publically
+  to commit jihad. U.S. officials insist there are no new specific and/or credible
+  threats to the United States.But the apparent lack of warning before San Bernardino
+  has raised concerns about whether the U.S. has a handle on potential attacks, especially
+  during high-profile times such as the end-of-year holidays.At the National Counterterrorism
+  Center, which analyzes intelligence at its facility in suburban Virginia, Obama
+  planned to address reporters Thursday after a briefing by intelligence and security
+  agencies on threat assessments. Obama receives a similar briefing each year before
+  the holidays.In addition, the White House scheduled a conference call Monday with
+  religious leaders about ways to fight discrimination and promote religious tolerance.Obama
+  will also speak Tuesday at the National Archives Museum, where 31 immigrants from
+  Iraq, Ethiopia, Uganda and 23 other nations will be sworn in as U.S. citizens.Concerns
+  about extremism emanating from the Middle East have also taken center stage in the
+  presidential race.The Associated Press contributed to this report.  AdvertisementAdvertisement©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ"
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 222
+    - 231
+    - 360
+    - 816
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 828
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 22
+    - 23
+    - 223
+    - 231
+    - 233
+    - 251
+    - 619
+    - 780
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 25
+    - 273
+    - 781
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 225
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 831
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 831
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 208
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 28.0
+    docPositions:
+    - 11
+    - 150
+    - 151
+    - 152
+    - 153
+    - 154
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 185
+    - 186
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 328
+    - 779
+    - 820
+    - 828
+    - 833
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 20.0
+    docPositions:
+    - 11
+    - 18
+    - 61
+    - 147
+    - 154
+    - 179
+    - 180
+    - 182
+    - 183
+    - 184
+    - 186
+    - 197
+    - 199
+    - 200
+    - 201
+    - 203
+    - 328
+    - 820
+    - 833
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 17.0
+    docPositions:
+    - 11
+    - 23
+    - 35
+    - 49
+    - 60
+    - 70
+    - 81
+    - 92
+    - 104
+    - 110
+    - 119
+    - 132
+    - 145
+    - 221
+    - 251
+    - 780
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 16
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 16
+    - 19
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 619
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 66
+    - 76
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 170
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 18
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 4.0
+    docPositions:
+    - 19
+    - 184
+    - 201
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 284
+    - 782
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 295
+    - 506
+    - 783
+    - 833
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 783
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 6.0
+    docPositions:
+    - 28
+    - 306
+    - 441
+    - 784
+    - 833
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 317
+    - 785
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 127
+    - 786
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 787
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 5.0
+    docPositions:
+    - 31
+    - 466
+    - 787
+    - 833
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 787
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 21.0
+    docPositions:
+    - 34
+    - 35
+    - 120
+    - 234
+    - 416
+    - 441
+    - 456
+    - 466
+    - 486
+    - 491
+    - 496
+    - 511
+    - 833
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 35.0
+    docPositions:
+    - 34
+    - 35
+    - 93
+    - 94
+    - 95
+    - 147
+    - 148
+    - 234
+    - 416
+    - 441
+    - 451
+    - 456
+    - 466
+    - 486
+    - 491
+    - 496
+    - 511
+    - 680
+    - 833
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 122
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 124
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 123
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 7.0
+    docPositions:
+    - 41
+    - 74
+    - 231
+    - 343
+    - 456
+    - 833
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 125
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 128
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 49
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 10.0
+    docPositions:
+    - 60
+    - 66
+    - 161
+    - 421
+    - 441
+    - 820
+    - 826
+    - 827
+    - 829
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 4.0
+    docPositions:
+    - 69
+    - 70
+    - 74
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 629
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 4.0
+    docPositions:
+    - 77
+    - 88
+    - 105
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 4.0
+    docPositions:
+    - 80
+    - 81
+    - 86
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 6.0
+    docPositions:
+    - 83
+    - 144
+    - 145
+    - 426
+    - 833
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 7.0
+    docPositions:
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 98
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 4.0
+    docPositions:
+    - 98
+    - 421
+    - 833
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 104
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 110
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 160
+    - 175
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 119
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 5.0
+    docPositions:
+    - 124
+    - 234
+    - 416
+    - 833
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 132
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 141
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 4.0
+    docPositions:
+    - 146
+    - 441
+    - 833
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 148
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 152
+    - 153
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 3.0
+    docPositions:
+    - 154
+    - 167
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 175
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 4.0
+    docPositions:
+    - 165
+    - 456
+    - 833
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 165
+    - 171
+    - 521
+    - 833
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 4.0
+    docPositions:
+    - 176
+    - 426
+    - 833
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 4.0
+    docPositions:
+    - 179
+    - 800
+    - 813
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 198
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 199
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 200
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 202
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 203
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  articleinfo: !ruby/object:Word
+    word: articleinfo
+    stem: articleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  obama: !ruby/object:Word
+    word: obama
+    stem: obama
+    docFrequency: 24.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 416
+    - 421
+    - 431
+    - 441
+    - 446
+    - 456
+    - 466
+    - 501
+    - 511
+    - 833
+  touts: !ruby/object:Word
+    word: touts
+    stem: tout
+    docFrequency: 3.0
+    docPositions:
+    - 231
+    - 343
+  gains: !ruby/object:Word
+    word: gains
+    stem: gain
+    docFrequency: 3.0
+    docPositions:
+    - 231
+    - 343
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 10.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 416
+    - 466
+    - 496
+    - 833
+  signals: !ruby/object:Word
+    word: signals
+    stem: signal
+    docFrequency: 3.0
+    docPositions:
+    - 231
+    - 343
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 8.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 416
+    - 491
+    - 833
+  strategy: !ruby/object:Word
+    word: strategy
+    stem: strategi
+    docFrequency: 10.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 416
+    - 426
+    - 456
+    - 833
+  shift: !ruby/object:Word
+    word: shift
+    stem: shift
+    docFrequency: 3.0
+    docPositions:
+    - 231
+    - 343
+  isis: !ruby/object:Word
+    word: isis
+    stem: isi
+    docFrequency: 6.0
+    docPositions:
+    - 231
+    - 343
+    - 451
+    - 680
+    - 833
+  fight: !ruby/object:Word
+    word: fight
+    stem: fight
+    docFrequency: 5.0
+    docPositions:
+    - 231
+    - 343
+    - 506
+    - 833
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 234
+  billed: !ruby/object:Word
+    word: billed
+    stem: bill
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  major: !ruby/object:Word
+    word: major
+    stem: major
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  public: !ruby/object:Word
+    word: public
+    stem: public
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 466
+    - 833
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  defeat: !ruby/object:Word
+    word: defeat
+    stem: defeat
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  islamic: !ruby/object:Word
+    word: islamic
+    stem: islam
+    docFrequency: 10.0
+    docPositions:
+    - 234
+    - 416
+    - 426
+    - 436
+    - 476
+    - 833
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 10.0
+    docPositions:
+    - 234
+    - 416
+    - 426
+    - 436
+    - 476
+    - 833
+  president: !ruby/object:Word
+    word: president
+    stem: presid
+    docFrequency: 10.0
+    docPositions:
+    - 234
+    - 416
+    - 426
+    - 451
+    - 461
+    - 833
+  took: !ruby/object:Word
+    word: took
+    stem: took
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  few: !ruby/object:Word
+    word: few
+    stem: few
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 820
+    - 833
+  pentagon: !ruby/object:Word
+    word: pentagon
+    stem: pentagon
+    docFrequency: 9.0
+    docPositions:
+    - 234
+    - 340
+    - 416
+    - 421
+    - 441
+    - 833
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 506
+    - 833
+  outline: !ruby/object:Word
+    word: outline
+    stem: outlin
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  several: !ruby/object:Word
+    word: several
+    stem: sever
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 441
+    - 833
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  successes: !ruby/object:Word
+    word: successes
+    stem: success
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  offered: !ruby/object:Word
+    word: offered
+    stem: offer
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 491
+    - 833
+  plans: !ruby/object:Word
+    word: plans
+    stem: plan
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  toward: !ruby/object:Word
+    word: toward
+    stem: toward
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  stopping: !ruby/object:Word
+    word: stopping
+    stem: stop
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  terror: !ruby/object:Word
+    word: terror
+    stem: terror
+    docFrequency: 8.0
+    docPositions:
+    - 234
+    - 416
+    - 421
+    - 451
+    - 833
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 11.0
+    docPositions:
+    - 234
+    - 416
+    - 426
+    - 446
+    - 697
+    - 833
+  growing: !ruby/object:Word
+    word: growing
+    stem: grow
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 416
+    - 833
+  threat: !ruby/object:Word
+    word: threat
+    stem: threat
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 416
+    - 501
+    - 833
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  elections: !ruby/object:Word
+    word: elections
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  poll: !ruby/object:Word
+    word: poll
+    stem: poll
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 356
+    - 820
+    - 833
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  livefyre: !ruby/object:Word
+    word: livefyre
+    stem: livefyr
+    docFrequency: 2.0
+    docPositions:
+    - 374
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 376
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 377
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 5.0
+    docPositions:
+    - 421
+    - 833
+  squeeze: !ruby/object:Word
+    word: squeeze
+    stem: squeez
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 7.0
+    docPositions:
+    - 421
+    - 501
+    - 833
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  make: !ruby/object:Word
+    word: make
+    stem: make
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  harder: !ruby/object:Word
+    word: harder
+    stem: harder
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  isil: !ruby/object:Word
+    word: isil
+    stem: isil
+    docFrequency: 5.0
+    docPositions:
+    - 421
+    - 441
+    - 833
+  pump: !ruby/object:Word
+    word: pump
+    stem: pump
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 33.0
+    docPositions:
+    - 421
+    - 426
+    - 431
+    - 441
+    - 446
+    - 451
+    - 456
+    - 471
+    - 481
+    - 491
+    - 501
+    - 506
+    - 511
+    - 833
+  propaganda: !ruby/object:Word
+    word: propaganda
+    stem: propaganda
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 15.0
+    docPositions:
+    - 421
+    - 431
+    - 436
+    - 441
+    - 446
+    - 466
+    - 481
+    - 833
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  rare: !ruby/object:Word
+    word: rare
+    stem: rare
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  meeting: !ruby/object:Word
+    word: meeting
+    stem: meet
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 7.0
+    docPositions:
+    - 421
+    - 426
+    - 466
+    - 833
+  national: !ruby/object:Word
+    word: national
+    stem: nation
+    docFrequency: 9.0
+    docPositions:
+    - 421
+    - 461
+    - 501
+    - 511
+    - 833
+  security: !ruby/object:Word
+    word: security
+    stem: secur
+    docFrequency: 5.0
+    docPositions:
+    - 421
+    - 501
+    - 833
+  council: !ruby/object:Word
+    word: council
+    stem: council
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 833
+  restated: !ruby/object:Word
+    word: restated
+    stem: restat
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  multi: !ruby/object:Word
+    word: multi
+    stem: multi
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  prong: !ruby/object:Word
+    word: prong
+    stem: prong
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  massive: !ruby/object:Word
+    word: massive
+    stem: massiv
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  campaign: !ruby/object:Word
+    word: campaign
+    stem: campaign
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  targeting: !ruby/object:Word
+    word: targeting
+    stem: target
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  leaders: !ruby/object:Word
+    word: leaders
+    stem: leader
+    docFrequency: 9.0
+    docPositions:
+    - 426
+    - 436
+    - 441
+    - 506
+    - 833
+  diplomatic: !ruby/object:Word
+    word: diplomatic
+    stem: diplomat
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  efforts: !ruby/object:Word
+    word: efforts
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  end: !ruby/object:Word
+    word: end
+    stem: end
+    docFrequency: 5.0
+    docPositions:
+    - 426
+    - 496
+    - 833
+  civil: !ruby/object:Word
+    word: civil
+    stem: civil
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  syria: !ruby/object:Word
+    word: syria
+    stem: syria
+    docFrequency: 8.0
+    docPositions:
+    - 426
+    - 446
+    - 456
+    - 680
+    - 833
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 19.0
+    docPositions:
+    - 426
+    - 436
+    - 446
+    - 451
+    - 456
+    - 496
+    - 833
+  flourished: !ruby/object:Word
+    word: flourished
+    stem: flourish
+    docFrequency: 3.0
+    docPositions:
+    - 426
+    - 833
+  mission: !ruby/object:Word
+    word: mission
+    stem: mission
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  destroy: !ruby/object:Word
+    word: destroy
+    stem: destroi
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  far: !ruby/object:Word
+    word: far
+    stem: far
+    docFrequency: 5.0
+    docPositions:
+    - 431
+    - 456
+    - 833
+  includes: !ruby/object:Word
+    word: includes
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  airstrikes: !ruby/object:Word
+    word: airstrikes
+    stem: airstrik
+    docFrequency: 5.0
+    docPositions:
+    - 431
+    - 456
+    - 833
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 5.0
+    docPositions:
+    - 431
+    - 436
+    - 833
+  bombing: !ruby/object:Word
+    word: bombing
+    stem: bomb
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  started: !ruby/object:Word
+    word: started
+    stem: start
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  september: !ruby/object:Word
+    word: september
+    stem: septemb
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  bombs: !ruby/object:Word
+    word: bombs
+    stem: bomb
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  dropped: !ruby/object:Word
+    word: dropped
+    stem: drop
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  november: !ruby/object:Word
+    word: november
+    stem: novemb
+    docFrequency: 3.0
+    docPositions:
+    - 431
+    - 833
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 446
+    - 451
+    - 833
+  spring: !ruby/object:Word
+    word: spring
+    stem: spring
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 15.0
+    docPositions:
+    - 436
+    - 446
+    - 451
+    - 461
+    - 511
+    - 516
+    - 833
+  resulted: !ruby/object:Word
+    word: resulted
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  deaths: !ruby/object:Word
+    word: deaths
+    stem: death
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  least: !ruby/object:Word
+    word: least
+    stem: least
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 476
+    - 481
+    - 833
+  seven: !ruby/object:Word
+    word: seven
+    stem: seven
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  command: !ruby/object:Word
+    word: command
+    stem: command
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  fadhil: !ruby/object:Word
+    word: fadhil
+    stem: fadhil
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  ahmad: !ruby/object:Word
+    word: ahmad
+    stem: ahmad
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  al: !ruby/object:Word
+    word: al
+    stem: al
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  hayali: !ruby/object:Word
+    word: hayali
+    stem: hayali
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 833
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  cannot: !ruby/object:Word
+    word: cannot
+    stem: cannot
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 5.0
+    docPositions:
+    - 441
+    - 833
+  message: !ruby/object:Word
+    word: message
+    stem: messag
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  them: !ruby/object:Word
+    word: them
+    stem: them
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  briefing: !ruby/object:Word
+    word: briefing
+    stem: brief
+    docFrequency: 9.0
+    docPositions:
+    - 441
+    - 461
+    - 501
+    - 833
+  room: !ruby/object:Word
+    word: room
+    stem: room
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  flanked: !ruby/object:Word
+    word: flanked
+    stem: flank
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  secretary: !ruby/object:Word
+    word: secretary
+    stem: secretari
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  ash: !ruby/object:Word
+    word: ash
+    stem: ash
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  carter: !ruby/object:Word
+    word: carter
+    stem: carter
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  generals: !ruby/object:Word
+    word: generals
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 833
+  helped: !ruby/object:Word
+    word: helped
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 833
+  recapture: !ruby/object:Word
+    word: recapture
+    stem: recaptur
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 833
+  significant: !ruby/object:Word
+    word: significant
+    stem: signific
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 833
+  territory: !ruby/object:Word
+    word: territory
+    stem: territori
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 833
+  taken: !ruby/object:Word
+    word: taken
+    stem: taken
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 516
+    - 833
+  iraq: !ruby/object:Word
+    word: iraq
+    stem: iraq
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 511
+    - 833
+  foothold: !ruby/object:Word
+    word: foothold
+    stem: foothold
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 833
+  address: !ruby/object:Word
+    word: address
+    stem: address
+    docFrequency: 9.0
+    docPositions:
+    - 451
+    - 466
+    - 471
+    - 501
+    - 833
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  week: !ruby/object:Word
+    word: week
+    stem: week
+    docFrequency: 7.0
+    docPositions:
+    - 451
+    - 461
+    - 481
+    - 833
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 496
+    - 833
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 496
+    - 833
+  ease: !ruby/object:Word
+    word: ease
+    stem: eas
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  americans: !ruby/object:Word
+    word: americans
+    stem: american
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  fears: !ruby/object:Word
+    word: fears
+    stem: fear
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 7.0
+    docPositions:
+    - 451
+    - 471
+    - 501
+    - 833
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 7.0
+    docPositions:
+    - 451
+    - 476
+    - 481
+    - 833
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 521
+    - 833
+  deadly: !ruby/object:Word
+    word: deadly
+    stem: deadli
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 471
+    - 833
+  attacks: !ruby/object:Word
+    word: attacks
+    stem: attack
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 496
+    - 833
+  paris: !ruby/object:Word
+    word: paris
+    stem: pari
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 471
+    - 833
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 833
+  california: !ruby/object:Word
+    word: california
+    stem: california
+    docFrequency: 5.0
+    docPositions:
+    - 451
+    - 481
+    - 833
+  beyond: !ruby/object:Word
+    word: beyond
+    stem: beyond
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  thus: !ruby/object:Word
+    word: thus
+    stem: thu
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  included: !ruby/object:Word
+    word: included
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  iraqi: !ruby/object:Word
+    word: iraqi
+    stem: iraqi
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  troops: !ruby/object:Word
+    word: troops
+    stem: troop
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  deployment: !ruby/object:Word
+    word: deployment
+    stem: deploy
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  forces: !ruby/object:Word
+    word: forces
+    stem: forc
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 833
+  slated: !ruby/object:Word
+    word: slated
+    stem: slate
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 833
+  counterterrorism: !ruby/object:Word
+    word: counterterrorism
+    stem: counterterror
+    docFrequency: 5.0
+    docPositions:
+    - 461
+    - 501
+    - 833
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 7.0
+    docPositions:
+    - 461
+    - 501
+    - 516
+    - 833
+  visits: !ruby/object:Word
+    word: visits
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  agencies: !ruby/object:Word
+    word: agencies
+    stem: agenc
+    docFrequency: 5.0
+    docPositions:
+    - 466
+    - 501
+    - 833
+  charged: !ruby/object:Word
+    word: charged
+    stem: charg
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  keeping: !ruby/object:Word
+    word: keeping
+    stem: keep
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  safe: !ruby/object:Word
+    word: safe
+    stem: safe
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  oval: !ruby/object:Word
+    word: oval
+    stem: oval
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  office: !ruby/object:Word
+    word: office
+    stem: offic
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  attempted: !ruby/object:Word
+    word: attempted
+    stem: attempt
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  reassure: !ruby/object:Word
+    word: reassure
+    stem: reassur
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  critics: !ruby/object:Word
+    word: critics
+    stem: critic
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  failed: !ruby/object:Word
+    word: failed
+    stem: fail
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  job: !ruby/object:Word
+    word: job
+    stem: job
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 833
+  came: !ruby/object:Word
+    word: came
+    stem: came
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 486
+    - 833
+  weeks: !ruby/object:Word
+    word: weeks
+    stem: week
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 7.0
+    docPositions:
+    - 471
+    - 501
+    - 833
+  people: !ruby/object:Word
+    word: people
+    stem: peopl
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 833
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  killed: !ruby/object:Word
+    word: killed
+    stem: kill
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 833
+  suicide: !ruby/object:Word
+    word: suicide
+    stem: suicid
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  bombings: !ruby/object:Word
+    word: bombings
+    stem: bomb
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  shootings: !ruby/object:Word
+    word: shootings
+    stem: shoot
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 496
+    - 833
+  bernardino: !ruby/object:Word
+    word: bernardino
+    stem: bernardino
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 496
+    - 833
+  calif: !ruby/object:Word
+    word: calif
+    stem: calif
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  muslim: !ruby/object:Word
+    word: muslim
+    stem: muslim
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  husband: !ruby/object:Word
+    word: husband
+    stem: husband
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  wife: !ruby/object:Word
+    word: wife
+    stem: wife
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 486
+    - 833
+  team: !ruby/object:Word
+    word: team
+    stem: team
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  wounded: !ruby/object:Word
+    word: wounded
+    stem: wound
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  nearly: !ruby/object:Word
+    word: nearly
+    stem: nearli
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 481
+    - 833
+  dozen: !ruby/object:Word
+    word: dozen
+    stem: dozen
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  others: !ruby/object:Word
+    word: others
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  holiday: !ruby/object:Word
+    word: holiday
+    stem: holidai
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  party: !ruby/object:Word
+    word: party
+    stem: parti
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 833
+  attackers: !ruby/object:Word
+    word: attackers
+    stem: attack
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 833
+  both: !ruby/object:Word
+    word: both
+    stem: both
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 833
+  incidents: !ruby/object:Word
+    word: incidents
+    stem: incid
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 833
+  appeared: !ruby/object:Word
+    word: appeared
+    stem: appear
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 833
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 5.0
+    docPositions:
+    - 476
+    - 516
+    - 833
+  inspired: !ruby/object:Word
+    word: inspired
+    stem: inspir
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 833
+  fbi: !ruby/object:Word
+    word: fbi
+    stem: fbi
+    docFrequency: 4.0
+    docPositions:
+    - 481
+    - 646
+    - 833
+  director: !ruby/object:Word
+    word: director
+    stem: director
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  james: !ruby/object:Word
+    word: james
+    stem: jame
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  comey: !ruby/object:Word
+    word: comey
+    stem: comei
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  couple: !ruby/object:Word
+    word: couple
+    stem: coupl
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  attack: !ruby/object:Word
+    word: attack
+    stem: attack
+    docFrequency: 5.0
+    docPositions:
+    - 481
+    - 833
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 5.0
+    docPositions:
+    - 481
+    - 833
+  radicalized: !ruby/object:Word
+    word: radicalized
+    stem: radic
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  years: !ruby/object:Word
+    word: years
+    stem: year
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  before: !ruby/object:Word
+    word: before
+    stem: befor
+    docFrequency: 7.0
+    docPositions:
+    - 481
+    - 496
+    - 501
+    - 833
+  bonded: !ruby/object:Word
+    word: bonded
+    stem: bond
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  over: !ruby/object:Word
+    word: over
+    stem: over
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  talk: !ruby/object:Word
+    word: talk
+    stem: talk
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  jihad: !ruby/object:Word
+    word: jihad
+    stem: jihad
+    docFrequency: 5.0
+    docPositions:
+    - 481
+    - 486
+    - 833
+  martyrdom: !ruby/object:Word
+    word: martyrdom
+    stem: martyrdom
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 833
+  tashfeen: !ruby/object:Word
+    word: tashfeen
+    stem: tashfeen
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  malik: !ruby/object:Word
+    word: malik
+    stem: malik
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  pakistan: !ruby/object:Word
+    word: pakistan
+    stem: pakistan
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  july: !ruby/object:Word
+    word: july
+    stem: juli
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  fianc: !ruby/object:Word
+    word: fianc
+    stem: fianc
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  visa: !ruby/object:Word
+    word: visa
+    stem: visa
+    docFrequency: 4.0
+    docPositions:
+    - 486
+    - 629
+    - 833
+  despite: !ruby/object:Word
+    word: despite
+    stem: despit
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  apparently: !ruby/object:Word
+    word: apparently
+    stem: appar
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  expressing: !ruby/object:Word
+    word: expressing
+    stem: express
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  her: !ruby/object:Word
+    word: her
+    stem: her
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  desire: !ruby/object:Word
+    word: desire
+    stem: desir
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  publically: !ruby/object:Word
+    word: publically
+    stem: public
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  commit: !ruby/object:Word
+    word: commit
+    stem: commit
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 833
+  officials: !ruby/object:Word
+    word: officials
+    stem: offici
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  insist: !ruby/object:Word
+    word: insist
+    stem: insist
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  credible: !ruby/object:Word
+    word: credible
+    stem: credibl
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  threats: !ruby/object:Word
+    word: threats
+    stem: threat
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  states: !ruby/object:Word
+    word: states
+    stem: state
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 833
+  apparent: !ruby/object:Word
+    word: apparent
+    stem: appar
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  lack: !ruby/object:Word
+    word: lack
+    stem: lack
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  warning: !ruby/object:Word
+    word: warning
+    stem: warn
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  raised: !ruby/object:Word
+    word: raised
+    stem: rais
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  concerns: !ruby/object:Word
+    word: concerns
+    stem: concern
+    docFrequency: 5.0
+    docPositions:
+    - 496
+    - 516
+    - 833
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  handle: !ruby/object:Word
+    word: handle
+    stem: handl
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  potential: !ruby/object:Word
+    word: potential
+    stem: potenti
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  times: !ruby/object:Word
+    word: times
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 833
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 5.0
+    docPositions:
+    - 496
+    - 501
+    - 833
+  holidays: !ruby/object:Word
+    word: holidays
+    stem: holidai
+    docFrequency: 5.0
+    docPositions:
+    - 496
+    - 501
+    - 833
+  analyzes: !ruby/object:Word
+    word: analyzes
+    stem: analyz
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  intelligence: !ruby/object:Word
+    word: intelligence
+    stem: intellig
+    docFrequency: 5.0
+    docPositions:
+    - 501
+    - 833
+  facility: !ruby/object:Word
+    word: facility
+    stem: facil
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  suburban: !ruby/object:Word
+    word: suburban
+    stem: suburban
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  virginia: !ruby/object:Word
+    word: virginia
+    stem: virginia
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  planned: !ruby/object:Word
+    word: planned
+    stem: plan
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  reporters: !ruby/object:Word
+    word: reporters
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  thursday: !ruby/object:Word
+    word: thursday
+    stem: thursdai
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  assessments: !ruby/object:Word
+    word: assessments
+    stem: assess
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  receives: !ruby/object:Word
+    word: receives
+    stem: receiv
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  similar: !ruby/object:Word
+    word: similar
+    stem: similar
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 833
+  addition: !ruby/object:Word
+    word: addition
+    stem: addit
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  white: !ruby/object:Word
+    word: white
+    stem: white
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  scheduled: !ruby/object:Word
+    word: scheduled
+    stem: schedul
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  conference: !ruby/object:Word
+    word: conference
+    stem: confer
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  religious: !ruby/object:Word
+    word: religious
+    stem: religi
+    docFrequency: 5.0
+    docPositions:
+    - 506
+    - 833
+  ways: !ruby/object:Word
+    word: ways
+    stem: wai
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  discrimination: !ruby/object:Word
+    word: discrimination
+    stem: discrimin
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  promote: !ruby/object:Word
+    word: promote
+    stem: promot
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  tolerance: !ruby/object:Word
+    word: tolerance
+    stem: toler
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 833
+  speak: !ruby/object:Word
+    word: speak
+    stem: speak
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  tuesday: !ruby/object:Word
+    word: tuesday
+    stem: tuesdai
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  archives: !ruby/object:Word
+    word: archives
+    stem: archiv
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  museum: !ruby/object:Word
+    word: museum
+    stem: museum
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  immigrants: !ruby/object:Word
+    word: immigrants
+    stem: immigr
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  ethiopia: !ruby/object:Word
+    word: ethiopia
+    stem: ethiopia
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  uganda: !ruby/object:Word
+    word: uganda
+    stem: uganda
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  nations: !ruby/object:Word
+    word: nations
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  sworn: !ruby/object:Word
+    word: sworn
+    stem: sworn
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  citizens: !ruby/object:Word
+    word: citizens
+    stem: citizen
+    docFrequency: 3.0
+    docPositions:
+    - 511
+    - 833
+  extremism: !ruby/object:Word
+    word: extremism
+    stem: extrem
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  emanating: !ruby/object:Word
+    word: emanating
+    stem: eman
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  middle: !ruby/object:Word
+    word: middle
+    stem: middl
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  east: !ruby/object:Word
+    word: east
+    stem: east
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  stage: !ruby/object:Word
+    word: stage
+    stem: stage
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  presidential: !ruby/object:Word
+    word: presidential
+    stem: presidenti
+    docFrequency: 4.0
+    docPositions:
+    - 516
+    - 789
+    - 833
+  race: !ruby/object:Word
+    word: race
+    stem: race
+    docFrequency: 3.0
+    docPositions:
+    - 516
+    - 833
+  press: !ruby/object:Word
+    word: press
+    stem: press
+    docFrequency: 3.0
+    docPositions:
+    - 521
+    - 833
+  contributed: !ruby/object:Word
+    word: contributed
+    stem: contribut
+    docFrequency: 3.0
+    docPositions:
+    - 521
+    - 833
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 592
+    - 725
+  agents: !ruby/object:Word
+    word: agents
+    stem: agent
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  reportedly: !ruby/object:Word
+    word: reportedly
+    stem: reportedli
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  blocked: !ruby/object:Word
+    word: blocked
+    stem: block
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  secret: !ruby/object:Word
+    word: secret
+    stem: secret
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  applicants: !ruby/object:Word
+    word: applicants
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 629
+  botched: !ruby/object:Word
+    word: botched
+    stem: botch
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  ransom: !ruby/object:Word
+    word: ransom
+    stem: ransom
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  rep: !ruby/object:Word
+    word: rep
+    stem: rep
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  presses: !ruby/object:Word
+    word: presses
+    stem: press
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  payment: !ruby/object:Word
+    word: payment
+    stem: payment
+    docFrequency: 2.0
+    docPositions:
+    - 646
+  bergdahl: !ruby/object:Word
+    word: bergdahl
+    stem: bergdahl
+    docFrequency: 3.0
+    docPositions:
+    - 646
+    - 663
+  charges: !ruby/object:Word
+    word: charges
+    stem: charg
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  referred: !ruby/object:Word
+    word: referred
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  trial: !ruby/object:Word
+    word: trial
+    stem: trial
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  court: !ruby/object:Word
+    word: court
+    stem: court
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  martial: !ruby/object:Word
+    word: martial
+    stem: martial
+    docFrequency: 2.0
+    docPositions:
+    - 663
+  army: !ruby/object:Word
+    word: army
+    stem: armi
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  elite: !ruby/object:Word
+    word: elite
+    stem: elit
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  delta: !ruby/object:Word
+    word: delta
+    stem: delta
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  force: !ruby/object:Word
+    word: force
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  kills: !ruby/object:Word
+    word: kills
+    stem: kill
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 680
+    - 817
+  official: !ruby/object:Word
+    word: official
+    stem: offici
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  abu: !ruby/object:Word
+    word: abu
+    stem: abu
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  sayyaf: !ruby/object:Word
+    word: sayyaf
+    stem: sayyaf
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  daring: !ruby/object:Word
+    word: daring
+    stem: dare
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  raid: !ruby/object:Word
+    word: raid
+    stem: raid
+    docFrequency: 2.0
+    docPositions:
+    - 680
+  watchdog: !ruby/object:Word
+    word: watchdog
+    stem: watchdog
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  calls: !ruby/object:Word
+    word: calls
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  probe: !ruby/object:Word
+    word: probe
+    stem: probe
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  clinton: !ruby/object:Word
+    word: clinton
+    stem: clinton
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  relationship: !ruby/object:Word
+    word: relationship
+    stem: relationship
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  firm: !ruby/object:Word
+    word: firm
+    stem: firm
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  tied: !ruby/object:Word
+    word: tied
+    stem: ti
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  son: !ruby/object:Word
+    word: son
+    stem: son
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  law: !ruby/object:Word
+    word: law
+    stem: law
+    docFrequency: 2.0
+    docPositions:
+    - 697
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 702
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 6.0
+    docPositions:
+    - 702
+    - 820
+    - 833
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 702
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 3.0
+    docPositions:
+    - 714
+    - 827
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 714
+  newspolitics: !ruby/object:Word
+    word: newspolitics
+    stem: newspolit
+    docFrequency: 2.0
+    docPositions:
+    - 779
+  approval: !ruby/object:Word
+    word: approval
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 789
+    - 802
+  approve: !ruby/object:Word
+    word: approve
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 793
+    - 806
+  disapprove: !ruby/object:Word
+    word: disapprove
+    stem: disapprov
+    docFrequency: 3.0
+    docPositions:
+    - 797
+    - 810
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 800
+    - 813
+  congressional: !ruby/object:Word
+    word: congressional
+    stem: congression
+    docFrequency: 2.0
+    docPositions:
+    - 802
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 817
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 820
+    - 833
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 826
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 827
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 2.0
+    docPositions:
+    - 828
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 828
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 828
+  advertisementadvertisement: !ruby/object:Word
+    word: advertisementadvertisement
+    stem: advertisementadvertis
+    docFrequency: 2.0
+    docPositions:
+    - 833
+lineCount: 834
+wordCount: 1955
+rank: 0.25
+title: Obama touts military gains, but signals no strategy shift in ISIS fight | Fox
+  News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/politics/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/elections/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/executive-branch/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/senate/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/house/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/defense/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/judiciary/index.html?intcmp=subnav
+- http://www.foxnews.com/official-polls/index.html?intcmp=subnav
+- http://www.foxnews.com/
+- http://video.foxnews.com/v/4660917935001/obamas-message-to-isis-leaders-are-next
+- http://www.foxnews.com/politics/2015/12/14/agents-reportedly-blocked-by-secret-us-policy-from-looking-at-social-media-visa-applicants.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/charges-against-bergdahl-referred-to-trial-by-court-martial.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/05/16/us-conducts-raid-on-isis-in-syria-kills-top-official.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html?intcmp=trending
+- http://www.foxnews.com/trending/
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/
+rawText: "\n\t\n\n\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=executive');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox
+  News Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch
+  Live\n\t\t\t\t\tShow Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\n\n
+  \n    \n        \n\n\n\n        Fox News\n            Fox Business\n            Fox
+  News Latino\n            Fox News Go\n            Fox News Radio\n            Fox
+  Nation\n            Fox News Insider\n        \n            \n                Sign
+  in to comment!\n            \n            Login\n        \n    \n\n            \n
+  \       \n\t    \n\n\n\t\t\n\t\tMenu\n\t\n\t\n\t\tHome\n\t\tFoxNews.com\n\t\tPolitics\n\t\t\n\t\t\tSearch\n\t\t\t\t\n\t\n\n\t\tvar
+  articleInfo = {\n\t\t\tvcmId: \"e89cf7ac-77ed-4def-b033-0e00c16927f2\",\n\t\t\turl:
+  \"http://www.foxnews.com/politics/2015/12/14/obama-touts-military-gains-but-signals-no-strategy-shift-in-isis-fight.html\",\n\t\t\tpubDate:\"2015-12-14\",\n\t\t\tmyTopChannelName:\"politics\",\n\t\t\tsummary:\"<p>In
+  what was billed as a major public push of U.S. strategy to defeat the Islamic State,
+  President Obama took only a few minutes at the Pentagon on Monday to outline several
+  recent successes but offered no new plans toward stopping the terror group’s growing,
+  global threat.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting:
+  \"true\",\n\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n\t\t};\n\t\tvar
+  disqus_identifier = \"e89cf7ac-77ed-4def-b033-0e00c16927f2\";\n\t\tvar disqus_category_id
+  = \"464441\";\n\t\tvar disqus_developer = 1;\n\n    \n    \n     \t\n    \t\n            \n
+  \       \n    \t\n                        \n                            Politics
+  Home\n                        \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Elections 2016\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Executive\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Senate\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            House\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Defense\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Judiciary\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Fox News Poll\n                        \n
+  \                   \n                \n\t\t\t\n\t\t\n            \n                    \n\n\n\n\n
+  \   Pentagon\n\n\nObama touts military gains, but signals no strategy shift in ISIS
+  fight\n\n\n\n\t\n\t\t\n\t\t\n\t    \n    \n\n    \n        \n\n        Published\n
+  \           December 14, 2015\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tFoxNews.com\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n
+  \       \t\n        \n    \n\n\n\n\t\n\t    Facebook0\n\t\tTwitter0\t \n\t\t\n\t\t\tlivefyre\n\t\t\n\t\tEmail\n\t\tPrint
+  \ \n\t  \n\n\n\n                    \n                        \n\n    \n    \n\t\n\t\t\n\t\t\t\n
+  \               \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t \n\t\t\t\t   \t\t\t\t\t\n\t\t\t\n\t\t
+  \       \n\n    \n\n\n\n\n\r\n\n                        \n\n\n\n\n\n    \n        \n
+  \       \n        \n            \n                In what was billed as a major
+  public push of U.S. strategy to defeat the Islamic State, President Obama took only
+  a few minutes at the Pentagon on Monday to outline several recent successes but
+  offered no new plans toward stopping the terror group’s growing, global threat.\n
+  \               \n                \r\n\n            \n                “As we squeeze
+  its heart, we'll make it harder for ISIL to pump out its terror and propaganda,”
+  said Obama, following the rare Pentagon meeting with his National Security Council.\n
+  \               \n                \r\n\n            \n                The president
+  restated his multi-prong strategy of a massive air campaign, targeting Islamic State
+  leaders and diplomatic efforts to end the civil war in Syria, where the group has
+  flourished.\n                \n                \r\n\n            \n                Obama
+  said the “mission to destroy” so far includes 9,000 airstrikes since the bombing
+  started in September 2014 and a record number of bombs dropped in November.\n                \n
+  \               \r\n\n            \n                He said the effort since spring
+  also has resulted in the deaths of at least seven Islamic State leaders, including
+  second-in-command Fadhil Ahmad al-Hayali.\n                \n                \r\n\n
+  \           \n                “The point is, ISIL leaders cannot hide, and our next
+  message to them is ‘You are next,’ ” Obama said from the Pentagon briefing room,
+  flanked by Secretary of Defense Ash Carter and several U.S. generals.\n                \n
+  \               \r\n\n            \n                Obama said the effort has also
+  helped recapture significant territory that the group has taken in Syria and Iraq,
+  where the group also has a foothold.\n                \n                \r\n\n            \n
+  \               The address was part of the president’s week-long, high-profile
+  effort to ease Americans’ fears about ISIS, which also has been associated with
+  the deadly terror attacks in Paris and most recently in California.\n                \n
+  \               \r\n\n            \n                Beyond the airstrikes, Obama’s
+  strategy has thus far included military support for Iraqi troops and the deployment
+  of about 50 U.S. Special Forces members in Syria.\n                \n                \r\n\n
+  \           \n                The president also this week is slated for a briefing
+  at the National Counterterrorism Center.\n                \n                \r\n\n
+  \           \n                Obama’s visits to agencies charged with keeping the
+  U.S. safe follow his Dec. 6 address from the Oval Office that attempted to reassure
+  the public but that critics said failed to do the job.\n                \n                \r\n\n
+  \           \n                The address came weeks after 130 people were killed
+  in the Paris suicide bombings and days after the deadly shootings in San Bernardino,
+  Calif., in which a Muslim husband-wife team killed 14 people and wounded nearly
+  two dozen others at a holiday party.\n                \n                \r\n\n            \n
+  \               The attackers in both incidents appeared to have at least been inspired
+  by the Islamic State.\n                \n                \r\n\n            \n                FBI
+  Director James Comey said last week that the couple in the California attack had
+  been “radicalized” at least two years before the attack and had bonded over online
+  talk of \"jihad\" and \"martyrdom.\"\n                \n                \r\n\n            \n
+  \               The wife, Tashfeen Malik, 29, came to the U.S. from Pakistan in
+  July 2014 on a fiancée visa, despite apparently expressing her desire publically
+  to commit jihad. \n                \n                \r\n\n            \n                U.S.
+  officials insist there are no new specific and/or credible threats to the United
+  States.\n                \n                \r\n\n            \n                But
+  the apparent lack of warning before San Bernardino has raised concerns about whether
+  the U.S. has a handle on potential attacks, especially during high-profile times
+  such as the end-of-year holidays.\n                \n                \r\n\n            \n
+  \               At the National Counterterrorism Center, which analyzes intelligence
+  at its facility in suburban Virginia, Obama planned to address reporters Thursday
+  after a briefing by intelligence and security agencies on threat assessments. Obama
+  receives a similar briefing each year before the holidays.\n                \n                \r\n\n
+  \           \n                In addition, the White House scheduled a conference
+  call Monday with religious leaders about ways to fight discrimination and promote
+  religious tolerance.\n                \n                \r\n\n            \n                Obama
+  will also speak Tuesday at the National Archives Museum, where 31 immigrants from
+  Iraq, Ethiopia, Uganda and 23 other nations will be sworn in as U.S. citizens.\n
+  \               \n                \r\n\n            \n                Concerns about
+  extremism emanating from the Middle East have also taken center stage in the presidential
+  race.\n                \n                \r\n\n            \n                The
+  Associated Press contributed to this report. \n                \n                \r\n\n
+  \           \n                 \n                \n                \r\n\n            \n\n
+  \           \n                \n                    \n                \n                \n\n\n
+  \n\n            \n        \n    \n                        \n                        \n\n\n\n\n\n\n\n
+  \                  \t\t\n                    \t\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n \n\t\n
+  \       \n    \n    \n    \n\n\t                    \n\n\n\n\n \n\t\n        \n
+  \   \n    \n    \n \n\t                 \n                \n            \n                \n\n
+  \   \n    \n    \n         \n \n   Advertisement\n\n\n\n    \n\n\n\r\n\n                \r\n\n\n\t\t\t\t\n\n
+  \   \n    \n    \n        \n    \n\n\n\n\n    \n    \n    \n         \n       \t
+  \tTrending in Politics\n            \n\t\t\t      \t1\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tAgents reportedly blocked by secret US policy from looking at social media
+  of visa applicants\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t2\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t3\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n\t\t\t
+  \     \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
+  \     \n\t\t\t      \n\t\t\t      \n\t\t\t      \t4\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in daring
+  Syria raid\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t5\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tWatchdog group calls for probe of Clinton relationship with
+  firm tied to son-in-law\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t
+  \          \n           See all Trends\n            \n \t      \n    \n\n\n    \n
+  \   \n    \n         \n     \n         \n        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"});
+  } catch(err) { } \n\n    \n\n\n\n    \n    \n    \n        \n \n   Advertisement\n\t
+  \  \n    \n\n\r\n\n            \n            \n\n\n\n\n     \n    \n\n            \n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n\n\n\n
+  \   \n\n        \n    \n    \n       \t\r\n\n    \n    \n\n   \n    \n\n\n\n\n\n\n\n\t
+  \   \n\n\n\t\t\n\t\t\tFox NewsPolitics\n\t\t\tPolitics Home\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\tPresidential Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\tCongressional Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\t\n\t\t\tFoxNews.com\n\t\t\tBack to Top\n\t\t\n\t\t\n\t\t\t©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ\n\t\t\n\t\n\n    \n\n    (function($){\n        $.ad.pre();\n        if
+  (window.FOX) { FOX.site.bottomInit(); }\n    }(jQuery));\n    \nSign in to comment!Sign
+  in to comment!\n\t\t\t\t\t \n\t\t\t\tIn what was billed as a major public push of
+  U.S. strategy to defeat the Islamic State, President Obama took only a few minutes
+  at the Pentagon on Monday to outline several recent successes but offered no new
+  plans toward stopping the terror group’s growing, global threat.“As we squeeze its
+  heart, we'll make it harder for ISIL to pump out its terror and propaganda,” said
+  Obama, following the rare Pentagon meeting with his National Security Council.The
+  president restated his multi-prong strategy of a massive air campaign, targeting
+  Islamic State leaders and diplomatic efforts to end the civil war in Syria, where
+  the group has flourished.Obama said the “mission to destroy” so far includes 9,000
+  airstrikes since the bombing started in September 2014 and a record number of bombs
+  dropped in November.He said the effort since spring also has resulted in the deaths
+  of at least seven Islamic State leaders, including second-in-command Fadhil Ahmad
+  al-Hayali.“The point is, ISIL leaders cannot hide, and our next message to them
+  is ‘You are next,’ ” Obama said from the Pentagon briefing room, flanked by Secretary
+  of Defense Ash Carter and several U.S. generals.Obama said the effort has also helped
+  recapture significant territory that the group has taken in Syria and Iraq, where
+  the group also has a foothold.The address was part of the president’s week-long,
+  high-profile effort to ease Americans’ fears about ISIS, which also has been associated
+  with the deadly terror attacks in Paris and most recently in California.Beyond the
+  airstrikes, Obama’s strategy has thus far included military support for Iraqi troops
+  and the deployment of about 50 U.S. Special Forces members in Syria.The president
+  also this week is slated for a briefing at the National Counterterrorism Center.Obama’s
+  visits to agencies charged with keeping the U.S. safe follow his Dec. 6 address
+  from the Oval Office that attempted to reassure the public but that critics said
+  failed to do the job.The address came weeks after 130 people were killed in the
+  Paris suicide bombings and days after the deadly shootings in San Bernardino, Calif.,
+  in which a Muslim husband-wife team killed 14 people and wounded nearly two dozen
+  others at a holiday party.The attackers in both incidents appeared to have at least
+  been inspired by the Islamic State.FBI Director James Comey said last week that
+  the couple in the California attack had been “radicalized” at least two years before
+  the attack and had bonded over online talk of \"jihad\" and \"martyrdom.\"The wife,
+  Tashfeen Malik, 29, came to the U.S. from Pakistan in July 2014 on a fiancée visa,
+  despite apparently expressing her desire publically to commit jihad. U.S. officials
+  insist there are no new specific and/or credible threats to the United States.But
+  the apparent lack of warning before San Bernardino has raised concerns about whether
+  the U.S. has a handle on potential attacks, especially during high-profile times
+  such as the end-of-year holidays.At the National Counterterrorism Center, which
+  analyzes intelligence at its facility in suburban Virginia, Obama planned to address
+  reporters Thursday after a briefing by intelligence and security agencies on threat
+  assessments. Obama receives a similar briefing each year before the holidays.In
+  addition, the White House scheduled a conference call Monday with religious leaders
+  about ways to fight discrimination and promote religious tolerance.Obama will also
+  speak Tuesday at the National Archives Museum, where 31 immigrants from Iraq, Ethiopia,
+  Uganda and 23 other nations will be sworn in as U.S. citizens.Concerns about extremism
+  emanating from the Middle East have also taken center stage in the presidential
+  race.The Associated Press contributed to this report.  AdvertisementAdvertisement©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ"

@@ -1,0 +1,2927 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Opening and ending tag mismatch: span and div
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-w6irxb"
+    line: 156
+    str1: span
+    str2: div
+    str3: 
+    int1: 0
+    column: 75
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-w6irxb"
+    line: 363
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 1
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : b
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-w6irxb"
+    line: 392
+    str1: b
+    str2: 
+    str3: 
+    int1: 0
+    column: 9
+address: http://www.ourcomputerheritage.org/wp/
+inboundLinks: []
+lines:
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "/***********************************************\r\n"
+- "* Cool DHTML tooltip script- copyright Dynamic Drive DHTML code library (www.dynamicdrive.com)\r\n"
+- "* This notice MUST stay intact for legal use\r\n"
+- "* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code\r\n"
+- "***********************************************/\r\n"
+- "\r\n"
+- "var offsetxpoint=-60 //Customize x offset of tooltip\r\n"
+- "var offsetypoint=20 //Customize y offset of tooltip\r\n"
+- "var ie=document.all\r\n"
+- "var ns6=document.getElementById && !document.all\r\n"
+- "var enabletip=false\r\n"
+- "if (ie||ns6)\r\n"
+- "var tipobj=document.all? document.all[\"dhtmltooltip\"] : document.getElementById?
+  document.getElementById(\"dhtmltooltip\") : \"\"\r\n"
+- "\r\n"
+- "function ietruebody(){\r\n"
+- "return (document.compatMode && document.compatMode!=\"BackCompat\")? document.documentElement
+  : document.body\r\n"
+- "}\r\n"
+- "\r\n"
+- "function ddrivetip(thetext, thecolor, thewidth){\r\n"
+- "if (ns6||ie){\r\n"
+- "if (typeof thewidth!=\"undefined\") tipobj.style.width=thewidth+\"px\"\r\n"
+- "if (typeof thecolor!=\"undefined\" && thecolor!=\"\") tipobj.style.backgroundColor=thecolor\r\n"
+- "tipobj.innerHTML=thetext\r\n"
+- "enabletip=true\r\n"
+- "return false\r\n"
+- "}\r\n"
+- "}\r\n"
+- "\r\n"
+- "function positiontip(e){\r\n"
+- "if (enabletip){\r\n"
+- "var curX=(ns6)?e.pageX : event.clientX+ietruebody().scrollLeft;\r\n"
+- "var curY=(ns6)?e.pageY : event.clientY+ietruebody().scrollTop;\r\n"
+- "//Find out how close the mouse is to the corner of the window\r\n"
+- "var rightedge=ie&&!window.opera? ietruebody().clientWidth-event.clientX-offsetxpoint
+  : window.innerWidth-e.clientX-offsetxpoint-20\r\n"
+- "var bottomedge=ie&&!window.opera? ietruebody().clientHeight-event.clientY-offsetypoint
+  : window.innerHeight-e.clientY-offsetypoint-20\r\n"
+- "\r\n"
+- "var leftedge=(offsetxpoint<0)? offsetxpoint*(-1) : -1000\r\n"
+- "\r\n"
+- "//if the horizontal distance isn't enough to accomodate the width of the context
+  menu\r\n"
+- "if (rightedge<tipobj.offsetWidth)\r\n"
+- "//move the horizontal position of the menu to the left by it's width\r\n"
+- "tipobj.style.left=ie? ietruebody().scrollLeft+event.clientX-tipobj.offsetWidth+\"px\"
+  : window.pageXOffset+e.clientX-tipobj.offsetWidth+\"px\"\r\n"
+- "else if (curX<leftedge)\r\n"
+- "tipobj.style.left=\"5px\"\r\n"
+- "else\r\n"
+- "//position the horizontal position of the menu where the mouse is positioned\r\n"
+- "tipobj.style.left=curX+offsetxpoint+\"px\"\r\n"
+- "\r\n"
+- "//same concept with the vertical position\r\n"
+- "if (bottomedge<tipobj.offsetHeight)\r\n"
+- "tipobj.style.top=ie? ietruebody().scrollTop+event.clientY-tipobj.offsetHeight-offsetypoint+\"px\"
+  : window.pageYOffset+e.clientY-tipobj.offsetHeight-offsetypoint+\"px\"\r\n"
+- "else\r\n"
+- "tipobj.style.top=curY+offsetypoint+\"px\"\r\n"
+- "tipobj.style.visibility=\"visible\"\r\n"
+- "}\r\n"
+- "}\r\n"
+- "\r\n"
+- "function hideddrivetip(){\r\n"
+- "if (ns6||ie){\r\n"
+- "enabletip=false\r\n"
+- "tipobj.style.visibility=\"hidden\"\r\n"
+- "tipobj.style.left=\"-1000px\"\r\n"
+- "tipobj.style.backgroundColor=''\r\n"
+- "tipobj.style.width=''\r\n"
+- "}\r\n"
+- "}\r\n"
+- "\r\n"
+- "document.onmousemove=positiontip\r\n"
+- "\r\n"
+- "\r\n"
+- "      \r\n"
+- "          \r\n"
+- "            Computer ◆ Conservation ◆ \r\n"
+- "            Society  -: Our Computer Heritage Project :- \r\n"
+- "          \r\n"
+- "            \r\n"
+- "                  \r\n"
+- "\t\t\t        \r\n"
+- "\t\t\t           d = new Date();\r\n"
+- "\t\t\t           document.write(format_time(d));\r\n"
+- "\t\t\t        //\r\n"
+- "\t\t         \r\n"
+- "      \r\n"
+- "                  Home     |     Mainframes      |      \r\n"
+- "Minicomputer      |      Contact us\r\n"
+- "      \r\n"
+- "\r\n"
+- " \r\n"
+- "            \r\n"
+- "          \r\n"
+- "      \r\n"
+- "            \r\n"
+- "\r\n"
+- "                  \r\n"
+- "                      Home\r\n"
+- "                      Mainframes\r\n"
+- "                      Minicomputers\r\n"
+- "                      Company Histories\r\n"
+- "                      Photo Gallery\r\n"
+- "                      Where to see bits\r\n"
+- "                      Glossary\r\n"
+- "                      Acknowledgements\r\n"
+- "                      CCS Web Site\r\n"
+- "                      Contact us\r\n"
+- "          \r\n"
+- "            \r\n"
+- "                  \r\n"
+- "\r\n"
+- "                  /***********************************************\r\n"
+- "                  * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code
+  library (www.dynamicdrive.com)\r\n"
+- "                  * This notice MUST stay intact for legal use\r\n"
+- "                  * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this
+  script and 100s more\r\n"
+- "                  ***********************************************/\r\n"
+- "\r\n"
+- "                  \r\n"
+- "\r\n"
+- "                  var mygallery=new fadeSlideShow({\r\n"
+- "                  \twrapperid: \"fadeshow1\", //ID of blank DIV on page to house
+  Slideshow\r\n"
+- "                  \tdimensions: [449, 315], //width/height of gallery in pixels.
+  Should reflect dimensions of largest image\r\n"
+- "                  \timagearray: [\r\n"
+- "                  \t\t[\"images/cyc1.png\", \"\", \"\", \"Elliot 803\"],\r\n"
+- "                  \t\t[\"images/cyc2.jpg\", \"\", \"\", \"Early Storage devices.\"],\r\n"
+- "                  \t\t[\"images/cyc3.jpg\", \"\", \"\", \"Ferranti Mk 1.\"],\r\n"
+- "                  \t\t[\"images/cyc4.jpg\", \"\", \"\", \"DEUCE Computer.\"],\r\n"
+- "                  \t\t[\"images/cyc5.jpg\", \"\", \"\", \"LEO Console.\"],\r\n"
+- "                  \t\t[\"images/cyc6.jpg\", \"\", \"\", \"EMIDEC 1100.\"],\r\n"
+- "                  \t\t[\"images/cyc7.jpg\", \"\", \"\", \"HEC One Computer.\"],\r\n"
+- "                  \t\t[\"images/cyc8.jpg\", \"\", \"\", \"Atlas I/O equipment at
+  Chilton.\"]\r\n"
+- "                  ],\r\n"
+- "                  \tdisplaymode: {type:'auto', pause:5000, cycles:0, wraparound:false},\r\n"
+- "                  \tpersist: false, //remember last viewed slide and recall within
+  same session?\r\n"
+- "                  \tfadeduration: 1000, //transition duration (milliseconds)\r\n"
+- "                  \tdescreveal: \"always\",\r\n"
+- "                  \ttogglerid: \"\"\r\n"
+- "                  })\r\n"
+- "\r\n"
+- "                  \r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                        \r\n"
+- "                        Some of the systems covered on the Our Computer Heritage
+  Site.\r\n"
+- "                       \r\n"
+- "                      \r\n"
+- "                        \r\n"
+- "                              \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "                  \r\n"
+- "Here you\x92ll find technical information on two groups of early British-designed
+  computers: \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "The first group covers Mainframe computers manufactured by six historic UK companies
+  that came onto the market in the period 1950 \x96 1965;\r\n"
+- "Elliott Brothers (London) Ltd.; \r\n"
+- "Ferranti Ltd.; \r\n"
+- "Leo Computers Ltd.; \r\n"
+- "EMI.; \r\n"
+- "English Electric Ltd.; \r\n"
+- "BTM/ICT/ICL.;\r\n"
+- "\r\n"
+- "The second group covers minicomputers that came onto the market in the period 1965
+  - 1985, manufactured by: \r\n"
+- "Business Computers Ltd.; \r\n"
+- "Computer Technology Ltd.; \r\n"
+- "Ferranti Ltd.; \r\n"
+- "GEC.; \r\n"
+- "High Level Hardware Ltd.; \r\n"
+- "ICL.;\r\n"
+- "Information Computer Systems.;\r\n"
+- "\r\n"
+- "To see detailed technical information on the deliveries and applications, hardware
+  and software, etc., for these early British computers, follow the links in the menu
+  on the left.  If you are new to the computer terminology of the 1940s and 1950s,
+  you may find the Glossary helpful. If you\x92d like to see which UK museums have
+  displays or items of equipment from the early British computers featured on this
+  site, click on Where to see bits.\r\n"
+- "\r\n"
+- "The information on this website has been collected since 2004 by volunteers from
+  the Computer Conservation Society (CCS). The names of individuals and organisations
+  who have helped with our computer history project are given under Acknowledgements.
+  \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Legal Info =  ©\"2012 Computer Conservation Society All Rights Reserved The material
+  and its presentation on this site is the copyright of its owners and the Computer
+  Conservation Society. You are free to enjoy and use any of the material for non-commercial
+  purposes without charge, provided that it is not used misleadingly. Please acknowledge
+  the Computer Conservation Society website as the source of the material. Note that
+  this permission does not extend to any material on this site which is identified
+  as requiring permission from its third party copyright holder. Please seek specific
+  permission to use such material. We try to ensure that the material on this site
+  is accurate, but there may be inaccuracies, omissions or out-of-date information.
+  We can take no responsibility for its misuse, and cannot be held liable for any
+  errors or loss which may arise. We encourage hyperlinks to this website.\r\n"
+- "\r\n"
+- "If you have any queries, please Contact the Computer Conservation Society: www.computerconservationsociety.org/
+  or e-mail comments to Simon Lavington : lavis@essex.ac.uk \r\n"
+- "\r\n"
+- "                    \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "                  \r\n"
+- "            \r\n"
+- "\r\n"
+- "\r\n"
+- "       \r\n"
+- "          \r\n"
+- "            \r\n"
+- "                        Some of the systems covered on the Our Computer Heritage
+  Site.\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "Here you\x92ll find technical information on two groups of early British-designed
+  computers: \r\n"
+- "\r\n"
+- "The first group covers Mainframe computers manufactured by six historic UK companies
+  that came onto the market in the period 1950 \x96 1965;\r\n"
+- "Elliott Brothers (London) Ltd.; \r\n"
+- "Ferranti Ltd.; \r\n"
+- "Leo Computers Ltd.; \r\n"
+- "EMI.; \r\n"
+- "English Electric Ltd.; \r\n"
+- "BTM/ICT/ICL.;\r\n"
+- "\r\n"
+- "The second group covers minicomputers that came onto the market in the period 1965
+  - 1985, manufactured by: \r\n"
+- "Business Computers Ltd.; \r\n"
+- "Computer Technology Ltd.; \r\n"
+- "Ferranti Ltd.; \r\n"
+- "GEC.; \r\n"
+- "High Level Hardware Ltd.; \r\n"
+- "ICL.;\r\n"
+- "Information Computer Systems.;\r\n"
+- "Legal Info =  ©\"2012 Computer Conservation Society All Rights Reserved The material
+  and its presentation on this site is the copyright of its owners and the Computer
+  Conservation Society. You are free to enjoy and use any of the material for non-commercial
+  purposes without charge, provided that it is not used misleadingly. Please acknowledge
+  the Computer Conservation Society website as the source of the material. Note that
+  this permission does not extend to any material on this site which is identified
+  as requiring permission from its third party copyright holder. Please seek specific
+  permission to use such material. We try to ensure that the material on this site
+  is accurate, but there may be inaccuracies, omissions or out-of-date information.
+  We can take no responsibility for its misuse, and cannot be held liable for any
+  errors or loss which may arise. We encourage hyperlinks to this website.\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 21.0
+    docPositions:
+    - 5
+    - 6
+    - 7
+    - 36
+    - 42
+    - 44
+    - 49
+    - 52
+    - 87
+    - 113
+    - 114
+    - 115
+    - 124
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+  cool: !ruby/object:Word
+    word: cool
+    stem: cool
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  dhtml: !ruby/object:Word
+    word: dhtml
+    stem: dhtml
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 113
+  tooltip: !ruby/object:Word
+    word: tooltip
+    stem: tooltip
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 10
+    - 11
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 115
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 185
+    - 224
+  dynamic: !ruby/object:Word
+    word: dynamic
+    stem: dynam
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 7
+    - 113
+    - 115
+  drive: !ruby/object:Word
+    word: drive
+    stem: drive
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 7
+    - 113
+    - 115
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 7
+    - 113
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 113
+  dynamicdrive: !ruby/object:Word
+    word: dynamicdrive
+    stem: dynamicdr
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 7
+    - 113
+    - 115
+  notice: !ruby/object:Word
+    word: notice
+    stem: notic
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 114
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 114
+  stay: !ruby/object:Word
+    word: stay
+    stem: stai
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 114
+  intact: !ruby/object:Word
+    word: intact
+    stem: intact
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 114
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 5.0
+    docPositions:
+    - 6
+    - 114
+    - 185
+    - 224
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 7.0
+    docPositions:
+    - 6
+    - 114
+    - 185
+    - 224
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 115
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 4.0
+    docPositions:
+    - 7
+    - 185
+    - 224
+  offsetxpoint: !ruby/object:Word
+    word: offsetxpoint
+    stem: offsetxpoint
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 37
+    - 40
+    - 50
+  customize: !ruby/object:Word
+    word: customize
+    stem: custom
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 11
+  x: !ruby/object:Word
+    word: x
+    stem: x
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  offset: !ruby/object:Word
+    word: offset
+    stem: offset
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 11
+  offsetypoint: !ruby/object:Word
+    word: offsetypoint
+    stem: offsetypoint
+    docFrequency: 7.0
+    docPositions:
+    - 11
+    - 38
+    - 54
+    - 56
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  ie: !ruby/object:Word
+    word: ie
+    stem: ie
+    docFrequency: 9.0
+    docPositions:
+    - 12
+    - 15
+    - 23
+    - 37
+    - 38
+    - 45
+    - 54
+    - 62
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 14.0
+    docPositions:
+    - 12
+    - 13
+    - 16
+    - 19
+    - 71
+    - 83
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 7.0
+    docPositions:
+    - 12
+    - 13
+    - 16
+    - 185
+    - 224
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 16
+  enabletip: !ruby/object:Word
+    word: enabletip
+    stem: enabletip
+    docFrequency: 5.0
+    docPositions:
+    - 14
+    - 27
+    - 33
+    - 63
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 28
+    - 63
+    - 133
+    - 134
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 14.0
+    docPositions:
+    - 15
+    - 23
+    - 24
+    - 25
+    - 33
+    - 42
+    - 43
+    - 46
+    - 53
+    - 62
+    - 178
+    - 187
+  tipobj: !ruby/object:Word
+    word: tipobj
+    stem: tipobj
+    docFrequency: 21.0
+    docPositions:
+    - 16
+    - 24
+    - 25
+    - 26
+    - 43
+    - 45
+    - 47
+    - 50
+    - 53
+    - 54
+    - 56
+    - 57
+    - 64
+    - 65
+    - 66
+    - 67
+  dhtmltooltip: !ruby/object:Word
+    word: dhtmltooltip
+    stem: dhtmltooltip
+    docFrequency: 3.0
+    docPositions:
+    - 16
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 22
+    - 32
+    - 61
+  ietruebody: !ruby/object:Word
+    word: ietruebody
+    stem: ietruebodi
+    docFrequency: 8.0
+    docPositions:
+    - 18
+    - 34
+    - 35
+    - 37
+    - 38
+    - 45
+    - 54
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 19
+    - 28
+  compatmode: !ruby/object:Word
+    word: compatmode
+    stem: compatmod
+    docFrequency: 3.0
+    docPositions:
+    - 19
+  backcompat: !ruby/object:Word
+    word: backcompat
+    stem: backcompat
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  documentelement: !ruby/object:Word
+    word: documentelement
+    stem: documentel
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  ddrivetip: !ruby/object:Word
+    word: ddrivetip
+    stem: ddrivetip
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  thetext: !ruby/object:Word
+    word: thetext
+    stem: thetext
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 26
+  thecolor: !ruby/object:Word
+    word: thecolor
+    stem: thecolor
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 25
+  thewidth: !ruby/object:Word
+    word: thewidth
+    stem: thewidth
+    docFrequency: 4.0
+    docPositions:
+    - 22
+    - 24
+  typeof: !ruby/object:Word
+    word: typeof
+    stem: typeof
+    docFrequency: 3.0
+    docPositions:
+    - 24
+    - 25
+  undefined: !ruby/object:Word
+    word: undefined
+    stem: undefin
+    docFrequency: 3.0
+    docPositions:
+    - 24
+    - 25
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 13.0
+    docPositions:
+    - 24
+    - 25
+    - 45
+    - 47
+    - 50
+    - 54
+    - 56
+    - 57
+    - 64
+    - 65
+    - 66
+    - 67
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 6.0
+    docPositions:
+    - 24
+    - 42
+    - 44
+    - 67
+    - 122
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 8.0
+    docPositions:
+    - 24
+    - 45
+    - 50
+    - 54
+    - 56
+  backgroundcolor: !ruby/object:Word
+    word: backgroundcolor
+    stem: backgroundcolor
+    docFrequency: 3.0
+    docPositions:
+    - 25
+    - 66
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 27
+  positiontip: !ruby/object:Word
+    word: positiontip
+    stem: positiontip
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 71
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 9.0
+    docPositions:
+    - 32
+    - 34
+    - 35
+    - 37
+    - 38
+    - 45
+    - 54
+    - 187
+  curx: !ruby/object:Word
+    word: curx
+    stem: curx
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 46
+    - 50
+  pagex: !ruby/object:Word
+    word: pagex
+    stem: pagex
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 7.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+    - 38
+    - 45
+    - 54
+  clientx: !ruby/object:Word
+    word: clientx
+    stem: clientx
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 45
+  scrollleft: !ruby/object:Word
+    word: scrollleft
+    stem: scrollleft
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 45
+  cury: !ruby/object:Word
+    word: cury
+    stem: curi
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 56
+  pagey: !ruby/object:Word
+    word: pagey
+    stem: pagei
+    docFrequency: 2.0
+    docPositions:
+    - 35
+  clienty: !ruby/object:Word
+    word: clienty
+    stem: clienti
+    docFrequency: 6.0
+    docPositions:
+    - 35
+    - 38
+    - 54
+  scrolltop: !ruby/object:Word
+    word: scrolltop
+    stem: scrolltop
+    docFrequency: 3.0
+    docPositions:
+    - 35
+    - 54
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 5.0
+    docPositions:
+    - 36
+    - 157
+    - 178
+    - 206
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 4.0
+    docPositions:
+    - 36
+    - 185
+    - 224
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  mouse: !ruby/object:Word
+    word: mouse
+    stem: mous
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 49
+  corner: !ruby/object:Word
+    word: corner
+    stem: corner
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 8.0
+    docPositions:
+    - 36
+    - 37
+    - 38
+    - 45
+    - 54
+  rightedge: !ruby/object:Word
+    word: rightedge
+    stem: rightedg
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 43
+  opera: !ruby/object:Word
+    word: opera
+    stem: opera
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  clientwidth: !ruby/object:Word
+    word: clientwidth
+    stem: clientwidth
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  innerwidth: !ruby/object:Word
+    word: innerwidth
+    stem: innerwidth
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  bottomedge: !ruby/object:Word
+    word: bottomedge
+    stem: bottomedg
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 53
+  clientheight: !ruby/object:Word
+    word: clientheight
+    stem: clientheight
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  innerheight: !ruby/object:Word
+    word: innerheight
+    stem: innerheight
+    docFrequency: 2.0
+    docPositions:
+    - 38
+  leftedge: !ruby/object:Word
+    word: leftedge
+    stem: leftedg
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 46
+  horizontal: !ruby/object:Word
+    word: horizontal
+    stem: horizont
+    docFrequency: 4.0
+    docPositions:
+    - 42
+    - 44
+    - 49
+  distance: !ruby/object:Word
+    word: distance
+    stem: distanc
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  isn: !ruby/object:Word
+    word: isn
+    stem: isn
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  enough: !ruby/object:Word
+    word: enough
+    stem: enough
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  accomodate: !ruby/object:Word
+    word: accomodate
+    stem: accomod
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  context: !ruby/object:Word
+    word: context
+    stem: context
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 44
+    - 49
+    - 178
+  offsetwidth: !ruby/object:Word
+    word: offsetwidth
+    stem: offsetwidth
+    docFrequency: 4.0
+    docPositions:
+    - 43
+    - 45
+  move: !ruby/object:Word
+    word: move
+    stem: move
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 5.0
+    docPositions:
+    - 44
+    - 49
+    - 52
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 7.0
+    docPositions:
+    - 44
+    - 45
+    - 47
+    - 50
+    - 65
+    - 178
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  pagexoffset: !ruby/object:Word
+    word: pagexoffset
+    stem: pagexoffset
+    docFrequency: 2.0
+    docPositions:
+    - 45
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 4.0
+    docPositions:
+    - 46
+    - 48
+    - 55
+  positioned: !ruby/object:Word
+    word: positioned
+    stem: posit
+    docFrequency: 2.0
+    docPositions:
+    - 49
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 134
+  concept: !ruby/object:Word
+    word: concept
+    stem: concept
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  vertical: !ruby/object:Word
+    word: vertical
+    stem: vertic
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  offsetheight: !ruby/object:Word
+    word: offsetheight
+    stem: offsetheight
+    docFrequency: 4.0
+    docPositions:
+    - 53
+    - 54
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 56
+  pageyoffset: !ruby/object:Word
+    word: pageyoffset
+    stem: pageyoffset
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  visibility: !ruby/object:Word
+    word: visibility
+    stem: visibl
+    docFrequency: 3.0
+    docPositions:
+    - 57
+    - 64
+  visible: !ruby/object:Word
+    word: visible
+    stem: visibl
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  hideddrivetip: !ruby/object:Word
+    word: hideddrivetip
+    stem: hideddrivetip
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  hidden: !ruby/object:Word
+    word: hidden
+    stem: hidden
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  onmousemove: !ruby/object:Word
+    word: onmousemove
+    stem: onmousemov
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 21.0
+    docPositions:
+    - 76
+    - 77
+    - 127
+    - 130
+    - 144
+    - 171
+    - 176
+    - 178
+    - 180
+    - 185
+    - 187
+    - 200
+    - 218
+    - 223
+    - 224
+  conservation: !ruby/object:Word
+    word: conservation
+    stem: conserv
+    docFrequency: 10.0
+    docPositions:
+    - 76
+    - 180
+    - 185
+    - 187
+    - 224
+  society: !ruby/object:Word
+    word: society
+    stem: societi
+    docFrequency: 10.0
+    docPositions:
+    - 77
+    - 180
+    - 185
+    - 187
+    - 224
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 5.0
+    docPositions:
+    - 77
+    - 144
+    - 180
+    - 200
+  heritage: !ruby/object:Word
+    word: heritage
+    stem: heritag
+    docFrequency: 4.0
+    docPositions:
+    - 77
+    - 144
+    - 200
+  project: !ruby/object:Word
+    word: project
+    stem: project
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 180
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 83
+    - 178
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 120
+    - 178
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 185
+    - 224
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  format_time: !ruby/object:Word
+    word: format_time
+    stem: format_tim
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 98
+  mainframes: !ruby/object:Word
+    word: mainframes
+    stem: mainfram
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 99
+  minicomputer: !ruby/object:Word
+    word: minicomputer
+    stem: minicomput
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 4.0
+    docPositions:
+    - 88
+    - 107
+    - 187
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 107
+  minicomputers: !ruby/object:Word
+    word: minicomputers
+    stem: minicomput
+    docFrequency: 4.0
+    docPositions:
+    - 100
+    - 169
+    - 216
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  histories: !ruby/object:Word
+    word: histories
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  photo: !ruby/object:Word
+    word: photo
+    stem: photo
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  gallery: !ruby/object:Word
+    word: gallery
+    stem: galleri
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 122
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 5.0
+    docPositions:
+    - 103
+    - 178
+  bits: !ruby/object:Word
+    word: bits
+    stem: bit
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 178
+  glossary: !ruby/object:Word
+    word: glossary
+    stem: glossari
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 178
+  acknowledgements: !ruby/object:Word
+    word: acknowledgements
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 180
+  ccs: !ruby/object:Word
+    word: ccs
+    stem: cc
+    docFrequency: 3.0
+    docPositions:
+    - 106
+    - 180
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 11.0
+    docPositions:
+    - 106
+    - 144
+    - 178
+    - 185
+    - 200
+    - 224
+  ultimate: !ruby/object:Word
+    word: ultimate
+    stem: ultim
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  fade: !ruby/object:Word
+    word: fade
+    stem: fade
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  slideshow: !ruby/object:Word
+    word: slideshow
+    stem: slideshow
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 121
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 15.0
+    docPositions:
+    - 115
+    - 134
+    - 178
+    - 180
+    - 185
+    - 224
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  mygallery: !ruby/object:Word
+    word: mygallery
+    stem: mygalleri
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  fadeslideshow: !ruby/object:Word
+    word: fadeslideshow
+    stem: fadeslideshow
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  wrapperid: !ruby/object:Word
+    word: wrapperid
+    stem: wrapperid
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  blank: !ruby/object:Word
+    word: blank
+    stem: blank
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  dimensions: !ruby/object:Word
+    word: dimensions
+    stem: dimens
+    docFrequency: 3.0
+    docPositions:
+    - 122
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  pixels: !ruby/object:Word
+    word: pixels
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  reflect: !ruby/object:Word
+    word: reflect
+    stem: reflect
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  largest: !ruby/object:Word
+    word: largest
+    stem: largest
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  imagearray: !ruby/object:Word
+    word: imagearray
+    stem: imagearrai
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  images: !ruby/object:Word
+    word: images
+    stem: imag
+    docFrequency: 9.0
+    docPositions:
+    - 124
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  elliot: !ruby/object:Word
+    word: elliot
+    stem: elliot
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  jpg: !ruby/object:Word
+    word: jpg
+    stem: jpg
+    docFrequency: 8.0
+    docPositions:
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+  early: !ruby/object:Word
+    word: early
+    stem: earli
+    docFrequency: 6.0
+    docPositions:
+    - 125
+    - 157
+    - 178
+    - 206
+  storage: !ruby/object:Word
+    word: storage
+    stem: storag
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  devices: !ruby/object:Word
+    word: devices
+    stem: devic
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  ferranti: !ruby/object:Word
+    word: ferranti
+    stem: ferranti
+    docFrequency: 6.0
+    docPositions:
+    - 126
+    - 163
+    - 172
+    - 210
+    - 219
+  mk: !ruby/object:Word
+    word: mk
+    stem: mk
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  deuce: !ruby/object:Word
+    word: deuce
+    stem: deuc
+    docFrequency: 2.0
+    docPositions:
+    - 127
+  leo: !ruby/object:Word
+    word: leo
+    stem: leo
+    docFrequency: 4.0
+    docPositions:
+    - 128
+    - 164
+    - 211
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  emidec: !ruby/object:Word
+    word: emidec
+    stem: emidec
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  hec: !ruby/object:Word
+    word: hec
+    stem: hec
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  atlas: !ruby/object:Word
+    word: atlas
+    stem: atla
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  equipment: !ruby/object:Word
+    word: equipment
+    stem: equip
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 178
+  chilton: !ruby/object:Word
+    word: chilton
+    stem: chilton
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  displaymode: !ruby/object:Word
+    word: displaymode
+    stem: displaymod
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  pause: !ruby/object:Word
+    word: pause
+    stem: paus
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  cycles: !ruby/object:Word
+    word: cycles
+    stem: cycl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  wraparound: !ruby/object:Word
+    word: wraparound
+    stem: wraparound
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  persist: !ruby/object:Word
+    word: persist
+    stem: persist
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  remember: !ruby/object:Word
+    word: remember
+    stem: rememb
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  viewed: !ruby/object:Word
+    word: viewed
+    stem: view
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  slide: !ruby/object:Word
+    word: slide
+    stem: slide
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  recall: !ruby/object:Word
+    word: recall
+    stem: recal
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  session: !ruby/object:Word
+    word: session
+    stem: session
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  fadeduration: !ruby/object:Word
+    word: fadeduration
+    stem: fadedur
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  transition: !ruby/object:Word
+    word: transition
+    stem: transit
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  duration: !ruby/object:Word
+    word: duration
+    stem: durat
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  milliseconds: !ruby/object:Word
+    word: milliseconds
+    stem: millisecond
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  descreveal: !ruby/object:Word
+    word: descreveal
+    stem: descrev
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  always: !ruby/object:Word
+    word: always
+    stem: alwai
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  togglerid: !ruby/object:Word
+    word: togglerid
+    stem: togglerid
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 200
+  systems: !ruby/object:Word
+    word: systems
+    stem: system
+    docFrequency: 5.0
+    docPositions:
+    - 144
+    - 176
+    - 200
+    - 223
+  covered: !ruby/object:Word
+    word: covered
+    stem: cover
+    docFrequency: 3.0
+    docPositions:
+    - 144
+    - 200
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 206
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 9.0
+    docPositions:
+    - 157
+    - 178
+    - 185
+    - 187
+    - 206
+    - 224
+  ll: !ruby/object:Word
+    word: ll
+    stem: ll
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 206
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 4.0
+    docPositions:
+    - 157
+    - 178
+    - 206
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 9.0
+    docPositions:
+    - 157
+    - 176
+    - 178
+    - 180
+    - 185
+    - 206
+    - 223
+    - 224
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 206
+  groups: !ruby/object:Word
+    word: groups
+    stem: group
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 206
+  british: !ruby/object:Word
+    word: british
+    stem: british
+    docFrequency: 5.0
+    docPositions:
+    - 157
+    - 178
+    - 206
+  designed: !ruby/object:Word
+    word: designed
+    stem: design
+    docFrequency: 3.0
+    docPositions:
+    - 157
+    - 206
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 11.0
+    docPositions:
+    - 157
+    - 161
+    - 164
+    - 170
+    - 178
+    - 206
+    - 208
+    - 211
+    - 217
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 208
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  covers: !ruby/object:Word
+    word: covers
+    stem: cover
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  mainframe: !ruby/object:Word
+    word: mainframe
+    stem: mainfram
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 208
+  manufactured: !ruby/object:Word
+    word: manufactured
+    stem: manufactur
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  six: !ruby/object:Word
+    word: six
+    stem: six
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 208
+  historic: !ruby/object:Word
+    word: historic
+    stem: histor
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 208
+  uk: !ruby/object:Word
+    word: uk
+    stem: uk
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 178
+    - 187
+    - 208
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 3.0
+    docPositions:
+    - 161
+    - 208
+  came: !ruby/object:Word
+    word: came
+    stem: came
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  onto: !ruby/object:Word
+    word: onto
+    stem: onto
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  period: !ruby/object:Word
+    word: period
+    stem: period
+    docFrequency: 5.0
+    docPositions:
+    - 161
+    - 169
+    - 208
+    - 216
+  elliott: !ruby/object:Word
+    word: elliott
+    stem: elliott
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 209
+  brothers: !ruby/object:Word
+    word: brothers
+    stem: brother
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 209
+  london: !ruby/object:Word
+    word: london
+    stem: london
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 209
+  ltd: !ruby/object:Word
+    word: ltd
+    stem: ltd
+    docFrequency: 17.0
+    docPositions:
+    - 162
+    - 163
+    - 164
+    - 166
+    - 170
+    - 171
+    - 172
+    - 174
+    - 209
+    - 210
+    - 211
+    - 213
+    - 217
+    - 218
+    - 219
+    - 221
+  emi: !ruby/object:Word
+    word: emi
+    stem: emi
+    docFrequency: 3.0
+    docPositions:
+    - 165
+    - 212
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 213
+  electric: !ruby/object:Word
+    word: electric
+    stem: electr
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 213
+  btm: !ruby/object:Word
+    word: btm
+    stem: btm
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 214
+  ict: !ruby/object:Word
+    word: ict
+    stem: ict
+    docFrequency: 3.0
+    docPositions:
+    - 167
+    - 214
+  icl: !ruby/object:Word
+    word: icl
+    stem: icl
+    docFrequency: 5.0
+    docPositions:
+    - 167
+    - 175
+    - 214
+    - 222
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 216
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 170
+    - 217
+  technology: !ruby/object:Word
+    word: technology
+    stem: technolog
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 218
+  gec: !ruby/object:Word
+    word: gec
+    stem: gec
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 220
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 221
+  level: !ruby/object:Word
+    word: level
+    stem: level
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 221
+  hardware: !ruby/object:Word
+    word: hardware
+    stem: hardwar
+    docFrequency: 4.0
+    docPositions:
+    - 174
+    - 178
+    - 221
+  detailed: !ruby/object:Word
+    word: detailed
+    stem: detail
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  deliveries: !ruby/object:Word
+    word: deliveries
+    stem: deliveri
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  applications: !ruby/object:Word
+    word: applications
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  software: !ruby/object:Word
+    word: software
+    stem: softwar
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  etc: !ruby/object:Word
+    word: etc
+    stem: etc
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  terminology: !ruby/object:Word
+    word: terminology
+    stem: terminolog
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 6.0
+    docPositions:
+    - 178
+    - 185
+    - 224
+  helpful: !ruby/object:Word
+    word: helpful
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 6.0
+    docPositions:
+    - 178
+    - 185
+    - 224
+  museums: !ruby/object:Word
+    word: museums
+    stem: museum
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 4.0
+    docPositions:
+    - 178
+    - 180
+    - 187
+  displays: !ruby/object:Word
+    word: displays
+    stem: displai
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  items: !ruby/object:Word
+    word: items
+    stem: item
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  featured: !ruby/object:Word
+    word: featured
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 2.0
+    docPositions:
+    - 178
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 6.0
+    docPositions:
+    - 180
+    - 185
+    - 224
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  collected: !ruby/object:Word
+    word: collected
+    stem: collect
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  volunteers: !ruby/object:Word
+    word: volunteers
+    stem: volunt
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  individuals: !ruby/object:Word
+    word: individuals
+    stem: individu
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  organisations: !ruby/object:Word
+    word: organisations
+    stem: organis
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  helped: !ruby/object:Word
+    word: helped
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  history: !ruby/object:Word
+    word: history
+    stem: histori
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  under: !ruby/object:Word
+    word: under
+    stem: under
+    docFrequency: 2.0
+    docPositions:
+    - 180
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 13.0
+    docPositions:
+    - 185
+    - 224
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 9.0
+    docPositions:
+    - 185
+    - 224
+  presentation: !ruby/object:Word
+    word: presentation
+    stem: present
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  owners: !ruby/object:Word
+    word: owners
+    stem: owner
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  enjoy: !ruby/object:Word
+    word: enjoy
+    stem: enjoi
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 8.0
+    docPositions:
+    - 185
+    - 187
+    - 224
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  commercial: !ruby/object:Word
+    word: commercial
+    stem: commerci
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  purposes: !ruby/object:Word
+    word: purposes
+    stem: purpos
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  charge: !ruby/object:Word
+    word: charge
+    stem: charg
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  provided: !ruby/object:Word
+    word: provided
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 5.0
+    docPositions:
+    - 185
+    - 224
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  misleadingly: !ruby/object:Word
+    word: misleadingly
+    stem: misleadingli
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 6.0
+    docPositions:
+    - 185
+    - 187
+    - 224
+  acknowledge: !ruby/object:Word
+    word: acknowledge
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  permission: !ruby/object:Word
+    word: permission
+    stem: permiss
+    docFrequency: 7.0
+    docPositions:
+    - 185
+    - 224
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  extend: !ruby/object:Word
+    word: extend
+    stem: extend
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  identified: !ruby/object:Word
+    word: identified
+    stem: identifi
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  requiring: !ruby/object:Word
+    word: requiring
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  third: !ruby/object:Word
+    word: third
+    stem: third
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  party: !ruby/object:Word
+    word: party
+    stem: parti
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  holder: !ruby/object:Word
+    word: holder
+    stem: holder
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  seek: !ruby/object:Word
+    word: seek
+    stem: seek
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  specific: !ruby/object:Word
+    word: specific
+    stem: specif
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 7.0
+    docPositions:
+    - 185
+    - 224
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  ensure: !ruby/object:Word
+    word: ensure
+    stem: ensur
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  accurate: !ruby/object:Word
+    word: accurate
+    stem: accur
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  inaccuracies: !ruby/object:Word
+    word: inaccuracies
+    stem: inaccuraci
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  omissions: !ruby/object:Word
+    word: omissions
+    stem: omiss
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  can: !ruby/object:Word
+    word: can
+    stem: can
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  take: !ruby/object:Word
+    word: take
+    stem: take
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  responsibility: !ruby/object:Word
+    word: responsibility
+    stem: respons
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  misuse: !ruby/object:Word
+    word: misuse
+    stem: misus
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  cannot: !ruby/object:Word
+    word: cannot
+    stem: cannot
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  liable: !ruby/object:Word
+    word: liable
+    stem: liabl
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  errors: !ruby/object:Word
+    word: errors
+    stem: error
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  loss: !ruby/object:Word
+    word: loss
+    stem: loss
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  arise: !ruby/object:Word
+    word: arise
+    stem: aris
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  encourage: !ruby/object:Word
+    word: encourage
+    stem: encourag
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  hyperlinks: !ruby/object:Word
+    word: hyperlinks
+    stem: hyperlink
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 224
+  queries: !ruby/object:Word
+    word: queries
+    stem: queri
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  computerconservationsociety: !ruby/object:Word
+    word: computerconservationsociety
+    stem: computerconservationsocieti
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  org: !ruby/object:Word
+    word: org
+    stem: org
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  mail: !ruby/object:Word
+    word: mail
+    stem: mail
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  simon: !ruby/object:Word
+    word: simon
+    stem: simon
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  lavington: !ruby/object:Word
+    word: lavington
+    stem: lavington
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  lavis: !ruby/object:Word
+    word: lavis
+    stem: lavi
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  essex: !ruby/object:Word
+    word: essex
+    stem: essex
+    docFrequency: 2.0
+    docPositions:
+    - 187
+  ac: !ruby/object:Word
+    word: ac
+    stem: ac
+    docFrequency: 2.0
+    docPositions:
+    - 187
+lineCount: 228
+wordCount: 1168
+rank: 0.2540983606557377
+title: index_2015.htm
+links:
+- http://www.ourcomputerheritage.org/index.htm
+- http://www.ourcomputerheritage.org/maincomp.htm
+- http://www.ourcomputerheritage.org/minicomp.htm
+- http://www.ourcomputerheritage.org/contact us.pdf
+- http://www.ourcomputerheritage.org/index.htm
+- http://www.ourcomputerheritage.org/maincomp.htm
+- http://www.ourcomputerheritage.org/minicomp.htm
+- http://www.ourcomputerheritage.org/company histories rev.pdf
+- http://www.ourcomputerheritage.org/photos.htm
+- http://www.ourcomputerheritage.org/Where to see bits mod2.pdf
+- http://www.ourcomputerheritage.org/glossary.pdf
+- http://www.ourcomputerheritage.org/New acks mod2.pdf
+- http://www.computerconservationsociety.org/index.htm
+- http://www.ourcomputerheritage.org/Contact us.pdf
+- http://www.entheosweb.com/
+rawText: "\r\n\r\n\r\n\r\n/***********************************************\r\n* Cool
+  DHTML tooltip script- copyright Dynamic Drive DHTML code library (www.dynamicdrive.com)\r\n*
+  This notice MUST stay intact for legal use\r\n* Visit Dynamic Drive at http://www.dynamicdrive.com/
+  for full source code\r\n***********************************************/\r\n\r\nvar
+  offsetxpoint=-60 //Customize x offset of tooltip\r\nvar offsetypoint=20 //Customize
+  y offset of tooltip\r\nvar ie=document.all\r\nvar ns6=document.getElementById &&
+  !document.all\r\nvar enabletip=false\r\nif (ie||ns6)\r\nvar tipobj=document.all?
+  document.all[\"dhtmltooltip\"] : document.getElementById? document.getElementById(\"dhtmltooltip\")
+  : \"\"\r\n\r\nfunction ietruebody(){\r\nreturn (document.compatMode && document.compatMode!=\"BackCompat\")?
+  document.documentElement : document.body\r\n}\r\n\r\nfunction ddrivetip(thetext,
+  thecolor, thewidth){\r\nif (ns6||ie){\r\nif (typeof thewidth!=\"undefined\") tipobj.style.width=thewidth+\"px\"\r\nif
+  (typeof thecolor!=\"undefined\" && thecolor!=\"\") tipobj.style.backgroundColor=thecolor\r\ntipobj.innerHTML=thetext\r\nenabletip=true\r\nreturn
+  false\r\n}\r\n}\r\n\r\nfunction positiontip(e){\r\nif (enabletip){\r\nvar curX=(ns6)?e.pageX
+  : event.clientX+ietruebody().scrollLeft;\r\nvar curY=(ns6)?e.pageY : event.clientY+ietruebody().scrollTop;\r\n//Find
+  out how close the mouse is to the corner of the window\r\nvar rightedge=ie&&!window.opera?
+  ietruebody().clientWidth-event.clientX-offsetxpoint : window.innerWidth-e.clientX-offsetxpoint-20\r\nvar
+  bottomedge=ie&&!window.opera? ietruebody().clientHeight-event.clientY-offsetypoint
+  : window.innerHeight-e.clientY-offsetypoint-20\r\n\r\nvar leftedge=(offsetxpoint<0)?
+  offsetxpoint*(-1) : -1000\r\n\r\n//if the horizontal distance isn't enough to accomodate
+  the width of the context menu\r\nif (rightedge<tipobj.offsetWidth)\r\n//move the
+  horizontal position of the menu to the left by it's width\r\ntipobj.style.left=ie?
+  ietruebody().scrollLeft+event.clientX-tipobj.offsetWidth+\"px\" : window.pageXOffset+e.clientX-tipobj.offsetWidth+\"px\"\r\nelse
+  if (curX<leftedge)\r\ntipobj.style.left=\"5px\"\r\nelse\r\n//position the horizontal
+  position of the menu where the mouse is positioned\r\ntipobj.style.left=curX+offsetxpoint+\"px\"\r\n\r\n//same
+  concept with the vertical position\r\nif (bottomedge<tipobj.offsetHeight)\r\ntipobj.style.top=ie?
+  ietruebody().scrollTop+event.clientY-tipobj.offsetHeight-offsetypoint+\"px\" : window.pageYOffset+e.clientY-tipobj.offsetHeight-offsetypoint+\"px\"\r\nelse\r\ntipobj.style.top=curY+offsetypoint+\"px\"\r\ntipobj.style.visibility=\"visible\"\r\n}\r\n}\r\n\r\nfunction
+  hideddrivetip(){\r\nif (ns6||ie){\r\nenabletip=false\r\ntipobj.style.visibility=\"hidden\"\r\ntipobj.style.left=\"-1000px\"\r\ntipobj.style.backgroundColor=''\r\ntipobj.style.width=''\r\n}\r\n}\r\n\r\ndocument.onmousemove=positiontip\r\n\r\n\r\n
+  \     \r\n          \r\n            Computer ◆ Conservation ◆ \r\n            Society
+  \ -: Our Computer Heritage Project :- \r\n          \r\n            \r\n                  \r\n\t\t\t
+  \       \r\n\t\t\t           d = new Date();\r\n\t\t\t           document.write(format_time(d));\r\n\t\t\t
+  \       //\r\n\t\t         \r\n      \r\n                  Home     |     Mainframes      |      \r\nMinicomputer      |      Contact
+  us\r\n      \r\n\r\n \r\n            \r\n          \r\n      \r\n            \r\n\r\n
+  \                 \r\n                      Home\r\n                      Mainframes\r\n
+  \                     Minicomputers\r\n                      Company Histories\r\n
+  \                     Photo Gallery\r\n                      Where to see bits\r\n
+  \                     Glossary\r\n                      Acknowledgements\r\n                      CCS
+  Web Site\r\n                      Contact us\r\n          \r\n            \r\n                  \r\n\r\n
+  \                 /***********************************************\r\n                  *
+  Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)\r\n
+  \                 * This notice MUST stay intact for legal use\r\n                  *
+  Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more\r\n
+  \                 ***********************************************/\r\n\r\n                  \r\n\r\n
+  \                 var mygallery=new fadeSlideShow({\r\n                  \twrapperid:
+  \"fadeshow1\", //ID of blank DIV on page to house Slideshow\r\n                  \tdimensions:
+  [449, 315], //width/height of gallery in pixels. Should reflect dimensions of largest
+  image\r\n                  \timagearray: [\r\n                  \t\t[\"images/cyc1.png\",
+  \"\", \"\", \"Elliot 803\"],\r\n                  \t\t[\"images/cyc2.jpg\", \"\",
+  \"\", \"Early Storage devices.\"],\r\n                  \t\t[\"images/cyc3.jpg\",
+  \"\", \"\", \"Ferranti Mk 1.\"],\r\n                  \t\t[\"images/cyc4.jpg\",
+  \"\", \"\", \"DEUCE Computer.\"],\r\n                  \t\t[\"images/cyc5.jpg\",
+  \"\", \"\", \"LEO Console.\"],\r\n                  \t\t[\"images/cyc6.jpg\", \"\",
+  \"\", \"EMIDEC 1100.\"],\r\n                  \t\t[\"images/cyc7.jpg\", \"\", \"\",
+  \"HEC One Computer.\"],\r\n                  \t\t[\"images/cyc8.jpg\", \"\", \"\",
+  \"Atlas I/O equipment at Chilton.\"]\r\n                  ],\r\n                  \tdisplaymode:
+  {type:'auto', pause:5000, cycles:0, wraparound:false},\r\n                  \tpersist:
+  false, //remember last viewed slide and recall within same session?\r\n                  \tfadeduration:
+  1000, //transition duration (milliseconds)\r\n                  \tdescreveal: \"always\",\r\n
+  \                 \ttogglerid: \"\"\r\n                  })\r\n\r\n                  \r\n
+  \                       \r\n                        \r\n                        \r\n
+  \                       Some of the systems covered on the Our Computer Heritage
+  Site.\r\n                       \r\n                      \r\n                        \r\n
+  \                             \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n                  \r\nHere
+  you\x92ll find technical information on two groups of early British-designed computers:
+  \r\n\r\n\r\n\r\nThe first group covers Mainframe computers manufactured by six historic
+  UK companies that came onto the market in the period 1950 \x96 1965;\r\nElliott
+  Brothers (London) Ltd.; \r\nFerranti Ltd.; \r\nLeo Computers Ltd.; \r\nEMI.; \r\nEnglish
+  Electric Ltd.; \r\nBTM/ICT/ICL.;\r\n\r\nThe second group covers minicomputers that
+  came onto the market in the period 1965 - 1985, manufactured by: \r\nBusiness Computers
+  Ltd.; \r\nComputer Technology Ltd.; \r\nFerranti Ltd.; \r\nGEC.; \r\nHigh Level
+  Hardware Ltd.; \r\nICL.;\r\nInformation Computer Systems.;\r\n\r\nTo see detailed
+  technical information on the deliveries and applications, hardware and software,
+  etc., for these early British computers, follow the links in the menu on the left.
+  \ If you are new to the computer terminology of the 1940s and 1950s, you may find
+  the Glossary helpful. If you\x92d like to see which UK museums have displays or
+  items of equipment from the early British computers featured on this site, click
+  on Where to see bits.\r\n\r\nThe information on this website has been collected
+  since 2004 by volunteers from the Computer Conservation Society (CCS). The names
+  of individuals and organisations who have helped with our computer history project
+  are given under Acknowledgements. \r\n\r\n\r\n\r\n\r\nLegal Info =  ©\"2012 Computer
+  Conservation Society All Rights Reserved The material and its presentation on this
+  site is the copyright of its owners and the Computer Conservation Society. You are
+  free to enjoy and use any of the material for non-commercial purposes without charge,
+  provided that it is not used misleadingly. Please acknowledge the Computer Conservation
+  Society website as the source of the material. Note that this permission does not
+  extend to any material on this site which is identified as requiring permission
+  from its third party copyright holder. Please seek specific permission to use such
+  material. We try to ensure that the material on this site is accurate, but there
+  may be inaccuracies, omissions or out-of-date information. We can take no responsibility
+  for its misuse, and cannot be held liable for any errors or loss which may arise.
+  We encourage hyperlinks to this website.\r\n\r\nIf you have any queries, please
+  Contact the Computer Conservation Society: www.computerconservationsociety.org/
+  or e-mail comments to Simon Lavington : lavis@essex.ac.uk \r\n\r\n                    \r\n\r\n\r\n\r\n
+  \                 \r\n            \r\n\r\n\r\n       \r\n          \r\n            \r\n
+  \                       Some of the systems covered on the Our Computer Heritage
+  Site.\r\n\r\n\r\n\r\n\r\n\r\nHere you\x92ll find technical information on two groups
+  of early British-designed computers: \r\n\r\nThe first group covers Mainframe computers
+  manufactured by six historic UK companies that came onto the market in the period
+  1950 \x96 1965;\r\nElliott Brothers (London) Ltd.; \r\nFerranti Ltd.; \r\nLeo Computers
+  Ltd.; \r\nEMI.; \r\nEnglish Electric Ltd.; \r\nBTM/ICT/ICL.;\r\n\r\nThe second group
+  covers minicomputers that came onto the market in the period 1965 - 1985, manufactured
+  by: \r\nBusiness Computers Ltd.; \r\nComputer Technology Ltd.; \r\nFerranti Ltd.;
+  \r\nGEC.; \r\nHigh Level Hardware Ltd.; \r\nICL.;\r\nInformation Computer Systems.;\r\nLegal
+  Info =  ©\"2012 Computer Conservation Society All Rights Reserved The material and
+  its presentation on this site is the copyright of its owners and the Computer Conservation
+  Society. You are free to enjoy and use any of the material for non-commercial purposes
+  without charge, provided that it is not used misleadingly. Please acknowledge the
+  Computer Conservation Society website as the source of the material. Note that this
+  permission does not extend to any material on this site which is identified as requiring
+  permission from its third party copyright holder. Please seek specific permission
+  to use such material. We try to ensure that the material on this site is accurate,
+  but there may be inaccuracies, omissions or out-of-date information. We can take
+  no responsibility for its misuse, and cannot be held liable for any errors or loss
+  which may arise. We encourage hyperlinks to this website.\r\n\r\n\r\n\r\n"

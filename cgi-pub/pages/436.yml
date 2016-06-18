@@ -1,0 +1,5313 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 171
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 388
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 413
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 28
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 461
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 19
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 564
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag time invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 602
+    str1: time
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 639
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 187
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 827
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 839
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 18
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1008
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 37
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1012
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 8
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1025
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 30
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag section invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1040
+    str1: section
+    str2: 
+    str3: 
+    int1: 0
+    column: 34
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1069
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 119
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 55
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 66
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 70
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 196
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 200
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 205
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 209
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-ly4rjw"
+    line: 1071
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 216
+address: http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=');\n"
+- |2+
+
+- "\t\n"
+- "\t\tSearch\n"
+- "\t\t\t\n"
+- "\tSign in to comment!Login\n"
+- "\tFox News Home\n"
+- "\t\t\tWatch Live\n"
+- "\t\t\tTrending\n"
+- "\t\t\t\n"
+- "\t\t\t\tVideo\n"
+- "\t\t\t\tWatch Live\n"
+- "\t\t\t\t\tShow Clips\n"
+- "\t\t\t\t\tNews Clips\n"
+- "\t\t\t\t\tFN Radio Live\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tPolitics\n"
+- "\t\t\t\tPolitics Home\n"
+- "\t\t\t\t\tElection 2016\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tU.S.\n"
+- "\t\t\t\tU.S. Home\n"
+- "\t\t\t\t\tCrime\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tEconomy\n"
+- "\t\t\t\t\tImmigration\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tMilitary\n"
+- "\t\t\t\t\tEducation\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tPersonal Freedoms\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOpinion\n"
+- "\t\t\t\tOpinion Home\n"
+- "\t\t\t\t\tTodd Starnes\n"
+- "\t\t\t\t\tJudith Miller\n"
+- "\t\t\t\t\tJuan Williams\n"
+- "\t\t\t\t\tKT McFarland\n"
+- "\t\t\t\t\tDr. Keith Ablow\n"
+- "\t\t\t\t\tKarl Rove\n"
+- "\t\t\t\t\tRic Grenell\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tEntertainment\n"
+- "\t\t\t\t[FOX411] HOME\n"
+- "\t\t\t\t\tCelebrity News\n"
+- "\t\t\t\t\tMovies\n"
+- "\t\t\t\t\tTV\n"
+- "\t\t\t\t\tMusic\n"
+- "\t\t\t\t\tStyle\n"
+- "\t\t\t\t\t[FOX411] Video\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTech\n"
+- "\t\t\t\tTech Home\n"
+- "\t\t\t\t\tGadgets\n"
+- "\t\t\t\t\tGoogle\n"
+- "\t\t\t\t\tSocial\n"
+- "\t\t\t\t\tMilitary Tech\n"
+- "\t\t\t\t\tSmartphones\n"
+- "\t\t\t\t\tVideo Games\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tScience\n"
+- "\t\t\t\tScience Home\n"
+- "\t\t\t\t\tArchaeology\n"
+- "\t\t\t\t\tAir & Space\n"
+- "\t\t\t\t\tPlanet Earth\n"
+- "\t\t\t\t\tWild Nature\n"
+- "\t\t\t\t\tNatural Science\n"
+- "\t\t\t\t\tDinosaurs\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tHealth\n"
+- "\t\t\t\tHealth Home\n"
+- "\t\t\t\t\tMen's Health\n"
+- "\t\t\t\t\tWomen's Health\n"
+- "\t\t\t\t\tChildren's Health\n"
+- "\t\t\t\t\tAlternative Medicine\n"
+- "\t\t\t\t\tDiabetes\n"
+- "\t\t\t\t\tHeart Health\n"
+- "\t\t\t\t\tAllergies\n"
+- "\t\t\t\t\tNutrition & Fitness\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tTravel\n"
+- "\t\t\t\tTravel Home\n"
+- "\t\t\t\t\tSlideshows\n"
+- "\t\t\t\t\tIn 5 Guides\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tLifestyle\n"
+- "\t\t\t\tLifestyle Home\n"
+- "\t\t\t\t\tAuto\n"
+- "\t\t\t\t\tFood & Drink\n"
+- "\t\t\t\t\tReal Estate\n"
+- "\t\t\t\t\tRecipes\n"
+- "\t\t\t\t\tWine with Me\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tWorld\n"
+- "\t\t\t\tWorld Home\n"
+- "\t\t\t\t\tU.N.\n"
+- "\t\t\t\t\tConflicts\n"
+- "\t\t\t\t\tTerrorism\n"
+- "\t\t\t\t\tDisasters\n"
+- "\t\t\t\t\tGlobal Economy\n"
+- "\t\t\t\t\tEnvironment\n"
+- "\t\t\t\t\tReligion\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tRegions\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tSports\n"
+- "\t\t\t\tSports Home\n"
+- "\t\t\t\t\tNFL\n"
+- "\t\t\t\t\tMLB\n"
+- "\t\t\t\t\tNCAA FB\n"
+- "\t\t\t\t\tNascar\n"
+- "\t\t\t\t\tUFC\n"
+- "\t\t\t\t\tSoccer\n"
+- "\t\t\t\t\tNBA\n"
+- "\t\t\t\t\tNHL\n"
+- "\t\t\t\t\tNCAA BK\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tOn Air\n"
+- "\t\t\t\tOn Air Home\n"
+- "\t\t\t\t\tA Healthy You & Carol Alt\n"
+- "\t\t\t\t\tAmerica's News HQ\n"
+- "\t\t\t\t\tAmerica's Newsroom\n"
+- "\t\t\t\t\tCavuto\n"
+- "\t\t\t\t\tFox Files\n"
+- "\t\t\t\t\tFox & Friends First\n"
+- "\t\t\t\t\tFox & Friends\n"
+- "\t\t\t\t\tFox & Friends Weekend\n"
+- "\t\t\t\t\tFox News Sunday\n"
+- "\t\t\t\t\tGeraldo Rivera Reports\n"
+- "\t\t\t\t\tGreta\n"
+- "\t\t\t\t\tHannity\n"
+- "\t\t\t\t\tHappening Now\n"
+- "\t\t\t\t\tJustice with Judge Jeanine\n"
+- "\t\t\t\t\tL&L: The Real West\n"
+- "\t\t\t\t\t#mediabuzz\n"
+- "\t\t\t\t\tOutnumbered\n"
+- "\t\t\t\t\tRed Eye w/ Tom Shillue\n"
+- "\t\t\t\t\tShepard Smith Reporting\n"
+- "\t\t\t\t\tSpecial Report\n"
+- "\t\t\t\t\tSpecials\n"
+- "\t\t\t\t\tSunday Morning Futures with Maria Bartiromo\n"
+- "\t\t\t\t\tThe Cost of Freedom\n"
+- "\t\t\t\t\tThe Five\n"
+- "\t\t\t\t\tThe Greg Gutfeld Show\n"
+- "\t\t\t\t\tThe Journal Editorial Report\n"
+- "\t\t\t\t\tThe Kelly File\n"
+- "\t\t\t\t\tThe O'Reilly Factor\n"
+- "\t\t\t\t\tThe Property Man\n"
+- "\t\t\t\t\tThe Real Story w/ Gretchen Carlson\n"
+- "\t\t\t\t\tWar Stories\n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\tMore from Fox News\n"
+- "\t\t\t\tFox News\n"
+- "\t\t\t\t\tFox Business\n"
+- "\t\t\t\t\tFox News Latino\n"
+- "\t\t\t\t\tFox News Go\n"
+- "\t\t\t\t\tFox News Radio\n"
+- "\t\t\t\t\tFox Nation\n"
+- "\t\t\t\t\tFox News Insider\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- |2+
+
+- |2+
+
+- " \n"
+- "    \n"
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+          Fox News
+- |2
+              Fox Business
+- |2
+              Fox News Latino
+- |2
+              Fox News Go
+- |2
+              Fox News Radio
+- |2
+              Fox Nation
+- |2
+              Fox News Insider
+- "        \n"
+- "            \n"
+- |2
+                  Sign in to comment!
+- "            \n"
+- |2
+              Login
+- "        \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\tMenu\n"
+- "\t\n"
+- "\t\n"
+- "\t\tHome\n"
+- "\t\tFoxNews.com\n"
+- "\t\tPolitics\n"
+- "\t\t\n"
+- "\t\t\tSearch\n"
+- "\t\t\t\t\n"
+- "\t\n"
+- |2+
+
+- "\t\tvar articleInfo = {\n"
+- "\t\t\tvcmId: \"f26fe193-0d34-4c02-ae00-c16688835a49\",\n"
+- "\t\t\turl: \"http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html\",\n"
+- "\t\t\tpubDate:\"2015-12-14\",\n"
+- "\t\t\tmyTopChannelName:\"politics\",\n"
+- "\t\t\tsummary:\"<p>The FBI played a central role in making a botched “payment”
+  meant to help secure Army Sgt. Bowe Bergdahl’s release last year, according to the
+  office of a House Republican now seeking answers on why the bureau was involved
+  at all in the apparent rescue attempt.<\\/p>\",\n"
+- "\t\t\tbaynoteOrOutbrain:\"outbrain\",\n"
+- "\t\t\tcommenting: \"true\",\n"
+- "\t\t\tpartnerInfo: {\"partner\": {\"source\": \"\",\"info\": []}}\n"
+- "\t\t};\n"
+- "\t\tvar disqus_identifier = \"f26fe193-0d34-4c02-ae00-c16688835a49\";\n"
+- "\t\tvar disqus_category_id = \"464441\";\n"
+- "\t\tvar disqus_developer = 1;\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "     \t\n"
+- "    \t\n"
+- "            \n"
+- "        \n"
+- "    \t\n"
+- "                        \n"
+- |2
+                              Politics Home
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Elections 2016
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Executive
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Senate
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              House
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Defense
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Judiciary
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t\t\t\n"
+- "\t\t        \n"
+- "                \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                        \n"
+- |2
+                              Fox News Poll
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "            \n"
+- "                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2
+      Republicans
+- |2+
+
+- |2+
+
+- |
+  Botched ransom? Rep presses for answers on FBI role in 'payment' for Bergdahl
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t    \n"
+- "\t\t    \n"
+- "\t\t        \n"
+- "\t\t            \n"
+- "\t\t        \n"
+- "\t\t    \n"
+- "\t    \n"
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "        By        \t\n"
+- "            \n"
+- "            \t            \t\t\n"
+- "            \t\t Judson Berger\n"
+- "                    \n"
+- "                 \n"
+- "                        \n"
+- "            \n"
+- "        \n"
+- |2+
+
+- |2
+          Published
+- |2
+              December 14, 2015
+- "\t\t\t\t\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\tFoxNews.com\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "        \t\n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "\t    Facebook0\n"
+- "\t\tTwitter0\t \n"
+- "\t\t\n"
+- "\t\t\tlivefyre\n"
+- "\t\t\n"
+- "\t\tEmail\n"
+- "\t\tPrint  \n"
+- "\t  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "                    \n"
+- "                        \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "                \n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\t \n"
+- "\t\t\t\t   \t\t\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t        \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "        \n"
+- "        \n"
+- "        \n"
+- "            \n"
+- |2
+                  The FBI played a central role in making a botched “payment” meant to help secure Army Sgt. Bowe Bergdahl’s release last year, according to the office of a House Republican now seeking answers on why the bureau was involved at all in the apparent rescue attempt.  
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Rep. Duncan Hunter, R-Calif. -- who has long questioned whether a ransom of some kind was offered for Bergdahl’s release -- claimed in a recent letter to the Justice Department inspector general that he has learned “non-DoD organizations, led by the Federal Bureau of Investigation (FBI), undertook the recovery mission.”
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  As part of this effort, Hunter told DOJ IG Michael Horowitz, the FBI even went to the Afghanistan-Pakistan border and “awaited Bergdahl’s arrival following some form of discussion about facilitating a payment.”
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Bergdahl didn’t show – and ultimately was not released until May when he was traded for five Taliban leaders. Hunter’s chief of staff, Joe Kasper, told FoxNews.com the unsuccessful FBI border visit came after this operation paid an Afghan intermediary, who then ran off with the money.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “The FBI was leading the op,” Kasper said. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Hunter now wants the DOJ IG to look into the alleged payment, including the amount and whether it was made in violation of the law. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  A representative with the FBI did not comment on Hunter’s claims when asked by FoxNews.com. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Hunter previously has said such a botched payment was made and initially pointed the finger at Joint Special Operations Command, but has not discussed the extent of the FBI’s alleged role until now. Hunter’s claims were first reported in The Daily Beast. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The letter to Horowitz comes after the House Armed Services Committee released a detailed report saying the Defense Department inspector general could not confirm that any payment was made in an effort to recover Bergdahl, whose desertion case was referred Monday to a general court-martial. All the DOD IG could confirm was that “small payments were made to individuals in return for information” on Bergdahl’s captors, whereabouts and condition. The Pentagon last year also denied that a ransom was paid.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  But Hunter’s letter shifts the focus to the DOJ and FBI.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  It asks the Justice Department inspector general to look at whether a payment was made from within that department, if one was not made by the DOD.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  Hunter, in the letter, called for a “thorough and substantive review” of the FBI’s alleged involvement. He also questioned what authority the FBI had to pursue Bergdahl’s release since he was a uniformed service member and not a civilian.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “We’re going to try to get to the bottom of it,” Kasper said Monday.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  He said a chief concern is that the FBI is not necessarily equipped to recover Americans held captive in hostile areas.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  “They don’t have the assets. They don’t have the resources,” he said.
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2
+                  The U.S. government as a matter of policy does not pay ransom for terror hostages, and Kasper acknowledged the administration will never confirm a “ransom” was paid in this case. But he suggested the government could have offered a payment of some kind – without calling it a ransom. 
+- "                \n"
+- "                \r\n"
+- |2+
+
+- "            \n"
+- |2+
+
+- "            \n"
+- "                \n"
+- "                    \n"
+- "                \n"
+- "                \n"
+- |2+
+
+- |2+
+
+- " \n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- "            \n"
+- "        \n"
+- "    \n"
+- "                        \n"
+- "                        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "                   \t\t\n"
+- "                    \t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- |2+
+
+- "\t                    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- " \n"
+- "\t\n"
+- "        \n"
+- "    \n"
+- "    \n"
+- "    \n"
+- " \n"
+- "\t                 \n"
+- "                \n"
+- "            \n"
+- "                \n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- " \n"
+- |2
+     Advertisement
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "\r\n"
+- |2+
+
+- "                \r\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\t\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "       \t \tTrending in Politics\n"
+- "            \n"
+- "\t\t\t      \t1\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tAgents reportedly blocked by secret US policy from looking at social
+  media of visa applicants\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t2\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t3\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t4\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in
+  daring Syria raid\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t  \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \n"
+- "\t\t\t      \t5\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t\t      \t\t\n"
+- "\t\t\t\t      \t\n"
+- "\t\t\t      \t\n"
+- "\t\t\t      \tWatchdog group calls for probe of Clinton relationship with firm
+  tied to son-in-law\n"
+- "\t\t\t      \t\t\t\t   \n"
+- "\t\t\t      \t\t\t  \n"
+- "\t\t\t  \t\t\t\n"
+- "\t\t\t           \n"
+- |2
+             See all Trends
+- "            \n"
+- " \t      \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "         \n"
+- "     \n"
+- "         \n"
+- "        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"}); } catch(err) {
+  } \n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- "    \n"
+- "    \n"
+- "        \n"
+- " \n"
+- |2
+     Advertisement
+- "\t   \n"
+- "    \n"
+- |2+
+
+- "\r\n"
+- |2+
+
+- "            \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "     \n"
+- "    \n"
+- |2+
+
+- "            \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- "        \n"
+- "    \n"
+- "    \n"
+- "       \t\r\n"
+- |2+
+
+- "    \n"
+- "    \n"
+- |2+
+
+- "   \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t    \n"
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "\t\t\tFox NewsPolitics\n"
+- "\t\t\tPolitics Home\n"
+- "\t\t\t\t\tExecutive\n"
+- "\t\t\t\t\tSenate\n"
+- "\t\t\t\t\tHouse of Representatives\n"
+- "\t\t\t\t\tDefense\n"
+- "\t\t\t\t\tJudiciary\n"
+- "\t\t\t\t\tScandals\n"
+- "\t\t\t\t\tCongress To-Do List\n"
+- "\t\t\t\t\n"
+- "\t\tPresidential Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\tCongressional Approval\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tApprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t\tDisapprove\n"
+- "\t\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tMore details →\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\tFoxNews.com\n"
+- "\t\t\tBack to Top\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t©2015 FOX News Network, LLC. All rights reserved. This material may not be
+  published, broadcast, rewritten, or redistributed. All market data delayed 20 minutes.
+  Privacy - Terms - FAQ\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- |2
+      (function($){
+- |2
+          $.ad.pre();
+- |2
+          if (window.FOX) { FOX.site.bottomInit(); }
+- |2
+      }(jQuery));
+- "    \n"
+- "Sign in to comment!Sign in to comment!By        \t\n"
+- "            \n"
+- "            \t            \t\t\n"
+- "            \t\t Judson Berger\n"
+- "                    \n"
+- "                 \n"
+- "                        \n"
+- "            \n"
+- "\t\t\t\t\t \n"
+- "\t\t\t\tThe FBI played a central role in making a botched “payment” meant to help
+  secure Army Sgt. Bowe Bergdahl’s release last year, according to the office of a
+  House Republican now seeking answers on why the bureau was involved at all in the
+  apparent rescue attempt.  Rep. Duncan Hunter, R-Calif. -- who has long questioned
+  whether a ransom of some kind was offered for Bergdahl’s release -- claimed in a
+  recent letter to the Justice Department inspector general that he has learned “non-DoD
+  organizations, led by the Federal Bureau of Investigation (FBI), undertook the recovery
+  mission.”As part of this effort, Hunter told DOJ IG Michael Horowitz, the FBI even
+  went to the Afghanistan-Pakistan border and “awaited Bergdahl’s arrival following
+  some form of discussion about facilitating a payment.”Bergdahl didn’t show – and
+  ultimately was not released until May when he was traded for five Taliban leaders.
+  Hunter’s chief of staff, Joe Kasper, told FoxNews.com the unsuccessful FBI border
+  visit came after this operation paid an Afghan intermediary, who then ran off with
+  the money.“The FBI was leading the op,” Kasper said. Hunter now wants the DOJ IG
+  to look into the alleged payment, including the amount and whether it was made in
+  violation of the law. A representative with the FBI did not comment on Hunter’s
+  claims when asked by FoxNews.com. Hunter previously has said such a botched payment
+  was made and initially pointed the finger at Joint Special Operations Command, but
+  has not discussed the extent of the FBI’s alleged role until now. Hunter’s claims
+  were first reported in The Daily Beast. The letter to Horowitz comes after the House
+  Armed Services Committee released a detailed report saying the Defense Department
+  inspector general could not confirm that any payment was made in an effort to recover
+  Bergdahl, whose desertion case was referred Monday to a general court-martial. All
+  the DOD IG could confirm was that “small payments were made to individuals in return
+  for information” on Bergdahl’s captors, whereabouts and condition. The Pentagon
+  last year also denied that a ransom was paid.But Hunter’s letter shifts the focus
+  to the DOJ and FBI.It asks the Justice Department inspector general to look at whether
+  a payment was made from within that department, if one was not made by the DOD.Hunter,
+  in the letter, called for a “thorough and substantive review” of the FBI’s alleged
+  involvement. He also questioned what authority the FBI had to pursue Bergdahl’s
+  release since he was a uniformed service member and not a civilian.“We’re going
+  to try to get to the bottom of it,” Kasper said Monday.He said a chief concern is
+  that the FBI is not necessarily equipped to recover Americans held captive in hostile
+  areas.“They don’t have the assets. They don’t have the resources,” he said.The U.S.
+  government as a matter of policy does not pay ransom for terror hostages, and Kasper
+  acknowledged the administration will never confirm a “ransom” was paid in this case.
+  But he suggested the government could have offered a payment of some kind – without
+  calling it a ransom. AdvertisementAdvertisement©2015 FOX News Network, LLC. All
+  rights reserved. This material may not be published, broadcast, rewritten, or redistributed.
+  All market data delayed 20 minutes. Privacy - Terms - FAQ"
+index:
+  mboxcreate: !ruby/object:Word
+    word: mboxcreate
+    stem: mboxcreat
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  foxnews: !ruby/object:Word
+    word: foxnews
+    stem: foxnew
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 222
+    - 231
+    - 375
+    - 446
+    - 461
+    - 798
+    - 822
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  article: !ruby/object:Word
+    word: article
+    stem: articl
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 810
+  fnc: !ruby/object:Word
+    word: fnc
+    stem: fnc
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  politics: !ruby/object:Word
+    word: politics
+    stem: polit
+    docFrequency: 10.0
+    docPositions:
+    - 5
+    - 22
+    - 23
+    - 223
+    - 231
+    - 233
+    - 251
+    - 601
+    - 762
+  subsection: !ruby/object:Word
+    word: subsection
+    stem: subsect
+    docFrequency: 2.0
+    docPositions:
+    - 5
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 3.0
+    docPositions:
+    - 8
+    - 225
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 5.0
+    docPositions:
+    - 10
+    - 206
+    - 813
+  comment: !ruby/object:Word
+    word: comment
+    stem: comment
+    docFrequency: 7.0
+    docPositions:
+    - 10
+    - 206
+    - 461
+    - 813
+    - 822
+  login: !ruby/object:Word
+    word: login
+    stem: login
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 208
+  fox: !ruby/object:Word
+    word: fox
+    stem: fox
+    docFrequency: 28.0
+    docPositions:
+    - 11
+    - 150
+    - 151
+    - 152
+    - 153
+    - 154
+    - 179
+    - 180
+    - 181
+    - 182
+    - 183
+    - 184
+    - 185
+    - 186
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 328
+    - 761
+    - 802
+    - 810
+    - 822
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 20.0
+    docPositions:
+    - 11
+    - 18
+    - 61
+    - 147
+    - 154
+    - 179
+    - 180
+    - 182
+    - 183
+    - 184
+    - 186
+    - 197
+    - 199
+    - 200
+    - 201
+    - 203
+    - 328
+    - 802
+    - 822
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 17.0
+    docPositions:
+    - 11
+    - 23
+    - 35
+    - 49
+    - 60
+    - 70
+    - 81
+    - 92
+    - 104
+    - 110
+    - 119
+    - 132
+    - 145
+    - 221
+    - 251
+    - 762
+  watch: !ruby/object:Word
+    word: watch
+    stem: watch
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 16
+  live: !ruby/object:Word
+    word: live
+    stem: live
+    docFrequency: 4.0
+    docPositions:
+    - 12
+    - 16
+    - 19
+  trending: !ruby/object:Word
+    word: trending
+    stem: trend
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 601
+  video: !ruby/object:Word
+    word: video
+    stem: video
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 66
+    - 76
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 5.0
+    docPositions:
+    - 17
+    - 170
+    - 446
+    - 822
+  clips: !ruby/object:Word
+    word: clips
+    stem: clip
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 18
+  fn: !ruby/object:Word
+    word: fn
+    stem: fn
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  radio: !ruby/object:Word
+    word: radio
+    stem: radio
+    docFrequency: 4.0
+    docPositions:
+    - 19
+    - 184
+    - 201
+  election: !ruby/object:Word
+    word: election
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 24
+  executive: !ruby/object:Word
+    word: executive
+    stem: execut
+    docFrequency: 4.0
+    docPositions:
+    - 25
+    - 273
+    - 763
+  senate: !ruby/object:Word
+    word: senate
+    stem: senat
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 284
+    - 764
+  house: !ruby/object:Word
+    word: house
+    stem: hous
+    docFrequency: 9.0
+    docPositions:
+    - 27
+    - 234
+    - 295
+    - 431
+    - 471
+    - 765
+    - 822
+  representatives: !ruby/object:Word
+    word: representatives
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 765
+  defense: !ruby/object:Word
+    word: defense
+    stem: defens
+    docFrequency: 6.0
+    docPositions:
+    - 28
+    - 306
+    - 471
+    - 766
+    - 822
+  judiciary: !ruby/object:Word
+    word: judiciary
+    stem: judiciari
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 317
+    - 767
+  scandals: !ruby/object:Word
+    word: scandals
+    stem: scandal
+    docFrequency: 4.0
+    docPositions:
+    - 30
+    - 127
+    - 768
+  congress: !ruby/object:Word
+    word: congress
+    stem: congress
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 769
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 769
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 769
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 35
+    - 120
+    - 506
+    - 822
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 34.0
+    docPositions:
+    - 34
+    - 35
+    - 93
+    - 94
+    - 95
+    - 147
+    - 148
+    - 234
+    - 431
+    - 436
+    - 441
+    - 446
+    - 461
+    - 466
+    - 471
+    - 476
+    - 486
+    - 506
+    - 662
+    - 822
+  crime: !ruby/object:Word
+    word: crime
+    stem: crime
+    docFrequency: 2.0
+    docPositions:
+    - 36
+  terrorism: !ruby/object:Word
+    word: terrorism
+    stem: terror
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 122
+  economy: !ruby/object:Word
+    word: economy
+    stem: economi
+    docFrequency: 3.0
+    docPositions:
+    - 38
+    - 124
+  immigration: !ruby/object:Word
+    word: immigration
+    stem: immigr
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  disasters: !ruby/object:Word
+    word: disasters
+    stem: disast
+    docFrequency: 3.0
+    docPositions:
+    - 40
+    - 123
+  military: !ruby/object:Word
+    word: military
+    stem: militari
+    docFrequency: 3.0
+    docPositions:
+    - 41
+    - 74
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 42
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 3.0
+    docPositions:
+    - 43
+    - 125
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  freedoms: !ruby/object:Word
+    word: freedoms
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  regions: !ruby/object:Word
+    word: regions
+    stem: region
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 128
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 49
+  todd: !ruby/object:Word
+    word: todd
+    stem: todd
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  starnes: !ruby/object:Word
+    word: starnes
+    stem: starn
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  judith: !ruby/object:Word
+    word: judith
+    stem: judith
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  miller: !ruby/object:Word
+    word: miller
+    stem: miller
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  juan: !ruby/object:Word
+    word: juan
+    stem: juan
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  williams: !ruby/object:Word
+    word: williams
+    stem: william
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  kt: !ruby/object:Word
+    word: kt
+    stem: kt
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  mcfarland: !ruby/object:Word
+    word: mcfarland
+    stem: mcfarland
+    docFrequency: 2.0
+    docPositions:
+    - 53
+  dr: !ruby/object:Word
+    word: dr
+    stem: dr
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  keith: !ruby/object:Word
+    word: keith
+    stem: keith
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  ablow: !ruby/object:Word
+    word: ablow
+    stem: ablow
+    docFrequency: 2.0
+    docPositions:
+    - 54
+  karl: !ruby/object:Word
+    word: karl
+    stem: karl
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  rove: !ruby/object:Word
+    word: rove
+    stem: rove
+    docFrequency: 2.0
+    docPositions:
+    - 55
+  ric: !ruby/object:Word
+    word: ric
+    stem: ric
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  grenell: !ruby/object:Word
+    word: grenell
+    stem: grenel
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 11.0
+    docPositions:
+    - 60
+    - 66
+    - 161
+    - 451
+    - 491
+    - 501
+    - 802
+    - 808
+    - 809
+    - 811
+  celebrity: !ruby/object:Word
+    word: celebrity
+    stem: celebr
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  movies: !ruby/object:Word
+    word: movies
+    stem: movi
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  tv: !ruby/object:Word
+    word: tv
+    stem: tv
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  music: !ruby/object:Word
+    word: music
+    stem: music
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  tech: !ruby/object:Word
+    word: tech
+    stem: tech
+    docFrequency: 4.0
+    docPositions:
+    - 69
+    - 70
+    - 74
+  gadgets: !ruby/object:Word
+    word: gadgets
+    stem: gadget
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 3.0
+    docPositions:
+    - 73
+    - 611
+  smartphones: !ruby/object:Word
+    word: smartphones
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  slideshows: !ruby/object:Word
+    word: slideshows
+    stem: slideshow
+    docFrequency: 4.0
+    docPositions:
+    - 77
+    - 88
+    - 105
+  science: !ruby/object:Word
+    word: science
+    stem: scienc
+    docFrequency: 4.0
+    docPositions:
+    - 80
+    - 81
+    - 86
+  archaeology: !ruby/object:Word
+    word: archaeology
+    stem: archaeolog
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 4.0
+    docPositions:
+    - 83
+    - 144
+    - 145
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  planet: !ruby/object:Word
+    word: planet
+    stem: planet
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  earth: !ruby/object:Word
+    word: earth
+    stem: earth
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  wild: !ruby/object:Word
+    word: wild
+    stem: wild
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  natural: !ruby/object:Word
+    word: natural
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  dinosaurs: !ruby/object:Word
+    word: dinosaurs
+    stem: dinosaur
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  health: !ruby/object:Word
+    word: health
+    stem: health
+    docFrequency: 7.0
+    docPositions:
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 98
+  men: !ruby/object:Word
+    word: men
+    stem: men
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  women: !ruby/object:Word
+    word: women
+    stem: women
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  alternative: !ruby/object:Word
+    word: alternative
+    stem: altern
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  medicine: !ruby/object:Word
+    word: medicine
+    stem: medicin
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  diabetes: !ruby/object:Word
+    word: diabetes
+    stem: diabet
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  allergies: !ruby/object:Word
+    word: allergies
+    stem: allergi
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  nutrition: !ruby/object:Word
+    word: nutrition
+    stem: nutrit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  fitness: !ruby/object:Word
+    word: fitness
+    stem: fit
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 3.0
+    docPositions:
+    - 103
+    - 104
+  guides: !ruby/object:Word
+    word: guides
+    stem: guid
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  lifestyle: !ruby/object:Word
+    word: lifestyle
+    stem: lifestyl
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 110
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 111
+  food: !ruby/object:Word
+    word: food
+    stem: food
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  drink: !ruby/object:Word
+    word: drink
+    stem: drink
+    docFrequency: 2.0
+    docPositions:
+    - 112
+  real: !ruby/object:Word
+    word: real
+    stem: real
+    docFrequency: 4.0
+    docPositions:
+    - 113
+    - 160
+    - 175
+  estate: !ruby/object:Word
+    word: estate
+    stem: estat
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  recipes: !ruby/object:Word
+    word: recipes
+    stem: recip
+    docFrequency: 2.0
+    docPositions:
+    - 114
+  wine: !ruby/object:Word
+    word: wine
+    stem: wine
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 2.0
+    docPositions:
+    - 115
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 119
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 2.0
+    docPositions:
+    - 120
+  conflicts: !ruby/object:Word
+    word: conflicts
+    stem: conflict
+    docFrequency: 2.0
+    docPositions:
+    - 121
+  global: !ruby/object:Word
+    word: global
+    stem: global
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  religion: !ruby/object:Word
+    word: religion
+    stem: religion
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  sports: !ruby/object:Word
+    word: sports
+    stem: sport
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 132
+  nfl: !ruby/object:Word
+    word: nfl
+    stem: nfl
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  mlb: !ruby/object:Word
+    word: mlb
+    stem: mlb
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  ncaa: !ruby/object:Word
+    word: ncaa
+    stem: ncaa
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 141
+  fb: !ruby/object:Word
+    word: fb
+    stem: fb
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  nascar: !ruby/object:Word
+    word: nascar
+    stem: nascar
+    docFrequency: 2.0
+    docPositions:
+    - 136
+  ufc: !ruby/object:Word
+    word: ufc
+    stem: ufc
+    docFrequency: 2.0
+    docPositions:
+    - 137
+  soccer: !ruby/object:Word
+    word: soccer
+    stem: soccer
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  nba: !ruby/object:Word
+    word: nba
+    stem: nba
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  nhl: !ruby/object:Word
+    word: nhl
+    stem: nhl
+    docFrequency: 2.0
+    docPositions:
+    - 140
+  bk: !ruby/object:Word
+    word: bk
+    stem: bk
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  healthy: !ruby/object:Word
+    word: healthy
+    stem: healthi
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  carol: !ruby/object:Word
+    word: carol
+    stem: carol
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  america: !ruby/object:Word
+    word: america
+    stem: america
+    docFrequency: 3.0
+    docPositions:
+    - 147
+    - 148
+  hq: !ruby/object:Word
+    word: hq
+    stem: hq
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  newsroom: !ruby/object:Word
+    word: newsroom
+    stem: newsroom
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  cavuto: !ruby/object:Word
+    word: cavuto
+    stem: cavuto
+    docFrequency: 2.0
+    docPositions:
+    - 149
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 152
+    - 153
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 4.0
+    docPositions:
+    - 151
+    - 466
+    - 822
+  weekend: !ruby/object:Word
+    word: weekend
+    stem: weekend
+    docFrequency: 2.0
+    docPositions:
+    - 153
+  sunday: !ruby/object:Word
+    word: sunday
+    stem: sundai
+    docFrequency: 3.0
+    docPositions:
+    - 154
+    - 167
+  geraldo: !ruby/object:Word
+    word: geraldo
+    stem: geraldo
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  rivera: !ruby/object:Word
+    word: rivera
+    stem: rivera
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  reports: !ruby/object:Word
+    word: reports
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 155
+  greta: !ruby/object:Word
+    word: greta
+    stem: greta
+    docFrequency: 2.0
+    docPositions:
+    - 156
+  hannity: !ruby/object:Word
+    word: hannity
+    stem: hanniti
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  happening: !ruby/object:Word
+    word: happening
+    stem: happen
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 9.0
+    docPositions:
+    - 158
+    - 234
+    - 431
+    - 456
+    - 466
+    - 822
+  justice: !ruby/object:Word
+    word: justice
+    stem: justic
+    docFrequency: 6.0
+    docPositions:
+    - 159
+    - 436
+    - 481
+    - 822
+  judge: !ruby/object:Word
+    word: judge
+    stem: judg
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  jeanine: !ruby/object:Word
+    word: jeanine
+    stem: jeanin
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  west: !ruby/object:Word
+    word: west
+    stem: west
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  mediabuzz: !ruby/object:Word
+    word: mediabuzz
+    stem: mediabuzz
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  outnumbered: !ruby/object:Word
+    word: outnumbered
+    stem: outnumb
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  red: !ruby/object:Word
+    word: red
+    stem: red
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  eye: !ruby/object:Word
+    word: eye
+    stem: ey
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  w: !ruby/object:Word
+    word: w
+    stem: w
+    docFrequency: 3.0
+    docPositions:
+    - 163
+    - 175
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shillue: !ruby/object:Word
+    word: shillue
+    stem: shillu
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  shepard: !ruby/object:Word
+    word: shepard
+    stem: shepard
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  smith: !ruby/object:Word
+    word: smith
+    stem: smith
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  reporting: !ruby/object:Word
+    word: reporting
+    stem: report
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 4.0
+    docPositions:
+    - 165
+    - 466
+    - 822
+  report: !ruby/object:Word
+    word: report
+    stem: report
+    docFrequency: 5.0
+    docPositions:
+    - 165
+    - 171
+    - 471
+    - 822
+  specials: !ruby/object:Word
+    word: specials
+    stem: special
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  morning: !ruby/object:Word
+    word: morning
+    stem: morn
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  futures: !ruby/object:Word
+    word: futures
+    stem: futur
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  maria: !ruby/object:Word
+    word: maria
+    stem: maria
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  bartiromo: !ruby/object:Word
+    word: bartiromo
+    stem: bartiromo
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  cost: !ruby/object:Word
+    word: cost
+    stem: cost
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  freedom: !ruby/object:Word
+    word: freedom
+    stem: freedom
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 4.0
+    docPositions:
+    - 169
+    - 446
+    - 822
+  greg: !ruby/object:Word
+    word: greg
+    stem: greg
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  gutfeld: !ruby/object:Word
+    word: gutfeld
+    stem: gutfeld
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  editorial: !ruby/object:Word
+    word: editorial
+    stem: editori
+    docFrequency: 2.0
+    docPositions:
+    - 171
+  kelly: !ruby/object:Word
+    word: kelly
+    stem: kelli
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 172
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  reilly: !ruby/object:Word
+    word: reilly
+    stem: reilli
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  factor: !ruby/object:Word
+    word: factor
+    stem: factor
+    docFrequency: 2.0
+    docPositions:
+    - 173
+  property: !ruby/object:Word
+    word: property
+    stem: properti
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  man: !ruby/object:Word
+    word: man
+    stem: man
+    docFrequency: 2.0
+    docPositions:
+    - 174
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  gretchen: !ruby/object:Word
+    word: gretchen
+    stem: gretchen
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  carlson: !ruby/object:Word
+    word: carlson
+    stem: carlson
+    docFrequency: 2.0
+    docPositions:
+    - 175
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  stories: !ruby/object:Word
+    word: stories
+    stem: stori
+    docFrequency: 2.0
+    docPositions:
+    - 176
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 4.0
+    docPositions:
+    - 179
+    - 782
+    - 795
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 3.0
+    docPositions:
+    - 181
+    - 198
+  latino: !ruby/object:Word
+    word: latino
+    stem: latino
+    docFrequency: 3.0
+    docPositions:
+    - 182
+    - 199
+  go: !ruby/object:Word
+    word: go
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 183
+    - 200
+  nation: !ruby/object:Word
+    word: nation
+    stem: nation
+    docFrequency: 3.0
+    docPositions:
+    - 185
+    - 202
+  insider: !ruby/object:Word
+    word: insider
+    stem: insid
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 203
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 218
+  articleinfo: !ruby/object:Word
+    word: articleinfo
+    stem: articleinfo
+    docFrequency: 2.0
+    docPositions:
+    - 229
+  vcmid: !ruby/object:Word
+    word: vcmid
+    stem: vcmid
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  botched: !ruby/object:Word
+    word: botched
+    stem: botch
+    docFrequency: 9.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 466
+    - 628
+    - 822
+  ransom: !ruby/object:Word
+    word: ransom
+    stem: ransom
+    docFrequency: 14.0
+    docPositions:
+    - 231
+    - 343
+    - 436
+    - 471
+    - 506
+    - 628
+    - 822
+  rep: !ruby/object:Word
+    word: rep
+    stem: rep
+    docFrequency: 6.0
+    docPositions:
+    - 231
+    - 343
+    - 436
+    - 628
+    - 822
+  presses: !ruby/object:Word
+    word: presses
+    stem: press
+    docFrequency: 4.0
+    docPositions:
+    - 231
+    - 343
+    - 628
+  answers: !ruby/object:Word
+    word: answers
+    stem: answer
+    docFrequency: 7.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 628
+    - 822
+  fbi: !ruby/object:Word
+    word: fbi
+    stem: fbi
+    docFrequency: 27.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 436
+    - 441
+    - 446
+    - 451
+    - 461
+    - 466
+    - 476
+    - 486
+    - 496
+    - 628
+    - 822
+  role: !ruby/object:Word
+    word: role
+    stem: role
+    docFrequency: 9.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 466
+    - 628
+    - 822
+  payment: !ruby/object:Word
+    word: payment
+    stem: payment
+    docFrequency: 19.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 441
+    - 456
+    - 466
+    - 471
+    - 481
+    - 506
+    - 628
+    - 822
+  bergdahl: !ruby/object:Word
+    word: bergdahl
+    stem: bergdahl
+    docFrequency: 20.0
+    docPositions:
+    - 231
+    - 234
+    - 343
+    - 431
+    - 436
+    - 441
+    - 446
+    - 471
+    - 486
+    - 628
+    - 645
+    - 822
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 2.0
+    docPositions:
+    - 231
+  pubdate: !ruby/object:Word
+    word: pubdate
+    stem: pubdat
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  mytopchannelname: !ruby/object:Word
+    word: mytopchannelname
+    stem: mytopchannelnam
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 3.0
+    docPositions:
+    - 234
+  played: !ruby/object:Word
+    word: played
+    stem: plai
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  central: !ruby/object:Word
+    word: central
+    stem: central
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  making: !ruby/object:Word
+    word: making
+    stem: make
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  meant: !ruby/object:Word
+    word: meant
+    stem: meant
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  secure: !ruby/object:Word
+    word: secure
+    stem: secur
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  army: !ruby/object:Word
+    word: army
+    stem: armi
+    docFrequency: 5.0
+    docPositions:
+    - 234
+    - 431
+    - 662
+    - 822
+  sgt: !ruby/object:Word
+    word: sgt
+    stem: sgt
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  bowe: !ruby/object:Word
+    word: bowe
+    stem: bow
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  release: !ruby/object:Word
+    word: release
+    stem: releas
+    docFrequency: 8.0
+    docPositions:
+    - 234
+    - 431
+    - 436
+    - 486
+    - 822
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 431
+    - 471
+    - 822
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 431
+    - 471
+    - 822
+  according: !ruby/object:Word
+    word: according
+    stem: accord
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  office: !ruby/object:Word
+    word: office
+    stem: offic
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  republican: !ruby/object:Word
+    word: republican
+    stem: republican
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  seeking: !ruby/object:Word
+    word: seeking
+    stem: seek
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  why: !ruby/object:Word
+    word: why
+    stem: why
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  bureau: !ruby/object:Word
+    word: bureau
+    stem: bureau
+    docFrequency: 6.0
+    docPositions:
+    - 234
+    - 431
+    - 436
+    - 822
+  involved: !ruby/object:Word
+    word: involved
+    stem: involv
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 11.0
+    docPositions:
+    - 234
+    - 431
+    - 471
+    - 684
+    - 802
+    - 822
+  apparent: !ruby/object:Word
+    word: apparent
+    stem: appar
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  rescue: !ruby/object:Word
+    word: rescue
+    stem: rescu
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  attempt: !ruby/object:Word
+    word: attempt
+    stem: attempt
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 431
+    - 822
+  baynoteoroutbrain: !ruby/object:Word
+    word: baynoteoroutbrain
+    stem: baynoteoroutbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  outbrain: !ruby/object:Word
+    word: outbrain
+    stem: outbrain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  commenting: !ruby/object:Word
+    word: commenting
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  partnerinfo: !ruby/object:Word
+    word: partnerinfo
+    stem: partnerinfo
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  partner: !ruby/object:Word
+    word: partner
+    stem: partner
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 239
+  disqus_category_id: !ruby/object:Word
+    word: disqus_category_id
+    stem: disqus_category_id
+    docFrequency: 2.0
+    docPositions:
+    - 240
+  disqus_developer: !ruby/object:Word
+    word: disqus_developer
+    stem: disqus_develop
+    docFrequency: 2.0
+    docPositions:
+    - 241
+  elections: !ruby/object:Word
+    word: elections
+    stem: elect
+    docFrequency: 2.0
+    docPositions:
+    - 262
+  poll: !ruby/object:Word
+    word: poll
+    stem: poll
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  republicans: !ruby/object:Word
+    word: republicans
+    stem: republican
+    docFrequency: 2.0
+    docPositions:
+    - 340
+  judson: !ruby/object:Word
+    word: judson
+    stem: judson
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 816
+  berger: !ruby/object:Word
+    word: berger
+    stem: berger
+    docFrequency: 3.0
+    docPositions:
+    - 364
+    - 816
+  published: !ruby/object:Word
+    word: published
+    stem: publish
+    docFrequency: 4.0
+    docPositions:
+    - 371
+    - 802
+    - 822
+  december: !ruby/object:Word
+    word: december
+    stem: decemb
+    docFrequency: 2.0
+    docPositions:
+    - 372
+  livefyre: !ruby/object:Word
+    word: livefyre
+    stem: livefyr
+    docFrequency: 2.0
+    docPositions:
+    - 389
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 391
+  print: !ruby/object:Word
+    word: print
+    stem: print
+    docFrequency: 2.0
+    docPositions:
+    - 392
+  duncan: !ruby/object:Word
+    word: duncan
+    stem: duncan
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  hunter: !ruby/object:Word
+    word: hunter
+    stem: hunter
+    docFrequency: 19.0
+    docPositions:
+    - 436
+    - 441
+    - 446
+    - 456
+    - 461
+    - 466
+    - 476
+    - 486
+    - 822
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  calif: !ruby/object:Word
+    word: calif
+    stem: calif
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 9.0
+    docPositions:
+    - 436
+    - 466
+    - 822
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  questioned: !ruby/object:Word
+    word: questioned
+    stem: question
+    docFrequency: 5.0
+    docPositions:
+    - 436
+    - 486
+    - 822
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 456
+    - 481
+    - 822
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 441
+    - 506
+    - 822
+  kind: !ruby/object:Word
+    word: kind
+    stem: kind
+    docFrequency: 5.0
+    docPositions:
+    - 436
+    - 506
+    - 822
+  offered: !ruby/object:Word
+    word: offered
+    stem: offer
+    docFrequency: 5.0
+    docPositions:
+    - 436
+    - 506
+    - 822
+  claimed: !ruby/object:Word
+    word: claimed
+    stem: claim
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  recent: !ruby/object:Word
+    word: recent
+    stem: recent
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  letter: !ruby/object:Word
+    word: letter
+    stem: letter
+    docFrequency: 9.0
+    docPositions:
+    - 436
+    - 471
+    - 476
+    - 486
+    - 822
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 9.0
+    docPositions:
+    - 436
+    - 471
+    - 481
+    - 822
+  inspector: !ruby/object:Word
+    word: inspector
+    stem: inspector
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 471
+    - 481
+    - 822
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 9.0
+    docPositions:
+    - 436
+    - 471
+    - 481
+    - 822
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 15.0
+    docPositions:
+    - 436
+    - 446
+    - 486
+    - 496
+    - 501
+    - 506
+    - 822
+  learned: !ruby/object:Word
+    word: learned
+    stem: learn
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  dod: !ruby/object:Word
+    word: dod
+    stem: dod
+    docFrequency: 7.0
+    docPositions:
+    - 436
+    - 471
+    - 481
+    - 822
+  organizations: !ruby/object:Word
+    word: organizations
+    stem: organ
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  led: !ruby/object:Word
+    word: led
+    stem: led
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  federal: !ruby/object:Word
+    word: federal
+    stem: feder
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  investigation: !ruby/object:Word
+    word: investigation
+    stem: investig
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  undertook: !ruby/object:Word
+    word: undertook
+    stem: undertook
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  recovery: !ruby/object:Word
+    word: recovery
+    stem: recoveri
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  mission: !ruby/object:Word
+    word: mission
+    stem: mission
+    docFrequency: 3.0
+    docPositions:
+    - 436
+    - 822
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 5.0
+    docPositions:
+    - 441
+    - 471
+    - 822
+  told: !ruby/object:Word
+    word: told
+    stem: told
+    docFrequency: 5.0
+    docPositions:
+    - 441
+    - 446
+    - 822
+  doj: !ruby/object:Word
+    word: doj
+    stem: doj
+    docFrequency: 7.0
+    docPositions:
+    - 441
+    - 456
+    - 476
+    - 822
+  ig: !ruby/object:Word
+    word: ig
+    stem: ig
+    docFrequency: 7.0
+    docPositions:
+    - 441
+    - 456
+    - 471
+    - 822
+  michael: !ruby/object:Word
+    word: michael
+    stem: michael
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  horowitz: !ruby/object:Word
+    word: horowitz
+    stem: horowitz
+    docFrequency: 5.0
+    docPositions:
+    - 441
+    - 471
+    - 822
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  went: !ruby/object:Word
+    word: went
+    stem: went
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  afghanistan: !ruby/object:Word
+    word: afghanistan
+    stem: afghanistan
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  pakistan: !ruby/object:Word
+    word: pakistan
+    stem: pakistan
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 5.0
+    docPositions:
+    - 441
+    - 446
+    - 822
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 19.0
+    docPositions:
+    - 441
+    - 446
+    - 456
+    - 466
+    - 471
+    - 476
+    - 486
+    - 506
+    - 822
+  awaited: !ruby/object:Word
+    word: awaited
+    stem: await
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  arrival: !ruby/object:Word
+    word: arrival
+    stem: arriv
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  discussion: !ruby/object:Word
+    word: discussion
+    stem: discuss
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  facilitating: !ruby/object:Word
+    word: facilitating
+    stem: facilit
+    docFrequency: 3.0
+    docPositions:
+    - 441
+    - 822
+  didn: !ruby/object:Word
+    word: didn
+    stem: didn
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 7.0
+    docPositions:
+    - 446
+    - 501
+    - 822
+  ultimately: !ruby/object:Word
+    word: ultimately
+    stem: ultim
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 19.0
+    docPositions:
+    - 446
+    - 461
+    - 466
+    - 471
+    - 481
+    - 486
+    - 496
+    - 506
+    - 802
+    - 822
+  released: !ruby/object:Word
+    word: released
+    stem: releas
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 471
+    - 822
+  until: !ruby/object:Word
+    word: until
+    stem: until
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 466
+    - 822
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 802
+    - 822
+  traded: !ruby/object:Word
+    word: traded
+    stem: trade
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  taliban: !ruby/object:Word
+    word: taliban
+    stem: taliban
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  leaders: !ruby/object:Word
+    word: leaders
+    stem: leader
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  chief: !ruby/object:Word
+    word: chief
+    stem: chief
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 496
+    - 822
+  staff: !ruby/object:Word
+    word: staff
+    stem: staff
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  joe: !ruby/object:Word
+    word: joe
+    stem: joe
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  kasper: !ruby/object:Word
+    word: kasper
+    stem: kasper
+    docFrequency: 9.0
+    docPositions:
+    - 446
+    - 451
+    - 491
+    - 506
+    - 822
+  unsuccessful: !ruby/object:Word
+    word: unsuccessful
+    stem: unsuccess
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  visit: !ruby/object:Word
+    word: visit
+    stem: visit
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  came: !ruby/object:Word
+    word: came
+    stem: came
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 5.0
+    docPositions:
+    - 446
+    - 471
+    - 822
+  operation: !ruby/object:Word
+    word: operation
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  paid: !ruby/object:Word
+    word: paid
+    stem: paid
+    docFrequency: 7.0
+    docPositions:
+    - 446
+    - 471
+    - 506
+    - 822
+  afghan: !ruby/object:Word
+    word: afghan
+    stem: afghan
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  intermediary: !ruby/object:Word
+    word: intermediary
+    stem: intermediari
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  ran: !ruby/object:Word
+    word: ran
+    stem: ran
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  money: !ruby/object:Word
+    word: money
+    stem: monei
+    docFrequency: 3.0
+    docPositions:
+    - 446
+    - 822
+  leading: !ruby/object:Word
+    word: leading
+    stem: lead
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 822
+  op: !ruby/object:Word
+    word: op
+    stem: op
+    docFrequency: 3.0
+    docPositions:
+    - 451
+    - 822
+  said: !ruby/object:Word
+    word: said
+    stem: said
+    docFrequency: 11.0
+    docPositions:
+    - 451
+    - 466
+    - 491
+    - 496
+    - 501
+    - 822
+  wants: !ruby/object:Word
+    word: wants
+    stem: want
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 822
+  look: !ruby/object:Word
+    word: look
+    stem: look
+    docFrequency: 5.0
+    docPositions:
+    - 456
+    - 481
+    - 822
+  into: !ruby/object:Word
+    word: into
+    stem: into
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 822
+  alleged: !ruby/object:Word
+    word: alleged
+    stem: alleg
+    docFrequency: 7.0
+    docPositions:
+    - 456
+    - 466
+    - 486
+    - 822
+  including: !ruby/object:Word
+    word: including
+    stem: includ
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 822
+  amount: !ruby/object:Word
+    word: amount
+    stem: amount
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 822
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 13.0
+    docPositions:
+    - 456
+    - 466
+    - 471
+    - 481
+    - 822
+  violation: !ruby/object:Word
+    word: violation
+    stem: violat
+    docFrequency: 3.0
+    docPositions:
+    - 456
+    - 822
+  law: !ruby/object:Word
+    word: law
+    stem: law
+    docFrequency: 4.0
+    docPositions:
+    - 456
+    - 679
+    - 822
+  representative: !ruby/object:Word
+    word: representative
+    stem: repres
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 822
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 822
+  claims: !ruby/object:Word
+    word: claims
+    stem: claim
+    docFrequency: 5.0
+    docPositions:
+    - 461
+    - 466
+    - 822
+  asked: !ruby/object:Word
+    word: asked
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 461
+    - 822
+  previously: !ruby/object:Word
+    word: previously
+    stem: previous
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  initially: !ruby/object:Word
+    word: initially
+    stem: initi
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  pointed: !ruby/object:Word
+    word: pointed
+    stem: point
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  finger: !ruby/object:Word
+    word: finger
+    stem: finger
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  joint: !ruby/object:Word
+    word: joint
+    stem: joint
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  operations: !ruby/object:Word
+    word: operations
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  command: !ruby/object:Word
+    word: command
+    stem: command
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 7.0
+    docPositions:
+    - 466
+    - 476
+    - 506
+    - 822
+  discussed: !ruby/object:Word
+    word: discussed
+    stem: discuss
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  extent: !ruby/object:Word
+    word: extent
+    stem: extent
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 5.0
+    docPositions:
+    - 466
+    - 471
+    - 822
+  reported: !ruby/object:Word
+    word: reported
+    stem: report
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  daily: !ruby/object:Word
+    word: daily
+    stem: daili
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  beast: !ruby/object:Word
+    word: beast
+    stem: beast
+    docFrequency: 3.0
+    docPositions:
+    - 466
+    - 822
+  comes: !ruby/object:Word
+    word: comes
+    stem: come
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  armed: !ruby/object:Word
+    word: armed
+    stem: arm
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  committee: !ruby/object:Word
+    word: committee
+    stem: committe
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  detailed: !ruby/object:Word
+    word: detailed
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  saying: !ruby/object:Word
+    word: saying
+    stem: sai
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 7.0
+    docPositions:
+    - 471
+    - 506
+    - 822
+  confirm: !ruby/object:Word
+    word: confirm
+    stem: confirm
+    docFrequency: 7.0
+    docPositions:
+    - 471
+    - 506
+    - 822
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  recover: !ruby/object:Word
+    word: recover
+    stem: recov
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 496
+    - 822
+  whose: !ruby/object:Word
+    word: whose
+    stem: whose
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  desertion: !ruby/object:Word
+    word: desertion
+    stem: desert
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  case: !ruby/object:Word
+    word: case
+    stem: case
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 506
+    - 822
+  referred: !ruby/object:Word
+    word: referred
+    stem: refer
+    docFrequency: 4.0
+    docPositions:
+    - 471
+    - 645
+    - 822
+  monday: !ruby/object:Word
+    word: monday
+    stem: mondai
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 491
+    - 822
+  court: !ruby/object:Word
+    word: court
+    stem: court
+    docFrequency: 4.0
+    docPositions:
+    - 471
+    - 645
+    - 822
+  martial: !ruby/object:Word
+    word: martial
+    stem: martial
+    docFrequency: 4.0
+    docPositions:
+    - 471
+    - 645
+    - 822
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  payments: !ruby/object:Word
+    word: payments
+    stem: payment
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  individuals: !ruby/object:Word
+    word: individuals
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  captors: !ruby/object:Word
+    word: captors
+    stem: captor
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  whereabouts: !ruby/object:Word
+    word: whereabouts
+    stem: whereabout
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  condition: !ruby/object:Word
+    word: condition
+    stem: condit
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  pentagon: !ruby/object:Word
+    word: pentagon
+    stem: pentagon
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 5.0
+    docPositions:
+    - 471
+    - 486
+    - 822
+  denied: !ruby/object:Word
+    word: denied
+    stem: deni
+    docFrequency: 3.0
+    docPositions:
+    - 471
+    - 822
+  shifts: !ruby/object:Word
+    word: shifts
+    stem: shift
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 822
+  focus: !ruby/object:Word
+    word: focus
+    stem: focu
+    docFrequency: 3.0
+    docPositions:
+    - 476
+    - 822
+  asks: !ruby/object:Word
+    word: asks
+    stem: ask
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 822
+  within: !ruby/object:Word
+    word: within
+    stem: within
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 822
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 4.0
+    docPositions:
+    - 481
+    - 810
+    - 822
+  one: !ruby/object:Word
+    word: one
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 481
+    - 822
+  called: !ruby/object:Word
+    word: called
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  thorough: !ruby/object:Word
+    word: thorough
+    stem: thorough
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  substantive: !ruby/object:Word
+    word: substantive
+    stem: substant
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  review: !ruby/object:Word
+    word: review
+    stem: review
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  involvement: !ruby/object:Word
+    word: involvement
+    stem: involv
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  authority: !ruby/object:Word
+    word: authority
+    stem: author
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  had: !ruby/object:Word
+    word: had
+    stem: had
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  pursue: !ruby/object:Word
+    word: pursue
+    stem: pursu
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  since: !ruby/object:Word
+    word: since
+    stem: sinc
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  uniformed: !ruby/object:Word
+    word: uniformed
+    stem: uniform
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  service: !ruby/object:Word
+    word: service
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  member: !ruby/object:Word
+    word: member
+    stem: member
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  civilian: !ruby/object:Word
+    word: civilian
+    stem: civilian
+    docFrequency: 3.0
+    docPositions:
+    - 486
+    - 822
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 822
+  re: !ruby/object:Word
+    word: re
+    stem: re
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 822
+  going: !ruby/object:Word
+    word: going
+    stem: go
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 822
+  try: !ruby/object:Word
+    word: try
+    stem: try
+    docFrequency: 4.0
+    docPositions:
+    - 491
+    - 696
+    - 822
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 822
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 3.0
+    docPositions:
+    - 491
+    - 822
+  concern: !ruby/object:Word
+    word: concern
+    stem: concern
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  necessarily: !ruby/object:Word
+    word: necessarily
+    stem: necessarili
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  equipped: !ruby/object:Word
+    word: equipped
+    stem: equip
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  americans: !ruby/object:Word
+    word: americans
+    stem: american
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  captive: !ruby/object:Word
+    word: captive
+    stem: captiv
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  hostile: !ruby/object:Word
+    word: hostile
+    stem: hostil
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  areas: !ruby/object:Word
+    word: areas
+    stem: area
+    docFrequency: 3.0
+    docPositions:
+    - 496
+    - 822
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 5.0
+    docPositions:
+    - 501
+    - 822
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 5.0
+    docPositions:
+    - 501
+    - 822
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 7.0
+    docPositions:
+    - 501
+    - 506
+    - 822
+  assets: !ruby/object:Word
+    word: assets
+    stem: asset
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 822
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 3.0
+    docPositions:
+    - 501
+    - 822
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 5.0
+    docPositions:
+    - 506
+    - 822
+  matter: !ruby/object:Word
+    word: matter
+    stem: matter
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 4.0
+    docPositions:
+    - 506
+    - 611
+    - 822
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  pay: !ruby/object:Word
+    word: pay
+    stem: pai
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  terror: !ruby/object:Word
+    word: terror
+    stem: terror
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  hostages: !ruby/object:Word
+    word: hostages
+    stem: hostag
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  acknowledged: !ruby/object:Word
+    word: acknowledged
+    stem: acknowledg
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  administration: !ruby/object:Word
+    word: administration
+    stem: administr
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  never: !ruby/object:Word
+    word: never
+    stem: never
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  suggested: !ruby/object:Word
+    word: suggested
+    stem: suggest
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  calling: !ruby/object:Word
+    word: calling
+    stem: call
+    docFrequency: 3.0
+    docPositions:
+    - 506
+    - 822
+  advertisement: !ruby/object:Word
+    word: advertisement
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 574
+    - 707
+  agents: !ruby/object:Word
+    word: agents
+    stem: agent
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  reportedly: !ruby/object:Word
+    word: reportedly
+    stem: reportedli
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  blocked: !ruby/object:Word
+    word: blocked
+    stem: block
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  secret: !ruby/object:Word
+    word: secret
+    stem: secret
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  looking: !ruby/object:Word
+    word: looking
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  visa: !ruby/object:Word
+    word: visa
+    stem: visa
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  applicants: !ruby/object:Word
+    word: applicants
+    stem: applic
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  charges: !ruby/object:Word
+    word: charges
+    stem: charg
+    docFrequency: 2.0
+    docPositions:
+    - 645
+  against: !ruby/object:Word
+    word: against
+    stem: against
+    docFrequency: 2.0
+    docPositions:
+    - 645
+  trial: !ruby/object:Word
+    word: trial
+    stem: trial
+    docFrequency: 2.0
+    docPositions:
+    - 645
+  elite: !ruby/object:Word
+    word: elite
+    stem: elit
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  delta: !ruby/object:Word
+    word: delta
+    stem: delta
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  force: !ruby/object:Word
+    word: force
+    stem: forc
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  kills: !ruby/object:Word
+    word: kills
+    stem: kill
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 662
+    - 799
+  isis: !ruby/object:Word
+    word: isis
+    stem: isi
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  official: !ruby/object:Word
+    word: official
+    stem: offici
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  abu: !ruby/object:Word
+    word: abu
+    stem: abu
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  sayyaf: !ruby/object:Word
+    word: sayyaf
+    stem: sayyaf
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  daring: !ruby/object:Word
+    word: daring
+    stem: dare
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  syria: !ruby/object:Word
+    word: syria
+    stem: syria
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  raid: !ruby/object:Word
+    word: raid
+    stem: raid
+    docFrequency: 2.0
+    docPositions:
+    - 662
+  watchdog: !ruby/object:Word
+    word: watchdog
+    stem: watchdog
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  calls: !ruby/object:Word
+    word: calls
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  probe: !ruby/object:Word
+    word: probe
+    stem: probe
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  clinton: !ruby/object:Word
+    word: clinton
+    stem: clinton
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  relationship: !ruby/object:Word
+    word: relationship
+    stem: relationship
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  firm: !ruby/object:Word
+    word: firm
+    stem: firm
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  tied: !ruby/object:Word
+    word: tied
+    stem: ti
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  son: !ruby/object:Word
+    word: son
+    stem: son
+    docFrequency: 2.0
+    docPositions:
+    - 679
+  see: !ruby/object:Word
+    word: see
+    stem: see
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  trends: !ruby/object:Word
+    word: trends
+    stem: trend
+    docFrequency: 2.0
+    docPositions:
+    - 684
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 3.0
+    docPositions:
+    - 696
+    - 809
+  goog: !ruby/object:Word
+    word: goog
+    stem: goog
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  adsense: !ruby/object:Word
+    word: adsense
+    stem: adsens
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  qid: !ruby/object:Word
+    word: qid
+    stem: qid
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  catch: !ruby/object:Word
+    word: catch
+    stem: catch
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  err: !ruby/object:Word
+    word: err
+    stem: err
+    docFrequency: 2.0
+    docPositions:
+    - 696
+  newspolitics: !ruby/object:Word
+    word: newspolitics
+    stem: newspolit
+    docFrequency: 2.0
+    docPositions:
+    - 761
+  presidential: !ruby/object:Word
+    word: presidential
+    stem: presidenti
+    docFrequency: 2.0
+    docPositions:
+    - 771
+  approval: !ruby/object:Word
+    word: approval
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 771
+    - 784
+  approve: !ruby/object:Word
+    word: approve
+    stem: approv
+    docFrequency: 3.0
+    docPositions:
+    - 775
+    - 788
+  disapprove: !ruby/object:Word
+    word: disapprove
+    stem: disapprov
+    docFrequency: 3.0
+    docPositions:
+    - 779
+    - 792
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 3.0
+    docPositions:
+    - 782
+    - 795
+  congressional: !ruby/object:Word
+    word: congressional
+    stem: congression
+    docFrequency: 2.0
+    docPositions:
+    - 784
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 2.0
+    docPositions:
+    - 799
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  llc: !ruby/object:Word
+    word: llc
+    stem: llc
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  material: !ruby/object:Word
+    word: material
+    stem: materi
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  broadcast: !ruby/object:Word
+    word: broadcast
+    stem: broadcast
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  rewritten: !ruby/object:Word
+    word: rewritten
+    stem: rewritten
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  redistributed: !ruby/object:Word
+    word: redistributed
+    stem: redistribut
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  market: !ruby/object:Word
+    word: market
+    stem: market
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  delayed: !ruby/object:Word
+    word: delayed
+    stem: delai
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  minutes: !ruby/object:Word
+    word: minutes
+    stem: minut
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  terms: !ruby/object:Word
+    word: terms
+    stem: term
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 802
+    - 822
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 2.0
+    docPositions:
+    - 808
+  pre: !ruby/object:Word
+    word: pre
+    stem: pre
+    docFrequency: 2.0
+    docPositions:
+    - 809
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  bottominit: !ruby/object:Word
+    word: bottominit
+    stem: bottominit
+    docFrequency: 2.0
+    docPositions:
+    - 810
+  advertisementadvertisement: !ruby/object:Word
+    word: advertisementadvertisement
+    stem: advertisementadvertis
+    docFrequency: 2.0
+    docPositions:
+    - 822
+lineCount: 823
+wordCount: 1765
+rank: 0.25
+title: Botched ransom? Rep presses for answers on FBI role in 'payment' for Bergdahl
+  | Fox News
+links:
+- http://watch.foxnews.com?intcmp=subnav
+- http://www.foxnews.com/politics/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/elections/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/executive-branch/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/senate/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/house/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/defense/index.html?intcmp=subnav
+- http://www.foxnews.com/politics/judiciary/index.html?intcmp=subnav
+- http://www.foxnews.com/official-polls/index.html?intcmp=subnav
+- http://www.foxnews.com/archive/judson-berger
+- http://www.foxnews.com/archive/judson-berger
+- http://www.foxnews.com/
+- http://video.foxnews.com/v/4661008534001/sgt-bowe-bergdahl-charged-with-desertion
+- http://www.militarytimes.com/story/military/pentagon/2014/11/06/hunter-jsoc-led-botched-ransom-attempt-for-bergdahl/18623711/
+- 'http://www.thedailybeast.com/articles/2015/12/13/inside-the-botched-rescue-of-bowe-bergdahl.html '
+- 'http://armedservices.house.gov/index.cfm?a=Files.Serve&File_id=A94B3614-F4C4-45B0-B9B8-F9FE62857969 '
+- http://www.foxnews.com/politics/2015/12/14/agents-reportedly-blocked-by-secret-us-policy-from-looking-at-social-media-visa-applicants.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/charges-against-bergdahl-referred-to-trial-by-court-martial.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/05/16/us-conducts-raid-on-isis-in-syria-kills-top-official.html?intcmp=trending
+- http://www.foxnews.com/politics/2015/12/14/watchdog-group-reportedly-calls-for-probe-clinton-relationship-with-firm-tied-to-son-in-law.html?intcmp=trending
+- http://www.foxnews.com/trending/
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/official-polls/index.html
+- http://www.foxnews.com/
+rawText: "\n\t\n\n\n\n\tmboxCreate('FoxNews-Standard','pagetype=article', 'site=fnc','section=politics',
+  'subsection=');\n\n\t\n\t\tSearch\n\t\t\t\n\tSign in to comment!Login\n\tFox News
+  Home\n\t\t\tWatch Live\n\t\t\tTrending\n\t\t\t\n\t\t\t\tVideo\n\t\t\t\tWatch Live\n\t\t\t\t\tShow
+  Clips\n\t\t\t\t\tNews Clips\n\t\t\t\t\tFN Radio Live\n\t\t\t\t\n\t\t\t\n\t\t\t\tPolitics\n\t\t\t\tPolitics
+  Home\n\t\t\t\t\tElection 2016\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\t\t\n\t\t\t\tU.S.\n\t\t\t\tU.S. Home\n\t\t\t\t\tCrime\n\t\t\t\t\tTerrorism\n\t\t\t\t\tEconomy\n\t\t\t\t\tImmigration\n\t\t\t\t\tDisasters\n\t\t\t\t\tMilitary\n\t\t\t\t\tEducation\n\t\t\t\t\tEnvironment\n\t\t\t\t\tPersonal
+  Freedoms\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tOpinion\n\t\t\t\tOpinion
+  Home\n\t\t\t\t\tTodd Starnes\n\t\t\t\t\tJudith Miller\n\t\t\t\t\tJuan Williams\n\t\t\t\t\tKT
+  McFarland\n\t\t\t\t\tDr. Keith Ablow\n\t\t\t\t\tKarl Rove\n\t\t\t\t\tRic Grenell\n\t\t\t\t\n\t\t\t\n\t\t\t\tEntertainment\n\t\t\t\t[FOX411]
+  HOME\n\t\t\t\t\tCelebrity News\n\t\t\t\t\tMovies\n\t\t\t\t\tTV\n\t\t\t\t\tMusic\n\t\t\t\t\tStyle\n\t\t\t\t\t[FOX411]
+  Video\n\t\t\t\t\n\t\t\t\n\t\t\t\tTech\n\t\t\t\tTech Home\n\t\t\t\t\tGadgets\n\t\t\t\t\tGoogle\n\t\t\t\t\tSocial\n\t\t\t\t\tMilitary
+  Tech\n\t\t\t\t\tSmartphones\n\t\t\t\t\tVideo Games\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tScience\n\t\t\t\tScience
+  Home\n\t\t\t\t\tArchaeology\n\t\t\t\t\tAir & Space\n\t\t\t\t\tPlanet Earth\n\t\t\t\t\tWild
+  Nature\n\t\t\t\t\tNatural Science\n\t\t\t\t\tDinosaurs\n\t\t\t\t\tSlideshows\n\t\t\t\t\n\t\t\t\n\t\t\t\tHealth\n\t\t\t\tHealth
+  Home\n\t\t\t\t\tMen's Health\n\t\t\t\t\tWomen's Health\n\t\t\t\t\tChildren's Health\n\t\t\t\t\tAlternative
+  Medicine\n\t\t\t\t\tDiabetes\n\t\t\t\t\tHeart Health\n\t\t\t\t\tAllergies\n\t\t\t\t\tNutrition
+  & Fitness\n\t\t\t\t\n\t\t\t\n\t\t\t\tTravel\n\t\t\t\tTravel Home\n\t\t\t\t\tSlideshows\n\t\t\t\t\tIn
+  5 Guides\n\t\t\t\t\n\t\t\t\n\t\t\t\tLifestyle\n\t\t\t\tLifestyle Home\n\t\t\t\t\tAuto\n\t\t\t\t\tFood
+  & Drink\n\t\t\t\t\tReal Estate\n\t\t\t\t\tRecipes\n\t\t\t\t\tWine with Me\n\t\t\t\t\n\t\t\t\n\t\t\t\tWorld\n\t\t\t\tWorld
+  Home\n\t\t\t\t\tU.N.\n\t\t\t\t\tConflicts\n\t\t\t\t\tTerrorism\n\t\t\t\t\tDisasters\n\t\t\t\t\tGlobal
+  Economy\n\t\t\t\t\tEnvironment\n\t\t\t\t\tReligion\n\t\t\t\t\tScandals\n\t\t\t\t\tRegions\n\t\t\t\t\n\t\t\t\n\t\t\t\tSports\n\t\t\t\tSports
+  Home\n\t\t\t\t\tNFL\n\t\t\t\t\tMLB\n\t\t\t\t\tNCAA FB\n\t\t\t\t\tNascar\n\t\t\t\t\tUFC\n\t\t\t\t\tSoccer\n\t\t\t\t\tNBA\n\t\t\t\t\tNHL\n\t\t\t\t\tNCAA
+  BK\n\t\t\t\t\n\t\t\t\n\t\t\t\tOn Air\n\t\t\t\tOn Air Home\n\t\t\t\t\tA Healthy You
+  & Carol Alt\n\t\t\t\t\tAmerica's News HQ\n\t\t\t\t\tAmerica's Newsroom\n\t\t\t\t\tCavuto\n\t\t\t\t\tFox
+  Files\n\t\t\t\t\tFox & Friends First\n\t\t\t\t\tFox & Friends\n\t\t\t\t\tFox & Friends
+  Weekend\n\t\t\t\t\tFox News Sunday\n\t\t\t\t\tGeraldo Rivera Reports\n\t\t\t\t\tGreta\n\t\t\t\t\tHannity\n\t\t\t\t\tHappening
+  Now\n\t\t\t\t\tJustice with Judge Jeanine\n\t\t\t\t\tL&L: The Real West\n\t\t\t\t\t#mediabuzz\n\t\t\t\t\tOutnumbered\n\t\t\t\t\tRed
+  Eye w/ Tom Shillue\n\t\t\t\t\tShepard Smith Reporting\n\t\t\t\t\tSpecial Report\n\t\t\t\t\tSpecials\n\t\t\t\t\tSunday
+  Morning Futures with Maria Bartiromo\n\t\t\t\t\tThe Cost of Freedom\n\t\t\t\t\tThe
+  Five\n\t\t\t\t\tThe Greg Gutfeld Show\n\t\t\t\t\tThe Journal Editorial Report\n\t\t\t\t\tThe
+  Kelly File\n\t\t\t\t\tThe O'Reilly Factor\n\t\t\t\t\tThe Property Man\n\t\t\t\t\tThe
+  Real Story w/ Gretchen Carlson\n\t\t\t\t\tWar Stories\n\t\t\t\t\n\t\t\t\n\t\t\t\tMore
+  from Fox News\n\t\t\t\tFox News\n\t\t\t\t\tFox Business\n\t\t\t\t\tFox News Latino\n\t\t\t\t\tFox
+  News Go\n\t\t\t\t\tFox News Radio\n\t\t\t\t\tFox Nation\n\t\t\t\t\tFox News Insider\n\t\t\t\t\n\t\t\n\n\n
+  \n    \n        \n\n\n\n        Fox News\n            Fox Business\n            Fox
+  News Latino\n            Fox News Go\n            Fox News Radio\n            Fox
+  Nation\n            Fox News Insider\n        \n            \n                Sign
+  in to comment!\n            \n            Login\n        \n    \n\n            \n
+  \       \n\t    \n\n\n\t\t\n\t\tMenu\n\t\n\t\n\t\tHome\n\t\tFoxNews.com\n\t\tPolitics\n\t\t\n\t\t\tSearch\n\t\t\t\t\n\t\n\n\t\tvar
+  articleInfo = {\n\t\t\tvcmId: \"f26fe193-0d34-4c02-ae00-c16688835a49\",\n\t\t\turl:
+  \"http://www.foxnews.com/politics/2015/12/14/botched-ransom-rep-presses-for-answers-on-fbi-role-in-payment-for-bergdahl.html\",\n\t\t\tpubDate:\"2015-12-14\",\n\t\t\tmyTopChannelName:\"politics\",\n\t\t\tsummary:\"<p>The
+  FBI played a central role in making a botched “payment” meant to help secure Army
+  Sgt. Bowe Bergdahl’s release last year, according to the office of a House Republican
+  now seeking answers on why the bureau was involved at all in the apparent rescue
+  attempt.<\\/p>\",\n\t\t\tbaynoteOrOutbrain:\"outbrain\",\n\t\t\tcommenting: \"true\",\n\t\t\tpartnerInfo:
+  {\"partner\": {\"source\": \"\",\"info\": []}}\n\t\t};\n\t\tvar disqus_identifier
+  = \"f26fe193-0d34-4c02-ae00-c16688835a49\";\n\t\tvar disqus_category_id = \"464441\";\n\t\tvar
+  disqus_developer = 1;\n\n    \n    \n     \t\n    \t\n            \n        \n    \t\n
+  \                       \n                            Politics Home\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Elections 2016\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Executive\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Senate\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           House\n                        \n                    \n
+  \               \n\t\t\t\t\t\t\t\n\t\t        \n                \n                    \n
+  \                   \n                    \n                        \n                            Defense\n
+  \                       \n                    \n                \n\t\t\t\t\t\t\t\n\t\t
+  \       \n                \n                    \n                    \n                    \n
+  \                       \n                            Judiciary\n                        \n
+  \                   \n                \n\t\t\t\t\t\t\t\n\t\t        \n                \n
+  \                   \n                    \n                    \n                        \n
+  \                           Fox News Poll\n                        \n                    \n
+  \               \n\t\t\t\n\t\t\n            \n                    \n\n\n\n\n    Republicans\n\n\nBotched
+  ransom? Rep presses for answers on FBI role in 'payment' for Bergdahl\n\n\n\n\t\n\t\t\n\t\t\n\t
+  \   \n\t\t    \n\t\t        \n\t\t            \n\t\t        \n\t\t    \n\t    \n
+  \   \n\n    \n        \n        By        \t\n            \n            \t            \t\t\n
+  \           \t\t Judson Berger\n                    \n                 \n                        \n
+  \           \n        \n\n        Published\n            December 14, 2015\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tFoxNews.com\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n
+  \       \t\n        \n    \n\n\n\n\t\n\t    Facebook0\n\t\tTwitter0\t \n\t\t\n\t\t\tlivefyre\n\t\t\n\t\tEmail\n\t\tPrint
+  \ \n\t  \n\n\n\n                    \n                        \n\n    \n    \n\t\n\t\t\n\t\t\t\n
+  \               \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t \n\t\t\t\t   \t\t\t\t\t\n\t\t\t\n\t\t
+  \       \n\n    \n\n\n\n\n\r\n\n                        \n\n\n\n\n\n    \n        \n
+  \       \n        \n            \n                The FBI played a central role
+  in making a botched “payment” meant to help secure Army Sgt. Bowe Bergdahl’s release
+  last year, according to the office of a House Republican now seeking answers on
+  why the bureau was involved at all in the apparent rescue attempt.  \n                \n
+  \               \r\n\n            \n                Rep. Duncan Hunter, R-Calif.
+  -- who has long questioned whether a ransom of some kind was offered for Bergdahl’s
+  release -- claimed in a recent letter to the Justice Department inspector general
+  that he has learned “non-DoD organizations, led by the Federal Bureau of Investigation
+  (FBI), undertook the recovery mission.”\n                \n                \r\n\n
+  \           \n                As part of this effort, Hunter told DOJ IG Michael
+  Horowitz, the FBI even went to the Afghanistan-Pakistan border and “awaited Bergdahl’s
+  arrival following some form of discussion about facilitating a payment.”\n                \n
+  \               \r\n\n            \n                Bergdahl didn’t show – and ultimately
+  was not released until May when he was traded for five Taliban leaders. Hunter’s
+  chief of staff, Joe Kasper, told FoxNews.com the unsuccessful FBI border visit came
+  after this operation paid an Afghan intermediary, who then ran off with the money.\n
+  \               \n                \r\n\n            \n                “The FBI was
+  leading the op,” Kasper said. \n                \n                \r\n\n            \n
+  \               Hunter now wants the DOJ IG to look into the alleged payment, including
+  the amount and whether it was made in violation of the law. \n                \n
+  \               \r\n\n            \n                A representative with the FBI
+  did not comment on Hunter’s claims when asked by FoxNews.com. \n                \n
+  \               \r\n\n            \n                Hunter previously has said such
+  a botched payment was made and initially pointed the finger at Joint Special Operations
+  Command, but has not discussed the extent of the FBI’s alleged role until now. Hunter’s
+  claims were first reported in The Daily Beast. \n                \n                \r\n\n
+  \           \n                The letter to Horowitz comes after the House Armed
+  Services Committee released a detailed report saying the Defense Department inspector
+  general could not confirm that any payment was made in an effort to recover Bergdahl,
+  whose desertion case was referred Monday to a general court-martial. All the DOD
+  IG could confirm was that “small payments were made to individuals in return for
+  information” on Bergdahl’s captors, whereabouts and condition. The Pentagon last
+  year also denied that a ransom was paid.\n                \n                \r\n\n
+  \           \n                But Hunter’s letter shifts the focus to the DOJ and
+  FBI.\n                \n                \r\n\n            \n                It asks
+  the Justice Department inspector general to look at whether a payment was made from
+  within that department, if one was not made by the DOD.\n                \n                \r\n\n
+  \           \n                Hunter, in the letter, called for a “thorough and
+  substantive review” of the FBI’s alleged involvement. He also questioned what authority
+  the FBI had to pursue Bergdahl’s release since he was a uniformed service member
+  and not a civilian.\n                \n                \r\n\n            \n                “We’re
+  going to try to get to the bottom of it,” Kasper said Monday.\n                \n
+  \               \r\n\n            \n                He said a chief concern is that
+  the FBI is not necessarily equipped to recover Americans held captive in hostile
+  areas.\n                \n                \r\n\n            \n                “They
+  don’t have the assets. They don’t have the resources,” he said.\n                \n
+  \               \r\n\n            \n                The U.S. government as a matter
+  of policy does not pay ransom for terror hostages, and Kasper acknowledged the administration
+  will never confirm a “ransom” was paid in this case. But he suggested the government
+  could have offered a payment of some kind – without calling it a ransom. \n                \n
+  \               \r\n\n            \n\n            \n                \n                    \n
+  \               \n                \n\n\n \n\n\t\n\n            \n        \n    \n
+  \                       \n                        \n\n\n\n\n\n\n\n                   \t\t\n
+  \                   \t\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n \n\t\n        \n    \n    \n
+  \   \n\n\t                    \n\n\n\n\n \n\t\n        \n    \n    \n    \n \n\t
+  \                \n                \n            \n                \n\n    \n    \n
+  \   \n         \n \n   Advertisement\n\n\n\n    \n\n\n\r\n\n                \r\n\n\n\t\t\t\t\n\n
+  \   \n    \n    \n        \n    \n\n\n\n\n    \n    \n    \n         \n       \t
+  \tTrending in Politics\n            \n\t\t\t      \t1\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tAgents reportedly blocked by secret US policy from looking at social media
+  of visa applicants\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t2\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tBotched ransom? Rep presses for answers on FBI role in 'payment'
+  for Bergdahl\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t3\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tCharges against Bergdahl referred to trial by court-martial\n\t\t\t
+  \     \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
+  \     \n\t\t\t      \n\t\t\t      \n\t\t\t      \t4\n\t\t\t      \t\n\t\t\t      \t\n\t\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t      \t\n\t\t\t
+  \     \tArmy's elite Delta Force kills top ISIS official, Abu Sayyaf, in daring
+  Syria raid\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t\n\t\t\t
+  \ \n\t\t\t      \n\t\t\t      \n\t\t\t      \n\t\t\t      \t5\n\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t\t      \t\n\t\t\t\t      \t\n\t\t\t\t      \t\t\n\t\t\t\t      \t\n\t\t\t
+  \     \t\n\t\t\t      \tWatchdog group calls for probe of Clinton relationship with
+  firm tied to son-in-law\n\t\t\t      \t\t\t\t   \n\t\t\t      \t\t\t  \n\t\t\t  \t\t\t\n\t\t\t
+  \          \n           See all Trends\n            \n \t      \n    \n\n\n    \n
+  \   \n    \n         \n     \n         \n        try {jQuery.ad.goog.adsense.embed({qid:\"article_2\"});
+  } catch(err) { } \n\n    \n\n\n\n    \n    \n    \n        \n \n   Advertisement\n\t
+  \  \n    \n\n\r\n\n            \n            \n\n\n\n\n     \n    \n\n            \n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\n\n\n\n\n\n\n
+  \   \n\n        \n    \n    \n       \t\r\n\n    \n    \n\n   \n    \n\n\n\n\n\n\n\n\t
+  \   \n\n\n\t\t\n\t\t\tFox NewsPolitics\n\t\t\tPolitics Home\n\t\t\t\t\tExecutive\n\t\t\t\t\tSenate\n\t\t\t\t\tHouse
+  of Representatives\n\t\t\t\t\tDefense\n\t\t\t\t\tJudiciary\n\t\t\t\t\tScandals\n\t\t\t\t\tCongress
+  To-Do List\n\t\t\t\t\n\t\tPresidential Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\tCongressional Approval\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tApprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDisapprove\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tMore
+  details →\n\t\t\t\n\t\t\n\t\t\tFoxNews.com\n\t\t\tBack to Top\n\t\t\n\t\t\n\t\t\t©2015
+  FOX News Network, LLC. All rights reserved. This material may not be published,
+  broadcast, rewritten, or redistributed. All market data delayed 20 minutes. Privacy
+  - Terms - FAQ\n\t\t\n\t\n\n    \n\n    (function($){\n        $.ad.pre();\n        if
+  (window.FOX) { FOX.site.bottomInit(); }\n    }(jQuery));\n    \nSign in to comment!Sign
+  in to comment!By        \t\n            \n            \t            \t\t\n            \t\t
+  Judson Berger\n                    \n                 \n                        \n
+  \           \n\t\t\t\t\t \n\t\t\t\tThe FBI played a central role in making a botched
+  “payment” meant to help secure Army Sgt. Bowe Bergdahl’s release last year, according
+  to the office of a House Republican now seeking answers on why the bureau was involved
+  at all in the apparent rescue attempt.  Rep. Duncan Hunter, R-Calif. -- who has
+  long questioned whether a ransom of some kind was offered for Bergdahl’s release
+  -- claimed in a recent letter to the Justice Department inspector general that he
+  has learned “non-DoD organizations, led by the Federal Bureau of Investigation (FBI),
+  undertook the recovery mission.”As part of this effort, Hunter told DOJ IG Michael
+  Horowitz, the FBI even went to the Afghanistan-Pakistan border and “awaited Bergdahl’s
+  arrival following some form of discussion about facilitating a payment.”Bergdahl
+  didn’t show – and ultimately was not released until May when he was traded for five
+  Taliban leaders. Hunter’s chief of staff, Joe Kasper, told FoxNews.com the unsuccessful
+  FBI border visit came after this operation paid an Afghan intermediary, who then
+  ran off with the money.“The FBI was leading the op,” Kasper said. Hunter now wants
+  the DOJ IG to look into the alleged payment, including the amount and whether it
+  was made in violation of the law. A representative with the FBI did not comment
+  on Hunter’s claims when asked by FoxNews.com. Hunter previously has said such a
+  botched payment was made and initially pointed the finger at Joint Special Operations
+  Command, but has not discussed the extent of the FBI’s alleged role until now. Hunter’s
+  claims were first reported in The Daily Beast. The letter to Horowitz comes after
+  the House Armed Services Committee released a detailed report saying the Defense
+  Department inspector general could not confirm that any payment was made in an effort
+  to recover Bergdahl, whose desertion case was referred Monday to a general court-martial.
+  All the DOD IG could confirm was that “small payments were made to individuals in
+  return for information” on Bergdahl’s captors, whereabouts and condition. The Pentagon
+  last year also denied that a ransom was paid.But Hunter’s letter shifts the focus
+  to the DOJ and FBI.It asks the Justice Department inspector general to look at whether
+  a payment was made from within that department, if one was not made by the DOD.Hunter,
+  in the letter, called for a “thorough and substantive review” of the FBI’s alleged
+  involvement. He also questioned what authority the FBI had to pursue Bergdahl’s
+  release since he was a uniformed service member and not a civilian.“We’re going
+  to try to get to the bottom of it,” Kasper said Monday.He said a chief concern is
+  that the FBI is not necessarily equipped to recover Americans held captive in hostile
+  areas.“They don’t have the assets. They don’t have the resources,” he said.The U.S.
+  government as a matter of policy does not pay ransom for terror hostages, and Kasper
+  acknowledged the administration will never confirm a “ransom” was paid in this case.
+  But he suggested the government could have offered a payment of some kind – without
+  calling it a ransom. AdvertisementAdvertisement©2015 FOX News Network, LLC. All
+  rights reserved. This material may not be published, broadcast, rewritten, or redistributed.
+  All market data delayed 20 minutes. Privacy - Terms - FAQ"

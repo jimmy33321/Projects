@@ -1,0 +1,3580 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors: []
+address: https://web.archive.org/web/20080601210541/http://www.epemag.com/zuse/part4a.htm
+inboundLinks: []
+lines:
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  //<![CDATA[
+- |
+  var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+- |
+  var wbPrefix = "/web/";
+- |
+  var wbCurrentUrl = "http://www.epemag.com/zuse/part4a.htm";
+- |2+
+
+- |
+  var firstYear = 1996;
+- |
+  var displayDay = "1";
+- |
+  var displayMonth = "Jun";
+- |
+  var displayYear = "2008";
+- |
+  var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+- |
+  var $D=document,$=function(n){return document.getElementById(n)};
+- |
+  var trackerVal,curYear = -1,curMonth = -1;
+- |
+  var yearTracker,monthTracker;
+- |
+  function showTrackers(val) {
+- |2
+    if (val===trackerVal) return;
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+- |2
+    if (val) {
+- |2
+      $ipp.className="hi";
+- |2
+    } else {
+- |2
+      $ipp.className="";
+- |2
+      $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+- |2
+    }
+- |2
+    yearTracker.style.display=val?"inline":"none";
+- |2
+    monthTracker.style.display=val?"inline":"none";
+- |2
+    trackerVal = val;
+- |
+  }
+- |
+  function trackMouseMove(event,element) {
+- |2
+    var eventX = getEventX(event);
+- |2
+    var elementX = getElementX(element);
+- |2
+    var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+- |2
+    var monthOff = xOff % yearImgWidth;
+- |2+
+
+- |2
+    var year = Math.floor(xOff / yearImgWidth);
+- |2
+    var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+- |2
+    // 1 extra border pixel at the left edge of the year:
+- |2
+    var month = (year * 12) + monthOfYear;
+- |2
+    var day = monthOff % 2==1?15:1;
+- |2
+    var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+- |2
+      zeroPad(day,2) + "000000";
+- |2+
+
+- |2
+    $("displayYearEl").innerHTML=year+firstYear;
+- |2
+    $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+- |2
+    // looks too jarring when it changes..
+- |2
+    //$("displayDayEl").innerHTML=zeroPad(day,2);
+- |2
+    var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+- |2
+    $("wm-graph-anchor").href=url;
+- |2+
+
+- |2
+    if(curYear != year) {
+- |2
+      var yrOff = year * yearImgWidth;
+- |2
+      yearTracker.style.left = yrOff + "px";
+- |2
+      curYear = year;
+- |2
+    }
+- |2
+    if(curMonth != month) {
+- |2
+      var mtOff = year + (month * monthImgWidth) + 1;
+- |2
+      monthTracker.style.left = mtOff + "px";
+- |2
+      curMonth = month;
+- |2
+    }
+- |
+  }
+- |
+  function hideToolbar() {
+- |2
+    $("wm-ipp").style.display="none";
+- |
+  }
+- |
+  function bootstrap() {
+- |2
+    var $spk=$("wm-ipp-sparkline");
+- |2
+    yearTracker=$D.createElement('div');
+- |2
+    yearTracker.className='yt';
+- |2
+    with(yearTracker.style){
+- |2
+      display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    monthTracker=$D.createElement('div');
+- |2
+    monthTracker.className='mt';
+- |2
+    with(monthTracker.style){
+- |2
+      display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+- |2
+    }
+- |2
+    $spk.appendChild(yearTracker);
+- |2
+    $spk.appendChild(monthTracker);
+- |2+
+
+- |2
+    var $ipp=$("wm-ipp");
+- |2
+    $ipp&&disclaimElement($ipp);
+- |
+  }
+- |
+  return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+- |
+  })(500, 27, 25, 2);//]]>
+- |2+
+
+- |
+  body {
+- |2
+    margin-top:0 !important;
+- |2
+    padding-top:0 !important;
+- |2
+    min-width:800px !important;
+- |
+  }
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "   \n"
+- "       \n"
+- "   \n"
+- "   \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "           \n"
+- "\t\t\n"
+- "\t\t    APR\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\tJUN\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t    SEP\n"
+- "\t\t\n"
+- "                \n"
+- "\t    \n"
+- "               \n"
+- "                   \n"
+- "               \n"
+- "               \n"
+- |2
+                 1
+- "\t       \n"
+- "               \n"
+- "\t\t   \n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "               \n"
+- |2
+                     2007
+- "               \n"
+- "               \n"
+- |2
+                 2008
+- "\t       \n"
+- "               \n"
+- "\t           2009\n"
+- "\t       \n"
+- "\t       \n"
+- "           \n"
+- "       \n"
+- |2
+             110 captures
+- |2
+             23 Aug 00 - 29 Sep 15
+- "       \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "\t \n"
+- "       \n"
+- "       \n"
+- "       \n"
+- "   \n"
+- |2
+         Close
+- |2
+         Help
+- "   \n"
+- "   \n"
+- |2+
+
+- |2+
+
+- "__wm.bt();The Life and Work of Konrad Zuse (by Horst Zuse)\r\n"
+- "  Part\r\n"
+- "    4: \r\n"
+- "    Konrad\r\n"
+- "    Zuse's Z1 and Z3 Computers\r\n"
+- "  \r\n"
+- "  The Z2 Computer\r\n"
+- "    Unsatisfied with the reliability of the binary switching metal sheets used
+  in the Z1,\r\n"
+- "    Konrad Zuse next constructed the Z2 computer. The Z2 used the same type of
+  mechanical\r\n"
+- "    memory as the Z1, but he used 800 old relays from phone companies to construct
+  the\r\n"
+- "    arithmetic and control units. The Z2\x92s arithmetic unit consisted of a 16-bit\r\n"
+- "    fixed-point engine, because he wanted to test the reliability of relays for
+  arithmetic\r\n"
+- "    calculations. Unfortunately, photos and plans of the Z2 were destroyed by allied
+  air raids\r\n"
+- "    during the war. However, the Z2 served its purpose, because it convinced my
+  father that\r\n"
+- "    relays were indeed reliable, and he subsequently built his Z3 computer completely
+  out of\r\n"
+- "    relays (600 for the arithmetic unit and 1,800 for the memory and control units).The
+  Z3 Computer (1939-1941)\r\n"
+- "    Helped by friends and with some small support from the government, Konrad Zuse
+  constructed\r\n"
+- "    his Z3 machine from 1939 to 1941 in the MethfesselstraÃ\x9Fe 7 in Berlin-Kreuzberg.
+  He wanted\r\n"
+- "    to use the Z3 to demonstrate that it was possible to build a reliable, freely
+  programmable\r\n"
+- "    computer based on a binary floating point number and switching system, which
+  could be used\r\n"
+- "    for very complicated arithmetic calculations. For reliability reasons he used
+  relays for\r\n"
+- "    the entire machine.\r\n"
+- "  \r\n"
+- "  \r\n"
+- "    Fig.24. The original design of the Z3 \r\n"
+- "    drawn by Konrad Zuse in 1939.\r\n"
+- "    \r\n"
+- "    Fig.25. The Z3 that was rebuilt by \r\n"
+- "    Konrad Zuse in 1960/61.\r\n"
+- "  \r\n"
+- "  The original design of the Z3 is illustrated in Fig.24.\r\n"
+- "    Unfortunately no photos of the original Z3 exist, because all documents and
+  photographs\r\n"
+- "    were destroyed by allied air raids during the Second World War. \r\n"
+- "    Konrad Zuse rebuilt the Z3 at\r\n"
+- "    his Zuse KG(3) company between 1960 and 1961 (Fig.25)  in\r\n"
+- "    order to demonstrate the performance of this machine to justify his patents
+  and to show\r\n"
+- "    the world his creation (and also to demonstrate the machine for advertising
+  purposes).\r\n"
+- "    Like the original machine, the rebuilt Z3 is completely constructed from relays.
+  The Z3's\r\n"
+- "    memory (64 words, each comprising 22 bits) is seen on the left-hand side of
+  Fig.25. The\r\n"
+- "    console is at the front, while the binary floating point arithmetic unit appears
+  on the\r\n"
+- "    right-hand side. The Z3 is about five meters long, two meters high, and 80cm
+  wide.\r\n"
+- "    (3)The Zuse\r\n"
+- "    KG (where \"KG\" means a special type of company in the form of a limited\r\n"
+- "    partnership) was founded in 1949 in Neukirchen (Kreis HÃ¼nfeld). This is about
+  120km north\r\n"
+- "    of Frankfurt. \r\n"
+- "    In 1957, the Zuse KG was moved\r\n"
+- "    to Bad Hersfeld, which lies 15km north of Neukirchen. This move was prompted
+  by the lack\r\n"
+- "    of space for rooms and the cramped production facilities.\r\n"
+- "  \r\n"
+- "    \r\n"
+- "  Fig.26. Konrad Zuse with the rebuilt Z3 in\r\n"
+- "    1961. The memory is \r\n"
+- "    on the left (note the \"Z\" logo Z of the Zuse KG company). The arithmetic
+  unit\r\n"
+- "    with the stepwise relays are on the right, and \r\n"
+- "    the console with punch tape reader is on the front left.\r\n"
+- "    Fig.27. A page from Konrad \r\n"
+- "    Zuse\x92s diary from May 12, 1941, when he presented the working \r\n"
+- "    Z3 to scientists in Berlin.\r\n"
+- "  \r\n"
+- "    \r\n"
+- "  It is\r\n"
+- "    now undisputed that the Z3 was the first reliable, freely programmable, working
+  computer\r\n"
+- "    in the world based on a binary floating-point number and switching system.
+  In 1941, the Z3\r\n"
+- "    contained almost all of the features of a modern computer as defined by John
+  von Neumann\r\n"
+- "    and his colleagues in 1946 [BURK46].\r\n"
+- "    The only exception was the ability to store the program in the memory together
+  with the\r\n"
+- "    data. Konrad Zuse did not implement this feature in the Z3, because his 64-word
+  memory was\r\n"
+- "    too small to support this mode of operation. Due to the fact that he wanted
+  to calculate\r\n"
+- "    thousands of instructions in a meaningful order, he only used the memory to
+  store values\r\n"
+- "    or numbers.\r\n"
+- "  \r\n"
+- "  Fig.28. A block diagram of the Z3.\r\n"
+- "    Fig.29. The rebuilt Z3 (1961).\r\n"
+- "  \r\n"
+- "    \r\n"
+- "  The block\r\n"
+- "    structure of the Z3 is very similar to a modern computer. The Z3 consisted
+  of separate\r\n"
+- "    units, such as a punch tape reader, control unit, floating-point arithmetic
+  unit, and\r\n"
+- "    input/output devices. With respect to this theme, Burks et al. [BURK46] wrote
+  as late as 1946, \"In as much as the\r\n"
+- "    completed device will be a general-purpose computing machine it should contain
+  main organs\r\n"
+- "    relating to arithmetic, memory-storage, control and connection with the human
+  operator. It\r\n"
+- "    is intended that the machine be fully automatic in character, i.e. independent
+  of the\r\n"
+- "    human operator after the computation starts.\" It is important to note that
+  the Z3 fully met Burks\x92\r\n"
+- "    requirements. Also, the Z3 supported a special operating mode, because the
+  Lu\r\n"
+- "    instruction stopped the program and activated the input device. The human operator
+  could\r\n"
+- "    check, among other things, the contents of the Registers R1 and R2 in the arithmetic
+  unit,\r\n"
+- "    he or she could perform intermediate calculations using the Registers R1 and
+  R2, then the\r\n"
+- "    operator could continue running the program.\r\n"
+- "  \r\n"
+- "  Previous Section    Return to Index    Next Section\r\n"
+- "   \r\n"
+- "  Copyright & Contact Info\r\n"
+- "    Return to EPE Online Home Page\r\n"
+- "  The Life and Work of Konrad Zuse (by Horst Zuse)The Z3 Computer (1939-1941)\r\n"
+- "    Helped by friends and with some small support from the government, Konrad Zuse
+  constructed\r\n"
+- "    his Z3 machine from 1939 to 1941 in the MethfesselstraÃ\x9Fe 7 in Berlin-Kreuzberg.
+  He wanted\r\n"
+- "    to use the Z3 to demonstrate that it was possible to build a reliable, freely
+  programmable\r\n"
+- "    computer based on a binary floating point number and switching system, which
+  could be used\r\n"
+- "    for very complicated arithmetic calculations. For reliability reasons he used
+  relays for\r\n"
+- "    the entire machine.The original design of the Z3 is illustrated in Fig.24.\r\n"
+- "    Unfortunately no photos of the original Z3 exist, because all documents and
+  photographs\r\n"
+- "    were destroyed by allied air raids during the Second World War. Konrad Zuse
+  rebuilt the Z3 at\r\n"
+- "    his Zuse KG(3) company between 1960 and 1961 (Fig.25)  in\r\n"
+- "    order to demonstrate the performance of this machine to justify his patents
+  and to show\r\n"
+- "    the world his creation (and also to demonstrate the machine for advertising
+  purposes).\r\n"
+- "    Like the original machine, the rebuilt Z3 is completely constructed from relays.
+  The Z3's\r\n"
+- "    memory (64 words, each comprising 22 bits) is seen on the left-hand side of
+  Fig.25. The\r\n"
+- "    console is at the front, while the binary floating point arithmetic unit appears
+  on the\r\n"
+- "    right-hand side. The Z3 is about five meters long, two meters high, and 80cm
+  wide.In 1957, the Zuse KG was moved\r\n"
+- "    to Bad Hersfeld, which lies 15km north of Neukirchen. This move was prompted
+  by the lack\r\n"
+- "    of space for rooms and the cramped production facilities.It is important to
+  note that the Z3 fully met Burks\x92\r\n"
+- "    requirements. Also, the Z3 supported a special operating mode, because the
+  Lu\r\n"
+- "    instruction stopped the program and activated the input device. The human operator
+  could\r\n"
+- "    check, among other things, the contents of the Registers R1 and R2 in the arithmetic
+  unit,\r\n"
+- "    he or she could perform intermediate calculations using the Registers R1 and
+  R2, then the\r\n"
+- "    operator could continue running the program.Previous Section    Return to Index   
+  Next SectionCopyright & Contact Info"
+index:
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 18.0
+    docPositions:
+    - 4
+    - 22
+    - 23
+    - 24
+    - 25
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 64
+    - 78
+    - 79
+    - 82
+    - 85
+    - 197
+  cdata: !ruby/object:Word
+    word: cdata
+    stem: cdata
+    docFrequency: 2.0
+    docPositions:
+    - 4
+  __wm: !ruby/object:Word
+    word: __wm
+    stem: __wm
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 156
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 7.0
+    docPositions:
+    - 5
+    - 14
+    - 17
+    - 31
+    - 63
+    - 66
+  imgwidth: !ruby/object:Word
+    word: imgwidth
+    stem: imgwidth
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 34
+  imgheight: !ruby/object:Word
+    word: imgheight
+    stem: imgheight
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 71
+    - 76
+  yearimgwidth: !ruby/object:Word
+    word: yearimgwidth
+    stem: yearimgwidth
+    docFrequency: 6.0
+    docPositions:
+    - 5
+    - 35
+    - 37
+    - 53
+    - 71
+  monthimgwidth: !ruby/object:Word
+    word: monthimgwidth
+    stem: monthimgwidth
+    docFrequency: 5.0
+    docPositions:
+    - 5
+    - 38
+    - 58
+    - 76
+  wbprefix: !ruby/object:Word
+    word: wbprefix
+    stem: wbprefix
+    docFrequency: 3.0
+    docPositions:
+    - 6
+    - 49
+  web: !ruby/object:Word
+    word: web
+    stem: web
+    docFrequency: 2.0
+    docPositions:
+    - 6
+  wbcurrenturl: !ruby/object:Word
+    word: wbcurrenturl
+    stem: wbcurrenturl
+    docFrequency: 3.0
+    docPositions:
+    - 7
+    - 49
+  epemag: !ruby/object:Word
+    word: epemag
+    stem: epemag
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  zuse: !ruby/object:Word
+    word: zuse
+    stem: zuse
+    docFrequency: 23.0
+    docPositions:
+    - 7
+    - 156
+    - 160
+    - 164
+    - 172
+    - 181
+    - 184
+    - 189
+    - 190
+    - 197
+    - 201
+    - 206
+    - 208
+    - 212
+    - 222
+    - 249
+    - 250
+    - 257
+    - 258
+    - 264
+  htm: !ruby/object:Word
+    word: htm
+    stem: htm
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  firstyear: !ruby/object:Word
+    word: firstyear
+    stem: firstyear
+    docFrequency: 4.0
+    docPositions:
+    - 9
+    - 42
+    - 45
+  displayday: !ruby/object:Word
+    word: displayday
+    stem: displaydai
+    docFrequency: 3.0
+    docPositions:
+    - 10
+    - 25
+  displaymonth: !ruby/object:Word
+    word: displaymonth
+    stem: displaymonth
+    docFrequency: 3.0
+    docPositions:
+    - 11
+    - 25
+  jun: !ruby/object:Word
+    word: jun
+    stem: jun
+    docFrequency: 4.0
+    docPositions:
+    - 11
+    - 13
+    - 109
+  displayyear: !ruby/object:Word
+    word: displayyear
+    stem: displayyear
+    docFrequency: 3.0
+    docPositions:
+    - 12
+    - 25
+  prettymonths: !ruby/object:Word
+    word: prettymonths
+    stem: prettymonth
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 46
+  jan: !ruby/object:Word
+    word: jan
+    stem: jan
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  feb: !ruby/object:Word
+    word: feb
+    stem: feb
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  mar: !ruby/object:Word
+    word: mar
+    stem: mar
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  apr: !ruby/object:Word
+    word: apr
+    stem: apr
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 106
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 212
+  jul: !ruby/object:Word
+    word: jul
+    stem: jul
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  aug: !ruby/object:Word
+    word: aug
+    stem: aug
+    docFrequency: 3.0
+    docPositions:
+    - 13
+    - 140
+  sep: !ruby/object:Word
+    word: sep
+    stem: sep
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 112
+    - 140
+  oct: !ruby/object:Word
+    word: oct
+    stem: oct
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  nov: !ruby/object:Word
+    word: nov
+    stem: nov
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 13
+  d: !ruby/object:Word
+    word: d
+    stem: d
+    docFrequency: 6.0
+    docPositions:
+    - 14
+    - 20
+    - 25
+    - 68
+    - 73
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  n: !ruby/object:Word
+    word: n
+    stem: n
+    docFrequency: 3.0
+    docPositions:
+    - 14
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 7.0
+    docPositions:
+    - 14
+    - 18
+    - 84
+    - 245
+    - 248
+    - 271
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  trackerval: !ruby/object:Word
+    word: trackerval
+    stem: trackerv
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 18
+    - 29
+  curyear: !ruby/object:Word
+    word: curyear
+    stem: curyear
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 52
+    - 55
+  curmonth: !ruby/object:Word
+    word: curmonth
+    stem: curmonth
+    docFrequency: 4.0
+    docPositions:
+    - 15
+    - 57
+    - 60
+  yeartracker: !ruby/object:Word
+    word: yeartracker
+    stem: yeartrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 27
+    - 54
+    - 68
+    - 69
+    - 70
+    - 78
+  monthtracker: !ruby/object:Word
+    word: monthtracker
+    stem: monthtrack
+    docFrequency: 8.0
+    docPositions:
+    - 16
+    - 28
+    - 59
+    - 73
+    - 74
+    - 75
+    - 79
+  showtrackers: !ruby/object:Word
+    word: showtrackers
+    stem: showtrack
+    docFrequency: 3.0
+    docPositions:
+    - 17
+    - 84
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 7.0
+    docPositions:
+    - 17
+    - 18
+    - 21
+    - 27
+    - 28
+    - 29
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 5.0
+    docPositions:
+    - 18
+    - 21
+    - 52
+    - 57
+  ipp: !ruby/object:Word
+    word: ipp
+    stem: ipp
+    docFrequency: 11.0
+    docPositions:
+    - 19
+    - 22
+    - 24
+    - 64
+    - 67
+    - 81
+    - 82
+  wm: !ruby/object:Word
+    word: wm
+    stem: wm
+    docFrequency: 6.0
+    docPositions:
+    - 19
+    - 50
+    - 64
+    - 67
+    - 81
+  y: !ruby/object:Word
+    word: y
+    stem: y
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displayyearel: !ruby/object:Word
+    word: displayyearel
+    stem: displayyearel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 45
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 25
+  displaymonthel: !ruby/object:Word
+    word: displaymonthel
+    stem: displaymonthel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 46
+  displaydayel: !ruby/object:Word
+    word: displaydayel
+    stem: displaydayel
+    docFrequency: 3.0
+    docPositions:
+    - 20
+    - 48
+  classname: !ruby/object:Word
+    word: classname
+    stem: classnam
+    docFrequency: 5.0
+    docPositions:
+    - 22
+    - 24
+    - 69
+    - 74
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 22
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 2.0
+    docPositions:
+    - 23
+  innerhtml: !ruby/object:Word
+    word: innerhtml
+    stem: innerhtml
+    docFrequency: 7.0
+    docPositions:
+    - 25
+    - 45
+    - 46
+    - 48
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 8.0
+    docPositions:
+    - 27
+    - 28
+    - 54
+    - 59
+    - 64
+    - 70
+    - 75
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  inline: !ruby/object:Word
+    word: inline
+    stem: inlin
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 28
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 6.0
+    docPositions:
+    - 27
+    - 28
+    - 64
+    - 71
+    - 76
+  trackmousemove: !ruby/object:Word
+    word: trackmousemove
+    stem: trackmousemov
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 84
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 32
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 31
+    - 33
+  eventx: !ruby/object:Word
+    word: eventx
+    stem: eventx
+    docFrequency: 3.0
+    docPositions:
+    - 32
+    - 34
+  geteventx: !ruby/object:Word
+    word: geteventx
+    stem: geteventx
+    docFrequency: 2.0
+    docPositions:
+    - 32
+  elementx: !ruby/object:Word
+    word: elementx
+    stem: elementx
+    docFrequency: 3.0
+    docPositions:
+    - 33
+    - 34
+  getelementx: !ruby/object:Word
+    word: getelementx
+    stem: getelementx
+    docFrequency: 2.0
+    docPositions:
+    - 33
+  xoff: !ruby/object:Word
+    word: xoff
+    stem: xoff
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 35
+    - 37
+  math: !ruby/object:Word
+    word: math
+    stem: math
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 37
+    - 38
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 4.0
+    docPositions:
+    - 34
+    - 38
+    - 90
+  max: !ruby/object:Word
+    word: max
+    stem: max
+    docFrequency: 2.0
+    docPositions:
+    - 34
+  monthoff: !ruby/object:Word
+    word: monthoff
+    stem: monthoff
+    docFrequency: 4.0
+    docPositions:
+    - 35
+    - 38
+    - 41
+  year: !ruby/object:Word
+    word: year
+    stem: year
+    docFrequency: 10.0
+    docPositions:
+    - 37
+    - 39
+    - 40
+    - 42
+    - 45
+    - 52
+    - 53
+    - 55
+    - 58
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 38
+  monthofyear: !ruby/object:Word
+    word: monthofyear
+    stem: monthofyear
+    docFrequency: 5.0
+    docPositions:
+    - 38
+    - 40
+    - 42
+    - 46
+  extra: !ruby/object:Word
+    word: extra
+    stem: extra
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  border: !ruby/object:Word
+    word: border
+    stem: border
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  pixel: !ruby/object:Word
+    word: pixel
+    stem: pixel
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  left: !ruby/object:Word
+    word: left
+    stem: left
+    docFrequency: 8.0
+    docPositions:
+    - 39
+    - 54
+    - 59
+    - 194
+    - 208
+    - 210
+    - 262
+  edge: !ruby/object:Word
+    word: edge
+    stem: edg
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  month: !ruby/object:Word
+    word: month
+    stem: month
+    docFrequency: 5.0
+    docPositions:
+    - 40
+    - 57
+    - 58
+    - 60
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 4.0
+    docPositions:
+    - 41
+    - 43
+    - 48
+  datestring: !ruby/object:Word
+    word: datestring
+    stem: datestr
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 49
+  zeropad: !ruby/object:Word
+    word: zeropad
+    stem: zeropad
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 43
+    - 48
+  looks: !ruby/object:Word
+    word: looks
+    stem: look
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  too: !ruby/object:Word
+    word: too
+    stem: too
+    docFrequency: 3.0
+    docPositions:
+    - 47
+    - 223
+  jarring: !ruby/object:Word
+    word: jarring
+    stem: jar
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  changes: !ruby/object:Word
+    word: changes
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 47
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 50
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  anchor: !ruby/object:Word
+    word: anchor
+    stem: anchor
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  yroff: !ruby/object:Word
+    word: yroff
+    stem: yroff
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 54
+  px: !ruby/object:Word
+    word: px
+    stem: px
+    docFrequency: 7.0
+    docPositions:
+    - 54
+    - 59
+    - 71
+    - 76
+  mtoff: !ruby/object:Word
+    word: mtoff
+    stem: mtoff
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 59
+  hidetoolbar: !ruby/object:Word
+    word: hidetoolbar
+    stem: hidetoolbar
+    docFrequency: 3.0
+    docPositions:
+    - 63
+    - 84
+  bootstrap: !ruby/object:Word
+    word: bootstrap
+    stem: bootstrap
+    docFrequency: 3.0
+    docPositions:
+    - 66
+    - 84
+  spk: !ruby/object:Word
+    word: spk
+    stem: spk
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 78
+    - 79
+  sparkline: !ruby/object:Word
+    word: sparkline
+    stem: sparklin
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 73
+  yt: !ruby/object:Word
+    word: yt
+    stem: yt
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 4.0
+    docPositions:
+    - 71
+    - 76
+    - 90
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 76
+  mt: !ruby/object:Word
+    word: mt
+    stem: mt
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 79
+  disclaimelement: !ruby/object:Word
+    word: disclaimelement
+    stem: disclaimel
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  st: !ruby/object:Word
+    word: st
+    stem: st
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  mv: !ruby/object:Word
+    word: mv
+    stem: mv
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  h: !ruby/object:Word
+    word: h
+    stem: h
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 199
+  bt: !ruby/object:Word
+    word: bt
+    stem: bt
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 156
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  margin: !ruby/object:Word
+    word: margin
+    stem: margin
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 89
+  important: !ruby/object:Word
+    word: important
+    stem: import
+    docFrequency: 6.0
+    docPositions:
+    - 88
+    - 89
+    - 90
+    - 238
+    - 266
+  padding: !ruby/object:Word
+    word: padding
+    stem: pad
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  captures: !ruby/object:Word
+    word: captures
+    stem: captur
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 150
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  life: !ruby/object:Word
+    word: life
+    stem: life
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 249
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 36.0
+    docPositions:
+    - 156
+    - 160
+    - 166
+    - 168
+    - 170
+    - 171
+    - 172
+    - 175
+    - 187
+    - 190
+    - 191
+    - 192
+    - 196
+    - 203
+    - 209
+    - 218
+    - 220
+    - 233
+    - 236
+    - 240
+    - 241
+    - 242
+    - 249
+    - 250
+    - 253
+    - 256
+    - 258
+    - 259
+    - 260
+    - 264
+    - 266
+    - 268
+    - 269
+    - 270
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 249
+  konrad: !ruby/object:Word
+    word: konrad
+    stem: konrad
+    docFrequency: 14.0
+    docPositions:
+    - 156
+    - 159
+    - 164
+    - 172
+    - 181
+    - 184
+    - 189
+    - 206
+    - 211
+    - 222
+    - 249
+    - 250
+    - 257
+  horst: !ruby/object:Word
+    word: horst
+    stem: horst
+    docFrequency: 3.0
+    docPositions:
+    - 156
+    - 249
+  part: !ruby/object:Word
+    word: part
+    stem: part
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 6.0
+    docPositions:
+    - 160
+    - 166
+    - 193
+    - 212
+    - 261
+  computers: !ruby/object:Word
+    word: computers
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  computer: !ruby/object:Word
+    word: computer
+    stem: comput
+    docFrequency: 11.0
+    docPositions:
+    - 162
+    - 164
+    - 170
+    - 171
+    - 175
+    - 217
+    - 219
+    - 232
+    - 249
+    - 253
+  unsatisfied: !ruby/object:Word
+    word: unsatisfied
+    stem: unsatisfi
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  reliability: !ruby/object:Word
+    word: reliability
+    stem: reliabl
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 167
+    - 176
+    - 254
+  binary: !ruby/object:Word
+    word: binary
+    stem: binari
+    docFrequency: 7.0
+    docPositions:
+    - 163
+    - 175
+    - 195
+    - 218
+    - 253
+    - 263
+  switching: !ruby/object:Word
+    word: switching
+    stem: switch
+    docFrequency: 5.0
+    docPositions:
+    - 163
+    - 175
+    - 218
+    - 253
+  metal: !ruby/object:Word
+    word: metal
+    stem: metal
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  sheets: !ruby/object:Word
+    word: sheets
+    stem: sheet
+    docFrequency: 2.0
+    docPositions:
+    - 163
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 9.0
+    docPositions:
+    - 163
+    - 164
+    - 165
+    - 175
+    - 176
+    - 224
+    - 253
+    - 254
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 4.0
+    docPositions:
+    - 164
+    - 245
+    - 271
+  constructed: !ruby/object:Word
+    word: constructed
+    stem: construct
+    docFrequency: 6.0
+    docPositions:
+    - 164
+    - 172
+    - 193
+    - 250
+    - 261
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 164
+    - 198
+  mechanical: !ruby/object:Word
+    word: mechanical
+    stem: mechan
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  memory: !ruby/object:Word
+    word: memory
+    stem: memori
+    docFrequency: 10.0
+    docPositions:
+    - 165
+    - 171
+    - 194
+    - 207
+    - 221
+    - 222
+    - 224
+    - 236
+    - 262
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  he: !ruby/object:Word
+    word: he
+    stem: he
+    docFrequency: 13.0
+    docPositions:
+    - 165
+    - 167
+    - 170
+    - 173
+    - 176
+    - 212
+    - 223
+    - 224
+    - 242
+    - 251
+    - 254
+    - 270
+  old: !ruby/object:Word
+    word: old
+    stem: old
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  relays: !ruby/object:Word
+    word: relays
+    stem: relai
+    docFrequency: 10.0
+    docPositions:
+    - 165
+    - 167
+    - 170
+    - 171
+    - 176
+    - 193
+    - 209
+    - 254
+    - 261
+  phone: !ruby/object:Word
+    word: phone
+    stem: phone
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  companies: !ruby/object:Word
+    word: companies
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  construct: !ruby/object:Word
+    word: construct
+    stem: construct
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  arithmetic: !ruby/object:Word
+    word: arithmetic
+    stem: arithmet
+    docFrequency: 14.0
+    docPositions:
+    - 166
+    - 167
+    - 171
+    - 176
+    - 195
+    - 208
+    - 233
+    - 236
+    - 241
+    - 254
+    - 263
+    - 269
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 5.0
+    docPositions:
+    - 166
+    - 171
+    - 233
+    - 236
+  units: !ruby/object:Word
+    word: units
+    stem: unit
+    docFrequency: 4.0
+    docPositions:
+    - 166
+    - 171
+    - 233
+  unit: !ruby/object:Word
+    word: unit
+    stem: unit
+    docFrequency: 10.0
+    docPositions:
+    - 166
+    - 171
+    - 195
+    - 208
+    - 233
+    - 241
+    - 263
+    - 269
+  consisted: !ruby/object:Word
+    word: consisted
+    stem: consist
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 232
+  bit: !ruby/object:Word
+    word: bit
+    stem: bit
+    docFrequency: 2.0
+    docPositions:
+    - 166
+  fixed: !ruby/object:Word
+    word: fixed
+    stem: fix
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 8.0
+    docPositions:
+    - 167
+    - 175
+    - 195
+    - 218
+    - 233
+    - 253
+    - 263
+  engine: !ruby/object:Word
+    word: engine
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 8.0
+    docPositions:
+    - 167
+    - 169
+    - 187
+    - 222
+    - 239
+    - 256
+    - 267
+  wanted: !ruby/object:Word
+    word: wanted
+    stem: want
+    docFrequency: 5.0
+    docPositions:
+    - 167
+    - 173
+    - 223
+    - 251
+  test: !ruby/object:Word
+    word: test
+    stem: test
+    docFrequency: 2.0
+    docPositions:
+    - 167
+  calculations: !ruby/object:Word
+    word: calculations
+    stem: calcul
+    docFrequency: 6.0
+    docPositions:
+    - 168
+    - 176
+    - 242
+    - 254
+    - 270
+  unfortunately: !ruby/object:Word
+    word: unfortunately
+    stem: unfortun
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 187
+    - 256
+  photos: !ruby/object:Word
+    word: photos
+    stem: photo
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 187
+    - 256
+  plans: !ruby/object:Word
+    word: plans
+    stem: plan
+    docFrequency: 2.0
+    docPositions:
+    - 168
+  were: !ruby/object:Word
+    word: were
+    stem: were
+    docFrequency: 5.0
+    docPositions:
+    - 168
+    - 170
+    - 188
+    - 257
+  destroyed: !ruby/object:Word
+    word: destroyed
+    stem: destroi
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 188
+    - 257
+  allied: !ruby/object:Word
+    word: allied
+    stem: alli
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 188
+    - 257
+  air: !ruby/object:Word
+    word: air
+    stem: air
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 188
+    - 257
+  raids: !ruby/object:Word
+    word: raids
+    stem: raid
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 188
+    - 257
+  during: !ruby/object:Word
+    word: during
+    stem: dure
+    docFrequency: 4.0
+    docPositions:
+    - 169
+    - 188
+    - 257
+  war: !ruby/object:Word
+    word: war
+    stem: war
+    docFrequency: 4.0
+    docPositions:
+    - 169
+    - 188
+    - 257
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  served: !ruby/object:Word
+    word: served
+    stem: serv
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  its: !ruby/object:Word
+    word: its
+    stem: it
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  purpose: !ruby/object:Word
+    word: purpose
+    stem: purpos
+    docFrequency: 3.0
+    docPositions:
+    - 169
+    - 235
+  convinced: !ruby/object:Word
+    word: convinced
+    stem: convinc
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  father: !ruby/object:Word
+    word: father
+    stem: father
+    docFrequency: 2.0
+    docPositions:
+    - 169
+  indeed: !ruby/object:Word
+    word: indeed
+    stem: inde
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  reliable: !ruby/object:Word
+    word: reliable
+    stem: reliabl
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 174
+    - 217
+    - 252
+  subsequently: !ruby/object:Word
+    word: subsequently
+    stem: subsequ
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  built: !ruby/object:Word
+    word: built
+    stem: built
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  his: !ruby/object:Word
+    word: his
+    stem: hi
+    docFrequency: 12.0
+    docPositions:
+    - 170
+    - 173
+    - 190
+    - 191
+    - 192
+    - 220
+    - 222
+    - 251
+    - 258
+    - 259
+    - 260
+  completely: !ruby/object:Word
+    word: completely
+    stem: complet
+    docFrequency: 4.0
+    docPositions:
+    - 170
+    - 193
+    - 261
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 2.0
+    docPositions:
+    - 170
+  helped: !ruby/object:Word
+    word: helped
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 250
+  friends: !ruby/object:Word
+    word: friends
+    stem: friend
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 250
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 250
+  small: !ruby/object:Word
+    word: small
+    stem: small
+    docFrequency: 4.0
+    docPositions:
+    - 172
+    - 223
+    - 250
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 4.0
+    docPositions:
+    - 172
+    - 223
+    - 250
+  government: !ruby/object:Word
+    word: government
+    stem: govern
+    docFrequency: 3.0
+    docPositions:
+    - 172
+    - 250
+  machine: !ruby/object:Word
+    word: machine
+    stem: machin
+    docFrequency: 13.0
+    docPositions:
+    - 173
+    - 177
+    - 191
+    - 192
+    - 193
+    - 235
+    - 237
+    - 251
+    - 255
+    - 259
+    - 260
+    - 261
+  methfesselstra: !ruby/object:Word
+    word: methfesselstra
+    stem: methfesselstra
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 251
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 4.0
+    docPositions:
+    - 173
+    - 237
+    - 251
+  berlin: !ruby/object:Word
+    word: berlin
+    stem: berlin
+    docFrequency: 4.0
+    docPositions:
+    - 173
+    - 213
+    - 251
+  kreuzberg: !ruby/object:Word
+    word: kreuzberg
+    stem: kreuzberg
+    docFrequency: 3.0
+    docPositions:
+    - 173
+    - 251
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 252
+  demonstrate: !ruby/object:Word
+    word: demonstrate
+    stem: demonstr
+    docFrequency: 7.0
+    docPositions:
+    - 174
+    - 191
+    - 192
+    - 252
+    - 259
+    - 260
+  possible: !ruby/object:Word
+    word: possible
+    stem: possibl
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 252
+  build: !ruby/object:Word
+    word: build
+    stem: build
+    docFrequency: 3.0
+    docPositions:
+    - 174
+    - 252
+  freely: !ruby/object:Word
+    word: freely
+    stem: freeli
+    docFrequency: 4.0
+    docPositions:
+    - 174
+    - 217
+    - 252
+  programmable: !ruby/object:Word
+    word: programmable
+    stem: programm
+    docFrequency: 4.0
+    docPositions:
+    - 174
+    - 217
+    - 252
+  based: !ruby/object:Word
+    word: based
+    stem: base
+    docFrequency: 4.0
+    docPositions:
+    - 175
+    - 218
+    - 253
+  floating: !ruby/object:Word
+    word: floating
+    stem: float
+    docFrequency: 7.0
+    docPositions:
+    - 175
+    - 195
+    - 218
+    - 233
+    - 253
+    - 263
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 4.0
+    docPositions:
+    - 175
+    - 218
+    - 253
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 4.0
+    docPositions:
+    - 175
+    - 218
+    - 253
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 5.0
+    docPositions:
+    - 175
+    - 202
+    - 253
+    - 265
+  could: !ruby/object:Word
+    word: could
+    stem: could
+    docFrequency: 9.0
+    docPositions:
+    - 175
+    - 240
+    - 242
+    - 243
+    - 253
+    - 268
+    - 270
+    - 271
+  very: !ruby/object:Word
+    word: very
+    stem: veri
+    docFrequency: 4.0
+    docPositions:
+    - 176
+    - 232
+    - 254
+  complicated: !ruby/object:Word
+    word: complicated
+    stem: complic
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 254
+  reasons: !ruby/object:Word
+    word: reasons
+    stem: reason
+    docFrequency: 3.0
+    docPositions:
+    - 176
+    - 254
+  entire: !ruby/object:Word
+    word: entire
+    stem: entir
+    docFrequency: 3.0
+    docPositions:
+    - 177
+    - 255
+  fig: !ruby/object:Word
+    word: fig
+    stem: fig
+    docFrequency: 13.0
+    docPositions:
+    - 180
+    - 183
+    - 186
+    - 190
+    - 194
+    - 206
+    - 211
+    - 227
+    - 228
+    - 255
+    - 258
+    - 262
+  original: !ruby/object:Word
+    word: original
+    stem: origin
+    docFrequency: 8.0
+    docPositions:
+    - 180
+    - 186
+    - 187
+    - 193
+    - 255
+    - 256
+    - 261
+  design: !ruby/object:Word
+    word: design
+    stem: design
+    docFrequency: 4.0
+    docPositions:
+    - 180
+    - 186
+    - 255
+  drawn: !ruby/object:Word
+    word: drawn
+    stem: drawn
+    docFrequency: 2.0
+    docPositions:
+    - 181
+  rebuilt: !ruby/object:Word
+    word: rebuilt
+    stem: rebuilt
+    docFrequency: 8.0
+    docPositions:
+    - 183
+    - 189
+    - 193
+    - 206
+    - 228
+    - 257
+    - 261
+  illustrated: !ruby/object:Word
+    word: illustrated
+    stem: illustr
+    docFrequency: 3.0
+    docPositions:
+    - 186
+    - 255
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 256
+  exist: !ruby/object:Word
+    word: exist
+    stem: exist
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 256
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 4.0
+    docPositions:
+    - 187
+    - 219
+    - 256
+  documents: !ruby/object:Word
+    word: documents
+    stem: document
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 256
+  photographs: !ruby/object:Word
+    word: photographs
+    stem: photograph
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 256
+  second: !ruby/object:Word
+    word: second
+    stem: second
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 257
+  world: !ruby/object:Word
+    word: world
+    stem: world
+    docFrequency: 6.0
+    docPositions:
+    - 188
+    - 192
+    - 218
+    - 257
+    - 260
+  kg: !ruby/object:Word
+    word: kg
+    stem: kg
+    docFrequency: 8.0
+    docPositions:
+    - 190
+    - 198
+    - 201
+    - 208
+    - 258
+    - 264
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 5.0
+    docPositions:
+    - 190
+    - 198
+    - 208
+    - 258
+  between: !ruby/object:Word
+    word: between
+    stem: between
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 258
+  order: !ruby/object:Word
+    word: order
+    stem: order
+    docFrequency: 4.0
+    docPositions:
+    - 191
+    - 224
+    - 259
+  performance: !ruby/object:Word
+    word: performance
+    stem: perform
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 259
+  justify: !ruby/object:Word
+    word: justify
+    stem: justifi
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 259
+  patents: !ruby/object:Word
+    word: patents
+    stem: patent
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 259
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 191
+    - 259
+  creation: !ruby/object:Word
+    word: creation
+    stem: creation
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 260
+  also: !ruby/object:Word
+    word: also
+    stem: also
+    docFrequency: 5.0
+    docPositions:
+    - 192
+    - 239
+    - 260
+    - 267
+  advertising: !ruby/object:Word
+    word: advertising
+    stem: advertis
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 260
+  purposes: !ruby/object:Word
+    word: purposes
+    stem: purpos
+    docFrequency: 3.0
+    docPositions:
+    - 192
+    - 260
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 193
+    - 261
+  words: !ruby/object:Word
+    word: words
+    stem: word
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 262
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 262
+  comprising: !ruby/object:Word
+    word: comprising
+    stem: compris
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 262
+  bits: !ruby/object:Word
+    word: bits
+    stem: bit
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 262
+  seen: !ruby/object:Word
+    word: seen
+    stem: seen
+    docFrequency: 3.0
+    docPositions:
+    - 194
+    - 262
+  hand: !ruby/object:Word
+    word: hand
+    stem: hand
+    docFrequency: 5.0
+    docPositions:
+    - 194
+    - 196
+    - 262
+    - 264
+  side: !ruby/object:Word
+    word: side
+    stem: side
+    docFrequency: 5.0
+    docPositions:
+    - 194
+    - 196
+    - 262
+    - 264
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 4.0
+    docPositions:
+    - 195
+    - 210
+    - 263
+  front: !ruby/object:Word
+    word: front
+    stem: front
+    docFrequency: 4.0
+    docPositions:
+    - 195
+    - 210
+    - 263
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 195
+    - 263
+  appears: !ruby/object:Word
+    word: appears
+    stem: appear
+    docFrequency: 3.0
+    docPositions:
+    - 195
+    - 263
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 4.0
+    docPositions:
+    - 196
+    - 209
+    - 264
+  five: !ruby/object:Word
+    word: five
+    stem: five
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 264
+  meters: !ruby/object:Word
+    word: meters
+    stem: meter
+    docFrequency: 5.0
+    docPositions:
+    - 196
+    - 264
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 264
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 264
+  high: !ruby/object:Word
+    word: high
+    stem: high
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 264
+  wide: !ruby/object:Word
+    word: wide
+    stem: wide
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 264
+  means: !ruby/object:Word
+    word: means
+    stem: mean
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  special: !ruby/object:Word
+    word: special
+    stem: special
+    docFrequency: 4.0
+    docPositions:
+    - 198
+    - 239
+    - 267
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  limited: !ruby/object:Word
+    word: limited
+    stem: limit
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  partnership: !ruby/object:Word
+    word: partnership
+    stem: partnership
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  founded: !ruby/object:Word
+    word: founded
+    stem: found
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  neukirchen: !ruby/object:Word
+    word: neukirchen
+    stem: neukirchen
+    docFrequency: 4.0
+    docPositions:
+    - 199
+    - 202
+    - 265
+  kreis: !ruby/object:Word
+    word: kreis
+    stem: krei
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  nfeld: !ruby/object:Word
+    word: nfeld
+    stem: nfeld
+    docFrequency: 2.0
+    docPositions:
+    - 199
+  north: !ruby/object:Word
+    word: north
+    stem: north
+    docFrequency: 4.0
+    docPositions:
+    - 199
+    - 202
+    - 265
+  frankfurt: !ruby/object:Word
+    word: frankfurt
+    stem: frankfurt
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  moved: !ruby/object:Word
+    word: moved
+    stem: move
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 264
+  bad: !ruby/object:Word
+    word: bad
+    stem: bad
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  hersfeld: !ruby/object:Word
+    word: hersfeld
+    stem: hersfeld
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  lies: !ruby/object:Word
+    word: lies
+    stem: li
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  move: !ruby/object:Word
+    word: move
+    stem: move
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  prompted: !ruby/object:Word
+    word: prompted
+    stem: prompt
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  lack: !ruby/object:Word
+    word: lack
+    stem: lack
+    docFrequency: 3.0
+    docPositions:
+    - 202
+    - 265
+  space: !ruby/object:Word
+    word: space
+    stem: space
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 266
+  rooms: !ruby/object:Word
+    word: rooms
+    stem: room
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 266
+  cramped: !ruby/object:Word
+    word: cramped
+    stem: cramp
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 266
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 266
+  facilities: !ruby/object:Word
+    word: facilities
+    stem: facil
+    docFrequency: 3.0
+    docPositions:
+    - 203
+    - 266
+  note: !ruby/object:Word
+    word: note
+    stem: note
+    docFrequency: 4.0
+    docPositions:
+    - 208
+    - 238
+    - 266
+  z: !ruby/object:Word
+    word: z
+    stem: z
+    docFrequency: 3.0
+    docPositions:
+    - 208
+  logo: !ruby/object:Word
+    word: logo
+    stem: logo
+    docFrequency: 2.0
+    docPositions:
+    - 208
+  stepwise: !ruby/object:Word
+    word: stepwise
+    stem: stepwis
+    docFrequency: 2.0
+    docPositions:
+    - 209
+  punch: !ruby/object:Word
+    word: punch
+    stem: punch
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 233
+  tape: !ruby/object:Word
+    word: tape
+    stem: tape
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 233
+  reader: !ruby/object:Word
+    word: reader
+    stem: reader
+    docFrequency: 3.0
+    docPositions:
+    - 210
+    - 233
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 248
+  diary: !ruby/object:Word
+    word: diary
+    stem: diari
+    docFrequency: 2.0
+    docPositions:
+    - 212
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 212
+  working: !ruby/object:Word
+    word: working
+    stem: work
+    docFrequency: 3.0
+    docPositions:
+    - 212
+    - 217
+  scientists: !ruby/object:Word
+    word: scientists
+    stem: scientist
+    docFrequency: 2.0
+    docPositions:
+    - 213
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 2.0
+    docPositions:
+    - 217
+  undisputed: !ruby/object:Word
+    word: undisputed
+    stem: undisput
+    docFrequency: 2.0
+    docPositions:
+    - 217
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 217
+  contained: !ruby/object:Word
+    word: contained
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  almost: !ruby/object:Word
+    word: almost
+    stem: almost
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  features: !ruby/object:Word
+    word: features
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  modern: !ruby/object:Word
+    word: modern
+    stem: modern
+    docFrequency: 3.0
+    docPositions:
+    - 219
+    - 232
+  defined: !ruby/object:Word
+    word: defined
+    stem: defin
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  john: !ruby/object:Word
+    word: john
+    stem: john
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  von: !ruby/object:Word
+    word: von
+    stem: von
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  neumann: !ruby/object:Word
+    word: neumann
+    stem: neumann
+    docFrequency: 2.0
+    docPositions:
+    - 219
+  colleagues: !ruby/object:Word
+    word: colleagues
+    stem: colleagu
+    docFrequency: 2.0
+    docPositions:
+    - 220
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 224
+  exception: !ruby/object:Word
+    word: exception
+    stem: except
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  ability: !ruby/object:Word
+    word: ability
+    stem: abil
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  store: !ruby/object:Word
+    word: store
+    stem: store
+    docFrequency: 3.0
+    docPositions:
+    - 221
+    - 224
+  program: !ruby/object:Word
+    word: program
+    stem: program
+    docFrequency: 6.0
+    docPositions:
+    - 221
+    - 240
+    - 243
+    - 268
+    - 271
+  together: !ruby/object:Word
+    word: together
+    stem: togeth
+    docFrequency: 2.0
+    docPositions:
+    - 221
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  did: !ruby/object:Word
+    word: did
+    stem: did
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  implement: !ruby/object:Word
+    word: implement
+    stem: implement
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  feature: !ruby/object:Word
+    word: feature
+    stem: featur
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  word: !ruby/object:Word
+    word: word
+    stem: word
+    docFrequency: 2.0
+    docPositions:
+    - 222
+  mode: !ruby/object:Word
+    word: mode
+    stem: mode
+    docFrequency: 4.0
+    docPositions:
+    - 223
+    - 239
+    - 267
+  operation: !ruby/object:Word
+    word: operation
+    stem: oper
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  due: !ruby/object:Word
+    word: due
+    stem: due
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  fact: !ruby/object:Word
+    word: fact
+    stem: fact
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  calculate: !ruby/object:Word
+    word: calculate
+    stem: calcul
+    docFrequency: 2.0
+    docPositions:
+    - 223
+  thousands: !ruby/object:Word
+    word: thousands
+    stem: thousand
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  instructions: !ruby/object:Word
+    word: instructions
+    stem: instruct
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  meaningful: !ruby/object:Word
+    word: meaningful
+    stem: meaning
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  values: !ruby/object:Word
+    word: values
+    stem: valu
+    docFrequency: 2.0
+    docPositions:
+    - 224
+  numbers: !ruby/object:Word
+    word: numbers
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 225
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 231
+  diagram: !ruby/object:Word
+    word: diagram
+    stem: diagram
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  structure: !ruby/object:Word
+    word: structure
+    stem: structur
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  similar: !ruby/object:Word
+    word: similar
+    stem: similar
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  separate: !ruby/object:Word
+    word: separate
+    stem: separ
+    docFrequency: 2.0
+    docPositions:
+    - 232
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  input: !ruby/object:Word
+    word: input
+    stem: input
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 240
+    - 268
+  output: !ruby/object:Word
+    word: output
+    stem: output
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  devices: !ruby/object:Word
+    word: devices
+    stem: devic
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  respect: !ruby/object:Word
+    word: respect
+    stem: respect
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  theme: !ruby/object:Word
+    word: theme
+    stem: theme
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  burks: !ruby/object:Word
+    word: burks
+    stem: burk
+    docFrequency: 4.0
+    docPositions:
+    - 234
+    - 238
+    - 266
+  et: !ruby/object:Word
+    word: et
+    stem: et
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  al: !ruby/object:Word
+    word: al
+    stem: al
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  wrote: !ruby/object:Word
+    word: wrote
+    stem: wrote
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  late: !ruby/object:Word
+    word: late
+    stem: late
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  completed: !ruby/object:Word
+    word: completed
+    stem: complet
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  device: !ruby/object:Word
+    word: device
+    stem: devic
+    docFrequency: 4.0
+    docPositions:
+    - 235
+    - 240
+    - 268
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  computing: !ruby/object:Word
+    word: computing
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  contain: !ruby/object:Word
+    word: contain
+    stem: contain
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  organs: !ruby/object:Word
+    word: organs
+    stem: organ
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  relating: !ruby/object:Word
+    word: relating
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  storage: !ruby/object:Word
+    word: storage
+    stem: storag
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  connection: !ruby/object:Word
+    word: connection
+    stem: connect
+    docFrequency: 2.0
+    docPositions:
+    - 236
+  human: !ruby/object:Word
+    word: human
+    stem: human
+    docFrequency: 5.0
+    docPositions:
+    - 236
+    - 238
+    - 240
+    - 268
+  operator: !ruby/object:Word
+    word: operator
+    stem: oper
+    docFrequency: 7.0
+    docPositions:
+    - 236
+    - 238
+    - 240
+    - 243
+    - 268
+    - 271
+  intended: !ruby/object:Word
+    word: intended
+    stem: intend
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  fully: !ruby/object:Word
+    word: fully
+    stem: fulli
+    docFrequency: 4.0
+    docPositions:
+    - 237
+    - 238
+    - 266
+  automatic: !ruby/object:Word
+    word: automatic
+    stem: automat
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  character: !ruby/object:Word
+    word: character
+    stem: charact
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  independent: !ruby/object:Word
+    word: independent
+    stem: independ
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  after: !ruby/object:Word
+    word: after
+    stem: after
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  computation: !ruby/object:Word
+    word: computation
+    stem: comput
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  starts: !ruby/object:Word
+    word: starts
+    stem: start
+    docFrequency: 2.0
+    docPositions:
+    - 238
+  met: !ruby/object:Word
+    word: met
+    stem: met
+    docFrequency: 3.0
+    docPositions:
+    - 238
+    - 266
+  requirements: !ruby/object:Word
+    word: requirements
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 239
+    - 267
+  supported: !ruby/object:Word
+    word: supported
+    stem: support
+    docFrequency: 3.0
+    docPositions:
+    - 239
+    - 267
+  operating: !ruby/object:Word
+    word: operating
+    stem: oper
+    docFrequency: 3.0
+    docPositions:
+    - 239
+    - 267
+  lu: !ruby/object:Word
+    word: lu
+    stem: lu
+    docFrequency: 3.0
+    docPositions:
+    - 239
+    - 267
+  instruction: !ruby/object:Word
+    word: instruction
+    stem: instruct
+    docFrequency: 3.0
+    docPositions:
+    - 240
+    - 268
+  stopped: !ruby/object:Word
+    word: stopped
+    stem: stop
+    docFrequency: 3.0
+    docPositions:
+    - 240
+    - 268
+  activated: !ruby/object:Word
+    word: activated
+    stem: activ
+    docFrequency: 3.0
+    docPositions:
+    - 240
+    - 268
+  check: !ruby/object:Word
+    word: check
+    stem: check
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 269
+  among: !ruby/object:Word
+    word: among
+    stem: among
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 269
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 269
+  things: !ruby/object:Word
+    word: things
+    stem: thing
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 269
+  contents: !ruby/object:Word
+    word: contents
+    stem: content
+    docFrequency: 3.0
+    docPositions:
+    - 241
+    - 269
+  registers: !ruby/object:Word
+    word: registers
+    stem: regist
+    docFrequency: 5.0
+    docPositions:
+    - 241
+    - 242
+    - 269
+    - 270
+  she: !ruby/object:Word
+    word: she
+    stem: she
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 270
+  perform: !ruby/object:Word
+    word: perform
+    stem: perform
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 270
+  intermediate: !ruby/object:Word
+    word: intermediate
+    stem: intermedi
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 270
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 270
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 3.0
+    docPositions:
+    - 242
+    - 270
+  continue: !ruby/object:Word
+    word: continue
+    stem: continu
+    docFrequency: 3.0
+    docPositions:
+    - 243
+    - 271
+  running: !ruby/object:Word
+    word: running
+    stem: run
+    docFrequency: 3.0
+    docPositions:
+    - 243
+    - 271
+  previous: !ruby/object:Word
+    word: previous
+    stem: previou
+    docFrequency: 3.0
+    docPositions:
+    - 245
+    - 271
+  section: !ruby/object:Word
+    word: section
+    stem: section
+    docFrequency: 4.0
+    docPositions:
+    - 245
+    - 271
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 3.0
+    docPositions:
+    - 245
+    - 271
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 247
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 247
+    - 271
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 3.0
+    docPositions:
+    - 247
+    - 271
+  epe: !ruby/object:Word
+    word: epe
+    stem: ep
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  online: !ruby/object:Word
+    word: online
+    stem: onlin
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 2.0
+    docPositions:
+    - 248
+  sectioncopyright: !ruby/object:Word
+    word: sectioncopyright
+    stem: sectioncopyright
+    docFrequency: 2.0
+    docPositions:
+    - 271
+lineCount: 272
+wordCount: 1597
+rank: 0.2540983606557377
+title: Konrad Zuse's Z2 and Z3 Computers
+links:
+- http://faq.web.archive.org/
+rawText: "\n\n\n\n//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar
+  wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.epemag.com/zuse/part4a.htm\";\n\nvar
+  firstYear = 1996;\nvar displayDay = \"1\";\nvar displayMonth = \"Jun\";\nvar displayYear
+  = \"2008\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar
+  $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear
+  = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n
+  \ if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n
+  \ if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n
+  \   $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n
+  \ }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n
+  \ trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX =
+  getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0,
+  eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year
+  = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff
+  / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var
+  month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString
+  = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n
+  \ $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n
+  \ // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n
+  \ var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n
+  \ if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left
+  = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var
+  mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff
+  + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction
+  bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n
+  \ yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n
+  \ }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n
+  \   display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n
+  \ $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(500,
+  27, 25, 2);//]]>\n\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n
+  \ min-width:800px !important;\n}\n\n\n\n\n   \n       \n   \n   \n       \n       \n
+  \      \n       \n           \n\t\t\n\t\t    APR\n\t\t\n\t\t\n\t\tJUN\n\t\t\n\t\t\n\t\t
+  \   SEP\n\t\t\n                \n\t    \n               \n                   \n
+  \              \n               \n               1\n\t       \n               \n\t\t
+  \  \n\t       \n\t       \n           \n               \n                   2007\n
+  \              \n               \n               2008\n\t       \n               \n\t
+  \          2009\n\t       \n\t       \n           \n       \n           110 captures\n
+  \          23 Aug 00 - 29 Sep 15\n       \n       \n       \n       \n\t \n       \n
+  \      \n       \n   \n       Close\n       Help\n   \n   \n\n\n__wm.bt();The Life
+  and Work of Konrad Zuse (by Horst Zuse)\r\n  Part\r\n    4: \r\n    Konrad\r\n    Zuse's
+  Z1 and Z3 Computers\r\n  \r\n  The Z2 Computer\r\n    Unsatisfied with the reliability
+  of the binary switching metal sheets used in the Z1,\r\n    Konrad Zuse next constructed
+  the Z2 computer. The Z2 used the same type of mechanical\r\n    memory as the Z1,
+  but he used 800 old relays from phone companies to construct the\r\n    arithmetic
+  and control units. The Z2\x92s arithmetic unit consisted of a 16-bit\r\n    fixed-point
+  engine, because he wanted to test the reliability of relays for arithmetic\r\n    calculations.
+  Unfortunately, photos and plans of the Z2 were destroyed by allied air raids\r\n
+  \   during the war. However, the Z2 served its purpose, because it convinced my
+  father that\r\n    relays were indeed reliable, and he subsequently built his Z3
+  computer completely out of\r\n    relays (600 for the arithmetic unit and 1,800
+  for the memory and control units).The Z3 Computer (1939-1941)\r\n    Helped by friends
+  and with some small support from the government, Konrad Zuse constructed\r\n    his
+  Z3 machine from 1939 to 1941 in the MethfesselstraÃ\x9Fe 7 in Berlin-Kreuzberg.
+  He wanted\r\n    to use the Z3 to demonstrate that it was possible to build a reliable,
+  freely programmable\r\n    computer based on a binary floating point number and
+  switching system, which could be used\r\n    for very complicated arithmetic calculations.
+  For reliability reasons he used relays for\r\n    the entire machine.\r\n  \r\n
+  \ \r\n    Fig.24. The original design of the Z3 \r\n    drawn by Konrad Zuse in
+  1939.\r\n    \r\n    Fig.25. The Z3 that was rebuilt by \r\n    Konrad Zuse in 1960/61.\r\n
+  \ \r\n  The original design of the Z3 is illustrated in Fig.24.\r\n    Unfortunately
+  no photos of the original Z3 exist, because all documents and photographs\r\n    were
+  destroyed by allied air raids during the Second World War. \r\n    Konrad Zuse rebuilt
+  the Z3 at\r\n    his Zuse KG(3) company between 1960 and 1961 (Fig.25)  in\r\n    order
+  to demonstrate the performance of this machine to justify his patents and to show\r\n
+  \   the world his creation (and also to demonstrate the machine for advertising
+  purposes).\r\n    Like the original machine, the rebuilt Z3 is completely constructed
+  from relays. The Z3's\r\n    memory (64 words, each comprising 22 bits) is seen
+  on the left-hand side of Fig.25. The\r\n    console is at the front, while the binary
+  floating point arithmetic unit appears on the\r\n    right-hand side. The Z3 is
+  about five meters long, two meters high, and 80cm wide.\r\n    (3)The Zuse\r\n    KG
+  (where \"KG\" means a special type of company in the form of a limited\r\n    partnership)
+  was founded in 1949 in Neukirchen (Kreis HÃ¼nfeld). This is about 120km north\r\n
+  \   of Frankfurt. \r\n    In 1957, the Zuse KG was moved\r\n    to Bad Hersfeld,
+  which lies 15km north of Neukirchen. This move was prompted by the lack\r\n    of
+  space for rooms and the cramped production facilities.\r\n  \r\n    \r\n  Fig.26.
+  Konrad Zuse with the rebuilt Z3 in\r\n    1961. The memory is \r\n    on the left
+  (note the \"Z\" logo Z of the Zuse KG company). The arithmetic unit\r\n    with
+  the stepwise relays are on the right, and \r\n    the console with punch tape reader
+  is on the front left.\r\n    Fig.27. A page from Konrad \r\n    Zuse\x92s diary
+  from May 12, 1941, when he presented the working \r\n    Z3 to scientists in Berlin.\r\n
+  \ \r\n    \r\n  It is\r\n    now undisputed that the Z3 was the first reliable,
+  freely programmable, working computer\r\n    in the world based on a binary floating-point
+  number and switching system. In 1941, the Z3\r\n    contained almost all of the
+  features of a modern computer as defined by John von Neumann\r\n    and his colleagues
+  in 1946 [BURK46].\r\n    The only exception was the ability to store the program
+  in the memory together with the\r\n    data. Konrad Zuse did not implement this
+  feature in the Z3, because his 64-word memory was\r\n    too small to support this
+  mode of operation. Due to the fact that he wanted to calculate\r\n    thousands
+  of instructions in a meaningful order, he only used the memory to store values\r\n
+  \   or numbers.\r\n  \r\n  Fig.28. A block diagram of the Z3.\r\n    Fig.29. The
+  rebuilt Z3 (1961).\r\n  \r\n    \r\n  The block\r\n    structure of the Z3 is very
+  similar to a modern computer. The Z3 consisted of separate\r\n    units, such as
+  a punch tape reader, control unit, floating-point arithmetic unit, and\r\n    input/output
+  devices. With respect to this theme, Burks et al. [BURK46] wrote as late as 1946,
+  \"In as much as the\r\n    completed device will be a general-purpose computing
+  machine it should contain main organs\r\n    relating to arithmetic, memory-storage,
+  control and connection with the human operator. It\r\n    is intended that the machine
+  be fully automatic in character, i.e. independent of the\r\n    human operator after
+  the computation starts.\" It is important to note that the Z3 fully met Burks\x92\r\n
+  \   requirements. Also, the Z3 supported a special operating mode, because the Lu\r\n
+  \   instruction stopped the program and activated the input device. The human operator
+  could\r\n    check, among other things, the contents of the Registers R1 and R2
+  in the arithmetic unit,\r\n    he or she could perform intermediate calculations
+  using the Registers R1 and R2, then the\r\n    operator could continue running the
+  program.\r\n  \r\n  Previous Section    Return to Index    Next Section\r\n   \r\n
+  \ Copyright & Contact Info\r\n    Return to EPE Online Home Page\r\n  The Life and
+  Work of Konrad Zuse (by Horst Zuse)The Z3 Computer (1939-1941)\r\n    Helped by
+  friends and with some small support from the government, Konrad Zuse constructed\r\n
+  \   his Z3 machine from 1939 to 1941 in the MethfesselstraÃ\x9Fe 7 in Berlin-Kreuzberg.
+  He wanted\r\n    to use the Z3 to demonstrate that it was possible to build a reliable,
+  freely programmable\r\n    computer based on a binary floating point number and
+  switching system, which could be used\r\n    for very complicated arithmetic calculations.
+  For reliability reasons he used relays for\r\n    the entire machine.The original
+  design of the Z3 is illustrated in Fig.24.\r\n    Unfortunately no photos of the
+  original Z3 exist, because all documents and photographs\r\n    were destroyed by
+  allied air raids during the Second World War. Konrad Zuse rebuilt the Z3 at\r\n
+  \   his Zuse KG(3) company between 1960 and 1961 (Fig.25)  in\r\n    order to demonstrate
+  the performance of this machine to justify his patents and to show\r\n    the world
+  his creation (and also to demonstrate the machine for advertising purposes).\r\n
+  \   Like the original machine, the rebuilt Z3 is completely constructed from relays.
+  The Z3's\r\n    memory (64 words, each comprising 22 bits) is seen on the left-hand
+  side of Fig.25. The\r\n    console is at the front, while the binary floating point
+  arithmetic unit appears on the\r\n    right-hand side. The Z3 is about five meters
+  long, two meters high, and 80cm wide.In 1957, the Zuse KG was moved\r\n    to Bad
+  Hersfeld, which lies 15km north of Neukirchen. This move was prompted by the lack\r\n
+  \   of space for rooms and the cramped production facilities.It is important to
+  note that the Z3 fully met Burks\x92\r\n    requirements. Also, the Z3 supported
+  a special operating mode, because the Lu\r\n    instruction stopped the program
+  and activated the input device. The human operator could\r\n    check, among other
+  things, the contents of the Registers R1 and R2 in the arithmetic unit,\r\n    he
+  or she could perform intermediate calculations using the Registers R1 and R2, then
+  the\r\n    operator could continue running the program.Previous Section    Return
+  to Index    Next SectionCopyright & Contact Info"

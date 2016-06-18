@@ -1,0 +1,167 @@
+#!/usr/bin/ruby
+# I427 Fall 2015, Assignment 4
+#   Code authors: 
+#                Nolan Roach - noroach
+#   
+#   based on skeleton code by D Crandall
+
+
+# This function writes out a hash or an array (list) to a file.
+#  You can modify this function if you want, but it should already w ork as-is.
+# 
+# write_data("file1",my_hash)
+# 
+
+require "nokogiri"
+require 'yaml'
+require 'fast_stemmer'
+
+def write_data(filename, data)
+  file = File.open(filename, "w")
+  file.puts(data)
+  file.close
+end
+
+
+#we don't need a 'save yaml' because this rb file only loads it
+#it will always be saved as 'invindex.yml' on disk
+#functions returns a hash
+def load_yaml(file_name)
+        index_data = YAML.load_file(file_name)
+        return index_data
+end
+
+# This function reads in a hash or an array (list) from a file produced by write_file().
+#  You can modify this function if you want, but it should already work as-is.
+# 
+# my_list=read_data("file1")
+# my_hash=read_data("file2")
+def read_data(file_name)
+  file = File.open(file_name,"r")
+  object = eval(file.gets)
+  file.close()
+  return object
+end
+
+
+def clean_string_list(list)
+  clean_list = []
+
+  list.each do |word|
+    if (word =~ /^.+$/)
+      word.gsub!(/[[:punct:]]/,"")
+      clean_list.push(word.downcase.chomp) if word =~ /^[a-zA-Z]+$/
+    end
+  end
+  return clean_list
+end
+
+def load_stopwords_file(file)
+  nwarray = []
+  file = File.open(file, "r")
+  nwarray = file.readlines()
+  i = 0
+  while i < nwarray.size
+
+    nwarray[i].slice! "\n"
+    i += 1
+  end
+  return nwarray
+end
+
+
+def remove_stop_tokens(tokens, stop_words)
+        stop_words.each do |word|
+                if tokens.include?(word)
+                        tokens.delete(word)
+                end
+        end
+        return tokens
+end
+
+def stem_tokens(tokens)
+        stem_tokens = Array.new
+                tokens.each do |token|
+                stem_tokens.push(Stemmer::stem_word(token))
+        end
+        return stem_tokens
+end
+
+
+#################################################
+# Main program. We expect the user to run the program like this:
+#
+#   ./retrieve.rb mode kw1 kw2 kw3 .. kwn
+#
+
+# check that the user gave us correct command line parameters
+abort "Command line should have at least 2 parameters." if ARGV.size<2
+
+
+input = Array.new
+args = ARGV.map(&:dup)
+args.each do |param|
+    input.push(param)
+end
+
+
+mode = input[0]
+
+keyword_list = Array.new
+#omg fuck frozen objects
+#'dup' wont work how am I supposed to even use ARGV
+input[1..input.size].each do |item|
+        keyword_list.push(item)
+end
+
+
+clean_keyword_list = clean_string_list(keyword_list)
+stemmed_keyword_list = stem_tokens(remove_stop_tokens(clean_keyword_list, load_stopwords_file("stop.txt")))
+
+
+
+docindex = File.open("doc.dat", "r")
+
+# read in the inverted index produced by the indexer. 
+invindex = File.open("invindex.dat", "r")
+def convert_html_to_list(filename)
+        htmlArray = Array.new
+        f = File.open(filename)
+        doc = Nokogiri::HTML(f)
+        doc.css('script, link').each { |node| node.remove }
+        words = doc.text.split(/\s+/)
+        #words.each  { |w|  puts w}
+        words.each  { |w| htmlArray.push(w) }
+        return htmlArray
+end
+
+invindex = convert_html_to_list(invindex)
+
+
+print invindex
+
+#for or
+
+i = 0
+resultlist = []
+w = 0
+=begin
+
+while i < stemmed_keyword_list.size
+  while w < invindex.size
+
+    if stemmed_keyword_list[i] == invindex.keys[w]
+      resultlist << invindex[stemmed_keyword_list[i]]
+      i += 1
+    else
+      w += 1
+    end
+  end
+end
+
+print resultlist
+      
+
+
+=end
+  

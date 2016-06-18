@@ -1,0 +1,4565 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 22
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 2
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: invalid element name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 24
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 2
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      End tag : expected '>'
+    domain: 5
+    code: 73
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 62
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Unexpected end tag : scr
+    domain: 5
+    code: 76
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 62
+    str1: scr
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 179
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 108
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-o8ahzo"
+    line: 793
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 105
+address: http://www.gdconf.com
+inboundLinks: []
+lines:
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\t\n"
+- "            \r\n"
+- "\t\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\tContact Us\r\n"
+- "\t\t\tNewsletter\r\n"
+- "\t\t\tMedia\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\tEnglish普通话日本語한국어\r\n"
+- "\t\t Choose a language:\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\t$(document).ready(function(){\r\n"
+- "\t\t\t$(function(){\r\n"
+- "\t\t\t\t$('.customselect').bind('change', function () {\r\n"
+- "\t\t\t\t\tvar url = $(this).val(); // get selected value\r\n"
+- "\t\t\t\t\tif (url) { // require a URL\r\n"
+- "\t\t\t\t\t\twindow.location = url; // redirect\r\n"
+- "\t\t\t\t\t}\r\n"
+- "\t\t\t\t\treturn false;\r\n"
+- "\t\t\t\t});\r\n"
+- "\t\t\t});\r\n"
+- "\t\t});\r\n"
+- "\t            \t\n"
+- "                \n"
+- "                    \n"
+- "                        \n"
+- "                            \n"
+- "                            \n"
+- "                            \n"
+- "                        \n"
+- "                    \n"
+- "                \n"
+- "            \n"
+- "\t\t\t\n"
+- "            \t   \n"
+- "            \t\t\n"
+- "          \t\t  \t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\tABOUT Info & Resources\r\n"
+- "\t\t\t\tAbout GDC\r\n"
+- "\t\t\t\t\tFAQ\r\n"
+- "                    Advisory Board\r\n"
+- "                    Media Partners\r\n"
+- "                    Media Resources\r\n"
+- "                    Contact\r\n"
+- "                    Newsletter Sign-Up\r\n"
+- "                    Newsletter Archive\r\n"
+- "  \t\t\t\t\tGame Network Newsletter Archive\r\n"
+- "                    Photos\r\n"
+- "                    Downloads\r\n"
+- "\t\t\t\t       \r\n"
+- "\t\t  ATTEND Registration & Travel\t\r\n"
+- "\t\t\t\tWhy Attend?\r\n"
+- "                    Passes & Prices\r\n"
+- "                    Register\r\n"
+- "                    Conference Associates\r\n"
+- "                    Registration Policies\r\n"
+- "                    Code of Conduct\r\n"
+- "                    Travel & Hotels\r\n"
+- "                    Childcare Services\r\n"
+- "                    Hours & Location\r\n"
+- "                    Low Income Attendee Pass Lottery\r\n"
+- "                    Scholarships\r\n"
+- "                \r\n"
+- "            \r\n"
+- "            \tCONFERENCE Sessions & Speakers\t\r\n"
+- "            \tSession Scheduler\r\n"
+- "                \t\r\n"
+- "            \t\r\n"
+- "            \t\tConference Overview\r\n"
+- "            \t\tVirtual Reality\r\n"
+- "                    \tVRDC Overview\r\n"
+- "                            Game AR/VR Track\r\n"
+- "                            Entertainment AR/VR Track\r\n"
+- "                            Sponsorship\r\n"
+- "                        \r\n"
+- "                    Classic Game Postmortems\r\n"
+- "            \t\tSpeakers\r\n"
+- "            \t\tSummits\r\n"
+- "            \t\t\tSummits Overview\r\n"
+- "                            AI\r\n"
+- "                            Community Management\r\n"
+- "                            eSports\r\n"
+- "            \t\t\t\tFree to Play\r\n"
+- "                            Game Narrative\r\n"
+- "                            GDC Education\r\n"
+- "                            Independent Games\r\n"
+- "                            Smartphone & Tablet Games\r\n"
+- "           \t\t\t\t \r\n"
+- "            \t\tTutorials & Bootcamps\r\n"
+- "                    Sponsored Sessions\r\n"
+- "            \t\tDeveloper Days\r\n"
+- "                    Monetization (sponsored)  \r\n"
+- "            \t\tCall for Submissions\r\n"
+- "                    \tMain Conference\r\n"
+- "                            Summits\r\n"
+- "                            VRDC\r\n"
+- "                            FAQ\r\n"
+- "                        \r\n"
+- "                \r\n"
+- "          EXHIBITExhibitors & Sponsors\r\n"
+- "            \tExhibitor Sales\r\n"
+- "\t\t\t\t Exhibitor Sales\r\n"
+- "                    Career Center\r\n"
+- "\t\t\t\t\tGDC Play\r\n"
+- "\t\t\t\t \r\n"
+- "                Exhibitors\r\n"
+- "                Diamond Partners\r\n"
+- "                Sponsors\r\n"
+- "                Floor Plan\r\n"
+- "                Exhibitor Services\r\n"
+- "                Exhibitor Registration\r\n"
+- "                 \r\n"
+- "           EVENTSParties, Awards & More\t\r\n"
+- "            \t Events\r\n"
+- "               Parties & Networking \r\n"
+- "               Choice  Awards\r\n"
+- "               Independent Games Festival\r\n"
+- "               General Session\r\n"
+- "               Career Center \r\n"
+- "               GDC Play\r\n"
+- "               \t\tGDC   Pitch\r\n"
+- "                        Best in Play\r\n"
+- "\t\t\t\t\t\r\n"
+- "               \r\n"
+- "\t\t\t\tGDC Business Matchmaking\r\n"
+- "\t\t\t\tGame Career Seminar \r\n"
+- "                             \r\n"
+- "            \t\r\n"
+- "\t\t \t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "    \n"
+- "            \t\t\n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "                    \n"
+- "\t\t\t\t\t\t\n"
+- |2+
+
+- |2+
+
+- "     \t  \n"
+- |2+
+
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\t\t$(function(){\n"
+- "\t\t\t$('#slides').slides({\n"
+- "\t\t\t\tpreload: true,\n"
+- "\t\t\t\tpreloadImage: 'img/home_slider/loading.gif',\n"
+- "\t\t\t\tplay: 5000,\n"
+- "\t\t\t\tpause: 2500,\n"
+- "\t\t\t\thoverPause: true,\n"
+- "\t\t\t\tanimationStart: function(current){\n"
+- "\t\t\t\t\t$('.caption').animate({\n"
+- "\t\t\t\t\t\tbottom:-95\n"
+- "\t\t\t\t\t},100);\n"
+- "\t\t\t\t\tif (window.console && console.log) {\n"
+- "\t\t\t\t\t\t// example return of current slide number\n"
+- "\t\t\t\t\t\tconsole.log('animationStart on slide: ', current);\n"
+- "\t\t\t\t\t};\n"
+- "\t\t\t\t},\n"
+- "\t\t\t\tanimationComplete: function(current){\n"
+- "\t\t\t\t\t$('.caption').animate({\n"
+- "\t\t\t\t\t\tbottom:0\n"
+- "\t\t\t\t\t},200);\n"
+- "\t\t\t\t\tif (window.console && console.log) {\n"
+- "\t\t\t\t\t\t// example return of current slide number\n"
+- "\t\t\t\t\t\tconsole.log('animationComplete on slide: ', current);\n"
+- "\t\t\t\t\t};\n"
+- "\t\t\t\t},\n"
+- "\t\t\t\tslidesLoaded: function() {\n"
+- "\t\t\t\t\t$('.caption').animate({\n"
+- "\t\t\t\t\t\tbottom:0\n"
+- "\t\t\t\t\t},200);\n"
+- "\t\t\t\t}\n"
+- "\t\t\t});\n"
+- "\t\t});\n"
+- "\t\n"
+- "    \t\n"
+- "\t\t\t\t\n"
+- |2+
+
+- "\t\t\t    \n"
+- "\t\t\t\t\t  Meet VRDC's new Advisory Board Members! San Francisco's Premiere VR
+  and AR event!   Learn more here  \n"
+- "\t\t\t  \n"
+- "\t\t\t\t\t  \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t  New session announced!Creating the NPCs of Tom Clancy's The Division!
+  \      Learn more here  \n"
+- "\t\t\t  \n"
+- "\t\t\t\t\t      \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t  New session announced!A Torch in the Dark: Using Creative Direction
+  to Light The Darkest Dungeon!       Learn more here  \n"
+- "\t\t\t  \n"
+- "\t\t\t\t\t    \n"
+- "                    \n"
+- "               \n"
+- "\t\t\t\t\t  New session announced!The Game Outcomes Project: How Teamwork, Leadership,
+  and Culture Drive Results!       Learn more here  \n"
+- "\t\t\t  \n"
+- "\t\t\t\t\t         \n"
+- "                    \n"
+- "                \n"
+- "\t\t\t\t\t  New session announced!Simulating the Race Day Experience: Mixing Forza
+  Motorsport 6!       Learn more here  \n"
+- "\t\t\t  \n"
+- "\t\t\t\t\t        \n"
+- "                    \n"
+- "                \n"
+- "                 \n"
+- "                 \n"
+- |2
+                   New session announced!Rendering Rainbow Six | Siege!       Learn more here  
+- "\t\t\t  \n"
+- "\t\t\t\t\t         \n"
+- "                    \n"
+- "                   \n"
+- "                    \n"
+- "  \n"
+- |2+
+
+- "\t\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "    \n"
+- |2+
+
+- |2+
+
+- "\t\t\tGDC News\n"
+- |2
+                  All News
+- |2+
+
+- |2
+           
+- |2+
+
+- |2
+          GDC Updates
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- |2
+   GDC 2016 Registration Now Open!
+- "                                   Come celebrate GDC's 30th edition  March 14-18,
+  2016 in San Francisco! Register now  \n"
+- "          \n"
+- |2+
+
+- "        \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t\n"
+- "        \tDIAMOND PARTNERS\n"
+- |2+
+
+- "            \n"
+- "\t\t\t\t$('#sponsor-rotation').cycle({\n"
+- "\t\t\t\t\tfx:'fade',\n"
+- "\t\t\t\t\ttimeout:3000,\n"
+- "\t\t\t\t\tdelay:-3000\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "                \n"
+- "                \t\n"
+- "                \n"
+- "            \n"
+- |2+
+
+- |2+
+
+- |2
+               
+- "          \n"
+- |2+
+
+- |2+
+
+- "        \t\n"
+- |2+
+
+- |2
+             
+- |2+
+
+- |2
+            WHO'S HIRING @ GDC
+- "        \n"
+- "                        \n"
+- "\t\t\t\t\t\t\t\n"
+- |2+
+
+- "          \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\n"
+- "                    \t\n"
+- "                    \t\t\n"
+- "                    \t\t\n"
+- "                    \n"
+- "                    \n"
+- "                    \t\t\n"
+- "                    \t\r\n"
+- " \r\n"
+- "    \r\n"
+- "     \r\n"
+- "\r\n"
+- "Shortcuts\r\n"
+- "\r\n"
+- "\tAdvocacy\r\n"
+- "          Audio\r\n"
+- "          Bus., Mktg. & Mgmt.\r\n"
+- "          Design\r\n"
+- "          Monetization (sponsored)\r\n"
+- "          Production\r\n"
+- "          Programming\r\n"
+- "          Visual Arts\r\n"
+- "          VRDC\r\n"
+- "          Summits\r\n"
+- "          Tutorials & Bootcamps\r\n"
+- "          Developer Days\r\n"
+- "     \r\n"
+- "      \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "          \r\n"
+- "     \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "     \r\n"
+- "Follow Us \r\n"
+- "  \r\n"
+- "    Facebook\r\n"
+- "      Twitter\r\n"
+- "    LinkedIn\r\n"
+- "      Instagram\r\n"
+- "    Pinterest\r\n"
+- "      Vine\r\n"
+- "  \r\n"
+- "\r\n"
+- "    \r\n"
+- "    \r\n"
+- "    \r\n"
+- "        \r\n"
+- "        \r\n"
+- "         \r\n"
+- "          googletag.display('div-gpt-ad-116449540697960974-1');\r\n"
+- "         \r\n"
+- "        \r\n"
+- "    \r\n"
+- "        \n"
+- "                    \t\n"
+- "                    \n"
+- "\t\t\t\t\n"
+- "\t\t\t\n"
+- "            \r\n"
+- "     \r\n"
+- "\r\n"
+- "\r\n"
+- "\t \r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- |2+
+
+- "\tvar ctrNews = 1;\n"
+- "\tvar newsStopRotation = false;\n"
+- "\tfunction rotateNews()\n"
+- "\t{\n"
+- "\t\tif (newsStopRotation) return;\n"
+- "\t\tctrNews++;\n"
+- "\t\tif(ctrNews>4) ctrNews = 1;\n"
+- |2+
+
+- "\t\tvar itm=$('#mainnews_' + ctrNews);\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\t//Set Variables\n"
+- "\t\tvar imgAlt = itm.find('img').attr(\"alt\"); //Get Alt Tag of Image\n"
+- "\t\tvar imgTitle = itm.find('a').attr(\"href\"); //Get Main Image URL\n"
+- "\t\tvar imgDesc = itm.find('.block').html(); \t//Get HTML of block\n"
+- "\t\tvar imgDescHeight = $(\".main_image\").find('.block').height();\t//Calculate
+  height of block\n"
+- |2+
+
+- "\t\tif (itm.is(\".active\")) {  //If it's already active, then...\n"
+- "\t\tsetTimeout('rotateNews()',3000);\n"
+- "\t\t\treturn true; // Don't click through\n"
+- "\t\t} else {\n"
+- "\t\t\t//Animate the Teaser\n"
+- "\t\t\t//$(\".main_image .block\").animate({ opacity: 0, marginBottom: -imgDescHeight
+  }, 250 , function() {\n"
+- "\t\t\t//\t$(\".main_image .block\").html(imgDesc).animate({ opacity: 0.85,\tmarginBottom:
+  \"0\" }, 250 );\n"
+- "\t\t\t\t$(\".main_image img\").attr({ src: imgTitle , alt: imgAlt});\n"
+- "\t\t\t//});\n"
+- "\t\t}\n"
+- |2+
+
+- "\t\t$(\".image_thumb ul li\").removeClass('active'); //Remove class of 'active'
+  on all lists\n"
+- "\t\titm.addClass('active');  //add class of 'active' on this list only\n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\t\tsetTimeout('rotateNews()',3000);\n"
+- "\t\treturn true;\n"
+- "\t}\n"
+- |2+
+
+- |
+  $(document).ready(function() {
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- |2+
+
+- "\tsetTimeout('rotateNews()',3000);\n"
+- "\t//Show Banner\n"
+- "\t$(\".main_image .desc\").show(); //Show Banner\n"
+- "\t$(\".main_image .block\").animate({ opacity: 0.85 }, 1 ); //Set Opacity\n"
+- |2+
+
+- "\t//Click and Hover events for thumbnail list\n"
+- "\t$(\".image_thumb ul li:first\").addClass('active');\n"
+- "\t$(\".image_thumb ul li\").click(function(){\n"
+- "\t\tnewsStopRotation = true;\n"
+- "\t\t//Set Variables\n"
+- "\t\tvar imgAlt = $(this).find('img').attr(\"alt\"); //Get Alt Tag of Image\n"
+- "\t\tvar imgTitle = $(this).find('a').attr(\"href\"); //Get Main Image URL\n"
+- "\t\tvar imgDesc = $(this).find('.block').html(); \t//Get HTML of block\n"
+- "\t\tvar imgDescHeight = $(\".main_image\").find('.block').height();\t//Calculate
+  height of block\n"
+- |2+
+
+- "\t\tif ($(this).is(\".active\")) {  //If it's already active, then...\n"
+- "\t\t\treturn true; // Don't click through\n"
+- "\t\t} else {\n"
+- "\t\t\t//Animate the Teaser\n"
+- "\t\t\t//$(\".main_image .block\").animate({ opacity: 0, marginBottom: -imgDescHeight
+  }, 250 , function() {\n"
+- "\t\t\t//\t$(\".main_image .block\").html(imgDesc).animate({ opacity: 0.85,\tmarginBottom:
+  \"0\" }, 250 );\n"
+- "\t\t\t\t$(\".main_image img\").attr({ src: imgTitle , alt: imgAlt});\n"
+- "\t\t\t//});\n"
+- "\t\t}\n"
+- |2+
+
+- "\t\t$(\".image_thumb ul li\").removeClass('active'); //Remove class of 'active'
+  on all lists\n"
+- "\t\t$(this).addClass('active');  //add class of 'active' on this list only\n"
+- "\t\treturn true;\n"
+- |2+
+
+- "\t}) .hover(function(){\n"
+- "\t\t$(this).addClass('hover');\n"
+- "\t\t}, function() {\n"
+- "\t\t$(this).removeClass('hover');\n"
+- "\t});\n"
+- |2+
+
+- "\t//Toggle Teaser\n"
+- "\t$(\"a.collapse\").click(function(){\n"
+- "\t\t$(\".main_image .block\").slideToggle();\n"
+- "\t\t$(\"a.collapse\").toggleClass(\"show\");\n"
+- "\t});\n"
+- |2+
+
+- |
+  });//Close Function
+- |2+
+
+- "\t\t\t$(document).ready(function(){\n"
+- "\t\t\t\t$(\".c9d-domain-switcher\").hover(\n"
+- "\t\t\t\tfunction(){\n"
+- "\t\t\t\t$(\"#domain-switcher-list\", this).slideDown('slow', function(){\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\t},\n"
+- "\t\t\t\tfunction(){\n"
+- "\t\t\t\t$(\"#domain-switcher-list\", this).stop(true,true);\n"
+- "\t\t\t\t$(\"#domain-switcher-list\", this).slideUp('fast', function(){\t\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t$(\"#cssmenu li.cssmenu_item\").hover(\n"
+- "\t\t\t\tfunction(){\n"
+- "\t\t\t\t//$(\"ul.cssmenu_sub\", this).stop(true,true);\n"
+- "\t\t\t\t$(\"ul.cssmenu_sub\", this).slideDown('slow', function(){\t\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\t},\n"
+- "\t\t\t\tfunction(){\t\n"
+- "\t\t\t\t$(\"ul.cssmenu_sub\", this).stop(true,true);\n"
+- "\t\t\t\t$(\"ul.cssmenu_sub\", this).slideUp('slow', function(){\t\n"
+- "\t\t\t\t});\n"
+- "\t\t\t\t});\n"
+- "\t\t\t});\t\t\t\n"
+- "        \n"
+- "\t\t/*\n"
+- "\t\t$(\".question\").toggle(function () {\n"
+- "\t\t\t$( this ).children( \".answer\" ).show(\"slow\"); \n"
+- "\t\t\t$( this ).css(\"font-weight\", \"bold\"); \n"
+- "\t\t\t$( this ).children( \".answer\" ).css(\"font-weight\", \"normal\"); \n"
+- "\t\t\t$( this ).css(\"background\", \"url(/img/arrow_up_question.png) no-repeat\").css(\"background-position\",
+  \"top right\");\n"
+- "\t\t\t}, \n"
+- "\t\t\tfunction () {\n"
+- "\t\t\t$( this ).children( \".answer\" ).hide(\"slow\");\n"
+- "\t\t\t$( this ).css(\"font-weight\", \"normal\"); \n"
+- "\t\t\t$( this ).css(\"background\", \"url(/img/arrow_down_question.png) no-repeat\").css(\"background-position\",
+  \"top right\");\n"
+- "\t\t});\n"
+- "\t\t*/\n"
+- "\t\t$( \".question_controller\" ).click(function() {\n"
+- "\t\t\t$( this ).next(\".question\").children( \".answer\" ).toggle( \"slow\", function()
+  {\n"
+- "\t\t\t\t// Animation complete.\n"
+- "\t\t\t});\n"
+- "\t\t});\n"
+- "    \n"
+- "\t\t/*\n"
+- "\t\t$(\".descrip\").toggle(function () {\n"
+- "\t\t\t$( this ).children( \".hiddenDescrip\" ).slideDown(\"slow\");\n"
+- "\t\t\t$( this ).css(\"background\", \"url(/img/arrow_up_track.jpg) no-repeat\");\n"
+- "\t\t\t}, \n"
+- "\t\t\tfunction () { \n"
+- "\t\t\t$( this ).children( \".hiddenDescrip\" ).slideUp(\"slow\");\n"
+- "\t\t\t$( this ).css(\"background\", \"url(/img/arrow_down_track.jpg) no-repeat\");\n"
+- "\t\t});\n"
+- "\t\t*/\n"
+- "\t\t$( \".descrip\" ).click(function() {\n"
+- "\t\t\t$( this ).children( \".hiddenDescrip\" ).toggle( \"slow\", function() {\n"
+- "\t\t\t\t// Animation complete.\n"
+- "\t\t\t});\n"
+- "\t\t});\n"
+- "    \n"
+- "\t\t// When the document loads do everything inside here ...\n"
+- "\t\t$(document).ready(function(){\n"
+- "\t\t\t// When a link is clicked\n"
+- "\t\t\t$(\"a.tab\").click(function () {\n"
+- "\t\t\t\t// switch all tabs off\n"
+- "\t\t\t\t$(\".active\").removeClass(\"active\");\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t// switch this tab on\n"
+- "\t\t\t\t$(this).addClass(\"active\");\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t// slide all elements with the class 'content' up\n"
+- "\t\t\t\t//$(\".content\").slideUp();\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t// hide all elements with class 'content' \n"
+- "\t\t\t\t$(\".content\").fadeOut();\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t// Now figure out what the 'title' attribute value is and find the element
+  with that id.  Then slide that down.\n"
+- "\t\t\t\t//var content_show = $(this).attr(\"title\");\n"
+- "\t\t\t\t//$(\"#\"+content_show).slideDown();\n"
+- "\t\t\t\t\n"
+- "\t\t\t\t// Now figure out what the 'title' attribute value is and find the element
+  with that id.  Then show that.\n"
+- "\t\t\t\tvar content_show = $(this).attr(\"title\");\n"
+- "\t\t\t\t$(\"#\"+content_show).fadeIn();\n"
+- "\t\t\t});\n"
+- "\t\t});\n"
+- "    \n"
+- "    <!-- \n"
+- |2
+      //var divs = ['firstdiv', 'seconddiv', 'thirddiv', 'fourthdiv', 'fifthdiv'];
+- |2
+      function changeBGColor(a){
+- |2
+      //for(i=0; i<divs.length; i++){
+- |2
+      //document.getElementById(divs[i]).style.backgroundImage = 'url(image1.gif)';
+- |2
+      //}
+- |2
+      document.getElementById("tabsimagemap").style.backgroundImage = 'url(' + a + ')';
+- |2
+      }
+- |2
+      // -->
+- "    \r\n"
+- "var _bizo_data_partner_id = \"1816\";\r\n"
+- "\r\n"
+- "(function(){var b,a,u;a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=true;u=(window.location.protocol===\"https:\"?\"https://sjs.\":\"http://js.\")+\"bizographics.com/insight.min.js\";a.src=u;b=document.getElementsByTagName(\"script\")[0];return
+  b.parentNode.insertBefore(a,b)})();\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n"
+- "  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n"
+- "  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n"
+- "  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n"
+- "\r\n"
+- "  ga('create', 'UA-11233174-1', 'auto');\r\n"
+- "  ga('require', 'displayfeatures');\r\n"
+- "  ga('send', 'pageview');\r\n"
+- "\r\n"
+- "adroll_adv_id = \"TQSV74R4GVCSJITSZC2MCP\";\r\n"
+- "adroll_pix_id = \"ACPJ7LN56VBITNNAUDPDMG\";\r\n"
+- "(function () {\r\n"
+- "var oldonload = window.onload;\r\n"
+- "window.onload = function(){\r\n"
+- "   __adroll_loaded=true;\r\n"
+- "   var scr = document.createElement(\"script\");\r\n"
+- "   var host = ((\"https:\" == document.location.protocol) ? \"https://s.adroll.com\"
+  : \"http://a.adroll.com\");\r\n"
+- "   scr.setAttribute('async', 'true');\r\n"
+- "   scr.type = \"text/javascript\";\r\n"
+- "   scr.src = host + \"/j/roundtrip.js\";\r\n"
+- "   ((document.getElementsByTagName('head') || [null])[0] ||\r\n"
+- "    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);\r\n"
+- "   if(oldonload){oldonload()}};\r\n"
+- "}());\r\n"
+- "\r\n"
+- "var beacon = new UBM.Beacon({environment: 'p', apiKey: '47ae314605696c79c98549be597cbef666db06848258a98042d91dcc9cf8f460'});\r\n"
+- "<!--\r\n"
+- "/* You may give each page an identifying name, server, and channel on\r\n"
+- "the next lines. */\r\n"
+- "s.pageName=\"\";\r\n"
+- "s.server=\"\";\r\n"
+- "s.channel=\"\"\r\n"
+- "s.pageType=\"\"\r\n"
+- "s.prop1=\"\";\r\n"
+- "s.prop2=\"\";\r\n"
+- "s.prop3=\"\";\r\n"
+- "s.prop4=\"\";\r\n"
+- "s.prop5=\"\";\r\n"
+- "/* Conversion Variables */\r\n"
+- "s.campaign=\"\";\r\n"
+- "s.state=\"\";\r\n"
+- "s.zip=\"\";\r\n"
+- "s.events=\"event5\";\r\n"
+- "s.products=\"\";\r\n"
+- "s.purchaseID=\"\";\r\n"
+- "s.eVar1=\"\";\r\n"
+- "s.eVar2=\"\";\r\n"
+- "s.eVar3=\"\";\r\n"
+- "s.eVar4=\"\";\r\n"
+- "s.eVar5=\"\";\r\n"
+- "/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\r\n"
+- "var s_code=s.t();if(s_code)document.write(s_code)//--><!--\r\n"
+- "if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\\!-'+'-')\r\n"
+- "//-->\r\n"
+- "\r\n"
+- "\r\n"
+- |2
+   San Francisco's Premiere VR and AR event!   Learn more here  Creating the NPCs of Tom Clancy's The Division!       Learn more here  A Torch in the Dark: Using Creative Direction to Light The Darkest Dungeon!       Learn more here  The Game Outcomes Project: How Teamwork, Leadership, and Culture Drive Results!       Learn more here  Simulating the Race Day Experience: Mixing Forza Motorsport 6!       Learn more here  Rendering Rainbow Six | Siege!       Learn more here   All News
+- |2+
+
+- "        Come celebrate GDC's 30th edition  March 14-18, 2016 in San Francisco!
+  Register now "
+index:
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 57
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 14
+    - 352
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 5.0
+    docPositions:
+    - 15
+    - 58
+    - 59
+    - 60
+  media: !ruby/object:Word
+    word: media
+    stem: media
+    docFrequency: 4.0
+    docPositions:
+    - 16
+    - 55
+    - 56
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 2.0
+    docPositions:
+    - 19
+  choose: !ruby/object:Word
+    word: choose
+    stem: choos
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 2.0
+    docPositions:
+    - 20
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 110.0
+    docPositions:
+    - 23
+    - 24
+    - 25
+    - 159
+    - 160
+    - 167
+    - 169
+    - 171
+    - 176
+    - 178
+    - 180
+    - 185
+    - 187
+    - 263
+    - 354
+    - 355
+    - 356
+    - 357
+    - 358
+    - 359
+    - 403
+    - 412
+    - 413
+    - 414
+    - 415
+    - 416
+    - 420
+    - 430
+    - 437
+    - 438
+    - 439
+    - 441
+    - 442
+    - 443
+    - 445
+    - 453
+    - 454
+    - 455
+    - 456
+    - 457
+    - 461
+    - 462
+    - 465
+    - 466
+    - 467
+    - 468
+    - 471
+    - 472
+    - 473
+    - 474
+    - 477
+    - 479
+    - 480
+    - 482
+    - 486
+    - 487
+    - 491
+    - 493
+    - 494
+    - 498
+    - 499
+    - 505
+    - 506
+    - 507
+    - 508
+    - 509
+    - 512
+    - 513
+    - 514
+    - 517
+    - 518
+    - 519
+    - 524
+    - 525
+    - 526
+    - 529
+    - 530
+    - 533
+    - 534
+    - 535
+    - 539
+    - 540
+    - 541
+    - 542
+    - 543
+    - 544
+    - 546
+    - 547
+    - 549
+    - 550
+    - 552
+    - 553
+    - 555
+    - 556
+    - 557
+    - 559
+    - 561
+    - 566
+    - 568
+    - 569
+    - 577
+    - 584
+    - 585
+    - 587
+    - 595
+    - 604
+    - 611
+    - 622
+    - 634
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 17.0
+    docPositions:
+    - 23
+    - 430
+    - 479
+    - 539
+    - 540
+    - 569
+    - 571
+    - 577
+    - 587
+    - 599
+    - 600
+    - 604
+    - 605
+    - 635
+    - 636
+  ready: !ruby/object:Word
+    word: ready
+    stem: readi
+    docFrequency: 5.0
+    docPositions:
+    - 23
+    - 430
+    - 479
+    - 540
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 42.0
+    docPositions:
+    - 23
+    - 24
+    - 25
+    - 159
+    - 166
+    - 175
+    - 184
+    - 392
+    - 414
+    - 430
+    - 443
+    - 455
+    - 465
+    - 467
+    - 472
+    - 477
+    - 479
+    - 481
+    - 482
+    - 485
+    - 487
+    - 492
+    - 494
+    - 497
+    - 499
+    - 505
+    - 511
+    - 517
+    - 518
+    - 524
+    - 528
+    - 533
+    - 534
+    - 540
+    - 542
+    - 567
+    - 577
+    - 584
+    - 595
+    - 597
+  customselect: !ruby/object:Word
+    word: customselect
+    stem: customselect
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  bind: !ruby/object:Word
+    word: bind
+    stem: bind
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  change: !ruby/object:Word
+    word: change
+    stem: chang
+    docFrequency: 2.0
+    docPositions:
+    - 25
+  url: !ruby/object:Word
+    word: url
+    stem: url
+    docFrequency: 13.0
+    docPositions:
+    - 26
+    - 27
+    - 28
+    - 405
+    - 447
+    - 509
+    - 514
+    - 526
+    - 530
+    - 569
+    - 571
+  val: !ruby/object:Word
+    word: val
+    stem: val
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  get: !ruby/object:Word
+    word: get
+    stem: get
+    docFrequency: 8.0
+    docPositions:
+    - 26
+    - 404
+    - 405
+    - 406
+    - 446
+    - 447
+    - 448
+  selected: !ruby/object:Word
+    word: selected
+    stem: select
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  value: !ruby/object:Word
+    word: value
+    stem: valu
+    docFrequency: 4.0
+    docPositions:
+    - 26
+    - 555
+    - 559
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 13.0
+    docPositions:
+    - 27
+    - 170
+    - 179
+    - 394
+    - 396
+    - 409
+    - 451
+    - 606
+    - 635
+    - 636
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 27
+    - 590
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 8.0
+    docPositions:
+    - 28
+    - 170
+    - 179
+    - 577
+    - 587
+    - 596
+    - 597
+  location: !ruby/object:Word
+    word: location
+    stem: locat
+    docFrequency: 5.0
+    docPositions:
+    - 28
+    - 73
+    - 577
+    - 600
+  redirect: !ruby/object:Word
+    word: redirect
+    stem: redirect
+    docFrequency: 2.0
+    docPositions:
+    - 28
+  return: !ruby/object:Word
+    word: return
+    stem: return
+    docFrequency: 10.0
+    docPositions:
+    - 30
+    - 171
+    - 180
+    - 394
+    - 411
+    - 427
+    - 452
+    - 463
+    - 577
+  'false': !ruby/object:Word
+    word: 'false'
+    stem: fals
+    docFrequency: 3.0
+    docPositions:
+    - 30
+    - 391
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 51
+  resources: !ruby/object:Word
+    word: resources
+    stem: resourc
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 56
+  gdc: !ruby/object:Word
+    word: gdc
+    stem: gdc
+    docFrequency: 13.0
+    docPositions:
+    - 52
+    - 98
+    - 117
+    - 133
+    - 134
+    - 138
+    - 241
+    - 246
+    - 251
+    - 252
+    - 304
+    - 642
+  faq: !ruby/object:Word
+    word: faq
+    stem: faq
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 110
+  advisory: !ruby/object:Word
+    word: advisory
+    stem: advisori
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 196
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 196
+  partners: !ruby/object:Word
+    word: partners
+    stem: partner
+    docFrequency: 4.0
+    docPositions:
+    - 55
+    - 120
+    - 260
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 549
+  archive: !ruby/object:Word
+    word: archive
+    stem: archiv
+    docFrequency: 3.0
+    docPositions:
+    - 59
+    - 60
+  game: !ruby/object:Word
+    word: game
+    stem: game
+    docFrequency: 8.0
+    docPositions:
+    - 60
+    - 85
+    - 89
+    - 97
+    - 139
+    - 211
+    - 640
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  photos: !ruby/object:Word
+    word: photos
+    stem: photo
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  downloads: !ruby/object:Word
+    word: downloads
+    stem: download
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  attend: !ruby/object:Word
+    word: attend
+    stem: attend
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 65
+  registration: !ruby/object:Word
+    word: registration
+    stem: registr
+    docFrequency: 5.0
+    docPositions:
+    - 64
+    - 69
+    - 124
+    - 251
+  travel: !ruby/object:Word
+    word: travel
+    stem: travel
+    docFrequency: 3.0
+    docPositions:
+    - 64
+    - 71
+  why: !ruby/object:Word
+    word: why
+    stem: why
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  passes: !ruby/object:Word
+    word: passes
+    stem: pass
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  prices: !ruby/object:Word
+    word: prices
+    stem: price
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  register: !ruby/object:Word
+    word: register
+    stem: regist
+    docFrequency: 4.0
+    docPositions:
+    - 67
+    - 252
+    - 642
+  conference: !ruby/object:Word
+    word: conference
+    stem: confer
+    docFrequency: 5.0
+    docPositions:
+    - 68
+    - 78
+    - 82
+    - 107
+  associates: !ruby/object:Word
+    word: associates
+    stem: associ
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  policies: !ruby/object:Word
+    word: policies
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 69
+  code: !ruby/object:Word
+    word: code
+    stem: code
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  conduct: !ruby/object:Word
+    word: conduct
+    stem: conduct
+    docFrequency: 2.0
+    docPositions:
+    - 70
+  hotels: !ruby/object:Word
+    word: hotels
+    stem: hotel
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  childcare: !ruby/object:Word
+    word: childcare
+    stem: childcar
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 3.0
+    docPositions:
+    - 72
+    - 123
+  hours: !ruby/object:Word
+    word: hours
+    stem: hour
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  low: !ruby/object:Word
+    word: low
+    stem: low
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  income: !ruby/object:Word
+    word: income
+    stem: incom
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  attendee: !ruby/object:Word
+    word: attendee
+    stem: attende
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  pass: !ruby/object:Word
+    word: pass
+    stem: pass
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  lottery: !ruby/object:Word
+    word: lottery
+    stem: lotteri
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  scholarships: !ruby/object:Word
+    word: scholarships
+    stem: scholarship
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  sessions: !ruby/object:Word
+    word: sessions
+    stem: session
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 103
+  speakers: !ruby/object:Word
+    word: speakers
+    stem: speaker
+    docFrequency: 3.0
+    docPositions:
+    - 78
+    - 90
+  session: !ruby/object:Word
+    word: session
+    stem: session
+    docFrequency: 8.0
+    docPositions:
+    - 79
+    - 131
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+  scheduler: !ruby/object:Word
+    word: scheduler
+    stem: schedul
+    docFrequency: 2.0
+    docPositions:
+    - 79
+  overview: !ruby/object:Word
+    word: overview
+    stem: overview
+    docFrequency: 4.0
+    docPositions:
+    - 82
+    - 84
+    - 92
+  virtual: !ruby/object:Word
+    word: virtual
+    stem: virtual
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  reality: !ruby/object:Word
+    word: reality
+    stem: realiti
+    docFrequency: 2.0
+    docPositions:
+    - 83
+  vrdc: !ruby/object:Word
+    word: vrdc
+    stem: vrdc
+    docFrequency: 5.0
+    docPositions:
+    - 84
+    - 109
+    - 196
+    - 335
+  ar: !ruby/object:Word
+    word: ar
+    stem: ar
+    docFrequency: 5.0
+    docPositions:
+    - 85
+    - 86
+    - 196
+    - 640
+  vr: !ruby/object:Word
+    word: vr
+    stem: vr
+    docFrequency: 5.0
+    docPositions:
+    - 85
+    - 86
+    - 196
+    - 640
+  track: !ruby/object:Word
+    word: track
+    stem: track
+    docFrequency: 3.0
+    docPositions:
+    - 85
+    - 86
+  entertainment: !ruby/object:Word
+    word: entertainment
+    stem: entertain
+    docFrequency: 2.0
+    docPositions:
+    - 86
+  sponsorship: !ruby/object:Word
+    word: sponsorship
+    stem: sponsorship
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  classic: !ruby/object:Word
+    word: classic
+    stem: classic
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  postmortems: !ruby/object:Word
+    word: postmortems
+    stem: postmortem
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  summits: !ruby/object:Word
+    word: summits
+    stem: summit
+    docFrequency: 5.0
+    docPositions:
+    - 91
+    - 92
+    - 108
+    - 336
+  ai: !ruby/object:Word
+    word: ai
+    stem: ai
+    docFrequency: 2.0
+    docPositions:
+    - 93
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  management: !ruby/object:Word
+    word: management
+    stem: manag
+    docFrequency: 2.0
+    docPositions:
+    - 94
+  esports: !ruby/object:Word
+    word: esports
+    stem: esport
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  play: !ruby/object:Word
+    word: play
+    stem: plai
+    docFrequency: 6.0
+    docPositions:
+    - 96
+    - 117
+    - 133
+    - 135
+    - 163
+  narrative: !ruby/object:Word
+    word: narrative
+    stem: narr
+    docFrequency: 2.0
+    docPositions:
+    - 97
+  education: !ruby/object:Word
+    word: education
+    stem: educ
+    docFrequency: 2.0
+    docPositions:
+    - 98
+  independent: !ruby/object:Word
+    word: independent
+    stem: independ
+    docFrequency: 3.0
+    docPositions:
+    - 99
+    - 130
+  games: !ruby/object:Word
+    word: games
+    stem: game
+    docFrequency: 4.0
+    docPositions:
+    - 99
+    - 100
+    - 130
+  smartphone: !ruby/object:Word
+    word: smartphone
+    stem: smartphon
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  tablet: !ruby/object:Word
+    word: tablet
+    stem: tablet
+    docFrequency: 2.0
+    docPositions:
+    - 100
+  tutorials: !ruby/object:Word
+    word: tutorials
+    stem: tutori
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 337
+  bootcamps: !ruby/object:Word
+    word: bootcamps
+    stem: bootcamp
+    docFrequency: 3.0
+    docPositions:
+    - 102
+    - 337
+  sponsored: !ruby/object:Word
+    word: sponsored
+    stem: sponsor
+    docFrequency: 4.0
+    docPositions:
+    - 103
+    - 105
+    - 331
+  developer: !ruby/object:Word
+    word: developer
+    stem: develop
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 338
+  days: !ruby/object:Word
+    word: days
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 104
+    - 338
+  monetization: !ruby/object:Word
+    word: monetization
+    stem: monet
+    docFrequency: 3.0
+    docPositions:
+    - 105
+    - 331
+  call: !ruby/object:Word
+    word: call
+    stem: call
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  submissions: !ruby/object:Word
+    word: submissions
+    stem: submiss
+    docFrequency: 2.0
+    docPositions:
+    - 106
+  main: !ruby/object:Word
+    word: main
+    stem: main
+    docFrequency: 4.0
+    docPositions:
+    - 107
+    - 405
+    - 447
+  exhibitexhibitors: !ruby/object:Word
+    word: exhibitexhibitors
+    stem: exhibitexhibitor
+    docFrequency: 2.0
+    docPositions:
+    - 113
+  sponsors: !ruby/object:Word
+    word: sponsors
+    stem: sponsor
+    docFrequency: 3.0
+    docPositions:
+    - 113
+    - 121
+  exhibitor: !ruby/object:Word
+    word: exhibitor
+    stem: exhibitor
+    docFrequency: 5.0
+    docPositions:
+    - 114
+    - 115
+    - 123
+    - 124
+  sales: !ruby/object:Word
+    word: sales
+    stem: sale
+    docFrequency: 3.0
+    docPositions:
+    - 114
+    - 115
+  career: !ruby/object:Word
+    word: career
+    stem: career
+    docFrequency: 4.0
+    docPositions:
+    - 116
+    - 132
+    - 139
+  center: !ruby/object:Word
+    word: center
+    stem: center
+    docFrequency: 3.0
+    docPositions:
+    - 116
+    - 132
+  exhibitors: !ruby/object:Word
+    word: exhibitors
+    stem: exhibitor
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  diamond: !ruby/object:Word
+    word: diamond
+    stem: diamond
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 260
+  floor: !ruby/object:Word
+    word: floor
+    stem: floor
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  plan: !ruby/object:Word
+    word: plan
+    stem: plan
+    docFrequency: 2.0
+    docPositions:
+    - 122
+  eventsparties: !ruby/object:Word
+    word: eventsparties
+    stem: eventsparti
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  awards: !ruby/object:Word
+    word: awards
+    stem: award
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 129
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 14.0
+    docPositions:
+    - 126
+    - 196
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+    - 640
+  events: !ruby/object:Word
+    word: events
+    stem: event
+    docFrequency: 4.0
+    docPositions:
+    - 127
+    - 441
+    - 626
+  parties: !ruby/object:Word
+    word: parties
+    stem: parti
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  networking: !ruby/object:Word
+    word: networking
+    stem: network
+    docFrequency: 2.0
+    docPositions:
+    - 128
+  choice: !ruby/object:Word
+    word: choice
+    stem: choic
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  festival: !ruby/object:Word
+    word: festival
+    stem: festiv
+    docFrequency: 2.0
+    docPositions:
+    - 130
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  pitch: !ruby/object:Word
+    word: pitch
+    stem: pitch
+    docFrequency: 2.0
+    docPositions:
+    - 134
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  business: !ruby/object:Word
+    word: business
+    stem: busi
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  matchmaking: !ruby/object:Word
+    word: matchmaking
+    stem: matchmak
+    docFrequency: 2.0
+    docPositions:
+    - 138
+  seminar: !ruby/object:Word
+    word: seminar
+    stem: seminar
+    docFrequency: 2.0
+    docPositions:
+    - 139
+  slides: !ruby/object:Word
+    word: slides
+    stem: slide
+    docFrequency: 3.0
+    docPositions:
+    - 160
+  preload: !ruby/object:Word
+    word: preload
+    stem: preload
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 17.0
+    docPositions:
+    - 161
+    - 165
+    - 411
+    - 427
+    - 444
+    - 452
+    - 463
+    - 486
+    - 493
+    - 498
+    - 577
+    - 598
+    - 601
+  preloadimage: !ruby/object:Word
+    word: preloadimage
+    stem: preloadimag
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  img: !ruby/object:Word
+    word: img
+    stem: img
+    docFrequency: 10.0
+    docPositions:
+    - 162
+    - 404
+    - 416
+    - 446
+    - 457
+    - 509
+    - 514
+    - 526
+    - 530
+  home_slider: !ruby/object:Word
+    word: home_slider
+    stem: home_slid
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  loading: !ruby/object:Word
+    word: loading
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 162
+  gif: !ruby/object:Word
+    word: gif
+    stem: gif
+    docFrequency: 3.0
+    docPositions:
+    - 162
+    - 569
+  pause: !ruby/object:Word
+    word: pause
+    stem: paus
+    docFrequency: 2.0
+    docPositions:
+    - 164
+  hoverpause: !ruby/object:Word
+    word: hoverpause
+    stem: hoverpaus
+    docFrequency: 2.0
+    docPositions:
+    - 165
+  animationstart: !ruby/object:Word
+    word: animationstart
+    stem: animationstart
+    docFrequency: 3.0
+    docPositions:
+    - 166
+    - 172
+  current: !ruby/object:Word
+    word: current
+    stem: current
+    docFrequency: 7.0
+    docPositions:
+    - 166
+    - 171
+    - 172
+    - 175
+    - 180
+    - 181
+  caption: !ruby/object:Word
+    word: caption
+    stem: caption
+    docFrequency: 4.0
+    docPositions:
+    - 167
+    - 176
+    - 185
+  animate: !ruby/object:Word
+    word: animate
+    stem: anim
+    docFrequency: 11.0
+    docPositions:
+    - 167
+    - 176
+    - 185
+    - 413
+    - 414
+    - 415
+    - 439
+    - 454
+    - 455
+    - 456
+  bottom: !ruby/object:Word
+    word: bottom
+    stem: bottom
+    docFrequency: 4.0
+    docPositions:
+    - 168
+    - 177
+    - 186
+  console: !ruby/object:Word
+    word: console
+    stem: consol
+    docFrequency: 7.0
+    docPositions:
+    - 170
+    - 172
+    - 179
+    - 181
+  log: !ruby/object:Word
+    word: log
+    stem: log
+    docFrequency: 5.0
+    docPositions:
+    - 170
+    - 172
+    - 179
+    - 181
+  example: !ruby/object:Word
+    word: example
+    stem: exampl
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 180
+  slide: !ruby/object:Word
+    word: slide
+    stem: slide
+    docFrequency: 7.0
+    docPositions:
+    - 171
+    - 172
+    - 180
+    - 181
+    - 549
+    - 555
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 3.0
+    docPositions:
+    - 171
+    - 180
+  animationcomplete: !ruby/object:Word
+    word: animationcomplete
+    stem: animationcomplet
+    docFrequency: 3.0
+    docPositions:
+    - 175
+    - 181
+  slidesloaded: !ruby/object:Word
+    word: slidesloaded
+    stem: slidesload
+    docFrequency: 2.0
+    docPositions:
+    - 184
+  meet: !ruby/object:Word
+    word: meet
+    stem: meet
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 36.0
+    docPositions:
+    - 196
+    - 201
+    - 252
+    - 304
+    - 409
+    - 451
+    - 584
+    - 585
+    - 586
+    - 600
+    - 613
+    - 614
+    - 615
+    - 616
+    - 617
+    - 618
+    - 619
+    - 620
+    - 621
+    - 623
+    - 624
+    - 625
+    - 626
+    - 627
+    - 628
+    - 629
+    - 630
+    - 631
+    - 632
+    - 633
+    - 635
+    - 640
+    - 642
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 9.0
+    docPositions:
+    - 196
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+    - 585
+    - 609
+  members: !ruby/object:Word
+    word: members
+    stem: member
+    docFrequency: 2.0
+    docPositions:
+    - 196
+  san: !ruby/object:Word
+    word: san
+    stem: san
+    docFrequency: 5.0
+    docPositions:
+    - 196
+    - 252
+    - 640
+    - 642
+  francisco: !ruby/object:Word
+    word: francisco
+    stem: francisco
+    docFrequency: 5.0
+    docPositions:
+    - 196
+    - 252
+    - 640
+    - 642
+  premiere: !ruby/object:Word
+    word: premiere
+    stem: premier
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 640
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 9.0
+    docPositions:
+    - 196
+    - 211
+    - 441
+    - 555
+    - 559
+    - 611
+    - 640
+  event: !ruby/object:Word
+    word: event
+    stem: event
+    docFrequency: 3.0
+    docPositions:
+    - 196
+    - 640
+  learn: !ruby/object:Word
+    word: learn
+    stem: learn
+    docFrequency: 13.0
+    docPositions:
+    - 196
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+    - 640
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 14.0
+    docPositions:
+    - 196
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+    - 539
+    - 640
+  announced: !ruby/object:Word
+    word: announced
+    stem: announc
+    docFrequency: 6.0
+    docPositions:
+    - 201
+    - 206
+    - 211
+    - 216
+    - 223
+  creating: !ruby/object:Word
+    word: creating
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 640
+  npcs: !ruby/object:Word
+    word: npcs
+    stem: npc
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 640
+  tom: !ruby/object:Word
+    word: tom
+    stem: tom
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 640
+  clancy: !ruby/object:Word
+    word: clancy
+    stem: clanci
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 640
+  division: !ruby/object:Word
+    word: division
+    stem: divis
+    docFrequency: 3.0
+    docPositions:
+    - 201
+    - 640
+  torch: !ruby/object:Word
+    word: torch
+    stem: torch
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  dark: !ruby/object:Word
+    word: dark
+    stem: dark
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  creative: !ruby/object:Word
+    word: creative
+    stem: creativ
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  direction: !ruby/object:Word
+    word: direction
+    stem: direct
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  light: !ruby/object:Word
+    word: light
+    stem: light
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  darkest: !ruby/object:Word
+    word: darkest
+    stem: darkest
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  dungeon: !ruby/object:Word
+    word: dungeon
+    stem: dungeon
+    docFrequency: 3.0
+    docPositions:
+    - 206
+    - 640
+  outcomes: !ruby/object:Word
+    word: outcomes
+    stem: outcom
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  project: !ruby/object:Word
+    word: project
+    stem: project
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  teamwork: !ruby/object:Word
+    word: teamwork
+    stem: teamwork
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  leadership: !ruby/object:Word
+    word: leadership
+    stem: leadership
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  culture: !ruby/object:Word
+    word: culture
+    stem: cultur
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  drive: !ruby/object:Word
+    word: drive
+    stem: drive
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 3.0
+    docPositions:
+    - 211
+    - 640
+  simulating: !ruby/object:Word
+    word: simulating
+    stem: simul
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  race: !ruby/object:Word
+    word: race
+    stem: race
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  day: !ruby/object:Word
+    word: day
+    stem: dai
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  experience: !ruby/object:Word
+    word: experience
+    stem: experi
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  mixing: !ruby/object:Word
+    word: mixing
+    stem: mix
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  forza: !ruby/object:Word
+    word: forza
+    stem: forza
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  motorsport: !ruby/object:Word
+    word: motorsport
+    stem: motorsport
+    docFrequency: 3.0
+    docPositions:
+    - 216
+    - 640
+  rendering: !ruby/object:Word
+    word: rendering
+    stem: render
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 640
+  rainbow: !ruby/object:Word
+    word: rainbow
+    stem: rainbow
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 640
+  six: !ruby/object:Word
+    word: six
+    stem: six
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 640
+  siege: !ruby/object:Word
+    word: siege
+    stem: sieg
+    docFrequency: 3.0
+    docPositions:
+    - 223
+    - 640
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 241
+    - 242
+    - 640
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 8.0
+    docPositions:
+    - 242
+    - 420
+    - 461
+    - 543
+    - 549
+    - 552
+    - 640
+  updates: !ruby/object:Word
+    word: updates
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 246
+  now: !ruby/object:Word
+    word: now
+    stem: now
+    docFrequency: 6.0
+    docPositions:
+    - 251
+    - 252
+    - 555
+    - 559
+    - 642
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 2.0
+    docPositions:
+    - 251
+  come: !ruby/object:Word
+    word: come
+    stem: come
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 642
+  celebrate: !ruby/object:Word
+    word: celebrate
+    stem: celebr
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 642
+  edition: !ruby/object:Word
+    word: edition
+    stem: edit
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 642
+  march: !ruby/object:Word
+    word: march
+    stem: march
+    docFrequency: 3.0
+    docPositions:
+    - 252
+    - 642
+  sponsor: !ruby/object:Word
+    word: sponsor
+    stem: sponsor
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  rotation: !ruby/object:Word
+    word: rotation
+    stem: rotat
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  cycle: !ruby/object:Word
+    word: cycle
+    stem: cycl
+    docFrequency: 2.0
+    docPositions:
+    - 263
+  fx: !ruby/object:Word
+    word: fx
+    stem: fx
+    docFrequency: 2.0
+    docPositions:
+    - 264
+  fade: !ruby/object:Word
+    word: fade
+    stem: fade
+    docFrequency: 2.0
+    docPositions:
+    - 264
+  timeout: !ruby/object:Word
+    word: timeout
+    stem: timeout
+    docFrequency: 2.0
+    docPositions:
+    - 265
+  delay: !ruby/object:Word
+    word: delay
+    stem: delai
+    docFrequency: 2.0
+    docPositions:
+    - 266
+  hiring: !ruby/object:Word
+    word: hiring
+    stem: hire
+    docFrequency: 2.0
+    docPositions:
+    - 304
+  shortcuts: !ruby/object:Word
+    word: shortcuts
+    stem: shortcut
+    docFrequency: 2.0
+    docPositions:
+    - 325
+  advocacy: !ruby/object:Word
+    word: advocacy
+    stem: advocaci
+    docFrequency: 2.0
+    docPositions:
+    - 327
+  audio: !ruby/object:Word
+    word: audio
+    stem: audio
+    docFrequency: 2.0
+    docPositions:
+    - 328
+  bus: !ruby/object:Word
+    word: bus
+    stem: bu
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  mktg: !ruby/object:Word
+    word: mktg
+    stem: mktg
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  mgmt: !ruby/object:Word
+    word: mgmt
+    stem: mgmt
+    docFrequency: 2.0
+    docPositions:
+    - 329
+  design: !ruby/object:Word
+    word: design
+    stem: design
+    docFrequency: 2.0
+    docPositions:
+    - 330
+  production: !ruby/object:Word
+    word: production
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 332
+  programming: !ruby/object:Word
+    word: programming
+    stem: program
+    docFrequency: 2.0
+    docPositions:
+    - 333
+  visual: !ruby/object:Word
+    word: visual
+    stem: visual
+    docFrequency: 2.0
+    docPositions:
+    - 334
+  arts: !ruby/object:Word
+    word: arts
+    stem: art
+    docFrequency: 2.0
+    docPositions:
+    - 334
+  follow: !ruby/object:Word
+    word: follow
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 352
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 354
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 355
+  linkedin: !ruby/object:Word
+    word: linkedin
+    stem: linkedin
+    docFrequency: 2.0
+    docPositions:
+    - 356
+  instagram: !ruby/object:Word
+    word: instagram
+    stem: instagram
+    docFrequency: 2.0
+    docPositions:
+    - 357
+  pinterest: !ruby/object:Word
+    word: pinterest
+    stem: pinterest
+    docFrequency: 2.0
+    docPositions:
+    - 358
+  vine: !ruby/object:Word
+    word: vine
+    stem: vine
+    docFrequency: 2.0
+    docPositions:
+    - 359
+  googletag: !ruby/object:Word
+    word: googletag
+    stem: googletag
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  display: !ruby/object:Word
+    word: display
+    stem: displai
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  div: !ruby/object:Word
+    word: div
+    stem: div
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  gpt: !ruby/object:Word
+    word: gpt
+    stem: gpt
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  ad: !ruby/object:Word
+    word: ad
+    stem: ad
+    docFrequency: 2.0
+    docPositions:
+    - 368
+  ctrnews: !ruby/object:Word
+    word: ctrnews
+    stem: ctrnew
+    docFrequency: 6.0
+    docPositions:
+    - 390
+    - 395
+    - 396
+    - 398
+  newsstoprotation: !ruby/object:Word
+    word: newsstoprotation
+    stem: newsstoprot
+    docFrequency: 4.0
+    docPositions:
+    - 391
+    - 394
+    - 444
+  rotatenews: !ruby/object:Word
+    word: rotatenews
+    stem: rotatenew
+    docFrequency: 5.0
+    docPositions:
+    - 392
+    - 410
+    - 426
+    - 436
+  itm: !ruby/object:Word
+    word: itm
+    stem: itm
+    docFrequency: 7.0
+    docPositions:
+    - 398
+    - 404
+    - 405
+    - 406
+    - 409
+    - 421
+  mainnews_: !ruby/object:Word
+    word: mainnews_
+    stem: mainnews_
+    docFrequency: 2.0
+    docPositions:
+    - 398
+  set: !ruby/object:Word
+    word: set
+    stem: set
+    docFrequency: 4.0
+    docPositions:
+    - 403
+    - 439
+    - 445
+  variables: !ruby/object:Word
+    word: variables
+    stem: variabl
+    docFrequency: 4.0
+    docPositions:
+    - 403
+    - 445
+    - 622
+  imgalt: !ruby/object:Word
+    word: imgalt
+    stem: imgalt
+    docFrequency: 5.0
+    docPositions:
+    - 404
+    - 416
+    - 446
+    - 457
+  find: !ruby/object:Word
+    word: find
+    stem: find
+    docFrequency: 11.0
+    docPositions:
+    - 404
+    - 405
+    - 406
+    - 407
+    - 446
+    - 447
+    - 448
+    - 449
+    - 555
+    - 559
+  attr: !ruby/object:Word
+    word: attr
+    stem: attr
+    docFrequency: 9.0
+    docPositions:
+    - 404
+    - 405
+    - 416
+    - 446
+    - 447
+    - 457
+    - 556
+    - 560
+  alt: !ruby/object:Word
+    word: alt
+    stem: alt
+    docFrequency: 7.0
+    docPositions:
+    - 404
+    - 416
+    - 446
+    - 457
+  tag: !ruby/object:Word
+    word: tag
+    stem: tag
+    docFrequency: 3.0
+    docPositions:
+    - 404
+    - 446
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 5.0
+    docPositions:
+    - 404
+    - 405
+    - 446
+    - 447
+  imgtitle: !ruby/object:Word
+    word: imgtitle
+    stem: imgtitl
+    docFrequency: 5.0
+    docPositions:
+    - 405
+    - 416
+    - 447
+    - 457
+  href: !ruby/object:Word
+    word: href
+    stem: href
+    docFrequency: 3.0
+    docPositions:
+    - 405
+    - 447
+  imgdesc: !ruby/object:Word
+    word: imgdesc
+    stem: imgdesc
+    docFrequency: 5.0
+    docPositions:
+    - 406
+    - 415
+    - 448
+    - 456
+  block: !ruby/object:Word
+    word: block
+    stem: block
+    docFrequency: 15.0
+    docPositions:
+    - 406
+    - 407
+    - 414
+    - 415
+    - 439
+    - 448
+    - 449
+    - 455
+    - 456
+    - 473
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 7.0
+    docPositions:
+    - 406
+    - 415
+    - 448
+    - 456
+  imgdescheight: !ruby/object:Word
+    word: imgdescheight
+    stem: imgdescheight
+    docFrequency: 5.0
+    docPositions:
+    - 407
+    - 414
+    - 449
+    - 455
+  main_image: !ruby/object:Word
+    word: main_image
+    stem: main_imag
+    docFrequency: 12.0
+    docPositions:
+    - 407
+    - 414
+    - 415
+    - 416
+    - 438
+    - 439
+    - 449
+    - 455
+    - 456
+    - 457
+    - 473
+  height: !ruby/object:Word
+    word: height
+    stem: height
+    docFrequency: 5.0
+    docPositions:
+    - 407
+    - 449
+  calculate: !ruby/object:Word
+    word: calculate
+    stem: calcul
+    docFrequency: 3.0
+    docPositions:
+    - 407
+    - 449
+  active: !ruby/object:Word
+    word: active
+    stem: activ
+    docFrequency: 17.0
+    docPositions:
+    - 409
+    - 420
+    - 421
+    - 442
+    - 451
+    - 461
+    - 462
+    - 544
+    - 547
+  already: !ruby/object:Word
+    word: already
+    stem: alreadi
+    docFrequency: 3.0
+    docPositions:
+    - 409
+    - 451
+  then: !ruby/object:Word
+    word: then
+    stem: then
+    docFrequency: 5.0
+    docPositions:
+    - 409
+    - 451
+    - 555
+    - 559
+  settimeout: !ruby/object:Word
+    word: settimeout
+    stem: settimeout
+    docFrequency: 4.0
+    docPositions:
+    - 410
+    - 426
+    - 436
+  don: !ruby/object:Word
+    word: don
+    stem: don
+    docFrequency: 3.0
+    docPositions:
+    - 411
+    - 452
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 4.0
+    docPositions:
+    - 411
+    - 452
+    - 635
+  click: !ruby/object:Word
+    word: click
+    stem: click
+    docFrequency: 9.0
+    docPositions:
+    - 411
+    - 441
+    - 443
+    - 452
+    - 472
+    - 517
+    - 533
+    - 542
+  through: !ruby/object:Word
+    word: through
+    stem: through
+    docFrequency: 3.0
+    docPositions:
+    - 411
+    - 452
+  else: !ruby/object:Word
+    word: else
+    stem: els
+    docFrequency: 3.0
+    docPositions:
+    - 412
+    - 453
+  teaser: !ruby/object:Word
+    word: teaser
+    stem: teaser
+    docFrequency: 4.0
+    docPositions:
+    - 413
+    - 454
+    - 471
+  opacity: !ruby/object:Word
+    word: opacity
+    stem: opac
+    docFrequency: 7.0
+    docPositions:
+    - 414
+    - 415
+    - 439
+    - 455
+    - 456
+  marginbottom: !ruby/object:Word
+    word: marginbottom
+    stem: marginbottom
+    docFrequency: 5.0
+    docPositions:
+    - 414
+    - 415
+    - 455
+    - 456
+  image_thumb: !ruby/object:Word
+    word: image_thumb
+    stem: image_thumb
+    docFrequency: 5.0
+    docPositions:
+    - 420
+    - 442
+    - 443
+    - 461
+  ul: !ruby/object:Word
+    word: ul
+    stem: ul
+    docFrequency: 9.0
+    docPositions:
+    - 420
+    - 442
+    - 443
+    - 461
+    - 493
+    - 494
+    - 498
+    - 499
+  li: !ruby/object:Word
+    word: li
+    stem: li
+    docFrequency: 6.0
+    docPositions:
+    - 420
+    - 442
+    - 443
+    - 461
+    - 491
+  removeclass: !ruby/object:Word
+    word: removeclass
+    stem: removeclass
+    docFrequency: 5.0
+    docPositions:
+    - 420
+    - 461
+    - 468
+    - 544
+  remove: !ruby/object:Word
+    word: remove
+    stem: remov
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 461
+  class: !ruby/object:Word
+    word: class
+    stem: class
+    docFrequency: 7.0
+    docPositions:
+    - 420
+    - 421
+    - 461
+    - 462
+    - 549
+    - 552
+  lists: !ruby/object:Word
+    word: lists
+    stem: list
+    docFrequency: 3.0
+    docPositions:
+    - 420
+    - 461
+  addclass: !ruby/object:Word
+    word: addclass
+    stem: addclass
+    docFrequency: 6.0
+    docPositions:
+    - 421
+    - 442
+    - 462
+    - 466
+    - 547
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 462
+  list: !ruby/object:Word
+    word: list
+    stem: list
+    docFrequency: 7.0
+    docPositions:
+    - 421
+    - 441
+    - 462
+    - 482
+    - 486
+    - 487
+  only: !ruby/object:Word
+    word: only
+    stem: onli
+    docFrequency: 3.0
+    docPositions:
+    - 421
+    - 462
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 7.0
+    docPositions:
+    - 437
+    - 438
+    - 474
+    - 506
+    - 559
+  banner: !ruby/object:Word
+    word: banner
+    stem: banner
+    docFrequency: 3.0
+    docPositions:
+    - 437
+    - 438
+  desc: !ruby/object:Word
+    word: desc
+    stem: desc
+    docFrequency: 2.0
+    docPositions:
+    - 438
+  hover: !ruby/object:Word
+    word: hover
+    stem: hover
+    docFrequency: 7.0
+    docPositions:
+    - 441
+    - 465
+    - 466
+    - 468
+    - 480
+    - 491
+  thumbnail: !ruby/object:Word
+    word: thumbnail
+    stem: thumbnail
+    docFrequency: 2.0
+    docPositions:
+    - 441
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 442
+  toggle: !ruby/object:Word
+    word: toggle
+    stem: toggl
+    docFrequency: 6.0
+    docPositions:
+    - 471
+    - 505
+    - 518
+    - 524
+    - 534
+  collapse: !ruby/object:Word
+    word: collapse
+    stem: collaps
+    docFrequency: 3.0
+    docPositions:
+    - 472
+    - 474
+  slidetoggle: !ruby/object:Word
+    word: slidetoggle
+    stem: slidetoggl
+    docFrequency: 2.0
+    docPositions:
+    - 473
+  toggleclass: !ruby/object:Word
+    word: toggleclass
+    stem: toggleclass
+    docFrequency: 2.0
+    docPositions:
+    - 474
+  close: !ruby/object:Word
+    word: close
+    stem: close
+    docFrequency: 2.0
+    docPositions:
+    - 477
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 482
+    - 486
+    - 487
+  switcher: !ruby/object:Word
+    word: switcher
+    stem: switcher
+    docFrequency: 5.0
+    docPositions:
+    - 480
+    - 482
+    - 486
+    - 487
+  slidedown: !ruby/object:Word
+    word: slidedown
+    stem: slidedown
+    docFrequency: 5.0
+    docPositions:
+    - 482
+    - 494
+    - 525
+    - 557
+  slow: !ruby/object:Word
+    word: slow
+    stem: slow
+    docFrequency: 10.0
+    docPositions:
+    - 482
+    - 494
+    - 499
+    - 506
+    - 512
+    - 518
+    - 525
+    - 529
+    - 534
+  stop: !ruby/object:Word
+    word: stop
+    stem: stop
+    docFrequency: 4.0
+    docPositions:
+    - 486
+    - 493
+    - 498
+  slideup: !ruby/object:Word
+    word: slideup
+    stem: slideup
+    docFrequency: 5.0
+    docPositions:
+    - 487
+    - 499
+    - 529
+    - 550
+  fast: !ruby/object:Word
+    word: fast
+    stem: fast
+    docFrequency: 2.0
+    docPositions:
+    - 487
+  cssmenu: !ruby/object:Word
+    word: cssmenu
+    stem: cssmenu
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  cssmenu_item: !ruby/object:Word
+    word: cssmenu_item
+    stem: cssmenu_item
+    docFrequency: 2.0
+    docPositions:
+    - 491
+  cssmenu_sub: !ruby/object:Word
+    word: cssmenu_sub
+    stem: cssmenu_sub
+    docFrequency: 5.0
+    docPositions:
+    - 493
+    - 494
+    - 498
+    - 499
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 505
+    - 518
+  children: !ruby/object:Word
+    word: children
+    stem: children
+    docFrequency: 8.0
+    docPositions:
+    - 506
+    - 508
+    - 512
+    - 518
+    - 525
+    - 529
+    - 534
+  answer: !ruby/object:Word
+    word: answer
+    stem: answer
+    docFrequency: 5.0
+    docPositions:
+    - 506
+    - 508
+    - 512
+    - 518
+  css: !ruby/object:Word
+    word: css
+    stem: css
+    docFrequency: 10.0
+    docPositions:
+    - 507
+    - 508
+    - 509
+    - 513
+    - 514
+    - 526
+    - 530
+  font: !ruby/object:Word
+    word: font
+    stem: font
+    docFrequency: 4.0
+    docPositions:
+    - 507
+    - 508
+    - 513
+  weight: !ruby/object:Word
+    word: weight
+    stem: weight
+    docFrequency: 4.0
+    docPositions:
+    - 507
+    - 508
+    - 513
+  bold: !ruby/object:Word
+    word: bold
+    stem: bold
+    docFrequency: 2.0
+    docPositions:
+    - 507
+  normal: !ruby/object:Word
+    word: normal
+    stem: normal
+    docFrequency: 3.0
+    docPositions:
+    - 508
+    - 513
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 7.0
+    docPositions:
+    - 509
+    - 514
+    - 526
+    - 530
+  arrow_up_question: !ruby/object:Word
+    word: arrow_up_question
+    stem: arrow_up_quest
+    docFrequency: 2.0
+    docPositions:
+    - 509
+  png: !ruby/object:Word
+    word: png
+    stem: png
+    docFrequency: 3.0
+    docPositions:
+    - 509
+    - 514
+  'no': !ruby/object:Word
+    word: 'no'
+    stem: 'no'
+    docFrequency: 5.0
+    docPositions:
+    - 509
+    - 514
+    - 526
+    - 530
+  repeat: !ruby/object:Word
+    word: repeat
+    stem: repeat
+    docFrequency: 5.0
+    docPositions:
+    - 509
+    - 514
+    - 526
+    - 530
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 3.0
+    docPositions:
+    - 509
+    - 514
+  top: !ruby/object:Word
+    word: top
+    stem: top
+    docFrequency: 3.0
+    docPositions:
+    - 509
+    - 514
+  right: !ruby/object:Word
+    word: right
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 509
+    - 514
+  hide: !ruby/object:Word
+    word: hide
+    stem: hide
+    docFrequency: 3.0
+    docPositions:
+    - 512
+    - 552
+  arrow_down_question: !ruby/object:Word
+    word: arrow_down_question
+    stem: arrow_down_quest
+    docFrequency: 2.0
+    docPositions:
+    - 514
+  question_controller: !ruby/object:Word
+    word: question_controller
+    stem: question_control
+    docFrequency: 2.0
+    docPositions:
+    - 517
+  next: !ruby/object:Word
+    word: next
+    stem: next
+    docFrequency: 3.0
+    docPositions:
+    - 518
+    - 612
+  animation: !ruby/object:Word
+    word: animation
+    stem: anim
+    docFrequency: 3.0
+    docPositions:
+    - 519
+    - 535
+  complete: !ruby/object:Word
+    word: complete
+    stem: complet
+    docFrequency: 3.0
+    docPositions:
+    - 519
+    - 535
+  descrip: !ruby/object:Word
+    word: descrip
+    stem: descrip
+    docFrequency: 3.0
+    docPositions:
+    - 524
+    - 533
+  hiddendescrip: !ruby/object:Word
+    word: hiddendescrip
+    stem: hiddendescrip
+    docFrequency: 4.0
+    docPositions:
+    - 525
+    - 529
+    - 534
+  arrow_up_track: !ruby/object:Word
+    word: arrow_up_track
+    stem: arrow_up_track
+    docFrequency: 2.0
+    docPositions:
+    - 526
+  jpg: !ruby/object:Word
+    word: jpg
+    stem: jpg
+    docFrequency: 3.0
+    docPositions:
+    - 526
+    - 530
+  arrow_down_track: !ruby/object:Word
+    word: arrow_down_track
+    stem: arrow_down_track
+    docFrequency: 2.0
+    docPositions:
+    - 530
+  loads: !ruby/object:Word
+    word: loads
+    stem: load
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  do: !ruby/object:Word
+    word: do
+    stem: do
+    docFrequency: 3.0
+    docPositions:
+    - 539
+    - 634
+  everything: !ruby/object:Word
+    word: everything
+    stem: everyth
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  inside: !ruby/object:Word
+    word: inside
+    stem: insid
+    docFrequency: 2.0
+    docPositions:
+    - 539
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  clicked: !ruby/object:Word
+    word: clicked
+    stem: click
+    docFrequency: 2.0
+    docPositions:
+    - 541
+  tab: !ruby/object:Word
+    word: tab
+    stem: tab
+    docFrequency: 3.0
+    docPositions:
+    - 542
+    - 546
+  switch: !ruby/object:Word
+    word: switch
+    stem: switch
+    docFrequency: 3.0
+    docPositions:
+    - 543
+    - 546
+  tabs: !ruby/object:Word
+    word: tabs
+    stem: tab
+    docFrequency: 2.0
+    docPositions:
+    - 543
+  'off': !ruby/object:Word
+    word: 'off'
+    stem: 'off'
+    docFrequency: 2.0
+    docPositions:
+    - 543
+  elements: !ruby/object:Word
+    word: elements
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 549
+    - 552
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 5.0
+    docPositions:
+    - 549
+    - 550
+    - 552
+    - 553
+  fadeout: !ruby/object:Word
+    word: fadeout
+    stem: fadeout
+    docFrequency: 2.0
+    docPositions:
+    - 553
+  figure: !ruby/object:Word
+    word: figure
+    stem: figur
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 559
+  out: !ruby/object:Word
+    word: out
+    stem: out
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 559
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 5.0
+    docPositions:
+    - 555
+    - 556
+    - 559
+    - 560
+  attribute: !ruby/object:Word
+    word: attribute
+    stem: attribut
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 559
+  element: !ruby/object:Word
+    word: element
+    stem: element
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 559
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 3.0
+    docPositions:
+    - 555
+    - 559
+  down: !ruby/object:Word
+    word: down
+    stem: down
+    docFrequency: 2.0
+    docPositions:
+    - 555
+  content_show: !ruby/object:Word
+    word: content_show
+    stem: content_show
+    docFrequency: 5.0
+    docPositions:
+    - 556
+    - 557
+    - 560
+    - 561
+  fadein: !ruby/object:Word
+    word: fadein
+    stem: fadein
+    docFrequency: 2.0
+    docPositions:
+    - 561
+  divs: !ruby/object:Word
+    word: divs
+    stem: div
+    docFrequency: 4.0
+    docPositions:
+    - 566
+    - 568
+    - 569
+  firstdiv: !ruby/object:Word
+    word: firstdiv
+    stem: firstdiv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  seconddiv: !ruby/object:Word
+    word: seconddiv
+    stem: seconddiv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  thirddiv: !ruby/object:Word
+    word: thirddiv
+    stem: thirddiv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  fourthdiv: !ruby/object:Word
+    word: fourthdiv
+    stem: fourthdiv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  fifthdiv: !ruby/object:Word
+    word: fifthdiv
+    stem: fifthdiv
+    docFrequency: 2.0
+    docPositions:
+    - 566
+  changebgcolor: !ruby/object:Word
+    word: changebgcolor
+    stem: changebgcolor
+    docFrequency: 2.0
+    docPositions:
+    - 567
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 12.0
+    docPositions:
+    - 568
+    - 569
+    - 584
+    - 585
+  length: !ruby/object:Word
+    word: length
+    stem: length
+    docFrequency: 2.0
+    docPositions:
+    - 568
+  getelementbyid: !ruby/object:Word
+    word: getelementbyid
+    stem: getelementbyid
+    docFrequency: 3.0
+    docPositions:
+    - 569
+    - 571
+  style: !ruby/object:Word
+    word: style
+    stem: style
+    docFrequency: 3.0
+    docPositions:
+    - 569
+    - 571
+  backgroundimage: !ruby/object:Word
+    word: backgroundimage
+    stem: backgroundimag
+    docFrequency: 3.0
+    docPositions:
+    - 569
+    - 571
+  tabsimagemap: !ruby/object:Word
+    word: tabsimagemap
+    stem: tabsimagemap
+    docFrequency: 2.0
+    docPositions:
+    - 571
+  _bizo_data_partner_id: !ruby/object:Word
+    word: _bizo_data_partner_id
+    stem: _bizo_data_partner_id
+    docFrequency: 2.0
+    docPositions:
+    - 575
+  b: !ruby/object:Word
+    word: b
+    stem: b
+    docFrequency: 5.0
+    docPositions:
+    - 577
+  u: !ruby/object:Word
+    word: u
+    stem: u
+    docFrequency: 4.0
+    docPositions:
+    - 577
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 4.0
+    docPositions:
+    - 577
+    - 585
+    - 599
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 6.0
+    docPositions:
+    - 577
+    - 587
+    - 599
+    - 605
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 3.0
+    docPositions:
+    - 577
+    - 602
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 3.0
+    docPositions:
+    - 577
+    - 602
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 4.0
+    docPositions:
+    - 577
+    - 586
+    - 601
+  protocol: !ruby/object:Word
+    word: protocol
+    stem: protocol
+    docFrequency: 3.0
+    docPositions:
+    - 577
+    - 600
+  https: !ruby/object:Word
+    word: https
+    stem: http
+    docFrequency: 5.0
+    docPositions:
+    - 577
+    - 600
+  sjs: !ruby/object:Word
+    word: sjs
+    stem: sj
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  bizographics: !ruby/object:Word
+    word: bizographics
+    stem: bizograph
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  insight: !ruby/object:Word
+    word: insight
+    stem: insight
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  min: !ruby/object:Word
+    word: min
+    stem: min
+    docFrequency: 2.0
+    docPositions:
+    - 577
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 5.0
+    docPositions:
+    - 577
+    - 586
+    - 604
+    - 605
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 4.0
+    docPositions:
+    - 577
+    - 586
+    - 605
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 3.0
+    docPositions:
+    - 577
+    - 586
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 4.0
+    docPositions:
+    - 584
+    - 585
+    - 586
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 3.0
+    docPositions:
+    - 584
+    - 586
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 8.0
+    docPositions:
+    - 584
+    - 585
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 5.0
+    docPositions:
+    - 584
+    - 586
+  googleanalyticsobject: !ruby/object:Word
+    word: googleanalyticsobject
+    stem: googleanalyticsobject
+    docFrequency: 2.0
+    docPositions:
+    - 584
+  q: !ruby/object:Word
+    word: q
+    stem: q
+    docFrequency: 3.0
+    docPositions:
+    - 585
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 585
+  arguments: !ruby/object:Word
+    word: arguments
+    stem: argument
+    docFrequency: 2.0
+    docPositions:
+    - 585
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 2.0
+    docPositions:
+    - 585
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 585
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 2.0
+    docPositions:
+    - 587
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 3.0
+    docPositions:
+    - 587
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 5.0
+    docPositions:
+    - 587
+    - 589
+    - 590
+    - 591
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 589
+  displayfeatures: !ruby/object:Word
+    word: displayfeatures
+    stem: displayfeatur
+    docFrequency: 2.0
+    docPositions:
+    - 590
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 591
+  pageview: !ruby/object:Word
+    word: pageview
+    stem: pageview
+    docFrequency: 2.0
+    docPositions:
+    - 591
+  adroll_adv_id: !ruby/object:Word
+    word: adroll_adv_id
+    stem: adroll_adv_id
+    docFrequency: 2.0
+    docPositions:
+    - 593
+  adroll_pix_id: !ruby/object:Word
+    word: adroll_pix_id
+    stem: adroll_pix_id
+    docFrequency: 2.0
+    docPositions:
+    - 594
+  oldonload: !ruby/object:Word
+    word: oldonload
+    stem: oldonload
+    docFrequency: 4.0
+    docPositions:
+    - 596
+    - 606
+  onload: !ruby/object:Word
+    word: onload
+    stem: onload
+    docFrequency: 3.0
+    docPositions:
+    - 596
+    - 597
+  __adroll_loaded: !ruby/object:Word
+    word: __adroll_loaded
+    stem: __adroll_load
+    docFrequency: 2.0
+    docPositions:
+    - 598
+  scr: !ruby/object:Word
+    word: scr
+    stem: scr
+    docFrequency: 6.0
+    docPositions:
+    - 599
+    - 601
+    - 602
+    - 603
+    - 605
+  host: !ruby/object:Word
+    word: host
+    stem: host
+    docFrequency: 3.0
+    docPositions:
+    - 600
+    - 603
+  adroll: !ruby/object:Word
+    word: adroll
+    stem: adrol
+    docFrequency: 3.0
+    docPositions:
+    - 600
+  setattribute: !ruby/object:Word
+    word: setattribute
+    stem: setattribut
+    docFrequency: 2.0
+    docPositions:
+    - 601
+  j: !ruby/object:Word
+    word: j
+    stem: j
+    docFrequency: 2.0
+    docPositions:
+    - 603
+  roundtrip: !ruby/object:Word
+    word: roundtrip
+    stem: roundtrip
+    docFrequency: 2.0
+    docPositions:
+    - 603
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 604
+  'null': !ruby/object:Word
+    word: 'null'
+    stem: 'null'
+    docFrequency: 2.0
+    docPositions:
+    - 604
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 605
+  beacon: !ruby/object:Word
+    word: beacon
+    stem: beacon
+    docFrequency: 3.0
+    docPositions:
+    - 609
+  ubm: !ruby/object:Word
+    word: ubm
+    stem: ubm
+    docFrequency: 2.0
+    docPositions:
+    - 609
+  environment: !ruby/object:Word
+    word: environment
+    stem: environ
+    docFrequency: 2.0
+    docPositions:
+    - 609
+  p: !ruby/object:Word
+    word: p
+    stem: p
+    docFrequency: 2.0
+    docPositions:
+    - 609
+  apikey: !ruby/object:Word
+    word: apikey
+    stem: apikei
+    docFrequency: 2.0
+    docPositions:
+    - 609
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  identifying: !ruby/object:Word
+    word: identifying
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 2.0
+    docPositions:
+    - 611
+  server: !ruby/object:Word
+    word: server
+    stem: server
+    docFrequency: 3.0
+    docPositions:
+    - 611
+    - 614
+  channel: !ruby/object:Word
+    word: channel
+    stem: channel
+    docFrequency: 3.0
+    docPositions:
+    - 611
+    - 615
+  lines: !ruby/object:Word
+    word: lines
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 612
+  pagename: !ruby/object:Word
+    word: pagename
+    stem: pagenam
+    docFrequency: 2.0
+    docPositions:
+    - 613
+  pagetype: !ruby/object:Word
+    word: pagetype
+    stem: pagetyp
+    docFrequency: 2.0
+    docPositions:
+    - 616
+  conversion: !ruby/object:Word
+    word: conversion
+    stem: convers
+    docFrequency: 2.0
+    docPositions:
+    - 622
+  campaign: !ruby/object:Word
+    word: campaign
+    stem: campaign
+    docFrequency: 2.0
+    docPositions:
+    - 623
+  state: !ruby/object:Word
+    word: state
+    stem: state
+    docFrequency: 2.0
+    docPositions:
+    - 624
+  zip: !ruby/object:Word
+    word: zip
+    stem: zip
+    docFrequency: 2.0
+    docPositions:
+    - 625
+  products: !ruby/object:Word
+    word: products
+    stem: product
+    docFrequency: 2.0
+    docPositions:
+    - 627
+  purchaseid: !ruby/object:Word
+    word: purchaseid
+    stem: purchaseid
+    docFrequency: 2.0
+    docPositions:
+    - 628
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  alter: !ruby/object:Word
+    word: alter
+    stem: alter
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  anything: !ruby/object:Word
+    word: anything
+    stem: anyth
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  below: !ruby/object:Word
+    word: below
+    stem: below
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  line: !ruby/object:Word
+    word: line
+    stem: line
+    docFrequency: 2.0
+    docPositions:
+    - 634
+  s_code: !ruby/object:Word
+    word: s_code
+    stem: s_code
+    docFrequency: 4.0
+    docPositions:
+    - 635
+  write: !ruby/object:Word
+    word: write
+    stem: write
+    docFrequency: 3.0
+    docPositions:
+    - 635
+    - 636
+  navigator: !ruby/object:Word
+    word: navigator
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 636
+  appversion: !ruby/object:Word
+    word: appversion
+    stem: appvers
+    docFrequency: 2.0
+    docPositions:
+    - 636
+  indexof: !ruby/object:Word
+    word: indexof
+    stem: indexof
+    docFrequency: 2.0
+    docPositions:
+    - 636
+  msie: !ruby/object:Word
+    word: msie
+    stem: msie
+    docFrequency: 2.0
+    docPositions:
+    - 636
+  unescape: !ruby/object:Word
+    word: unescape
+    stem: unescap
+    docFrequency: 2.0
+    docPositions:
+    - 636
+lineCount: 643
+wordCount: 1546
+rank: 0.3345460008852921
+title: GDC 2016 | March 14-18, 2016 | Moscone Convention Center | San Francisco, California
+links:
+- http://www.gdconf.com
+- http://www.gdceurope.com
+- http://www.gdcchina.com
+- http://www.gdcvault.com
+- http://www.gdconf.com/vrdc/
+- http://www.gdconf.com/contactus/
+- http://www.gdconf.com/newsletter/
+- http://www.gdconf.com/media/
+- http://www.gdconf.com/aboutgdc/
+- http://www.gdconf.com/aboutgdc/
+- http://www.gdconf.com/aboutgdc/faq.html
+- http://www.gdconf.com/aboutgdc/advisoryboard.html
+- http://www.gdconf.com/aboutgdc/mediapartners.html
+- http://www.gdconf.com/media/index.html
+- http://www.gdconf.com/contactus/
+- http://www.gdconf.com/newsletter/
+- http://www.gdconf.com/aboutgdc/newsletterarchive.html
+- http://www.gdconf.com/gamenetwork/archive.html
+- http://www.gdconf.com/aboutgdc/photos.html
+- http://www.gdconf.com/aboutgdc/downloads.html
+- http://www.gdconf.com/attend/index.html
+- http://www.gdconf.com/attend/passes.html
+- http://www.gdconf.com/attend/conferenceassociates.html
+- http://www.gdconf.com/attend/policies.html
+- http://www.gdconf.com/codeofconduct.html
+- http://www.gdconf.com/attend/travel.html
+- http://www.gdconf.com/attend/childcare.html
+- http://www.gdconf.com/attend/hourslocation.html
+- http://www.gdconf.com/low-income-pass-lottery/
+- http://www.gdconf.com/attend/scholarships.html
+- http://www.gdconf.com/conference/
+- http://schedule.gdconf.com/list
+- http://www.gdconf.com/conference/index.html
+- http://www.gdconf.com/vrdc/
+- http://www.gdconf.com/vrdc/
+- http://www.gdconf.com/vrdc/game.html
+- http://www.gdconf.com/vrdc/entertainment.html
+- http://www.gdconf.com/conference/classicgames.html
+- http://schedule.gdconf.com/speakers
+- http://www.gdconf.com/conference/summits.html
+- http://www.gdconf.com/conference/summits.html
+- http://www.gdconf.com/conference/ai.html
+- http://www.gdconf.com/conference/community.html
+- http://www.gdconf.com/conference/esports.html
+- http://www.gdconf.com/conference/f2p.html
+- http://www.gdconf.com/conference/gamenarrative.html
+- http://www.gdconf.com/conference/edusig.html
+- http://www.gdconf.com/conference/igs.html
+- http://www.gdconf.com/conference/gdcsmartphone.html
+- http://www.gdconf.com/conference/tutorials.html
+- http://www.gdconf.com/conference/sponsored.html
+- http://www.gdconf.com/conference/devdays.html
+- http://www.gdconf.com/conference/monetization.html
+- http://www.gdconf.com/conference/c4p/summits.html
+- http://www.gdconf.com/conference/c4p/
+- http://www.gdconf.com/conference/c4p/summits.html
+- http://www.gdconf.com/vrdc/
+- http://www.gdconf.com/conference/c4p/faq.html
+- http://ubmgamenetwork.com/gdc/
+- http://ubmgamenetwork.com/gdc/
+- http://ubmgamenetwork.com/gdc/
+- http://www.gdconf.com/events/careercenter.html
+- http://www.gdconf.com/events/gdcplay.html
+- 'http://www.gdconf.com/expo/exhibitorlist.html '
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/sponsors.html
+- http://www.gdconf.com/expo/floorplan.html
+- http://www.gdconf.com/expo/exhibitorservices.html
+- https://gdc.tech.ubm.com/2016/index/exhibitorreg/
+- http://www.gdconf.com/events/
+- http://www.gdconf.com/events/index.html
+- 'http://www.gdconf.com/events/partiesnetworking.html '
+- http://www.gdconf.com/events/choiceawards.html
+- http://www.gdconf.com/events/igf.html
+- http://www.gdconf.com/conference/generalsession.html
+- http://www.gdconf.com/events/careercenter.html
+- http://www.gdconf.com/events/gdcplay.html
+- http://www.gdconf.com/events/gdcpitch.html
+- http://www.gdconf.com/events/bestinplay.html
+- http://www.gdconf.com/events/matchmaking.html
+- http://www.gdconf.com/events/gcs.html
+- http://www.gdconf.com/vrdc/
+- http://www.gdconf.com/vrdc/
+- http://schedule.gdconf.com/session/creating-the-npcs-of-tom-clancys-the-division
+- http://schedule.gdconf.com/session/creating-the-npcs-of-tom-clancys-the-division
+- http://schedule.gdconf.com/session/a-torch-in-the-dark-using-creative-direction-to-light-the-darkest-dungeon
+- http://schedule.gdconf.com/session/a-torch-in-the-dark-using-creative-direction-to-light-the-darkest-dungeon
+- http://schedule.gdconf.com/session/the-game-outcomes-project-how-teamwork-leadership-and-culture-drive-results
+- http://schedule.gdconf.com/session/the-game-outcomes-project-how-teamwork-leadership-and-culture-drive-results
+- http://schedule.gdconf.com/session/simulating-the-race-day-experience-mixing-forza-motorsport-6
+- http://schedule.gdconf.com/session/simulating-the-race-day-experience-mixing-forza-motorsport-6
+- http://schedule.gdconf.com/session/rendering-rainbow-six-siege
+- http://schedule.gdconf.com/session/rendering-rainbow-six-siege
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.gdconf.com/expo/diamondpartner.html
+- http://www.ubmgamenetwork.com/gdc/sponsorship.php
+- http://www.gamechoiceawards.com/
+- http://www.igf.com/
+- http://www.facebook.com/GameDevelopersConference?ref=ts
+- http://twitter.com/Official_GDC
+- http://www.linkedin.com/groups?gid=81635
+- http://www.linkedin.com/groups?gid=81635
+- http://www.gdconf.com/instagram
+- http://www.gdconf.com/pinterest
+- http://www.gdconf.com/vine/
+- http://www.omniture.com
+- http://www.gamechoiceawards.com/
+- http://www.igf.com/
+rawText: "\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n            \r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\tContact
+  Us\r\n\t\t\tNewsletter\r\n\t\t\tMedia\r\n\t\t\r\n\t\t\t\r\n\t\t\tEnglish普通话日本語한국어\r\n\t\t
+  Choose a language:\r\n\t\r\n\t\r\n\t\t$(document).ready(function(){\r\n\t\t\t$(function(){\r\n\t\t\t\t$('.customselect').bind('change',
+  function () {\r\n\t\t\t\t\tvar url = $(this).val(); // get selected value\r\n\t\t\t\t\tif
+  (url) { // require a URL\r\n\t\t\t\t\t\twindow.location = url; // redirect\r\n\t\t\t\t\t}\r\n\t\t\t\t\treturn
+  false;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t});\r\n\t            \t\n                \n
+  \                   \n                        \n                            \n                            \n
+  \                           \n                        \n                    \n                \n
+  \           \n\t\t\t\n            \t   \n            \t\t\n          \t\t  \t\r\n\r\n\t\t\r\n\t\tABOUT
+  Info & Resources\r\n\t\t\t\tAbout GDC\r\n\t\t\t\t\tFAQ\r\n                    Advisory
+  Board\r\n                    Media Partners\r\n                    Media Resources\r\n
+  \                   Contact\r\n                    Newsletter Sign-Up\r\n                    Newsletter
+  Archive\r\n  \t\t\t\t\tGame Network Newsletter Archive\r\n                    Photos\r\n
+  \                   Downloads\r\n\t\t\t\t       \r\n\t\t  ATTEND Registration &
+  Travel\t\r\n\t\t\t\tWhy Attend?\r\n                    Passes & Prices\r\n                    Register\r\n
+  \                   Conference Associates\r\n                    Registration Policies\r\n
+  \                   Code of Conduct\r\n                    Travel & Hotels\r\n                    Childcare
+  Services\r\n                    Hours & Location\r\n                    Low Income
+  Attendee Pass Lottery\r\n                    Scholarships\r\n                \r\n
+  \           \r\n            \tCONFERENCE Sessions & Speakers\t\r\n            \tSession
+  Scheduler\r\n                \t\r\n            \t\r\n            \t\tConference
+  Overview\r\n            \t\tVirtual Reality\r\n                    \tVRDC Overview\r\n
+  \                           Game AR/VR Track\r\n                            Entertainment
+  AR/VR Track\r\n                            Sponsorship\r\n                        \r\n
+  \                   Classic Game Postmortems\r\n            \t\tSpeakers\r\n            \t\tSummits\r\n
+  \           \t\t\tSummits Overview\r\n                            AI\r\n                            Community
+  Management\r\n                            eSports\r\n            \t\t\t\tFree to
+  Play\r\n                            Game Narrative\r\n                            GDC
+  Education\r\n                            Independent Games\r\n                            Smartphone
+  & Tablet Games\r\n           \t\t\t\t \r\n            \t\tTutorials & Bootcamps\r\n
+  \                   Sponsored Sessions\r\n            \t\tDeveloper Days\r\n                    Monetization
+  (sponsored)  \r\n            \t\tCall for Submissions\r\n                    \tMain
+  Conference\r\n                            Summits\r\n                            VRDC\r\n
+  \                           FAQ\r\n                        \r\n                \r\n
+  \         EXHIBITExhibitors & Sponsors\r\n            \tExhibitor Sales\r\n\t\t\t\t
+  Exhibitor Sales\r\n                    Career Center\r\n\t\t\t\t\tGDC Play\r\n\t\t\t\t
+  \r\n                Exhibitors\r\n                Diamond Partners\r\n                Sponsors\r\n
+  \               Floor Plan\r\n                Exhibitor Services\r\n                Exhibitor
+  Registration\r\n                 \r\n           EVENTSParties, Awards & More\t\r\n
+  \           \t Events\r\n               Parties & Networking \r\n               Choice
+  \ Awards\r\n               Independent Games Festival\r\n               General
+  Session\r\n               Career Center \r\n               GDC Play\r\n               \t\tGDC
+  \  Pitch\r\n                        Best in Play\r\n\t\t\t\t\t\r\n               \r\n\t\t\t\tGDC
+  Business Matchmaking\r\n\t\t\t\tGame Career Seminar \r\n                             \r\n
+  \           \t\r\n\t\t \t\r\n\t\t\r\n\r\n    \n            \t\t\n                    \n
+  \                   \n                    \n                    \n\t\t\t\t\t\t\n\n\n
+  \    \t  \n\n\t\n\n\n\t\t$(function(){\n\t\t\t$('#slides').slides({\n\t\t\t\tpreload:
+  true,\n\t\t\t\tpreloadImage: 'img/home_slider/loading.gif',\n\t\t\t\tplay: 5000,\n\t\t\t\tpause:
+  2500,\n\t\t\t\thoverPause: true,\n\t\t\t\tanimationStart: function(current){\n\t\t\t\t\t$('.caption').animate({\n\t\t\t\t\t\tbottom:-95\n\t\t\t\t\t},100);\n\t\t\t\t\tif
+  (window.console && console.log) {\n\t\t\t\t\t\t// example return of current slide
+  number\n\t\t\t\t\t\tconsole.log('animationStart on slide: ', current);\n\t\t\t\t\t};\n\t\t\t\t},\n\t\t\t\tanimationComplete:
+  function(current){\n\t\t\t\t\t$('.caption').animate({\n\t\t\t\t\t\tbottom:0\n\t\t\t\t\t},200);\n\t\t\t\t\tif
+  (window.console && console.log) {\n\t\t\t\t\t\t// example return of current slide
+  number\n\t\t\t\t\t\tconsole.log('animationComplete on slide: ', current);\n\t\t\t\t\t};\n\t\t\t\t},\n\t\t\t\tslidesLoaded:
+  function() {\n\t\t\t\t\t$('.caption').animate({\n\t\t\t\t\t\tbottom:0\n\t\t\t\t\t},200);\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t\n
+  \   \t\n\t\t\t\t\n\n\t\t\t    \n\t\t\t\t\t  Meet VRDC's new Advisory Board Members!
+  San Francisco's Premiere VR and AR event!   Learn more here  \n\t\t\t  \n\t\t\t\t\t
+  \ \n                    \n                \n\t\t\t\t\t  New session announced!Creating
+  the NPCs of Tom Clancy's The Division!       Learn more here  \n\t\t\t  \n\t\t\t\t\t
+  \     \n                    \n                \n\t\t\t\t\t  New session announced!A
+  Torch in the Dark: Using Creative Direction to Light The Darkest Dungeon!       Learn
+  more here  \n\t\t\t  \n\t\t\t\t\t    \n                    \n               \n\t\t\t\t\t
+  \ New session announced!The Game Outcomes Project: How Teamwork, Leadership, and
+  Culture Drive Results!       Learn more here  \n\t\t\t  \n\t\t\t\t\t         \n
+  \                   \n                \n\t\t\t\t\t  New session announced!Simulating
+  the Race Day Experience: Mixing Forza Motorsport 6!       Learn more here  \n\t\t\t
+  \ \n\t\t\t\t\t        \n                    \n                \n                 \n
+  \                \n                 New session announced!Rendering Rainbow Six
+  | Siege!       Learn more here  \n\t\t\t  \n\t\t\t\t\t         \n                    \n
+  \                  \n                    \n  \n\n\t\t\t\t\n\t\t\t\t\n\t\t\n    \n\n\n\n
+  \   \n\n\n\t\t\tGDC News\n                All News\n\n         \n\n        GDC Updates\n\n
+  \       \n\n\n GDC 2016 Registration Now Open!\n                                   Come
+  celebrate GDC's 30th edition  March 14-18, 2016 in San Francisco! Register now  \n
+  \         \n\n        \n\n\n\n\t\t\n        \tDIAMOND PARTNERS\n\n            \n\t\t\t\t$('#sponsor-rotation').cycle({\n\t\t\t\t\tfx:'fade',\n\t\t\t\t\ttimeout:3000,\n\t\t\t\t\tdelay:-3000\n\t\t\t\t});\n\t\t\t\n
+  \               \n                \t\n                \n                \n                \t\n
+  \               \n                \n                \t\n                \n                \n
+  \               \t\n                \n                \n                \t\n                \n
+  \               \n                \t\n                \n                \n                \t\n
+  \               \n                \n                \t\n                \n            \n\n\n
+  \            \n          \n\n\n        \t\n\n           \n\n          WHO'S HIRING
+  @ GDC\n        \n                        \n\t\t\t\t\t\t\t\n\n          \n\n\n\n\t\n
+  \                   \t\n                    \t\t\n                    \t\t\n                    \n
+  \                   \n                    \t\t\n                    \t\r\n \r\n
+  \   \r\n     \r\n\r\nShortcuts\r\n\r\n\tAdvocacy\r\n          Audio\r\n          Bus.,
+  Mktg. & Mgmt.\r\n          Design\r\n          Monetization (sponsored)\r\n          Production\r\n
+  \         Programming\r\n          Visual Arts\r\n          VRDC\r\n          Summits\r\n
+  \         Tutorials & Bootcamps\r\n          Developer Days\r\n     \r\n      \r\n\r\n\r\n\r\n\r\n\t\r\n
+  \         \r\n     \r\n\r\n\r\n\r\n     \r\nFollow Us \r\n  \r\n    Facebook\r\n
+  \     Twitter\r\n    LinkedIn\r\n      Instagram\r\n    Pinterest\r\n      Vine\r\n
+  \ \r\n\r\n    \r\n    \r\n    \r\n        \r\n        \r\n         \r\n          googletag.display('div-gpt-ad-116449540697960974-1');\r\n
+  \        \r\n        \r\n    \r\n        \n                    \t\n                    \n\t\t\t\t\n\t\t\t\n
+  \           \r\n     \r\n\r\n\r\n\t \r\n\t\t\r\n\r\n\t\t\n\t\t\n\t\t\n\t\n\n\n\tvar
+  ctrNews = 1;\n\tvar newsStopRotation = false;\n\tfunction rotateNews()\n\t{\n\t\tif
+  (newsStopRotation) return;\n\t\tctrNews++;\n\t\tif(ctrNews>4) ctrNews = 1;\n\n\t\tvar
+  itm=$('#mainnews_' + ctrNews);\n\n\n\n\n\t\t//Set Variables\n\t\tvar imgAlt = itm.find('img').attr(\"alt\");
+  //Get Alt Tag of Image\n\t\tvar imgTitle = itm.find('a').attr(\"href\"); //Get Main
+  Image URL\n\t\tvar imgDesc = itm.find('.block').html(); \t//Get HTML of block\n\t\tvar
+  imgDescHeight = $(\".main_image\").find('.block').height();\t//Calculate height
+  of block\n\n\t\tif (itm.is(\".active\")) {  //If it's already active, then...\n\t\tsetTimeout('rotateNews()',3000);\n\t\t\treturn
+  true; // Don't click through\n\t\t} else {\n\t\t\t//Animate the Teaser\n\t\t\t//$(\".main_image
+  .block\").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function()
+  {\n\t\t\t//\t$(\".main_image .block\").html(imgDesc).animate({ opacity: 0.85,\tmarginBottom:
+  \"0\" }, 250 );\n\t\t\t\t$(\".main_image img\").attr({ src: imgTitle , alt: imgAlt});\n\t\t\t//});\n\t\t}\n\n\t\t$(\".image_thumb
+  ul li\").removeClass('active'); //Remove class of 'active' on all lists\n\t\titm.addClass('active');
+  \ //add class of 'active' on this list only\n\n\n\n\n\t\tsetTimeout('rotateNews()',3000);\n\t\treturn
+  true;\n\t}\n\n$(document).ready(function() {\n\n\n\n\n\n\tsetTimeout('rotateNews()',3000);\n\t//Show
+  Banner\n\t$(\".main_image .desc\").show(); //Show Banner\n\t$(\".main_image .block\").animate({
+  opacity: 0.85 }, 1 ); //Set Opacity\n\n\t//Click and Hover events for thumbnail
+  list\n\t$(\".image_thumb ul li:first\").addClass('active');\n\t$(\".image_thumb
+  ul li\").click(function(){\n\t\tnewsStopRotation = true;\n\t\t//Set Variables\n\t\tvar
+  imgAlt = $(this).find('img').attr(\"alt\"); //Get Alt Tag of Image\n\t\tvar imgTitle
+  = $(this).find('a').attr(\"href\"); //Get Main Image URL\n\t\tvar imgDesc = $(this).find('.block').html();
+  \t//Get HTML of block\n\t\tvar imgDescHeight = $(\".main_image\").find('.block').height();\t//Calculate
+  height of block\n\n\t\tif ($(this).is(\".active\")) {  //If it's already active,
+  then...\n\t\t\treturn true; // Don't click through\n\t\t} else {\n\t\t\t//Animate
+  the Teaser\n\t\t\t//$(\".main_image .block\").animate({ opacity: 0, marginBottom:
+  -imgDescHeight }, 250 , function() {\n\t\t\t//\t$(\".main_image .block\").html(imgDesc).animate({
+  opacity: 0.85,\tmarginBottom: \"0\" }, 250 );\n\t\t\t\t$(\".main_image img\").attr({
+  src: imgTitle , alt: imgAlt});\n\t\t\t//});\n\t\t}\n\n\t\t$(\".image_thumb ul li\").removeClass('active');
+  //Remove class of 'active' on all lists\n\t\t$(this).addClass('active');  //add
+  class of 'active' on this list only\n\t\treturn true;\n\n\t}) .hover(function(){\n\t\t$(this).addClass('hover');\n\t\t},
+  function() {\n\t\t$(this).removeClass('hover');\n\t});\n\n\t//Toggle Teaser\n\t$(\"a.collapse\").click(function(){\n\t\t$(\".main_image
+  .block\").slideToggle();\n\t\t$(\"a.collapse\").toggleClass(\"show\");\n\t});\n\n});//Close
+  Function\n\n\t\t\t$(document).ready(function(){\n\t\t\t\t$(\".c9d-domain-switcher\").hover(\n\t\t\t\tfunction(){\n\t\t\t\t$(\"#domain-switcher-list\",
+  this).slideDown('slow', function(){\n\t\t\t\t});\n\t\t\t\t},\n\t\t\t\tfunction(){\n\t\t\t\t$(\"#domain-switcher-list\",
+  this).stop(true,true);\n\t\t\t\t$(\"#domain-switcher-list\", this).slideUp('fast',
+  function(){\t\n\t\t\t\t});\n\t\t\t\t});\n\t\t\t\t\n\t\t\t\t$(\"#cssmenu li.cssmenu_item\").hover(\n\t\t\t\tfunction(){\n\t\t\t\t//$(\"ul.cssmenu_sub\",
+  this).stop(true,true);\n\t\t\t\t$(\"ul.cssmenu_sub\", this).slideDown('slow', function(){\t\n\t\t\t\t});\n\t\t\t\t},\n\t\t\t\tfunction(){\t\n\t\t\t\t$(\"ul.cssmenu_sub\",
+  this).stop(true,true);\n\t\t\t\t$(\"ul.cssmenu_sub\", this).slideUp('slow', function(){\t\n\t\t\t\t});\n\t\t\t\t});\n\t\t\t});\t\t\t\n
+  \       \n\t\t/*\n\t\t$(\".question\").toggle(function () {\n\t\t\t$( this ).children(
+  \".answer\" ).show(\"slow\"); \n\t\t\t$( this ).css(\"font-weight\", \"bold\");
+  \n\t\t\t$( this ).children( \".answer\" ).css(\"font-weight\", \"normal\"); \n\t\t\t$(
+  this ).css(\"background\", \"url(/img/arrow_up_question.png) no-repeat\").css(\"background-position\",
+  \"top right\");\n\t\t\t}, \n\t\t\tfunction () {\n\t\t\t$( this ).children( \".answer\"
+  ).hide(\"slow\");\n\t\t\t$( this ).css(\"font-weight\", \"normal\"); \n\t\t\t$(
+  this ).css(\"background\", \"url(/img/arrow_down_question.png) no-repeat\").css(\"background-position\",
+  \"top right\");\n\t\t});\n\t\t*/\n\t\t$( \".question_controller\" ).click(function()
+  {\n\t\t\t$( this ).next(\".question\").children( \".answer\" ).toggle( \"slow\",
+  function() {\n\t\t\t\t// Animation complete.\n\t\t\t});\n\t\t});\n    \n\t\t/*\n\t\t$(\".descrip\").toggle(function
+  () {\n\t\t\t$( this ).children( \".hiddenDescrip\" ).slideDown(\"slow\");\n\t\t\t$(
+  this ).css(\"background\", \"url(/img/arrow_up_track.jpg) no-repeat\");\n\t\t\t},
+  \n\t\t\tfunction () { \n\t\t\t$( this ).children( \".hiddenDescrip\" ).slideUp(\"slow\");\n\t\t\t$(
+  this ).css(\"background\", \"url(/img/arrow_down_track.jpg) no-repeat\");\n\t\t});\n\t\t*/\n\t\t$(
+  \".descrip\" ).click(function() {\n\t\t\t$( this ).children( \".hiddenDescrip\"
+  ).toggle( \"slow\", function() {\n\t\t\t\t// Animation complete.\n\t\t\t});\n\t\t});\n
+  \   \n\t\t// When the document loads do everything inside here ...\n\t\t$(document).ready(function(){\n\t\t\t//
+  When a link is clicked\n\t\t\t$(\"a.tab\").click(function () {\n\t\t\t\t// switch
+  all tabs off\n\t\t\t\t$(\".active\").removeClass(\"active\");\n\t\t\t\t\n\t\t\t\t//
+  switch this tab on\n\t\t\t\t$(this).addClass(\"active\");\n\t\t\t\t\n\t\t\t\t//
+  slide all elements with the class 'content' up\n\t\t\t\t//$(\".content\").slideUp();\n\t\t\t\t\n\t\t\t\t//
+  hide all elements with class 'content' \n\t\t\t\t$(\".content\").fadeOut();\n\t\t\t\t\n\t\t\t\t//
+  Now figure out what the 'title' attribute value is and find the element with that
+  id.  Then slide that down.\n\t\t\t\t//var content_show = $(this).attr(\"title\");\n\t\t\t\t//$(\"#\"+content_show).slideDown();\n\t\t\t\t\n\t\t\t\t//
+  Now figure out what the 'title' attribute value is and find the element with that
+  id.  Then show that.\n\t\t\t\tvar content_show = $(this).attr(\"title\");\n\t\t\t\t$(\"#\"+content_show).fadeIn();\n\t\t\t});\n\t\t});\n
+  \   \n    <!-- \n    //var divs = ['firstdiv', 'seconddiv', 'thirddiv', 'fourthdiv',
+  'fifthdiv'];\n    function changeBGColor(a){\n    //for(i=0; i<divs.length; i++){\n
+  \   //document.getElementById(divs[i]).style.backgroundImage = 'url(image1.gif)';\n
+  \   //}\n    document.getElementById(\"tabsimagemap\").style.backgroundImage = 'url('
+  + a + ')';\n    }\n    // -->\n    \r\nvar _bizo_data_partner_id = \"1816\";\r\n\r\n(function(){var
+  b,a,u;a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=true;u=(window.location.protocol===\"https:\"?\"https://sjs.\":\"http://js.\")+\"bizographics.com/insight.min.js\";a.src=u;b=document.getElementsByTagName(\"script\")[0];return
+  b.parentNode.insertBefore(a,b)})();\r\n\r\n\r\n\r\n\r\n\r\n\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n
+  \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n
+  \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
+  \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n
+  \ ga('create', 'UA-11233174-1', 'auto');\r\n  ga('require', 'displayfeatures');\r\n
+  \ ga('send', 'pageview');\r\n\r\nadroll_adv_id = \"TQSV74R4GVCSJITSZC2MCP\";\r\nadroll_pix_id
+  = \"ACPJ7LN56VBITNNAUDPDMG\";\r\n(function () {\r\nvar oldonload = window.onload;\r\nwindow.onload
+  = function(){\r\n   __adroll_loaded=true;\r\n   var scr = document.createElement(\"script\");\r\n
+  \  var host = ((\"https:\" == document.location.protocol) ? \"https://s.adroll.com\"
+  : \"http://a.adroll.com\");\r\n   scr.setAttribute('async', 'true');\r\n   scr.type
+  = \"text/javascript\";\r\n   scr.src = host + \"/j/roundtrip.js\";\r\n   ((document.getElementsByTagName('head')
+  || [null])[0] ||\r\n    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);\r\n
+  \  if(oldonload){oldonload()}};\r\n}());\r\n\r\nvar beacon = new UBM.Beacon({environment:
+  'p', apiKey: '47ae314605696c79c98549be597cbef666db06848258a98042d91dcc9cf8f460'});\r\n<!--\r\n/*
+  You may give each page an identifying name, server, and channel on\r\nthe next lines.
+  */\r\ns.pageName=\"\";\r\ns.server=\"\";\r\ns.channel=\"\"\r\ns.pageType=\"\"\r\ns.prop1=\"\";\r\ns.prop2=\"\";\r\ns.prop3=\"\";\r\ns.prop4=\"\";\r\ns.prop5=\"\";\r\n/*
+  Conversion Variables */\r\ns.campaign=\"\";\r\ns.state=\"\";\r\ns.zip=\"\";\r\ns.events=\"event5\";\r\ns.products=\"\";\r\ns.purchaseID=\"\";\r\ns.eVar1=\"\";\r\ns.eVar2=\"\";\r\ns.eVar3=\"\";\r\ns.eVar4=\"\";\r\ns.eVar5=\"\";\r\n/*************
+  DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\r\nvar s_code=s.t();if(s_code)document.write(s_code)//--><!--\r\nif(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\\!-'+'-')\r\n//-->\r\n\r\n\r\n
+  San Francisco's Premiere VR and AR event!   Learn more here  Creating the NPCs of
+  Tom Clancy's The Division!       Learn more here  A Torch in the Dark: Using Creative
+  Direction to Light The Darkest Dungeon!       Learn more here  The Game Outcomes
+  Project: How Teamwork, Leadership, and Culture Drive Results!       Learn more here
+   Simulating the Race Day Experience: Mixing Forza Motorsport 6!       Learn more
+  here  Rendering Rainbow Six | Siege!       Learn more here   All News\n\n        Come
+  celebrate GDC's 30th edition  March 14-18, 2016 in San Francisco! Register now "

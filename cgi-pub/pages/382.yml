@@ -1,0 +1,44 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: 
+    line: 6
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 401
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: 
+    line: 6
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 402
+address: http://cnn.it/go2
+inboundLinks: []
+lines: []
+index: {}
+lineCount: 0
+wordCount: 0
+rank: 0.27395833333333336
+title: CNNgo
+links: []
+rawText: ''

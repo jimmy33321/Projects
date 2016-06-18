@@ -1,0 +1,1985 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Misplaced DOCTYPE declaration
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 3
+    str1: DOCTYPE
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseStartTag: misplaced <html> tag
+    domain: 5
+    code: 800
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 4
+    str1: html
+    str2: 
+    str3: 
+    int1: 0
+    column: 6
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 93
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 127
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 94
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 125
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 94
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 134
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 96
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 151
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 96
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 173
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 96
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 187
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 96
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 201
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 134
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 123
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 135
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 24
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 135
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 135
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 52
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 177
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 179
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 179
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 183
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 185
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 185
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 189
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 191
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 191
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 197
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 199
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 199
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 205
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 207
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 207
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 213
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 215
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 51
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      error parsing attribute name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-8760-1isdf89"
+    line: 215
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 58
+address: http://www.freescience.info/mathematics.php
+inboundLinks: []
+lines:
+- |
+  <!--
+- "\tgoogle_ad_client = \"pub-2496472530545325\";\n"
+- "\tgoogle_ad_width = 728;\n"
+- "\tgoogle_ad_height = 90;\n"
+- "\tgoogle_ad_format = \"728x90_as\";\n"
+- "\tgoogle_ad_type = \"image\";\n"
+- "\tgoogle_ad_channel =\"\";\n"
+- "\t//-->\n"
+- "\t  \n"
+- "\t\t\t Home \n"
+- "\t\t\t \n"
+- |
+  Newsletter
+- "\t\t\n"
+- |
+  News
+- "\t\t\n"
+- "\t\t\t\tBooks \n"
+- "\t\t\n"
+- "\t\t\n"
+- "Language/Lingua \n"
+- "  \n"
+- " \n"
+- "  \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  Books
+- |
+  of
+- |
+  Mathematics
+- |2+
+
+- |
+  · Book News  · Most clicked  · Least clicked  · Books Index  · Search on Amazon   Search for a Book
+- |2+
+
+- |2+
+
+- "  \n"
+- "    \n"
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  HELP US TO HELP YOUAdd a new Book
+- |
+  <!--
+- |
+  google_ad_client = "pub-2496472530545325";
+- |
+  google_ad_width = 160;
+- |
+  google_ad_height = 600;
+- |
+  google_ad_format = "160x600_as";
+- |
+  google_ad_type = "image";
+- |
+  //2007-04-29: menu
+- |
+  google_ad_channel = "2086188911";
+- |
+  //-->
+- |2+
+
+- " \n"
+- |2+
+
+- |2+
+
+- "\tMathematics\n"
+- |2+
+
+- "       \tBooks -> Mathematics Search on Amazon\n"
+- "\t               Algebra[112]\n"
+- "\t              Analysis[121]\n"
+- "\t              Applied Mathematics[19]\n"
+- "\t           Arithmetic[2]\n"
+- "\t           Calculus[22]\n"
+- "\t           Catastrophe theory[1]\n"
+- "\t           Control Theory[4]\n"
+- "\t              Discrete Mathematics[73]\n"
+- "\t              Dynamical Systems[30]\n"
+- "\t           Fractals[3]\n"
+- "\t           Game Theory[4]\n"
+- "\t           General Mathematics[13]\n"
+- "\t              Geometry[114]\n"
+- "\t              Group Theory[34]\n"
+- "\t           Information elaboration systems\n"
+- "\t              Information Theory[11]\n"
+- "\t              Mathematical Physics[76]\n"
+- "\t           Measure Theory[3]\n"
+- "\t           Misc. Books[8]\n"
+- "\t              Number Theory[39]\n"
+- "\t              Optimization[14]\n"
+- "\t              Probability and Statistics[64]\n"
+- "\t           Queueing Theory[5]\n"
+- "\t              Topology[64] Book News: Mathematics  <!--\n"
+- |
+  google_ad_client = "pub-2496472530545325";
+- |
+  google_ad_width = 705;
+- |
+  google_ad_height = 17;
+- |
+  google_ad_format = "728x15_0ads_al";
+- |
+  google_ad_channel ="";
+- |
+  google_color_border = "FFFFFF";
+- |
+  google_color_bg = "DDDDDD";
+- |
+  google_color_link = "6666ff";
+- |
+  google_color_text = "000080";
+- |
+  google_color_url = "008000";
+- |
+  //-->
+- "  \n"
+- "\t Around the boundary of complex dynamics\n"
+- "\t Category :Dynamical Systems \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t369We introduce the exciting field of complex dynamics at an undergraduate level
+  while reviewing, reinforcing, and extending the ideas learned in an typical first
+  course on complex analysis. Julia sets a . . . . .\n"
+- "\t Lectures on singular stochastic PDEs\n"
+- "\t Category :Probability Theory \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t13 These are the notes for a course at the 18th Brazilian School of Probability
+  held from August 3rd to 9th, 2014 in Mambucaba. The aim of the course is to introduce
+  the basic problems of non--linear PD . . . . .\n"
+- "\tMetric and Topological Spaces\n"
+- "\t Category :Topology \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t490The syllabus for the course is defined by the Faculty Board Schedules\r\n"
+- "(which are minimal for lecturing and maximal for examining). What is presented
+  here\r\n"
+- |
+  contains some results which it would not, in . . . . .
+- "\t Combinatorics and algebra of tensor calculus\n"
+- "\t Category :Calculus \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t289\r\n"
+- "\r\n"
+- |2
+      In this paper, motivated by the theory of operads and PROPs we reveal the combinatorial nature of tensor calculus for strict tensor categories and show that there exists a monad which is descr . . . . .
+- "\tPhysical Mathematics\n"
+- "\t Category :Mathematical Physics \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t559The goal of this course is to give a modern introduction to mathematical methods
+  for\r\n"
+- "solving hard mathematics problems that arise in the sciences \x97 physical, biological\r\n"
+- |
+  and social. The toolbox of ap . . . . .
+- "\tINTRODUCTORY MAP THEORY\n"
+- "\t Category :Graph Theory \n"
+- "\t \t\n"
+- "\t Language: \n"
+- "\tclicks: \n"
+- "\t352This book contains the following chapters in company with related subjects.
+  In Chapter I, the embedding of a graph on surfaces are much\r\n"
+- "concerned because they are motivated to building up the theo\r\n"
+- |
+  r . . . . .
+- |2+
+
+- |2+
+
+- |
+  _uacct = "UA-781484-2";
+- |
+  urchinTracker();
+- |
+  <!--
+- |
+  google_ad_client = "pub-2496472530545325";
+- |
+  google_ad_width = 120;
+- |
+  google_ad_height = 600;
+- |
+  google_ad_format = "120x600_as";
+- |
+  google_ad_type = "text";
+- |
+  google_ad_channel ="";
+- |
+  google_color_border = "FFFFFF";
+- |
+  google_color_bg = "FFFFFF";
+- |
+  google_color_link = "6666FF";
+- |
+  google_color_text = "000000";
+- |
+  google_color_url = "008000";
+- |
+  //-->
+- |
+  Add a new book
+- |2+
+
+- |2+
+
+- |2+
+
+- |
+  _uacct = "UA-781484-2";
+- |
+  urchinTracker();
+- |2+
+
+- "Home |  Authors | About | Contact Us |  Email \n"
+- " Copyright © 2002-2013 FreeScience.info. \n"
+- |
+  Best viewed with Mozilla 1.X 1024x768
+- |
+  free scientific books
+index:
+  google_ad_client: !ruby/object:Word
+    word: google_ad_client
+    stem: google_ad_cli
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 39
+    - 78
+    - 139
+  pub: !ruby/object:Word
+    word: pub
+    stem: pub
+    docFrequency: 5.0
+    docPositions:
+    - 1
+    - 39
+    - 78
+    - 139
+  google_ad_width: !ruby/object:Word
+    word: google_ad_width
+    stem: google_ad_width
+    docFrequency: 5.0
+    docPositions:
+    - 2
+    - 40
+    - 79
+    - 140
+  google_ad_height: !ruby/object:Word
+    word: google_ad_height
+    stem: google_ad_height
+    docFrequency: 5.0
+    docPositions:
+    - 3
+    - 41
+    - 80
+    - 141
+  google_ad_format: !ruby/object:Word
+    word: google_ad_format
+    stem: google_ad_format
+    docFrequency: 5.0
+    docPositions:
+    - 4
+    - 42
+    - 81
+    - 142
+  google_ad_type: !ruby/object:Word
+    word: google_ad_type
+    stem: google_ad_typ
+    docFrequency: 4.0
+    docPositions:
+    - 5
+    - 43
+    - 143
+  image: !ruby/object:Word
+    word: image
+    stem: imag
+    docFrequency: 3.0
+    docPositions:
+    - 5
+    - 43
+  google_ad_channel: !ruby/object:Word
+    word: google_ad_channel
+    stem: google_ad_channel
+    docFrequency: 5.0
+    docPositions:
+    - 6
+    - 45
+    - 82
+    - 144
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 3.0
+    docPositions:
+    - 9
+    - 158
+  newsletter: !ruby/object:Word
+    word: newsletter
+    stem: newslett
+    docFrequency: 2.0
+    docPositions:
+    - 11
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 4.0
+    docPositions:
+    - 13
+    - 29
+    - 77
+  books: !ruby/object:Word
+    word: books
+    stem: book
+    docFrequency: 7.0
+    docPositions:
+    - 15
+    - 25
+    - 29
+    - 53
+    - 72
+    - 161
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 8.0
+    docPositions:
+    - 18
+    - 93
+    - 99
+    - 105
+    - 113
+    - 121
+    - 129
+  lingua: !ruby/object:Word
+    word: lingua
+    stem: lingua
+    docFrequency: 2.0
+    docPositions:
+    - 18
+  mathematics: !ruby/object:Word
+    word: mathematics
+    stem: mathemat
+    docFrequency: 10.0
+    docPositions:
+    - 27
+    - 51
+    - 53
+    - 56
+    - 61
+    - 65
+    - 77
+    - 118
+    - 124
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 44
+    - 108
+  book: !ruby/object:Word
+    word: book
+    stem: book
+    docFrequency: 7.0
+    docPositions:
+    - 29
+    - 37
+    - 77
+    - 131
+    - 151
+  most: !ruby/object:Word
+    word: most
+    stem: most
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  clicked: !ruby/object:Word
+    word: clicked
+    stem: click
+    docFrequency: 3.0
+    docPositions:
+    - 29
+  least: !ruby/object:Word
+    word: least
+    stem: least
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  index: !ruby/object:Word
+    word: index
+    stem: index
+    docFrequency: 2.0
+    docPositions:
+    - 29
+  search: !ruby/object:Word
+    word: search
+    stem: search
+    docFrequency: 4.0
+    docPositions:
+    - 29
+    - 53
+  amazon: !ruby/object:Word
+    word: amazon
+    stem: amazon
+    docFrequency: 3.0
+    docPositions:
+    - 29
+    - 53
+  help: !ruby/object:Word
+    word: help
+    stem: help
+    docFrequency: 3.0
+    docPositions:
+    - 37
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 158
+  youadd: !ruby/object:Word
+    word: youadd
+    stem: youadd
+    docFrequency: 2.0
+    docPositions:
+    - 37
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 3.0
+    docPositions:
+    - 37
+    - 151
+  menu: !ruby/object:Word
+    word: menu
+    stem: menu
+    docFrequency: 2.0
+    docPositions:
+    - 44
+  algebra: !ruby/object:Word
+    word: algebra
+    stem: algebra
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 110
+  analysis: !ruby/object:Word
+    word: analysis
+    stem: analysi
+    docFrequency: 3.0
+    docPositions:
+    - 55
+    - 95
+  applied: !ruby/object:Word
+    word: applied
+    stem: appli
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  arithmetic: !ruby/object:Word
+    word: arithmetic
+    stem: arithmet
+    docFrequency: 2.0
+    docPositions:
+    - 57
+  calculus: !ruby/object:Word
+    word: calculus
+    stem: calculu
+    docFrequency: 5.0
+    docPositions:
+    - 58
+    - 110
+    - 111
+    - 117
+  catastrophe: !ruby/object:Word
+    word: catastrophe
+    stem: catastroph
+    docFrequency: 2.0
+    docPositions:
+    - 59
+  theory: !ruby/object:Word
+    word: theory
+    stem: theori
+    docFrequency: 13.0
+    docPositions:
+    - 59
+    - 60
+    - 64
+    - 67
+    - 69
+    - 71
+    - 73
+    - 76
+    - 97
+    - 117
+    - 126
+    - 127
+  control: !ruby/object:Word
+    word: control
+    stem: control
+    docFrequency: 2.0
+    docPositions:
+    - 60
+  discrete: !ruby/object:Word
+    word: discrete
+    stem: discret
+    docFrequency: 2.0
+    docPositions:
+    - 61
+  dynamical: !ruby/object:Word
+    word: dynamical
+    stem: dynam
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 91
+  systems: !ruby/object:Word
+    word: systems
+    stem: system
+    docFrequency: 4.0
+    docPositions:
+    - 62
+    - 68
+    - 91
+  fractals: !ruby/object:Word
+    word: fractals
+    stem: fractal
+    docFrequency: 2.0
+    docPositions:
+    - 63
+  game: !ruby/object:Word
+    word: game
+    stem: game
+    docFrequency: 2.0
+    docPositions:
+    - 64
+  general: !ruby/object:Word
+    word: general
+    stem: gener
+    docFrequency: 2.0
+    docPositions:
+    - 65
+  geometry: !ruby/object:Word
+    word: geometry
+    stem: geometri
+    docFrequency: 2.0
+    docPositions:
+    - 66
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 2.0
+    docPositions:
+    - 67
+  information: !ruby/object:Word
+    word: information
+    stem: inform
+    docFrequency: 3.0
+    docPositions:
+    - 68
+    - 69
+  elaboration: !ruby/object:Word
+    word: elaboration
+    stem: elabor
+    docFrequency: 2.0
+    docPositions:
+    - 68
+  mathematical: !ruby/object:Word
+    word: mathematical
+    stem: mathemat
+    docFrequency: 4.0
+    docPositions:
+    - 70
+    - 119
+    - 123
+  physics: !ruby/object:Word
+    word: physics
+    stem: physic
+    docFrequency: 3.0
+    docPositions:
+    - 70
+    - 119
+  measure: !ruby/object:Word
+    word: measure
+    stem: measur
+    docFrequency: 2.0
+    docPositions:
+    - 71
+  misc: !ruby/object:Word
+    word: misc
+    stem: misc
+    docFrequency: 2.0
+    docPositions:
+    - 72
+  number: !ruby/object:Word
+    word: number
+    stem: number
+    docFrequency: 2.0
+    docPositions:
+    - 73
+  optimization: !ruby/object:Word
+    word: optimization
+    stem: optim
+    docFrequency: 2.0
+    docPositions:
+    - 74
+  probability: !ruby/object:Word
+    word: probability
+    stem: probabl
+    docFrequency: 4.0
+    docPositions:
+    - 75
+    - 97
+    - 101
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 9.0
+    docPositions:
+    - 75
+    - 95
+    - 102
+    - 108
+    - 110
+    - 117
+    - 125
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 2.0
+    docPositions:
+    - 75
+  queueing: !ruby/object:Word
+    word: queueing
+    stem: queue
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  topology: !ruby/object:Word
+    word: topology
+    stem: topolog
+    docFrequency: 3.0
+    docPositions:
+    - 77
+    - 103
+  google_color_border: !ruby/object:Word
+    word: google_color_border
+    stem: google_color_bord
+    docFrequency: 3.0
+    docPositions:
+    - 83
+    - 145
+  ffffff: !ruby/object:Word
+    word: ffffff
+    stem: ffffff
+    docFrequency: 4.0
+    docPositions:
+    - 83
+    - 145
+    - 146
+  google_color_bg: !ruby/object:Word
+    word: google_color_bg
+    stem: google_color_bg
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 146
+  dddddd: !ruby/object:Word
+    word: dddddd
+    stem: dddddd
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  google_color_link: !ruby/object:Word
+    word: google_color_link
+    stem: google_color_link
+    docFrequency: 3.0
+    docPositions:
+    - 85
+    - 147
+  google_color_text: !ruby/object:Word
+    word: google_color_text
+    stem: google_color_text
+    docFrequency: 3.0
+    docPositions:
+    - 86
+    - 148
+  google_color_url: !ruby/object:Word
+    word: google_color_url
+    stem: google_color_url
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 149
+  around: !ruby/object:Word
+    word: around
+    stem: around
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  boundary: !ruby/object:Word
+    word: boundary
+    stem: boundari
+    docFrequency: 2.0
+    docPositions:
+    - 90
+  complex: !ruby/object:Word
+    word: complex
+    stem: complex
+    docFrequency: 4.0
+    docPositions:
+    - 90
+    - 95
+  dynamics: !ruby/object:Word
+    word: dynamics
+    stem: dynam
+    docFrequency: 3.0
+    docPositions:
+    - 90
+    - 95
+  category: !ruby/object:Word
+    word: category
+    stem: categori
+    docFrequency: 7.0
+    docPositions:
+    - 91
+    - 97
+    - 103
+    - 111
+    - 119
+    - 127
+  clicks: !ruby/object:Word
+    word: clicks
+    stem: click
+    docFrequency: 7.0
+    docPositions:
+    - 94
+    - 100
+    - 106
+    - 114
+    - 122
+    - 130
+  introduce: !ruby/object:Word
+    word: introduce
+    stem: introduc
+    docFrequency: 3.0
+    docPositions:
+    - 95
+    - 101
+  exciting: !ruby/object:Word
+    word: exciting
+    stem: excit
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  field: !ruby/object:Word
+    word: field
+    stem: field
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  undergraduate: !ruby/object:Word
+    word: undergraduate
+    stem: undergradu
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  level: !ruby/object:Word
+    word: level
+    stem: level
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  reviewing: !ruby/object:Word
+    word: reviewing
+    stem: review
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  reinforcing: !ruby/object:Word
+    word: reinforcing
+    stem: reinforc
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  extending: !ruby/object:Word
+    word: extending
+    stem: extend
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  ideas: !ruby/object:Word
+    word: ideas
+    stem: idea
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  learned: !ruby/object:Word
+    word: learned
+    stem: learn
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  typical: !ruby/object:Word
+    word: typical
+    stem: typic
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  course: !ruby/object:Word
+    word: course
+    stem: cours
+    docFrequency: 6.0
+    docPositions:
+    - 95
+    - 101
+    - 107
+    - 123
+  julia: !ruby/object:Word
+    word: julia
+    stem: julia
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  sets: !ruby/object:Word
+    word: sets
+    stem: set
+    docFrequency: 2.0
+    docPositions:
+    - 95
+  lectures: !ruby/object:Word
+    word: lectures
+    stem: lectur
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  singular: !ruby/object:Word
+    word: singular
+    stem: singular
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  stochastic: !ruby/object:Word
+    word: stochastic
+    stem: stochast
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  pdes: !ruby/object:Word
+    word: pdes
+    stem: pde
+    docFrequency: 2.0
+    docPositions:
+    - 96
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  notes: !ruby/object:Word
+    word: notes
+    stem: note
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  brazilian: !ruby/object:Word
+    word: brazilian
+    stem: brazilian
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  school: !ruby/object:Word
+    word: school
+    stem: school
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  held: !ruby/object:Word
+    word: held
+    stem: held
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  august: !ruby/object:Word
+    word: august
+    stem: august
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  mambucaba: !ruby/object:Word
+    word: mambucaba
+    stem: mambucaba
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  aim: !ruby/object:Word
+    word: aim
+    stem: aim
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  problems: !ruby/object:Word
+    word: problems
+    stem: problem
+    docFrequency: 3.0
+    docPositions:
+    - 101
+    - 124
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  linear: !ruby/object:Word
+    word: linear
+    stem: linear
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  pd: !ruby/object:Word
+    word: pd
+    stem: pd
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  metric: !ruby/object:Word
+    word: metric
+    stem: metric
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  topological: !ruby/object:Word
+    word: topological
+    stem: topolog
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  spaces: !ruby/object:Word
+    word: spaces
+    stem: space
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  syllabus: !ruby/object:Word
+    word: syllabus
+    stem: syllabu
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  defined: !ruby/object:Word
+    word: defined
+    stem: defin
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  faculty: !ruby/object:Word
+    word: faculty
+    stem: faculti
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  board: !ruby/object:Word
+    word: board
+    stem: board
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  schedules: !ruby/object:Word
+    word: schedules
+    stem: schedul
+    docFrequency: 2.0
+    docPositions:
+    - 107
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 4.0
+    docPositions:
+    - 108
+    - 109
+    - 117
+  minimal: !ruby/object:Word
+    word: minimal
+    stem: minim
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  lecturing: !ruby/object:Word
+    word: lecturing
+    stem: lectur
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  maximal: !ruby/object:Word
+    word: maximal
+    stem: maxim
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  examining: !ruby/object:Word
+    word: examining
+    stem: examin
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  presented: !ruby/object:Word
+    word: presented
+    stem: present
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 2.0
+    docPositions:
+    - 108
+  contains: !ruby/object:Word
+    word: contains
+    stem: contain
+    docFrequency: 3.0
+    docPositions:
+    - 109
+    - 131
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  results: !ruby/object:Word
+    word: results
+    stem: result
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  would: !ruby/object:Word
+    word: would
+    stem: would
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 109
+  combinatorics: !ruby/object:Word
+    word: combinatorics
+    stem: combinator
+    docFrequency: 2.0
+    docPositions:
+    - 110
+  tensor: !ruby/object:Word
+    word: tensor
+    stem: tensor
+    docFrequency: 4.0
+    docPositions:
+    - 110
+    - 117
+  paper: !ruby/object:Word
+    word: paper
+    stem: paper
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  motivated: !ruby/object:Word
+    word: motivated
+    stem: motiv
+    docFrequency: 3.0
+    docPositions:
+    - 117
+    - 132
+  operads: !ruby/object:Word
+    word: operads
+    stem: operad
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  props: !ruby/object:Word
+    word: props
+    stem: prop
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  reveal: !ruby/object:Word
+    word: reveal
+    stem: reveal
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  combinatorial: !ruby/object:Word
+    word: combinatorial
+    stem: combinatori
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  nature: !ruby/object:Word
+    word: nature
+    stem: natur
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  strict: !ruby/object:Word
+    word: strict
+    stem: strict
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  categories: !ruby/object:Word
+    word: categories
+    stem: categori
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  exists: !ruby/object:Word
+    word: exists
+    stem: exist
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  monad: !ruby/object:Word
+    word: monad
+    stem: monad
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  descr: !ruby/object:Word
+    word: descr
+    stem: descr
+    docFrequency: 2.0
+    docPositions:
+    - 117
+  physical: !ruby/object:Word
+    word: physical
+    stem: physic
+    docFrequency: 3.0
+    docPositions:
+    - 118
+    - 124
+  goal: !ruby/object:Word
+    word: goal
+    stem: goal
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  give: !ruby/object:Word
+    word: give
+    stem: give
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  modern: !ruby/object:Word
+    word: modern
+    stem: modern
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  introduction: !ruby/object:Word
+    word: introduction
+    stem: introduct
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  methods: !ruby/object:Word
+    word: methods
+    stem: method
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  solving: !ruby/object:Word
+    word: solving
+    stem: solv
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  hard: !ruby/object:Word
+    word: hard
+    stem: hard
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  arise: !ruby/object:Word
+    word: arise
+    stem: aris
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  sciences: !ruby/object:Word
+    word: sciences
+    stem: scienc
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  biological: !ruby/object:Word
+    word: biological
+    stem: biolog
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  social: !ruby/object:Word
+    word: social
+    stem: social
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  toolbox: !ruby/object:Word
+    word: toolbox
+    stem: toolbox
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  ap: !ruby/object:Word
+    word: ap
+    stem: ap
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  introductory: !ruby/object:Word
+    word: introductory
+    stem: introductori
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  map: !ruby/object:Word
+    word: map
+    stem: map
+    docFrequency: 2.0
+    docPositions:
+    - 126
+  graph: !ruby/object:Word
+    word: graph
+    stem: graph
+    docFrequency: 3.0
+    docPositions:
+    - 127
+    - 131
+  following: !ruby/object:Word
+    word: following
+    stem: follow
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  chapters: !ruby/object:Word
+    word: chapters
+    stem: chapter
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  subjects: !ruby/object:Word
+    word: subjects
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  chapter: !ruby/object:Word
+    word: chapter
+    stem: chapter
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  embedding: !ruby/object:Word
+    word: embedding
+    stem: embed
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  surfaces: !ruby/object:Word
+    word: surfaces
+    stem: surfac
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  much: !ruby/object:Word
+    word: much
+    stem: much
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  concerned: !ruby/object:Word
+    word: concerned
+    stem: concern
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  because: !ruby/object:Word
+    word: because
+    stem: becaus
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  building: !ruby/object:Word
+    word: building
+    stem: build
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  theo: !ruby/object:Word
+    word: theo
+    stem: theo
+    docFrequency: 2.0
+    docPositions:
+    - 132
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 2.0
+    docPositions:
+    - 133
+  _uacct: !ruby/object:Word
+    word: _uacct
+    stem: _uacct
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 155
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 3.0
+    docPositions:
+    - 136
+    - 155
+  urchintracker: !ruby/object:Word
+    word: urchintracker
+    stem: urchintrack
+    docFrequency: 3.0
+    docPositions:
+    - 137
+    - 156
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  add: !ruby/object:Word
+    word: add
+    stem: add
+    docFrequency: 2.0
+    docPositions:
+    - 151
+  authors: !ruby/object:Word
+    word: authors
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  email: !ruby/object:Word
+    word: email
+    stem: email
+    docFrequency: 2.0
+    docPositions:
+    - 158
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  freescience: !ruby/object:Word
+    word: freescience
+    stem: freescienc
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  info: !ruby/object:Word
+    word: info
+    stem: info
+    docFrequency: 2.0
+    docPositions:
+    - 159
+  best: !ruby/object:Word
+    word: best
+    stem: best
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  viewed: !ruby/object:Word
+    word: viewed
+    stem: view
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  mozilla: !ruby/object:Word
+    word: mozilla
+    stem: mozilla
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  x: !ruby/object:Word
+    word: x
+    stem: x
+    docFrequency: 2.0
+    docPositions:
+    - 160
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 2.0
+    docPositions:
+    - 161
+  scientific: !ruby/object:Word
+    word: scientific
+    stem: scientif
+    docFrequency: 2.0
+    docPositions:
+    - 161
+lineCount: 162
+wordCount: 472
+rank: 0.2607142857142857
+title: FreeScience - Books - Mathematics
+links:
+- http://www.amazon.com/gp/redirect.html?link_code=ur2&tag=freescience06-20&camp=1789&creative=9325&location=/gp/search%3F%26index=books%26keywords=Mathematics%26_encoding=UTF8
+- |-
+  http://www.amazon.com/gp/redirect.html?link_code=ur2&ta
+  g=freescience06-20&camp=1789&creative=9325&location=/gp/search%3F%26index=books%
+  26keywords=Mathematics%26_encoding=UTF8
+- http://www.attaccalite.com
+- http://www.mozilla.org
+rawText: "<!--\n\tgoogle_ad_client = \"pub-2496472530545325\";\n\tgoogle_ad_width
+  = 728;\n\tgoogle_ad_height = 90;\n\tgoogle_ad_format = \"728x90_as\";\n\tgoogle_ad_type
+  = \"image\";\n\tgoogle_ad_channel =\"\";\n\t//-->\n\t  \n\t\t\t Home \n\t\t\t \nNewsletter\n\t\t\nNews\n\t\t\n\t\t\t\tBooks
+  \n\t\t\n\t\t\nLanguage/Lingua \n  \n \n  \n\n\n\nBooks\nof\nMathematics\n\n· Book
+  News  · Most clicked  · Least clicked  · Books Index  · Search on Amazon   Search
+  for a Book\n\n\n  \n    \n\n\n\nHELP US TO HELP YOUAdd a new Book\n<!--\ngoogle_ad_client
+  = \"pub-2496472530545325\";\ngoogle_ad_width = 160;\ngoogle_ad_height = 600;\ngoogle_ad_format
+  = \"160x600_as\";\ngoogle_ad_type = \"image\";\n//2007-04-29: menu\ngoogle_ad_channel
+  = \"2086188911\";\n//-->\n\n \n\n\n\tMathematics\n\n       \tBooks -> Mathematics
+  Search on Amazon\n\t               Algebra[112]\n\t              Analysis[121]\n\t
+  \             Applied Mathematics[19]\n\t           Arithmetic[2]\n\t           Calculus[22]\n\t
+  \          Catastrophe theory[1]\n\t           Control Theory[4]\n\t              Discrete
+  Mathematics[73]\n\t              Dynamical Systems[30]\n\t           Fractals[3]\n\t
+  \          Game Theory[4]\n\t           General Mathematics[13]\n\t              Geometry[114]\n\t
+  \             Group Theory[34]\n\t           Information elaboration systems\n\t
+  \             Information Theory[11]\n\t              Mathematical Physics[76]\n\t
+  \          Measure Theory[3]\n\t           Misc. Books[8]\n\t              Number
+  Theory[39]\n\t              Optimization[14]\n\t              Probability and Statistics[64]\n\t
+  \          Queueing Theory[5]\n\t              Topology[64] Book News: Mathematics
+  \ <!--\ngoogle_ad_client = \"pub-2496472530545325\";\ngoogle_ad_width = 705;\ngoogle_ad_height
+  = 17;\ngoogle_ad_format = \"728x15_0ads_al\";\ngoogle_ad_channel =\"\";\ngoogle_color_border
+  = \"FFFFFF\";\ngoogle_color_bg = \"DDDDDD\";\ngoogle_color_link = \"6666ff\";\ngoogle_color_text
+  = \"000080\";\ngoogle_color_url = \"008000\";\n//-->\n  \n\t Around the boundary
+  of complex dynamics\n\t Category :Dynamical Systems \n\t \t\n\t Language: \n\tclicks:
+  \n\t369We introduce the exciting field of complex dynamics at an undergraduate level
+  while reviewing, reinforcing, and extending the ideas learned in an typical first
+  course on complex analysis. Julia sets a . . . . .\n\t Lectures on singular stochastic
+  PDEs\n\t Category :Probability Theory \n\t \t\n\t Language: \n\tclicks: \n\t13 These
+  are the notes for a course at the 18th Brazilian School of Probability held from
+  August 3rd to 9th, 2014 in Mambucaba. The aim of the course is to introduce the
+  basic problems of non--linear PD . . . . .\n\tMetric and Topological Spaces\n\t
+  Category :Topology \n\t \t\n\t Language: \n\tclicks: \n\t490The syllabus for the
+  course is defined by the Faculty Board Schedules\r\n(which are minimal for lecturing
+  and maximal for examining). What is presented here\r\ncontains some results which
+  it would not, in . . . . .\n\t Combinatorics and algebra of tensor calculus\n\t
+  Category :Calculus \n\t \t\n\t Language: \n\tclicks: \n\t289\r\n\r\n    In this
+  paper, motivated by the theory of operads and PROPs we reveal the combinatorial
+  nature of tensor calculus for strict tensor categories and show that there exists
+  a monad which is descr . . . . .\n\tPhysical Mathematics\n\t Category :Mathematical
+  Physics \n\t \t\n\t Language: \n\tclicks: \n\t559The goal of this course is to give
+  a modern introduction to mathematical methods for\r\nsolving hard mathematics problems
+  that arise in the sciences \x97 physical, biological\r\nand social. The toolbox
+  of ap . . . . .\n\tINTRODUCTORY MAP THEORY\n\t Category :Graph Theory \n\t \t\n\t
+  Language: \n\tclicks: \n\t352This book contains the following chapters in company
+  with related subjects. In Chapter I, the embedding of a graph on surfaces are much\r\nconcerned
+  because they are motivated to building up the theo\r\nr . . . . .\n\n\n_uacct =
+  \"UA-781484-2\";\nurchinTracker();\n<!--\ngoogle_ad_client = \"pub-2496472530545325\";\ngoogle_ad_width
+  = 120;\ngoogle_ad_height = 600;\ngoogle_ad_format = \"120x600_as\";\ngoogle_ad_type
+  = \"text\";\ngoogle_ad_channel =\"\";\ngoogle_color_border = \"FFFFFF\";\ngoogle_color_bg
+  = \"FFFFFF\";\ngoogle_color_link = \"6666FF\";\ngoogle_color_text = \"000000\";\ngoogle_color_url
+  = \"008000\";\n//-->\nAdd a new book\n\n\n\n_uacct = \"UA-781484-2\";\nurchinTracker();\n\nHome
+  |  Authors | About | Contact Us |  Email \n Copyright © 2002-2013 FreeScience.info.
+  \nBest viewed with Mozilla 1.X 1024x768\nfree scientific books\n"

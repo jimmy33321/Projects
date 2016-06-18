@@ -1,0 +1,1961 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 109
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 38
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 145
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 82
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag main invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 230
+    str1: main
+    str2: 
+    str3: 
+    int1: 0
+    column: 31
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 263
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 42
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 265
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 42
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 267
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 54
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: no name
+    domain: 5
+    code: 68
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 340
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 161
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 390
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 50
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 399
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 399
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 103
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 400
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 400
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 69
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 401
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 401
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 45
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 403
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 403
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 85
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 404
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      htmlParseEntityRef: expecting ';'
+    domain: 5
+    code: 23
+    level: 2
+    file: "/tmp/open-uri20151214-21537-fsa686"
+    line: 404
+    str1: 
+    str2: 
+    str3: 
+    int1: 0
+    column: 84
+address: http://scholarspace.manoa.hawaii.edu/handle/10125/4606
+inboundLinks: []
+lines:
+- "\r\n"
+- "\t\r\n"
+- "Skip navigation\r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "                \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "       \r\n"
+- "         \r\n"
+- "           \r\n"
+- "           \r\n"
+- "           \r\n"
+- "         \r\n"
+- "       \r\n"
+- "        Home\r\n"
+- "                \r\n"
+- "           \r\n"
+- "             Browse \r\n"
+- "             Communities\r\n"
+- "\t\t\t\t\r\n"
+- "        Browse Items by:\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\t      \t\t\tIssue Date\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t      \t\t\tAuthor\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t      \t\t\tTitle\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t      \t\t\tSubject\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t    \r\n"
+- "\t\t\t\t\r\n"
+- "\r\n"
+- "            \r\n"
+- "\r\n"
+- "\t\t  \r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\tRelated Sites\r\n"
+- "\t\t\t\teVols Repository\r\n"
+- "\t\t\t\t\tUH System Repository\r\n"
+- "\t\t\t\t\t\r\n"
+- "\t\t\t\t\tHamilton Library Home Page\r\n"
+- "\t\t\t\t\tResearch Tools\r\n"
+- "\t\t\t\t\tPersonal Services\r\n"
+- "\t\t\t\t\tAbout the Library\r\n"
+- "\t\t\t\t\t\r\n"
+- "\r\n"
+- "\t\t  \t  \r\n"
+- "       \r\n"
+- "\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\t\t\r\n"
+- "\t\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t  \r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "         \r\n"
+- "              Sign on to: \r\n"
+- "\t             \r\n"
+- "             My ScholarSpace\r\n"
+- "               Receive emailupdates\r\n"
+- "               Edit Profile\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "             \r\n"
+- "          \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "                \r\n"
+- "\r\n"
+- "\r\n"
+- "                \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "  \r\n"
+- "\r\n"
+- "\r\n"
+- "Home\r\n"
+- "\r\n"
+- "\t\t\tDepartment of Linguistics\r\n"
+- "\r\n"
+- "\t\t\tLanguage Documentation\r\n"
+- "\r\n"
+- "\t\t\tLanguage Documentation …  Conservation\r\n"
+- "\r\n"
+- "\t\t\tLanguage Documentation …  Conservation (Journal)\r\n"
+- "\r\n"
+- "\t\t\tVolume 07 : …  Conservation\r\n"
+- "\r\n"
+- "\t\tLanguoid, Doculect, and Glossonym: Formalizing the Notion 'Language'\r\n"
+- "                \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "        \r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "ScholarSpace has been recently updated. \r\n"
+- "Please contact sspace@hawaii.edu with any problems or questions.\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\t\t\r\n"
+- "\r\n"
+- "                Please use this identifier to cite or link to this item:\r\n"
+- "                http://hdl.handle.net/10125/4606\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- |2
+      Files
+- |
+  File
+- |
+  Description
+- |
+  SizeFormat cysouw_good.pdf904.21 kBAdobe PDFView/Open
+- |
+  Item Summary
+- "Title: Languoid, Doculect, and Glossonym: Formalizing the Notion 'Language'Authors: Good,
+  JeffCysouw, MichaelKeywords: Language, Dialect, Standardization, Languoid, Doculect,
+  GlossonymIssue Date: 19-Dec-2013Citation: Good, Jeff & Cysouw, Michael. 2013. Languoid,
+  Doculect, and Glossonym: Formalizing the Notion 'Language'. LD&C 7.Abstract: It
+  is perfectly reasonable for laypeople and non-linguistic scholars to use names for
+  languages without reflecting on the proper definition of the objects referred to
+  by these names. Simply using a name like English or Witotoan suffices as an informal
+  communicative designation for a particular language or a language group. However,
+  for the linguistics community, which is by definition occupied with the details
+  of languages and language variation, it is somewhat bizarre that there does not
+  exist a proper technical apparatus to talk about intricate differences in opinion
+  about the precise sense of a name like English or Witotoan when used in academic
+  discussion. We propose three interrelated concepts—LANGUOID, DOCULECT, and GLOSSONYM—which
+  provide a principled basis for discussion of different points of view about key
+  issues, such as whether two varieties should be associated with the same language,
+  and allow for a precise description of what exactly is being claimed by the use
+  of a given genealogical or areal group name. The framework they provide should be
+  especially useful to researchers who work on underdescribed languages where basic
+  issues of classification remain unresolved.URI: http://hdl.handle.net/10125/4606Rights: Attribution-NonCommercial-ShareAlike
+  3.0 United StatesAppears in Collections:Volume 07 : Language Documentation & Conservation\r\n"
+- "\r\n"
+- "\r\n"
+- "    \r\n"
+- "        Show full item record\r\n"
+- "    \r\n"
+- "\r\n"
+- "    \r\n"
+- "       Recommend this item\r\n"
+- "\r\n"
+- "\tView Statistics\r\n"
+- "\r\n"
+- "    \r\n"
+- "\r\n"
+- "\r\n"
+- "Items in ScholarSpace are protected by copyright, with all rights reserved, unless
+  otherwise indicated.\r\n"
+- "  \r\n"
+- "\t\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "            \r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\r\n"
+- "\t\r\n"
+- "\t\tUniversity of Hawai'i at Manoa Hamilton Library 2550 McCarthy Mall Honolulu,
+  HI 96822 \r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\tScholarSpace is the institutional repository for the University of Hawai'i
+  at Manoa and is maintained by Hamilton Library. Built on open-source DSpace software.\r\n"
+- "\t\r\n"
+- "\t\r\n"
+- "\t\t&nbspAbout Us&nbsp\r\n"
+- "\t\t&nbspEmail Us&nbsp\r\n"
+- "\t\t&nbspDonate&nbsp\r\n"
+- "\t\t\r\n"
+- "\t\t&nbspHamiltion Library&nbsp\r\n"
+- "\t\t&nbspUniversity of Hawaii&nbsp\r\n"
+- "\t\r\n"
+- "\r\n"
+- "\r\n"
+- "    Items in ScholarSpace are protected by copyright, with all rights reserved,
+  unless otherwise indicated."
+index:
+  skip: !ruby/object:Word
+    word: skip
+    stem: skip
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  navigation: !ruby/object:Word
+    word: navigation
+    stem: navig
+    docFrequency: 2.0
+    docPositions:
+    - 2
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 4.0
+    docPositions:
+    - 46
+    - 80
+    - 121
+  browse: !ruby/object:Word
+    word: browse
+    stem: brows
+    docFrequency: 3.0
+    docPositions:
+    - 49
+    - 52
+  communities: !ruby/object:Word
+    word: communities
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 50
+  items: !ruby/object:Word
+    word: items
+    stem: item
+    docFrequency: 4.0
+    docPositions:
+    - 52
+    - 205
+    - 242
+  issue: !ruby/object:Word
+    word: issue
+    stem: issu
+    docFrequency: 2.0
+    docPositions:
+    - 56
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 190
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 58
+  title: !ruby/object:Word
+    word: title
+    stem: titl
+    docFrequency: 3.0
+    docPositions:
+    - 60
+    - 190
+  subject: !ruby/object:Word
+    word: subject
+    stem: subject
+    docFrequency: 2.0
+    docPositions:
+    - 62
+  related: !ruby/object:Word
+    word: related
+    stem: relat
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 2.0
+    docPositions:
+    - 76
+  evols: !ruby/object:Word
+    word: evols
+    stem: evol
+    docFrequency: 2.0
+    docPositions:
+    - 77
+  repository: !ruby/object:Word
+    word: repository
+    stem: repositori
+    docFrequency: 4.0
+    docPositions:
+    - 77
+    - 78
+    - 230
+  uh: !ruby/object:Word
+    word: uh
+    stem: uh
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  system: !ruby/object:Word
+    word: system
+    stem: system
+    docFrequency: 2.0
+    docPositions:
+    - 78
+  hamilton: !ruby/object:Word
+    word: hamilton
+    stem: hamilton
+    docFrequency: 4.0
+    docPositions:
+    - 80
+    - 227
+    - 230
+  library: !ruby/object:Word
+    word: library
+    stem: librari
+    docFrequency: 6.0
+    docPositions:
+    - 80
+    - 83
+    - 227
+    - 230
+    - 237
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 2.0
+    docPositions:
+    - 80
+  research: !ruby/object:Word
+    word: research
+    stem: research
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  tools: !ruby/object:Word
+    word: tools
+    stem: tool
+    docFrequency: 2.0
+    docPositions:
+    - 81
+  personal: !ruby/object:Word
+    word: personal
+    stem: person
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  services: !ruby/object:Word
+    word: services
+    stem: servic
+    docFrequency: 2.0
+    docPositions:
+    - 82
+  sign: !ruby/object:Word
+    word: sign
+    stem: sign
+    docFrequency: 2.0
+    docPositions:
+    - 99
+  my: !ruby/object:Word
+    word: my
+    stem: my
+    docFrequency: 2.0
+    docPositions:
+    - 101
+  scholarspace: !ruby/object:Word
+    word: scholarspace
+    stem: scholarspac
+    docFrequency: 6.0
+    docPositions:
+    - 101
+    - 142
+    - 205
+    - 230
+    - 242
+  receive: !ruby/object:Word
+    word: receive
+    stem: receiv
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  emailupdates: !ruby/object:Word
+    word: emailupdates
+    stem: emailupd
+    docFrequency: 2.0
+    docPositions:
+    - 102
+  edit: !ruby/object:Word
+    word: edit
+    stem: edit
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 2.0
+    docPositions:
+    - 103
+  department: !ruby/object:Word
+    word: department
+    stem: depart
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  linguistics: !ruby/object:Word
+    word: linguistics
+    stem: linguist
+    docFrequency: 3.0
+    docPositions:
+    - 123
+    - 190
+  language: !ruby/object:Word
+    word: language
+    stem: languag
+    docFrequency: 13.0
+    docPositions:
+    - 125
+    - 127
+    - 129
+    - 133
+    - 190
+  documentation: !ruby/object:Word
+    word: documentation
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 125
+    - 127
+    - 129
+    - 190
+  conservation: !ruby/object:Word
+    word: conservation
+    stem: conserv
+    docFrequency: 5.0
+    docPositions:
+    - 127
+    - 129
+    - 131
+    - 190
+  journal: !ruby/object:Word
+    word: journal
+    stem: journal
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  volume: !ruby/object:Word
+    word: volume
+    stem: volum
+    docFrequency: 3.0
+    docPositions:
+    - 131
+    - 190
+  languoid: !ruby/object:Word
+    word: languoid
+    stem: languoid
+    docFrequency: 6.0
+    docPositions:
+    - 133
+    - 190
+  doculect: !ruby/object:Word
+    word: doculect
+    stem: doculect
+    docFrequency: 6.0
+    docPositions:
+    - 133
+    - 190
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 9.0
+    docPositions:
+    - 133
+    - 190
+    - 230
+  glossonym: !ruby/object:Word
+    word: glossonym
+    stem: glossonym
+    docFrequency: 5.0
+    docPositions:
+    - 133
+    - 190
+  formalizing: !ruby/object:Word
+    word: formalizing
+    stem: formal
+    docFrequency: 4.0
+    docPositions:
+    - 133
+    - 190
+  notion: !ruby/object:Word
+    word: notion
+    stem: notion
+    docFrequency: 4.0
+    docPositions:
+    - 133
+    - 190
+  has: !ruby/object:Word
+    word: has
+    stem: ha
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  been: !ruby/object:Word
+    word: been
+    stem: been
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  recently: !ruby/object:Word
+    word: recently
+    stem: recent
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  updated: !ruby/object:Word
+    word: updated
+    stem: updat
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 179
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  sspace: !ruby/object:Word
+    word: sspace
+    stem: sspace
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  hawaii: !ruby/object:Word
+    word: hawaii
+    stem: hawaii
+    docFrequency: 3.0
+    docPositions:
+    - 143
+    - 238
+  edu: !ruby/object:Word
+    word: edu
+    stem: edu
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  problems: !ruby/object:Word
+    word: problems
+    stem: problem
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 179
+    - 190
+  identifier: !ruby/object:Word
+    word: identifier
+    stem: identifi
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  cite: !ruby/object:Word
+    word: cite
+    stem: cite
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  link: !ruby/object:Word
+    word: link
+    stem: link
+    docFrequency: 2.0
+    docPositions:
+    - 179
+  item: !ruby/object:Word
+    word: item
+    stem: item
+    docFrequency: 5.0
+    docPositions:
+    - 179
+    - 189
+    - 194
+    - 198
+  hdl: !ruby/object:Word
+    word: hdl
+    stem: hdl
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 190
+  handle: !ruby/object:Word
+    word: handle
+    stem: handl
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 190
+  net: !ruby/object:Word
+    word: net
+    stem: net
+    docFrequency: 3.0
+    docPositions:
+    - 180
+    - 190
+  files: !ruby/object:Word
+    word: files
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 185
+  file: !ruby/object:Word
+    word: file
+    stem: file
+    docFrequency: 2.0
+    docPositions:
+    - 186
+  description: !ruby/object:Word
+    word: description
+    stem: descript
+    docFrequency: 3.0
+    docPositions:
+    - 187
+    - 190
+  sizeformat: !ruby/object:Word
+    word: sizeformat
+    stem: sizeformat
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  cysouw_good: !ruby/object:Word
+    word: cysouw_good
+    stem: cysouw_good
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  kbadobe: !ruby/object:Word
+    word: kbadobe
+    stem: kbadob
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  pdfview: !ruby/object:Word
+    word: pdfview
+    stem: pdfview
+    docFrequency: 2.0
+    docPositions:
+    - 188
+  open: !ruby/object:Word
+    word: open
+    stem: open
+    docFrequency: 3.0
+    docPositions:
+    - 188
+    - 230
+  summary: !ruby/object:Word
+    word: summary
+    stem: summari
+    docFrequency: 2.0
+    docPositions:
+    - 189
+  authors: !ruby/object:Word
+    word: authors
+    stem: author
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  good: !ruby/object:Word
+    word: good
+    stem: good
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  jeffcysouw: !ruby/object:Word
+    word: jeffcysouw
+    stem: jeffcysouw
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  michaelkeywords: !ruby/object:Word
+    word: michaelkeywords
+    stem: michaelkeyword
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  dialect: !ruby/object:Word
+    word: dialect
+    stem: dialect
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  standardization: !ruby/object:Word
+    word: standardization
+    stem: standard
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  glossonymissue: !ruby/object:Word
+    word: glossonymissue
+    stem: glossonymissu
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  jeff: !ruby/object:Word
+    word: jeff
+    stem: jeff
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  cysouw: !ruby/object:Word
+    word: cysouw
+    stem: cysouw
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  michael: !ruby/object:Word
+    word: michael
+    stem: michael
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  ld: !ruby/object:Word
+    word: ld
+    stem: ld
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  c: !ruby/object:Word
+    word: c
+    stem: c
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  abstract: !ruby/object:Word
+    word: abstract
+    stem: abstract
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  perfectly: !ruby/object:Word
+    word: perfectly
+    stem: perfectli
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  reasonable: !ruby/object:Word
+    word: reasonable
+    stem: reason
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  laypeople: !ruby/object:Word
+    word: laypeople
+    stem: laypeopl
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  non: !ruby/object:Word
+    word: non
+    stem: non
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  linguistic: !ruby/object:Word
+    word: linguistic
+    stem: linguist
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  scholars: !ruby/object:Word
+    word: scholars
+    stem: scholar
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  languages: !ruby/object:Word
+    word: languages
+    stem: languag
+    docFrequency: 4.0
+    docPositions:
+    - 190
+  without: !ruby/object:Word
+    word: without
+    stem: without
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  reflecting: !ruby/object:Word
+    word: reflecting
+    stem: reflect
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  proper: !ruby/object:Word
+    word: proper
+    stem: proper
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  definition: !ruby/object:Word
+    word: definition
+    stem: definit
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  objects: !ruby/object:Word
+    word: objects
+    stem: object
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  referred: !ruby/object:Word
+    word: referred
+    stem: refer
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  simply: !ruby/object:Word
+    word: simply
+    stem: simpli
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  using: !ruby/object:Word
+    word: using
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 4.0
+    docPositions:
+    - 190
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  english: !ruby/object:Word
+    word: english
+    stem: english
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  witotoan: !ruby/object:Word
+    word: witotoan
+    stem: witotoan
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  suffices: !ruby/object:Word
+    word: suffices
+    stem: suffic
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  informal: !ruby/object:Word
+    word: informal
+    stem: inform
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  communicative: !ruby/object:Word
+    word: communicative
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  designation: !ruby/object:Word
+    word: designation
+    stem: design
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  particular: !ruby/object:Word
+    word: particular
+    stem: particular
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  group: !ruby/object:Word
+    word: group
+    stem: group
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  however: !ruby/object:Word
+    word: however
+    stem: howev
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  which: !ruby/object:Word
+    word: which
+    stem: which
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  occupied: !ruby/object:Word
+    word: occupied
+    stem: occupi
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  details: !ruby/object:Word
+    word: details
+    stem: detail
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  variation: !ruby/object:Word
+    word: variation
+    stem: variat
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  somewhat: !ruby/object:Word
+    word: somewhat
+    stem: somewhat
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  bizarre: !ruby/object:Word
+    word: bizarre
+    stem: bizarr
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  exist: !ruby/object:Word
+    word: exist
+    stem: exist
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  technical: !ruby/object:Word
+    word: technical
+    stem: technic
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  apparatus: !ruby/object:Word
+    word: apparatus
+    stem: apparatu
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  talk: !ruby/object:Word
+    word: talk
+    stem: talk
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  intricate: !ruby/object:Word
+    word: intricate
+    stem: intric
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  differences: !ruby/object:Word
+    word: differences
+    stem: differ
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  opinion: !ruby/object:Word
+    word: opinion
+    stem: opinion
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  precise: !ruby/object:Word
+    word: precise
+    stem: precis
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  sense: !ruby/object:Word
+    word: sense
+    stem: sens
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  used: !ruby/object:Word
+    word: used
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  academic: !ruby/object:Word
+    word: academic
+    stem: academ
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  discussion: !ruby/object:Word
+    word: discussion
+    stem: discuss
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  propose: !ruby/object:Word
+    word: propose
+    stem: propos
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  three: !ruby/object:Word
+    word: three
+    stem: three
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  interrelated: !ruby/object:Word
+    word: interrelated
+    stem: interrel
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  concepts: !ruby/object:Word
+    word: concepts
+    stem: concept
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  principled: !ruby/object:Word
+    word: principled
+    stem: principl
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  basis: !ruby/object:Word
+    word: basis
+    stem: basi
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  different: !ruby/object:Word
+    word: different
+    stem: differ
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  points: !ruby/object:Word
+    word: points
+    stem: point
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 3.0
+    docPositions:
+    - 190
+    - 200
+  key: !ruby/object:Word
+    word: key
+    stem: kei
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  issues: !ruby/object:Word
+    word: issues
+    stem: issu
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  such: !ruby/object:Word
+    word: such
+    stem: such
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  whether: !ruby/object:Word
+    word: whether
+    stem: whether
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  two: !ruby/object:Word
+    word: two
+    stem: two
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  varieties: !ruby/object:Word
+    word: varieties
+    stem: varieti
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  should: !ruby/object:Word
+    word: should
+    stem: should
+    docFrequency: 3.0
+    docPositions:
+    - 190
+  associated: !ruby/object:Word
+    word: associated
+    stem: associ
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  same: !ruby/object:Word
+    word: same
+    stem: same
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  allow: !ruby/object:Word
+    word: allow
+    stem: allow
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  exactly: !ruby/object:Word
+    word: exactly
+    stem: exactli
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  being: !ruby/object:Word
+    word: being
+    stem: be
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  claimed: !ruby/object:Word
+    word: claimed
+    stem: claim
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  genealogical: !ruby/object:Word
+    word: genealogical
+    stem: genealog
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  areal: !ruby/object:Word
+    word: areal
+    stem: areal
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  framework: !ruby/object:Word
+    word: framework
+    stem: framework
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  especially: !ruby/object:Word
+    word: especially
+    stem: especi
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  useful: !ruby/object:Word
+    word: useful
+    stem: us
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  researchers: !ruby/object:Word
+    word: researchers
+    stem: research
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  underdescribed: !ruby/object:Word
+    word: underdescribed
+    stem: underdescrib
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  basic: !ruby/object:Word
+    word: basic
+    stem: basic
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  classification: !ruby/object:Word
+    word: classification
+    stem: classif
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  remain: !ruby/object:Word
+    word: remain
+    stem: remain
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  unresolved: !ruby/object:Word
+    word: unresolved
+    stem: unresolv
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  uri: !ruby/object:Word
+    word: uri
+    stem: uri
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  attribution: !ruby/object:Word
+    word: attribution
+    stem: attribut
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  noncommercial: !ruby/object:Word
+    word: noncommercial
+    stem: noncommerci
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  sharealike: !ruby/object:Word
+    word: sharealike
+    stem: sharealik
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  united: !ruby/object:Word
+    word: united
+    stem: unit
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  statesappears: !ruby/object:Word
+    word: statesappears
+    stem: statesappear
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  collections: !ruby/object:Word
+    word: collections
+    stem: collect
+    docFrequency: 2.0
+    docPositions:
+    - 190
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  full: !ruby/object:Word
+    word: full
+    stem: full
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  record: !ruby/object:Word
+    word: record
+    stem: record
+    docFrequency: 2.0
+    docPositions:
+    - 194
+  recommend: !ruby/object:Word
+    word: recommend
+    stem: recommend
+    docFrequency: 2.0
+    docPositions:
+    - 198
+  statistics: !ruby/object:Word
+    word: statistics
+    stem: statist
+    docFrequency: 2.0
+    docPositions:
+    - 200
+  protected: !ruby/object:Word
+    word: protected
+    stem: protect
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  copyright: !ruby/object:Word
+    word: copyright
+    stem: copyright
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  rights: !ruby/object:Word
+    word: rights
+    stem: right
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  reserved: !ruby/object:Word
+    word: reserved
+    stem: reserv
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  unless: !ruby/object:Word
+    word: unless
+    stem: unless
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  otherwise: !ruby/object:Word
+    word: otherwise
+    stem: otherwis
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  indicated: !ruby/object:Word
+    word: indicated
+    stem: indic
+    docFrequency: 3.0
+    docPositions:
+    - 205
+    - 242
+  university: !ruby/object:Word
+    word: university
+    stem: univers
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 230
+  hawai: !ruby/object:Word
+    word: hawai
+    stem: hawai
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 230
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 230
+  manoa: !ruby/object:Word
+    word: manoa
+    stem: manoa
+    docFrequency: 3.0
+    docPositions:
+    - 227
+    - 230
+  mccarthy: !ruby/object:Word
+    word: mccarthy
+    stem: mccarthi
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  mall: !ruby/object:Word
+    word: mall
+    stem: mall
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  honolulu: !ruby/object:Word
+    word: honolulu
+    stem: honolulu
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  hi: !ruby/object:Word
+    word: hi
+    stem: hi
+    docFrequency: 2.0
+    docPositions:
+    - 227
+  institutional: !ruby/object:Word
+    word: institutional
+    stem: institut
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  maintained: !ruby/object:Word
+    word: maintained
+    stem: maintain
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  built: !ruby/object:Word
+    word: built
+    stem: built
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  dspace: !ruby/object:Word
+    word: dspace
+    stem: dspace
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  software: !ruby/object:Word
+    word: software
+    stem: softwar
+    docFrequency: 2.0
+    docPositions:
+    - 230
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 6.0
+    docPositions:
+    - 233
+    - 234
+    - 235
+    - 237
+    - 238
+  nbspabout: !ruby/object:Word
+    word: nbspabout
+    stem: nbspabout
+    docFrequency: 2.0
+    docPositions:
+    - 233
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 3.0
+    docPositions:
+    - 233
+    - 234
+  nbsp: !ruby/object:Word
+    word: nbsp
+    stem: nbsp
+    docFrequency: 6.0
+    docPositions:
+    - 233
+    - 234
+    - 235
+    - 237
+    - 238
+  nbspemail: !ruby/object:Word
+    word: nbspemail
+    stem: nbspemail
+    docFrequency: 2.0
+    docPositions:
+    - 234
+  nbspdonate: !ruby/object:Word
+    word: nbspdonate
+    stem: nbspdonat
+    docFrequency: 2.0
+    docPositions:
+    - 235
+  nbsphamiltion: !ruby/object:Word
+    word: nbsphamiltion
+    stem: nbsphamilt
+    docFrequency: 2.0
+    docPositions:
+    - 237
+  nbspuniversity: !ruby/object:Word
+    word: nbspuniversity
+    stem: nbspunivers
+    docFrequency: 2.0
+    docPositions:
+    - 238
+lineCount: 243
+wordCount: 451
+rank: 0.28
+title: 'ScholarSpace at University of Hawaii at Manoa: Languoid, Doculect, and Glossonym:
+  Formalizing the Notion ''Language'''
+links:
+- http://evols.library.manoa.hawaii.edu
+- http://dspace.lib.hawaii.edu
+- http://library.manoa.hawaii.edu/
+- http://guides.library.manoa.hawaii.edu/researchtools
+- http://library.manoa.hawaii.edu/services.html
+- http://library.manoa.hawaii.edu/about.html
+- http://hdl.handle.net/10125/4606
+- http://www.manoa.hawaii.edu/about/
+- http://library.manoa.hawaii.edu/
+- http://www.dspace.org
+- http://library.manoa.hawaii.edu/scholarspace/overview.html
+- http://library.manoa.hawaii.edu
+- http://www.hawaii.edu/
+rawText: "\r\n\t\r\nSkip navigation\r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\r\n
+  \               \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \      \r\n         \r\n           \r\n           \r\n           \r\n         \r\n
+  \      \r\n        Home\r\n                \r\n           \r\n             Browse
+  \r\n             Communities\r\n\t\t\t\t\r\n        Browse Items by:\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t
+  \     \t\t\tIssue Date\r\n\t\t\t\t\t\r\n\t\t\t\t      \t\t\tAuthor\r\n\t\t\t\t\t\r\n\t\t\t\t
+  \     \t\t\tTitle\r\n\t\t\t\t\t\r\n\t\t\t\t      \t\t\tSubject\r\n\t\t\t\t\t\r\n\t\t\t\t
+  \   \r\n\t\t\t\t\r\n\r\n            \r\n\r\n\t\t  \r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n\r\n\r\n\t\t\t\r\n\t\t\t\tRelated
+  Sites\r\n\t\t\t\teVols Repository\r\n\t\t\t\t\tUH System Repository\r\n\t\t\t\t\t\r\n\t\t\t\t\tHamilton
+  Library Home Page\r\n\t\t\t\t\tResearch Tools\r\n\t\t\t\t\tPersonal Services\r\n\t\t\t\t\tAbout
+  the Library\r\n\t\t\t\t\t\r\n\r\n\t\t  \t  \r\n       \r\n\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t
+  \ \r\n\t\r\n\t\r\n\r\n\t\t\r\n         \r\n              Sign on to: \r\n\t             \r\n
+  \            My ScholarSpace\r\n               Receive emailupdates\r\n               Edit
+  Profile\r\n\r\n\t\t\r\n             \r\n          \r\n\r\n\r\n\r\n                \r\n\r\n\r\n
+  \               \r\n\r\n\r\n\r\n  \r\n\r\n\r\nHome\r\n\r\n\t\t\tDepartment of Linguistics\r\n\r\n\t\t\tLanguage
+  Documentation\r\n\r\n\t\t\tLanguage Documentation …  Conservation\r\n\r\n\t\t\tLanguage
+  Documentation …  Conservation (Journal)\r\n\r\n\t\t\tVolume 07 : …  Conservation\r\n\r\n\t\tLanguoid,
+  Doculect, and Glossonym: Formalizing the Notion 'Language'\r\n                \r\n\r\n\r\n\r\n
+  \       \r\n\r\n\t\t\r\n\r\nScholarSpace has been recently updated. \r\nPlease contact
+  sspace@hawaii.edu with any problems or questions.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\r\n
+  \               Please use this identifier to cite or link to this item:\r\n                http://hdl.handle.net/10125/4606\r\n\r\n\r\n\r\n
+  \   \r\n    Files\nFile\nDescription\nSizeFormat cysouw_good.pdf904.21 kBAdobe PDFView/Open\nItem
+  Summary\nTitle: Languoid, Doculect, and Glossonym: Formalizing the Notion 'Language'Authors: Good,
+  JeffCysouw, MichaelKeywords: Language, Dialect, Standardization, Languoid, Doculect,
+  GlossonymIssue Date: 19-Dec-2013Citation: Good, Jeff & Cysouw, Michael. 2013. Languoid,
+  Doculect, and Glossonym: Formalizing the Notion 'Language'. LD&C 7.Abstract: It
+  is perfectly reasonable for laypeople and non-linguistic scholars to use names for
+  languages without reflecting on the proper definition of the objects referred to
+  by these names. Simply using a name like English or Witotoan suffices as an informal
+  communicative designation for a particular language or a language group. However,
+  for the linguistics community, which is by definition occupied with the details
+  of languages and language variation, it is somewhat bizarre that there does not
+  exist a proper technical apparatus to talk about intricate differences in opinion
+  about the precise sense of a name like English or Witotoan when used in academic
+  discussion. We propose three interrelated concepts—LANGUOID, DOCULECT, and GLOSSONYM—which
+  provide a principled basis for discussion of different points of view about key
+  issues, such as whether two varieties should be associated with the same language,
+  and allow for a precise description of what exactly is being claimed by the use
+  of a given genealogical or areal group name. The framework they provide should be
+  especially useful to researchers who work on underdescribed languages where basic
+  issues of classification remain unresolved.URI: http://hdl.handle.net/10125/4606Rights: Attribution-NonCommercial-ShareAlike
+  3.0 United StatesAppears in Collections:Volume 07 : Language Documentation & Conservation\r\n\r\n\r\n
+  \   \r\n        Show full item record\r\n    \r\n\r\n    \r\n       Recommend this
+  item\r\n\r\n\tView Statistics\r\n\r\n    \r\n\r\n\r\nItems in ScholarSpace are protected
+  by copyright, with all rights reserved, unless otherwise indicated.\r\n  \r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \           \r\n\r\n\r\n\r\n\r\n\t\r\n\t\tUniversity of Hawai'i at Manoa Hamilton
+  Library 2550 McCarthy Mall Honolulu, HI 96822 \r\n\t\r\n\t\r\n\t\tScholarSpace is
+  the institutional repository for the University of Hawai'i at Manoa and is maintained
+  by Hamilton Library. Built on open-source DSpace software.\r\n\t\r\n\t\r\n\t\t&nbspAbout Us&nbsp\r\n\t\t&nbspEmail Us&nbsp\r\n\t\t&nbspDonate&nbsp\r\n\t\t\r\n\t\t&nbspHamiltion Library&nbsp\r\n\t\t&nbspUniversity of Hawaii&nbsp\r\n\t\r\n\r\n\r\n
+  \   Items in ScholarSpace are protected by copyright, with all rights reserved,
+  unless otherwise indicated."

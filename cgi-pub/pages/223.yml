@@ -1,0 +1,2252 @@
+--- !ruby/object:WebPage
+page: !ruby/object:Nokogiri::HTML::Document
+  decorators: 
+  node_cache:
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  - !ruby/object:Nokogiri::XML::Element {}
+  errors:
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag header invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: 
+    line: 41
+    str1: header
+    str2: 
+    str3: 
+    int1: 0
+    column: 12
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag nav invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: 
+    line: 46
+    str1: nav
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag article invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: 
+    line: 64
+    str1: article
+    str2: 
+    str3: 
+    int1: 0
+    column: 72
+  - !ruby/exception:Nokogiri::XML::SyntaxError
+    message: |
+      Tag footer invalid
+    domain: 5
+    code: 801
+    level: 2
+    file: 
+    line: 159
+    str1: footer
+    str2: 
+    str3: 
+    int1: 0
+    column: 27
+address: http://blog.stackoverflow.com/2009/06/attribution-required/
+inboundLinks: []
+lines:
+- |2+
+
+- "    \n"
+- "    \n"
+- "        \n"
+- "          \n"
+- "        \n"
+- |2
+          Home
+- |2
+            Company News
+- |2
+            Engineering
+- |2
+            Contributors
+- |2
+            Speakers
+- "        \n"
+- "    \n"
+- "      \n"
+- "\theader {\n"
+- "\t\tposition: absolute;\n"
+- "\t\tbackground: none;\n"
+- "\t\twidth: 100%;\n"
+- "\t}\n"
+- |2+
+
+- "\t\n"
+- "\t\t\n"
+- "\t\t\tAttribution Required\n"
+- "\t\t\t\n"
+- "\t\t\t\t\n"
+- "\t\t\t\tby Jeff Atwood\n"
+- "\t\t\t\ton June 25, 2009\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- "\t\n"
+- "\t\t\n"
+- "\t\t  \t\n"
+- "\t\t  \t\n"
+- "\t\t\t    All the content contributed to Stack Overflow or other Stack Exchange
+  sites is cc-wiki (aka cc-by-sa) licensed, intended to be shared and remixed. We
+  even provide all our data as a convenient data dump, seeded by us.\n"
+- |2+
+
+- |
+  But our cc-wiki licensing, while intentionally permissive, does require attribution.
+- |2+
+
+- |2+
+
+- "Attribution — You must attribute the work in the manner specified by the author
+  or licensor (but not in any way that suggests that they endorse you or your use
+  of the work). \n"
+- |2+
+
+- |2+
+
+- |
+  I thought it was pretty clear what "attribution" meant, but given the semi-scammy way the content is popping up in some seedier areas of the internet, maybe not:
+- |2+
+
+- "http://hiveminds.se/vote/framed/story.php?id=23472 \n"
+- |
+  http://programmingfaq.w3ec.com/
+- |
+  (there may be others; these are just the ones I know about)
+- |2+
+
+- |
+  So let me clarify what we mean by attribution. If you republish this content, we require that you:
+- |2+
+
+- |
+  Visually indicate that the content is from Stack Overflow or the Stack Exchange network in some way. It doesn't have to be obnoxious; a discreet text blurb is fine.
+- |
+  Hyperlink directly to the original question on the source site  (e.g., http://stackoverflow.com/questions/12345)
+- |
+  Show the author names for every question and answer
+- |
+  Hyperlink each author name directly back to their user profile page on the source site (e.g., http://stackoverflow.com/users/12345/username)
+- |
+  By "directly", I mean each hyperlink must point directly to our domain in standard HTML visible even with JavaScript disabled, and not use a tinyurl or any other form of obfuscation or redirection. Furthermore, the links must not be nofollowed.
+- |2+
+
+- |
+  This is about the spirit of fair attribution. Attribution to the website, and more importantly, to the individuals who so generously contributed their time to create that content in the first place!
+- |2+
+
+- |
+  Anyway, I hope that clears up any confusion -- feel free to remix and reuse to your heart's content, as long as a good faith effort is made to attribute the content!
+- |2+
+
+- "\t\t\t    \n"
+- "\t\t\t    \t\n"
+- "\t\t\t\t\t\tBy Jeff Atwood, Co-Founder (Emeritus)\n"
+- "\t\t\t\t    \n"
+- "\t\t\t\t    \n"
+- "\t\t\t\t    \tTagged in \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcompany\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcc-wiki-dump\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcommunity\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tlegal\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t    \n"
+- "\t\t\t    \n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\t\t\t\n"
+- |2+
+
+- "\t\n"
+- "\t\n"
+- "\t    var disqus_shortname = 'stackoverflowblog',\n"
+- "\t    \tdisqus_identifier = 'http://blog.stackoverflow.com/2009/06/attribution-required/';\n"
+- "\t    (function() {\n"
+- "\t        var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+  dsq.async = true;\n"
+- "\t        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n"
+- "\t        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n"
+- "\t    })();\n"
+- "\tPlease enable JavaScript to view the comments powered by Disqus.\n"
+- |2+
+
+- |2+
+
+- "\t\t\t\n"
+- "\t\t\t\n"
+- "\t\t\n"
+- "\t\n"
+- |2+
+
+- "    \n"
+- |2+
+
+- "    \n"
+- "        \n"
+- "          \n"
+- "            \n"
+- "              \n"
+- "                \n"
+- "                  \n"
+- "                \n"
+- "                \n"
+- |2
+                    Stack Overflow is the home of a network of specialized communities that are created & run by passionate experts and enthusiasts like you.
+- "                  Discover our network \n"
+- "                \n"
+- "              \n"
+- "            \n"
+- "          \n"
+- "          \n"
+- |2
+              The company
+- |2
+              About us
+- |2
+              Work here
+- |2
+              Any feedback?
+- "          \n"
+- "          \n"
+- |2
+              Connect with us
+- |2
+              Facebook
+- |2
+              Twitter
+- |2
+              Google+
+- "          \n"
+- "          \n"
+- |2
+              Support
+- |2
+              Contact us
+- |2
+              Privacy policy
+- |2
+              Legal
+- "          \n"
+- "        \n"
+- |2
+          Last build Mon, 14 Dec 2015 00:37:19 +0000
+- "      \n"
+- "    \n"
+- "    \n"
+- "\t\n"
+- "\t\n"
+- "\t  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n"
+- "\t  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n"
+- "\t  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n"
+- "\t  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n"
+- |2+
+
+- "\t  ga('create', 'UA-5620270-51', 'auto');\n"
+- "\t  ga('send', 'pageview');\n"
+- "\tAll the content contributed to Stack Overflow or other Stack Exchange sites is
+  cc-wiki (aka cc-by-sa) licensed, intended to be shared and remixed. We even provide
+  all our data as a convenient data dump, seeded by us.But our cc-wiki licensing,
+  while intentionally permissive, does require attribution.I thought it was pretty
+  clear what \"attribution\" meant, but given the semi-scammy way the content is popping
+  up in some seedier areas of the internet, maybe not:http://hiveminds.se/vote/framed/story.php?id=23472
+  http://programmingfaq.w3ec.com/(there may be others; these are just the ones I know
+  about)So let me clarify what we mean by attribution. If you republish this content,
+  we require that you:Visually indicate that the content is from Stack Overflow or
+  the Stack Exchange network in some way. It doesn't have to be obnoxious; a discreet
+  text blurb is fine.Hyperlink directly to the original question on the source site
+  \ (e.g., http://stackoverflow.com/questions/12345)Show the author names for every
+  question and answerHyperlink each author name directly back to their user profile
+  page on the source site (e.g., http://stackoverflow.com/users/12345/username)By
+  \"directly\", I mean each hyperlink must point directly to our domain in standard
+  HTML visible even with JavaScript disabled, and not use a tinyurl or any other form
+  of obfuscation or redirection. Furthermore, the links must not be nofollowed.This
+  is about the spirit of fair attribution. Attribution to the website, and more importantly,
+  to the individuals who so generously contributed their time to create that content
+  in the first place!Anyway, I hope that clears up any confusion -- feel free to remix
+  and reuse to your heart's content, as long as a good faith effort is made to attribute
+  the content!By Jeff Atwood, Co-Founder (Emeritus)Tagged in \n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcompany\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcc-wiki-dump\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tcommunity\n"
+- "\t\t\t\t\t\t\n"
+- "\t\t\t\t\t\t\tlegal\n"
+- "\t\t\t\t\t\tStack Overflow is the home of a network of specialized communities
+  that are created & run by passionate experts and enthusiasts like you.Discover our
+  network About usWork hereAny feedback?FacebookTwitterGoogle+Contact usPrivacy policyLegalLast
+  build Mon, 14 Dec 2015 00:37:19 +0000"
+index:
+  home: !ruby/object:Word
+    word: home
+    stem: home
+    docFrequency: 4.0
+    docPositions:
+    - 6
+    - 110
+    - 157
+  company: !ruby/object:Word
+    word: company
+    stem: compani
+    docFrequency: 5.0
+    docPositions:
+    - 7
+    - 67
+    - 117
+    - 150
+  news: !ruby/object:Word
+    word: news
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 7
+  engineering: !ruby/object:Word
+    word: engineering
+    stem: engin
+    docFrequency: 2.0
+    docPositions:
+    - 8
+  contributors: !ruby/object:Word
+    word: contributors
+    stem: contributor
+    docFrequency: 2.0
+    docPositions:
+    - 9
+  speakers: !ruby/object:Word
+    word: speakers
+    stem: speaker
+    docFrequency: 2.0
+    docPositions:
+    - 10
+  header: !ruby/object:Word
+    word: header
+    stem: header
+    docFrequency: 2.0
+    docPositions:
+    - 14
+  position: !ruby/object:Word
+    word: position
+    stem: posit
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  absolute: !ruby/object:Word
+    word: absolute
+    stem: absolut
+    docFrequency: 2.0
+    docPositions:
+    - 15
+  background: !ruby/object:Word
+    word: background
+    stem: background
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  none: !ruby/object:Word
+    word: none
+    stem: none
+    docFrequency: 2.0
+    docPositions:
+    - 16
+  width: !ruby/object:Word
+    word: width
+    stem: width
+    docFrequency: 2.0
+    docPositions:
+    - 17
+  attribution: !ruby/object:Word
+    word: attribution
+    stem: attribut
+    docFrequency: 14.0
+    docPositions:
+    - 22
+    - 36
+    - 39
+    - 42
+    - 48
+    - 56
+    - 85
+    - 148
+  required: !ruby/object:Word
+    word: required
+    stem: requir
+    docFrequency: 3.0
+    docPositions:
+    - 22
+    - 85
+  jeff: !ruby/object:Word
+    word: jeff
+    stem: jeff
+    docFrequency: 4.0
+    docPositions:
+    - 25
+    - 62
+    - 148
+  atwood: !ruby/object:Word
+    word: atwood
+    stem: atwood
+    docFrequency: 4.0
+    docPositions:
+    - 25
+    - 62
+    - 148
+  june: !ruby/object:Word
+    word: june
+    stem: june
+    docFrequency: 2.0
+    docPositions:
+    - 26
+  all: !ruby/object:Word
+    word: all
+    stem: all
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 148
+  content: !ruby/object:Word
+    word: content
+    stem: content
+    docFrequency: 15.0
+    docPositions:
+    - 34
+    - 42
+    - 48
+    - 50
+    - 56
+    - 58
+    - 148
+  contributed: !ruby/object:Word
+    word: contributed
+    stem: contribut
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 56
+    - 148
+  stack: !ruby/object:Word
+    word: stack
+    stem: stack
+    docFrequency: 11.0
+    docPositions:
+    - 34
+    - 50
+    - 110
+    - 148
+    - 157
+  overflow: !ruby/object:Word
+    word: overflow
+    stem: overflow
+    docFrequency: 7.0
+    docPositions:
+    - 34
+    - 50
+    - 110
+    - 148
+    - 157
+  other: !ruby/object:Word
+    word: other
+    stem: other
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 54
+    - 148
+  exchange: !ruby/object:Word
+    word: exchange
+    stem: exchang
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 50
+    - 148
+  sites: !ruby/object:Word
+    word: sites
+    stem: site
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  cc: !ruby/object:Word
+    word: cc
+    stem: cc
+    docFrequency: 9.0
+    docPositions:
+    - 34
+    - 36
+    - 69
+    - 148
+    - 152
+  wiki: !ruby/object:Word
+    word: wiki
+    stem: wiki
+    docFrequency: 7.0
+    docPositions:
+    - 34
+    - 36
+    - 69
+    - 148
+    - 152
+  aka: !ruby/object:Word
+    word: aka
+    stem: aka
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  sa: !ruby/object:Word
+    word: sa
+    stem: sa
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  licensed: !ruby/object:Word
+    word: licensed
+    stem: licens
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  intended: !ruby/object:Word
+    word: intended
+    stem: intend
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  shared: !ruby/object:Word
+    word: shared
+    stem: share
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  and: !ruby/object:Word
+    word: and
+    stem: and
+    docFrequency: 13.0
+    docPositions:
+    - 34
+    - 52
+    - 54
+    - 56
+    - 58
+    - 110
+    - 148
+    - 157
+  remixed: !ruby/object:Word
+    word: remixed
+    stem: remix
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  we: !ruby/object:Word
+    word: we
+    stem: we
+    docFrequency: 7.0
+    docPositions:
+    - 34
+    - 48
+    - 148
+  even: !ruby/object:Word
+    word: even
+    stem: even
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 54
+    - 148
+  provide: !ruby/object:Word
+    word: provide
+    stem: provid
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  our: !ruby/object:Word
+    word: our
+    stem: our
+    docFrequency: 9.0
+    docPositions:
+    - 34
+    - 36
+    - 54
+    - 111
+    - 148
+    - 157
+  data: !ruby/object:Word
+    word: data
+    stem: data
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 148
+  convenient: !ruby/object:Word
+    word: convenient
+    stem: conveni
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  dump: !ruby/object:Word
+    word: dump
+    stem: dump
+    docFrequency: 5.0
+    docPositions:
+    - 34
+    - 69
+    - 148
+    - 152
+  seeded: !ruby/object:Word
+    word: seeded
+    stem: seed
+    docFrequency: 3.0
+    docPositions:
+    - 34
+    - 148
+  us: !ruby/object:Word
+    word: us
+    stem: us
+    docFrequency: 6.0
+    docPositions:
+    - 34
+    - 118
+    - 123
+    - 130
+    - 148
+  but: !ruby/object:Word
+    word: but
+    stem: but
+    docFrequency: 6.0
+    docPositions:
+    - 36
+    - 39
+    - 42
+    - 148
+  licensing: !ruby/object:Word
+    word: licensing
+    stem: licens
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 148
+  while: !ruby/object:Word
+    word: while
+    stem: while
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 148
+  intentionally: !ruby/object:Word
+    word: intentionally
+    stem: intention
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 148
+  permissive: !ruby/object:Word
+    word: permissive
+    stem: permiss
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 148
+  does: !ruby/object:Word
+    word: does
+    stem: doe
+    docFrequency: 3.0
+    docPositions:
+    - 36
+    - 148
+  require: !ruby/object:Word
+    word: require
+    stem: requir
+    docFrequency: 5.0
+    docPositions:
+    - 36
+    - 48
+    - 148
+  you: !ruby/object:Word
+    word: you
+    stem: you
+    docFrequency: 9.0
+    docPositions:
+    - 39
+    - 48
+    - 110
+    - 148
+    - 157
+  must: !ruby/object:Word
+    word: must
+    stem: must
+    docFrequency: 6.0
+    docPositions:
+    - 39
+    - 54
+    - 148
+  attribute: !ruby/object:Word
+    word: attribute
+    stem: attribut
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 58
+    - 148
+  work: !ruby/object:Word
+    word: work
+    stem: work
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 119
+  manner: !ruby/object:Word
+    word: manner
+    stem: manner
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  specified: !ruby/object:Word
+    word: specified
+    stem: specifi
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  author: !ruby/object:Word
+    word: author
+    stem: author
+    docFrequency: 6.0
+    docPositions:
+    - 39
+    - 52
+    - 53
+    - 148
+  licensor: !ruby/object:Word
+    word: licensor
+    stem: licensor
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  not: !ruby/object:Word
+    word: not
+    stem: not
+    docFrequency: 8.0
+    docPositions:
+    - 39
+    - 42
+    - 54
+    - 148
+  any: !ruby/object:Word
+    word: any
+    stem: ani
+    docFrequency: 7.0
+    docPositions:
+    - 39
+    - 54
+    - 58
+    - 120
+    - 148
+  way: !ruby/object:Word
+    word: way
+    stem: wai
+    docFrequency: 6.0
+    docPositions:
+    - 39
+    - 42
+    - 50
+    - 148
+  suggests: !ruby/object:Word
+    word: suggests
+    stem: suggest
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  they: !ruby/object:Word
+    word: they
+    stem: thei
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  endorse: !ruby/object:Word
+    word: endorse
+    stem: endors
+    docFrequency: 2.0
+    docPositions:
+    - 39
+  your: !ruby/object:Word
+    word: your
+    stem: your
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 58
+    - 148
+  use: !ruby/object:Word
+    word: use
+    stem: us
+    docFrequency: 4.0
+    docPositions:
+    - 39
+    - 54
+    - 148
+  i: !ruby/object:Word
+    word: i
+    stem: i
+    docFrequency: 16.0
+    docPositions:
+    - 42
+    - 46
+    - 54
+    - 58
+    - 141
+    - 142
+    - 148
+  thought: !ruby/object:Word
+    word: thought
+    stem: thought
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  pretty: !ruby/object:Word
+    word: pretty
+    stem: pretti
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  clear: !ruby/object:Word
+    word: clear
+    stem: clear
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  meant: !ruby/object:Word
+    word: meant
+    stem: meant
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  given: !ruby/object:Word
+    word: given
+    stem: given
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  semi: !ruby/object:Word
+    word: semi
+    stem: semi
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  scammy: !ruby/object:Word
+    word: scammy
+    stem: scammi
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  popping: !ruby/object:Word
+    word: popping
+    stem: pop
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  up: !ruby/object:Word
+    word: up
+    stem: up
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 58
+    - 148
+  some: !ruby/object:Word
+    word: some
+    stem: some
+    docFrequency: 5.0
+    docPositions:
+    - 42
+    - 50
+    - 148
+  seedier: !ruby/object:Word
+    word: seedier
+    stem: seedier
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  areas: !ruby/object:Word
+    word: areas
+    stem: area
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  internet: !ruby/object:Word
+    word: internet
+    stem: internet
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  maybe: !ruby/object:Word
+    word: maybe
+    stem: mayb
+    docFrequency: 3.0
+    docPositions:
+    - 42
+    - 148
+  hiveminds: !ruby/object:Word
+    word: hiveminds
+    stem: hivemind
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  se: !ruby/object:Word
+    word: se
+    stem: se
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  vote: !ruby/object:Word
+    word: vote
+    stem: vote
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  framed: !ruby/object:Word
+    word: framed
+    stem: frame
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  story: !ruby/object:Word
+    word: story
+    stem: stori
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  php: !ruby/object:Word
+    word: php
+    stem: php
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  id: !ruby/object:Word
+    word: id
+    stem: id
+    docFrequency: 3.0
+    docPositions:
+    - 44
+    - 148
+  programmingfaq: !ruby/object:Word
+    word: programmingfaq
+    stem: programmingfaq
+    docFrequency: 3.0
+    docPositions:
+    - 45
+    - 148
+  '': !ruby/object:Word
+    word: ''
+    stem: ''
+    docFrequency: 7.0
+    docPositions:
+    - 46
+    - 86
+    - 89
+    - 141
+    - 142
+    - 144
+  there: !ruby/object:Word
+    word: there
+    stem: there
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  may: !ruby/object:Word
+    word: may
+    stem: mai
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  others: !ruby/object:Word
+    word: others
+    stem: other
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  these: !ruby/object:Word
+    word: these
+    stem: these
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  just: !ruby/object:Word
+    word: just
+    stem: just
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  ones: !ruby/object:Word
+    word: ones
+    stem: 'on'
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  know: !ruby/object:Word
+    word: know
+    stem: know
+    docFrequency: 3.0
+    docPositions:
+    - 46
+    - 148
+  so: !ruby/object:Word
+    word: so
+    stem: so
+    docFrequency: 5.0
+    docPositions:
+    - 48
+    - 56
+    - 148
+  let: !ruby/object:Word
+    word: let
+    stem: let
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 148
+  me: !ruby/object:Word
+    word: me
+    stem: me
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 148
+  clarify: !ruby/object:Word
+    word: clarify
+    stem: clarifi
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 148
+  mean: !ruby/object:Word
+    word: mean
+    stem: mean
+    docFrequency: 5.0
+    docPositions:
+    - 48
+    - 54
+    - 148
+  if: !ruby/object:Word
+    word: if
+    stem: if
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 148
+  republish: !ruby/object:Word
+    word: republish
+    stem: republish
+    docFrequency: 3.0
+    docPositions:
+    - 48
+    - 148
+  visually: !ruby/object:Word
+    word: visually
+    stem: visual
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  indicate: !ruby/object:Word
+    word: indicate
+    stem: indic
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  network: !ruby/object:Word
+    word: network
+    stem: network
+    docFrequency: 7.0
+    docPositions:
+    - 50
+    - 110
+    - 111
+    - 148
+    - 157
+  doesn: !ruby/object:Word
+    word: doesn
+    stem: doesn
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  t: !ruby/object:Word
+    word: t
+    stem: t
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  have: !ruby/object:Word
+    word: have
+    stem: have
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  obnoxious: !ruby/object:Word
+    word: obnoxious
+    stem: obnoxi
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  discreet: !ruby/object:Word
+    word: discreet
+    stem: discreet
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  text: !ruby/object:Word
+    word: text
+    stem: text
+    docFrequency: 4.0
+    docPositions:
+    - 50
+    - 87
+    - 148
+  blurb: !ruby/object:Word
+    word: blurb
+    stem: blurb
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  fine: !ruby/object:Word
+    word: fine
+    stem: fine
+    docFrequency: 3.0
+    docPositions:
+    - 50
+    - 148
+  hyperlink: !ruby/object:Word
+    word: hyperlink
+    stem: hyperlink
+    docFrequency: 6.0
+    docPositions:
+    - 51
+    - 53
+    - 54
+    - 148
+  directly: !ruby/object:Word
+    word: directly
+    stem: directli
+    docFrequency: 9.0
+    docPositions:
+    - 51
+    - 53
+    - 54
+    - 148
+  original: !ruby/object:Word
+    word: original
+    stem: origin
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 148
+  question: !ruby/object:Word
+    word: question
+    stem: question
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 52
+    - 148
+  source: !ruby/object:Word
+    word: source
+    stem: sourc
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 53
+    - 148
+  site: !ruby/object:Word
+    word: site
+    stem: site
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 53
+    - 148
+  e: !ruby/object:Word
+    word: e
+    stem: e
+    docFrequency: 5.0
+    docPositions:
+    - 51
+    - 53
+    - 148
+  g: !ruby/object:Word
+    word: g
+    stem: g
+    docFrequency: 7.0
+    docPositions:
+    - 51
+    - 53
+    - 141
+    - 143
+    - 148
+  stackoverflow: !ruby/object:Word
+    word: stackoverflow
+    stem: stackoverflow
+    docFrequency: 6.0
+    docPositions:
+    - 51
+    - 53
+    - 85
+    - 148
+  questions: !ruby/object:Word
+    word: questions
+    stem: question
+    docFrequency: 3.0
+    docPositions:
+    - 51
+    - 148
+  show: !ruby/object:Word
+    word: show
+    stem: show
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 148
+  names: !ruby/object:Word
+    word: names
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 148
+  every: !ruby/object:Word
+    word: every
+    stem: everi
+    docFrequency: 3.0
+    docPositions:
+    - 52
+    - 148
+  answer: !ruby/object:Word
+    word: answer
+    stem: answer
+    docFrequency: 2.0
+    docPositions:
+    - 52
+  each: !ruby/object:Word
+    word: each
+    stem: each
+    docFrequency: 5.0
+    docPositions:
+    - 53
+    - 54
+    - 148
+  name: !ruby/object:Word
+    word: name
+    stem: name
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  back: !ruby/object:Word
+    word: back
+    stem: back
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  their: !ruby/object:Word
+    word: their
+    stem: their
+    docFrequency: 5.0
+    docPositions:
+    - 53
+    - 56
+    - 148
+  user: !ruby/object:Word
+    word: user
+    stem: user
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  profile: !ruby/object:Word
+    word: profile
+    stem: profil
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  page: !ruby/object:Word
+    word: page
+    stem: page
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  users: !ruby/object:Word
+    word: users
+    stem: user
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  username: !ruby/object:Word
+    word: username
+    stem: usernam
+    docFrequency: 3.0
+    docPositions:
+    - 53
+    - 148
+  point: !ruby/object:Word
+    word: point
+    stem: point
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  domain: !ruby/object:Word
+    word: domain
+    stem: domain
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  standard: !ruby/object:Word
+    word: standard
+    stem: standard
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  html: !ruby/object:Word
+    word: html
+    stem: html
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  visible: !ruby/object:Word
+    word: visible
+    stem: visibl
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  disabled: !ruby/object:Word
+    word: disabled
+    stem: disabl
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  tinyurl: !ruby/object:Word
+    word: tinyurl
+    stem: tinyurl
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  form: !ruby/object:Word
+    word: form
+    stem: form
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  obfuscation: !ruby/object:Word
+    word: obfuscation
+    stem: obfusc
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  redirection: !ruby/object:Word
+    word: redirection
+    stem: redirect
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  furthermore: !ruby/object:Word
+    word: furthermore
+    stem: furthermor
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  links: !ruby/object:Word
+    word: links
+    stem: link
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  nofollowed: !ruby/object:Word
+    word: nofollowed
+    stem: nofollow
+    docFrequency: 3.0
+    docPositions:
+    - 54
+    - 148
+  spirit: !ruby/object:Word
+    word: spirit
+    stem: spirit
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  fair: !ruby/object:Word
+    word: fair
+    stem: fair
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  website: !ruby/object:Word
+    word: website
+    stem: websit
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  more: !ruby/object:Word
+    word: more
+    stem: more
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  importantly: !ruby/object:Word
+    word: importantly
+    stem: importantli
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  individuals: !ruby/object:Word
+    word: individuals
+    stem: individu
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  generously: !ruby/object:Word
+    word: generously
+    stem: gener
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  time: !ruby/object:Word
+    word: time
+    stem: time
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  create: !ruby/object:Word
+    word: create
+    stem: creat
+    docFrequency: 4.0
+    docPositions:
+    - 56
+    - 146
+    - 148
+  first: !ruby/object:Word
+    word: first
+    stem: first
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  place: !ruby/object:Word
+    word: place
+    stem: place
+    docFrequency: 3.0
+    docPositions:
+    - 56
+    - 148
+  anyway: !ruby/object:Word
+    word: anyway
+    stem: anywai
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  hope: !ruby/object:Word
+    word: hope
+    stem: hope
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  clears: !ruby/object:Word
+    word: clears
+    stem: clear
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  confusion: !ruby/object:Word
+    word: confusion
+    stem: confus
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  feel: !ruby/object:Word
+    word: feel
+    stem: feel
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  free: !ruby/object:Word
+    word: free
+    stem: free
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  remix: !ruby/object:Word
+    word: remix
+    stem: remix
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  reuse: !ruby/object:Word
+    word: reuse
+    stem: reus
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  heart: !ruby/object:Word
+    word: heart
+    stem: heart
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  s: !ruby/object:Word
+    word: s
+    stem: s
+    docFrequency: 6.0
+    docPositions:
+    - 58
+    - 141
+    - 142
+    - 143
+    - 148
+  long: !ruby/object:Word
+    word: long
+    stem: long
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  good: !ruby/object:Word
+    word: good
+    stem: good
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  faith: !ruby/object:Word
+    word: faith
+    stem: faith
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  effort: !ruby/object:Word
+    word: effort
+    stem: effort
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  made: !ruby/object:Word
+    word: made
+    stem: made
+    docFrequency: 3.0
+    docPositions:
+    - 58
+    - 148
+  co: !ruby/object:Word
+    word: co
+    stem: co
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 148
+  founder: !ruby/object:Word
+    word: founder
+    stem: founder
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 148
+  emeritus: !ruby/object:Word
+    word: emeritus
+    stem: emeritu
+    docFrequency: 3.0
+    docPositions:
+    - 62
+    - 148
+  tagged: !ruby/object:Word
+    word: tagged
+    stem: tag
+    docFrequency: 3.0
+    docPositions:
+    - 65
+    - 148
+  community: !ruby/object:Word
+    word: community
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 71
+    - 154
+  legal: !ruby/object:Word
+    word: legal
+    stem: legal
+    docFrequency: 4.0
+    docPositions:
+    - 73
+    - 132
+    - 156
+  disqus_shortname: !ruby/object:Word
+    word: disqus_shortname
+    stem: disqus_shortnam
+    docFrequency: 3.0
+    docPositions:
+    - 84
+    - 88
+  stackoverflowblog: !ruby/object:Word
+    word: stackoverflowblog
+    stem: stackoverflowblog
+    docFrequency: 2.0
+    docPositions:
+    - 84
+  disqus_identifier: !ruby/object:Word
+    word: disqus_identifier
+    stem: disqus_identifi
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  blog: !ruby/object:Word
+    word: blog
+    stem: blog
+    docFrequency: 2.0
+    docPositions:
+    - 85
+  function: !ruby/object:Word
+    word: function
+    stem: function
+    docFrequency: 4.0
+    docPositions:
+    - 86
+    - 141
+  dsq: !ruby/object:Word
+    word: dsq
+    stem: dsq
+    docFrequency: 6.0
+    docPositions:
+    - 87
+    - 88
+    - 89
+  document: !ruby/object:Word
+    word: document
+    stem: document
+    docFrequency: 5.0
+    docPositions:
+    - 87
+    - 89
+    - 144
+  createelement: !ruby/object:Word
+    word: createelement
+    stem: createel
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 142
+  script: !ruby/object:Word
+    word: script
+    stem: script
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 144
+  type: !ruby/object:Word
+    word: type
+    stem: type
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  async: !ruby/object:Word
+    word: async
+    stem: async
+    docFrequency: 3.0
+    docPositions:
+    - 87
+    - 143
+  'true': !ruby/object:Word
+    word: 'true'
+    stem: 'true'
+    docFrequency: 2.0
+    docPositions:
+    - 87
+  disqus: !ruby/object:Word
+    word: disqus
+    stem: disqu
+    docFrequency: 3.0
+    docPositions:
+    - 88
+    - 91
+  embed: !ruby/object:Word
+    word: embed
+    stem: emb
+    docFrequency: 2.0
+    docPositions:
+    - 88
+  getelementsbytagname: !ruby/object:Word
+    word: getelementsbytagname
+    stem: getelementsbytagnam
+    docFrequency: 4.0
+    docPositions:
+    - 89
+    - 143
+  head: !ruby/object:Word
+    word: head
+    stem: head
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  body: !ruby/object:Word
+    word: body
+    stem: bodi
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  appendchild: !ruby/object:Word
+    word: appendchild
+    stem: appendchild
+    docFrequency: 2.0
+    docPositions:
+    - 89
+  please: !ruby/object:Word
+    word: please
+    stem: pleas
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  enable: !ruby/object:Word
+    word: enable
+    stem: enabl
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  view: !ruby/object:Word
+    word: view
+    stem: view
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  comments: !ruby/object:Word
+    word: comments
+    stem: comment
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  powered: !ruby/object:Word
+    word: powered
+    stem: power
+    docFrequency: 2.0
+    docPositions:
+    - 91
+  specialized: !ruby/object:Word
+    word: specialized
+    stem: special
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  communities: !ruby/object:Word
+    word: communities
+    stem: commun
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  created: !ruby/object:Word
+    word: created
+    stem: creat
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  run: !ruby/object:Word
+    word: run
+    stem: run
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  passionate: !ruby/object:Word
+    word: passionate
+    stem: passion
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  experts: !ruby/object:Word
+    word: experts
+    stem: expert
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  enthusiasts: !ruby/object:Word
+    word: enthusiasts
+    stem: enthusiast
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  like: !ruby/object:Word
+    word: like
+    stem: like
+    docFrequency: 3.0
+    docPositions:
+    - 110
+    - 157
+  discover: !ruby/object:Word
+    word: discover
+    stem: discov
+    docFrequency: 3.0
+    docPositions:
+    - 111
+    - 157
+  here: !ruby/object:Word
+    word: here
+    stem: here
+    docFrequency: 2.0
+    docPositions:
+    - 119
+  feedback: !ruby/object:Word
+    word: feedback
+    stem: feedback
+    docFrequency: 3.0
+    docPositions:
+    - 120
+    - 157
+  connect: !ruby/object:Word
+    word: connect
+    stem: connect
+    docFrequency: 2.0
+    docPositions:
+    - 123
+  facebook: !ruby/object:Word
+    word: facebook
+    stem: facebook
+    docFrequency: 2.0
+    docPositions:
+    - 124
+  twitter: !ruby/object:Word
+    word: twitter
+    stem: twitter
+    docFrequency: 2.0
+    docPositions:
+    - 125
+  google: !ruby/object:Word
+    word: google
+    stem: googl
+    docFrequency: 3.0
+    docPositions:
+    - 126
+    - 144
+  support: !ruby/object:Word
+    word: support
+    stem: support
+    docFrequency: 2.0
+    docPositions:
+    - 129
+  contact: !ruby/object:Word
+    word: contact
+    stem: contact
+    docFrequency: 3.0
+    docPositions:
+    - 130
+    - 157
+  privacy: !ruby/object:Word
+    word: privacy
+    stem: privaci
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  policy: !ruby/object:Word
+    word: policy
+    stem: polici
+    docFrequency: 2.0
+    docPositions:
+    - 131
+  last: !ruby/object:Word
+    word: last
+    stem: last
+    docFrequency: 2.0
+    docPositions:
+    - 135
+  build: !ruby/object:Word
+    word: build
+    stem: build
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 157
+  mon: !ruby/object:Word
+    word: mon
+    stem: mon
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 157
+  dec: !ruby/object:Word
+    word: dec
+    stem: dec
+    docFrequency: 3.0
+    docPositions:
+    - 135
+    - 157
+  o: !ruby/object:Word
+    word: o
+    stem: o
+    docFrequency: 4.0
+    docPositions:
+    - 141
+    - 142
+    - 143
+  r: !ruby/object:Word
+    word: r
+    stem: r
+    docFrequency: 8.0
+    docPositions:
+    - 141
+    - 142
+  m: !ruby/object:Word
+    word: m
+    stem: m
+    docFrequency: 5.0
+    docPositions:
+    - 141
+    - 143
+  googleanalyticsobject: !ruby/object:Word
+    word: googleanalyticsobject
+    stem: googleanalyticsobject
+    docFrequency: 2.0
+    docPositions:
+    - 141
+  q: !ruby/object:Word
+    word: q
+    stem: q
+    docFrequency: 3.0
+    docPositions:
+    - 142
+  push: !ruby/object:Word
+    word: push
+    stem: push
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  arguments: !ruby/object:Word
+    word: arguments
+    stem: argument
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  l: !ruby/object:Word
+    word: l
+    stem: l
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  new: !ruby/object:Word
+    word: new
+    stem: new
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  date: !ruby/object:Word
+    word: date
+    stem: date
+    docFrequency: 2.0
+    docPositions:
+    - 142
+  parentnode: !ruby/object:Word
+    word: parentnode
+    stem: parentnod
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  insertbefore: !ruby/object:Word
+    word: insertbefore
+    stem: insertbefor
+    docFrequency: 2.0
+    docPositions:
+    - 143
+  window: !ruby/object:Word
+    word: window
+    stem: window
+    docFrequency: 2.0
+    docPositions:
+    - 144
+  analytics: !ruby/object:Word
+    word: analytics
+    stem: analyt
+    docFrequency: 3.0
+    docPositions:
+    - 144
+  ga: !ruby/object:Word
+    word: ga
+    stem: ga
+    docFrequency: 4.0
+    docPositions:
+    - 144
+    - 146
+    - 147
+  ua: !ruby/object:Word
+    word: ua
+    stem: ua
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  auto: !ruby/object:Word
+    word: auto
+    stem: auto
+    docFrequency: 2.0
+    docPositions:
+    - 146
+  send: !ruby/object:Word
+    word: send
+    stem: send
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  pageview: !ruby/object:Word
+    word: pageview
+    stem: pageview
+    docFrequency: 2.0
+    docPositions:
+    - 147
+  answerhyperlink: !ruby/object:Word
+    word: answerhyperlink
+    stem: answerhyperlink
+    docFrequency: 2.0
+    docPositions:
+    - 148
+  uswork: !ruby/object:Word
+    word: uswork
+    stem: uswork
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  hereany: !ruby/object:Word
+    word: hereany
+    stem: hereani
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  facebooktwittergoogle: !ruby/object:Word
+    word: facebooktwittergoogle
+    stem: facebooktwittergoogl
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  usprivacy: !ruby/object:Word
+    word: usprivacy
+    stem: usprivaci
+    docFrequency: 2.0
+    docPositions:
+    - 157
+  policylegallast: !ruby/object:Word
+    word: policylegallast
+    stem: policylegallast
+    docFrequency: 2.0
+    docPositions:
+    - 157
+lineCount: 158
+wordCount: 917
+rank: 0.25
+title: Attribution Required – Stack Overflow Blog – A destination for all things related
+  to development at Stack Overflow
+links:
+- http://creativecommons.org/licenses/by-sa/3.0/
+- http://creativecommons.org/licenses/by-sa/3.0/
+- http://blog.stackoverflow.com/2009/06/stack-overflow-creative-commons-data-dump/
+- http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html
+- http://disqus.com/?ref_noscript
+- http://stackexchange.com/sites
+- http://stackexchange.com/about
+- http://stackexchange.com/work-here
+- http://meta.stackexchange.com/
+- https://www.facebook.com/stackexchange
+- https://twitter.com/stackexchange
+- https://plus.google.com/+StackExchange
+- http://stackexchange.com/about/contact
+- http://stackexchange.com/legal/privacy-policy
+- http://stackexchange.com/legal
+rawText: "\n    \n    \n        \n          \n        \n        Home\n          Company
+  News\n          Engineering\n          Contributors\n          Speakers\n        \n
+  \   \n      \n\theader {\n\t\tposition: absolute;\n\t\tbackground: none;\n\t\twidth:
+  100%;\n\t}\n\n\t\n\t\t\n\t\t\tAttribution Required\n\t\t\t\n\t\t\t\t\n\t\t\t\tby
+  Jeff Atwood\n\t\t\t\ton June 25, 2009\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t  \t\n\t\t
+  \ \t\n\t\t\t    All the content contributed to Stack Overflow or other Stack Exchange
+  sites is cc-wiki (aka cc-by-sa) licensed, intended to be shared and remixed. We
+  even provide all our data as a convenient data dump, seeded by us.\n\nBut our cc-wiki
+  licensing, while intentionally permissive, does require attribution.\n\n\nAttribution
+  — You must attribute the work in the manner specified by the author or licensor
+  (but not in any way that suggests that they endorse you or your use of the work).
+  \n\n\nI thought it was pretty clear what \"attribution\" meant, but given the semi-scammy
+  way the content is popping up in some seedier areas of the internet, maybe not:\n\nhttp://hiveminds.se/vote/framed/story.php?id=23472
+  \nhttp://programmingfaq.w3ec.com/\n(there may be others; these are just the ones
+  I know about)\n\nSo let me clarify what we mean by attribution. If you republish
+  this content, we require that you:\n\nVisually indicate that the content is from
+  Stack Overflow or the Stack Exchange network in some way. It doesn't have to be
+  obnoxious; a discreet text blurb is fine.\nHyperlink directly to the original question
+  on the source site  (e.g., http://stackoverflow.com/questions/12345)\nShow the author
+  names for every question and answer\nHyperlink each author name directly back to
+  their user profile page on the source site (e.g., http://stackoverflow.com/users/12345/username)\nBy
+  \"directly\", I mean each hyperlink must point directly to our domain in standard
+  HTML visible even with JavaScript disabled, and not use a tinyurl or any other form
+  of obfuscation or redirection. Furthermore, the links must not be nofollowed.\n\nThis
+  is about the spirit of fair attribution. Attribution to the website, and more importantly,
+  to the individuals who so generously contributed their time to create that content
+  in the first place!\n\nAnyway, I hope that clears up any confusion -- feel free
+  to remix and reuse to your heart's content, as long as a good faith effort is made
+  to attribute the content!\n\n\t\t\t    \n\t\t\t    \t\n\t\t\t\t\t\tBy Jeff Atwood,
+  Co-Founder (Emeritus)\n\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t    \tTagged in \n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcompany\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcc-wiki-dump\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcommunity\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tlegal\n\t\t\t\t\t\t\n\t\t\t\t
+  \   \n\t\t\t    \n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\n\n\t\n\t\n\t    var disqus_shortname
+  = 'stackoverflowblog',\n\t    \tdisqus_identifier = 'http://blog.stackoverflow.com/2009/06/attribution-required/';\n\t
+  \   (function() {\n\t        var dsq = document.createElement('script'); dsq.type
+  = 'text/javascript'; dsq.async = true;\n\t        dsq.src = '//' + disqus_shortname
+  + '.disqus.com/embed.js';\n\t        (document.getElementsByTagName('head')[0] ||
+  document.getElementsByTagName('body')[0]).appendChild(dsq);\n\t    })();\n\tPlease
+  enable JavaScript to view the comments powered by Disqus.\n\n\n\t\t\t\n\t\t\t\n\t\t\n\t\n\n
+  \   \n\n    \n        \n          \n            \n              \n                \n
+  \                 \n                \n                \n                  Stack
+  Overflow is the home of a network of specialized communities that are created &
+  run by passionate experts and enthusiasts like you.\n                  Discover
+  our network \n                \n              \n            \n          \n          \n
+  \           The company\n            About us\n            Work here\n            Any
+  feedback?\n          \n          \n            Connect with us\n            Facebook\n
+  \           Twitter\n            Google+\n          \n          \n            Support\n
+  \           Contact us\n            Privacy policy\n            Legal\n          \n
+  \       \n        Last build Mon, 14 Dec 2015 00:37:19 +0000\n      \n    \n    \n\t\n\t\n\t
+  \ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\t
+  \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\t
+  \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\t
+  \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n\t
+  \ ga('create', 'UA-5620270-51', 'auto');\n\t  ga('send', 'pageview');\n\tAll the
+  content contributed to Stack Overflow or other Stack Exchange sites is cc-wiki (aka
+  cc-by-sa) licensed, intended to be shared and remixed. We even provide all our data
+  as a convenient data dump, seeded by us.But our cc-wiki licensing, while intentionally
+  permissive, does require attribution.I thought it was pretty clear what \"attribution\"
+  meant, but given the semi-scammy way the content is popping up in some seedier areas
+  of the internet, maybe not:http://hiveminds.se/vote/framed/story.php?id=23472 http://programmingfaq.w3ec.com/(there
+  may be others; these are just the ones I know about)So let me clarify what we mean
+  by attribution. If you republish this content, we require that you:Visually indicate
+  that the content is from Stack Overflow or the Stack Exchange network in some way.
+  It doesn't have to be obnoxious; a discreet text blurb is fine.Hyperlink directly
+  to the original question on the source site  (e.g., http://stackoverflow.com/questions/12345)Show
+  the author names for every question and answerHyperlink each author name directly
+  back to their user profile page on the source site (e.g., http://stackoverflow.com/users/12345/username)By
+  \"directly\", I mean each hyperlink must point directly to our domain in standard
+  HTML visible even with JavaScript disabled, and not use a tinyurl or any other form
+  of obfuscation or redirection. Furthermore, the links must not be nofollowed.This
+  is about the spirit of fair attribution. Attribution to the website, and more importantly,
+  to the individuals who so generously contributed their time to create that content
+  in the first place!Anyway, I hope that clears up any confusion -- feel free to remix
+  and reuse to your heart's content, as long as a good faith effort is made to attribute
+  the content!By Jeff Atwood, Co-Founder (Emeritus)Tagged in \n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcompany\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcc-wiki-dump\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tcommunity\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tlegal\n\t\t\t\t\t\tStack
+  Overflow is the home of a network of specialized communities that are created &
+  run by passionate experts and enthusiasts like you.Discover our network About usWork
+  hereAny feedback?FacebookTwitterGoogle+Contact usPrivacy policyLegalLast build Mon,
+  14 Dec 2015 00:37:19 +0000"
