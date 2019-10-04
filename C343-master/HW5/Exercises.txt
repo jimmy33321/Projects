@@ -1,0 +1,36 @@
+Exercises for HW5 --Benedek
+
+Exercise 5.14:
+It is defined in this way so if you have duplicated values, you have 1 defined way to find them. If they were to appear in both
+subtrees, you would need to check both. This makes working with trees easier.
+
+Exercise 5.15 A:
+		 15
+   	      5	    20
+		7  18  25
+		  16
+
+I tried to draw it above! 7 is the right child of 5, which is the left child of 15. 16 is the left child of 18, which is the left child of 20, which
+is the right child of 20. These added details should clear up the picture above so there is no confusion.	
+
+
+
+B:
+Pre-order> 15-5-7-20-18-16-25
+In-order> 5-7-15-16-18-20-25
+Post-order> 7-5-16-18-25-20-15
+
+
+Exercise 5.24:
+The smallest element will be a leaf since leaves have no children, and the child would be smaller if there were children. 
+
+
+Algorithm: To find the Kth smallest term in a BST, if the size of the left subtree is equal to K, then the Kth smallest term is the value of the node
+ (since in a BST, all values on the left are smaller then the node, so we can think of a node as the middle point. If K > size of the left tree,
+we must search the right tree.. If K < size of the left tree, then it is in the left tree. We would then recur into the trees to find.\
+
+Since a BST is in order, we can traverse through the tree (in-order). We then use a counter variable to determine how many values we have looked at,
+and when we get that variable to K, we have found the K smallest term.  
+
+Implementation: See BSTJr.java
+

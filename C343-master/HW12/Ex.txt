@@ -1,0 +1,18 @@
+Jimmy Yu
+Assignment 12
+
+1.
+			37
+		24		120
+	      7    32        42     150
+	    2              40  42  
+
+2. The suffix tree of "databigdata" was drawn by hand and uploaded as a picture, The only picture include here
+	The path of the query (I'll describe it in words) would be to 
+	look at paths that start with 'd'. That gives us 2 children to look at
+	the internal node that represents "data" with a left child of
+	"$." This leaf would show a successful path. Another option
+	in the tree is to use the leaf node (a child of the root) that is
+	"data$". Both of these paths find the query in text.
+
+3. See Java files 		

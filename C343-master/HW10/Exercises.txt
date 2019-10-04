@@ -1,0 +1,21 @@
+//Jimmy Yu
+
+11.4: 1 2 3 5 4 6
+
+11.6: 1 2 4 6 3 5
+
+11.9: In the worst case scenario, no vertex is visited multiple times, the
+worst case scenario requires every vertex to be checked once, and since
+visitors are marked and not visited again, it is still efficient. 
+
+11.10:
+Shortest path from vertex 4 to:
+vertex 1: 12 (path being 4-6-1)
+vertex 2: 5  (path being 4-2)
+vertex 3: 8  (path being 4-2-3)
+vertex 4: 0  (path being 4-4)
+vertex 5: 11 (path being 4-5)
+vertex 6: 10 (path being 4-6) 
+ 
+
+

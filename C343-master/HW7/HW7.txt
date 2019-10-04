@@ -1,0 +1,25 @@
+Jimmy Yu 7
+
+1. Exercise 7.18
+
+	a. Sorting the list is helpful. Start with sorted list from
+		smallest to largest. Minimum is the first element.
+		Running time is constant, so Theta(1).
+	b. Sorting the list is helpful. Start with a sorted list from 
+		smallest to largest. Maximum is the last element.
+		Running time is constant, so Theta(1).
+	c. Sorting the list is not helpful. To implement this, add every
+	 	element together and divide by total number. Since
+		each element must be accessed, it is in Theta(n).
+	d. Sorting the list is helpful. To find the median of an array, 
+		look at the element that is at the midpoint of the array.
+		Running time is constant, so Theta(1).
+	e. Sorting the list would be helpful. Go through the array, and 
+		whatever number as the most iterations in a row is the mode.
+		Since you must check every element, so theta(n).
+
+2. Counting sort. 
+	See Count2.java
+
+3. This is efficient when the range between elements is close to the number of items. The running time is in Theta(n) since every element of the list is being accessed. 
+

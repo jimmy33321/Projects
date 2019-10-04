@@ -1,0 +1,33 @@
+Jimmy Yu
+jimmyu
+CSCI-C291
+4/9/14
+Assignment 4
+
+Question 1
+a) unsigned long values[SIZE]; values[0] = 1; values[1] = 3; values[2] = 5;
+values[3] = 7; values[4] = 9; values[5] = 11;
+b) unsigned long * vPtr;
+c) for (i = 0; i < SIZE; i++) {printf("%d ",values[i]);};
+d) vPtr = values; vPtr = &values[1];
+e) for (i = 0; i < SIZE; i++) {printf("%d ",*(vPtr + i));}
+f) for (i = 0; i < SIZE; i++) {printf("%d ",*(values + i));}
+g) for (i = 0; i < SIZE; i++) {printf("%d ",vPtr[i]);};
+h) values[4]; values + 5; vPtr[4]; vPtr + 5; 
+i) The memory address is 40050E. The value stored there is zero.
+j) The memory address is 40050F. The value stored there is zero.
+
+Question 2
+a) short * lPtr;
+b) lPtr = &value1;
+c) printf("%d",*lPtr);
+d) value2 = *lPtr;
+e) printf("%d",value2);
+f) printf("%p",&value1);
+g) printf("%p",lPtr); This is the same as the address of value1
+
+Question 3
+a) void zero(long bigIntegers[]) {}
+b) void zero(long bigIntegers[]);
+c) int add1AndSum(int oneTooSmall[]) {}
+d) int add1AndSum(int oneTooSmall[]);

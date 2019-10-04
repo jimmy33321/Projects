@@ -1,0 +1,20 @@
+Exercises 5.32
+	a: Option 1. The linked list is better than a BST with respect to insertion. Since these records are guaranteed to be in order, inserting them in order is no more difficult.
+	b:Option 1, since linked lists are better than BST with respect to insertion. Since there are so many insertions, the few searches does not out-weight the costs.  
+	c:Option 3, since the BST will do best with both Searches and insertions.
+	d:Option 3, since a BST does well with searches, and there are many searches.
+
+
+
+Huffman coding:
+	So 00 represents A
+	   01 represents T
+	   10 represents C
+	   11 represents G
+		
+	This compress the string.
+
+
+Edit Distance:
+	See Edit.java
+

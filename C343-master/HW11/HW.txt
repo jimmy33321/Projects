@@ -1,0 +1,31 @@
+//Jimmy Yu//jimmyu//HW 11 C343
+
+
+11.16
+	Dijkstra's algorithm would be a good candidate for this problem, but requires some modification. Since Dijkstra's algorithm finds the 
+	shortest path from one fixed node to all other nodes, and the problem
+	is asking for us the shortest path from every node to a specific node. 
+	So if we sort of "reverse" the algorithm, and the destination in our problem would be the origin/starting node in Dijkstra's algorithm. 
+
+11.17
+	{3,2} {2,4} {2,1} {1,6} {6,5} 
+	represented where {u,v} u and v are the endpoints of the edge
+
+11.23
+	Dijkstra's algorithm works by starting at one vertex and 
+	getting the shortest path form that to every other vertex. 
+	So this would be a spanning tree, as as all vertices would 
+	be present, and there would not be any cycles. 
+        It may not be a MST as Dijkstra's algorithm is designed to find
+        the minimum cost between two vertices, while Prim's algorithm
+	is designed to find the minimum total cost of a path 
+        containing every vertex. 
+
+Abstract
+	Graph theory is helpful to provide an understanding to the brain's network. However, the conventional methods of analysis for Graph theory
+	do not transfer for the analysis of brain networks. To combat this, a minimal spanning tree (MST) is constructed and then compared
+        more easily to other graphs/networks. By studying the MST of people with epilepsy, scientists have discovered critical nodes associated with
+        Seizures. In this MS study, the MST was created by applying Kruskal's algorithm. These MSTs were compared between patients and a healthy
+        control group, and the dissimilarity was measured. The study found there were some large dissimilarities between the healthy and the ill.
+        This study demonstrated that the MST contains the most important nodes in a Brain network. 
+	

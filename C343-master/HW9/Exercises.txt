@@ -1,0 +1,31 @@
+Jimmy Yu
+
+1.
+	a.
+		[ [0,0,1,0,1,0],
+		  [0,0,1,0,0,1],
+     		  [1,1,0,1,0,1],
+		  [0,0,1,0,0,1],
+		  [1,0,0,0,0,1],
+	 	  [0,1,1,1,1,0],]
+
+	b.	[ [C,E],
+		  [C,F],
+		  [A,B,D,F],
+		  [C,F],
+		  [A,F],
+		  [B,C,D,E], ] 
+
+
+	c. B F E A C D
+	d. B C F A D E
+
+
+2.  To find the root of a DAG, if it exists. First, get the in-degree of all vertices, that is the degree leading into the vertex. If there
+	is only 1 vertex with in-degree zero, that is the root. If there are multiple with in-degree zero, there are multiple vertices that
+	cannot be reached, so there is no single root. If there are no vertices of in-degree zero, you have no root. Theta(n) is the time complexity
+	where n is the number of nodes or vertices. 
+
+
+
+3. See AdjGraph.java
