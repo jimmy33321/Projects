@@ -23,10 +23,10 @@ public class Example  {
     WebElement passwordElement     = driver.findElement(By.id("user_password_input"));
     WebElement emailElement     = driver.findElement(By.id("user_email_input"));
     WebElement submitElement        = driver.findElement(By.id("user_submit_action"));
- 
+  WebElement emailElement     = driver.findElement(By.id("user_email_input"));
     usernameElement.sendKeys("jimmy yu");
     passwordElement.sendKeys("asdfqwer");
- 
+    emailElement.sendKeys("asdf@asdf.com"); 
     //passwordElement.submit(); // submit by text input element
     submitElement.submit();        // submit by form element
  
