@@ -27,7 +27,6 @@ public class UsersPageTest extends TestBase {
 	}
 	@BeforeMethod public void setUp() {
 		initialization();
-		//testUtil = new TestUtil();
 		homePage = new HomePage();
 		usersPage = homePage.clickOnUsersLink();
 	}

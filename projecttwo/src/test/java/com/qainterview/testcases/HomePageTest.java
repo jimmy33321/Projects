@@ -11,21 +11,14 @@ import org.testng.annotations.Test;
 
 public class HomePageTest extends TestBase {
 	HomePage homePage;
-	TestUtil testUtil;
 	UsersPage usersPage;
 
 	public HomePageTest() {
 		super();
 	}
 
-	//test cases should be separated -- independent with each other
-	//before each test case -- launch the browser and login
-	//@test -- execute test case
-	//after each test case -- close the browser
-
 	@BeforeMethod public void setUp() {
 		initialization();
-		//testUtil = new TestUtil();
 		homePage = new HomePage();
 		usersPage = new UsersPage();
 	}

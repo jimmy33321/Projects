@@ -26,7 +26,6 @@ public class QaInterviewTest {
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		driver.get("http://qainterview.merchante-solutions.com:8080/admin");
-		//driver.get("http://www.freecrm.com/index.html");
 	}
 
 	@Test

@@ -26,9 +26,9 @@ public class TestUtil extends TestBase {
 	static Sheet sheet;
 	static JavascriptExecutor js;
 
-	//public void switchToFrame() {
-	//	driver.switchTo().frame("mainpanel");
-	//}
+	public void switchToFrame() {
+		//driver.switchTo().frame("mainpanel");
+	}
 
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
@@ -51,6 +51,7 @@ public class TestUtil extends TestBase {
 		for (int i = 0; i < sheet.getLastRowNum(); i++) {
 			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
 				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
+				System.out.println("i=" + i + " k ="+ k);
 				 System.out.println(data[i][k]);
 			}
 		}
@@ -94,5 +95,20 @@ public class TestUtil extends TestBase {
 			System.out.println("no error message");
 		Thread.sleep(5000);
 	}
+	public static boolean isNumeric(final String str) {
 
+		// null or empty
+		if (str == null || str.length() == 0) {
+			return false;
+		}
+
+		for (char c : str.toCharArray()) {
+			if (!Character.isDigit(c)) {
+				return false;
+			}
+		}
+
+		return true;
+
+	}
 }

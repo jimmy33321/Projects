@@ -25,8 +25,6 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-		//	FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/"
-		//			+ "/qainterview/config/config.properties");
 			FileInputStream ip = new FileInputStream("config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
@@ -43,13 +41,11 @@ public class TestBase {
 		if(browserName.equals("chrome")){
 			final File file = new File("drivers/chromedriver");
 			System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-		//	System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
 			final File file = new File("drivers/geckodriver");
 			System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
-			//System.setProperty("webdriver.gecko.driver", "./geckodriver");
 			driver = new FirefoxDriver(); 
 		}
 		
