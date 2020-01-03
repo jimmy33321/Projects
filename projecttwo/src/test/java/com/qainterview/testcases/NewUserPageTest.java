@@ -64,13 +64,13 @@ public class NewUserPageTest extends TestBase {
 		String segments[] = path.split("/");
 		// Grab the last segment
 		String newUserId = segments[segments.length - 1];
-		String userId ="//*[@id=\"user_" + newUserId + "\"]"; ////*[@id="user_158"]/
+		String userId ="//*[@id=\"user_" + newUserId + "\"]"; ////*[@id="user_100"]/
 		if(TestUtil.isNumeric(newUserId)) {
 			System.out.println("Successfully created new user " + newUserId);
 			driver.navigate().to("http://qainterview.merchante-solutions.com:8080/admin/users");
 
-			WebElement newUserNameEle = driver.findElement(By.xpath(userId + "/td[3]"));  //*[@id="user_168"]/td[3]
-			WebElement newUserEmailEle = driver.findElement(By.xpath(userId + "/td[4]")); //*[@id="user_168"]/td[4]
+			WebElement newUserNameEle = driver.findElement(By.xpath(userId + "/td[3]"));  //*[@id="user_100"]/td[3]
+			WebElement newUserEmailEle = driver.findElement(By.xpath(userId + "/td[4]")); //*[@id="user_100"]/td[4]
 			WebElement newUserCreateAtEle = driver.findElement(By.xpath(userId + "/td[5]"));
 			Assert.assertEquals(name, newUserNameEle.getText(), " New User name is not equal");
 			Assert.assertEquals(email, newUserEmailEle.getText(), " New User email is not equal");
@@ -95,26 +95,18 @@ public class NewUserPageTest extends TestBase {
 		Assert.assertEquals("can't be blank", passwordEle.getText());
 	}
 
-	@Test(priority=2)
-	public void testCancelNewUser (){
-		driver.findElement(By.xpath("//*[@id="new_user"]/fieldset[2]/ol/li[2]/a")).click();
-		String url = driver.getCurrentUrl();
-		Assert.assertEquals(url, "http://qainterview.merchante-solutions.com:8080/admin/users");
-	}
-
-//	@Test(priority=1, dataProvider="getDupUserTestData")
+	@Test(priority=3, dataProvider="getDupUserTestData")
 	public void validateCreateNewUser_failed_dup_username(String name, String password, String email){
 		newUserPage.createNewUser(name, password, email);
-		//if error exists then url is not changing.
-		//assert create user failed with input error
+		WebElement passwordEle = driver.findElement(By.className("inline-errors"));
+		Assert.assertEquals("has already been taken", passwordEle.getText());
 
 	}
-	//@Test(priority=1, dataProvider="getDupEmailTestData")
+	@Test(priority=4, dataProvider="getDupEmailTestData")
 	public void validateCreateNewUser_failed_dup_email(String name, String password, String email){
 		newUserPage.createNewUser(name, password, email);
-		//if error exists then url is not changing.
-		//assert create user failed with input error
-
+		WebElement passwordEle = driver.findElement(By.className("inline-errors"));
+		Assert.assertEquals("has already been taken", passwordEle.getText());
 	}
 	@AfterMethod
 	public void tearDown(){
