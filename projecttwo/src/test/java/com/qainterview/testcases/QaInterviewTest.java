@@ -21,7 +21,7 @@ public class QaInterviewTest {
 
 	@BeforeMethod
 	public void setUp() throws Exception {
-		final File file = new File("drivers/chromedriver");
+		final File file = new File("drivers/chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
