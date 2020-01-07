@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="58239" started-at="2020-01-07T03:31:35Z" finished-at="2020-01-07T03:32:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="58239" started-at="2020-01-07T03:31:35Z" finished-at="2020-01-07T03:32:33Z">
+      <class name="com.qainterview.testcases.QaInterviewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.QaInterviewTest@6b2fad11]" name="setUp" is-config="true" duration-ms="4616" started-at="2020-01-06T19:31:35Z" finished-at="2020-01-06T19:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="qainterviewTitleTest()[pri:0, instance:com.qainterview.testcases.QaInterviewTest@6b2fad11]" name="qainterviewTitleTest" duration-ms="20109" started-at="2020-01-06T19:31:40Z" finished-at="2020-01-06T19:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qainterviewTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.QaInterviewTest@6b2fad11]" name="tearDown" is-config="true" duration-ms="946" started-at="2020-01-06T19:32:00Z" finished-at="2020-01-06T19:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qainterview.testcases.QaInterviewTest -->
+      <class name="com.qainterview.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="setUp" is-config="true" duration-ms="3128" started-at="2020-01-06T19:32:01Z" finished-at="2020-01-06T19:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="verifyHomePageTitleTest" duration-ms="16" started-at="2020-01-06T19:32:04Z" finished-at="2020-01-06T19:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="640" started-at="2020-01-06T19:32:04Z" finished-at="2020-01-06T19:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="setUp" is-config="true" duration-ms="2504" started-at="2020-01-06T19:32:15Z" finished-at="2020-01-06T19:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUsersLinkTest()[pri:2, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="verifyUsersLinkTest" duration-ms="243" started-at="2020-01-06T19:32:18Z" finished-at="2020-01-06T19:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.HomePageTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="572" started-at="2020-01-06T19:32:18Z" finished-at="2020-01-06T19:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qainterview.testcases.HomePageTest -->
+      <class name="com.qainterview.testcases.NewUserPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="setUp" is-config="true" duration-ms="3098" started-at="2020-01-06T19:32:11Z" finished-at="2020-01-06T19:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewUser_success(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="validateCreateNewUser_success" duration-ms="747" started-at="2020-01-06T19:32:14Z" data-provider="getSuccessUserTestData" finished-at="2020-01-06T19:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tom@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewUser_success -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="599" started-at="2020-01-06T19:32:14Z" finished-at="2020-01-06T19:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="setUp" is-config="true" duration-ms="2817" started-at="2020-01-06T19:32:18Z" finished-at="2020-01-06T19:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewUser_failed_no_password()[pri:2, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="validateCreateNewUser_failed_no_password" duration-ms="327" started-at="2020-01-06T19:32:21Z" finished-at="2020-01-06T19:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewUser_failed_no_password -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="616" started-at="2020-01-06T19:32:21Z" finished-at="2020-01-06T19:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="setUp" is-config="true" duration-ms="3126" started-at="2020-01-06T19:32:22Z" finished-at="2020-01-06T19:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNewUserPageLabel()[pri:2, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="verifyNewUserPageLabel" duration-ms="12" started-at="2020-01-06T19:32:25Z" finished-at="2020-01-06T19:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="630" started-at="2020-01-06T19:32:25Z" finished-at="2020-01-06T19:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="setUp" is-config="true" duration-ms="2806" started-at="2020-01-06T19:32:26Z" finished-at="2020-01-06T19:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewUser_failed_dup_username(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="validateCreateNewUser_failed_dup_username" duration-ms="371" started-at="2020-01-06T19:32:29Z" data-provider="getDupUserTestData" finished-at="2020-01-06T19:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baduser@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewUser_failed_dup_username -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="589" started-at="2020-01-06T19:32:29Z" finished-at="2020-01-06T19:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="setUp" is-config="true" duration-ms="2865" started-at="2020-01-06T19:32:30Z" finished-at="2020-01-06T19:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewUser_failed_dup_email(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="validateCreateNewUser_failed_dup_email" duration-ms="323" started-at="2020-01-06T19:32:33Z" data-provider="getDupEmailTestData" finished-at="2020-01-06T19:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewUser_failed_dup_email -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.NewUserPageTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="610" started-at="2020-01-06T19:32:33Z" finished-at="2020-01-06T19:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qainterview.testcases.NewUserPageTest -->
+      <class name="com.qainterview.testcases.UsersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qainterview.testcases.UsersPageTest@79698539]" name="setUp" is-config="true" duration-ms="3970" started-at="2020-01-06T19:32:05Z" finished-at="2020-01-06T19:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qainterview.testcases.UsersPageTest@79698539]" name="verifyUserFilter" duration-ms="778" started-at="2020-01-06T19:32:09Z" data-provider="getFiltersTestData" finished-at="2020-01-06T19:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[equals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[contains]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2019-12-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2019-12-30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qainterview.testcases.UsersPageTest@79698539]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-01-06T19:32:10Z" finished-at="2020-01-06T19:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qainterview.testcases.UsersPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
