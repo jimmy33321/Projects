@@ -14,7 +14,6 @@ Extent Reports
 
 ### Steps to clone execute the tests
 ```
-git clone https://github.com/naveenanimation20/PageObjectModel
-cd PageObjectModel
+https://github.com/jimmy33321/Projects/tree/master/projecttwo
 mvn clean test
 ```
