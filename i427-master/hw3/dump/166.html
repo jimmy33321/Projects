@@ -1,0 +1,614 @@
+
+
+
+
+<!DOCTYPE HTML>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+	<title>View an Event</title>
+	
+	
+
+
+
+
+
+    
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/ccl-prd/applets/external/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/jquery-ui-1.8.13/js/jquery-ui-1.8.13.min.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/pagination.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/autoSuggestv14/jquery.autoSuggest.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/fancybox_2.0.6/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?v=3&sensor=false" ></script>
+<script type='text/javascript'>
+    csrfId = '65389d3f-dba0-4ace-bf83-21e025e08b89';
+    contextPath = '/ccl-prd';
+	appUrl = 'https://uisapp2.iu.edu:443/ccl-prd';
+</script>
+<link rel="stylesheet" href="/ccl-prd/applets/external/fancybox_2.0.6/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/ccl-prd/applets/external/jquery-ui-1.8.13/css/smoothness/jquery-ui-1.8.13.css">
+<link rel="stylesheet" type="text/css" href="/ccl-prd/css/branding.css" />
+
+
+	
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/reset_09-12.css"/>
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/newstuff_01-12.css">
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/main_07-15.css"/>
+		
+			
+			
+				<link rel="stylesheet" type="text/css" href="/ccl-prd/css/main.print.message_09-12.css" media="print" />
+			
+		
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="/ccl-prd/css/ie_09-12.css" />
+		<![endif]-->
+		<script type="text/javascript" src="/ccl-prd/applets/internal/views/calendarCommon_09-12.js"></script>
+		<script type="text/javascript" src="/ccl-prd/applets/internal/richMaps_09-12.js"></script>
+		<script type="text/javascript" src="/ccl-prd/applets/internal/watcher_09-12.js"></script>
+	
+	
+
+
+	
+		
+		<meta property="og:title" content="EVENT: Día de los Muertos Community Altar" />
+		<meta property="og:type" content="event" />
+		<meta property="og:image" content="https://uisapp2.iu.edu:443/ccl-prd/events/image/13087943/108920/large?&pubCalId=GRP1322" />
+		<meta property="og:site_name" content="IU Calendar" />
+		<meta property="fb:admins" content="100002388485159" />
+		
+		<meta property="og:url" content="https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13087943" />
+		
+		<meta property="og:description"  content="event.shortDescription">
+		<meta property="og:latitude" content="39.169845"/>
+		<meta property="og:longitude" content="-86.526245"/>
+		<meta property="og:location" content="Mathers Museum of World Cultures, 416 N. Indiana Ave., Bloomington, IN"/>
+		
+	
+		<meta itemprop="name" content="EVENT: Día de los Muertos Community Altar">
+		
+			
+			<meta itemprop="description" content="description">
+		
+		
+			<meta itemprop="image" content="https://uisapp2.iu.edu:443/ccl-prd/events/image/13087943/108920/large?&pubCalId=GRP1322">			
+		
+		
+	
+
+
+
+<script type="text/javascript">
+var userIsLoggedIn = false;
+isFirstWatcherRequest = false;
+
+jQuery(function ($) {
+	
+	if (true) {
+		initializeMap("map_canvas", "map_canvas_large");
+		
+		$('.map-link').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', -600);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+		$('#map_canvas').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', -600);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+		$('.details-link').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', 0);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+	}
+
+	$('span#eventDescription a').attr("target", "_blank");
+	
+	if (true) {
+		// Calling the jQuery plugin and splitting the
+		// #holder UL into pages of 3 LIs each:
+		
+		$('#seriesEventList').sweetPages({perPage:10});
+		
+		// The default behaviour of the plugin is to insert the 
+		// page links in the ul, but we need them in the main container:
+	
+		var controls = $('.swControls').detach();
+		controls.appendTo('.all-recurrences');
+		
+		$(".all-recurrences").slideUp(000);	
+		$(".showred").toggle(
+			function() {
+				$(".all-recurrences").slideDown(600);
+				$(".showred").html("hide recurrences");
+			},
+			function()
+			{
+				$(".all-recurrences").slideUp(600);
+				$(".showred").html("view upcoming");
+			}
+		);
+	}
+	
+	/*if (false) {
+		resizeFancyBox();
+	}*/
+	
+});
+
+/*function resizeFancyBox() {
+	var pageHeight = getDocHeight(document);
+	var pageWidth = getDocWidth(document);
+
+	var outer = window.parent.document.getElementById('fancybox-wrap');
+	var inner = window.parent.document.getElementById('fancybox-content');
+	
+	//alert('pageWidth: ' + pageWidth + ', windowWidth: ' + inner.style.width);
+	
+	outer.style.height= pageHeight+ 35 + "px";
+	//outer.style.width= pageWidth + 20 +"px";
+	inner.style.height= pageHeight+ 22 +"px";
+	//inner.style.width= pageWidth + 0 + "px";
+	
+	parent.$.fancybox.resize();
+	parent.$.fancybox.center();
+}*/
+
+function getDocHeight(doc)
+{
+	var docHt = 0, docScrollHeight, docOffsetHeight;
+	if (navigator.appName=="Microsoft Internet Explorer") 
+		docHt = docScrollHeight = doc.body.scrollHeight;
+	else
+		docHt = docOffsetHeight = doc.body.offsetHeight;
+	
+	return docHt;
+}
+
+function getDocWidth(doc)
+{
+	var docWt = 0, docScrollWidth, docOffsetWidth;
+	if (doc.body.scrollWidth) 
+		docWt = docScrollWidth= doc.body.scrollWidth;
+	else
+		docWt = docOffsetWidth = doc.body.offsetWidth;
+	if (docScrollWidth && docOffsetWidth) docHt = Math.max(docScrollWidth, docOffsetWidth);
+	return docWt;
+}
+
+</script>
+
+</head>
+
+<body class="event-detail">
+	
+		<input type="hidden" value="39.169845" id="latitude" />
+		<input type="hidden" value="-86.526245" id="longitude" />
+		<input type="hidden" value="BL011" id="buildingCode" />
+		<input type="hidden" value="" id="venueId" />
+	
+	<div class="wrapper">
+		<div class="header">
+		  <h1>IUB All Events</h1>
+		</div>
+		<div class="outerContentWrapper">
+			<div class="contentWrapper">
+				<div class="main">
+					<h2>EVENT: Día de los Muertos Community Altar</h2>
+					
+					
+						<div class="repeat-message">
+							Event series runs
+							 weekly on Tuesday, Wednesday, Thursday, and Friday from
+							Oct 7 to Oct 30, 2015.
+							
+							
+								(<a href="asdf"><span class="showred">view upcoming</span></a>)
+							
+						</div>
+						
+							<div class="all-recurrences">
+								<ul id="seriesEventList">
+									
+										
+										<li>
+											
+												
+												
+											
+											
+												
+													
+													
+														
+															
+																<span class="attending-no recurListCheck" title="I'm not attending"></span>
+															
+															
+																			
+													
+												
+											
+											Tuesday, October 27, 2015 at 9:00 AM
+											
+												(viewing)
+												
+											
+										</li>									
+									
+										
+										<li>
+											
+												
+												
+											
+											
+												
+													
+													
+														
+															
+															
+																<span class="attending-no" title="I'm not attending"></span>
+															
+																			
+													
+												
+											
+											Wednesday, October 28, 2015 at 9:00 AM
+											
+												
+												(<a href="/ccl-prd/events/view/13087943?viewParams=&theDate=10282015&pubCalId=GRP1322&referrer=listView">view</a>)
+											
+										</li>									
+									
+										
+										<li>
+											
+												
+												
+											
+											
+												
+													
+													
+														
+															
+															
+																<span class="attending-no" title="I'm not attending"></span>
+															
+																			
+													
+												
+											
+											Thursday, October 29, 2015 at 9:00 AM
+											
+												
+												(<a href="/ccl-prd/events/view/13087943?viewParams=&theDate=10292015&pubCalId=GRP1322&referrer=listView">view</a>)
+											
+										</li>									
+									
+										
+										<li>
+											
+												
+												
+											
+											
+												
+													
+													
+														
+															
+															
+																<span class="attending-no" title="I'm not attending"></span>
+															
+																			
+													
+												
+											
+											Friday, October 30, 2015 at 9:00 AM
+											
+												
+												(<a href="/ccl-prd/events/view/13087943?viewParams=&theDate=10302015&pubCalId=GRP1322&referrer=listView">view</a>)
+											
+										</li>									
+									
+								</ul>
+							</div>
+						
+					
+					
+					
+						<span id="eventDescription"><p>
+	Come celebrate and honor the memories of deceased loved ones at Bloomington&#39;s 10th Annual D&iacute;a de los Muertos Community Altar, curated by local artists Rachel DiGregorio and Michael Redman. You&#39;re invited to add gifts to the altar in honor of deceased loved ones, as it&#39;s customary to leave small offerings of items they would have enjoyed. The altar nurtures the memory of their lives, and each year it&#39;s built upon the foundation of the previous years&#39; offerings. The event is free and open to the public.</p>
+</span>
+					
+
+					<dl>
+						
+							
+							
+								<dt>Start</dt>
+								<dd>Tuesday October 27, 2015 09:00 AM</dd>
+								<dt>End</dt>
+								<dd>Tuesday October 27, 2015 04:30 PM</dd>
+							
+						
+						
+							
+								<dt>Location</dt>
+								<dd>Mathers Museum of World Cultures, 416 N. Indiana Ave., Bloomington, IN</dd>
+							
+						
+						
+							
+							<dt>Contact</dt>
+							<dd>Mathers Museum of World Cultures</dd>
+							
+						
+						
+							
+							<dt>Website</dt>
+				            
+				            <dd><a href="http://www.mathers.indiana.edu" target="_blank">http://www.mathers.indiana.edu</a></dd>
+				            
+						
+						
+						
+							
+								
+								<dt>Cost</dt>
+								<dd>
+									
+										
+										
+										
+											Free
+										
+									
+								</dd>
+								
+							
+								
+								<dt>More Contact Info</dt>
+								<dd>
+									
+										
+										
+										
+											812-855-6873
+										
+									
+								</dd>
+								
+							
+								
+								<dt>Other Info</dt>
+								<dd>
+									
+										
+										
+										
+											Free visitor parking is available by the Indiana Avenue lobby entrance. Metered parking is available at the McCalla School parking lot on the corner of Ninth Street and Indiana Avenue. The parking lot also has spaces designated for Indiana University C and ST permits. During the weekends free parking is available on the surrounding streets. An access ramp is located at the Fess Avenue entrance, on the corner of Ninth Street and Fess Avenue. Reserved parking spaces are available on Ninth Street, between Fess Avenue and Indiana Avenue. If you have a disability and need assistance, special arrangements can be made to accommodate most needs. Please call 812-855-6873.
+										
+									
+								</dd>
+								
+							
+								
+								<dt>Contact Email</dt>
+								<dd>
+									
+										
+										
+											
+			                        		<a href="mailto:mathers@indiana.edu">mathers@indiana.edu</a>
+										
+										
+									
+								</dd>
+								
+							
+						
+						
+						
+						
+					</dl>
+				</div>
+				<div class="sidebar">
+					
+						<img src="/ccl-prd/events/image/13087943/108920/small?&pubCalId=GRP1322" width="150" height="150" alt="event" class="event-image"/>			
+					
+					
+						<div id="map_canvas" style="width:150px;height:150px;"></div>
+						<div class="map-link" style="text-align:center"> (<a href="#">full map</a>)</div>
+					
+				</div>
+				
+					<div id="largeMap" style="float:left;width:600px;">
+						
+							
+							
+								<div id="map_canvas_large" style="height:325px;"></div>
+							
+						
+						
+						<div class="details-link" style="text-align:center;margin: 6px 0px;">(<a href="#">back to event details</a>)</div>
+						<div style="clear:both"></div>
+					</div>
+				
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="socialmedia">
+			
+				<div class="bubble" style="display:none;width: 270px; margin: 0px;height: 180px;position:absolute;left:0;top:0;">
+	<div class="close-bubble"></div>
+	<div class="imgoingform-all">
+		 <ul class="imgoingform-section" style="margin-top:12px">
+		
+		
+		
+		 <li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="going" name="going" value="">
+			  <label for="going" style="font-weight:bold"> I'm attending this event.</label>
+		 </li>
+		<li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="reminderCheckbox" name="reminderCheckbox" value=""></input>
+			<label for="reminderCheckbox">Remind me</label>
+			<select id="reminderTime" name="reminderTime"></select> in advance.
+		</li>
+		<li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="updates" name="updates" value="">
+			<label for="updates">Send event update notifications </label>
+		</li>
+		
+	
+			
+		<li class="imgoingform-line" id="notificationSelections">
+				<label for="notificationEmail">Send to:</label>
+			
+						<select name="notificationEmail"></select>
+						
+						
+				
+		</li>
+ 
+			<li class="imgoingform-line" id="notificationMessage" style="display:none;">
+          		 Send to: <span id="notificationField"></span>
+        	</li>
+
+			<li class="imgoingform-line">
+				<div class="imgoingform-input-wide">
+					<div class="imgoingform-buttons-wrapper">
+						
+					</div>
+				</div>
+			</li>
+		</ul>
+		
+		
+	  <div style="text-align:center; padding:6px; padding-top:12px">
+                 <button id="saveWatchButton" class="primary">Save</button>
+				<button id="cancelWatchButton" class="">Cancel</button>
+                </div>
+		
+		
+		<span id=watchError></span>
+	</div>
+	<input type="hidden" id="watchEventId" />
+	<input type="hidden" id="watchId" />
+	<input type="hidden" id="watchDate" />
+	<input type="hidden" id="watchCalId" />
+</div>
+				<div class="action_button">
+					
+					
+						<button class="watchButton imgoing checkoff bubbleRight" event-id="13087943" event-date="1445965200000">
+							<span class="checkoff">I'm Going</span>
+						</button>
+					
+				</div>
+			
+			
+				
+				<div class="action_button"><a href="/ccl-prd/events/view/13087943?viewParams=&theDate=&pubCalId=GRP1322&referrer=listView">View Series</a></div>
+			
+			
+				
+				<div class="social-icons" id="socialIconsDiv"></div>
+				<script type="text/javascript">
+					jQuery(function ($) {
+						var socialUrl = encodeURIComponent('https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13087943');
+						var socialDiv = $('div#socialIconsDiv');
+						socialDiv.append('<a href="http://www.facebook.com/sharer.php?u='+ socialUrl + '&t=EVENT: Día de los Muertos Community Altar" target="_blank"><span  class="facebook" ></span></a> ');
+						socialDiv.append('<a href="https://twitter.com/share?url='+ socialUrl + '&text=EVENT: Día de los Muertos Community Altar" target="_blank"><span  class="twitter" ></span></a> ');
+						socialDiv.append('<a href="http://www.stumbleupon.com/submit?url='+ socialUrl + '&title=EVENT: Día de los Muertos Community Altar" target="_blank"><span  class="stumbleupon" ></span></a> ');
+						
+						//var plusone = $('<div id="plusonebutton" class="g-plusone" data-size="small" data-annotation="none" data-href="https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13087943" data-expandTo="left,top"></div>');
+						//socialDiv.append(plusone);
+						//gapi.plusone.render('plusonebutton', {size:'small', annotation:'none', href:'https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13087943', expandTo:'left,top'});
+					});
+				</script>
+			
+			<div style="clear:both"></div>
+		</div>
+		
+			
+			<div style="text-align:center;margin-top:5px;"><a href="/ccl-prd/events/view?&pubCalId=GRP1322" >view calendar</a></div>
+			<div id="errorDialog" style="display:none;">
+	<p id="errorMessage"></p>
+	<p><br />Please try refreshing your browser window.
+	If problems persist, please contact &#111;&#110;&#101;&#115;&#116;&#97;&#114;t&#64;&#105;n&#100;iana.ed&#117;</p>
+</div>
+
+<script type="text/javascript">
+	
+	function showErrorDialog(title, message) {
+		$('div#errorDialog p#errorMessage').html(message);
+		$('div#errorDialog').dialog({
+			title: title,
+			width: 325,
+			modal: true,
+			resizable: false,
+			draggable: false,
+			zIndex: 10000,
+			buttons: { "OK": function() { $(this).dialog("close"); } },
+			open:	function(event, ui) {
+				$('.ui-widget-overlay').bind('click', function() {
+					$('div#errorDialog').dialog('close');
+	            });
+			}
+		});
+	}
+
+</script>
+		
+	</div>
+	
+</body>
+</html>

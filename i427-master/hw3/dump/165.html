@@ -1,0 +1,429 @@
+
+
+
+
+<!DOCTYPE HTML>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+	<title>View an Event</title>
+	
+	
+
+
+
+
+
+    
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/ccl-prd/applets/external/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/jquery-ui-1.8.13/js/jquery-ui-1.8.13.min.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/pagination.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/autoSuggestv14/jquery.autoSuggest.js"></script>
+<script type="text/javascript" src="/ccl-prd/applets/external/fancybox_2.0.6/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?v=3&sensor=false" ></script>
+<script type='text/javascript'>
+    csrfId = '65389d3f-dba0-4ace-bf83-21e025e08b89';
+    contextPath = '/ccl-prd';
+	appUrl = 'https://uisapp2.iu.edu:443/ccl-prd';
+</script>
+<link rel="stylesheet" href="/ccl-prd/applets/external/fancybox_2.0.6/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/ccl-prd/applets/external/jquery-ui-1.8.13/css/smoothness/jquery-ui-1.8.13.css">
+<link rel="stylesheet" type="text/css" href="/ccl-prd/css/branding.css" />
+
+
+	
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/reset_09-12.css"/>
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/newstuff_01-12.css">
+		<link rel="stylesheet" type="text/css" href="/ccl-prd/css/main_07-15.css"/>
+		
+			
+			
+				<link rel="stylesheet" type="text/css" href="/ccl-prd/css/main.print.message_09-12.css" media="print" />
+			
+		
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="/ccl-prd/css/ie_09-12.css" />
+		<![endif]-->
+		<script type="text/javascript" src="/ccl-prd/applets/internal/views/calendarCommon_09-12.js"></script>
+		<script type="text/javascript" src="/ccl-prd/applets/internal/richMaps_09-12.js"></script>
+		<script type="text/javascript" src="/ccl-prd/applets/internal/watcher_09-12.js"></script>
+	
+	
+
+
+	
+		
+		<meta property="og:title" content="Excel 2013: Advanced Macros &amp; User Defined Functions " />
+		<meta property="og:type" content="event" />
+		
+		<meta property="og:site_name" content="IU Calendar" />
+		<meta property="fb:admins" content="100002388485159" />
+		
+		<meta property="og:url" content="https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13004469" />
+		
+		<meta property="og:description"  content="event.shortDescription">
+		<meta property="og:latitude" content=""/>
+		<meta property="og:longitude" content=""/>
+		<meta property="og:location" content="ONLINE URL: http://connect.iu.edu/ittraininglive"/>
+		
+	
+		<meta itemprop="name" content="Excel 2013: Advanced Macros &amp; User Defined Functions ">
+		
+			
+			<meta itemprop="description" content="description">
+		
+		
+		
+	
+
+
+
+<script type="text/javascript">
+var userIsLoggedIn = false;
+isFirstWatcherRequest = false;
+
+jQuery(function ($) {
+	
+	if (false) {
+		initializeMap("map_canvas", "map_canvas_large");
+		
+		$('.map-link').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', -600);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+		$('#map_canvas').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', -600);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+		$('.details-link').click(function(){
+			$('.contentWrapper').animate({
+				opacity: 0,
+			  }, 300, function() {
+				$('.contentWrapper').css('left', 0);
+				$('.contentWrapper').animate({
+					opacity: 1,
+				  }, 300);
+			  });
+		});
+	}
+
+	$('span#eventDescription a').attr("target", "_blank");
+	
+	if (false) {
+		// Calling the jQuery plugin and splitting the
+		// #holder UL into pages of 3 LIs each:
+		
+		$('#seriesEventList').sweetPages({perPage:10});
+		
+		// The default behaviour of the plugin is to insert the 
+		// page links in the ul, but we need them in the main container:
+	
+		var controls = $('.swControls').detach();
+		controls.appendTo('.all-recurrences');
+		
+		$(".all-recurrences").slideUp(000);	
+		$(".showred").toggle(
+			function() {
+				$(".all-recurrences").slideDown(600);
+				$(".showred").html("hide recurrences");
+			},
+			function()
+			{
+				$(".all-recurrences").slideUp(600);
+				$(".showred").html("view upcoming");
+			}
+		);
+	}
+	
+	/*if (false) {
+		resizeFancyBox();
+	}*/
+	
+});
+
+/*function resizeFancyBox() {
+	var pageHeight = getDocHeight(document);
+	var pageWidth = getDocWidth(document);
+
+	var outer = window.parent.document.getElementById('fancybox-wrap');
+	var inner = window.parent.document.getElementById('fancybox-content');
+	
+	//alert('pageWidth: ' + pageWidth + ', windowWidth: ' + inner.style.width);
+	
+	outer.style.height= pageHeight+ 35 + "px";
+	//outer.style.width= pageWidth + 20 +"px";
+	inner.style.height= pageHeight+ 22 +"px";
+	//inner.style.width= pageWidth + 0 + "px";
+	
+	parent.$.fancybox.resize();
+	parent.$.fancybox.center();
+}*/
+
+function getDocHeight(doc)
+{
+	var docHt = 0, docScrollHeight, docOffsetHeight;
+	if (navigator.appName=="Microsoft Internet Explorer") 
+		docHt = docScrollHeight = doc.body.scrollHeight;
+	else
+		docHt = docOffsetHeight = doc.body.offsetHeight;
+	
+	return docHt;
+}
+
+function getDocWidth(doc)
+{
+	var docWt = 0, docScrollWidth, docOffsetWidth;
+	if (doc.body.scrollWidth) 
+		docWt = docScrollWidth= doc.body.scrollWidth;
+	else
+		docWt = docOffsetWidth = doc.body.offsetWidth;
+	if (docScrollWidth && docOffsetWidth) docHt = Math.max(docScrollWidth, docOffsetWidth);
+	return docWt;
+}
+
+</script>
+
+</head>
+
+<body class="event-detail">
+	
+	<div class="wrapper">
+		<div class="header">
+		  <h1>IUB All Events</h1>
+		</div>
+		<div class="outerContentWrapper">
+			<div class="contentWrapper">
+				<div class="main">
+					<h2>Excel 2013: Advanced Macros &amp; User Defined Functions </h2>
+					
+					
+					
+					
+						<span id="eventDescription"><p>
+	This workshop is part of the certificate series  <a>Excel 2013 Advanced End-User</a></p>
+<p>
+	Macros combine a sequence of commands into a single action and user-defined functions are used to perform complex calculations that can be launched from a single function name. In this workshop, participants will learn how to use advanced macro capabilities to automate complex workflows and how to write and assign user-defined functions. Participants will incorporate decision making logic and repeating actions into their macros and add to Excel&rsquo;s default function library by creating their own functions.</p>
+</span>
+					
+
+					<dl>
+						
+							
+							
+								<dt>Start</dt>
+								<dd>Tuesday October 27, 2015 09:00 AM</dd>
+								<dt>End</dt>
+								<dd>Tuesday October 27, 2015 12:30 PM</dd>
+							
+						
+						
+							
+								<dt>Location</dt>
+								<dd>ONLINE URL: http://connect.iu.edu/ittraininglive</dd>
+							
+						
+						
+							
+							<dt>Contact</dt>
+							<dd>IT Training</dd>
+							
+						
+						
+							
+							<dt>Website</dt>
+				            
+				            <dd><a href="https://ittraining.iu.edu" target="_blank">https://ittraining.iu.edu</a></dd>
+				            
+						
+						
+						
+							
+								
+								<dt>Contact Email</dt>
+								<dd>
+									
+										
+										
+											
+			                        		<a href="mailto:ittraining@iu.edu">ittraining@iu.edu</a>
+										
+										
+									
+								</dd>
+								
+							
+						
+						
+						
+						
+					</dl>
+				</div>
+				<div class="sidebar">
+					
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="socialmedia">
+			
+				<div class="bubble" style="display:none;width: 270px; margin: 0px;height: 180px;position:absolute;left:0;top:0;">
+	<div class="close-bubble"></div>
+	<div class="imgoingform-all">
+		 <ul class="imgoingform-section" style="margin-top:12px">
+		
+		
+		
+		 <li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="going" name="going" value="">
+			  <label for="going" style="font-weight:bold"> I'm attending this event.</label>
+		 </li>
+		<li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="reminderCheckbox" name="reminderCheckbox" value=""></input>
+			<label for="reminderCheckbox">Remind me</label>
+			<select id="reminderTime" name="reminderTime"></select> in advance.
+		</li>
+		<li class="imgoingform-line">
+			<input type="checkbox" class="imgoingform-checkbox" id="updates" name="updates" value="">
+			<label for="updates">Send event update notifications </label>
+		</li>
+		
+	
+			
+		<li class="imgoingform-line" id="notificationSelections">
+				<label for="notificationEmail">Send to:</label>
+			
+						<select name="notificationEmail"></select>
+						
+						
+				
+		</li>
+ 
+			<li class="imgoingform-line" id="notificationMessage" style="display:none;">
+          		 Send to: <span id="notificationField"></span>
+        	</li>
+
+			<li class="imgoingform-line">
+				<div class="imgoingform-input-wide">
+					<div class="imgoingform-buttons-wrapper">
+						
+					</div>
+				</div>
+			</li>
+		</ul>
+		
+		
+	  <div style="text-align:center; padding:6px; padding-top:12px">
+                 <button id="saveWatchButton" class="primary">Save</button>
+				<button id="cancelWatchButton" class="">Cancel</button>
+                </div>
+		
+		
+		<span id=watchError></span>
+	</div>
+	<input type="hidden" id="watchEventId" />
+	<input type="hidden" id="watchId" />
+	<input type="hidden" id="watchDate" />
+	<input type="hidden" id="watchCalId" />
+</div>
+				<div class="action_button">
+					
+					
+						<button class="watchButton imgoing checkoff bubbleRight" event-id="13004469" event-date="">
+							<span class="checkoff">I'm Going</span>
+						</button>
+					
+				</div>
+			
+			
+			
+				
+				<div class="social-icons" id="socialIconsDiv"></div>
+				<script type="text/javascript">
+					jQuery(function ($) {
+						var socialUrl = encodeURIComponent('https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13004469');
+						var socialDiv = $('div#socialIconsDiv');
+						socialDiv.append('<a href="http://www.facebook.com/sharer.php?u='+ socialUrl + '&t=Excel 2013: Advanced Macros & User Defined Functions " target="_blank"><span  class="facebook" ></span></a> ');
+						socialDiv.append('<a href="https://twitter.com/share?url='+ socialUrl + '&text=Excel 2013: Advanced Macros & User Defined Functions " target="_blank"><span  class="twitter" ></span></a> ');
+						socialDiv.append('<a href="http://www.stumbleupon.com/submit?url='+ socialUrl + '&title=Excel 2013: Advanced Macros & User Defined Functions " target="_blank"><span  class="stumbleupon" ></span></a> ');
+						
+						//var plusone = $('<div id="plusonebutton" class="g-plusone" data-size="small" data-annotation="none" data-href="https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13004469" data-expandTo="left,top"></div>');
+						//socialDiv.append(plusone);
+						//gapi.plusone.render('plusonebutton', {size:'small', annotation:'none', href:'https://uisapp2.iu.edu:443/ccl-prd/ajax/public/social/13004469', expandTo:'left,top'});
+					});
+				</script>
+			
+			<div style="clear:both"></div>
+		</div>
+		
+			
+			<div style="text-align:center;margin-top:5px;"><a href="/ccl-prd/events/view?&pubCalId=GRP1322" >view calendar</a></div>
+			<div id="errorDialog" style="display:none;">
+	<p id="errorMessage"></p>
+	<p><br />Please try refreshing your browser window.
+	If problems persist, please contact &#111;&#110;&#101;&#115;&#116;&#97;&#114;t&#64;&#105;n&#100;iana.ed&#117;</p>
+</div>
+
+<script type="text/javascript">
+	
+	function showErrorDialog(title, message) {
+		$('div#errorDialog p#errorMessage').html(message);
+		$('div#errorDialog').dialog({
+			title: title,
+			width: 325,
+			modal: true,
+			resizable: false,
+			draggable: false,
+			zIndex: 10000,
+			buttons: { "OK": function() { $(this).dialog("close"); } },
+			open:	function(event, ui) {
+				$('.ui-widget-overlay').bind('click', function() {
+					$('div#errorDialog').dialog('close');
+	            });
+			}
+		});
+	}
+
+</script>
+		
+	</div>
+	
+</body>
+</html>

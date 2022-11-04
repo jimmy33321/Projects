@@ -1,0 +1,1675 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IU Bloomington Campus Map: Indiana University Bloomington</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=9" />
+        <meta name="description" content="Indiana University Bloomington's official interactive online campus map. We encourage you to use this interactive campus map when you visit Indiana University Bloomington." /> 
+        <meta name="keywords" content="IU map, Indiana University map, IU Bloomington map, IU Bloomington campus map, Bloomington Indiana map, Indiana University campus map, campus map, campus locations, map, web map, interactive map, online map, download map, print map, Web 2.0, Web mapping, GIS, GIS map" />       
+<script type="text/javascript">
+  	// If mobile, redirect to mobile version
+	if (screen.width < 768) {
+		document.location = "https://m.iu.edu/kme-prd/campus/select?toolName=maps&campus=BL";
+	}
+</script>        
+        <!-- BEGIN INDIANA UNIVERSITY BRANDING BAR AND FOOTER <HEAD> ELEMENTS -->
+        <link href="http://www.indiana.edu/favicon.ico" rel="icon"/>
+        <link href="http://www.indiana.edu/favicon.ico" rel="shortcut icon"/>
+        <link href="../common/css/base.css" rel="stylesheet" type="text/css" />
+        <link href="../common/css/fixed.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../common/css/claroGrid.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="../common/css/map_print.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="//serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dijit/themes/claro/claro.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/esri/css/esri.css" />
+        <link rel="stylesheet" type="text/css" href="//serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dijit/themes/claro/claro.css" />
+        <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/esri/css/esri.css" />
+        <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="../common/css/spectrum.css" />
+        <link rel="stylesheet" type="text/css" href="../common/css/jquery-ui-1.9.2.custom.css" />
+        <link href="../common/css/inline.css" rel="stylesheet" type="text/css" />
+        <link href="../common/css/map.css" rel="stylesheet" type="text/css" />
+        <link href="../common/css/search.css" rel="stylesheet" type="text/css" />
+		<!--[if IE]><html lang="en" class="ie"><![endif]-->
+        <!--[if IE 7]>
+            <link href="../common/css/ie7.css" rel="stylesheet" type="text/css" />
+        <![endif]--> 
+        <!--[if IE 6]>
+            <link href="../common/css/ie6.css" rel="stylesheet" type="text/css" />
+        <![endif]-->
+        <script src="../common/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/ui/1.9.2/jquery-ui.js" type="text/javascript"></script>
+        <script src="../common/js/jqueryRotate-2.3.min.js" type="text/javascript"></script>
+		<!--<script type='text/javascript' src='../common/js/modernizr.2.8.1.js'></script>-->
+        <script src="../common/js/map.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../common/js/spectrum.js"></script><!--used for color picker-->
+
+		<script type="text/javascript">var djConfig = {parseOnLoad: true};</script>
+        <script type="text/javascript" src="//serverapi.arcgisonline.com/jsapi/arcgis/?v=3.2"></script>
+    <script>
+        //Import necessary dojo modules.
+        dojo.require("dojo.number");
+        dojo.require("dijit.dijit"); // optimize: load dijit layer
+        dojo.require("dijit.layout.BorderContainer");
+        dojo.require("dijit.layout.ContentPane");
+        dojo.require("dijit.layout.AccordionContainer");
+        dojo.require("dijit.layout.TabContainer");
+        dojo.require("dijit.form.Button");
+        dojo.require("esri.map");
+        dojo.require("esri.dijit.Legend");
+        dojo.require("esri.tasks.geometry");
+        dojo.require("esri.toolbars.draw");
+        dojo.require("esri.toolbars.edit");
+        dojo.require("dijit.Menu");
+        dojo.require("esri.dijit.InfoWindow");
+        dojo.require("esri.tasks.find");
+        dojo.require("esri.dijit.Print");
+        dojo.require("esri.layers.FeatureLayer");
+        dojo.require("dojox.grid.DataGrid");
+        dojo.require("dojo.data.ItemFileReadStore");
+        dojo.require("esri.tasks.PrintTask");
+    
+        var map, basemap, photo, IULayer;
+        var visible = [];
+        var symbol;
+        var geometryService; //For Measurement
+        var tb; //For Measurement
+    
+        //For Find_Task
+        var startExtent, initialExtent, findTask, findParams;
+        var grid, store;
+        var infoTemplate; //Make sure to declare global variable so other function can access it!
+        //For Find_Task
+    
+        //For Identify_Task
+        var resizeTimer;
+        var identifyTask, identifyParams;
+    
+        //For Print_Task
+        var printer = null;
+    
+        //Set initial imagery opacity
+        var PhotoOpacity = 0;
+    
+        var totalDistance = 0,
+            inputPoints = [],
+            legDistance = [];
+        var endGraphic,
+        measureHandle = null,
+            unitOfMeasure = null;
+        var editToolbar;
+        var ctxMenuForGraphics;
+        var preserveGraphics = false;
+		var drawSource = null;
+        
+        
+        //Set a variable container for building information call
+        var buildingInfoRequest;
+        if (window.XMLHttpRequest) {
+            buildingInfoRequest = new XMLHttpRequest();
+        } else {
+            buildingInfoRequest = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        //Set a variable container for department information call
+        var departmentInfoRequest;
+        if (window.XMLHttpRequest) {
+            departmentInfoRequest = new XMLHttpRequest();
+        } else {
+            departmentInfoRequest = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        //Set a variable container for photo search call
+        var imageURLRequest;
+        if (window.XMLHttpRequest) {
+            imageURLRequest = new XMLHttpRequest();
+        } else {
+            imageURLRequest = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        
+        //Run map initialization
+        dojo.ready(init);
+
+/*--------------------------------------------------------------------------------*/
+
+    function init() {
+
+        //identify proxy page to use if the toJson payload to the geometry service is greater than 2000 characters.
+        //If this null or not available the project and lengths operation will not work.  Otherwise it will do a http post to the proxy.
+        server = "bl-geoy-crinoid.ads.iu.edu";
+        esri.config.defaults.io.corsEnabledServers.push(server);
+		var proxyPage = window.location.protocol + '//' + window.location.host + "/common/proxy/proxy.php";
+        esri.config.defaults.io.proxyUrl = proxyPage;
+        esri.config.defaults.io.alwaysUseProxy = false;
+
+        //Set init extent 	  
+        initialExtent = new esri.geometry.Extent({
+            "xmin": -9632444,
+            "ymin": 4745198,
+            "xmax": -9629102,
+            "ymax": 4746882,
+            "spatialReference": {
+                "wkid": 102100
+            }
+        });
+        // this used in find task
+        startExtent = new esri.geometry.Extent({
+            "xmin": -9632700.961006993,
+            "ymin": 4746007.680852765,
+            "xmax": -9628688.017021915,
+            "ymax": 4747467.150361624,
+            "spatialReference": {
+                "wkid": 102100
+            }
+        });
+
+        map = new esri.Map("map", {
+            extent: initialExtent,
+            showAttribution: false,
+            logo: false
+        });
+
+		// Define the geometry service to be used for measurements.
+		geometryService = new esri.tasks.GeometryService("http://maps.iu.edu/ArcGIS/rest/services/Utilities/Geometry/GeometryServer"); //For Measurement!
+
+        //Use the ImageParameters to set the visible layers in the map service during ArcGISDynamicMapServiceLayer construction.
+        var imageParameters = new esri.layers.ImageParameters();
+        imageParameters.format = "PNG24";
+        imageParameters.layerIds = [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18, 19, 37, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36,  52, 51, 38,39,40,41,42,43,44,45,46,53,54,55,56,57,58]; //0 is map text, 38 is base map
+        imageParameters.layerOption = esri.layers.ImageParameters.LAYER_OPTION_SHOW;
+
+        basemap = new esri.layers.ArcGISTiledMapServiceLayer("http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer");
+        IULayer = new esri.layers.ArcGISDynamicMapServiceLayer("http://maps.iu.edu/arcgis/rest/services/Bloomington/Bloomington/MapServer", {
+            imageParameters: imageParameters,
+            id: "iu",
+        });
+		IUBaseMap = new esri.layers.ArcGISTiledMapServiceLayer("http://maps.iu.edu/ArcGIS/rest/services/Bloomington/BloomingtonBasePNG/MapServer", {});//        Photo = new esri.layers.ArcGISTiledMapServiceLayer("http://gis.uits.iu.edu/ArcGIS/rest/services/Imagery_Basemap/MapServer", {
+	      Photo = new esri.layers.ArcGISTiledMapServiceLayer("https://gis.in.gov/ArcGIS/rest/services/Imagery_Basemap/MapServer", {
+            "opacity": PhotoOpacity
+        });
+
+        map.addLayers([basemap, IUBaseMap, Photo, IULayer]);
+
+        dojo.connect(map, 'onZoomStart', showLoading);
+        dojo.connect(map, 'onPanStart', showLoading);
+		dojo.connect(IULayer, "onUpdate", hideLoading);
+
+		function showLoading() {
+			$('#eventsText').text('LOADING');				
+			$('#events').slideDown(500);						
+		}
+	
+		function hideLoading() {
+			$('#events').slideUp(500);						
+		}
+
+
+        /*--------------------------------------------------------------------------------*/
+
+        //For Identify_Task
+
+        //Set infoTemplate
+        var template = new esri.InfoTemplate();
+        template.setTitle(getWindowTitle);
+        template.setContent(getWindowContent);
+        dojo.addClass(map.infoWindow.domNode, "myTheme");
+
+        var IUBuildingsLayer = new esri.layers.FeatureLayer("http://maps.iu.edu/arcgis/rest/services/Bloomington/Bloomington/MapServer/32", {
+            mode: esri.layers.FeatureLayer.MODE_ONDEMAND,
+            infoTemplate: template,
+            opacity: 0,
+            outFields: ["*"]
+        });
+        var fratsSorsLayer = new esri.layers.FeatureLayer("http://maps.iu.edu/arcgis/rest/services/Bloomington/Bloomington/MapServer/35", {
+            mode: esri.layers.FeatureLayer.MODE_ONDEMAND,
+            infoTemplate: template,
+            opacity: 0,
+            outFields: ["*"]
+        });
+        var parkingLayer = new esri.layers.FeatureLayer("http://maps.iu.edu/arcgis/rest/services/Bloomington/Bloomington/MapServer/52", {
+            mode: esri.layers.FeatureLayer.MODE_ONDEMAND,
+            infoTemplate: template,
+            opacity: 0,
+            outFields: ["*"]
+        });
+        symbol = new esri.symbol.SimpleFillSymbol();
+        IUBuildingsLayer.setRenderer(new esri.renderer.SimpleRenderer(symbol));
+
+		// add the clickable layers to the map
+        map.addLayer(parkingLayer);
+        map.addLayer(fratsSorsLayer);
+        map.addLayer(IUBuildingsLayer);
+
+        dojo.connect(map, 'onLoad', function (theMap) {
+            //resize the map when the browser resizes
+			setExtent();  // sets an alternate view if params included in the url
+            dojo.connect(dijit.byId('map'), 'resize', map, map.resize);
+            toolbar = new esri.toolbars.Draw(map);
+            dojo.connect(toolbar, "onDrawEnd", addToMap);
+            dojo.connect(grid, "onRowClick", onRowClickHandler);
+            dojo.connect(map, "onClick", closeInfowindow); // close any open infowindows if click on non infowindow
+            dojo.connect(IUBuildingsLayer, "onClick", featureLayerClick);
+            dojo.connect(fratsSorsLayer, "onClick", featureLayerClick);
+            dojo.connect(parkingLayer, "onClick", featureLayerClick);
+            dojo.connect(printTask,'onError',function(error){
+			  retryPrintTheMap();
+ 			});
+       });
+
+        /*--------------------------------------------------------------------------------*/
+
+        dojo.connect(map, "onLoad", initToolbar); //For Measurement!
+
+        // get the year for map printing
+        var theDate = new Date();
+        var theYear = theDate.getFullYear();
+
+        // print dijit
+		  template = new esri.tasks.PrintTemplate();
+		  template.format = "PDF";
+		  template.layout = "Letter ANSI A Landscape";
+		  template.preserveScale = true;
+		  template.showAttribution = false;
+		  template.layoutOptions = {
+			  titleText: "Indiana University Bloomington Map",
+			  authorText: "",
+			  copyrightText: "Copyright \u00A9 " + theYear + " Trustees of Indiana University",
+			  scalebarUnit: "Miles",
+			  legendLayers: []
+		  };
+		  
+		  params = new esri.tasks.PrintParameters();
+		  params.map = map;
+		  params.template = template;
+          
+		  url = "http://gis.uits.iu.edu/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task";
+		  printTask = new esri.tasks.PrintTask(url, params);
+
+		function retryPrintTheMap() {
+			  printTask.execute(params, function(printResult){
+				$('#eventsText').text('COMPLETE');				
+				$('#events').slideUp(1500);				
+				window.open(printResult.url);
+			  });
+		};
+
+    } //End of init()
+    /*--------------------------------------------------------------------------------*/
+    function updateLayerVisibility(PhotoOpacity) {
+        //if photo layer is passed, set it 
+        if (typeof (PhotoOpacity) != "undefined") {
+			if (PhotoOpacity == 1) {
+				photo = true;  // photo keeps track of which mode we're in
+			} else {
+				photo = false;
+			}
+            Photo.setOpacity(PhotoOpacity);
+        }
+
+        var inputs = dojo.query(".list_item"),
+            input;
+			
+		// if photo, only labels are preserved, else preserve basemap layers	
+        if (photo == true) {
+			visible = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]; //Put the Layers ID here for layers always on!
+		} else {
+			visible = [0, 38,39,40,41,42,43,44,45,46,53,54,55,56,57,58]; //Put the Layers ID here for layers always on!
+		}
+		
+		 
+        for (var i = 0, il = inputs.length; i < il; i++) {
+            if (inputs[i].checked) {
+                visible.push(inputs[i].id);
+            }
+        } //End of for loop
+
+        //if there aren't any layers visible set the array value to = -1
+        if (visible.length === 0) {
+            visible.push(-1);
+        }
+
+        IULayer.setVisibleLayers(visible);
+
+        // Unset main Accessibility group checkbox if all sub items are unchecked
+        if (document.getElementById("20").checked === false && document.getElementById("21").checked === false && document.getElementById("22").checked === false && document.getElementById("23").checked === false) {
+            document.getElementById("accessibility_checkbox").checked = false;  
+        }
+        // Set main Accessibility group checkbox if all sub items are unchecked
+        if (document.getElementById("20").checked === true && document.getElementById("21").checked === true && document.getElementById("22").checked === true && document.getElementById("23").checked === true) {
+            document.getElementById("accessibility_checkbox").checked = true;  
+        }
+        // Unset main Buildings group checkbox if all sub items are unchecked
+        if (document.getElementById("32").checked === false && document.getElementById("34").checked === false && document.getElementById("35").checked === false && document.getElementById("36").checked === false) {
+            document.getElementById("buildings_checkbox").checked = false;  
+        }
+        // Set main Buildings group checkbox if all sub items are checked
+        if (document.getElementById("32").checked === true && document.getElementById("34").checked === true && document.getElementById("35").checked === true && document.getElementById("36").checked === true) {
+            document.getElementById("buildings_checkbox").checked = true;  
+        }
+        // Unset main Parking group checkbox if all sub items are unchecked
+        if (document.getElementById("25").checked === false && document.getElementById("31").checked === false && document.getElementById("52").checked === false && document.getElementById("24").checked === false) {
+            document.getElementById("parking_checkbox").checked = false;  
+        }
+        // Set main Parking group checkbox if all sub items are checked
+        if (document.getElementById("25").checked === true && document.getElementById("31").checked === true && document.getElementById("52").checked === true && document.getElementById("24").checked === true) {
+            document.getElementById("parking_checkbox").checked = true;  
+        }
+        // Unset main Emergency group checkbox if all sub items are unchecked
+        if (document.getElementById("27").checked === false && document.getElementById("26").checked === false && document.getElementById("28").checked === false && document.getElementById("29").checked === false) {
+            document.getElementById("emergency_checkbox").checked = false;  
+        }
+        // Set main Emergency group checkbox if all sub items are checked
+        if (document.getElementById("27").checked === true && document.getElementById("26").checked === true && document.getElementById("28").checked === true && document.getElementById("29").checked === true) {
+            document.getElementById("emergency_checkbox").checked = true;  
+        }
+
+    } //End of updateLayerVisibility()	
+    /*--------------------------------------------------------------------------------*/
+
+    function initToolbar(map) {
+        //resize the map when the browser resizes
+        dojo.connect(dijit.byId('map'), 'resize', map, map.resize);
+
+        tb = new esri.toolbars.Draw(map);
+        var lengthParams = new esri.tasks.LengthsParameters();
+
+        //on draw end add graphic, project it, and get new length
+        dojo.connect(tb, "onDrawEnd", function (geometry) {
+            map.graphics.clear();
+            lengthParams.polylines = [geometry];
+            lengthParams.lengthUnit = esri.tasks.GeometryService.UNIT_FOOT;
+            lengthParams.geodesic = true;
+
+            geometryService.lengths(lengthParams);
+
+            var graphic = new esri.Graphic(geometry, new esri.symbol.SimpleLineSymbol());
+            map.graphics.add(graphic);
+
+            tb.deactivate();
+        });
+
+        dojo.connect(geometryService, "onLengthsComplete", outputDistance);
+
+    } //End of initToolbar(map) 
+    /*--------------------------------------------------------------------------------*/
+	function addToMap(geometry) {
+		toolbar.deactivate();
+		map.showZoomSlider();
+		var rgbColor = document.getElementById("graphicColor").value;
+		switch (geometry.type) {
+			case "point":
+				symbol = new esri.symbol.SimpleMarkerSymbol(esri.symbol.SimpleMarkerSymbol.STYLE_SQUARE, 10, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([255, 0, 0]), 1), new dojo.Color.fromRgb(rgbColor));
+				break;
+			case "polyline":
+				symbol = new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([255, 0, 0]), 2);
+				break;
+			case "polygon":
+				symbol = new esri.symbol.SimpleFillSymbol(esri.symbol.SimpleFillSymbol.STYLE_SOLID, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_DASHDOT, new dojo.Color([255, 0, 0]), 2), new dojo.Color.fromRgb(rgbColor));
+				break;
+			case "extent":
+				symbol = new esri.symbol.SimpleFillSymbol(esri.symbol.SimpleFillSymbol.STYLE_SOLID, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_DASHDOT, new dojo.Color([255, 0, 0]), 2), new dojo.Color.fromRgb(rgbColor));
+				break;
+			case "multipoint":
+				symbol = new esri.symbol.SimpleMarkerSymbol(esri.symbol.SimpleMarkerSymbol.STYLE_DIAMOND, 15, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([0, 0, 0]), 2), new dojo.Color.fromRgb(rgbColor));
+				break;
+			default:
+				symbol = new esri.symbol.SimpleMarkerSymbol(esri.symbol.SimpleMarkerSymbol.STYLE_SQUARE, 10, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([255, 0, 0]), 1), new dojo.Color.fromRgb(rgbColor));
+				break;
+		}
+		var graphic = new esri.Graphic(geometry, symbol);
+		preserveGraphics = true;
+		map.graphics.add(graphic);
+		$('.toolButton').css('background-color', '#4a3c31');
+	}
+
+
+    function outputDistance(result) {
+
+        var content = dojo.number.format(result.lengths[0]);
+
+    } //End of outputDistance(result) 
+    /*--------------------------------------------------------------------------------*/
+
+    function getWindowTitle(graphic) {
+        // set title to building name
+		if (graphic.attributes.IU_NAME) {
+			var building_name = graphic.attributes.IU_NAME;
+		} else {
+			if (graphic.attributes.MAP_NAME) {
+				var building_name = graphic.attributes.MAP_NAME;
+			} else {
+				var building_name = 'IU Buildings';	
+			}
+		}        
+		if (building_name ==' ') {building_name = 'IU Buildings'};
+        return building_name;
+    }
+
+    /*--------------------------------------------------------------------------------*/
+
+    function featureLayerClick(evt) { // evt is the screen point clicked on
+
+        // Get current spatial coordinates
+        var minX, minY, maxX, maxY;
+        minX = Math.round(map.extent.xmin);
+        minY = Math.round(map.extent.ymin);
+        maxX = Math.round(map.extent.xmax);
+        maxY = Math.round(map.extent.ymax);
+
+        // Compute values needed to move screen vertically when feature selected
+        mapHeight = $("#map").height();
+        topMargin = mapHeight * 0.1;
+        botMargin = mapHeight * 0.9;
+        midPoint = $("#map").height() / 2;
+        relMovement = (maxY - minY) / mapHeight;
+        clickPoint = evt.screenPoint.y;
+
+        // Calculate new spatial coordinates 
+        if (clickPoint > topMargin && clickPoint < midPoint) {
+            minY = minY - relMovement * (clickPoint - topMargin);
+            maxY = maxY - relMovement * (clickPoint - topMargin);
+        } else {
+            if (clickPoint < botMargin && clickPoint > midPoint) {
+                minY = minY + relMovement * (botMargin - clickPoint);
+                maxY = maxY + relMovement * (botMargin - clickPoint);
+            }
+        }
+
+        // Set the new coordinates and move the map
+        var extent = new esri.geometry.Extent({
+            "xmin": minX,
+            "ymin": minY,
+            "xmax": maxX,
+            "ymax": maxY,
+            "spatialReference": map.spatialReference
+        });
+        map.setExtent(extent);
+
+    }
+
+    /*--------------------------------------------------------------------------------*/
+    // Display a popup window with tabbed content
+	function getWindowContent(graphic) { // graphic is the object clicked on
+
+		var tc = makePopupContainer(500);
+
+		if (graphic.attributes.CABLDG) {
+			var buildingCode = graphic.attributes.CABLDG;	
+		} else {
+			var buildingCode = graphic.attributes.BLDGCODE;	
+		}
+		
+		//test different photo urls for the best one to use
+        var imageURL = 'img/building_not_found.gif';
+		var getImageURL = '../common/helpers/getImageURL.php?bldgCode=' + buildingCode;
+		imageURLRequest.open('GET', getImageURL );
+        imageURLRequest.send();
+        imageURLRequest.onreadystatechange = function () {
+			//wait until request is complete
+            if ((imageURLRequest.readyState === 4) && (imageURLRequest.status === 200)) {
+				//retrieve the appropriate image URL
+                var imageURL = imageURLRequest.responseText;
+
+        //get building information details from buildingInfo.indiana.com using php proxy page
+		var bldgURL = '../common/helpers/jsonBuilding.php?bldgCode=' + buildingCode;
+        buildingInfoRequest.open('GET', bldgURL  );
+        buildingInfoRequest.send();
+        buildingInfoRequest.onreadystatechange = function () {
+			//wait until request is complete
+            if ((buildingInfoRequest.readyState === 4) && (buildingInfoRequest.status === 200)) {
+				//parse request into an array
+                var buildingInfo = JSON.parse(buildingInfoRequest.responseText);
+                //if building data found from the buildingInfo.indiana.com folks, use their data in conjunction with map server data
+				if (buildingInfo.DATA.length) {
+					if (graphic.attributes.CABLDG) {
+						var building_name = buildingInfo["DATA"][0][05];
+					} else {
+						if (graphic.attributes.MAP_NAME !== null) {
+							building_name = graphic.attributes.MAP_NAME;
+						} else {
+							building_name = graphic.attributes.IU_NAME;					
+						};
+					};
+					building_name = $.trim(building_name);
+					
+					var building_desc = "";					
+					var building_architect = "";
+					var building_constructed = "";
+					var building_address = "";
+					var building_function = "";
+					var building_number = "";
+					var building_code = "";
+					if (buildingInfo["DATA"][0][13] !== null) {building_desc = buildingInfo["DATA"][0][13] + "<br /><br />"};
+					if (buildingInfo["DATA"][0][11] !== null && buildingInfo["DATA"][0][11] !== ' ') {building_architect = "<br />" + "Original Architect: " + buildingInfo["DATA"][0][11]};
+					if (buildingInfo["DATA"][0][9] !== null && buildingInfo["DATA"][0][9] !== 0) {building_constructed = "<span>Constructed in </span>" + buildingInfo["DATA"][0][9]};
+					if (buildingInfo["DATA"][0][4] !== null) {building_address = "<span class=\"address\">" + buildingInfo["DATA"][0][4]};
+					if (graphic.attributes.FUNCTION_ && graphic.attributes.FUNCTION_ !== null && graphic.attributes.FUNCTION_ !== ' ') {building_function = "<strong>Function: </strong>" + graphic.attributes.FUNCTION_ + "<br /><br />"};
+					if (buildingCode && buildingCode !== null && buildingCode !== ' ') {building_number = "Building Number:  " + buildingCode + "<br />"};
+					if (graphic.attributes.REGCODE && graphic.attributes.REGCODE !== null && graphic.attributes.REGCODE !== ' ') {building_code = "2-Letter Code: " + graphic.attributes.REGCODE + "<br />"} else {if (graphic.attributes.ALPHACODE && graphic.attributes.ALPHACODE !== null && graphic.attributes.ALPHACODE !== ' ') {building_code = "2-Character Code: " + graphic.attributes.ALPHACODE + "<br />"}};
+					//setup first tab information
+                    if (imageURL !== 'nope') {
+						image =  "<img src=" + imageURL + " width=\"221\" height=\"165\">" + "<br />";
+					} else {
+						image = '<br />';
+					}
+					var cp1 = new dijit.layout.ContentPane({
+                        title: "<strong>Information</strong>",
+                        content: image + "<div id=\"popupText\">" + "<div class='title'>" + building_name + "</div>" + "</strong>" + "<hr>"  + building_address + "<br />" + building_number + building_code + "</span>" + "<hr>" + building_desc + building_function + building_constructed + building_architect + "</div>"
+                    });
+					//add tab to tabbed container
+                    tc.addChild(cp1);
+					
+					// Get data for office tab
+					deptURL = '../common/helpers/jsonDepartment.php?bldgcode=' + buildingCode;
+					departmentInfoRequest.open('GET', deptURL );
+					departmentInfoRequest.send();
+					departmentInfoRequest.onreadystatechange = function() {
+						if ((departmentInfoRequest.readyState===4) && (departmentInfoRequest.status===200)) {
+							var departmentInfo = JSON.parse(departmentInfoRequest.responseText);
+							if (departmentInfo.DATA.length) {
+								deptCount = departmentInfo["DATA"].length ;
+								// Bypass the offices tab if only 1 office with < 200 Prorated area - bad office record in feed
+								if (!(deptCount == 1 && departmentInfo["DATA"][0][5] < 200)) {
+									var cp2;
+									var output = '<div id=\"popupText\">' + '<strong>Departments in ' + graphic.attributes.MAP_NAME + '</strong><hr><ul>';
+									//read through all offices found and build list
+									for (var d=0; d<deptCount; d++){
+										output += '<li id="officeListItem">' + departmentInfo["DATA"][d][3] + '</li>';
+									}
+									output += '</ul>';
+									cp2 = new dijit.layout.ContentPane({
+										title: "<strong>Departments</strong>",
+										content: output });
+									tc.addChild(cp2);
+								} // end of bad office record check in feed
+							} //end of department found question
+						} // end readystate = 4
+					};// end onreadystatechange 
+
+                } else {
+                    //no data returned from map server, issue 'sorry' message	
+                    var cp1 = new dijit.layout.ContentPane({
+                        title: "<strong>Information</strong>",
+                        content: "<div id=\"popupText\">" + "<span class=\"address\">Sorry, no information was found for this building</span>" + "<br><br>Object ID: " + graphic.attributes.OBJECTID_1 + "</div>" 
+                        //content: "<img src=\"img/building_not_found.gif\" width=\"221\" height=\"165\">" + "<br />" + "<div id=\"popupText\">" + "<span class=\"address\">Sorry, no information found for this building</span>" + "</div>"
+                    });
+                    tc.addChild(cp1);
+
+                } //end of buildingInfo found question
+            } // end readystate = 4
+		};// end onreadystatechange 
+
+        //resize the infowindow for this task
+/*		if (imageURL === 'nope') {
+			map.infoWindow.resize(231, 300);
+		} else {
+			map.infoWindow.resize(231, 500);
+		}*/
+		
+			}
+		}
+       return tc.domNode;
+
+    } //End of getWindowContent(graphic)
+
+	// Size the tabbed popup container
+	function makePopupContainer(height) {
+        //make a tabbed container 
+        var tc = new dijit.layout.TabContainer({
+            style: "width:100%;height:100%;"
+        }, dojo.create("div"));
+
+ 		// set initial size for small window
+        map.infoWindow.resize(231, height);
+		return tc;
+	}
+
+    /*--------------------------------------------------------------------------------*/
+
+    function setExtent() {
+
+        URLparams = esri.urlToObject(window.location.href);
+        var URLctrX = null;
+        var URLctrY = null;
+        var URLlevel = null;
+        if (URLparams.query) {
+            URLctrX = (URLparams.query.ctrx) ? parseInt(URLparams.query.ctrx, 10) : null; // map center point x coord
+            URLctrY = (URLparams.query.ctry) ? parseInt(URLparams.query.ctry, 10) : null; // map center point y coord
+            URLlevel = (URLparams.query.level) ? parseInt(URLparams.query.level, 10) : null; // initial zoom level
+        }
+
+        if (URLctrX && URLctrY) {
+            //the input zoom level is reduced to match zero-based levels of detail used by Server
+            var zoom = (URLlevel) ? URLlevel - 1 : -1;
+            zoomToCoords(URLctrX, URLctrY, zoom);
+        }
+    }
+    /*--------------------------------------------------------------------------------*/
+
+    function zoomToCoords(x, y, scale) {
+        // center the map on the specified coordinates and zoom to the specified scale
+        var proj = new esri.SpatialReference({
+            wkid: 102100
+        });
+        var ctrPt = new esri.geometry.Point(x, y, proj);
+        var zoomlvl = (scale >= 0) ? scale : map.getLevel();
+        map.centerAndZoom(ctrPt, zoomlvl);
+    }
+    /*--------------------------------------------------------------------------------*/
+
+    function buildLink() {
+
+        // Get bounding box and derive coordinates of center point
+        var minX, minY, maxX, maxY;
+        minX = Math.round(map.extent.xmin);
+        minY = Math.round(map.extent.ymin);
+        maxX = Math.round(map.extent.xmax);
+        maxY = Math.round(map.extent.ymax);
+        var ctrpt = new esri.geometry.Point(minX + (maxX - minX) / 2, minY + (maxY - minY) / 2, map.spatialReference);
+        // get zoom level - map levels are zero-based, url levels are 1-based
+        var zoom = map.getLevel() + 1;
+
+
+        // compose the new url 
+        var oldLoc = window.location.href;
+        var i = oldLoc.indexOf('?');
+        if (i > -1) {
+            oldLoc = oldLoc.substring(0, i);
+        }
+        var newLoc = oldLoc + "?ctrx=" + ctrpt.x + "&ctry=" + ctrpt.y + "&level=" + zoom;
+		return newLoc;
+	}
+
+    function generateURL() {
+        /*Generate a URL from current map view including map center point, zoom level and visible layers
+	The actual size of the map is not recorded because it sizes itself to the browser window */
+
+        // Get bounding box and derive coordinates of center point
+		newLoc = buildLink();
+
+        // Generate the info window to report the new url
+        var s1 = "<h4 style=\"color: white\">Copy the text below for a link to this view.</h4>";
+        var s2 = "<textarea rows='4' cols='45' id='linktxt' name='linktxt'>" + newLoc + "</textarea>";
+        var s3 = "<br/><a href=\"" + newLoc + "\"" + "target=\"_blank\" style=\"color: white\">" + "Click here to open this view in new tab" + "</a>";
+        var content = s1 + s2 + s3;
+
+        var screenpoint = new esri.geometry.Point(625, 0); //This line sets the screenpoint 
+        map.infoWindow.setTitle("Link to this view:");
+        map.infoWindow.setContent(content);
+        map.infoWindow.resize(400, 200);
+        map.infoWindow.show(screenpoint); //This line determine where the infoWindow will display
+
+    } //End of generateURL()
+    /*--------------------------------------------------------------------------------*/
+	
+    function execute(searchText) { //set the search text to find parameters
+        findParams.searchText = searchText;
+        findTask.execute(findParams, showResults);
+    } //End of execute(searchText) 
+    /*--------------------------------------------------------------------------------*/
+
+	// This function implements search
+    function doFind(findFilter, findString) {
+	    //create find task with url to map service
+        findTask = new esri.tasks.FindTask("http://maps.iu.edu/arcgis/rest/services/Bloomington/Bloomington/MapServer");
+
+        //create find parameters and define known values
+        findParams = new esri.tasks.FindParameters();
+        findParams.returnGeometry = true;
+        findParams.layerIds = [32, 36, 52]; //Specify the layer to be searched! You can have more than 1 layer! 32 is the IU Buildings Layer!
+   		switch (findFilter) {
+			case "all":
+				findParams.searchFields = ["MAP_NAME", "BLDGCODE", "CAMPUS_LOCATIONS", "ADDRESS", "REGCODE", "IU_NAME", "CABLDG"];
+				break;
+			case "addresses":
+				findParams.searchFields = ["ADDRESS"];
+				break;
+			case "buildingnames":
+				findParams.searchFields = ["MAP_NAME", "IU_NAME"];
+				break;
+			case "buildingcodes":
+				findParams.searchFields = ["BLDGCODE", "REGCODE", "CABLDG"];
+				break;
+			case "buildingnumbers":
+				findParams.searchFields = ["BLDGCODE", "REGCODE", "CABLDG"];
+				break;
+			default:
+				findParams.searchFields = ["MAP_NAME", "BLDGCODE", "CAMPUS_LOCATIONS", "ADDRESS", "REGCODE", "IU_NAME", "CABLDG"];
+				break;
+		}        
+        findParams.outSpatialReference = map.spatialReference; //This make sure the output is in the same spatial reference! 
+
+        //Set the search text to the value in the box
+        findParams.searchText = dojo.byId("searchtxt").value;
+        findTask.execute(findParams, showResults);
+    }
+
+    function showResults(results) {
+        //This function works with an array of FindResult that the task returns
+        map.infoWindow.hide();
+        map.graphics.clear();
+        symbol = new esri.symbol.SimpleFillSymbol(esri.symbol.SimpleFillSymbol.STYLE_SOLID, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([98, 194, 204]), 2), new dojo.Color([98, 194, 204, 0.5]));
+
+        //create array of attributes
+        var items = dojo.map(results, function (result) {
+            var graphic = result.feature;
+            graphic.setSymbol(symbol);
+            map.graphics.add(graphic);
+            return result.feature.attributes;
+        });
+
+		// create data store for string searching 
+		var store = new dojo.data.ItemFileReadStore({ data: { items: items} }); 
+//		alert (store);
+		var layout = [[ { 'name': 'ID', 'field': 'OBJECTID_1', 'width': '20%' },
+						 { 'name': 'Activity Type', 'field': 'OBJECTID_1', 'width': '80%' }]];
+        var grid = dijit.byId('grid');
+		grid.noDataMessage = "No results found";
+        grid.setStore(store);
+		// The following lines are used for debugging
+//		alert (grid.rowCount);
+//		var count;
+//		for (var i = 0; i< grid.rowCount-1; i++) {
+//		alert (grid._by_idx[i].item.MAP_NAME[0]);
+//		if (grid._by_idx[i].item.MAP_NAME[0]) {count = count + 1;}
+//		}
+//		alert (count);
+        //Zoom back to the initial map extent
+        //map.setExtent(startExtent);
+    }
+
+    //Zoom to the parcel when the user clicks a row
+    function onRowClickHandler(evt) {
+        var clickedBuildingId = grid.getItem(evt.rowIndex).OBJECTID_1;
+        var selectedBuilding;
+        dojo.forEach(map.graphics.graphics, function (graphic) {
+            if ((graphic.attributes) && graphic.attributes.OBJECTID_1 === clickedBuildingId) {
+                selectedBuilding = graphic;
+                return;
+            }
+        });
+        var buildingExtent = selectedBuilding.geometry.getExtent();
+        map.setExtent(buildingExtent);
+		$(".ui-dialog-titlebar-close").click();
+    }
+
+    /*--------------------------------------------------------------------------------*/
+
+    // Click events for the measure by buttons
+    $(function () {
+        $("#measure-feet").click(function () {
+            unitOfMeasure = "feet";
+            clearMap();
+            dojo.disconnect(measureHandle);
+            measureHandle = dojo.connect(map, "onClick", mapClickHandler);
+        });
+        $("#measure-meters").click(function () {
+            unitOfMeasure = "meters";
+            clearMap();
+            dojo.disconnect(measureHandle);
+            measureHandle = dojo.connect(map, "onClick", mapClickHandler);
+        });
+        $("#measure-miles").click(function () {
+            unitOfMeasure = "miles";
+            clearMap();
+            dojo.disconnect(measureHandle);
+            measureHandle = dojo.connect(map, "onClick", mapClickHandler);
+        });
+        $("#measure-sqfeet").click(function () {
+            unitOfMeasure = "sqfeet";
+            clearMap();
+            dojo.disconnect(measureHandle);
+            measureHandle = dojo.connect(tb, "onDrawEnd", getAreaAndLength);
+            tb.activate(esri.toolbars.Draw.FREEHAND_POLYGON);
+            dojo.connect(geometryService, "onAreasAndLengthsComplete", outputAreaAndLength);
+        });
+        $("#measure-acres").click(function () {
+            unitOfMeasure = "acres";
+            clearMap();
+            var tb = new esri.toolbars.Draw(map);
+            dojo.disconnect(measureHandle);
+            measureHandle = dojo.connect(tb, "onDrawEnd", getAreaAndLength);
+            tb.activate(esri.toolbars.Draw.FREEHAND_POLYGON);
+            dojo.connect(geometryService, "onAreasAndLengthsComplete", outputAreaAndLength);
+        });
+        // Clear all graphics, windows, and remove distance display pane	
+        $(function () {
+            $(".clearMap").click(function () {
+                clearMap();
+            });
+        });
+
+    });
+
+    // This function implements the linear measurement tools	
+    function mapClickHandler(evt) {
+		preserveGraphics = true;
+        var inPoint = new esri.geometry.Point(evt.mapPoint.x, evt.mapPoint.y, map.spatialReference);
+        inputPoints.push(inPoint);
+        //define the symbology for the graphics
+        var markerSymbol = new esri.symbol.SimpleMarkerSymbol(esri.symbol.SimpleMarkerSymbol.STYLE_SQUARE, 12, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([204, 102, 51]), 1), new dojo.Color([158, 184, 71, 0.65]));
+        var polylineSymbol = new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([204, 102, 51]), 4);
+        var font = new esri.symbol.Font("18px", esri.symbol.Font.STYLE_NORMAL, esri.symbol.Font.VARIANT_NORMAL, esri.symbol.Font.WEIGHT_BOLDER);
+        var textSymbol;
+
+        if (inputPoints.length === 1) { //start location label
+            textSymbol = new esri.symbol.TextSymbol("Start", font, new dojo.Color([204, 102, 51]));
+            textSymbol.yoffset = 8;
+            map.graphics.add(new esri.Graphic(evt.mapPoint, textSymbol));
+        }
+
+        if (inputPoints.length >= 2) { //end location label
+            textSymbol = new esri.symbol.TextSymbol("Finish", font, new dojo.Color([204, 102, 51]));
+            textSymbol.yoffset = 8;
+            if (endGraphic) { //if an end label already exists remove it
+                map.graphics.remove(endGraphic);
+            }
+            endGraphic = new esri.Graphic(evt.mapPoint, textSymbol);
+            map.graphics.add(endGraphic);
+        }
+
+        //add a graphic for the clicked location
+        map.graphics.add(new esri.Graphic(evt.mapPoint, markerSymbol));
+
+        //if there are two input points call the geometry service and perform the distance operation
+        if (inputPoints.length >= 2) {
+            dojo.style(dojo.byId("resultsArea"), "display", "block");
+            var distParams = new esri.tasks.DistanceParameters();
+            switch (unitOfMeasure) {
+                case "feet":
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_FOOT;
+                    break;
+                case "sqfeet":
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_SQUARE_FEET;
+                    break;
+                case "meters":
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_METER;
+                    break;
+                case "acres":
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_ACRES;
+                    break;
+                case "miles":
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_STATUTE_MILE;
+                    break;
+                default:
+                    distParams.distanceUnit = esri.tasks.GeometryService.UNIT_FOOT;
+                    break;
+            }
+
+            distParams.geometry1 = inputPoints[inputPoints.length - 2];
+            distParams.geometry2 = inputPoints[inputPoints.length - 1];
+            distParams.geodesic = true;
+
+            //draw a polyline to connect the input points
+            var polyline = new esri.geometry.Polyline(map.spatialReference);
+            polyline.addPath([distParams.geometry1, distParams.geometry2]);
+            map.graphics.add(new esri.Graphic(polyline, polylineSymbol));
+            //Calculate the geodesic distance 
+            geometryService.distance(distParams, function (distance) {
+                legDistance.push(dojo.number.format(distance, {
+                    places: 2
+                }));
+                totalDistance += distance;
+                var content = "";
+                dojo.forEach(legDistance, function (leg, index) {
+                    content = content + "<b>Leg " + (index + 1) + "</b>" + ": " + leg + "<br />";
+                });
+
+                content = content + "<b>Total:</b> " + dojo.number.format(totalDistance, {
+                    places: 2,
+                    pattern: "#,###,###.##"
+                }) + " " + unitOfMeasure + "<br />";
+                dojo.byId('resultsArea').innerHTML = content;
+            });
+        }
+    }
+
+    // This function implements the area measurement tools	
+    function getAreaAndLength(geometry) {
+        map.graphics.clear();
+        var graphic = map.graphics.add(new esri.Graphic(geometry, new esri.symbol.SimpleFillSymbol()));
+
+        //setup the parameters for the areas and lengths operation
+        var areasAndLengthParams = new esri.tasks.AreasAndLengthsParameters();
+        areasAndLengthParams.lengthUnit = esri.tasks.GeometryService.UNIT_FOOT;
+        if (unitOfMeasure == 'sqfeet') {
+			areasAndLengthParams.areaUnit = esri.tasks.GeometryService.UNIT_SQUARE_FEET;
+		} else {
+			areasAndLengthParams.areaUnit = esri.tasks.GeometryService.UNIT_ACRES;
+		}
+        geometryService.simplify([geometry], function (simplifiedGeometries) {
+            areasAndLengthParams.polygons = simplifiedGeometries;
+            geometryService.areasAndLengths(areasAndLengthParams);
+        });
+        tb.deactivate();
+    }
+
+    function outputAreaAndLength(result) {
+        var content = "";
+        var area = dojo.number.format(result.areas[0].toFixed(3), {
+            places: 2,
+            pattern: "#,###,###.##"
+        });
+        switch (unitOfMeasure) {
+            case "sqfeet":
+                content = "Drawn area is " + area + " square feet";
+                break;
+            case "acres":
+                content = "Drawn area is " + area + " acres";
+                break;
+            default:
+                content = "Drawn area is " + area + " square feet";
+                break;
+        }
+        tb.deactivate(esri.toolbars.Draw.FREEHAND_POLYGON);
+		dojo.style(dojo.byId("resultsArea"), "display", "block");
+        dojo.byId("resultsArea").innerHTML = content;
+
+    }
+
+    // This function processes the 'Place Label' button click
+    $(function () {
+        $("#placeLabel").click(function () {
+			//alert('placing label');
+			$(this).css('background-color', '#1b1612');
+            toolbar.activate(esri.toolbars.Draw.POINT);
+            map.hideZoomSlider();
+			drawSource = 'labelButton';
+            dojo.connect(toolbar, "onDrawEnd", addLabelToMap);
+        });
+        // Construct the label for placement on the map
+        function addLabelToMap(geometry) {
+			// if onDrawEnd came from a draw button, skip this
+			if (drawSource == 'drawButton') return;
+			// create the font		
+            var font = new esri.symbol.Font();
+            font.setSize(dojo.byId("size").value);
+            if (document.getElementById("italic").checked === true) {
+                font.setStyle(esri.symbol.Font.STYLE_ITALIC);
+            } else {
+                font.setStyle(esri.symbol.Font.STYLE_NORMAL);
+            }
+            if (document.getElementById("weight").checked === true) {
+                font.setWeight(esri.symbol.Font.WEIGHT_BOLD);
+            } else {
+                font.setWeight(esri.symbol.Font.WEIGHT_NORMAL);
+            }
+            font.setFamily(dojo.byId("fontFamily").value);
+            // create the text symbol
+            var textSymbol = new esri.symbol.TextSymbol(dojo.byId("labelText").value);
+            textSymbol.setFont(font);
+            // set text font color 
+            var rgbColor = document.getElementById("fontColor").value;
+            textSymbol.setColor(new dojo.Color.fromRgb(rgbColor));
+            if (document.getElementById("underline").checked === true) {
+                textSymbol.setDecoration(esri.symbol.TextSymbol.DECORATION_UNDERLINE);
+            } else {
+                textSymbol.setDecoration(esri.symbol.TextSymbol.DECORATION_NONE);
+            }
+            // place the text symbol in relation to the labelPointGraphic
+            switch (dojo.byId("placement").value) {
+                case "above":
+                    textSymbol.setOffset(0, 10);
+                    break;
+                case "below":
+                    textSymbol.setOffset(0, -20);
+                    break;
+                case "left":
+                    textSymbol.setAlign(esri.symbol.TextSymbol.ALIGN_END);
+                    textSymbol.setOffset(-10, -5);
+                    break;
+                case "across":
+                    textSymbol.setAlign(esri.symbol.TextSymbol.ALIGN_MIDDLE);
+                    break;
+                case "right":
+                    textSymbol.setAlign(esri.symbol.TextSymbol.ALIGN_START);
+                    textSymbol.setOffset(10, -5);
+                    break;
+                default:
+                    textSymbol.setOffset(10, 0);
+                    break;
+            }
+
+            preserveGraphics = true;
+            var textLabel = new esri.Graphic(geometry, textSymbol);
+            map.graphics.add(textLabel);
+            toolbar.deactivate();
+
+            // set up graphic editing on right-click
+            dojo.connect(map, "onClick", function (evt) {
+                editToolbar.deactivate();
+            });
+            createGraphicsMenu();
+        }
+    });
+
+    // This clears the map of graphics
+    function clearMap() {
+        map.graphics.clear();
+        map.infoWindow.hide();
+        inputPoints.length = 0;
+        totalDistance = 0;
+        legDistance.length = 0;
+		$('#resultsArea').hide();
+        toolbar.deactivate();
+        tb.deactivate();
+        tb.deactivate(esri.toolbars.Draw.FREEHAND_POLYGON);
+    }
+
+    function createGraphicsMenu() { // Creates right-click context menu for GRAPHICS
+
+        // Create and setup graphic editing tools
+        editToolbar = new esri.toolbars.Edit(map);
+
+        ctxMenuForGraphics = new dijit.Menu({});
+        ctxMenuForGraphics.addChild(new dijit.MenuItem({
+            label: "Edit",
+            onClick: function () {
+                if (selected.geometry.type !== "point") {
+                    editToolbar.activate(esri.toolbars.Edit.EDIT_VERTICES, selected);
+                } else {
+                    alert("Editing not available for this graphic");
+                }
+            }
+        }));
+
+        ctxMenuForGraphics.addChild(new dijit.MenuItem({
+            label: "Move",
+            onClick: function () {
+                editToolbar.activate(esri.toolbars.Edit.MOVE, selected);
+            }
+        }));
+
+        ctxMenuForGraphics.addChild(new dijit.MenuItem({
+            label: "Rotate/Scale",
+            onClick: function () {
+                if (selected.geometry.type !== "point") {
+                    editToolbar.activate(esri.toolbars.Edit.ROTATE | esri.toolbars.Edit.SCALE, selected);
+                } else {
+                    alert("Rotate/Scale not available for this graphic");
+                }
+            }
+        }));
+
+        ctxMenuForGraphics.addChild(new dijit.MenuSeparator());
+        ctxMenuForGraphics.addChild(new dijit.MenuItem({
+            label: "Delete",
+            onClick: function () {
+                map.graphics.remove(selected);
+            }
+        }));
+
+        ctxMenuForGraphics.startup();
+
+        dojo.connect(map.graphics, "onMouseOver", function (evt) {
+            // We'll use this "selected" graphic to enable editing tools
+            // on this graphic when the user click on one of the tools
+            // listed in the menu.
+            selected = evt.graphic;
+
+            // Let's bind to the graphic underneath the mouse cursor           
+            ctxMenuForGraphics.bindDomNode(evt.graphic.getDojoShape().getNode());
+        });
+
+        dojo.connect(map.graphics, "onMouseOut", function (evt) {
+            ctxMenuForGraphics.unBindDomNode(evt.graphic.getDojoShape().getNode());
+        });
+    } // End of createGraphicsMenu
+
+
+    // Close any open infowindows
+    function closeInfowindow() {
+        map.infoWindow.hide();
+        if (preserveGraphics === false) {
+            map.graphics.clear();
+        }
+    }
+
+</script>   
+    
+<script>
+$( document ).ready(function() {
+
+    // Set item checkboxes when Accessibility group changed
+    $("#accessibility_checkbox").click(function() {
+        if (document.getElementById("accessibility_checkbox").checked === false) {
+            document.getElementById("20").checked = false
+            document.getElementById("21").checked = false
+            document.getElementById("22").checked = false
+            document.getElementById("23").checked = false  
+        } else  {
+            document.getElementById("20").checked = "20"
+            document.getElementById("21").checked = "21"
+            document.getElementById("22").checked = "22"
+            document.getElementById("23").checked = "23"  
+        }
+        updateLayerVisibility()
+    }); // End of accessibility_checkbox
+
+    // Set item checkboxes when Buildings group changed
+    $("#buildings_checkbox").click(function() {
+        if (document.getElementById("buildings_checkbox").checked === false) {
+            document.getElementById("32").checked = false
+            document.getElementById("33").checked = false
+            document.getElementById("34").checked = false
+            document.getElementById("35").checked = false
+            document.getElementById("36").checked = false  
+        } else  {
+            document.getElementById("32").checked = "32"
+            document.getElementById("33").checked = "33"
+            document.getElementById("34").checked = "34"
+            document.getElementById("35").checked = "35"
+            document.getElementById("36").checked = "36"  
+        }
+        updateLayerVisibility()
+    }); // End of buildings_checkbox
+
+    // Set item checkboxes when Parking group changed
+    $("#parking_checkbox").click(function() {
+        if (document.getElementById("parking_checkbox").checked === false) {
+            document.getElementById("25").checked = false
+            document.getElementById("31").checked = false
+            document.getElementById("52").checked = false
+            document.getElementById("50").checked = false  
+            document.getElementById("51").checked = false  
+            document.getElementById("24").checked = false  
+        } else  {
+            document.getElementById("25").checked = "25"
+            document.getElementById("31").checked = "31"
+            document.getElementById("52").checked = "52"
+            document.getElementById("50").checked = "50"  
+            document.getElementById("51").checked = "51"  
+            document.getElementById("24").checked = "24"  
+        }
+        updateLayerVisibility()
+    }); // End of parking_checkbox
+	
+    // Parking islands status should follow the status of parking spaces
+    $("#50").click(function() {
+        if (this.checked) {
+            $("#51").prop('checked', false)  
+		} else {
+            $("#51").prop('checked', true)  
+		}
+	});
+		
+    // Set item checkboxes when Emergency group changed
+    $("#emergency_checkbox").click(function() {
+        if (document.getElementById("emergency_checkbox").checked === false) {
+            document.getElementById("27").checked = false
+            document.getElementById("26").checked = false
+            document.getElementById("28").checked = false
+            document.getElementById("29").checked = false  
+        } else  {
+            document.getElementById("27").checked = "27"
+            document.getElementById("26").checked = "26"
+            document.getElementById("28").checked = "28"
+            document.getElementById("29").checked = "29"  
+        }
+        updateLayerVisibility()
+    }); // End of emergency_checkbox
+
+});  // end document ready
+</script>
+
+<script src="../common/js/ga.js" type="text/javascript"></script>
+
+</head>
+<body class="claro">
+<div id="mainWindow" dojotype="dijit.layout.BorderContainer" design="headline" gutters="false" style="width:100%; height:100%;">
+  <div id="header" dojotype="dijit.layout.ContentPane" region="top">
+        
+        <!-- BEGIN INDIANA UNIVERSITY BRANDING BAR -->
+        <div id="branding-bar">
+        	<div class="bar">
+                <div class="wrapper">
+                    <p class="campus">
+                        <a href="http://www.iub.edu/">
+                            <img src="../common/img/trident-tab.gif" height="73" width="64" alt=" " />
+                            <span class="line-break">Indiana University</span> Bloomington
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- END INDIANA UNIVERSITY BRANDING BAR -->
+        <!-- Main content area -->
+        	<div id="topNav">
+            	<ul>
+	                <li id="draw" class="firstNav"><div id="draw_button"><img src="../common/img/icon-draw.png" width="22" height="22" alt="Draw tool">Draw</div></li>
+	                <li id="label"><div id="label_button"><img src="../common/img/icon-label.png" width="22" height="22" alt="Label tool">Label</div></li>
+	                <li id="measure"><div id="measure_button"><img src="../common/img/icon-measure.png" width="22" height="22" alt="Label tool">Measure</div></li>
+	                <li id="printView"><div id="print_button"><img src="../common/img/icon-print.png" width="22" height="22" alt="Label tool">Print View</div></li>
+	                <li id="link" onclick="generateURL();"><div id="link_button"><img src="../common/img/icon-link.png" width="22" height="22" alt="Label tool">Link</div></li>
+	                <li id="mobile" onclick="location.href='https://m.iu.edu/kme-prd/tours/view/1101'"><div id="mobile_button"><img src="../common/img/icon-mobile.png" width="22" height="22" alt="Label tool">Mobile Tour</div></li>
+            	</ul>
+            <div id="search">
+                <form name="search" id="search" method="get" onsubmit="return false" >
+                  <fieldset id="set1">
+		            <select id="findFilter" title="Filter search results">
+                      <option value="all"  selected="selected">All</option>
+                      <option value="addresses">Addresses</option>
+                      <option value="buildingnames">Building Names</option>
+                      <option value="buildingcodes">2-Letter Codes</option>
+                      <option value="buildingnumbers">Building Numbers</option>
+                    </select>
+                  </fieldset>
+                  <fieldset id="set2">
+            <input type="text" value="Enter search term" onfocus="if(this.value=='Enter search term' || this.value=='ex. 900 E 7th St' || this.value=='ex. Memorial Union' || this.value=='ex. UB' || this.value=='ex. BL053')this.value='';" onblur="if(this.value==='')this.value='Enter search term';" name="q" maxlength="255" id="searchtxt" title="Enter a building name or number to search for">
+            <input type="submit" value="GO" name="go" id="go" title="Click GO to search">
+                  </fieldset>
+                </form>
+			</div><!-- end search -->
+        </div><!-- end topNav -->
+	</div><!-- end header -->
+  <div id="leftPane" dojotype="dijit.layout.ContentPane" region="left">
+	<div dojotype="dijit.layout.ContentPane"> 
+        <div id="legend">
+              <!--drawing-tools div is the roll down menu for drawing-->
+              <div id="drawingTools" style="display:none" >
+                      <div class="labels_major">
+                        <div id="drawingToolsTitle" class="toolsTitle major_title">Drawing Tools
+                          <div class="closer closer_light">
+                              <input type='checkbox' checked="checked" id="drawingToolsCloser" disabled />
+                              <label for="drawingToolsCloser"></label>
+                          </div><!--end closer-->
+                       </div><!--end drawingToolsTitle-->
+                      </div><!--end labels_major-->
+                      <div class="labels_minor">
+                        <button id="drawPoint" class="toolButton">Point</button>
+                        <button id="drawMultipoint" class="toolButton">Multipoint</button>
+                        <button id="drawLine" class="toolButton">Line</button>
+                        <button id="drawArrow" class="toolButton">Arrow</button>
+                        <button id="drawPolyline" class="toolButton">Polyline</button>
+                        <button id="drawFreehandPolyline" class="toolButton">Freehand Polyline</button>
+                        <button id="drawPolygon" class="toolButton">Polygon</button>
+                        <button id="drawFreehandPolygon" class="toolButton">Freehand Polygon</button>
+                        <button id="drawCircle" class="toolButton">Circle</button>
+                        <button id="drawEllipse" class="toolButton">Ellipse</button>
+                        <button id="drawTriangle" class="toolButton">Triangle</button>
+                        <button id="drawRectangle" class="toolButton">Rectangle</button>
+                        <div id="graphicBackgroundColor">
+                            <label id="labelForGraphicColor" for="graphicColor">Graphic Background Color</label>
+                            <input type='text' name='graphicColor' id='graphicColor' value="rgba(70,116,70,.25)"/>        
+          				</div>
+                        <div class="center"><button class="clearMap center">Clear Map</button></div>
+                      </div><!--end labels_minor-->
+              </div><!--end drawingTools-->
+              
+              <!--label-tools div is the roll down menu for labeling-->
+              <div id="labelTools" style="display:none" >
+                      <div class="labels_major">
+                        <div id="labelToolsTitle" class="toolsTitle major_title">Label Tools
+                          <div class="closer closer_light">
+                              <input type='checkbox' checked="checked" id="labelToolsCloser" disabled />
+                              <label for="labelToolsCloser"></label>
+                          </div>
+                       </div><!--end labelToolsTitle-->
+                      </div><!--end labels_major-->
+                      <div class="labels_minor">
+						<div class="labelsItem">
+                        <label id="labelForText" for="labelText">Label a point on the map</label>
+                        <input name="labelText" type="text" id="labelText" placeholder="Enter label text here" size="29" />
+                        </div>
+						<div class="labelsItem">
+                        <label id="labelForWeight" for="weight">Bold</label>
+                        <input id="weight" name="weight" type="checkbox" value="weight" />
+                        <label id="labelForItalic" for="italic">Italic</label>
+                        <input id="italic" name="italic" type="checkbox" value="italic" />
+                        <label id="labelForUnderline" for="underline">Underline</label>
+                        <input id="underline" name="underline" type="checkbox" value="underline" />
+                        </div>
+						<div class="labelsItem">
+                        <label id="labelForSize" for="size">Size</label>
+                        <select id="size" name="size">
+                          <option value="2">2px</option>
+                          <option value="4">4px</option>
+                          <option value="6">6px</option>
+                          <option value="8">8px</option>
+                          <option value="9">9px</option>
+                          <option value="10">10px</option>
+                          <option value="11">11px</option>
+                          <option value="12">12px</option>
+                          <option value="14">14px</option>
+                          <option value="16" selected="selected">16px</option>
+                          <option value="18">18px</option>
+                          <option value="20">20px</option>
+                          <option value="22">22px</option>
+                          <option value="24">24px</option>
+                          <option value="26">26px</option>
+                          <option value="28">28px</option>
+                          <option value="36">36px</option>
+                          <option value="48">48px</option>
+                          <option value="72">72px</option>
+                        </select>
+                        <label id="labelForFontColor" for="fontColor">Color</label>
+                        <input type='text' name='fontColor' id='fontColor' value="rgba(0,0,0,1)"/>
+                        </div>
+						<div class="labelsItem labelToolsCenter">
+                        <label id="labelForFontFamily" for="fontFamily">Font </label>
+                        <select id="fontFamily" name="fontFamily">
+                          <option value="Algerian">Algerian</option>
+                          <option value="Arial">Arial</option>
+                          <option value="Broadway">Broadway</option>
+                          <option value="Comic Sans MS">Comic Sans MS</option>
+                          <option value="Courier">Courier</option>
+                          <option value="Verdana" selected="selected">Verdana</option>
+                        </select>
+                        </div>
+						<div class="labelsItem labelToolsCenter">
+                        <label id="labelForPlacement" for="placement">Placement</label>
+                        <select id="placement" name="placement">
+                          <option value="above">Above</option>
+                          <option value="below">Below</option>
+                          <option value="left">Left</option>
+                          <option value="right">Right</option>
+                          <option value="across">Across</option>
+                        </select>
+                        </div>
+						<div class="labelsItem labelToolsCenter labelLastToolSet">
+                        <button id="placeLabel" class="toolButton" >Place Label</button>
+	                    <button class="clearMap">Clear Map</button>
+                        </div>
+                      </div><!--end labels_minor-->
+              </div><!--end drawingTools-->
+              
+              <!--drawing-tools div is the roll down menu for drawing-->
+              <div id="measureTools" style="display:none" >
+                      <div class="labels_major">
+                        <div id="measureToolsTitle" class="toolsTitle major_title">Measure Tools
+                          <div class="closer closer_light">
+                              <input type='checkbox' checked="checked" id="measureToolsCloser" disabled />
+                              <label for="measureToolsCloser"></label>
+                          </div>
+                       </div><!--end drawingToolsTitle-->
+                      </div><!--end labels_major-->
+                      <div class="labels_minor">
+                        <button id="measure-feet" class="toolButton">Feet</button>
+                        <button id="measure-sqfeet" class="toolButton">Square Feet</button>
+                        <button id="measure-meters" class="toolButton">Meters</button>
+                        <button id="measure-acres" class="toolButton">Acres</button>
+                        <button id="measure-miles" class="toolButton">Miles</button>
+                        <button class="clearMap clearMapMeasure">Clear Map</button>
+                      </div><!--end labels_minor-->
+              </div><!--end drawingTools-->
+              
+              <!--resultsArea div displays results from use of tools-->
+              <div id="resultsArea"> </div>
+
+              <div id="accessibility" >
+                  <ul class="legend_list">
+                    <li class="legend_major">
+                      <div id="accessibility_major" class="labels_major">
+                        <div class="checkbox checkbox_light">
+                          <input type='checkbox' checked="checked" id="accessibility_checkbox"  />
+                          <label for="accessibility_checkbox"></label>
+                        </div>
+                        <div id="accessibility_title" class="checkbox_title major_title">Accessibility<span id="accessibility_opener" class="section_opener"><img src="../common/img/icon-double-arrow.png" width="16" height="15"></span>
+                        </div>
+                      </div><!--end accessibility major-->
+                      <div id="accessibility_minor" class="labels_minor">
+                          <ul class="legend_list">
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                <!--<script type="text/javascript">
+									output = "<input type='checkbox' name='check' checked='checked' class='list_item' id='" + autoDoorsLayer + "' value=" + autoDoorsLayer + " onclick='updateLayerVisibility();'/>" + "<label for='" + autoDoorsLayer + "'><span id='access_auto_doors' class='checkbox_title'>Automatic Doors</span></label>";
+									document.write(output);
+								</script>-->
+                                  <input type='checkbox' name='check' checked='checked' class='list_item' id='20' value=20 onclick='updateLayerVisibility();'/>
+                                  <label for='20'><span id='access_auto_doors' class='checkbox_title'>Automatic Doors</span></label>
+                                </li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                              <li class="accessibility">
+                              <input type='checkbox' checked="checked" class='list_item' id='21' value=21  onclick='updateLayerVisibility();'/>
+                              <label for="21"><span id="access_elevators" class="checkbox_title">Elevators</span></label></li>
+                              </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                  <input type='checkbox' checked="checked" class='list_item' id='22' value=22 onclick='updateLayerVisibility();'/>
+                                  <label for="22"><span id="access_entrances" class="checkbox_title">Entrances</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility last-child">
+                                  <input type='checkbox' checked="checked" class='list_item' id='23' value=23 onclick='updateLayerVisibility();'/>
+                                  <label for="23"><span id="access_parking" class="checkbox_title">Parking</span></label></li>
+                            </div>
+                          </ul>
+                      </div><!--end accessibility_minor-->
+                    </li>
+                  </ul><!--end accessibility-->
+              </div><!--end accessibility-->
+              
+              <div id="buildings" >
+                  <ul class="legend_list">
+                    <li class="legend_major">
+                      <div id="buildings_major" class="labels_major">
+                        <div class="checkbox checkbox_light">
+                          <input type='checkbox' checked="checked" id="buildings_checkbox" />
+                          <label for="buildings_checkbox"></label>
+                        </div>
+                        <div id="buildings_title" class="checkbox_title major_title">Buildings<span id="buildings_opener" class="section_opener"><img src="../common/img/icon-double-arrow.png" width="16" height="15"></span>
+                        </div>
+                      </div><!--end buildings_major-->
+                      <div id="buildings_minor" class="labels_minor">
+                          <ul class="legend_list">
+                            <div class="checkbox checkbox_dark">
+                                <li>
+                                  <input type='checkbox' name="check" checked="checked" class='list_item' id='32' value=32 onclick='updateLayerVisibility();'/>
+                                  <label for="32"><span id="iu_buildings" class="checkbox_title">IU Buildings</span></label></li>
+                                  <input type='checkbox' name="check" checked="checked" class='list_item' id='33' value=33  style="display:none"/>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                              <li class="accessibility">
+                              <input type='checkbox' checked="checked" class='list_item' id='34' value=34  onclick='updateLayerVisibility();'/>
+                              <label for="34"><span id="non_iu_buildings" class="checkbox_title">Non-IU Buildings</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                  <input type='checkbox' checked="checked" class='list_item' id='35' value=35 onclick='updateLayerVisibility();'/>
+                                  <label for="35"><span id="fraternities_sororities" class="checkbox_title">Fraternities & Sororities</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility last-child">
+                                  <input type='checkbox' checked="checked" class='list_item' id='36' value=36 onclick='updateLayerVisibility();'/>
+                                  <label for="36"><span id="construction_zones" class="checkbox_title">Construction Zones</span></label></li>
+                            </div>
+                          </ul>
+                      </div><!--end buildings_minor-->
+                    </li>
+                  </ul>
+              </div><!--end buildings-->
+
+              <div id="parking" >
+                  <ul class="legend_list">
+                    <li class="legend_major">
+                      <div id="parking_major" class="labels_major">
+                        <div class="checkbox checkbox_light">
+                          <input type='checkbox' checked="checked" id="parking_checkbox" />
+                          <label for="parking_checkbox"></label>
+                        </div>
+                        <div id="parking_title" class="checkbox_title major_title">Parking<span id="parking_opener" class="section_opener"><img src="../common/img/icon-double-arrow.png" width="16" height="15"></span>
+                        </div>
+                      </div><!--end parking_major-->
+                      <div id="parking_minor" class="labels_minor">
+                          <ul class="legend_list">
+                            <div class="checkbox checkbox_dark">
+                                <li>
+                                  <input type='checkbox' name="check" checked="checked" class='list_item' id='25' value=25 onclick='updateLayerVisibility();'/>
+                                  <label for="25"><span id="visitor_parking" class="checkbox_title">Visitor Parking</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                  <input type='checkbox' checked="checked" class='list_item' id='31' value=31  onclick='updateLayerVisibility();'/>
+                                  <label for="31"><span id="parking_garages" class="checkbox_title">Parking Garages</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                  <input type='checkbox' checked="checked" class='list_item' id='52' value=52 onclick='updateLayerVisibility();'/>
+                                  <label for="52"><span id="iu_parking_lots" class="checkbox_title">IU Parking Lots</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility last-child">
+                                  <input type='checkbox' checked="checked" class='list_item' id='50' value=50 onclick='updateLayerVisibility();'/>
+                                  <label for="50"><span id="iu_parking_spaces" class="checkbox_title">IU Parking Spaces</span></label></li>
+                                  <input type='checkbox' checked="checked" class='list_item' id='51' value=51 style="display:none" onclick='updateLayerVisibility();'/>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility last-child">
+                                  <input type='checkbox' checked="checked" class='list_item' id='24' value=24 onclick='updateLayerVisibility();'/>
+                                  <label for="24"><span id="bike_racks" class="checkbox_title">Bike Racks</span></label></li>
+                            </div>
+                          </ul>
+                      </div><!--end parking_minor-->
+                    </li>
+                  </ul>
+              </div><!--end parking-->
+
+              <div id="emergency" >
+                  <ul class="legend_list">
+                    <li class="legend_major">
+                      <div id="emergency_major" class="labels_major">
+                        <div class="checkbox checkbox_light">
+                          <input type='checkbox' checked="checked" id="emergency_checkbox" />
+                          <label for="emergency_checkbox"></label>
+                        </div>
+                        <div id="emergency_title" class="checkbox_title major_title">Emergency & Safety<span id="emergency_opener" class="section_opener"><img src="../common/img/icon-double-arrow.png" width="16" height="15"></span>
+                        </div>
+                      </div><!--end emergency_major-->
+                      <div id="emergency_minor" class="labels_minor">
+                          <ul class="legend_list">
+                            <div class="checkbox checkbox_dark">
+                                <li>
+                                  <input type='checkbox' name="check" checked="checked" class='list_item' id='27' value=27 onclick='updateLayerVisibility();'/>
+                                  <label for="27"><span id="pedestrian_safety" class="checkbox_title">Campus Pedestrian Safety</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                              <li class="accessibility">
+                              <input type='checkbox' checked="checked" class='list_item' id='26' value=26  onclick='updateLayerVisibility();'/>
+                              <label for="26"><span id="emergency_phones" class="checkbox_title">Emergency Phones</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility">
+                                  <input type='checkbox' checked="checked" class='list_item' id='28' value=28 onclick='updateLayerVisibility();'/>
+                                  <label for="28"><span id="iu_police" class="checkbox_title">IU Police Department</span></label></li>
+                            </div>
+                            <div class="checkbox checkbox_dark">
+                                <li class="accessibility last-child">
+                                  <input type='checkbox' checked="checked" class='list_item' id='29' value=29 onclick='updateLayerVisibility();'/>
+                                  <label for="29"><span id="fire_department" class="checkbox_title">Fire Department</span></label></li>
+                            </div>
+                          </ul>
+                      </div><!--end emergency_minor-->
+                    </li>
+                  </ul>
+              </div><!--end emergency-->
+              
+              <div id="mapView">
+                  <p class="legendTextLabels">Map View</p>
+                  <div id="mapViewWrapper">
+                      <ul>
+                          <li id="mapViewStandard" class="activeState">Standard</li>
+                          <li id="mapViewPhoto">Photo</li>
+                      </ul>
+                  </div><!--end mapViewWrapper--> 
+              </div><!--end photoView-->
+
+              <div id="additionalLinks">
+                  <p class="legendTextLabels">Additional Resources</p>
+                  <div id="additionalLinksWrapper">
+                      <ul class="additionalLinks">
+                          <li class="additionalLinks" title="Click here for a printable .pdf of the Bloomington campus"><a href="http://www.indiana.edu/~uao/docs/standards/iubmap_11x17_wayfinding.pdf" target="_blank">Printable Campus Map</a></li>
+                          <li class="additionalLinks" title="Click here to see a live update of the bus routes"><a href="http://iub.doublemap.com/map/">IU Campus Bus Routes</a></li>
+                          <li class="additionalLinks" title="Click here for the campus bus schedules"><a href="http://www.iubus.indiana.edu/campus_bus/bus_schedule.html">IU Campus Bus Schedules</a></li>
+                          <li class="additionalLinks"><br></li>
+                          <li class="additionalLinks"><a href="help.html" target="_blank" title="Help opens in new window">Get Help</a></li>
+                          <li class="additionalLinks" title="Send us an email with suggestions and corrections for this map"><a href="mailto:map_feedback-l@indiana.edu">Submit Feedback &raquo;</a></li>
+                      </ul>
+                  </div><!--end additionalLinksWrapper-->
+              </div><!--end additionalLinks-->
+    </div><!--end legend-->
+  </div><!--end digitContentPane-->
+
+<!--    <div id="showHelp" title="Help for the map" style="display:none">
+		    </div>
+-->          <!--start display task div-->
+          <div id="findTask" title="Search Results - Select a Building" style="display:none" >
+            <table data-dojo-type="dojox.grid.DataGrid" data-dojo-id="grid"  id="grid" data-dojo-props="rowsPerPage:'3', rowSelector:'0px'">
+              <colgroup span="2" >
+              </colgroup>
+              <!--    <colgroup span="2" noscroll="true" ></colgroup>-->
+              <thead>
+                <tr>
+                  <th width="50px" field="MAP_NAME">Building Name</th>
+                  <th width="50px" field="ADDRESS" >Address</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <!--end display task div--> 
+
+	</div><!--end leftPane-->
+
+    <!--<span class="slideTextTopTriangle"></span>-->
+    <div id="events" class="eventsOpen">
+        <span id="eventsContainer"><span id="eventsText">LOADING</span><span id="eventsImage"><img src="../common/img/ajax-loader.gif" width="16" height="16"></span></span>
+    </div>
+
+    <!--<span class="slideTextTopTriangle"></span>-->
+    <div id="leftNavSlide" class="leftNavClosed">
+        <span id="slideText">OPEN</span><span id="slideOpener"><img src="../common/img/icon-double-arrow.png" width="16" height="15"></span>
+    </div>
+
+        <!-- BEGIN INDIANA UNIVERSITY FOOTER -->
+        <div id="footer" class="mapFooter" dojotype="dijit.layout.ContentPane" region="bottom" role="contentinfo">
+        	<div class="wrapper">
+                <!--<p class="tagline">What matters. Where it matters.</p>-->
+                <p class="internal"><a href="../common/privacy/index.html">Privacy Notice</a></p>
+                <p class="copyright">
+                    <a href="http://www.iu.edu/" class="block-iu"><img src="../common/img/block-iu.png" height="26" width="22" alt="Block IU" /></a> 
+                    <span class="line-break">
+                        <a href="http://www.iu.edu/copyright/index.shtml">Copyright</a> &#169; 
+                        <script type="text/javascript">
+                            var theDate=new Date()
+                            document.write(theDate.getFullYear())
+                        </script>
+                    </span> 
+                    <span class="line-break">The Trustees of <a href="http://www.iu.edu/">Indiana University</a>,</span> 
+                    <span class="line-break"><a href="http://www.iu.edu/copyright/complaints.shtml">Copyright Complaints</a></span>
+                </p>
+            </div>
+        </div>
+        <!-- END INDIANA UNIVERSITY FOOTER -->
+        <div id="map_print"><!-- map_print id and class are used to select which screen items to include for printing--> 
+            <img class="map_print" src="../common/img/iub_white-large.gif" width="419" height="100" />
+    <!--                <div id="map" dojotype="dijit.layout.ContentPane" region="center"> 
+    -->                <div id="map" dojotype="dijit.layout.ContentPane" region="center"> 
+              <!-- drop shadow divs -->
+              <div id="ds">
+                <div id="ds-h">
+                  <div class="ds h1 o1"></div>
+                  <div class="ds h2 o2"></div>
+                  <div class="ds h3 o3"></div>
+                  <div class="ds h4 o4"></div>
+                  <div class="ds h5 o5"></div>
+                </div>
+                <div id="ds-l">
+                  <div class="ds v1 o1"></div>
+                  <div class="ds v2 o2"></div>
+                  <div class="ds v3 o3"></div>
+                  <div class="ds v4 o4"></div>
+                  <div class="ds v5 o5"></div>
+                </div>
+              </div>
+              <!-- end drop shadow divs --> 
+            </div><!--end map-->
+            <noscript>
+                <meta http-equiv="refresh" content="0;http://www.iub.edu/~iubmap/IUBcampusmap.pdf" />
+            </noscript>
+            <p class="map_print">Copyright &copy; 2012
+              The Trustees of Indiana University</p> 
+        </div><!--end map_print-->
+    
+    
+        
+</div><!--end mainWindow-->        
+    
+</body>
+</html>
