@@ -1,5 +1,5 @@
 # Projects
-Completed school Projects
+Completed Projects
 
 
 Class Key - 
